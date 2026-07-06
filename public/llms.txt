@@ -1,0 +1,24 @@
+# SMS Activate by SIMNETIQ
+
+> SMS Activate is a mobile app (iOS and Android) by SIMNETIQ LTD that provides temporary virtual phone numbers in 50+ countries for receiving SMS verification codes, so people can sign up for online services (Telegram, WhatsApp, Google, Instagram and 35+ more) without revealing their personal phone number. simnetiq.xyz is the official website, available in English and Russian.
+
+Key facts:
+- Pricing: one-time in-app credit packs (1, 5 or 10 activations); one credit per successful activation; no subscription; credits never expire. Exact prices are shown in the app and vary by store and region.
+- A code typically arrives within seconds; a pending activation can be cancelled in the app and the credit is returned.
+- No SIM or eSIM is installed; numbers are for one-time verification codes, not for long-term use or 2FA.
+- Operator: SIMNETIQ LTD, a company registered in England and Wales. Support: support@simnetiq.store (replies usually within one business day).
+- Download: App Store https://apps.apple.com/us/app/sms-activate/id6768591062 · Google Play https://play.google.com/store/apps/details?id=com.theholylabs.esim
+
+## Pages
+
+- [Home](https://simnetiq.xyz/): what the app does, how it works in three steps, supported services, pricing packs, FAQ
+- [Support](https://simnetiq.xyz/support): contact form and self-help for activation, billing and restore-purchase issues
+- [Privacy Policy](https://simnetiq.xyz/privacy-policy): what data is collected and how it is used (UK GDPR)
+- [Terms of Service](https://simnetiq.xyz/terms-of-service): acceptable use, credits, disclaimers, governing law (England and Wales)
+
+## Русская версия
+
+- [Главная](https://simnetiq.xyz/ru): что делает приложение, три шага, сервисы, цены, вопросы и ответы
+- [Поддержка](https://simnetiq.xyz/ru/support): форма обращения и помощь с активациями, оплатой и восстановлением покупок
+- [Политика конфиденциальности](https://simnetiq.xyz/ru/privacy-policy)
+- [Условия использования](https://simnetiq.xyz/ru/terms-of-service)

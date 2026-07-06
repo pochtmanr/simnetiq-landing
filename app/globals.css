@@ -1,19 +1,49 @@
 @import "tailwindcss";
 
-@theme {
-  --color-bg: #f1f3f8;
-  --color-card: #ffffff;
-  --color-ink: #1a1a2e;
-  --color-muted: #9098a8;
-  --color-accent: #e26f8b;
-  --color-accent-soft: #f4d3dd;
-  --color-accent-deep: #d5557a;
-  --color-link: #3658cc;
-  --color-plum: #5c4bb6;
+/*
+ * Augen Pro style system — see DESIGN (1).md
+ * Clinical white void, weight-350 type, Signal Blue as text/border only,
+ * hairline borders, zero drop shadows.
+ */
 
-  --font-display: var(--font-bricolage);
-  --font-sans: var(--font-inter);
-  --font-mono: var(--font-plex-mono);
+@theme {
+  /* Colors */
+  --color-off-black: #0f1012;
+  --color-pure-black: #020201;
+  --color-off-white: #f2f2f4;
+  --color-pure-white: #fdfdfd;
+  --color-steel-gray: #5e5e5e;
+  --color-ash-gray: #8f8f8f;
+  --color-signal-blue: #0071e3;
+
+  /* Typography */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --text-caption: 12px;
+  --text-caption--line-height: 1.2;
+  --text-caption--letter-spacing: -0.02em;
+  --text-label: 13px;
+  --text-label--line-height: 1.2;
+  --text-label--letter-spacing: -0.02em;
+  --text-body: 16px;
+  --text-body--line-height: 1.375;
+  --text-body--letter-spacing: -0.02em;
+  --text-subheading: 18px;
+  --text-subheading--line-height: 1.3;
+  --text-subheading--letter-spacing: -0.02em;
+  --text-heading: 27px;
+  --text-heading--line-height: 1.2;
+  --text-heading--letter-spacing: -0.02em;
+
+  --font-weight-book: 350;
+
+  /* Border radius */
+  --radius-hairline: 1.8px;
+  --radius-nav: 10px;
+  --radius-button: 26px;
+  --radius-card: 54px;
+  --radius-container: 63px;
 }
 
 html {
@@ -21,13 +51,136 @@ html {
 }
 
 body {
-  background: var(--color-bg);
-  color: var(--color-ink);
-  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: clip; /* full-bleed marquee uses 100vw, which includes the scrollbar */
+  background: var(--color-off-white);
+  color: var(--color-off-black);
+  font-family: var(--font-sans);
+  font-weight: 350;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  line-height: 1.375;
+  font-feature-settings: "ss01" on, "cv01" on, "cv11" on;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-/* --- Logo marquee ---------------------------------------------------- */
+::selection {
+  background: rgba(0, 113, 227, 0.14);
+}
+
+/* --- Recurring components ---------------------------------------------- */
+
+/* Rounded Card: #fdfdfd, radius 54px, 0.5px hairline, padding 69px, no shadow */
+.card {
+  background: var(--color-pure-white);
+  border-radius: var(--radius-card);
+  border: 0.5px solid rgba(0, 0, 0, 0.06);
+  padding: clamp(30px, 5vw, 69px);
+}
+
+/* Pill Tag Chip: full pill, 0.5px signal-blue outline, no fill */
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  border: 0.5px solid var(--color-signal-blue);
+  color: var(--color-signal-blue);
+  padding: 2px 10px;
+  font-size: 12px;
+  font-weight: 350;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+
+/* Signal Blue Text Link */
+.blue-link {
+  color: var(--color-signal-blue);
+  border-bottom: 0.5px solid transparent;
+  transition: border-color 150ms ease;
+}
+
+.blue-link:hover {
+  border-bottom-color: var(--color-signal-blue);
+}
+
+/* Ghost Link: unstyled, underline on hover */
+.ghost-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ghost-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Floating CTA Pill: near-transparent charcoal wash, radius 26px */
+.cta-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: var(--radius-button);
+  background: rgba(12, 13, 15, 0.05);
+  color: var(--color-pure-black);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  padding: 12px 22px;
+  transition: background-color 150ms ease;
+}
+
+.cta-pill:hover {
+  background: rgba(12, 13, 15, 0.09);
+}
+
+.cta-pill--dark {
+  background: rgba(253, 253, 253, 0.08);
+  color: var(--color-pure-white);
+}
+
+.cta-pill--dark:hover {
+  background: rgba(253, 253, 253, 0.14);
+}
+
+/* Section Label Pair: muted caption above 27px title */
+.section-label {
+  display: block;
+  font-size: 12px;
+  color: var(--color-ash-gray);
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+}
+
+/* Hairline rule */
+.hairline {
+  border: 0;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.06);
+}
+
+/* Form fields: pure-white surface, hairline edge, blue focus edge */
+.field {
+  width: 100%;
+  background: var(--color-pure-white);
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 350;
+  letter-spacing: -0.02em;
+  color: var(--color-off-black);
+  outline: none;
+  transition: border-color 150ms ease;
+}
+
+.field::placeholder {
+  color: var(--color-ash-gray);
+}
+
+.field:focus-visible {
+  border-color: var(--color-signal-blue);
+}
+
+/* --- Logo marquee ------------------------------------------------------- */
 
 @keyframes marquee {
   from {
@@ -43,7 +196,45 @@ body {
   width: max-content;
 }
 
-/* --- Phone mock: incoming SMS loop ------------------------------------ */
+/* --- Hero presentation --------------------------------------------------- */
+
+/* 3D device tilt: turned toward the headline, viewed slightly from above */
+.phone-tilt {
+  transform: rotateY(-16deg) rotateX(5deg) rotateZ(2deg);
+  transform-style: preserve-3d;
+}
+
+@keyframes phone-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.phone-float {
+  animation: phone-float 6.5s ease-in-out infinite;
+  transform-style: preserve-3d; /* keeps the parent perspective applied to .phone-tilt */
+}
+
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-rise {
+  animation: hero-rise 0.7s cubic-bezier(0.2, 0.8, 0.25, 1) both;
+}
+
+/* --- Phone mock animations --------------------------------------------- */
 
 @keyframes bubble-in {
   0% {
@@ -94,7 +285,9 @@ body {
     animation: none;
   }
   .bubble-in,
-  .digit-pop {
+  .digit-pop,
+  .phone-float,
+  .hero-rise {
     animation: none;
     opacity: 1;
     transform: none;
