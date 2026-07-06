@@ -116,7 +116,7 @@ export function PhoneMock({ locale = "en" }: { locale?: Locale }) {
   return (
     <div aria-hidden className="relative mx-auto w-[270px] sm:w-[300px]">
       {/* Signal rings radiating from the phone */}
-      <div className="pointer-events-none absolute left-1/2 top-1/2">
+      <div className="pointer-events-none absolute left-1/2 top-1/2 hidden sm:block">
         {RINGS.map((size, i) => (
           <div
             key={size}
