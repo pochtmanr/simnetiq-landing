@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { StarGlyph } from "./StarGlyph";
 import { localePath, switchLocalePath, type Locale } from "../lib/i18n";
 import { LANGUAGES, NAV } from "../lib/content/common";
 
@@ -47,7 +47,14 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
           aria-label={t.home}
           onClick={() => setOpen(false)}
         >
-          <StarGlyph className="h-4 w-4" />
+          <Image
+            src="/brand/logo.png"
+            alt=""
+            width={30}
+            height={31}
+            className="h-[22px] w-[22px] object-contain"
+            priority
+          />
           <span className="text-body">SMS Activate</span>
         </Link>
 

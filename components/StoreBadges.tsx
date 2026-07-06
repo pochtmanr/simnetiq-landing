@@ -1,3 +1,6 @@
+"use client";
+
+import { track } from "@vercel/analytics";
 import { APP_STORE_URL, PLAY_STORE_URL } from "../lib/site";
 import { BADGES } from "../lib/content/common";
 import type { Locale } from "../lib/i18n";
@@ -26,19 +29,29 @@ function PlayGlyph() {
 export function StoreBadges({
   dark = false,
   locale = "en",
+  placement = "hero",
 }: {
   dark?: boolean;
   locale?: Locale;
+  placement?: "hero" | "final_cta";
 }) {
   const pill = dark ? "cta-pill cta-pill--dark" : "cta-pill";
   const t = BADGES[locale];
   return (
     <div className="flex flex-wrap items-center gap-[10px]">
-      <a href={APP_STORE_URL} className={pill}>
+      <a
+        href={APP_STORE_URL}
+        className={pill}
+        onClick={() => track("CTA Click", { placement, store: "app_store" })}
+      >
         <AppleGlyph />
         {t.appStore}
       </a>
-      <a href={PLAY_STORE_URL} className={pill}>
+      <a
+        href={PLAY_STORE_URL}
+        className={pill}
+        onClick={() => track("CTA Click", { placement, store: "google_play" })}
+      >
         <PlayGlyph />
         {t.googlePlay}
       </a>

@@ -3,6 +3,7 @@
 // this page renders standalone and must import its own styles and font.
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 const inter = Inter({
@@ -26,12 +27,12 @@ export default function GlobalNotFound() {
           page.
         </p>
         <div className="mt-[30px] flex items-center gap-[10px]">
-          <a href="/" className="cta-pill">
+          <Link href="/" className="cta-pill">
             Back to home
-          </a>
-          <a href="/ru" className="cta-pill">
+          </Link>
+          <Link href="/ru" className="cta-pill">
             На главную
-          </a>
+          </Link>
         </div>
       </body>
     </html>

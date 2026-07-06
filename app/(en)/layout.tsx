@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Inter } from "next/font/google";
 import "../globals.css";
 import { SiteNav } from "../../components/SiteNav";
 import { SiteFooter } from "../../components/SiteFooter";
 import { languageAlternates } from "../../lib/i18n";
+import { APP_NAME, COMPANY, SITE_URL } from "../../lib/site";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -12,7 +14,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://simnetiq.xyz"),
+  metadataBase: new URL(SITE_URL),
+  applicationName: APP_NAME,
   title: {
     default: "SMS Activate by SIMNETIQ — receive SMS codes on a private number",
     template: "%s — SMS Activate by SIMNETIQ",
@@ -29,13 +32,43 @@ export const metadata: Metadata = {
       "A phone number for the sign-up, not for life. Real virtual numbers in 50+ countries, verification codes in seconds.",
     url: "https://simnetiq.xyz",
     siteName: "SMS Activate by SIMNETIQ",
-    images: [{ url: "/icon.png", width: 1024, height: 1024 }],
+    images: [
+      {
+        url: "/social-card.png",
+        width: 1200,
+        height: 630,
+        alt: "SMS Activate by SIMNETIQ",
+      },
+    ],
     type: "website",
     locale: "en_US",
     alternateLocale: "ru_RU",
   },
-  icons: { icon: "/icon.png", apple: "/icon.png" },
+  icons: { icon: "/icon.png", apple: "/apple-icon.png" },
+  twitter: {
+    card: "summary_large_image",
+    title: "SMS Activate by SIMNETIQ",
+    description:
+      "A phone number for the sign-up, not for life. Verification codes in seconds.",
+    images: ["/social-card.png"],
+  },
 };
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: COMPANY,
+    url: SITE_URL,
+    logo: `${SITE_URL}/brand/logo.png`,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "SMS Activate by SIMNETIQ",
+    url: SITE_URL,
+  },
+];
 
 export default function RootLayout({
   children,
@@ -45,9 +78,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
       <body className="flex min-h-full flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
         <SiteNav locale="en" />
         <main className="flex-1">{children}</main>
         <SiteFooter locale="en" />
+        <Analytics />
       </body>
     </html>
   );

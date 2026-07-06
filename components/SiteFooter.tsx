@@ -1,5 +1,5 @@
+import Image from "next/image";
 import Link from "next/link";
-import { StarGlyph } from "./StarGlyph";
 import { localePath, type Locale } from "../lib/i18n";
 import { FOOTER } from "../lib/content/common";
 import { APP_STORE_URL, PLAY_STORE_URL, SUPPORT_EMAIL } from "../lib/site";
@@ -9,7 +9,13 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
   return (
     <footer className="mt-[94px] bg-off-black px-[clamp(24px,6vw,69px)] pb-[34px] pt-[50px] text-pure-white">
       <div className="mx-auto flex max-w-[1200px] flex-col items-center gap-[30px] text-center">
-        <StarGlyph className="h-5 w-5" />
+        <Image
+          src="/brand/logo.png"
+          alt=""
+          width={60}
+          height={61}
+          className="h-[46px] w-[46px] object-contain"
+        />
         <p className="text-heading">SMS Activate</p>
         <p className="text-body text-pure-white/60">{t.tagline}</p>
         <nav

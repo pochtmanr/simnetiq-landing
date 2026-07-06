@@ -177,7 +177,7 @@ export function HomePage({ locale }: { locale: Locale }) {
       <section className="pt-[94px]">
         <div className="card flex flex-col items-center gap-[30px] text-center">
           <h2 className="max-w-2xl text-heading">{t.cta.title}</h2>
-          <StoreBadges locale={locale} />
+          <StoreBadges locale={locale} placement="final_cta" />
           <Link href={localePath(locale, "/support")} className="blue-link text-label">
             {t.cta.support}
           </Link>

@@ -92,12 +92,14 @@ export function PhoneMock({ locale = "en" }: { locale?: Locale }) {
 
   useEffect(() => {
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    if (mq.matches) {
-      setAnimate(false);
-      setShowBubble(true);
-      return;
-    }
     let bubbleTimer: ReturnType<typeof setTimeout>;
+    if (mq.matches) {
+      bubbleTimer = setTimeout(() => {
+        setAnimate(false);
+        setShowBubble(true);
+      }, 0);
+      return () => clearTimeout(bubbleTimer);
+    }
     const cycle = setInterval(() => {
       setSceneIdx((i) => (i + 1) % SCENES.length);
       setShowBubble(false);
