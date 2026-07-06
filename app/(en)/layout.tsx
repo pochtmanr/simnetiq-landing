@@ -1,36 +1,38 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Inter, IBM_Plex_Mono } from "next/font/google";
-import "./globals.css";
-
-const bricolage = Bricolage_Grotesque({
-  variable: "--font-bricolage",
-  subsets: ["latin"],
-});
+import { Inter } from "next/font/google";
+import "../globals.css";
+import { SiteNav } from "../../components/SiteNav";
+import { SiteFooter } from "../../components/SiteFooter";
+import { languageAlternates } from "../../lib/i18n";
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-});
-
-const plexMono = IBM_Plex_Mono({
-  variable: "--font-plex-mono",
-  weight: ["400", "500", "600"],
-  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://simnetiq.xyz"),
-  title: "SMS Activate by SimNetIQ — receive SMS codes on a private number",
+  title: {
+    default: "SMS Activate by SIMNETIQ — receive SMS codes on a private number",
+    template: "%s — SMS Activate by SIMNETIQ",
+  },
   description:
     "Get a real virtual number in 50+ countries and receive SMS verification codes in seconds. Sign up for Telegram, WhatsApp, Google and 35+ services without giving out your personal number.",
+  alternates: {
+    canonical: "/",
+    languages: languageAlternates("/"),
+  },
   openGraph: {
-    title: "SMS Activate by SimNetIQ",
+    title: "SMS Activate by SIMNETIQ",
     description:
       "A phone number for the sign-up, not for life. Real virtual numbers in 50+ countries, verification codes in seconds.",
     url: "https://simnetiq.xyz",
-    siteName: "SMS Activate by SimNetIQ",
+    siteName: "SMS Activate by SIMNETIQ",
     images: [{ url: "/icon.png", width: 1024, height: 1024 }],
     type: "website",
+    locale: "en_US",
+    alternateLocale: "ru_RU",
   },
   icons: { icon: "/icon.png", apple: "/icon.png" },
 };
@@ -41,11 +43,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${bricolage.variable} ${inter.variable} ${plexMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className={`${inter.variable} h-full`}>
+      <body className="flex min-h-full flex-col">
+        <SiteNav locale="en" />
+        <main className="flex-1">{children}</main>
+        <SiteFooter locale="en" />
+      </body>
     </html>
   );
 }

@@ -1,0 +1,188 @@
+import Link from "next/link";
+import { PhoneMock } from "../PhoneMock";
+import { StoreBadges } from "../StoreBadges";
+import { localePath, type Locale } from "../../lib/i18n";
+import { HOME, SERVICES } from "../../lib/content/home";
+
+function SectionHeading({
+  label,
+  title,
+  id,
+}: {
+  label: string;
+  title: string;
+  id?: string;
+}) {
+  return (
+    <div id={id} className="scroll-mt-24">
+      <span className="section-label">{label}</span>
+      <h2 className="text-heading">{title}</h2>
+    </div>
+  );
+}
+
+export function HomePage({ locale }: { locale: Locale }) {
+  const t = HOME[locale];
+  return (
+    <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
+      {/* Update banner */}
+      <div className="mt-[50px] flex justify-center">
+        <Link href={localePath(locale, "/#pricing")} className="cta-pill">
+          <span className="tag-chip">{t.banner.chip}</span>
+          {t.banner.text}
+        </Link>
+      </div>
+
+      {/* Hero */}
+      <section className="relative grid items-center gap-[60px] pb-[110px] pt-[50px] md:grid-cols-2 md:pt-[80px]">
+        {/* Full-bleed background wash behind the hero */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -top-[140px] bottom-0 left-[calc(50%-50vw)] -z-10 w-screen"
+          style={{
+            background:
+              "radial-gradient(ellipse 70% 60% at 72% 32%, rgba(0, 113, 227, 0.08), transparent 68%), radial-gradient(ellipse 55% 50% at 12% 78%, rgba(253, 253, 253, 0.9), transparent 70%)",
+          }}
+        />
+        <div className="hero-rise">
+          <span className="section-label">{t.hero.label}</span>
+          <h1 className="text-[clamp(36px,4.8vw,58px)] leading-[1.08] tracking-[-0.02em]">
+            {t.hero.titleTop}
+            <br />
+            <span className="text-signal-blue">{t.hero.titleAccent}</span>
+          </h1>
+          <p className="mt-[22px] max-w-md text-subheading text-steel-gray">
+            {t.hero.body}
+          </p>
+          <div className="mt-[30px]">
+            <StoreBadges locale={locale} />
+          </div>
+          <p className="mt-[15px] text-caption text-ash-gray">{t.hero.note}</p>
+        </div>
+        <div className="hero-rise [animation-delay:0.12s]">
+          <PhoneMock locale={locale} />
+        </div>
+      </section>
+
+      {/* Services */}
+      <section className="scroll-mt-24" id="services">
+        <span className="section-label text-center">{t.services.label}</span>
+        <h2 className="text-center text-heading">{t.services.title}</h2>
+        <div className="mx-[calc(50%-50vw)] mt-[30px] overflow-hidden" aria-hidden>
+          <div className="marquee-track flex gap-[10px] px-4">
+            {[...SERVICES, ...SERVICES].map((slug, i) => (
+              <div
+                key={`${slug}-${i}`}
+                className="flex h-16 w-16 shrink-0 items-center justify-center rounded-[22px] border-[0.5px] border-black/[0.06] bg-pure-white"
+              >
+                <img src={`/services/${slug}.svg`} alt="" className="h-8 w-8" loading="lazy" />
+              </div>
+            ))}
+          </div>
+        </div>
+        <p className="mt-[15px] text-center text-caption text-ash-gray">
+          {t.services.caption}
+        </p>
+      </section>
+
+      {/* How it works */}
+      <section className="pt-[94px]" id="how-it-works">
+        <SectionHeading label={t.how.label} title={t.how.title} />
+        <div className="mt-[34px] grid gap-[22px] md:grid-cols-3">
+          {t.how.steps.map((step, i) => (
+            <div key={step.title} className="card">
+              <span className="section-label">
+                {t.how.step} {i + 1}
+              </span>
+              <h3 className="text-subheading">{step.title}</h3>
+              <p className="mt-[10px] text-body text-steel-gray">{step.body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Features */}
+      <section className="pt-[94px]" id="features">
+        <div className="rounded-[63px] border-[0.5px] border-black/[0.06] bg-pure-white p-[clamp(30px,5vw,69px)]">
+          <SectionHeading label={t.features.label} title={t.features.title} />
+          <p className="mt-[15px] max-w-xl text-body text-steel-gray">
+            {t.features.sub}
+          </p>
+          <div className="mt-[34px] grid gap-x-[34px] gap-y-[30px] sm:grid-cols-2 lg:grid-cols-3">
+            {t.features.items.map((f) => (
+              <div key={f.title} className="border-t-[0.5px] border-black/[0.06] pt-[22px]">
+                <h3 className="text-body text-pure-black">{f.title}</h3>
+                <p className="mt-[10px] text-label text-steel-gray">{f.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing */}
+      <section className="pt-[94px]" id="pricing">
+        <SectionHeading label={t.pricing.label} title={t.pricing.title} />
+        <p className="mt-[15px] max-w-xl text-body text-steel-gray">
+          {t.pricing.sub}
+        </p>
+        <div className="mt-[34px] grid gap-[22px] md:grid-cols-3">
+          {t.pricing.packs.map((pack) => (
+            <div
+              key={pack.name}
+              className={`card ${pack.featured ? "!border-signal-blue" : ""}`}
+            >
+              <div className="flex items-center justify-between">
+                <span className="section-label !mb-0">{pack.name}</span>
+                {pack.featured && <span className="tag-chip">{t.pricing.popular}</span>}
+              </div>
+              <div className="mt-[22px] flex items-baseline gap-[6px]">
+                <span className="text-[44px] leading-none tracking-[-0.02em]">
+                  {pack.credits}
+                </span>
+                <span className="text-label text-ash-gray">{pack.label}</span>
+              </div>
+              <p className="mt-[22px] text-label text-steel-gray">{pack.note}</p>
+            </div>
+          ))}
+        </div>
+        <p className="mt-[22px] text-caption text-ash-gray">{t.pricing.note}</p>
+      </section>
+
+      {/* FAQ */}
+      <section className="mx-auto max-w-3xl pt-[94px]" id="faq">
+        <SectionHeading label={t.faq.label} title={t.faq.title} />
+        <div className="mt-[34px] overflow-hidden rounded-[30px] border-[0.5px] border-black/[0.06] bg-pure-white">
+          {t.faq.items.map((item, i) => (
+            <details
+              key={item.q}
+              className={`group px-[clamp(22px,4vw,34px)] py-[22px] ${
+                i > 0 ? "border-t-[0.5px] border-black/[0.06]" : ""
+              }`}
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-body [&::-webkit-details-marker]:hidden">
+                {item.q}
+                <span className="text-signal-blue transition-transform group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+              <p className="mt-[10px] max-w-[56ch] text-label text-steel-gray">
+                {item.a}
+              </p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="pt-[94px]">
+        <div className="card flex flex-col items-center gap-[30px] text-center">
+          <h2 className="max-w-2xl text-heading">{t.cta.title}</h2>
+          <StoreBadges locale={locale} />
+          <Link href={localePath(locale, "/support")} className="blue-link text-label">
+            {t.cta.support}
+          </Link>
+        </div>
+      </section>
+    </div>
+  );
+}
