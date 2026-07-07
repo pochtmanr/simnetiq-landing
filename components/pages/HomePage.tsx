@@ -123,7 +123,7 @@ export function HomePage({ locale }: { locale: Locale }) {
 
       {/* Features */}
       <section className="pt-[94px]" id="features">
-        <div className="rounded-[63px] border-[0.5px] border-black/[0.06] bg-pure-white p-[clamp(30px,5vw,69px)]">
+        <div className="rounded-[63px] border-[0.5px] border-black/[0.06] bg-pure-white px-[clamp(16px,2.2vw,24px)] py-[clamp(18px,2.8vw,30px)]">
           <SectionHeading label={t.features.label} title={t.features.title} />
           <p className="mt-[15px] max-w-xl text-body text-steel-gray">
             {t.features.sub}
@@ -139,32 +139,37 @@ export function HomePage({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      {/* Browse by service — the site's internal-linking hub section */}
+      {/* Browse by service — the site's internal-linking hub section.
+          Full-bleed blue band via the marquee's mx-[calc(50%-50vw)] + w-screen
+          trick; body has overflow-x: clip so no horizontal scroll appears. */}
       <section className="pt-[94px]" id="browse">
-        <div className="rounded-[63px] bg-signal-blue p-[clamp(30px,5vw,69px)] text-pure-white">
-          <span className="section-label !text-pure-white/70">
-            {t.browse.label}
-          </span>
-          <h2 className="max-w-2xl text-heading">{t.browse.title}</h2>
-          <p className="mt-[15px] max-w-xl text-body text-pure-white/70">
-            {t.browse.body}
-          </p>
-          <div className="mt-[34px] flex flex-wrap gap-[10px]">
-            {ALL_SERVICES.map((s) => (
+        <div className="mx-[calc(50%-50vw)] w-screen bg-signal-blue py-[clamp(40px,5vw,64px)] text-pure-white">
+          <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
+            <span className="section-label !text-pure-white/70">
+              {t.browse.label}
+            </span>
+            <h2 className="max-w-2xl text-heading">{t.browse.title}</h2>
+            <p className="mt-[15px] max-w-xl text-body text-pure-white/70">
+              {t.browse.body}
+            </p>
+            <div className="mt-[34px] flex flex-wrap gap-[10px]">
+              {ALL_SERVICES.map((s) => (
+                <Link
+                  key={s.slug}
+                  href={localePath(locale, `/virtual-numbers/${s.slug}`)}
+                  className="inline-flex items-center gap-[8px] rounded-full bg-pure-white px-[14px] py-[8px] text-label text-off-black transition-opacity hover:opacity-85"
+                >
+                  <img src={s.logo} alt="" className="h-5 w-5" />
+                  {s.name}
+                </Link>
+              ))}
               <Link
-                key={s.slug}
-                href={localePath(locale, `/virtual-numbers/${s.slug}`)}
-                className="rounded-full border-[0.5px] border-pure-white/40 px-[18px] py-[9px] text-label text-pure-white transition-colors hover:border-pure-white hover:bg-pure-white/10"
+                href={localePath(locale, "/virtual-numbers")}
+                className="inline-flex items-center rounded-full border-[0.5px] border-pure-white/50 px-[16px] py-[8px] text-label text-pure-white transition-colors hover:border-pure-white hover:bg-pure-white/10"
               >
-                {s.name}
+                {t.browse.allLink} →
               </Link>
-            ))}
-            <Link
-              href={localePath(locale, "/virtual-numbers")}
-              className="rounded-full bg-pure-white px-[18px] py-[9px] text-label text-signal-blue transition-opacity hover:opacity-85"
-            >
-              {t.browse.allLink} →
-            </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -244,7 +249,7 @@ export function HomePage({ locale }: { locale: Locale }) {
       </section>
 
       {/* FAQ */}
-      <section className="mx-auto max-w-3xl pt-[94px]" id="faq">
+      <section className="mx-auto max-w-7xl pt-[94px]" id="faq">
         <SectionHeading label={t.faq.label} title={t.faq.title} />
         <div className="mt-[34px] overflow-hidden rounded-[30px] border-[0.5px] border-black/[0.06] bg-pure-white">
           {t.faq.items.map((item, i) => (
@@ -314,14 +319,19 @@ export function HomePage({ locale }: { locale: Locale }) {
         </Link>
       </section>
 
-      {/* Final CTA */}
-      <section className="pt-[94px]">
-        <div className="card flex flex-col items-center gap-[30px] text-center">
-          <h2 className="max-w-2xl text-heading">{t.cta.title}</h2>
-          <StoreBadges locale={locale} placement="final_cta" />
-          <Link href={localePath(locale, "/support")} className="blue-link text-label">
-            {t.cta.support}
-          </Link>
+      {/* Final CTA — full-bleed white band (matches the browse band's full-width
+          treatment); pure-white reads against the off-white page background.
+          -mb pulls it flush to the footer so no off-white stripe shows in the
+          footer's mt-[94px] gap. */}
+      <section className="-mb-[94px] pt-[94px]">
+        <div className="mx-[calc(50%-50vw)] w-screen bg-pure-white py-[clamp(40px,5vw,64px)]">
+          <div className="mx-auto flex w-full max-w-[1200px] flex-col items-center gap-[30px] px-[clamp(20px,4vw,34px)] text-center">
+            <h2 className="max-w-2xl text-heading">{t.cta.title}</h2>
+            <StoreBadges locale={locale} placement="final_cta" />
+            <Link href={localePath(locale, "/support")} className="blue-link text-label">
+              {t.cta.support}
+            </Link>
+          </div>
         </div>
       </section>
     </div>

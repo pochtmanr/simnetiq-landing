@@ -70,12 +70,14 @@ body {
 
 /* --- Recurring components ---------------------------------------------- */
 
-/* Rounded Card: #fdfdfd, radius 54px, 0.5px hairline, padding 69px, no shadow */
+/* Rounded Card: #fdfdfd, radius 54px, 0.5px hairline, no shadow.
+   Padding is tighter horizontally than vertically so grid cards don't
+   crush their content on narrow columns. */
 .card {
   background: var(--color-pure-white);
   border-radius: var(--radius-card);
   border: 0.5px solid rgba(0, 0, 0, 0.06);
-  padding: clamp(30px, 5vw, 69px);
+  padding: clamp(18px, 2.8vw, 30px) clamp(16px, 2.2vw, 24px);
 }
 
 /* Pill Tag Chip: full pill, 0.5px signal-blue outline, no fill */

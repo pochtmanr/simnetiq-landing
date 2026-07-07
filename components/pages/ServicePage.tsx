@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "../Breadcrumbs";
 import { JsonLd } from "../JsonLd";
-import { PhoneMock } from "../PhoneMock";
 import { RelatedServices } from "../RelatedServices";
 import { StoreBadges } from "../StoreBadges";
 import { getCountry } from "../../lib/content/countries";
@@ -39,7 +38,7 @@ export function ServicePage({
       </div>
 
       {/* Hero */}
-      <section className="relative grid items-center gap-[60px] pb-[94px] pt-[10px] md:grid-cols-2">
+      <section className="relative pb-[94px] pt-[10px]">
         <div
           aria-hidden
           className="pointer-events-none absolute -top-[180px] bottom-0 left-[calc(50%-50vw)] -z-10 w-screen"
@@ -48,9 +47,11 @@ export function ServicePage({
               "radial-gradient(ellipse 70% 60% at 72% 32%, rgba(0, 113, 227, 0.08), transparent 68%)",
           }}
         />
-        <div>
-          <span className="section-label flex items-center gap-[10px]">
-            <img src={entry.logo} alt="" className="h-5 w-5" />
+        <div className="card max-w-[760px]">
+          <div className="flex h-[80px] w-[80px] items-center justify-center rounded-[26px] border-[0.5px] border-black/[0.06] bg-pure-white">
+            <img src={entry.logo} alt="" className="h-11 w-11" />
+          </div>
+          <span className="section-label mt-[22px] flex items-center">
             {t.heroLabel} · {entry.name}
           </span>
           <h1 className="text-[clamp(32px,4.2vw,50px)] leading-[1.08] tracking-[-0.02em]">
@@ -68,23 +69,11 @@ export function ServicePage({
             <StoreBadges locale={locale} />
           </div>
         </div>
-        <div>
-          <PhoneMock
-            locale={locale}
-            scenes={[
-              {
-                service: entry.name,
-                number: "+31 6 45 09 11 27",
-                code: entry.smsExample.code,
-              },
-            ]}
-          />
-        </div>
       </section>
 
       {/* Why a virtual number for this service */}
       <section className="pt-[0px]">
-        <div className="rounded-[63px] border-[0.5px] border-black/[0.06] bg-pure-white p-[clamp(30px,5vw,69px)]">
+        <div className="rounded-[63px] border-[0.5px] border-black/[0.06] bg-pure-white px-[clamp(16px,2.2vw,24px)] py-[clamp(18px,2.8vw,30px)]">
           <h2 className="max-w-2xl text-heading">{c.whyVirtual.title}</h2>
           <div className="mt-[22px] grid gap-[22px] md:grid-cols-2">
             {c.whyVirtual.body.map((p, i) => (
@@ -167,9 +156,10 @@ export function ServicePage({
                   locale,
                   `/virtual-numbers/country/${country.slug}`,
                 )}
-                className="tag-chip !text-label transition-colors hover:bg-signal-blue/5"
+                className="inline-flex items-center gap-[8px] rounded-full border-[0.5px] border-black/[0.08] bg-pure-white px-[14px] py-[8px] text-label text-off-black transition-colors hover:border-signal-blue hover:text-signal-blue"
               >
-                {country.flag} {country.name[locale]}
+                <span>{country.flag}</span>
+                {country.name[locale]}
               </Link>
             ))}
           </div>
