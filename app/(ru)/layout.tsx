@@ -4,8 +4,10 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import { SiteNav } from "../../components/SiteNav";
 import { SiteFooter } from "../../components/SiteFooter";
+import { JsonLd } from "../../components/JsonLd";
 import { languageAlternates } from "../../lib/i18n";
-import { APP_NAME, COMPANY, SITE_URL } from "../../lib/site";
+import { organization, softwareApplication, webSite } from "../../lib/seo";
+import { APP_NAME, SITE_URL } from "../../lib/site";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -54,22 +56,6 @@ export const metadata: Metadata = {
   },
 };
 
-const structuredData = [
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: COMPANY,
-    url: SITE_URL,
-    logo: `${SITE_URL}/brand/logo.png`,
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "SMS Activate by SIMNETIQ",
-    url: `${SITE_URL}/ru`,
-  },
-];
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -78,9 +64,8 @@ export default function RootLayout({
   return (
     <html lang="ru" className={`${inter.variable} h-full`}>
       <body className="flex min-h-full flex-col">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        <JsonLd
+          data={[organization(), webSite("ru"), softwareApplication("ru")]}
         />
         <SiteNav locale="ru" />
         <main className="flex-1">{children}</main>
