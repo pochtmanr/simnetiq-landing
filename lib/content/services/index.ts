@@ -17,6 +17,13 @@ import { grab } from "./grab";
 import { vkcom } from "./vkcom";
 import { adidas } from "./adidas";
 import { cursor } from "./cursor";
+import { apple } from "./apple";
+import { netflix } from "./netflix";
+import { paypal } from "./paypal";
+import { uber } from "./uber";
+import { steam } from "./steam";
+import { aliexpress } from "./aliexpress";
+import { wechat } from "./wechat";
 
 /* The registry IS the publish switch: a service file that isn't imported here
    doesn't exist for the sitemap, hub, footer or routes. Only register entries
@@ -41,6 +48,13 @@ export const ALL_SERVICES: ServiceEntry[] = [
   vkcom,
   adidas,
   cursor,
+  apple,
+  netflix,
+  paypal,
+  uber,
+  steam,
+  aliexpress,
+  wechat,
 ];
 
 export const SERVICES_REGISTRY: Record<string, ServiceEntry> =
