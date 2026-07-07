@@ -33,7 +33,7 @@ export function StoreBadges({
 }: {
   dark?: boolean;
   locale?: Locale;
-  placement?: "hero" | "final_cta";
+  placement?: "hero" | "final_cta" | "service_cta" | "hub_cta" | "browse";
 }) {
   const pill = dark ? "cta-pill cta-pill--dark" : "cta-pill";
   const t = BADGES[locale];

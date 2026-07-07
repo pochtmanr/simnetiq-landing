@@ -15,13 +15,13 @@ import type { Locale } from "../lib/i18n";
  * radiate behind it, per the design system.
  */
 
-type Scene = {
+export type Scene = {
   service: string;
   number: string;
   code: string;
 };
 
-const SCENES: Scene[] = [
+const DEFAULT_SCENES: Scene[] = [
   { service: "Telegram", number: "+31 6 45 09 11 27", code: "48329" },
   { service: "WhatsApp", number: "+48 512 380 664", code: "71054" },
   { service: "Google", number: "+44 7911 623 810", code: "90266" },
@@ -84,7 +84,15 @@ function Bubble({
   );
 }
 
-export function PhoneMock({ locale = "en" }: { locale?: Locale }) {
+export function PhoneMock({
+  locale = "en",
+  scenes,
+}: {
+  locale?: Locale;
+  /** Override the rotating demo conversation, e.g. with one service's OTP. */
+  scenes?: Scene[];
+}) {
+  const SCENES = scenes && scenes.length > 0 ? scenes : DEFAULT_SCENES;
   const [sceneIdx, setSceneIdx] = useState(0);
   const [showBubble, setShowBubble] = useState(false);
   const [animate, setAnimate] = useState(true);
