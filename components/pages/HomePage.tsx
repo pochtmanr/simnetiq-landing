@@ -4,6 +4,8 @@ import { StoreBadges } from "../StoreBadges";
 import { localePath, type Locale } from "../../lib/i18n";
 import { HOME, SERVICES } from "../../lib/content/home";
 import { ALL_SERVICES } from "../../lib/content/services";
+import { ALL_ALTERNATIVES } from "../../lib/content/alternatives";
+import { BLOG_POSTS } from "../../lib/content/blog";
 
 function SectionHeading({
   label,
@@ -84,6 +86,23 @@ export function HomePage({ locale }: { locale: Locale }) {
         <p className="mt-[15px] text-center text-caption text-ash-gray">
           {t.services.caption}
         </p>
+      </section>
+
+      {/* Stats strip */}
+      <section className="pt-[94px]" id="stats">
+        <div className="grid gap-[22px] sm:grid-cols-2 lg:grid-cols-4">
+          {t.stats.items.map((s) => (
+            <div
+              key={s.label}
+              className="border-t-[0.5px] border-black/[0.06] pt-[22px]"
+            >
+              <span className="text-[44px] leading-none tracking-[-0.02em] text-signal-blue">
+                {s.value}
+              </span>
+              <p className="mt-[10px] text-label text-steel-gray">{s.label}</p>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* How it works */}
@@ -203,6 +222,27 @@ export function HomePage({ locale }: { locale: Locale }) {
         </div>
       </section>
 
+      {/* Compare — internal crawl path to the /alternatives pages */}
+      <section className="pt-[94px]" id="compare">
+        <div className="card">
+          <SectionHeading label={t.compare.label} title={t.compare.title} />
+          <p className="mt-[15px] max-w-xl text-body text-steel-gray">
+            {t.compare.body}
+          </p>
+          <div className="mt-[34px] flex flex-wrap gap-[10px]">
+            {ALL_ALTERNATIVES.map((a) => (
+              <Link
+                key={a.slug}
+                href={localePath(locale, `/alternatives/${a.slug}`)}
+                className="rounded-full border-[0.5px] border-black/[0.08] px-[18px] py-[9px] text-label text-pure-black transition-colors hover:border-signal-blue hover:text-signal-blue"
+              >
+                {t.compare.vsLabel} {a.competitorName} →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="mx-auto max-w-3xl pt-[94px]" id="faq">
         <SectionHeading label={t.faq.label} title={t.faq.title} />
@@ -226,6 +266,52 @@ export function HomePage({ locale }: { locale: Locale }) {
             </details>
           ))}
         </div>
+      </section>
+
+      {/* From the blog */}
+      <section className="pt-[94px]" id="blog">
+        <div className="flex items-end justify-between gap-4">
+          <SectionHeading label={t.blog.label} title={t.blog.title} />
+          <Link
+            href={localePath(locale, "/blog")}
+            className="blue-link mb-[6px] hidden shrink-0 text-label sm:block"
+          >
+            {t.blog.allLink} →
+          </Link>
+        </div>
+        <div className="mt-[34px] grid gap-[22px] md:grid-cols-3">
+          {BLOG_POSTS.slice(0, 3).map((post) => {
+            const c = post[locale];
+            return (
+              <Link
+                key={post.slug}
+                href={localePath(locale, `/blog/${post.slug}`)}
+                className="card group flex flex-col transition-colors hover:!border-signal-blue"
+              >
+                <div className="flex flex-wrap gap-[10px]">
+                  {post.tags.map((tag) => (
+                    <span key={tag} className="tag-chip">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <h3 className="mt-[22px] text-subheading">{c.title}</h3>
+                <p className="mt-[10px] flex-1 text-label text-steel-gray">
+                  {c.excerpt}
+                </p>
+                <span className="blue-link mt-[22px] text-label">
+                  {t.blog.readMore} →
+                </span>
+              </Link>
+            );
+          })}
+        </div>
+        <Link
+          href={localePath(locale, "/blog")}
+          className="blue-link mt-[22px] inline-block text-label sm:hidden"
+        >
+          {t.blog.allLink} →
+        </Link>
       </section>
 
       {/* Final CTA */}

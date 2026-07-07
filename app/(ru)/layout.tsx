@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { Inter } from "next/font/google";
 import "../globals.css";
@@ -14,6 +14,11 @@ const inter = Inter({
   subsets: ["latin", "cyrillic"],
   display: "swap",
 });
+
+export const viewport: Viewport = {
+  themeColor: "#f2f2f4",
+  colorScheme: "light",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

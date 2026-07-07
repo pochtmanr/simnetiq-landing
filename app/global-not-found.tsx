@@ -14,6 +14,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "404 — SMS Activate by SIMNETIQ",
+  robots: { index: false },
 };
 
 export default function GlobalNotFound() {

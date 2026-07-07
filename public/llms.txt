@@ -13,8 +13,8 @@ Key facts:
 
 - [Home](https://simnetiq.xyz/): what the app does, how it works in three steps, supported services, pricing packs, FAQ
 - [Virtual numbers hub](https://simnetiq.xyz/virtual-numbers): index of all per-service and per-country guides
-- [Service guides](https://simnetiq.xyz/virtual-numbers/telegram): one guide per service (Telegram, WhatsApp, Google, Instagram, TikTok, Discord, Facebook, X, Snapchat, Tinder, Viber, Signal, Steam, PayPal, Apple, Netflix, Uber, AliExpress, WeChat, LINE, Airbnb, Grab, VK, adidas, Cursor) at /virtual-numbers/<service> — the real verification flow, service-specific tips and FAQs
-- [Country guides](https://simnetiq.xyz/virtual-numbers/country/united-states): one guide per country (US, UK, Germany, France, Poland, Ukraine, Kazakhstan, Netherlands, Indonesia, Philippines, India, Brazil, Canada, Spain, Italy) at /virtual-numbers/country/<country> — dialing codes, formats, what each country's numbers suit
+- [Service guides](https://simnetiq.xyz/virtual-numbers/telegram): one guide per service (Telegram, WhatsApp, Google, Instagram, TikTok, Discord, Facebook, X, Snapchat, Tinder, Viber, Signal, Steam, PayPal, Apple, Netflix, Uber, AliExpress, WeChat, LINE, Airbnb, Grab, VK, adidas, Cursor, Twitch, Binance, eBay, Reddit, Fiverr, Shopee, KakaoTalk, Zalo) at /virtual-numbers/<service> — the real verification flow, service-specific tips and FAQs
+- [Country guides](https://simnetiq.xyz/virtual-numbers/country/united-states): one guide per country (US, UK, Germany, France, Poland, Ukraine, Kazakhstan, Netherlands, Indonesia, Philippines, India, Brazil, Canada, Spain, Italy, Turkey, Mexico, Vietnam, Thailand, Portugal) at /virtual-numbers/country/<country> — dialing codes, formats, what each country's numbers suit
 - [Comparisons](https://simnetiq.xyz/alternatives/sms-activate-org): fair comparisons with sms-activate.org, 5SIM, OnlineSIM, SMS-Man and TextVerified at /alternatives/<competitor>
 - [Blog](https://simnetiq.xyz/blog): guides on virtual numbers, privacy and SMS verification
 - [Support](https://simnetiq.xyz/support): contact form and self-help for activation, billing and restore-purchase issues

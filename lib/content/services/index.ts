@@ -24,6 +24,14 @@ import { uber } from "./uber";
 import { steam } from "./steam";
 import { aliexpress } from "./aliexpress";
 import { wechat } from "./wechat";
+import { twitch } from "./twitch";
+import { binance } from "./binance";
+import { ebay } from "./ebay";
+import { reddit } from "./reddit";
+import { fiverr } from "./fiverr";
+import { shopee } from "./shopee";
+import { kakaotalk } from "./kakaotalk";
+import { zalo } from "./zalo";
 
 /* The registry IS the publish switch: a service file that isn't imported here
    doesn't exist for the sitemap, hub, footer or routes. Only register entries
@@ -55,6 +63,14 @@ export const ALL_SERVICES: ServiceEntry[] = [
   steam,
   aliexpress,
   wechat,
+  twitch,
+  binance,
+  ebay,
+  reddit,
+  fiverr,
+  shopee,
+  kakaotalk,
+  zalo,
 ];
 
 export const SERVICES_REGISTRY: Record<string, ServiceEntry> =

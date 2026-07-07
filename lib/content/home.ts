@@ -8,6 +8,8 @@ export const SERVICES = [
   "discord", "tinder", "snapchat", "apple", "netflix", "paypal",
   "uber", "steam", "viber", "signal", "twitter", "aliexpress",
   "wechat", "line", "airbnb", "grab", "vkcom", "adidas", "cursor",
+  "twitch", "binance", "ebay", "reddit", "fiverr", "shopee",
+  "kakaotalk", "zalo",
 ] as const;
 
 export const HOME = {
@@ -158,6 +160,27 @@ export const HOME = {
           linkLabel: "Numbers for WhatsApp",
         },
       ],
+    },
+    stats: {
+      label: "At a glance",
+      items: [
+        { value: "50+", label: "countries with real mobile numbers on live carrier networks" },
+        { value: "35+", label: "services you can verify, from Telegram to Steam" },
+        { value: "~30s", label: "from picking a number to a code on your screen" },
+        { value: "0", label: "subscriptions — one-time credit packs that never expire" },
+      ],
+    },
+    compare: {
+      label: "Compare",
+      title: "How SMS Activate stacks up",
+      body: "Weighing us against SMS-Activate.org, 5SIM or another provider? We wrote the side-by-side comparisons ourselves — what each service does well, and where a mobile-first app with one-time credit packs is the better fit.",
+      vsLabel: "SMS Activate vs",
+    },
+    blog: {
+      label: "From the blog",
+      title: "Guides worth reading before your next sign-up",
+      readMore: "Read the guide",
+      allLink: "All articles",
     },
     cta: {
       title: "Your next sign-up doesn’t need your real number",
@@ -311,6 +334,27 @@ export const HOME = {
           linkLabel: "Номера для WhatsApp",
         },
       ],
+    },
+    stats: {
+      label: "Коротко о главном",
+      items: [
+        { value: "50+", label: "стран с настоящими мобильными номерами в живых сетях операторов" },
+        { value: "35+", label: "сервисов для верификации — от Telegram до Steam" },
+        { value: "~30с", label: "от выбора номера до кода на вашем экране" },
+        { value: "0", label: "подписок — разовые пакеты кредитов, которые не сгорают" },
+      ],
+    },
+    compare: {
+      label: "Сравнение",
+      title: "Как SMS Activate выглядит на фоне других",
+      body: "Выбираете между нами, SMS-Activate.org, 5SIM или другим сервисом? Мы сами написали честные сравнения бок о бок — что каждый сервис делает хорошо и где мобильное приложение с разовыми пакетами кредитов подходит лучше.",
+      vsLabel: "SMS Activate против",
+    },
+    blog: {
+      label: "Из блога",
+      title: "Гиды, которые стоит прочитать перед следующей регистрацией",
+      readMore: "Читать гид",
+      allLink: "Все статьи",
     },
     cta: {
       title: "Вашей следующей регистрации не нужен ваш настоящий номер",

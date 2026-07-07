@@ -42,7 +42,7 @@ export function StoreBadges({
       <a
         href={APP_STORE_URL}
         className={pill}
-        onClick={() => track("CTA Click", { placement, store: "app_store" })}
+        onClick={() => track("CTA Click iOS", { placement })}
       >
         <AppleGlyph />
         {t.appStore}
@@ -50,7 +50,7 @@ export function StoreBadges({
       <a
         href={PLAY_STORE_URL}
         className={pill}
-        onClick={() => track("CTA Click", { placement, store: "google_play" })}
+        onClick={() => track("CTA Click Android", { placement })}
       >
         <PlayGlyph />
         {t.googlePlay}

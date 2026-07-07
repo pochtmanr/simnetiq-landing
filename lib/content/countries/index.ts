@@ -14,6 +14,11 @@ import { brazil } from "./brazil";
 import { canada } from "./canada";
 import { spain } from "./spain";
 import { italy } from "./italy";
+import { turkey } from "./turkey";
+import { mexico } from "./mexico";
+import { vietnam } from "./vietnam";
+import { thailand } from "./thailand";
+import { portugal } from "./portugal";
 
 /* The registry IS the publish switch — same policy as ../services/index.ts:
    only import entries whose copy is complete in BOTH locales. */
@@ -34,6 +39,11 @@ export const ALL_COUNTRIES: CountryEntry[] = [
   canada,
   spain,
   italy,
+  turkey,
+  mexico,
+  vietnam,
+  thailand,
+  portugal,
 ];
 
 export const COUNTRIES_REGISTRY: Record<string, CountryEntry> =
