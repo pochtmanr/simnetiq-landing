@@ -13,7 +13,7 @@ export const NAV = {
     langLabel: "Language",
     links: [
       { path: "/#how-it-works", label: "How it works" },
-      { path: "/#services", label: "Services" },
+      { path: "/virtual-numbers", label: "Numbers" },
       { path: "/#pricing", label: "Pricing" },
       { path: "/#faq", label: "FAQ" },
       { path: "/support", label: "Support" },
@@ -26,7 +26,7 @@ export const NAV = {
     langLabel: "Язык",
     links: [
       { path: "/#how-it-works", label: "Как это работает" },
-      { path: "/#services", label: "Сервисы" },
+      { path: "/virtual-numbers", label: "Номера" },
       { path: "/#pricing", label: "Цены" },
       { path: "/#faq", label: "Вопросы" },
       { path: "/support", label: "Поддержка" },
@@ -40,6 +40,13 @@ export const NAV = {
 export const FOOTER = {
   en: {
     tagline: "A phone number for the sign-up. Not for life.",
+    servicesLabel: "Popular services",
+    allServices: "All services",
+    resourcesLabel: "Resources",
+    hub: "Virtual numbers",
+    blog: "Blog",
+    companyLabel: "Company",
+    getApp: "Get the app",
     support: "Support",
     privacy: "Privacy Policy",
     terms: "Terms of Service",
@@ -47,6 +54,13 @@ export const FOOTER = {
   },
   ru: {
     tagline: "Номер для регистрации. А не на всю жизнь.",
+    servicesLabel: "Популярные сервисы",
+    allServices: "Все сервисы",
+    resourcesLabel: "Материалы",
+    hub: "Виртуальные номера",
+    blog: "Блог",
+    companyLabel: "Компания",
+    getApp: "Скачать приложение",
     support: "Поддержка",
     privacy: "Политика конфиденциальности",
     terms: "Условия использования",

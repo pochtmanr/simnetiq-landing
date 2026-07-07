@@ -1,29 +1,23 @@
 import Link from "next/link";
 import { Breadcrumbs } from "../Breadcrumbs";
 import { JsonLd } from "../JsonLd";
-import { PhoneMock } from "../PhoneMock";
 import { RelatedServices } from "../RelatedServices";
 import { StoreBadges } from "../StoreBadges";
-import { getCountry } from "../../lib/content/countries";
-import type { ServiceEntry } from "../../lib/content/services/types";
+import type { CountryEntry } from "../../lib/content/countries/types";
 import { SERVICES_UI } from "../../lib/content/servicesUi";
 import { localePath, type Locale } from "../../lib/i18n";
 import { faqPage } from "../../lib/seo";
 
-/** Template for /virtual-numbers/[service]. All copy comes from the entry;
- *  this file only lays it out in the home page's visual system. */
-export function ServicePage({
+/** Template for /virtual-numbers/country/[country]. */
+export function CountryPage({
   locale,
   entry,
 }: {
   locale: Locale;
-  entry: ServiceEntry;
+  entry: CountryEntry;
 }) {
   const t = SERVICES_UI[locale];
   const c = entry[locale];
-  const countries = entry.popularCountries
-    .map((slug) => getCountry(slug))
-    .filter((e) => e !== undefined);
   return (
     <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
       <JsonLd data={faqPage(c.faqs)} />
@@ -33,13 +27,16 @@ export function ServicePage({
           crumbs={[
             { name: t.breadcrumbHome, path: "/" },
             { name: t.breadcrumbHub, path: "/virtual-numbers" },
-            { name: entry.name, path: `/virtual-numbers/${entry.slug}` },
+            {
+              name: entry.name[locale],
+              path: `/virtual-numbers/country/${entry.slug}`,
+            },
           ]}
         />
       </div>
 
       {/* Hero */}
-      <section className="relative grid items-center gap-[60px] pb-[94px] pt-[10px] md:grid-cols-2">
+      <section className="relative grid items-start gap-[60px] pb-[94px] pt-[10px] md:grid-cols-[1.5fr_1fr]">
         <div
           aria-hidden
           className="pointer-events-none absolute -top-[180px] bottom-0 left-[calc(50%-50vw)] -z-10 w-screen"
@@ -49,9 +46,8 @@ export function ServicePage({
           }}
         />
         <div>
-          <span className="section-label flex items-center gap-[10px]">
-            <img src={entry.logo} alt="" className="h-5 w-5" />
-            {t.heroLabel} · {entry.name}
+          <span className="section-label">
+            {entry.flag} {t.heroLabel} · {entry.name[locale]}
           </span>
           <h1 className="text-[clamp(32px,4.2vw,50px)] leading-[1.08] tracking-[-0.02em]">
             {c.hero.title}
@@ -59,7 +55,7 @@ export function ServicePage({
           {c.hero.intro.map((p, i) => (
             <p
               key={i}
-              className={`max-w-md text-steel-gray ${i === 0 ? "mt-[22px] text-subheading" : "mt-[15px] text-body"}`}
+              className={`max-w-xl text-steel-gray ${i === 0 ? "mt-[22px] text-subheading" : "mt-[15px] text-body"}`}
             >
               {p}
             </p>
@@ -68,26 +64,30 @@ export function ServicePage({
             <StoreBadges locale={locale} />
           </div>
         </div>
-        <div>
-          <PhoneMock
-            locale={locale}
-            scenes={[
-              {
-                service: entry.name,
-                number: "+31 6 45 09 11 27",
-                code: entry.smsExample.code,
-              },
-            ]}
-          />
+
+        {/* Country facts card */}
+        <div className="card">
+          <div className="flex items-center gap-[15px]">
+            <span className="text-[44px] leading-none">{entry.flag}</span>
+            <span className="text-subheading">{entry.name[locale]}</span>
+          </div>
+          <div className="mt-[22px] border-t-[0.5px] border-black/[0.06] pt-[22px]">
+            <span className="section-label">{t.country.dialingCode}</span>
+            <p className="text-heading text-signal-blue">{entry.dialingCode}</p>
+          </div>
+          <div className="mt-[22px] border-t-[0.5px] border-black/[0.06] pt-[22px]">
+            <span className="section-label">{t.country.numberFormat}</span>
+            <p className="text-subheading">{entry.numberFormat}</p>
+          </div>
         </div>
       </section>
 
-      {/* Why a virtual number for this service */}
-      <section className="pt-[0px]">
+      {/* Why this country */}
+      <section>
         <div className="rounded-[63px] border-[0.5px] border-black/[0.06] bg-pure-white p-[clamp(30px,5vw,69px)]">
-          <h2 className="max-w-2xl text-heading">{c.whyVirtual.title}</h2>
+          <h2 className="max-w-2xl text-heading">{c.whyCountry.title}</h2>
           <div className="mt-[22px] grid gap-[22px] md:grid-cols-2">
-            {c.whyVirtual.body.map((p, i) => (
+            {c.whyCountry.body.map((p, i) => (
               <p key={i} className="text-body text-steel-gray">
                 {p}
               </p>
@@ -96,23 +96,7 @@ export function ServicePage({
         </div>
       </section>
 
-      {/* How to */}
-      <section className="pt-[94px]">
-        <h2 className="text-heading">{c.howTo.title}</h2>
-        <div className="mt-[34px] grid gap-[22px] md:grid-cols-2 lg:grid-cols-4">
-          {c.howTo.steps.map((step, i) => (
-            <div key={step.title} className="card">
-              <span className="section-label">
-                {t.step} {i + 1}
-              </span>
-              <h3 className="text-subheading">{step.title}</h3>
-              <p className="mt-[10px] text-label text-steel-gray">{step.body}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Service-specific tips */}
+      {/* Country-specific tips */}
       <section className="pt-[94px]">
         <span className="section-label">{t.tipsLabel}</span>
         <h2 className="text-heading">{t.tipsTitle}</h2>
@@ -155,29 +139,8 @@ export function ServicePage({
         </div>
       </section>
 
-      {/* Countries popular for this service */}
-      {countries.length > 0 && (
-        <section className="pt-[94px]">
-          <span className="section-label">{t.countriesLabel}</span>
-          <div className="mt-[15px] flex flex-wrap gap-[10px]">
-            {countries.map((country) => (
-              <Link
-                key={country.slug}
-                href={localePath(
-                  locale,
-                  `/virtual-numbers/country/${country.slug}`,
-                )}
-                className="tag-chip !text-label transition-colors hover:bg-signal-blue/5"
-              >
-                {country.flag} {country.name[locale]}
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Related services */}
-      <RelatedServices locale={locale} slugs={entry.relatedSlugs} />
+      {/* Services commonly verified with this country */}
+      <RelatedServices locale={locale} slugs={entry.popularServiceSlugs} />
 
       {/* Final CTA */}
       <section className="py-[94px]">

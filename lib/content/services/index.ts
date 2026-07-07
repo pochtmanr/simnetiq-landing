@@ -5,6 +5,18 @@ import { google } from "./google";
 import { instagram } from "./instagram";
 import { tiktok } from "./tiktok";
 import { discord } from "./discord";
+import { facebook } from "./facebook";
+import { snapchat } from "./snapchat";
+import { tinder } from "./tinder";
+import { viber } from "./viber";
+import { signal } from "./signal";
+import { twitter } from "./twitter";
+import { line } from "./line";
+import { airbnb } from "./airbnb";
+import { grab } from "./grab";
+import { vkcom } from "./vkcom";
+import { adidas } from "./adidas";
+import { cursor } from "./cursor";
 
 /* The registry IS the publish switch: a service file that isn't imported here
    doesn't exist for the sitemap, hub, footer or routes. Only register entries
@@ -17,6 +29,18 @@ export const ALL_SERVICES: ServiceEntry[] = [
   instagram,
   tiktok,
   discord,
+  facebook,
+  snapchat,
+  tinder,
+  viber,
+  signal,
+  twitter,
+  line,
+  airbnb,
+  grab,
+  vkcom,
+  adidas,
+  cursor,
 ];
 
 export const SERVICES_REGISTRY: Record<string, ServiceEntry> =

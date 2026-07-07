@@ -117,6 +117,48 @@ export const HOME = {
         },
       ],
     },
+    browse: {
+      label: "Find your number",
+      title: "Pick the service. We handle the number.",
+      body: "Every service gets its own guide: the real verification flow, the quirks that trip people up, and the countries that work best for it.",
+      allLink: "All services and guides",
+    },
+    personas: {
+      label: "Who it’s for",
+      title: "Built for people who guard their number",
+      items: [
+        {
+          title: "The developer",
+          body: "Test sign-up flows and OTP handling with a real receiving number — no office SIM drawer.",
+          slug: "cursor",
+          linkLabel: "Numbers for dev tools",
+        },
+        {
+          title: "The social media manager",
+          body: "A clean contact identity for every brand account you run, without wiring them to your personal phone.",
+          slug: "instagram",
+          linkLabel: "Numbers for Instagram",
+        },
+        {
+          title: "The privacy-minded",
+          body: "Strangers in group chats shouldn’t have a direct line to you. Keep your real number for people you trust.",
+          slug: "telegram",
+          linkLabel: "Numbers for Telegram",
+        },
+        {
+          title: "The smart shopper",
+          body: "Marketplaces and promo sign-ups get a working number — the marketing SMS never reaches your pocket.",
+          slug: "aliexpress",
+          linkLabel: "Numbers for AliExpress",
+        },
+        {
+          title: "The multi-account entrepreneur",
+          body: "A second WhatsApp for work, a separate Telegram for the project — each with its own number.",
+          slug: "whatsapp",
+          linkLabel: "Numbers for WhatsApp",
+        },
+      ],
+    },
     cta: {
       title: "Your next sign-up doesn’t need your real number",
       support: "Questions before you download? Talk to support",
@@ -225,6 +267,48 @@ export const HOME = {
         {
           q: "Это законно?",
           a: "Да — приём SMS на виртуальный номер является стандартным инструментом для приватности, тестирования и разработки. Вы сами отвечаете за соблюдение правил сервисов, в которых регистрируетесь.",
+        },
+      ],
+    },
+    browse: {
+      label: "Найдите свой номер",
+      title: "Выберите сервис. Номер — за нами.",
+      body: "У каждого сервиса свой гид: реальный процесс подтверждения, подводные камни, о которые спотыкаются чаще всего, и страны, которые подходят лучше всего.",
+      allLink: "Все сервисы и гиды",
+    },
+    personas: {
+      label: "Для кого это",
+      title: "Для тех, кто бережёт свой номер",
+      items: [
+        {
+          title: "Разработчику",
+          body: "Тестируйте регистрацию и обработку OTP на настоящем принимающем номере — без ящика офисных SIM-карт.",
+          slug: "cursor",
+          linkLabel: "Номера для dev-инструментов",
+        },
+        {
+          title: "SMM-менеджеру",
+          body: "Чистая контактная личность для каждого бренд-аккаунта — без привязки к вашему личному телефону.",
+          slug: "instagram",
+          linkLabel: "Номера для Instagram",
+        },
+        {
+          title: "Ценителю приватности",
+          body: "У незнакомцев из групповых чатов не должно быть прямой линии к вам. Настоящий номер — только для своих.",
+          slug: "telegram",
+          linkLabel: "Номера для Telegram",
+        },
+        {
+          title: "Умному покупателю",
+          body: "Маркетплейсы и промо-подписки получают рабочий номер — а рекламные SMS никогда не доходят до вашего кармана.",
+          slug: "aliexpress",
+          linkLabel: "Номера для AliExpress",
+        },
+        {
+          title: "Мультиаккаунт-предпринимателю",
+          body: "Второй WhatsApp для работы, отдельный Telegram для проекта — у каждого свой номер.",
+          slug: "whatsapp",
+          linkLabel: "Номера для WhatsApp",
         },
       ],
     },

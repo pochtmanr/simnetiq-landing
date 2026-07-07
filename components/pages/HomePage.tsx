@@ -3,6 +3,7 @@ import { PhoneMock } from "../PhoneMock";
 import { StoreBadges } from "../StoreBadges";
 import { localePath, type Locale } from "../../lib/i18n";
 import { HOME, SERVICES } from "../../lib/content/home";
+import { ALL_SERVICES } from "../../lib/content/services";
 
 function SectionHeading({
   label,
@@ -119,6 +120,36 @@ export function HomePage({ locale }: { locale: Locale }) {
         </div>
       </section>
 
+      {/* Browse by service — the site's internal-linking hub section */}
+      <section className="pt-[94px]" id="browse">
+        <div className="rounded-[63px] bg-signal-blue p-[clamp(30px,5vw,69px)] text-pure-white">
+          <span className="section-label !text-pure-white/70">
+            {t.browse.label}
+          </span>
+          <h2 className="max-w-2xl text-heading">{t.browse.title}</h2>
+          <p className="mt-[15px] max-w-xl text-body text-pure-white/70">
+            {t.browse.body}
+          </p>
+          <div className="mt-[34px] flex flex-wrap gap-[10px]">
+            {ALL_SERVICES.map((s) => (
+              <Link
+                key={s.slug}
+                href={localePath(locale, `/virtual-numbers/${s.slug}`)}
+                className="rounded-full border-[0.5px] border-pure-white/40 px-[18px] py-[9px] text-label text-pure-white transition-colors hover:border-pure-white hover:bg-pure-white/10"
+              >
+                {s.name}
+              </Link>
+            ))}
+            <Link
+              href={localePath(locale, "/virtual-numbers")}
+              className="rounded-full bg-pure-white px-[18px] py-[9px] text-label text-signal-blue transition-opacity hover:opacity-85"
+            >
+              {t.browse.allLink} →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing */}
       <section className="pt-[94px]" id="pricing">
         <SectionHeading label={t.pricing.label} title={t.pricing.title} />
@@ -146,6 +177,30 @@ export function HomePage({ locale }: { locale: Locale }) {
           ))}
         </div>
         <p className="mt-[22px] text-caption text-ash-gray">{t.pricing.note}</p>
+      </section>
+
+      {/* Use cases / personas */}
+      <section className="pt-[94px]" id="use-cases">
+        <SectionHeading label={t.personas.label} title={t.personas.title} />
+        <div className="mt-[34px] grid gap-[22px] sm:grid-cols-2 lg:grid-cols-5">
+          {t.personas.items.map((p) => (
+            <div
+              key={p.title}
+              className="flex flex-col border-t-[0.5px] border-black/[0.06] pt-[22px]"
+            >
+              <h3 className="text-body text-pure-black">{p.title}</h3>
+              <p className="mt-[10px] flex-1 text-label text-steel-gray">
+                {p.body}
+              </p>
+              <Link
+                href={localePath(locale, `/virtual-numbers/${p.slug}`)}
+                className="blue-link mt-[15px] text-label"
+              >
+                {p.linkLabel} →
+              </Link>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* FAQ */}

@@ -37,6 +37,15 @@ export const SERVICES_UI = {
       dev: "Developer tools",
       other: "Accounts & platforms",
     } satisfies Record<ServiceCategory, string>,
+    country: {
+      hubLabel: "By country",
+      hubTitle: "Numbers by country",
+      dialingCode: "Dialing code",
+      numberFormat: "Number format",
+      servicesLabel: "Often verified with this country",
+      allCountries: "All countries",
+      breadcrumb: "Countries",
+    },
   },
   ru: {
     breadcrumbHome: "Главная",
@@ -70,5 +79,14 @@ export const SERVICES_UI = {
       dev: "Инструменты разработчика",
       other: "Аккаунты и платформы",
     } satisfies Record<ServiceCategory, string>,
+    country: {
+      hubLabel: "По странам",
+      hubTitle: "Номера по странам",
+      dialingCode: "Телефонный код",
+      numberFormat: "Формат номера",
+      servicesLabel: "Часто подтверждают с этой страной",
+      allCountries: "Все страны",
+      breadcrumb: "Страны",
+    },
   },
 } satisfies Record<Locale, unknown>;

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Breadcrumbs } from "../Breadcrumbs";
 import { StoreBadges } from "../StoreBadges";
+import { ALL_COUNTRIES } from "../../lib/content/countries";
 import { ALL_SERVICES } from "../../lib/content/services";
 import type { ServiceCategory } from "../../lib/content/services/types";
 import { SERVICES_UI } from "../../lib/content/servicesUi";
@@ -64,6 +65,34 @@ export function VirtualNumbersHubPage({ locale }: { locale: Locale }) {
           </div>
         </section>
       ))}
+
+      {/* Countries */}
+      {ALL_COUNTRIES.length > 0 && (
+        <section className="pb-[60px]" id="countries">
+          <span className="section-label">{t.country.hubLabel}</span>
+          <h2 className="text-heading">{t.country.hubTitle}</h2>
+          <div className="mt-[22px] grid grid-cols-2 gap-[15px] sm:grid-cols-3 lg:grid-cols-4">
+            {ALL_COUNTRIES.map((c) => (
+              <Link
+                key={c.slug}
+                href={localePath(
+                  locale,
+                  `/virtual-numbers/country/${c.slug}`,
+                )}
+                className="group flex items-center gap-[15px] rounded-[30px] border-[0.5px] border-black/[0.06] bg-pure-white px-[22px] py-[18px] transition-colors hover:border-signal-blue"
+              >
+                <span className="text-[22px] leading-none">{c.flag}</span>
+                <span className="text-body text-off-black">
+                  {c.name[locale]}
+                </span>
+                <span className="ml-auto text-label text-ash-gray">
+                  {c.dialingCode}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <p className="text-caption text-ash-gray">{t.hub.allNote}</p>
 
