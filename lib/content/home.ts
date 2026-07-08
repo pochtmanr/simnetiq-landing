@@ -15,6 +15,14 @@ export const SERVICES = [
 export const HOME = {
   en: {
     banner: { chip: "NEW", text: "One-time activation packs — no subscription" },
+    promo: {
+      label: "From our team",
+      title: "Meet Doppler VPN",
+      body: "Fast, private, ad-blocking VPN from the same team behind SMS Activate — protect your connection on every device.",
+      codeLabel: "Use code",
+      discount: "25% off",
+      link: "Get Doppler VPN",
+    },
     hero: {
       label: "Virtual numbers · SMS verification",
       titleTop: "A number for the sign‑up.",
@@ -189,6 +197,14 @@ export const HOME = {
   },
   ru: {
     banner: { chip: "НОВОЕ", text: "Разовые пакеты активаций — без подписки" },
+    promo: {
+      label: "От нашей команды",
+      title: "Знакомьтесь — Doppler VPN",
+      body: "Быстрый и приватный VPN с блокировкой рекламы от той же команды, что создала SMS Activate — защитите соединение на всех устройствах.",
+      codeLabel: "Промокод",
+      discount: "скидка 25%",
+      link: "Установить Doppler VPN",
+    },
     hero: {
       label: "Виртуальные номера · SMS-верификация",
       titleTop: "Номер для регистрации.",
