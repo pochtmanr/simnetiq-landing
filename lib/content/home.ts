@@ -103,7 +103,11 @@ export const HOME = {
       items: [
         {
           q: "What exactly is a virtual number?",
-          a: "A real phone number that exists on a carrier network but isn't tied to a SIM card in your pocket. It can receive SMS like any other number — you use it for the verification step, and your personal number never enters the picture.",
+          a: "A real phone number that exists on a carrier network but isn't tied to a SIM card in your pocket. It can receive SMS like any other number — you use it for the verification step, and your personal number never enters the picture. Each number is single-use — you receive your code once, then it's retired back to the pool, so the same number can't be reused or texted again.",
+        },
+        {
+          q: "Can I reuse a number or have the code resent?",
+          a: "No — every number is used one time only. Once your activation finishes or expires, that exact number is retired and can't be reused or have an SMS resent to it. Need to verify again? Just start a new activation and you'll get a fresh number.",
         },
         {
           q: "How fast does the code arrive?",
@@ -285,7 +289,11 @@ export const HOME = {
       items: [
         {
           q: "Что такое виртуальный номер?",
-          a: "Настоящий телефонный номер в сети оператора, но без SIM-карты у вас в кармане. Он принимает SMS, как любой другой номер: вы используете его на шаге подтверждения, а ваш личный номер вообще не участвует.",
+          a: "Настоящий телефонный номер в сети оператора, но без SIM-карты у вас в кармане. Он принимает SMS, как любой другой номер: вы используете его на шаге подтверждения, а ваш личный номер вообще не участвует. Каждый номер одноразовый: код приходит один раз, после чего номер возвращается в пул — повторно использовать его или отправить на него SMS снова нельзя.",
+        },
+        {
+          q: "Можно ли повторно использовать номер или запросить повторную отправку кода?",
+          a: "Нет — каждый номер используется только один раз. После завершения или истечения активации этот номер выводится из обращения: повторно использовать его или отправить на него SMS снова нельзя. Нужно подтвердить ещё раз — просто создайте новую активацию и получите новый номер.",
         },
         {
           q: "Как быстро приходит код?",
