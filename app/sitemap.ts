@@ -34,6 +34,12 @@ const STATIC_PATHS: Array<{
     priority: 0.9,
   },
   { path: "/blog", lastModified: latest(BLOG_POSTS), changeFrequency: "weekly", priority: 0.8 },
+  {
+    path: "/alternatives",
+    lastModified: latest(ALL_ALTERNATIVES),
+    changeFrequency: "monthly",
+    priority: 0.6,
+  },
   { path: "/support", lastModified: "2026-07-06", changeFrequency: "monthly", priority: 0.8 },
   { path: "/privacy-policy", lastModified: "2026-07-06", changeFrequency: "yearly", priority: 0.3 },
   { path: "/terms-of-service", lastModified: "2026-07-06", changeFrequency: "yearly", priority: 0.3 },
