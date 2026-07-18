@@ -3,13 +3,22 @@ import { ALL_ALTERNATIVES } from "../lib/content/alternatives";
 import { BLOG_POSTS } from "../lib/content/blog";
 import { ALL_COUNTRIES } from "../lib/content/countries";
 import { ALL_SERVICES } from "../lib/content/services";
-import { SITE_URL } from "../lib/site";
+import { absolute } from "../lib/seo";
 
 /* Registry-driven: static chrome pages are listed here, everything else
    derives from the content registries — publishing a page is just adding it
    to its registry. */
 
 type Freq = "weekly" | "monthly" | "yearly";
+
+/** Most recent updatedAt across a set of registry entries. Hub pages render
+ *  their registry, so this is their real last-modified — Google discounts
+ *  lastmod site-wide once it catches you overstating it. */
+function latest(...groups: ReadonlyArray<ReadonlyArray<{ updatedAt: string }>>): string {
+  return groups
+    .flat()
+    .reduce((max, entry) => (entry.updatedAt > max ? entry.updatedAt : max), "");
+}
 
 const STATIC_PATHS: Array<{
   path: string;
@@ -18,17 +27,17 @@ const STATIC_PATHS: Array<{
   priority: number;
 }> = [
   { path: "/", lastModified: "2026-07-07", changeFrequency: "monthly", priority: 1 },
-  { path: "/virtual-numbers", lastModified: "2026-07-07", changeFrequency: "weekly", priority: 0.9 },
-  { path: "/blog", lastModified: "2026-07-07", changeFrequency: "weekly", priority: 0.8 },
+  {
+    path: "/virtual-numbers",
+    lastModified: latest(ALL_SERVICES, ALL_COUNTRIES),
+    changeFrequency: "weekly",
+    priority: 0.9,
+  },
+  { path: "/blog", lastModified: latest(BLOG_POSTS), changeFrequency: "weekly", priority: 0.8 },
   { path: "/support", lastModified: "2026-07-06", changeFrequency: "monthly", priority: 0.8 },
   { path: "/privacy-policy", lastModified: "2026-07-06", changeFrequency: "yearly", priority: 0.3 },
   { path: "/terms-of-service", lastModified: "2026-07-06", changeFrequency: "yearly", priority: 0.3 },
 ];
-
-function url(path: string, locale: "en" | "ru"): string {
-  const prefix = locale === "ru" ? "/ru" : "";
-  return path === "/" ? `${SITE_URL}${prefix || "/"}` : `${SITE_URL}${prefix}${path}`;
-}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries = [
@@ -60,11 +69,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   return entries.flatMap(({ path, lastModified, changeFrequency, priority }) => {
+    /* Mirrors languageAlternates() in lib/i18n.ts — x-default included. Google
+       cross-checks sitemap hreflang against the on-page tags, so the two sets
+       have to match key for key. */
     const alternates = {
-      languages: { en: url(path, "en"), ru: url(path, "ru") },
+      languages: {
+        en: absolute("en", path),
+        ru: absolute("ru", path),
+        "x-default": absolute("en", path),
+      },
     };
     return (["en", "ru"] as const).map((locale) => ({
-      url: url(path, locale),
+      url: absolute(locale, path),
       lastModified: new Date(lastModified),
       changeFrequency,
       priority,

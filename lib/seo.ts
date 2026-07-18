@@ -63,7 +63,9 @@ export function makeMetadata(opts: {
  * JSON-LD builders — pure objects for <JsonLd data={...} />
  * ------------------------------------------------------------------------ */
 
-function absolute(locale: Locale, path: string): string {
+/** Absolute, locale-prefixed URL for a bare path. Matches the canonical exactly
+ *  (bare origin for the EN home), so JSON-LD and the sitemap agree with it. */
+export function absolute(locale: Locale, path: string): string {
   const p = localePath(locale, path);
   return p === "/" ? SITE_URL : `${SITE_URL}${p}`;
 }
