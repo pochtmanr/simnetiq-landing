@@ -22,12 +22,12 @@ export const airbnb: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Airbnb — Book Stays, Keep Your Number",
     metaDescription:
-      "Verify your Airbnb account with a real virtual number. The SMS code arrives in the SMS Activate app in seconds — book stays without sharing your personal number.",
+      "Verify your Airbnb account with a real virtual number. The SMS code arrives in the SMS Code app in seconds — book stays without sharing your personal number.",
     hero: {
       title: "A virtual number for Airbnb",
       intro: [
         "Airbnb runs on trust between strangers, and a verified phone number is one of the first bricks in that wall. Before you can book a stay — and often before a host will even reply to a request — Airbnb wants to confirm you're reachable, and it does that with an SMS code sent to the number on your account.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries, enter it during Airbnb sign-up, and the six-digit code appears in the SMS Activate app within seconds. You get a verified account; your personal number stays your own.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries, enter it during Airbnb sign-up, and the six-digit code appears in the SMS Code app within seconds. You get a verified account; your personal number stays your own.",
       ],
     },
     whyVirtual: {
@@ -41,8 +41,8 @@ export const airbnb: ServiceEntry = {
       title: "How to verify Airbnb with a virtual number",
       steps: [
         {
-          title: "Get a number in SMS Activate",
-          body: "Open the SMS Activate app, select Airbnb as the service and pick a country — many travelers choose the country they actually book from, like the US, France or Spain. The number is reserved for you instantly.",
+          title: "Get a number in SMS Code",
+          body: "Open the SMS Code app, select Airbnb as the service and pick a country — many travelers choose the country they actually book from, like the US, France or Spain. The number is reserved for you instantly.",
         },
         {
           title: "Add it during Airbnb sign-up",
@@ -50,7 +50,7 @@ export const airbnb: ServiceEntry = {
         },
         {
           title: "Type in the SMS code",
-          body: "The text lands in the SMS Activate app in seconds — “Your Airbnb verification code is: 517203.” Enter it on Airbnb's verification screen and your phone is confirmed.",
+          body: "The text lands in the SMS Code app in seconds — “Your Airbnb verification code is: 517203.” Enter it on Airbnb's verification screen and your phone is confirmed.",
         },
         {
           title: "Finish your profile",
@@ -87,7 +87,7 @@ export const airbnb: ServiceEntry = {
       },
       {
         q: "Why didn't my Airbnb code arrive?",
-        a: "The usual suspects: the country code chosen on Airbnb doesn't match the rented number, or the request timed out. Cancel the activation in SMS Activate — numbers that received nothing are never charged — and try again with a new number, double-checking the country.",
+        a: "The usual suspects: the country code chosen on Airbnb doesn't match the rented number, or the request timed out. Cancel the activation in SMS Code — numbers that received nothing are never charged — and try again with a new number, double-checking the country.",
       },
       {
         q: "Is verifying Airbnb with a virtual number allowed?",
@@ -98,12 +98,12 @@ export const airbnb: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Airbnb — бронируйте без личного номера",
     metaDescription:
-      "Подтвердите аккаунт Airbnb настоящим виртуальным номером. SMS с кодом придёт в приложение SMS Activate за секунды — бронируйте жильё, не раскрывая свой номер.",
+      "Подтвердите аккаунт Airbnb настоящим виртуальным номером. SMS с кодом придёт в приложение SMS Code за секунды — бронируйте жильё, не раскрывая свой номер.",
     hero: {
       title: "Виртуальный номер для Airbnb",
       intro: [
         "Airbnb держится на доверии между незнакомыми людьми, и подтверждённый номер телефона — один из первых кирпичей в этой стене. Прежде чем вы забронируете жильё — а нередко и прежде чем хозяин вообще ответит на запрос, — Airbnb хочет убедиться, что с вами можно связаться, и делает это через SMS-код на номер в аккаунте.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его при регистрации на Airbnb — и шестизначный код появляется в приложении SMS Activate за секунды. Аккаунт подтверждён, а личный номер остаётся при вас.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его при регистрации на Airbnb — и шестизначный код появляется в приложении SMS Code за секунды. Аккаунт подтверждён, а личный номер остаётся при вас.",
       ],
     },
     whyVirtual: {
@@ -117,8 +117,8 @@ export const airbnb: ServiceEntry = {
       title: "Как подтвердить Airbnb виртуальным номером",
       steps: [
         {
-          title: "Получите номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис Airbnb и страну — многие берут ту, откуда реально бронируют: США, Францию, Испанию. Номер резервируется за вами мгновенно.",
+          title: "Получите номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис Airbnb и страну — многие берут ту, откуда реально бронируют: США, Францию, Испанию. Номер резервируется за вами мгновенно.",
         },
         {
           title: "Укажите его при регистрации на Airbnb",
@@ -126,7 +126,7 @@ export const airbnb: ServiceEntry = {
         },
         {
           title: "Введите код из SMS",
-          body: "Сообщение придёт в приложение SMS Activate за секунды: «Your Airbnb verification code is: 517203.» Введите его на экране подтверждения Airbnb — телефон подтверждён.",
+          body: "Сообщение придёт в приложение SMS Code за секунды: «Your Airbnb verification code is: 517203.» Введите его на экране подтверждения Airbnb — телефон подтверждён.",
         },
         {
           title: "Доведите профиль до конца",
@@ -163,7 +163,7 @@ export const airbnb: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Airbnb?",
-        a: "Классические причины: код страны на Airbnb не совпадает с арендованным номером либо запрос просто истёк. Отмените активацию в SMS Activate — за номера без единой SMS деньги не списываются — и попробуйте с новым номером, внимательно сверив страну.",
+        a: "Классические причины: код страны на Airbnb не совпадает с арендованным номером либо запрос просто истёк. Отмените активацию в SMS Code — за номера без единой SMS деньги не списываются — и попробуйте с новым номером, внимательно сверив страну.",
       },
       {
         q: "Разрешено ли подтверждать Airbnb виртуальным номером?",

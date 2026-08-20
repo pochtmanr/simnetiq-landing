@@ -47,7 +47,7 @@
     },
     {
       "parameters": {
-        "fromEmail": "SMS Activate Support <support@simnetiq.store>",
+        "fromEmail": "SMS Code Support <support@simnetiq.store>",
         "toEmail": "support@simnetiq.store",
         "subject": "=[Support] {{ $json.body.topic || 'New request' }} — {{ $json.body.name }}",
         "emailFormat": "text",
@@ -70,11 +70,11 @@
     },
     {
       "parameters": {
-        "fromEmail": "SMS Activate Support <support@simnetiq.store>",
+        "fromEmail": "SMS Code Support <support@simnetiq.store>",
         "toEmail": "={{ $('Webhook').item.json.body.email }}",
-        "subject": "={{ $('Webhook').item.json.body.locale === 'ru' ? 'Мы получили ваше сообщение — поддержка SMS Activate' : 'We got your message — SMS Activate support' }}",
+        "subject": "={{ $('Webhook').item.json.body.locale === 'ru' ? 'Мы получили ваше сообщение — поддержка SMS Code' : 'We got your message — SMS Code support' }}",
         "emailFormat": "text",
-        "text": "={{ $('Webhook').item.json.body.locale === 'ru' ? 'Здравствуйте, ' + $('Webhook').item.json.body.name + '!\\n\\nСпасибо за обращение в поддержку SMS Activate. Ваше сообщение в очереди, и живой человек ответит вам — обычно в течение одного рабочего дня.\\n\\nЧто вы нам отправили:\\n\\nТема: ' + $('Webhook').item.json.body.topic + '\\n\\n' + $('Webhook').item.json.body.message + '\\n\\nЕсли хотите что-то добавить (скриншоты, чек из магазина, сервис и страну активации), просто ответьте на это письмо.\\n\\n— SMS Activate от SIMNETIQ\\nsupport@simnetiq.store · https://simnetiq.xyz/ru' : 'Hi ' + $('Webhook').item.json.body.name + ',\\n\\nThanks for contacting SMS Activate support. Your message is in our queue and a real person will reply, usually within one business day.\\n\\nWhat you sent us:\\n\\nTopic: ' + $('Webhook').item.json.body.topic + '\\n\\n' + $('Webhook').item.json.body.message + '\\n\\nIf you want to add anything (screenshots, your store receipt, the service and country of the activation), just reply to this email.\\n\\n— SMS Activate by SIMNETIQ\\nsupport@simnetiq.store · https://simnetiq.xyz' }}",
+        "text": "={{ $('Webhook').item.json.body.locale === 'ru' ? 'Здравствуйте, ' + $('Webhook').item.json.body.name + '!\\n\\nСпасибо за обращение в поддержку SMS Code. Ваше сообщение в очереди, и живой человек ответит вам — обычно в течение одного рабочего дня.\\n\\nЧто вы нам отправили:\\n\\nТема: ' + $('Webhook').item.json.body.topic + '\\n\\n' + $('Webhook').item.json.body.message + '\\n\\nЕсли хотите что-то добавить (скриншоты, чек из магазина, сервис и страну активации), просто ответьте на это письмо.\\n\\n— SMS Code от SIMNETIQ\\nsupport@simnetiq.store · https://simnetiq.xyz/ru' : 'Hi ' + $('Webhook').item.json.body.name + ',\\n\\nThanks for contacting SMS Code support. Your message is in our queue and a real person will reply, usually within one business day.\\n\\nWhat you sent us:\\n\\nTopic: ' + $('Webhook').item.json.body.topic + '\\n\\n' + $('Webhook').item.json.body.message + '\\n\\nIf you want to add anything (screenshots, your store receipt, the service and country of the activation), just reply to this email.\\n\\n— SMS Code by SIMNETIQ\\nsupport@simnetiq.store · https://simnetiq.xyz' }}",
         "options": {
           "replyTo": "support@simnetiq.store"
         }

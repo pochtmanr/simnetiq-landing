@@ -16,7 +16,7 @@ export const unitedStates: CountryEntry = {
       title: "A US virtual number for SMS verification",
       intro: [
         "A +1 number is the closest thing the internet has to a default: American services expect it, sign-up forms preselect it, and support flows are built around it. When a service is picky about foreign numbers, a US number is usually the one that just works.",
-        "SMS Activate gives you a real American mobile number in one tap. Enter it at the verification step, and the SMS — with a code from Google, Instagram, TikTok or 35+ other services — appears in the app within seconds.",
+        "SMS Code gives you a real American mobile number in one tap. Enter it at the verification step, and the SMS — with a code from Google, Instagram, TikTok or 35+ other services — appears in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -51,7 +51,7 @@ export const unitedStates: CountryEntry = {
       },
       {
         q: "Can I use a US number from outside the United States?",
-        a: "Yes. The number lives in the SMS Activate app, so your own location and SIM don't matter — you receive the code wherever you are.",
+        a: "Yes. The number lives in the SMS Code app, so your own location and SIM don't matter — you receive the code wherever you are.",
       },
       {
         q: "Do I keep the number after verification?",
@@ -71,7 +71,7 @@ export const unitedStates: CountryEntry = {
       title: "Виртуальный номер США для SMS-верификации",
       intro: [
         "Номер +1 — почти «номер по умолчанию» в интернете: американские сервисы его ожидают, формы регистрации подставляют его первым, а процессы поддержки строятся вокруг него. Если сервис капризничает с иностранными номерами, номер США обычно просто работает.",
-        "SMS Activate выдаёт настоящий американский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от Google, Instagram, TikTok или ещё 35+ сервисов появится в приложении за считанные секунды.",
+        "SMS Code выдаёт настоящий американский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от Google, Instagram, TikTok или ещё 35+ сервисов появится в приложении за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -106,7 +106,7 @@ export const unitedStates: CountryEntry = {
       },
       {
         q: "Можно ли использовать номер США не из Америки?",
-        a: "Да. Номер живёт в приложении SMS Activate, поэтому ваше местоположение и SIM-карта не имеют значения — код вы получите где угодно.",
+        a: "Да. Номер живёт в приложении SMS Code, поэтому ваше местоположение и SIM-карта не имеют значения — код вы получите где угодно.",
       },
       {
         q: "Останется ли номер у меня после подтверждения?",

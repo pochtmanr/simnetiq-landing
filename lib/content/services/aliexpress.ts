@@ -21,7 +21,7 @@ export const aliexpress: ServiceEntry = {
       title: "A virtual number for AliExpress",
       intro: [
         "AliExpress asks for a phone number at sign-up in many regions and keeps texting after that: login checks, order confirmations, the occasional security prompt at checkout. The message is short — “AliExpress verification code: 902731” — but the number you give ends up woven into one of the world’s biggest marketplace ecosystems.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and the code appears in the app within seconds. You get the account verified; the marketplace, its sellers and its logistics partners get a number that isn’t the one in your pocket.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and the code appears in the app within seconds. You get the account verified; the marketplace, its sellers and its logistics partners get a number that isn’t the one in your pocket.",
       ],
     },
     whyVirtual: {
@@ -35,7 +35,7 @@ export const aliexpress: ServiceEntry = {
       title: "How to verify AliExpress with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Pick AliExpress as the service and choose a country — take the one you actually shop and ship from, so the account’s details hang together.",
         },
         {
@@ -44,7 +44,7 @@ export const aliexpress: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "“AliExpress verification code: 902731” lands in the SMS Activate app within seconds. Enter it and the number is confirmed.",
+          body: "“AliExpress verification code: 902731” lands in the SMS Code app within seconds. Enter it and the number is confirmed.",
         },
         {
           title: "Set the delivery contact separately",
@@ -97,7 +97,7 @@ export const aliexpress: ServiceEntry = {
       title: "Виртуальный номер для AliExpress",
       intro: [
         "Во многих регионах AliExpress просит телефон при регистрации — и продолжает писать после неё: проверки входа, подтверждения заказов, редкие запросы безопасности при оплате. Сообщение короткое — «AliExpress verification code: 902731», — но отданный номер вплетается в одну из крупнейших маркетплейс-экосистем мира.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Вы получаете подтверждённый аккаунт, а маркетплейс, его продавцы и логистические партнёры — номер, который лежит не в вашем кармане.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Вы получаете подтверждённый аккаунт, а маркетплейс, его продавцы и логистические партнёры — номер, который лежит не в вашем кармане.",
       ],
     },
     whyVirtual: {
@@ -111,7 +111,7 @@ export const aliexpress: ServiceEntry = {
       title: "Как подтвердить AliExpress виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис AliExpress и страну — берите ту, где вы реально покупаете и получаете посылки, чтобы данные аккаунта сходились между собой.",
         },
         {
@@ -120,7 +120,7 @@ export const aliexpress: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "«AliExpress verification code: 902731» приходит в приложение SMS Activate за секунды. Введите его — и номер подтверждён.",
+          body: "«AliExpress verification code: 902731» приходит в приложение SMS Code за секунды. Введите его — и номер подтверждён.",
         },
         {
           title: "Контакт для доставки укажите отдельно",

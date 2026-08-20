@@ -16,7 +16,7 @@ export const netherlands: CountryEntry = {
       title: "A Dutch virtual number for SMS verification",
       intro: [
         "If you've ever watched a product demo of phone verification, odds are you've seen a +31 6 number on screen — Dutch mobiles are something of a stock example in the industry. That familiarity works in your favor: forms everywhere know exactly what a Netherlands mobile looks like.",
-        "SMS Activate gives you a real Dutch mobile number in one tap. Enter it when Telegram, WhatsApp, Google or another supported service asks for a phone, and the SMS with your code appears in the app within seconds.",
+        "SMS Code gives you a real Dutch mobile number in one tap. Enter it when Telegram, WhatsApp, Google or another supported service asks for a phone, and the SMS with your code appears in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -29,7 +29,7 @@ export const netherlands: CountryEntry = {
     tips: [
       {
         title: "Mobile always means 6",
-        body: "In the Netherlands the 6 after +31 is what marks a mobile — other leading digits are landlines and won't receive texts. Numbers from SMS Activate are mobiles by definition, so the 6 is already in place.",
+        body: "In the Netherlands the 6 after +31 is what marks a mobile — other leading digits are landlines and won't receive texts. Numbers from SMS Code are mobiles by definition, so the 6 is already in place.",
       },
       {
         title: "Zero out, plus in",
@@ -51,7 +51,7 @@ export const netherlands: CountryEntry = {
       },
       {
         q: "Can I receive the SMS without being in the Netherlands?",
-        a: "Yes. The number lives inside the SMS Activate app, so your physical location and your own SIM card are beside the point — the code shows up in the app wherever you are.",
+        a: "Yes. The number lives inside the SMS Code app, so your physical location and your own SIM card are beside the point — the code shows up in the app wherever you are.",
       },
       {
         q: "How do I pay for an activation?",
@@ -71,7 +71,7 @@ export const netherlands: CountryEntry = {
       title: "Виртуальный номер Нидерландов для SMS-верификации",
       intro: [
         "Если вы хоть раз смотрели демо телефонной верификации, скорее всего, видели на экране номер +31 6 — нидерландские мобильные стали в индустрии почти хрестоматийным примером. Эта узнаваемость играет вам на руку: формы по всему миру точно знают, как выглядит мобильный из Нидерландов.",
-        "SMS Activate выдаёт настоящий нидерландский мобильный номер в одно касание. Введите его, когда Telegram, WhatsApp, Google или другой поддерживаемый сервис попросит телефон, — и SMS с кодом появится в приложении за считанные секунды.",
+        "SMS Code выдаёт настоящий нидерландский мобильный номер в одно касание. Введите его, когда Telegram, WhatsApp, Google или другой поддерживаемый сервис попросит телефон, — и SMS с кодом появится в приложении за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -84,7 +84,7 @@ export const netherlands: CountryEntry = {
     tips: [
       {
         title: "Мобильный — всегда шестёрка",
-        body: "В Нидерландах именно шестёрка после +31 отличает мобильный — номера с другими первыми цифрами городские и SMS не принимают. Номера из SMS Activate мобильные по определению, так что шестёрка уже на месте.",
+        body: "В Нидерландах именно шестёрка после +31 отличает мобильный — номера с другими первыми цифрами городские и SMS не принимают. Номера из SMS Code мобильные по определению, так что шестёрка уже на месте.",
       },
       {
         title: "Ноль убрать, плюс добавить",
@@ -106,7 +106,7 @@ export const netherlands: CountryEntry = {
       },
       {
         q: "Можно ли получить SMS, не находясь в Нидерландах?",
-        a: "Да. Номер живёт внутри приложения SMS Activate, поэтому ваше физическое местоположение и собственная SIM-карта ни при чём — код появится в приложении, где бы вы ни были.",
+        a: "Да. Номер живёт внутри приложения SMS Code, поэтому ваше физическое местоположение и собственная SIM-карта ни при чём — код появится в приложении, где бы вы ни были.",
       },
       {
         q: "Как оплачивается активация?",

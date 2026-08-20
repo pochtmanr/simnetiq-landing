@@ -22,12 +22,12 @@ export const cursor: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Cursor — Verify Your Dev Account",
     metaDescription:
-      "Verify Cursor sign-up with a real virtual number. The SMS code arrives in the SMS Activate app in seconds — keep your personal number out of dev-tool accounts.",
+      "Verify Cursor sign-up with a real virtual number. The SMS code arrives in the SMS Code app in seconds — keep your personal number out of dev-tool accounts.",
     hero: {
       title: "A virtual number for Cursor",
       intro: [
         "Cursor — the AI-powered code editor — sits on the same treadmill as every dev tool that gives compute away: free tiers attract abuse, so sign-ups get gated. Alongside email confirmation, Cursor can ask to verify a phone number by SMS before an account or trial goes live, precisely because a working mobile number is harder to mass-produce than an inbox.",
-        "SMS Activate rents you a real number in one of 50+ countries. When Cursor's sign-up asks for a phone, enter the rented one — the six-digit code appears in the SMS Activate app within seconds, and your personal number stays out of one more SaaS database.",
+        "SMS Code rents you a real number in one of 50+ countries. When Cursor's sign-up asks for a phone, enter the rented one — the six-digit code appears in the SMS Code app within seconds, and your personal number stays out of one more SaaS database.",
       ],
     },
     whyVirtual: {
@@ -41,16 +41,16 @@ export const cursor: ServiceEntry = {
       title: "How to verify Cursor with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
-          body: "Open the SMS Activate app, choose Cursor as the service and pick a country — the US, Germany or the Netherlands are typical picks for dev tools. The number is reserved for you instantly.",
+          title: "Rent a number in SMS Code",
+          body: "Open the SMS Code app, choose Cursor as the service and pick a country — the US, Germany or the Netherlands are typical picks for dev tools. The number is reserved for you instantly.",
         },
         {
           title: "Sign up and enter the number",
           body: "Create your Cursor account with an email you control. When the flow asks to verify a phone number, type in the rented one with its matching country code.",
         },
         {
-          title: "Enter the code from SMS Activate",
-          body: "The SMS lands in the SMS Activate app within seconds — “Your Cursor verification code is 812750”. Paste the six digits into Cursor's verification field and you're through.",
+          title: "Enter the code from SMS Code",
+          body: "The SMS lands in the SMS Code app within seconds — “Your Cursor verification code is 812750”. Paste the six digits into Cursor's verification field and you're through.",
         },
         {
           title: "Secure the account itself",
@@ -87,7 +87,7 @@ export const cursor: ServiceEntry = {
       },
       {
         q: "Why didn't my Cursor verification code arrive?",
-        a: "Most often a country-code mismatch, or the service rejected that particular range of numbers. Cancel the activation in SMS Activate — no SMS received means no charge — and retry with a different number or country.",
+        a: "Most often a country-code mismatch, or the service rejected that particular range of numbers. Cancel the activation in SMS Code — no SMS received means no charge — and retry with a different number or country.",
       },
       {
         q: "Is it allowed to verify Cursor with a virtual number?",
@@ -98,12 +98,12 @@ export const cursor: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Cursor — подтвердите аккаунт разработчика",
     metaDescription:
-      "Подтвердите регистрацию в Cursor настоящим виртуальным номером. SMS с кодом придёт в приложение SMS Activate за секунды — личный номер останется при вас.",
+      "Подтвердите регистрацию в Cursor настоящим виртуальным номером. SMS с кодом придёт в приложение SMS Code за секунды — личный номер останется при вас.",
     hero: {
       title: "Виртуальный номер для Cursor",
       intro: [
         "Cursor — редактор кода с ИИ — крутится в том же колесе, что и любой инструмент разработчика, раздающий вычисления бесплатно: бесплатные тарифы притягивают злоупотребления, и регистрацию начинают закрывать шлагбаумами. Помимо подтверждения почты Cursor может запросить проверку номера телефона по SMS, прежде чем аккаунт или триал заработает: живой мобильный номер штамповать сложнее, чем почтовый ящик.",
-        "SMS Activate сдаёт вам настоящий номер в одной из 50+ стран. Когда регистрация Cursor спросит телефон, введите арендованный — шестизначный код появится в приложении SMS Activate за секунды, а ваш личный номер минует ещё одну базу очередного SaaS.",
+        "SMS Code сдаёт вам настоящий номер в одной из 50+ стран. Когда регистрация Cursor спросит телефон, введите арендованный — шестизначный код появится в приложении SMS Code за секунды, а ваш личный номер минует ещё одну базу очередного SaaS.",
       ],
     },
     whyVirtual: {
@@ -117,16 +117,16 @@ export const cursor: ServiceEntry = {
       title: "Как подтвердить Cursor виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис Cursor и страну — для инструментов разработки обычно берут США, Германию или Нидерланды. Номер резервируется за вами мгновенно.",
+          title: "Арендуйте номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис Cursor и страну — для инструментов разработки обычно берут США, Германию или Нидерланды. Номер резервируется за вами мгновенно.",
         },
         {
           title: "Зарегистрируйтесь и введите номер",
           body: "Создайте аккаунт Cursor на почту, которая под вашим контролем. Когда флоу попросит подтвердить телефон, введите арендованный номер с соответствующим кодом страны.",
         },
         {
-          title: "Введите код из SMS Activate",
-          body: "SMS придёт в приложение SMS Activate за секунды: «Your Cursor verification code is 812750». Вставьте шесть цифр в поле подтверждения Cursor — и вы внутри.",
+          title: "Введите код из SMS Code",
+          body: "SMS придёт в приложение SMS Code за секунды: «Your Cursor verification code is 812750». Вставьте шесть цифр в поле подтверждения Cursor — и вы внутри.",
         },
         {
           title: "Защитите сам аккаунт",
@@ -163,7 +163,7 @@ export const cursor: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код подтверждения Cursor?",
-        a: "Чаще всего не совпал код страны либо сервис отклонил конкретный диапазон номеров. Отмените активацию в SMS Activate — нет SMS, нет и списания — и повторите с другим номером или другой страной.",
+        a: "Чаще всего не совпал код страны либо сервис отклонил конкретный диапазон номеров. Отмените активацию в SMS Code — нет SMS, нет и списания — и повторите с другим номером или другой страной.",
       },
       {
         q: "Разрешено ли подтверждать Cursor виртуальным номером?",

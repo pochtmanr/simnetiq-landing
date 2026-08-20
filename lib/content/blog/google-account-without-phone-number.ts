@@ -78,7 +78,7 @@ export const googleAccountWithoutPhoneNumber: BlogPost = {
         items: [
           {
             title: "Rent a number for Google",
-            body: "In the SMS Activate app, pick Google as the service and choose a country. One tap reserves a real mobile number for you alone — you pay one credit from a one-time pack, no subscription.",
+            body: "In the SMS Code app, pick Google as the service and choose a country. One tap reserves a real mobile number for you alone — you pay one credit from a one-time pack, no subscription.",
           },
           {
             title: "Enter it at the verification screen",
@@ -86,7 +86,7 @@ export const googleAccountWithoutPhoneNumber: BlogPost = {
           },
           {
             title: "Copy the code",
-            body: "The SMS — “G-482916 is your Google verification code” — appears in SMS Activate within seconds. Enter it and the sign-up continues.",
+            body: "The SMS — “G-482916 is your Google verification code” — appears in SMS Code within seconds. Enter it and the sign-up continues.",
           },
           {
             title: "Detach the number immediately",
@@ -139,7 +139,7 @@ export const googleAccountWithoutPhoneNumber: BlogPost = {
           },
           {
             q: "Why does Google say my number “can’t be used for verification”?",
-            a: "Google rejects ranges it has seen abused — most free public numbers and some virtual ranges. If a rented number is refused, cancel the activation free in SMS Activate and take a different one, ideally from another country; the next number usually passes.",
+            a: "Google rejects ranges it has seen abused — most free public numbers and some virtual ranges. If a rented number is refused, cancel the activation free in SMS Code and take a different one, ideally from another country; the next number usually passes.",
           },
           {
             q: "Is signing up this way against Google’s terms?",
@@ -222,7 +222,7 @@ export const googleAccountWithoutPhoneNumber: BlogPost = {
         items: [
           {
             title: "Арендуйте номер для Google",
-            body: "В приложении SMS Activate выберите сервис Google и страну. Одно касание резервирует настоящий мобильный номер только за вами — один кредит из разового пакета, без подписки.",
+            body: "В приложении SMS Code выберите сервис Google и страну. Одно касание резервирует настоящий мобильный номер только за вами — один кредит из разового пакета, без подписки.",
           },
           {
             title: "Введите его на экране проверки",
@@ -230,7 +230,7 @@ export const googleAccountWithoutPhoneNumber: BlogPost = {
           },
           {
             title: "Скопируйте код",
-            body: "SMS — «G-482916 is your Google verification code» — появится в SMS Activate за секунды. Введите код, и регистрация продолжится.",
+            body: "SMS — «G-482916 is your Google verification code» — появится в SMS Code за секунды. Введите код, и регистрация продолжится.",
           },
           {
             title: "Сразу отвяжите номер",
@@ -283,7 +283,7 @@ export const googleAccountWithoutPhoneNumber: BlogPost = {
           },
           {
             q: "Почему Google пишет, что номер «нельзя использовать для подтверждения»?",
-            a: "Google отклоняет диапазоны, замеченные в злоупотреблениях, — большинство бесплатных публичных номеров и часть виртуальных. Если арендованный номер отклонён, отмените активацию в SMS Activate бесплатно и возьмите другой, лучше из другой страны, — следующий обычно проходит.",
+            a: "Google отклоняет диапазоны, замеченные в злоупотреблениях, — большинство бесплатных публичных номеров и часть виртуальных. Если арендованный номер отклонён, отмените активацию в SMS Code бесплатно и возьмите другой, лучше из другой страны, — следующий обычно проходит.",
           },
           {
             q: "Не нарушает ли такая регистрация условия Google?",

@@ -15,20 +15,12 @@ export const SERVICES = [
 export const HOME = {
   en: {
     banner: { chip: "NEW", text: "One-time activation packs — no subscription" },
-    promo: {
-      label: "From our team",
-      title: "Meet Doppler VPN",
-      body: "Fast, private, ad-blocking VPN from the same team behind SMS Activate — protect your connection on every device.",
-      codeLabel: "Use code",
-      discount: "25% off",
-      link: "Get Doppler VPN",
-    },
     hero: {
       label: "Virtual numbers · SMS verification",
       titleTop: "A number for the sign‑up.",
       titleAccent: "Not for life.",
-      body: "SMS Activate gives you a real virtual number in 50+ countries and shows the verification code in seconds — so Telegram, WhatsApp, Google and 35+ other services never learn your personal number.",
-      note: "Live on both stores · one-time credit packs, no subscription",
+      body: "SMS Code gives you a real virtual number in 50+ countries and shows the verification code in seconds — so Telegram, WhatsApp, Google and 35+ other services never learn your personal number.",
+      note: "On the App Store · one-time credit packs, no subscription",
     },
     services: {
       label: "Coverage",
@@ -55,7 +47,7 @@ export const HOME = {
       ],
     },
     features: {
-      label: "Why SMS Activate",
+      label: "Why SMS Code",
       title: "Built for people who guard their number",
       sub: "Developers testing sign-up flows, marketers running accounts, and anyone tired of “enter your phone number to continue.”",
       items: [
@@ -184,9 +176,9 @@ export const HOME = {
     },
     compare: {
       label: "Compare",
-      title: "How SMS Activate stacks up",
+      title: "How SMS Code stacks up",
       body: "Weighing us against SMS-Activate.org, 5SIM or another provider? We wrote the side-by-side comparisons ourselves — what each service does well, and where a mobile-first app with one-time credit packs is the better fit.",
-      vsLabel: "SMS Activate vs",
+      vsLabel: "SMS Code vs",
     },
     blog: {
       label: "From the blog",
@@ -201,20 +193,12 @@ export const HOME = {
   },
   ru: {
     banner: { chip: "НОВОЕ", text: "Разовые пакеты активаций — без подписки" },
-    promo: {
-      label: "От нашей команды",
-      title: "Знакомьтесь — Doppler VPN",
-      body: "Быстрый и приватный VPN с блокировкой рекламы от той же команды, что создала SMS Activate — защитите соединение на всех устройствах.",
-      codeLabel: "Промокод",
-      discount: "скидка 25%",
-      link: "Установить Doppler VPN",
-    },
     hero: {
       label: "Виртуальные номера · SMS-верификация",
       titleTop: "Номер для регистрации.",
       titleAccent: "А не на всю жизнь.",
-      body: "SMS Activate даёт вам настоящий виртуальный номер в 50+ странах и показывает код подтверждения за считанные секунды — Telegram, WhatsApp, Google и ещё 35+ сервисов никогда не узнают ваш личный номер.",
-      note: "Доступно в обоих магазинах · разовые пакеты кредитов, без подписки",
+      body: "SMS Code даёт вам настоящий виртуальный номер в 50+ странах и показывает код подтверждения за считанные секунды — Telegram, WhatsApp, Google и ещё 35+ сервисов никогда не узнают ваш личный номер.",
+      note: "Доступно в App Store · разовые пакеты кредитов, без подписки",
     },
     services: {
       label: "Покрытие",
@@ -241,7 +225,7 @@ export const HOME = {
       ],
     },
     features: {
-      label: "Почему SMS Activate",
+      label: "Почему SMS Code",
       title: "Для тех, кто бережёт свой номер",
       sub: "Разработчики, тестирующие регистрацию, маркетологи со множеством аккаунтов и все, кто устал от «введите номер телефона, чтобы продолжить».",
       items: [
@@ -370,9 +354,9 @@ export const HOME = {
     },
     compare: {
       label: "Сравнение",
-      title: "Как SMS Activate выглядит на фоне других",
+      title: "Как SMS Code выглядит на фоне других",
       body: "Выбираете между нами, SMS-Activate.org, 5SIM или другим сервисом? Мы сами написали честные сравнения бок о бок — что каждый сервис делает хорошо и где мобильное приложение с разовыми пакетами кредитов подходит лучше.",
-      vsLabel: "SMS Activate против",
+      vsLabel: "SMS Code против",
     },
     blog: {
       label: "Из блога",

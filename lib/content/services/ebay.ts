@@ -27,7 +27,7 @@ export const ebay: ServiceEntry = {
       title: "A virtual number for eBay",
       intro: [
         "eBay wants a phone number early and checks it often. Registration asks for one, opening a seller account insists on one, and its sign-in protection loves to pause a login until a text like “Your eBay security code is 271846” gets typed back in. For a marketplace where you mostly wanted to buy a camera lens, that’s a lot of connection to your personal phone.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and the code shows up in the app within seconds. The account gets verified, the listing goes live — and the number in eBay’s contact records isn’t the one in your pocket.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and the code shows up in the app within seconds. The account gets verified, the listing goes live — and the number in eBay’s contact records isn’t the one in your pocket.",
       ],
     },
     whyVirtual: {
@@ -41,7 +41,7 @@ export const ebay: ServiceEntry = {
       title: "How to verify eBay with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Pick eBay as the service and choose the country of the eBay site you actually use — ebay.com, ebay.co.uk, ebay.de and the rest share one account, but a matching number keeps your registration details consistent.",
         },
         {
@@ -50,7 +50,7 @@ export const ebay: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The SMS reads “Your eBay security code is 271846” and appears in the SMS Activate app within seconds. Enter it on eBay and the number is confirmed.",
+          body: "The SMS reads “Your eBay security code is 271846” and appears in the SMS Code app within seconds. Enter it on eBay and the number is confirmed.",
         },
         {
           title: "Anchor the account to email",
@@ -75,7 +75,7 @@ export const ebay: ServiceEntry = {
     faqs: [
       {
         q: "Does eBay accept virtual numbers?",
-        a: "eBay verifies that a number can receive its SMS — and a rented number from SMS Activate is a real mobile number on a carrier network, so the code arrives like any other text. Numbers from free SMS sites, by contrast, are usually recognized and refused.",
+        a: "eBay verifies that a number can receive its SMS — and a rented number from SMS Code is a real mobile number on a carrier network, so the code arrives like any other text. Numbers from free SMS sites, by contrast, are usually recognized and refused.",
       },
       {
         q: "Can I sell on eBay with a virtual number?",
@@ -91,7 +91,7 @@ export const ebay: ServiceEntry = {
       },
       {
         q: "The eBay code didn’t arrive — what now?",
-        a: "Double-check the country code matches the rented number and give it a minute; eBay sometimes offers a voice call as an alternative, which won’t reach a rented SMS number — request the text again instead. If nothing arrives, cancel the activation free in SMS Activate and take a fresh number.",
+        a: "Double-check the country code matches the rented number and give it a minute; eBay sometimes offers a voice call as an alternative, which won’t reach a rented SMS number — request the text again instead. If nothing arrives, cancel the activation free in SMS Code and take a fresh number.",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const ebay: ServiceEntry = {
       title: "Виртуальный номер для eBay",
       intro: [
         "eBay просит номер телефона рано и проверяет его часто. Регистрация спрашивает номер, аккаунт продавца без него не открыть, а защита входа обожает остановить логин, пока вы не введёте текст вида «Your eBay security code is 271846». Многовато привязки к личному телефону для площадки, где вы всего лишь хотели купить объектив.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Аккаунт подтверждён, объявление опубликовано — а номер в контактных данных eBay не тот, что лежит у вас в кармане.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Аккаунт подтверждён, объявление опубликовано — а номер в контактных данных eBay не тот, что лежит у вас в кармане.",
       ],
     },
     whyVirtual: {
@@ -117,7 +117,7 @@ export const ebay: ServiceEntry = {
       title: "Как подтвердить eBay виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис eBay и страну того сайта eBay, которым реально пользуетесь: ebay.com, ebay.co.uk, ebay.de и остальные делят один аккаунт, но совпадающий номер сохраняет данные регистрации согласованными.",
         },
         {
@@ -126,7 +126,7 @@ export const ebay: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "SMS выглядит так: «Your eBay security code is 271846» — и появляется в приложении SMS Activate за секунды. Введите код на eBay, и номер подтверждён.",
+          body: "SMS выглядит так: «Your eBay security code is 271846» — и появляется в приложении SMS Code за секунды. Введите код на eBay, и номер подтверждён.",
         },
         {
           title: "Сделайте почту якорем аккаунта",
@@ -151,7 +151,7 @@ export const ebay: ServiceEntry = {
     faqs: [
       {
         q: "Принимает ли eBay виртуальные номера?",
-        a: "eBay проверяет, что номер способен получить его SMS, — а арендованный номер из SMS Activate это настоящий мобильный номер в сети оператора, и код приходит как обычная SMS. Номера с бесплатных сайтов приёма SMS, напротив, обычно распознаются и отклоняются.",
+        a: "eBay проверяет, что номер способен получить его SMS, — а арендованный номер из SMS Code это настоящий мобильный номер в сети оператора, и код приходит как обычная SMS. Номера с бесплатных сайтов приёма SMS, напротив, обычно распознаются и отклоняются.",
       },
       {
         q: "Можно ли продавать на eBay с виртуальным номером?",
@@ -167,7 +167,7 @@ export const ebay: ServiceEntry = {
       },
       {
         q: "Код eBay не пришёл — что делать?",
-        a: "Проверьте, совпадает ли код страны с арендованным номером, и подождите минуту. Иногда eBay предлагает голосовой звонок вместо SMS — до арендованного номера он не дойдёт, запросите именно повторную SMS. Если так ничего и нет, отмените активацию в SMS Activate бесплатно и возьмите свежий номер.",
+        a: "Проверьте, совпадает ли код страны с арендованным номером, и подождите минуту. Иногда eBay предлагает голосовой звонок вместо SMS — до арендованного номера он не дойдёт, запросите именно повторную SMS. Если так ничего и нет, отмените активацию в SMS Code бесплатно и возьмите свежий номер.",
       },
     ],
   },

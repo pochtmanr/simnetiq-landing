@@ -1,13 +1,13 @@
-# SMS Activate by SIMNETIQ
+# SMS Code by SIMNETIQ
 
-> SMS Activate is a mobile app (iOS and Android) by SIMNETIQ LTD that provides temporary virtual phone numbers in 50+ countries for receiving SMS verification codes, so people can sign up for online services (Telegram, WhatsApp, Google, Instagram and 35+ more) without revealing their personal phone number. simnetiq.xyz is the official website, available in English and Russian.
+> SMS Code is a mobile app (iOS) by SIMNETIQ LTD that provides temporary virtual phone numbers in 50+ countries for receiving SMS verification codes, so people can sign up for online services (Telegram, WhatsApp, Google, Instagram and 35+ more) without revealing their personal phone number. simnetiq.xyz is the official website, available in English and Russian.
 
 Key facts:
 - Pricing: one-time in-app credit packs (1, 5 or 10 activations); one credit per successful activation; no subscription; credits never expire. Exact prices are shown in the app and vary by store and region.
 - A code typically arrives within seconds; a pending activation can be cancelled in the app and the credit is returned.
 - No SIM or eSIM is installed; numbers are for one-time verification codes, not for long-term use or 2FA.
 - Operator: SIMNETIQ LTD, a company registered in England and Wales. Support: support@simnetiq.store (replies usually within one business day).
-- Download: App Store https://apps.apple.com/us/app/sms-activate/id6768591062 · Google Play https://play.google.com/store/apps/details?id=com.theholylabs.esim
+- Download: App Store https://apps.apple.com/us/app/id6803515179 — there is no Google Play listing yet.
 
 ## Pages
 
@@ -15,7 +15,7 @@ Key facts:
 - [Virtual numbers hub](https://simnetiq.xyz/virtual-numbers): index of all per-service and per-country guides
 - [Service guides](https://simnetiq.xyz/virtual-numbers/telegram): one guide per service (Telegram, WhatsApp, Google, Instagram, TikTok, Discord, Facebook, X, Snapchat, Tinder, Viber, Signal, Steam, PayPal, Apple, Netflix, Uber, AliExpress, WeChat, LINE, Airbnb, Grab, VK, adidas, Cursor, Twitch, Binance, eBay, Reddit, Fiverr, Shopee, KakaoTalk, Zalo) at /virtual-numbers/<service> — the real verification flow, service-specific tips and FAQs
 - [Country guides](https://simnetiq.xyz/virtual-numbers/country/united-states): one guide per country (US, UK, Germany, France, Poland, Ukraine, Kazakhstan, Netherlands, Indonesia, Philippines, India, Brazil, Canada, Spain, Italy, Turkey, Mexico, Vietnam, Thailand, Portugal) at /virtual-numbers/country/<country> — dialing codes, formats, what each country's numbers suit
-- [Comparisons](https://simnetiq.xyz/alternatives/sms-activate-org): fair comparisons with sms-activate.org, 5SIM, OnlineSIM, SMS-Man and TextVerified at /alternatives/<competitor>
+- [Comparisons](https://simnetiq.xyz/alternatives/sms-activate-org): fair comparisons with SMS-Activate.org, 5SIM, OnlineSim, SMS-Man and TextVerified at /alternatives/<competitor>
 - [Blog](https://simnetiq.xyz/blog): guides on virtual numbers, privacy and SMS verification
 - [Support](https://simnetiq.xyz/support): contact form and self-help for activation, billing and restore-purchase issues
 - [Privacy Policy](https://simnetiq.xyz/privacy-policy): what data is collected and how it is used (UK GDPR)

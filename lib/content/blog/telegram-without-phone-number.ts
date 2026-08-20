@@ -53,14 +53,14 @@ export const telegramWithoutPhoneNumber: BlogPost = {
       },
       {
         type: "p",
-        text: "The whole process takes a couple of minutes. You’ll need the Telegram app and the SMS Activate app side by side — the code arrives in the latter and gets typed into the former.",
+        text: "The whole process takes a couple of minutes. You’ll need the Telegram app and the SMS Code app side by side — the code arrives in the latter and gets typed into the former.",
       },
       {
         type: "steps",
         items: [
           {
             title: "Rent a number for Telegram",
-            body: "In the SMS Activate app, pick Telegram as the service and choose a country — there are real mobile numbers in 50+ countries. One tap reserves a number just for you. You pay per activation from a one-time credit pack; there’s no subscription, and if no code ever arrives, the activation cancels free.",
+            body: "In the SMS Code app, pick Telegram as the service and choose a country — there are real mobile numbers in 50+ countries. One tap reserves a number just for you. You pay per activation from a one-time credit pack; there’s no subscription, and if no code ever arrives, the activation cancels free.",
           },
           {
             title: "Enter the number in Telegram",
@@ -68,7 +68,7 @@ export const telegramWithoutPhoneNumber: BlogPost = {
           },
           {
             title: "Wait for the code — it lands in seconds",
-            body: "Switch back to SMS Activate. The verification SMS appears right in the app, usually within seconds, looking like “Telegram code: 48329”. Copy the code into Telegram.",
+            body: "Switch back to SMS Code. The verification SMS appears right in the app, usually within seconds, looking like “Telegram code: 48329”. Copy the code into Telegram.",
           },
           {
             title: "Finish the profile",
@@ -187,14 +187,14 @@ export const telegramWithoutPhoneNumber: BlogPost = {
       },
       {
         type: "p",
-        text: "Весь процесс занимает пару минут. Понадобятся два приложения рядом — Telegram и SMS Activate: код придёт во второе, а ввести его нужно в первое. И запасной план встроен: если на номер так ничего и не пришло, активация отменяется бесплатно — просто возьмите другой номер и повторите.",
+        text: "Весь процесс занимает пару минут. Понадобятся два приложения рядом — Telegram и SMS Code: код придёт во второе, а ввести его нужно в первое. И запасной план встроен: если на номер так ничего и не пришло, активация отменяется бесплатно — просто возьмите другой номер и повторите.",
       },
       {
         type: "steps",
         items: [
           {
             title: "Арендуйте номер для Telegram",
-            body: "В приложении SMS Activate выберите сервис Telegram и страну — настоящие мобильные номера есть в 50+ странах. Одно касание — и номер зарезервирован только для вас. Оплата за активацию из разового пакета кредитов: подписки нет, а если код так и не пришёл, активация отменяется бесплатно.",
+            body: "В приложении SMS Code выберите сервис Telegram и страну — настоящие мобильные номера есть в 50+ странах. Одно касание — и номер зарезервирован только для вас. Оплата за активацию из разового пакета кредитов: подписки нет, а если код так и не пришёл, активация отменяется бесплатно.",
           },
           {
             title: "Введите номер в Telegram",
@@ -202,7 +202,7 @@ export const telegramWithoutPhoneNumber: BlogPost = {
           },
           {
             title: "Дождитесь кода — он придёт за секунды",
-            body: "Вернитесь в SMS Activate. SMS с подтверждением появится прямо в приложении, обычно за считанные секунды, в виде «Telegram code: 48329». Перенесите код в Telegram.",
+            body: "Вернитесь в SMS Code. SMS с подтверждением появится прямо в приложении, обычно за считанные секунды, в виде «Telegram code: 48329». Перенесите код в Telegram.",
           },
           {
             title: "Завершите профиль",

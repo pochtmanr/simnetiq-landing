@@ -58,7 +58,7 @@ export const secondWhatsappAccount: BlogPost = {
       },
       {
         type: "p",
-        text: "A virtual number is a real mobile number on a real carrier network — you rent it for the verification, the SMS code appears in the SMS Activate app within seconds, and your second WhatsApp gets an identity of its own. No SIM card, no new contract, no monthly line you’ll forget to cancel: you pay per activation from a one-time credit pack, and if no code arrives, the activation cancels free. With numbers available in 50+ countries, you can even give your work account a local number for the market you serve.",
+        text: "A virtual number is a real mobile number on a real carrier network — you rent it for the verification, the SMS code appears in the SMS Code app within seconds, and your second WhatsApp gets an identity of its own. No SIM card, no new contract, no monthly line you’ll forget to cancel: you pay per activation from a one-time credit pack, and if no code arrives, the activation cancels free. With numbers available in 50+ countries, you can even give your work account a local number for the market you serve.",
       },
       {
         type: "h2",
@@ -74,15 +74,15 @@ export const secondWhatsappAccount: BlogPost = {
           },
           {
             title: "Rent a number for WhatsApp",
-            body: "In the SMS Activate app, choose WhatsApp as the service and pick a country. One tap reserves a real mobile number for you alone.",
+            body: "In the SMS Code app, choose WhatsApp as the service and pick a country. One tap reserves a real mobile number for you alone.",
           },
           {
             title: "Enter the number and request the code",
             body: "Type the number into WhatsApp with the matching country selected — a mismatched country code is the most common reason a code never arrives. Choose SMS delivery when asked.",
           },
           {
-            title: "Grab the code from SMS Activate",
-            body: "The verification SMS appears in the SMS Activate app, usually within seconds. Enter the 6-digit code in WhatsApp, set your profile name, and the second account is live.",
+            title: "Grab the code from SMS Code",
+            body: "The verification SMS appears in the SMS Code app, usually within seconds. Enter the 6-digit code in WhatsApp, set your profile name, and the second account is live.",
           },
           {
             title: "Set the two-step PIN immediately",
@@ -127,7 +127,7 @@ export const secondWhatsappAccount: BlogPost = {
           },
           {
             q: "Do I need a second SIM card for a second WhatsApp?",
-            a: "No. WhatsApp needs a number that can receive one verification code — it doesn’t care whether that number lives in your SIM tray. A rented virtual number verifies the account, and the code arrives in the SMS Activate app in seconds.",
+            a: "No. WhatsApp needs a number that can receive one verification code — it doesn’t care whether that number lives in your SIM tray. A rented virtual number verifies the account, and the code arrives in the SMS Code app in seconds.",
           },
           {
             q: "Will WhatsApp ban an account made with a virtual number?",
@@ -198,7 +198,7 @@ export const secondWhatsappAccount: BlogPost = {
       },
       {
         type: "p",
-        text: "Виртуальный номер — это настоящий мобильный номер в реальной сети оператора: вы арендуете его на время верификации, SMS с кодом появляется в приложении SMS Activate за считанные секунды, и у второго WhatsApp появляется собственная личность. Без SIM-карты, без нового договора, без ежемесячной линии, которую вы забудете отключить: оплата за активацию из разового пакета кредитов, а если код не пришёл, активация отменяется бесплатно. Номера доступны в 50+ странах — рабочему аккаунту можно даже дать местный номер того рынка, с которым вы работаете.",
+        text: "Виртуальный номер — это настоящий мобильный номер в реальной сети оператора: вы арендуете его на время верификации, SMS с кодом появляется в приложении SMS Code за считанные секунды, и у второго WhatsApp появляется собственная личность. Без SIM-карты, без нового договора, без ежемесячной линии, которую вы забудете отключить: оплата за активацию из разового пакета кредитов, а если код не пришёл, активация отменяется бесплатно. Номера доступны в 50+ странах — рабочему аккаунту можно даже дать местный номер того рынка, с которым вы работаете.",
       },
       {
         type: "h2",
@@ -214,15 +214,15 @@ export const secondWhatsappAccount: BlogPost = {
           },
           {
             title: "Арендуйте номер для WhatsApp",
-            body: "В приложении SMS Activate выберите сервис WhatsApp и страну. Одно касание — и настоящий мобильный номер зарезервирован только за вами.",
+            body: "В приложении SMS Code выберите сервис WhatsApp и страну. Одно касание — и настоящий мобильный номер зарезервирован только за вами.",
           },
           {
             title: "Введите номер и запросите код",
             body: "Введите номер в WhatsApp, выбрав совпадающую страну, — несовпадение кода страны чаще всего и есть причина, почему код не приходит. На вопрос о способе доставки выберите SMS.",
           },
           {
-            title: "Заберите код из SMS Activate",
-            body: "SMS с подтверждением появится в приложении SMS Activate, обычно за считанные секунды. Введите шестизначный код в WhatsApp, задайте имя профиля — второй аккаунт готов.",
+            title: "Заберите код из SMS Code",
+            body: "SMS с подтверждением появится в приложении SMS Code, обычно за считанные секунды. Введите шестизначный код в WhatsApp, задайте имя профиля — второй аккаунт готов.",
           },
           {
             title: "Сразу включите PIN двухшаговой проверки",
@@ -267,7 +267,7 @@ export const secondWhatsappAccount: BlogPost = {
           },
           {
             q: "Нужна ли вторая SIM-карта для второго WhatsApp?",
-            a: "Нет. WhatsApp нужен номер, способный принять один код подтверждения, — а лежит ли этот номер в вашем SIM-лотке, ему безразлично. Арендованный виртуальный номер подтверждает аккаунт, и код приходит в приложение SMS Activate за секунды.",
+            a: "Нет. WhatsApp нужен номер, способный принять один код подтверждения, — а лежит ли этот номер в вашем SIM-лотке, ему безразлично. Арендованный виртуальный номер подтверждает аккаунт, и код приходит в приложение SMS Code за секунды.",
           },
           {
             q: "Не забанит ли WhatsApp аккаунт на виртуальном номере?",

@@ -16,7 +16,7 @@ export const italy: CountryEntry = {
       title: "An Italian virtual number for SMS verification",
       intro: [
         "An Italian number carries the quiet credibility of an established EU country code. Services worldwide have processed +39 registrations for decades, and inside Europe an Italian mobile passes verification as routinely as any local one — no exotic-country friction, no extra questions.",
-        "SMS Activate gives you a real Italian mobile number in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Instagram, Telegram, Airbnb or Google — arrives in the app within seconds.",
+        "SMS Code gives you a real Italian mobile number in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Instagram, Telegram, Airbnb or Google — arrives in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -29,7 +29,7 @@ export const italy: CountryEntry = {
     tips: [
       {
         title: "3XX means mobile in Italy",
-        body: "Italian landlines start with 0 and mobiles with 3, so the 3XX prefix is the giveaway services look for. Numbers from SMS Activate use the mobile format — exactly what verification flows expect.",
+        body: "Italian landlines start with 0 and mobiles with 3, so the 3XX prefix is the giveaway services look for. Numbers from SMS Code use the mobile format — exactly what verification flows expect.",
       },
       {
         title: "An EU number with broad acceptance",
@@ -55,7 +55,7 @@ export const italy: CountryEntry = {
       },
       {
         q: "Do I need to be in Italy to receive the SMS?",
-        a: "No. The number lives in the SMS Activate app, so the verification code reaches you wherever you are — no Italian SIM and no roaming involved.",
+        a: "No. The number lives in the SMS Code app, so the verification code reaches you wherever you are — no Italian SIM and no roaming involved.",
       },
       {
         q: "How long does the number stay with me?",
@@ -71,7 +71,7 @@ export const italy: CountryEntry = {
       title: "Виртуальный номер Италии для SMS-верификации",
       intro: [
         "Итальянский номер несёт тихую солидность давно устоявшегося европейского кода. Сервисы по всему миру обрабатывают регистрации с +39 десятилетиями, а внутри Европы итальянский мобильный проходит верификацию так же буднично, как любой местный, — без «экзотических» сложностей и лишних вопросов.",
-        "SMS Activate выдаёт настоящий итальянский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, Telegram, Airbnb или Google придёт в приложение за считанные секунды.",
+        "SMS Code выдаёт настоящий итальянский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, Telegram, Airbnb или Google придёт в приложение за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -84,7 +84,7 @@ export const italy: CountryEntry = {
     tips: [
       {
         title: "3XX в Италии — значит мобильный",
-        body: "Итальянские городские номера начинаются с нуля, а мобильные — с тройки, так что префикс 3XX и есть тот признак, который ищут сервисы. Номера из SMS Activate используют мобильный формат — ровно то, чего ждут сценарии верификации.",
+        body: "Итальянские городские номера начинаются с нуля, а мобильные — с тройки, так что префикс 3XX и есть тот признак, который ищут сервисы. Номера из SMS Code используют мобильный формат — ровно то, чего ждут сценарии верификации.",
       },
       {
         title: "Европейский номер с широким признанием",
@@ -110,7 +110,7 @@ export const italy: CountryEntry = {
       },
       {
         q: "Нужно ли быть в Италии, чтобы получить SMS?",
-        a: "Нет. Номер живёт в приложении SMS Activate, поэтому код подтверждения дойдёт до вас в любой точке мира — без итальянской SIM-карты и роуминга.",
+        a: "Нет. Номер живёт в приложении SMS Code, поэтому код подтверждения дойдёт до вас в любой точке мира — без итальянской SIM-карты и роуминга.",
       },
       {
         q: "Как долго номер остаётся у меня?",

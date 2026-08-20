@@ -27,7 +27,7 @@ export const shopee: ServiceEntry = {
       title: "A virtual number for Shopee",
       intro: [
         "Shopee is phone-first in a way Western marketplaces aren’t: across Southeast Asia and Brazil, the number is effectively the account. Sign-up starts with a phone, an OTP like “382916 is your Shopee verification code” confirms it, and from then on that number is your login, your recovery route — and the address for a steady stream of flash-sale SMS.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The account gets verified — and the marketing barrage points somewhere other than the phone that wakes you up at night.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The account gets verified — and the marketing barrage points somewhere other than the phone that wakes you up at night.",
       ],
     },
     whyVirtual: {
@@ -41,7 +41,7 @@ export const shopee: ServiceEntry = {
       title: "How to verify Shopee with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Pick Shopee as the service and choose the country that matches the Shopee market you’re shopping on — the Indonesian app expects an Indonesian number, the Thai app a Thai one. One tap reserves a real mobile number.",
         },
         {
@@ -50,7 +50,7 @@ export const shopee: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The SMS reads “382916 is your Shopee verification code” and appears in SMS Activate within seconds. Enter it and the account is live.",
+          body: "The SMS reads “382916 is your Shopee verification code” and appears in SMS Code within seconds. Enter it and the account is live.",
         },
         {
           title: "Give the account a second anchor",
@@ -83,7 +83,7 @@ export const shopee: ServiceEntry = {
       },
       {
         q: "Will promo SMS come to my personal phone?",
-        a: "No — that’s half the point. Marketing texts chase the number on the account, and that number lives in the SMS Activate app, not in your pocket. You can also trim notifications in Shopee’s settings.",
+        a: "No — that’s half the point. Marketing texts chase the number on the account, and that number lives in the SMS Code app, not in your pocket. You can also trim notifications in Shopee’s settings.",
       },
       {
         q: "Can I open a Shopee seller account this way?",
@@ -91,7 +91,7 @@ export const shopee: ServiceEntry = {
       },
       {
         q: "Why didn’t the Shopee code arrive?",
-        a: "Most often the number’s country doesn’t match the Shopee market, or the country code was mistyped. If the SMS genuinely never comes, cancel the activation in SMS Activate free of charge and take another number.",
+        a: "Most often the number’s country doesn’t match the Shopee market, or the country code was mistyped. If the SMS genuinely never comes, cancel the activation in SMS Code free of charge and take another number.",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const shopee: ServiceEntry = {
       title: "Виртуальный номер для Shopee",
       intro: [
         "Shopee завязан на телефон сильнее западных маркетплейсов: в Юго-Восточной Азии и Бразилии номер — это, по сути, и есть аккаунт. Регистрация начинается с телефона, OTP вида «382916 is your Shopee verification code» его подтверждает, и дальше этот номер — ваш логин, путь восстановления и адрес для нескончаемых SMS о распродажах.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Аккаунт подтверждён — а рекламная канонада целится куда-то ещё, а не в телефон, который будит вас по ночам.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Аккаунт подтверждён — а рекламная канонада целится куда-то ещё, а не в телефон, который будит вас по ночам.",
       ],
     },
     whyVirtual: {
@@ -117,7 +117,7 @@ export const shopee: ServiceEntry = {
       title: "Как подтвердить Shopee виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис Shopee и страну того рынка Shopee, где вы покупаете: индонезийское приложение ждёт индонезийский номер, тайское — тайский. Одно касание — и настоящий мобильный номер зарезервирован.",
         },
         {
@@ -126,7 +126,7 @@ export const shopee: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "SMS выглядит так: «382916 is your Shopee verification code» — и появляется в SMS Activate за секунды. Введите код, и аккаунт создан.",
+          body: "SMS выглядит так: «382916 is your Shopee verification code» — и появляется в SMS Code за секунды. Введите код, и аккаунт создан.",
         },
         {
           title: "Дайте аккаунту второй якорь",
@@ -159,7 +159,7 @@ export const shopee: ServiceEntry = {
       },
       {
         q: "Придут ли рекламные SMS на мой личный телефон?",
-        a: "Нет — в этом половина смысла. Маркетинговые сообщения гонятся за номером в аккаунте, а он живёт в приложении SMS Activate, а не у вас в кармане. Уведомления можно дополнительно подрезать в настройках Shopee.",
+        a: "Нет — в этом половина смысла. Маркетинговые сообщения гонятся за номером в аккаунте, а он живёт в приложении SMS Code, а не у вас в кармане. Уведомления можно дополнительно подрезать в настройках Shopee.",
       },
       {
         q: "Можно ли так открыть аккаунт продавца Shopee?",
@@ -167,7 +167,7 @@ export const shopee: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Shopee?",
-        a: "Чаще всего страна номера не совпадает с рынком Shopee или код страны введён с ошибкой. Если SMS действительно не приходит, отмените активацию в SMS Activate бесплатно и возьмите другой номер.",
+        a: "Чаще всего страна номера не совпадает с рынком Shopee или код страны введён с ошибкой. Если SMS действительно не приходит, отмените активацию в SMS Code бесплатно и возьмите другой номер.",
       },
     ],
   },

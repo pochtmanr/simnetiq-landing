@@ -1,14 +1,8 @@
 import type { Metadata } from "next";
 import { languageAlternates, localePath, type Locale } from "./i18n";
-import {
-  APP_NAME,
-  APP_STORE_URL,
-  COMPANY,
-  PLAY_STORE_URL,
-  SITE_URL,
-} from "./site";
+import { APP_NAME, APP_STORE_URL, COMPANY, SITE_URL } from "./site";
 
-const SITE_NAME = "SMS Activate by SIMNETIQ";
+const SITE_NAME = "SMS Code by SIMNETIQ";
 
 /* ---------------------------------------------------------------------------
  * Metadata
@@ -97,10 +91,10 @@ export function softwareApplication(locale: Locale) {
     "@context": "https://schema.org",
     "@type": "MobileApplication",
     name: APP_NAME,
-    operatingSystem: "iOS, Android",
+    operatingSystem: "iOS",
     applicationCategory: "UtilitiesApplication",
     url: absolute(locale, "/"),
-    installUrl: [APP_STORE_URL, PLAY_STORE_URL],
+    installUrl: [APP_STORE_URL],
     author: { "@type": "Organization", name: COMPANY, url: SITE_URL },
     description:
       locale === "ru"

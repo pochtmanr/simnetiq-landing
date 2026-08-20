@@ -27,7 +27,7 @@ export const viber: ServiceEntry = {
       title: "A virtual number for Viber",
       intro: [
         "Viber plays by the same rule as WhatsApp: your phone number is the account. It's what you register with, what your contacts see, and what every chat is anchored to. Across Eastern Europe, the Balkans and the Philippines it's simply where the family group chat lives — so sooner or later you need a number to join in.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries, enter it on Viber's activation screen, and the code appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and a number that received nothing can be cancelled without charge.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries, enter it on Viber's activation screen, and the code appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and a number that received nothing can be cancelled without charge.",
       ],
     },
     whyVirtual: {
@@ -41,12 +41,12 @@ export const viber: ServiceEntry = {
       title: "How to activate Viber with a virtual number",
       steps: [
         {
-          title: "Get a number in SMS Activate",
-          body: "Open the SMS Activate app, choose Viber as the service, pick a country and tap once. A real mobile number is reserved just for you for the length of the activation.",
+          title: "Get a number in SMS Code",
+          body: "Open the SMS Code app, choose Viber as the service, pick a country and tap once. A real mobile number is reserved just for you for the length of the activation.",
         },
         {
           title: "Enter it on Viber's activation screen",
-          body: "Select the matching country and type the number exactly as issued. If Viber offers to verify by phone call instead, stick with SMS — that's what lands in the SMS Activate app.",
+          body: "Select the matching country and type the number exactly as issued. If Viber offers to verify by phone call instead, stick with SMS — that's what lands in the SMS Code app.",
         },
         {
           title: "Grab the code",
@@ -87,7 +87,7 @@ export const viber: ServiceEntry = {
       },
       {
         q: "Why didn't my Viber code arrive?",
-        a: "Check the basics first: the country selected in Viber has to match the rented number. If it does and the SMS still doesn't come, cancel the pending activation in SMS Activate — numbers that received nothing are never charged — and take a fresh number. Choose SMS rather than a callback when Viber offers both.",
+        a: "Check the basics first: the country selected in Viber has to match the rented number. If it does and the SMS still doesn't come, cancel the pending activation in SMS Code — numbers that received nothing are never charged — and take a fresh number. Choose SMS rather than a callback when Viber offers both.",
       },
       {
         q: "Is activating Viber with a rented number allowed?",
@@ -103,7 +103,7 @@ export const viber: ServiceEntry = {
       title: "Виртуальный номер для Viber",
       intro: [
         "Viber играет по тому же правилу, что и WhatsApp: номер телефона — это и есть аккаунт. На него вы регистрируетесь, его видят собеседники, к нему привязан каждый чат. В Восточной Европе, на Балканах и на Филиппинах именно здесь живёт семейный чат — так что рано или поздно номер понадобится, чтобы к нему присоединиться.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его на экране активации Viber — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а номер, на который ничего не пришло, отменяется без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его на экране активации Viber — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а номер, на который ничего не пришло, отменяется без списания.",
       ],
     },
     whyVirtual: {
@@ -117,12 +117,12 @@ export const viber: ServiceEntry = {
       title: "Как активировать Viber виртуальным номером",
       steps: [
         {
-          title: "Получите номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис Viber, страну — и нажмите один раз. Настоящий мобильный номер резервируется только за вами на время активации.",
+          title: "Получите номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис Viber, страну — и нажмите один раз. Настоящий мобильный номер резервируется только за вами на время активации.",
         },
         {
           title: "Введите его на экране активации Viber",
-          body: "Выберите соответствующую страну и введите номер ровно так, как он выдан. Если Viber предложит подтверждение звонком — выбирайте SMS: именно она придёт в приложение SMS Activate.",
+          body: "Выберите соответствующую страну и введите номер ровно так, как он выдан. Если Viber предложит подтверждение звонком — выбирайте SMS: именно она придёт в приложение SMS Code.",
         },
         {
           title: "Заберите код",
@@ -163,7 +163,7 @@ export const viber: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Viber?",
-        a: "Сначала проверьте очевидное: страна, выбранная в Viber, должна совпадать с арендованным номером. Если совпадает, а SMS всё нет — отмените ожидающую активацию в SMS Activate (за номера, на которые ничего не пришло, деньги не списываются) и возьмите новый номер. Когда Viber предлагает на выбор SMS или звонок — выбирайте SMS.",
+        a: "Сначала проверьте очевидное: страна, выбранная в Viber, должна совпадать с арендованным номером. Если совпадает, а SMS всё нет — отмените ожидающую активацию в SMS Code (за номера, на которые ничего не пришло, деньги не списываются) и возьмите новый номер. Когда Viber предлагает на выбор SMS или звонок — выбирайте SMS.",
       },
       {
         q: "Разрешено ли активировать Viber арендованным номером?",

@@ -5,14 +5,14 @@ export const smsMan: AlternativeEntry = {
   competitorName: "SMS-Man",
   updatedAt: "2026-07-07",
   en: {
-    metaTitle: "SMS-Man Alternative — SMS Activate App by SIMNETIQ",
+    metaTitle: "SMS-Man Alternative — SMS Code App by SIMNETIQ",
     metaDescription:
-      "Comparing SMS-Man with the SMS Activate app by SIMNETIQ: a web service with many top-up methods versus a native mobile app billed safely through Apple and Google.",
+      "Comparing SMS-Man with the SMS Code app by SIMNETIQ: a web service with many top-up methods versus a native mobile app billed safely through Apple and Google.",
     hero: {
       title: "An SMS-Man alternative billed through your app store",
       intro: [
         "SMS-Man is a long-running web service for receiving SMS verification codes on virtual numbers. You register on their site, top up an account balance — public descriptions of the service mention a wide spread of methods, from bank cards to e-payment systems and cryptocurrency — and buy numbers per activation, with an API available for automated workflows.",
-        "The SMS Activate app by SIMNETIQ trades that flexibility for a simpler trust model. It's a native iOS and Android app where payment happens entirely through Apple or Google billing: you buy a one-time credit pack the same way you'd buy any in-app purchase, and no card number, wallet address or payment credential is ever shared with us. Pick a service and country, and the code arrives in-app within seconds.",
+        "SMS Code by SIMNETIQ trades that flexibility for a simpler trust model. It's a native iOS app where payment happens entirely through Apple billing: you buy a one-time credit pack the same way you'd buy any in-app purchase, and no card number, wallet address or payment credential is ever shared with us. Pick a service and country, and the code arrives in-app within seconds.",
       ],
     },
     whenThem: {
@@ -20,16 +20,16 @@ export const smsMan: AlternativeEntry = {
       body: "Choose SMS-Man if how you pay matters as much as what you buy. A web service that accepts many top-up routes — including options like cryptocurrency that store billing simply doesn't offer — suits users whose preferred payment method falls outside Apple's and Google's rails. Their API also serves developers automating verification at volume, and their catalog of countries and services is pitched at that broader, heavier use.",
     },
     whenUs: {
-      title: "When the SMS Activate app fits better",
+      title: "When the SMS Code app fits better",
       body: "Choose the app if you'd rather not hand payment details to a niche website at all. Store billing is the whole point: Apple or Google processes the charge, we never see your card, and the purchase sits in your normal store history with its usual protections. On top of that you get the native-app experience — a few taps from service to code, 50+ countries, 35+ popular services, one-time credit packs with no subscription, and free cancellation whenever an activation receives no SMS.",
     },
     comparison: {
-      title: "SMS-Man vs the SMS Activate app, side by side",
+      title: "SMS-Man vs the SMS Code app, side by side",
       rows: [
         {
           label: "Platforms",
           competitor: "Web service with an API for automation",
-          us: "Native iOS and Android app from the App Store and Google Play",
+          us: "Native iOS app from the App Store",
         },
         {
           label: "Pricing model",
@@ -39,7 +39,7 @@ export const smsMan: AlternativeEntry = {
         {
           label: "Payment",
           competitor: "Balance top-up with many methods, per public descriptions including cards, e-payments and crypto",
-          us: "Apple / Google store billing only — no payment details shared with us",
+          us: "Apple store billing only — no payment details shared with us",
         },
         {
           label: "Coverage",
@@ -69,7 +69,7 @@ export const smsMan: AlternativeEntry = {
       steps: [
         {
           title: "Install the app",
-          body: "Get SMS Activate by SIMNETIQ from the App Store or Google Play — no website registration or balance top-up involved.",
+          body: "Get SMS Code by SIMNETIQ from the App Store — no website registration or balance top-up involved.",
         },
         {
           title: "Grab a credit pack",
@@ -83,12 +83,12 @@ export const smsMan: AlternativeEntry = {
     },
     faqs: [
       {
-        q: "How is paying in the SMS Activate app different from SMS-Man?",
-        a: "SMS-Man works like most web services: you top up a site balance using one of the methods they accept. In the app, payment goes exclusively through Apple or Google billing — a normal in-app purchase — so no card number or payment credential is ever shared with us.",
+        q: "How is paying in the SMS Code app different from SMS-Man?",
+        a: "SMS-Man works like most web services: you top up a site balance using one of the methods they accept. In the app, payment goes exclusively through Apple billing — a normal in-app purchase — so no card number or payment credential is ever shared with us.",
       },
       {
         q: "Can I pay with cryptocurrency in the app?",
-        a: "No. Store billing doesn't support crypto, and the app doesn't accept payment outside the App Store and Google Play. If crypto is a requirement, a web service like SMS-Man that lists such options is the better fit.",
+        a: "No. Store billing doesn't support crypto, and the app doesn't accept payment outside the App Store. If crypto is a requirement, a web service like SMS-Man that lists such options is the better fit.",
       },
       {
         q: "Is there a subscription or recurring charge?",
@@ -105,14 +105,14 @@ export const smsMan: AlternativeEntry = {
     ],
   },
   ru: {
-    metaTitle: "Альтернатива SMS-Man — SMS Activate от SIMNETIQ",
+    metaTitle: "Альтернатива SMS-Man — SMS Code от SIMNETIQ",
     metaDescription:
-      "Сравниваем SMS-Man и приложение SMS Activate от SIMNETIQ: веб-сервис со множеством способов пополнения против нативного приложения с безопасной оплатой через Apple и Google.",
+      "Сравниваем SMS-Man и приложение SMS Code от SIMNETIQ: веб-сервис со множеством способов пополнения против нативного приложения с безопасной оплатой через Apple и Google.",
     hero: {
       title: "Альтернатива SMS-Man с оплатой через магазин приложений",
       intro: [
         "SMS-Man — давно работающий веб-сервис приёма SMS-кодов на виртуальные номера. Вы регистрируетесь на их сайте, пополняете баланс — публичные описания сервиса упоминают широкий набор способов, от банковских карт до электронных платёжных систем и криптовалюты — и покупаете номера поштучно; для автоматизации есть API.",
-        "Приложение SMS Activate от SIMNETIQ меняет эту гибкость на более простую модель доверия. Это нативное приложение для iOS и Android, где оплата целиком проходит через Apple или Google: вы покупаете разовый пакет кредитов так же, как любую встроенную покупку, и ни номер карты, ни адрес кошелька, ни другие платёжные данные нам не передаются. Выбираете сервис и страну — и код приходит в приложение за секунды.",
+        "Приложение SMS Code от SIMNETIQ меняет эту гибкость на более простую модель доверия. Это нативное приложение для iOS, где оплата целиком проходит через Apple: вы покупаете разовый пакет кредитов так же, как любую встроенную покупку, и ни номер карты, ни адрес кошелька, ни другие платёжные данные нам не передаются. Выбираете сервис и страну — и код приходит в приложение за секунды.",
       ],
     },
     whenThem: {
@@ -120,16 +120,16 @@ export const smsMan: AlternativeEntry = {
       body: "Выбирайте SMS-Man, если способ оплаты важен не меньше самой покупки. Веб-сервис с множеством путей пополнения — включая варианты вроде криптовалюты, которых у магазинов приложений попросту нет, — подходит тем, чей привычный способ платежа лежит вне рельсов Apple и Google. Их API пригодится разработчикам, автоматизирующим верификацию в объёмах, а каталог стран и сервисов рассчитан именно на такое, более интенсивное использование.",
     },
     whenUs: {
-      title: "Когда приложение SMS Activate подходит лучше",
+      title: "Когда приложение SMS Code подходит лучше",
       body: "Выбирайте приложение, если вообще не хотите оставлять платёжные данные на нишевом сайте. Оплата через магазин — в этом весь смысл: списание проводит Apple или Google, мы вашу карту не видим, а покупка попадает в обычную историю магазина со всеми привычными гарантиями. Плюс всё остальное, что даёт нативное приложение: пара касаний от сервиса до кода, 50+ стран, 35+ популярных сервисов, разовые пакеты кредитов без подписки и бесплатная отмена всякий раз, когда на активацию не пришла SMS.",
     },
     comparison: {
-      title: "SMS-Man и приложение SMS Activate: сравнение",
+      title: "SMS-Man и приложение SMS Code: сравнение",
       rows: [
         {
           label: "Платформы",
           competitor: "Веб-сервис с API для автоматизации",
-          us: "Нативное приложение для iOS и Android из App Store и Google Play",
+          us: "Нативное приложение для iOS из App Store",
         },
         {
           label: "Модель оплаты",
@@ -169,7 +169,7 @@ export const smsMan: AlternativeEntry = {
       steps: [
         {
           title: "Установите приложение",
-          body: "Скачайте SMS Activate от SIMNETIQ из App Store или Google Play — без регистрации на сайте и пополнения баланса.",
+          body: "Скачайте SMS Code от SIMNETIQ из App Store — без регистрации на сайте и пополнения баланса.",
         },
         {
           title: "Возьмите пакет кредитов",
@@ -183,12 +183,12 @@ export const smsMan: AlternativeEntry = {
     },
     faqs: [
       {
-        q: "Чем оплата в приложении SMS Activate отличается от SMS-Man?",
+        q: "Чем оплата в приложении SMS Code отличается от SMS-Man?",
         a: "SMS-Man работает как большинство веб-сервисов: вы пополняете баланс на сайте одним из принимаемых ими способов. В приложении оплата идёт исключительно через Apple или Google — как обычная встроенная покупка, — поэтому ни номер карты, ни другие платёжные данные нам не передаются.",
       },
       {
         q: "Можно ли платить в приложении криптовалютой?",
-        a: "Нет. Магазины приложений криптовалюту не поддерживают, а вне App Store и Google Play приложение платежи не принимает. Если криптовалюта — обязательное условие, веб-сервис вроде SMS-Man с такими вариантами подойдёт лучше.",
+        a: "Нет. Магазины приложений криптовалюту не поддерживают, а вне App Store приложение платежи не принимает. Если криптовалюта — обязательное условие, веб-сервис вроде SMS-Man с такими вариантами подойдёт лучше.",
       },
       {
         q: "Есть ли подписка или регулярные списания?",

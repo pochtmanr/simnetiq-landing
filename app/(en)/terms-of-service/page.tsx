@@ -6,7 +6,7 @@ import { languageAlternates } from "../../../lib/i18n";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "The terms that govern your use of the SMS Activate app and simnetiq.xyz, operated by SIMNETIQ LTD.",
+    "The terms that govern your use of the SMS Code app and simnetiq.xyz, operated by SIMNETIQ LTD.",
   alternates: {
     canonical: "/terms-of-service",
     languages: languageAlternates("/terms-of-service"),
@@ -21,7 +21,7 @@ export default function TermsOfServicePage() {
           These Terms of Service (&ldquo;Terms&rdquo;) are an agreement between
           you and SIMNETIQ LTD, a company registered in England and Wales
           (&ldquo;we&rdquo;, &ldquo;us&rdquo;), and govern your use of the SMS
-          Activate mobile application (the &ldquo;App&rdquo;) and the website
+          Code mobile application (the &ldquo;App&rdquo;) and the website
           simnetiq.xyz (the &ldquo;Site&rdquo;). By installing or using the App
           you accept these Terms. If you do not agree, do not use the App.
         </p>
@@ -47,7 +47,7 @@ export default function TermsOfServicePage() {
 
       <LegalSection title="4. Credits and purchases">
         <ul>
-          <li>Activation credits are one-time in-app purchases processed by Apple App Store or Google Play under their payment terms.</li>
+          <li>Activation credits are one-time in-app purchases processed by the Apple App Store under its payment terms.</li>
           <li>One credit is spent per successful activation. If an activation is cancelled before a code is received, the credit is returned to your balance.</li>
           <li>Credits do not expire, are not transferable, and have no cash value.</li>
           <li>Refunds are handled through the store you purchased from, under that store&rsquo;s refund policy.</li>

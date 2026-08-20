@@ -16,7 +16,7 @@ export const mexico: CountryEntry = {
       title: "A Mexican virtual number for SMS verification",
       intro: [
         "In Mexico, WhatsApp isn't an app — it's the phone. Businesses take orders on it, families live in it, and a Mexican mobile number is presumed to have WhatsApp attached. That makes a +52 number one of the most natural-looking choices anywhere for verifying messengers and the everyday apps built around them.",
-        "SMS Activate rents you a real Mexican mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Mexican mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -33,7 +33,7 @@ export const mexico: CountryEntry = {
       },
       {
         title: "The WhatsApp country",
-        body: "Mexican numbers verify WhatsApp constantly — it's their single most common job, and the flow is as well-trodden as flows get. If a code is slow, the free cancel-and-retake loop in SMS Activate makes a second attempt cheaper than waiting.",
+        body: "Mexican numbers verify WhatsApp constantly — it's their single most common job, and the flow is as well-trodden as flows get. If a code is slow, the free cancel-and-retake loop in SMS Code makes a second attempt cheaper than waiting.",
       },
       {
         title: "Grab the code first, profile later",
@@ -51,7 +51,7 @@ export const mexico: CountryEntry = {
       },
       {
         q: "Do I have to be in Mexico to receive the SMS?",
-        a: "No. The number and its messages live in the SMS Activate app, so your location and your own SIM card don't matter — the code reaches you wherever you are.",
+        a: "No. The number and its messages live in the SMS Code app, so your location and your own SIM card don't matter — the code reaches you wherever you are.",
       },
       {
         q: "What if the verification code never arrives?",
@@ -71,7 +71,7 @@ export const mexico: CountryEntry = {
       title: "Виртуальный номер Мексики для SMS-верификации",
       intro: [
         "В Мексике WhatsApp — не приложение, а сам телефон. Бизнес принимает в нём заказы, семьи в нём живут, и у мексиканского мобильного номера WhatsApp подразумевается по умолчанию. Поэтому номер +52 — один из самых естественных вариантов для верификации мессенджеров и повседневных приложений вокруг них.",
-        "SMS Activate сдаёт настоящий мексиканский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий мексиканский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {
@@ -88,7 +88,7 @@ export const mexico: CountryEntry = {
       },
       {
         title: "Страна WhatsApp",
-        body: "Мексиканскими номерами постоянно подтверждают WhatsApp — это их главная работа, и путь протоптан как никакой другой. Если код задерживается, цикл «бесплатно отменить и взять новый» в SMS Activate делает вторую попытку дешевле ожидания.",
+        body: "Мексиканскими номерами постоянно подтверждают WhatsApp — это их главная работа, и путь протоптан как никакой другой. Если код задерживается, цикл «бесплатно отменить и взять новый» в SMS Code делает вторую попытку дешевле ожидания.",
       },
       {
         title: "Сначала код, потом профиль",
@@ -106,7 +106,7 @@ export const mexico: CountryEntry = {
       },
       {
         q: "Нужно ли находиться в Мексике, чтобы получить SMS?",
-        a: "Нет. Номер и его сообщения живут в приложении SMS Activate, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
+        a: "Нет. Номер и его сообщения живут в приложении SMS Code, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
       },
       {
         q: "Что, если код подтверждения так и не придёт?",

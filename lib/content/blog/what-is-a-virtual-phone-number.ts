@@ -123,8 +123,8 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
         type: "list",
         items: [
           "Real, dedicated mobile numbers — not the shared numbers on free “receive SMS online” sites. Those are used by thousands of people, so services blocklist them or find them already registered; and anyone else viewing the same page can read your code.",
-          "A fair cancellation policy: if no SMS arrives, you shouldn’t pay. With SMS Activate, an activation that received nothing cancels free.",
-          "Country coverage that matches your needs — SMS Activate offers numbers in 50+ countries, which also gives you alternatives when one route is slow.",
+          "A fair cancellation policy: if no SMS arrives, you shouldn’t pay. With SMS Code, an activation that received nothing cancels free.",
+          "Country coverage that matches your needs — SMS Code offers numbers in 50+ countries, which also gives you alternatives when one route is slow.",
           "Pricing you can reason about: pay-per-activation from a one-time credit pack beats a subscription if your need is occasional — you shouldn’t rent a monthly line to receive one code.",
         ],
       },
@@ -278,8 +278,8 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
         type: "list",
         items: [
           "Настоящие выделенные мобильные номера — а не общие номера с бесплатных сайтов «приёма SMS онлайн». Теми пользуются тысячи людей: сервисы вносят их в чёрные списки или находят уже зарегистрированными, а ваш код может прочитать любой посетитель той же страницы.",
-          "Честная политика отмены: если SMS не пришла, платить вы не должны. В SMS Activate активация, на которую ничего не пришло, отменяется бесплатно.",
-          "Покрытие стран под ваши задачи — в SMS Activate номера доступны в 50+ странах, а это ещё и запасные варианты, когда какое-то направление работает медленно.",
+          "Честная политика отмены: если SMS не пришла, платить вы не должны. В SMS Code активация, на которую ничего не пришло, отменяется бесплатно.",
+          "Покрытие стран под ваши задачи — в SMS Code номера доступны в 50+ странах, а это ещё и запасные варианты, когда какое-то направление работает медленно.",
           "Понятная модель оплаты: оплата за активацию из разового пакета кредитов выгоднее подписки, если номера нужны от случая к случаю, — не стоит арендовать линию на месяц ради одного кода.",
         ],
       },

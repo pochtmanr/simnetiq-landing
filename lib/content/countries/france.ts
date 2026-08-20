@@ -16,7 +16,7 @@ export const france: CountryEntry = {
       title: "A French virtual number for SMS verification",
       intro: [
         "French mobiles start with 06 or 07, and every sign-up form in Europe knows what to do with them. A +33 number reads as a mainstream Western European mobile — familiar to lifestyle apps like Tinder and Uber, travel platforms like Airbnb, and every global service in between.",
-        "SMS Activate gives you a real French mobile number in one tap. Type it into the verification field, and the SMS with your code from Instagram, Google or another supported service appears in the app within seconds.",
+        "SMS Code gives you a real French mobile number in one tap. Type it into the verification field, and the SMS with your code from Instagram, Google or another supported service appears in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -51,7 +51,7 @@ export const france: CountryEntry = {
       },
       {
         q: "Can I use a +33 number from outside France?",
-        a: "Yes. The number lives inside the SMS Activate app, so where you are and what SIM your phone carries make no difference — the code reaches you anywhere.",
+        a: "Yes. The number lives inside the SMS Code app, so where you are and what SIM your phone carries make no difference — the code reaches you anywhere.",
       },
       {
         q: "Will the verification SMS be in French?",
@@ -71,7 +71,7 @@ export const france: CountryEntry = {
       title: "Виртуальный номер Франции для SMS-верификации",
       intro: [
         "Французские мобильные начинаются с 06 или 07, и любая регистрационная форма в Европе знает, что с ними делать. Номер +33 читается как привычный западноевропейский мобильный — знакомый и лайфстайл-приложениям вроде Tinder и Uber, и туристическим платформам вроде Airbnb, и всем глобальным сервисам между ними.",
-        "SMS Activate выдаёт настоящий французский мобильный номер в одно касание. Введите его в поле подтверждения — и SMS с кодом от Instagram, Google или другого поддерживаемого сервиса появится в приложении за считанные секунды.",
+        "SMS Code выдаёт настоящий французский мобильный номер в одно касание. Введите его в поле подтверждения — и SMS с кодом от Instagram, Google или другого поддерживаемого сервиса появится в приложении за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -106,7 +106,7 @@ export const france: CountryEntry = {
       },
       {
         q: "Можно ли использовать номер +33 не из Франции?",
-        a: "Да. Номер живёт внутри приложения SMS Activate, поэтому неважно, где вы находитесь и какая SIM-карта в вашем телефоне, — код дойдёт до вас где угодно.",
+        a: "Да. Номер живёт внутри приложения SMS Code, поэтому неважно, где вы находитесь и какая SIM-карта в вашем телефоне, — код дойдёт до вас где угодно.",
       },
       {
         q: "SMS с кодом придёт на французском?",

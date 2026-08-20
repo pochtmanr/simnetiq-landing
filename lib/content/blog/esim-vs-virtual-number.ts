@@ -103,7 +103,7 @@ export const esimVsVirtualNumber: BlogPost = {
         items: [
           {
             title: "Pick the service and country",
-            body: "In the SMS Activate app, choose what you’re verifying — Telegram, WhatsApp, Google, 35+ services — and which country the number should be from. One tap reserves a real mobile number for you.",
+            body: "In the SMS Code app, choose what you’re verifying — Telegram, WhatsApp, Google, 35+ services — and which country the number should be from. One tap reserves a real mobile number for you.",
           },
           {
             title: "Use the number in the sign-up",
@@ -245,7 +245,7 @@ export const esimVsVirtualNumber: BlogPost = {
         items: [
           {
             title: "Выберите сервис и страну",
-            body: "В приложении SMS Activate укажите, что подтверждаете — Telegram, WhatsApp, Google, 35+ сервисов, — и из какой страны нужен номер. Одно касание — и настоящий мобильный номер зарезервирован за вами.",
+            body: "В приложении SMS Code укажите, что подтверждаете — Telegram, WhatsApp, Google, 35+ сервисов, — и из какой страны нужен номер. Одно касание — и настоящий мобильный номер зарезервирован за вами.",
           },
           {
             title: "Введите номер в регистрации",

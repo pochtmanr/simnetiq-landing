@@ -16,7 +16,7 @@ export const poland: CountryEntry = {
       title: "A Polish virtual number for SMS verification",
       intro: [
         "A +48 number gives you an EU mobile without the premium attached to Western European codes. Poland's nine-digit numbers are a well-worn sight in messenger sign-ups — Telegram, WhatsApp and Viber all treat them as everyday traffic.",
-        "SMS Activate rents you a real Polish mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Polish mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -51,7 +51,7 @@ export const poland: CountryEntry = {
       },
       {
         q: "Do I have to be in Poland to receive the SMS?",
-        a: "No. The number and its messages live in the SMS Activate app, so your location and your own SIM card don't enter into it — the code reaches you wherever you are.",
+        a: "No. The number and its messages live in the SMS Code app, so your location and your own SIM card don't enter into it — the code reaches you wherever you are.",
       },
       {
         q: "What if the verification code never arrives?",
@@ -71,7 +71,7 @@ export const poland: CountryEntry = {
       title: "Виртуальный номер Польши для SMS-верификации",
       intro: [
         "Номер +48 даёт вам европейский мобильный без наценки, свойственной западноевропейским кодам. Девятизначные польские номера — привычная картина в регистрациях мессенджеров: Telegram, WhatsApp и Viber воспринимают их как повседневный трафик.",
-        "SMS Activate сдаёт настоящий польский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий польский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {
@@ -106,7 +106,7 @@ export const poland: CountryEntry = {
       },
       {
         q: "Нужно ли находиться в Польше, чтобы получить SMS?",
-        a: "Нет. Номер и его сообщения живут в приложении SMS Activate, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
+        a: "Нет. Номер и его сообщения живут в приложении SMS Code, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
       },
       {
         q: "Что, если код подтверждения так и не придёт?",

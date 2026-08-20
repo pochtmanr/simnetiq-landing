@@ -27,22 +27,22 @@ export const discord: ServiceEntry = {
       title: "A virtual number for Discord",
       intro: [
         "Discord only asks for an email at sign-up — until the day it doesn't. Try to post in a server with a high verification level, join several servers in quick succession, or connect through a VPN, and Discord's anti-abuse system demands a verified phone number before you can go any further.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries, enter it in Discord, and the six-digit code from sender “Discord” appears in the app within seconds. Your personal number stays out of it — and out of Discord's database.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries, enter it in Discord, and the six-digit code from sender “Discord” appears in the app within seconds. Your personal number stays out of it — and out of Discord's database.",
       ],
     },
     whyVirtual: {
       title: "Why use a virtual number for Discord?",
       body: [
         "Discord lets a phone number be verified on exactly one account at a time: verify it on a new account and it silently unlinks from the old one. That single rule is why people rent numbers for Discord. If you run a moderation account, a dev account for bot testing, or a separate identity for a community you help manage, each account needs its own number — and a virtual number gives every one a dedicated line without a drawer full of SIM cards.",
-        "The other half is that Discord is picky. It's known to reject numbers it classifies as VoIP, which is why the free “temp SMS” sites so often fail at this exact step. SMS Activate issues real mobile numbers on real carrier networks, which Discord normally accepts — and on the honest occasions when a particular number is still refused, you cancel the pending activation without being charged and try a number from a different country.",
+        "The other half is that Discord is picky. It's known to reject numbers it classifies as VoIP, which is why the free “temp SMS” sites so often fail at this exact step. SMS Code issues real mobile numbers on real carrier networks, which Discord normally accepts — and on the honest occasions when a particular number is still refused, you cancel the pending activation without being charged and try a number from a different country.",
       ],
     },
     howTo: {
       title: "How to verify Discord with a virtual number",
       steps: [
         {
-          title: "Get a number in SMS Activate",
-          body: "Open the SMS Activate app, choose Discord as the service, pick a country and tap once. The number is a real mobile line, reserved for you alone — which matters, because Discord ties each number to a single account.",
+          title: "Get a number in SMS Code",
+          body: "Open the SMS Code app, choose Discord as the service, pick a country and tap once. The number is a real mobile line, reserved for you alone — which matters, because Discord ties each number to a single account.",
         },
         {
           title: "Enter it in Discord",
@@ -50,7 +50,7 @@ export const discord: ServiceEntry = {
         },
         {
           title: "Grab the six-digit code",
-          body: "The SMS lands in the SMS Activate app within seconds, from sender “Discord”: “Your Discord verification code is: 274918”. Enter it and the checkmark appears — the account is verified and any phone gate lifts.",
+          body: "The SMS lands in the SMS Code app within seconds, from sender “Discord”: “Your Discord verification code is: 274918”. Enter it and the checkmark appears — the account is verified and any phone gate lifts.",
         },
         {
           title: "Secure the account properly",
@@ -65,7 +65,7 @@ export const discord: ServiceEntry = {
       },
       {
         title: "If Discord rejects the number, don't fight it",
-        body: "Discord filters out numbers it flags as VoIP, and occasionally a legitimate mobile range gets caught too. Cancel the pending activation in SMS Activate — nothing is charged for a number that received no code — and take a fresh number, ideally from a different country.",
+        body: "Discord filters out numbers it flags as VoIP, and occasionally a legitimate mobile range gets caught too. Cancel the pending activation in SMS Code — nothing is charged for a number that received no code — and take a fresh number, ideally from a different country.",
       },
       {
         title: "Phone-gated servers check the link, not the history",
@@ -83,7 +83,7 @@ export const discord: ServiceEntry = {
       },
       {
         q: "Will Discord accept a virtual number? I've heard it blocks them.",
-        a: "Discord blocks numbers it classifies as VoIP, which is what most free “temp SMS” sites hand out. SMS Activate numbers are real mobile numbers on carrier networks, and Discord normally accepts them. No service can promise every number passes — if one is refused, cancel the activation free of charge and try a different country.",
+        a: "Discord blocks numbers it classifies as VoIP, which is what most free “temp SMS” sites hand out. SMS Code numbers are real mobile numbers on carrier networks, and Discord normally accepts them. No service can promise every number passes — if one is refused, cancel the activation free of charge and try a different country.",
       },
       {
         q: "What happens to my Discord account when the rented number expires?",
@@ -91,7 +91,7 @@ export const discord: ServiceEntry = {
       },
       {
         q: "The code from Discord never arrived — what should I do?",
-        a: "First check that the country code you selected in Discord matches the number — that mismatch causes most silent failures. If it's correct and nothing comes within a few minutes, Discord likely refused that number. Cancel the pending activation in SMS Activate — numbers that received nothing are never charged — and request a new one from another country.",
+        a: "First check that the country code you selected in Discord matches the number — that mismatch causes most silent failures. If it's correct and nothing comes within a few minutes, Discord likely refused that number. Cancel the pending activation in SMS Code — numbers that received nothing are never charged — and request a new one from another country.",
       },
     ],
   },
@@ -104,22 +104,22 @@ export const discord: ServiceEntry = {
       title: "Виртуальный номер для Discord",
       intro: [
         "При регистрации Discord просит только почту — до поры до времени. Стоит попытаться написать на сервере с высоким уровнем проверки, вступить в несколько серверов подряд или зайти через VPN — и антиспам-система Discord требует подтверждённый номер телефона, прежде чем пустить дальше.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его в Discord — и шестизначный код от отправителя «Discord» появляется в приложении за считанные секунды. Ваш личный номер остаётся в стороне — и не попадает в базу Discord.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его в Discord — и шестизначный код от отправителя «Discord» появляется в приложении за считанные секунды. Ваш личный номер остаётся в стороне — и не попадает в базу Discord.",
       ],
     },
     whyVirtual: {
       title: "Зачем виртуальный номер для Discord?",
       body: [
         "В Discord один номер телефона может быть подтверждён только на одном аккаунте: привяжете его к новому аккаунту — и он молча отвяжется от старого. Именно из-за этого правила номера для Discord и арендуют. Если у вас есть аккаунт модератора, аккаунт разработчика для тестирования ботов или отдельная личность для сообщества, которым вы помогаете управлять, — каждому аккаунту нужен свой номер. Виртуальный номер даёт каждому из них отдельную линию без ящика, набитого SIM-картами.",
-        "Вторая половина истории — Discord привередлив. Он известен тем, что отклоняет номера, которые считает VoIP, — поэтому бесплатные сайты «временных SMS» так часто проваливаются именно на этом шаге. SMS Activate выдаёт настоящие мобильные номера в реальных сетях операторов, и Discord их, как правило, принимает. А если конкретный номер всё же отклонён — честно скажем, такое бывает, — вы отменяете ожидающую активацию без списания и берёте номер другой страны.",
+        "Вторая половина истории — Discord привередлив. Он известен тем, что отклоняет номера, которые считает VoIP, — поэтому бесплатные сайты «временных SMS» так часто проваливаются именно на этом шаге. SMS Code выдаёт настоящие мобильные номера в реальных сетях операторов, и Discord их, как правило, принимает. А если конкретный номер всё же отклонён — честно скажем, такое бывает, — вы отменяете ожидающую активацию без списания и берёте номер другой страны.",
       ],
     },
     howTo: {
       title: "Как подтвердить Discord виртуальным номером",
       steps: [
         {
-          title: "Получите номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис Discord, страну — и нажмите один раз. Номер — настоящая мобильная линия, зарезервированная только для вас. Это важно: Discord привязывает каждый номер к единственному аккаунту.",
+          title: "Получите номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис Discord, страну — и нажмите один раз. Номер — настоящая мобильная линия, зарезервированная только для вас. Это важно: Discord привязывает каждый номер к единственному аккаунту.",
         },
         {
           title: "Введите его в Discord",
@@ -127,7 +127,7 @@ export const discord: ServiceEntry = {
         },
         {
           title: "Заберите шестизначный код",
-          body: "SMS придёт в приложение SMS Activate за секунды, от отправителя «Discord»: «Your Discord verification code is: 274918». Введите код — появится галочка: аккаунт подтверждён, и любая проверка телефона снимается.",
+          body: "SMS придёт в приложение SMS Code за секунды, от отправителя «Discord»: «Your Discord verification code is: 274918». Введите код — появится галочка: аккаунт подтверждён, и любая проверка телефона снимается.",
         },
         {
           title: "Защитите аккаунт как следует",
@@ -142,7 +142,7 @@ export const discord: ServiceEntry = {
       },
       {
         title: "Если Discord отклонил номер — не воюйте с ним",
-        body: "Discord отсекает номера, которые помечает как VoIP, и иногда под раздачу попадает и вполне обычный мобильный диапазон. Отмените ожидающую активацию в SMS Activate — за номер, на который не пришёл код, деньги не списываются, — и возьмите свежий номер, лучше из другой страны.",
+        body: "Discord отсекает номера, которые помечает как VoIP, и иногда под раздачу попадает и вполне обычный мобильный диапазон. Отмените ожидающую активацию в SMS Code — за номер, на который не пришёл код, деньги не списываются, — и возьмите свежий номер, лучше из другой страны.",
       },
       {
         title: "Серверам с проверкой телефона важна привязка, а не история",
@@ -160,7 +160,7 @@ export const discord: ServiceEntry = {
       },
       {
         q: "Примет ли Discord виртуальный номер? Говорят, он их блокирует.",
-        a: "Discord блокирует номера, которые классифицирует как VoIP, — именно такие раздают большинство бесплатных сайтов «временных SMS». Номера SMS Activate — настоящие мобильные номера в сетях операторов, и Discord их, как правило, принимает. Гарантировать прохождение каждого номера не может никто: если номер отклонён, отмените активацию без списания и попробуйте другую страну.",
+        a: "Discord блокирует номера, которые классифицирует как VoIP, — именно такие раздают большинство бесплатных сайтов «временных SMS». Номера SMS Code — настоящие мобильные номера в сетях операторов, и Discord их, как правило, принимает. Гарантировать прохождение каждого номера не может никто: если номер отклонён, отмените активацию без списания и попробуйте другую страну.",
       },
       {
         q: "Что будет с аккаунтом Discord, когда аренда номера закончится?",
@@ -168,7 +168,7 @@ export const discord: ServiceEntry = {
       },
       {
         q: "Код от Discord так и не пришёл — что делать?",
-        a: "Сначала проверьте, что код страны, выбранный в Discord, совпадает с номером, — это самая частая причина тихих сбоев. Если всё верно, а код не приходит несколько минут, скорее всего, Discord отклонил этот номер. Отмените ожидающую активацию в SMS Activate — за номера, на которые ничего не пришло, деньги не списываются, — и запросите новый номер из другой страны.",
+        a: "Сначала проверьте, что код страны, выбранный в Discord, совпадает с номером, — это самая частая причина тихих сбоев. Если всё верно, а код не приходит несколько минут, скорее всего, Discord отклонил этот номер. Отмените ожидающую активацию в SMS Code — за номера, на которые ничего не пришло, деньги не списываются, — и запросите новый номер из другой страны.",
       },
     ],
   },

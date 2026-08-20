@@ -16,7 +16,7 @@ export const indonesia: CountryEntry = {
       title: "An Indonesian virtual number for SMS verification",
       intro: [
         "Indonesia is one of the most mobile-first countries on the planet: hundreds of millions of people live their digital lives on a phone, and WhatsApp is the thread that ties it all together. A +62 number is what local sign-up flows expect to see — from chat apps to ride-hailing to marketplaces.",
-        "SMS Activate hands you a real Indonesian mobile number in one tap. Type it into the verification field, and the SMS — with a code from WhatsApp, Telegram, TikTok, Grab or LINE — lands in the app within seconds, wherever in the world you actually are.",
+        "SMS Code hands you a real Indonesian mobile number in one tap. Type it into the verification field, and the SMS — with a code from WhatsApp, Telegram, TikTok, Grab or LINE — lands in the app within seconds, wherever in the world you actually are.",
       ],
     },
     whyCountry: {
@@ -51,7 +51,7 @@ export const indonesia: CountryEntry = {
       },
       {
         q: "Do I need to be in Indonesia to use the number?",
-        a: "No. The number exists inside the SMS Activate app, so your physical location and SIM card are irrelevant — the verification code reaches you anywhere.",
+        a: "No. The number exists inside the SMS Code app, so your physical location and SIM card are irrelevant — the verification code reaches you anywhere.",
       },
       {
         q: "How fast does the verification SMS arrive?",
@@ -71,7 +71,7 @@ export const indonesia: CountryEntry = {
       title: "Виртуальный номер Индонезии для SMS-верификации",
       intro: [
         "Индонезия — одна из самых «мобильных» стран мира: сотни миллионов людей живут цифровой жизнью прямо в телефоне, и всё это связывает воедино WhatsApp. Номер +62 — именно то, что ожидают увидеть местные формы регистрации: от мессенджеров до такси и маркетплейсов.",
-        "SMS Activate выдаёт настоящий индонезийский мобильный номер в одно касание. Введите его в поле подтверждения — и SMS с кодом от WhatsApp, Telegram, TikTok, Grab или LINE появится в приложении за секунды, где бы вы на самом деле ни находились.",
+        "SMS Code выдаёт настоящий индонезийский мобильный номер в одно касание. Введите его в поле подтверждения — и SMS с кодом от WhatsApp, Telegram, TikTok, Grab или LINE появится в приложении за секунды, где бы вы на самом деле ни находились.",
       ],
     },
     whyCountry: {
@@ -106,7 +106,7 @@ export const indonesia: CountryEntry = {
       },
       {
         q: "Нужно ли находиться в Индонезии, чтобы пользоваться номером?",
-        a: "Нет. Номер живёт внутри приложения SMS Activate, поэтому ваше физическое местоположение и SIM-карта не играют роли — код подтверждения дойдёт до вас где угодно.",
+        a: "Нет. Номер живёт внутри приложения SMS Code, поэтому ваше физическое местоположение и SIM-карта не играют роли — код подтверждения дойдёт до вас где угодно.",
       },
       {
         q: "Как быстро приходит SMS с кодом?",

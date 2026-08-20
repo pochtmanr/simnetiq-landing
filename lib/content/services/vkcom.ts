@@ -22,12 +22,12 @@ export const vkcom: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for VK — Register Without Your Real Number",
     metaDescription:
-      "Get a real virtual number for VK verification. The SMS code arrives in the SMS Activate app in seconds — create a VK account without exposing your personal number.",
+      "Get a real virtual number for VK verification. The SMS code arrives in the SMS Code app in seconds — create a VK account without exposing your personal number.",
     hero: {
       title: "A virtual number for VK",
       intro: [
         "VK doesn't offer a way around the phone number: registration is built on it. Before you can browse communities, message anyone or list an item on the marketplace, VK sends an SMS code to the number you provide — and that number becomes the login and recovery anchor for the whole account.",
-        "With SMS Activate you rent a real number from one of 50+ countries, enter it on VK's sign-up form, and the confirmation code lands in the SMS Activate app within seconds. The account is fully verified — and your personal number never enters VK's database.",
+        "With SMS Code you rent a real number from one of 50+ countries, enter it on VK's sign-up form, and the confirmation code lands in the SMS Code app within seconds. The account is fully verified — and your personal number never enters VK's database.",
       ],
     },
     whyVirtual: {
@@ -41,8 +41,8 @@ export const vkcom: ServiceEntry = {
       title: "How to verify VK with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
-          body: "Open the SMS Activate app, choose VK as the service and pick a country — Kazakhstan and other nearby countries are frequent choices. One tap reserves a real mobile number for you.",
+          title: "Rent a number in SMS Code",
+          body: "Open the SMS Code app, choose VK as the service and pick a country — Kazakhstan and other nearby countries are frequent choices. One tap reserves a real mobile number for you.",
         },
         {
           title: "Enter it on VK's registration form",
@@ -50,7 +50,7 @@ export const vkcom: ServiceEntry = {
         },
         {
           title: "Confirm with the code",
-          body: "The message shows up in the SMS Activate app in seconds — “VK: 348715 — код подтверждения”. Enter the six digits on VK's screen and the account is created.",
+          body: "The message shows up in the SMS Code app in seconds — “VK: 348715 — код подтверждения”. Enter the six digits on VK's screen and the account is created.",
         },
         {
           title: "Add a strong password and backup access",
@@ -61,7 +61,7 @@ export const vkcom: ServiceEntry = {
     tips: [
       {
         title: "One number, one VK account",
-        body: "VK enforces a strict one-to-one link between number and account. If a number was ever registered on VK before, sign-up may turn into a login-or-recover flow instead. SMS Activate issues numbers per activation, but if VK behaves oddly, cancel and take a fresh number.",
+        body: "VK enforces a strict one-to-one link between number and account. If a number was ever registered on VK before, sign-up may turn into a login-or-recover flow instead. SMS Code issues numbers per activation, but if VK behaves oddly, cancel and take a fresh number.",
       },
       {
         title: "VK ID reaches beyond VK",
@@ -87,23 +87,23 @@ export const vkcom: ServiceEntry = {
       },
       {
         q: "Why didn't my VK confirmation code arrive?",
-        a: "Usually the number was previously registered on VK, or the country code was entered incorrectly. Cancel the activation in SMS Activate — you pay nothing for a number that received no SMS — and try again with another number.",
+        a: "Usually the number was previously registered on VK, or the country code was entered incorrectly. Cancel the activation in SMS Code — you pay nothing for a number that received no SMS — and try again with another number.",
       },
       {
         q: "Does the number's country matter for VK?",
-        a: "VK accepts numbers from many countries; Kazakhstan, Poland, Germany and the Netherlands are popular picks in SMS Activate. The interface language and your profile settings don't depend on the number's country — you choose those yourself.",
+        a: "VK accepts numbers from many countries; Kazakhstan, Poland, Germany and the Netherlands are popular picks in SMS Code. The interface language and your profile settings don't depend on the number's country — you choose those yourself.",
       },
     ],
   },
   ru: {
     metaTitle: "Виртуальный номер для VK — регистрация без личного номера",
     metaDescription:
-      "Настоящий виртуальный номер для подтверждения VK. SMS с кодом придёт в приложение SMS Activate за секунды — создайте аккаунт VK, не раскрывая свой номер.",
+      "Настоящий виртуальный номер для подтверждения VK. SMS с кодом придёт в приложение SMS Code за секунды — создайте аккаунт VK, не раскрывая свой номер.",
     hero: {
       title: "Виртуальный номер для VK",
       intro: [
         "Обойти номер телефона во «ВКонтакте» не получится: регистрация построена на нём. Прежде чем листать сообщества, писать кому-то или выставить товар на маркетплейсе, VK отправит SMS-код на указанный номер — и этот номер станет логином и якорем восстановления для всего аккаунта.",
-        "С SMS Activate вы арендуете настоящий номер из одной из 50+ стран, вводите его в форме регистрации VK — и код подтверждения появляется в приложении SMS Activate за секунды. Аккаунт полностью подтверждён, а ваш личный номер в базу VK так и не попал.",
+        "С SMS Code вы арендуете настоящий номер из одной из 50+ стран, вводите его в форме регистрации VK — и код подтверждения появляется в приложении SMS Code за секунды. Аккаунт полностью подтверждён, а ваш личный номер в базу VK так и не попал.",
       ],
     },
     whyVirtual: {
@@ -117,8 +117,8 @@ export const vkcom: ServiceEntry = {
       title: "Как подтвердить VK виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис VK и страну — часто берут Казахстан и соседние страны. Одно нажатие — и настоящий мобильный номер зарезервирован за вами.",
+          title: "Арендуйте номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис VK и страну — часто берут Казахстан и соседние страны. Одно нажатие — и настоящий мобильный номер зарезервирован за вами.",
         },
         {
           title: "Введите его в форме регистрации VK",
@@ -126,7 +126,7 @@ export const vkcom: ServiceEntry = {
         },
         {
           title: "Подтвердите кодом",
-          body: "Сообщение появится в приложении SMS Activate за секунды: «VK: 348715 — код подтверждения». Введите шесть цифр на экране VK — аккаунт создан.",
+          body: "Сообщение появится в приложении SMS Code за секунды: «VK: 348715 — код подтверждения». Введите шесть цифр на экране VK — аккаунт создан.",
         },
         {
           title: "Задайте пароль и запасной доступ",
@@ -137,7 +137,7 @@ export const vkcom: ServiceEntry = {
     tips: [
       {
         title: "Один номер — один аккаунт VK",
-        body: "VK строго держит связку «номер — аккаунт» один к одному. Если номер когда-то уже регистрировался во «ВКонтакте», вместо регистрации может открыться вход или восстановление. SMS Activate выдаёт номера под активацию, но если VK ведёт себя странно — отмените и возьмите свежий номер.",
+        body: "VK строго держит связку «номер — аккаунт» один к одному. Если номер когда-то уже регистрировался во «ВКонтакте», вместо регистрации может открыться вход или восстановление. SMS Code выдаёт номера под активацию, но если VK ведёт себя странно — отмените и возьмите свежий номер.",
       },
       {
         title: "VK ID — это больше, чем VK",
@@ -163,11 +163,11 @@ export const vkcom: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код подтверждения VK?",
-        a: "Обычно номер уже когда-то регистрировался в VK либо неверно введён код страны. Отмените активацию в SMS Activate — за номер, на который ничего не пришло, вы не платите, — и попробуйте с другим номером.",
+        a: "Обычно номер уже когда-то регистрировался в VK либо неверно введён код страны. Отмените активацию в SMS Code — за номер, на который ничего не пришло, вы не платите, — и попробуйте с другим номером.",
       },
       {
         q: "Важна ли страна номера для VK?",
-        a: "VK принимает номера многих стран; в SMS Activate под него часто берут Казахстан, Польшу, Германию и Нидерланды. Язык интерфейса и настройки профиля от страны номера не зависят — их вы выбираете сами.",
+        a: "VK принимает номера многих стран; в SMS Code под него часто берут Казахстан, Польшу, Германию и Нидерланды. Язык интерфейса и настройки профиля от страны номера не зависят — их вы выбираете сами.",
       },
     ],
   },

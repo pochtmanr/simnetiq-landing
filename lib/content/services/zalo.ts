@@ -27,7 +27,7 @@ export const zalo: ServiceEntry = {
       title: "A virtual number for Zalo",
       intro: [
         "Zalo is Vietnam’s everything-messenger — where families chat, sellers take orders and offices coordinate — and the account is the phone number, full stop. Sign-up starts with a number, an SMS like “793145 is your Zalo activation code” confirms it, and that number becomes how people find you.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. You get a working Zalo account — and the suppliers, landlords or in-laws you message on it never need the number your bank uses.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. You get a working Zalo account — and the suppliers, landlords or in-laws you message on it never need the number your bank uses.",
       ],
     },
     whyVirtual: {
@@ -41,12 +41,12 @@ export const zalo: ServiceEntry = {
       title: "How to verify Zalo with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Pick Zalo as the service and choose a country. A Vietnamese number is the most natural fit for Zalo’s network; a number from your own country also works and keeps your profile honest about where you are.",
         },
         {
           title: "Enter it on Zalo’s sign-up screen",
-          body: "Select the matching country code and type the number in carefully. Zalo sends the activation SMS immediately — keep SMS Activate open next to it.",
+          body: "Select the matching country code and type the number in carefully. Zalo sends the activation SMS immediately — keep SMS Code open next to it.",
         },
         {
           title: "Type in the code",
@@ -61,7 +61,7 @@ export const zalo: ServiceEntry = {
     tips: [
       {
         title: "Vietnamese numbers get the smoothest ride",
-        body: "Zalo grew up on +84 numbers and treats them as home traffic. If your first attempt with another country stalls, cancel free in SMS Activate and retry with a Vietnamese number — it’s the well-trodden path.",
+        body: "Zalo grew up on +84 numbers and treats them as home traffic. If your first attempt with another country stalls, cancel free in SMS Code and retry with a Vietnamese number — it’s the well-trodden path.",
       },
       {
         title: "Don’t log out on a whim",
@@ -103,7 +103,7 @@ export const zalo: ServiceEntry = {
       title: "Виртуальный номер для Zalo",
       intro: [
         "Zalo — вьетнамский мессенджер «для всего»: там переписываются семьи, продавцы принимают заказы, офисы решают вопросы. И аккаунт здесь — это номер телефона, точка. Регистрация начинается с номера, SMS вида «793145 is your Zalo activation code» его подтверждает, и дальше именно по этому номеру вас находят.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. У вас появляется рабочий аккаунт Zalo — а поставщикам, арендодателям и новым родственникам, с которыми вы там переписываетесь, не нужен номер, которым пользуется ваш банк.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. У вас появляется рабочий аккаунт Zalo — а поставщикам, арендодателям и новым родственникам, с которыми вы там переписываетесь, не нужен номер, которым пользуется ваш банк.",
       ],
     },
     whyVirtual: {
@@ -117,12 +117,12 @@ export const zalo: ServiceEntry = {
       title: "Как подтвердить Zalo виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис Zalo и страну. Вьетнамский номер — самый естественный для сети Zalo; номер вашей страны тоже подойдёт и честно скажет профилю, откуда вы.",
         },
         {
           title: "Введите его на экране регистрации Zalo",
-          body: "Выберите совпадающий код страны и внимательно введите номер. SMS с активацией уходит сразу — держите SMS Activate открытым рядом.",
+          body: "Выберите совпадающий код страны и внимательно введите номер. SMS с активацией уходит сразу — держите SMS Code открытым рядом.",
         },
         {
           title: "Введите код",
@@ -137,7 +137,7 @@ export const zalo: ServiceEntry = {
     tips: [
       {
         title: "С вьетнамскими номерами — глаже всего",
-        body: "Zalo вырос на номерах +84 и считает их домашним трафиком. Если первая попытка с другой страной буксует, отмените активацию в SMS Activate бесплатно и повторите с вьетнамским номером — это протоптанная дорога.",
+        body: "Zalo вырос на номерах +84 и считает их домашним трафиком. Если первая попытка с другой страной буксует, отмените активацию в SMS Code бесплатно и повторите с вьетнамским номером — это протоптанная дорога.",
       },
       {
         title: "Не выходите из аккаунта просто так",

@@ -66,18 +66,18 @@ export const howToReceiveSmsOnline: BlogPost = {
       {
         type: "h2",
         id: "step-by-step-with-sms-activate",
-        text: "Receiving a code with SMS Activate, step by step",
+        text: "Receiving a code with SMS Code, step by step",
       },
       {
         type: "p",
-        text: "You’ll need the SMS Activate app and the sign-up form side by side. The process is the same whether the service is Telegram, a marketplace or anything else on the list — a couple of minutes, end to end.",
+        text: "You’ll need the SMS Code app and the sign-up form side by side. The process is the same whether the service is Telegram, a marketplace or anything else on the list — a couple of minutes, end to end.",
       },
       {
         type: "steps",
         items: [
           {
             title: "Pick the service and a country",
-            body: "In SMS Activate, choose what you’re verifying — Telegram, WhatsApp, Google, 35+ services — and which country the number should come from. Numbers are available in 50+ countries; one tap reserves one for you alone.",
+            body: "In SMS Code, choose what you’re verifying — Telegram, WhatsApp, Google, 35+ services — and which country the number should come from. Numbers are available in 50+ countries; one tap reserves one for you alone.",
           },
           {
             title: "Enter the number in the sign-up form",
@@ -85,7 +85,7 @@ export const howToReceiveSmsOnline: BlogPost = {
           },
           {
             title: "Read the code in the app",
-            body: "The SMS lands in SMS Activate within seconds and the activation screen updates live. Tap once to copy the code, paste it into the form, and the verification is done.",
+            body: "The SMS lands in SMS Code within seconds and the activation screen updates live. Tap once to copy the code, paste it into the form, and the verification is done.",
           },
           {
             title: "Secure the account properly",
@@ -133,7 +133,7 @@ export const howToReceiveSmsOnline: BlogPost = {
           },
           {
             q: "Can I receive calls on the number too?",
-            a: "No — SMS Activate numbers receive text messages only. If a service insists on a voice call as its only verification method, a virtual SMS number won’t complete that flow.",
+            a: "No — SMS Code numbers receive text messages only. If a service insists on a voice call as its only verification method, a virtual SMS number won’t complete that flow.",
           },
           {
             q: "How much does it cost?",
@@ -204,18 +204,18 @@ export const howToReceiveSmsOnline: BlogPost = {
       {
         type: "h2",
         id: "poshagovo-s-sms-activate",
-        text: "Получаем код через SMS Activate: по шагам",
+        text: "Получаем код через SMS Code: по шагам",
       },
       {
         type: "p",
-        text: "Понадобятся приложение SMS Activate и форма регистрации рядом. Процесс одинаков для любого сервиса из списка — Telegram, маркетплейс или что угодно ещё: пара минут от начала до конца.",
+        text: "Понадобятся приложение SMS Code и форма регистрации рядом. Процесс одинаков для любого сервиса из списка — Telegram, маркетплейс или что угодно ещё: пара минут от начала до конца.",
       },
       {
         type: "steps",
         items: [
           {
             title: "Выберите сервис и страну",
-            body: "В SMS Activate укажите, что вы подтверждаете — Telegram, WhatsApp, Google, 35+ сервисов, — и страну номера. Номера доступны в 50+ странах; одно касание резервирует номер только за вами.",
+            body: "В SMS Code укажите, что вы подтверждаете — Telegram, WhatsApp, Google, 35+ сервисов, — и страну номера. Номера доступны в 50+ странах; одно касание резервирует номер только за вами.",
           },
           {
             title: "Введите номер в форму регистрации",
@@ -223,7 +223,7 @@ export const howToReceiveSmsOnline: BlogPost = {
           },
           {
             title: "Прочитайте код в приложении",
-            body: "SMS попадает в SMS Activate за считанные секунды, экран активации обновляется в реальном времени. Одно касание — код скопирован, вставьте его в форму, и верификация завершена.",
+            body: "SMS попадает в SMS Code за считанные секунды, экран активации обновляется в реальном времени. Одно касание — код скопирован, вставьте его в форму, и верификация завершена.",
           },
           {
             title: "Как следует защитите аккаунт",
@@ -271,7 +271,7 @@ export const howToReceiveSmsOnline: BlogPost = {
           },
           {
             q: "А звонки на этот номер принимать можно?",
-            a: "Нет — номера SMS Activate принимают только текстовые сообщения. Если сервис настаивает на голосовом звонке как единственном способе проверки, виртуальный SMS-номер такой сценарий не закроет.",
+            a: "Нет — номера SMS Code принимают только текстовые сообщения. Если сервис настаивает на голосовом звонке как единственном способе проверки, виртуальный SMS-номер такой сценарий не закроет.",
           },
           {
             q: "Сколько это стоит?",

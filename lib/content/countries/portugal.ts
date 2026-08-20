@@ -16,7 +16,7 @@ export const portugal: CountryEntry = {
       title: "A Portuguese virtual number for SMS verification",
       intro: [
         "Portugal gives you something slightly rare: a Western European number that doesn't carry Western European weight in price. A +351 mobile reads as unmistakably EU to any service that checks — WhatsApp, Instagram, Uber — while staying one of the more accessible codes on the continent.",
-        "SMS Activate rents you a real Portuguese mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Portuguese mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -51,7 +51,7 @@ export const portugal: CountryEntry = {
       },
       {
         q: "Do I have to be in Portugal to receive the SMS?",
-        a: "No. The number and its messages live in the SMS Activate app, so your location and your own SIM card don't enter into it — the code reaches you wherever you are.",
+        a: "No. The number and its messages live in the SMS Code app, so your location and your own SIM card don't enter into it — the code reaches you wherever you are.",
       },
       {
         q: "What if the verification code never arrives?",
@@ -71,7 +71,7 @@ export const portugal: CountryEntry = {
       title: "Виртуальный номер Португалии для SMS-верификации",
       intro: [
         "Португалия предлагает нечто относительно редкое: западноевропейский номер без западноевропейского ценника. Мобильный +351 для любого проверяющего сервиса — безошибочно ЕС: WhatsApp, Instagram, Uber. И при этом он остаётся одним из самых доступных кодов континента.",
-        "SMS Activate сдаёт настоящий португальский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий португальский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {
@@ -106,7 +106,7 @@ export const portugal: CountryEntry = {
       },
       {
         q: "Нужно ли находиться в Португалии, чтобы получить SMS?",
-        a: "Нет. Номер и его сообщения живут в приложении SMS Activate, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
+        a: "Нет. Номер и его сообщения живут в приложении SMS Code, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
       },
       {
         q: "Что, если код подтверждения так и не придёт?",

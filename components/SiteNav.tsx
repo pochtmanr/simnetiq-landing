@@ -55,7 +55,7 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
             className="h-[22px] w-[22px] object-contain"
             priority
           />
-          <span className="text-body">SMS Activate</span>
+          <span className="text-body">SMS Code</span>
         </Link>
 
         {/* Desktop links */}

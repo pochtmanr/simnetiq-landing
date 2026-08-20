@@ -6,7 +6,7 @@ import { languageAlternates } from "../../../lib/i18n";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How SIMNETIQ LTD collects, uses and protects your data in the SMS Activate app and on simnetiq.xyz.",
+    "How SIMNETIQ LTD collects, uses and protects your data in the SMS Code app and on simnetiq.xyz.",
   alternates: {
     canonical: "/privacy-policy",
     languages: languageAlternates("/privacy-policy"),
@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
     <LegalShell label="Legal" title="Privacy Policy" updated="6 July 2026">
       <LegalSection title="1. Who we are">
         <p>
-          SMS Activate (the &ldquo;App&rdquo;) and the website simnetiq.xyz (the
+          SMS Code (the &ldquo;App&rdquo;) and the website simnetiq.xyz (the
           &ldquo;Site&rdquo;) are operated by SIMNETIQ LTD (&ldquo;we&rdquo;,
           &ldquo;us&rdquo;, &ldquo;our&rdquo;), a company registered in England
           and Wales. We act as the data controller for the personal data
@@ -48,7 +48,7 @@ export default function PrivacyPolicyPage() {
           <li>
             <strong className="font-normal text-off-black">Purchase data.</strong>{" "}
             Records of credit packs you buy. Payment itself is processed by
-            Apple App Store or Google Play — we never see your card details.
+            the Apple App Store — we never see your card details.
           </li>
           <li>
             <strong className="font-normal text-off-black">Activation data.</strong>{" "}
@@ -87,8 +87,8 @@ export default function PrivacyPolicyPage() {
         <p>
           We share data only with service providers who process it on our
           behalf: cloud hosting and database providers, telephony providers
-          that supply the virtual numbers, Apple and Google for in-app
-          purchases, and email delivery tooling for support correspondence.
+          that supply the virtual numbers, Apple for in-app purchases, and
+          email delivery tooling for support correspondence.
           Each processor is bound by a data processing agreement. We may also
           disclose data where required by law.
         </p>

@@ -15,7 +15,7 @@ export const SUPPORT_PAGE = {
       },
       {
         title: "Billing & credits",
-        body: "Purchases go through the App Store or Google Play. Include your store receipt or order ID and we'll trace any missing credits.",
+        body: "Purchases go through the App Store. Include your store receipt or order ID and we'll trace any missing credits.",
       },
       {
         title: "Restore purchases",
@@ -35,7 +35,7 @@ export const SUPPORT_PAGE = {
       },
       {
         title: "Оплата и кредиты",
-        body: "Покупки проходят через App Store или Google Play. Приложите чек или номер заказа — мы отследим недостающие кредиты.",
+        body: "Покупки проходят через App Store. Приложите чек или номер заказа — мы отследим недостающие кредиты.",
       },
       {
         title: "Восстановление покупок",

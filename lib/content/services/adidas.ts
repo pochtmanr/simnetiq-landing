@@ -22,12 +22,12 @@ export const adidas: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for adidas — Verify Your Shop Account",
     metaDescription:
-      "Verify your adidas account with a real virtual number. The SMS code arrives in the SMS Activate app in seconds — shop online without giving out your personal number.",
+      "Verify your adidas account with a real virtual number. The SMS code arrives in the SMS Code app in seconds — shop online without giving out your personal number.",
     hero: {
       title: "A virtual number for adidas",
       intro: [
         "An adidas account is more than a checkout shortcut — it's membership in the adiClub program, order tracking, saved sizes and access to member-only releases. And like most large retailers, adidas increasingly wants a phone number it can verify by SMS, both at sign-up in some regions and as an extra check when something about a login or order looks unusual.",
-        "SMS Activate rents you a real mobile number in one of 50+ countries. Enter it on the adidas account screen, and the verification code appears in the SMS Activate app within seconds — the account is confirmed, and your everyday number stays out of yet another retail database.",
+        "SMS Code rents you a real mobile number in one of 50+ countries. Enter it on the adidas account screen, and the verification code appears in the SMS Code app within seconds — the account is confirmed, and your everyday number stays out of yet another retail database.",
       ],
     },
     whyVirtual: {
@@ -41,8 +41,8 @@ export const adidas: ServiceEntry = {
       title: "How to verify adidas with a virtual number",
       steps: [
         {
-          title: "Get a number in SMS Activate",
-          body: "Open the SMS Activate app, pick adidas as the service and choose a country — the US, UK or Germany are common picks since they're major adidas markets. The number is reserved for you at once.",
+          title: "Get a number in SMS Code",
+          body: "Open the SMS Code app, pick adidas as the service and choose a country — the US, UK or Germany are common picks since they're major adidas markets. The number is reserved for you at once.",
         },
         {
           title: "Enter it in your adidas account",
@@ -50,7 +50,7 @@ export const adidas: ServiceEntry = {
         },
         {
           title: "Confirm with the SMS code",
-          body: "The text arrives in the SMS Activate app within seconds — “Your adidas verification code is 604927”. Type it into the adidas verification field and the number is confirmed.",
+          body: "The text arrives in the SMS Code app within seconds — “Your adidas verification code is 604927”. Type it into the adidas verification field and the number is confirmed.",
         },
         {
           title: "Set your shipping and size details",
@@ -87,7 +87,7 @@ export const adidas: ServiceEntry = {
       },
       {
         q: "Why didn't my adidas verification code arrive?",
-        a: "Check that the country code matches the rented number and that the store region corresponds to the number's country. If no SMS comes, cancel the activation in SMS Activate — uncharged, since nothing arrived — and retry with a fresh number.",
+        a: "Check that the country code matches the rented number and that the store region corresponds to the number's country. If no SMS comes, cancel the activation in SMS Code — uncharged, since nothing arrived — and retry with a fresh number.",
       },
       {
         q: "Will my adidas account keep working after the rented number expires?",
@@ -98,12 +98,12 @@ export const adidas: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для adidas — подтвердите аккаунт магазина",
     metaDescription:
-      "Подтвердите аккаунт adidas настоящим виртуальным номером. SMS с кодом придёт в приложение SMS Activate за секунды — покупайте онлайн, не раскрывая личный номер.",
+      "Подтвердите аккаунт adidas настоящим виртуальным номером. SMS с кодом придёт в приложение SMS Code за секунды — покупайте онлайн, не раскрывая личный номер.",
     hero: {
       title: "Виртуальный номер для adidas",
       intro: [
         "Аккаунт adidas — это не просто ускоренное оформление заказа: это членство в программе adiClub, отслеживание посылок, сохранённые размеры и доступ к релизам для участников. И, как большинство крупных ритейлеров, adidas всё чаще хочет номер телефона с подтверждением по SMS — где-то прямо при регистрации, а где-то как дополнительную проверку, если вход или заказ выглядит необычно.",
-        "SMS Activate сдаёт вам в аренду настоящий мобильный номер в одной из 50+ стран. Введите его на экране аккаунта adidas — и код подтверждения появится в приложении SMS Activate за секунды. Аккаунт подтверждён, а ваш повседневный номер не пополнил очередную базу магазина.",
+        "SMS Code сдаёт вам в аренду настоящий мобильный номер в одной из 50+ стран. Введите его на экране аккаунта adidas — и код подтверждения появится в приложении SMS Code за секунды. Аккаунт подтверждён, а ваш повседневный номер не пополнил очередную базу магазина.",
       ],
     },
     whyVirtual: {
@@ -117,8 +117,8 @@ export const adidas: ServiceEntry = {
       title: "Как подтвердить adidas виртуальным номером",
       steps: [
         {
-          title: "Получите номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис adidas и страну — часто берут США, Великобританию или Германию: это крупные рынки adidas. Номер резервируется за вами сразу.",
+          title: "Получите номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис adidas и страну — часто берут США, Великобританию или Германию: это крупные рынки adidas. Номер резервируется за вами сразу.",
         },
         {
           title: "Укажите его в аккаунте adidas",
@@ -126,7 +126,7 @@ export const adidas: ServiceEntry = {
         },
         {
           title: "Подтвердите кодом из SMS",
-          body: "Сообщение придёт в приложение SMS Activate за секунды: «Your adidas verification code is 604927». Введите его в поле подтверждения adidas — номер подтверждён.",
+          body: "Сообщение придёт в приложение SMS Code за секунды: «Your adidas verification code is 604927». Введите его в поле подтверждения adidas — номер подтверждён.",
         },
         {
           title: "Заполните доставку и размеры",
@@ -163,7 +163,7 @@ export const adidas: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код подтверждения adidas?",
-        a: "Проверьте, что код страны совпадает с арендованным номером, а регион магазина — со страной номера. Если SMS так и нет, отмените активацию в SMS Activate — платить не за что, раз ничего не пришло, — и повторите со свежим номером.",
+        a: "Проверьте, что код страны совпадает с арендованным номером, а регион магазина — со страной номера. Если SMS так и нет, отмените активацию в SMS Code — платить не за что, раз ничего не пришло, — и повторите со свежим номером.",
       },
       {
         q: "Будет ли аккаунт adidas работать после окончания аренды номера?",

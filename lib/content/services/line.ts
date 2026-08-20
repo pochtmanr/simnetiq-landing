@@ -23,12 +23,12 @@ export const line: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for LINE — Verify Without a Local SIM",
     metaDescription:
-      "Rent a real virtual number for LINE verification. Register LINE without your personal number — the SMS code arrives in the SMS Activate app in seconds.",
+      "Rent a real virtual number for LINE verification. Register LINE without your personal number — the SMS code arrives in the SMS Code app in seconds.",
     hero: {
       title: "A virtual number for LINE",
       intro: [
         "If your friends, family or colleagues are in Japan, Taiwan, Thailand or Indonesia, sooner or later someone will say “add me on LINE.” The app is the default messenger across much of Asia — and it won't let you in without a phone number, which it verifies by SMS before you can even set a display name.",
-        "SMS Activate gives you a real number from one of 50+ countries. Enter it on LINE's sign-up screen, and the four-digit verification code shows up in the SMS Activate app within seconds — your own number stays out of it entirely.",
+        "SMS Code gives you a real number from one of 50+ countries. Enter it on LINE's sign-up screen, and the four-digit verification code shows up in the SMS Code app within seconds — your own number stays out of it entirely.",
       ],
     },
     whyVirtual: {
@@ -42,16 +42,16 @@ export const line: ServiceEntry = {
       title: "How to verify LINE with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
-          body: "Open the SMS Activate app, pick LINE as the service and choose a country — Indonesia and the Philippines are popular picks since LINE is widely used there. One tap reserves a real mobile number for you.",
+          title: "Rent a number in SMS Code",
+          body: "Open the SMS Code app, pick LINE as the service and choose a country — Indonesia and the Philippines are popular picks since LINE is widely used there. One tap reserves a real mobile number for you.",
         },
         {
           title: "Start LINE sign-up with that number",
           body: "In LINE, choose “Sign up”, select the same country as your rented number and type it in. LINE offers to verify by SMS — accept that option rather than a voice call.",
         },
         {
-          title: "Enter the code from SMS Activate",
-          body: "The message arrives in the SMS Activate app, usually in seconds: “Your verification code is 4820. Enter it in LINE within the next 30 mins.” Type the four digits into LINE before they expire.",
+          title: "Enter the code from SMS Code",
+          body: "The message arrives in the SMS Code app, usually in seconds: “Your verification code is 4820. Enter it in LINE within the next 30 mins.” Type the four digits into LINE before they expire.",
         },
         {
           title: "Set up email and a password",
@@ -62,7 +62,7 @@ export const line: ServiceEntry = {
     tips: [
       {
         title: "The code has a timer",
-        body: "LINE's SMS codes expire — the message itself says within how many minutes. Don't rent the number and walk away: have the LINE sign-up screen open and ready before you request the code, then enter it as soon as it lands in SMS Activate.",
+        body: "LINE's SMS codes expire — the message itself says within how many minutes. Don't rent the number and walk away: have the LINE sign-up screen open and ready before you request the code, then enter it as soon as it lands in SMS Code.",
       },
       {
         title: "Register an email immediately",
@@ -88,7 +88,7 @@ export const line: ServiceEntry = {
       },
       {
         q: "Why didn't my LINE verification code arrive?",
-        a: "Most often the country selected in LINE doesn't match the rented number, or LINE switched to voice-call verification, which a rented SMS number can't answer. Cancel the activation in SMS Activate — nothing is charged when no SMS arrives — then take a fresh number and make sure SMS is the chosen method.",
+        a: "Most often the country selected in LINE doesn't match the rented number, or LINE switched to voice-call verification, which a rented SMS number can't answer. Cancel the activation in SMS Code — nothing is charged when no SMS arrives — then take a fresh number and make sure SMS is the chosen method.",
       },
       {
         q: "Can I have two LINE accounts on one phone?",
@@ -99,12 +99,12 @@ export const line: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для LINE — регистрация без своей SIM",
     metaDescription:
-      "Настоящий виртуальный номер для подтверждения LINE. Зарегистрируйтесь в LINE без личного номера — SMS с кодом придёт в приложение SMS Activate за секунды.",
+      "Настоящий виртуальный номер для подтверждения LINE. Зарегистрируйтесь в LINE без личного номера — SMS с кодом придёт в приложение SMS Code за секунды.",
     hero: {
       title: "Виртуальный номер для LINE",
       intro: [
         "Если ваши друзья, родные или коллеги живут в Японии, на Тайване, в Таиланде или Индонезии, рано или поздно кто-нибудь скажет: «Добавь меня в LINE». В значительной части Азии это мессенджер по умолчанию — и без номера телефона он вас не пустит: SMS-подтверждение требуется ещё до того, как вы придумаете имя профиля.",
-        "SMS Activate выдаёт настоящий номер из одной из 50+ стран. Введите его на экране регистрации LINE — и четырёхзначный код подтверждения появится в приложении SMS Activate за секунды. Ваш собственный номер в этом вообще не участвует.",
+        "SMS Code выдаёт настоящий номер из одной из 50+ стран. Введите его на экране регистрации LINE — и четырёхзначный код подтверждения появится в приложении SMS Code за секунды. Ваш собственный номер в этом вообще не участвует.",
       ],
     },
     whyVirtual: {
@@ -118,16 +118,16 @@ export const line: ServiceEntry = {
       title: "Как подтвердить LINE виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис LINE и страну — часто берут Индонезию или Филиппины, там LINE в ходу. Одно нажатие — и настоящий мобильный номер зарезервирован за вами.",
+          title: "Арендуйте номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис LINE и страну — часто берут Индонезию или Филиппины, там LINE в ходу. Одно нажатие — и настоящий мобильный номер зарезервирован за вами.",
         },
         {
           title: "Начните регистрацию в LINE с этим номером",
           body: "В LINE нажмите «Зарегистрироваться», выберите ту же страну, что и у арендованного номера, и введите его. LINE предложит подтверждение по SMS — выбирайте именно его, а не звонок.",
         },
         {
-          title: "Введите код из SMS Activate",
-          body: "Сообщение придёт в приложение SMS Activate, обычно за секунды: «Your verification code is 4820. Enter it in LINE within the next 30 mins.» Введите четыре цифры в LINE, пока код не истёк.",
+          title: "Введите код из SMS Code",
+          body: "Сообщение придёт в приложение SMS Code, обычно за секунды: «Your verification code is 4820. Enter it in LINE within the next 30 mins.» Введите четыре цифры в LINE, пока код не истёк.",
         },
         {
           title: "Привяжите почту и пароль",
@@ -138,7 +138,7 @@ export const line: ServiceEntry = {
     tips: [
       {
         title: "У кода есть таймер",
-        body: "SMS-коды LINE истекают — в самом сообщении написано, через сколько минут. Не арендуйте номер «про запас»: сначала откройте экран регистрации LINE, потом запрашивайте код и вводите его сразу, как только он появится в SMS Activate.",
+        body: "SMS-коды LINE истекают — в самом сообщении написано, через сколько минут. Не арендуйте номер «про запас»: сначала откройте экран регистрации LINE, потом запрашивайте код и вводите его сразу, как только он появится в SMS Code.",
       },
       {
         title: "Сразу укажите почту",
@@ -164,7 +164,7 @@ export const line: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код подтверждения LINE?",
-        a: "Чаще всего страна, выбранная в LINE, не совпадает с арендованным номером, либо LINE переключился на подтверждение звонком, а на арендованный SMS-номер ответить нельзя. Отмените активацию в SMS Activate — за номер без входящих SMS деньги не списываются, — возьмите новый и проследите, чтобы способом подтверждения была именно SMS.",
+        a: "Чаще всего страна, выбранная в LINE, не совпадает с арендованным номером, либо LINE переключился на подтверждение звонком, а на арендованный SMS-номер ответить нельзя. Отмените активацию в SMS Code — за номер без входящих SMS деньги не списываются, — возьмите новый и проследите, чтобы способом подтверждения была именно SMS.",
       },
       {
         q: "Можно ли держать два аккаунта LINE на одном телефоне?",

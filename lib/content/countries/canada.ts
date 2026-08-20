@@ -16,7 +16,7 @@ export const canada: CountryEntry = {
       title: "A Canadian virtual number for SMS verification",
       intro: [
         "Canada shares the +1 country code with the United States, which gives its numbers a quiet superpower: in most sign-up flows they're treated exactly like American ones. You get a number from the North American numbering plan — the format every major service knows by heart — with a Canadian identity behind it.",
-        "SMS Activate gives you a real Canadian mobile number in one tap. Enter it at the verification step, and the SMS — with a code from Google, Discord, Tinder, Snapchat or Apple — arrives in the app within seconds.",
+        "SMS Code gives you a real Canadian mobile number in one tap. Enter it at the verification step, and the SMS — with a code from Google, Discord, Tinder, Snapchat or Apple — arrives in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -55,7 +55,7 @@ export const canada: CountryEntry = {
       },
       {
         q: "Can I use a Canadian number from outside Canada?",
-        a: "Yes. The number lives in the SMS Activate app, not in a SIM card, so you receive the verification SMS wherever you are in the world.",
+        a: "Yes. The number lives in the SMS Code app, not in a SIM card, so you receive the verification SMS wherever you are in the world.",
       },
       {
         q: "How long do I have the number?",
@@ -71,7 +71,7 @@ export const canada: CountryEntry = {
       title: "Виртуальный номер Канады для SMS-верификации",
       intro: [
         "Канада делит код +1 с США, и это даёт её номерам тихую суперспособность: в большинстве форм регистрации они воспринимаются точно так же, как американские. Вы получаете номер из североамериканского плана нумерации — формата, который каждый крупный сервис знает наизусть, — но с канадской пропиской.",
-        "SMS Activate выдаёт настоящий канадский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от Google, Discord, Tinder, Snapchat или Apple придёт в приложение за считанные секунды.",
+        "SMS Code выдаёт настоящий канадский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от Google, Discord, Tinder, Snapchat или Apple придёт в приложение за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -110,7 +110,7 @@ export const canada: CountryEntry = {
       },
       {
         q: "Можно ли пользоваться канадским номером не из Канады?",
-        a: "Да. Номер живёт в приложении SMS Activate, а не в SIM-карте, поэтому SMS с кодом вы получите в любой точке мира.",
+        a: "Да. Номер живёт в приложении SMS Code, а не в SIM-карте, поэтому SMS с кодом вы получите в любой точке мира.",
       },
       {
         q: "Как долго номер в моём распоряжении?",

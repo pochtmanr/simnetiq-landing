@@ -21,7 +21,7 @@ export const binance: ServiceEntry = {
       title: "A virtual number for Binance",
       intro: [
         "Binance guards accounts the way you’d hope an exchange would: sign-up wants a verified contact, security checks fire on new devices, and SMS codes like “[Binance] SMS verification code: 592731” punctuate everything from binding a phone to confirming a withdrawal. That’s good security — and one more company holding your personal mobile number.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The phone step gets done, and the number stored next to your trading account isn’t the one your bank, your family and your other exchanges already know.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The phone step gets done, and the number stored next to your trading account isn’t the one your bank, your family and your other exchanges already know.",
       ],
     },
     whyVirtual: {
@@ -35,7 +35,7 @@ export const binance: ServiceEntry = {
       title: "How to verify Binance with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Pick Binance as the service and choose a country — matching the country of your residence and documents keeps your account details consistent when KYC comes. One tap reserves a real mobile number.",
         },
         {
@@ -44,7 +44,7 @@ export const binance: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The SMS reads “[Binance] SMS verification code: 592731” and appears in the SMS Activate app within seconds. Enter it and the phone step is done.",
+          body: "The SMS reads “[Binance] SMS verification code: 592731” and appears in the SMS Code app within seconds. Enter it and the phone step is done.",
         },
         {
           title: "Move security onto factors you keep",
@@ -85,7 +85,7 @@ export const binance: ServiceEntry = {
       },
       {
         q: "The Binance code never arrived — what now?",
-        a: "Check the country code matches the rented number, then give it a minute — exchange SMS can queue behind security checks. If nothing lands, cancel the activation in SMS Activate free of charge and take a fresh number; you only pay when an SMS is delivered.",
+        a: "Check the country code matches the rented number, then give it a minute — exchange SMS can queue behind security checks. If nothing lands, cancel the activation in SMS Code free of charge and take a fresh number; you only pay when an SMS is delivered.",
       },
     ],
   },
@@ -97,7 +97,7 @@ export const binance: ServiceEntry = {
       title: "Виртуальный номер для Binance",
       intro: [
         "Binance охраняет аккаунты так, как и положено бирже: регистрация просит подтверждённый контакт, проверки безопасности срабатывают на новых устройствах, а SMS вида «[Binance] SMS verification code: 592731» сопровождают всё — от привязки телефона до подтверждения вывода. Это хорошая безопасность — и ещё одна компания с вашим личным мобильным в базе.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Телефонный шаг пройден, а номер, записанный рядом с вашим торговым аккаунтом, — не тот, который уже знают ваш банк, семья и другие биржи.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Телефонный шаг пройден, а номер, записанный рядом с вашим торговым аккаунтом, — не тот, который уже знают ваш банк, семья и другие биржи.",
       ],
     },
     whyVirtual: {
@@ -111,7 +111,7 @@ export const binance: ServiceEntry = {
       title: "Как подтвердить Binance виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис Binance и страну — совпадение со страной вашего проживания и документов сохранит согласованность данных, когда дойдёт до KYC. Одно касание — и настоящий мобильный номер зарезервирован.",
         },
         {
@@ -120,7 +120,7 @@ export const binance: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "SMS выглядит так: «[Binance] SMS verification code: 592731» — и появляется в приложении SMS Activate за секунды. Введите код, и телефонный шаг завершён.",
+          body: "SMS выглядит так: «[Binance] SMS verification code: 592731» — и появляется в приложении SMS Code за секунды. Введите код, и телефонный шаг завершён.",
         },
         {
           title: "Переведите безопасность на факторы, которые останутся с вами",
@@ -161,7 +161,7 @@ export const binance: ServiceEntry = {
       },
       {
         q: "Код Binance так и не пришёл — что делать?",
-        a: "Проверьте, совпадает ли код страны с арендованным номером, и подождите минуту — биржевые SMS могут стоять в очереди за проверками безопасности. Если ничего не пришло, отмените активацию в SMS Activate бесплатно и возьмите свежий номер: вы платите только за доставленную SMS.",
+        a: "Проверьте, совпадает ли код страны с арендованным номером, и подождите минуту — биржевые SMS могут стоять в очереди за проверками безопасности. Если ничего не пришло, отмените активацию в SMS Code бесплатно и возьмите свежий номер: вы платите только за доставленную SMS.",
       },
     ],
   },

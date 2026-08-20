@@ -27,7 +27,7 @@ export const telegram: ServiceEntry = {
       title: "A virtual number for Telegram",
       intro: [
         "Telegram asks for a phone number on its very first screen — before you can pick a username, join a group or send a single message. That number becomes the permanent anchor of your account, and by default your contacts can see it.",
-        "With SMS Activate you rent a real number in one of 50+ countries, type it into Telegram, and the verification code appears in the app within seconds. Your personal number never touches Telegram's servers.",
+        "With SMS Code you rent a real number in one of 50+ countries, type it into Telegram, and the verification code appears in the app within seconds. Your personal number never touches Telegram's servers.",
       ],
     },
     whyVirtual: {
@@ -41,16 +41,16 @@ export const telegram: ServiceEntry = {
       title: "How to verify Telegram with a virtual number",
       steps: [
         {
-          title: "Get a number in SMS Activate",
-          body: "Open the SMS Activate app, choose Telegram as the service, pick a country and tap once. You get a real mobile number reserved just for you.",
+          title: "Get a number in SMS Code",
+          body: "Open the SMS Code app, choose Telegram as the service, pick a country and tap once. You get a real mobile number reserved just for you.",
         },
         {
           title: "Enter it in Telegram",
           body: "On Telegram's sign-up screen, select the matching country code and type the number. Double-check the country — a mismatch is the most common reason a code never arrives.",
         },
         {
-          title: "Grab the code from SMS Activate",
-          body: "The SMS lands in the SMS Activate app, usually within seconds. It looks like “Telegram code: 48329”. Type it into Telegram and you're in.",
+          title: "Grab the code from SMS Code",
+          body: "The SMS lands in the SMS Code app, usually within seconds. It looks like “Telegram code: 48329”. Type it into Telegram and you're in.",
         },
         {
           title: "Lock the account down",
@@ -61,7 +61,7 @@ export const telegram: ServiceEntry = {
     tips: [
       {
         title: "Codes can go to an existing session",
-        body: "If a number was ever used for Telegram before, Telegram sends the login code to the existing session instead of SMS. SMS Activate issues you a fresh number, but if you re-verify later, remember the code may appear inside Telegram itself.",
+        body: "If a number was ever used for Telegram before, Telegram sends the login code to the existing session instead of SMS. SMS Code issues you a fresh number, but if you re-verify later, remember the code may appear inside Telegram itself.",
       },
       {
         title: "Keep your session logged in",
@@ -83,7 +83,7 @@ export const telegram: ServiceEntry = {
       },
       {
         q: "Why didn't my Telegram code arrive?",
-        a: "The usual causes: the country code entered in Telegram doesn't match the number, or Telegram decided to deliver the code to a previous session. Cancel the pending activation in SMS Activate — you're not charged for numbers that received nothing — and try a fresh number.",
+        a: "The usual causes: the country code entered in Telegram doesn't match the number, or Telegram decided to deliver the code to a previous session. Cancel the pending activation in SMS Code — you're not charged for numbers that received nothing — and try a fresh number.",
       },
       {
         q: "Will people see that I'm using a virtual number?",
@@ -104,7 +104,7 @@ export const telegram: ServiceEntry = {
       title: "Виртуальный номер для Telegram",
       intro: [
         "Telegram запрашивает номер телефона на самом первом экране — ещё до того, как вы выберете имя пользователя, вступите в группу или отправите первое сообщение. Этот номер навсегда привязывается к аккаунту, и по умолчанию его видят ваши контакты.",
-        "С SMS Activate вы арендуете настоящий номер в одной из 50+ стран, вводите его в Telegram — и код подтверждения появляется в приложении за считанные секунды. Ваш личный номер вообще не попадает на серверы Telegram.",
+        "С SMS Code вы арендуете настоящий номер в одной из 50+ стран, вводите его в Telegram — и код подтверждения появляется в приложении за считанные секунды. Ваш личный номер вообще не попадает на серверы Telegram.",
       ],
     },
     whyVirtual: {
@@ -118,16 +118,16 @@ export const telegram: ServiceEntry = {
       title: "Как подтвердить Telegram виртуальным номером",
       steps: [
         {
-          title: "Получите номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис Telegram, страну — и нажмите один раз. Вы получите настоящий мобильный номер, зарезервированный только для вас.",
+          title: "Получите номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис Telegram, страну — и нажмите один раз. Вы получите настоящий мобильный номер, зарезервированный только для вас.",
         },
         {
           title: "Введите его в Telegram",
           body: "На экране регистрации Telegram выберите соответствующий код страны и введите номер. Проверьте страну дважды — несовпадение кода страны с номером чаще всего и есть причина, почему код не приходит.",
         },
         {
-          title: "Заберите код из SMS Activate",
-          body: "SMS придёт в приложение SMS Activate, обычно за секунды. Выглядит так: «Telegram code: 48329». Введите код в Telegram — и готово.",
+          title: "Заберите код из SMS Code",
+          body: "SMS придёт в приложение SMS Code, обычно за секунды. Выглядит так: «Telegram code: 48329». Введите код в Telegram — и готово.",
         },
         {
           title: "Защитите аккаунт",
@@ -138,7 +138,7 @@ export const telegram: ServiceEntry = {
     tips: [
       {
         title: "Код может уйти в существующую сессию",
-        body: "Если номер когда-то уже использовался в Telegram, код входа отправится в активную сессию, а не по SMS. SMS Activate выдаёт вам свежий номер, но при повторной верификации позже помните: код может появиться внутри самого Telegram.",
+        body: "Если номер когда-то уже использовался в Telegram, код входа отправится в активную сессию, а не по SMS. SMS Code выдаёт вам свежий номер, но при повторной верификации позже помните: код может появиться внутри самого Telegram.",
       },
       {
         title: "Не выходите из аккаунта",
@@ -160,7 +160,7 @@ export const telegram: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Telegram?",
-        a: "Обычные причины: код страны в Telegram не совпадает с номером, либо Telegram отправил код в предыдущую сессию. Отмените ожидающую активацию в SMS Activate — за номера, на которые ничего не пришло, деньги не списываются, — и возьмите новый номер.",
+        a: "Обычные причины: код страны в Telegram не совпадает с номером, либо Telegram отправил код в предыдущую сессию. Отмените ожидающую активацию в SMS Code — за номера, на которые ничего не пришло, деньги не списываются, — и возьмите новый номер.",
       },
       {
         q: "Увидят ли другие, что у меня виртуальный номер?",

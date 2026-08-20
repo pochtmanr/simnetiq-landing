@@ -27,7 +27,7 @@ export const whatsapp: ServiceEntry = {
       title: "A virtual number for WhatsApp",
       intro: [
         "In WhatsApp, the phone number isn't just a login — it is the account. Every contact who has your number saved sees your profile, and moving to a different number means walking through the official Change Number flow. Whatever number you register with, you're wearing it in public.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries, enter it on WhatsApp's sign-up screen, and the 6-digit verification code appears in the app within seconds. You pay per activation from a one-time credit pack — and if a number receives nothing, you cancel it without being charged.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries, enter it on WhatsApp's sign-up screen, and the 6-digit verification code appears in the app within seconds. You pay per activation from a one-time credit pack — and if a number receives nothing, you cancel it without being charged.",
       ],
     },
     whyVirtual: {
@@ -41,8 +41,8 @@ export const whatsapp: ServiceEntry = {
       title: "How to verify WhatsApp with a virtual number",
       steps: [
         {
-          title: "Get a number in SMS Activate",
-          body: "Open the SMS Activate app, choose WhatsApp as the service, pick a country and tap once. A real mobile number is reserved just for you for the length of the activation.",
+          title: "Get a number in SMS Code",
+          body: "Open the SMS Code app, choose WhatsApp as the service, pick a country and tap once. A real mobile number is reserved just for you for the length of the activation.",
         },
         {
           title: "Enter it in WhatsApp",
@@ -50,7 +50,7 @@ export const whatsapp: ServiceEntry = {
         },
         {
           title: "Grab the 6-digit code",
-          body: "The SMS arrives in the SMS Activate app, usually within seconds, from sender “WhatsApp” and formatted like “WhatsApp code 305-921”. Type the six digits into WhatsApp — the dash is just formatting.",
+          body: "The SMS arrives in the SMS Code app, usually within seconds, from sender “WhatsApp” and formatted like “WhatsApp code 305-921”. Type the six digits into WhatsApp — the dash is just formatting.",
         },
         {
           title: "Set a two-step verification PIN",
@@ -61,7 +61,7 @@ export const whatsapp: ServiceEntry = {
     tips: [
       {
         title: "WhatsApp is picky about numbers — plan for a retry",
-        body: "WhatsApp screens incoming registrations harder than most services and can refuse to send a code to a number it suspects is temporary. That's normal: cancel the pending activation in SMS Activate — you're not charged for numbers that received nothing — and try again, ideally with a different country.",
+        body: "WhatsApp screens incoming registrations harder than most services and can refuse to send a code to a number it suspects is temporary. That's normal: cancel the pending activation in SMS Code — you're not charged for numbers that received nothing — and try again, ideally with a different country.",
       },
       {
         title: "Warm the account up",
@@ -79,7 +79,7 @@ export const whatsapp: ServiceEntry = {
       },
       {
         q: "Why didn't my WhatsApp code arrive?",
-        a: "Two common causes: the country selected in WhatsApp doesn't match the number, or WhatsApp declined to send a code to that particular number — it's stricter than most services about ones it suspects are temporary. Cancel the pending activation in SMS Activate free of charge and take a fresh number, ideally in another country. WhatsApp may also offer to call the number with the code, or on re-registration send it to an existing WhatsApp session instead of by SMS.",
+        a: "Two common causes: the country selected in WhatsApp doesn't match the number, or WhatsApp declined to send a code to that particular number — it's stricter than most services about ones it suspects are temporary. Cancel the pending activation in SMS Code free of charge and take a fresh number, ideally in another country. WhatsApp may also offer to call the number with the code, or on re-registration send it to an existing WhatsApp session instead of by SMS.",
       },
       {
         q: "Can I run a second WhatsApp account this way?",
@@ -103,7 +103,7 @@ export const whatsapp: ServiceEntry = {
       title: "Виртуальный номер для WhatsApp",
       intro: [
         "В WhatsApp номер телефона — не просто логин, а сам аккаунт. Каждый, у кого ваш номер записан в контактах, видит ваш профиль, а переезд на другой номер — это отдельная официальная процедура «Изменить номер». С каким номером зарегистрировались, с тем и живёте на виду.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его на экране регистрации WhatsApp — и 6-значный код подтверждения появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его на экране регистрации WhatsApp — и 6-значный код подтверждения появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
       ],
     },
     whyVirtual: {
@@ -117,8 +117,8 @@ export const whatsapp: ServiceEntry = {
       title: "Как подтвердить WhatsApp виртуальным номером",
       steps: [
         {
-          title: "Получите номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис WhatsApp, страну — и нажмите один раз. Настоящий мобильный номер резервируется только за вами на время активации.",
+          title: "Получите номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис WhatsApp, страну — и нажмите один раз. Настоящий мобильный номер резервируется только за вами на время активации.",
         },
         {
           title: "Введите его в WhatsApp",
@@ -126,7 +126,7 @@ export const whatsapp: ServiceEntry = {
         },
         {
           title: "Заберите 6-значный код",
-          body: "SMS придёт в приложение SMS Activate, обычно за секунды, от отправителя «WhatsApp» в формате «WhatsApp code 305-921». Введите шесть цифр в WhatsApp — дефис только для читаемости.",
+          body: "SMS придёт в приложение SMS Code, обычно за секунды, от отправителя «WhatsApp» в формате «WhatsApp code 305-921». Введите шесть цифр в WhatsApp — дефис только для читаемости.",
         },
         {
           title: "Установите PIN двухшаговой проверки",
@@ -137,7 +137,7 @@ export const whatsapp: ServiceEntry = {
     tips: [
       {
         title: "WhatsApp придирчив к номерам — закладывайте попытку про запас",
-        body: "WhatsApp проверяет новые регистрации строже большинства сервисов и может не отправить код на номер, который сочтёт временным. Это нормально: отмените ожидающую активацию в SMS Activate — за номера, на которые ничего не пришло, деньги не списываются, — и попробуйте снова, лучше с другой страной.",
+        body: "WhatsApp проверяет новые регистрации строже большинства сервисов и может не отправить код на номер, который сочтёт временным. Это нормально: отмените ожидающую активацию в SMS Code — за номера, на которые ничего не пришло, деньги не списываются, — и попробуйте снова, лучше с другой страной.",
       },
       {
         title: "Дайте аккаунту «прогреться»",
@@ -155,7 +155,7 @@ export const whatsapp: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код WhatsApp?",
-        a: "Две частые причины: страна, выбранная в WhatsApp, не совпадает с номером, либо WhatsApp отказался отправлять код на этот конкретный номер — к подозрительным на «временность» номерам он строже большинства сервисов. Отмените ожидающую активацию в SMS Activate без списания и возьмите новый номер, лучше в другой стране. WhatsApp также может предложить продиктовать код звонком, а при повторной регистрации — отправить его в существующую сессию WhatsApp вместо SMS.",
+        a: "Две частые причины: страна, выбранная в WhatsApp, не совпадает с номером, либо WhatsApp отказался отправлять код на этот конкретный номер — к подозрительным на «временность» номерам он строже большинства сервисов. Отмените ожидающую активацию в SMS Code без списания и возьмите новый номер, лучше в другой стране. WhatsApp также может предложить продиктовать код звонком, а при повторной регистрации — отправить его в существующую сессию WhatsApp вместо SMS.",
       },
       {
         q: "Можно ли так завести второй аккаунт WhatsApp?",

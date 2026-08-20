@@ -27,7 +27,7 @@ export const twitch: ServiceEntry = {
       title: "A virtual number for Twitch",
       intro: [
         "Twitch lets you register with just an email — and then the phone step starts following you around. Streamers switch their chat to phone-verified mode to keep bots out, two-factor authentication is required before you can go live, and the moment either happens, Twitch wants to text a code like “Your Twitch verification code is 843921” to a number of yours.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. Your chat messages send, your 2FA turns on — and the phone number sitting next to your channel name in Twitch’s database was never your personal one.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. Your chat messages send, your 2FA turns on — and the phone number sitting next to your channel name in Twitch’s database was never your personal one.",
       ],
     },
     whyVirtual: {
@@ -41,7 +41,7 @@ export const twitch: ServiceEntry = {
       title: "How to verify Twitch with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Pick Twitch as the service and choose a country — one that matches where you actually watch or stream keeps things consistent. One tap reserves a real mobile number for you.",
         },
         {
@@ -50,7 +50,7 @@ export const twitch: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The SMS reads “Your Twitch verification code is 843921” and appears in the SMS Activate app within seconds. Enter it on Twitch and the number is verified.",
+          body: "The SMS reads “Your Twitch verification code is 843921” and appears in the SMS Code app within seconds. Enter it on Twitch and the number is verified.",
         },
         {
           title: "Switch 2FA to an authenticator app",
@@ -91,7 +91,7 @@ export const twitch: ServiceEntry = {
       },
       {
         q: "Why didn’t the Twitch code arrive?",
-        a: "Check that the country code matches the rented number, and give it a moment — codes usually land in seconds. If nothing comes, cancel the activation in SMS Activate free of charge and take a fresh number; you only pay for activations that deliver.",
+        a: "Check that the country code matches the rented number, and give it a moment — codes usually land in seconds. If nothing comes, cancel the activation in SMS Code free of charge and take a fresh number; you only pay for activations that deliver.",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const twitch: ServiceEntry = {
       title: "Виртуальный номер для Twitch",
       intro: [
         "Twitch регистрирует по одной почте — а потом телефонный шаг начинает ходить за вами по пятам. Стримеры включают в чате режим «только с подтверждённым телефоном», чтобы отсечь ботов, двухфакторная аутентификация обязательна перед первым эфиром, и в оба момента Twitch хочет отправить код вида «Your Twitch verification code is 843921» на какой-нибудь ваш номер.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Сообщения в чате отправляются, 2FA включена — а номер, записанный рядом с вашим ником в базе Twitch, никогда не был вашим личным.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Сообщения в чате отправляются, 2FA включена — а номер, записанный рядом с вашим ником в базе Twitch, никогда не был вашим личным.",
       ],
     },
     whyVirtual: {
@@ -117,7 +117,7 @@ export const twitch: ServiceEntry = {
       title: "Как подтвердить Twitch виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис Twitch и страну — лучше ту, где вы реально смотрите или стримите, так данные аккаунта останутся согласованными. Одно касание — и настоящий мобильный номер зарезервирован за вами.",
         },
         {
@@ -126,7 +126,7 @@ export const twitch: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "SMS выглядит так: «Your Twitch verification code is 843921» — и появляется в приложении SMS Activate за секунды. Введите код на Twitch, и номер подтверждён.",
+          body: "SMS выглядит так: «Your Twitch verification code is 843921» — и появляется в приложении SMS Code за секунды. Введите код на Twitch, и номер подтверждён.",
         },
         {
           title: "Переведите 2FA на приложение-аутентификатор",
@@ -167,7 +167,7 @@ export const twitch: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Twitch?",
-        a: "Проверьте, совпадает ли код страны с арендованным номером, и подождите немного — обычно коды приходят за секунды. Если SMS так и нет, отмените активацию в SMS Activate бесплатно и возьмите свежий номер: вы платите только за активации с доставленной SMS.",
+        a: "Проверьте, совпадает ли код страны с арендованным номером, и подождите немного — обычно коды приходят за секунды. Если SMS так и нет, отмените активацию в SMS Code бесплатно и возьмите свежий номер: вы платите только за активации с доставленной SMS.",
       },
     ],
   },

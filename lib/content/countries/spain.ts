@@ -16,7 +16,7 @@ export const spain: CountryEntry = {
       title: "A Spanish virtual number for SMS verification",
       intro: [
         "Spain runs on WhatsApp: from family group chats to booking a table, the green icon is where Spanish life gets arranged. Add one of Europe's liveliest Instagram scenes and a national devotion to AliExpress bargains, and a +34 number becomes the natural key to the Spanish internet.",
-        "SMS Activate gives you a real Spanish mobile number in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Instagram, Tinder, AliExpress or Airbnb — appears in the app within seconds.",
+        "SMS Code gives you a real Spanish mobile number in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Instagram, Tinder, AliExpress or Airbnb — appears in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -55,7 +55,7 @@ export const spain: CountryEntry = {
       },
       {
         q: "Can I use a Spanish number without being in Spain?",
-        a: "Yes. The number lives in the SMS Activate app, so the verification code reaches you anywhere — no Spanish SIM, no roaming, no location requirement.",
+        a: "Yes. The number lives in the SMS Code app, so the verification code reaches you anywhere — no Spanish SIM, no roaming, no location requirement.",
       },
       {
         q: "What happens if I want to keep the account long-term?",
@@ -71,7 +71,7 @@ export const spain: CountryEntry = {
       title: "Виртуальный номер Испании для SMS-верификации",
       intro: [
         "Испания живёт в WhatsApp: от семейных чатов до брони столика — всё в испанской жизни устраивается через зелёную иконку. Добавьте к этому одну из самых живых Instagram-сцен Европы и всенародную любовь к находкам с AliExpress — и номер +34 становится естественным ключом к испанскому интернету.",
-        "SMS Activate выдаёт настоящий испанский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, Tinder, AliExpress или Airbnb появится в приложении за секунды.",
+        "SMS Code выдаёт настоящий испанский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, Tinder, AliExpress или Airbnb появится в приложении за секунды.",
       ],
     },
     whyCountry: {
@@ -110,7 +110,7 @@ export const spain: CountryEntry = {
       },
       {
         q: "Можно ли пользоваться испанским номером не из Испании?",
-        a: "Да. Номер живёт в приложении SMS Activate, поэтому код подтверждения дойдёт до вас где угодно — без испанской SIM-карты, роуминга и привязки к месту.",
+        a: "Да. Номер живёт в приложении SMS Code, поэтому код подтверждения дойдёт до вас где угодно — без испанской SIM-карты, роуминга и привязки к месту.",
       },
       {
         q: "А если я хочу вести аккаунт долго?",

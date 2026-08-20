@@ -16,7 +16,7 @@ export const turkey: CountryEntry = {
       title: "A Turkish virtual number for SMS verification",
       intro: [
         "Turkey sits at the crossroads of Europe and Asia, and its numbers travel just as widely: a +90 mobile is everyday traffic for global messengers, social apps and crypto exchanges alike. With one of the largest and most active social-media populations in the region, Turkish numbers pass through Instagram and TikTok sign-ups all day long.",
-        "SMS Activate rents you a real Turkish mobile number in one tap. Enter it at the verification step, and the SMS with your code appears in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Turkish mobile number in one tap. Enter it at the verification step, and the SMS with your code appears in the app within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -33,7 +33,7 @@ export const turkey: CountryEntry = {
       },
       {
         title: "A favorite for social apps",
-        body: "Instagram and TikTok sign-ups with Turkish numbers are constant, well-trodden traffic — codes are delivered promptly and the flows hold no surprises. If one app is slow to send, cancel free in SMS Activate and take a fresh number rather than waiting it out.",
+        body: "Instagram and TikTok sign-ups with Turkish numbers are constant, well-trodden traffic — codes are delivered promptly and the flows hold no surprises. If one app is slow to send, cancel free in SMS Code and take a fresh number rather than waiting it out.",
       },
       {
         title: "Request the code right away",
@@ -51,7 +51,7 @@ export const turkey: CountryEntry = {
       },
       {
         q: "Do I need to be in Turkey to receive the SMS?",
-        a: "No. The number and its messages live in the SMS Activate app, so your physical location and your own SIM never enter the picture — the code reaches you wherever you are.",
+        a: "No. The number and its messages live in the SMS Code app, so your physical location and your own SIM never enter the picture — the code reaches you wherever you are.",
       },
       {
         q: "What if the verification code never arrives?",
@@ -71,7 +71,7 @@ export const turkey: CountryEntry = {
       title: "Виртуальный номер Турции для SMS-верификации",
       intro: [
         "Турция стоит на перекрёстке Европы и Азии, и её номера путешествуют так же широко: мобильный +90 — повседневный трафик и для мировых мессенджеров, и для соцсетей, и для криптобирж. Одна из самых больших и активных аудиторий соцсетей в регионе означает, что турецкие номера проходят через регистрации Instagram и TikTok круглые сутки.",
-        "SMS Activate сдаёт настоящий турецкий мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий турецкий мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {
@@ -88,7 +88,7 @@ export const turkey: CountryEntry = {
       },
       {
         title: "Любимец социальных приложений",
-        body: "Регистрации Instagram и TikTok с турецкими номерами — постоянный, хорошо протоптанный трафик: коды доставляются быстро, сценарии без сюрпризов. Если какое-то приложение медлит с отправкой, отмените активацию в SMS Activate бесплатно и возьмите свежий номер, а не ждите.",
+        body: "Регистрации Instagram и TikTok с турецкими номерами — постоянный, хорошо протоптанный трафик: коды доставляются быстро, сценарии без сюрпризов. Если какое-то приложение медлит с отправкой, отмените активацию в SMS Code бесплатно и возьмите свежий номер, а не ждите.",
       },
       {
         title: "Запрашивайте код сразу",
@@ -106,7 +106,7 @@ export const turkey: CountryEntry = {
       },
       {
         q: "Нужно ли находиться в Турции, чтобы получить SMS?",
-        a: "Нет. Номер и его сообщения живут в приложении SMS Activate, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
+        a: "Нет. Номер и его сообщения живут в приложении SMS Code, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
       },
       {
         q: "Что, если код подтверждения так и не придёт?",

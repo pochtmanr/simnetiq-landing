@@ -16,7 +16,7 @@ export const germany: CountryEntry = {
       title: "A German virtual number for SMS verification",
       intro: [
         "Germany is Europe's largest market and one of its most privacy-conscious, and a +49 mobile number carries that reputation with it. Services see a number from a country with strict data-protection culture and a mature carrier network — a solid, unremarkable choice in the best sense.",
-        "SMS Activate rents you a real German mobile number in one tap. Enter it at the verification step of Google, Discord, Steam or another supported service, and the SMS with your code lands in the app within seconds.",
+        "SMS Code rents you a real German mobile number in one tap. Enter it at the verification step of Google, Discord, Steam or another supported service, and the SMS with your code lands in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -51,7 +51,7 @@ export const germany: CountryEntry = {
       },
       {
         q: "Do I need to be in Germany to use it?",
-        a: "No. The number and its incoming SMS live inside the SMS Activate app, so you can be anywhere in the world — your own SIM card and location play no part.",
+        a: "No. The number and its incoming SMS live inside the SMS Code app, so you can be anywhere in the world — your own SIM card and location play no part.",
       },
       {
         q: "How does payment work?",
@@ -71,7 +71,7 @@ export const germany: CountryEntry = {
       title: "Виртуальный номер Германии для SMS-верификации",
       intro: [
         "Германия — крупнейший рынок Европы и один из самых щепетильных в вопросах приватности, и номер +49 несёт эту репутацию с собой. Сервисы видят номер из страны со строгой культурой защиты данных и зрелой операторской сетью — надёжный и «непримечательный» выбор в лучшем смысле слова.",
-        "SMS Activate сдаёт вам настоящий немецкий мобильный номер в одно касание. Введите его на шаге подтверждения Google, Discord, Steam или другого поддерживаемого сервиса — и SMS с кодом окажется в приложении за считанные секунды.",
+        "SMS Code сдаёт вам настоящий немецкий мобильный номер в одно касание. Введите его на шаге подтверждения Google, Discord, Steam или другого поддерживаемого сервиса — и SMS с кодом окажется в приложении за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -106,7 +106,7 @@ export const germany: CountryEntry = {
       },
       {
         q: "Нужно ли находиться в Германии, чтобы им пользоваться?",
-        a: "Нет. Номер и входящие SMS живут внутри приложения SMS Activate, поэтому вы можете быть где угодно — ваша собственная SIM-карта и местоположение роли не играют.",
+        a: "Нет. Номер и входящие SMS живут внутри приложения SMS Code, поэтому вы можете быть где угодно — ваша собственная SIM-карта и местоположение роли не играют.",
       },
       {
         q: "Как устроена оплата?",

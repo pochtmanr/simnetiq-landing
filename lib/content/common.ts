@@ -18,7 +18,7 @@ export const NAV = {
       { path: "/#faq", label: "FAQ" },
       { path: "/support", label: "Support" },
     ],
-    home: "SMS Activate home",
+    home: "SMS Code home",
     openMenu: "Open menu",
     closeMenu: "Close menu",
   },
@@ -31,7 +31,7 @@ export const NAV = {
       { path: "/#faq", label: "Вопросы" },
       { path: "/support", label: "Поддержка" },
     ],
-    home: "SMS Activate — на главную",
+    home: "SMS Code — на главную",
     openMenu: "Открыть меню",
     closeMenu: "Закрыть меню",
   },
@@ -71,11 +71,9 @@ export const FOOTER = {
 export const BADGES = {
   en: {
     appStore: "Download on the App Store",
-    googlePlay: "Get it on Google Play",
   },
   ru: {
     appStore: "Загрузить в App Store",
-    googlePlay: "Доступно в Google Play",
   },
 } satisfies Record<Locale, unknown>;
 
@@ -97,12 +95,12 @@ export const PHONE_MOCK = {
 export const NOT_FOUND = {
   en: {
     title: "This page doesn’t exist",
-    body: "The address may have changed. Everything about SMS Activate lives on the home page.",
+    body: "The address may have changed. Everything about SMS Code lives on the home page.",
     back: "Back to home",
   },
   ru: {
     title: "Такой страницы нет",
-    body: "Возможно, адрес изменился. Всё об SMS Activate — на главной странице.",
+    body: "Возможно, адрес изменился. Всё об SMS Code — на главной странице.",
     back: "На главную",
   },
 } satisfies Record<Locale, unknown>;

@@ -27,7 +27,7 @@ export const reddit: ServiceEntry = {
       title: "A virtual number for Reddit",
       intro: [
         "Reddit built its whole culture on usernames instead of real names — and then, every so often, asks for the realest identifier you own. Most sign-ups run on email alone, but certain flows, networks and “suspicious activity” checks put up a phone screen, and a text like “Your Reddit verification code is 617293” stands between you and the front page.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The check clears, the account opens — and the pseudonym you post under stays unlinked to the number your name is attached to everywhere else.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The check clears, the account opens — and the pseudonym you post under stays unlinked to the number your name is attached to everywhere else.",
       ],
     },
     whyVirtual: {
@@ -45,12 +45,12 @@ export const reddit: ServiceEntry = {
           body: "Create the account with an email you control and see whether Reddit even asks for a phone. If it doesn’t, you’re done and spent nothing. If the phone screen appears, move to step two.",
         },
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Pick Reddit as the service and choose a country. One tap reserves a real mobile number just for you — reserved means no one else is using it for Reddit at the same time.",
         },
         {
           title: "Enter the number and type in the code",
-          body: "Select the matching country code on Reddit’s screen and enter the number. The SMS reads “Your Reddit verification code is 617293” and appears in the SMS Activate app within seconds — copy it across.",
+          body: "Select the matching country code on Reddit’s screen and enter the number. The SMS reads “Your Reddit verification code is 617293” and appears in the SMS Code app within seconds — copy it across.",
         },
         {
           title: "Detach the number afterwards",
@@ -91,7 +91,7 @@ export const reddit: ServiceEntry = {
       },
       {
         q: "The Reddit code never came — what now?",
-        a: "Confirm the country code matches the rented number and wait a moment; codes usually land in seconds. If nothing arrives, cancel the activation in SMS Activate free of charge and take a fresh number — you only pay for activations that deliver an SMS.",
+        a: "Confirm the country code matches the rented number and wait a moment; codes usually land in seconds. If nothing arrives, cancel the activation in SMS Code free of charge and take a fresh number — you only pay for activations that deliver an SMS.",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const reddit: ServiceEntry = {
       title: "Виртуальный номер для Reddit",
       intro: [
         "Reddit построил целую культуру на никнеймах вместо настоящих имён — и время от времени просит самый настоящий идентификатор из всех, что у вас есть. Большинство регистраций обходятся одной почтой, но отдельные сценарии, сети и проверки «подозрительной активности» ставят телефонный экран, и между вами и главной страницей встаёт SMS вида «Your Reddit verification code is 617293».",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Проверка пройдена, аккаунт открыт — а псевдоним, под которым вы пишете, так и не связан с номером, к которому повсюду привязано ваше имя.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Проверка пройдена, аккаунт открыт — а псевдоним, под которым вы пишете, так и не связан с номером, к которому повсюду привязано ваше имя.",
       ],
     },
     whyVirtual: {
@@ -121,12 +121,12 @@ export const reddit: ServiceEntry = {
           body: "Создайте аккаунт на почту под вашим контролем и посмотрите, спросит ли Reddit телефон вообще. Не спросил — готово, вы не потратили ничего. Появился телефонный экран — переходите ко второму шагу.",
         },
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис Reddit и страну. Одно касание — и настоящий мобильный номер зарезервирован только за вами; «зарезервирован» значит, что никто другой не использует его для Reddit в это же время.",
         },
         {
           title: "Введите номер и код",
-          body: "Выберите совпадающий код страны на экране Reddit и введите номер. SMS выглядит так: «Your Reddit verification code is 617293» — она появится в приложении SMS Activate за секунды, перенесите код.",
+          body: "Выберите совпадающий код страны на экране Reddit и введите номер. SMS выглядит так: «Your Reddit verification code is 617293» — она появится в приложении SMS Code за секунды, перенесите код.",
         },
         {
           title: "Отвяжите номер после проверки",
@@ -167,7 +167,7 @@ export const reddit: ServiceEntry = {
       },
       {
         q: "Код Reddit так и не пришёл — что делать?",
-        a: "Убедитесь, что код страны совпадает с арендованным номером, и подождите немного — обычно коды приходят за секунды. Если ничего нет, отмените активацию в SMS Activate бесплатно и возьмите свежий номер: вы платите только за активации с доставленной SMS.",
+        a: "Убедитесь, что код страны совпадает с арендованным номером, и подождите немного — обычно коды приходят за секунды. Если ничего нет, отмените активацию в SMS Code бесплатно и возьмите свежий номер: вы платите только за активации с доставленной SMS.",
       },
     ],
   },

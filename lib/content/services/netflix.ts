@@ -27,7 +27,7 @@ export const netflix: ServiceEntry = {
       title: "A virtual number for Netflix",
       intro: [
         "Netflix is an email-first service — but the phone step keeps creeping in. Some regions and sign-up flows verify a number right away, mobile plans in several countries are built around one, and the app texts a code like “Your Netflix verification code is 428916” whenever it wants to double-check it’s really you.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The subscription gets verified — and your personal number stays out of yet another customer database.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The subscription gets verified — and your personal number stays out of yet another customer database.",
       ],
     },
     whyVirtual: {
@@ -41,7 +41,7 @@ export const netflix: ServiceEntry = {
       title: "How to verify Netflix with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Pick Netflix as the service and choose a country — ideally the one matching where you’re signing up and paying. One tap reserves a real mobile number for you.",
         },
         {
@@ -50,7 +50,7 @@ export const netflix: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The SMS reads “Your Netflix verification code is 428916” and appears in the SMS Activate app within seconds. Enter it and the number is confirmed.",
+          body: "The SMS reads “Your Netflix verification code is 428916” and appears in the SMS Code app within seconds. Enter it and the number is confirmed.",
         },
         {
           title: "Keep email as the anchor",
@@ -91,7 +91,7 @@ export const netflix: ServiceEntry = {
       },
       {
         q: "Why didn’t the Netflix code arrive?",
-        a: "Check that the country code you picked matches the rented number, and look at the account’s email — Netflix sometimes verifies there instead. If the SMS never came, cancel the activation in SMS Activate free of charge and take a fresh number.",
+        a: "Check that the country code you picked matches the rented number, and look at the account’s email — Netflix sometimes verifies there instead. If the SMS never came, cancel the activation in SMS Code free of charge and take a fresh number.",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const netflix: ServiceEntry = {
       title: "Виртуальный номер для Netflix",
       intro: [
         "Netflix построен вокруг почты, но телефонный шаг встречается всё чаще: в отдельных странах и сценариях номер проверяют прямо при регистрации, мобильные тарифы в ряде регионов вообще на него завязаны, а приложение присылает код вида «Your Netflix verification code is 428916», когда хочет убедиться, что это действительно вы.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Подписка подтверждена — а ваш личный номер не пополнил ещё одну клиентскую базу.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Подписка подтверждена — а ваш личный номер не пополнил ещё одну клиентскую базу.",
       ],
     },
     whyVirtual: {
@@ -117,7 +117,7 @@ export const netflix: ServiceEntry = {
       title: "Как подтвердить Netflix виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис Netflix и страну — лучше ту, где вы регистрируетесь и платите. Одно касание — и настоящий мобильный номер зарезервирован для вас.",
         },
         {
@@ -126,7 +126,7 @@ export const netflix: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "SMS выглядит так: «Your Netflix verification code is 428916» — и появляется в приложении SMS Activate за секунды. Введите код, и номер подтверждён.",
+          body: "SMS выглядит так: «Your Netflix verification code is 428916» — и появляется в приложении SMS Code за секунды. Введите код, и номер подтверждён.",
         },
         {
           title: "Оставьте почту якорем аккаунта",
@@ -167,7 +167,7 @@ export const netflix: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Netflix?",
-        a: "Проверьте, совпадает ли выбранный код страны с арендованным номером, и загляните в почту аккаунта — иногда Netflix подтверждает там. Если SMS так и не пришла, отмените активацию в SMS Activate бесплатно и возьмите свежий номер.",
+        a: "Проверьте, совпадает ли выбранный код страны с арендованным номером, и загляните в почту аккаунта — иногда Netflix подтверждает там. Если SMS так и не пришла, отмените активацию в SMS Code бесплатно и возьмите свежий номер.",
       },
     ],
   },

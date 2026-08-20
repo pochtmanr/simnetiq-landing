@@ -27,7 +27,7 @@ export const apple: ServiceEntry = {
       title: "A virtual number for Apple",
       intro: [
         "A new Apple Account can’t be finished without a phone: during sign-up Apple asks for a number, texts a six-digit code to prove you control it, and then keeps that number as a “trusted phone number” — the channel it will use for two-factor authentication from that day on.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries, receive Apple’s code in the app within seconds and complete the sign-up. Your personal number stays out of the account — and you decide later which trusted numbers and devices the account should rely on.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries, receive Apple’s code in the app within seconds and complete the sign-up. Your personal number stays out of the account — and you decide later which trusted numbers and devices the account should rely on.",
       ],
     },
     whyVirtual: {
@@ -41,7 +41,7 @@ export const apple: ServiceEntry = {
       title: "How to verify an Apple Account with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Choose Apple as the service, pick a country and tap once to reserve a real mobile number. If the account is meant for a specific App Store region, take a number from that country — it keeps the account’s details consistent.",
         },
         {
@@ -50,7 +50,7 @@ export const apple: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The SMS reads “Your Apple Account code is: 617402. Don't share it with anyone.” and lands in the SMS Activate app within seconds. Enter the six digits and the account is verified.",
+          body: "The SMS reads “Your Apple Account code is: 617402. Don't share it with anyone.” and lands in the SMS Code app within seconds. Enter the six digits and the account is verified.",
         },
         {
           title: "Add trusted factors you control",
@@ -75,7 +75,7 @@ export const apple: ServiceEntry = {
     faqs: [
       {
         q: "Does Apple require a phone number to create an Apple Account?",
-        a: "Yes — sign-up asks for a number it can text or call, and new accounts get two-factor authentication with that number saved as trusted. A virtual number passes this step exactly like a SIM: the code arrives in the SMS Activate app and the account gets created.",
+        a: "Yes — sign-up asks for a number it can text or call, and new accounts get two-factor authentication with that number saved as trusted. A virtual number passes this step exactly like a SIM: the code arrives in the SMS Code app and the account gets created.",
       },
       {
         q: "Will the account keep working after the rented number expires?",
@@ -91,7 +91,7 @@ export const apple: ServiceEntry = {
       },
       {
         q: "Why didn’t my Apple code arrive?",
-        a: "Most often the country selected on Apple’s form doesn’t match the number, or the flow switched to a phone call — pick “text message” explicitly. Cancel the pending activation in SMS Activate (numbers that received nothing are free) and try a fresh one.",
+        a: "Most often the country selected on Apple’s form doesn’t match the number, or the flow switched to a phone call — pick “text message” explicitly. Cancel the pending activation in SMS Code (numbers that received nothing are free) and try a fresh one.",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const apple: ServiceEntry = {
       title: "Виртуальный номер для Apple",
       intro: [
         "Новый Apple Account не создать без телефона: при регистрации Apple просит номер, отправляет на него шестизначный код, чтобы убедиться, что номер под вашим контролем, — и с этого момента хранит его как «доверенный номер телефона», канал двухфакторной аутентификации.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, получаете код Apple в приложении за считанные секунды и завершаете регистрацию. Личный номер в аккаунт не попадает — а какими доверенными номерами и устройствами аккаунт будет жить дальше, решаете вы.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, получаете код Apple в приложении за считанные секунды и завершаете регистрацию. Личный номер в аккаунт не попадает — а какими доверенными номерами и устройствами аккаунт будет жить дальше, решаете вы.",
       ],
     },
     whyVirtual: {
@@ -117,7 +117,7 @@ export const apple: ServiceEntry = {
       title: "Как подтвердить Apple Account виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис Apple, страну — и одним касанием зарезервируйте настоящий мобильный номер. Если аккаунт нужен под конкретный регион App Store, берите номер той же страны: так данные аккаунта останутся согласованными.",
         },
         {
@@ -126,7 +126,7 @@ export const apple: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "SMS выглядит так: «Your Apple Account code is: 617402. Don't share it with anyone.» — и приходит в приложение SMS Activate за секунды. Введите шесть цифр, и аккаунт подтверждён.",
+          body: "SMS выглядит так: «Your Apple Account code is: 617402. Don't share it with anyone.» — и приходит в приложение SMS Code за секунды. Введите шесть цифр, и аккаунт подтверждён.",
         },
         {
           title: "Добавьте доверенные факторы под вашим контролем",
@@ -151,7 +151,7 @@ export const apple: ServiceEntry = {
     faqs: [
       {
         q: "Apple требует номер телефона при создании аккаунта?",
-        a: "Да — при регистрации Apple просит номер, на который может отправить SMS или позвонить, а новые аккаунты получают двухфакторную аутентификацию с этим номером в доверенных. Виртуальный номер проходит этот шаг так же, как SIM-карта: код приходит в приложение SMS Activate, аккаунт создаётся.",
+        a: "Да — при регистрации Apple просит номер, на который может отправить SMS или позвонить, а новые аккаунты получают двухфакторную аутентификацию с этим номером в доверенных. Виртуальный номер проходит этот шаг так же, как SIM-карта: код приходит в приложение SMS Code, аккаунт создаётся.",
       },
       {
         q: "Аккаунт продолжит работать после окончания аренды номера?",
@@ -167,7 +167,7 @@ export const apple: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Apple?",
-        a: "Чаще всего страна в форме Apple не совпадает с номером, либо вместо SMS выбран звонок — укажите именно текстовое сообщение. Отмените ожидающую активацию в SMS Activate (номера, на которые ничего не пришло, бесплатны) и возьмите свежий номер.",
+        a: "Чаще всего страна в форме Apple не совпадает с номером, либо вместо SMS выбран звонок — укажите именно текстовое сообщение. Отмените ожидающую активацию в SMS Code (номера, на которые ничего не пришло, бесплатны) и возьмите свежий номер.",
       },
     ],
   },

@@ -16,7 +16,7 @@ export const unitedKingdom: CountryEntry = {
       title: "A UK virtual number for SMS verification",
       intro: [
         "A British mobile number starting with 07 — +44 7 in international form — is one of the most recognisable formats online. European and global services alike treat it as a mainstream, trusted choice, and English-language sign-up flows handle it without a hiccup.",
-        "SMS Activate hands you a real UK mobile number in one tap. Paste it into the verification field of WhatsApp, Google, Telegram or dozens of other services, and the SMS with your code shows up in the app within seconds.",
+        "SMS Code hands you a real UK mobile number in one tap. Paste it into the verification field of WhatsApp, Google, Telegram or dozens of other services, and the SMS with your code shows up in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -51,7 +51,7 @@ export const unitedKingdom: CountryEntry = {
       },
       {
         q: "Can I get a UK number without being in the UK?",
-        a: "Yes. The number exists inside the SMS Activate app, so your physical location and your own SIM are irrelevant — the verification code reaches you anywhere.",
+        a: "Yes. The number exists inside the SMS Code app, so your physical location and your own SIM are irrelevant — the verification code reaches you anywhere.",
       },
       {
         q: "How fast does the SMS arrive?",
@@ -71,7 +71,7 @@ export const unitedKingdom: CountryEntry = {
       title: "Виртуальный номер Великобритании для SMS-верификации",
       intro: [
         "Британский мобильный номер, начинающийся с 07 — в международном формате +44 7, — один из самых узнаваемых в интернете. И европейские, и глобальные сервисы воспринимают его как привычный, надёжный выбор, а англоязычные формы регистрации принимают его без запинки.",
-        "SMS Activate выдаёт настоящий мобильный номер Великобритании в одно касание. Вставьте его в поле подтверждения WhatsApp, Google, Telegram или десятков других сервисов — и SMS с кодом появится в приложении за считанные секунды.",
+        "SMS Code выдаёт настоящий мобильный номер Великобритании в одно касание. Вставьте его в поле подтверждения WhatsApp, Google, Telegram или десятков других сервисов — и SMS с кодом появится в приложении за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -106,7 +106,7 @@ export const unitedKingdom: CountryEntry = {
       },
       {
         q: "Можно ли взять британский номер, не находясь в Великобритании?",
-        a: "Да. Номер существует внутри приложения SMS Activate, поэтому ваше местоположение и собственная SIM-карта не имеют значения — код подтверждения дойдёт до вас где угодно.",
+        a: "Да. Номер существует внутри приложения SMS Code, поэтому ваше местоположение и собственная SIM-карта не имеют значения — код подтверждения дойдёт до вас где угодно.",
       },
       {
         q: "Как быстро приходит SMS?",

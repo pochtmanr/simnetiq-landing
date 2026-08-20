@@ -16,7 +16,7 @@ export const brazil: CountryEntry = {
       title: "A Brazilian virtual number for SMS verification",
       intro: [
         "In Brazil, WhatsApp isn't one messenger among many — it's how the country communicates. Shops take orders on it, doctors confirm appointments on it, and “me chama no zap” is a national phrase. An account meant for the Brazilian market starts with what everything else there starts with: a +55 number.",
-        "SMS Activate gives you a real Brazilian mobile number in one tap. Use it at the verification step, and the SMS — with a code from WhatsApp, Instagram, TikTok, Uber or Facebook — appears in the app within seconds.",
+        "SMS Code gives you a real Brazilian mobile number in one tap. Use it at the verification step, and the SMS — with a code from WhatsApp, Instagram, TikTok, Uber or Facebook — appears in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -29,7 +29,7 @@ export const brazil: CountryEntry = {
     tips: [
       {
         title: "The leading 9 is the mobile marker",
-        body: "Every Brazilian mobile number has a 9 right after the area code — it's how the numbering plan separates mobiles from landlines. Numbers from SMS Activate follow this format, so services accept them as ordinary Brazilian mobiles.",
+        body: "Every Brazilian mobile number has a 9 right after the area code — it's how the numbering plan separates mobiles from landlines. Numbers from SMS Code follow this format, so services accept them as ordinary Brazilian mobiles.",
       },
       {
         title: "WhatsApp first, everything else after",
@@ -51,7 +51,7 @@ export const brazil: CountryEntry = {
       },
       {
         q: "Can I use a Brazilian number from another country?",
-        a: "Yes. The number lives in the SMS Activate app, so it works the same whether you're in São Paulo or nowhere near it — the code reaches you wherever you are.",
+        a: "Yes. The number lives in the SMS Code app, so it works the same whether you're in São Paulo or nowhere near it — the code reaches you wherever you are.",
       },
       {
         q: "Why does the number have an extra digit compared to older Brazilian numbers?",
@@ -71,7 +71,7 @@ export const brazil: CountryEntry = {
       title: "Виртуальный номер Бразилии для SMS-верификации",
       intro: [
         "В Бразилии WhatsApp — не один из мессенджеров, а способ, которым разговаривает вся страна. Магазины принимают в нём заказы, врачи подтверждают приёмы, а «напиши мне в зап» — общенациональная фраза. Аккаунт для бразильского рынка начинается с того же, с чего там начинается всё, — с номера +55.",
-        "SMS Activate выдаёт настоящий бразильский мобильный номер в одно касание. Укажите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, TikTok, Uber или Facebook появится в приложении за секунды.",
+        "SMS Code выдаёт настоящий бразильский мобильный номер в одно касание. Укажите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, TikTok, Uber или Facebook появится в приложении за секунды.",
       ],
     },
     whyCountry: {
@@ -84,7 +84,7 @@ export const brazil: CountryEntry = {
     tips: [
       {
         title: "Девятка в начале — метка мобильного",
-        body: "У каждого бразильского мобильного номера сразу после кода города стоит девятка: так план нумерации отделяет мобильные от городских. Номера из SMS Activate следуют этому формату, и сервисы принимают их как обычные бразильские мобильные.",
+        body: "У каждого бразильского мобильного номера сразу после кода города стоит девятка: так план нумерации отделяет мобильные от городских. Номера из SMS Code следуют этому формату, и сервисы принимают их как обычные бразильские мобильные.",
       },
       {
         title: "Сначала WhatsApp, остальное потом",
@@ -106,7 +106,7 @@ export const brazil: CountryEntry = {
       },
       {
         q: "Можно ли пользоваться бразильским номером из другой страны?",
-        a: "Да. Номер живёт в приложении SMS Activate и работает одинаково, будь вы в Сан-Паулу или за тысячи километров от него, — код найдёт вас где угодно.",
+        a: "Да. Номер живёт в приложении SMS Code и работает одинаково, будь вы в Сан-Паулу или за тысячи километров от него, — код найдёт вас где угодно.",
       },
       {
         q: "Почему в номере на цифру больше, чем в старых бразильских номерах?",

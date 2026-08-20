@@ -84,14 +84,14 @@ export const virtualNumberForDatingApps: BlogPost = {
       },
       {
         type: "p",
-        text: "You’ll need two apps side by side: Tinder, and SMS Activate where the number lives and the code arrives. The whole thing takes a couple of minutes.",
+        text: "You’ll need two apps side by side: Tinder, and SMS Code where the number lives and the code arrives. The whole thing takes a couple of minutes.",
       },
       {
         type: "steps",
         items: [
           {
             title: "Rent a number for Tinder",
-            body: "In the SMS Activate app, choose Tinder as the service and pick a country — ideally the one you’re actually in, so the account’s details line up. One tap reserves a real mobile number for you, paid from a one-time credit pack. No subscription.",
+            body: "In the SMS Code app, choose Tinder as the service and pick a country — ideally the one you’re actually in, so the account’s details line up. One tap reserves a real mobile number for you, paid from a one-time credit pack. No subscription.",
           },
           {
             title: "Start the Tinder sign-up",
@@ -99,7 +99,7 @@ export const virtualNumberForDatingApps: BlogPost = {
           },
           {
             title: "Enter the code",
-            body: "Switch to SMS Activate. The verification SMS appears in the app within seconds, something like “Your Tinder code is 314159”. Copy it into Tinder and the phone step is done.",
+            body: "Switch to SMS Code. The verification SMS appears in the app within seconds, something like “Your Tinder code is 314159”. Copy it into Tinder and the phone step is done.",
           },
           {
             title: "Anchor the account to something you keep",
@@ -143,11 +143,11 @@ export const virtualNumberForDatingApps: BlogPost = {
           },
           {
             q: "Does the same trick work for Bumble and Hinge?",
-            a: "The flow is the same — number, SMS code, profile — so yes, mechanically it works the same way. Each app needs its own activation, and each has its own additional checks (Bumble also does photo verification). Pick the app as the service in SMS Activate and follow the same steps.",
+            a: "The flow is the same — number, SMS code, profile — so yes, mechanically it works the same way. Each app needs its own activation, and each has its own additional checks (Bumble also does photo verification). Pick the app as the service in SMS Code and follow the same steps.",
           },
           {
             q: "Why didn’t my Tinder code arrive?",
-            a: "Usually a country-code mismatch between what you selected in Tinder and the number you rented — check that first. If the SMS genuinely never comes, cancel the activation in SMS Activate free of charge, take a fresh number and try again. You only pay for activations that deliver a code.",
+            a: "Usually a country-code mismatch between what you selected in Tinder and the number you rented — check that first. If the SMS genuinely never comes, cancel the activation in SMS Code free of charge, take a fresh number and try again. You only pay for activations that deliver a code.",
           },
         ],
       },
@@ -232,14 +232,14 @@ export const virtualNumberForDatingApps: BlogPost = {
       },
       {
         type: "p",
-        text: "Понадобятся два приложения рядом: Tinder и SMS Activate — в нём живёт номер и туда приходит код. Всё занимает пару минут.",
+        text: "Понадобятся два приложения рядом: Tinder и SMS Code — в нём живёт номер и туда приходит код. Всё занимает пару минут.",
       },
       {
         type: "steps",
         items: [
           {
             title: "Арендуйте номер для Tinder",
-            body: "В приложении SMS Activate выберите сервис Tinder и страну — лучше ту, где вы реально находитесь, чтобы данные аккаунта сходились. Одно касание — и настоящий мобильный номер зарезервирован за вами. Оплата из разового пакета кредитов, подписки нет.",
+            body: "В приложении SMS Code выберите сервис Tinder и страну — лучше ту, где вы реально находитесь, чтобы данные аккаунта сходились. Одно касание — и настоящий мобильный номер зарезервирован за вами. Оплата из разового пакета кредитов, подписки нет.",
           },
           {
             title: "Начните регистрацию в Tinder",
@@ -247,7 +247,7 @@ export const virtualNumberForDatingApps: BlogPost = {
           },
           {
             title: "Введите код",
-            body: "Переключитесь в SMS Activate. SMS с подтверждением появится в приложении за считанные секунды — что-то вроде «Your Tinder code is 314159». Перенесите код в Tinder — телефонный шаг пройден.",
+            body: "Переключитесь в SMS Code. SMS с подтверждением появится в приложении за считанные секунды — что-то вроде «Your Tinder code is 314159». Перенесите код в Tinder — телефонный шаг пройден.",
           },
           {
             title: "Привяжите аккаунт к тому, что останется с вами",
@@ -291,11 +291,11 @@ export const virtualNumberForDatingApps: BlogPost = {
           },
           {
             q: "С Bumble и Hinge это тоже работает?",
-            a: "Сценарий тот же — номер, SMS-код, профиль, — так что механически всё работает так же. Каждому приложению нужна своя активация, и у каждого есть собственные дополнительные проверки (Bumble, например, тоже проверяет по фото). Выберите нужное приложение как сервис в SMS Activate и идите по тем же шагам.",
+            a: "Сценарий тот же — номер, SMS-код, профиль, — так что механически всё работает так же. Каждому приложению нужна своя активация, и у каждого есть собственные дополнительные проверки (Bumble, например, тоже проверяет по фото). Выберите нужное приложение как сервис в SMS Code и идите по тем же шагам.",
           },
           {
             q: "Почему не пришёл код Tinder?",
-            a: "Чаще всего — из-за несовпадения кода страны в Tinder и у арендованного номера: проверьте это в первую очередь. Если SMS действительно не приходит, отмените активацию в SMS Activate бесплатно, возьмите свежий номер и повторите. Вы платите только за активации, по которым код доставлен.",
+            a: "Чаще всего — из-за несовпадения кода страны в Tinder и у арендованного номера: проверьте это в первую очередь. Если SMS действительно не приходит, отмените активацию в SMS Code бесплатно, возьмите свежий номер и повторите. Вы платите только за активации, по которым код доставлен.",
           },
         ],
       },

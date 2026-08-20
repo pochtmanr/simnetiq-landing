@@ -24,8 +24,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   applicationName: APP_NAME,
   title: {
-    default: "SMS Activate by SIMNETIQ — receive SMS codes on a private number",
-    template: "%s — SMS Activate by SIMNETIQ",
+    default: "SMS Code by SIMNETIQ — receive SMS codes on a private number",
+    template: "%s — SMS Code by SIMNETIQ",
   },
   description:
     "Get a real virtual number in 50+ countries and receive SMS verification codes in seconds. Sign up for Telegram, WhatsApp, Google and 35+ services without giving out your personal number.",
@@ -34,17 +34,17 @@ export const metadata: Metadata = {
     languages: languageAlternates("/"),
   },
   openGraph: {
-    title: "SMS Activate by SIMNETIQ",
+    title: "SMS Code by SIMNETIQ",
     description:
       "A phone number for the sign-up, not for life. Real virtual numbers in 50+ countries, verification codes in seconds.",
     url: "https://simnetiq.xyz",
-    siteName: "SMS Activate by SIMNETIQ",
+    siteName: "SMS Code by SIMNETIQ",
     images: [
       {
         url: "/social-card.png",
         width: 1200,
         height: 630,
-        alt: "SMS Activate by SIMNETIQ",
+        alt: "SMS Code by SIMNETIQ",
       },
     ],
     type: "website",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   icons: { icon: "/icon.png", apple: "/apple-icon.png" },
   twitter: {
     card: "summary_large_image",
-    title: "SMS Activate by SIMNETIQ",
+    title: "SMS Code by SIMNETIQ",
     description:
       "A phone number for the sign-up, not for life. Verification codes in seconds.",
     images: ["/social-card.png"],

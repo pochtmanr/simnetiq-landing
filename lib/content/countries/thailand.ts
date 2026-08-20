@@ -16,7 +16,7 @@ export const thailand: CountryEntry = {
       title: "A Thai virtual number for SMS verification",
       intro: [
         "Thailand is LINE country. The green messenger is where Thais chat, pay, follow shops and read the news — and a LINE account starts with a phone number. A +66 mobile is the natural way in, and it opens the rest of the Thai app world too: Shopee for shopping, Grab for rides and food.",
-        "SMS Activate rents you a real Thai mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Thai mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -33,7 +33,7 @@ export const thailand: CountryEntry = {
       },
       {
         title: "LINE is the local standard",
-        body: "In Thailand a messenger account means a LINE account, and Thai numbers verify it constantly — the flow is quick and predictable. Keep the SMS Activate app open when you request the code; LINE's SMS usually lands within seconds.",
+        body: "In Thailand a messenger account means a LINE account, and Thai numbers verify it constantly — the flow is quick and predictable. Keep the SMS Code app open when you request the code; LINE's SMS usually lands within seconds.",
       },
       {
         title: "Code first, everything else after",
@@ -51,7 +51,7 @@ export const thailand: CountryEntry = {
       },
       {
         q: "Do I have to be in Thailand to receive the SMS?",
-        a: "No. The number and its messages live in the SMS Activate app, so your location and your own SIM card don't enter into it — the code reaches you wherever you are.",
+        a: "No. The number and its messages live in the SMS Code app, so your location and your own SIM card don't enter into it — the code reaches you wherever you are.",
       },
       {
         q: "What if the verification code never arrives?",
@@ -71,7 +71,7 @@ export const thailand: CountryEntry = {
       title: "Виртуальный номер Таиланда для SMS-верификации",
       intro: [
         "Таиланд — страна LINE. В зелёном мессенджере тайцы переписываются, платят, подписываются на магазины и читают новости — а аккаунт LINE начинается с номера телефона. Мобильный +66 — естественный вход туда, и он же открывает остальной тайский мир приложений: Shopee для покупок, Grab для поездок и еды.",
-        "SMS Activate сдаёт настоящий тайский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий тайский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {
@@ -88,7 +88,7 @@ export const thailand: CountryEntry = {
       },
       {
         title: "LINE — местный стандарт",
-        body: "В Таиланде «аккаунт в мессенджере» означает «аккаунт в LINE», и тайскими номерами его подтверждают постоянно — путь быстрый и предсказуемый. Запросив код, держите приложение SMS Activate открытым: SMS от LINE обычно приходит за секунды.",
+        body: "В Таиланде «аккаунт в мессенджере» означает «аккаунт в LINE», и тайскими номерами его подтверждают постоянно — путь быстрый и предсказуемый. Запросив код, держите приложение SMS Code открытым: SMS от LINE обычно приходит за секунды.",
       },
       {
         title: "Сначала код, остальное потом",
@@ -106,7 +106,7 @@ export const thailand: CountryEntry = {
       },
       {
         q: "Нужно ли находиться в Таиланде, чтобы получить SMS?",
-        a: "Нет. Номер и его сообщения живут в приложении SMS Activate, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
+        a: "Нет. Номер и его сообщения живут в приложении SMS Code, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
       },
       {
         q: "Что, если код подтверждения так и не придёт?",

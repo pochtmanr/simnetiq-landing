@@ -27,7 +27,7 @@ export const tinder: ServiceEntry = {
       title: "A virtual number for Tinder",
       intro: [
         "There's no way around it: Tinder requires a phone number to create an account. The very first screen asks for one, sends an SMS code and won't show you a single profile until it's entered. Email, Apple or Google sign-in can be attached later — the number is what the account hangs on.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries, type it into Tinder, and the code appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and if a number receives nothing, you cancel it without being charged.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries, type it into Tinder, and the code appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and if a number receives nothing, you cancel it without being charged.",
       ],
     },
     whyVirtual: {
@@ -41,8 +41,8 @@ export const tinder: ServiceEntry = {
       title: "How to verify Tinder with a virtual number",
       steps: [
         {
-          title: "Get a number in SMS Activate",
-          body: "Open the SMS Activate app, choose Tinder as the service, pick a country and tap once. A real mobile number is reserved just for you for the length of the activation.",
+          title: "Get a number in SMS Code",
+          body: "Open the SMS Code app, choose Tinder as the service, pick a country and tap once. A real mobile number is reserved just for you for the length of the activation.",
         },
         {
           title: "Enter it on Tinder's first screen",
@@ -50,7 +50,7 @@ export const tinder: ServiceEntry = {
         },
         {
           title: "Type in the code — digits only",
-          body: "The SMS lands in the SMS Activate app within seconds and looks like “Your Tinder code is 402318 dwEzWOx6XSV”. The trailing letters are a technical app hash — ignore them, the code is just the six digits.",
+          body: "The SMS lands in the SMS Code app within seconds and looks like “Your Tinder code is 402318 dwEzWOx6XSV”. The trailing letters are a technical app hash — ignore them, the code is just the six digits.",
         },
         {
           title: "Attach a backup and stay signed in",
@@ -91,7 +91,7 @@ export const tinder: ServiceEntry = {
       },
       {
         q: "Why didn't my Tinder code arrive?",
-        a: "Most often the country code picked in Tinder doesn't match the number, or Tinder declined to text that particular number. Cancel the pending activation in SMS Activate — numbers that received nothing are never charged — and take a fresh one, ideally from a different country.",
+        a: "Most often the country code picked in Tinder doesn't match the number, or Tinder declined to text that particular number. Cancel the pending activation in SMS Code — numbers that received nothing are never charged — and take a fresh one, ideally from a different country.",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const tinder: ServiceEntry = {
       title: "Виртуальный номер для Tinder",
       intro: [
         "Обойти это не получится: для аккаунта Tinder номер телефона обязателен. Самый первый экран просит его, присылает SMS с кодом и не покажет ни одной анкеты, пока код не введён. Почту, Apple или Google можно привязать потом — держится аккаунт именно на номере.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его в Tinder — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его в Tinder — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
       ],
     },
     whyVirtual: {
@@ -117,8 +117,8 @@ export const tinder: ServiceEntry = {
       title: "Как подтвердить Tinder виртуальным номером",
       steps: [
         {
-          title: "Получите номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис Tinder, страну — и нажмите один раз. Настоящий мобильный номер резервируется только за вами на время активации.",
+          title: "Получите номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис Tinder, страну — и нажмите один раз. Настоящий мобильный номер резервируется только за вами на время активации.",
         },
         {
           title: "Введите его на первом экране Tinder",
@@ -126,7 +126,7 @@ export const tinder: ServiceEntry = {
         },
         {
           title: "Введите код — только цифры",
-          body: "SMS придёт в приложение SMS Activate за секунды и выглядит так: «Your Tinder code is 402318 dwEzWOx6XSV». Буквы в конце — технический хеш приложения, не обращайте внимания: код — это шесть цифр.",
+          body: "SMS придёт в приложение SMS Code за секунды и выглядит так: «Your Tinder code is 402318 dwEzWOx6XSV». Буквы в конце — технический хеш приложения, не обращайте внимания: код — это шесть цифр.",
         },
         {
           title: "Привяжите запасной вход и не выходите",
@@ -167,7 +167,7 @@ export const tinder: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Tinder?",
-        a: "Чаще всего код страны в Tinder не совпадает с номером, либо Tinder отказался отправлять SMS на этот конкретный номер. Отмените ожидающую активацию в SMS Activate — за номера, на которые ничего не пришло, деньги не списываются, — и возьмите свежий, лучше из другой страны.",
+        a: "Чаще всего код страны в Tinder не совпадает с номером, либо Tinder отказался отправлять SMS на этот конкретный номер. Отмените ожидающую активацию в SMS Code — за номера, на которые ничего не пришло, деньги не списываются, — и возьмите свежий, лучше из другой страны.",
       },
     ],
   },

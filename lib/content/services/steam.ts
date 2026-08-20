@@ -27,7 +27,7 @@ export const steam: ServiceEntry = {
       title: "A virtual number for Steam",
       intro: [
         "Steam will happily create an account with just an email — that part is simple and honest. The phone number enters the story later, where it counts: Steam Guard codes by SMS, account recovery, and the verification steps around trading and the Community Market. That’s when “Your Steam verification code is J4K8P” shows up.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and Steam’s code lands in the app within seconds. Your game library — often years of purchases — gets a phone attached without your personal number entering Valve’s records.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and Steam’s code lands in the app within seconds. Your game library — often years of purchases — gets a phone attached without your personal number entering Valve’s records.",
       ],
     },
     whyVirtual: {
@@ -41,7 +41,7 @@ export const steam: ServiceEntry = {
       title: "How to verify Steam with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Choose Steam as the service and pick a country. One tap reserves a real mobile number just for you.",
         },
         {
@@ -50,7 +50,7 @@ export const steam: ServiceEntry = {
         },
         {
           title: "Enter the code — letters included",
-          body: "Steam’s code looks like “J4K8P”: letters and digits, not the usual six numbers. It arrives in the SMS Activate app in seconds; type it exactly as written.",
+          body: "Steam’s code looks like “J4K8P”: letters and digits, not the usual six numbers. It arrives in the SMS Code app in seconds; type it exactly as written.",
         },
         {
           title: "Set up the Mobile Authenticator",
@@ -87,7 +87,7 @@ export const steam: ServiceEntry = {
       },
       {
         q: "Why was my Steam code rejected?",
-        a: "Usually it’s the format: Steam codes mix letters and digits, and an O can hide a 0. Enter the code exactly as it appears in the SMS Activate app. If no SMS arrived at all, check the country code, cancel the pending activation for free and take a fresh number.",
+        a: "Usually it’s the format: Steam codes mix letters and digits, and an O can hide a 0. Enter the code exactly as it appears in the SMS Code app. If no SMS arrived at all, check the country code, cancel the pending activation for free and take a fresh number.",
       },
       {
         q: "Does the number change my Steam store region?",
@@ -103,7 +103,7 @@ export const steam: ServiceEntry = {
       title: "Виртуальный номер для Steam",
       intro: [
         "Steam спокойно создаст аккаунт по одной только почте — тут всё просто и честно. Телефон появляется в истории позже, там, где он важен: коды Steam Guard по SMS, восстановление аккаунта и проверки вокруг обменов и Торговой площадки. Вот тогда и приходит «Your Steam verification code is J4K8P».",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код Steam оказывается в приложении за считанные секунды. Ваша библиотека игр — зачастую годы покупок — получает привязанный телефон, а личный номер в записи Valve не попадает.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код Steam оказывается в приложении за считанные секунды. Ваша библиотека игр — зачастую годы покупок — получает привязанный телефон, а личный номер в записи Valve не попадает.",
       ],
     },
     whyVirtual: {
@@ -117,7 +117,7 @@ export const steam: ServiceEntry = {
       title: "Как подтвердить Steam виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис Steam и страну. Одно касание — и настоящий мобильный номер зарезервирован только для вас.",
         },
         {
@@ -126,7 +126,7 @@ export const steam: ServiceEntry = {
         },
         {
           title: "Введите код — вместе с буквами",
-          body: "Код Steam выглядит как «J4K8P»: буквы и цифры, а не привычные шесть цифр. Он приходит в приложение SMS Activate за секунды; вводите его в точности как написано.",
+          body: "Код Steam выглядит как «J4K8P»: буквы и цифры, а не привычные шесть цифр. Он приходит в приложение SMS Code за секунды; вводите его в точности как написано.",
         },
         {
           title: "Настройте мобильный аутентификатор",
@@ -163,7 +163,7 @@ export const steam: ServiceEntry = {
       },
       {
         q: "Почему Steam не принял мой код?",
-        a: "Обычно дело в формате: коды Steam смешивают буквы и цифры, и за O легко спрятаться нулю. Вводите код в точности как он выглядит в приложении SMS Activate. Если SMS вовсе не пришла, проверьте код страны, отмените ожидающую активацию бесплатно и возьмите свежий номер.",
+        a: "Обычно дело в формате: коды Steam смешивают буквы и цифры, и за O легко спрятаться нулю. Вводите код в точности как он выглядит в приложении SMS Code. Если SMS вовсе не пришла, проверьте код страны, отмените ожидающую активацию бесплатно и возьмите свежий номер.",
       },
       {
         q: "Меняет ли номер регион моего магазина Steam?",

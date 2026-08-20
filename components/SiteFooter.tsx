@@ -3,7 +3,7 @@ import Link from "next/link";
 import { localePath, type Locale } from "../lib/i18n";
 import { FOOTER } from "../lib/content/common";
 import { ALL_SERVICES } from "../lib/content/services";
-import { APP_STORE_URL, PLAY_STORE_URL, SUPPORT_EMAIL } from "../lib/site";
+import { APP_STORE_URL, SUPPORT_EMAIL } from "../lib/site";
 
 /* Top slugs only — the /virtual-numbers hub carries the exhaustive list, the
    sitewide footer stays around 20 links total. */
@@ -46,7 +46,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
               className="h-[28px] w-[28px] object-contain"
             />
             <span className="font-mono text-[12px] uppercase tracking-[0.22em] text-pure-white/80">
-              SMS Activate
+              SMS Code
             </span>
           </div>
           <span className="flex items-center gap-[9px] font-mono text-[11px] uppercase tracking-[0.18em] text-pure-white/35">
@@ -54,7 +54,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
               aria-hidden
               className="h-[6px] w-[6px] shrink-0 bg-signal-blue"
             />
-            simnetiq / sms-activate
+            simnetiq / sms-code
           </span>
         </div>
 
@@ -111,9 +111,6 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
             <span className={`${kicker} pt-[14px]`}>{t.getApp}</span>
             <a href={APP_STORE_URL} className={link}>
               App Store
-            </a>
-            <a href={PLAY_STORE_URL} className={link}>
-              Google Play
             </a>
           </nav>
 

@@ -6,7 +6,7 @@ import { languageAlternates } from "../../../../lib/i18n";
 export const metadata: Metadata = {
   title: "Политика конфиденциальности",
   description:
-    "Как SIMNETIQ LTD собирает, использует и защищает ваши данные в приложении SMS Activate и на сайте simnetiq.xyz.",
+    "Как SIMNETIQ LTD собирает, использует и защищает ваши данные в приложении SMS Code и на сайте simnetiq.xyz.",
   alternates: {
     canonical: "/ru/privacy-policy",
     languages: languageAlternates("/privacy-policy"),
@@ -23,7 +23,7 @@ export default function PrivacyPolicyPage() {
     >
       <LegalSection title="1. Кто мы">
         <p>
-          Приложение SMS Activate («Приложение») и сайт simnetiq.xyz («Сайт»)
+          Приложение SMS Code («Приложение») и сайт simnetiq.xyz («Сайт»)
           управляются компанией SIMNETIQ LTD («мы», «нас», «наш»),
           зарегистрированной в Англии и Уэльсе. Мы выступаем оператором
           (контролёром) персональных данных, описанных в настоящей политике.
@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
           <li>
             <strong className="font-normal text-off-black">Данные о покупках.</strong>{" "}
             Сведения о приобретённых пакетах кредитов. Сам платёж
-            обрабатывается Apple App Store или Google Play — мы никогда не
+            обрабатывается Apple App Store — мы никогда не
             видим данные вашей карты.
           </li>
           <li>

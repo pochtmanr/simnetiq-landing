@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "404 — SMS Activate by SIMNETIQ",
+  title: "404 — SMS Code by SIMNETIQ",
   robots: { index: false },
 };
 
@@ -24,7 +24,7 @@ export default function GlobalNotFound() {
         <span className="tag-chip">404</span>
         <h1 className="mt-[22px] text-heading">This page doesn’t exist</h1>
         <p className="mt-[10px] max-w-md text-body text-steel-gray">
-          Такой страницы нет. Everything about SMS Activate lives on the home
+          Такой страницы нет. Everything about SMS Code lives on the home
           page.
         </p>
         <div className="mt-[30px] flex items-center gap-[10px]">

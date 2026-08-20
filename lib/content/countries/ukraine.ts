@@ -16,7 +16,7 @@ export const ukraine: CountryEntry = {
       title: "A Ukrainian virtual number for SMS verification",
       intro: [
         "Ukraine is famously Viber country — nowhere else has the messenger been so dominant — and a +380 number is right at home in Viber, Telegram and the wider ecosystem of services popular across the region. It's the natural pick when the account you're building points east of the EU.",
-        "SMS Activate gives you a real Ukrainian mobile number in one tap. Put it into the verification form of Telegram, Viber, AliExpress or another supported service, and the SMS with your code appears in the app within seconds.",
+        "SMS Code gives you a real Ukrainian mobile number in one tap. Put it into the verification form of Telegram, Viber, AliExpress or another supported service, and the SMS with your code appears in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -51,7 +51,7 @@ export const ukraine: CountryEntry = {
       },
       {
         q: "Can I use a +380 number from another country?",
-        a: "Yes. The number lives inside the SMS Activate app, so your actual location and SIM card are irrelevant — you read the code wherever you happen to be.",
+        a: "Yes. The number lives inside the SMS Code app, so your actual location and SIM card are irrelevant — you read the code wherever you happen to be.",
       },
       {
         q: "How quickly will the SMS show up?",
@@ -71,7 +71,7 @@ export const ukraine: CountryEntry = {
       title: "Виртуальный номер Украины для SMS-верификации",
       intro: [
         "Украина — знаменитая страна Viber: нигде этот мессенджер не был настолько доминирующим, — и номер +380 чувствует себя как дома и в Viber, и в Telegram, и во всей экосистеме сервисов, популярных в регионе. Это естественный выбор, когда создаваемый аккаунт ориентирован восточнее ЕС.",
-        "SMS Activate выдаёт настоящий украинский мобильный номер в одно касание. Введите его в форму подтверждения Telegram, Viber, AliExpress или другого поддерживаемого сервиса — и SMS с кодом появится в приложении за считанные секунды.",
+        "SMS Code выдаёт настоящий украинский мобильный номер в одно касание. Введите его в форму подтверждения Telegram, Viber, AliExpress или другого поддерживаемого сервиса — и SMS с кодом появится в приложении за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -106,7 +106,7 @@ export const ukraine: CountryEntry = {
       },
       {
         q: "Можно ли использовать номер +380 из другой страны?",
-        a: "Да. Номер живёт внутри приложения SMS Activate, поэтому ваше фактическое местоположение и SIM-карта не важны — код вы прочитаете там, где находитесь.",
+        a: "Да. Номер живёт внутри приложения SMS Code, поэтому ваше фактическое местоположение и SIM-карта не важны — код вы прочитаете там, где находитесь.",
       },
       {
         q: "Как быстро появится SMS?",

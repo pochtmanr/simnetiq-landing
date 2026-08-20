@@ -16,7 +16,7 @@ export const india: CountryEntry = {
       title: "An Indian virtual number for SMS verification",
       intro: [
         "India is the largest WhatsApp market in the world and one of the biggest user bases for nearly every global platform. Many services ship India-specific versions, tariffs and features — and the key that unlocks them at sign-up is a +91 mobile number.",
-        "SMS Activate puts a real Indian mobile number in your hands in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Telegram, Google, Instagram or Uber — arrives in the app within seconds.",
+        "SMS Code puts a real Indian mobile number in your hands in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Telegram, Google, Instagram or Uber — arrives in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -51,7 +51,7 @@ export const india: CountryEntry = {
       },
       {
         q: "Do I have to be in India to receive the code?",
-        a: "No. The number exists in the SMS Activate app rather than in a SIM slot, so your location is irrelevant — the verification SMS reaches you anywhere in the world.",
+        a: "No. The number exists in the SMS Code app rather than in a SIM slot, so your location is irrelevant — the verification SMS reaches you anywhere in the world.",
       },
       {
         q: "Why would I want the Indian version of an app?",
@@ -71,7 +71,7 @@ export const india: CountryEntry = {
       title: "Виртуальный номер Индии для SMS-верификации",
       intro: [
         "Индия — крупнейший рынок WhatsApp в мире и одна из самых больших аудиторий почти у каждой глобальной платформы. Многие сервисы выпускают отдельные индийские версии, тарифы и функции — и ключом к ним на регистрации служит мобильный номер +91.",
-        "SMS Activate даёт настоящий индийский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Telegram, Google, Instagram или Uber придёт в приложение за считанные секунды.",
+        "SMS Code даёт настоящий индийский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Telegram, Google, Instagram или Uber придёт в приложение за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -106,7 +106,7 @@ export const india: CountryEntry = {
       },
       {
         q: "Обязательно ли быть в Индии, чтобы получить код?",
-        a: "Нет. Номер существует в приложении SMS Activate, а не в слоте для SIM-карты, поэтому ваше местоположение не имеет значения — SMS с кодом дойдёт до вас в любой точке мира.",
+        a: "Нет. Номер существует в приложении SMS Code, а не в слоте для SIM-карты, поэтому ваше местоположение не имеет значения — SMS с кодом дойдёт до вас в любой точке мира.",
       },
       {
         q: "Зачем мне индийская версия приложения?",

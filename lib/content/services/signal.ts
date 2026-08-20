@@ -27,7 +27,7 @@ export const signal: ServiceEntry = {
       title: "A virtual number for Signal",
       intro: [
         "Here's the irony of Signal: the messenger that encrypts everything, stores almost nothing and gets recommended by every privacy researcher still asks for a phone number before you can send your first message. Registration is built on the SMS code — even though usernames now mean nobody ever has to see that number afterwards.",
-        "With SMS Activate you close that last gap: rent a real mobile number in one of 50+ countries, register Signal with it, and the code appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and an activation that received no SMS is cancelled without charge.",
+        "With SMS Code you close that last gap: rent a real mobile number in one of 50+ countries, register Signal with it, and the code appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and an activation that received no SMS is cancelled without charge.",
       ],
     },
     whyVirtual: {
@@ -41,8 +41,8 @@ export const signal: ServiceEntry = {
       title: "How to register Signal with a virtual number",
       steps: [
         {
-          title: "Get a number in SMS Activate",
-          body: "Open the SMS Activate app, choose Signal as the service, pick a country and tap once. A real mobile number is reserved just for you for the length of the activation.",
+          title: "Get a number in SMS Code",
+          body: "Open the SMS Code app, choose Signal as the service, pick a country and tap once. A real mobile number is reserved just for you for the length of the activation.",
         },
         {
           title: "Enter it in Signal",
@@ -50,7 +50,7 @@ export const signal: ServiceEntry = {
         },
         {
           title: "Grab the code",
-          body: "The SMS lands in the SMS Activate app within seconds, formatted like “SIGNAL: Your code is: 613904”. Enter the digits and registration completes.",
+          body: "The SMS lands in the SMS Code app within seconds, formatted like “SIGNAL: Your code is: 613904”. Enter the digits and registration completes.",
         },
         {
           title: "Set the PIN and claim a username",
@@ -91,7 +91,7 @@ export const signal: ServiceEntry = {
       },
       {
         q: "Why didn't my Signal code arrive?",
-        a: "Signal is careful about registrations it finds suspicious: you may get a captcha first, and some numbers are declined outright. Check that the country code matches, complete any captcha, and if the SMS still doesn't come, cancel the activation in SMS Activate — no charge for numbers that received nothing — and try a different number or country.",
+        a: "Signal is careful about registrations it finds suspicious: you may get a captcha first, and some numbers are declined outright. Check that the country code matches, complete any captcha, and if the SMS still doesn't come, cancel the activation in SMS Code — no charge for numbers that received nothing — and try a different number or country.",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const signal: ServiceEntry = {
       title: "Виртуальный номер для Signal",
       intro: [
         "Ирония Signal в том, что мессенджер, который шифрует всё, почти ничего не хранит и рекомендован каждым исследователем приватности, всё равно просит номер телефона до первого сообщения. Регистрация построена на SMS-коде — хотя с появлением юзернеймов этот номер потом можно вообще никому не показывать.",
-        "С SMS Activate вы закрываете эту последнюю брешь: арендуете настоящий мобильный номер в одной из 50+ стран, регистрируете на него Signal — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а активация, на которую SMS не пришла, отменяется без списания.",
+        "С SMS Code вы закрываете эту последнюю брешь: арендуете настоящий мобильный номер в одной из 50+ стран, регистрируете на него Signal — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а активация, на которую SMS не пришла, отменяется без списания.",
       ],
     },
     whyVirtual: {
@@ -117,8 +117,8 @@ export const signal: ServiceEntry = {
       title: "Как зарегистрировать Signal виртуальным номером",
       steps: [
         {
-          title: "Получите номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис Signal, страну — и нажмите один раз. Настоящий мобильный номер резервируется только за вами на время активации.",
+          title: "Получите номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис Signal, страну — и нажмите один раз. Настоящий мобильный номер резервируется только за вами на время активации.",
         },
         {
           title: "Введите его в Signal",
@@ -126,7 +126,7 @@ export const signal: ServiceEntry = {
         },
         {
           title: "Заберите код",
-          body: "SMS придёт в приложение SMS Activate за секунды, в формате «SIGNAL: Your code is: 613904». Введите цифры — регистрация завершена.",
+          body: "SMS придёт в приложение SMS Code за секунды, в формате «SIGNAL: Your code is: 613904». Введите цифры — регистрация завершена.",
         },
         {
           title: "Задайте PIN и займите юзернейм",
@@ -167,7 +167,7 @@ export const signal: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Signal?",
-        a: "Signal осторожен с регистрациями, которые кажутся ему подозрительными: сначала может прийти капча, а некоторым номерам он отказывает сразу. Проверьте совпадение кода страны, пройдите капчу, а если SMS так и нет — отмените активацию в SMS Activate (за номера, на которые ничего не пришло, деньги не списываются) и попробуйте другой номер или страну.",
+        a: "Signal осторожен с регистрациями, которые кажутся ему подозрительными: сначала может прийти капча, а некоторым номерам он отказывает сразу. Проверьте совпадение кода страны, пройдите капчу, а если SMS так и нет — отмените активацию в SMS Code (за номера, на которые ничего не пришло, деньги не списываются) и попробуйте другой номер или страну.",
       },
     ],
   },

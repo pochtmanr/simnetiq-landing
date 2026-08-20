@@ -27,7 +27,7 @@ export const instagram: ServiceEntry = {
       title: "A virtual number for Instagram",
       intro: [
         "Instagram lets you sign up with an email address — but the phone step rarely stays optional for long. A new device, an unfamiliar network or a few quick actions right after signup, and Instagram asks you to confirm a phone number before letting you continue. That number ends up tied to the account.",
-        "With SMS Activate you rent a real number in one of 50+ countries, give it to Instagram, and the six-digit code lands in the app within seconds. Your personal number stays out of Meta's contact graph — and out of “people you may know” suggestions built on it.",
+        "With SMS Code you rent a real number in one of 50+ countries, give it to Instagram, and the six-digit code lands in the app within seconds. Your personal number stays out of Meta's contact graph — and out of “people you may know” suggestions built on it.",
       ],
     },
     whyVirtual: {
@@ -41,16 +41,16 @@ export const instagram: ServiceEntry = {
       title: "How to verify Instagram with a virtual number",
       steps: [
         {
-          title: "Get a number in SMS Activate",
-          body: "Open the SMS Activate app, choose Instagram as the service, pick a country and tap once. A real mobile number is reserved just for you — you pay per activation, no subscription.",
+          title: "Get a number in SMS Code",
+          body: "Open the SMS Code app, choose Instagram as the service, pick a country and tap once. A real mobile number is reserved just for you — you pay per activation, no subscription.",
         },
         {
           title: "Enter it in Instagram",
           body: "Whether you're on the sign-up screen or facing a “confirm your phone number” prompt on an existing account, select the matching country code and type the number exactly as issued.",
         },
         {
-          title: "Grab the code from SMS Activate",
-          body: "Instagram sends a six-digit SMS — something like “391 504 is your Instagram code. Don't share it.” It appears in the SMS Activate app within seconds; type it in and the check clears.",
+          title: "Grab the code from SMS Code",
+          body: "Instagram sends a six-digit SMS — something like “391 504 is your Instagram code. Don't share it.” It appears in the SMS Code app within seconds; type it in and the check clears.",
         },
         {
           title: "Move the account off the rented number",
@@ -69,7 +69,7 @@ export const instagram: ServiceEntry = {
       },
       {
         title: "If the code doesn't arrive, switch numbers",
-        body: "Instagram sometimes rate-limits SMS to a number that requested codes recently. Don't keep tapping “resend” — cancel the pending activation in SMS Activate (numbers that received nothing are free) and take a fresh number, or try a different country.",
+        body: "Instagram sometimes rate-limits SMS to a number that requested codes recently. Don't keep tapping “resend” — cancel the pending activation in SMS Code (numbers that received nothing are free) and take a fresh number, or try a different country.",
       },
     ],
     faqs: [
@@ -87,7 +87,7 @@ export const instagram: ServiceEntry = {
       },
       {
         q: "Why didn't my Instagram code arrive?",
-        a: "The most common cause is a mismatched country code; the second is Instagram rate-limiting SMS to a number that recently requested codes. Cancel the pending activation in SMS Activate — you're not charged for a number that received nothing — and try a fresh number or another country.",
+        a: "The most common cause is a mismatched country code; the second is Instagram rate-limiting SMS to a number that recently requested codes. Cancel the pending activation in SMS Code — you're not charged for a number that received nothing — and try a fresh number or another country.",
       },
       {
         q: "Is signing up for Instagram with a virtual number allowed?",
@@ -103,7 +103,7 @@ export const instagram: ServiceEntry = {
       title: "Виртуальный номер для Instagram",
       intro: [
         "В Instagram можно зарегистрироваться по почте — но шаг с телефоном редко остаётся необязательным надолго. Новое устройство, незнакомая сеть или пара быстрых действий сразу после регистрации — и Instagram просит подтвердить номер телефона, прежде чем пустить дальше. Этот номер привязывается к аккаунту.",
-        "С SMS Activate вы арендуете настоящий номер в одной из 50+ стран, указываете его в Instagram — и шестизначный код приходит в приложение за считанные секунды. Ваш личный номер не попадает в контактный граф Meta — и в построенные на нём рекомендации «возможно, вы знакомы».",
+        "С SMS Code вы арендуете настоящий номер в одной из 50+ стран, указываете его в Instagram — и шестизначный код приходит в приложение за считанные секунды. Ваш личный номер не попадает в контактный граф Meta — и в построенные на нём рекомендации «возможно, вы знакомы».",
       ],
     },
     whyVirtual: {
@@ -117,16 +117,16 @@ export const instagram: ServiceEntry = {
       title: "Как подтвердить Instagram виртуальным номером",
       steps: [
         {
-          title: "Получите номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис Instagram, страну — и нажмите один раз. Настоящий мобильный номер резервируется только для вас; оплата за активацию, без подписки.",
+          title: "Получите номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис Instagram, страну — и нажмите один раз. Настоящий мобильный номер резервируется только для вас; оплата за активацию, без подписки.",
         },
         {
           title: "Введите его в Instagram",
           body: "Неважно, регистрируетесь вы или столкнулись с запросом «подтвердите номер телефона» на существующем аккаунте — выберите соответствующий код страны и введите номер ровно так, как он выдан.",
         },
         {
-          title: "Заберите код из SMS Activate",
-          body: "Instagram присылает шестизначную SMS — примерно такую: «391 504 is your Instagram code. Don't share it.» Она появляется в приложении SMS Activate за секунды; введите код — и проверка пройдена.",
+          title: "Заберите код из SMS Code",
+          body: "Instagram присылает шестизначную SMS — примерно такую: «391 504 is your Instagram code. Don't share it.» Она появляется в приложении SMS Code за секунды; введите код — и проверка пройдена.",
         },
         {
           title: "Отвяжите аккаунт от арендованного номера",
@@ -145,7 +145,7 @@ export const instagram: ServiceEntry = {
       },
       {
         title: "Код не приходит — смените номер",
-        body: "Instagram иногда ограничивает отправку SMS на номер, который недавно уже запрашивал коды. Не жмите «отправить ещё раз» без конца: отмените ожидающую активацию в SMS Activate (номера, на которые ничего не пришло, бесплатны) и возьмите свежий номер или другую страну.",
+        body: "Instagram иногда ограничивает отправку SMS на номер, который недавно уже запрашивал коды. Не жмите «отправить ещё раз» без конца: отмените ожидающую активацию в SMS Code (номера, на которые ничего не пришло, бесплатны) и возьмите свежий номер или другую страну.",
       },
     ],
     faqs: [
@@ -163,7 +163,7 @@ export const instagram: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Instagram?",
-        a: "Самая частая причина — несовпадение кода страны; вторая — Instagram ограничил SMS на номер, который недавно запрашивал коды. Отмените ожидающую активацию в SMS Activate — за номер, на который ничего не пришло, деньги не списываются, — и возьмите новый номер или другую страну.",
+        a: "Самая частая причина — несовпадение кода страны; вторая — Instagram ограничил SMS на номер, который недавно запрашивал коды. Отмените ожидающую активацию в SMS Code — за номер, на который ничего не пришло, деньги не списываются, — и возьмите новый номер или другую страну.",
       },
       {
         q: "Разрешено ли регистрироваться в Instagram с виртуальным номером?",

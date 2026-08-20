@@ -23,12 +23,12 @@ export const grab: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Grab — Sign Up for Southeast Asia's App",
     metaDescription:
-      "Verify Grab with a real virtual number. The activation code arrives in the SMS Activate app in seconds — set up rides, food and more without your personal number.",
+      "Verify Grab with a real virtual number. The activation code arrives in the SMS Code app in seconds — set up rides, food and more without your personal number.",
     hero: {
       title: "A virtual number for Grab",
       intro: [
         "Land anywhere in Southeast Asia and Grab is the first app you'll need: rides from the airport, food to the hotel, payments at the street stall. It's the region's super-app — and it's phone-first. There's no email login to fall back on at sign-up; Grab starts by asking for a mobile number and texting an activation code to it.",
-        "SMS Activate hands you a real number from one of 50+ countries. Enter it on Grab's welcome screen, and the six-digit code appears in the SMS Activate app within seconds — your account is live before your luggage hits the carousel, and your personal number was never part of the deal.",
+        "SMS Code hands you a real number from one of 50+ countries. Enter it on Grab's welcome screen, and the six-digit code appears in the SMS Code app within seconds — your account is live before your luggage hits the carousel, and your personal number was never part of the deal.",
       ],
     },
     whyVirtual: {
@@ -42,8 +42,8 @@ export const grab: ServiceEntry = {
       title: "How to verify Grab with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
-          body: "Open the SMS Activate app, choose Grab as the service and pick a country — a Southeast Asian country like Indonesia or the Philippines fits Grab's home turf best. The number is reserved instantly.",
+          title: "Rent a number in SMS Code",
+          body: "Open the SMS Code app, choose Grab as the service and pick a country — a Southeast Asian country like Indonesia or the Philippines fits Grab's home turf best. The number is reserved instantly.",
         },
         {
           title: "Enter it on Grab's sign-up screen",
@@ -51,7 +51,7 @@ export const grab: ServiceEntry = {
         },
         {
           title: "Type in the activation code",
-          body: "Watch the SMS Activate app: the text arrives in seconds and reads “702415 is your Grab activation code. For your account safety, do not share this code.” Enter the six digits in Grab.",
+          body: "Watch the SMS Code app: the text arrives in seconds and reads “702415 is your Grab activation code. For your account safety, do not share this code.” Enter the six digits in Grab.",
         },
         {
           title: "Add email and payment details",
@@ -80,7 +80,7 @@ export const grab: ServiceEntry = {
       },
       {
         q: "Which country should I choose for a Grab number?",
-        a: "One of Grab's home markets. Indonesia and the Philippines are the most popular picks in SMS Activate for Grab, since the sign-up flow is built around numbers from countries where the service runs.",
+        a: "One of Grab's home markets. Indonesia and the Philippines are the most popular picks in SMS Code for Grab, since the sign-up flow is built around numbers from countries where the service runs.",
       },
       {
         q: "Will my Grab account keep working after the number's rental window ends?",
@@ -88,7 +88,7 @@ export const grab: ServiceEntry = {
       },
       {
         q: "Why didn't my Grab activation code arrive?",
-        a: "Check that the country code selected in Grab matches the rented number — that mismatch is the most frequent cause. If nothing comes, cancel the activation in SMS Activate (numbers that received no SMS are free) and try another number.",
+        a: "Check that the country code selected in Grab matches the rented number — that mismatch is the most frequent cause. If nothing comes, cancel the activation in SMS Code (numbers that received no SMS are free) and try another number.",
       },
       {
         q: "Do I need a local number to pay with GrabPay?",
@@ -99,12 +99,12 @@ export const grab: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Grab — регистрация в супераппе Азии",
     metaDescription:
-      "Подтвердите Grab настоящим виртуальным номером. Код активации придёт в приложение SMS Activate за секунды — такси, еда и оплата без вашего личного номера.",
+      "Подтвердите Grab настоящим виртуальным номером. Код активации придёт в приложение SMS Code за секунды — такси, еда и оплата без вашего личного номера.",
     hero: {
       title: "Виртуальный номер для Grab",
       intro: [
         "Прилетаете в Юго-Восточную Азию — и Grab оказывается первым нужным приложением: такси из аэропорта, еда в отель, оплата у уличного лотка. Это суперапп региона, и он устроен по принципу «сначала телефон»: входа по почте при регистрации попросту нет — Grab с порога просит мобильный номер и шлёт на него код активации.",
-        "SMS Activate выдаёт настоящий номер из одной из 50+ стран. Введите его на приветственном экране Grab — и шестизначный код появится в приложении SMS Activate за секунды. Аккаунт готов раньше, чем приедет багаж, а ваш личный номер в этой сделке не участвовал.",
+        "SMS Code выдаёт настоящий номер из одной из 50+ стран. Введите его на приветственном экране Grab — и шестизначный код появится в приложении SMS Code за секунды. Аккаунт готов раньше, чем приедет багаж, а ваш личный номер в этой сделке не участвовал.",
       ],
     },
     whyVirtual: {
@@ -118,8 +118,8 @@ export const grab: ServiceEntry = {
       title: "Как подтвердить Grab виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис Grab и страну — лучше всего подходит Юго-Восточная Азия, например Индонезия или Филиппины: это родные рынки Grab. Номер резервируется мгновенно.",
+          title: "Арендуйте номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис Grab и страну — лучше всего подходит Юго-Восточная Азия, например Индонезия или Филиппины: это родные рынки Grab. Номер резервируется мгновенно.",
         },
         {
           title: "Введите его на экране регистрации Grab",
@@ -127,7 +127,7 @@ export const grab: ServiceEntry = {
         },
         {
           title: "Введите код активации",
-          body: "Следите за приложением SMS Activate: сообщение приходит за секунды и выглядит так — «702415 is your Grab activation code. For your account safety, do not share this code.» Введите шесть цифр в Grab.",
+          body: "Следите за приложением SMS Code: сообщение приходит за секунды и выглядит так — «702415 is your Grab activation code. For your account safety, do not share this code.» Введите шесть цифр в Grab.",
         },
         {
           title: "Добавьте почту и способ оплаты",
@@ -156,7 +156,7 @@ export const grab: ServiceEntry = {
       },
       {
         q: "Какую страну выбрать для номера под Grab?",
-        a: "Один из домашних рынков Grab. В SMS Activate для Grab чаще всего берут Индонезию и Филиппины: форма регистрации рассчитана на номера стран, где сервис действительно работает.",
+        a: "Один из домашних рынков Grab. В SMS Code для Grab чаще всего берут Индонезию и Филиппины: форма регистрации рассчитана на номера стран, где сервис действительно работает.",
       },
       {
         q: "Продолжит ли аккаунт Grab работать после окончания аренды номера?",
@@ -164,7 +164,7 @@ export const grab: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код активации Grab?",
-        a: "Проверьте, совпадает ли код страны в Grab с арендованным номером — это самая частая причина. Если SMS так и нет, отмените активацию в SMS Activate (номера без входящих сообщений бесплатны) и возьмите другой номер.",
+        a: "Проверьте, совпадает ли код страны в Grab с арендованным номером — это самая частая причина. Если SMS так и нет, отмените активацию в SMS Code (номера без входящих сообщений бесплатны) и возьмите другой номер.",
       },
       {
         q: "Нужен ли местный номер, чтобы платить через GrabPay?",

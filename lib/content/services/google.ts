@@ -27,7 +27,7 @@ export const google: ServiceEntry = {
       title: "A virtual number for Google",
       intro: [
         "Creating a Google account is supposed to take a minute — until the sign-up form asks for a phone number. Google decides dynamically whether to require verification, and once it does, there's no way past that screen without receiving a real SMS. The code arrives from “Google” and looks like “G-482915”.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries, enter it on Google's verification screen, and the G-code appears in the app within seconds. Your new Gmail gets created — and your personal number stays out of it.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries, enter it on Google's verification screen, and the G-code appears in the app within seconds. Your new Gmail gets created — and your personal number stays out of it.",
       ],
     },
     whyVirtual: {
@@ -41,8 +41,8 @@ export const google: ServiceEntry = {
       title: "How to verify a Google account with a virtual number",
       steps: [
         {
-          title: "Get a number in SMS Activate",
-          body: "Open the SMS Activate app, choose Google as the service and pick a country — the United States, United Kingdom or Germany are popular choices. One tap reserves a real mobile number just for you.",
+          title: "Get a number in SMS Code",
+          body: "Open the SMS Code app, choose Google as the service and pick a country — the United States, United Kingdom or Germany are popular choices. One tap reserves a real mobile number just for you.",
         },
         {
           title: "Enter it on Google's verification screen",
@@ -50,7 +50,7 @@ export const google: ServiceEntry = {
         },
         {
           title: "Type in the G-code",
-          body: "The SMS lands in the SMS Activate app within seconds and reads “G-482915 is your Google verification code.” Enter the six digits (without the “G-” prefix if Google's field asks for digits only) and the account is created.",
+          body: "The SMS lands in the SMS Code app within seconds and reads “G-482915 is your Google verification code.” Enter the six digits (without the “G-” prefix if Google's field asks for digits only) and the account is created.",
         },
         {
           title: "Unhook the account from the rented number",
@@ -61,7 +61,7 @@ export const google: ServiceEntry = {
     tips: [
       {
         title: "“This phone number cannot be used for verification”",
-        body: "Google actively screens out numbers it believes are VoIP or already overused, and rejects them with exactly this message. It happens; don't fight it. Cancel the pending activation in SMS Activate — numbers that received nothing cost nothing — and try a fresh number, ideally from a different country.",
+        body: "Google actively screens out numbers it believes are VoIP or already overused, and rejects them with exactly this message. It happens; don't fight it. Cancel the pending activation in SMS Code — numbers that received nothing cost nothing — and try a fresh number, ideally from a different country.",
       },
       {
         title: "Don't leave the number as your recovery method",
@@ -69,7 +69,7 @@ export const google: ServiceEntry = {
       },
       {
         title: "One number, limited accounts",
-        body: "Google caps how many accounts a single number can verify over its lifetime — and it counts everyone who used that number before you. If a code arrives but Google still refuses the number, it has likely hit that ceiling. A fresh number from SMS Activate starts the count from your activation.",
+        body: "Google caps how many accounts a single number can verify over its lifetime — and it counts everyone who used that number before you. If a code arrives but Google still refuses the number, it has likely hit that ceiling. A fresh number from SMS Code starts the count from your activation.",
       },
     ],
     faqs: [
@@ -83,7 +83,7 @@ export const google: ServiceEntry = {
       },
       {
         q: "Google says the number can't be used for verification. Now what?",
-        a: "That's Google's filter for numbers it suspects are VoIP or already linked to too many accounts. Cancel the activation in SMS Activate — you aren't charged for a number that received nothing — and take a new one. Switching to a different country often gets a cleaner range.",
+        a: "That's Google's filter for numbers it suspects are VoIP or already linked to too many accounts. Cancel the activation in SMS Code — you aren't charged for a number that received nothing — and take a new one. Switching to a different country often gets a cleaner range.",
       },
       {
         q: "Can I create more than one Google account this way?",
@@ -103,7 +103,7 @@ export const google: ServiceEntry = {
       title: "Виртуальный номер для Google",
       intro: [
         "Создание аккаунта Google должно занимать минуту — пока форма регистрации не попросит номер телефона. Google решает динамически, требовать ли подтверждение, и если потребовал, мимо этого экрана не пройти без настоящей SMS. Код приходит от отправителя «Google» и выглядит как «G-482915».",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его на экране подтверждения Google — и код G- появляется в приложении за считанные секунды. Новый Gmail создан, а ваш личный номер к нему не привязан.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его на экране подтверждения Google — и код G- появляется в приложении за считанные секунды. Новый Gmail создан, а ваш личный номер к нему не привязан.",
       ],
     },
     whyVirtual: {
@@ -117,8 +117,8 @@ export const google: ServiceEntry = {
       title: "Как подтвердить аккаунт Google виртуальным номером",
       steps: [
         {
-          title: "Получите номер в SMS Activate",
-          body: "Откройте приложение SMS Activate, выберите сервис Google и страну — часто берут США, Великобританию или Германию. Одно касание — и настоящий мобильный номер зарезервирован только для вас.",
+          title: "Получите номер в SMS Code",
+          body: "Откройте приложение SMS Code, выберите сервис Google и страну — часто берут США, Великобританию или Германию. Одно касание — и настоящий мобильный номер зарезервирован только для вас.",
         },
         {
           title: "Введите его на экране подтверждения Google",
@@ -126,7 +126,7 @@ export const google: ServiceEntry = {
         },
         {
           title: "Введите код G-",
-          body: "SMS придёт в приложение SMS Activate за секунды и будет выглядеть так: «G-482915 is your Google verification code.» Введите шесть цифр (без префикса «G-», если поле Google принимает только цифры) — аккаунт создан.",
+          body: "SMS придёт в приложение SMS Code за секунды и будет выглядеть так: «G-482915 is your Google verification code.» Введите шесть цифр (без префикса «G-», если поле Google принимает только цифры) — аккаунт создан.",
         },
         {
           title: "Отвяжите аккаунт от арендованного номера",
@@ -137,7 +137,7 @@ export const google: ServiceEntry = {
     tips: [
       {
         title: "«Этот номер телефона нельзя использовать для подтверждения»",
-        body: "Google активно отсеивает номера, которые считает виртуальными (VoIP) или уже заезженными, и отклоняет их ровно с таким сообщением. Такое случается — не спорьте с системой. Отмените ожидающую активацию в SMS Activate (номера, на которые ничего не пришло, ничего не стоят) и возьмите свежий номер, лучше из другой страны.",
+        body: "Google активно отсеивает номера, которые считает виртуальными (VoIP) или уже заезженными, и отклоняет их ровно с таким сообщением. Такое случается — не спорьте с системой. Отмените ожидающую активацию в SMS Code (номера, на которые ничего не пришло, ничего не стоят) и возьмите свежий номер, лучше из другой страны.",
       },
       {
         title: "Не оставляйте номер способом восстановления",
@@ -145,7 +145,7 @@ export const google: ServiceEntry = {
       },
       {
         title: "Один номер — ограниченное число аккаунтов",
-        body: "Google ограничивает, сколько аккаунтов один номер может подтвердить за всю свою историю, — и считает всех, кто пользовался этим номером до вас. Если код пришёл, а Google всё равно отказывает номеру, скорее всего, потолок достигнут. Свежий номер из SMS Activate начинает отсчёт с вашей активации.",
+        body: "Google ограничивает, сколько аккаунтов один номер может подтвердить за всю свою историю, — и считает всех, кто пользовался этим номером до вас. Если код пришёл, а Google всё равно отказывает номеру, скорее всего, потолок достигнут. Свежий номер из SMS Code начинает отсчёт с вашей активации.",
       },
     ],
     faqs: [
@@ -159,7 +159,7 @@ export const google: ServiceEntry = {
       },
       {
         q: "Google пишет, что номер нельзя использовать для подтверждения. Что делать?",
-        a: "Это фильтр Google для номеров, которые он подозревает в VoIP-происхождении или в привязке к слишком многим аккаунтам. Отмените активацию в SMS Activate — за номер, на который ничего не пришло, деньги не списываются, — и возьмите новый. Смена страны часто даёт более «чистый» диапазон номеров.",
+        a: "Это фильтр Google для номеров, которые он подозревает в VoIP-происхождении или в привязке к слишком многим аккаунтам. Отмените активацию в SMS Code — за номер, на который ничего не пришло, деньги не списываются, — и возьмите новый. Смена страны часто даёт более «чистый» диапазон номеров.",
       },
       {
         q: "Можно ли так создать несколько аккаунтов Google?",

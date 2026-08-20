@@ -27,7 +27,7 @@ export const kakaotalk: ServiceEntry = {
       title: "A virtual number for KakaoTalk",
       intro: [
         "KakaoTalk is how Korea talks — group chats, family threads, business contacts — and like every serious messenger it opens with a phone screen. Sign-up sends a short code such as “[KakaoTalk] 4829 is your verification code”, and there’s no email-only path around it.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and the code appears in the app within seconds. You get into the conversation — and the Korean friends, colleagues or in-laws waiting there never need your personal number to reach you.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and the code appears in the app within seconds. You get into the conversation — and the Korean friends, colleagues or in-laws waiting there never need your personal number to reach you.",
       ],
     },
     whyVirtual: {
@@ -41,7 +41,7 @@ export const kakaotalk: ServiceEntry = {
       title: "How to verify KakaoTalk with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Pick KakaoTalk as the service and choose a country. A number from where you actually live keeps the account unremarkable. One tap reserves a real mobile number for you.",
         },
         {
@@ -50,7 +50,7 @@ export const kakaotalk: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The text arrives as “[KakaoTalk] 4829 is your verification code” and shows up in SMS Activate within seconds. Enter it — if the SMS stalls, KakaoTalk can also read the code out by voice call after a wait.",
+          body: "The text arrives as “[KakaoTalk] 4829 is your verification code” and shows up in SMS Code within seconds. Enter it — if the SMS stalls, KakaoTalk can also read the code out by voice call after a wait.",
         },
         {
           title: "Set up the account for the long run",
@@ -83,7 +83,7 @@ export const kakaotalk: ServiceEntry = {
       },
       {
         q: "Why does KakaoTalk say the number can’t be used?",
-        a: "Some ranges and previously-registered numbers get rejected. Cancel the activation in SMS Activate free of charge, take a fresh number — a different country if the pattern repeats — and run the verification again.",
+        a: "Some ranges and previously-registered numbers get rejected. Cancel the activation in SMS Code free of charge, take a fresh number — a different country if the pattern repeats — and run the verification again.",
       },
       {
         q: "Can friends see which number I used?",
@@ -103,7 +103,7 @@ export const kakaotalk: ServiceEntry = {
       title: "Виртуальный номер для KakaoTalk",
       intro: [
         "KakaoTalk — это то, как разговаривает Корея: групповые чаты, семейные переписки, деловые контакты. И, как всякий серьёзный мессенджер, он начинается с экрана телефона. При регистрации приходит короткий код вида «[KakaoTalk] 4829 is your verification code», и пути «только по почте» здесь не существует.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Вы входите в разговор — а корейским друзьям, коллегам или родственникам, которые там ждут, ваш личный номер для этого не нужен.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Вы входите в разговор — а корейским друзьям, коллегам или родственникам, которые там ждут, ваш личный номер для этого не нужен.",
       ],
     },
     whyVirtual: {
@@ -117,7 +117,7 @@ export const kakaotalk: ServiceEntry = {
       title: "Как подтвердить KakaoTalk виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис KakaoTalk и страну. Номер оттуда, где вы действительно живёте, делает аккаунт ничем не примечательным. Одно касание — и настоящий мобильный номер зарезервирован.",
         },
         {
@@ -126,7 +126,7 @@ export const kakaotalk: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "Сообщение приходит в виде «[KakaoTalk] 4829 is your verification code» и появляется в SMS Activate за секунды. Введите код — а если SMS задерживается, после паузы KakaoTalk может продиктовать его голосовым звонком.",
+          body: "Сообщение приходит в виде «[KakaoTalk] 4829 is your verification code» и появляется в SMS Code за секунды. Введите код — а если SMS задерживается, после паузы KakaoTalk может продиктовать его голосовым звонком.",
         },
         {
           title: "Настройте аккаунт надолго",
@@ -159,7 +159,7 @@ export const kakaotalk: ServiceEntry = {
       },
       {
         q: "Почему KakaoTalk пишет, что номер нельзя использовать?",
-        a: "Некоторые диапазоны и ранее зарегистрированные номера отклоняются. Отмените активацию в SMS Activate бесплатно, возьмите свежий номер — при повторении картины попробуйте другую страну — и пройдите верификацию заново.",
+        a: "Некоторые диапазоны и ранее зарегистрированные номера отклоняются. Отмените активацию в SMS Code бесплатно, возьмите свежий номер — при повторении картины попробуйте другую страну — и пройдите верификацию заново.",
       },
       {
         q: "Увидят ли друзья, какой номер я использовал?",

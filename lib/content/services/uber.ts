@@ -27,7 +27,7 @@ export const uber: ServiceEntry = {
       title: "A virtual number for Uber",
       intro: [
         "Uber doesn’t treat the phone number as a detail — it is the account. You type a number, Uber texts “Your Uber code is 7204. Never share this code.”, and that’s the whole login: no username, and for many riders no password either. Whoever receives codes on that number effectively holds the account.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and Uber’s code shows up in the app within seconds. Your rides, receipts and pickup history get tied to a rented number instead of the one your friends and your bank use.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and Uber’s code shows up in the app within seconds. Your rides, receipts and pickup history get tied to a rented number instead of the one your friends and your bank use.",
       ],
     },
     whyVirtual: {
@@ -41,7 +41,7 @@ export const uber: ServiceEntry = {
       title: "How to verify Uber with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Choose Uber as the service and pick a country. For everyday use take your own country — the account’s region shapes payment options and local features.",
         },
         {
@@ -50,7 +50,7 @@ export const uber: ServiceEntry = {
         },
         {
           title: "Type in the four digits",
-          body: "“Your Uber code is 7204. Never share this code.” arrives in the SMS Activate app within seconds. Enter it and you’re signed in.",
+          body: "“Your Uber code is 7204. Never share this code.” arrives in the SMS Code app within seconds. Enter it and you’re signed in.",
         },
         {
           title: "Give the account a second channel",
@@ -83,11 +83,11 @@ export const uber: ServiceEntry = {
       },
       {
         q: "Can I use a virtual number for Uber while traveling?",
-        a: "Yes, and it solves a real travel problem: login checks that arrive as SMS your roaming SIM can’t receive. Codes to a rented number land in the SMS Activate app over the internet, wherever you are. Note that you don’t need a local number just to ride abroad — your normal account works internationally.",
+        a: "Yes, and it solves a real travel problem: login checks that arrive as SMS your roaming SIM can’t receive. Codes to a rented number land in the SMS Code app over the internet, wherever you are. Note that you don’t need a local number just to ride abroad — your normal account works internationally.",
       },
       {
         q: "Why didn’t the Uber code arrive?",
-        a: "First check that the country code matches the rented number. Then make sure the code is coming by SMS — Uber sometimes defaults to WhatsApp or a voice call. If nothing arrived, cancel the activation in SMS Activate at no cost and take another number.",
+        a: "First check that the country code matches the rented number. Then make sure the code is coming by SMS — Uber sometimes defaults to WhatsApp or a voice call. If nothing arrived, cancel the activation in SMS Code at no cost and take another number.",
       },
       {
         q: "Is signing up for Uber with a virtual number allowed?",
@@ -103,7 +103,7 @@ export const uber: ServiceEntry = {
       title: "Виртуальный номер для Uber",
       intro: [
         "Для Uber номер телефона — не деталь, а сам аккаунт. Вы вводите номер, Uber присылает «Your Uber code is 7204. Never share this code.» — и это весь вход: без логина, а у многих пассажиров и без пароля. Кто получает коды на этот номер, тот фактически и владеет аккаунтом.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код Uber появляется в приложении за считанные секунды. Ваши поездки, чеки и адреса посадки привязываются к арендованному номеру, а не к тому, которым пользуются ваши друзья и ваш банк.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код Uber появляется в приложении за считанные секунды. Ваши поездки, чеки и адреса посадки привязываются к арендованному номеру, а не к тому, которым пользуются ваши друзья и ваш банк.",
       ],
     },
     whyVirtual: {
@@ -117,7 +117,7 @@ export const uber: ServiceEntry = {
       title: "Как подтвердить Uber виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис Uber и страну. Для повседневного использования берите свою: регион аккаунта влияет на способы оплаты и локальные функции.",
         },
         {
@@ -126,7 +126,7 @@ export const uber: ServiceEntry = {
         },
         {
           title: "Введите четыре цифры",
-          body: "«Your Uber code is 7204. Never share this code.» приходит в приложение SMS Activate за секунды. Введите код — и вы в аккаунте.",
+          body: "«Your Uber code is 7204. Never share this code.» приходит в приложение SMS Code за секунды. Введите код — и вы в аккаунте.",
         },
         {
           title: "Дайте аккаунту второй канал",
@@ -159,11 +159,11 @@ export const uber: ServiceEntry = {
       },
       {
         q: "Можно ли пользоваться виртуальным номером для Uber в путешествии?",
-        a: "Да, и это решает реальную дорожную проблему: проверки входа приходят по SMS, которые роуминговая SIM может не принять. Коды на арендованный номер попадают в приложение SMS Activate через интернет, где бы вы ни были. Учтите: локальный номер не нужен просто чтобы ездить за границей — обычный аккаунт работает по всему миру.",
+        a: "Да, и это решает реальную дорожную проблему: проверки входа приходят по SMS, которые роуминговая SIM может не принять. Коды на арендованный номер попадают в приложение SMS Code через интернет, где бы вы ни были. Учтите: локальный номер не нужен просто чтобы ездить за границей — обычный аккаунт работает по всему миру.",
       },
       {
         q: "Почему не пришёл код Uber?",
-        a: "Сначала проверьте, совпадает ли код страны с арендованным номером. Затем убедитесь, что код идёт именно по SMS: Uber иногда по умолчанию выбирает WhatsApp или звонок. Если ничего не пришло, отмените активацию в SMS Activate бесплатно и возьмите другой номер.",
+        a: "Сначала проверьте, совпадает ли код страны с арендованным номером. Затем убедитесь, что код идёт именно по SMS: Uber иногда по умолчанию выбирает WhatsApp или звонок. Если ничего не пришло, отмените активацию в SMS Code бесплатно и возьмите другой номер.",
       },
       {
         q: "Разрешено ли регистрироваться в Uber с виртуальным номером?",

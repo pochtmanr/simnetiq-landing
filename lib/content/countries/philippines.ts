@@ -16,7 +16,7 @@ export const philippines: CountryEntry = {
       title: "A Philippine virtual number for SMS verification",
       intro: [
         "The Philippines has long been called the texting capital of the world, and the habit shows: SMS is still woven into everyday life, and verification by text feels completely native here. Facebook and Viber dominate how Filipinos talk online, and both expect a +63 number at sign-up.",
-        "SMS Activate gives you a real Philippine mobile number in one tap. Paste it into the verification form, and the SMS — with a code from Facebook, Viber, Grab, TikTok or WhatsApp — shows up in the app within seconds, no local SIM required.",
+        "SMS Code gives you a real Philippine mobile number in one tap. Paste it into the verification form, and the SMS — with a code from Facebook, Viber, Grab, TikTok or WhatsApp — shows up in the app within seconds, no local SIM required.",
       ],
     },
     whyCountry: {
@@ -51,7 +51,7 @@ export const philippines: CountryEntry = {
       },
       {
         q: "Can I receive the code if I'm not in the Philippines?",
-        a: "Yes. The number lives in the SMS Activate app, not in a physical SIM, so the verification SMS reaches you wherever you happen to be.",
+        a: "Yes. The number lives in the SMS Code app, not in a physical SIM, so the verification SMS reaches you wherever you happen to be.",
       },
       {
         q: "What does a Philippine verification SMS look like?",
@@ -71,7 +71,7 @@ export const philippines: CountryEntry = {
       title: "Виртуальный номер Филиппин для SMS-верификации",
       intro: [
         "Филиппины давно называют мировой столицей SMS, и эта привычка никуда не делась: текстовые сообщения по-прежнему вплетены в повседневную жизнь, а подтверждение по SMS здесь ощущается совершенно естественно. Онлайн-общением филиппинцев правят Facebook и Viber — и оба ждут на регистрации номер +63.",
-        "SMS Activate выдаёт настоящий филиппинский мобильный номер в одно касание. Вставьте его в форму подтверждения — и SMS с кодом от Facebook, Viber, Grab, TikTok или WhatsApp появится в приложении за секунды, без всякой местной SIM-карты.",
+        "SMS Code выдаёт настоящий филиппинский мобильный номер в одно касание. Вставьте его в форму подтверждения — и SMS с кодом от Facebook, Viber, Grab, TikTok или WhatsApp появится в приложении за секунды, без всякой местной SIM-карты.",
       ],
     },
     whyCountry: {
@@ -106,7 +106,7 @@ export const philippines: CountryEntry = {
       },
       {
         q: "Получу ли я код, если я не на Филиппинах?",
-        a: "Да. Номер живёт в приложении SMS Activate, а не в физической SIM-карте, поэтому SMS с кодом найдёт вас, где бы вы ни были.",
+        a: "Да. Номер живёт в приложении SMS Code, а не в физической SIM-карте, поэтому SMS с кодом найдёт вас, где бы вы ни были.",
       },
       {
         q: "Как выглядит филиппинское SMS с кодом?",

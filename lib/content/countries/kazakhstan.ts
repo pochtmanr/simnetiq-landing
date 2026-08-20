@@ -16,7 +16,7 @@ export const kazakhstan: CountryEntry = {
       title: "A Kazakhstan virtual number for SMS verification",
       intro: [
         "Kazakhstan shares the +7 dialing code with Russia, but its mobile numbers are easy to tell apart: they start with 7 after the country code — +7 7XX — where Russian mobiles start with 9. That makes a Kazakh number a distinct identity that still fits every form built for the +7 world.",
-        "SMS Activate rents you a real Kazakhstani mobile number in one tap. Enter it at the verification step of Telegram, VK, Steam or another supported service, and the SMS with your code lands in the app within seconds.",
+        "SMS Code rents you a real Kazakhstani mobile number in one tap. Enter it at the verification step of Telegram, VK, Steam or another supported service, and the SMS with your code lands in the app within seconds.",
       ],
     },
     whyCountry: {
@@ -55,7 +55,7 @@ export const kazakhstan: CountryEntry = {
       },
       {
         q: "Do I need to be in Kazakhstan to receive the code?",
-        a: "No. The number exists inside the SMS Activate app, so your location and your own SIM don't matter — the verification SMS reaches you anywhere in the world.",
+        a: "No. The number exists inside the SMS Code app, so your location and your own SIM don't matter — the verification SMS reaches you anywhere in the world.",
       },
       {
         q: "Does the number stay with me afterwards?",
@@ -71,7 +71,7 @@ export const kazakhstan: CountryEntry = {
       title: "Виртуальный номер Казахстана для SMS-верификации",
       intro: [
         "Казахстан делит код +7 с Россией, но его мобильные номера легко отличить: после кода страны они начинаются с семёрки — +7 7XX, — тогда как российские мобильные начинаются с девятки. Так казахский номер остаётся самостоятельной «личностью», при этом подходя любой форме, рассчитанной на мир +7.",
-        "SMS Activate сдаёт настоящий казахстанский мобильный номер в одно касание. Введите его на шаге подтверждения Telegram, VK, Steam или другого поддерживаемого сервиса — и SMS с кодом окажется в приложении за считанные секунды.",
+        "SMS Code сдаёт настоящий казахстанский мобильный номер в одно касание. Введите его на шаге подтверждения Telegram, VK, Steam или другого поддерживаемого сервиса — и SMS с кодом окажется в приложении за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -110,7 +110,7 @@ export const kazakhstan: CountryEntry = {
       },
       {
         q: "Нужно ли находиться в Казахстане, чтобы получить код?",
-        a: "Нет. Номер существует внутри приложения SMS Activate, поэтому ваше местоположение и собственная SIM-карта не имеют значения — SMS с кодом дойдёт до вас в любой точке мира.",
+        a: "Нет. Номер существует внутри приложения SMS Code, поэтому ваше местоположение и собственная SIM-карта не имеют значения — SMS с кодом дойдёт до вас в любой точке мира.",
       },
       {
         q: "Останется ли номер у меня потом?",

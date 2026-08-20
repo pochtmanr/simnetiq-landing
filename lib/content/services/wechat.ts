@@ -27,7 +27,7 @@ export const wechat: ServiceEntry = {
       title: "A virtual number for WeChat",
       intro: [
         "Let’s be upfront: WeChat is the hardest mainstream sign-up there is. The SMS step works like anywhere else — you enter a number, “Use the code (582074) on WeChat to log in to your account.” arrives, you type it in. But for many new registrations WeChat then adds a second gate: confirmation by an existing WeChat user whose account meets its criteria. No number, virtual or otherwise, can substitute for that.",
-        "With SMS Activate the phone step itself is easy — a real number in one of 50+ countries, the code in the app within seconds. This page tells you honestly what the number covers, what it doesn’t, and how to prepare for the part that depends on a human being.",
+        "With SMS Code the phone step itself is easy — a real number in one of 50+ countries, the code in the app within seconds. This page tells you honestly what the number covers, what it doesn’t, and how to prepare for the part that depends on a human being.",
       ],
     },
     whyVirtual: {
@@ -45,12 +45,12 @@ export const wechat: ServiceEntry = {
           body: "Ask someone you personally know with an established WeChat account whether they can assist a new registration. This step is the real bottleneck — sort it out before spending anything on a number.",
         },
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Choose WeChat as the service and pick a country. One tap reserves a real mobile number for you.",
         },
         {
           title: "Sign up and enter the code",
-          body: "Start registration in WeChat with the rented number. “Use the code (582074) on WeChat to log in to your account.” arrives in the SMS Activate app within seconds — type it in, then follow whatever security verification WeChat presents, handing the friend-assist part to your helper.",
+          body: "Start registration in WeChat with the rented number. “Use the code (582074) on WeChat to log in to your account.” arrives in the SMS Code app within seconds — type it in, then follow whatever security verification WeChat presents, handing the friend-assist part to your helper.",
         },
         {
           title: "Anchor the account beyond SMS",
@@ -91,7 +91,7 @@ export const wechat: ServiceEntry = {
       },
       {
         q: "Why didn’t the WeChat code arrive?",
-        a: "Check the country code first. Beyond that, WeChat is genuinely picky about which numbers it serves — more than most apps. An activation that received nothing can be cancelled in SMS Activate at no cost; take a fresh number, ideally from a different country, and try again.",
+        a: "Check the country code first. Beyond that, WeChat is genuinely picky about which numbers it serves — more than most apps. An activation that received nothing can be cancelled in SMS Code at no cost; take a fresh number, ideally from a different country, and try again.",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const wechat: ServiceEntry = {
       title: "Виртуальный номер для WeChat",
       intro: [
         "Скажем прямо: у WeChat самая трудная регистрация среди массовых сервисов. Шаг с SMS проходит как везде — вводите номер, приходит «Use the code (582074) on WeChat to log in to your account.», вбиваете код. Но для многих новых регистраций WeChat добавляет вторые ворота: подтверждение действующим пользователем WeChat, чей аккаунт отвечает его критериям. Никакой номер — ни виртуальный, ни обычный — этого не заменит.",
-        "С SMS Activate сам телефонный шаг прост: настоящий номер в одной из 50+ стран, код в приложении за считанные секунды. Эта страница честно объясняет, что номер закрывает, чего не закрывает и как подготовиться к той части, которая зависит от живого человека.",
+        "С SMS Code сам телефонный шаг прост: настоящий номер в одной из 50+ стран, код в приложении за считанные секунды. Эта страница честно объясняет, что номер закрывает, чего не закрывает и как подготовиться к той части, которая зависит от живого человека.",
       ],
     },
     whyVirtual: {
@@ -121,12 +121,12 @@ export const wechat: ServiceEntry = {
           body: "Спросите лично знакомого человека с устоявшимся аккаунтом WeChat, сможет ли он помочь с новой регистрацией. Это и есть настоящее узкое место — решите его до того, как тратиться на номер.",
         },
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис WeChat и страну. Одно касание — и настоящий мобильный номер зарезервирован для вас.",
         },
         {
           title: "Зарегистрируйтесь и введите код",
-          body: "Начните регистрацию в WeChat с арендованным номером. «Use the code (582074) on WeChat to log in to your account.» придёт в приложение SMS Activate за секунды — введите код, затем пройдите проверку безопасности, которую покажет WeChat, передав часть с помощью друга вашему помощнику.",
+          body: "Начните регистрацию в WeChat с арендованным номером. «Use the code (582074) on WeChat to log in to your account.» придёт в приложение SMS Code за секунды — введите код, затем пройдите проверку безопасности, которую покажет WeChat, передав часть с помощью друга вашему помощнику.",
         },
         {
           title: "Закрепите аккаунт не только на SMS",
@@ -167,7 +167,7 @@ export const wechat: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код WeChat?",
-        a: "Сначала проверьте код страны. Кроме того, WeChat действительно придирчив к номерам — сильнее большинства приложений. Активацию, на которую ничего не пришло, можно отменить в SMS Activate бесплатно; возьмите свежий номер, лучше из другой страны, и попробуйте снова.",
+        a: "Сначала проверьте код страны. Кроме того, WeChat действительно придирчив к номерам — сильнее большинства приложений. Активацию, на которую ничего не пришло, можно отменить в SMS Code бесплатно; возьмите свежий номер, лучше из другой страны, и попробуйте снова.",
       },
     ],
   },

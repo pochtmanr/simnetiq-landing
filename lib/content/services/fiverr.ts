@@ -27,7 +27,7 @@ export const fiverr: ServiceEntry = {
       title: "A virtual number for Fiverr",
       intro: [
         "Fiverr checks phones more than most marketplaces. Buyers hit the verification screen at sign-up or checkout, and anyone opening a seller profile must verify a number before the gig goes live — a code like “Your Fiverr verification code is: 517284” arrives by SMS and the form won’t move without it.",
-        "With SMS Activate you rent a real mobile number in one of 50+ countries and the code shows up in the app within seconds. Your profile gets verified — and the number every client, dispute and marketing list can reach stays separate from the phone in your pocket.",
+        "With SMS Code you rent a real mobile number in one of 50+ countries and the code shows up in the app within seconds. Your profile gets verified — and the number every client, dispute and marketing list can reach stays separate from the phone in your pocket.",
       ],
     },
     whyVirtual: {
@@ -41,7 +41,7 @@ export const fiverr: ServiceEntry = {
       title: "How to verify Fiverr with a virtual number",
       steps: [
         {
-          title: "Rent a number in SMS Activate",
+          title: "Rent a number in SMS Code",
           body: "Pick Fiverr as the service and choose a country — one that matches where you actually work keeps your profile details consistent. One tap reserves a real mobile number for you.",
         },
         {
@@ -50,7 +50,7 @@ export const fiverr: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "Fiverr sends “Your Fiverr verification code is: 517284” — it lands in the SMS Activate app within seconds. Enter it and the badge flips to verified.",
+          body: "Fiverr sends “Your Fiverr verification code is: 517284” — it lands in the SMS Code app within seconds. Enter it and the badge flips to verified.",
         },
         {
           title: "Anchor the account properly",
@@ -91,7 +91,7 @@ export const fiverr: ServiceEntry = {
       },
       {
         q: "Why didn’t the Fiverr code arrive?",
-        a: "Check that the country code in the form matches the rented number — that’s the most common miss. If the SMS still doesn’t come, cancel the activation in SMS Activate free of charge and take a fresh number.",
+        a: "Check that the country code in the form matches the rented number — that’s the most common miss. If the SMS still doesn’t come, cancel the activation in SMS Code free of charge and take a fresh number.",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const fiverr: ServiceEntry = {
       title: "Виртуальный номер для Fiverr",
       intro: [
         "Fiverr проверяет телефоны чаще большинства маркетплейсов. Покупатели видят экран верификации при регистрации или оплате, а каждый, кто открывает профиль продавца, обязан подтвердить номер до публикации гига — по SMS приходит код вида «Your Fiverr verification code is: 517284», и без него форма дальше не пускает.",
-        "С SMS Activate вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Профиль подтверждён — а номер, до которого могут дотянуться клиенты, споры и рассылки, остаётся отдельным от телефона у вас в кармане.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Профиль подтверждён — а номер, до которого могут дотянуться клиенты, споры и рассылки, остаётся отдельным от телефона у вас в кармане.",
       ],
     },
     whyVirtual: {
@@ -117,7 +117,7 @@ export const fiverr: ServiceEntry = {
       title: "Как подтвердить Fiverr виртуальным номером",
       steps: [
         {
-          title: "Арендуйте номер в SMS Activate",
+          title: "Арендуйте номер в SMS Code",
           body: "Выберите сервис Fiverr и страну — лучше ту, где вы действительно работаете: так данные профиля останутся согласованными. Одно касание — и настоящий мобильный номер зарезервирован для вас.",
         },
         {
@@ -126,7 +126,7 @@ export const fiverr: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "Fiverr присылает «Your Fiverr verification code is: 517284» — SMS появляется в приложении SMS Activate за секунды. Введите код, и статус сменится на «подтверждён».",
+          body: "Fiverr присылает «Your Fiverr verification code is: 517284» — SMS появляется в приложении SMS Code за секунды. Введите код, и статус сменится на «подтверждён».",
         },
         {
           title: "Закрепите аккаунт как следует",
@@ -167,7 +167,7 @@ export const fiverr: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Fiverr?",
-        a: "Проверьте, совпадает ли код страны в форме с арендованным номером, — это самая частая ошибка. Если SMS так и не пришла, отмените активацию в SMS Activate бесплатно и возьмите свежий номер.",
+        a: "Проверьте, совпадает ли код страны в форме с арендованным номером, — это самая частая ошибка. Если SMS так и не пришла, отмените активацию в SMS Code бесплатно и возьмите свежий номер.",
       },
     ],
   },

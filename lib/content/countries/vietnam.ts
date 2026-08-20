@@ -16,7 +16,7 @@ export const vietnam: CountryEntry = {
       title: "A Vietnamese virtual number for SMS verification",
       intro: [
         "Vietnam runs on mobile: Zalo for messaging, Shopee for shopping, Facebook for everything else — and each of them wants a phone number at the door. A +84 mobile is the native key to that ecosystem, and the only way to verify Zalo the way a local would.",
-        "SMS Activate rents you a real Vietnamese mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Vietnamese mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -51,7 +51,7 @@ export const vietnam: CountryEntry = {
       },
       {
         q: "Do I have to be in Vietnam to receive the SMS?",
-        a: "No. The number and its messages live in the SMS Activate app, so your location and your own SIM card never enter into it — the code reaches you wherever you are.",
+        a: "No. The number and its messages live in the SMS Code app, so your location and your own SIM card never enter into it — the code reaches you wherever you are.",
       },
       {
         q: "What if the verification code never arrives?",
@@ -71,7 +71,7 @@ export const vietnam: CountryEntry = {
       title: "Виртуальный номер Вьетнама для SMS-верификации",
       intro: [
         "Вьетнам живёт в телефоне: Zalo для переписки, Shopee для покупок, Facebook для всего остального — и каждый из них спрашивает номер на входе. Мобильный +84 — родной ключ к этой экосистеме и единственный способ подтвердить Zalo так, как это сделал бы местный.",
-        "SMS Activate сдаёт настоящий вьетнамский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий вьетнамский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {
@@ -106,7 +106,7 @@ export const vietnam: CountryEntry = {
       },
       {
         q: "Нужно ли находиться во Вьетнаме, чтобы получить SMS?",
-        a: "Нет. Номер и его сообщения живут в приложении SMS Activate, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
+        a: "Нет. Номер и его сообщения живут в приложении SMS Code, поэтому ваше местоположение и собственная SIM-карта ни при чём — код дойдёт до вас, где бы вы ни были.",
       },
       {
         q: "Что, если код подтверждения так и не придёт?",
