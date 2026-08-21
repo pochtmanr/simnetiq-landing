@@ -44,7 +44,7 @@ export function BlogIndexPage({ locale }: { locale: Locale }) {
             <Link
               key={post.slug}
               href={localePath(locale, `/blog/${post.slug}`)}
-              className="card group flex flex-col transition-colors hover:!border-accent"
+              className="card group flex flex-col transition-colors hover:bg-panel"
             >
               <div className="flex flex-wrap items-center gap-[10px]">
                 {post.tags.map((tag) => (

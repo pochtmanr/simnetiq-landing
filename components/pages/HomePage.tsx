@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AppShot } from "../AppShot";
@@ -7,6 +8,13 @@ import { HOME, SERVICES } from "../../lib/content/home";
 import { ALL_SERVICES } from "../../lib/content/services";
 import { ALL_ALTERNATIVES } from "../../lib/content/alternatives";
 import { BLOG_POSTS } from "../../lib/content/blog";
+
+/* Step cards walk the accent ramp from the deepest tint down to the lightest,
+   so the three steps read as a sequence rather than three equal boxes. Their
+   eyebrows go ink rather than accent-deep: #1E5AA8 on the deepest tint is
+   4.0:1, under AA for an 11px label, and one eyebrow colour across the three
+   cards beats three. */
+const STEP_TINTS = ["bg-panel-deep", "bg-panel-strong", "bg-panel"];
 
 function SectionHeading({
   label,
@@ -64,27 +72,6 @@ export function HomePage({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      {/* Services */}
-      <section className="scroll-mt-24" id="services">
-        <span className="section-label text-center">{t.services.label}</span>
-        <h2 className="text-center text-heading">{t.services.title}</h2>
-        <div className="mx-[calc(50%-50vw)] mt-[28px] overflow-hidden" aria-hidden>
-          <div className="marquee-track flex items-center gap-[36px] px-4">
-            {[...SERVICES, ...SERVICES].map((slug, i) => (
-              <img
-                key={`${slug}-${i}`}
-                src={`/services/${slug}.svg`}
-                alt=""
-                loading="lazy"
-                className="h-[52px] w-[52px] shrink-0"
-              />
-            ))}
-          </div>
-        </div>
-        <p className="mt-[14px] text-center text-caption text-muted">
-          {t.services.caption}
-        </p>
-      </section>
 
       {/* Stats strip */}
       <section className="pt-[94px]" id="stats">
@@ -105,16 +92,37 @@ export function HomePage({ locale }: { locale: Locale }) {
         <SectionHeading label={t.how.label} title={t.how.title} />
         <div className="mt-[34px] grid gap-[22px] md:grid-cols-3">
           {t.how.steps.map((step, i) => (
-            <div key={step.title} className="card">
-              <span className="section-label">
+            <div key={step.title} className={`card ${STEP_TINTS[i]}`}>
+              <span className="section-label !text-ink">
                 {t.how.step} {i + 1}
               </span>
               <h3 className="text-subheading">{step.title}</h3>
-              <p className="mt-[11px] text-body text-ink-muted">{step.body}</p>
+              <p className="mt-[11px] text-body text-ink/75">{step.body}</p>
             </div>
           ))}
         </div>
       </section>
+
+      {/* Services */}
+      <section className="scroll-mt-24 pt-[94px]" id="services">
+        <span className="section-label text-center">{t.services.label}</span>
+        <h2 className="text-center text-heading">{t.services.title}</h2>
+        <div className="logo-strip mx-[calc(50%-50vw)] mt-[28px]" aria-hidden>
+          <div className="marquee-track flex items-center gap-[36px] px-4">
+            {[...SERVICES, ...SERVICES].map((slug, i) => (
+              <span
+                key={`${slug}-${i}`}
+                className="logo-chip"
+                style={{ "--logo": `url(/services/${slug}.svg)` } as CSSProperties}
+              />
+            ))}
+          </div>
+        </div>
+        <p className="mt-[14px] text-center text-caption text-muted">
+          {t.services.caption}
+        </p>
+      </section>
+
 
       {/* Features */}
       <section className="pt-[94px]" id="features">
@@ -134,37 +142,6 @@ export function HomePage({ locale }: { locale: Locale }) {
         </div>
       </section>
 
-      {/* Browse by service — the site's internal-linking hub section.
-          Full-bleed ink band via mx-[calc(50%-50vw)] + w-screen; body has
-          overflow-x: clip so no horizontal scroll appears. */}
-      <section className="pt-[94px]" id="browse">
-        <div className="panel--ink mx-[calc(50%-50vw)] w-screen py-[clamp(42px,5vw,70px)]">
-          <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
-            <SectionHeading label={t.browse.label} title={t.browse.title} onInk />
-            <p className="mt-[14px] max-w-xl text-body text-white/70">
-              {t.browse.body}
-            </p>
-            <div className="mt-[34px] flex flex-wrap gap-[11px]">
-              {ALL_SERVICES.map((s) => (
-                <Link
-                  key={s.slug}
-                  href={localePath(locale, `/virtual-numbers/${s.slug}`)}
-                  className="inline-flex items-center gap-[8px] rounded-pill bg-white px-[14px] py-[9px] text-label text-ink transition-colors hover:bg-panel-strong"
-                >
-                  <img src={s.logo} alt="" className="h-5 w-5" />
-                  {s.name}
-                </Link>
-              ))}
-              <Link
-                href={localePath(locale, "/virtual-numbers")}
-                className="inline-flex items-center rounded-pill border border-white/40 px-[16px] py-[9px] text-label text-white transition-colors hover:border-white hover:bg-white/10"
-              >
-                {t.browse.allLink} →
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Pricing — coins, and the honest version of how they're spent. */}
       <section className="pt-[94px]" id="pricing">
@@ -208,6 +185,40 @@ export function HomePage({ locale }: { locale: Locale }) {
               {t.showcase.shots.map((shot) => (
                 <AppShot key={shot.src} src={shot.src} caption={shot.caption} />
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Browse by service — the site's internal-linking hub section. Sits
+          straight after the showcase: the reader has just seen the app, so the
+          next thing offered is a way into it. Full-bleed via
+          mx-[calc(50%-50vw)] + w-screen; body has overflow-x: clip so no
+          horizontal scroll appears. */}
+      <section className="pt-[94px]" id="browse">
+        <div className="mx-[calc(50%-50vw)] w-screen bg-panel py-[clamp(42px,5vw,70px)]">
+          <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
+            <SectionHeading label={t.browse.label} title={t.browse.title} />
+            <p className="mt-[14px] max-w-xl text-body text-ink/75">
+              {t.browse.body}
+            </p>
+            <div className="mt-[34px] flex flex-wrap gap-[11px]">
+              {ALL_SERVICES.map((s) => (
+                <Link
+                  key={s.slug}
+                  href={localePath(locale, `/virtual-numbers/${s.slug}`)}
+                  className="inline-flex items-center gap-[8px] rounded-pill bg-white px-[14px] py-[9px] text-label text-ink transition-colors hover:bg-card/60"
+                >
+                  <img src={s.logo} alt="" className="h-5 w-5" />
+                  {s.name}
+                </Link>
+              ))}
+              <Link
+                href={localePath(locale, "/virtual-numbers")}
+                className="inline-flex items-center rounded-pill border border-accent-deep/30 px-[16px] py-[9px] text-label text-accent-deep transition-colors hover:border-accent-deep hover:bg-white/50"
+              >
+                {t.browse.allLink} →
+              </Link>
             </div>
           </div>
         </div>

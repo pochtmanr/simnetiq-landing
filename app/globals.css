@@ -33,6 +33,7 @@
   --color-card: #ffffff;
   --color-panel: #e7eaf1;
   --color-panel-mid: #dce7f8;
+  --color-panel-deep: #a9c9f3;
   --color-panel-strong: #c8dcf7;
   --color-panel-ink: #23262c;
 
@@ -270,6 +271,81 @@
 .marquee-track {
   animation: marquee 38s linear infinite;
   width: max-content;
+}
+
+/* The strip has no hard edges: logos fade up out of the canvas on the left and
+   back into it on the right. A mask rather than two overlay gradients, so it
+   keeps working whatever the band behind it is filled with. */
+.logo-strip {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    #000 clamp(48px, 11vw, 190px),
+    #000 calc(100% - clamp(48px, 11vw, 190px)),
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    #000 clamp(48px, 11vw, 190px),
+    #000 calc(100% - clamp(48px, 11vw, 190px)),
+    transparent 100%
+  );
+}
+
+/* Logos sit in one flat light grey rather than 33 competing brand colours —
+   the glyph's own alpha is the mask, so the silhouette is exact. Grey, not the
+   accent ramp: a blue strip would read as one more brand among the logos, and
+   flat rather than a gradient so 33 different shapes stay one texture.
+   Hover trades the tint for the real logo, and pauses the track to catch it. */
+.logo-chip {
+  position: relative;
+  display: block;
+  height: 52px;
+  width: 52px;
+  flex-shrink: 0;
+}
+
+.logo-chip::before,
+.logo-chip::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transition: opacity 200ms ease;
+}
+
+.logo-chip::before {
+  background: #aab0bc;
+  -webkit-mask: var(--logo) center / contain no-repeat;
+  mask: var(--logo) center / contain no-repeat;
+}
+
+.logo-chip::after {
+  background: var(--logo) center / contain no-repeat;
+  opacity: 0;
+}
+
+@media (hover: hover) {
+  .logo-chip:hover::before {
+    opacity: 0;
+  }
+  .logo-chip:hover::after {
+    opacity: 1;
+  }
+  .logo-strip:hover .marquee-track {
+    animation-play-state: paused;
+  }
+}
+
+/* No hover on touch, so the tint would be permanent — show the real marks. */
+@media (hover: none) {
+  .logo-chip::before {
+    opacity: 0;
+  }
+  .logo-chip::after {
+    opacity: 1;
+  }
 }
 
 /* --- Hero presentation --------------------------------------------------- */

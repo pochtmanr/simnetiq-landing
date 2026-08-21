@@ -67,9 +67,9 @@ export function AlternativePage({
             {c.whenThem.body}
           </p>
         </div>
-        <div className="card !border-accent">
+        <div className="card bg-panel-strong">
           <h2 className="font-sans text-subheading font-medium">{c.whenUs.title}</h2>
-          <p className="mt-[10px] text-body text-ink-muted">{c.whenUs.body}</p>
+          <p className="mt-[10px] text-body text-ink/75">{c.whenUs.body}</p>
         </div>
       </section>
 

@@ -21,6 +21,7 @@ one dark band per screenful is where the app's own dark-mode screenshots live.
 | Card | `#FFFFFF` | `--color-card` | White card surfaces. The app's `card` |
 | Panel | `#E7EAF1` | `--color-panel` | First tinted step up from the canvas — hero copy column, feature and compare blocks. The app's `cardElevated` |
 | Panel Mid | `#DCE7F8` | `--color-panel-mid` | Interpolated mid step, for when a section needs to sit between panel and panel-strong |
+| Panel Deep | `#A9C9F3` | `--color-panel-deep` | Deepest tint, the top of the how-it-works step ramp. `#1E5AA8` fails AA on it, so labels here go ink |
 | Panel Strong | `#C8DCF7` | `--color-panel-strong` | Heaviest tint — hero product column, stats band, final CTA. The app's `accentSoft`, and the colour of the mark's dots and backdrop bubble |
 | Panel Ink | `#23262C` | `--color-panel-ink` | The dark counter-panel: browse band and the product showcase. The app's `ink` |
 | Ink | `#23262C` | `--color-ink` | Headings and body text |
@@ -139,11 +140,16 @@ Max-width 1200px, `clamp(20px, 4vw, 34px)` gutters, 94px between sections.
 
 The home page rhythm, in order:
 
-canvas hero (panel + panel-strong, `min-h` 82vh capped at 780px) → canvas
-coverage marquee → panel-strong stats → canvas how-it-works (3 cards) → panel
-features → **ink** browse band → canvas pricing → **ink** product showcase →
-canvas use-cases → panel compare → canvas FAQ → canvas blog → panel-strong final
-CTA → ink footer.
+canvas hero (panel + panel-strong, `min-h` 82vh capped at 780px) →
+panel-strong stats → canvas how-it-works (three cards walking the tint ramp
+panel-deep → panel-strong → panel) → canvas coverage marquee → panel features →
+canvas pricing → **ink** product showcase → panel browse band → canvas
+use-cases → panel compare → canvas FAQ → canvas blog → panel-strong final CTA →
+ink footer.
+
+The product showcase is the page's only dark band, which is the point: it is
+where the app's dark-mode screens live. The only panel-strong full-bleed is the
+final CTA, so the heaviest tint reads as the page's closing note.
 
 The two full-bleed bands use `mx-[calc(50%-50vw)] w-screen` against
 `body { overflow-x: clip }` — that clip is what stops the 100vw width (which

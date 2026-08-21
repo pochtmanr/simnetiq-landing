@@ -42,7 +42,7 @@ export function AlternativesIndexPage({ locale }: { locale: Locale }) {
             <Link
               key={alt.slug}
               href={localePath(locale, `/alternatives/${alt.slug}`)}
-              className="card group flex flex-col transition-colors hover:!border-accent"
+              className="card group flex flex-col transition-colors hover:bg-panel"
             >
               <span className="tag-chip">{alt.competitorName}</span>
               <h2 className="mt-[22px] text-subheading">{c.hero.title}</h2>
