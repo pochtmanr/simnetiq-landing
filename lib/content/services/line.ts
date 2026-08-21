@@ -28,7 +28,7 @@ export const line: ServiceEntry = {
       title: "A virtual number for LINE",
       intro: [
         "If your friends, family or colleagues are in Japan, Taiwan, Thailand or Indonesia, sooner or later someone will say “add me on LINE.” The app is the default messenger across much of Asia — and it won't let you in without a phone number, which it verifies by SMS before you can even set a display name.",
-        "SMS Code gives you a real number from one of 50+ countries. Enter it on LINE's sign-up screen, and the four-digit verification code shows up in the SMS Code app within seconds — your own number stays out of it entirely.",
+        "SMS Code gives you a real number from one of 150+ countries. Enter it on LINE's sign-up screen, and the four-digit verification code shows up in the SMS Code app within seconds — your own number stays out of it entirely.",
       ],
     },
     whyVirtual: {
@@ -104,7 +104,7 @@ export const line: ServiceEntry = {
       title: "Виртуальный номер для LINE",
       intro: [
         "Если ваши друзья, родные или коллеги живут в Японии, на Тайване, в Таиланде или Индонезии, рано или поздно кто-нибудь скажет: «Добавь меня в LINE». В значительной части Азии это мессенджер по умолчанию — и без номера телефона он вас не пустит: SMS-подтверждение требуется ещё до того, как вы придумаете имя профиля.",
-        "SMS Code выдаёт настоящий номер из одной из 50+ стран. Введите его на экране регистрации LINE — и четырёхзначный код подтверждения появится в приложении SMS Code за секунды. Ваш собственный номер в этом вообще не участвует.",
+        "SMS Code выдаёт настоящий номер из одной из 150+ стран. Введите его на экране регистрации LINE — и четырёхзначный код подтверждения появится в приложении SMS Code за секунды. Ваш собственный номер в этом вообще не участвует.",
       ],
     },
     whyVirtual: {

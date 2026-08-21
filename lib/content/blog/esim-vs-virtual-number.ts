@@ -46,7 +46,7 @@ export const esimVsVirtualNumber: BlogPost = {
       {
         type: "list",
         items: [
-          "Cost model — an eSIM is a plan: you pay for a bundle of data (and sometimes minutes/texts) that runs for days or weeks. A virtual number is pay-per-use: one activation, one code received, paid from a credit pack. For a single verification code, a plan is overkill; for two weeks of maps and messengers abroad, per-SMS pricing is the wrong shape entirely.",
+          "Cost model — an eSIM is a plan: you pay for a bundle of data (and sometimes minutes/texts) that runs for days or weeks. A virtual number is pay-per-use: one activation, one code received, paid from a coin pack. For a single verification code, a plan is overkill; for two weeks of maps and messengers abroad, per-SMS pricing is the wrong shape entirely.",
           "Setup — an eSIM is provisioned into the phone: QR code or app, a new line appears in your cellular settings, and your device must support eSIM at all. A virtual number needs no provisioning: open the app, pick a service and country, the number is on screen in seconds.",
           "What you get — an eSIM gives connectivity: data, a network indicator, often a phone line. A virtual number gives exactly one capability: receiving the SMS sent to it, shown in the app.",
           "How long you keep it — an eSIM lasts as long as the plan does, and a local one can be topped up indefinitely. A virtual number is rented for an activation window — long enough for a sign-up code, not meant to be your number for years.",
@@ -103,7 +103,7 @@ export const esimVsVirtualNumber: BlogPost = {
         items: [
           {
             title: "Pick the service and country",
-            body: "In the SMS Code app, choose what you’re verifying — Telegram, WhatsApp, Google, 35+ services — and which country the number should be from. One tap reserves a real mobile number for you.",
+            body: "In the SMS Code app, choose what you’re verifying — Telegram, WhatsApp, Google, 100+ services — and which country the number should be from. One tap reserves a real mobile number for you.",
           },
           {
             title: "Use the number in the sign-up",
@@ -137,7 +137,7 @@ export const esimVsVirtualNumber: BlogPost = {
           },
           {
             q: "Which is cheaper for receiving a single code?",
-            a: "A virtual number, by a wide margin. It’s one activation from a one-time credit pack, priced for exactly that job. The cheapest eSIM plan still sells you days of service and gigabytes of data you don’t need for one SMS.",
+            a: "A virtual number, by a wide margin. It’s one activation from a one-time coin pack, priced for exactly that job. The cheapest eSIM plan still sells you days of service and gigabytes of data you don’t need for one SMS.",
           },
           {
             q: "Do I ever need both at once?",
@@ -188,7 +188,7 @@ export const esimVsVirtualNumber: BlogPost = {
       {
         type: "list",
         items: [
-          "Модель оплаты — eSIM это тариф: вы платите за пакет трафика (иногда с минутами и SMS) на дни или недели. Виртуальный номер — оплата за использование: одна активация, один принятый код, из пакета кредитов. Ради одного кода тариф избыточен; для двух недель карт и мессенджеров за границей поштучная оплата SMS — вообще не та форма.",
+          "Модель оплаты — eSIM это тариф: вы платите за пакет трафика (иногда с минутами и SMS) на дни или недели. Виртуальный номер — оплата за использование: одна активация, один принятый код, из баланса монет. Ради одного кода тариф избыточен; для двух недель карт и мессенджеров за границей поштучная оплата SMS — вообще не та форма.",
           "Настройка — eSIM прошивается в телефон: QR-код или приложение, в сотовых настройках появляется новая линия, и само устройство должно поддерживать eSIM. Виртуальному номеру настройка не нужна: открыли приложение, выбрали сервис и страну — номер на экране через секунды.",
           "Что вы получаете — eSIM даёт связь: интернет, индикатор сети, часто телефонную линию. Виртуальный номер даёт ровно одну способность: принять адресованную ему SMS и показать её в приложении.",
           "Насколько это ваше — eSIM живёт, пока действует тариф, а локальную можно продлевать бесконечно. Виртуальный номер арендуется на окно активации: достаточно, чтобы получить код регистрации, но он не задуман вашим номером на годы.",
@@ -245,7 +245,7 @@ export const esimVsVirtualNumber: BlogPost = {
         items: [
           {
             title: "Выберите сервис и страну",
-            body: "В приложении SMS Code укажите, что подтверждаете — Telegram, WhatsApp, Google, 35+ сервисов, — и из какой страны нужен номер. Одно касание — и настоящий мобильный номер зарезервирован за вами.",
+            body: "В приложении SMS Code укажите, что подтверждаете — Telegram, WhatsApp, Google, 100+ сервисов, — и из какой страны нужен номер. Одно касание — и настоящий мобильный номер зарезервирован за вами.",
           },
           {
             title: "Введите номер в регистрации",
@@ -279,7 +279,7 @@ export const esimVsVirtualNumber: BlogPost = {
           },
           {
             q: "Что дешевле для приёма одного кода?",
-            a: "Виртуальный номер, с большим отрывом. Это одна активация из разового пакета кредитов, и цена рассчитана ровно на эту работу. Даже самый дешёвый тариф eSIM продаёт вам дни обслуживания и гигабайты трафика, которые для одной SMS не нужны.",
+            a: "Виртуальный номер, с большим отрывом. Это одна активация из разового пакета монет, и цена рассчитана ровно на эту работу. Даже самый дешёвый тариф eSIM продаёт вам дни обслуживания и гигабайты трафика, которые для одной SMS не нужны.",
           },
           {
             q: "Бывает ли, что нужны оба сразу?",

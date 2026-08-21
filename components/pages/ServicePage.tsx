@@ -44,11 +44,11 @@ export function ServicePage({
           className="pointer-events-none absolute -top-[180px] bottom-0 left-[calc(50%-50vw)] -z-10 w-screen"
           style={{
             background:
-              "radial-gradient(ellipse 70% 60% at 72% 32%, rgba(0, 113, 227, 0.08), transparent 68%)",
+              "radial-gradient(ellipse 70% 60% at 72% 32%, rgba(89, 161, 252, 0.08), transparent 68%)",
           }}
         />
         <div className="card max-w-[760px]">
-          <div className="flex h-[80px] w-[80px] items-center justify-center rounded-[26px] border-[0.5px] border-black/[0.06] bg-pure-white">
+          <div className="flex h-[80px] w-[80px] items-center justify-center rounded-card border border-border bg-card">
             <img src={entry.logo} alt="" className="h-11 w-11" />
           </div>
           <span className="section-label mt-[22px] flex items-center">
@@ -60,7 +60,7 @@ export function ServicePage({
           {c.hero.intro.map((p, i) => (
             <p
               key={i}
-              className={`max-w-md text-steel-gray ${i === 0 ? "mt-[22px] text-subheading" : "mt-[15px] text-body"}`}
+              className={`max-w-md text-ink-muted ${i === 0 ? "mt-[22px] text-subheading" : "mt-[15px] text-body"}`}
             >
               {p}
             </p>
@@ -73,11 +73,11 @@ export function ServicePage({
 
       {/* Why a virtual number for this service */}
       <section className="pt-[0px]">
-        <div className="rounded-[63px] border-[0.5px] border-black/[0.06] bg-pure-white px-[clamp(16px,2.2vw,24px)] py-[clamp(18px,2.8vw,30px)]">
+        <div className="panel">
           <h2 className="max-w-2xl text-heading">{c.whyVirtual.title}</h2>
           <div className="mt-[22px] grid gap-[22px] md:grid-cols-2">
             {c.whyVirtual.body.map((p, i) => (
-              <p key={i} className="text-body text-steel-gray">
+              <p key={i} className="text-body text-ink-muted">
                 {p}
               </p>
             ))}
@@ -95,7 +95,7 @@ export function ServicePage({
                 {t.step} {i + 1}
               </span>
               <h3 className="text-subheading">{step.title}</h3>
-              <p className="mt-[10px] text-label text-steel-gray">{step.body}</p>
+              <p className="mt-[10px] text-label text-ink-muted">{step.body}</p>
             </div>
           ))}
         </div>
@@ -109,10 +109,10 @@ export function ServicePage({
           {c.tips.map((tip) => (
             <div
               key={tip.title}
-              className="border-t-[0.5px] border-black/[0.06] pt-[22px]"
+              className="border-t border-border pt-[22px]"
             >
-              <h3 className="text-body text-pure-black">{tip.title}</h3>
-              <p className="mt-[10px] text-label text-steel-gray">{tip.body}</p>
+              <h3 className="text-body text-ink">{tip.title}</h3>
+              <p className="mt-[10px] text-label text-ink-muted">{tip.body}</p>
             </div>
           ))}
         </div>
@@ -122,21 +122,23 @@ export function ServicePage({
       <section className="mx-auto max-w-3xl pt-[94px]">
         <span className="section-label">{t.faqLabel}</span>
         <h2 className="text-heading">FAQ</h2>
-        <div className="mt-[34px] overflow-hidden rounded-[30px] border-[0.5px] border-black/[0.06] bg-pure-white">
+        <div className="mt-[34px]">
           {c.faqs.map((item, i) => (
             <details
               key={item.q}
-              className={`group px-[clamp(22px,4vw,34px)] py-[22px] ${
-                i > 0 ? "border-t-[0.5px] border-black/[0.06]" : ""
+              className={`group py-[21px] ${
+                i > 0 ? "border-t border-border" : ""
               }`}
             >
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-body [&::-webkit-details-marker]:hidden">
-                {item.q}
-                <span className="text-signal-blue transition-transform group-open:rotate-45">
+              <summary className="flex cursor-pointer list-none items-start justify-between gap-6 [&::-webkit-details-marker]:hidden">
+                <h3 className="font-display text-heading-sm font-light text-ink">
+                  {item.q}
+                </h3>
+                <span className="mt-[6px] shrink-0 text-accent-deep transition-transform group-open:rotate-45">
                   +
                 </span>
               </summary>
-              <p className="mt-[10px] max-w-[56ch] text-label text-steel-gray">
+              <p className="mt-[11px] max-w-[62ch] text-body text-ink-muted">
                 {item.a}
               </p>
             </details>
@@ -156,7 +158,7 @@ export function ServicePage({
                   locale,
                   `/virtual-numbers/country/${country.slug}`,
                 )}
-                className="inline-flex items-center gap-[8px] rounded-full border-[0.5px] border-black/[0.08] bg-pure-white px-[14px] py-[8px] text-label text-off-black transition-colors hover:border-signal-blue hover:text-signal-blue"
+                className="inline-flex items-center gap-[8px] rounded-pill border border-border bg-card px-[14px] py-[8px] text-label text-ink transition-colors hover:border-accent hover:text-accent-deep"
               >
                 <span>{country.flag}</span>
                 {country.name[locale]}

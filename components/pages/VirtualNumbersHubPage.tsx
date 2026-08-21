@@ -43,7 +43,7 @@ export function VirtualNumbersHubPage({ locale }: { locale: Locale }) {
         <h1 className="max-w-3xl text-[clamp(32px,4.2vw,50px)] leading-[1.08] tracking-[-0.02em]">
           {t.hub.title}
         </h1>
-        <p className="mt-[22px] max-w-xl text-subheading text-steel-gray">
+        <p className="mt-[22px] max-w-xl text-subheading text-ink-muted">
           {t.hub.sub}
         </p>
       </section>
@@ -56,10 +56,10 @@ export function VirtualNumbersHubPage({ locale }: { locale: Locale }) {
               <Link
                 key={entry.slug}
                 href={localePath(locale, `/virtual-numbers/${entry.slug}`)}
-                className="group flex items-center gap-[15px] rounded-[30px] border-[0.5px] border-black/[0.06] bg-pure-white px-[22px] py-[18px] transition-colors hover:border-signal-blue"
+                className="group flex items-center gap-[15px] rounded-card border border-border bg-card px-[22px] py-[18px] transition-colors hover:border-accent"
               >
                 <img src={entry.logo} alt="" className="h-7 w-7" loading="lazy" />
-                <span className="text-body text-off-black">{entry.name}</span>
+                <span className="text-body text-ink">{entry.name}</span>
               </Link>
             ))}
           </div>
@@ -79,13 +79,13 @@ export function VirtualNumbersHubPage({ locale }: { locale: Locale }) {
                   locale,
                   `/virtual-numbers/country/${c.slug}`,
                 )}
-                className="group flex items-center gap-[15px] rounded-[30px] border-[0.5px] border-black/[0.06] bg-pure-white px-[22px] py-[18px] transition-colors hover:border-signal-blue"
+                className="group flex items-center gap-[15px] rounded-card border border-border bg-card px-[22px] py-[18px] transition-colors hover:border-accent"
               >
                 <span className="text-[22px] leading-none">{c.flag}</span>
-                <span className="text-body text-off-black">
+                <span className="text-body text-ink">
                   {c.name[locale]}
                 </span>
-                <span className="ml-auto text-label text-ash-gray">
+                <span className="ml-auto text-label text-muted">
                   {c.dialingCode}
                 </span>
               </Link>
@@ -94,7 +94,7 @@ export function VirtualNumbersHubPage({ locale }: { locale: Locale }) {
         </section>
       )}
 
-      <p className="text-caption text-ash-gray">{t.hub.allNote}</p>
+      <p className="text-caption text-muted">{t.hub.allNote}</p>
 
       <section className="py-[94px]">
         <div className="card flex flex-col items-center gap-[30px] text-center">

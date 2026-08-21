@@ -14,12 +14,12 @@ export const SUPPORT_PAGE = {
         body: "Code didn't arrive? Cancel the pending number in the app and take another — then tell us the service, country and time so we can check what happened.",
       },
       {
-        title: "Billing & credits",
-        body: "Purchases go through the App Store. Include your store receipt or order ID and we'll trace any missing credits.",
+        title: "Billing & coins",
+        body: "Purchases go through the App Store. Include your store receipt or order ID and we'll trace any missing coins.",
       },
       {
         title: "Restore purchases",
-        body: "Credits are tied to your store account. Reinstalled the app? Use 'Restore purchases' in settings — and write in if the balance still looks wrong.",
+        body: "Coins are tied to your store account. Reinstalled the app? Use 'Restore purchases' in settings — and write in if the balance still looks wrong.",
       },
     ],
   },
@@ -34,12 +34,12 @@ export const SUPPORT_PAGE = {
         body: "Код не пришёл? Отмените ожидающий номер в приложении и возьмите другой, а нам напишите сервис, страну и время — мы проверим, что случилось.",
       },
       {
-        title: "Оплата и кредиты",
-        body: "Покупки проходят через App Store. Приложите чек или номер заказа — мы отследим недостающие кредиты.",
+        title: "Оплата и монеты",
+        body: "Покупки проходят через App Store. Приложите чек или номер заказа — мы отследим недостающие монеты.",
       },
       {
         title: "Восстановление покупок",
-        body: "Кредиты привязаны к аккаунту магазина. Переустановили приложение? Нажмите «Восстановить покупки» в настройках — и напишите нам, если баланс всё ещё неверный.",
+        body: "Монеты привязаны к аккаунту магазина. Переустановили приложение? Нажмите «Восстановить покупки» в настройках — и напишите нам, если баланс всё ещё неверный.",
       },
     ],
   },
@@ -55,7 +55,7 @@ export const SUPPORT_FORM = {
     topicPlaceholder: "Choose a topic",
     topics: [
       "Activation didn't arrive",
-      "Billing & credits",
+      "Billing & coins",
       "Account & restore purchases",
       "Bug report",
       "Feature request",
@@ -83,7 +83,7 @@ export const SUPPORT_FORM = {
     topicPlaceholder: "Выберите тему",
     topics: [
       "Активация не пришла",
-      "Оплата и кредиты",
+      "Оплата и монеты",
       "Аккаунт и восстановление покупок",
       "Сообщение об ошибке",
       "Предложение функции",

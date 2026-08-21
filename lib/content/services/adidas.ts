@@ -27,7 +27,7 @@ export const adidas: ServiceEntry = {
       title: "A virtual number for adidas",
       intro: [
         "An adidas account is more than a checkout shortcut — it's membership in the adiClub program, order tracking, saved sizes and access to member-only releases. And like most large retailers, adidas increasingly wants a phone number it can verify by SMS, both at sign-up in some regions and as an extra check when something about a login or order looks unusual.",
-        "SMS Code rents you a real mobile number in one of 50+ countries. Enter it on the adidas account screen, and the verification code appears in the SMS Code app within seconds — the account is confirmed, and your everyday number stays out of yet another retail database.",
+        "SMS Code rents you a real mobile number in one of 150+ countries. Enter it on the adidas account screen, and the verification code appears in the SMS Code app within seconds — the account is confirmed, and your everyday number stays out of yet another retail database.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const adidas: ServiceEntry = {
       title: "Виртуальный номер для adidas",
       intro: [
         "Аккаунт adidas — это не просто ускоренное оформление заказа: это членство в программе adiClub, отслеживание посылок, сохранённые размеры и доступ к релизам для участников. И, как большинство крупных ритейлеров, adidas всё чаще хочет номер телефона с подтверждением по SMS — где-то прямо при регистрации, а где-то как дополнительную проверку, если вход или заказ выглядит необычно.",
-        "SMS Code сдаёт вам в аренду настоящий мобильный номер в одной из 50+ стран. Введите его на экране аккаунта adidas — и код подтверждения появится в приложении SMS Code за секунды. Аккаунт подтверждён, а ваш повседневный номер не пополнил очередную базу магазина.",
+        "SMS Code сдаёт вам в аренду настоящий мобильный номер в одной из 150+ стран. Введите его на экране аккаунта adidas — и код подтверждения появится в приложении SMS Code за секунды. Аккаунт подтверждён, а ваш повседневный номер не пополнил очередную базу магазина.",
       ],
     },
     whyVirtual: {

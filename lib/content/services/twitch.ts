@@ -27,7 +27,7 @@ export const twitch: ServiceEntry = {
       title: "A virtual number for Twitch",
       intro: [
         "Twitch lets you register with just an email — and then the phone step starts following you around. Streamers switch their chat to phone-verified mode to keep bots out, two-factor authentication is required before you can go live, and the moment either happens, Twitch wants to text a code like “Your Twitch verification code is 843921” to a number of yours.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. Your chat messages send, your 2FA turns on — and the phone number sitting next to your channel name in Twitch’s database was never your personal one.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries and the code lands in the app within seconds. Your chat messages send, your 2FA turns on — and the phone number sitting next to your channel name in Twitch’s database was never your personal one.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const twitch: ServiceEntry = {
       title: "Виртуальный номер для Twitch",
       intro: [
         "Twitch регистрирует по одной почте — а потом телефонный шаг начинает ходить за вами по пятам. Стримеры включают в чате режим «только с подтверждённым телефоном», чтобы отсечь ботов, двухфакторная аутентификация обязательна перед первым эфиром, и в оба момента Twitch хочет отправить код вида «Your Twitch verification code is 843921» на какой-нибудь ваш номер.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Сообщения в чате отправляются, 2FA включена — а номер, записанный рядом с вашим ником в базе Twitch, никогда не был вашим личным.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код приходит в приложение за считанные секунды. Сообщения в чате отправляются, 2FA включена — а номер, записанный рядом с вашим ником в базе Twitch, никогда не был вашим личным.",
       ],
     },
     whyVirtual: {

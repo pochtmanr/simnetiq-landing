@@ -19,13 +19,13 @@ export const HOME = {
       label: "Virtual numbers · SMS verification",
       titleTop: "A number for the sign‑up.",
       titleAccent: "Not for life.",
-      body: "SMS Code gives you a real virtual number in 50+ countries and shows the verification code in seconds — so Telegram, WhatsApp, Google and 35+ other services never learn your personal number.",
-      note: "On the App Store · one-time credit packs, no subscription",
+      body: "SMS Code gives you a real virtual number in 150+ countries and shows the verification code in seconds — so Telegram, WhatsApp, Google and 100+ other services never learn your personal number.",
+      note: "On the App Store · one-time coin packs, no subscription",
     },
     services: {
       label: "Coverage",
       title: "Works with the sign-ups you actually do",
-      caption: "Telegram, WhatsApp, Google, Instagram and 35+ more services",
+      caption: "Telegram, WhatsApp, Google, Instagram and 100+ more services",
     },
     how: {
       label: "Overview",
@@ -34,7 +34,7 @@ export const HOME = {
       steps: [
         {
           title: "Pick a service and a country",
-          body: "Choose what you're signing up for — Telegram, WhatsApp, Google, 35+ services — and where the number should be from.",
+          body: "Choose what you're signing up for — Telegram, WhatsApp, Google, 100+ services — and where the number should be from.",
         },
         {
           title: "Get a real number instantly",
@@ -56,7 +56,7 @@ export const HOME = {
           body: "Sign up for anything without handing your personal number to one more database, mailing list, or data breach.",
         },
         {
-          title: "35+ services, 50+ countries",
+          title: "100+ services, 150+ countries",
           body: "From Telegram and WhatsApp to Steam and Tinder — with numbers from Europe, Asia, the Americas and more.",
         },
         {
@@ -65,7 +65,7 @@ export const HOME = {
         },
         {
           title: "Pay per code, no subscription",
-          body: "Buy a pack of activations once and spend them whenever. No monthly plan, no auto-renew, credits don't expire.",
+          body: "Buy a pack of coins once and spend them whenever. No monthly plan, no auto-renew, nothing on your balance expires.",
         },
         {
           title: "No SIM, no eSIM, no contracts",
@@ -80,13 +80,35 @@ export const HOME = {
     pricing: {
       label: "Pricing",
       title: "Pay for codes, not for a plan",
-      sub: "Credits are one-time in-app purchases. Spend one credit per activation, whenever you need it — this month or next year.",
-      popular: "Popular",
-      note: "Current pack prices are shown in the app — they vary by store and region.",
-      packs: [
-        { name: "Try it", credits: "1", label: "activation", note: "One sign-up, one code. Perfect first test.", featured: false },
-        { name: "Regular", credits: "5", label: "activations", note: "For a batch of accounts or ongoing testing.", featured: true },
-        { name: "Power", credits: "10", label: "activations", note: "Best value per code for heavy users.", featured: false },
+      sub: "The app runs on coins. Buy them once in whichever pack size suits you, then spend them one verification at a time — no subscription, no auto-renew, and nothing on your balance expires.",
+      packsLabel: "Coin packs",
+      packs: ["20", "55", "120", "250", "700"],
+      coinsUnit: "coins",
+      facts: [
+        {
+          title: "From 20 coins a verification",
+          body: "What one costs depends on the service and the country. A budget country can be 35 coins where a premium one is 150 — the app quotes each combination live.",
+        },
+        {
+          title: "The price before you confirm",
+          body: "Every country in the list carries its exact coin price next to it. Nothing leaves your balance until you have seen the number and tapped through.",
+        },
+        {
+          title: "No code, coins back",
+          body: "If the number is rejected or the SMS never lands, take another one. The coins from the failed activation return to your balance automatically.",
+        },
+      ],
+      note: "Pack prices are set in the App Store and vary by region.",
+    },
+    showcase: {
+      label: "Inside the app",
+      title: "What it actually looks like",
+      body: "No mock-ups — these are the screens as they ship on the App Store.",
+      shots: [
+        { src: "/app/shot-countries.png", caption: "Every country priced before you pick one" },
+        { src: "/app/shot-waiting.png", caption: "The code lands on the activation screen" },
+        { src: "/app/shot-activations.png", caption: "Active numbers, one tap to copy" },
+        { src: "/app/shot-languages.png", caption: "Ten languages, switched from Settings" },
       ],
     },
     faq: {
@@ -107,15 +129,15 @@ export const HOME = {
         },
         {
           q: "Which services can I verify?",
-          a: "35+ popular services including Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal and more — each with its own list of available countries.",
+          a: "100+ popular services including Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal and more — each with its own list of available countries.",
         },
         {
           q: "What if the code never arrives?",
           a: "You can cancel a pending activation directly in the app and take another number or try a different country. Support is one message away if anything looks off.",
         },
         {
-          q: "Do my credits expire?",
-          a: "No. Activation packs are one-time purchases, not subscriptions — unused activations stay on your balance until you spend them, and restore across devices with your store account.",
+          q: "Do my coins expire?",
+          a: "No. Coin packs are one-time purchases, not subscriptions — unused coins stay on your balance until you spend them, and follow your account onto a new device.",
         },
         {
           q: "Is this legal to use?",
@@ -168,16 +190,16 @@ export const HOME = {
     stats: {
       label: "At a glance",
       items: [
-        { value: "50+", label: "countries with real mobile numbers on live carrier networks" },
-        { value: "35+", label: "services you can verify, from Telegram to Steam" },
+        { value: "150+", label: "countries with real mobile numbers on live carrier networks" },
+        { value: "100+", label: "services you can verify, from Telegram to Steam" },
         { value: "~30s", label: "from picking a number to a code on your screen" },
-        { value: "0", label: "subscriptions — one-time credit packs that never expire" },
+        { value: "0", label: "subscriptions — one-time coin packs, and coins never expire" },
       ],
     },
     compare: {
       label: "Compare",
       title: "How SMS Code stacks up",
-      body: "Weighing us against SMS-Activate.org, 5SIM or another provider? We wrote the side-by-side comparisons ourselves — what each service does well, and where a mobile-first app with one-time credit packs is the better fit.",
+      body: "Weighing us against SMS-Activate.org, 5SIM or another provider? We wrote the side-by-side comparisons ourselves — what each service does well, and where a mobile-first app with one-time coin packs is the better fit.",
       vsLabel: "SMS Code vs",
     },
     blog: {
@@ -197,13 +219,13 @@ export const HOME = {
       label: "Виртуальные номера · SMS-верификация",
       titleTop: "Номер для регистрации.",
       titleAccent: "А не на всю жизнь.",
-      body: "SMS Code даёт вам настоящий виртуальный номер в 50+ странах и показывает код подтверждения за считанные секунды — Telegram, WhatsApp, Google и ещё 35+ сервисов никогда не узнают ваш личный номер.",
-      note: "Доступно в App Store · разовые пакеты кредитов, без подписки",
+      body: "SMS Code даёт вам настоящий виртуальный номер в 150+ странах и показывает код подтверждения за считанные секунды — Telegram, WhatsApp, Google и ещё 100+ сервисов никогда не узнают ваш личный номер.",
+      note: "Доступно в App Store · разовые пакеты монет, без подписки",
     },
     services: {
       label: "Покрытие",
       title: "Работает с сервисами, где вы действительно регистрируетесь",
-      caption: "Telegram, WhatsApp, Google, Instagram и ещё 35+ сервисов",
+      caption: "Telegram, WhatsApp, Google, Instagram и ещё 100+ сервисов",
     },
     how: {
       label: "Обзор",
@@ -212,7 +234,7 @@ export const HOME = {
       steps: [
         {
           title: "Выберите сервис и страну",
-          body: "Укажите, где вы регистрируетесь — Telegram, WhatsApp, Google, 35+ сервисов — и из какой страны должен быть номер.",
+          body: "Укажите, где вы регистрируетесь — Telegram, WhatsApp, Google, 100+ сервисов — и из какой страны должен быть номер.",
         },
         {
           title: "Получите настоящий номер мгновенно",
@@ -234,7 +256,7 @@ export const HOME = {
           body: "Регистрируйтесь где угодно, не отдавая личный номер очередной базе данных, рассылке или утечке.",
         },
         {
-          title: "35+ сервисов, 50+ стран",
+          title: "100+ сервисов, 150+ стран",
           body: "От Telegram и WhatsApp до Steam и Tinder — с номерами из Европы, Азии, Америки и не только.",
         },
         {
@@ -243,7 +265,7 @@ export const HOME = {
         },
         {
           title: "Платите за коды, а не за подписку",
-          body: "Купите пакет активаций один раз и тратьте когда угодно. Ни ежемесячных платежей, ни автопродления — кредиты не сгорают.",
+          body: "Купите пакет монет один раз и тратьте когда угодно. Ни ежемесячных платежей, ни автопродления — ничто на балансе не сгорает.",
         },
         {
           title: "Без SIM, eSIM и контрактов",
@@ -258,13 +280,35 @@ export const HOME = {
     pricing: {
       label: "Цены",
       title: "Платите за коды, а не за тариф",
-      sub: "Кредиты — разовые покупки внутри приложения. Одна активация — один кредит, когда вам удобно: в этом месяце или через год.",
-      popular: "Популярный",
-      note: "Актуальные цены пакетов показаны в приложении — они зависят от магазина и региона.",
-      packs: [
-        { name: "Попробовать", credits: "1", label: "активация", note: "Одна регистрация, один код. Идеально для первой пробы.", featured: false },
-        { name: "Стандарт", credits: "5", label: "активаций", note: "Для партии аккаунтов или регулярного тестирования.", featured: true },
-        { name: "Максимум", credits: "10", label: "активаций", note: "Лучшая цена за код для активных пользователей.", featured: false },
+      sub: "Приложение работает на монетах. Покупаете их один раз пакетом любого размера и тратите по одной активации за раз — без подписки, без автопродления, и ничего на балансе не сгорает.",
+      packsLabel: "Пакеты монет",
+      packs: ["20", "55", "120", "250", "700"],
+      coinsUnit: "монет",
+      facts: [
+        {
+          title: "От 20 монет за подтверждение",
+          body: "Сколько стоит одно — зависит от сервиса и страны. Бюджетная страна может стоить 35 монет там, где премиальная стоит 150: приложение показывает цену для каждой пары вживую.",
+        },
+        {
+          title: "Цена — до подтверждения",
+          body: "Рядом с каждой страной в списке стоит её точная цена в монетах. С баланса ничего не спишется, пока вы не увидите цифру и не нажмёте дальше.",
+        },
+        {
+          title: "Нет кода — монеты возвращаются",
+          body: "Если номер отклонили или SMS так и не пришла, возьмите другой. Монеты за неудавшуюся активацию автоматически вернутся на баланс.",
+        },
+      ],
+      note: "Цены пакетов задаются в App Store и зависят от региона.",
+    },
+    showcase: {
+      label: "Внутри приложения",
+      title: "Как это выглядит на самом деле",
+      body: "Никаких макетов — это те самые экраны, что лежат в App Store.",
+      shots: [
+        { src: "/app/shot-countries.png", caption: "Цена каждой страны видна до выбора" },
+        { src: "/app/shot-waiting.png", caption: "Код появляется прямо на экране активации" },
+        { src: "/app/shot-activations.png", caption: "Активные номера, копирование одним касанием" },
+        { src: "/app/shot-languages.png", caption: "Десять языков, переключаются в настройках" },
       ],
     },
     faq: {
@@ -285,15 +329,15 @@ export const HOME = {
         },
         {
           q: "Какие сервисы можно подтвердить?",
-          a: "35+ популярных сервисов: Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal и другие — у каждого свой список доступных стран.",
+          a: "100+ популярных сервисов: Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal и другие — у каждого свой список доступных стран.",
         },
         {
           q: "Что делать, если код так и не пришёл?",
           a: "Отмените ожидающую активацию прямо в приложении и возьмите другой номер или попробуйте другую страну. А поддержка всегда на расстоянии одного сообщения.",
         },
         {
-          q: "Сгорают ли кредиты?",
-          a: "Нет. Пакеты активаций — разовые покупки, а не подписка: неиспользованные активации остаются на балансе, пока вы их не потратите, и восстанавливаются на новых устройствах через аккаунт магазина.",
+          q: "Сгорают ли монеты?",
+          a: "Нет. Пакеты монет — разовые покупки, а не подписка: непотраченные монеты остаются на балансе, пока вы их не потратите, и переезжают вместе с аккаунтом на новое устройство.",
         },
         {
           q: "Это законно?",
@@ -346,16 +390,16 @@ export const HOME = {
     stats: {
       label: "Коротко о главном",
       items: [
-        { value: "50+", label: "стран с настоящими мобильными номерами в живых сетях операторов" },
-        { value: "35+", label: "сервисов для верификации — от Telegram до Steam" },
+        { value: "150+", label: "стран с настоящими мобильными номерами в живых сетях операторов" },
+        { value: "100+", label: "сервисов для верификации — от Telegram до Steam" },
         { value: "~30с", label: "от выбора номера до кода на вашем экране" },
-        { value: "0", label: "подписок — разовые пакеты кредитов, которые не сгорают" },
+        { value: "0", label: "подписок — разовые пакеты монет, а монеты не сгорают" },
       ],
     },
     compare: {
       label: "Сравнение",
       title: "Как SMS Code выглядит на фоне других",
-      body: "Выбираете между нами, SMS-Activate.org, 5SIM или другим сервисом? Мы сами написали честные сравнения бок о бок — что каждый сервис делает хорошо и где мобильное приложение с разовыми пакетами кредитов подходит лучше.",
+      body: "Выбираете между нами, SMS-Activate.org, 5SIM или другим сервисом? Мы сами написали честные сравнения бок о бок — что каждый сервис делает хорошо и где мобильное приложение с разовыми пакетами монет подходит лучше.",
       vsLabel: "SMS Code против",
     },
     blog: {

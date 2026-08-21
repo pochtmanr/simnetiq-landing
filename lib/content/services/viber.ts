@@ -22,12 +22,12 @@ export const viber: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Viber — Register Without a SIM Card",
     metaDescription:
-      "Activate Viber with a real virtual number from 50+ countries. The code arrives in the app in seconds — pay per activation, no subscription, free cancel if no SMS.",
+      "Activate Viber with a real virtual number from 150+ countries. The code arrives in the app in seconds — pay per activation, no subscription, free cancel if no SMS.",
     hero: {
       title: "A virtual number for Viber",
       intro: [
         "Viber plays by the same rule as WhatsApp: your phone number is the account. It's what you register with, what your contacts see, and what every chat is anchored to. Across Eastern Europe, the Balkans and the Philippines it's simply where the family group chat lives — so sooner or later you need a number to join in.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries, enter it on Viber's activation screen, and the code appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and a number that received nothing can be cancelled without charge.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries, enter it on Viber's activation screen, and the code appears in the app within seconds. You pay per activation from a one-time coin pack — no subscription — and a number that received nothing can be cancelled without charge.",
       ],
     },
     whyVirtual: {
@@ -98,12 +98,12 @@ export const viber: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Viber — регистрация без SIM-карты",
     metaDescription:
-      "Активируйте Viber настоящим виртуальным номером из 50+ стран. Код приходит в приложение за секунды — оплата за активацию, без подписки, отмена без списания.",
+      "Активируйте Viber настоящим виртуальным номером из 150+ стран. Код приходит в приложение за секунды — оплата за активацию, без подписки, отмена без списания.",
     hero: {
       title: "Виртуальный номер для Viber",
       intro: [
         "Viber играет по тому же правилу, что и WhatsApp: номер телефона — это и есть аккаунт. На него вы регистрируетесь, его видят собеседники, к нему привязан каждый чат. В Восточной Европе, на Балканах и на Филиппинах именно здесь живёт семейный чат — так что рано или поздно номер понадобится, чтобы к нему присоединиться.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его на экране активации Viber — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а номер, на который ничего не пришло, отменяется без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его на экране активации Viber — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а номер, на который ничего не пришло, отменяется без списания.",
       ],
     },
     whyVirtual: {

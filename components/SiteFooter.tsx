@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { localePath, type Locale } from "../lib/i18n";
 import { FOOTER } from "../lib/content/common";
@@ -20,11 +19,11 @@ const FOOTER_SERVICE_SLUGS = [
 
 /* Mono uppercase column header — the ops-console kicker. */
 const kicker =
-  "font-mono text-[11px] uppercase tracking-[0.2em] text-pure-white/40";
+  "font-mono text-[11px] uppercase tracking-[0.2em] text-white/40";
 
 /* Nav link: dim by default, brightens on hover (no underline). */
 const link =
-  "text-label text-pure-white/55 transition-colors hover:text-pure-white";
+  "text-label text-white/55 transition-colors hover:text-white";
 
 export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
   const t = FOOTER[locale];
@@ -33,36 +32,37 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
   ).filter((s) => s !== undefined);
 
   return (
-    <footer className="mt-[94px] border-t border-pure-white/10 bg-off-black text-pure-white">
+    <footer className="mt-[94px] border-t border-white/10 bg-panel-ink text-white">
       <div className="mx-auto max-w-[1200px] px-[clamp(24px,6vw,69px)]">
         {/* System strip — logo wordmark + mono path, the signature line */}
-        <div className="flex items-center justify-between gap-[16px] border-b border-pure-white/10 py-[20px]">
+        <div className="flex items-center justify-between gap-[16px] border-b border-white/10 py-[20px]">
           <div className="flex items-center gap-[12px]">
-            <Image
-              src="/brand/logo.png"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/brand/logo.svg"
               alt=""
-              width={60}
-              height={61}
-              className="h-[28px] w-[28px] object-contain"
+              width={28}
+              height={28}
+              className="h-[28px] w-[28px]"
             />
-            <span className="font-mono text-[12px] uppercase tracking-[0.22em] text-pure-white/80">
+            <span className="font-mono text-[12px] uppercase tracking-[0.22em] text-white/80">
               SMS Code
             </span>
           </div>
-          <span className="flex items-center gap-[9px] font-mono text-[11px] uppercase tracking-[0.18em] text-pure-white/35">
+          <span className="flex items-center gap-[9px] font-mono text-[11px] uppercase tracking-[0.18em] text-white/35">
             <span
               aria-hidden
-              className="h-[6px] w-[6px] shrink-0 bg-signal-blue"
+              className="h-[6px] w-[6px] shrink-0 bg-panel-ink"
             />
             simnetiq / sms-code
           </span>
         </div>
 
         {/* Nav grid — hairline rules drawn between cells via gap-px + bg */}
-        <div className="grid gap-px bg-pure-white/10 md:grid-cols-[1.6fr_1fr_1fr_1fr]">
+        <div className="grid gap-px bg-card/10 md:grid-cols-[1.6fr_1fr_1fr_1fr]">
           {/* Brand */}
-          <div className="flex flex-col gap-[16px] bg-off-black py-[40px] md:pr-[32px]">
-            <p className="max-w-[26ch] text-subheading leading-[1.35] text-pure-white/90">
+          <div className="flex flex-col gap-[16px] bg-panel-ink py-[40px] md:pr-[32px]">
+            <p className="max-w-[26ch] text-subheading leading-[1.35] text-white/90">
               {t.tagline}
             </p>
             <a
@@ -76,7 +76,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
           {/* Popular services */}
           <nav
             aria-label={t.servicesLabel}
-            className="flex flex-col gap-[12px] bg-off-black py-[40px] md:px-[28px]"
+            className="flex flex-col gap-[12px] bg-panel-ink py-[40px] md:px-[28px]"
           >
             <span className={kicker}>{t.servicesLabel}</span>
             {services.map((s) => (
@@ -99,7 +99,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
           {/* Resources */}
           <nav
             aria-label={t.resourcesLabel}
-            className="flex flex-col gap-[12px] bg-off-black py-[40px] md:px-[28px]"
+            className="flex flex-col gap-[12px] bg-panel-ink py-[40px] md:px-[28px]"
           >
             <span className={kicker}>{t.resourcesLabel}</span>
             <Link href={localePath(locale, "/virtual-numbers")} className={link}>
@@ -117,7 +117,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
           {/* Company */}
           <nav
             aria-label={t.companyLabel}
-            className="flex flex-col gap-[12px] bg-off-black py-[40px] md:pl-[28px]"
+            className="flex flex-col gap-[12px] bg-panel-ink py-[40px] md:pl-[28px]"
           >
             <span className={kicker}>{t.companyLabel}</span>
             <Link href={localePath(locale, "/support")} className={link}>
@@ -133,8 +133,8 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-pure-white/10 py-[24px]">
-          <p className="font-mono text-[12px] text-pure-white/40">
+        <div className="border-t border-white/10 py-[24px]">
+          <p className="font-mono text-[12px] text-white/40">
             © {new Date().getFullYear()} SIMNETIQ LTD · {t.rights}
           </p>
         </div>

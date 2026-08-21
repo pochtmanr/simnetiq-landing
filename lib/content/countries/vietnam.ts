@@ -59,7 +59,7 @@ export const vietnam: CountryEntry = {
       },
       {
         q: "Can I verify several services with one Vietnamese number?",
-        a: "Each activation is tied to one service for its window. To verify several services, run separate activations — each is paid individually from your credit pack.",
+        a: "Each activation is tied to one service for its window. To verify several services, run separate activations — each is paid individually from your coin balance.",
       },
     ],
   },
@@ -114,7 +114,7 @@ export const vietnam: CountryEntry = {
       },
       {
         q: "Можно ли подтвердить несколько сервисов одним вьетнамским номером?",
-        a: "Каждая активация привязана к одному сервису на своё окно. Чтобы подтвердить несколько сервисов, запускайте отдельные активации — каждая оплачивается из пакета кредитов по отдельности.",
+        a: "Каждая активация привязана к одному сервису на своё окно. Чтобы подтвердить несколько сервисов, запускайте отдельные активации — каждая оплачивается из баланса монет по отдельности.",
       },
     ],
   },

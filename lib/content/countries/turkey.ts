@@ -59,7 +59,7 @@ export const turkey: CountryEntry = {
       },
       {
         q: "Can I verify several services with one Turkish number?",
-        a: "Each activation is tied to one service for its window. To verify multiple services, run separate activations — each one is paid individually from your credit pack.",
+        a: "Each activation is tied to one service for its window. To verify multiple services, run separate activations — each one is paid individually from your coin balance.",
       },
     ],
   },
@@ -114,7 +114,7 @@ export const turkey: CountryEntry = {
       },
       {
         q: "Можно ли подтвердить несколько сервисов одним турецким номером?",
-        a: "Каждая активация привязана к одному сервису на своё окно. Чтобы подтвердить несколько сервисов, запускайте отдельные активации — каждая оплачивается из пакета кредитов по отдельности.",
+        a: "Каждая активация привязана к одному сервису на своё окно. Чтобы подтвердить несколько сервисов, запускайте отдельные активации — каждая оплачивается из баланса монет по отдельности.",
       },
     ],
   },

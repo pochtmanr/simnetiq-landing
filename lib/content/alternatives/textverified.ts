@@ -7,12 +7,12 @@ export const textverified: AlternativeEntry = {
   en: {
     metaTitle: "TextVerified Alternative — SMS Code App by SIMNETIQ",
     metaDescription:
-      "Comparing TextVerified with the SMS Code app by SIMNETIQ: US-only numbers with rentals on the web versus 50+ countries in a native iOS app.",
+      "Comparing TextVerified with the SMS Code app by SIMNETIQ: US-only numbers with rentals on the web versus 150+ countries in a native iOS app.",
     hero: {
-      title: "A TextVerified alternative with numbers in 50+ countries",
+      title: "A TextVerified alternative with numbers in 150+ countries",
       intro: [
         "TextVerified is a US specialist. Their site is explicit about it: all their numbers are American, described as real US mobile numbers backed by physical SIMs, offered as one-time verifications or as short-term and renewable rentals through a web app, an API and a browser extension. When a sign-up specifically demands a +1 number, that focus is exactly what you want.",
-        "SMS Code by SIMNETIQ starts from the opposite premise: verification needs are international. It's a native iOS app with real numbers in 50+ countries — the US among them, but also Europe, Asia and beyond — covering 35+ popular services. Pick a service and country, get a number, and the code arrives in-app within seconds, paid for with one-time credit packs and cancelled free if no SMS shows up.",
+        "SMS Code by SIMNETIQ starts from the opposite premise: verification needs are international. It's a native iOS app with real numbers in 150+ countries — the US among them, but also Europe, Asia and beyond — covering 100+ popular services. Pick a service and country, get a number, and the code arrives in-app within seconds, paid for with one-time coin packs and cancelled free if no SMS shows up.",
       ],
     },
     whenThem: {
@@ -21,7 +21,7 @@ export const textverified: AlternativeEntry = {
     },
     whenUs: {
       title: "When the SMS Code app fits better",
-      body: "Choose the app when one country isn't enough — or when the US isn't even the country you need. Plenty of services are cheaper or smoother to verify with a European or Asian number, and some aren't available to +1 numbers at all; with 50+ countries in one app you can simply pick whatever works best per sign-up. The experience is mobile-native from the App Store, billing is one-time credit packs through Apple with no subscription, and activations that receive nothing cancel free.",
+      body: "Choose the app when one country isn't enough — or when the US isn't even the country you need. Plenty of services are cheaper or smoother to verify with a European or Asian number, and some aren't available to +1 numbers at all; with 150+ countries in one app you can simply pick whatever works best per sign-up. The experience is mobile-native from the App Store, billing is one-time coin packs through Apple with no subscription, and activations that receive nothing cancel free.",
     },
     comparison: {
       title: "TextVerified vs the SMS Code app, side by side",
@@ -34,7 +34,7 @@ export const textverified: AlternativeEntry = {
         {
           label: "Pricing model",
           competitor: "Per-verification pricing plus short-term and renewable number rentals",
-          us: "One-time credit packs, pay per activation — no subscription",
+          us: "One-time coin packs, pay per activation — no subscription",
         },
         {
           label: "Payment",
@@ -44,12 +44,12 @@ export const textverified: AlternativeEntry = {
         {
           label: "Coverage",
           competitor: "US numbers only, by design — their site states all numbers are from the US",
-          us: "Real numbers in 50+ countries across 35+ popular services",
+          us: "Real numbers in 150+ countries across 100+ popular services",
         },
         {
           label: "Cancellation",
           competitor: "Governed by their own refund rules — check their current terms",
-          us: "Activations that receive no SMS cancel free, credits return",
+          us: "Activations that receive no SMS cancel free, coins return",
         },
         {
           label: "Support",
@@ -72,23 +72,23 @@ export const textverified: AlternativeEntry = {
           body: "Get SMS Code by SIMNETIQ from the App Store — no web account or wallet setup required.",
         },
         {
-          title: "Grab a credit pack",
-          body: "Buy a one-time pack through your store account. No subscription and no renewal date — credits are spent per activation.",
+          title: "Grab a coin pack",
+          body: "Buy a one-time pack through your store account. No subscription and no renewal date — coins are spent per activation.",
         },
         {
           title: "Run your first activation",
-          body: "Pick a service, then any of 50+ countries — US included. The code arrives in-app within seconds; if nothing arrives, the activation cancels free.",
+          body: "Pick a service, then any of 150+ countries — US included. The code arrives in-app within seconds; if nothing arrives, the activation cancels free.",
         },
       ],
     },
     faqs: [
       {
         q: "What's the biggest difference between TextVerified and the SMS Code app?",
-        a: "Geography. TextVerified's site states that all their numbers are US numbers — depth in one market. The SMS Code app by SIMNETIQ offers real numbers in 50+ countries through a native mobile app, so you choose the country per sign-up.",
+        a: "Geography. TextVerified's site states that all their numbers are US numbers — depth in one market. The SMS Code app by SIMNETIQ offers real numbers in 150+ countries through a native mobile app, so you choose the country per sign-up.",
       },
       {
         q: "Does the SMS Code app have US numbers too?",
-        a: "Yes — the US is one of the 50+ countries available. The difference is that it's one option among many rather than the entire catalog.",
+        a: "Yes — the US is one of the 150+ countries available. The difference is that it's one option among many rather than the entire catalog.",
       },
       {
         q: "Can I rent a number long-term like TextVerified's renewable rentals?",
@@ -96,23 +96,23 @@ export const textverified: AlternativeEntry = {
       },
       {
         q: "What happens if my code never arrives?",
-        a: "The activation cancels and your credits are returned. You only pay for numbers that actually receive an SMS.",
+        a: "The activation cancels and your coins are returned. You only pay for numbers that actually receive an SMS.",
       },
       {
         q: "Is there a subscription in the SMS Code app?",
-        a: "No. You buy one-time credit packs through Apple billing and spend them per activation — nothing renews and no card details are shared with us.",
+        a: "No. You buy one-time coin packs through Apple billing and spend them per activation — nothing renews and no card details are shared with us.",
       },
     ],
   },
   ru: {
     metaTitle: "Альтернатива TextVerified — SMS Code от SIMNETIQ",
     metaDescription:
-      "Сравниваем TextVerified и приложение SMS Code от SIMNETIQ: только номера США с арендой на сайте против 50+ стран в нативном приложении для iOS.",
+      "Сравниваем TextVerified и приложение SMS Code от SIMNETIQ: только номера США с арендой на сайте против 150+ стран в нативном приложении для iOS.",
     hero: {
-      title: "Альтернатива TextVerified с номерами в 50+ странах",
+      title: "Альтернатива TextVerified с номерами в 150+ странах",
       intro: [
         "TextVerified — специалист по США. Их сайт говорит об этом прямо: все номера американские, описанные как настоящие мобильные номера США на физических SIM-картах; они предлагаются как разовые верификации или как краткосрочная и продлеваемая аренда — через веб-приложение, API и расширение для браузера. Когда регистрация требует именно номер +1, такая специализация — ровно то, что нужно.",
-        "Приложение SMS Code от SIMNETIQ исходит из противоположного: потребность в верификации интернациональна. Это нативное приложение для iOS с настоящими номерами в 50+ странах — США в том числе, но также Европа, Азия и не только — и поддержкой 35+ популярных сервисов. Выбираете сервис и страну, получаете номер — и код приходит в приложение за секунды; оплата разовыми пакетами кредитов, а активации без SMS отменяются бесплатно.",
+        "Приложение SMS Code от SIMNETIQ исходит из противоположного: потребность в верификации интернациональна. Это нативное приложение для iOS с настоящими номерами в 150+ странах — США в том числе, но также Европа, Азия и не только — и поддержкой 100+ популярных сервисов. Выбираете сервис и страну, получаете номер — и код приходит в приложение за секунды; оплата разовыми пакетами монет, а активации без SMS отменяются бесплатно.",
       ],
     },
     whenThem: {
@@ -121,7 +121,7 @@ export const textverified: AlternativeEntry = {
     },
     whenUs: {
       title: "Когда приложение SMS Code подходит лучше",
-      body: "Выбирайте приложение, когда одной страны мало — или когда нужны вовсе не США. Многие сервисы дешевле или проще подтверждать европейским или азиатским номером, а некоторые номерам +1 и вовсе недоступны; с 50+ странами в одном приложении вы просто берёте то, что лучше подходит для конкретной регистрации. Всё это — нативное мобильное приложение из App Store, разовые пакеты кредитов через Apple или Google без подписки и бесплатная отмена активаций, на которые ничего не пришло.",
+      body: "Выбирайте приложение, когда одной страны мало — или когда нужны вовсе не США. Многие сервисы дешевле или проще подтверждать европейским или азиатским номером, а некоторые номерам +1 и вовсе недоступны; с 150+ странами в одном приложении вы просто берёте то, что лучше подходит для конкретной регистрации. Всё это — нативное мобильное приложение из App Store, разовые пакеты монет через Apple или Google без подписки и бесплатная отмена активаций, на которые ничего не пришло.",
     },
     comparison: {
       title: "TextVerified и приложение SMS Code: сравнение",
@@ -134,7 +134,7 @@ export const textverified: AlternativeEntry = {
         {
           label: "Модель оплаты",
           competitor: "Оплата за верификацию плюс краткосрочная и продлеваемая аренда номеров",
-          us: "Разовые пакеты кредитов, оплата за активацию — без подписки",
+          us: "Разовые пакеты монет, оплата за активацию — без подписки",
         },
         {
           label: "Способ оплаты",
@@ -144,12 +144,12 @@ export const textverified: AlternativeEntry = {
         {
           label: "Покрытие",
           competitor: "Только номера США — их сайт прямо говорит, что все номера американские",
-          us: "Настоящие номера в 50+ странах и 35+ популярных сервисов",
+          us: "Настоящие номера в 150+ странах и 100+ популярных сервисов",
         },
         {
           label: "Отмена",
           competitor: "По их собственным правилам возврата — проверьте актуальные условия",
-          us: "Активации без входящих SMS отменяются бесплатно, кредиты возвращаются",
+          us: "Активации без входящих SMS отменяются бесплатно, монеты возвращаются",
         },
         {
           label: "Поддержка",
@@ -172,23 +172,23 @@ export const textverified: AlternativeEntry = {
           body: "Скачайте SMS Code от SIMNETIQ из App Store — веб-аккаунт и кошелёк заводить не нужно.",
         },
         {
-          title: "Возьмите пакет кредитов",
-          body: "Купите разовый пакет через аккаунт магазина. Ни подписки, ни даты продления — кредиты тратятся на активации.",
+          title: "Возьмите пакет монет",
+          body: "Купите разовый пакет через аккаунт магазина. Ни подписки, ни даты продления — монеты тратятся на активации.",
         },
         {
           title: "Проведите первую активацию",
-          body: "Выберите сервис, затем любую из 50+ стран — включая США. Код придёт в приложение за секунды; если ничего не пришло, активация отменяется бесплатно.",
+          body: "Выберите сервис, затем любую из 150+ стран — включая США. Код придёт в приложение за секунды; если ничего не пришло, активация отменяется бесплатно.",
         },
       ],
     },
     faqs: [
       {
         q: "В чём главное отличие TextVerified от приложения SMS Code?",
-        a: "В географии. Сайт TextVerified прямо заявляет, что все их номера — американские: глубина в одном рынке. Приложение SMS Code от SIMNETIQ предлагает настоящие номера в 50+ странах в нативном мобильном приложении, так что страну вы выбираете под каждую регистрацию.",
+        a: "В географии. Сайт TextVerified прямо заявляет, что все их номера — американские: глубина в одном рынке. Приложение SMS Code от SIMNETIQ предлагает настоящие номера в 150+ странах в нативном мобильном приложении, так что страну вы выбираете под каждую регистрацию.",
       },
       {
         q: "А номера США в приложении SMS Code есть?",
-        a: "Да — США входят в список из 50+ стран. Разница в том, что это один из вариантов, а не весь каталог.",
+        a: "Да — США входят в список из 150+ стран. Разница в том, что это один из вариантов, а не весь каталог.",
       },
       {
         q: "Можно ли арендовать номер надолго, как в продлеваемой аренде TextVerified?",
@@ -196,11 +196,11 @@ export const textverified: AlternativeEntry = {
       },
       {
         q: "Что будет, если код так и не придёт?",
-        a: "Активация отменится, а кредиты вернутся. Вы платите только за номера, на которые SMS действительно пришла.",
+        a: "Активация отменится, а монеты вернутся. Вы платите только за номера, на которые SMS действительно пришла.",
       },
       {
         q: "Есть ли в приложении SMS Code подписка?",
-        a: "Нет. Вы покупаете разовые пакеты кредитов через Apple или Google и тратите их на активации — ничего не продлевается автоматически, а данные карты нам не передаются.",
+        a: "Нет. Вы покупаете разовые пакеты монет через Apple или Google и тратите их на активации — ничего не продлевается автоматически, а данные карты нам не передаются.",
       },
     ],
   },

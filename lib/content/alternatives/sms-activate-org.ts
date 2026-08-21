@@ -7,12 +7,12 @@ export const smsActivateOrg: AlternativeEntry = {
   en: {
     metaTitle: "SMS-Activate.org Alternative — SMS Code App by SIMNETIQ",
     metaDescription:
-      "Comparing SMS-Activate.org with the SMS Code app by SIMNETIQ: web dashboard and API versus a native iOS app with one-time credit packs and free cancellation.",
+      "Comparing SMS-Activate.org with the SMS Code app by SIMNETIQ: web dashboard and API versus a native iOS app with one-time coin packs and free cancellation.",
     hero: {
       title: "An SMS-Activate.org alternative that lives on your phone",
       intro: [
         "SMS-Activate.org is a long-running web service for receiving verification codes. SMS Code by SIMNETIQ takes on the same job from a different angle — a native iOS app instead of a web dashboard. If you want the core idea, a rented number and a fast code, without logging into a website, this comparison is for you.",
-        "The core task is identical on both: pick a service, pick a country, get a real number, receive the SMS code. The difference is how you get there. SMS-Activate.org centers on a web dashboard and a documented API; SMS Code puts the whole flow inside a mobile app you install from the App Store, pay for with one-time credit packs, and use in a few taps.",
+        "The core task is identical on both: pick a service, pick a country, get a real number, receive the SMS code. The difference is how you get there. SMS-Activate.org centers on a web dashboard and a documented API; SMS Code puts the whole flow inside a mobile app you install from the App Store, pay for with one-time coin packs, and use in a few taps.",
       ],
     },
     whenThem: {
@@ -21,7 +21,7 @@ export const smsActivateOrg: AlternativeEntry = {
     },
     whenUs: {
       title: "When SMS Code fits better",
-      body: "If you're one person who occasionally needs a verification code — a second Telegram account, a WhatsApp sign-up, a trial that wants a phone number — SMS Code is the shorter path. No web wallet to top up, no dashboard to learn: you buy a one-time credit pack through Apple billing, pick a service and country, and the code appears in-app within seconds. Activations that never receive an SMS cancel free, coverage spans 50+ countries and 35+ services, and the whole thing behaves like a normal consumer app rather than a developer tool.",
+      body: "If you're one person who occasionally needs a verification code — a second Telegram account, a WhatsApp sign-up, a trial that wants a phone number — SMS Code is the shorter path. No web wallet to top up, no dashboard to learn: you buy a one-time coin pack through Apple billing, pick a service and country, and the code appears in-app within seconds. Activations that never receive an SMS cancel free, coverage spans 150+ countries and 100+ services, and the whole thing behaves like a normal consumer app rather than a developer tool.",
     },
     comparison: {
       title: "SMS-Activate.org vs SMS Code, side by side",
@@ -34,7 +34,7 @@ export const smsActivateOrg: AlternativeEntry = {
         {
           label: "Pricing model",
           competitor: "Pay per number from an account balance; rental options for longer periods",
-          us: "One-time credit packs, pay per activation — no subscription",
+          us: "One-time coin packs, pay per activation — no subscription",
         },
         {
           label: "Payment",
@@ -44,12 +44,12 @@ export const smsActivateOrg: AlternativeEntry = {
         {
           label: "Coverage",
           competitor: "A very broad catalog of countries and services aimed at bulk use",
-          us: "50+ countries and 35+ popular services, curated for everyday sign-ups",
+          us: "150+ countries and 100+ popular services, curated for everyday sign-ups",
         },
         {
           label: "Cancellation",
           competitor: "Governed by their own refund rules — check their current terms",
-          us: "Activations that receive no SMS cancel free, credits return",
+          us: "Activations that receive no SMS cancel free, coins return",
         },
         {
           label: "Support",
@@ -72,8 +72,8 @@ export const smsActivateOrg: AlternativeEntry = {
           body: "Get SMS Code by SIMNETIQ from the App Store — no web account or wallet setup required.",
         },
         {
-          title: "Grab a credit pack",
-          body: "Buy a one-time pack through your store account. Credits don't expire into a subscription; you pay only when you activate a number.",
+          title: "Grab a coin pack",
+          body: "Buy a one-time pack through your store account. Coins don't expire into a subscription; you pay only when you activate a number.",
         },
         {
           title: "Run your first activation",
@@ -92,15 +92,15 @@ export const smsActivateOrg: AlternativeEntry = {
       },
       {
         q: "Do I need to top up a wallet to use the app?",
-        a: "You buy one-time credit packs through Apple billing and spend credits per activation. There's no separate web wallet, no subscription and no recurring charge.",
+        a: "You buy one-time coin packs through Apple billing and spend coins per activation. There's no separate web wallet, no subscription and no recurring charge.",
       },
       {
         q: "What happens if my code never arrives?",
-        a: "The activation cancels and your credits are returned. You only pay for numbers that actually receive an SMS.",
+        a: "The activation cancels and your coins are returned. You only pay for numbers that actually receive an SMS.",
       },
       {
         q: "Are the numbers real mobile numbers?",
-        a: "Yes — the app rents real numbers on real carrier networks in 50+ countries. To the service you're verifying with, the number looks like any ordinary phone number.",
+        a: "Yes — the app rents real numbers on real carrier networks in 150+ countries. To the service you're verifying with, the number looks like any ordinary phone number.",
       },
     ],
   },
@@ -112,7 +112,7 @@ export const smsActivateOrg: AlternativeEntry = {
       title: "Альтернатива SMS-Activate.org, которая живёт у вас в телефоне",
       intro: [
         "SMS-Activate.org — давно работающий веб-сервис для приёма кодов подтверждения. SMS Code от SIMNETIQ решает ту же задачу под другим углом: это нативное приложение для iOS, а не веб-кабинет. Если вам нужна сама суть — арендованный номер и быстрый код, без входа на сайт, — это сравнение для вас.",
-        "Суть у обоих одинаковая: выбираете сервис, выбираете страну, получаете настоящий номер, принимаете SMS с кодом. Разница — в пути. SMS-Activate.org строится вокруг веб-кабинета и документированного API; SMS Code помещает весь процесс в мобильное приложение, которое вы ставите из App Store, оплачиваете разовыми пакетами кредитов и используете в пару касаний.",
+        "Суть у обоих одинаковая: выбираете сервис, выбираете страну, получаете настоящий номер, принимаете SMS с кодом. Разница — в пути. SMS-Activate.org строится вокруг веб-кабинета и документированного API; SMS Code помещает весь процесс в мобильное приложение, которое вы ставите из App Store, оплачиваете разовыми пакетами монет и используете в пару касаний.",
       ],
     },
     whenThem: {
@@ -121,7 +121,7 @@ export const smsActivateOrg: AlternativeEntry = {
     },
     whenUs: {
       title: "Когда приложение SMS Code подходит лучше",
-      body: "Если вы один человек, которому время от времени нужен код подтверждения — второй аккаунт Telegram, регистрация в WhatsApp, пробный период, требующий номер телефона, — приложение окажется короче на несколько шагов. Не нужно пополнять веб-кошелёк и разбираться в кабинете: вы покупаете разовый пакет кредитов через Apple или Google, выбираете сервис и страну — и код появляется в приложении за секунды. Активации, на которые SMS не пришла, отменяются бесплатно, покрытие — 50+ стран и 35+ сервисов, а всё вместе ощущается как обычное потребительское приложение, а не инструмент разработчика.",
+      body: "Если вы один человек, которому время от времени нужен код подтверждения — второй аккаунт Telegram, регистрация в WhatsApp, пробный период, требующий номер телефона, — приложение окажется короче на несколько шагов. Не нужно пополнять веб-кошелёк и разбираться в кабинете: вы покупаете разовый пакет монет через Apple или Google, выбираете сервис и страну — и код появляется в приложении за секунды. Активации, на которые SMS не пришла, отменяются бесплатно, покрытие — 150+ стран и 100+ сервисов, а всё вместе ощущается как обычное потребительское приложение, а не инструмент разработчика.",
     },
     comparison: {
       title: "SMS-Activate.org и приложение SMS Code: сравнение",
@@ -134,7 +134,7 @@ export const smsActivateOrg: AlternativeEntry = {
         {
           label: "Модель оплаты",
           competitor: "Оплата за номер с баланса аккаунта; есть аренда на длительный срок",
-          us: "Разовые пакеты кредитов, оплата за активацию — без подписки",
+          us: "Разовые пакеты монет, оплата за активацию — без подписки",
         },
         {
           label: "Способ оплаты",
@@ -144,12 +144,12 @@ export const smsActivateOrg: AlternativeEntry = {
         {
           label: "Покрытие",
           competitor: "Очень широкий каталог стран и сервисов с прицелом на массовое использование",
-          us: "50+ стран и 35+ популярных сервисов — подборка для повседневных регистраций",
+          us: "150+ стран и 100+ популярных сервисов — подборка для повседневных регистраций",
         },
         {
           label: "Отмена",
           competitor: "По их собственным правилам возврата — проверьте актуальные условия",
-          us: "Активации без входящих SMS отменяются бесплатно, кредиты возвращаются",
+          us: "Активации без входящих SMS отменяются бесплатно, монеты возвращаются",
         },
         {
           label: "Поддержка",
@@ -172,7 +172,7 @@ export const smsActivateOrg: AlternativeEntry = {
           body: "Скачайте SMS Code от SIMNETIQ из App Store — веб-аккаунт и кошелёк заводить не нужно.",
         },
         {
-          title: "Возьмите пакет кредитов",
+          title: "Возьмите пакет монет",
           body: "Купите разовый пакет через аккаунт магазина. Никакой подписки: вы платите только тогда, когда активируете номер.",
         },
         {
@@ -192,15 +192,15 @@ export const smsActivateOrg: AlternativeEntry = {
       },
       {
         q: "Нужно ли пополнять кошелёк, чтобы пользоваться приложением?",
-        a: "Вы покупаете разовые пакеты кредитов через Apple или Google и тратите кредиты на активации. Отдельного веб-кошелька нет, подписки нет, регулярных списаний нет.",
+        a: "Вы покупаете разовые пакеты монет через Apple или Google и тратите монеты на активации. Отдельного веб-кошелька нет, подписки нет, регулярных списаний нет.",
       },
       {
         q: "Что будет, если код так и не придёт?",
-        a: "Активация отменится, а кредиты вернутся. Вы платите только за номера, на которые SMS действительно пришла.",
+        a: "Активация отменится, а монеты вернутся. Вы платите только за номера, на которые SMS действительно пришла.",
       },
       {
         q: "Это настоящие мобильные номера?",
-        a: "Да — приложение арендует настоящие номера в реальных сетях операторов в 50+ странах. Для сервиса, где вы проходите проверку, такой номер выглядит как самый обычный.",
+        a: "Да — приложение арендует настоящие номера в реальных сетях операторов в 150+ странах. Для сервиса, где вы проходите проверку, такой номер выглядит как самый обычный.",
       },
     ],
   },

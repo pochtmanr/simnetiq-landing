@@ -59,7 +59,7 @@ export const unitedKingdom: CountryEntry = {
       },
       {
         q: "What happens if the code never comes?",
-        a: "Unreceived activations cancel free of charge. Cancel the pending one in the app, take another UK number and request the code again — your credit is only spent on activations that actually deliver an SMS.",
+        a: "Unreceived activations cancel free of charge. Cancel the pending one in the app, take another UK number and request the code again — your coins are only spent on activations that actually deliver an SMS.",
       },
     ],
   },

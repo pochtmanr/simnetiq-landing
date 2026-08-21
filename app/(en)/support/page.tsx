@@ -5,7 +5,7 @@ import { languageAlternates } from "../../../lib/i18n";
 export const metadata: Metadata = {
   title: "Support",
   description:
-    "Get help with SMS Code — activations, billing, credits and account questions. We usually reply within one business day.",
+    "Get help with SMS Code — activations, billing, coins and account questions. We usually reply within one business day.",
   alternates: {
     canonical: "/support",
     languages: languageAlternates("/support"),

@@ -27,7 +27,7 @@ export const airbnb: ServiceEntry = {
       title: "A virtual number for Airbnb",
       intro: [
         "Airbnb runs on trust between strangers, and a verified phone number is one of the first bricks in that wall. Before you can book a stay — and often before a host will even reply to a request — Airbnb wants to confirm you're reachable, and it does that with an SMS code sent to the number on your account.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries, enter it during Airbnb sign-up, and the six-digit code appears in the SMS Code app within seconds. You get a verified account; your personal number stays your own.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries, enter it during Airbnb sign-up, and the six-digit code appears in the SMS Code app within seconds. You get a verified account; your personal number stays your own.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const airbnb: ServiceEntry = {
       title: "Виртуальный номер для Airbnb",
       intro: [
         "Airbnb держится на доверии между незнакомыми людьми, и подтверждённый номер телефона — один из первых кирпичей в этой стене. Прежде чем вы забронируете жильё — а нередко и прежде чем хозяин вообще ответит на запрос, — Airbnb хочет убедиться, что с вами можно связаться, и делает это через SMS-код на номер в аккаунте.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его при регистрации на Airbnb — и шестизначный код появляется в приложении SMS Code за секунды. Аккаунт подтверждён, а личный номер остаётся при вас.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его при регистрации на Airbnb — и шестизначный код появляется в приложении SMS Code за секунды. Аккаунт подтверждён, а личный номер остаётся при вас.",
       ],
     },
     whyVirtual: {

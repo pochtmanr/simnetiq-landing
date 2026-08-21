@@ -22,12 +22,12 @@ export const snapchat: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Snapchat — Verify Without Your Number",
     metaDescription:
-      "Verify Snapchat with a real virtual number from 50+ countries. The code lands in the app in seconds — no SIM, no subscription, free cancel if no SMS arrives.",
+      "Verify Snapchat with a real virtual number from 150+ countries. The code lands in the app in seconds — no SIM, no subscription, free cancel if no SMS arrives.",
     hero: {
       title: "A virtual number for Snapchat",
       intro: [
         "Snapchat will create an account with just an email — the phone field can genuinely be skipped at sign-up. It doesn't stay quiet for long, though: log in from a new device, trip a security check or try to recover a forgotten password, and Snapchat starts asking for a number it can text a code to.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries, enter it in Snapchat, and the verification SMS appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and any activation that received no SMS can be cancelled without charge.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries, enter it in Snapchat, and the verification SMS appears in the app within seconds. You pay per activation from a one-time coin pack — no subscription — and any activation that received no SMS can be cancelled without charge.",
       ],
     },
     whyVirtual: {
@@ -98,12 +98,12 @@ export const snapchat: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Snapchat — подтверждение без своего номера",
     metaDescription:
-      "Подтвердите Snapchat настоящим виртуальным номером из 50+ стран. Код приходит в приложение за секунды — без SIM и подписки, отмена без списания, если SMS не пришла.",
+      "Подтвердите Snapchat настоящим виртуальным номером из 150+ стран. Код приходит в приложение за секунды — без SIM и подписки, отмена без списания, если SMS не пришла.",
     hero: {
       title: "Виртуальный номер для Snapchat",
       intro: [
         "Snapchat заведёт аккаунт и по одной почте — поле с телефоном при регистрации действительно можно пропустить. Правда, тишина длится недолго: вход с нового устройства, проверка безопасности или забытый пароль — и Snapchat просит номер, на который можно прислать код.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его в Snapchat — и SMS с кодом появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а активацию, на которую ничего не пришло, можно отменить без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его в Snapchat — и SMS с кодом появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а активацию, на которую ничего не пришло, можно отменить без списания.",
       ],
     },
     whyVirtual: {

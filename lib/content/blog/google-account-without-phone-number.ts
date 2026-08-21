@@ -78,7 +78,7 @@ export const googleAccountWithoutPhoneNumber: BlogPost = {
         items: [
           {
             title: "Rent a number for Google",
-            body: "In the SMS Code app, pick Google as the service and choose a country. One tap reserves a real mobile number for you alone — you pay one credit from a one-time pack, no subscription.",
+            body: "In the SMS Code app, pick Google as the service and choose a country. One tap reserves a real mobile number for you alone — you pay for it in coins from a one-time pack, no subscription.",
           },
           {
             title: "Enter it at the verification screen",
@@ -222,7 +222,7 @@ export const googleAccountWithoutPhoneNumber: BlogPost = {
         items: [
           {
             title: "Арендуйте номер для Google",
-            body: "В приложении SMS Code выберите сервис Google и страну. Одно касание резервирует настоящий мобильный номер только за вами — один кредит из разового пакета, без подписки.",
+            body: "В приложении SMS Code выберите сервис Google и страну. Одно касание резервирует настоящий мобильный номер только за вами — оплата монетами из разового пакета, без подписки.",
           },
           {
             title: "Введите его на экране проверки",

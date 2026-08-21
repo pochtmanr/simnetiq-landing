@@ -12,7 +12,7 @@ export const onlinesim: AlternativeEntry = {
       title: "An OnlineSim alternative focused on one-tap activations",
       intro: [
         "OnlineSim is a web service for receiving SMS on virtual numbers, and its distinguishing feature is range: alongside one-time activations, their site describes longer-term rentals where you keep a number for days or weeks and receive unlimited SMS from any service during that window. If a number needs to stay yours for a while, that's their home turf.",
-        "SMS Code by SIMNETIQ deliberately does one thing instead: per-activation verification in a native iOS app. Pick a service and country, get a real number, and the code appears in-app within seconds. You pay with one-time credit packs — no subscription, no rental clock — and activations that receive nothing cancel free.",
+        "SMS Code by SIMNETIQ deliberately does one thing instead: per-activation verification in a native iOS app. Pick a service and country, get a real number, and the code appears in-app within seconds. You pay with one-time coin packs — no subscription, no rental clock — and activations that receive nothing cancel free.",
       ],
     },
     whenThem: {
@@ -21,7 +21,7 @@ export const onlinesim: AlternativeEntry = {
     },
     whenUs: {
       title: "When the SMS Code app fits better",
-      body: "Pick the app when what you actually need is a code, once, right now. Most sign-ups — a second messenger account, a marketplace registration, a trial — verify a number a single time and never text it again, and for that case a rental is paying for days you won't use. The app keeps it to one transaction: a few taps, a real number in one of 50+ countries, the SMS in seconds, and free cancellation if nothing arrives. Billing goes through Apple or Google, so there's no web account balance to manage.",
+      body: "Pick the app when what you actually need is a code, once, right now. Most sign-ups — a second messenger account, a marketplace registration, a trial — verify a number a single time and never text it again, and for that case a rental is paying for days you won't use. The app keeps it to one transaction: a few taps, a real number in one of 150+ countries, the SMS in seconds, and free cancellation if nothing arrives. Billing goes through Apple or Google, so there's no web account balance to manage.",
     },
     comparison: {
       title: "OnlineSim vs the SMS Code app, side by side",
@@ -34,7 +34,7 @@ export const onlinesim: AlternativeEntry = {
         {
           label: "Pricing model",
           competitor: "One-time activations plus longer-term number rentals by period",
-          us: "One-time credit packs, pay per activation — no rentals, no subscription",
+          us: "One-time coin packs, pay per activation — no rentals, no subscription",
         },
         {
           label: "Payment",
@@ -44,12 +44,12 @@ export const onlinesim: AlternativeEntry = {
         {
           label: "Coverage",
           competitor: "A broad country list, wider for activations than for rentals",
-          us: "50+ countries and 35+ popular services, curated for everyday sign-ups",
+          us: "150+ countries and 100+ popular services, curated for everyday sign-ups",
         },
         {
           label: "Cancellation",
           competitor: "Governed by their own refund rules — check their current terms",
-          us: "Activations that receive no SMS cancel free, credits return",
+          us: "Activations that receive no SMS cancel free, coins return",
         },
         {
           label: "Support",
@@ -72,7 +72,7 @@ export const onlinesim: AlternativeEntry = {
           body: "Get SMS Code by SIMNETIQ from the App Store — no web account or wallet setup required.",
         },
         {
-          title: "Grab a credit pack",
+          title: "Grab a coin pack",
           body: "Buy a one-time pack through your store account. You pay per activation; there's no rental period ticking in the background.",
         },
         {
@@ -84,7 +84,7 @@ export const onlinesim: AlternativeEntry = {
     faqs: [
       {
         q: "What's the main difference between OnlineSim and the SMS Code app?",
-        a: "The model. OnlineSim's site emphasizes number rentals — holding a number for days or weeks with unlimited incoming SMS — alongside one-time activations. The SMS Code app by SIMNETIQ does per-activation verification only, wrapped in a native mobile app with one-time credit packs.",
+        a: "The model. OnlineSim's site emphasizes number rentals — holding a number for days or weeks with unlimited incoming SMS — alongside one-time activations. The SMS Code app by SIMNETIQ does per-activation verification only, wrapped in a native mobile app with one-time coin packs.",
       },
       {
         q: "Can I keep a number long-term in the SMS Code app?",
@@ -96,11 +96,11 @@ export const onlinesim: AlternativeEntry = {
       },
       {
         q: "What happens if my code never arrives?",
-        a: "The activation cancels and your credits are returned. You only pay for numbers that actually receive an SMS.",
+        a: "The activation cancels and your coins are returned. You only pay for numbers that actually receive an SMS.",
       },
       {
         q: "Do I need to create an account on a website to use the app?",
-        a: "No web wallet or dashboard is involved. You install the app from the App Store, buy a credit pack through store billing, and everything happens in the app.",
+        a: "No web wallet or dashboard is involved. You install the app from the App Store, buy a coin pack through store billing, and everything happens in the app.",
       },
     ],
   },
@@ -112,7 +112,7 @@ export const onlinesim: AlternativeEntry = {
       title: "Альтернатива OnlineSim с упором на активации в одно касание",
       intro: [
         "OnlineSim — веб-сервис приёма SMS на виртуальные номера, и его отличительная черта — широта модели: помимо разовых активаций, их сайт описывает длительную аренду, когда номер закрепляется за вами на дни или недели и принимает неограниченное количество SMS от любых сервисов. Если номер должен оставаться вашим надолго — это их поле.",
-        "Приложение SMS Code от SIMNETIQ сознательно делает одну вещь: поштучную верификацию в нативном приложении для iOS. Выбираете сервис и страну, получаете настоящий номер — и код появляется в приложении за секунды. Платите разовыми пакетами кредитов — без подписки и без арендного счётчика, — а активации, на которые ничего не пришло, отменяются бесплатно.",
+        "Приложение SMS Code от SIMNETIQ сознательно делает одну вещь: поштучную верификацию в нативном приложении для iOS. Выбираете сервис и страну, получаете настоящий номер — и код появляется в приложении за секунды. Платите разовыми пакетами монет — без подписки и без арендного счётчика, — а активации, на которые ничего не пришло, отменяются бесплатно.",
       ],
     },
     whenThem: {
@@ -121,7 +121,7 @@ export const onlinesim: AlternativeEntry = {
     },
     whenUs: {
       title: "Когда приложение SMS Code подходит лучше",
-      body: "Выбирайте приложение, когда на самом деле нужен код — один раз и прямо сейчас. Большинство регистраций — второй аккаунт в мессенджере, маркетплейс, пробный период — проверяют номер единожды и больше на него не пишут, и в этом случае аренда означает платить за дни, которые вам не пригодятся. Приложение сводит всё к одной операции: пара касаний, настоящий номер в одной из 50+ стран, SMS за секунды и бесплатная отмена, если ничего не пришло. Оплата идёт через Apple или Google, так что следить за балансом на сайте не нужно.",
+      body: "Выбирайте приложение, когда на самом деле нужен код — один раз и прямо сейчас. Большинство регистраций — второй аккаунт в мессенджере, маркетплейс, пробный период — проверяют номер единожды и больше на него не пишут, и в этом случае аренда означает платить за дни, которые вам не пригодятся. Приложение сводит всё к одной операции: пара касаний, настоящий номер в одной из 150+ стран, SMS за секунды и бесплатная отмена, если ничего не пришло. Оплата идёт через Apple или Google, так что следить за балансом на сайте не нужно.",
     },
     comparison: {
       title: "OnlineSim и приложение SMS Code: сравнение",
@@ -134,7 +134,7 @@ export const onlinesim: AlternativeEntry = {
         {
           label: "Модель оплаты",
           competitor: "Разовые активации плюс аренда номеров на выбранный срок",
-          us: "Разовые пакеты кредитов, оплата за активацию — без аренды и подписки",
+          us: "Разовые пакеты монет, оплата за активацию — без аренды и подписки",
         },
         {
           label: "Способ оплаты",
@@ -144,12 +144,12 @@ export const onlinesim: AlternativeEntry = {
         {
           label: "Покрытие",
           competitor: "Широкий список стран; для активаций шире, чем для аренды",
-          us: "50+ стран и 35+ популярных сервисов — подборка для повседневных регистраций",
+          us: "150+ стран и 100+ популярных сервисов — подборка для повседневных регистраций",
         },
         {
           label: "Отмена",
           competitor: "По их собственным правилам возврата — проверьте актуальные условия",
-          us: "Активации без входящих SMS отменяются бесплатно, кредиты возвращаются",
+          us: "Активации без входящих SMS отменяются бесплатно, монеты возвращаются",
         },
         {
           label: "Поддержка",
@@ -172,7 +172,7 @@ export const onlinesim: AlternativeEntry = {
           body: "Скачайте SMS Code от SIMNETIQ из App Store — веб-аккаунт и кошелёк заводить не нужно.",
         },
         {
-          title: "Возьмите пакет кредитов",
+          title: "Возьмите пакет монет",
           body: "Купите разовый пакет через аккаунт магазина. Оплата — за активацию; никакой аренды, тикающей в фоне.",
         },
         {
@@ -184,7 +184,7 @@ export const onlinesim: AlternativeEntry = {
     faqs: [
       {
         q: "В чём главное отличие OnlineSim от приложения SMS Code?",
-        a: "В модели. Сайт OnlineSim делает акцент на аренде номеров — номер на дни или недели с неограниченным приёмом SMS — наряду с разовыми активациями. Приложение SMS Code от SIMNETIQ занимается только поштучной верификацией в нативном мобильном приложении с разовыми пакетами кредитов.",
+        a: "В модели. Сайт OnlineSim делает акцент на аренде номеров — номер на дни или недели с неограниченным приёмом SMS — наряду с разовыми активациями. Приложение SMS Code от SIMNETIQ занимается только поштучной верификацией в нативном мобильном приложении с разовыми пакетами монет.",
       },
       {
         q: "Можно ли закрепить номер за собой надолго в приложении SMS Code?",
@@ -196,11 +196,11 @@ export const onlinesim: AlternativeEntry = {
       },
       {
         q: "Что будет, если код так и не придёт?",
-        a: "Активация отменится, а кредиты вернутся. Вы платите только за номера, на которые SMS действительно пришла.",
+        a: "Активация отменится, а монеты вернутся. Вы платите только за номера, на которые SMS действительно пришла.",
       },
       {
         q: "Нужно ли регистрироваться на сайте, чтобы пользоваться приложением?",
-        a: "Веб-кошелёк и личный кабинет не понадобятся. Вы ставите приложение из App Store, покупаете пакет кредитов через магазин — и всё происходит внутри приложения.",
+        a: "Веб-кошелёк и личный кабинет не понадобятся. Вы ставите приложение из App Store, покупаете пакет монет через магазин — и всё происходит внутри приложения.",
       },
     ],
   },

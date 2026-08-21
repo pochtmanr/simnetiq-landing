@@ -27,7 +27,7 @@ export const netflix: ServiceEntry = {
       title: "A virtual number for Netflix",
       intro: [
         "Netflix is an email-first service — but the phone step keeps creeping in. Some regions and sign-up flows verify a number right away, mobile plans in several countries are built around one, and the app texts a code like “Your Netflix verification code is 428916” whenever it wants to double-check it’s really you.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The subscription gets verified — and your personal number stays out of yet another customer database.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries and the code lands in the app within seconds. The subscription gets verified — and your personal number stays out of yet another customer database.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const netflix: ServiceEntry = {
       title: "Виртуальный номер для Netflix",
       intro: [
         "Netflix построен вокруг почты, но телефонный шаг встречается всё чаще: в отдельных странах и сценариях номер проверяют прямо при регистрации, мобильные тарифы в ряде регионов вообще на него завязаны, а приложение присылает код вида «Your Netflix verification code is 428916», когда хочет убедиться, что это действительно вы.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Подписка подтверждена — а ваш личный номер не пополнил ещё одну клиентскую базу.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код приходит в приложение за считанные секунды. Подписка подтверждена — а ваш личный номер не пополнил ещё одну клиентскую базу.",
       ],
     },
     whyVirtual: {

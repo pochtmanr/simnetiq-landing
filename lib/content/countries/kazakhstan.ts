@@ -37,7 +37,7 @@ export const kazakhstan: CountryEntry = {
       },
       {
         title: "Cancel free, take another",
-        body: "If the code doesn't arrive within the activation window, cancel the activation in the app at no cost and pull a fresh Kazakhstani number. Your credits are only spent when an SMS actually comes through.",
+        body: "If the code doesn't arrive within the activation window, cancel the activation in the app at no cost and pull a fresh Kazakhstani number. Your coins are only spent when an SMS actually comes through.",
       },
     ],
     faqs: [
@@ -92,7 +92,7 @@ export const kazakhstan: CountryEntry = {
       },
       {
         title: "Отмените бесплатно, возьмите другой",
-        body: "Если код не пришёл в окно активации, отмените её в приложении без списаний и возьмите свежий казахстанский номер. Кредиты расходуются только тогда, когда SMS действительно доставлена.",
+        body: "Если код не пришёл в окно активации, отмените её в приложении без списаний и возьмите свежий казахстанский номер. Монеты расходуются только тогда, когда SMS действительно доставлена.",
       },
     ],
     faqs: [

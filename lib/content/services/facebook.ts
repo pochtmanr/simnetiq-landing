@@ -22,12 +22,12 @@ export const facebook: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Facebook — Sign Up Without a SIM",
     metaDescription:
-      "Verify Facebook with a real virtual number from 50+ countries. The confirmation code arrives in seconds — pay per activation, no subscription, free cancel if no SMS.",
+      "Verify Facebook with a real virtual number from 150+ countries. The confirmation code arrives in seconds — pay per activation, no subscription, free cancel if no SMS.",
     hero: {
       title: "A virtual number for Facebook",
       intro: [
         "On paper, Facebook lets you sign up with just an email. In practice, a phone number rarely stays out of the picture: the registration form often asks for one, and fresh accounts routinely land in a security checkpoint within their first days — where a code sent by SMS is the quickest way to prove there's a real person behind the profile.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries, hand it to Facebook, and the confirmation code appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and if a number receives nothing, you cancel it without being charged.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries, hand it to Facebook, and the confirmation code appears in the app within seconds. You pay per activation from a one-time coin pack — no subscription — and if a number receives nothing, you cancel it without being charged.",
       ],
     },
     whyVirtual: {
@@ -98,12 +98,12 @@ export const facebook: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Facebook — регистрация без SIM-карты",
     metaDescription:
-      "Подтвердите Facebook настоящим виртуальным номером из 50+ стран. Код приходит в приложение за секунды — оплата за активацию, без подписки, отмена без списания.",
+      "Подтвердите Facebook настоящим виртуальным номером из 150+ стран. Код приходит в приложение за секунды — оплата за активацию, без подписки, отмена без списания.",
     hero: {
       title: "Виртуальный номер для Facebook",
       intro: [
         "Формально Facebook разрешает регистрацию по одной почте. На деле без телефона обходится редко: форма регистрации часто просит номер сама, а свежие аккаунты в первые же дни попадают в проверку безопасности — и код из SMS оказывается самым быстрым способом доказать, что за профилем стоит живой человек.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, отдаёте его Facebook — и код подтверждения появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, отдаёте его Facebook — и код подтверждения появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
       ],
     },
     whyVirtual: {

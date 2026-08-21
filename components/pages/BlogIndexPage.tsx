@@ -32,7 +32,7 @@ export function BlogIndexPage({ locale }: { locale: Locale }) {
         <h1 className="max-w-3xl text-[clamp(32px,4.2vw,50px)] leading-[1.08] tracking-[-0.02em]">
           {t.title}
         </h1>
-        <p className="mt-[22px] max-w-xl text-subheading text-steel-gray">
+        <p className="mt-[22px] max-w-xl text-subheading text-ink-muted">
           {t.sub}
         </p>
       </section>
@@ -44,7 +44,7 @@ export function BlogIndexPage({ locale }: { locale: Locale }) {
             <Link
               key={post.slug}
               href={localePath(locale, `/blog/${post.slug}`)}
-              className="card group flex flex-col transition-colors hover:!border-signal-blue"
+              className="card group flex flex-col transition-colors hover:!border-accent"
             >
               <div className="flex flex-wrap items-center gap-[10px]">
                 {post.tags.map((tag) => (
@@ -54,11 +54,11 @@ export function BlogIndexPage({ locale }: { locale: Locale }) {
                 ))}
               </div>
               <h2 className="mt-[22px] text-subheading">{c.title}</h2>
-              <p className="mt-[10px] flex-1 text-label text-steel-gray">
+              <p className="mt-[10px] flex-1 text-label text-ink-muted">
                 {c.excerpt}
               </p>
               <div className="mt-[22px] flex items-center justify-between">
-                <span className="text-caption text-ash-gray">
+                <span className="text-caption text-muted">
                   {formatDate(post.publishedAt, locale)}
                 </span>
                 <span className="blue-link text-label">{t.readMore} →</span>

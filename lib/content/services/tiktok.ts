@@ -27,7 +27,7 @@ export const tiktok: ServiceEntry = {
       title: "A virtual number for TikTok",
       intro: [
         "TikTok lets you sign up with a phone number or an email, but the phone route is the one it keeps coming back to: a 4–6 digit SMS code confirms the sign-up, and the same number is later used for login-by-code and account recovery. Whatever number you enter on day one quietly becomes part of the account's identity.",
-        "With SMS Code you rent a real number in one of 50+ countries, enter it on TikTok's sign-up screen, and the verification code lands in the app within seconds. Your personal number stays out of it — useful whether you're protecting your privacy or building out a roster of creator accounts.",
+        "With SMS Code you rent a real number in one of 150+ countries, enter it on TikTok's sign-up screen, and the verification code lands in the app within seconds. Your personal number stays out of it — useful whether you're protecting your privacy or building out a roster of creator accounts.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const tiktok: ServiceEntry = {
       title: "Виртуальный номер для TikTok",
       intro: [
         "В TikTok можно зарегистрироваться по номеру телефона или по почте, но именно к телефону сервис возвращается снова и снова: SMS-код из 4–6 цифр подтверждает регистрацию, а дальше тот же номер используется для входа по коду и восстановления аккаунта. Какой номер вы ввели в первый день — тот незаметно и становится частью личности аккаунта.",
-        "С SMS Code вы арендуете настоящий номер в одной из 50+ стран, вводите его на экране регистрации TikTok — и код подтверждения появляется в приложении за считанные секунды. Ваш личный номер остаётся в стороне: и когда вы бережёте приватность, и когда выстраиваете целую сетку авторских аккаунтов.",
+        "С SMS Code вы арендуете настоящий номер в одной из 150+ стран, вводите его на экране регистрации TikTok — и код подтверждения появляется в приложении за считанные секунды. Ваш личный номер остаётся в стороне: и когда вы бережёте приватность, и когда выстраиваете целую сетку авторских аккаунтов.",
       ],
     },
     whyVirtual: {

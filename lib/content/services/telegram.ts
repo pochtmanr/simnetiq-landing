@@ -27,7 +27,7 @@ export const telegram: ServiceEntry = {
       title: "A virtual number for Telegram",
       intro: [
         "Telegram asks for a phone number on its very first screen — before you can pick a username, join a group or send a single message. That number becomes the permanent anchor of your account, and by default your contacts can see it.",
-        "With SMS Code you rent a real number in one of 50+ countries, type it into Telegram, and the verification code appears in the app within seconds. Your personal number never touches Telegram's servers.",
+        "With SMS Code you rent a real number in one of 150+ countries, type it into Telegram, and the verification code appears in the app within seconds. Your personal number never touches Telegram's servers.",
       ],
     },
     whyVirtual: {
@@ -104,7 +104,7 @@ export const telegram: ServiceEntry = {
       title: "Виртуальный номер для Telegram",
       intro: [
         "Telegram запрашивает номер телефона на самом первом экране — ещё до того, как вы выберете имя пользователя, вступите в группу или отправите первое сообщение. Этот номер навсегда привязывается к аккаунту, и по умолчанию его видят ваши контакты.",
-        "С SMS Code вы арендуете настоящий номер в одной из 50+ стран, вводите его в Telegram — и код подтверждения появляется в приложении за считанные секунды. Ваш личный номер вообще не попадает на серверы Telegram.",
+        "С SMS Code вы арендуете настоящий номер в одной из 150+ стран, вводите его в Telegram — и код подтверждения появляется в приложении за считанные секунды. Ваш личный номер вообще не попадает на серверы Telegram.",
       ],
     },
     whyVirtual: {

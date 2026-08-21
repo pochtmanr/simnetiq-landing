@@ -55,7 +55,7 @@ export const netherlands: CountryEntry = {
       },
       {
         q: "How do I pay for an activation?",
-        a: "From a one-time credit pack, per activation — no subscription running in the background. Activations that never receive an SMS cancel free, so failed attempts don't eat your credit.",
+        a: "From a one-time coin pack, per activation — no subscription running in the background. Activations that never receive an SMS cancel free, so failed attempts don't eat into your balance.",
       },
       {
         q: "Should I keep anything tied to this number long-term?",
@@ -110,7 +110,7 @@ export const netherlands: CountryEntry = {
       },
       {
         q: "Как оплачивается активация?",
-        a: "Из разового пакета кредитов, за каждую активацию отдельно — никакой подписки в фоне. Активации, по которым SMS не пришла, отменяются бесплатно, так что неудачные попытки не съедают кредиты.",
+        a: "Из разового пакета монет, за каждую активацию отдельно — никакой подписки в фоне. Активации, по которым SMS не пришла, отменяются бесплатно, так что неудачные попытки не съедают монеты.",
       },
       {
         q: "Стоит ли надолго привязывать что-то к этому номеру?",

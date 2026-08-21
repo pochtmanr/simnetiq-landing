@@ -41,28 +41,28 @@ export default function PrivacyPolicyPage() {
       <LegalSection title="3. Data we collect">
         <ul>
           <li>
-            <strong className="font-normal text-off-black">Account data.</strong>{" "}
+            <strong className="font-normal text-ink">Account data.</strong>{" "}
             An anonymous account identifier created when you first open the App,
             and your email address if you choose to provide it.
           </li>
           <li>
-            <strong className="font-normal text-off-black">Purchase data.</strong>{" "}
-            Records of credit packs you buy. Payment itself is processed by
+            <strong className="font-normal text-ink">Purchase data.</strong>{" "}
+            Records of coin packs you buy. Payment itself is processed by
             the Apple App Store — we never see your card details.
           </li>
           <li>
-            <strong className="font-normal text-off-black">Activation data.</strong>{" "}
+            <strong className="font-normal text-ink">Activation data.</strong>{" "}
             The service, country, virtual number and the text of verification
             SMS messages received on that number, kept for the time needed to
             deliver the code to you and to resolve disputes.
           </li>
           <li>
-            <strong className="font-normal text-off-black">Device and usage data.</strong>{" "}
+            <strong className="font-normal text-ink">Device and usage data.</strong>{" "}
             Device model, operating system version, app version, language and
             crash or diagnostic logs.
           </li>
           <li>
-            <strong className="font-normal text-off-black">Support data.</strong>{" "}
+            <strong className="font-normal text-ink">Support data.</strong>{" "}
             When you contact support through the Site or by email, we collect
             your name, email address and the content of your message. Support
             requests submitted on the Site are stored in our database (hosted
@@ -75,7 +75,7 @@ export default function PrivacyPolicyPage() {
       <LegalSection title="4. How we use your data">
         <ul>
           <li>To provide virtual numbers and deliver verification codes to you (performance of a contract).</li>
-          <li>To maintain your credit balance and restore purchases across devices (performance of a contract).</li>
+          <li>To maintain your coin balance and restore purchases across devices (performance of a contract).</li>
           <li>To answer support requests (legitimate interests / performance of a contract).</li>
           <li>To detect and prevent fraud, abuse and violations of our Terms of Service (legitimate interests).</li>
           <li>To fix bugs and improve the App using aggregated diagnostics (legitimate interests).</li>

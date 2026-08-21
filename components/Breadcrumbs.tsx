@@ -16,20 +16,20 @@ export function Breadcrumbs({
   return (
     <nav aria-label="Breadcrumb" className="mb-8">
       <JsonLd data={breadcrumbList(locale, crumbs)} />
-      <ol className="flex flex-wrap items-center gap-2 text-label text-ash-gray">
+      <ol className="flex flex-wrap items-center gap-2 text-label text-muted">
         {crumbs.map(({ name, path }, i) => {
           const last = i === crumbs.length - 1;
           return (
             <li key={path} className="flex items-center gap-2">
               {last ? (
-                <span aria-current="page" className="text-steel-gray">
+                <span aria-current="page" className="text-ink-muted">
                   {name}
                 </span>
               ) : (
                 <>
                   <Link
                     href={localePath(locale, path)}
-                    className="transition-colors hover:text-signal-blue"
+                    className="transition-colors hover:text-accent-deep"
                   >
                     {name}
                   </Link>

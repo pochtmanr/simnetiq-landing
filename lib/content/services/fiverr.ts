@@ -27,7 +27,7 @@ export const fiverr: ServiceEntry = {
       title: "A virtual number for Fiverr",
       intro: [
         "Fiverr checks phones more than most marketplaces. Buyers hit the verification screen at sign-up or checkout, and anyone opening a seller profile must verify a number before the gig goes live — a code like “Your Fiverr verification code is: 517284” arrives by SMS and the form won’t move without it.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries and the code shows up in the app within seconds. Your profile gets verified — and the number every client, dispute and marketing list can reach stays separate from the phone in your pocket.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries and the code shows up in the app within seconds. Your profile gets verified — and the number every client, dispute and marketing list can reach stays separate from the phone in your pocket.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const fiverr: ServiceEntry = {
       title: "Виртуальный номер для Fiverr",
       intro: [
         "Fiverr проверяет телефоны чаще большинства маркетплейсов. Покупатели видят экран верификации при регистрации или оплате, а каждый, кто открывает профиль продавца, обязан подтвердить номер до публикации гига — по SMS приходит код вида «Your Fiverr verification code is: 517284», и без него форма дальше не пускает.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Профиль подтверждён — а номер, до которого могут дотянуться клиенты, споры и рассылки, остаётся отдельным от телефона у вас в кармане.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код появляется в приложении за считанные секунды. Профиль подтверждён — а номер, до которого могут дотянуться клиенты, споры и рассылки, остаётся отдельным от телефона у вас в кармане.",
       ],
     },
     whyVirtual: {

@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
-import { Inter } from "next/font/google";
+import { Cormorant_Garamond, Inter } from "next/font/google";
 import "../globals.css";
 import { SiteNav } from "../../components/SiteNav";
 import { SiteFooter } from "../../components/SiteFooter";
@@ -15,8 +15,17 @@ const inter = Inter({
   display: "swap",
 });
 
+/* Display serif for h1/h2 — weight 300 only, never bold. Cyrillic is
+   loaded too so the RU pages get the same headline voice. */
+const cormorant = Cormorant_Garamond({
+  variable: "--font-cormorant",
+  subsets: ["latin", "cyrillic"],
+  weight: ["300"],
+  display: "swap",
+});
+
 export const viewport: Viewport = {
-  themeColor: "#f2f2f4",
+  themeColor: "#EFF1F5",
   colorScheme: "light",
 };
 
@@ -28,7 +37,7 @@ export const metadata: Metadata = {
     template: "%s — SMS Code by SIMNETIQ",
   },
   description:
-    "Get a real virtual number in 50+ countries and receive SMS verification codes in seconds. Sign up for Telegram, WhatsApp, Google and 35+ services without giving out your personal number.",
+    "Get a real virtual number in 150+ countries and receive SMS verification codes in seconds. Sign up for Telegram, WhatsApp, Google and 100+ services without giving out your personal number.",
   alternates: {
     canonical: "/",
     languages: languageAlternates("/"),
@@ -36,12 +45,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SMS Code by SIMNETIQ",
     description:
-      "A phone number for the sign-up, not for life. Real virtual numbers in 50+ countries, verification codes in seconds.",
+      "A phone number for the sign-up, not for life. Real virtual numbers in 150+ countries, verification codes in seconds.",
     url: "https://simnetiq.xyz",
     siteName: "SMS Code by SIMNETIQ",
     images: [
       {
-        url: "/social-card.png",
+        url: "/og",
         width: 1200,
         height: 630,
         alt: "SMS Code by SIMNETIQ",
@@ -57,7 +66,7 @@ export const metadata: Metadata = {
     title: "SMS Code by SIMNETIQ",
     description:
       "A phone number for the sign-up, not for life. Verification codes in seconds.",
-    images: ["/social-card.png"],
+    images: ["/og"],
   },
 };
 
@@ -67,7 +76,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full`}>
+    <html lang="en" className={`${inter.variable} ${cormorant.variable} h-full`}>
       <body className="flex min-h-full flex-col">
         <JsonLd
           data={[organization(), webSite("en"), softwareApplication("en")]}

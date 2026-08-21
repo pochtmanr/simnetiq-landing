@@ -41,7 +41,7 @@ export function SupportForm({ locale = "en" }: { locale?: Locale }) {
       <div className="card text-center" role="status">
         <span className="tag-chip">{t.sentChip}</span>
         <h2 className="mt-[22px] text-heading">{t.sentTitle}</h2>
-        <p className="mx-auto mt-[10px] max-w-md text-body text-steel-gray">
+        <p className="mx-auto mt-[10px] max-w-md text-body text-ink-muted">
           {t.sentBody}
         </p>
         <button
@@ -59,7 +59,7 @@ export function SupportForm({ locale = "en" }: { locale?: Locale }) {
     <form onSubmit={handleSubmit} className="card flex flex-col gap-[22px]">
       <div className="grid gap-[22px] sm:grid-cols-2">
         <label className="flex flex-col gap-[6px]">
-          <span className="text-caption text-steel-gray">{t.name}</span>
+          <span className="text-caption text-ink-muted">{t.name}</span>
           <input
             name="name"
             required
@@ -70,7 +70,7 @@ export function SupportForm({ locale = "en" }: { locale?: Locale }) {
           />
         </label>
         <label className="flex flex-col gap-[6px]">
-          <span className="text-caption text-steel-gray">{t.email}</span>
+          <span className="text-caption text-ink-muted">{t.email}</span>
           <input
             name="email"
             type="email"
@@ -84,7 +84,7 @@ export function SupportForm({ locale = "en" }: { locale?: Locale }) {
       </div>
 
       <label className="flex flex-col gap-[6px]">
-        <span className="text-caption text-steel-gray">{t.topic}</span>
+        <span className="text-caption text-ink-muted">{t.topic}</span>
         <select name="topic" required defaultValue="" className="field">
           <option value="" disabled>
             {t.topicPlaceholder}
@@ -98,7 +98,7 @@ export function SupportForm({ locale = "en" }: { locale?: Locale }) {
       </label>
 
       <label className="flex flex-col gap-[6px]">
-        <span className="text-caption text-steel-gray">{t.message}</span>
+        <span className="text-caption text-ink-muted">{t.message}</span>
         <textarea
           name="message"
           required
@@ -119,7 +119,7 @@ export function SupportForm({ locale = "en" }: { locale?: Locale }) {
       </div>
 
       {status === "error" && error && (
-        <p className="text-label text-signal-blue" role="alert">
+        <p className="text-label text-accent-deep" role="alert">
           {error}
         </p>
       )}

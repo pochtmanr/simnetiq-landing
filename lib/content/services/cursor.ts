@@ -27,7 +27,7 @@ export const cursor: ServiceEntry = {
       title: "A virtual number for Cursor",
       intro: [
         "Cursor — the AI-powered code editor — sits on the same treadmill as every dev tool that gives compute away: free tiers attract abuse, so sign-ups get gated. Alongside email confirmation, Cursor can ask to verify a phone number by SMS before an account or trial goes live, precisely because a working mobile number is harder to mass-produce than an inbox.",
-        "SMS Code rents you a real number in one of 50+ countries. When Cursor's sign-up asks for a phone, enter the rented one — the six-digit code appears in the SMS Code app within seconds, and your personal number stays out of one more SaaS database.",
+        "SMS Code rents you a real number in one of 150+ countries. When Cursor's sign-up asks for a phone, enter the rented one — the six-digit code appears in the SMS Code app within seconds, and your personal number stays out of one more SaaS database.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const cursor: ServiceEntry = {
       title: "Виртуальный номер для Cursor",
       intro: [
         "Cursor — редактор кода с ИИ — крутится в том же колесе, что и любой инструмент разработчика, раздающий вычисления бесплатно: бесплатные тарифы притягивают злоупотребления, и регистрацию начинают закрывать шлагбаумами. Помимо подтверждения почты Cursor может запросить проверку номера телефона по SMS, прежде чем аккаунт или триал заработает: живой мобильный номер штамповать сложнее, чем почтовый ящик.",
-        "SMS Code сдаёт вам настоящий номер в одной из 50+ стран. Когда регистрация Cursor спросит телефон, введите арендованный — шестизначный код появится в приложении SMS Code за секунды, а ваш личный номер минует ещё одну базу очередного SaaS.",
+        "SMS Code сдаёт вам настоящий номер в одной из 150+ стран. Когда регистрация Cursor спросит телефон, введите арендованный — шестизначный код появится в приложении SMS Code за секунды, а ваш личный номер минует ещё одну базу очередного SaaS.",
       ],
     },
     whyVirtual: {

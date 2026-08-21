@@ -27,7 +27,7 @@ export const shopee: ServiceEntry = {
       title: "A virtual number for Shopee",
       intro: [
         "Shopee is phone-first in a way Western marketplaces aren’t: across Southeast Asia and Brazil, the number is effectively the account. Sign-up starts with a phone, an OTP like “382916 is your Shopee verification code” confirms it, and from then on that number is your login, your recovery route — and the address for a steady stream of flash-sale SMS.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The account gets verified — and the marketing barrage points somewhere other than the phone that wakes you up at night.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries and the code lands in the app within seconds. The account gets verified — and the marketing barrage points somewhere other than the phone that wakes you up at night.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const shopee: ServiceEntry = {
       title: "Виртуальный номер для Shopee",
       intro: [
         "Shopee завязан на телефон сильнее западных маркетплейсов: в Юго-Восточной Азии и Бразилии номер — это, по сути, и есть аккаунт. Регистрация начинается с телефона, OTP вида «382916 is your Shopee verification code» его подтверждает, и дальше этот номер — ваш логин, путь восстановления и адрес для нескончаемых SMS о распродажах.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Аккаунт подтверждён — а рекламная канонада целится куда-то ещё, а не в телефон, который будит вас по ночам.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код приходит в приложение за считанные секунды. Аккаунт подтверждён — а рекламная канонада целится куда-то ещё, а не в телефон, который будит вас по ночам.",
       ],
     },
     whyVirtual: {

@@ -27,7 +27,7 @@ export const discord: ServiceEntry = {
       title: "A virtual number for Discord",
       intro: [
         "Discord only asks for an email at sign-up — until the day it doesn't. Try to post in a server with a high verification level, join several servers in quick succession, or connect through a VPN, and Discord's anti-abuse system demands a verified phone number before you can go any further.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries, enter it in Discord, and the six-digit code from sender “Discord” appears in the app within seconds. Your personal number stays out of it — and out of Discord's database.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries, enter it in Discord, and the six-digit code from sender “Discord” appears in the app within seconds. Your personal number stays out of it — and out of Discord's database.",
       ],
     },
     whyVirtual: {
@@ -104,7 +104,7 @@ export const discord: ServiceEntry = {
       title: "Виртуальный номер для Discord",
       intro: [
         "При регистрации Discord просит только почту — до поры до времени. Стоит попытаться написать на сервере с высоким уровнем проверки, вступить в несколько серверов подряд или зайти через VPN — и антиспам-система Discord требует подтверждённый номер телефона, прежде чем пустить дальше.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его в Discord — и шестизначный код от отправителя «Discord» появляется в приложении за считанные секунды. Ваш личный номер остаётся в стороне — и не попадает в базу Discord.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его в Discord — и шестизначный код от отправителя «Discord» появляется в приложении за считанные секунды. Ваш личный номер остаётся в стороне — и не попадает в базу Discord.",
       ],
     },
     whyVirtual: {

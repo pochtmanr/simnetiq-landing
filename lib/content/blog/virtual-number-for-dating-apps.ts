@@ -70,7 +70,7 @@ export const virtualNumberForDatingApps: BlogPost = {
         items: [
           "It won’t lift a ban. If Tinder banned you, the ban is attached to far more than a phone number — device identifiers, payment methods, photos, behavioural signals. Signing up with a fresh number on the same phone usually ends in the same ban. That’s a different problem, and a virtual number doesn’t solve it.",
           "It won’t pass photo verification for you. Tinder’s selfie check (the blue tick) compares your live camera to your profile photos. That step is entirely separate from the phone step, and no number changes it.",
-          "One number verifies one account. An activation is tied to a single service for its window. If you want a Tinder account and a Bumble account, that’s two activations — each paid from your credit pack separately.",
+          "One number verifies one account. An activation is tied to a single service for its window. If you want a Tinder account and a Bumble account, that’s two activations — each paid from your coin balance separately.",
         ],
       },
       {
@@ -91,7 +91,7 @@ export const virtualNumberForDatingApps: BlogPost = {
         items: [
           {
             title: "Rent a number for Tinder",
-            body: "In the SMS Code app, choose Tinder as the service and pick a country — ideally the one you’re actually in, so the account’s details line up. One tap reserves a real mobile number for you, paid from a one-time credit pack. No subscription.",
+            body: "In the SMS Code app, choose Tinder as the service and pick a country — ideally the one you’re actually in, so the account’s details line up. One tap reserves a real mobile number for you, paid from a one-time coin pack. No subscription.",
           },
           {
             title: "Start the Tinder sign-up",
@@ -218,7 +218,7 @@ export const virtualNumberForDatingApps: BlogPost = {
         items: [
           "Он не снимет бан. Если Tinder вас забанил, бан привязан далеко не только к номеру: идентификаторы устройства, способы оплаты, фотографии, поведенческие сигналы. Регистрация со свежим номером на том же телефоне обычно заканчивается тем же баном. Это другая задача, и виртуальный номер её не решает.",
           "Он не пройдёт за вас проверку по фото. Селфи-проверка Tinder (синяя галочка) сравнивает живую камеру с фотографиями профиля. Этот шаг полностью отделён от телефонного, и никакой номер на него не влияет.",
-          "Один номер — один аккаунт. Активация привязана к одному сервису на своё окно. Нужны аккаунты и в Tinder, и в Bumble — это две активации, каждая оплачивается из пакета кредитов отдельно.",
+          "Один номер — один аккаунт. Активация привязана к одному сервису на своё окно. Нужны аккаунты и в Tinder, и в Bumble — это две активации, каждая оплачивается из баланса монет отдельно.",
         ],
       },
       {
@@ -239,7 +239,7 @@ export const virtualNumberForDatingApps: BlogPost = {
         items: [
           {
             title: "Арендуйте номер для Tinder",
-            body: "В приложении SMS Code выберите сервис Tinder и страну — лучше ту, где вы реально находитесь, чтобы данные аккаунта сходились. Одно касание — и настоящий мобильный номер зарезервирован за вами. Оплата из разового пакета кредитов, подписки нет.",
+            body: "В приложении SMS Code выберите сервис Tinder и страну — лучше ту, где вы реально находитесь, чтобы данные аккаунта сходились. Одно касание — и настоящий мобильный номер зарезервирован за вами. Оплата из разового пакета монет, подписки нет.",
           },
           {
             title: "Начните регистрацию в Tinder",

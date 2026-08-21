@@ -27,7 +27,7 @@ export const wechat: ServiceEntry = {
       title: "A virtual number for WeChat",
       intro: [
         "Let’s be upfront: WeChat is the hardest mainstream sign-up there is. The SMS step works like anywhere else — you enter a number, “Use the code (582074) on WeChat to log in to your account.” arrives, you type it in. But for many new registrations WeChat then adds a second gate: confirmation by an existing WeChat user whose account meets its criteria. No number, virtual or otherwise, can substitute for that.",
-        "With SMS Code the phone step itself is easy — a real number in one of 50+ countries, the code in the app within seconds. This page tells you honestly what the number covers, what it doesn’t, and how to prepare for the part that depends on a human being.",
+        "With SMS Code the phone step itself is easy — a real number in one of 150+ countries, the code in the app within seconds. This page tells you honestly what the number covers, what it doesn’t, and how to prepare for the part that depends on a human being.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const wechat: ServiceEntry = {
       title: "Виртуальный номер для WeChat",
       intro: [
         "Скажем прямо: у WeChat самая трудная регистрация среди массовых сервисов. Шаг с SMS проходит как везде — вводите номер, приходит «Use the code (582074) on WeChat to log in to your account.», вбиваете код. Но для многих новых регистраций WeChat добавляет вторые ворота: подтверждение действующим пользователем WeChat, чей аккаунт отвечает его критериям. Никакой номер — ни виртуальный, ни обычный — этого не заменит.",
-        "С SMS Code сам телефонный шаг прост: настоящий номер в одной из 50+ стран, код в приложении за считанные секунды. Эта страница честно объясняет, что номер закрывает, чего не закрывает и как подготовиться к той части, которая зависит от живого человека.",
+        "С SMS Code сам телефонный шаг прост: настоящий номер в одной из 150+ стран, код в приложении за считанные секунды. Эта страница честно объясняет, что номер закрывает, чего не закрывает и как подготовиться к той части, которая зависит от живого человека.",
       ],
     },
     whyVirtual: {

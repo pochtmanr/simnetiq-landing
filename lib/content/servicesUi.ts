@@ -25,7 +25,7 @@ export const SERVICES_UI = {
       label: "Coverage",
       title: "One number away from any sign-up",
       sub: "Pick the service you're signing up for — each guide covers the real verification flow, the gotchas and the questions people actually ask.",
-      allNote: "More services are added regularly — the app itself supports 35+ services in 50+ countries.",
+      allNote: "More services are added regularly — the app itself supports 100+ services in 150+ countries.",
     },
     categories: {
       messaging: "Messaging",
@@ -67,7 +67,7 @@ export const SERVICES_UI = {
       label: "Покрытие",
       title: "От любой регистрации вас отделяет один номер",
       sub: "Выберите сервис, в котором регистрируетесь: в каждом гиде — реальный процесс подтверждения, подводные камни и ответы на настоящие вопросы.",
-      allNote: "Сервисы добавляются регулярно — само приложение поддерживает 35+ сервисов в 50+ странах.",
+      allNote: "Сервисы добавляются регулярно — само приложение поддерживает 100+ сервисов в 150+ странах.",
     },
     categories: {
       messaging: "Мессенджеры",

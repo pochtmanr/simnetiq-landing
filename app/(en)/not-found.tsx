@@ -7,7 +7,7 @@ export default function NotFound() {
     <div className="mx-auto flex w-full max-w-[820px] flex-col items-center px-[clamp(20px,4vw,34px)] py-[113px] text-center">
       <span className="tag-chip">404</span>
       <h1 className="mt-[22px] text-heading">{t.title}</h1>
-      <p className="mt-[10px] max-w-md text-body text-steel-gray">{t.body}</p>
+      <p className="mt-[10px] max-w-md text-body text-ink-muted">{t.body}</p>
       <Link href="/" className="cta-pill mt-[30px]">
         {t.back}
       </Link>

@@ -21,7 +21,7 @@ export const aliexpress: ServiceEntry = {
       title: "A virtual number for AliExpress",
       intro: [
         "AliExpress asks for a phone number at sign-up in many regions and keeps texting after that: login checks, order confirmations, the occasional security prompt at checkout. The message is short — “AliExpress verification code: 902731” — but the number you give ends up woven into one of the world’s biggest marketplace ecosystems.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries and the code appears in the app within seconds. You get the account verified; the marketplace, its sellers and its logistics partners get a number that isn’t the one in your pocket.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries and the code appears in the app within seconds. You get the account verified; the marketplace, its sellers and its logistics partners get a number that isn’t the one in your pocket.",
       ],
     },
     whyVirtual: {
@@ -85,7 +85,7 @@ export const aliexpress: ServiceEntry = {
       },
       {
         q: "Which country should the number be from?",
-        a: "Any of the 50+ works for receiving the code. Practically, pick the country you shop and ship from: consistent details mean fewer security re-checks, and the prices and sellers you see match the place your orders actually go.",
+        a: "Any of the 150+ works for receiving the code. Practically, pick the country you shop and ship from: consistent details mean fewer security re-checks, and the prices and sellers you see match the place your orders actually go.",
       },
     ],
   },
@@ -97,7 +97,7 @@ export const aliexpress: ServiceEntry = {
       title: "Виртуальный номер для AliExpress",
       intro: [
         "Во многих регионах AliExpress просит телефон при регистрации — и продолжает писать после неё: проверки входа, подтверждения заказов, редкие запросы безопасности при оплате. Сообщение короткое — «AliExpress verification code: 902731», — но отданный номер вплетается в одну из крупнейших маркетплейс-экосистем мира.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Вы получаете подтверждённый аккаунт, а маркетплейс, его продавцы и логистические партнёры — номер, который лежит не в вашем кармане.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код появляется в приложении за считанные секунды. Вы получаете подтверждённый аккаунт, а маркетплейс, его продавцы и логистические партнёры — номер, который лежит не в вашем кармане.",
       ],
     },
     whyVirtual: {
@@ -161,7 +161,7 @@ export const aliexpress: ServiceEntry = {
       },
       {
         q: "Из какой страны брать номер?",
-        a: "Для получения кода подойдёт любая из 50+. Практический совет: берите страну, где покупаете и получаете посылки, — согласованные данные означают меньше повторных проверок, а цены и продавцы, которых вы видите, соответствуют месту, куда реально едут ваши заказы.",
+        a: "Для получения кода подойдёт любая из 150+. Практический совет: берите страну, где покупаете и получаете посылки, — согласованные данные означают меньше повторных проверок, а цены и продавцы, которых вы видите, соответствуют месту, куда реально едут ваши заказы.",
       },
     ],
   },

@@ -27,7 +27,7 @@ export const zalo: ServiceEntry = {
       title: "A virtual number for Zalo",
       intro: [
         "Zalo is Vietnam’s everything-messenger — where families chat, sellers take orders and offices coordinate — and the account is the phone number, full stop. Sign-up starts with a number, an SMS like “793145 is your Zalo activation code” confirms it, and that number becomes how people find you.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. You get a working Zalo account — and the suppliers, landlords or in-laws you message on it never need the number your bank uses.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries and the code lands in the app within seconds. You get a working Zalo account — and the suppliers, landlords or in-laws you message on it never need the number your bank uses.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const zalo: ServiceEntry = {
       title: "Виртуальный номер для Zalo",
       intro: [
         "Zalo — вьетнамский мессенджер «для всего»: там переписываются семьи, продавцы принимают заказы, офисы решают вопросы. И аккаунт здесь — это номер телефона, точка. Регистрация начинается с номера, SMS вида «793145 is your Zalo activation code» его подтверждает, и дальше именно по этому номеру вас находят.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. У вас появляется рабочий аккаунт Zalo — а поставщикам, арендодателям и новым родственникам, с которыми вы там переписываетесь, не нужен номер, которым пользуется ваш банк.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код приходит в приложение за считанные секунды. У вас появляется рабочий аккаунт Zalo — а поставщикам, арендодателям и новым родственникам, с которыми вы там переписываетесь, не нужен номер, которым пользуется ваш банк.",
       ],
     },
     whyVirtual: {

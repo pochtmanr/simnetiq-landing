@@ -21,7 +21,7 @@ export const binance: ServiceEntry = {
       title: "A virtual number for Binance",
       intro: [
         "Binance guards accounts the way you’d hope an exchange would: sign-up wants a verified contact, security checks fire on new devices, and SMS codes like “[Binance] SMS verification code: 592731” punctuate everything from binding a phone to confirming a withdrawal. That’s good security — and one more company holding your personal mobile number.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The phone step gets done, and the number stored next to your trading account isn’t the one your bank, your family and your other exchanges already know.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries and the code lands in the app within seconds. The phone step gets done, and the number stored next to your trading account isn’t the one your bank, your family and your other exchanges already know.",
       ],
     },
     whyVirtual: {
@@ -97,7 +97,7 @@ export const binance: ServiceEntry = {
       title: "Виртуальный номер для Binance",
       intro: [
         "Binance охраняет аккаунты так, как и положено бирже: регистрация просит подтверждённый контакт, проверки безопасности срабатывают на новых устройствах, а SMS вида «[Binance] SMS verification code: 592731» сопровождают всё — от привязки телефона до подтверждения вывода. Это хорошая безопасность — и ещё одна компания с вашим личным мобильным в базе.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Телефонный шаг пройден, а номер, записанный рядом с вашим торговым аккаунтом, — не тот, который уже знают ваш банк, семья и другие биржи.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код приходит в приложение за считанные секунды. Телефонный шаг пройден, а номер, записанный рядом с вашим торговым аккаунтом, — не тот, который уже знают ваш банк, семья и другие биржи.",
       ],
     },
     whyVirtual: {

@@ -27,7 +27,7 @@ export const vkcom: ServiceEntry = {
       title: "A virtual number for VK",
       intro: [
         "VK doesn't offer a way around the phone number: registration is built on it. Before you can browse communities, message anyone or list an item on the marketplace, VK sends an SMS code to the number you provide — and that number becomes the login and recovery anchor for the whole account.",
-        "With SMS Code you rent a real number from one of 50+ countries, enter it on VK's sign-up form, and the confirmation code lands in the SMS Code app within seconds. The account is fully verified — and your personal number never enters VK's database.",
+        "With SMS Code you rent a real number from one of 150+ countries, enter it on VK's sign-up form, and the confirmation code lands in the SMS Code app within seconds. The account is fully verified — and your personal number never enters VK's database.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const vkcom: ServiceEntry = {
       title: "Виртуальный номер для VK",
       intro: [
         "Обойти номер телефона во «ВКонтакте» не получится: регистрация построена на нём. Прежде чем листать сообщества, писать кому-то или выставить товар на маркетплейсе, VK отправит SMS-код на указанный номер — и этот номер станет логином и якорем восстановления для всего аккаунта.",
-        "С SMS Code вы арендуете настоящий номер из одной из 50+ стран, вводите его в форме регистрации VK — и код подтверждения появляется в приложении SMS Code за секунды. Аккаунт полностью подтверждён, а ваш личный номер в базу VK так и не попал.",
+        "С SMS Code вы арендуете настоящий номер из одной из 150+ стран, вводите его в форме регистрации VK — и код подтверждения появляется в приложении SMS Code за секунды. Аккаунт полностью подтверждён, а ваш личный номер в базу VK так и не попал.",
       ],
     },
     whyVirtual: {

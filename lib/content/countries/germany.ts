@@ -55,7 +55,7 @@ export const germany: CountryEntry = {
       },
       {
         q: "How does payment work?",
-        a: "You pay per activation from a one-time credit pack — no subscription. If an activation never receives its SMS, it cancels free and the credit stays with you.",
+        a: "You pay per activation from a one-time coin pack — no subscription. If an activation never receives its SMS, it cancels free and the coins stay with you.",
       },
       {
         q: "Is the number mine permanently?",
@@ -110,7 +110,7 @@ export const germany: CountryEntry = {
       },
       {
         q: "Как устроена оплата?",
-        a: "Вы платите за каждую активацию из разового пакета кредитов — без подписки. Если по активации SMS так и не пришла, она отменяется бесплатно, и кредиты остаются у вас.",
+        a: "Вы платите за каждую активацию из разового пакета монет — без подписки. Если по активации SMS так и не пришла, она отменяется бесплатно, и монеты остаются у вас.",
       },
       {
         q: "Номер остаётся у меня навсегда?",

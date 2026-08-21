@@ -65,7 +65,7 @@ export const howToReceiveSmsOnline: BlogPost = {
       },
       {
         type: "h2",
-        id: "step-by-step-with-sms-activate",
+        id: "step-by-step-with-sms-code",
         text: "Receiving a code with SMS Code, step by step",
       },
       {
@@ -77,7 +77,7 @@ export const howToReceiveSmsOnline: BlogPost = {
         items: [
           {
             title: "Pick the service and a country",
-            body: "In SMS Code, choose what you’re verifying — Telegram, WhatsApp, Google, 35+ services — and which country the number should come from. Numbers are available in 50+ countries; one tap reserves one for you alone.",
+            body: "In SMS Code, choose what you’re verifying — Telegram, WhatsApp, Google, 100+ services — and which country the number should come from. Numbers are available in 150+ countries; one tap reserves one for you alone.",
           },
           {
             title: "Enter the number in the sign-up form",
@@ -137,7 +137,7 @@ export const howToReceiveSmsOnline: BlogPost = {
           },
           {
             q: "How much does it cost?",
-            a: "You buy a one-time pack of activation credits in the app and spend one credit per received code. There’s no subscription and credits don’t expire — and if a code never arrives, you cancel the activation free and pay nothing.",
+            a: "You buy a one-time pack of coins in the app and spend coins per activation — from 20, depending on the service and the country, with the exact price shown before you confirm. There’s no subscription and coins don’t expire, and if a code never arrives the activation cancels free and the coins come back.",
           },
         ],
       },
@@ -203,7 +203,7 @@ export const howToReceiveSmsOnline: BlogPost = {
       },
       {
         type: "h2",
-        id: "poshagovo-s-sms-activate",
+        id: "poshagovo-s-sms-code",
         text: "Получаем код через SMS Code: по шагам",
       },
       {
@@ -215,7 +215,7 @@ export const howToReceiveSmsOnline: BlogPost = {
         items: [
           {
             title: "Выберите сервис и страну",
-            body: "В SMS Code укажите, что вы подтверждаете — Telegram, WhatsApp, Google, 35+ сервисов, — и страну номера. Номера доступны в 50+ странах; одно касание резервирует номер только за вами.",
+            body: "В SMS Code укажите, что вы подтверждаете — Telegram, WhatsApp, Google, 100+ сервисов, — и страну номера. Номера доступны в 150+ странах; одно касание резервирует номер только за вами.",
           },
           {
             title: "Введите номер в форму регистрации",
@@ -275,7 +275,7 @@ export const howToReceiveSmsOnline: BlogPost = {
           },
           {
             q: "Сколько это стоит?",
-            a: "Вы покупаете разовый пакет кредитов в приложении и тратите один кредит за один полученный код. Подписки нет, кредиты не сгорают — а если код так и не пришёл, активация отменяется бесплатно, и вы не платите ничего.",
+            a: "Вы покупаете разовый пакет монет в приложении и тратите монеты за активацию — от 20, в зависимости от сервиса и страны, а точная цена видна до подтверждения. Подписки нет, монеты не сгорают, а если код так и не пришёл, активация отменяется бесплатно и монеты возвращаются.",
           },
         ],
       },

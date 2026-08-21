@@ -30,7 +30,7 @@ export function AlternativesIndexPage({ locale }: { locale: Locale }) {
         <h1 className="max-w-3xl text-[clamp(32px,4.2vw,50px)] leading-[1.08] tracking-[-0.02em]">
           {t.title}
         </h1>
-        <p className="mt-[22px] max-w-xl text-subheading text-steel-gray">
+        <p className="mt-[22px] max-w-xl text-subheading text-ink-muted">
           {t.sub}
         </p>
       </section>
@@ -42,11 +42,11 @@ export function AlternativesIndexPage({ locale }: { locale: Locale }) {
             <Link
               key={alt.slug}
               href={localePath(locale, `/alternatives/${alt.slug}`)}
-              className="card group flex flex-col transition-colors hover:!border-signal-blue"
+              className="card group flex flex-col transition-colors hover:!border-accent"
             >
               <span className="tag-chip">{alt.competitorName}</span>
               <h2 className="mt-[22px] text-subheading">{c.hero.title}</h2>
-              <p className="mt-[10px] flex-1 text-label text-steel-gray">
+              <p className="mt-[10px] flex-1 text-label text-ink-muted">
                 {c.metaDescription}
               </p>
               <span className="blue-link mt-[22px] text-label">
@@ -57,7 +57,7 @@ export function AlternativesIndexPage({ locale }: { locale: Locale }) {
         })}
       </section>
 
-      <p className="pb-[94px] text-caption text-ash-gray">
+      <p className="pb-[94px] text-caption text-muted">
         {chrome.disclaimer}
       </p>
     </div>

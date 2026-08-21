@@ -22,12 +22,12 @@ export const whatsapp: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for WhatsApp — Verify Without a SIM Card",
     metaDescription:
-      "Verify WhatsApp with a real virtual number from 50+ countries. The 6-digit code lands in the app in seconds — no SIM, no subscription, free cancel if no SMS.",
+      "Verify WhatsApp with a real virtual number from 150+ countries. The 6-digit code lands in the app in seconds — no SIM, no subscription, free cancel if no SMS.",
     hero: {
       title: "A virtual number for WhatsApp",
       intro: [
         "In WhatsApp, the phone number isn't just a login — it is the account. Every contact who has your number saved sees your profile, and moving to a different number means walking through the official Change Number flow. Whatever number you register with, you're wearing it in public.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries, enter it on WhatsApp's sign-up screen, and the 6-digit verification code appears in the app within seconds. You pay per activation from a one-time credit pack — and if a number receives nothing, you cancel it without being charged.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries, enter it on WhatsApp's sign-up screen, and the 6-digit verification code appears in the app within seconds. You pay per activation from a one-time coin pack — and if a number receives nothing, you cancel it without being charged.",
       ],
     },
     whyVirtual: {
@@ -98,12 +98,12 @@ export const whatsapp: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для WhatsApp — регистрация без SIM-карты",
     metaDescription:
-      "Подтвердите WhatsApp настоящим виртуальным номером из 50+ стран. 6-значный код приходит в приложение за секунды — без SIM и подписки, отмена без списания.",
+      "Подтвердите WhatsApp настоящим виртуальным номером из 150+ стран. 6-значный код приходит в приложение за секунды — без SIM и подписки, отмена без списания.",
     hero: {
       title: "Виртуальный номер для WhatsApp",
       intro: [
         "В WhatsApp номер телефона — не просто логин, а сам аккаунт. Каждый, у кого ваш номер записан в контактах, видит ваш профиль, а переезд на другой номер — это отдельная официальная процедура «Изменить номер». С каким номером зарегистрировались, с тем и живёте на виду.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его на экране регистрации WhatsApp — и 6-значный код подтверждения появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его на экране регистрации WhatsApp — и 6-значный код подтверждения появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
       ],
     },
     whyVirtual: {

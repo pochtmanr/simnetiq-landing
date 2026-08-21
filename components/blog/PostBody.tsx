@@ -23,7 +23,7 @@ export function PostBody({
         switch (block.type) {
           case "p":
             return (
-              <p key={i} className="max-w-[68ch] text-body text-steel-gray">
+              <p key={i} className="max-w-[68ch] text-body text-ink-muted">
                 {block.text}
               </p>
             );
@@ -39,12 +39,12 @@ export function PostBody({
             );
           case "list": {
             const cls =
-              "flex max-w-[68ch] flex-col gap-[10px] text-body text-steel-gray";
+              "flex max-w-[68ch] flex-col gap-[10px] text-body text-ink-muted";
             const marker = (n: number) =>
               block.ordered ? (
-                <span className="shrink-0 text-signal-blue">{n + 1}.</span>
+                <span className="shrink-0 text-accent-deep">{n + 1}.</span>
               ) : (
-                <span className="shrink-0 text-signal-blue">·</span>
+                <span className="shrink-0 text-accent-deep">·</span>
               );
             return block.ordered ? (
               <ol key={i} className={cls}>
@@ -73,7 +73,7 @@ export function PostBody({
                   <div key={step.title} className="card !p-[26px]">
                     <span className="section-label">{j + 1}</span>
                     <h3 className="text-subheading">{step.title}</h3>
-                    <p className="mt-[10px] text-label text-steel-gray">
+                    <p className="mt-[10px] text-label text-ink-muted">
                       {step.body}
                     </p>
                   </div>
@@ -84,7 +84,7 @@ export function PostBody({
             return (
               <p
                 key={i}
-                className="max-w-[68ch] rounded-[22px] border-[0.5px] border-signal-blue/40 bg-signal-blue/[0.04] px-[22px] py-[18px] text-body text-off-black"
+                className="max-w-[68ch] rounded-card border border-accent/40 bg-panel-ink/[0.04] px-[22px] py-[18px] text-body text-ink"
               >
                 {block.text}
               </p>
@@ -93,21 +93,21 @@ export function PostBody({
             return (
               <div key={i}>
                 <JsonLd data={faqPage(block.items)} />
-                <div className="overflow-hidden rounded-[30px] border-[0.5px] border-black/[0.06] bg-pure-white">
+                <div className="overflow-hidden rounded-card border border-border bg-card">
                   {block.items.map((item, j) => (
                     <details
                       key={item.q}
                       className={`group px-[clamp(22px,4vw,34px)] py-[22px] ${
-                        j > 0 ? "border-t-[0.5px] border-black/[0.06]" : ""
+                        j > 0 ? "border-t border-border" : ""
                       }`}
                     >
                       <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-body [&::-webkit-details-marker]:hidden">
                         {item.q}
-                        <span className="text-signal-blue transition-transform group-open:rotate-45">
+                        <span className="text-accent-deep transition-transform group-open:rotate-45">
                           +
                         </span>
                       </summary>
-                      <p className="mt-[10px] max-w-[56ch] text-label text-steel-gray">
+                      <p className="mt-[10px] max-w-[56ch] text-label text-ink-muted">
                         {item.a}
                       </p>
                     </details>
@@ -121,11 +121,11 @@ export function PostBody({
                 <img
                   src={block.src}
                   alt={block.alt}
-                  className="w-full rounded-[30px] border-[0.5px] border-black/[0.06]"
+                  className="w-full rounded-card border border-border"
                   loading="lazy"
                 />
                 {block.caption && (
-                  <figcaption className="mt-[10px] text-caption text-ash-gray">
+                  <figcaption className="mt-[10px] text-caption text-muted">
                     {block.caption}
                   </figcaption>
                 )}
@@ -141,7 +141,7 @@ export function PostBody({
                 className="card my-[12px] flex flex-col items-center gap-[22px] text-center"
               >
                 <h3 className="max-w-md text-subheading">{t.ctaTitle}</h3>
-                <p className="text-label text-steel-gray">{t.ctaBody}</p>
+                <p className="text-label text-ink-muted">{t.ctaBody}</p>
                 <StoreBadges locale={locale} placement="browse" />
                 {service && (
                   <Link

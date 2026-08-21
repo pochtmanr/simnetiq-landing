@@ -22,12 +22,12 @@ export const tinder: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Tinder — Sign Up Without Your Number",
     metaDescription:
-      "Tinder won't start without a phone number. Verify it with a real virtual number from 50+ countries — the SMS code arrives in seconds, free cancel if nothing comes.",
+      "Tinder won't start without a phone number. Verify it with a real virtual number from 150+ countries — the SMS code arrives in seconds, free cancel if nothing comes.",
     hero: {
       title: "A virtual number for Tinder",
       intro: [
         "There's no way around it: Tinder requires a phone number to create an account. The very first screen asks for one, sends an SMS code and won't show you a single profile until it's entered. Email, Apple or Google sign-in can be attached later — the number is what the account hangs on.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries, type it into Tinder, and the code appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and if a number receives nothing, you cancel it without being charged.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries, type it into Tinder, and the code appears in the app within seconds. You pay per activation from a one-time coin pack — no subscription — and if a number receives nothing, you cancel it without being charged.",
       ],
     },
     whyVirtual: {
@@ -98,12 +98,12 @@ export const tinder: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Tinder — регистрация без своего номера",
     metaDescription:
-      "Tinder не запустится без номера телефона. Подтвердите его настоящим виртуальным номером из 50+ стран — SMS с кодом за секунды, отмена без списания, если код не пришёл.",
+      "Tinder не запустится без номера телефона. Подтвердите его настоящим виртуальным номером из 150+ стран — SMS с кодом за секунды, отмена без списания, если код не пришёл.",
     hero: {
       title: "Виртуальный номер для Tinder",
       intro: [
         "Обойти это не получится: для аккаунта Tinder номер телефона обязателен. Самый первый экран просит его, присылает SMS с кодом и не покажет ни одной анкеты, пока код не введён. Почту, Apple или Google можно привязать потом — держится аккаунт именно на номере.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его в Tinder — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его в Tinder — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
       ],
     },
     whyVirtual: {

@@ -23,7 +23,7 @@ export default function GlobalNotFound() {
       <body className="flex min-h-full flex-col items-center justify-center px-6 text-center">
         <span className="tag-chip">404</span>
         <h1 className="mt-[22px] text-heading">This page doesn’t exist</h1>
-        <p className="mt-[10px] max-w-md text-body text-steel-gray">
+        <p className="mt-[10px] max-w-md text-body text-ink-muted">
           Такой страницы нет. Everything about SMS Code lives on the home
           page.
         </p>

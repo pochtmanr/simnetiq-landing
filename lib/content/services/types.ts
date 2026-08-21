@@ -57,7 +57,7 @@ export interface ServiceEntry {
   popularCountries: string[];
   /** ISO date of last substantive copy edit — feeds sitemap lastModified. */
   updatedAt: string;
-  /** A realistic OTP text in this service's actual format — feeds PhoneMock. */
+  /** A realistic OTP text in this service’s actual format. Not rendered today. */
   smsExample: { sender: string; message: string; code: string };
   en: ServiceCopy;
   ru: ServiceCopy;

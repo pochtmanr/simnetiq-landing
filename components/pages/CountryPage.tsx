@@ -42,7 +42,7 @@ export function CountryPage({
           className="pointer-events-none absolute -top-[180px] bottom-0 left-[calc(50%-50vw)] -z-10 w-screen"
           style={{
             background:
-              "radial-gradient(ellipse 70% 60% at 72% 32%, rgba(0, 113, 227, 0.08), transparent 68%)",
+              "radial-gradient(ellipse 70% 60% at 72% 32%, rgba(89, 161, 252, 0.08), transparent 68%)",
           }}
         />
         <div>
@@ -55,7 +55,7 @@ export function CountryPage({
           {c.hero.intro.map((p, i) => (
             <p
               key={i}
-              className={`max-w-xl text-steel-gray ${i === 0 ? "mt-[22px] text-subheading" : "mt-[15px] text-body"}`}
+              className={`max-w-xl text-ink-muted ${i === 0 ? "mt-[22px] text-subheading" : "mt-[15px] text-body"}`}
             >
               {p}
             </p>
@@ -71,11 +71,11 @@ export function CountryPage({
             <span className="text-[44px] leading-none">{entry.flag}</span>
             <span className="text-subheading">{entry.name[locale]}</span>
           </div>
-          <div className="mt-[22px] border-t-[0.5px] border-black/[0.06] pt-[22px]">
+          <div className="mt-[22px] border-t border-border pt-[22px]">
             <span className="section-label">{t.country.dialingCode}</span>
-            <p className="text-heading text-signal-blue">{entry.dialingCode}</p>
+            <p className="text-heading text-accent-deep">{entry.dialingCode}</p>
           </div>
-          <div className="mt-[22px] border-t-[0.5px] border-black/[0.06] pt-[22px]">
+          <div className="mt-[22px] border-t border-border pt-[22px]">
             <span className="section-label">{t.country.numberFormat}</span>
             <p className="text-subheading">{entry.numberFormat}</p>
           </div>
@@ -84,11 +84,11 @@ export function CountryPage({
 
       {/* Why this country */}
       <section>
-        <div className="rounded-[63px] border-[0.5px] border-black/[0.06] bg-pure-white p-[clamp(30px,5vw,69px)]">
+        <div className="panel">
           <h2 className="max-w-2xl text-heading">{c.whyCountry.title}</h2>
           <div className="mt-[22px] grid gap-[22px] md:grid-cols-2">
             {c.whyCountry.body.map((p, i) => (
-              <p key={i} className="text-body text-steel-gray">
+              <p key={i} className="text-body text-ink-muted">
                 {p}
               </p>
             ))}
@@ -104,10 +104,10 @@ export function CountryPage({
           {c.tips.map((tip) => (
             <div
               key={tip.title}
-              className="border-t-[0.5px] border-black/[0.06] pt-[22px]"
+              className="border-t border-border pt-[22px]"
             >
-              <h3 className="text-body text-pure-black">{tip.title}</h3>
-              <p className="mt-[10px] text-label text-steel-gray">{tip.body}</p>
+              <h3 className="text-body text-ink">{tip.title}</h3>
+              <p className="mt-[10px] text-label text-ink-muted">{tip.body}</p>
             </div>
           ))}
         </div>
@@ -117,21 +117,23 @@ export function CountryPage({
       <section className="mx-auto max-w-3xl pt-[94px]">
         <span className="section-label">{t.faqLabel}</span>
         <h2 className="text-heading">FAQ</h2>
-        <div className="mt-[34px] overflow-hidden rounded-[30px] border-[0.5px] border-black/[0.06] bg-pure-white">
+        <div className="mt-[34px]">
           {c.faqs.map((item, i) => (
             <details
               key={item.q}
-              className={`group px-[clamp(22px,4vw,34px)] py-[22px] ${
-                i > 0 ? "border-t-[0.5px] border-black/[0.06]" : ""
+              className={`group py-[21px] ${
+                i > 0 ? "border-t border-border" : ""
               }`}
             >
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-body [&::-webkit-details-marker]:hidden">
-                {item.q}
-                <span className="text-signal-blue transition-transform group-open:rotate-45">
+              <summary className="flex cursor-pointer list-none items-start justify-between gap-6 [&::-webkit-details-marker]:hidden">
+                <h3 className="font-display text-heading-sm font-light text-ink">
+                  {item.q}
+                </h3>
+                <span className="mt-[6px] shrink-0 text-accent-deep transition-transform group-open:rotate-45">
                   +
                 </span>
               </summary>
-              <p className="mt-[10px] max-w-[56ch] text-label text-steel-gray">
+              <p className="mt-[11px] max-w-[62ch] text-body text-ink-muted">
                 {item.a}
               </p>
             </details>

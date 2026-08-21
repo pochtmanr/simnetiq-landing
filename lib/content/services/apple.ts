@@ -27,7 +27,7 @@ export const apple: ServiceEntry = {
       title: "A virtual number for Apple",
       intro: [
         "A new Apple Account can’t be finished without a phone: during sign-up Apple asks for a number, texts a six-digit code to prove you control it, and then keeps that number as a “trusted phone number” — the channel it will use for two-factor authentication from that day on.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries, receive Apple’s code in the app within seconds and complete the sign-up. Your personal number stays out of the account — and you decide later which trusted numbers and devices the account should rely on.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries, receive Apple’s code in the app within seconds and complete the sign-up. Your personal number stays out of the account — and you decide later which trusted numbers and devices the account should rely on.",
       ],
     },
     whyVirtual: {
@@ -87,7 +87,7 @@ export const apple: ServiceEntry = {
       },
       {
         q: "Can I create an Apple Account for another country’s App Store?",
-        a: "You can pick a number from any of 50+ countries, and matching it to the account’s region keeps things tidy. Just know that the storefront follows the account’s country and payment settings, not the phone — the number verifies you, it doesn’t relocate the store.",
+        a: "You can pick a number from any of 150+ countries, and matching it to the account’s region keeps things tidy. Just know that the storefront follows the account’s country and payment settings, not the phone — the number verifies you, it doesn’t relocate the store.",
       },
       {
         q: "Why didn’t my Apple code arrive?",
@@ -103,7 +103,7 @@ export const apple: ServiceEntry = {
       title: "Виртуальный номер для Apple",
       intro: [
         "Новый Apple Account не создать без телефона: при регистрации Apple просит номер, отправляет на него шестизначный код, чтобы убедиться, что номер под вашим контролем, — и с этого момента хранит его как «доверенный номер телефона», канал двухфакторной аутентификации.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, получаете код Apple в приложении за считанные секунды и завершаете регистрацию. Личный номер в аккаунт не попадает — а какими доверенными номерами и устройствами аккаунт будет жить дальше, решаете вы.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, получаете код Apple в приложении за считанные секунды и завершаете регистрацию. Личный номер в аккаунт не попадает — а какими доверенными номерами и устройствами аккаунт будет жить дальше, решаете вы.",
       ],
     },
     whyVirtual: {
@@ -163,7 +163,7 @@ export const apple: ServiceEntry = {
       },
       {
         q: "Можно ли создать Apple Account для App Store другой страны?",
-        a: "Номер можно взять в любой из 50+ стран, и совпадение с регионом аккаунта делает картину аккуратнее. Но помните: витрина App Store определяется страной аккаунта и настройками оплаты, а не телефоном — номер подтверждает вас, а не переносит магазин.",
+        a: "Номер можно взять в любой из 150+ стран, и совпадение с регионом аккаунта делает картину аккуратнее. Но помните: витрина App Store определяется страной аккаунта и настройками оплаты, а не телефоном — номер подтверждает вас, а не переносит магазин.",
       },
       {
         q: "Почему не пришёл код Apple?",

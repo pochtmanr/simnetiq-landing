@@ -27,7 +27,7 @@ export const kakaotalk: ServiceEntry = {
       title: "A virtual number for KakaoTalk",
       intro: [
         "KakaoTalk is how Korea talks — group chats, family threads, business contacts — and like every serious messenger it opens with a phone screen. Sign-up sends a short code such as “[KakaoTalk] 4829 is your verification code”, and there’s no email-only path around it.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries and the code appears in the app within seconds. You get into the conversation — and the Korean friends, colleagues or in-laws waiting there never need your personal number to reach you.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries and the code appears in the app within seconds. You get into the conversation — and the Korean friends, colleagues or in-laws waiting there never need your personal number to reach you.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const kakaotalk: ServiceEntry = {
       title: "Виртуальный номер для KakaoTalk",
       intro: [
         "KakaoTalk — это то, как разговаривает Корея: групповые чаты, семейные переписки, деловые контакты. И, как всякий серьёзный мессенджер, он начинается с экрана телефона. При регистрации приходит короткий код вида «[KakaoTalk] 4829 is your verification code», и пути «только по почте» здесь не существует.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Вы входите в разговор — а корейским друзьям, коллегам или родственникам, которые там ждут, ваш личный номер для этого не нужен.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код появляется в приложении за считанные секунды. Вы входите в разговор — а корейским друзьям, коллегам или родственникам, которые там ждут, ваш личный номер для этого не нужен.",
       ],
     },
     whyVirtual: {

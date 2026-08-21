@@ -27,7 +27,7 @@ export const google: ServiceEntry = {
       title: "A virtual number for Google",
       intro: [
         "Creating a Google account is supposed to take a minute — until the sign-up form asks for a phone number. Google decides dynamically whether to require verification, and once it does, there's no way past that screen without receiving a real SMS. The code arrives from “Google” and looks like “G-482915”.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries, enter it on Google's verification screen, and the G-code appears in the app within seconds. Your new Gmail gets created — and your personal number stays out of it.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries, enter it on Google's verification screen, and the G-code appears in the app within seconds. Your new Gmail gets created — and your personal number stays out of it.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const google: ServiceEntry = {
       title: "Виртуальный номер для Google",
       intro: [
         "Создание аккаунта Google должно занимать минуту — пока форма регистрации не попросит номер телефона. Google решает динамически, требовать ли подтверждение, и если потребовал, мимо этого экрана не пройти без настоящей SMS. Код приходит от отправителя «Google» и выглядит как «G-482915».",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, вводите его на экране подтверждения Google — и код G- появляется в приложении за считанные секунды. Новый Gmail создан, а ваш личный номер к нему не привязан.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его на экране подтверждения Google — и код G- появляется в приложении за считанные секунды. Новый Gmail создан, а ваш личный номер к нему не привязан.",
       ],
     },
     whyVirtual: {

@@ -60,7 +60,7 @@ export const telegramWithoutPhoneNumber: BlogPost = {
         items: [
           {
             title: "Rent a number for Telegram",
-            body: "In the SMS Code app, pick Telegram as the service and choose a country — there are real mobile numbers in 50+ countries. One tap reserves a number just for you. You pay per activation from a one-time credit pack; there’s no subscription, and if no code ever arrives, the activation cancels free.",
+            body: "In the SMS Code app, pick Telegram as the service and choose a country — there are real mobile numbers in 150+ countries. One tap reserves a number just for you. You pay per activation from a one-time coin pack; there’s no subscription, and if no code ever arrives, the activation cancels free.",
           },
           {
             title: "Enter the number in Telegram",
@@ -194,7 +194,7 @@ export const telegramWithoutPhoneNumber: BlogPost = {
         items: [
           {
             title: "Арендуйте номер для Telegram",
-            body: "В приложении SMS Code выберите сервис Telegram и страну — настоящие мобильные номера есть в 50+ странах. Одно касание — и номер зарезервирован только для вас. Оплата за активацию из разового пакета кредитов: подписки нет, а если код так и не пришёл, активация отменяется бесплатно.",
+            body: "В приложении SMS Code выберите сервис Telegram и страну — настоящие мобильные номера есть в 150+ странах. Одно касание — и номер зарезервирован только для вас. Оплата за активацию из разового пакета монет: подписки нет, а если код так и не пришёл, активация отменяется бесплатно.",
           },
           {
             title: "Введите номер в Telegram",

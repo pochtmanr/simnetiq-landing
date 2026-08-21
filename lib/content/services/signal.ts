@@ -22,12 +22,12 @@ export const signal: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Signal — Private Sign-Up Without a SIM",
     metaDescription:
-      "Register Signal with a real virtual number from 50+ countries. The code arrives in the app in seconds — pay per activation, no subscription, free cancel if no SMS.",
+      "Register Signal with a real virtual number from 150+ countries. The code arrives in the app in seconds — pay per activation, no subscription, free cancel if no SMS.",
     hero: {
       title: "A virtual number for Signal",
       intro: [
         "Here's the irony of Signal: the messenger that encrypts everything, stores almost nothing and gets recommended by every privacy researcher still asks for a phone number before you can send your first message. Registration is built on the SMS code — even though usernames now mean nobody ever has to see that number afterwards.",
-        "With SMS Code you close that last gap: rent a real mobile number in one of 50+ countries, register Signal with it, and the code appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and an activation that received no SMS is cancelled without charge.",
+        "With SMS Code you close that last gap: rent a real mobile number in one of 150+ countries, register Signal with it, and the code appears in the app within seconds. You pay per activation from a one-time coin pack — no subscription — and an activation that received no SMS is cancelled without charge.",
       ],
     },
     whyVirtual: {
@@ -98,12 +98,12 @@ export const signal: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Signal — приватная регистрация без SIM",
     metaDescription:
-      "Зарегистрируйте Signal настоящим виртуальным номером из 50+ стран. Код приходит в приложение за секунды — оплата за активацию, без подписки, отмена без списания.",
+      "Зарегистрируйте Signal настоящим виртуальным номером из 150+ стран. Код приходит в приложение за секунды — оплата за активацию, без подписки, отмена без списания.",
     hero: {
       title: "Виртуальный номер для Signal",
       intro: [
         "Ирония Signal в том, что мессенджер, который шифрует всё, почти ничего не хранит и рекомендован каждым исследователем приватности, всё равно просит номер телефона до первого сообщения. Регистрация построена на SMS-коде — хотя с появлением юзернеймов этот номер потом можно вообще никому не показывать.",
-        "С SMS Code вы закрываете эту последнюю брешь: арендуете настоящий мобильный номер в одной из 50+ стран, регистрируете на него Signal — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а активация, на которую SMS не пришла, отменяется без списания.",
+        "С SMS Code вы закрываете эту последнюю брешь: арендуете настоящий мобильный номер в одной из 150+ стран, регистрируете на него Signal — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а активация, на которую SMS не пришла, отменяется без списания.",
       ],
     },
     whyVirtual: {

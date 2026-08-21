@@ -59,7 +59,7 @@ export const thailand: CountryEntry = {
       },
       {
         q: "Can I reuse the number for another service later?",
-        a: "Each activation is tied to one service for its window. If you need to verify several services, run separate activations — each one is paid from your credit pack individually.",
+        a: "Each activation is tied to one service for its window. If you need to verify several services, run separate activations — each one is paid from your coin balance individually.",
       },
     ],
   },
@@ -114,7 +114,7 @@ export const thailand: CountryEntry = {
       },
       {
         q: "Можно ли позже использовать номер для другого сервиса?",
-        a: "Каждая активация привязана к одному сервису на своё окно. Если нужно подтвердить несколько сервисов, запускайте отдельные активации — каждая оплачивается из пакета кредитов по отдельности.",
+        a: "Каждая активация привязана к одному сервису на своё окно. Если нужно подтвердить несколько сервисов, запускайте отдельные активации — каждая оплачивается из баланса монет по отдельности.",
       },
     ],
   },

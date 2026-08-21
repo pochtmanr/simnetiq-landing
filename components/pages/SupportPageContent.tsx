@@ -10,7 +10,7 @@ export function SupportPageContent({ locale }: { locale: Locale }) {
       <section className="pb-[50px] pt-[69px]">
         <span className="section-label">{t.label}</span>
         <h1 className="text-heading">{t.title}</h1>
-        <p className="mt-[15px] max-w-xl text-body text-steel-gray">
+        <p className="mt-[15px] max-w-xl text-body text-ink-muted">
           {t.introBefore}
           <a href={`mailto:${SUPPORT_EMAIL}`} className="blue-link">
             {SUPPORT_EMAIL}
@@ -23,8 +23,8 @@ export function SupportPageContent({ locale }: { locale: Locale }) {
         <div className="flex flex-col gap-[22px]">
           {t.items.map((item) => (
             <div key={item.title} className="card !p-[34px]">
-              <h2 className="text-subheading">{item.title}</h2>
-              <p className="mt-[10px] text-label text-steel-gray">{item.body}</p>
+              <h2 className="font-sans text-subheading font-medium">{item.title}</h2>
+              <p className="mt-[10px] text-label text-ink-muted">{item.body}</p>
             </div>
           ))}
         </div>

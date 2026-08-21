@@ -22,12 +22,12 @@ export const twitter: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for X (Twitter) — Unlock Without Your Number",
     metaDescription:
-      "Pass X (Twitter) phone verification with a real virtual number from 50+ countries. The code arrives in seconds — pay per activation, free cancel if no SMS.",
+      "Pass X (Twitter) phone verification with a real virtual number from 150+ countries. The code arrives in seconds — pay per activation, free cancel if no SMS.",
     hero: {
       title: "A virtual number for X (Twitter)",
       intro: [
         "You can create an X account with nothing but an email — the sign-up form itself doesn't insist on a phone. The catch arrives minutes or days later: fresh accounts are routinely locked “to confirm you're not a robot”, and the unlock screen wants a phone number that can receive an SMS right now. For many people, that challenge is the real registration step.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries, give it to X at exactly that moment, and the confirmation code appears in the app within seconds. You pay per activation from a one-time credit pack — no subscription — and a number that received nothing is cancelled without charge.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries, give it to X at exactly that moment, and the confirmation code appears in the app within seconds. You pay per activation from a one-time coin pack — no subscription — and a number that received nothing is cancelled without charge.",
       ],
     },
     whyVirtual: {
@@ -98,12 +98,12 @@ export const twitter: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для X (Twitter) — разблокировка без своего номера",
     metaDescription:
-      "Пройдите проверку телефона в X (Twitter) настоящим виртуальным номером из 50+ стран. Код за секунды — оплата за активацию, отмена без списания, если SMS нет.",
+      "Пройдите проверку телефона в X (Twitter) настоящим виртуальным номером из 150+ стран. Код за секунды — оплата за активацию, отмена без списания, если SMS нет.",
     hero: {
       title: "Виртуальный номер для X (Twitter)",
       intro: [
         "Создать аккаунт X можно по одной почте — сама форма регистрации телефон не требует. Подвох приходит через минуты или дни: свежие аккаунты стабильно блокируют «для подтверждения, что вы не робот», а экран разблокировки хочет номер, способный принять SMS прямо сейчас. Для многих именно эта проверка и есть настоящая регистрация.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, отдаёте его X ровно в этот момент — и код подтверждения появляется в приложении за считанные секунды. Платите за активацию из разового пакета кредитов, без подписки, а номер, на который ничего не пришло, отменяется без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, отдаёте его X ровно в этот момент — и код подтверждения появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а номер, на который ничего не пришло, отменяется без списания.",
       ],
     },
     whyVirtual: {

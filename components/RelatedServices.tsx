@@ -26,7 +26,7 @@ export function RelatedServices({
           <Link
             key={entry.slug}
             href={localePath(locale, `/virtual-numbers/${entry.slug}`)}
-            className="group flex flex-col items-center gap-[12px] rounded-[30px] border-[0.5px] border-black/[0.06] bg-pure-white px-4 py-[26px] transition-colors hover:border-signal-blue"
+            className="group flex flex-col items-center gap-[12px] rounded-card border border-border bg-card px-4 py-[26px] transition-colors hover:border-accent"
           >
             <img
               src={entry.logo}
@@ -34,7 +34,7 @@ export function RelatedServices({
               className="h-8 w-8"
               loading="lazy"
             />
-            <span className="text-label text-off-black">{entry.name}</span>
+            <span className="text-label text-ink">{entry.name}</span>
           </Link>
         ))}
       </div>

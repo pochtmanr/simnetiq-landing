@@ -12,7 +12,7 @@ export const smsMan: AlternativeEntry = {
       title: "An SMS-Man alternative billed through your app store",
       intro: [
         "SMS-Man is a long-running web service for receiving SMS verification codes on virtual numbers. You register on their site, top up an account balance — public descriptions of the service mention a wide spread of methods, from bank cards to e-payment systems and cryptocurrency — and buy numbers per activation, with an API available for automated workflows.",
-        "SMS Code by SIMNETIQ trades that flexibility for a simpler trust model. It's a native iOS app where payment happens entirely through Apple billing: you buy a one-time credit pack the same way you'd buy any in-app purchase, and no card number, wallet address or payment credential is ever shared with us. Pick a service and country, and the code arrives in-app within seconds.",
+        "SMS Code by SIMNETIQ trades that flexibility for a simpler trust model. It's a native iOS app where payment happens entirely through Apple billing: you buy a one-time coin pack the same way you'd buy any in-app purchase, and no card number, wallet address or payment credential is ever shared with us. Pick a service and country, and the code arrives in-app within seconds.",
       ],
     },
     whenThem: {
@@ -21,7 +21,7 @@ export const smsMan: AlternativeEntry = {
     },
     whenUs: {
       title: "When the SMS Code app fits better",
-      body: "Choose the app if you'd rather not hand payment details to a niche website at all. Store billing is the whole point: Apple or Google processes the charge, we never see your card, and the purchase sits in your normal store history with its usual protections. On top of that you get the native-app experience — a few taps from service to code, 50+ countries, 35+ popular services, one-time credit packs with no subscription, and free cancellation whenever an activation receives no SMS.",
+      body: "Choose the app if you'd rather not hand payment details to a niche website at all. Store billing is the whole point: Apple or Google processes the charge, we never see your card, and the purchase sits in your normal store history with its usual protections. On top of that you get the native-app experience — a few taps from service to code, 150+ countries, 100+ popular services, one-time coin packs with no subscription, and free cancellation whenever an activation receives no SMS.",
     },
     comparison: {
       title: "SMS-Man vs the SMS Code app, side by side",
@@ -34,7 +34,7 @@ export const smsMan: AlternativeEntry = {
         {
           label: "Pricing model",
           competitor: "Pay per activation from a topped-up account balance",
-          us: "One-time credit packs, pay per activation — no subscription",
+          us: "One-time coin packs, pay per activation — no subscription",
         },
         {
           label: "Payment",
@@ -44,12 +44,12 @@ export const smsMan: AlternativeEntry = {
         {
           label: "Coverage",
           competitor: "A broad catalog of countries and services aimed at heavy use",
-          us: "50+ countries and 35+ popular services, curated for everyday sign-ups",
+          us: "150+ countries and 100+ popular services, curated for everyday sign-ups",
         },
         {
           label: "Cancellation",
           competitor: "Governed by their own refund rules — check their current terms",
-          us: "Activations that receive no SMS cancel free, credits return",
+          us: "Activations that receive no SMS cancel free, coins return",
         },
         {
           label: "Support",
@@ -72,7 +72,7 @@ export const smsMan: AlternativeEntry = {
           body: "Get SMS Code by SIMNETIQ from the App Store — no website registration or balance top-up involved.",
         },
         {
-          title: "Grab a credit pack",
+          title: "Grab a coin pack",
           body: "Buy a one-time pack through your store account. Apple or Google handles the payment; we never receive your card details.",
         },
         {
@@ -92,11 +92,11 @@ export const smsMan: AlternativeEntry = {
       },
       {
         q: "Is there a subscription or recurring charge?",
-        a: "No. Credit packs are one-time purchases; you spend credits per activation and buy another pack only when you choose to.",
+        a: "No. Coin packs are one-time purchases; you spend coins per activation and buy another pack only when you choose to.",
       },
       {
         q: "What happens if my code never arrives?",
-        a: "The activation cancels and your credits are returned. You only pay for numbers that actually receive an SMS.",
+        a: "The activation cancels and your coins are returned. You only pay for numbers that actually receive an SMS.",
       },
       {
         q: "Does the app have an API like SMS-Man?",
@@ -112,7 +112,7 @@ export const smsMan: AlternativeEntry = {
       title: "Альтернатива SMS-Man с оплатой через магазин приложений",
       intro: [
         "SMS-Man — давно работающий веб-сервис приёма SMS-кодов на виртуальные номера. Вы регистрируетесь на их сайте, пополняете баланс — публичные описания сервиса упоминают широкий набор способов, от банковских карт до электронных платёжных систем и криптовалюты — и покупаете номера поштучно; для автоматизации есть API.",
-        "Приложение SMS Code от SIMNETIQ меняет эту гибкость на более простую модель доверия. Это нативное приложение для iOS, где оплата целиком проходит через Apple: вы покупаете разовый пакет кредитов так же, как любую встроенную покупку, и ни номер карты, ни адрес кошелька, ни другие платёжные данные нам не передаются. Выбираете сервис и страну — и код приходит в приложение за секунды.",
+        "Приложение SMS Code от SIMNETIQ меняет эту гибкость на более простую модель доверия. Это нативное приложение для iOS, где оплата целиком проходит через Apple: вы покупаете разовый пакет монет так же, как любую встроенную покупку, и ни номер карты, ни адрес кошелька, ни другие платёжные данные нам не передаются. Выбираете сервис и страну — и код приходит в приложение за секунды.",
       ],
     },
     whenThem: {
@@ -121,7 +121,7 @@ export const smsMan: AlternativeEntry = {
     },
     whenUs: {
       title: "Когда приложение SMS Code подходит лучше",
-      body: "Выбирайте приложение, если вообще не хотите оставлять платёжные данные на нишевом сайте. Оплата через магазин — в этом весь смысл: списание проводит Apple или Google, мы вашу карту не видим, а покупка попадает в обычную историю магазина со всеми привычными гарантиями. Плюс всё остальное, что даёт нативное приложение: пара касаний от сервиса до кода, 50+ стран, 35+ популярных сервисов, разовые пакеты кредитов без подписки и бесплатная отмена всякий раз, когда на активацию не пришла SMS.",
+      body: "Выбирайте приложение, если вообще не хотите оставлять платёжные данные на нишевом сайте. Оплата через магазин — в этом весь смысл: списание проводит Apple или Google, мы вашу карту не видим, а покупка попадает в обычную историю магазина со всеми привычными гарантиями. Плюс всё остальное, что даёт нативное приложение: пара касаний от сервиса до кода, 150+ стран, 100+ популярных сервисов, разовые пакеты монет без подписки и бесплатная отмена всякий раз, когда на активацию не пришла SMS.",
     },
     comparison: {
       title: "SMS-Man и приложение SMS Code: сравнение",
@@ -134,7 +134,7 @@ export const smsMan: AlternativeEntry = {
         {
           label: "Модель оплаты",
           competitor: "Оплата за активацию с заранее пополненного баланса",
-          us: "Разовые пакеты кредитов, оплата за активацию — без подписки",
+          us: "Разовые пакеты монет, оплата за активацию — без подписки",
         },
         {
           label: "Способ оплаты",
@@ -144,12 +144,12 @@ export const smsMan: AlternativeEntry = {
         {
           label: "Покрытие",
           competitor: "Широкий каталог стран и сервисов с расчётом на интенсивное использование",
-          us: "50+ стран и 35+ популярных сервисов — подборка для повседневных регистраций",
+          us: "150+ стран и 100+ популярных сервисов — подборка для повседневных регистраций",
         },
         {
           label: "Отмена",
           competitor: "По их собственным правилам возврата — проверьте актуальные условия",
-          us: "Активации без входящих SMS отменяются бесплатно, кредиты возвращаются",
+          us: "Активации без входящих SMS отменяются бесплатно, монеты возвращаются",
         },
         {
           label: "Поддержка",
@@ -172,7 +172,7 @@ export const smsMan: AlternativeEntry = {
           body: "Скачайте SMS Code от SIMNETIQ из App Store — без регистрации на сайте и пополнения баланса.",
         },
         {
-          title: "Возьмите пакет кредитов",
+          title: "Возьмите пакет монет",
           body: "Купите разовый пакет через аккаунт магазина. Платёж проводит Apple или Google; данные вашей карты до нас не доходят.",
         },
         {
@@ -192,11 +192,11 @@ export const smsMan: AlternativeEntry = {
       },
       {
         q: "Есть ли подписка или регулярные списания?",
-        a: "Нет. Пакеты кредитов — разовые покупки: вы тратите кредиты на активации и покупаете следующий пакет только тогда, когда сами решите.",
+        a: "Нет. Пакеты монет — разовые покупки: вы тратите монеты на активации и покупаете следующий пакет только тогда, когда сами решите.",
       },
       {
         q: "Что будет, если код так и не придёт?",
-        a: "Активация отменится, а кредиты вернутся. Вы платите только за номера, на которые SMS действительно пришла.",
+        a: "Активация отменится, а монеты вернутся. Вы платите только за номера, на которые SMS действительно пришла.",
       },
       {
         q: "Есть ли у приложения API, как у SMS-Man?",

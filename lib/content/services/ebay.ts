@@ -27,7 +27,7 @@ export const ebay: ServiceEntry = {
       title: "A virtual number for eBay",
       intro: [
         "eBay wants a phone number early and checks it often. Registration asks for one, opening a seller account insists on one, and its sign-in protection loves to pause a login until a text like “Your eBay security code is 271846” gets typed back in. For a marketplace where you mostly wanted to buy a camera lens, that’s a lot of connection to your personal phone.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries and the code shows up in the app within seconds. The account gets verified, the listing goes live — and the number in eBay’s contact records isn’t the one in your pocket.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries and the code shows up in the app within seconds. The account gets verified, the listing goes live — and the number in eBay’s contact records isn’t the one in your pocket.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const ebay: ServiceEntry = {
       title: "Виртуальный номер для eBay",
       intro: [
         "eBay просит номер телефона рано и проверяет его часто. Регистрация спрашивает номер, аккаунт продавца без него не открыть, а защита входа обожает остановить логин, пока вы не введёте текст вида «Your eBay security code is 271846». Многовато привязки к личному телефону для площадки, где вы всего лишь хотели купить объектив.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код появляется в приложении за считанные секунды. Аккаунт подтверждён, объявление опубликовано — а номер в контактных данных eBay не тот, что лежит у вас в кармане.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код появляется в приложении за считанные секунды. Аккаунт подтверждён, объявление опубликовано — а номер в контактных данных eBay не тот, что лежит у вас в кармане.",
       ],
     },
     whyVirtual: {

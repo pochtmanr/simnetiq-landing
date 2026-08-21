@@ -27,7 +27,7 @@ export const instagram: ServiceEntry = {
       title: "A virtual number for Instagram",
       intro: [
         "Instagram lets you sign up with an email address — but the phone step rarely stays optional for long. A new device, an unfamiliar network or a few quick actions right after signup, and Instagram asks you to confirm a phone number before letting you continue. That number ends up tied to the account.",
-        "With SMS Code you rent a real number in one of 50+ countries, give it to Instagram, and the six-digit code lands in the app within seconds. Your personal number stays out of Meta's contact graph — and out of “people you may know” suggestions built on it.",
+        "With SMS Code you rent a real number in one of 150+ countries, give it to Instagram, and the six-digit code lands in the app within seconds. Your personal number stays out of Meta's contact graph — and out of “people you may know” suggestions built on it.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const instagram: ServiceEntry = {
       title: "Виртуальный номер для Instagram",
       intro: [
         "В Instagram можно зарегистрироваться по почте — но шаг с телефоном редко остаётся необязательным надолго. Новое устройство, незнакомая сеть или пара быстрых действий сразу после регистрации — и Instagram просит подтвердить номер телефона, прежде чем пустить дальше. Этот номер привязывается к аккаунту.",
-        "С SMS Code вы арендуете настоящий номер в одной из 50+ стран, указываете его в Instagram — и шестизначный код приходит в приложение за считанные секунды. Ваш личный номер не попадает в контактный граф Meta — и в построенные на нём рекомендации «возможно, вы знакомы».",
+        "С SMS Code вы арендуете настоящий номер в одной из 150+ стран, указываете его в Instagram — и шестизначный код приходит в приложение за считанные секунды. Ваш личный номер не попадает в контактный граф Meta — и в построенные на нём рекомендации «возможно, вы знакомы».",
       ],
     },
     whyVirtual: {

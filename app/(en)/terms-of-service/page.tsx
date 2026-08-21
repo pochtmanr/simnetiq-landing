@@ -45,11 +45,11 @@ export default function TermsOfServicePage() {
         </p>
       </LegalSection>
 
-      <LegalSection title="4. Credits and purchases">
+      <LegalSection title="4. Coins and purchases">
         <ul>
-          <li>Activation credits are one-time in-app purchases processed by the Apple App Store under its payment terms.</li>
-          <li>One credit is spent per successful activation. If an activation is cancelled before a code is received, the credit is returned to your balance.</li>
-          <li>Credits do not expire, are not transferable, and have no cash value.</li>
+          <li>Coins are one-time in-app purchases processed by the Apple App Store under its payment terms.</li>
+          <li>Coins are spent per activation. The amount depends on the service and country and is shown before you confirm. If an activation is cancelled before a code is received, the coins are returned to your balance.</li>
+          <li>Coins do not expire, are not transferable, and have no cash value.</li>
           <li>Refunds are handled through the store you purchased from, under that store&rsquo;s refund policy.</li>
         </ul>
       </LegalSection>
@@ -65,7 +65,7 @@ export default function TermsOfServicePage() {
         </ul>
         <p>
           We may suspend or terminate accounts that violate this section
-          without refund of remaining credits.
+          without refund of remaining coins.
         </p>
       </LegalSection>
 

@@ -37,7 +37,7 @@ export function makeMetadata(opts: {
       alternateLocale: opts.locale === "ru" ? "en_US" : "ru_RU",
       images: [
         {
-          url: opts.ogImage ?? "/social-card.png",
+          url: opts.ogImage ?? "/og",
           width: 1200,
           height: 630,
           alt: SITE_NAME,
@@ -48,7 +48,7 @@ export function makeMetadata(opts: {
       card: "summary_large_image",
       title: opts.title,
       description: opts.description,
-      images: [opts.ogImage ?? "/social-card.png"],
+      images: [opts.ogImage ?? "/og"],
     },
   };
 }
@@ -98,8 +98,8 @@ export function softwareApplication(locale: Locale) {
     author: { "@type": "Organization", name: COMPANY, url: SITE_URL },
     description:
       locale === "ru"
-        ? "Виртуальные номера в 50+ странах для приёма SMS-кодов подтверждения. Регистрируйтесь в Telegram, WhatsApp, Google и 35+ сервисах, не раскрывая личный номер."
-        : "Virtual numbers in 50+ countries for receiving SMS verification codes. Sign up for Telegram, WhatsApp, Google and 35+ services without giving out your personal number.",
+        ? "Виртуальные номера в 150+ странах для приёма SMS-кодов подтверждения. Регистрируйтесь в Telegram, WhatsApp, Google и 100+ сервисах, не раскрывая личный номер."
+        : "Virtual numbers in 150+ countries for receiving SMS verification codes. Sign up for Telegram, WhatsApp, Google and 100+ services without giving out your personal number.",
   };
 }
 
@@ -149,7 +149,7 @@ export function article(opts: {
     dateModified: opts.dateModified,
     inLanguage: opts.locale,
     mainEntityOfPage: absolute(opts.locale, opts.path),
-    image: `${SITE_URL}${opts.image ?? "/social-card.png"}`,
+    image: `${SITE_URL}${opts.image ?? "/og"}`,
     author: { "@type": "Organization", name: COMPANY, url: SITE_URL },
     publisher: {
       "@type": "Organization",

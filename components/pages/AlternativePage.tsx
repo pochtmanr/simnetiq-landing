@@ -37,7 +37,7 @@ export function AlternativePage({
           className="pointer-events-none absolute -top-[180px] bottom-0 left-[calc(50%-50vw)] -z-10 w-screen"
           style={{
             background:
-              "radial-gradient(ellipse 70% 60% at 72% 32%, rgba(0, 113, 227, 0.08), transparent 68%)",
+              "radial-gradient(ellipse 70% 60% at 72% 32%, rgba(89, 161, 252, 0.08), transparent 68%)",
           }}
         />
         <span className="section-label">
@@ -49,7 +49,7 @@ export function AlternativePage({
         {c.hero.intro.map((p, i) => (
           <p
             key={i}
-            className={`max-w-xl text-steel-gray ${i === 0 ? "mt-[22px] text-subheading" : "mt-[15px] text-body"}`}
+            className={`max-w-xl text-ink-muted ${i === 0 ? "mt-[22px] text-subheading" : "mt-[15px] text-body"}`}
           >
             {p}
           </p>
@@ -62,29 +62,29 @@ export function AlternativePage({
       {/* Honest positioning */}
       <section className="grid gap-[22px] md:grid-cols-2">
         <div className="card">
-          <h2 className="text-subheading">{c.whenThem.title}</h2>
-          <p className="mt-[10px] text-body text-steel-gray">
+          <h2 className="font-sans text-subheading font-medium">{c.whenThem.title}</h2>
+          <p className="mt-[10px] text-body text-ink-muted">
             {c.whenThem.body}
           </p>
         </div>
-        <div className="card !border-signal-blue">
-          <h2 className="text-subheading">{c.whenUs.title}</h2>
-          <p className="mt-[10px] text-body text-steel-gray">{c.whenUs.body}</p>
+        <div className="card !border-accent">
+          <h2 className="font-sans text-subheading font-medium">{c.whenUs.title}</h2>
+          <p className="mt-[10px] text-body text-ink-muted">{c.whenUs.body}</p>
         </div>
       </section>
 
       {/* Comparison table */}
       <section className="pt-[94px]">
         <h2 className="text-heading">{c.comparison.title}</h2>
-        <div className="mt-[34px] overflow-x-auto rounded-[30px] border-[0.5px] border-black/[0.06] bg-pure-white">
+        <div className="mt-[34px] overflow-x-auto rounded-card border border-border bg-card">
           <table className="w-full min-w-[560px] border-collapse text-left">
             <thead>
-              <tr className="border-b-[0.5px] border-black/[0.06]">
-                <th className="px-[clamp(22px,4vw,34px)] py-[18px] text-label font-normal text-ash-gray" />
-                <th className="px-[22px] py-[18px] text-label font-normal text-ash-gray">
+              <tr className="border-b border-border">
+                <th className="px-[clamp(22px,4vw,34px)] py-[18px] text-label font-normal text-muted" />
+                <th className="px-[22px] py-[18px] text-label font-normal text-muted">
                   {entry.competitorName}
                 </th>
-                <th className="px-[22px] py-[18px] text-label font-normal text-signal-blue">
+                <th className="px-[22px] py-[18px] text-label font-normal text-accent-deep">
                   {t.comparisonUsColumn}
                 </th>
               </tr>
@@ -94,16 +94,16 @@ export function AlternativePage({
                 <tr
                   key={row.label}
                   className={
-                    i > 0 ? "border-t-[0.5px] border-black/[0.06]" : ""
+                    i > 0 ? "border-t border-border" : ""
                   }
                 >
-                  <td className="px-[clamp(22px,4vw,34px)] py-[18px] text-label text-pure-black">
+                  <td className="px-[clamp(22px,4vw,34px)] py-[18px] text-label text-ink">
                     {row.label}
                   </td>
-                  <td className="px-[22px] py-[18px] text-label text-steel-gray">
+                  <td className="px-[22px] py-[18px] text-label text-ink-muted">
                     {row.competitor}
                   </td>
-                  <td className="px-[22px] py-[18px] text-label text-steel-gray">
+                  <td className="px-[22px] py-[18px] text-label text-ink-muted">
                     {row.us}
                   </td>
                 </tr>
@@ -112,7 +112,7 @@ export function AlternativePage({
           </table>
         </div>
         {c.comparison.note && (
-          <p className="mt-[15px] text-caption text-ash-gray">
+          <p className="mt-[15px] text-caption text-muted">
             {c.comparison.note}
           </p>
         )}
@@ -126,7 +126,7 @@ export function AlternativePage({
           {c.switchSteps.steps.map((step) => (
             <div key={step.title} className="card">
               <h3 className="text-subheading">{step.title}</h3>
-              <p className="mt-[10px] text-label text-steel-gray">
+              <p className="mt-[10px] text-label text-ink-muted">
                 {step.body}
               </p>
             </div>
@@ -138,21 +138,23 @@ export function AlternativePage({
       <section className="mx-auto max-w-3xl pt-[94px]">
         <span className="section-label">{t.faqLabel}</span>
         <h2 className="text-heading">FAQ</h2>
-        <div className="mt-[34px] overflow-hidden rounded-[30px] border-[0.5px] border-black/[0.06] bg-pure-white">
+        <div className="mt-[34px]">
           {c.faqs.map((item, i) => (
             <details
               key={item.q}
-              className={`group px-[clamp(22px,4vw,34px)] py-[22px] ${
-                i > 0 ? "border-t-[0.5px] border-black/[0.06]" : ""
+              className={`group py-[21px] ${
+                i > 0 ? "border-t border-border" : ""
               }`}
             >
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-body [&::-webkit-details-marker]:hidden">
-                {item.q}
-                <span className="text-signal-blue transition-transform group-open:rotate-45">
+              <summary className="flex cursor-pointer list-none items-start justify-between gap-6 [&::-webkit-details-marker]:hidden">
+                <h3 className="font-display text-heading-sm font-light text-ink">
+                  {item.q}
+                </h3>
+                <span className="mt-[6px] shrink-0 text-accent-deep transition-transform group-open:rotate-45">
                   +
                 </span>
               </summary>
-              <p className="mt-[10px] max-w-[56ch] text-label text-steel-gray">
+              <p className="mt-[11px] max-w-[62ch] text-body text-ink-muted">
                 {item.a}
               </p>
             </details>
@@ -172,7 +174,7 @@ export function AlternativePage({
             {t.ctaSupport}
           </Link>
         </div>
-        <p className="mx-auto mt-[22px] max-w-2xl text-center text-caption text-ash-gray">
+        <p className="mx-auto mt-[22px] max-w-2xl text-center text-caption text-muted">
           {t.disclaimer}
         </p>
       </section>

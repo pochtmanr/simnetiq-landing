@@ -27,7 +27,7 @@ export const steam: ServiceEntry = {
       title: "A virtual number for Steam",
       intro: [
         "Steam will happily create an account with just an email — that part is simple and honest. The phone number enters the story later, where it counts: Steam Guard codes by SMS, account recovery, and the verification steps around trading and the Community Market. That’s when “Your Steam verification code is J4K8P” shows up.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries and Steam’s code lands in the app within seconds. Your game library — often years of purchases — gets a phone attached without your personal number entering Valve’s records.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries and Steam’s code lands in the app within seconds. Your game library — often years of purchases — gets a phone attached without your personal number entering Valve’s records.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const steam: ServiceEntry = {
       title: "Виртуальный номер для Steam",
       intro: [
         "Steam спокойно создаст аккаунт по одной только почте — тут всё просто и честно. Телефон появляется в истории позже, там, где он важен: коды Steam Guard по SMS, восстановление аккаунта и проверки вокруг обменов и Торговой площадки. Вот тогда и приходит «Your Steam verification code is J4K8P».",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код Steam оказывается в приложении за считанные секунды. Ваша библиотека игр — зачастую годы покупок — получает привязанный телефон, а личный номер в записи Valve не попадает.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код Steam оказывается в приложении за считанные секунды. Ваша библиотека игр — зачастую годы покупок — получает привязанный телефон, а личный номер в записи Valve не попадает.",
       ],
     },
     whyVirtual: {

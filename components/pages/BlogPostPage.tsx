@@ -60,7 +60,7 @@ export function BlogPostPage({
           <h1 className="mt-[22px] text-[clamp(30px,4vw,44px)] leading-[1.1] tracking-[-0.02em]">
             {c.title}
           </h1>
-          <p className="mt-[15px] text-caption text-ash-gray">
+          <p className="mt-[15px] text-caption text-muted">
             {t.published} {formatDate(post.publishedAt, locale)}
             {post.updatedAt !== post.publishedAt && (
               <>

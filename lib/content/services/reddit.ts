@@ -27,7 +27,7 @@ export const reddit: ServiceEntry = {
       title: "A virtual number for Reddit",
       intro: [
         "Reddit built its whole culture on usernames instead of real names — and then, every so often, asks for the realest identifier you own. Most sign-ups run on email alone, but certain flows, networks and “suspicious activity” checks put up a phone screen, and a text like “Your Reddit verification code is 617293” stands between you and the front page.",
-        "With SMS Code you rent a real mobile number in one of 50+ countries and the code lands in the app within seconds. The check clears, the account opens — and the pseudonym you post under stays unlinked to the number your name is attached to everywhere else.",
+        "With SMS Code you rent a real mobile number in one of 150+ countries and the code lands in the app within seconds. The check clears, the account opens — and the pseudonym you post under stays unlinked to the number your name is attached to everywhere else.",
       ],
     },
     whyVirtual: {
@@ -103,7 +103,7 @@ export const reddit: ServiceEntry = {
       title: "Виртуальный номер для Reddit",
       intro: [
         "Reddit построил целую культуру на никнеймах вместо настоящих имён — и время от времени просит самый настоящий идентификатор из всех, что у вас есть. Большинство регистраций обходятся одной почтой, но отдельные сценарии, сети и проверки «подозрительной активности» ставят телефонный экран, и между вами и главной страницей встаёт SMS вида «Your Reddit verification code is 617293».",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 50+ стран, и код приходит в приложение за считанные секунды. Проверка пройдена, аккаунт открыт — а псевдоним, под которым вы пишете, так и не связан с номером, к которому повсюду привязано ваше имя.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код приходит в приложение за считанные секунды. Проверка пройдена, аккаунт открыт — а псевдоним, под которым вы пишете, так и не связан с номером, к которому повсюду привязано ваше имя.",
       ],
     },
     whyVirtual: {
