@@ -2,6 +2,7 @@ import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AppShot } from "../AppShot";
+import { HeroCta } from "../HeroCta";
 import { StoreBadges } from "../StoreBadges";
 import { localePath, type Locale } from "../../lib/i18n";
 import { HOME, SERVICES } from "../../lib/content/home";
@@ -45,20 +46,19 @@ export function HomePage({ locale }: { locale: Locale }) {
           the left, heavier tint on the right holding the product. The device
           bleeds off the panel's bottom edge rather than sitting inside it. */}
       <section className="grid items-stretch gap-[22px] pb-[94px] pt-[40px] md:min-h-[min(82vh,780px)] md:grid-cols-2 md:pt-[56px]">
-        <div className="panel hero-rise flex flex-col justify-center">
-          <span className="section-label">{t.hero.label}</span>
-          <h1 className="text-heading-lg">
-            {t.hero.titleTop}
-            <br />
-            <span className="text-accent-deep">{t.hero.titleAccent}</span>
-          </h1>
-          <p className="mt-[21px] max-w-md text-subheading text-ink-muted">
-            {t.hero.body}
-          </p>
-          <div className="mt-[28px]">
-            <StoreBadges locale={locale} />
+        <div className="flex flex-col gap-[22px]">
+          <div className="panel hero-rise flex flex-1 flex-col justify-center">
+            <span className="section-label">{t.hero.label}</span>
+            <h1 className="text-heading-lg">
+              {t.hero.titleTop}
+              <br />
+              <span className="text-accent-deep">{t.hero.titleAccent}</span>
+            </h1>
+            <p className="mt-[21px] max-w-md text-subheading text-ink-muted">
+              {t.hero.body}
+            </p>
           </div>
-          <p className="mt-[14px] text-caption text-ink-muted">{t.hero.note}</p>
+          <HeroCta locale={locale} />
         </div>
         <div className="panel panel--strong hero-rise flex items-center justify-center [animation-delay:0.12s]">
           <Image

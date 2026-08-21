@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import { languageAlternates, localePath, type Locale } from "./i18n";
-import { APP_NAME, APP_STORE_URL, COMPANY, SITE_URL } from "./site";
+import {
+  APP_NAME,
+  APP_STORE_URL,
+  COMPANY,
+  COMPANY_URL,
+  SITE_URL,
+  SOCIALS,
+} from "./site";
 
 const SITE_NAME = "SMS Code by SIMNETIQ";
 
@@ -71,6 +78,7 @@ export function organization() {
     name: COMPANY,
     url: SITE_URL,
     logo: `${SITE_URL}/brand/logo.png`,
+    sameAs: [COMPANY_URL, ...SOCIALS.map((s) => s.url)],
   };
 }
 

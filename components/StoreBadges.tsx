@@ -32,13 +32,13 @@ export function StoreBadges({
   locale?: Locale;
   placement?: "hero" | "final_cta" | "service_cta" | "hub_cta" | "browse";
 }) {
-  const pill = dark ? "cta-pill cta-pill--dark" : "cta-pill";
+  const cta = dark ? "cta cta--dark" : "cta";
   const t = BADGES[locale];
   return (
     <div className="flex flex-wrap items-center gap-[10px]">
       <a
         href={APP_STORE_URL}
-        className={pill}
+        className={cta}
         onClick={() => track("CTA Click iOS", { placement })}
       >
         <AppleGlyph />

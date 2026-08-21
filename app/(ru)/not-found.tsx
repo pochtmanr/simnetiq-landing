@@ -8,7 +8,7 @@ export default function NotFound() {
       <span className="tag-chip">404</span>
       <h1 className="mt-[22px] text-heading">{t.title}</h1>
       <p className="mt-[10px] max-w-md text-body text-ink-muted">{t.body}</p>
-      <Link href="/ru" className="cta-pill mt-[30px]">
+      <Link href="/ru" className="cta mt-[30px]">
         {t.back}
       </Link>
     </div>

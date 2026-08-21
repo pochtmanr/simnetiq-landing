@@ -20,7 +20,7 @@ export const HOME = {
       titleTop: "A number for the sign‑up.",
       titleAccent: "Not for life.",
       body: "SMS Code gives you a real virtual number in 150+ countries and shows the verification code in seconds — so Telegram, WhatsApp, Google and 100+ other services never learn your personal number.",
-      note: "On the App Store · one-time coin packs, no subscription",
+      note: "One-time coin packs · no subscription",
     },
     services: {
       label: "Coverage",
@@ -220,7 +220,7 @@ export const HOME = {
       titleTop: "Номер для регистрации.",
       titleAccent: "А не на всю жизнь.",
       body: "SMS Code даёт вам настоящий виртуальный номер в 150+ странах и показывает код подтверждения за считанные секунды — Telegram, WhatsApp, Google и ещё 100+ сервисов никогда не узнают ваш личный номер.",
-      note: "Доступно в App Store · разовые пакеты монет, без подписки",
+      note: "Разовые пакеты монет · без подписки",
     },
     services: {
       label: "Покрытие",

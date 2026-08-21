@@ -28,10 +28,10 @@ export default function GlobalNotFound() {
           page.
         </p>
         <div className="mt-[30px] flex items-center gap-[10px]">
-          <Link href="/" className="cta-pill">
+          <Link href="/" className="cta">
             Back to home
           </Link>
-          <Link href="/ru" className="cta-pill">
+          <Link href="/ru" className="cta">
             На главную
           </Link>
         </div>

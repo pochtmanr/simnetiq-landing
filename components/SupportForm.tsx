@@ -47,7 +47,7 @@ export function SupportForm({ locale = "en" }: { locale?: Locale }) {
         <button
           type="button"
           onClick={() => setStatus("idle")}
-          className="cta-pill mt-[30px]"
+          className="cta mt-[30px]"
         >
           {t.sendAnother}
         </button>
@@ -125,7 +125,7 @@ export function SupportForm({ locale = "en" }: { locale?: Locale }) {
       )}
 
       <div>
-        <button type="submit" disabled={status === "sending"} className="cta-pill disabled:opacity-50">
+        <button type="submit" disabled={status === "sending"} className="cta disabled:opacity-50">
           {status === "sending" ? t.sending : t.send}
         </button>
       </div>

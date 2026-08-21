@@ -79,7 +79,7 @@
   --font-weight-book: 350;
 
   /* Border radius */
-  --radius-nav: 7px;
+  --radius-button: 12px;
   --radius-card: 14px;
   --radius-pill: 999px;
 }
@@ -168,6 +168,16 @@
     border-bottom-color: var(--color-accent-deep);
   }
 
+  /* Same link on .panel--ink, where accent-deep drops to 2.2:1. #59A1FC is
+     5.3:1 on ink — the one place the light accent carries text. */
+  .blue-link--ink {
+    color: var(--color-accent);
+  }
+
+  .blue-link--ink:hover {
+    border-bottom-color: var(--color-accent);
+  }
+
   /* Ghost Link: unstyled, underline on hover */
   .ghost-link {
     color: inherit;
@@ -179,13 +189,16 @@
     text-underline-offset: 3px;
   }
 
-  /* Primary CTA: the brand gradient as a pill. Never a flat accent fill — see
-     the header comment. */
-  .cta-pill {
+  /* Primary CTA: the brand gradient on a rounded rect at 12px — a step
+     tighter than the 14px surfaces it sits on, so the action reads as a
+     smaller, harder object than the panel behind it, and the nav CTA never
+     out-curves the bar holding it. Never a flat accent fill — see the header
+     comment. */
+  .cta {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    border-radius: var(--radius-pill);
+    border-radius: var(--radius-button);
     /* The mark's own two darker stops, not accent -> accent-dark. White on
        #59A1FC is 2.65:1 and white on the app's gradient tops out near 4:1 —
        both under AA for 14px text, and this is the primary action. Running
@@ -202,19 +215,55 @@
     transition: filter 150ms ease;
   }
 
-  .cta-pill:hover {
+  .cta:hover {
     filter: brightness(1.07);
   }
 
+  /* Compact CTA for the nav bar, where the 13/24 button is too tall for an
+     11px-padded bar. Same gradient, one step down in size. */
+  .cta--sm {
+    font-size: 13px;
+    padding: 9px 18px;
+  }
+
   /* Inverted CTA for use on .panel--ink, where the gradient loses contrast. */
-  .cta-pill--dark {
+  .cta--dark {
     background: #ffffff;
     color: var(--color-ink);
   }
 
-  .cta-pill--dark:hover {
+  .cta--dark:hover {
     filter: none;
     background: var(--color-panel-strong);
+  }
+
+  /* Hero CTA card: the whole card is the action. Ink fill so it reads as a
+     separate object under the copy panel rather than more of the same tint. */
+  .hero-cta-card {
+    padding: clamp(24px, 3.2vw, 34px) clamp(26px, 3.6vw, 38px);
+    transition: background 180ms ease;
+  }
+
+  .hero-cta-card:hover {
+    background: #2d3138;
+  }
+
+  .hero-cta-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: var(--radius-pill);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    color: #ffffff;
+    transition: transform 180ms ease, background 180ms ease;
+  }
+
+  .hero-cta-card:hover .hero-cta-arrow {
+    transform: translateX(4px);
+    background: rgba(255, 255, 255, 0.12);
   }
 
   /* Eyebrow label: the only uppercase treatment in the system. */
