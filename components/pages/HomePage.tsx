@@ -192,35 +192,30 @@ export function HomePage({ locale }: { locale: Locale }) {
 
       {/* Browse by service — the site's internal-linking hub section. Sits
           straight after the showcase: the reader has just seen the app, so the
-          next thing offered is a way into it. Full-bleed via
-          mx-[calc(50%-50vw)] + w-screen; body has overflow-x: clip so no
-          horizontal scroll appears. */}
+          next thing offered is a way into it. Plain canvas, like every other
+          non-panel section. */}
       <section className="pt-[94px]" id="browse">
-        <div className="mx-[calc(50%-50vw)] w-screen bg-panel py-[clamp(42px,5vw,70px)]">
-          <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
-            <SectionHeading label={t.browse.label} title={t.browse.title} />
-            <p className="mt-[14px] max-w-xl text-body text-ink/75">
-              {t.browse.body}
-            </p>
-            <div className="mt-[34px] flex flex-wrap gap-[11px]">
-              {ALL_SERVICES.map((s) => (
-                <Link
-                  key={s.slug}
-                  href={localePath(locale, `/virtual-numbers/${s.slug}`)}
-                  className="inline-flex items-center gap-[8px] rounded-pill bg-white px-[14px] py-[9px] text-label text-ink transition-colors hover:bg-card/60"
-                >
-                  <img src={s.logo} alt="" className="h-5 w-5" />
-                  {s.name}
-                </Link>
-              ))}
-              <Link
-                href={localePath(locale, "/virtual-numbers")}
-                className="inline-flex items-center rounded-pill border border-accent-deep/30 px-[16px] py-[9px] text-label text-accent-deep transition-colors hover:border-accent-deep hover:bg-white/50"
-              >
-                {t.browse.allLink} →
-              </Link>
-            </div>
-          </div>
+        <SectionHeading label={t.browse.label} title={t.browse.title} />
+        <p className="mt-[14px] max-w-xl text-body text-ink-muted">
+          {t.browse.body}
+        </p>
+        <div className="mt-[34px] flex flex-wrap gap-[11px]">
+          {ALL_SERVICES.map((s) => (
+            <Link
+              key={s.slug}
+              href={localePath(locale, `/virtual-numbers/${s.slug}`)}
+              className="inline-flex items-center gap-[8px] rounded-pill bg-card px-[14px] py-[9px] text-label text-ink transition-colors hover:bg-panel"
+            >
+              <img src={s.logo} alt="" className="h-5 w-5" />
+              {s.name}
+            </Link>
+          ))}
+          <Link
+            href={localePath(locale, "/virtual-numbers")}
+            className="inline-flex items-center rounded-pill border border-border px-[16px] py-[9px] text-label text-accent-deep transition-colors hover:border-accent-deep"
+          >
+            {t.browse.allLink} →
+          </Link>
         </div>
       </section>
 
