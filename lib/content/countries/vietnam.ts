@@ -11,12 +11,12 @@ export const vietnam: CountryEntry = {
   en: {
     metaTitle: "Vietnamese Virtual Number for SMS — Real +84 Mobile Numbers",
     metaDescription:
-      "Get a real Vietnamese (+84) virtual number and receive SMS codes in seconds. Verify Zalo, Telegram, WhatsApp, Shopee and Facebook with a number from Southeast Asia's fastest-moving mobile market.",
+      "Get a real Vietnamese (+84) virtual number and receive SMS codes usually within seconds. Verify Zalo, Telegram, WhatsApp, Shopee and Facebook with a number from Southeast Asia's fastest-moving mobile market.",
     hero: {
       title: "A Vietnamese virtual number for SMS verification",
       intro: [
         "Vietnam runs on mobile: Zalo for messaging, Shopee for shopping, Facebook for everything else — and each of them wants a phone number at the door. A +84 mobile is the native key to that ecosystem, and the only way to verify Zalo the way a local would.",
-        "SMS Code rents you a real Vietnamese mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Vietnamese mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app usually within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -66,12 +66,12 @@ export const vietnam: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Вьетнама для приёма SMS — номера +84",
     metaDescription:
-      "Настоящий вьетнамский номер (+84) и SMS-коды за секунды. Подтверждайте Zalo, Telegram, WhatsApp, Shopee и Facebook номером самого динамичного мобильного рынка Юго-Восточной Азии.",
+      "Настоящий вьетнамский номер (+84) и SMS-коды обычно за секунды. Подтверждайте Zalo, Telegram, WhatsApp, Shopee и Facebook номером самого динамичного мобильного рынка Юго-Восточной Азии.",
     hero: {
       title: "Виртуальный номер Вьетнама для SMS-верификации",
       intro: [
         "Вьетнам живёт в телефоне: Zalo для переписки, Shopee для покупок, Facebook для всего остального — и каждый из них спрашивает номер на входе. Мобильный +84 — родной ключ к этой экосистеме и единственный способ подтвердить Zalo так, как это сделал бы местный.",
-        "SMS Code сдаёт настоящий вьетнамский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий вьетнамский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении обычно за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {

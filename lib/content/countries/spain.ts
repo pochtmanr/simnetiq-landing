@@ -11,12 +11,12 @@ export const spain: CountryEntry = {
   en: {
     metaTitle: "Spain Virtual Number for SMS Verification — Real +34",
     metaDescription:
-      "Get a real Spanish (+34) virtual number and receive SMS verification codes in seconds. Verify WhatsApp, Instagram, Tinder, AliExpress and Airbnb with a +34 number.",
+      "Get a real Spanish (+34) virtual number and receive SMS verification codes usually within seconds. Verify WhatsApp, Instagram, Tinder, AliExpress and Airbnb with a +34 number.",
     hero: {
       title: "A Spanish virtual number for SMS verification",
       intro: [
         "Spain runs on WhatsApp: from family group chats to booking a table, the green icon is where Spanish life gets arranged. Add one of Europe's liveliest Instagram scenes and a national devotion to AliExpress bargains, and a +34 number becomes the natural key to the Spanish internet.",
-        "SMS Code gives you a real Spanish mobile number in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Instagram, Tinder, AliExpress or Airbnb — appears in the app within seconds.",
+        "SMS Code gives you a real Spanish mobile number in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Instagram, Tinder, AliExpress or Airbnb — appears in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -66,12 +66,12 @@ export const spain: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Испании для приёма SMS — номера +34",
     metaDescription:
-      "Настоящий виртуальный номер Испании (+34) и SMS-коды за секунды. Подтверждайте WhatsApp, Instagram, Tinder, AliExpress и Airbnb испанским номером.",
+      "Настоящий виртуальный номер Испании (+34) и SMS-коды обычно за секунды. Подтверждайте WhatsApp, Instagram, Tinder, AliExpress и Airbnb испанским номером.",
     hero: {
       title: "Виртуальный номер Испании для SMS-верификации",
       intro: [
         "Испания живёт в WhatsApp: от семейных чатов до брони столика — всё в испанской жизни устраивается через зелёную иконку. Добавьте к этому одну из самых живых Instagram-сцен Европы и всенародную любовь к находкам с AliExpress — и номер +34 становится естественным ключом к испанскому интернету.",
-        "SMS Code выдаёт настоящий испанский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, Tinder, AliExpress или Airbnb появится в приложении за секунды.",
+        "SMS Code выдаёт настоящий испанский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, Tinder, AliExpress или Airbnb появится в приложении обычно за секунды.",
       ],
     },
     whyCountry: {

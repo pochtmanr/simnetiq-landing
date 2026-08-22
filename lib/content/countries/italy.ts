@@ -11,12 +11,12 @@ export const italy: CountryEntry = {
   en: {
     metaTitle: "Italy Virtual Number for SMS Verification — Real +39",
     metaDescription:
-      "Get a real Italian (+39) virtual number and receive SMS verification codes in seconds. Verify WhatsApp, Instagram, Telegram, Airbnb and Google with a +39 number.",
+      "Get a real Italian (+39) virtual number and receive SMS verification codes usually within seconds. Verify WhatsApp, Instagram, Telegram, Airbnb and Google with a +39 number.",
     hero: {
       title: "An Italian virtual number for SMS verification",
       intro: [
         "An Italian number carries the quiet credibility of an established EU country code. Services worldwide have processed +39 registrations for decades, and inside Europe an Italian mobile passes verification as routinely as any local one — no exotic-country friction, no extra questions.",
-        "SMS Code gives you a real Italian mobile number in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Instagram, Telegram, Airbnb or Google — arrives in the app within seconds.",
+        "SMS Code gives you a real Italian mobile number in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Instagram, Telegram, Airbnb or Google — arrives in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -37,7 +37,7 @@ export const italy: CountryEntry = {
       },
       {
         title: "Retry without paying twice",
-        body: "Should a code fail to arrive within the activation window, cancel the pending activation — no SMS, no charge — and start over with a fresh Italian number.",
+        body: "Should a code fail to arrive within the activation window, cancel the pending activation — no SMS, and the coins come back — and start over with a fresh Italian number.",
       },
     ],
     faqs: [
@@ -66,12 +66,12 @@ export const italy: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Италии для приёма SMS — номера +39",
     metaDescription:
-      "Настоящий виртуальный номер Италии (+39) и SMS-коды за секунды. Подтверждайте WhatsApp, Instagram, Telegram, Airbnb и Google итальянским номером.",
+      "Настоящий виртуальный номер Италии (+39) и SMS-коды обычно за секунды. Подтверждайте WhatsApp, Instagram, Telegram, Airbnb и Google итальянским номером.",
     hero: {
       title: "Виртуальный номер Италии для SMS-верификации",
       intro: [
         "Итальянский номер несёт тихую солидность давно устоявшегося европейского кода. Сервисы по всему миру обрабатывают регистрации с +39 десятилетиями, а внутри Европы итальянский мобильный проходит верификацию так же буднично, как любой местный, — без «экзотических» сложностей и лишних вопросов.",
-        "SMS Code выдаёт настоящий итальянский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, Telegram, Airbnb или Google придёт в приложение за считанные секунды.",
+        "SMS Code выдаёт настоящий итальянский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, Telegram, Airbnb или Google придёт в приложение обычно за считанные секунды.",
       ],
     },
     whyCountry: {

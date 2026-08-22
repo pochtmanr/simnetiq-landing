@@ -21,7 +21,7 @@ export const smsActivateOrg: AlternativeEntry = {
     },
     whenUs: {
       title: "When SMS Code fits better",
-      body: "If you're one person who occasionally needs a verification code — a second Telegram account, a WhatsApp sign-up, a trial that wants a phone number — SMS Code is the shorter path. No web wallet to top up, no dashboard to learn: you buy a one-time coin pack through Apple billing, pick a service and country, and the code appears in-app within seconds. Activations that never receive an SMS cancel free, coverage spans 150+ countries and 100+ services, and the whole thing behaves like a normal consumer app rather than a developer tool.",
+      body: "If you're one person who occasionally needs a verification code — a second Telegram account, a WhatsApp sign-up, a trial that wants a phone number — SMS Code is the shorter path. No web wallet to top up, no dashboard to learn: you buy a one-time coin pack through Apple billing, pick a service and country, and the code appears in-app usually within seconds. Activations that never receive an SMS cancel free, coverage spans 100+ countries and 100+ services, and the whole thing behaves like a normal consumer app rather than a developer tool.",
     },
     comparison: {
       title: "SMS-Activate.org vs SMS Code, side by side",
@@ -44,7 +44,7 @@ export const smsActivateOrg: AlternativeEntry = {
         {
           label: "Coverage",
           competitor: "A very broad catalog of countries and services aimed at bulk use",
-          us: "150+ countries and 100+ popular services, curated for everyday sign-ups",
+          us: "100+ countries and 100+ popular services, curated for everyday sign-ups",
         },
         {
           label: "Cancellation",
@@ -77,7 +77,7 @@ export const smsActivateOrg: AlternativeEntry = {
         },
         {
           title: "Run your first activation",
-          body: "Pick a service and country, get a real number, and watch the code arrive in-app within seconds. If nothing arrives, the activation cancels free.",
+          body: "Pick a service and country, get a real number, and watch the code arrive in-app usually within seconds. If nothing arrives, the activation cancels free.",
         },
       ],
     },
@@ -100,7 +100,7 @@ export const smsActivateOrg: AlternativeEntry = {
       },
       {
         q: "Are the numbers real mobile numbers?",
-        a: "Yes — the app rents real numbers on real carrier networks in 150+ countries. To the service you're verifying with, the number looks like any ordinary phone number.",
+        a: "Yes — the app rents real numbers on real carrier networks in 100+ countries. To the service you're verifying with, the number looks like any ordinary phone number.",
       },
     ],
   },
@@ -121,7 +121,7 @@ export const smsActivateOrg: AlternativeEntry = {
     },
     whenUs: {
       title: "Когда приложение SMS Code подходит лучше",
-      body: "Если вы один человек, которому время от времени нужен код подтверждения — второй аккаунт Telegram, регистрация в WhatsApp, пробный период, требующий номер телефона, — приложение окажется короче на несколько шагов. Не нужно пополнять веб-кошелёк и разбираться в кабинете: вы покупаете разовый пакет монет через Apple или Google, выбираете сервис и страну — и код появляется в приложении за секунды. Активации, на которые SMS не пришла, отменяются бесплатно, покрытие — 150+ стран и 100+ сервисов, а всё вместе ощущается как обычное потребительское приложение, а не инструмент разработчика.",
+      body: "Если вы один человек, которому время от времени нужен код подтверждения — второй аккаунт Telegram, регистрация в WhatsApp, пробный период, требующий номер телефона, — приложение окажется короче на несколько шагов. Не нужно пополнять веб-кошелёк и разбираться в кабинете: вы покупаете разовый пакет монет через App Store, выбираете сервис и страну — и код появляется в приложении обычно за секунды. Активации, на которые SMS не пришла, отменяются бесплатно, покрытие — 100+ стран и 100+ сервисов, а всё вместе ощущается как обычное потребительское приложение, а не инструмент разработчика.",
     },
     comparison: {
       title: "SMS-Activate.org и приложение SMS Code: сравнение",
@@ -139,12 +139,12 @@ export const smsActivateOrg: AlternativeEntry = {
         {
           label: "Способ оплаты",
           competitor: "Пополнение баланса на сайте способами из их списка",
-          us: "Оплата через Apple / Google — данные карты нам не передаются",
+          us: "Оплата через App Store — данные карты нам не передаются",
         },
         {
           label: "Покрытие",
           competitor: "Очень широкий каталог стран и сервисов с прицелом на массовое использование",
-          us: "150+ стран и 100+ популярных сервисов — подборка для повседневных регистраций",
+          us: "100+ стран и 100+ популярных сервисов — подборка для повседневных регистраций",
         },
         {
           label: "Отмена",
@@ -177,7 +177,7 @@ export const smsActivateOrg: AlternativeEntry = {
         },
         {
           title: "Проведите первую активацию",
-          body: "Выберите сервис и страну, получите настоящий номер — и код придёт в приложение за секунды. Если ничего не пришло, активация отменяется бесплатно.",
+          body: "Выберите сервис и страну, получите настоящий номер — и код придёт в приложение обычно за секунды. Если ничего не пришло, активация отменяется бесплатно.",
         },
       ],
     },
@@ -192,7 +192,7 @@ export const smsActivateOrg: AlternativeEntry = {
       },
       {
         q: "Нужно ли пополнять кошелёк, чтобы пользоваться приложением?",
-        a: "Вы покупаете разовые пакеты монет через Apple или Google и тратите монеты на активации. Отдельного веб-кошелька нет, подписки нет, регулярных списаний нет.",
+        a: "Вы покупаете разовые пакеты монет через App Store и тратите монеты на активации. Отдельного веб-кошелька нет, подписки нет, регулярных списаний нет.",
       },
       {
         q: "Что будет, если код так и не придёт?",
@@ -200,7 +200,7 @@ export const smsActivateOrg: AlternativeEntry = {
       },
       {
         q: "Это настоящие мобильные номера?",
-        a: "Да — приложение арендует настоящие номера в реальных сетях операторов в 150+ странах. Для сервиса, где вы проходите проверку, такой номер выглядит как самый обычный.",
+        a: "Да — приложение арендует настоящие номера в реальных сетях операторов в 100+ странах. Для сервиса, где вы проходите проверку, такой номер выглядит как самый обычный.",
       },
     ],
   },

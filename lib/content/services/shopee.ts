@@ -22,12 +22,12 @@ export const shopee: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Shopee — Verify Without Your Own Phone",
     metaDescription:
-      "Receive Shopee’s SMS code on a real virtual number in seconds. Shop without wiring promo texts to your personal phone — with honest notes on how Shopee accounts work.",
+      "Receive Shopee’s SMS code on a real virtual number usually within seconds. Shop without wiring promo texts to your personal phone — with honest notes on how Shopee accounts work.",
     hero: {
       title: "A virtual number for Shopee",
       intro: [
         "Shopee is phone-first in a way Western marketplaces aren’t: across Southeast Asia and Brazil, the number is effectively the account. Sign-up starts with a phone, an OTP like “382916 is your Shopee verification code” confirms it, and from then on that number is your login, your recovery route — and the address for a steady stream of flash-sale SMS.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries and the code lands in the app within seconds. The account gets verified — and the marketing barrage points somewhere other than the phone that wakes you up at night.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries and the code lands in the app usually within seconds. The account gets verified — and the marketing barrage points somewhere other than the phone that wakes you up at night.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const shopee: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The SMS reads “382916 is your Shopee verification code” and appears in SMS Code within seconds. Enter it and the account is live.",
+          body: "The SMS reads “382916 is your Shopee verification code” and appears in SMS Code usually within seconds. Enter it and the account is live.",
         },
         {
           title: "Give the account a second anchor",
@@ -98,12 +98,12 @@ export const shopee: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Shopee — подтверждение без своей SIM",
     metaDescription:
-      "SMS-код Shopee на настоящий виртуальный номер за секунды. Покупайте, не подключая личный телефон к рекламным рассылкам, — и честно о том, как устроены аккаунты Shopee.",
+      "SMS-код Shopee на настоящий виртуальный номер обычно за секунды. Покупайте, не подключая личный телефон к рекламным рассылкам, — и честно о том, как устроены аккаунты Shopee.",
     hero: {
       title: "Виртуальный номер для Shopee",
       intro: [
         "Shopee завязан на телефон сильнее западных маркетплейсов: в Юго-Восточной Азии и Бразилии номер — это, по сути, и есть аккаунт. Регистрация начинается с телефона, OTP вида «382916 is your Shopee verification code» его подтверждает, и дальше этот номер — ваш логин, путь восстановления и адрес для нескончаемых SMS о распродажах.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код приходит в приложение за считанные секунды. Аккаунт подтверждён — а рекламная канонада целится куда-то ещё, а не в телефон, который будит вас по ночам.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, и код приходит в приложение обычно за считанные секунды. Аккаунт подтверждён — а рекламная канонада целится куда-то ещё, а не в телефон, который будит вас по ночам.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const shopee: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "SMS выглядит так: «382916 is your Shopee verification code» — и появляется в SMS Code за секунды. Введите код, и аккаунт создан.",
+          body: "SMS выглядит так: «382916 is your Shopee verification code» — и появляется в SMS Code обычно за секунды. Введите код, и аккаунт создан.",
         },
         {
           title: "Дайте аккаунту второй якорь",

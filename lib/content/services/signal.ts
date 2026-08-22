@@ -22,12 +22,12 @@ export const signal: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Signal — Private Sign-Up Without a SIM",
     metaDescription:
-      "Register Signal with a real virtual number from 150+ countries. The code arrives in the app in seconds — pay per activation, no subscription, free cancel if no SMS.",
+      "Register Signal with a real virtual number from 100+ countries. The code arrives in the app usually within seconds — pay per activation, no subscription, free cancel if no SMS.",
     hero: {
       title: "A virtual number for Signal",
       intro: [
         "Here's the irony of Signal: the messenger that encrypts everything, stores almost nothing and gets recommended by every privacy researcher still asks for a phone number before you can send your first message. Registration is built on the SMS code — even though usernames now mean nobody ever has to see that number afterwards.",
-        "With SMS Code you close that last gap: rent a real mobile number in one of 150+ countries, register Signal with it, and the code appears in the app within seconds. You pay per activation from a one-time coin pack — no subscription — and an activation that received no SMS is cancelled without charge.",
+        "With SMS Code you close that last gap: rent a real mobile number in one of 100+ countries, register Signal with it, and the code appears in the app usually within seconds. You pay per activation from a one-time coin pack — no subscription — and an activation that received no SMS is cancelled without charge.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const signal: ServiceEntry = {
         },
         {
           title: "Grab the code",
-          body: "The SMS lands in the SMS Code app within seconds, formatted like “SIGNAL: Your code is: 613904”. Enter the digits and registration completes.",
+          body: "The SMS lands in the SMS Code app usually within seconds, formatted like “SIGNAL: Your code is: 613904”. Enter the digits and registration completes.",
         },
         {
           title: "Set the PIN and claim a username",
@@ -91,19 +91,19 @@ export const signal: ServiceEntry = {
       },
       {
         q: "Why didn't my Signal code arrive?",
-        a: "Signal is careful about registrations it finds suspicious: you may get a captcha first, and some numbers are declined outright. Check that the country code matches, complete any captcha, and if the SMS still doesn't come, cancel the activation in SMS Code — no charge for numbers that received nothing — and try a different number or country.",
+        a: "Signal is careful about registrations it finds suspicious: you may get a captcha first, and some numbers are declined outright. Check that the country code matches, complete any captcha, and if the SMS still doesn't come, cancel the activation in SMS Code — the coins come back for numbers that received nothing — and try a different number or country.",
       },
     ],
   },
   ru: {
     metaTitle: "Виртуальный номер для Signal — приватная регистрация без SIM",
     metaDescription:
-      "Зарегистрируйте Signal настоящим виртуальным номером из 150+ стран. Код приходит в приложение за секунды — оплата за активацию, без подписки, отмена без списания.",
+      "Зарегистрируйте Signal настоящим виртуальным номером из 100+ стран. Код приходит в приложение обычно за секунды — оплата за активацию, без подписки, отмена с возвратом монет.",
     hero: {
       title: "Виртуальный номер для Signal",
       intro: [
         "Ирония Signal в том, что мессенджер, который шифрует всё, почти ничего не хранит и рекомендован каждым исследователем приватности, всё равно просит номер телефона до первого сообщения. Регистрация построена на SMS-коде — хотя с появлением юзернеймов этот номер потом можно вообще никому не показывать.",
-        "С SMS Code вы закрываете эту последнюю брешь: арендуете настоящий мобильный номер в одной из 150+ стран, регистрируете на него Signal — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а активация, на которую SMS не пришла, отменяется без списания.",
+        "С SMS Code вы закрываете эту последнюю брешь: арендуете настоящий мобильный номер в одной из 100+ стран, регистрируете на него Signal — и код появляется в приложении обычно за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а активация, на которую SMS не пришла, отменяется с возвратом монет.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const signal: ServiceEntry = {
         },
         {
           title: "Заберите код",
-          body: "SMS придёт в приложение SMS Code за секунды, в формате «SIGNAL: Your code is: 613904». Введите цифры — регистрация завершена.",
+          body: "SMS придёт в приложение SMS Code обычно за секунды, в формате «SIGNAL: Your code is: 613904». Введите цифры — регистрация завершена.",
         },
         {
           title: "Задайте PIN и займите юзернейм",
@@ -167,7 +167,7 @@ export const signal: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Signal?",
-        a: "Signal осторожен с регистрациями, которые кажутся ему подозрительными: сначала может прийти капча, а некоторым номерам он отказывает сразу. Проверьте совпадение кода страны, пройдите капчу, а если SMS так и нет — отмените активацию в SMS Code (за номера, на которые ничего не пришло, деньги не списываются) и попробуйте другой номер или страну.",
+        a: "Signal осторожен с регистрациями, которые кажутся ему подозрительными: сначала может прийти капча, а некоторым номерам он отказывает сразу. Проверьте совпадение кода страны, пройдите капчу, а если SMS так и нет — отмените активацию в SMS Code (монеты за номера, на которые ничего не пришло, возвращаются на баланс) и попробуйте другой номер или страну.",
       },
     ],
   },

@@ -32,7 +32,7 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
       },
       {
         type: "p",
-        text: "A virtual number simply changes the last hop. The number is still allocated by a carrier and still lives in a real mobile network — but the SIM answering for it sits in a provider’s infrastructure rather than in your pocket. When an SMS arrives, the provider’s system reads it and forwards it to you over the internet, typically into an app, within seconds. Nothing about the sending side changes, which is exactly why verification systems treat these numbers as ordinary mobile numbers: from the network’s point of view, they are.",
+        text: "A virtual number simply changes the last hop. The number is still allocated by a carrier and still lives in a real mobile network — but the SIM answering for it sits in a provider’s infrastructure rather than in your pocket. When an SMS arrives, the provider’s system reads it and forwards it to you over the internet, typically into an app, usually within seconds. Nothing about the sending side changes, which is exactly why verification systems treat these numbers as ordinary mobile numbers: from the network’s point of view, they are.",
       },
       {
         type: "h2",
@@ -49,7 +49,7 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
           "Virtual mobile number: a real carrier-network mobile number whose messages are forwarded to you online. Best fit for receiving SMS verification codes, because services see a normal mobile number.",
           "VoIP number (Google Voice, Skype and similar): a number that exists in an internet-telephony service rather than a mobile network. Great for calls, but many services detect VoIP number ranges and refuse to send verification codes to them — VoIP numbers are cheap to mass-register, so sign-up systems distrust them.",
           "eSIM: not a different kind of number at all, just a SIM without the plastic — a carrier profile downloaded into your device. The number is fully yours and fully mobile, but you’re buying a real line with a real contract or plan, which is overkill if all you need is to receive one verification code.",
-          "Burner phone: a cheap prepaid handset plus SIM bought for temporary use. It works, but it’s the most expensive and slowest option — hardware, a trip to a shop, ID requirements for SIM registration in many countries — to accomplish what a virtual number does in seconds.",
+          "Burner phone: a cheap prepaid handset plus SIM bought for temporary use. It works, but it’s the most expensive and slowest option — hardware, a trip to a shop, ID requirements for SIM registration in many countries — to accomplish what a virtual number does usually within seconds.",
         ],
       },
       {
@@ -78,7 +78,7 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
           },
           {
             title: "The carrier delivers to whoever holds the number",
-            body: "The destination operator delivers the SMS to the subscriber registered for that number. For a virtual number, that’s the provider’s SIM infrastructure — which reads the message and pushes it to your app, typically within seconds.",
+            body: "The destination operator delivers the SMS to the subscriber registered for that number. For a virtual number, that’s the provider’s SIM infrastructure — which reads the message and pushes it to your app, typically usually within seconds.",
           },
           {
             title: "You type the code back, closing the loop",
@@ -124,7 +124,7 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
         items: [
           "Real, dedicated mobile numbers — not the shared numbers on free “receive SMS online” sites. Those are used by thousands of people, so services blocklist them or find them already registered; and anyone else viewing the same page can read your code.",
           "A fair cancellation policy: if no SMS arrives, you shouldn’t pay. With SMS Code, an activation that received nothing cancels free.",
-          "Country coverage that matches your needs — SMS Code offers numbers in 150+ countries, which also gives you alternatives when one route is slow.",
+          "Country coverage that matches your needs — SMS Code offers numbers in 100+ countries, which also gives you alternatives when one route is slow.",
           "Pricing you can reason about: pay-per-activation from a one-time coin pack beats a subscription if your need is occasional — you shouldn’t rent a monthly line to receive one code.",
         ],
       },
@@ -142,7 +142,7 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
           },
           {
             q: "Can a virtual number receive SMS verification codes?",
-            a: "Yes — that’s the primary use. Because it’s a genuine mobile number, services deliver OTP codes to it normally, and a good provider shows you the message within seconds. VoIP numbers, by contrast, are often refused by sign-up systems.",
+            a: "Yes — that’s the primary use. Because it’s a genuine mobile number, services deliver OTP codes to it normally, and a good provider shows you the message usually within seconds. VoIP numbers, by contrast, are often refused by sign-up systems.",
           },
           {
             q: "Do I need a SIM card or new hardware for a virtual number?",
@@ -187,7 +187,7 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
       },
       {
         type: "p",
-        text: "Виртуальный номер меняет только последний участок пути. Номер по-прежнему выделен оператором и по-прежнему живёт в реальной мобильной сети — просто SIM-карта, отвечающая за него, стоит в инфраструктуре провайдера, а не лежит у вас в кармане. Когда приходит SMS, система провайдера считывает её и пересылает вам через интернет — как правило, в приложение и за считанные секунды. Со стороны отправителя не меняется ничего — именно поэтому системы верификации воспринимают такие номера как обычные мобильные: с точки зрения сети они такими и являются.",
+        text: "Виртуальный номер меняет только последний участок пути. Номер по-прежнему выделен оператором и по-прежнему живёт в реальной мобильной сети — просто SIM-карта, отвечающая за него, стоит в инфраструктуре провайдера, а не лежит у вас в кармане. Когда приходит SMS, система провайдера считывает её и пересылает вам через интернет — как правило, в приложение и обычно за считанные секунды. Со стороны отправителя не меняется ничего — именно поэтому системы верификации воспринимают такие номера как обычные мобильные: с точки зрения сети они такими и являются.",
       },
       {
         type: "h2",
@@ -204,7 +204,7 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
           "Виртуальный мобильный номер: настоящий номер в сети оператора, сообщения с которого пересылаются вам онлайн. Лучший вариант для приёма кодов подтверждения — сервисы видят обычный мобильный номер.",
           "VoIP-номер (Google Voice, Skype и подобные): номер, существующий в сервисе интернет-телефонии, а не в мобильной сети. Отлично подходит для звонков, но многие сервисы распознают диапазоны VoIP-номеров и отказываются отправлять на них коды: такие номера легко регистрировать массово, поэтому системы регистрации им не доверяют.",
           "eSIM: вовсе не другой вид номера, а просто SIM без пластика — профиль оператора, загруженный в устройство. Номер полностью ваш и полностью мобильный, но вы покупаете настоящую линию с настоящим тарифом — избыточно, если нужно лишь принять один код подтверждения.",
-          "«Одноразовый» телефон: дешёвый кнопочный аппарат с предоплаченной SIM-картой, купленный на время. Работает, но это самый дорогой и медленный путь — техника, поход в магазин, а во многих странах ещё и регистрация SIM по паспорту — ради того, что виртуальный номер делает за секунды.",
+          "«Одноразовый» телефон: дешёвый кнопочный аппарат с предоплаченной SIM-картой, купленный на время. Работает, но это самый дорогой и медленный путь — техника, поход в магазин, а во многих странах ещё и регистрация SIM по паспорту — ради того, что виртуальный номер делает обычно за секунды.",
         ],
       },
       {
@@ -233,7 +233,7 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
           },
           {
             title: "Оператор доставляет SMS владельцу номера",
-            body: "Оператор назначения доставляет сообщение абоненту, зарегистрированному за этим номером. Для виртуального номера это SIM-инфраструктура провайдера — она считывает SMS и отправляет её в ваше приложение, как правило, за считанные секунды.",
+            body: "Оператор назначения доставляет сообщение абоненту, зарегистрированному за этим номером. Для виртуального номера это SIM-инфраструктура провайдера — она считывает SMS и отправляет её в ваше приложение, как правило, обычно за считанные секунды.",
           },
           {
             title: "Вы вводите код обратно — круг замкнулся",
@@ -279,7 +279,7 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
         items: [
           "Настоящие выделенные мобильные номера — а не общие номера с бесплатных сайтов «приёма SMS онлайн». Теми пользуются тысячи людей: сервисы вносят их в чёрные списки или находят уже зарегистрированными, а ваш код может прочитать любой посетитель той же страницы.",
           "Честная политика отмены: если SMS не пришла, платить вы не должны. В SMS Code активация, на которую ничего не пришло, отменяется бесплатно.",
-          "Покрытие стран под ваши задачи — в SMS Code номера доступны в 150+ странах, а это ещё и запасные варианты, когда какое-то направление работает медленно.",
+          "Покрытие стран под ваши задачи — в SMS Code номера доступны в 100+ странах, а это ещё и запасные варианты, когда какое-то направление работает медленно.",
           "Понятная модель оплаты: оплата за активацию из разового пакета монет выгоднее подписки, если номера нужны от случая к случаю, — не стоит арендовать линию на месяц ради одного кода.",
         ],
       },
@@ -297,7 +297,7 @@ export const whatIsAVirtualPhoneNumber: BlogPost = {
           },
           {
             q: "Придёт ли на виртуальный номер код подтверждения из SMS?",
-            a: "Да — это основной сценарий. Поскольку номер — настоящий мобильный, сервисы доставляют на него OTP-коды в обычном порядке, а хороший провайдер показывает сообщение за считанные секунды. VoIP-номера, напротив, системы регистрации часто отклоняют.",
+            a: "Да — это основной сценарий. Поскольку номер — настоящий мобильный, сервисы доставляют на него OTP-коды в обычном порядке, а хороший провайдер показывает сообщение обычно за считанные секунды. VoIP-номера, напротив, системы регистрации часто отклоняют.",
           },
           {
             q: "Нужна ли SIM-карта или новое устройство для виртуального номера?",

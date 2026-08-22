@@ -22,12 +22,12 @@ export const adidas: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for adidas — Verify Your Shop Account",
     metaDescription:
-      "Verify your adidas account with a real virtual number. The SMS code arrives in the SMS Code app in seconds — shop online without giving out your personal number.",
+      "Verify your adidas account with a real virtual number. The SMS code arrives in the SMS Code app usually within seconds — shop online without giving out your personal number.",
     hero: {
       title: "A virtual number for adidas",
       intro: [
         "An adidas account is more than a checkout shortcut — it's membership in the adiClub program, order tracking, saved sizes and access to member-only releases. And like most large retailers, adidas increasingly wants a phone number it can verify by SMS, both at sign-up in some regions and as an extra check when something about a login or order looks unusual.",
-        "SMS Code rents you a real mobile number in one of 150+ countries. Enter it on the adidas account screen, and the verification code appears in the SMS Code app within seconds — the account is confirmed, and your everyday number stays out of yet another retail database.",
+        "SMS Code rents you a real mobile number in one of 100+ countries. Enter it on the adidas account screen, and the verification code appears in the SMS Code app usually within seconds — the account is confirmed, and your everyday number stays out of yet another retail database.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const adidas: ServiceEntry = {
         },
         {
           title: "Confirm with the SMS code",
-          body: "The text arrives in the SMS Code app within seconds — “Your adidas verification code is 604927”. Type it into the adidas verification field and the number is confirmed.",
+          body: "The text arrives in the SMS Code app usually within seconds — “Your adidas verification code is 604927”. Type it into the adidas verification field and the number is confirmed.",
         },
         {
           title: "Set your shipping and size details",
@@ -98,12 +98,12 @@ export const adidas: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для adidas — подтвердите аккаунт магазина",
     metaDescription:
-      "Подтвердите аккаунт adidas настоящим виртуальным номером. SMS с кодом придёт в приложение SMS Code за секунды — покупайте онлайн, не раскрывая личный номер.",
+      "Подтвердите аккаунт adidas настоящим виртуальным номером. SMS с кодом придёт в приложение SMS Code обычно за секунды — покупайте онлайн, не раскрывая личный номер.",
     hero: {
       title: "Виртуальный номер для adidas",
       intro: [
         "Аккаунт adidas — это не просто ускоренное оформление заказа: это членство в программе adiClub, отслеживание посылок, сохранённые размеры и доступ к релизам для участников. И, как большинство крупных ритейлеров, adidas всё чаще хочет номер телефона с подтверждением по SMS — где-то прямо при регистрации, а где-то как дополнительную проверку, если вход или заказ выглядит необычно.",
-        "SMS Code сдаёт вам в аренду настоящий мобильный номер в одной из 150+ стран. Введите его на экране аккаунта adidas — и код подтверждения появится в приложении SMS Code за секунды. Аккаунт подтверждён, а ваш повседневный номер не пополнил очередную базу магазина.",
+        "SMS Code сдаёт вам в аренду настоящий мобильный номер в одной из 100+ стран. Введите его на экране аккаунта adidas — и код подтверждения появится в приложении SMS Code обычно за секунды. Аккаунт подтверждён, а ваш повседневный номер не пополнил очередную базу магазина.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const adidas: ServiceEntry = {
         },
         {
           title: "Подтвердите кодом из SMS",
-          body: "Сообщение придёт в приложение SMS Code за секунды: «Your adidas verification code is 604927». Введите его в поле подтверждения adidas — номер подтверждён.",
+          body: "Сообщение придёт в приложение SMS Code обычно за секунды: «Your adidas verification code is 604927». Введите его в поле подтверждения adidas — номер подтверждён.",
         },
         {
           title: "Заполните доставку и размеры",

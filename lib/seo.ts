@@ -106,8 +106,8 @@ export function softwareApplication(locale: Locale) {
     author: { "@type": "Organization", name: COMPANY, url: SITE_URL },
     description:
       locale === "ru"
-        ? "Виртуальные номера в 150+ странах для приёма SMS-кодов подтверждения. Регистрируйтесь в Telegram, WhatsApp, Google и 100+ сервисах, не раскрывая личный номер."
-        : "Virtual numbers in 150+ countries for receiving SMS verification codes. Sign up for Telegram, WhatsApp, Google and 100+ services without giving out your personal number.",
+        ? "Виртуальные номера в 100+ странах для приёма SMS-кодов подтверждения. Регистрируйтесь в Telegram, WhatsApp, Google и 100+ сервисах, не раскрывая личный номер."
+        : "Virtual numbers in 100+ countries for receiving SMS verification codes. Sign up for Telegram, WhatsApp, Google and 100+ services without giving out your personal number.",
   };
 }
 

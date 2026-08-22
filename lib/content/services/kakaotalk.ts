@@ -22,12 +22,12 @@ export const kakaotalk: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for KakaoTalk — Verify Without Your Own Phone",
     metaDescription:
-      "Receive KakaoTalk’s verification code on a real virtual number in seconds. Chat on Korea’s main messenger without handing over your personal phone — honestly explained.",
+      "Receive KakaoTalk’s verification code on a real virtual number usually within seconds. Chat on Korea’s main messenger without handing over your personal phone — honestly explained.",
     hero: {
       title: "A virtual number for KakaoTalk",
       intro: [
         "KakaoTalk is how Korea talks — group chats, family threads, business contacts — and like every serious messenger it opens with a phone screen. Sign-up sends a short code such as “[KakaoTalk] 4829 is your verification code”, and there’s no email-only path around it.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries and the code appears in the app within seconds. You get into the conversation — and the Korean friends, colleagues or in-laws waiting there never need your personal number to reach you.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries and the code appears in the app usually within seconds. You get into the conversation — and the Korean friends, colleagues or in-laws waiting there never need your personal number to reach you.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const kakaotalk: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The text arrives as “[KakaoTalk] 4829 is your verification code” and shows up in SMS Code within seconds. Enter it — if the SMS stalls, KakaoTalk can also read the code out by voice call after a wait.",
+          body: "The text arrives as “[KakaoTalk] 4829 is your verification code” and shows up in SMS Code usually within seconds. Enter it — if the SMS stalls, KakaoTalk can also read the code out by voice call after a wait.",
         },
         {
           title: "Set up the account for the long run",
@@ -98,12 +98,12 @@ export const kakaotalk: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для KakaoTalk — подтверждение без своей SIM",
     metaDescription:
-      "Код подтверждения KakaoTalk на настоящий виртуальный номер за секунды. Главный мессенджер Кореи — без передачи личного телефона. Честно о том, как это работает.",
+      "Код подтверждения KakaoTalk на настоящий виртуальный номер обычно за секунды. Главный мессенджер Кореи — без передачи личного телефона. Честно о том, как это работает.",
     hero: {
       title: "Виртуальный номер для KakaoTalk",
       intro: [
         "KakaoTalk — это то, как разговаривает Корея: групповые чаты, семейные переписки, деловые контакты. И, как всякий серьёзный мессенджер, он начинается с экрана телефона. При регистрации приходит короткий код вида «[KakaoTalk] 4829 is your verification code», и пути «только по почте» здесь не существует.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код появляется в приложении за считанные секунды. Вы входите в разговор — а корейским друзьям, коллегам или родственникам, которые там ждут, ваш личный номер для этого не нужен.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, и код появляется в приложении обычно за считанные секунды. Вы входите в разговор — а корейским друзьям, коллегам или родственникам, которые там ждут, ваш личный номер для этого не нужен.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const kakaotalk: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "Сообщение приходит в виде «[KakaoTalk] 4829 is your verification code» и появляется в SMS Code за секунды. Введите код — а если SMS задерживается, после паузы KakaoTalk может продиктовать его голосовым звонком.",
+          body: "Сообщение приходит в виде «[KakaoTalk] 4829 is your verification code» и появляется в SMS Code обычно за секунды. Введите код — а если SMS задерживается, после паузы KakaoTalk может продиктовать его голосовым звонком.",
         },
         {
           title: "Настройте аккаунт надолго",

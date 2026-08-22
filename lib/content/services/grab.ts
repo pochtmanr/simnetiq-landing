@@ -23,12 +23,12 @@ export const grab: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Grab — Sign Up for Southeast Asia's App",
     metaDescription:
-      "Verify Grab with a real virtual number. The activation code arrives in the SMS Code app in seconds — set up rides, food and more without your personal number.",
+      "Verify Grab with a real virtual number. The activation code arrives in the SMS Code app usually within seconds — set up rides, food and more without your personal number.",
     hero: {
       title: "A virtual number for Grab",
       intro: [
         "Land anywhere in Southeast Asia and Grab is the first app you'll need: rides from the airport, food to the hotel, payments at the street stall. It's the region's super-app — and it's phone-first. There's no email login to fall back on at sign-up; Grab starts by asking for a mobile number and texting an activation code to it.",
-        "SMS Code hands you a real number from one of 150+ countries. Enter it on Grab's welcome screen, and the six-digit code appears in the SMS Code app within seconds — your account is live before your luggage hits the carousel, and your personal number was never part of the deal.",
+        "SMS Code hands you a real number from one of 100+ countries. Enter it on Grab's welcome screen, and the six-digit code appears in the SMS Code app usually within seconds — your account is live before your luggage hits the carousel, and your personal number was never part of the deal.",
       ],
     },
     whyVirtual: {
@@ -51,7 +51,7 @@ export const grab: ServiceEntry = {
         },
         {
           title: "Type in the activation code",
-          body: "Watch the SMS Code app: the text arrives in seconds and reads “702415 is your Grab activation code. For your account safety, do not share this code.” Enter the six digits in Grab.",
+          body: "Watch the SMS Code app: the text arrives usually within seconds and reads “702415 is your Grab activation code. For your account safety, do not share this code.” Enter the six digits in Grab.",
         },
         {
           title: "Add email and payment details",
@@ -99,12 +99,12 @@ export const grab: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Grab — регистрация в супераппе Азии",
     metaDescription:
-      "Подтвердите Grab настоящим виртуальным номером. Код активации придёт в приложение SMS Code за секунды — такси, еда и оплата без вашего личного номера.",
+      "Подтвердите Grab настоящим виртуальным номером. Код активации придёт в приложение SMS Code обычно за секунды — такси, еда и оплата без вашего личного номера.",
     hero: {
       title: "Виртуальный номер для Grab",
       intro: [
         "Прилетаете в Юго-Восточную Азию — и Grab оказывается первым нужным приложением: такси из аэропорта, еда в отель, оплата у уличного лотка. Это суперапп региона, и он устроен по принципу «сначала телефон»: входа по почте при регистрации попросту нет — Grab с порога просит мобильный номер и шлёт на него код активации.",
-        "SMS Code выдаёт настоящий номер из одной из 150+ стран. Введите его на приветственном экране Grab — и шестизначный код появится в приложении SMS Code за секунды. Аккаунт готов раньше, чем приедет багаж, а ваш личный номер в этой сделке не участвовал.",
+        "SMS Code выдаёт настоящий номер из одной из 100+ стран. Введите его на приветственном экране Grab — и шестизначный код появится в приложении SMS Code обычно за секунды. Аккаунт готов раньше, чем приедет багаж, а ваш личный номер в этой сделке не участвовал.",
       ],
     },
     whyVirtual: {
@@ -127,7 +127,7 @@ export const grab: ServiceEntry = {
         },
         {
           title: "Введите код активации",
-          body: "Следите за приложением SMS Code: сообщение приходит за секунды и выглядит так — «702415 is your Grab activation code. For your account safety, do not share this code.» Введите шесть цифр в Grab.",
+          body: "Следите за приложением SMS Code: сообщение приходит обычно за секунды и выглядит так — «702415 is your Grab activation code. For your account safety, do not share this code.» Введите шесть цифр в Grab.",
         },
         {
           title: "Добавьте почту и способ оплаты",

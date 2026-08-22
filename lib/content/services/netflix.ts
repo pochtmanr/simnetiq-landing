@@ -22,12 +22,12 @@ export const netflix: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Netflix — Verify Without Your Own Phone",
     metaDescription:
-      "Receive Netflix’s verification code on a real virtual number in seconds. Keep trials and subscriptions separate from your personal phone — honestly explained.",
+      "Receive Netflix’s verification code on a real virtual number usually within seconds. Keep trials and subscriptions separate from your personal phone — honestly explained.",
     hero: {
       title: "A virtual number for Netflix",
       intro: [
         "Netflix is an email-first service — but the phone step keeps creeping in. Some regions and sign-up flows verify a number right away, mobile plans in several countries are built around one, and the app texts a code like “Your Netflix verification code is 428916” whenever it wants to double-check it’s really you.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries and the code lands in the app within seconds. The subscription gets verified — and your personal number stays out of yet another customer database.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries and the code lands in the app usually within seconds. The subscription gets verified — and your personal number stays out of yet another customer database.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const netflix: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The SMS reads “Your Netflix verification code is 428916” and appears in the SMS Code app within seconds. Enter it and the number is confirmed.",
+          body: "The SMS reads “Your Netflix verification code is 428916” and appears in the SMS Code app usually within seconds. Enter it and the number is confirmed.",
         },
         {
           title: "Keep email as the anchor",
@@ -98,12 +98,12 @@ export const netflix: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Netflix — подтверждение без своей SIM",
     metaDescription:
-      "Код подтверждения Netflix на настоящий виртуальный номер за секунды. Подписки и пробные периоды — отдельно от личного телефона. Честно о том, как это работает.",
+      "Код подтверждения Netflix на настоящий виртуальный номер обычно за секунды. Подписки и пробные периоды — отдельно от личного телефона. Честно о том, как это работает.",
     hero: {
       title: "Виртуальный номер для Netflix",
       intro: [
         "Netflix построен вокруг почты, но телефонный шаг встречается всё чаще: в отдельных странах и сценариях номер проверяют прямо при регистрации, мобильные тарифы в ряде регионов вообще на него завязаны, а приложение присылает код вида «Your Netflix verification code is 428916», когда хочет убедиться, что это действительно вы.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код приходит в приложение за считанные секунды. Подписка подтверждена — а ваш личный номер не пополнил ещё одну клиентскую базу.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, и код приходит в приложение обычно за считанные секунды. Подписка подтверждена — а ваш личный номер не пополнил ещё одну клиентскую базу.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const netflix: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "SMS выглядит так: «Your Netflix verification code is 428916» — и появляется в приложении SMS Code за секунды. Введите код, и номер подтверждён.",
+          body: "SMS выглядит так: «Your Netflix verification code is 428916» — и появляется в приложении SMS Code обычно за секунды. Введите код, и номер подтверждён.",
         },
         {
           title: "Оставьте почту якорем аккаунта",

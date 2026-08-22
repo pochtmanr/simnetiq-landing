@@ -86,7 +86,7 @@ export const googleAccountWithoutPhoneNumber: BlogPost = {
           },
           {
             title: "Copy the code",
-            body: "The SMS — “G-482916 is your Google verification code” — appears in SMS Code within seconds. Enter it and the sign-up continues.",
+            body: "The SMS — “G-482916 is your Google verification code” — appears in SMS Code usually within seconds. Enter it and the sign-up continues.",
           },
           {
             title: "Detach the number immediately",
@@ -230,7 +230,7 @@ export const googleAccountWithoutPhoneNumber: BlogPost = {
           },
           {
             title: "Скопируйте код",
-            body: "SMS — «G-482916 is your Google verification code» — появится в SMS Code за секунды. Введите код, и регистрация продолжится.",
+            body: "SMS — «G-482916 is your Google verification code» — появится в SMS Code обычно за секунды. Введите код, и регистрация продолжится.",
           },
           {
             title: "Сразу отвяжите номер",

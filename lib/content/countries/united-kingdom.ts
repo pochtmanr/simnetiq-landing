@@ -11,12 +11,12 @@ export const unitedKingdom: CountryEntry = {
   en: {
     metaTitle: "UK Virtual Number for SMS Verification — Real +44 Numbers",
     metaDescription:
-      "Rent a real UK (+44) mobile number and receive SMS verification codes in seconds. Verify WhatsApp, Google, Telegram, Airbnb, PayPal with a British number.",
+      "Rent a real UK (+44) mobile number and receive SMS verification codes usually within seconds. Verify WhatsApp, Google, Telegram, Airbnb, PayPal with a British number.",
     hero: {
       title: "A UK virtual number for SMS verification",
       intro: [
         "A British mobile number starting with 07 — +44 7 in international form — is one of the most recognisable formats online. European and global services alike treat it as a mainstream, trusted choice, and English-language sign-up flows handle it without a hiccup.",
-        "SMS Code hands you a real UK mobile number in one tap. Paste it into the verification field of WhatsApp, Google, Telegram or dozens of other services, and the SMS with your code shows up in the app within seconds.",
+        "SMS Code hands you a real UK mobile number in one tap. Paste it into the verification field of WhatsApp, Google, Telegram or dozens of other services, and the SMS with your code shows up in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -59,19 +59,19 @@ export const unitedKingdom: CountryEntry = {
       },
       {
         q: "What happens if the code never comes?",
-        a: "Unreceived activations cancel free of charge. Cancel the pending one in the app, take another UK number and request the code again — your coins are only spent on activations that actually deliver an SMS.",
+        a: "Unreceived activations cancel and the coins come back. Cancel the pending one in the app, take another UK number and request the code again — your coins are only spent on activations that actually deliver an SMS.",
       },
     ],
   },
   ru: {
     metaTitle: "Виртуальный номер Великобритании для SMS — номера +44",
     metaDescription:
-      "Настоящий британский номер (+44) и SMS-коды подтверждения за секунды. Подтверждайте WhatsApp, Google, Telegram, Airbnb и PayPal номером Великобритании.",
+      "Настоящий британский номер (+44) и SMS-коды подтверждения обычно за секунды. Подтверждайте WhatsApp, Google, Telegram, Airbnb и PayPal номером Великобритании.",
     hero: {
       title: "Виртуальный номер Великобритании для SMS-верификации",
       intro: [
         "Британский мобильный номер, начинающийся с 07 — в международном формате +44 7, — один из самых узнаваемых в интернете. И европейские, и глобальные сервисы воспринимают его как привычный, надёжный выбор, а англоязычные формы регистрации принимают его без запинки.",
-        "SMS Code выдаёт настоящий мобильный номер Великобритании в одно касание. Вставьте его в поле подтверждения WhatsApp, Google, Telegram или десятков других сервисов — и SMS с кодом появится в приложении за считанные секунды.",
+        "SMS Code выдаёт настоящий мобильный номер Великобритании в одно касание. Вставьте его в поле подтверждения WhatsApp, Google, Telegram или десятков других сервисов — и SMS с кодом появится в приложении обычно за считанные секунды.",
       ],
     },
     whyCountry: {

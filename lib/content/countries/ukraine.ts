@@ -11,12 +11,12 @@ export const ukraine: CountryEntry = {
   en: {
     metaTitle: "Ukrainian Virtual Number for SMS — Real +380 Numbers",
     metaDescription:
-      "Rent a real Ukrainian (+380) mobile number and receive SMS codes in seconds. Verify Telegram, Viber, AliExpress, Google and more with a Ukrainian number.",
+      "Rent a real Ukrainian (+380) mobile number and receive SMS codes usually within seconds. Verify Telegram, Viber, AliExpress, Google and more with a Ukrainian number.",
     hero: {
       title: "A Ukrainian virtual number for SMS verification",
       intro: [
         "Ukraine is famously Viber country — nowhere else has the messenger been so dominant — and a +380 number is right at home in Viber, Telegram and the wider ecosystem of services popular across the region. It's the natural pick when the account you're building points east of the EU.",
-        "SMS Code gives you a real Ukrainian mobile number in one tap. Put it into the verification form of Telegram, Viber, AliExpress or another supported service, and the SMS with your code appears in the app within seconds.",
+        "SMS Code gives you a real Ukrainian mobile number in one tap. Put it into the verification form of Telegram, Viber, AliExpress or another supported service, and the SMS with your code appears in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -55,7 +55,7 @@ export const ukraine: CountryEntry = {
       },
       {
         q: "How quickly will the SMS show up?",
-        a: "Typically within seconds of the service sending it. The app shows the full message text the moment it arrives, so the code is ready to copy immediately.",
+        a: "Typically usually within seconds of the service sending it. The app shows the full message text the moment it arrives, so the code is ready to copy immediately.",
       },
       {
         q: "Is the number reserved for me after verification?",
@@ -66,12 +66,12 @@ export const ukraine: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Украины для приёма SMS — номера +380",
     metaDescription:
-      "Настоящий украинский номер (+380) и SMS-коды подтверждения за секунды. Подтверждайте Telegram, Viber, AliExpress, Google и другие сервисы номером Украины.",
+      "Настоящий украинский номер (+380) и SMS-коды подтверждения обычно за секунды. Подтверждайте Telegram, Viber, AliExpress, Google и другие сервисы номером Украины.",
     hero: {
       title: "Виртуальный номер Украины для SMS-верификации",
       intro: [
         "Украина — знаменитая страна Viber: нигде этот мессенджер не был настолько доминирующим, — и номер +380 чувствует себя как дома и в Viber, и в Telegram, и во всей экосистеме сервисов, популярных в регионе. Это естественный выбор, когда создаваемый аккаунт ориентирован восточнее ЕС.",
-        "SMS Code выдаёт настоящий украинский мобильный номер в одно касание. Введите его в форму подтверждения Telegram, Viber, AliExpress или другого поддерживаемого сервиса — и SMS с кодом появится в приложении за считанные секунды.",
+        "SMS Code выдаёт настоящий украинский мобильный номер в одно касание. Введите его в форму подтверждения Telegram, Viber, AliExpress или другого поддерживаемого сервиса — и SMS с кодом появится в приложении обычно за считанные секунды.",
       ],
     },
     whyCountry: {

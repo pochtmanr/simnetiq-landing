@@ -22,12 +22,12 @@ export const twitch: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Twitch — Verify Chat and 2FA Privately",
     metaDescription:
-      "Receive Twitch’s SMS code on a real virtual number in seconds. Pass phone-verified chat and set up 2FA without tying your personal number to your channel.",
+      "Receive Twitch’s SMS code on a real virtual number usually within seconds. Pass phone-verified chat and set up 2FA without tying your personal number to your channel.",
     hero: {
       title: "A virtual number for Twitch",
       intro: [
         "Twitch lets you register with just an email — and then the phone step starts following you around. Streamers switch their chat to phone-verified mode to keep bots out, two-factor authentication is required before you can go live, and the moment either happens, Twitch wants to text a code like “Your Twitch verification code is 843921” to a number of yours.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries and the code lands in the app within seconds. Your chat messages send, your 2FA turns on — and the phone number sitting next to your channel name in Twitch’s database was never your personal one.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries and the code lands in the app usually within seconds. Your chat messages send, your 2FA turns on — and the phone number sitting next to your channel name in Twitch’s database was never your personal one.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const twitch: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The SMS reads “Your Twitch verification code is 843921” and appears in the SMS Code app within seconds. Enter it on Twitch and the number is verified.",
+          body: "The SMS reads “Your Twitch verification code is 843921” and appears in the SMS Code app usually within seconds. Enter it on Twitch and the number is verified.",
         },
         {
           title: "Switch 2FA to an authenticator app",
@@ -91,19 +91,19 @@ export const twitch: ServiceEntry = {
       },
       {
         q: "Why didn’t the Twitch code arrive?",
-        a: "Check that the country code matches the rented number, and give it a moment — codes usually land in seconds. If nothing comes, cancel the activation in SMS Code free of charge and take a fresh number; you only pay for activations that deliver.",
+        a: "Check that the country code matches the rented number, and give it a moment — codes usually land within seconds. If nothing comes, cancel the activation in SMS Code free of charge and take a fresh number; you only pay for activations that deliver.",
       },
     ],
   },
   ru: {
     metaTitle: "Виртуальный номер для Twitch — чат и 2FA без вашей SIM",
     metaDescription:
-      "SMS-код Twitch на настоящий виртуальный номер за секунды. Проходите проверку телефона в чате и включайте 2FA, не привязывая личный номер к каналу.",
+      "SMS-код Twitch на настоящий виртуальный номер обычно за секунды. Проходите проверку телефона в чате и включайте 2FA, не привязывая личный номер к каналу.",
     hero: {
       title: "Виртуальный номер для Twitch",
       intro: [
         "Twitch регистрирует по одной почте — а потом телефонный шаг начинает ходить за вами по пятам. Стримеры включают в чате режим «только с подтверждённым телефоном», чтобы отсечь ботов, двухфакторная аутентификация обязательна перед первым эфиром, и в оба момента Twitch хочет отправить код вида «Your Twitch verification code is 843921» на какой-нибудь ваш номер.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код приходит в приложение за считанные секунды. Сообщения в чате отправляются, 2FA включена — а номер, записанный рядом с вашим ником в базе Twitch, никогда не был вашим личным.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, и код приходит в приложение обычно за считанные секунды. Сообщения в чате отправляются, 2FA включена — а номер, записанный рядом с вашим ником в базе Twitch, никогда не был вашим личным.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const twitch: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "SMS выглядит так: «Your Twitch verification code is 843921» — и появляется в приложении SMS Code за секунды. Введите код на Twitch, и номер подтверждён.",
+          body: "SMS выглядит так: «Your Twitch verification code is 843921» — и появляется в приложении SMS Code обычно за секунды. Введите код на Twitch, и номер подтверждён.",
         },
         {
           title: "Переведите 2FA на приложение-аутентификатор",

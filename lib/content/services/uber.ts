@@ -22,12 +22,12 @@ export const uber: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Uber — Sign Up and Ride Privately",
     metaDescription:
-      "Uber logs you in with an SMS code. Rent a real virtual number, get the four-digit code in seconds and keep your personal phone out of your ride history.",
+      "Uber logs you in with an SMS code. Rent a real virtual number, get the four-digit code usually within seconds and keep your personal phone out of your ride history.",
     hero: {
       title: "A virtual number for Uber",
       intro: [
         "Uber doesn’t treat the phone number as a detail — it is the account. You type a number, Uber texts “Your Uber code is 7204. Never share this code.”, and that’s the whole login: no username, and for many riders no password either. Whoever receives codes on that number effectively holds the account.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries and Uber’s code shows up in the app within seconds. Your rides, receipts and pickup history get tied to a rented number instead of the one your friends and your bank use.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries and Uber’s code shows up in the app usually within seconds. Your rides, receipts and pickup history get tied to a rented number instead of the one your friends and your bank use.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const uber: ServiceEntry = {
         },
         {
           title: "Type in the four digits",
-          body: "“Your Uber code is 7204. Never share this code.” arrives in the SMS Code app within seconds. Enter it and you’re signed in.",
+          body: "“Your Uber code is 7204. Never share this code.” arrives in the SMS Code app usually within seconds. Enter it and you’re signed in.",
         },
         {
           title: "Give the account a second channel",
@@ -98,12 +98,12 @@ export const uber: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Uber — поездки без личного номера",
     metaDescription:
-      "Uber впускает вас по коду из SMS. Арендуйте настоящий виртуальный номер, получите четырёхзначный код за секунды — и не отдавайте личный телефон истории поездок.",
+      "Uber впускает вас по коду из SMS. Арендуйте настоящий виртуальный номер, получите четырёхзначный код обычно за секунды — и не отдавайте личный телефон истории поездок.",
     hero: {
       title: "Виртуальный номер для Uber",
       intro: [
         "Для Uber номер телефона — не деталь, а сам аккаунт. Вы вводите номер, Uber присылает «Your Uber code is 7204. Never share this code.» — и это весь вход: без логина, а у многих пассажиров и без пароля. Кто получает коды на этот номер, тот фактически и владеет аккаунтом.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код Uber появляется в приложении за считанные секунды. Ваши поездки, чеки и адреса посадки привязываются к арендованному номеру, а не к тому, которым пользуются ваши друзья и ваш банк.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, и код Uber появляется в приложении обычно за считанные секунды. Ваши поездки, чеки и адреса посадки привязываются к арендованному номеру, а не к тому, которым пользуются ваши друзья и ваш банк.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const uber: ServiceEntry = {
         },
         {
           title: "Введите четыре цифры",
-          body: "«Your Uber code is 7204. Never share this code.» приходит в приложение SMS Code за секунды. Введите код — и вы в аккаунте.",
+          body: "«Your Uber code is 7204. Never share this code.» приходит в приложение SMS Code обычно за секунды. Введите код — и вы в аккаунте.",
         },
         {
           title: "Дайте аккаунту второй канал",

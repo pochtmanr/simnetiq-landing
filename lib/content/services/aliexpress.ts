@@ -16,12 +16,12 @@ export const aliexpress: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for AliExpress — Shop Without Your Number",
     metaDescription:
-      "Verify AliExpress with a real virtual number — the code arrives in seconds. Keep your personal phone away from sellers, couriers and marketplace databases.",
+      "Verify AliExpress with a real virtual number — the code arrives usually within seconds. Keep your personal phone away from sellers, couriers and marketplace databases.",
     hero: {
       title: "A virtual number for AliExpress",
       intro: [
         "AliExpress asks for a phone number at sign-up in many regions and keeps texting after that: login checks, order confirmations, the occasional security prompt at checkout. The message is short — “AliExpress verification code: 902731” — but the number you give ends up woven into one of the world’s biggest marketplace ecosystems.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries and the code appears in the app within seconds. You get the account verified; the marketplace, its sellers and its logistics partners get a number that isn’t the one in your pocket.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries and the code appears in the app usually within seconds. You get the account verified; the marketplace, its sellers and its logistics partners get a number that isn’t the one in your pocket.",
       ],
     },
     whyVirtual: {
@@ -44,7 +44,7 @@ export const aliexpress: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "“AliExpress verification code: 902731” lands in the SMS Code app within seconds. Enter it and the number is confirmed.",
+          body: "“AliExpress verification code: 902731” lands in the SMS Code app usually within seconds. Enter it and the number is confirmed.",
         },
         {
           title: "Set the delivery contact separately",
@@ -85,19 +85,19 @@ export const aliexpress: ServiceEntry = {
       },
       {
         q: "Which country should the number be from?",
-        a: "Any of the 150+ works for receiving the code. Practically, pick the country you shop and ship from: consistent details mean fewer security re-checks, and the prices and sellers you see match the place your orders actually go.",
+        a: "Any of the 100+ works for receiving the code. Practically, pick the country you shop and ship from: consistent details mean fewer security re-checks, and the prices and sellers you see match the place your orders actually go.",
       },
     ],
   },
   ru: {
     metaTitle: "Виртуальный номер для AliExpress — покупки без своего номера",
     metaDescription:
-      "Подтвердите AliExpress настоящим виртуальным номером — код придёт за секунды. Держите личный телефон подальше от продавцов, курьеров и баз маркетплейса.",
+      "Подтвердите AliExpress настоящим виртуальным номером — код придёт обычно за секунды. Держите личный телефон подальше от продавцов, курьеров и баз маркетплейса.",
     hero: {
       title: "Виртуальный номер для AliExpress",
       intro: [
         "Во многих регионах AliExpress просит телефон при регистрации — и продолжает писать после неё: проверки входа, подтверждения заказов, редкие запросы безопасности при оплате. Сообщение короткое — «AliExpress verification code: 902731», — но отданный номер вплетается в одну из крупнейших маркетплейс-экосистем мира.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код появляется в приложении за считанные секунды. Вы получаете подтверждённый аккаунт, а маркетплейс, его продавцы и логистические партнёры — номер, который лежит не в вашем кармане.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, и код появляется в приложении обычно за считанные секунды. Вы получаете подтверждённый аккаунт, а маркетплейс, его продавцы и логистические партнёры — номер, который лежит не в вашем кармане.",
       ],
     },
     whyVirtual: {
@@ -120,7 +120,7 @@ export const aliexpress: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "«AliExpress verification code: 902731» приходит в приложение SMS Code за секунды. Введите его — и номер подтверждён.",
+          body: "«AliExpress verification code: 902731» приходит в приложение SMS Code обычно за секунды. Введите его — и номер подтверждён.",
         },
         {
           title: "Контакт для доставки укажите отдельно",
@@ -161,7 +161,7 @@ export const aliexpress: ServiceEntry = {
       },
       {
         q: "Из какой страны брать номер?",
-        a: "Для получения кода подойдёт любая из 150+. Практический совет: берите страну, где покупаете и получаете посылки, — согласованные данные означают меньше повторных проверок, а цены и продавцы, которых вы видите, соответствуют месту, куда реально едут ваши заказы.",
+        a: "Для получения кода подойдёт любая из 100+. Практический совет: берите страну, где покупаете и получаете посылки, — согласованные данные означают меньше повторных проверок, а цены и продавцы, которых вы видите, соответствуют месту, куда реально едут ваши заказы.",
       },
     ],
   },

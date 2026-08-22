@@ -22,12 +22,12 @@ export const zalo: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Zalo — Verify Without Your Own Phone",
     metaDescription:
-      "Receive Zalo’s activation code on a real virtual number in seconds. Reach Vietnamese contacts and businesses without exposing your personal phone — honestly explained.",
+      "Receive Zalo’s activation code on a real virtual number usually within seconds. Reach Vietnamese contacts and businesses without exposing your personal phone — honestly explained.",
     hero: {
       title: "A virtual number for Zalo",
       intro: [
         "Zalo is Vietnam’s everything-messenger — where families chat, sellers take orders and offices coordinate — and the account is the phone number, full stop. Sign-up starts with a number, an SMS like “793145 is your Zalo activation code” confirms it, and that number becomes how people find you.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries and the code lands in the app within seconds. You get a working Zalo account — and the suppliers, landlords or in-laws you message on it never need the number your bank uses.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries and the code lands in the app usually within seconds. You get a working Zalo account — and the suppliers, landlords or in-laws you message on it never need the number your bank uses.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const zalo: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The SMS reads “793145 is your Zalo activation code” and appears in the app within seconds. Enter it, set your display name, and the account is live.",
+          body: "The SMS reads “793145 is your Zalo activation code” and appears in the app usually within seconds. Enter it, set your display name, and the account is live.",
         },
         {
           title: "Protect the session",
@@ -98,12 +98,12 @@ export const zalo: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Zalo — подтверждение без своей SIM",
     metaDescription:
-      "Код активации Zalo на настоящий виртуальный номер за секунды. Общайтесь с вьетнамскими контактами и бизнесом, не раскрывая личный телефон. Честно о том, как это работает.",
+      "Код активации Zalo на настоящий виртуальный номер обычно за секунды. Общайтесь с вьетнамскими контактами и бизнесом, не раскрывая личный телефон. Честно о том, как это работает.",
     hero: {
       title: "Виртуальный номер для Zalo",
       intro: [
         "Zalo — вьетнамский мессенджер «для всего»: там переписываются семьи, продавцы принимают заказы, офисы решают вопросы. И аккаунт здесь — это номер телефона, точка. Регистрация начинается с номера, SMS вида «793145 is your Zalo activation code» его подтверждает, и дальше именно по этому номеру вас находят.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код приходит в приложение за считанные секунды. У вас появляется рабочий аккаунт Zalo — а поставщикам, арендодателям и новым родственникам, с которыми вы там переписываетесь, не нужен номер, которым пользуется ваш банк.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, и код приходит в приложение обычно за считанные секунды. У вас появляется рабочий аккаунт Zalo — а поставщикам, арендодателям и новым родственникам, с которыми вы там переписываетесь, не нужен номер, которым пользуется ваш банк.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const zalo: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "SMS выглядит так: «793145 is your Zalo activation code» — и появляется в приложении за секунды. Введите код, укажите имя — аккаунт создан.",
+          body: "SMS выглядит так: «793145 is your Zalo activation code» — и появляется в приложении обычно за секунды. Введите код, укажите имя — аккаунт создан.",
         },
         {
           title: "Берегите сессию",

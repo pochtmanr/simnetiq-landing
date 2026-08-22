@@ -22,12 +22,12 @@ export const wechat: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for WeChat — What Works and What Doesn’t",
     metaDescription:
-      "A virtual number receives WeChat’s SMS in seconds — but new WeChat accounts often also need a friend-assist from an existing user. The honest guide, up front.",
+      "A virtual number receives WeChat’s SMS usually within seconds — but new WeChat accounts often also need a friend-assist from an existing user. The honest guide, up front.",
     hero: {
       title: "A virtual number for WeChat",
       intro: [
         "Let’s be upfront: WeChat is the hardest mainstream sign-up there is. The SMS step works like anywhere else — you enter a number, “Use the code (582074) on WeChat to log in to your account.” arrives, you type it in. But for many new registrations WeChat then adds a second gate: confirmation by an existing WeChat user whose account meets its criteria. No number, virtual or otherwise, can substitute for that.",
-        "With SMS Code the phone step itself is easy — a real number in one of 150+ countries, the code in the app within seconds. This page tells you honestly what the number covers, what it doesn’t, and how to prepare for the part that depends on a human being.",
+        "With SMS Code the phone step itself is easy — a real number in one of 100+ countries, the code in the app usually within seconds. This page tells you honestly what the number covers, what it doesn’t, and how to prepare for the part that depends on a human being.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const wechat: ServiceEntry = {
         },
         {
           title: "Sign up and enter the code",
-          body: "Start registration in WeChat with the rented number. “Use the code (582074) on WeChat to log in to your account.” arrives in the SMS Code app within seconds — type it in, then follow whatever security verification WeChat presents, handing the friend-assist part to your helper.",
+          body: "Start registration in WeChat with the rented number. “Use the code (582074) on WeChat to log in to your account.” arrives in the SMS Code app usually within seconds — type it in, then follow whatever security verification WeChat presents, handing the friend-assist part to your helper.",
         },
         {
           title: "Anchor the account beyond SMS",
@@ -98,12 +98,12 @@ export const wechat: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для WeChat — что сработает, а что нет",
     metaDescription:
-      "Виртуальный номер примет SMS от WeChat за секунды — но новым аккаунтам часто нужна ещё помощь действующего пользователя. Честный разбор до старта.",
+      "Виртуальный номер примет SMS от WeChat обычно за секунды — но новым аккаунтам часто нужна ещё помощь действующего пользователя. Честный разбор до старта.",
     hero: {
       title: "Виртуальный номер для WeChat",
       intro: [
         "Скажем прямо: у WeChat самая трудная регистрация среди массовых сервисов. Шаг с SMS проходит как везде — вводите номер, приходит «Use the code (582074) on WeChat to log in to your account.», вбиваете код. Но для многих новых регистраций WeChat добавляет вторые ворота: подтверждение действующим пользователем WeChat, чей аккаунт отвечает его критериям. Никакой номер — ни виртуальный, ни обычный — этого не заменит.",
-        "С SMS Code сам телефонный шаг прост: настоящий номер в одной из 150+ стран, код в приложении за считанные секунды. Эта страница честно объясняет, что номер закрывает, чего не закрывает и как подготовиться к той части, которая зависит от живого человека.",
+        "С SMS Code сам телефонный шаг прост: настоящий номер в одной из 100+ стран, код в приложении обычно за считанные секунды. Эта страница честно объясняет, что номер закрывает, чего не закрывает и как подготовиться к той части, которая зависит от живого человека.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const wechat: ServiceEntry = {
         },
         {
           title: "Зарегистрируйтесь и введите код",
-          body: "Начните регистрацию в WeChat с арендованным номером. «Use the code (582074) on WeChat to log in to your account.» придёт в приложение SMS Code за секунды — введите код, затем пройдите проверку безопасности, которую покажет WeChat, передав часть с помощью друга вашему помощнику.",
+          body: "Начните регистрацию в WeChat с арендованным номером. «Use the code (582074) on WeChat to log in to your account.» придёт в приложение SMS Code обычно за секунды — введите код, затем пройдите проверку безопасности, которую покажет WeChat, передав часть с помощью друга вашему помощнику.",
         },
         {
           title: "Закрепите аккаунт не только на SMS",

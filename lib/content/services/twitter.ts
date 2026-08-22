@@ -20,14 +20,14 @@ export const twitter: ServiceEntry = {
     code: "941507",
   },
   en: {
-    metaTitle: "Virtual Number for X (Twitter) — Unlock Without Your Number",
+    metaTitle: "Virtual Number for X (Twitter) — Verify Without Your Own Number",
     metaDescription:
-      "Pass X (Twitter) phone verification with a real virtual number from 150+ countries. The code arrives in seconds — pay per activation, free cancel if no SMS.",
+      "Pass X (Twitter) phone verification with a real virtual number from 100+ countries. The code arrives usually within seconds — pay per activation, free cancel if no SMS.",
     hero: {
       title: "A virtual number for X (Twitter)",
       intro: [
         "You can create an X account with nothing but an email — the sign-up form itself doesn't insist on a phone. The catch arrives minutes or days later: fresh accounts are routinely locked “to confirm you're not a robot”, and the unlock screen wants a phone number that can receive an SMS right now. For many people, that challenge is the real registration step.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries, give it to X at exactly that moment, and the confirmation code appears in the app within seconds. You pay per activation from a one-time coin pack — no subscription — and a number that received nothing is cancelled without charge.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries, give it to X at exactly that moment, and the confirmation code appears in the app usually within seconds. You pay per activation from a one-time coin pack — no subscription — and a number that received nothing is cancelled without charge.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const twitter: ServiceEntry = {
         },
         {
           title: "Type in the confirmation code",
-          body: "The SMS lands in the SMS Code app within seconds, from sender “X”, formatted like “Your X confirmation code is 941507. Don't share this code with anyone.” Enter the digits and the lock lifts.",
+          body: "The SMS lands in the SMS Code app usually within seconds, from sender “X”, formatted like “Your X confirmation code is 941507. Don't share this code with anyone.” Enter the digits and the lock lifts.",
         },
         {
           title: "Move security off SMS",
@@ -91,19 +91,19 @@ export const twitter: ServiceEntry = {
       },
       {
         q: "Why didn't my X confirmation code arrive?",
-        a: "Check that the country code matches the rented number first; after that, know that X declines to text some numbers it distrusts. Cancel the pending activation in SMS Code — numbers that received nothing are never charged — and take a fresh number, ideally from another country.",
+        a: "Check that the country code matches the rented number first; after that, know that X declines to text some numbers it distrusts. Cancel the pending activation in SMS Code — the coins come back for numbers that received nothing — and take a fresh number, ideally from another country.",
       },
     ],
   },
   ru: {
-    metaTitle: "Виртуальный номер для X (Twitter) — разблокировка без своего номера",
+    metaTitle: "Виртуальный номер для X (Twitter) — проверка без своего номера",
     metaDescription:
-      "Пройдите проверку телефона в X (Twitter) настоящим виртуальным номером из 150+ стран. Код за секунды — оплата за активацию, отмена без списания, если SMS нет.",
+      "Пройдите проверку телефона в X (Twitter) настоящим виртуальным номером из 100+ стран. Код обычно за секунды — оплата за активацию, отмена с возвратом монет, если SMS нет.",
     hero: {
       title: "Виртуальный номер для X (Twitter)",
       intro: [
         "Создать аккаунт X можно по одной почте — сама форма регистрации телефон не требует. Подвох приходит через минуты или дни: свежие аккаунты стабильно блокируют «для подтверждения, что вы не робот», а экран разблокировки хочет номер, способный принять SMS прямо сейчас. Для многих именно эта проверка и есть настоящая регистрация.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, отдаёте его X ровно в этот момент — и код подтверждения появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а номер, на который ничего не пришло, отменяется без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, отдаёте его X ровно в этот момент — и код подтверждения появляется в приложении обычно за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а номер, на который ничего не пришло, отменяется с возвратом монет.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const twitter: ServiceEntry = {
         },
         {
           title: "Введите код подтверждения",
-          body: "SMS придёт в приложение SMS Code за секунды, от отправителя «X», в формате «Your X confirmation code is 941507. Don't share this code with anyone.» Введите цифры — блокировка снята.",
+          body: "SMS придёт в приложение SMS Code обычно за секунды, от отправителя «X», в формате «Your X confirmation code is 941507. Don't share this code with anyone.» Введите цифры — блокировка снята.",
         },
         {
           title: "Уведите безопасность с SMS",
@@ -167,7 +167,7 @@ export const twitter: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код подтверждения X?",
-        a: "Сначала проверьте, совпадает ли код страны с арендованным номером; кроме того, X отказывается писать на некоторые номера, которым не доверяет. Отмените ожидающую активацию в SMS Code — за номера, на которые ничего не пришло, деньги не списываются, — и возьмите свежий номер, лучше из другой страны.",
+        a: "Сначала проверьте, совпадает ли код страны с арендованным номером; кроме того, X отказывается писать на некоторые номера, которым не доверяет. Отмените ожидающую активацию в SMS Code — монеты за номера, на которые ничего не пришло, возвращаются на баланс, — и возьмите свежий номер, лучше из другой страны.",
       },
     ],
   },

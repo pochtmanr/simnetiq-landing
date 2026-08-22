@@ -15,7 +15,7 @@ export const BLOG_UI = {
     published: "Published",
     updated: "Updated",
     ctaTitle: "Put it into practice on your next sign-up",
-    ctaBody: "Get a number and see the code arrive in seconds.",
+    ctaBody: "Get a number and see the code arrive usually within seconds.",
     readMore: "Read the guide",
   },
   ru: {

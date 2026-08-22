@@ -22,12 +22,12 @@ export const vkcom: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for VK — Register Without Your Real Number",
     metaDescription:
-      "Get a real virtual number for VK verification. The SMS code arrives in the SMS Code app in seconds — create a VK account without exposing your personal number.",
+      "Get a real virtual number for VK verification. The SMS code arrives in the SMS Code app usually within seconds — create a VK account without exposing your personal number.",
     hero: {
       title: "A virtual number for VK",
       intro: [
         "VK doesn't offer a way around the phone number: registration is built on it. Before you can browse communities, message anyone or list an item on the marketplace, VK sends an SMS code to the number you provide — and that number becomes the login and recovery anchor for the whole account.",
-        "With SMS Code you rent a real number from one of 150+ countries, enter it on VK's sign-up form, and the confirmation code lands in the SMS Code app within seconds. The account is fully verified — and your personal number never enters VK's database.",
+        "With SMS Code you rent a real number from one of 100+ countries, enter it on VK's sign-up form, and the confirmation code lands in the SMS Code app usually within seconds. The account is fully verified — and your personal number never enters VK's database.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const vkcom: ServiceEntry = {
         },
         {
           title: "Confirm with the code",
-          body: "The message shows up in the SMS Code app in seconds — “VK: 348715 — код подтверждения”. Enter the six digits on VK's screen and the account is created.",
+          body: "The message shows up in the SMS Code app usually within seconds — “VK: 348715 — код подтверждения”. Enter the six digits on VK's screen and the account is created.",
         },
         {
           title: "Add a strong password and backup access",
@@ -98,12 +98,12 @@ export const vkcom: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для VK — регистрация без личного номера",
     metaDescription:
-      "Настоящий виртуальный номер для подтверждения VK. SMS с кодом придёт в приложение SMS Code за секунды — создайте аккаунт VK, не раскрывая свой номер.",
+      "Настоящий виртуальный номер для подтверждения VK. SMS с кодом придёт в приложение SMS Code обычно за секунды — создайте аккаунт VK, не раскрывая свой номер.",
     hero: {
       title: "Виртуальный номер для VK",
       intro: [
         "Обойти номер телефона во «ВКонтакте» не получится: регистрация построена на нём. Прежде чем листать сообщества, писать кому-то или выставить товар на маркетплейсе, VK отправит SMS-код на указанный номер — и этот номер станет логином и якорем восстановления для всего аккаунта.",
-        "С SMS Code вы арендуете настоящий номер из одной из 150+ стран, вводите его в форме регистрации VK — и код подтверждения появляется в приложении SMS Code за секунды. Аккаунт полностью подтверждён, а ваш личный номер в базу VK так и не попал.",
+        "С SMS Code вы арендуете настоящий номер из одной из 100+ стран, вводите его в форме регистрации VK — и код подтверждения появляется в приложении SMS Code обычно за секунды. Аккаунт полностью подтверждён, а ваш личный номер в базу VK так и не попал.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const vkcom: ServiceEntry = {
         },
         {
           title: "Подтвердите кодом",
-          body: "Сообщение появится в приложении SMS Code за секунды: «VK: 348715 — код подтверждения». Введите шесть цифр на экране VK — аккаунт создан.",
+          body: "Сообщение появится в приложении SMS Code обычно за секунды: «VK: 348715 — код подтверждения». Введите шесть цифр на экране VK — аккаунт создан.",
         },
         {
           title: "Задайте пароль и запасной доступ",

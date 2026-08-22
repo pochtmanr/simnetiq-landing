@@ -21,11 +21,11 @@ export const SERVICES_UI = {
     hub: {
       metaTitle: "Virtual Numbers for SMS Verification — All Services",
       metaDescription:
-        "Rent a real virtual number for Telegram, WhatsApp, Google, Instagram and more. Receive SMS verification codes in seconds — no SIM, no subscription.",
+        "Rent a real virtual number for Telegram, WhatsApp, Google, Instagram and more. Receive SMS verification codes usually within seconds — no SIM, no subscription.",
       label: "Coverage",
       title: "One number away from any sign-up",
       sub: "Pick the service you're signing up for — each guide covers the real verification flow, the gotchas and the questions people actually ask.",
-      allNote: "More services are added regularly — the app itself supports 100+ services in 150+ countries.",
+      allNote: "More services are added regularly — the app itself supports 100+ services in 100+ countries.",
     },
     categories: {
       messaging: "Messaging",
@@ -63,11 +63,11 @@ export const SERVICES_UI = {
     hub: {
       metaTitle: "Виртуальные номера для приёма SMS — все сервисы",
       metaDescription:
-        "Арендуйте настоящий виртуальный номер для Telegram, WhatsApp, Google, Instagram и других сервисов. SMS-коды за секунды — без SIM-карты и подписки.",
+        "Арендуйте настоящий виртуальный номер для Telegram, WhatsApp, Google, Instagram и других сервисов. SMS-коды обычно за секунды — без SIM-карты и подписки.",
       label: "Покрытие",
       title: "От любой регистрации вас отделяет один номер",
       sub: "Выберите сервис, в котором регистрируетесь: в каждом гиде — реальный процесс подтверждения, подводные камни и ответы на настоящие вопросы.",
-      allNote: "Сервисы добавляются регулярно — само приложение поддерживает 100+ сервисов в 150+ странах.",
+      allNote: "Сервисы добавляются регулярно — само приложение поддерживает 100+ сервисов в 100+ странах.",
     },
     categories: {
       messaging: "Мессенджеры",

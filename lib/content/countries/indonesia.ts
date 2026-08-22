@@ -11,12 +11,12 @@ export const indonesia: CountryEntry = {
   en: {
     metaTitle: "Indonesia Virtual Number for SMS — Real +62 Numbers",
     metaDescription:
-      "Get a real Indonesian (+62) virtual number and receive SMS verification codes in seconds. Verify WhatsApp, Telegram, TikTok, Grab and LINE with a local number.",
+      "Get a real Indonesian (+62) virtual number and receive SMS verification codes usually within seconds. Verify WhatsApp, Telegram, TikTok, Grab and LINE with a local number.",
     hero: {
       title: "An Indonesian virtual number for SMS verification",
       intro: [
         "Indonesia is one of the most mobile-first countries on the planet: hundreds of millions of people live their digital lives on a phone, and WhatsApp is the thread that ties it all together. A +62 number is what local sign-up flows expect to see — from chat apps to ride-hailing to marketplaces.",
-        "SMS Code hands you a real Indonesian mobile number in one tap. Type it into the verification field, and the SMS — with a code from WhatsApp, Telegram, TikTok, Grab or LINE — lands in the app within seconds, wherever in the world you actually are.",
+        "SMS Code hands you a real Indonesian mobile number in one tap. Type it into the verification field, and the SMS — with a code from WhatsApp, Telegram, TikTok, Grab or LINE — lands in the app usually within seconds, wherever in the world you actually are.",
       ],
     },
     whyCountry: {
@@ -55,7 +55,7 @@ export const indonesia: CountryEntry = {
       },
       {
         q: "How fast does the verification SMS arrive?",
-        a: "Typically within seconds of the service sending it. The full message text appears in the app the moment the network delivers it, so you can copy the code straight away.",
+        a: "Typically usually within seconds of the service sending it. The full message text appears in the app the moment the network delivers it, so you can copy the code straight away.",
       },
       {
         q: "What happens to the number after I get my code?",
@@ -66,12 +66,12 @@ export const indonesia: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Индонезии для приёма SMS — номера +62",
     metaDescription:
-      "Настоящий виртуальный номер Индонезии (+62) и SMS-коды за секунды. Подтверждайте WhatsApp, Telegram, TikTok, Grab и LINE местным индонезийским номером.",
+      "Настоящий виртуальный номер Индонезии (+62) и SMS-коды обычно за секунды. Подтверждайте WhatsApp, Telegram, TikTok, Grab и LINE местным индонезийским номером.",
     hero: {
       title: "Виртуальный номер Индонезии для SMS-верификации",
       intro: [
         "Индонезия — одна из самых «мобильных» стран мира: сотни миллионов людей живут цифровой жизнью прямо в телефоне, и всё это связывает воедино WhatsApp. Номер +62 — именно то, что ожидают увидеть местные формы регистрации: от мессенджеров до такси и маркетплейсов.",
-        "SMS Code выдаёт настоящий индонезийский мобильный номер в одно касание. Введите его в поле подтверждения — и SMS с кодом от WhatsApp, Telegram, TikTok, Grab или LINE появится в приложении за секунды, где бы вы на самом деле ни находились.",
+        "SMS Code выдаёт настоящий индонезийский мобильный номер в одно касание. Введите его в поле подтверждения — и SMS с кодом от WhatsApp, Telegram, TikTok, Grab или LINE появится в приложении обычно за секунды, где бы вы на самом деле ни находились.",
       ],
     },
     whyCountry: {
@@ -92,7 +92,7 @@ export const indonesia: CountryEntry = {
       },
       {
         title: "Код не пришёл — отмените и возьмите новый",
-        body: "Если сервис не прислал SMS за окно активации, отмените ожидающую активацию — когда ничего не пришло, деньги не списываются — и возьмите свежий индонезийский номер для новой попытки.",
+        body: "Если сервис не прислал SMS за окно активации, отмените ожидающую активацию — когда ничего не пришло, монеты возвращаются на баланс — и возьмите свежий индонезийский номер для новой попытки.",
       },
     ],
     faqs: [
@@ -110,7 +110,7 @@ export const indonesia: CountryEntry = {
       },
       {
         q: "Как быстро приходит SMS с кодом?",
-        a: "Обычно за считанные секунды после отправки сервисом. Полный текст сообщения появляется в приложении в момент доставки, так что код можно сразу скопировать.",
+        a: "Обычно обычно за считанные секунды после отправки сервисом. Полный текст сообщения появляется в приложении в момент доставки, так что код можно сразу скопировать.",
       },
       {
         q: "Что происходит с номером после получения кода?",

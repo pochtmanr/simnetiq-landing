@@ -11,12 +11,12 @@ export const thailand: CountryEntry = {
   en: {
     metaTitle: "Thai Virtual Number for SMS — Real +66 Mobile Numbers",
     metaDescription:
-      "Get a real Thai (+66) virtual number and receive SMS codes in seconds. Verify LINE, Shopee, WhatsApp, Telegram and Grab with a number from Thailand's LINE-first mobile world.",
+      "Get a real Thai (+66) virtual number and receive SMS codes usually within seconds. Verify LINE, Shopee, WhatsApp, Telegram and Grab with a number from Thailand's LINE-first mobile world.",
     hero: {
       title: "A Thai virtual number for SMS verification",
       intro: [
         "Thailand is LINE country. The green messenger is where Thais chat, pay, follow shops and read the news — and a LINE account starts with a phone number. A +66 mobile is the natural way in, and it opens the rest of the Thai app world too: Shopee for shopping, Grab for rides and food.",
-        "SMS Code rents you a real Thai mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Thai mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app usually within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -66,12 +66,12 @@ export const thailand: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Таиланда для приёма SMS — номера +66",
     metaDescription:
-      "Настоящий тайский номер (+66) и SMS-коды за секунды. Подтверждайте LINE, Shopee, WhatsApp, Telegram и Grab номером из страны, где мессенджером по умолчанию служит LINE.",
+      "Настоящий тайский номер (+66) и SMS-коды обычно за секунды. Подтверждайте LINE, Shopee, WhatsApp, Telegram и Grab номером из страны, где мессенджером по умолчанию служит LINE.",
     hero: {
       title: "Виртуальный номер Таиланда для SMS-верификации",
       intro: [
         "Таиланд — страна LINE. В зелёном мессенджере тайцы переписываются, платят, подписываются на магазины и читают новости — а аккаунт LINE начинается с номера телефона. Мобильный +66 — естественный вход туда, и он же открывает остальной тайский мир приложений: Shopee для покупок, Grab для поездок и еды.",
-        "SMS Code сдаёт настоящий тайский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий тайский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении обычно за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {

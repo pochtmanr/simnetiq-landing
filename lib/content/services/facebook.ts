@@ -22,12 +22,12 @@ export const facebook: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Facebook — Sign Up Without a SIM",
     metaDescription:
-      "Verify Facebook with a real virtual number from 150+ countries. The confirmation code arrives in seconds — pay per activation, no subscription, free cancel if no SMS.",
+      "Verify Facebook with a real virtual number from 100+ countries. The confirmation code arrives usually within seconds — pay per activation, no subscription, free cancel if no SMS.",
     hero: {
       title: "A virtual number for Facebook",
       intro: [
         "On paper, Facebook lets you sign up with just an email. In practice, a phone number rarely stays out of the picture: the registration form often asks for one, and fresh accounts routinely land in a security checkpoint within their first days — where a code sent by SMS is the quickest way to prove there's a real person behind the profile.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries, hand it to Facebook, and the confirmation code appears in the app within seconds. You pay per activation from a one-time coin pack — no subscription — and if a number receives nothing, you cancel it without being charged.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries, hand it to Facebook, and the confirmation code appears in the app usually within seconds. You pay per activation from a one-time coin pack — no subscription — and if a number receives nothing, you cancel it without being charged.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const facebook: ServiceEntry = {
         },
         {
           title: "Type in the confirmation code",
-          body: "The SMS lands in the SMS Code app within seconds, from sender “Facebook”, formatted like “285103 is your Facebook confirmation code”. Enter the digits and the check clears.",
+          body: "The SMS lands in the SMS Code app usually within seconds, from sender “Facebook”, formatted like “285103 is your Facebook confirmation code”. Enter the digits and the check clears.",
         },
         {
           title: "Anchor the account to things you control",
@@ -87,7 +87,7 @@ export const facebook: ServiceEntry = {
       },
       {
         q: "Why didn't my Facebook code arrive?",
-        a: "Usually one of two things: the country code entered on Facebook doesn't match the rented number, or Facebook declined to text that particular number. Cancel the pending activation in SMS Code — numbers that received nothing are never charged — and try a fresh one, ideally from another country.",
+        a: "Usually one of two things: the country code entered on Facebook doesn't match the rented number, or Facebook declined to text that particular number. Cancel the pending activation in SMS Code — the coins come back for numbers that received nothing — and try a fresh one, ideally from another country.",
       },
       {
         q: "Is verifying Facebook with a rented number against the rules?",
@@ -98,12 +98,12 @@ export const facebook: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Facebook — регистрация без SIM-карты",
     metaDescription:
-      "Подтвердите Facebook настоящим виртуальным номером из 150+ стран. Код приходит в приложение за секунды — оплата за активацию, без подписки, отмена без списания.",
+      "Подтвердите Facebook настоящим виртуальным номером из 100+ стран. Код приходит в приложение обычно за секунды — оплата за активацию, без подписки, отмена с возвратом монет.",
     hero: {
       title: "Виртуальный номер для Facebook",
       intro: [
         "Формально Facebook разрешает регистрацию по одной почте. На деле без телефона обходится редко: форма регистрации часто просит номер сама, а свежие аккаунты в первые же дни попадают в проверку безопасности — и код из SMS оказывается самым быстрым способом доказать, что за профилем стоит живой человек.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, отдаёте его Facebook — и код подтверждения появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, отдаёте его Facebook — и код подтверждения появляется в приложении обычно за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а если на номер ничего не пришло — отменяете его с возвратом монет.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const facebook: ServiceEntry = {
         },
         {
           title: "Введите код подтверждения",
-          body: "SMS придёт в приложение SMS Code за секунды, от отправителя «Facebook», в формате «285103 is your Facebook confirmation code». Введите цифры — и проверка пройдена.",
+          body: "SMS придёт в приложение SMS Code обычно за секунды, от отправителя «Facebook», в формате «285103 is your Facebook confirmation code». Введите цифры — и проверка пройдена.",
         },
         {
           title: "Привяжите аккаунт к тому, что контролируете вы",
@@ -163,7 +163,7 @@ export const facebook: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Facebook?",
-        a: "Обычно одно из двух: код страны в Facebook не совпадает с арендованным номером, либо Facebook отказался отправлять SMS на этот конкретный номер. Отмените ожидающую активацию в SMS Code — за номера, на которые ничего не пришло, деньги не списываются, — и возьмите новый, лучше из другой страны.",
+        a: "Обычно одно из двух: код страны в Facebook не совпадает с арендованным номером, либо Facebook отказался отправлять SMS на этот конкретный номер. Отмените ожидающую активацию в SMS Code — монеты за номера, на которые ничего не пришло, возвращаются на баланс, — и возьмите новый, лучше из другой страны.",
       },
       {
         q: "Подтверждать Facebook арендованным номером — это против правил?",

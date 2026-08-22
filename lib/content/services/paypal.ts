@@ -27,7 +27,7 @@ export const paypal: ServiceEntry = {
       title: "A virtual number for PayPal",
       intro: [
         "PayPal confirms a phone number early: during sign-up it texts “Your PayPal security code is: 305174. It expires in 10 minutes.” and won’t move on until the code is entered. From that moment the number isn’t a formality — it becomes part of how PayPal decides whether a login, a payment or a limit change is really you.",
-        "A virtual number from SMS Code receives that code in seconds, like any real mobile number. But PayPal is a money account, and we’d rather be straight with you than sell you a shortcut: read the trade-offs below before you verify, and decide where the number should — and shouldn’t — sit in your account’s security.",
+        "A virtual number from SMS Code receives that code usually within seconds, like any real mobile number. But PayPal is a money account, and we’d rather be straight with you than sell you a shortcut: read the trade-offs below before you verify, and decide where the number should — and shouldn’t — sit in your account’s security.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const paypal: ServiceEntry = {
         },
         {
           title: "Type in the code quickly",
-          body: "The SMS says “Your PayPal security code is: 305174. It expires in 10 minutes.” It reaches the SMS Code app in seconds — enter it before the ten minutes run out.",
+          body: "The SMS says “Your PayPal security code is: 305174. It expires in 10 minutes.” It reaches the SMS Code app usually within seconds — enter it before the ten minutes run out.",
         },
         {
           title: "Move security onto channels you control",
@@ -75,7 +75,7 @@ export const paypal: ServiceEntry = {
     faqs: [
       {
         q: "Can a virtual number receive PayPal’s verification SMS?",
-        a: "Yes — it’s a real mobile number on a real network, and PayPal’s sign-up code arrives in the SMS Code app within seconds. The code expires in ten minutes, so have the sign-up screen open when you request it.",
+        a: "Yes — it’s a real mobile number on a real network, and PayPal’s sign-up code arrives in the SMS Code app usually within seconds. The code expires in ten minutes, so have the sign-up screen open when you request it.",
       },
       {
         q: "Is it safe to leave the rented number on my PayPal account?",
@@ -103,7 +103,7 @@ export const paypal: ServiceEntry = {
       title: "Виртуальный номер для PayPal",
       intro: [
         "PayPal проверяет телефон с самого начала: при регистрации приходит SMS «Your PayPal security code is: 305174. It expires in 10 minutes.», и дальше без кода не пройти. С этого момента номер — не формальность: он становится частью того, как PayPal решает, действительно ли это вы входите, платите или меняете лимиты.",
-        "Виртуальный номер из SMS Code примет этот код за секунды, как любой настоящий мобильный. Но PayPal — это счёт с деньгами, и мы предпочитаем честность продаже коротких путей: прочитайте о компромиссах ниже, прежде чем подтверждать, и решите, какое место номеру можно — а какое нельзя — занимать в безопасности аккаунта.",
+        "Виртуальный номер из SMS Code примет этот код обычно за секунды, как любой настоящий мобильный. Но PayPal — это счёт с деньгами, и мы предпочитаем честность продаже коротких путей: прочитайте о компромиссах ниже, прежде чем подтверждать, и решите, какое место номеру можно — а какое нельзя — занимать в безопасности аккаунта.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const paypal: ServiceEntry = {
         },
         {
           title: "Введите код быстро",
-          body: "SMS гласит: «Your PayPal security code is: 305174. It expires in 10 minutes.» Она доходит до приложения SMS Code за секунды — введите код, пока не истекли десять минут.",
+          body: "SMS гласит: «Your PayPal security code is: 305174. It expires in 10 minutes.» Она доходит до приложения SMS Code обычно за секунды — введите код, пока не истекли десять минут.",
         },
         {
           title: "Перенесите безопасность на свои каналы",
@@ -151,7 +151,7 @@ export const paypal: ServiceEntry = {
     faqs: [
       {
         q: "Виртуальный номер примет проверочную SMS от PayPal?",
-        a: "Да — это настоящий мобильный номер в реальной сети, и регистрационный код PayPal приходит в приложение SMS Code за секунды. Код действует десять минут, поэтому запрашивайте его с открытым экраном регистрации.",
+        a: "Да — это настоящий мобильный номер в реальной сети, и регистрационный код PayPal приходит в приложение SMS Code обычно за секунды. Код действует десять минут, поэтому запрашивайте его с открытым экраном регистрации.",
       },
       {
         q: "Безопасно ли оставить арендованный номер в аккаунте PayPal?",

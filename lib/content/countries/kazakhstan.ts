@@ -11,12 +11,12 @@ export const kazakhstan: CountryEntry = {
   en: {
     metaTitle: "Kazakhstan Virtual Number for SMS — Real +7 7XX Numbers",
     metaDescription:
-      "Get a real Kazakhstani (+7 7XX) virtual number and receive SMS codes in seconds. Verify Telegram, VK, Viber, Steam and WhatsApp with a Kazakh mobile number.",
+      "Get a real Kazakhstani (+7 7XX) virtual number and receive SMS codes usually within seconds. Verify Telegram, VK, Viber, Steam and WhatsApp with a Kazakh mobile number.",
     hero: {
       title: "A Kazakhstan virtual number for SMS verification",
       intro: [
         "Kazakhstan shares the +7 dialing code with Russia, but its mobile numbers are easy to tell apart: they start with 7 after the country code — +7 7XX — where Russian mobiles start with 9. That makes a Kazakh number a distinct identity that still fits every form built for the +7 world.",
-        "SMS Code rents you a real Kazakhstani mobile number in one tap. Enter it at the verification step of Telegram, VK, Steam or another supported service, and the SMS with your code lands in the app within seconds.",
+        "SMS Code rents you a real Kazakhstani mobile number in one tap. Enter it at the verification step of Telegram, VK, Steam or another supported service, and the SMS with your code lands in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -66,12 +66,12 @@ export const kazakhstan: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Казахстана для SMS — номера +7 7XX",
     metaDescription:
-      "Настоящий казахстанский номер (+7 7XX) и SMS-коды за секунды. Подтверждайте Telegram, VK, Viber, Steam и WhatsApp казахским мобильным номером.",
+      "Настоящий казахстанский номер (+7 7XX) и SMS-коды обычно за секунды. Подтверждайте Telegram, VK, Viber, Steam и WhatsApp казахским мобильным номером.",
     hero: {
       title: "Виртуальный номер Казахстана для SMS-верификации",
       intro: [
         "Казахстан делит код +7 с Россией, но его мобильные номера легко отличить: после кода страны они начинаются с семёрки — +7 7XX, — тогда как российские мобильные начинаются с девятки. Так казахский номер остаётся самостоятельной «личностью», при этом подходя любой форме, рассчитанной на мир +7.",
-        "SMS Code сдаёт настоящий казахстанский мобильный номер в одно касание. Введите его на шаге подтверждения Telegram, VK, Steam или другого поддерживаемого сервиса — и SMS с кодом окажется в приложении за считанные секунды.",
+        "SMS Code сдаёт настоящий казахстанский мобильный номер в одно касание. Введите его на шаге подтверждения Telegram, VK, Steam или другого поддерживаемого сервиса — и SMS с кодом окажется в приложении обычно за считанные секунды.",
       ],
     },
     whyCountry: {

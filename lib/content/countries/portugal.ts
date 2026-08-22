@@ -11,12 +11,12 @@ export const portugal: CountryEntry = {
   en: {
     metaTitle: "Portuguese Virtual Number for SMS — Real +351 Mobile Numbers",
     metaDescription:
-      "Get a real Portuguese (+351) virtual number and receive SMS codes in seconds. Verify WhatsApp, Telegram, Instagram, Uber and AliExpress with a Western EU number without the usual premium.",
+      "Get a real Portuguese (+351) virtual number and receive SMS codes usually within seconds. Verify WhatsApp, Telegram, Instagram, Uber and AliExpress with a Western EU number without the usual premium.",
     hero: {
       title: "A Portuguese virtual number for SMS verification",
       intro: [
         "Portugal gives you something slightly rare: a Western European number that doesn't carry Western European weight in price. A +351 mobile reads as unmistakably EU to any service that checks — WhatsApp, Instagram, Uber — while staying one of the more accessible codes on the continent.",
-        "SMS Code rents you a real Portuguese mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Portuguese mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app usually within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -66,12 +66,12 @@ export const portugal: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Португалии для приёма SMS — номера +351",
     metaDescription:
-      "Настоящий португальский номер (+351) и SMS-коды за секунды. Подтверждайте WhatsApp, Telegram, Instagram, Uber и AliExpress западноевропейским номером без привычной наценки.",
+      "Настоящий португальский номер (+351) и SMS-коды обычно за секунды. Подтверждайте WhatsApp, Telegram, Instagram, Uber и AliExpress западноевропейским номером без привычной наценки.",
     hero: {
       title: "Виртуальный номер Португалии для SMS-верификации",
       intro: [
         "Португалия предлагает нечто относительно редкое: западноевропейский номер без западноевропейского ценника. Мобильный +351 для любого проверяющего сервиса — безошибочно ЕС: WhatsApp, Instagram, Uber. И при этом он остаётся одним из самых доступных кодов континента.",
-        "SMS Code сдаёт настоящий португальский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий португальский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении обычно за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {

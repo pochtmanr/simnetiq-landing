@@ -1,11 +1,12 @@
 # SMS Code by SIMNETIQ
 
-> SMS Code is a mobile app (iOS) by SIMNETIQ LTD that provides temporary virtual phone numbers in 150+ countries for receiving SMS verification codes, so people can sign up for online services (Telegram, WhatsApp, Google, Instagram and 100+ more) without revealing their personal phone number. simnetiq.xyz is the official website, available in English and Russian.
+> SMS Code is a mobile app (iOS) by SIMNETIQ LTD that provides temporary virtual phone numbers in 100+ countries for receiving SMS verification codes, so people can sign up for online services (Telegram, WhatsApp, Google, Instagram and 100+ more) without revealing their personal phone number. simnetiq.xyz is the official website, available in English and Russian.
 
 Key facts:
-- Pricing: one-time in-app coin packs (20, 55, 120, 250 or 700 coins); an activation costs from 20 coins and the exact price depends on the service and country, shown in the app before you confirm; no subscription; coins never expire. Pack prices are set in the App Store and vary by region.
-- A code typically arrives within seconds; a pending activation can be cancelled in the app and the coins are returned.
-- No SIM or eSIM is installed; numbers are for one-time verification codes, not for long-term use or 2FA.
+- Pricing: one-time in-app coin packs (20, 55, 120, 250 or 700 coins); an activation costs from 20 coins, but 20 is the floor rather than the typical price — the cost is driven mainly by the service and adjusted by the country, and a high-demand service can cost several hundred coins in every country. The exact price is shown in the app before you confirm. No subscription; coins never expire. Pack prices are set in the App Store and vary by region.
+- A code usually arrives within seconds. An activation runs for 15 minutes; a pending activation can be cancelled in the app and the coins return to the balance. Swapping to another number from the activation screen requires holding the current number for two minutes first (a supplier rule) and is capped at three swaps per activation; up to three activations can be held at once.
+- No SIM or eSIM is installed, and the app needs an internet connection to show the code. Numbers are for one-time verification codes, not for long-term use or 2FA: when an activation ends the number returns to the supplier's pool and may later be issued to someone else.
+- Coins live with the SMS Code account, not the App Store receipt. An anonymous user who reinstalls gets a new account and does not keep the balance; signing in (Apple, Google or an email code) is what preserves it.
 - Operator: SIMNETIQ LTD, a company registered in England and Wales. Support: support@simnetiq.store (replies usually within one business day).
 - Download: App Store https://apps.apple.com/us/app/id6803515179 — there is no Google Play listing yet.
 

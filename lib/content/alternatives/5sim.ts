@@ -12,7 +12,7 @@ export const fiveSim: AlternativeEntry = {
       title: "A 5SIM alternative built as a native mobile app",
       intro: [
         "5SIM is an established web platform for receiving SMS verification codes: you top up a balance, buy a number for the service you need, and read the code in your dashboard. Their homepage pitches wholesale and retail use alike, with an API for automation and a catalog their site describes as spanning more than 180 countries and over a thousand services.",
-        "SMS Code by SIMNETIQ approaches the same job from the consumer side. It's a native iOS app: pick a service and country, get a real number, and the code lands in-app within seconds. You pay with one-time coin packs through Apple billing — no web wallet, no subscription — and activations that never receive an SMS cancel free.",
+        "SMS Code by SIMNETIQ approaches the same job from the consumer side. It's a native iOS app: pick a service and country, get a real number, and the code lands in-app usually within seconds. You pay with one-time coin packs through Apple billing — no web wallet, no subscription — and activations that never receive an SMS cancel free.",
       ],
     },
     whenThem: {
@@ -21,7 +21,7 @@ export const fiveSim: AlternativeEntry = {
     },
     whenUs: {
       title: "When the SMS Code app fits better",
-      body: "Choose the app if you're verifying accounts for yourself, not by the hundred. There's no balance to pre-fund and no dashboard to navigate on a phone screen: the entire flow — service, country, number, code — is a native mobile experience installed from the App Store. One-time coin packs mean you pay per activation with store billing (your card details never reach us), coverage runs to 150+ countries and 100+ popular services, and unreceived activations cancel free automatically.",
+      body: "Choose the app if you're verifying accounts for yourself, not by the hundred. There's no balance to pre-fund and no dashboard to navigate on a phone screen: the entire flow — service, country, number, code — is a native mobile experience installed from the App Store. One-time coin packs mean you pay per activation with store billing (your card details never reach us), coverage runs to 100+ countries and 100+ popular services, and unreceived activations cancel free automatically.",
     },
     comparison: {
       title: "5SIM vs the SMS Code app, side by side",
@@ -44,7 +44,7 @@ export const fiveSim: AlternativeEntry = {
         {
           label: "Coverage",
           competitor: "Their site claims 180+ countries and a catalog of 1,000+ services",
-          us: "150+ countries and 100+ popular services, curated for everyday sign-ups",
+          us: "100+ countries and 100+ popular services, curated for everyday sign-ups",
         },
         {
           label: "Cancellation",
@@ -77,7 +77,7 @@ export const fiveSim: AlternativeEntry = {
         },
         {
           title: "Run your first activation",
-          body: "Pick a service and country, get a real number, and watch the code arrive in-app within seconds. If nothing arrives, the activation cancels free.",
+          body: "Pick a service and country, get a real number, and watch the code arrive in-app usually within seconds. If nothing arrives, the activation cancels free.",
         },
       ],
     },
@@ -100,7 +100,7 @@ export const fiveSim: AlternativeEntry = {
       },
       {
         q: "Is 5SIM's country list bigger than the app's?",
-        a: "By their own homepage, yes — their site claims 180+ countries against the app's 150+. The app's list is curated around the countries that work reliably for popular services; if you need something exotic, a bigger catalog may serve you better.",
+        a: "By their own homepage, yes — their site claims 180+ countries against the app's 100+. The app's list is curated around the countries that work reliably for popular services; if you need something exotic, a bigger catalog may serve you better.",
       },
     ],
   },
@@ -112,7 +112,7 @@ export const fiveSim: AlternativeEntry = {
       title: "Альтернатива 5SIM в виде нативного мобильного приложения",
       intro: [
         "5SIM — известная веб-платформа для приёма SMS-кодов подтверждения: вы пополняете баланс, покупаете номер под нужный сервис и читаете код в личном кабинете. Их главная страница обращается и к оптовым, и к розничным клиентам, предлагает API для автоматизации, а каталог, по описанию на их сайте, охватывает более 180 стран и свыше тысячи сервисов.",
-        "Приложение SMS Code от SIMNETIQ решает ту же задачу с потребительской стороны. Это нативное приложение для iOS: выбираете сервис и страну, получаете настоящий номер — и код приходит в приложение за секунды. Платите разовыми пакетами монет через Apple или Google — без веб-кошелька и подписки, — а активации, на которые SMS не пришла, отменяются бесплатно.",
+        "Приложение SMS Code от SIMNETIQ решает ту же задачу с потребительской стороны. Это нативное приложение для iOS: выбираете сервис и страну, получаете настоящий номер — и код приходит в приложение обычно за секунды. Платите разовыми пакетами монет через App Store — без веб-кошелька и подписки, — а активации, на которые SMS не пришла, отменяются бесплатно.",
       ],
     },
     whenThem: {
@@ -121,7 +121,7 @@ export const fiveSim: AlternativeEntry = {
     },
     whenUs: {
       title: "Когда приложение SMS Code подходит лучше",
-      body: "Выбирайте приложение, если подтверждаете аккаунты для себя, а не сотнями. Не нужно заранее класть деньги на баланс и возиться с веб-кабинетом на экране телефона: весь путь — сервис, страна, номер, код — это нативный мобильный сценарий, а приложение ставится из App Store. Разовые пакеты монет означают оплату за активацию через магазин (данные карты до нас не доходят), покрытие — 150+ стран и 100+ популярных сервисов, а активации без входящих SMS отменяются бесплатно и автоматически.",
+      body: "Выбирайте приложение, если подтверждаете аккаунты для себя, а не сотнями. Не нужно заранее класть деньги на баланс и возиться с веб-кабинетом на экране телефона: весь путь — сервис, страна, номер, код — это нативный мобильный сценарий, а приложение ставится из App Store. Разовые пакеты монет означают оплату за активацию через магазин (данные карты до нас не доходят), покрытие — 100+ стран и 100+ популярных сервисов, а активации без входящих SMS отменяются бесплатно и автоматически.",
     },
     comparison: {
       title: "5SIM и приложение SMS Code: сравнение",
@@ -139,12 +139,12 @@ export const fiveSim: AlternativeEntry = {
         {
           label: "Способ оплаты",
           competitor: "Пополнение кошелька на сайте способами из их списка",
-          us: "Оплата через Apple / Google — данные карты нам не передаются",
+          us: "Оплата через App Store — данные карты нам не передаются",
         },
         {
           label: "Покрытие",
           competitor: "Их сайт заявляет 180+ стран и каталог из 1000+ сервисов",
-          us: "150+ стран и 100+ популярных сервисов — подборка для повседневных регистраций",
+          us: "100+ стран и 100+ популярных сервисов — подборка для повседневных регистраций",
         },
         {
           label: "Отмена",
@@ -177,7 +177,7 @@ export const fiveSim: AlternativeEntry = {
         },
         {
           title: "Проведите первую активацию",
-          body: "Выберите сервис и страну, получите настоящий номер — и код придёт в приложение за секунды. Если ничего не пришло, активация отменяется бесплатно.",
+          body: "Выберите сервис и страну, получите настоящий номер — и код придёт в приложение обычно за секунды. Если ничего не пришло, активация отменяется бесплатно.",
         },
       ],
     },
@@ -192,7 +192,7 @@ export const fiveSim: AlternativeEntry = {
       },
       {
         q: "Нужно ли заранее пополнять баланс?",
-        a: "Вы покупаете разовые пакеты монет через Apple или Google и тратите их на активации. Веб-кошелька, который надо держать пополненным, нет; подписки тоже нет.",
+        a: "Вы покупаете разовые пакеты монет через App Store и тратите их на активации. Веб-кошелька, который надо держать пополненным, нет; подписки тоже нет.",
       },
       {
         q: "Что, если код подтверждения так и не придёт?",
@@ -200,7 +200,7 @@ export const fiveSim: AlternativeEntry = {
       },
       {
         q: "У 5SIM список стран больше, чем у приложения?",
-        a: "Судя по их главной странице — да: сайт заявляет 180+ стран против 150+ у приложения. Список приложения выверен под страны, которые стабильно работают с популярными сервисами; если нужно что-то экзотическое, больший каталог может подойти лучше.",
+        a: "Судя по их главной странице — да: сайт заявляет 180+ стран против 100+ у приложения. Список приложения выверен под страны, которые стабильно работают с популярными сервисами; если нужно что-то экзотическое, больший каталог может подойти лучше.",
       },
     ],
   },

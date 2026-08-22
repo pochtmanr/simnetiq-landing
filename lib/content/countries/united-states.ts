@@ -11,12 +11,12 @@ export const unitedStates: CountryEntry = {
   en: {
     metaTitle: "US Virtual Number for SMS Verification — Real +1 Numbers",
     metaDescription:
-      "Get a real US (+1) virtual number and receive SMS verification codes in seconds. Verify Google, Instagram, TikTok, Discord and more with an American number.",
+      "Get a real US (+1) virtual number and receive SMS verification codes usually within seconds. Verify Google, Instagram, TikTok, Discord and more with an American number.",
     hero: {
       title: "A US virtual number for SMS verification",
       intro: [
         "A +1 number is the closest thing the internet has to a default: American services expect it, sign-up forms preselect it, and support flows are built around it. When a service is picky about foreign numbers, a US number is usually the one that just works.",
-        "SMS Code gives you a real American mobile number in one tap. Enter it at the verification step, and the SMS — with a code from Google, Instagram, TikTok or 100+ other services — appears in the app within seconds.",
+        "SMS Code gives you a real American mobile number in one tap. Enter it at the verification step, and the SMS — with a code from Google, Instagram, TikTok or 100+ other services — appears in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -37,7 +37,7 @@ export const unitedStates: CountryEntry = {
       },
       {
         title: "If a code stalls, swap numbers",
-        body: "High demand means some US numbers have seen sign-ups before, and a service may throttle them. Cancel the pending activation — no charge if nothing arrived — and take a fresh number.",
+        body: "High demand means some US numbers have seen sign-ups before, and a service may throttle them. Cancel the pending activation — the coins come back if nothing arrived — and take a fresh number.",
       },
     ],
     faqs: [
@@ -66,12 +66,12 @@ export const unitedStates: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер США для приёма SMS — настоящие номера +1",
     metaDescription:
-      "Настоящий виртуальный номер США (+1) и SMS-коды подтверждения за секунды. Подтверждайте Google, Instagram, TikTok, Discord и другие сервисы американским номером.",
+      "Настоящий виртуальный номер США (+1) и SMS-коды подтверждения обычно за секунды. Подтверждайте Google, Instagram, TikTok, Discord и другие сервисы американским номером.",
     hero: {
       title: "Виртуальный номер США для SMS-верификации",
       intro: [
         "Номер +1 — почти «номер по умолчанию» в интернете: американские сервисы его ожидают, формы регистрации подставляют его первым, а процессы поддержки строятся вокруг него. Если сервис капризничает с иностранными номерами, номер США обычно просто работает.",
-        "SMS Code выдаёт настоящий американский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от Google, Instagram, TikTok или ещё 100+ сервисов появится в приложении за считанные секунды.",
+        "SMS Code выдаёт настоящий американский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от Google, Instagram, TikTok или ещё 100+ сервисов появится в приложении обычно за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -92,7 +92,7 @@ export const unitedStates: CountryEntry = {
       },
       {
         title: "Код завис — меняйте номер",
-        body: "Из-за высокого спроса некоторые номера США уже видели регистрации, и сервис может их ограничивать. Отмените ожидающую активацию — если ничего не пришло, деньги не списываются — и возьмите свежий номер.",
+        body: "Из-за высокого спроса некоторые номера США уже видели регистрации, и сервис может их ограничивать. Отмените ожидающую активацию — если ничего не пришло, монеты возвращаются на баланс — и возьмите свежий номер.",
       },
     ],
     faqs: [

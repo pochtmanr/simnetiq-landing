@@ -22,12 +22,12 @@ export const snapchat: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Snapchat — Verify Without Your Number",
     metaDescription:
-      "Verify Snapchat with a real virtual number from 150+ countries. The code lands in the app in seconds — no SIM, no subscription, free cancel if no SMS arrives.",
+      "Verify Snapchat with a real virtual number from 100+ countries. The code lands in the app usually within seconds — no SIM, no subscription, free cancel if no SMS arrives.",
     hero: {
       title: "A virtual number for Snapchat",
       intro: [
         "Snapchat will create an account with just an email — the phone field can genuinely be skipped at sign-up. It doesn't stay quiet for long, though: log in from a new device, trip a security check or try to recover a forgotten password, and Snapchat starts asking for a number it can text a code to.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries, enter it in Snapchat, and the verification SMS appears in the app within seconds. You pay per activation from a one-time coin pack — no subscription — and any activation that received no SMS can be cancelled without charge.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries, enter it in Snapchat, and the verification SMS appears in the app usually within seconds. You pay per activation from a one-time coin pack — no subscription — and any activation that received no SMS can be cancelled without charge.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const snapchat: ServiceEntry = {
         },
         {
           title: "Grab the code",
-          body: "The SMS arrives in the SMS Code app within seconds, from sender “Snapchat”, formatted like “Snapchat code: 719402. Happy Snapping!”. Type the digits into Snapchat and the number is confirmed.",
+          body: "The SMS arrives in the SMS Code app usually within seconds, from sender “Snapchat”, formatted like “Snapchat code: 719402. Happy Snapping!”. Type the digits into Snapchat and the number is confirmed.",
         },
         {
           title: "Tighten the privacy screws",
@@ -87,7 +87,7 @@ export const snapchat: ServiceEntry = {
       },
       {
         q: "Why didn't my Snapchat code arrive?",
-        a: "The usual suspects: the country code picked in Snapchat doesn't match the rented number, or you've hit the resend limit and Snapchat paused deliveries. Cancel the pending activation in SMS Code — numbers that received nothing are never charged — and start over with a fresh number.",
+        a: "The usual suspects: the country code picked in Snapchat doesn't match the rented number, or you've hit the resend limit and Snapchat paused deliveries. Cancel the pending activation in SMS Code — the coins come back for numbers that received nothing — and start over with a fresh number.",
       },
       {
         q: "Can I have a second Snapchat account?",
@@ -98,12 +98,12 @@ export const snapchat: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Snapchat — подтверждение без своего номера",
     metaDescription:
-      "Подтвердите Snapchat настоящим виртуальным номером из 150+ стран. Код приходит в приложение за секунды — без SIM и подписки, отмена без списания, если SMS не пришла.",
+      "Подтвердите Snapchat настоящим виртуальным номером из 100+ стран. Код приходит в приложение обычно за секунды — без SIM и подписки, отмена с возвратом монет, если SMS не пришла.",
     hero: {
       title: "Виртуальный номер для Snapchat",
       intro: [
         "Snapchat заведёт аккаунт и по одной почте — поле с телефоном при регистрации действительно можно пропустить. Правда, тишина длится недолго: вход с нового устройства, проверка безопасности или забытый пароль — и Snapchat просит номер, на который можно прислать код.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его в Snapchat — и SMS с кодом появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а активацию, на которую ничего не пришло, можно отменить без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, вводите его в Snapchat — и SMS с кодом появляется в приложении обычно за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а активацию, на которую ничего не пришло, можно отменить с возвратом монет.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const snapchat: ServiceEntry = {
         },
         {
           title: "Заберите код",
-          body: "SMS придёт в приложение SMS Code за секунды, от отправителя «Snapchat», в формате «Snapchat code: 719402. Happy Snapping!». Введите цифры в Snapchat — номер подтверждён.",
+          body: "SMS придёт в приложение SMS Code обычно за секунды, от отправителя «Snapchat», в формате «Snapchat code: 719402. Happy Snapping!». Введите цифры в Snapchat — номер подтверждён.",
         },
         {
           title: "Подкрутите приватность",
@@ -145,7 +145,7 @@ export const snapchat: ServiceEntry = {
       },
       {
         title: "Не долбите кнопку повторной отправки",
-        body: "Snapchat ограничивает частоту запросов кода: попросите слишком много раз подряд — и он замолчит на какое-то время. Дайте первому коду минуту дойти; если номер так и остался пустым, отмените активацию без списания и возьмите новый номер вместо отправки в пустоту.",
+        body: "Snapchat ограничивает частоту запросов кода: попросите слишком много раз подряд — и он замолчит на какое-то время. Дайте первому коду минуту дойти; если номер так и остался пустым, отмените активацию с возвратом монет и возьмите новый номер вместо отправки в пустоту.",
       },
     ],
     faqs: [
@@ -163,7 +163,7 @@ export const snapchat: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Snapchat?",
-        a: "Обычные подозреваемые: код страны в Snapchat не совпадает с арендованным номером, либо вы упёрлись в лимит повторных отправок, и Snapchat взял паузу. Отмените ожидающую активацию в SMS Code — за номера, на которые ничего не пришло, деньги не списываются, — и начните заново со свежим номером.",
+        a: "Обычные подозреваемые: код страны в Snapchat не совпадает с арендованным номером, либо вы упёрлись в лимит повторных отправок, и Snapchat взял паузу. Отмените ожидающую активацию в SMS Code — монеты за номера, на которые ничего не пришло, возвращаются на баланс, — и начните заново со свежим номером.",
       },
       {
         q: "Можно ли завести второй аккаунт Snapchat?",

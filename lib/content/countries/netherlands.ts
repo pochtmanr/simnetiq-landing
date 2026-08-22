@@ -11,12 +11,12 @@ export const netherlands: CountryEntry = {
   en: {
     metaTitle: "Dutch Virtual Number for SMS — Real +31 Mobile Numbers",
     metaDescription:
-      "Rent a real Dutch (+31) mobile number and receive SMS verification codes in seconds. Verify Telegram, WhatsApp, Google, Discord and Signal with a +31 6 number.",
+      "Rent a real Dutch (+31) mobile number and receive SMS verification codes usually within seconds. Verify Telegram, WhatsApp, Google, Discord and Signal with a +31 6 number.",
     hero: {
       title: "A Dutch virtual number for SMS verification",
       intro: [
         "If you've ever watched a product demo of phone verification, odds are you've seen a +31 6 number on screen — Dutch mobiles are something of a stock example in the industry. That familiarity works in your favor: forms everywhere know exactly what a Netherlands mobile looks like.",
-        "SMS Code gives you a real Dutch mobile number in one tap. Enter it when Telegram, WhatsApp, Google or another supported service asks for a phone, and the SMS with your code appears in the app within seconds.",
+        "SMS Code gives you a real Dutch mobile number in one tap. Enter it when Telegram, WhatsApp, Google or another supported service asks for a phone, and the SMS with your code appears in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -66,12 +66,12 @@ export const netherlands: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Нидерландов для SMS — номера +31",
     metaDescription:
-      "Настоящий нидерландский номер (+31) и SMS-коды за секунды. Подтверждайте Telegram, WhatsApp, Google, Discord и Signal мобильным номером +31 6.",
+      "Настоящий нидерландский номер (+31) и SMS-коды обычно за секунды. Подтверждайте Telegram, WhatsApp, Google, Discord и Signal мобильным номером +31 6.",
     hero: {
       title: "Виртуальный номер Нидерландов для SMS-верификации",
       intro: [
         "Если вы хоть раз смотрели демо телефонной верификации, скорее всего, видели на экране номер +31 6 — нидерландские мобильные стали в индустрии почти хрестоматийным примером. Эта узнаваемость играет вам на руку: формы по всему миру точно знают, как выглядит мобильный из Нидерландов.",
-        "SMS Code выдаёт настоящий нидерландский мобильный номер в одно касание. Введите его, когда Telegram, WhatsApp, Google или другой поддерживаемый сервис попросит телефон, — и SMS с кодом появится в приложении за считанные секунды.",
+        "SMS Code выдаёт настоящий нидерландский мобильный номер в одно касание. Введите его, когда Telegram, WhatsApp, Google или другой поддерживаемый сервис попросит телефон, — и SMS с кодом появится в приложении обычно за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -92,7 +92,7 @@ export const netherlands: CountryEntry = {
       },
       {
         title: "Вторая попытка бесплатна, если первая не удалась",
-        body: "Когда код не приходит в окно активации, отмените её в приложении — за активации без полученной SMS ничего не списывается — и возьмите новый нидерландский номер для повтора.",
+        body: "Когда код не приходит в окно активации, отмените её в приложении — монеты за активации без полученной SMS возвращаются на баланс — и возьмите новый нидерландский номер для повтора.",
       },
     ],
     faqs: [

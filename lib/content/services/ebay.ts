@@ -22,12 +22,12 @@ export const ebay: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for eBay — Verify Buying and Selling Privately",
     metaDescription:
-      "Receive eBay’s security code on a real virtual number in seconds. Register, sell and pass sign-in checks without wiring your personal phone to a marketplace.",
+      "Receive eBay’s security code on a real virtual number usually within seconds. Register, sell and pass sign-in checks without wiring your personal phone to a marketplace.",
     hero: {
       title: "A virtual number for eBay",
       intro: [
         "eBay wants a phone number early and checks it often. Registration asks for one, opening a seller account insists on one, and its sign-in protection loves to pause a login until a text like “Your eBay security code is 271846” gets typed back in. For a marketplace where you mostly wanted to buy a camera lens, that’s a lot of connection to your personal phone.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries and the code shows up in the app within seconds. The account gets verified, the listing goes live — and the number in eBay’s contact records isn’t the one in your pocket.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries and the code shows up in the app usually within seconds. The account gets verified, the listing goes live — and the number in eBay’s contact records isn’t the one in your pocket.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const ebay: ServiceEntry = {
         },
         {
           title: "Type in the code",
-          body: "The SMS reads “Your eBay security code is 271846” and appears in the SMS Code app within seconds. Enter it on eBay and the number is confirmed.",
+          body: "The SMS reads “Your eBay security code is 271846” and appears in the SMS Code app usually within seconds. Enter it on eBay and the number is confirmed.",
         },
         {
           title: "Anchor the account to email",
@@ -98,12 +98,12 @@ export const ebay: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для eBay — покупки и продажи без вашей SIM",
     metaDescription:
-      "Код безопасности eBay на настоящий виртуальный номер за секунды. Регистрируйтесь, продавайте и проходите проверки входа, не отдавая маркетплейсу личный телефон.",
+      "Код безопасности eBay на настоящий виртуальный номер обычно за секунды. Регистрируйтесь, продавайте и проходите проверки входа, не отдавая маркетплейсу личный телефон.",
     hero: {
       title: "Виртуальный номер для eBay",
       intro: [
         "eBay просит номер телефона рано и проверяет его часто. Регистрация спрашивает номер, аккаунт продавца без него не открыть, а защита входа обожает остановить логин, пока вы не введёте текст вида «Your eBay security code is 271846». Многовато привязки к личному телефону для площадки, где вы всего лишь хотели купить объектив.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код появляется в приложении за считанные секунды. Аккаунт подтверждён, объявление опубликовано — а номер в контактных данных eBay не тот, что лежит у вас в кармане.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, и код появляется в приложении обычно за считанные секунды. Аккаунт подтверждён, объявление опубликовано — а номер в контактных данных eBay не тот, что лежит у вас в кармане.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const ebay: ServiceEntry = {
         },
         {
           title: "Введите код",
-          body: "SMS выглядит так: «Your eBay security code is 271846» — и появляется в приложении SMS Code за секунды. Введите код на eBay, и номер подтверждён.",
+          body: "SMS выглядит так: «Your eBay security code is 271846» — и появляется в приложении SMS Code обычно за секунды. Введите код на eBay, и номер подтверждён.",
         },
         {
           title: "Сделайте почту якорем аккаунта",

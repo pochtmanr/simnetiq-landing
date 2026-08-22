@@ -22,12 +22,12 @@ export const cursor: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Cursor — Verify Your Dev Account",
     metaDescription:
-      "Verify Cursor sign-up with a real virtual number. The SMS code arrives in the SMS Code app in seconds — keep your personal number out of dev-tool accounts.",
+      "Verify Cursor sign-up with a real virtual number. The SMS code arrives in the SMS Code app usually within seconds — keep your personal number out of dev-tool accounts.",
     hero: {
       title: "A virtual number for Cursor",
       intro: [
         "Cursor — the AI-powered code editor — sits on the same treadmill as every dev tool that gives compute away: free tiers attract abuse, so sign-ups get gated. Alongside email confirmation, Cursor can ask to verify a phone number by SMS before an account or trial goes live, precisely because a working mobile number is harder to mass-produce than an inbox.",
-        "SMS Code rents you a real number in one of 150+ countries. When Cursor's sign-up asks for a phone, enter the rented one — the six-digit code appears in the SMS Code app within seconds, and your personal number stays out of one more SaaS database.",
+        "SMS Code rents you a real number in one of 100+ countries. When Cursor's sign-up asks for a phone, enter the rented one — the six-digit code appears in the SMS Code app usually within seconds, and your personal number stays out of one more SaaS database.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const cursor: ServiceEntry = {
         },
         {
           title: "Enter the code from SMS Code",
-          body: "The SMS lands in the SMS Code app within seconds — “Your Cursor verification code is 812750”. Paste the six digits into Cursor's verification field and you're through.",
+          body: "The SMS lands in the SMS Code app usually within seconds — “Your Cursor verification code is 812750”. Paste the six digits into Cursor's verification field and you're through.",
         },
         {
           title: "Secure the account itself",
@@ -61,7 +61,7 @@ export const cursor: ServiceEntry = {
     tips: [
       {
         title: "Have the sign-up open before you rent",
-        body: "Verification codes are short-lived and the activation window is finite. Get Cursor's phone-verification screen in front of you first, then rent the number and request the code — the SMS arrives in seconds when you're ready for it.",
+        body: "Verification codes are short-lived and the activation window is finite. Get Cursor's phone-verification screen in front of you first, then rent the number and request the code — the SMS arrives usually within seconds when you're ready for it.",
       },
       {
         title: "The email is the account; the phone is the gate",
@@ -75,7 +75,7 @@ export const cursor: ServiceEntry = {
     faqs: [
       {
         q: "Does Cursor always ask for a phone number?",
-        a: "Not necessarily — like many dev tools, Cursor applies phone verification selectively, often depending on sign-up signals and abuse pressure. If and when the prompt appears, a rented virtual number satisfies it in seconds.",
+        a: "Not necessarily — like many dev tools, Cursor applies phone verification selectively, often depending on sign-up signals and abuse pressure. If and when the prompt appears, a rented virtual number satisfies it usually within seconds.",
       },
       {
         q: "Will my Cursor account keep working after the number expires?",
@@ -87,7 +87,7 @@ export const cursor: ServiceEntry = {
       },
       {
         q: "Why didn't my Cursor verification code arrive?",
-        a: "Most often a country-code mismatch, or the service rejected that particular range of numbers. Cancel the activation in SMS Code — no SMS received means no charge — and retry with a different number or country.",
+        a: "Most often a country-code mismatch, or the service rejected that particular range of numbers. Cancel the activation in SMS Code — no SMS means the coins come back to your balance — and retry with a different number or country.",
       },
       {
         q: "Is it allowed to verify Cursor with a virtual number?",
@@ -98,12 +98,12 @@ export const cursor: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Cursor — подтвердите аккаунт разработчика",
     metaDescription:
-      "Подтвердите регистрацию в Cursor настоящим виртуальным номером. SMS с кодом придёт в приложение SMS Code за секунды — личный номер останется при вас.",
+      "Подтвердите регистрацию в Cursor настоящим виртуальным номером. SMS с кодом придёт в приложение SMS Code обычно за секунды — личный номер останется при вас.",
     hero: {
       title: "Виртуальный номер для Cursor",
       intro: [
         "Cursor — редактор кода с ИИ — крутится в том же колесе, что и любой инструмент разработчика, раздающий вычисления бесплатно: бесплатные тарифы притягивают злоупотребления, и регистрацию начинают закрывать шлагбаумами. Помимо подтверждения почты Cursor может запросить проверку номера телефона по SMS, прежде чем аккаунт или триал заработает: живой мобильный номер штамповать сложнее, чем почтовый ящик.",
-        "SMS Code сдаёт вам настоящий номер в одной из 150+ стран. Когда регистрация Cursor спросит телефон, введите арендованный — шестизначный код появится в приложении SMS Code за секунды, а ваш личный номер минует ещё одну базу очередного SaaS.",
+        "SMS Code сдаёт вам настоящий номер в одной из 100+ стран. Когда регистрация Cursor спросит телефон, введите арендованный — шестизначный код появится в приложении SMS Code обычно за секунды, а ваш личный номер минует ещё одну базу очередного SaaS.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const cursor: ServiceEntry = {
         },
         {
           title: "Введите код из SMS Code",
-          body: "SMS придёт в приложение SMS Code за секунды: «Your Cursor verification code is 812750». Вставьте шесть цифр в поле подтверждения Cursor — и вы внутри.",
+          body: "SMS придёт в приложение SMS Code обычно за секунды: «Your Cursor verification code is 812750». Вставьте шесть цифр в поле подтверждения Cursor — и вы внутри.",
         },
         {
           title: "Защитите сам аккаунт",
@@ -137,7 +137,7 @@ export const cursor: ServiceEntry = {
     tips: [
       {
         title: "Сначала откройте регистрацию, потом арендуйте",
-        body: "Коды подтверждения живут недолго, и окно активации не бесконечно. Сначала выведите перед собой экран проверки телефона в Cursor, затем арендуйте номер и запрашивайте код — SMS придёт за секунды, когда вы к ней готовы.",
+        body: "Коды подтверждения живут недолго, и окно активации не бесконечно. Сначала выведите перед собой экран проверки телефона в Cursor, затем арендуйте номер и запрашивайте код — SMS придёт обычно за секунды, когда вы к ней готовы.",
       },
       {
         title: "Почта — это аккаунт, телефон — только шлагбаум",
@@ -151,7 +151,7 @@ export const cursor: ServiceEntry = {
     faqs: [
       {
         q: "Cursor всегда спрашивает номер телефона?",
-        a: "Не обязательно: как многие инструменты разработки, Cursor включает проверку телефона выборочно — в зависимости от сигналов при регистрации и наплыва злоупотреблений. Если запрос появится, арендованный виртуальный номер закроет его за секунды.",
+        a: "Не обязательно: как многие инструменты разработки, Cursor включает проверку телефона выборочно — в зависимости от сигналов при регистрации и наплыва злоупотреблений. Если запрос появится, арендованный виртуальный номер закроет его обычно за секунды.",
       },
       {
         q: "Будет ли аккаунт Cursor работать после окончания аренды номера?",

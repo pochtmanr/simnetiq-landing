@@ -11,12 +11,12 @@ export const turkey: CountryEntry = {
   en: {
     metaTitle: "Turkish Virtual Number for SMS — Real +90 Mobile Numbers",
     metaDescription:
-      "Get a real Turkish (+90) virtual number and receive SMS codes in seconds. Verify Telegram, WhatsApp, Instagram, TikTok and Binance with a number from one of the world's busiest mobile markets.",
+      "Get a real Turkish (+90) virtual number and receive SMS codes usually within seconds. Verify Telegram, WhatsApp, Instagram, TikTok and Binance with a number from one of the world's busiest mobile markets.",
     hero: {
       title: "A Turkish virtual number for SMS verification",
       intro: [
         "Turkey sits at the crossroads of Europe and Asia, and its numbers travel just as widely: a +90 mobile is everyday traffic for global messengers, social apps and crypto exchanges alike. With one of the largest and most active social-media populations in the region, Turkish numbers pass through Instagram and TikTok sign-ups all day long.",
-        "SMS Code rents you a real Turkish mobile number in one tap. Enter it at the verification step, and the SMS with your code appears in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Turkish mobile number in one tap. Enter it at the verification step, and the SMS with your code appears in the app usually within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -66,12 +66,12 @@ export const turkey: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Турции для приёма SMS — номера +90",
     metaDescription:
-      "Настоящий турецкий номер (+90) и SMS-коды за секунды. Подтверждайте Telegram, WhatsApp, Instagram, TikTok и Binance номером одного из самых активных мобильных рынков мира.",
+      "Настоящий турецкий номер (+90) и SMS-коды обычно за секунды. Подтверждайте Telegram, WhatsApp, Instagram, TikTok и Binance номером одного из самых активных мобильных рынков мира.",
     hero: {
       title: "Виртуальный номер Турции для SMS-верификации",
       intro: [
         "Турция стоит на перекрёстке Европы и Азии, и её номера путешествуют так же широко: мобильный +90 — повседневный трафик и для мировых мессенджеров, и для соцсетей, и для криптобирж. Одна из самых больших и активных аудиторий соцсетей в регионе означает, что турецкие номера проходят через регистрации Instagram и TikTok круглые сутки.",
-        "SMS Code сдаёт настоящий турецкий мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий турецкий мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении обычно за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {

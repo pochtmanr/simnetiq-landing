@@ -22,12 +22,12 @@ export const reddit: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Reddit — Keep a Pseudonym Actually Pseudonymous",
     metaDescription:
-      "Receive Reddit’s verification code on a real virtual number in seconds. Pass the phone check without tying your throwaway or main account to your real identity.",
+      "Receive Reddit’s verification code on a real virtual number usually within seconds. Pass the phone check without tying your throwaway or main account to your real identity.",
     hero: {
       title: "A virtual number for Reddit",
       intro: [
         "Reddit built its whole culture on usernames instead of real names — and then, every so often, asks for the realest identifier you own. Most sign-ups run on email alone, but certain flows, networks and “suspicious activity” checks put up a phone screen, and a text like “Your Reddit verification code is 617293” stands between you and the front page.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries and the code lands in the app within seconds. The check clears, the account opens — and the pseudonym you post under stays unlinked to the number your name is attached to everywhere else.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries and the code lands in the app usually within seconds. The check clears, the account opens — and the pseudonym you post under stays unlinked to the number your name is attached to everywhere else.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const reddit: ServiceEntry = {
         },
         {
           title: "Enter the number and type in the code",
-          body: "Select the matching country code on Reddit’s screen and enter the number. The SMS reads “Your Reddit verification code is 617293” and appears in the SMS Code app within seconds — copy it across.",
+          body: "Select the matching country code on Reddit’s screen and enter the number. The SMS reads “Your Reddit verification code is 617293” and appears in the SMS Code app usually within seconds — copy it across.",
         },
         {
           title: "Detach the number afterwards",
@@ -91,19 +91,19 @@ export const reddit: ServiceEntry = {
       },
       {
         q: "The Reddit code never came — what now?",
-        a: "Confirm the country code matches the rented number and wait a moment; codes usually land in seconds. If nothing arrives, cancel the activation in SMS Code free of charge and take a fresh number — you only pay for activations that deliver an SMS.",
+        a: "Confirm the country code matches the rented number and wait a moment; codes usually land within seconds. If nothing arrives, cancel the activation in SMS Code free of charge and take a fresh number — you only pay for activations that deliver an SMS.",
       },
     ],
   },
   ru: {
     metaTitle: "Виртуальный номер для Reddit — псевдоним, который остаётся псевдонимом",
     metaDescription:
-      "Код подтверждения Reddit на настоящий виртуальный номер за секунды. Пройдите проверку телефона, не связывая аккаунт с вашей настоящей личностью.",
+      "Код подтверждения Reddit на настоящий виртуальный номер обычно за секунды. Пройдите проверку телефона, не связывая аккаунт с вашей настоящей личностью.",
     hero: {
       title: "Виртуальный номер для Reddit",
       intro: [
         "Reddit построил целую культуру на никнеймах вместо настоящих имён — и время от времени просит самый настоящий идентификатор из всех, что у вас есть. Большинство регистраций обходятся одной почтой, но отдельные сценарии, сети и проверки «подозрительной активности» ставят телефонный экран, и между вами и главной страницей встаёт SMS вида «Your Reddit verification code is 617293».",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, и код приходит в приложение за считанные секунды. Проверка пройдена, аккаунт открыт — а псевдоним, под которым вы пишете, так и не связан с номером, к которому повсюду привязано ваше имя.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, и код приходит в приложение обычно за считанные секунды. Проверка пройдена, аккаунт открыт — а псевдоним, под которым вы пишете, так и не связан с номером, к которому повсюду привязано ваше имя.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const reddit: ServiceEntry = {
         },
         {
           title: "Введите номер и код",
-          body: "Выберите совпадающий код страны на экране Reddit и введите номер. SMS выглядит так: «Your Reddit verification code is 617293» — она появится в приложении SMS Code за секунды, перенесите код.",
+          body: "Выберите совпадающий код страны на экране Reddit и введите номер. SMS выглядит так: «Your Reddit verification code is 617293» — она появится в приложении SMS Code обычно за секунды, перенесите код.",
         },
         {
           title: "Отвяжите номер после проверки",

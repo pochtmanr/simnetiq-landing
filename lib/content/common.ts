@@ -54,6 +54,9 @@ export const FOOTER = {
     privacy: "Privacy Policy",
     terms: "Terms of Service",
     rights: "All rights reserved.",
+    registered: "Registered in",
+    companyNo: "company no.",
+    registeredOffice: "Registered office",
   },
   ru: {
     tagline: "Номер для регистрации. А не на всю жизнь.",
@@ -69,6 +72,9 @@ export const FOOTER = {
     privacy: "Политика конфиденциальности",
     terms: "Условия использования",
     rights: "Все права защищены.",
+    registered: "Зарегистрирована в юрисдикции",
+    companyNo: "рег. номер",
+    registeredOffice: "Юридический адрес",
   },
 } satisfies Record<Locale, unknown>;
 

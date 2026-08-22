@@ -11,12 +11,12 @@ export const france: CountryEntry = {
   en: {
     metaTitle: "French Virtual Number for SMS — Real +33 Mobile Numbers",
     metaDescription:
-      "Rent a real French (+33) mobile number and get SMS verification codes in seconds. Verify Instagram, Tinder, Uber, Airbnb and Google with a French number.",
+      "Rent a real French (+33) mobile number and get SMS verification codes usually within seconds. Verify Instagram, Tinder, Uber, Airbnb and Google with a French number.",
     hero: {
       title: "A French virtual number for SMS verification",
       intro: [
         "French mobiles start with 06 or 07, and every sign-up form in Europe knows what to do with them. A +33 number reads as a mainstream Western European mobile — familiar to lifestyle apps like Tinder and Uber, travel platforms like Airbnb, and every global service in between.",
-        "SMS Code gives you a real French mobile number in one tap. Type it into the verification field, and the SMS with your code from Instagram, Google or another supported service appears in the app within seconds.",
+        "SMS Code gives you a real French mobile number in one tap. Type it into the verification field, and the SMS with your code from Instagram, Google or another supported service appears in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -37,7 +37,7 @@ export const france: CountryEntry = {
       },
       {
         title: "Retry on a fresh number, free",
-        body: "If a service is slow to deliver or the number has seen prior sign-ups, cancel the activation — no SMS received means no charge — and pull a new French number for another attempt.",
+        body: "If a service is slow to deliver or the number has seen prior sign-ups, cancel the activation — no SMS means the coins come back to your balance — and pull a new French number for another attempt.",
       },
     ],
     faqs: [
@@ -66,12 +66,12 @@ export const france: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Франции для SMS — номера +33",
     metaDescription:
-      "Настоящий французский номер (+33) и SMS-коды подтверждения за секунды. Подтверждайте Instagram, Tinder, Uber, Airbnb и Google французским номером.",
+      "Настоящий французский номер (+33) и SMS-коды подтверждения обычно за секунды. Подтверждайте Instagram, Tinder, Uber, Airbnb и Google французским номером.",
     hero: {
       title: "Виртуальный номер Франции для SMS-верификации",
       intro: [
         "Французские мобильные начинаются с 06 или 07, и любая регистрационная форма в Европе знает, что с ними делать. Номер +33 читается как привычный западноевропейский мобильный — знакомый и лайфстайл-приложениям вроде Tinder и Uber, и туристическим платформам вроде Airbnb, и всем глобальным сервисам между ними.",
-        "SMS Code выдаёт настоящий французский мобильный номер в одно касание. Введите его в поле подтверждения — и SMS с кодом от Instagram, Google или другого поддерживаемого сервиса появится в приложении за считанные секунды.",
+        "SMS Code выдаёт настоящий французский мобильный номер в одно касание. Введите его в поле подтверждения — и SMS с кодом от Instagram, Google или другого поддерживаемого сервиса появится в приложении обычно за считанные секунды.",
       ],
     },
     whyCountry: {

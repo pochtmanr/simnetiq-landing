@@ -22,12 +22,12 @@ export const telegram: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Telegram — Sign Up Without Your Real Number",
     metaDescription:
-      "Get a real virtual number for Telegram verification in seconds. Register a new or second Telegram account without a SIM card and keep your personal number private.",
+      "Get a real virtual number for Telegram verification usually within seconds. Register a new or second Telegram account without a SIM card and keep your personal number private.",
     hero: {
       title: "A virtual number for Telegram",
       intro: [
         "Telegram asks for a phone number on its very first screen — before you can pick a username, join a group or send a single message. That number becomes the permanent anchor of your account, and by default your contacts can see it.",
-        "With SMS Code you rent a real number in one of 150+ countries, type it into Telegram, and the verification code appears in the app within seconds. Your personal number never touches Telegram's servers.",
+        "With SMS Code you rent a real number in one of 100+ countries, type it into Telegram, and the verification code appears in the app usually within seconds. Your personal number never touches Telegram's servers.",
       ],
     },
     whyVirtual: {
@@ -83,7 +83,7 @@ export const telegram: ServiceEntry = {
       },
       {
         q: "Why didn't my Telegram code arrive?",
-        a: "The usual causes: the country code entered in Telegram doesn't match the number, or Telegram decided to deliver the code to a previous session. Cancel the pending activation in SMS Code — you're not charged for numbers that received nothing — and try a fresh number.",
+        a: "The usual causes: the country code entered in Telegram doesn't match the number, or Telegram decided to deliver the code to a previous session. Cancel the pending activation in SMS Code — the coins for numbers that received nothing come back to your balance — and try a fresh number.",
       },
       {
         q: "Will people see that I'm using a virtual number?",
@@ -99,12 +99,12 @@ export const telegram: ServiceEntry = {
     metaTitle:
       "Виртуальный номер для Telegram — регистрация без личного номера",
     metaDescription:
-      "Настоящий виртуальный номер для подтверждения Telegram за секунды. Зарегистрируйте новый или второй аккаунт Telegram без SIM-карты и сохраните личный номер в тайне.",
+      "Настоящий виртуальный номер для подтверждения Telegram обычно за секунды. Зарегистрируйте новый или второй аккаунт Telegram без SIM-карты и сохраните личный номер в тайне.",
     hero: {
       title: "Виртуальный номер для Telegram",
       intro: [
         "Telegram запрашивает номер телефона на самом первом экране — ещё до того, как вы выберете имя пользователя, вступите в группу или отправите первое сообщение. Этот номер навсегда привязывается к аккаунту, и по умолчанию его видят ваши контакты.",
-        "С SMS Code вы арендуете настоящий номер в одной из 150+ стран, вводите его в Telegram — и код подтверждения появляется в приложении за считанные секунды. Ваш личный номер вообще не попадает на серверы Telegram.",
+        "С SMS Code вы арендуете настоящий номер в одной из 100+ стран, вводите его в Telegram — и код подтверждения появляется в приложении обычно за считанные секунды. Ваш личный номер вообще не попадает на серверы Telegram.",
       ],
     },
     whyVirtual: {
@@ -160,7 +160,7 @@ export const telegram: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Telegram?",
-        a: "Обычные причины: код страны в Telegram не совпадает с номером, либо Telegram отправил код в предыдущую сессию. Отмените ожидающую активацию в SMS Code — за номера, на которые ничего не пришло, деньги не списываются, — и возьмите новый номер.",
+        a: "Обычные причины: код страны в Telegram не совпадает с номером, либо Telegram отправил код в предыдущую сессию. Отмените ожидающую активацию в SMS Code — монеты за номера, на которые ничего не пришло, возвращаются на баланс, — и возьмите новый номер.",
       },
       {
         q: "Увидят ли другие, что у меня виртуальный номер?",

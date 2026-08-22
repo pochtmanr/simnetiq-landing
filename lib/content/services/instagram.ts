@@ -22,12 +22,12 @@ export const instagram: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Instagram — Verify Without Your SIM",
     metaDescription:
-      "Get a real virtual number for Instagram verification in seconds. Pass the phone confirmation for a new, brand or second account without giving out your own number.",
+      "Get a real virtual number for Instagram verification usually within seconds. Pass the phone confirmation for a new, brand or second account without giving out your own number.",
     hero: {
       title: "A virtual number for Instagram",
       intro: [
         "Instagram lets you sign up with an email address — but the phone step rarely stays optional for long. A new device, an unfamiliar network or a few quick actions right after signup, and Instagram asks you to confirm a phone number before letting you continue. That number ends up tied to the account.",
-        "With SMS Code you rent a real number in one of 150+ countries, give it to Instagram, and the six-digit code lands in the app within seconds. Your personal number stays out of Meta's contact graph — and out of “people you may know” suggestions built on it.",
+        "With SMS Code you rent a real number in one of 100+ countries, give it to Instagram, and the six-digit code lands in the app usually within seconds. Your personal number stays out of Meta's contact graph — and out of “people you may know” suggestions built on it.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const instagram: ServiceEntry = {
         },
         {
           title: "Grab the code from SMS Code",
-          body: "Instagram sends a six-digit SMS — something like “391 504 is your Instagram code. Don't share it.” It appears in the SMS Code app within seconds; type it in and the check clears.",
+          body: "Instagram sends a six-digit SMS — something like “391 504 is your Instagram code. Don't share it.” It appears in the SMS Code app usually within seconds; type it in and the check clears.",
         },
         {
           title: "Move the account off the rented number",
@@ -60,8 +60,8 @@ export const instagram: ServiceEntry = {
     },
     tips: [
       {
-        title: "Let a fresh account settle",
-        body: "Instagram's checkpoint system watches for accounts that act fast right after creation — mass follows, rapid likes, instant DMs. That's exactly what triggers repeated “confirm your phone number” challenges. Fill in a profile photo and bio, post something, and behave like a person for the first days.",
+        title: "Set the account up properly before you use it",
+        body: "A profile with a photo, a bio and something posted is simply a finished account, and a finished account gets asked to re-confirm its phone far less often than an empty one. If Instagram keeps challenging you, that is its anti-abuse system doing its job — a virtual number gets you through the ordinary phone check, it is not a way around a restriction or a ban.",
       },
       {
         title: "Email signup doesn't mean no phone step",
@@ -87,7 +87,7 @@ export const instagram: ServiceEntry = {
       },
       {
         q: "Why didn't my Instagram code arrive?",
-        a: "The most common cause is a mismatched country code; the second is Instagram rate-limiting SMS to a number that recently requested codes. Cancel the pending activation in SMS Code — you're not charged for a number that received nothing — and try a fresh number or another country.",
+        a: "The most common cause is a mismatched country code; the second is Instagram rate-limiting SMS to a number that recently requested codes. Cancel the pending activation in SMS Code — the coins for a number that received nothing come back to your balance — and try a fresh number or another country.",
       },
       {
         q: "Is signing up for Instagram with a virtual number allowed?",
@@ -98,12 +98,12 @@ export const instagram: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Instagram — регистрация без SIM-карты",
     metaDescription:
-      "Настоящий виртуальный номер для подтверждения Instagram за секунды. Пройдите проверку телефона для нового, второго или бизнес-аккаунта, не раскрывая свой номер.",
+      "Настоящий виртуальный номер для подтверждения Instagram обычно за секунды. Пройдите проверку телефона для нового, второго или бизнес-аккаунта, не раскрывая свой номер.",
     hero: {
       title: "Виртуальный номер для Instagram",
       intro: [
         "В Instagram можно зарегистрироваться по почте — но шаг с телефоном редко остаётся необязательным надолго. Новое устройство, незнакомая сеть или пара быстрых действий сразу после регистрации — и Instagram просит подтвердить номер телефона, прежде чем пустить дальше. Этот номер привязывается к аккаунту.",
-        "С SMS Code вы арендуете настоящий номер в одной из 150+ стран, указываете его в Instagram — и шестизначный код приходит в приложение за считанные секунды. Ваш личный номер не попадает в контактный граф Meta — и в построенные на нём рекомендации «возможно, вы знакомы».",
+        "С SMS Code вы арендуете настоящий номер в одной из 100+ стран, указываете его в Instagram — и шестизначный код приходит в приложение обычно за считанные секунды. Ваш личный номер не попадает в контактный граф Meta — и в построенные на нём рекомендации «возможно, вы знакомы».",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const instagram: ServiceEntry = {
         },
         {
           title: "Заберите код из SMS Code",
-          body: "Instagram присылает шестизначную SMS — примерно такую: «391 504 is your Instagram code. Don't share it.» Она появляется в приложении SMS Code за секунды; введите код — и проверка пройдена.",
+          body: "Instagram присылает шестизначную SMS — примерно такую: «391 504 is your Instagram code. Don't share it.» Она появляется в приложении SMS Code обычно за секунды; введите код — и проверка пройдена.",
         },
         {
           title: "Отвяжите аккаунт от арендованного номера",
@@ -136,8 +136,8 @@ export const instagram: ServiceEntry = {
     },
     tips: [
       {
-        title: "Дайте свежему аккаунту освоиться",
-        body: "Система проверок Instagram следит за аккаунтами, которые слишком активны сразу после создания: массовые подписки, лавина лайков, мгновенные сообщения. Именно это и вызывает повторные запросы «подтвердите номер телефона». Поставьте фото профиля, заполните описание, опубликуйте что-нибудь — и первые дни ведите себя как человек.",
+        title: "Доведите аккаунт до ума, прежде чем им пользоваться",
+        body: "Профиль с фото, описанием и хотя бы одной публикацией — это просто законченный аккаунт, а у законченного аккаунта Instagram гораздо реже просит заново подтвердить телефон. Если проверки повторяются, значит система защиты Instagram делает свою работу: виртуальный номер помогает пройти обычную проверку телефона, но не обходит ограничение и не снимает блокировку.",
       },
       {
         title: "Регистрация по почте не отменяет шаг с телефоном",
@@ -163,7 +163,7 @@ export const instagram: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Instagram?",
-        a: "Самая частая причина — несовпадение кода страны; вторая — Instagram ограничил SMS на номер, который недавно запрашивал коды. Отмените ожидающую активацию в SMS Code — за номер, на который ничего не пришло, деньги не списываются, — и возьмите новый номер или другую страну.",
+        a: "Самая частая причина — несовпадение кода страны; вторая — Instagram ограничил SMS на номер, который недавно запрашивал коды. Отмените ожидающую активацию в SMS Code — монеты за номер, на который ничего не пришло, возвращаются на баланс, — и возьмите новый номер или другую страну.",
       },
       {
         q: "Разрешено ли регистрироваться в Instagram с виртуальным номером?",

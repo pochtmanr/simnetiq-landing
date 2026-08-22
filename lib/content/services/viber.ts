@@ -22,12 +22,12 @@ export const viber: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Viber — Register Without a SIM Card",
     metaDescription:
-      "Activate Viber with a real virtual number from 150+ countries. The code arrives in the app in seconds — pay per activation, no subscription, free cancel if no SMS.",
+      "Activate Viber with a real virtual number from 100+ countries. The code arrives in the app usually within seconds — pay per activation, no subscription, free cancel if no SMS.",
     hero: {
       title: "A virtual number for Viber",
       intro: [
         "Viber plays by the same rule as WhatsApp: your phone number is the account. It's what you register with, what your contacts see, and what every chat is anchored to. Across Eastern Europe, the Balkans and the Philippines it's simply where the family group chat lives — so sooner or later you need a number to join in.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries, enter it on Viber's activation screen, and the code appears in the app within seconds. You pay per activation from a one-time coin pack — no subscription — and a number that received nothing can be cancelled without charge.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries, enter it on Viber's activation screen, and the code appears in the app usually within seconds. You pay per activation from a one-time coin pack — no subscription — and a number that received nothing can be cancelled without charge.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const viber: ServiceEntry = {
         },
         {
           title: "Grab the code",
-          body: "The SMS arrives within seconds, from sender “Viber”, formatted like “Your Viber code: 528114”. Type the digits into Viber and the account activates.",
+          body: "The SMS arrives usually within seconds, from sender “Viber”, formatted like “Your Viber code: 528114”. Type the digits into Viber and the account activates.",
         },
         {
           title: "Back up and settle in",
@@ -87,7 +87,7 @@ export const viber: ServiceEntry = {
       },
       {
         q: "Why didn't my Viber code arrive?",
-        a: "Check the basics first: the country selected in Viber has to match the rented number. If it does and the SMS still doesn't come, cancel the pending activation in SMS Code — numbers that received nothing are never charged — and take a fresh number. Choose SMS rather than a callback when Viber offers both.",
+        a: "Check the basics first: the country selected in Viber has to match the rented number. If it does and the SMS still doesn't come, cancel the pending activation in SMS Code — the coins come back for numbers that received nothing — and take a fresh number. Choose SMS rather than a callback when Viber offers both.",
       },
       {
         q: "Is activating Viber with a rented number allowed?",
@@ -98,12 +98,12 @@ export const viber: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Viber — регистрация без SIM-карты",
     metaDescription:
-      "Активируйте Viber настоящим виртуальным номером из 150+ стран. Код приходит в приложение за секунды — оплата за активацию, без подписки, отмена без списания.",
+      "Активируйте Viber настоящим виртуальным номером из 100+ стран. Код приходит в приложение обычно за секунды — оплата за активацию, без подписки, отмена с возвратом монет.",
     hero: {
       title: "Виртуальный номер для Viber",
       intro: [
         "Viber играет по тому же правилу, что и WhatsApp: номер телефона — это и есть аккаунт. На него вы регистрируетесь, его видят собеседники, к нему привязан каждый чат. В Восточной Европе, на Балканах и на Филиппинах именно здесь живёт семейный чат — так что рано или поздно номер понадобится, чтобы к нему присоединиться.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его на экране активации Viber — и код появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а номер, на который ничего не пришло, отменяется без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, вводите его на экране активации Viber — и код появляется в приложении обычно за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а номер, на который ничего не пришло, отменяется с возвратом монет.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const viber: ServiceEntry = {
         },
         {
           title: "Заберите код",
-          body: "SMS придёт за секунды, от отправителя «Viber», в формате «Your Viber code: 528114». Введите цифры в Viber — аккаунт активирован.",
+          body: "SMS придёт обычно за секунды, от отправителя «Viber», в формате «Your Viber code: 528114». Введите цифры в Viber — аккаунт активирован.",
         },
         {
           title: "Сделайте бэкап и обживайтесь",
@@ -163,7 +163,7 @@ export const viber: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код Viber?",
-        a: "Сначала проверьте очевидное: страна, выбранная в Viber, должна совпадать с арендованным номером. Если совпадает, а SMS всё нет — отмените ожидающую активацию в SMS Code (за номера, на которые ничего не пришло, деньги не списываются) и возьмите новый номер. Когда Viber предлагает на выбор SMS или звонок — выбирайте SMS.",
+        a: "Сначала проверьте очевидное: страна, выбранная в Viber, должна совпадать с арендованным номером. Если совпадает, а SMS всё нет — отмените ожидающую активацию в SMS Code (монеты за номера, на которые ничего не пришло, возвращаются на баланс) и возьмите новый номер. Когда Viber предлагает на выбор SMS или звонок — выбирайте SMS.",
       },
       {
         q: "Разрешено ли активировать Viber арендованным номером?",

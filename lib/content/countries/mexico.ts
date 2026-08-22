@@ -11,12 +11,12 @@ export const mexico: CountryEntry = {
   en: {
     metaTitle: "Mexican Virtual Number for SMS — Real +52 Mobile Numbers",
     metaDescription:
-      "Get a real Mexican (+52) virtual number and receive SMS codes in seconds. Verify WhatsApp, Telegram, Facebook, Uber and Tinder with a number from Latin America's WhatsApp heartland.",
+      "Get a real Mexican (+52) virtual number and receive SMS codes usually within seconds. Verify WhatsApp, Telegram, Facebook, Uber and Tinder with a number from Latin America's WhatsApp heartland.",
     hero: {
       title: "A Mexican virtual number for SMS verification",
       intro: [
         "In Mexico, WhatsApp isn't an app — it's the phone. Businesses take orders on it, families live in it, and a Mexican mobile number is presumed to have WhatsApp attached. That makes a +52 number one of the most natural-looking choices anywhere for verifying messengers and the everyday apps built around them.",
-        "SMS Code rents you a real Mexican mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Mexican mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app usually within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -66,12 +66,12 @@ export const mexico: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Мексики для приёма SMS — номера +52",
     metaDescription:
-      "Настоящий мексиканский номер (+52) и SMS-коды за секунды. Подтверждайте WhatsApp, Telegram, Facebook, Uber и Tinder номером из самой «ватсаповской» страны Латинской Америки.",
+      "Настоящий мексиканский номер (+52) и SMS-коды обычно за секунды. Подтверждайте WhatsApp, Telegram, Facebook, Uber и Tinder номером из самой «ватсаповской» страны Латинской Америки.",
     hero: {
       title: "Виртуальный номер Мексики для SMS-верификации",
       intro: [
         "В Мексике WhatsApp — не приложение, а сам телефон. Бизнес принимает в нём заказы, семьи в нём живут, и у мексиканского мобильного номера WhatsApp подразумевается по умолчанию. Поэтому номер +52 — один из самых естественных вариантов для верификации мессенджеров и повседневных приложений вокруг них.",
-        "SMS Code сдаёт настоящий мексиканский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий мексиканский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении обычно за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {

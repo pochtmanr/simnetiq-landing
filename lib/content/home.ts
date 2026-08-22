@@ -19,7 +19,7 @@ export const HOME = {
       label: "Virtual numbers · SMS verification",
       titleTop: "A number for the sign‑up.",
       titleAccent: "Not for life.",
-      body: "SMS Code gives you a real virtual number in 150+ countries and shows the verification code in seconds — so Telegram, WhatsApp, Google and 100+ other services never learn your personal number.",
+      body: "SMS Code gives you a real virtual number in 100+ countries and shows the verification code usually within seconds — so Telegram, WhatsApp, Google and 100+ other services never learn your personal number.",
       note: "One-time coin packs · no subscription",
     },
     services: {
@@ -29,7 +29,7 @@ export const HOME = {
     },
     how: {
       label: "Overview",
-      title: "Three steps, about thirty seconds",
+      title: "Three steps, and you're done",
       step: "Step",
       steps: [
         {
@@ -42,7 +42,7 @@ export const HOME = {
         },
         {
           title: "The code lands in the app",
-          body: "The verification SMS shows up on screen within seconds. Tap once to copy the code, finish the sign-up, done.",
+          body: "The verification SMS shows up on screen usually within seconds. Tap once to copy the code, finish the sign-up, done.",
         },
       ],
     },
@@ -56,11 +56,11 @@ export const HOME = {
           body: "Sign up for anything without handing your personal number to one more database, mailing list, or data breach.",
         },
         {
-          title: "100+ services, 150+ countries",
+          title: "100+ services, 100+ countries",
           body: "From Telegram and WhatsApp to Steam and Tinder — with numbers from Europe, Asia, the Americas and more.",
         },
         {
-          title: "Codes in seconds, not minutes",
+          title: "Usually seconds, not minutes",
           body: "Numbers are live the moment you get them. The SMS appears right in the app with one-tap copy.",
         },
         {
@@ -86,8 +86,8 @@ export const HOME = {
       coinsUnit: "coins",
       facts: [
         {
-          title: "From 20 coins a verification",
-          body: "What one costs depends on the service and the country. A budget country can be 35 coins where a premium one is 150 — the app quotes each combination live.",
+          title: "From 20 coins — but check the service first",
+          body: "The service you're verifying drives most of the price and the country adjusts it, not the other way round. 20 coins is the floor, not the going rate: a common messenger can start around 35 coins and a high-demand service can run into the hundreds in every country it offers. The app quotes each combination live, so look at the price before you pick a pack.",
         },
         {
           title: "The price before you confirm",
@@ -103,7 +103,7 @@ export const HOME = {
     showcase: {
       label: "Inside the app",
       title: "What it actually looks like",
-      body: "No mock-ups — these are the screens as they ship on the App Store.",
+      body: "No mock-ups — these are real screens from the app. The app is updated regularly, so the fine print in a screenshot may be a version behind.",
       shots: [
         { src: "/app/shot-countries.png", caption: "Every country priced before you pick one" },
         { src: "/app/shot-waiting.png", caption: "The code lands on the activation screen" },
@@ -117,11 +117,11 @@ export const HOME = {
       items: [
         {
           q: "What exactly is a virtual number?",
-          a: "A real phone number that exists on a carrier network but isn't tied to a SIM card in your pocket. It can receive SMS like any other number — you use it for the verification step, and your personal number never enters the picture. Each number is single-use — you receive your code once, then it's retired back to the pool, so the same number can't be reused or texted again.",
+          a: "A real phone number that exists on a carrier network but isn't tied to a SIM card in your pocket. It can receive SMS like any other number — you use it for the verification step, and your personal number never enters the picture. An activation is single-use: the number is reserved for you alone while it runs, and when it ends the number returns to the provider's pool, where it may later be issued to someone else. So treat it as a number for the sign-up, not a number you keep.",
         },
         {
           q: "Can I reuse a number or have the code resent?",
-          a: "No — every number is used one time only. Once your activation finishes or expires, that exact number is retired and can't be reused or have an SMS resent to it. Need to verify again? Just start a new activation and you'll get a fresh number.",
+          a: "No. An activation covers one code on one number. Once it finishes or expires the number goes back to the provider's pool — you can't have another SMS delivered to it, and it may be reissued to a different customer later. Need to verify again? Start a new activation and you'll get a fresh number. For any account you plan to keep, add a recovery email and app-based two-factor right after signing up, so the account never depends on a number you no longer hold.",
         },
         {
           q: "How fast does the code arrive?",
@@ -134,6 +134,14 @@ export const HOME = {
         {
           q: "What if the code never arrives?",
           a: "You can cancel a pending activation directly in the app and take another number or try a different country. Support is one message away if anything looks off.",
+        },
+        {
+          q: "How long does an activation last, and can I swap the number?",
+          a: "The activation window is 15 minutes. If nothing arrives you can swap to a different number from the same screen — the app has to hold the current number for two minutes first, because the supplier will not let a number be released sooner than that, and you can swap up to three times within one activation. You can also cancel outright and start a fresh activation instead. Either way, the coins for a number that never received an SMS return to your balance.",
+        },
+        {
+          q: "How many numbers can I have at once?",
+          a: "Three active at a time. There are also hourly and daily ceilings on how many coins one account can spend. They are set well above ordinary use — they exist to stop automated abuse, not to ration normal customers.",
         },
         {
           q: "Do my coins expire?",
@@ -190,9 +198,9 @@ export const HOME = {
     stats: {
       label: "At a glance",
       items: [
-        { value: "150+", label: "countries with real mobile numbers on live carrier networks" },
+        { value: "100+", label: "countries with real mobile numbers on live carrier networks" },
         { value: "100+", label: "services you can verify, from Telegram to Steam" },
-        { value: "~30s", label: "from picking a number to a code on your screen" },
+        { value: "3", label: "taps from picking a service to a live number on screen" },
         { value: "0", label: "subscriptions — one-time coin packs, and coins never expire" },
       ],
     },
@@ -219,7 +227,7 @@ export const HOME = {
       label: "Виртуальные номера · SMS-верификация",
       titleTop: "Номер для регистрации.",
       titleAccent: "А не на всю жизнь.",
-      body: "SMS Code даёт вам настоящий виртуальный номер в 150+ странах и показывает код подтверждения за считанные секунды — Telegram, WhatsApp, Google и ещё 100+ сервисов никогда не узнают ваш личный номер.",
+      body: "SMS Code даёт вам настоящий виртуальный номер в 100+ странах и показывает код подтверждения обычно за считанные секунды — Telegram, WhatsApp, Google и ещё 100+ сервисов никогда не узнают ваш личный номер.",
       note: "Разовые пакеты монет · без подписки",
     },
     services: {
@@ -229,7 +237,7 @@ export const HOME = {
     },
     how: {
       label: "Обзор",
-      title: "Три шага — примерно тридцать секунд",
+      title: "Три шага — и готово",
       step: "Шаг",
       steps: [
         {
@@ -242,7 +250,7 @@ export const HOME = {
         },
         {
           title: "Код приходит прямо в приложение",
-          body: "SMS с подтверждением появляется на экране за секунды. Одно касание — код скопирован, регистрация завершена.",
+          body: "SMS с подтверждением появляется на экране обычно за секунды. Одно касание — код скопирован, регистрация завершена.",
         },
       ],
     },
@@ -256,11 +264,11 @@ export const HOME = {
           body: "Регистрируйтесь где угодно, не отдавая личный номер очередной базе данных, рассылке или утечке.",
         },
         {
-          title: "100+ сервисов, 150+ стран",
+          title: "100+ сервисов, 100+ стран",
           body: "От Telegram и WhatsApp до Steam и Tinder — с номерами из Европы, Азии, Америки и не только.",
         },
         {
-          title: "Коды за секунды, а не минуты",
+          title: "Обычно секунды, а не минуты",
           body: "Номер активен с момента выдачи. SMS появляется прямо в приложении, код копируется одним касанием.",
         },
         {
@@ -286,8 +294,8 @@ export const HOME = {
       coinsUnit: "монет",
       facts: [
         {
-          title: "От 20 монет за подтверждение",
-          body: "Сколько стоит одно — зависит от сервиса и страны. Бюджетная страна может стоить 35 монет там, где премиальная стоит 150: приложение показывает цену для каждой пары вживую.",
+          title: "От 20 монет — но сначала посмотрите на сервис",
+          body: "Цену задаёт прежде всего сам сервис, а страна её корректирует, а не наоборот. 20 монет — это нижняя граница, а не обычная цена: распространённый мессенджер начинается примерно с 35 монет, а сервис с высоким спросом может стоить сотни монет в любой стране, где он доступен. Приложение показывает цену для каждой пары вживую — посмотрите её, прежде чем выбирать пакет.",
         },
         {
           title: "Цена — до подтверждения",
@@ -303,7 +311,7 @@ export const HOME = {
     showcase: {
       label: "Внутри приложения",
       title: "Как это выглядит на самом деле",
-      body: "Никаких макетов — это те самые экраны, что лежат в App Store.",
+      body: "Никаких макетов — это настоящие экраны приложения. Приложение регулярно обновляется, поэтому мелкие детали на скриншоте могут отставать на версию.",
       shots: [
         { src: "/app/shot-countries.png", caption: "Цена каждой страны видна до выбора" },
         { src: "/app/shot-waiting.png", caption: "Код появляется прямо на экране активации" },
@@ -317,11 +325,11 @@ export const HOME = {
       items: [
         {
           q: "Что такое виртуальный номер?",
-          a: "Настоящий телефонный номер в сети оператора, но без SIM-карты у вас в кармане. Он принимает SMS, как любой другой номер: вы используете его на шаге подтверждения, а ваш личный номер вообще не участвует. Каждый номер одноразовый: код приходит один раз, после чего номер возвращается в пул — повторно использовать его или отправить на него SMS снова нельзя.",
+          a: "Настоящий телефонный номер в сети оператора, но без SIM-карты у вас в кармане. Он принимает SMS, как любой другой номер: вы используете его на шаге подтверждения, а ваш личный номер вообще не участвует. Активация одноразовая: пока она идёт, номер закреплён только за вами, а после её завершения возвращается в пул провайдера, откуда позже может достаться другому пользователю. Поэтому считайте его номером для регистрации, а не номером, который остаётся у вас.",
         },
         {
           q: "Можно ли повторно использовать номер или запросить повторную отправку кода?",
-          a: "Нет — каждый номер используется только один раз. После завершения или истечения активации этот номер выводится из обращения: повторно использовать его или отправить на него SMS снова нельзя. Нужно подтвердить ещё раз — просто создайте новую активацию и получите новый номер.",
+          a: "Нет. Одна активация — один код на одном номере. После её завершения или истечения номер возвращается в пул провайдера: получить на него ещё одну SMS нельзя, а позже он может быть выдан другому пользователю. Нужно подтвердить ещё раз — создайте новую активацию и получите новый номер. А для аккаунта, который вы планируете сохранить, сразу после регистрации добавьте резервную почту и двухфакторную аутентификацию через приложение, чтобы аккаунт не зависел от номера, которого у вас больше нет.",
         },
         {
           q: "Как быстро приходит код?",
@@ -334,6 +342,14 @@ export const HOME = {
         {
           q: "Что делать, если код так и не пришёл?",
           a: "Отмените ожидающую активацию прямо в приложении и возьмите другой номер или попробуйте другую страну. А поддержка всегда на расстоянии одного сообщения.",
+        },
+        {
+          q: "Сколько длится активация и можно ли сменить номер?",
+          a: "Окно активации — 15 минут. Если ничего не приходит, номер можно сменить прямо на этом экране: сначала приложение обязано подержать текущий номер две минуты — раньше провайдер освободить его не даёт, — а всего в рамках одной активации доступно до трёх смен. Можно и просто отменить активацию и начать новую. В любом случае монеты за номер, на который SMS так и не пришла, возвращаются на баланс.",
+        },
+        {
+          q: "Сколько номеров можно держать одновременно?",
+          a: "Три активных одновременно. Есть также часовой и суточный лимиты на количество монет, которые может потратить один аккаунт. Они заданы с большим запасом относительно обычного использования: их задача — остановить автоматические злоупотребления, а не ограничивать обычных пользователей.",
         },
         {
           q: "Сгорают ли монеты?",
@@ -390,9 +406,9 @@ export const HOME = {
     stats: {
       label: "Коротко о главном",
       items: [
-        { value: "150+", label: "стран с настоящими мобильными номерами в живых сетях операторов" },
+        { value: "100+", label: "стран с настоящими мобильными номерами в живых сетях операторов" },
         { value: "100+", label: "сервисов для верификации — от Telegram до Steam" },
-        { value: "~30с", label: "от выбора номера до кода на вашем экране" },
+        { value: "3", label: "касания от выбора сервиса до живого номера на экране" },
         { value: "0", label: "подписок — разовые пакеты монет, а монеты не сгорают" },
       ],
     },

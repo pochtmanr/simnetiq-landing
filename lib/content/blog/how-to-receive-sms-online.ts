@@ -77,7 +77,7 @@ export const howToReceiveSmsOnline: BlogPost = {
         items: [
           {
             title: "Pick the service and a country",
-            body: "In SMS Code, choose what you’re verifying — Telegram, WhatsApp, Google, 100+ services — and which country the number should come from. Numbers are available in 150+ countries; one tap reserves one for you alone.",
+            body: "In SMS Code, choose what you’re verifying — Telegram, WhatsApp, Google, 100+ services — and which country the number should come from. Numbers are available in 100+ countries; one tap reserves one for you alone.",
           },
           {
             title: "Enter the number in the sign-up form",
@@ -85,7 +85,7 @@ export const howToReceiveSmsOnline: BlogPost = {
           },
           {
             title: "Read the code in the app",
-            body: "The SMS lands in SMS Code within seconds and the activation screen updates live. Tap once to copy the code, paste it into the form, and the verification is done.",
+            body: "The SMS lands in SMS Code usually within seconds and the activation screen updates live. Tap once to copy the code, paste it into the form, and the verification is done.",
           },
           {
             title: "Secure the account properly",
@@ -215,7 +215,7 @@ export const howToReceiveSmsOnline: BlogPost = {
         items: [
           {
             title: "Выберите сервис и страну",
-            body: "В SMS Code укажите, что вы подтверждаете — Telegram, WhatsApp, Google, 100+ сервисов, — и страну номера. Номера доступны в 150+ странах; одно касание резервирует номер только за вами.",
+            body: "В SMS Code укажите, что вы подтверждаете — Telegram, WhatsApp, Google, 100+ сервисов, — и страну номера. Номера доступны в 100+ странах; одно касание резервирует номер только за вами.",
           },
           {
             title: "Введите номер в форму регистрации",
@@ -223,7 +223,7 @@ export const howToReceiveSmsOnline: BlogPost = {
           },
           {
             title: "Прочитайте код в приложении",
-            body: "SMS попадает в SMS Code за считанные секунды, экран активации обновляется в реальном времени. Одно касание — код скопирован, вставьте его в форму, и верификация завершена.",
+            body: "SMS попадает в SMS Code обычно за считанные секунды, экран активации обновляется в реальном времени. Одно касание — код скопирован, вставьте его в форму, и верификация завершена.",
           },
           {
             title: "Как следует защитите аккаунт",

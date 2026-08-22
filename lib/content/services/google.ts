@@ -22,12 +22,12 @@ export const google: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Google — Create a Gmail Without Your SIM",
     metaDescription:
-      "Verify a new Google account with a real virtual number. Get the G-code in seconds, create a Gmail without your personal number, and keep it out of your Google profile.",
+      "Verify a new Google account with a real virtual number. Get the G-code usually within seconds, create a Gmail without your personal number, and keep it out of your Google profile.",
     hero: {
       title: "A virtual number for Google",
       intro: [
         "Creating a Google account is supposed to take a minute — until the sign-up form asks for a phone number. Google decides dynamically whether to require verification, and once it does, there's no way past that screen without receiving a real SMS. The code arrives from “Google” and looks like “G-482915”.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries, enter it on Google's verification screen, and the G-code appears in the app within seconds. Your new Gmail gets created — and your personal number stays out of it.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries, enter it on Google's verification screen, and the G-code appears in the app usually within seconds. Your new Gmail gets created — and your personal number stays out of it.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const google: ServiceEntry = {
         },
         {
           title: "Type in the G-code",
-          body: "The SMS lands in the SMS Code app within seconds and reads “G-482915 is your Google verification code.” Enter the six digits (without the “G-” prefix if Google's field asks for digits only) and the account is created.",
+          body: "The SMS lands in the SMS Code app usually within seconds and reads “G-482915 is your Google verification code.” Enter the six digits (without the “G-” prefix if Google's field asks for digits only) and the account is created.",
         },
         {
           title: "Unhook the account from the rented number",
@@ -83,7 +83,7 @@ export const google: ServiceEntry = {
       },
       {
         q: "Google says the number can't be used for verification. Now what?",
-        a: "That's Google's filter for numbers it suspects are VoIP or already linked to too many accounts. Cancel the activation in SMS Code — you aren't charged for a number that received nothing — and take a new one. Switching to a different country often gets a cleaner range.",
+        a: "That's Google's filter for numbers it suspects are VoIP or already linked to too many accounts. Cancel the activation in SMS Code — the coins for a number that received nothing come back to your balance — and take a new one. Switching to a different country often gets a cleaner range.",
       },
       {
         q: "Can I create more than one Google account this way?",
@@ -98,12 +98,12 @@ export const google: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для Google — создайте Gmail без своей SIM",
     metaDescription:
-      "Подтвердите новый аккаунт Google настоящим виртуальным номером. Код G- придёт за секунды: создайте Gmail без личного номера и не привязывайте его к профилю.",
+      "Подтвердите новый аккаунт Google настоящим виртуальным номером. Код G- придёт обычно за секунды: создайте Gmail без личного номера и не привязывайте его к профилю.",
     hero: {
       title: "Виртуальный номер для Google",
       intro: [
         "Создание аккаунта Google должно занимать минуту — пока форма регистрации не попросит номер телефона. Google решает динамически, требовать ли подтверждение, и если потребовал, мимо этого экрана не пройти без настоящей SMS. Код приходит от отправителя «Google» и выглядит как «G-482915».",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его на экране подтверждения Google — и код G- появляется в приложении за считанные секунды. Новый Gmail создан, а ваш личный номер к нему не привязан.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, вводите его на экране подтверждения Google — и код G- появляется в приложении обычно за считанные секунды. Новый Gmail создан, а ваш личный номер к нему не привязан.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const google: ServiceEntry = {
         },
         {
           title: "Введите код G-",
-          body: "SMS придёт в приложение SMS Code за секунды и будет выглядеть так: «G-482915 is your Google verification code.» Введите шесть цифр (без префикса «G-», если поле Google принимает только цифры) — аккаунт создан.",
+          body: "SMS придёт в приложение SMS Code обычно за секунды и будет выглядеть так: «G-482915 is your Google verification code.» Введите шесть цифр (без префикса «G-», если поле Google принимает только цифры) — аккаунт создан.",
         },
         {
           title: "Отвяжите аккаунт от арендованного номера",
@@ -159,7 +159,7 @@ export const google: ServiceEntry = {
       },
       {
         q: "Google пишет, что номер нельзя использовать для подтверждения. Что делать?",
-        a: "Это фильтр Google для номеров, которые он подозревает в VoIP-происхождении или в привязке к слишком многим аккаунтам. Отмените активацию в SMS Code — за номер, на который ничего не пришло, деньги не списываются, — и возьмите новый. Смена страны часто даёт более «чистый» диапазон номеров.",
+        a: "Это фильтр Google для номеров, которые он подозревает в VoIP-происхождении или в привязке к слишком многим аккаунтам. Отмените активацию в SMS Code — монеты за номер, на который ничего не пришло, возвращаются на баланс, — и возьмите новый. Смена страны часто даёт более «чистый» диапазон номеров.",
       },
       {
         q: "Можно ли так создать несколько аккаунтов Google?",

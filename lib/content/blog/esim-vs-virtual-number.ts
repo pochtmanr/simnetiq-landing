@@ -47,7 +47,7 @@ export const esimVsVirtualNumber: BlogPost = {
         type: "list",
         items: [
           "Cost model — an eSIM is a plan: you pay for a bundle of data (and sometimes minutes/texts) that runs for days or weeks. A virtual number is pay-per-use: one activation, one code received, paid from a coin pack. For a single verification code, a plan is overkill; for two weeks of maps and messengers abroad, per-SMS pricing is the wrong shape entirely.",
-          "Setup — an eSIM is provisioned into the phone: QR code or app, a new line appears in your cellular settings, and your device must support eSIM at all. A virtual number needs no provisioning: open the app, pick a service and country, the number is on screen in seconds.",
+          "Setup — an eSIM is provisioned into the phone: QR code or app, a new line appears in your cellular settings, and your device must support eSIM at all. A virtual number needs no provisioning: open the app, pick a service and country, the number is on screen usually within seconds.",
           "What you get — an eSIM gives connectivity: data, a network indicator, often a phone line. A virtual number gives exactly one capability: receiving the SMS sent to it, shown in the app.",
           "How long you keep it — an eSIM lasts as long as the plan does, and a local one can be topped up indefinitely. A virtual number is rented for an activation window — long enough for a sign-up code, not meant to be your number for years.",
           "What it’s for — eSIM: being online abroad, a data line for a tablet, a local plan without hunting for a SIM kiosk. Virtual number: keeping your personal number out of sign-ups, verifying a second account, receiving one code without buying a whole plan.",
@@ -111,7 +111,7 @@ export const esimVsVirtualNumber: BlogPost = {
           },
           {
             title: "Read the code in the app",
-            body: "The SMS appears on the activation screen within seconds. Copy the code, finish the sign-up. If no code ever arrives, cancel the activation free and take another number — you only pay for delivered codes.",
+            body: "The SMS appears on the activation screen usually within seconds. Copy the code, finish the sign-up. If no code ever arrives, cancel the activation free and take another number — you only pay for delivered codes.",
           },
         ],
       },
@@ -129,7 +129,7 @@ export const esimVsVirtualNumber: BlogPost = {
           },
           {
             q: "Is a virtual number a SIM card?",
-            a: "No. Nothing is installed in your device — no plastic, no eSIM profile, no change to your cellular settings. The number exists on the provider’s network, and the messages it receives are shown to you in the app. Your phone could be in airplane mode and the code would still arrive.",
+            a: "No. Nothing is installed in your device — no plastic, no eSIM profile, no change to your cellular settings. The number exists on the provider’s network, and the messages it receives are shown to you in the app. Your own SIM plays no part in it — the number does not depend on your carrier at all. You do need an internet connection on your phone, over Wi-Fi or mobile data, for the app to show you the code.",
           },
           {
             q: "Can I keep a virtual number forever?",
@@ -253,7 +253,7 @@ export const esimVsVirtualNumber: BlogPost = {
           },
           {
             title: "Прочитайте код в приложении",
-            body: "SMS появится на экране активации за считанные секунды. Скопируйте код и завершите регистрацию. Если код так и не пришёл — отмените активацию бесплатно и возьмите другой номер: вы платите только за доставленные коды.",
+            body: "SMS появится на экране активации обычно за считанные секунды. Скопируйте код и завершите регистрацию. Если код так и не пришёл — отмените активацию бесплатно и возьмите другой номер: вы платите только за доставленные коды.",
           },
         ],
       },
@@ -271,7 +271,7 @@ export const esimVsVirtualNumber: BlogPost = {
           },
           {
             q: "Виртуальный номер — это SIM-карта?",
-            a: "Нет. В ваше устройство ничего не устанавливается — ни пластика, ни профиля eSIM, ни изменений в сотовых настройках. Номер существует в сети провайдера, а принятые им сообщения показываются вам в приложении. Ваш телефон может быть в авиарежиме — код всё равно придёт.",
+            a: "Нет. В ваше устройство ничего не устанавливается — ни пластика, ни профиля eSIM, ни изменений в сотовых настройках. Номер существует в сети провайдера, а принятые им сообщения показываются вам в приложении. Ваша собственная SIM-карта в этом вообще не участвует — номер никак не зависит от вашего оператора. А вот интернет на телефоне нужен: по Wi-Fi или мобильной сети приложение показывает вам пришедший код.",
           },
           {
             q: "Можно ли оставить виртуальный номер себе навсегда?",

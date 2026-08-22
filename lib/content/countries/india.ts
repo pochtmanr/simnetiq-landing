@@ -11,12 +11,12 @@ export const india: CountryEntry = {
   en: {
     metaTitle: "India Virtual Number for SMS Verification — Real +91",
     metaDescription:
-      "Get a real Indian (+91) virtual number and receive SMS verification codes in seconds. Verify WhatsApp, Telegram, Google, Instagram and Uber with an Indian number.",
+      "Get a real Indian (+91) virtual number and receive SMS verification codes usually within seconds. Verify WhatsApp, Telegram, Google, Instagram and Uber with an Indian number.",
     hero: {
       title: "An Indian virtual number for SMS verification",
       intro: [
         "India is the largest WhatsApp market in the world and one of the biggest user bases for nearly every global platform. Many services ship India-specific versions, tariffs and features — and the key that unlocks them at sign-up is a +91 mobile number.",
-        "SMS Code puts a real Indian mobile number in your hands in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Telegram, Google, Instagram or Uber — arrives in the app within seconds.",
+        "SMS Code puts a real Indian mobile number in your hands in one tap. Enter it at the verification step, and the SMS — with a code from WhatsApp, Telegram, Google, Instagram or Uber — arrives in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -37,7 +37,7 @@ export const india: CountryEntry = {
       },
       {
         title: "Popular country, fresh numbers",
-        body: "Indian numbers are in heavy demand, so occasionally one has already met the service you're verifying. If the code doesn't come, cancel the activation free of charge and take another number — it's a ten-second fix.",
+        body: "Indian numbers are in heavy demand, so occasionally one has already met the service you're verifying. If the code doesn't come, cancel the activation free of charge and take another number. Swapping from the activation screen holds the current number for two minutes first — the supplier's rule, not ours — so cancelling and starting fresh is the quicker route.",
       },
     ],
     faqs: [
@@ -66,12 +66,12 @@ export const india: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Индии для приёма SMS — номера +91",
     metaDescription:
-      "Настоящий виртуальный номер Индии (+91) и SMS-коды за секунды. Подтверждайте WhatsApp, Telegram, Google, Instagram и Uber индийским номером.",
+      "Настоящий виртуальный номер Индии (+91) и SMS-коды обычно за секунды. Подтверждайте WhatsApp, Telegram, Google, Instagram и Uber индийским номером.",
     hero: {
       title: "Виртуальный номер Индии для SMS-верификации",
       intro: [
         "Индия — крупнейший рынок WhatsApp в мире и одна из самых больших аудиторий почти у каждой глобальной платформы. Многие сервисы выпускают отдельные индийские версии, тарифы и функции — и ключом к ним на регистрации служит мобильный номер +91.",
-        "SMS Code даёт настоящий индийский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Telegram, Google, Instagram или Uber придёт в приложение за считанные секунды.",
+        "SMS Code даёт настоящий индийский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от WhatsApp, Telegram, Google, Instagram или Uber придёт в приложение обычно за считанные секунды.",
       ],
     },
     whyCountry: {
@@ -92,7 +92,7 @@ export const india: CountryEntry = {
       },
       {
         title: "Популярная страна — берите свежие номера",
-        body: "Индийские номера очень востребованы, поэтому иногда номер уже знаком сервису, который вы подтверждаете. Если код не приходит, отмените активацию бесплатно и возьмите другой номер — это дело десяти секунд.",
+        body: "Индийские номера очень востребованы, поэтому иногда номер уже знаком сервису, который вы подтверждаете. Если код не приходит, отмените активацию бесплатно и возьмите другой номер. Смена номера прямо на экране активации сначала удерживает текущий номер две минуты — это правило провайдера, а не наше, — поэтому отменить и начать заново обычно быстрее.",
       },
     ],
     faqs: [

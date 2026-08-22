@@ -68,7 +68,7 @@ export async function GET() {
             A number for the sign-up. Not for life.
           </div>
           <div style={{ display: "flex", fontSize: 28, color: "#5B6270" }}>
-            Real virtual numbers in 150+ countries · simnetiq.xyz
+            Real virtual numbers in 100+ countries · simnetiq.xyz
           </div>
         </div>
 

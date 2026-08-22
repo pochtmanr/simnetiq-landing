@@ -11,12 +11,12 @@ export const germany: CountryEntry = {
   en: {
     metaTitle: "German Virtual Number for SMS — Real +49 Mobile Numbers",
     metaDescription:
-      "Get a real German (+49) virtual number and receive SMS codes in seconds. Verify Google, Discord, Steam, Signal and PayPal with a privacy-friendly EU number.",
+      "Get a real German (+49) virtual number and receive SMS codes usually within seconds. Verify Google, Discord, Steam, Signal and PayPal with a privacy-friendly EU number.",
     hero: {
       title: "A German virtual number for SMS verification",
       intro: [
         "Germany is Europe's largest market and one of its most privacy-conscious, and a +49 mobile number carries that reputation with it. Services see a number from a country with strict data-protection culture and a mature carrier network — a solid, unremarkable choice in the best sense.",
-        "SMS Code rents you a real German mobile number in one tap. Enter it at the verification step of Google, Discord, Steam or another supported service, and the SMS with your code lands in the app within seconds.",
+        "SMS Code rents you a real German mobile number in one tap. Enter it at the verification step of Google, Discord, Steam or another supported service, and the SMS with your code lands in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -66,12 +66,12 @@ export const germany: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Германии для SMS — номера +49",
     metaDescription:
-      "Настоящий немецкий номер (+49) и SMS-коды за секунды. Подтверждайте Google, Discord, Steam, Signal и PayPal европейским номером с репутацией приватности.",
+      "Настоящий немецкий номер (+49) и SMS-коды обычно за секунды. Подтверждайте Google, Discord, Steam, Signal и PayPal европейским номером с репутацией приватности.",
     hero: {
       title: "Виртуальный номер Германии для SMS-верификации",
       intro: [
         "Германия — крупнейший рынок Европы и один из самых щепетильных в вопросах приватности, и номер +49 несёт эту репутацию с собой. Сервисы видят номер из страны со строгой культурой защиты данных и зрелой операторской сетью — надёжный и «непримечательный» выбор в лучшем смысле слова.",
-        "SMS Code сдаёт вам настоящий немецкий мобильный номер в одно касание. Введите его на шаге подтверждения Google, Discord, Steam или другого поддерживаемого сервиса — и SMS с кодом окажется в приложении за считанные секунды.",
+        "SMS Code сдаёт вам настоящий немецкий мобильный номер в одно касание. Введите его на шаге подтверждения Google, Discord, Steam или другого поддерживаемого сервиса — и SMS с кодом окажется в приложении обычно за считанные секунды.",
       ],
     },
     whyCountry: {

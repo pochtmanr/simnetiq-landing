@@ -22,12 +22,12 @@ export const tiktok: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for TikTok — Sign Up Without a SIM Card",
     metaDescription:
-      "Get a real virtual number for TikTok verification in seconds. Register extra creator accounts, pick the country you want, and keep your personal number off the app.",
+      "Get a real virtual number for TikTok verification usually within seconds. Register extra creator accounts, pick the country you want, and keep your personal number off the app.",
     hero: {
       title: "A virtual number for TikTok",
       intro: [
         "TikTok lets you sign up with a phone number or an email, but the phone route is the one it keeps coming back to: a 4–6 digit SMS code confirms the sign-up, and the same number is later used for login-by-code and account recovery. Whatever number you enter on day one quietly becomes part of the account's identity.",
-        "With SMS Code you rent a real number in one of 150+ countries, enter it on TikTok's sign-up screen, and the verification code lands in the app within seconds. Your personal number stays out of it — useful whether you're protecting your privacy or building out a roster of creator accounts.",
+        "With SMS Code you rent a real number in one of 100+ countries, enter it on TikTok's sign-up screen, and the verification code lands in the app usually within seconds. Your personal number stays out of it — useful whether you're protecting your privacy or building out a roster of creator accounts.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const tiktok: ServiceEntry = {
         },
         {
           title: "Grab the code from SMS Code",
-          body: "TikTok sends a 4–6 digit code — something like “[TikTok] 604812 is your verification code, valid for 5 minutes.” It appears in the SMS Code app within seconds; enter it before it expires and finish creating the account.",
+          body: "TikTok sends a 4–6 digit code — something like “[TikTok] 604812 is your verification code, valid for 5 minutes.” It appears in the SMS Code app usually within seconds; enter it before it expires and finish creating the account.",
         },
         {
           title: "Bind an email straight away",
@@ -87,7 +87,7 @@ export const tiktok: ServiceEntry = {
       },
       {
         q: "Why didn't my TikTok code arrive?",
-        a: "Check the country code first — a mismatch is the usual culprit. TikTok also throttles repeated SMS requests, so rapid resends can silence the code entirely. Wait a couple of minutes, or cancel the pending activation in SMS Code — you're not charged for numbers that received nothing — and take a fresh number.",
+        a: "Check the country code first — a mismatch is the usual culprit. TikTok also throttles repeated SMS requests, so rapid resends can silence the code entirely. Wait a couple of minutes, or cancel the pending activation in SMS Code — the coins for numbers that received nothing come back to your balance — and take a fresh number.",
       },
       {
         q: "Can an agency verify a client's TikTok account this way?",
@@ -98,12 +98,12 @@ export const tiktok: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для TikTok — регистрация без SIM-карты",
     metaDescription:
-      "Настоящий виртуальный номер для подтверждения TikTok за секунды. Заводите дополнительные аккаунты, выбирайте нужную страну и не светите личный номер в приложении.",
+      "Настоящий виртуальный номер для подтверждения TikTok обычно за секунды. Заводите дополнительные аккаунты, выбирайте нужную страну и не светите личный номер в приложении.",
     hero: {
       title: "Виртуальный номер для TikTok",
       intro: [
         "В TikTok можно зарегистрироваться по номеру телефона или по почте, но именно к телефону сервис возвращается снова и снова: SMS-код из 4–6 цифр подтверждает регистрацию, а дальше тот же номер используется для входа по коду и восстановления аккаунта. Какой номер вы ввели в первый день — тот незаметно и становится частью личности аккаунта.",
-        "С SMS Code вы арендуете настоящий номер в одной из 150+ стран, вводите его на экране регистрации TikTok — и код подтверждения появляется в приложении за считанные секунды. Ваш личный номер остаётся в стороне: и когда вы бережёте приватность, и когда выстраиваете целую сетку авторских аккаунтов.",
+        "С SMS Code вы арендуете настоящий номер в одной из 100+ стран, вводите его на экране регистрации TikTok — и код подтверждения появляется в приложении обычно за считанные секунды. Ваш личный номер остаётся в стороне: и когда вы бережёте приватность, и когда выстраиваете целую сетку авторских аккаунтов.",
       ],
     },
     whyVirtual: {
@@ -126,7 +126,7 @@ export const tiktok: ServiceEntry = {
         },
         {
           title: "Заберите код из SMS Code",
-          body: "TikTok пришлёт код из 4–6 цифр — что-то вроде «[TikTok] 604812 is your verification code, valid for 5 minutes.» Он появится в приложении SMS Code за секунды; введите его до истечения срока и завершите создание аккаунта.",
+          body: "TikTok пришлёт код из 4–6 цифр — что-то вроде «[TikTok] 604812 is your verification code, valid for 5 minutes.» Он появится в приложении SMS Code обычно за секунды; введите его до истечения срока и завершите создание аккаунта.",
         },
         {
           title: "Сразу привяжите почту",
@@ -163,7 +163,7 @@ export const tiktok: ServiceEntry = {
       },
       {
         q: "Почему не пришёл код TikTok?",
-        a: "Сначала проверьте код страны — несовпадение и есть обычный виновник. Кроме того, TikTok ограничивает частые запросы SMS: серия быстрых повторов может заглушить код совсем. Подождите пару минут или отмените ожидающую активацию в SMS Code — за номера, на которые ничего не пришло, деньги не списываются, — и возьмите новый номер.",
+        a: "Сначала проверьте код страны — несовпадение и есть обычный виновник. Кроме того, TikTok ограничивает частые запросы SMS: серия быстрых повторов может заглушить код совсем. Подождите пару минут или отмените ожидающую активацию в SMS Code — монеты за номера, на которые ничего не пришло, возвращаются на баланс, — и возьмите новый номер.",
       },
       {
         q: "Может ли агентство подтвердить клиентский аккаунт TikTok таким способом?",

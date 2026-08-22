@@ -11,12 +11,12 @@ export const canada: CountryEntry = {
   en: {
     metaTitle: "Canada Virtual Number for SMS Verification — Real +1",
     metaDescription:
-      "Get a real Canadian (+1) virtual number and receive SMS verification codes in seconds. Verify Google, Discord, Tinder, Snapchat and Apple with a Canadian number.",
+      "Get a real Canadian (+1) virtual number and receive SMS verification codes usually within seconds. Verify Google, Discord, Tinder, Snapchat and Apple with a Canadian number.",
     hero: {
       title: "A Canadian virtual number for SMS verification",
       intro: [
         "Canada shares the +1 country code with the United States, which gives its numbers a quiet superpower: in most sign-up flows they're treated exactly like American ones. You get a number from the North American numbering plan — the format every major service knows by heart — with a Canadian identity behind it.",
-        "SMS Code gives you a real Canadian mobile number in one tap. Enter it at the verification step, and the SMS — with a code from Google, Discord, Tinder, Snapchat or Apple — arrives in the app within seconds.",
+        "SMS Code gives you a real Canadian mobile number in one tap. Enter it at the verification step, and the SMS — with a code from Google, Discord, Tinder, Snapchat or Apple — arrives in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -66,12 +66,12 @@ export const canada: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Канады для приёма SMS — номера +1",
     metaDescription:
-      "Настоящий виртуальный номер Канады (+1) и SMS-коды за секунды. Подтверждайте Google, Discord, Tinder, Snapchat и Apple канадским номером.",
+      "Настоящий виртуальный номер Канады (+1) и SMS-коды обычно за секунды. Подтверждайте Google, Discord, Tinder, Snapchat и Apple канадским номером.",
     hero: {
       title: "Виртуальный номер Канады для SMS-верификации",
       intro: [
         "Канада делит код +1 с США, и это даёт её номерам тихую суперспособность: в большинстве форм регистрации они воспринимаются точно так же, как американские. Вы получаете номер из североамериканского плана нумерации — формата, который каждый крупный сервис знает наизусть, — но с канадской пропиской.",
-        "SMS Code выдаёт настоящий канадский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от Google, Discord, Tinder, Snapchat или Apple придёт в приложение за считанные секунды.",
+        "SMS Code выдаёт настоящий канадский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом от Google, Discord, Tinder, Snapchat или Apple придёт в приложение обычно за считанные секунды.",
       ],
     },
     whyCountry: {

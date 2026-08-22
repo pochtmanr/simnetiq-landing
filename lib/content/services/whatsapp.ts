@@ -22,12 +22,12 @@ export const whatsapp: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for WhatsApp — Verify Without a SIM Card",
     metaDescription:
-      "Verify WhatsApp with a real virtual number from 150+ countries. The 6-digit code lands in the app in seconds — no SIM, no subscription, free cancel if no SMS.",
+      "Verify WhatsApp with a real virtual number from 100+ countries. The 6-digit code lands in the app usually within seconds — no SIM, no subscription, free cancel if no SMS.",
     hero: {
       title: "A virtual number for WhatsApp",
       intro: [
         "In WhatsApp, the phone number isn't just a login — it is the account. Every contact who has your number saved sees your profile, and moving to a different number means walking through the official Change Number flow. Whatever number you register with, you're wearing it in public.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries, enter it on WhatsApp's sign-up screen, and the 6-digit verification code appears in the app within seconds. You pay per activation from a one-time coin pack — and if a number receives nothing, you cancel it without being charged.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries, enter it on WhatsApp's sign-up screen, and the 6-digit verification code appears in the app usually within seconds. You pay per activation from a one-time coin pack — and if a number receives nothing, you cancel it without being charged.",
       ],
     },
     whyVirtual: {
@@ -61,11 +61,11 @@ export const whatsapp: ServiceEntry = {
     tips: [
       {
         title: "WhatsApp is picky about numbers — plan for a retry",
-        body: "WhatsApp screens incoming registrations harder than most services and can refuse to send a code to a number it suspects is temporary. That's normal: cancel the pending activation in SMS Code — you're not charged for numbers that received nothing — and try again, ideally with a different country.",
+        body: "WhatsApp screens incoming registrations harder than most services and can refuse to send a code to a number it suspects is temporary. That's normal: cancel the pending activation in SMS Code — the coins for numbers that received nothing come back to your balance — and try again, ideally with a different country.",
       },
       {
-        title: "Warm the account up",
-        body: "A brand-new account that instantly blasts messages to strangers is exactly the pattern WhatsApp's anti-spam systems flag. Set a name and photo, message a contact who knows you, join a group you were invited to — and let the account age a little before anything high-volume. Slow is safe.",
+        title: "Finish setting the account up",
+        body: "Set a name and photo and message people who know you — that is what a normal new account looks like, and it is all we can honestly recommend. Mass-messaging strangers from a fresh account is what WhatsApp's anti-spam systems exist to stop, and no rented number changes that: a virtual number gets you through the ordinary registration check, it is not a way around a block.",
       },
       {
         title: "Stay signed in and the account stays yours",
@@ -98,12 +98,12 @@ export const whatsapp: ServiceEntry = {
   ru: {
     metaTitle: "Виртуальный номер для WhatsApp — регистрация без SIM-карты",
     metaDescription:
-      "Подтвердите WhatsApp настоящим виртуальным номером из 150+ стран. 6-значный код приходит в приложение за секунды — без SIM и подписки, отмена без списания.",
+      "Подтвердите WhatsApp настоящим виртуальным номером из 100+ стран. 6-значный код приходит в приложение обычно за секунды — без SIM и подписки, отмена с возвратом монет.",
     hero: {
       title: "Виртуальный номер для WhatsApp",
       intro: [
         "В WhatsApp номер телефона — не просто логин, а сам аккаунт. Каждый, у кого ваш номер записан в контактах, видит ваш профиль, а переезд на другой номер — это отдельная официальная процедура «Изменить номер». С каким номером зарегистрировались, с тем и живёте на виду.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его на экране регистрации WhatsApp — и 6-значный код подтверждения появляется в приложении за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а если на номер ничего не пришло — отменяете его без списания.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, вводите его на экране регистрации WhatsApp — и 6-значный код подтверждения появляется в приложении обычно за считанные секунды. Платите за активацию из разового пакета монет, без подписки, а если на номер ничего не пришло — отменяете его с возвратом монет.",
       ],
     },
     whyVirtual: {
@@ -137,11 +137,11 @@ export const whatsapp: ServiceEntry = {
     tips: [
       {
         title: "WhatsApp придирчив к номерам — закладывайте попытку про запас",
-        body: "WhatsApp проверяет новые регистрации строже большинства сервисов и может не отправить код на номер, который сочтёт временным. Это нормально: отмените ожидающую активацию в SMS Code — за номера, на которые ничего не пришло, деньги не списываются, — и попробуйте снова, лучше с другой страной.",
+        body: "WhatsApp проверяет новые регистрации строже большинства сервисов и может не отправить код на номер, который сочтёт временным. Это нормально: отмените ожидающую активацию в SMS Code — монеты за номера, на которые ничего не пришло, возвращаются на баланс, — и попробуйте снова, лучше с другой страной.",
       },
       {
-        title: "Дайте аккаунту «прогреться»",
-        body: "Свежий аккаунт, который сразу рассылает сообщения незнакомцам, — ровно тот сценарий, на который реагируют антиспам-системы WhatsApp. Поставьте имя и фото, напишите знакомому, вступите в группу по приглашению — и дайте аккаунту немного пожить, прежде чем нагружать его. Медленно — значит надёжно.",
+        title: "Доведите настройку аккаунта до конца",
+        body: "Поставьте имя и фото, напишите тем, кто вас знает, — так выглядит обычный новый аккаунт, и ничего другого мы честно посоветовать не можем. Массовые рассылки незнакомцам с нового аккаунта — ровно то, ради чего антиспам-системы WhatsApp и существуют, и арендованный номер тут ничего не меняет: он помогает пройти обычную проверку при регистрации, но не обходит блокировку.",
       },
       {
         title: "Не выходите из аккаунта — и он останется вашим",

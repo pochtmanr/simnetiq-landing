@@ -11,5 +11,9 @@ This version has breaking changes — APIs, conventions, and file structure may 
   - Name: `rpochtman-lang`
   - Email: `269783741+rpochtman-lang@users.noreply.github.com`
   - Do NOT modify local `user.name` or `user.email`.
-- **Git Push:** Push directly to `origin main` which is pre-authenticated with the token.
+- **Git Push:** Push to **`rpochtman-lang main`** — that remote (`rpochtman-lang/simnetiq-landing`)
+  is what Vercel builds. `origin` (`pochtmanr/simnetiq-landing`) deploys nothing: pushing there
+  reports success and leaves production frozen. Requires `gh auth switch --user rpochtman-lang`.
+  See CLAUDE.md for the full explanation — if these two files ever disagree again, CLAUDE.md is
+  the correct one.
 <!-- END:git-auth-rules -->

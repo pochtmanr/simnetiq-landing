@@ -37,7 +37,7 @@ export const telegramWithoutPhoneNumber: BlogPost = {
       {
         type: "list",
         items: [
-          "A virtual number. You rent a real mobile number for the length of the verification, receive the code, and sign up. It’s the fastest and cheapest route for most people: your personal number never touches Telegram’s servers, and the account keeps working after the rental ends as long as you stay logged in.",
+          "A virtual number. You rent a real mobile number for the length of the verification, receive the code, and sign up. For most people it is the quickest and least expensive route: your personal number never touches Telegram’s servers, and the account keeps working after the rental ends as long as you stay logged in.",
           "A landline or fixed number. Telegram can deliver the login code by voice call instead of SMS, so a home or office landline can technically verify an account. The limits are real, though: the call option only appears after an SMS attempt times out, plenty of fixed-line and VoIP ranges are rejected outright, and you must keep long-term access to that line for any future re-verification.",
           "An anonymous +888 number from Fragment. Telegram’s own blockchain marketplace auctions virtual +888 numbers that work only inside Telegram and require no SIM at all. It’s the most private option on paper — but it’s aimed at a different audience: you bid in Toncoin, prices float with the collectible market, and you need a TON wallet before you can even start. For “I just want an account without my number”, it’s overkill.",
         ],
@@ -60,14 +60,14 @@ export const telegramWithoutPhoneNumber: BlogPost = {
         items: [
           {
             title: "Rent a number for Telegram",
-            body: "In the SMS Code app, pick Telegram as the service and choose a country — there are real mobile numbers in 150+ countries. One tap reserves a number just for you. You pay per activation from a one-time coin pack; there’s no subscription, and if no code ever arrives, the activation cancels free.",
+            body: "In the SMS Code app, pick Telegram as the service and choose a country — there are real mobile numbers in 100+ countries. One tap reserves a number just for you. You pay per activation from a one-time coin pack; there’s no subscription, and if no code ever arrives, the activation cancels free.",
           },
           {
             title: "Enter the number in Telegram",
             body: "On Telegram’s sign-up screen, select the country that matches your rented number, then type the number in. A mismatched country code is the single most common reason a code never shows up, so double-check it before tapping Next.",
           },
           {
-            title: "Wait for the code — it lands in seconds",
+            title: "Wait for the code — it usually lands in seconds",
             body: "Switch back to SMS Code. The verification SMS appears right in the app, usually within seconds, looking like “Telegram code: 48329”. Copy the code into Telegram.",
           },
           {
@@ -171,7 +171,7 @@ export const telegramWithoutPhoneNumber: BlogPost = {
       {
         type: "list",
         items: [
-          "Виртуальный номер. Вы арендуете настоящий мобильный номер на время верификации, получаете код и регистрируетесь. Для большинства это самый быстрый и дешёвый путь: личный номер вообще не попадает на серверы Telegram, а аккаунт продолжает работать после окончания аренды — достаточно не выходить из него.",
+          "Виртуальный номер. Вы арендуете настоящий мобильный номер на время верификации, получаете код и регистрируетесь. Для большинства это самый простой и недорогой путь: личный номер вообще не попадает на серверы Telegram, а аккаунт продолжает работать после окончания аренды — достаточно не выходить из него.",
           "Городской (стационарный) номер. Telegram умеет продиктовать код входа голосовым звонком вместо SMS, так что домашний или офисный городской телефон технически может подтвердить аккаунт. Но ограничения серьёзные: вариант со звонком появляется только после того, как истечёт время ожидания SMS, многие городские и VoIP-диапазоны отклоняются сразу, и доступ к этой линии нужно сохранять на случай повторной верификации.",
           "Анонимный номер +888 с Fragment. Собственная блокчейн-площадка Telegram продаёт с аукциона виртуальные номера +888, которые работают только внутри Telegram и вовсе не требуют SIM. На бумаге это самый приватный вариант — но рассчитан он на другую аудиторию: ставки делаются в Toncoin, цены плавают вместе с рынком коллекционных номеров, и без кошелька TON даже не начать. Для задачи «просто аккаунт без моего номера» это стрельба из пушки по воробьям.",
         ],
@@ -194,14 +194,14 @@ export const telegramWithoutPhoneNumber: BlogPost = {
         items: [
           {
             title: "Арендуйте номер для Telegram",
-            body: "В приложении SMS Code выберите сервис Telegram и страну — настоящие мобильные номера есть в 150+ странах. Одно касание — и номер зарезервирован только для вас. Оплата за активацию из разового пакета монет: подписки нет, а если код так и не пришёл, активация отменяется бесплатно.",
+            body: "В приложении SMS Code выберите сервис Telegram и страну — настоящие мобильные номера есть в 100+ странах. Одно касание — и номер зарезервирован только для вас. Оплата за активацию из разового пакета монет: подписки нет, а если код так и не пришёл, активация отменяется бесплатно.",
           },
           {
             title: "Введите номер в Telegram",
             body: "На экране регистрации Telegram выберите страну, совпадающую с арендованным номером, и введите его. Несовпадение кода страны — самая частая причина, почему код не приходит, поэтому проверьте дважды, прежде чем нажать «Далее».",
           },
           {
-            title: "Дождитесь кода — он придёт за секунды",
+            title: "Дождитесь кода — обычно он приходит за секунды",
             body: "Вернитесь в SMS Code. SMS с подтверждением появится прямо в приложении, обычно за считанные секунды, в виде «Telegram code: 48329». Перенесите код в Telegram.",
           },
           {

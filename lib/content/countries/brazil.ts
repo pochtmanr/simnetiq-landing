@@ -11,12 +11,12 @@ export const brazil: CountryEntry = {
   en: {
     metaTitle: "Brazil Virtual Number for SMS Verification — Real +55",
     metaDescription:
-      "Get a real Brazilian (+55) virtual number and receive SMS verification codes in seconds. Verify WhatsApp, Instagram, TikTok, Uber and Facebook with a +55 number.",
+      "Get a real Brazilian (+55) virtual number and receive SMS verification codes usually within seconds. Verify WhatsApp, Instagram, TikTok, Uber and Facebook with a +55 number.",
     hero: {
       title: "A Brazilian virtual number for SMS verification",
       intro: [
         "In Brazil, WhatsApp isn't one messenger among many — it's how the country communicates. Shops take orders on it, doctors confirm appointments on it, and “me chama no zap” is a national phrase. An account meant for the Brazilian market starts with what everything else there starts with: a +55 number.",
-        "SMS Code gives you a real Brazilian mobile number in one tap. Use it at the verification step, and the SMS — with a code from WhatsApp, Instagram, TikTok, Uber or Facebook — appears in the app within seconds.",
+        "SMS Code gives you a real Brazilian mobile number in one tap. Use it at the verification step, and the SMS — with a code from WhatsApp, Instagram, TikTok, Uber or Facebook — appears in the app usually within seconds.",
       ],
     },
     whyCountry: {
@@ -37,7 +37,7 @@ export const brazil: CountryEntry = {
       },
       {
         title: "A stuck code isn't a lost payment",
-        body: "If a service keeps you waiting past the activation window, cancel the activation — you're not charged for an SMS that never came — and try again with a different Brazilian number.",
+        body: "If a service keeps you waiting past the activation window, cancel the activation — the coins come back when the SMS never comes — and try again with a different Brazilian number.",
       },
     ],
     faqs: [
@@ -66,12 +66,12 @@ export const brazil: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Бразилии для приёма SMS — номера +55",
     metaDescription:
-      "Настоящий виртуальный номер Бразилии (+55) и SMS-коды за секунды. Подтверждайте WhatsApp, Instagram, TikTok, Uber и Facebook бразильским номером.",
+      "Настоящий виртуальный номер Бразилии (+55) и SMS-коды обычно за секунды. Подтверждайте WhatsApp, Instagram, TikTok, Uber и Facebook бразильским номером.",
     hero: {
       title: "Виртуальный номер Бразилии для SMS-верификации",
       intro: [
         "В Бразилии WhatsApp — не один из мессенджеров, а способ, которым разговаривает вся страна. Магазины принимают в нём заказы, врачи подтверждают приёмы, а «напиши мне в зап» — общенациональная фраза. Аккаунт для бразильского рынка начинается с того же, с чего там начинается всё, — с номера +55.",
-        "SMS Code выдаёт настоящий бразильский мобильный номер в одно касание. Укажите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, TikTok, Uber или Facebook появится в приложении за секунды.",
+        "SMS Code выдаёт настоящий бразильский мобильный номер в одно касание. Укажите его на шаге подтверждения — и SMS с кодом от WhatsApp, Instagram, TikTok, Uber или Facebook появится в приложении обычно за секунды.",
       ],
     },
     whyCountry: {

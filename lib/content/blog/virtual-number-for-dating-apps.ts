@@ -99,7 +99,7 @@ export const virtualNumberForDatingApps: BlogPost = {
           },
           {
             title: "Enter the code",
-            body: "Switch to SMS Code. The verification SMS appears in the app within seconds, something like “Your Tinder code is 314159”. Copy it into Tinder and the phone step is done.",
+            body: "Switch to SMS Code. The verification SMS appears in the app usually within seconds, something like “Your Tinder code is 314159”. Copy it into Tinder and the phone step is done.",
           },
           {
             title: "Anchor the account to something you keep",
@@ -247,7 +247,7 @@ export const virtualNumberForDatingApps: BlogPost = {
           },
           {
             title: "Введите код",
-            body: "Переключитесь в SMS Code. SMS с подтверждением появится в приложении за считанные секунды — что-то вроде «Your Tinder code is 314159». Перенесите код в Tinder — телефонный шаг пройден.",
+            body: "Переключитесь в SMS Code. SMS с подтверждением появится в приложении обычно за считанные секунды — что-то вроде «Your Tinder code is 314159». Перенесите код в Tinder — телефонный шаг пройден.",
           },
           {
             title: "Привяжите аккаунт к тому, что останется с вами",

@@ -22,12 +22,12 @@ export const discord: ServiceEntry = {
   en: {
     metaTitle: "Virtual Number for Discord — Verify Without Your Real Number",
     metaDescription:
-      "Get a real mobile number for Discord phone verification in seconds. Unlock phone-gated servers and locked accounts without linking your personal number.",
+      "Get a real mobile number for Discord phone verification usually within seconds. Clear the phone check on servers that require one, without linking your personal number.",
     hero: {
       title: "A virtual number for Discord",
       intro: [
         "Discord only asks for an email at sign-up — until the day it doesn't. Try to post in a server with a high verification level, join several servers in quick succession, or connect through a VPN, and Discord's anti-abuse system demands a verified phone number before you can go any further.",
-        "With SMS Code you rent a real mobile number in one of 150+ countries, enter it in Discord, and the six-digit code from sender “Discord” appears in the app within seconds. Your personal number stays out of it — and out of Discord's database.",
+        "With SMS Code you rent a real mobile number in one of 100+ countries, enter it in Discord, and the six-digit code from sender “Discord” appears in the app usually within seconds. Your personal number stays out of it — and out of Discord's database.",
       ],
     },
     whyVirtual: {
@@ -50,7 +50,7 @@ export const discord: ServiceEntry = {
         },
         {
           title: "Grab the six-digit code",
-          body: "The SMS lands in the SMS Code app within seconds, from sender “Discord”: “Your Discord verification code is: 274918”. Enter it and the checkmark appears — the account is verified and any phone gate lifts.",
+          body: "The SMS lands in the SMS Code app usually within seconds, from sender “Discord”: “Your Discord verification code is: 274918”. Enter it and the checkmark appears — the account is verified and any phone gate lifts.",
         },
         {
           title: "Secure the account properly",
@@ -65,7 +65,7 @@ export const discord: ServiceEntry = {
       },
       {
         title: "If Discord rejects the number, don't fight it",
-        body: "Discord filters out numbers it flags as VoIP, and occasionally a legitimate mobile range gets caught too. Cancel the pending activation in SMS Code — nothing is charged for a number that received no code — and take a fresh number, ideally from a different country.",
+        body: "Discord filters out numbers it flags as VoIP, and occasionally a legitimate mobile range gets caught too. Cancel the pending activation in SMS Code — the coins for a number that received no code come back to your balance — and take a fresh number, ideally from a different country.",
       },
       {
         title: "Phone-gated servers check the link, not the history",
@@ -91,7 +91,7 @@ export const discord: ServiceEntry = {
       },
       {
         q: "The code from Discord never arrived — what should I do?",
-        a: "First check that the country code you selected in Discord matches the number — that mismatch causes most silent failures. If it's correct and nothing comes within a few minutes, Discord likely refused that number. Cancel the pending activation in SMS Code — numbers that received nothing are never charged — and request a new one from another country.",
+        a: "First check that the country code you selected in Discord matches the number — that mismatch causes most silent failures. If it's correct and nothing comes within a few minutes, Discord likely refused that number. Cancel the pending activation in SMS Code — the coins come back for numbers that received nothing — and request a new one from another country.",
       },
     ],
   },
@@ -99,19 +99,19 @@ export const discord: ServiceEntry = {
     metaTitle:
       "Виртуальный номер для Discord — верификация без личного номера",
     metaDescription:
-      "Настоящий мобильный номер для подтверждения телефона в Discord за секунды. Откройте серверы с проверкой телефона, не привязывая личный номер.",
+      "Настоящий мобильный номер для подтверждения телефона в Discord обычно за секунды. Пройдите проверку телефона на серверах, где она требуется, не привязывая личный номер.",
     hero: {
       title: "Виртуальный номер для Discord",
       intro: [
         "При регистрации Discord просит только почту — до поры до времени. Стоит попытаться написать на сервере с высоким уровнем проверки, вступить в несколько серверов подряд или зайти через VPN — и антиспам-система Discord требует подтверждённый номер телефона, прежде чем пустить дальше.",
-        "С SMS Code вы арендуете настоящий мобильный номер в одной из 150+ стран, вводите его в Discord — и шестизначный код от отправителя «Discord» появляется в приложении за считанные секунды. Ваш личный номер остаётся в стороне — и не попадает в базу Discord.",
+        "С SMS Code вы арендуете настоящий мобильный номер в одной из 100+ стран, вводите его в Discord — и шестизначный код от отправителя «Discord» появляется в приложении обычно за считанные секунды. Ваш личный номер остаётся в стороне — и не попадает в базу Discord.",
       ],
     },
     whyVirtual: {
       title: "Зачем виртуальный номер для Discord?",
       body: [
         "В Discord один номер телефона может быть подтверждён только на одном аккаунте: привяжете его к новому аккаунту — и он молча отвяжется от старого. Именно из-за этого правила номера для Discord и арендуют. Если у вас есть аккаунт модератора, аккаунт разработчика для тестирования ботов или отдельная личность для сообщества, которым вы помогаете управлять, — каждому аккаунту нужен свой номер. Виртуальный номер даёт каждому из них отдельную линию без ящика, набитого SIM-картами.",
-        "Вторая половина истории — Discord привередлив. Он известен тем, что отклоняет номера, которые считает VoIP, — поэтому бесплатные сайты «временных SMS» так часто проваливаются именно на этом шаге. SMS Code выдаёт настоящие мобильные номера в реальных сетях операторов, и Discord их, как правило, принимает. А если конкретный номер всё же отклонён — честно скажем, такое бывает, — вы отменяете ожидающую активацию без списания и берёте номер другой страны.",
+        "Вторая половина истории — Discord привередлив. Он известен тем, что отклоняет номера, которые считает VoIP, — поэтому бесплатные сайты «временных SMS» так часто проваливаются именно на этом шаге. SMS Code выдаёт настоящие мобильные номера в реальных сетях операторов, и Discord их, как правило, принимает. А если конкретный номер всё же отклонён — честно скажем, такое бывает, — вы отменяете ожидающую активацию с возвратом монет и берёте номер другой страны.",
       ],
     },
     howTo: {
@@ -127,7 +127,7 @@ export const discord: ServiceEntry = {
         },
         {
           title: "Заберите шестизначный код",
-          body: "SMS придёт в приложение SMS Code за секунды, от отправителя «Discord»: «Your Discord verification code is: 274918». Введите код — появится галочка: аккаунт подтверждён, и любая проверка телефона снимается.",
+          body: "SMS придёт в приложение SMS Code обычно за секунды, от отправителя «Discord»: «Your Discord verification code is: 274918». Введите код — появится галочка: аккаунт подтверждён, и любая проверка телефона снимается.",
         },
         {
           title: "Защитите аккаунт как следует",
@@ -142,7 +142,7 @@ export const discord: ServiceEntry = {
       },
       {
         title: "Если Discord отклонил номер — не воюйте с ним",
-        body: "Discord отсекает номера, которые помечает как VoIP, и иногда под раздачу попадает и вполне обычный мобильный диапазон. Отмените ожидающую активацию в SMS Code — за номер, на который не пришёл код, деньги не списываются, — и возьмите свежий номер, лучше из другой страны.",
+        body: "Discord отсекает номера, которые помечает как VoIP, и иногда под раздачу попадает и вполне обычный мобильный диапазон. Отмените ожидающую активацию в SMS Code — монеты за номер, на который не пришёл код, возвращаются на баланс, — и возьмите свежий номер, лучше из другой страны.",
       },
       {
         title: "Серверам с проверкой телефона важна привязка, а не история",
@@ -160,7 +160,7 @@ export const discord: ServiceEntry = {
       },
       {
         q: "Примет ли Discord виртуальный номер? Говорят, он их блокирует.",
-        a: "Discord блокирует номера, которые классифицирует как VoIP, — именно такие раздают большинство бесплатных сайтов «временных SMS». Номера SMS Code — настоящие мобильные номера в сетях операторов, и Discord их, как правило, принимает. Гарантировать прохождение каждого номера не может никто: если номер отклонён, отмените активацию без списания и попробуйте другую страну.",
+        a: "Discord блокирует номера, которые классифицирует как VoIP, — именно такие раздают большинство бесплатных сайтов «временных SMS». Номера SMS Code — настоящие мобильные номера в сетях операторов, и Discord их, как правило, принимает. Гарантировать прохождение каждого номера не может никто: если номер отклонён, отмените активацию с возвратом монет и попробуйте другую страну.",
       },
       {
         q: "Что будет с аккаунтом Discord, когда аренда номера закончится?",
@@ -168,7 +168,7 @@ export const discord: ServiceEntry = {
       },
       {
         q: "Код от Discord так и не пришёл — что делать?",
-        a: "Сначала проверьте, что код страны, выбранный в Discord, совпадает с номером, — это самая частая причина тихих сбоев. Если всё верно, а код не приходит несколько минут, скорее всего, Discord отклонил этот номер. Отмените ожидающую активацию в SMS Code — за номера, на которые ничего не пришло, деньги не списываются, — и запросите новый номер из другой страны.",
+        a: "Сначала проверьте, что код страны, выбранный в Discord, совпадает с номером, — это самая частая причина тихих сбоев. Если всё верно, а код не приходит несколько минут, скорее всего, Discord отклонил этот номер. Отмените ожидающую активацию в SMS Code — монеты за номера, на которые ничего не пришло, возвращаются на баланс, — и запросите новый номер из другой страны.",
       },
     ],
   },

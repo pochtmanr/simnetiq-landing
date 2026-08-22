@@ -11,12 +11,12 @@ export const poland: CountryEntry = {
   en: {
     metaTitle: "Polish Virtual Number for SMS — Real +48 Mobile Numbers",
     metaDescription:
-      "Get a real Polish (+48) virtual number and receive SMS codes in seconds. Verify Telegram, WhatsApp, Steam, AliExpress and Viber with a budget-friendly EU number.",
+      "Get a real Polish (+48) virtual number and receive SMS codes usually within seconds. Verify Telegram, WhatsApp, Steam, AliExpress and Viber with a budget-friendly EU number.",
     hero: {
       title: "A Polish virtual number for SMS verification",
       intro: [
         "A +48 number gives you an EU mobile without the premium attached to Western European codes. Poland's nine-digit numbers are a well-worn sight in messenger sign-ups — Telegram, WhatsApp and Viber all treat them as everyday traffic.",
-        "SMS Code rents you a real Polish mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app within seconds — receive it, copy it, done.",
+        "SMS Code rents you a real Polish mobile number in one tap. Enter it at the verification step, and the SMS with your code shows up in the app usually within seconds — receive it, copy it, done.",
       ],
     },
     whyCountry: {
@@ -66,12 +66,12 @@ export const poland: CountryEntry = {
   ru: {
     metaTitle: "Виртуальный номер Польши для приёма SMS — номера +48",
     metaDescription:
-      "Настоящий польский номер (+48) и SMS-коды за секунды. Подтверждайте Telegram, WhatsApp, Steam, AliExpress и Viber доступным европейским номером.",
+      "Настоящий польский номер (+48) и SMS-коды обычно за секунды. Подтверждайте Telegram, WhatsApp, Steam, AliExpress и Viber доступным европейским номером.",
     hero: {
       title: "Виртуальный номер Польши для SMS-верификации",
       intro: [
         "Номер +48 даёт вам европейский мобильный без наценки, свойственной западноевропейским кодам. Девятизначные польские номера — привычная картина в регистрациях мессенджеров: Telegram, WhatsApp и Viber воспринимают их как повседневный трафик.",
-        "SMS Code сдаёт настоящий польский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении за считанные секунды: получили, скопировали, готово.",
+        "SMS Code сдаёт настоящий польский мобильный номер в одно касание. Введите его на шаге подтверждения — и SMS с кодом появится в приложении обычно за считанные секунды: получили, скопировали, готово.",
       ],
     },
     whyCountry: {
