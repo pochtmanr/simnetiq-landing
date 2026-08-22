@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     template: "%s — SMS Code от SIMNETIQ",
   },
   description:
-    "Получите настоящий виртуальный номер в 150+ странах и принимайте SMS-коды подтверждения за секунды. Регистрируйтесь в Telegram, WhatsApp, Google и 100+ сервисах, не раскрывая личный номер.",
+    "Получите настоящий виртуальный номер в 100+ странах и принимайте SMS-коды подтверждения за секунды. Регистрируйтесь в Telegram, WhatsApp, Google и 100+ сервисах, не раскрывая личный номер.",
   alternates: {
     canonical: "/ru",
     languages: languageAlternates("/"),
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SMS Code от SIMNETIQ",
     description:
-      "Номер для регистрации, а не на всю жизнь. Настоящие виртуальные номера в 150+ странах, коды за секунды.",
+      "Номер для регистрации, а не на всю жизнь. Настоящие виртуальные номера в 100+ странах, коды за секунды.",
     url: "https://simnetiq.xyz/ru",
     siteName: "SMS Code by SIMNETIQ",
     images: [

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <LegalShell label="Legal" title="Privacy Policy" updated="6 July 2026">
+    <LegalShell label="Legal" title="Privacy Policy" updated="22 August 2026">
       <LegalSection title="1. Who we are">
         <p>
           SMS Code (the &ldquo;App&rdquo;) and the website simnetiq.xyz (the
@@ -57,9 +57,13 @@ export default function PrivacyPolicyPage() {
             deliver the code to you and to resolve disputes.
           </li>
           <li>
-            <strong className="font-normal text-ink">Device and usage data.</strong>{" "}
-            Device model, operating system version, app version, language and
-            crash or diagnostic logs.
+            <strong className="font-normal text-ink">Device data.</strong>{" "}
+            Two things, and only if they apply to you. If you allow
+            notifications, the push token your device is issued, so we can tell
+            you a code has arrived. And the two-letter region code your device
+            reports (for example <em>GB</em>), sent with the country list so we
+            can mark one country &ldquo;Recommended&rdquo; — this is a device
+            setting, not your location, and no location permission is involved.
           </li>
           <li>
             <strong className="font-normal text-ink">Support data.</strong>{" "}
@@ -67,9 +71,25 @@ export default function PrivacyPolicyPage() {
             your name, email address and the content of your message. Support
             requests submitted on the Site are stored in our database (hosted
             on Supabase) and processed through our email tooling in order to
-            respond to you.
+            respond to you. We also store your browser&rsquo;s user-agent
+            string and a salted one-way hash of your IP address, to block
+            automated abuse of the form.
+          </li>
+          <li>
+            <strong className="font-normal text-ink">Website analytics.</strong>{" "}
+            The Site uses Vercel Web Analytics, which counts page views without
+            cookies and without profiling you across other websites. The App
+            contains no analytics, advertising or attribution SDK of any kind.
           </li>
         </ul>
+        <p>
+          What we deliberately do not collect: your own phone number, your
+          contacts, your location, advertising identifiers, and any usage,
+          crash or diagnostic telemetry from inside the App. There is no
+          analytics or crash-reporting SDK in the App, so there is nothing of
+          that kind to send. This matches the App Store privacy label for SMS
+          Code.
+        </p>
       </LegalSection>
 
       <LegalSection title="4. How we use your data">
@@ -78,7 +98,7 @@ export default function PrivacyPolicyPage() {
           <li>To maintain your coin balance and restore purchases across devices (performance of a contract).</li>
           <li>To answer support requests (legitimate interests / performance of a contract).</li>
           <li>To detect and prevent fraud, abuse and violations of our Terms of Service (legitimate interests).</li>
-          <li>To fix bugs and improve the App using aggregated diagnostics (legitimate interests).</li>
+          <li>To keep the Site working and understand which pages people find useful, using aggregated, cookie-free website analytics (legitimate interests).</li>
         </ul>
         <p>We do not sell your personal data and we do not use it for third-party advertising.</p>
       </LegalSection>
@@ -86,11 +106,51 @@ export default function PrivacyPolicyPage() {
       <LegalSection title="5. Sharing and processors">
         <p>
           We share data only with service providers who process it on our
-          behalf: cloud hosting and database providers, telephony providers
-          that supply the virtual numbers, Apple for in-app purchases, and
-          email delivery tooling for support correspondence.
-          Each processor is bound by a data processing agreement. We may also
-          disclose data where required by law.
+          behalf. In practice that is:
+        </p>
+        <ul>
+          <li>
+            <strong className="font-normal text-ink">Supabase</strong> — the
+            database and backend behind the App. It holds everything described
+            in section 3 that is stored at all.
+          </li>
+          <li>
+            <strong className="font-normal text-ink">Apple</strong> — processes
+            every in-app purchase, and handles Sign in with Apple if you use
+            it. We never see your payment details.
+          </li>
+          <li>
+            <strong className="font-normal text-ink">RevenueCat</strong> —
+            validates purchase receipts and tells our backend which coin pack
+            you bought. It receives your account identifier, purchase data and
+            basic device information.
+          </li>
+          <li>
+            <strong className="font-normal text-ink">Expo</strong> — delivers
+            push notifications and App updates. It receives your push token and
+            the text of the notification.
+          </li>
+          <li>
+            <strong className="font-normal text-ink">Vercel</strong> — hosts
+            the Site and provides its analytics.
+          </li>
+          <li>
+            <strong className="font-normal text-ink">Our email tooling</strong>{" "}
+            — carries support correspondence.
+          </li>
+          <li>
+            <strong className="font-normal text-ink">
+              Our telephony provider
+            </strong>{" "}
+            — supplies the virtual numbers. It is sent only the service and
+            country you asked for; it receives no identifier of yours at all,
+            so it cannot connect a number to you.
+          </li>
+        </ul>
+        <p>
+          Each processor is bound by a data processing agreement. We do not sell
+          your data and we share nothing with advertisers. We may also disclose
+          data where required by law.
         </p>
       </LegalSection>
 
@@ -103,14 +163,42 @@ export default function PrivacyPolicyPage() {
       </LegalSection>
 
       <LegalSection title="7. Retention">
-        <p>
-          Activation data, including received SMS text, is kept only as long as
-          needed to operate the service and handle disputes, then deleted or
-          anonymised. Account and purchase records are kept while your account
-          is active and for the period required by tax and accounting law.
-          Support correspondence is kept for up to 24 months after the request
-          is closed.
-        </p>
+        <ul>
+          <li>
+            <strong className="font-normal text-ink">
+              Activation data — 90 days.
+            </strong>{" "}
+            The rented number and the text of any SMS received on it are erased
+            90 days after the activation ends. What remains after that is a
+            record with no number and no message text: the service, the
+            country, the date, the outcome and the coins involved. We keep that
+            because it is the accounting record for coins you spent, and the
+            evidence we need if a payment is disputed.
+          </li>
+          <li>
+            <strong className="font-normal text-ink">
+              Account data — until you delete your account.
+            </strong>{" "}
+            Deleting your account removes your account identifier, your email
+            address and your activation history (see section 9).
+          </li>
+          <li>
+            <strong className="font-normal text-ink">
+              Purchase records — as required by law.
+            </strong>{" "}
+            A pseudonymised financial record of each purchase — transaction
+            reference, pack, amount, date, and whether it was later refunded —
+            is retained for the period tax and accounting law requires, and
+            survives account deletion. It contains no phone number, no message
+            text and no email address.
+          </li>
+          <li>
+            <strong className="font-normal text-ink">
+              Support correspondence — up to 24 months
+            </strong>{" "}
+            after the request is closed.
+          </li>
+        </ul>
       </LegalSection>
 
       <LegalSection title="8. Your rights">
@@ -132,8 +220,12 @@ export default function PrivacyPolicyPage() {
         <p>
           You can delete your account directly in the App (Settings &rarr;
           Delete account) or by emailing us. Deletion removes your account
-          identifier, activation history and any stored email address, except
-          for records we must keep by law.
+          identifier, your email address, your coin balance and your activation
+          history, including every rented number and every SMS body still held.
+          It does not require contacting support and it is not reversible. The
+          one thing it does not remove is the pseudonymised purchase record
+          described in section 7, which we are required to keep and which
+          cannot be traced back to you from the App.
         </p>
       </LegalSection>
 

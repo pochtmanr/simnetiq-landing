@@ -11,6 +11,26 @@ export const COMPANY = "SIMNETIQ LTD";
 export const COMPANY_SITE = "simnetiq.store";
 export const COMPANY_URL = "https://simnetiq.store";
 
+/* ---------------------------------------------------------------------------
+ * Registered company details.
+ *
+ * Companies Act 2006 s.82 and the Companies (Trading Disclosures) Regulations
+ * require a UK company's websites to state its registered name, its registered
+ * number, its place of registration and its registered office address. None of
+ * that appears anywhere on this site today.
+ *
+ * >>> OWNER ACTION: replace the two placeholders with the values on the
+ * >>> certificate of incorporation. Until then COMPANY_DETAILS_READY is false
+ * >>> and the footer renders exactly as it does now — no bracketed placeholder
+ * >>> is ever shown to a visitor, but the disclosure is also still missing.
+ * ------------------------------------------------------------------------- */
+export const COMPANY_NUMBER = "[COMPANY NUMBER]";
+export const COMPANY_REGISTERED_IN = "England and Wales";
+export const COMPANY_REGISTERED_OFFICE = "[REGISTERED OFFICE ADDRESS]";
+
+export const COMPANY_DETAILS_READY =
+  !COMPANY_NUMBER.startsWith("[") && !COMPANY_REGISTERED_OFFICE.startsWith("[");
+
 /* Same handle everywhere: @simnetiq. Also fed to Organization.sameAs in
    lib/seo.ts, which is what tells search engines these profiles are us. */
 export const SOCIALS = [

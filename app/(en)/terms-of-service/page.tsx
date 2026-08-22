@@ -1,3 +1,26 @@
+/* =============================================================================
+ * NOT REVIEWED BY A LAWYER.
+ *
+ * Sections 4, 5, 6, 9, 10 and 12 were drafted in August 2026 by a non-lawyer to
+ * close specific, identified gaps:
+ *
+ *   - s.5  right to cancel + express-consent-to-immediate-performance waiver
+ *          (Consumer Contracts (Information, Cancellation and Additional
+ *          Charges) Regulations 2013, regs 28 and 37; EU Consumer Rights
+ *          Directive art. 16(m)). There was no withdrawal clause at all.
+ *   - s.4  the four ways coins come back, and the fact that a service-side
+ *          refund is COINS, never money. The old text described only user
+ *          cancellation, which is one of four paths, and never said what a
+ *          refund consists of — the most likely source of a chargeback fight.
+ *   - s.6  balance forfeiture on termination, previously unqualified.
+ *   - s.9  warranty disclaimer, previously with no saver for statutory rights.
+ *   - s.12 unilateral variation, previously with no notice period and no exit.
+ *
+ * All of it needs review by counsel qualified in England and Wales before it is
+ * relied on. Placeholders elsewhere (registered number, registered office in
+ * lib/site.ts) are also outstanding.
+ * ========================================================================== */
+
 import type { Metadata } from "next";
 import { LegalShell, LegalSection } from "../../../components/Legal";
 import { SUPPORT_EMAIL } from "../../../lib/site";
@@ -15,7 +38,7 @@ export const metadata: Metadata = {
 
 export default function TermsOfServicePage() {
   return (
-    <LegalShell label="Legal" title="Terms of Service" updated="6 July 2026">
+    <LegalShell label="Legal" title="Terms of Service" updated="22 August 2026">
       <LegalSection title="1. Agreement">
         <p>
           These Terms of Service (&ldquo;Terms&rdquo;) are an agreement between
@@ -47,14 +70,84 @@ export default function TermsOfServicePage() {
 
       <LegalSection title="4. Coins and purchases">
         <ul>
-          <li>Coins are one-time in-app purchases processed by the Apple App Store under its payment terms.</li>
-          <li>Coins are spent per activation. The amount depends on the service and country and is shown before you confirm. If an activation is cancelled before a code is received, the coins are returned to your balance.</li>
+          <li>
+            Coins are one-time in-app purchases processed by the Apple App
+            Store under its payment terms. There is no subscription and nothing
+            auto-renews.
+          </li>
+          <li>
+            Coins are spent per activation. The amount depends on the service
+            and the country, is driven mainly by the service, and is shown to
+            you before you confirm.
+          </li>
           <li>Coins do not expire, are not transferable, and have no cash value.</li>
-          <li>Refunds are handled through the store you purchased from, under that store&rsquo;s refund policy.</li>
         </ul>
+        <p>
+          <strong className="font-normal text-ink">
+            When coins come back to you.
+          </strong>{" "}
+          Coins are returned to your balance automatically in four situations:
+        </p>
+        <ul>
+          <li>you cancel an activation before a verification code has been received;</li>
+          <li>you swap to a different number before a code has been received;</li>
+          <li>the activation window ends without a code arriving; or</li>
+          <li>our provider fails to supply a usable number for the activation.</li>
+        </ul>
+        <p>
+          <strong className="font-normal text-ink">
+            A return of coins is not a refund of money.
+          </strong>{" "}
+          In every situation above, what returns to you is the coins, credited
+          back to your in-app balance. We do not return money for them, and
+          coins have no cash value. If you want money back for a purchase, that
+          is a matter for Apple: refunds of the purchase price are requested
+          from and decided by Apple under the App Store refund policy, and we
+          have no ability to issue, approve or refuse one. Section 5 sets out
+          your separate statutory right to cancel.
+        </p>
       </LegalSection>
 
-      <LegalSection title="5. Acceptable use">
+      <LegalSection title="5. Your right to cancel (consumers in the UK and EU)">
+        <p>
+          If you are a consumer in the United Kingdom or the European Union, you
+          normally have 14 days from the day a contract for digital content is
+          concluded in which to cancel it and receive a refund, without giving a
+          reason. This right comes from the Consumer Contracts (Information,
+          Cancellation and Additional Charges) Regulations 2013 in the UK and
+          from the Consumer Rights Directive in the EU.
+        </p>
+        <p>
+          <strong className="font-normal text-ink">
+            The exception that applies here, and what you are agreeing to.
+          </strong>{" "}
+          Coins are digital content that is supplied to your balance
+          immediately, so that you can use them at once. By tapping to complete
+          a purchase you (a) expressly request that we begin supplying the
+          coins immediately, before the 14-day cancellation period has ended,
+          and (b) acknowledge that once they have been credited to your balance
+          you lose the right to cancel that purchase. You are shown this before
+          you confirm, and you do not have to buy coins to install or open the
+          App.
+        </p>
+        <p>
+          <strong className="font-normal text-ink">
+            If you have not used them.
+          </strong>{" "}
+          Where a pack you bought within the last 14 days is wholly unspent, we
+          will support a refund request rather than stand on the waiver — write
+          to us and we will confirm to Apple that the coins are unused and have
+          been removed from your balance. The refund itself is Apple&rsquo;s to
+          make, so the decision is theirs and not ours.
+        </p>
+        <p>
+          Nothing in this section affects your other statutory rights, including
+          your rights if the service is faulty, not as described, or not
+          supplied with reasonable care and skill.
+        </p>
+      </LegalSection>
+
+      <LegalSection title="6. Acceptable use">
         <p>You agree not to use the App to:</p>
         <ul>
           <li>break any law or regulation, or infringe anyone&rsquo;s rights;</li>
@@ -64,12 +157,17 @@ export default function TermsOfServicePage() {
           <li>resell, scrape or programmatically abuse the service.</li>
         </ul>
         <p>
-          We may suspend or terminate accounts that violate this section
-          without refund of remaining coins.
+          We may suspend or terminate an account that violates this section. In
+          serious cases — fraud, or deliberate abuse of the refund or activation
+          mechanics — we may also forfeit coins remaining on the balance, to the
+          extent that doing so is proportionate to the breach. We will not
+          forfeit a balance for a minor or one-off breach, and nothing here
+          removes rights you have as a consumer that cannot be excluded by
+          contract.
         </p>
       </LegalSection>
 
-      <LegalSection title="6. Virtual numbers">
+      <LegalSection title="7. Virtual numbers">
         <p>
           Virtual numbers are temporary and may be reissued to other users
           after your activation ends. They are intended for receiving one-time
@@ -78,7 +176,7 @@ export default function TermsOfServicePage() {
         </p>
       </LegalSection>
 
-      <LegalSection title="7. Intellectual property">
+      <LegalSection title="8. Intellectual property">
         <p>
           The App, the Site and all related branding are owned by SIMNETIQ LTD
           or its licensors. We grant you a personal, non-exclusive,
@@ -88,7 +186,7 @@ export default function TermsOfServicePage() {
         </p>
       </LegalSection>
 
-      <LegalSection title="8. Disclaimers">
+      <LegalSection title="9. Disclaimers">
         <p>
           The App is provided &ldquo;as is&rdquo; and &ldquo;as
           available&rdquo;. To the fullest extent permitted by law we disclaim
@@ -98,9 +196,17 @@ export default function TermsOfServicePage() {
           given platform, or that the service will be uninterrupted or
           error-free.
         </p>
+        <p>
+          This section does not exclude or limit anything that cannot lawfully
+          be excluded or limited. If you are a consumer, your statutory rights
+          are unaffected — including your right under the Consumer Rights Act
+          2015 (or its equivalent where you live) to a digital service supplied
+          with reasonable care and skill, of satisfactory quality, and as
+          described.
+        </p>
       </LegalSection>
 
-      <LegalSection title="9. Limitation of liability">
+      <LegalSection title="10. Limitation of liability">
         <p>
           Nothing in these Terms limits liability that cannot be limited by
           law, including for death, personal injury caused by negligence, or
@@ -111,7 +217,7 @@ export default function TermsOfServicePage() {
         </p>
       </LegalSection>
 
-      <LegalSection title="10. Termination">
+      <LegalSection title="11. Termination">
         <p>
           You can stop using the App and delete your account at any time. We
           may suspend or terminate access immediately if you breach these
@@ -121,16 +227,22 @@ export default function TermsOfServicePage() {
         </p>
       </LegalSection>
 
-      <LegalSection title="11. Changes to these Terms">
+      <LegalSection title="12. Changes to these Terms">
         <p>
-          We may update these Terms from time to time. Material changes will be
-          announced in the App or on the Site before they take effect.
-          Continuing to use the App after changes take effect means you accept
-          the updated Terms.
+          We may update these Terms from time to time — for example when the
+          law changes, when a provider we depend on changes, or when the App
+          gains or loses a feature. Changes that materially affect your rights
+          will be announced in the App or on the Site at least 30 days before
+          they take effect. If you do not accept them, you may stop using the
+          App and close your account before that date; write to us about any
+          unspent coins and we will deal with your request in good faith.
+          Continuing to use the App after the changes take effect means you
+          accept the updated Terms. Changes never apply retrospectively to a
+          purchase you have already made.
         </p>
       </LegalSection>
 
-      <LegalSection title="12. Governing law">
+      <LegalSection title="13. Governing law">
         <p>
           These Terms are governed by the laws of England and Wales, and the
           courts of England and Wales have exclusive jurisdiction — except that
@@ -139,7 +251,7 @@ export default function TermsOfServicePage() {
         </p>
       </LegalSection>
 
-      <LegalSection title="13. Contact">
+      <LegalSection title="14. Contact">
         <p>
           Questions about these Terms:{" "}
           <a href={`mailto:${SUPPORT_EMAIL}`} className="blue-link">

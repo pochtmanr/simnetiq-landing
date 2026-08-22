@@ -4,6 +4,10 @@ import { FOOTER } from "../lib/content/common";
 import { ALL_SERVICES } from "../lib/content/services";
 import {
   APP_STORE_URL,
+  COMPANY_DETAILS_READY,
+  COMPANY_NUMBER,
+  COMPANY_REGISTERED_IN,
+  COMPANY_REGISTERED_OFFICE,
   COMPANY_SITE,
   COMPANY_URL,
   SOCIALS,
@@ -142,9 +146,20 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
 
         {/* Bottom bar — the footer's only rule, so the columns above stay open */}
         <div className="mt-[42px] flex flex-wrap items-center justify-between gap-[16px] border-t border-canvas/12 pt-[24px]">
-          <p className="text-caption text-canvas/45">
-            © {new Date().getFullYear()} SIMNETIQ LTD · {t.rights}
-          </p>
+          <div className="flex flex-col gap-[4px]">
+            <p className="text-caption text-canvas/45">
+              © {new Date().getFullYear()} SIMNETIQ LTD · {t.rights}
+            </p>
+            {/* Companies Act 2006 s.82 trading disclosure. Hidden until the
+                real values are filled in — see lib/site.ts. */}
+            {COMPANY_DETAILS_READY && (
+              <p className="text-caption text-canvas/45">
+                {t.registered} {COMPANY_REGISTERED_IN}, {t.companyNo}{" "}
+                {COMPANY_NUMBER} · {t.registeredOffice}:{" "}
+                {COMPANY_REGISTERED_OFFICE}
+              </p>
+            )}
+          </div>
           <nav
             aria-label={t.followLabel}
             className="flex items-center gap-[18px]"
