@@ -12,7 +12,10 @@
       "name": "Webhook",
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
-      "position": [0, 0],
+      "position": [
+        0,
+        0
+      ],
       "webhookId": "simnetiq-support"
     },
     {
@@ -43,7 +46,10 @@
       "name": "Check secret",
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
-      "position": [220, 0]
+      "position": [
+        220,
+        0
+      ]
     },
     {
       "parameters": {
@@ -60,30 +66,10 @@
       "name": "Email team",
       "type": "n8n-nodes-base.emailSend",
       "typeVersion": 2.1,
-      "position": [440, -100],
-      "credentials": {
-        "smtp": {
-          "id": null,
-          "name": "SELECT YOUR EXISTING SMTP CREDENTIAL"
-        }
-      }
-    },
-    {
-      "parameters": {
-        "fromEmail": "SMS Code Support <support@simnetiq.store>",
-        "toEmail": "={{ $('Webhook').item.json.body.email }}",
-        "subject": "={{ $('Webhook').item.json.body.locale === 'ru' ? 'Мы получили ваше сообщение — поддержка SMS Code' : 'We got your message — SMS Code support' }}",
-        "emailFormat": "text",
-        "text": "={{ $('Webhook').item.json.body.locale === 'ru' ? 'Здравствуйте, ' + $('Webhook').item.json.body.name + '!\\n\\nСпасибо за обращение в поддержку SMS Code. Ваше сообщение в очереди, и живой человек ответит вам — обычно в течение одного рабочего дня.\\n\\nЧто вы нам отправили:\\n\\nТема: ' + $('Webhook').item.json.body.topic + '\\n\\n' + $('Webhook').item.json.body.message + '\\n\\nЕсли хотите что-то добавить (скриншоты, чек из магазина, сервис и страну активации), просто ответьте на это письмо.\\n\\n— SMS Code от SIMNETIQ\\nsupport@simnetiq.store · https://simnetiq.xyz/ru' : 'Hi ' + $('Webhook').item.json.body.name + ',\\n\\nThanks for contacting SMS Code support. Your message is in our queue and a real person will reply, usually within one business day.\\n\\nWhat you sent us:\\n\\nTopic: ' + $('Webhook').item.json.body.topic + '\\n\\n' + $('Webhook').item.json.body.message + '\\n\\nIf you want to add anything (screenshots, your store receipt, the service and country of the activation), just reply to this email.\\n\\n— SMS Code by SIMNETIQ\\nsupport@simnetiq.store · https://simnetiq.xyz' }}",
-        "options": {
-          "replyTo": "support@simnetiq.store"
-        }
-      },
-      "id": "a1000000-0000-4000-8000-000000000004",
-      "name": "Auto-reply to user",
-      "type": "n8n-nodes-base.emailSend",
-      "typeVersion": 2.1,
-      "position": [660, -100],
+      "position": [
+        440,
+        -100
+      ],
       "credentials": {
         "smtp": {
           "id": null,
@@ -101,7 +87,10 @@
       "name": "Respond 200",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.1,
-      "position": [880, -100]
+      "position": [
+        660,
+        -100
+      ]
     },
     {
       "parameters": {
@@ -115,7 +104,10 @@
       "name": "Respond 403",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.1,
-      "position": [440, 120]
+      "position": [
+        440,
+        120
+      ]
     }
   ],
   "connections": {
@@ -149,17 +141,6 @@
       ]
     },
     "Email team": {
-      "main": [
-        [
-          {
-            "node": "Auto-reply to user",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Auto-reply to user": {
       "main": [
         [
           {
