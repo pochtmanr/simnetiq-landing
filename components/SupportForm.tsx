@@ -1,10 +1,17 @@
 "use client";
 
+import Script from "next/script";
 import { useState } from "react";
 import { SUPPORT_FORM } from "../lib/content/support";
 import type { Locale } from "../lib/i18n";
 
 type Status = "idle" | "sending" | "sent" | "error";
+
+/* Turnstile is opt-in. Unset (the default) and nothing about this form changes:
+   no third-party script, no widget, and the API route skips verification. Set
+   it together with TURNSTILE_SECRET_KEY on the server — one without the other
+   is the configuration that breaks submissions. */
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
 export function SupportForm({ locale = "en" }: { locale?: Locale }) {
   const [status, setStatus] = useState<Status>("idle");
@@ -22,7 +29,12 @@ export function SupportForm({ locale = "en" }: { locale?: Locale }) {
       const res = await fetch("/api/support", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, locale }),
+        body: JSON.stringify({
+          ...data,
+          locale,
+          // Turnstile injects this hidden field into the enclosing form.
+          turnstileToken: data["cf-turnstile-response"] ?? null,
+        }),
       });
       if (!res.ok) {
         const body = await res.json().catch(() => null);
@@ -117,6 +129,20 @@ export function SupportForm({ locale = "en" }: { locale?: Locale }) {
           <input name="website" tabIndex={-1} autoComplete="off" />
         </label>
       </div>
+
+      {TURNSTILE_SITE_KEY && (
+        <>
+          <Script
+            src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+            strategy="lazyOnload"
+          />
+          <div
+            className="cf-turnstile"
+            data-sitekey={TURNSTILE_SITE_KEY}
+            data-theme="light"
+          />
+        </>
+      )}
 
       {status === "error" && error && (
         <p className="text-label text-accent-deep" role="alert">
