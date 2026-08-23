@@ -382,7 +382,7 @@ git -c user.name='rpochtman-lang' -c user.email='269783741+rpochtman-lang@users.
 **Repo:** `landing`
 
 **Files:**
-- Create: `middleware.ts`
+- Create: `proxy.ts` (Next 16 renamed the `middleware` convention; `middleware.ts` still works but is deprecated)
 - Modify: `.env.example` (add `ADMIN_ENTRY_SECRET`)
 
 **Why a knock at all.** The original rule — "404 unless a session cookie is
@@ -404,14 +404,18 @@ describe it as authentication.
 Match `/admin/:path*`. Logic, in order:
 
 1. If `?k=` is present and equals `process.env.ADMIN_ENTRY_SECRET`, compared
-   with a **timing-safe** comparison: set cookie `admin_entry`, value = the
+   with a **timing-safe** comparison (compare SHA-256 digests via Web Crypto with
+   an XOR accumulator — `node:crypto`'s `timingSafeEqual` is not a safe assumption
+   in this runtime, and digest comparison leaks nothing about length either): set cookie `admin_entry`, value = the
    secret, `httpOnly`, `secure`, `sameSite: 'lax'`, `path: '/admin'`,
    `maxAge: 60*60*24*180`; then **redirect to the same path without the query
    string**, so the secret does not linger in the address bar, in history, or
    in a `Referer` header.
 2. Else if the `admin_entry` cookie matches the secret → `NextResponse.next()`.
-3. Else if a Supabase session cookie is present (a cookie whose name starts
-   `sb-` and ends `-auth-token`) → `NextResponse.next()`. This keeps a
+3. Else if a Supabase session cookie is present. Match `startsWith("sb-")` **and**
+   `includes("-auth-token")` — NOT `endsWith`: `@supabase/ssr` chunks a large
+   session into `sb-<ref>-auth-token.0` / `.1`, and `endsWith` would miss those
+   and 404 a signed-in operator → `NextResponse.next()`. This keeps a
    signed-in operator working if the knock cookie is cleared.
 4. Else → render the site's real 404 body with status 404.
 
@@ -420,8 +424,18 @@ must never mean "open to everyone".
 
 - [ ] **Step 2: The 404 must be indistinguishable**
 
-Rewrite to the app's own not-found so the body matches a genuinely missing
-page byte for byte. Verify by diff, not by eye.
+Rewrite to a synthetic path that matches no route (e.g. `/_404`), so Next
+renders `app/global-not-found.tsx`. Verify by diff, not by eye.
+
+**Do NOT rewrite to Next's own `/_not-found`.** It is a real prerendered route
+and answers `Cache-Control: s-maxage=31536000`, which both differs visibly from
+a genuine 404 and invites the CDN to pin that 404 onto `/admin` for a year with
+no `Vary: Cookie` — locking out the very operator the knock exists for.
+
+Note dev mode cannot be byte-identical and that is intrinsic to Next, not to
+this code: dev HTML embeds the requested path in the RSC payload and a
+per-request nonce. Two genuine 404s differ from each other too. Judge this on a
+production build.
 
 - [ ] **Step 3: Add to `.env.example`**
 
@@ -531,6 +545,39 @@ curl -s -o /dev/null -w '%{http_code}\n' 'localhost:3000/admin?k=wrong'         
 - [ ] **Step 3:** Verify: `npm run build`; `grep -r "admin" .next/server/app/sitemap.xml.body 2>/dev/null || echo clean`.
 - [ ] **Step 4:** Full build must stay green and page count must not drop below 153.
 - [ ] **Step 5:** Commit (author as rpochtman-lang).
+
+---
+
+### Task 11: Close the header leak (after the first deploy)
+
+**Repo:** `landing` · **Files:** possibly `vercel.json`
+
+A `NextResponse.rewrite()` always emits an `x-middleware-rewrite` response
+header, and Next offers no way to suppress it. A genuine 404 carries no such
+header, so **the body is byte-identical but the full response is not** — a
+scanner comparing headers can still tell `/admin` from a path that was never
+written. The rewrite target was made deliberately dull (`/_404`) so it reads
+as "this 404'd" rather than "something is hidden here", but the header's mere
+presence is the tell.
+
+Whether Vercel's proxy strips it before the client is **unverified** — it could
+not be confirmed from the Next source or Vercel's docs, and guessing was the
+wrong call.
+
+- [ ] **Step 1: Measure it on production, once deployed**
+
+```bash
+curl -sI https://simnetiq.xyz/admin        | grep -i x-middleware-rewrite
+curl -sI https://simnetiq.xyz/nope-not-real | grep -i x-middleware-rewrite
+```
+
+- [ ] **Step 2: If and only if the header reaches the client, strip it**
+
+Add a `vercel.json` response-header transform removing `x-middleware-rewrite`
+on `/admin/:path*`. Do not add speculative config before Step 1 says it is
+needed.
+
+- [ ] **Step 3: Re-run Step 1 and confirm both responses are indistinguishable.**
 
 ---
 
