@@ -17,6 +17,18 @@
 - **Every failure that could reveal the route's existence renders the 404.** Never "forbidden", never "not an admin".
 - The only admin email is `rpochtman@simnetiq.store`.
 - Supabase project ref: `zkuwqvtwlomktysuymyw`.
+- **Never write the literal string `SERVICE_ROLE` anywhere under `lib/` or `app/`,
+  even inside a warning comment** — Task 3's own grep gate treats any occurrence as
+  a failure. Refer to it in prose as "the service-role key".
+- `lib/admin/client.ts`, `guard.ts` and `rpc.ts` are `"use client"` modules. Any
+  component that fetches admin data must therefore be a client component.
+- There are **ten** panel-callable `admin_*` RPCs; `admin_assert` and `admin_log`
+  are internal and are not called from the browser.
+- `rpc.supportSetStatus()` resolves to a bare `number` (the audit id), not a row.
+- `@supabase/ssr`'s `createBrowserClient` is required, not a preference: it stores
+  the session in a **cookie**, which Task 4's middleware can see. Plain
+  `supabase-js` uses `localStorage`, invisible to middleware, which would 404 a
+  signed-in operator out of their own panel.
 - Two repos: UI in `/Users/roman/Developer/smsapp/landing`, SQL in `/Users/roman/Developer/smsapp/sms-expo`.
 - **No test runner exists in either repo and none is being added** (spec decision). The mechanical gates are `npx tsc --noEmit`, `npm run build`, and a runnable SQL gate script. Every task states its own manual verification.
 - Landing commits that must deploy have to be authored `rpochtman-lang <269783741+rpochtman-lang@users.noreply.github.com>` — Vercel blocks other authors. Use `git -c user.name=... -c user.email=... commit`.
@@ -365,41 +377,73 @@ git -c user.name='rpochtman-lang' -c user.email='269783741+rpochtman-lang@users.
 
 ---
 
-### Task 4: Route concealment
+### Task 4: Route concealment + the entry knock
 
 **Repo:** `landing`
 
 **Files:**
 - Create: `middleware.ts`
+- Modify: `.env.example` (add `ADMIN_ENTRY_SECRET`)
+
+**Why a knock at all.** The original rule — "404 unless a session cookie is
+present" — is unsatisfiable: the sign-in form lives at `/admin`, and you have
+no session until you have signed in, so it would 404 the one page you need.
+The knock resolves that without weakening anything: `ADMIN_ENTRY_SECRET`
+gates **visibility**, never access. Access is still password + TOTP +
+`is_admin()` in Postgres. Treat the secret as a curtain, not a lock, and never
+describe it as authentication.
 
 **Interfaces:**
-- Consumes: nothing from Task 3 (cookie inspection only — importing the client
-  into middleware would pull the SDK into the edge bundle).
-- Produces: the guarantee Tasks 5–9 depend on, that `/admin*` is a 404 without a session.
+- Consumes: nothing from Task 3. Cookie/query inspection only — importing the
+  Supabase SDK into middleware would pull it into the edge bundle.
+- Produces: the guarantee Tasks 5–9 rely on, that `/admin*` is a 404 for anyone
+  without either the knock cookie or a Supabase session cookie.
 
 - [ ] **Step 1: Write the middleware**
 
-Match `/admin/:path*`. If no cookie whose name starts with `sb-` and ends with
-`-auth-token` is present, `return NextResponse.rewrite(new URL('/404-nonexistent', req.url), { status: 404 })`
-— or `NextResponse.next()` with a 404 status via a rewrite to the app's
-`global-not-found`. Whichever renders the site's real 404 body.
+Match `/admin/:path*`. Logic, in order:
 
-**It must be byte-identical to a genuinely missing route.** Compare against
-`curl -s https://simnetiq.xyz/definitely-not-a-page`.
+1. If `?k=` is present and equals `process.env.ADMIN_ENTRY_SECRET`, compared
+   with a **timing-safe** comparison: set cookie `admin_entry`, value = the
+   secret, `httpOnly`, `secure`, `sameSite: 'lax'`, `path: '/admin'`,
+   `maxAge: 60*60*24*180`; then **redirect to the same path without the query
+   string**, so the secret does not linger in the address bar, in history, or
+   in a `Referer` header.
+2. Else if the `admin_entry` cookie matches the secret → `NextResponse.next()`.
+3. Else if a Supabase session cookie is present (a cookie whose name starts
+   `sb-` and ends `-auth-token`) → `NextResponse.next()`. This keeps a
+   signed-in operator working if the knock cookie is cleared.
+4. Else → render the site's real 404 body with status 404.
 
-- [ ] **Step 2: Verify locally**
+If `ADMIN_ENTRY_SECRET` is unset, **fail closed**: always 404. An unset secret
+must never mean "open to everyone".
+
+- [ ] **Step 2: The 404 must be indistinguishable**
+
+Rewrite to the app's own not-found so the body matches a genuinely missing
+page byte for byte. Verify by diff, not by eye.
+
+- [ ] **Step 3: Add to `.env.example`**
+
+```
+# Gates VISIBILITY of /admin, not access. Access is password + TOTP + is_admin().
+# Generate with: openssl rand -hex 24
+ADMIN_ENTRY_SECRET=REPLACE-WITH-RANDOM-SECRET
+```
+
+- [ ] **Step 4: Verify locally**
 
 ```bash
 npm run dev
-curl -s -o /dev/null -w '%{http_code}\n' localhost:3000/admin          # 404
-curl -s -o /dev/null -w '%{http_code}\n' localhost:3000/nope-not-real  # 404
-diff <(curl -s localhost:3000/admin) <(curl -s localhost:3000/nope-not-real)
+curl -s -o /dev/null -w '%{http_code}\n' 'localhost:3000/admin'                 # 404
+curl -s -o /dev/null -w '%{http_code}\n' 'localhost:3000/nope-not-real'         # 404
+diff <(curl -s localhost:3000/admin) <(curl -s localhost:3000/nope-not-real)     # silent
+curl -s -o /dev/null -w '%{http_code} %{redirect_url}\n' 'localhost:3000/admin?k=<secret>'  # 307 -> /admin
+curl -s -o /dev/null -w '%{http_code}\n' -b 'admin_entry=<secret>' localhost:3000/admin     # 200
+curl -s -o /dev/null -w '%{http_code}\n' 'localhost:3000/admin?k=wrong'         # 404
 ```
-Expected: both 404, `diff` silent.
 
-- [ ] **Step 3: Commit** (author as rpochtman-lang)
-
----
+- [ ] **Step 5: Commit** (author as rpochtman-lang)
 
 ### Task 5: Shell + auth screens
 
