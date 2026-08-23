@@ -634,10 +634,15 @@ export function AuthGate({ children }: { children: ReactNode }) {
     return <Challenge onVerified={refresh} onSignOut={signOut} />;
   }
 
+  // The boundary sits OUTSIDE Chrome deliberately. Nested the other way, a
+  // denial rendered the 404 body underneath the "Operations" header and nav —
+  // a 404 with an admin console around it, which announces the route far more
+  // loudly than a plain error would have. Outside, the boundary replaces the
+  // whole shell, so denied looks exactly like a page that was never written.
   return (
-    <Chrome onSignOut={signOut}>
-      <DeniedBoundary>{children}</DeniedBoundary>
-    </Chrome>
+    <DeniedBoundary>
+      <Chrome onSignOut={signOut}>{children}</Chrome>
+    </DeniedBoundary>
   );
 }
 

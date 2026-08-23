@@ -306,6 +306,9 @@ function AuditTable({ rows }: { rows: AdminAuditRow[] }) {
                 When
               </th>
               <th scope="col" className="py-[7px] pr-[14px] text-left font-medium">
+                Who
+              </th>
+              <th scope="col" className="py-[7px] pr-[14px] text-left font-medium">
                 Action
               </th>
               <th scope="col" className="py-[7px] pr-[14px] text-left font-medium">
@@ -319,7 +322,7 @@ function AuditTable({ rows }: { rows: AdminAuditRow[] }) {
           <tbody>
             {ordered.length === 0 ? (
               <tr>
-                <td colSpan={4} className="py-[14px] text-body text-ink-muted">
+                <td colSpan={5} className="py-[14px] text-body text-ink-muted">
                   No audit rows.
                 </td>
               </tr>
@@ -328,6 +331,13 @@ function AuditTable({ rows }: { rows: AdminAuditRow[] }) {
                 <tr key={entry.id} className="border-b border-border align-top">
                   <td className="whitespace-nowrap py-[7px] pr-[14px] tabular-nums text-ink-muted">
                     {formatWhen(entry.created_at)}
+                  </td>
+                  {/* An audit trail without "who" is a list of things that
+                      happened to nobody. actor_label is never null — it names
+                      the direct database session too, which is exactly the
+                      case a uid cannot describe. */}
+                  <td className="whitespace-nowrap py-[7px] pr-[14px] text-ink-muted">
+                    {entry.actor_label}
                   </td>
                   <td className="py-[7px] pr-[14px] font-medium">
                     {entry.action}
