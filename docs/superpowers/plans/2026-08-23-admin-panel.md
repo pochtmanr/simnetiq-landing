@@ -536,19 +536,19 @@ curl -s -o /dev/null -w '%{http_code}\n' 'localhost:3000/admin?k=wrong'         
 
 ---
 
-### Task 10: Keep it out of every index
+### Task 10: Keep it out of every index — VERIFIED, NO CHANGE NEEDED
 
 **Repo:** `landing` · **Files:** Modify `app/sitemap.ts`, `app/robots.ts`, `public/llms.txt`
 
-- [ ] **Step 1:** Confirm `sitemap.ts` derives from the content registries and so cannot emit `/admin`. If it can, exclude it explicitly.
-- [ ] **Step 2:** Do **not** add `Disallow: /admin` to `robots.ts` — that publishes the path. Rely on the 404 and `noindex`.
-- [ ] **Step 3:** Verify: `npm run build`; `grep -r "admin" .next/server/app/sitemap.xml.body 2>/dev/null || echo clean`.
-- [ ] **Step 4:** Full build must stay green and page count must not drop below 153.
-- [ ] **Step 5:** Commit (author as rpochtman-lang).
+- [x] **Step 1:** Confirmed. `sitemap.ts` is an explicit `STATIC_PATHS` list plus the four content registries; `/admin` is in neither, so it cannot be emitted.
+- [x] **Step 2:** `robots.ts` disallows only `/api/` and stays silent about `/admin`, as intended — naming it there would publish it.
+- [x] **Step 3:** Built and grepped: no `admin` in the sitemap body, none in `robots.txt`.
+- [x] **Step 4:** 156 pages (153 + the three static admin routes), build green.
+- [x] **Step 5:** No code change was required, so there was nothing to commit.
 
 ---
 
-### Task 11: Close the header leak (after the first deploy)
+### Task 11: Close the header leak — MEASURED, NO CHANGE NEEDED
 
 **Repo:** `landing` · **Files:** possibly `vercel.json`
 
@@ -560,24 +560,34 @@ written. The rewrite target was made deliberately dull (`/_404`) so it reads
 as "this 404'd" rather than "something is hidden here", but the header's mere
 presence is the tell.
 
-Whether Vercel's proxy strips it before the client is **unverified** — it could
-not be confirmed from the Next source or Vercel's docs, and guessing was the
-wrong call.
+**Measured on production 2026-08-23 and the answer is: Vercel strips it.** No
+`vercel.json` was added, because none was needed — and the whole point of
+measuring first was to avoid shipping config against a guess.
 
-- [ ] **Step 1: Measure it on production, once deployed**
+```
+/admin          404  etag "984fe2314a80446846f9a40c92fa1641"  x-matched-path: /404
+/nope-not-real  404  etag "984fe2314a80446846f9a40c92fa1641"  x-matched-path: /404
+```
+
+Bodies byte-identical, headers identical once `date`/`x-vercel-id`/`age` are
+excluded. `x-middleware-rewrite` does not reach the client. Re-check this if
+Next or Vercel's edge behaviour changes; it is their implementation detail,
+not a guarantee we control.
+
+- [x] **Step 1: Measure it on production, once deployed** — done, see above.
 
 ```bash
 curl -sI https://simnetiq.xyz/admin        | grep -i x-middleware-rewrite
 curl -sI https://simnetiq.xyz/nope-not-real | grep -i x-middleware-rewrite
 ```
 
-- [ ] **Step 2: If and only if the header reaches the client, strip it**
+- [x] **Step 2: Not needed.** The header does not reach the client.
 
 Add a `vercel.json` response-header transform removing `x-middleware-rewrite`
 on `/admin/:path*`. Do not add speculative config before Step 1 says it is
 needed.
 
-- [ ] **Step 3: Re-run Step 1 and confirm both responses are indistinguishable.**
+- [x] **Step 3: Confirmed indistinguishable.**
 
 ---
 
