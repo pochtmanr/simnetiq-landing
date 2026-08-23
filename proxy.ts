@@ -82,7 +82,7 @@ function notFound(request: NextRequest): NextResponse {
   return NextResponse.rewrite(url);
 }
 
-export async function middleware(request: NextRequest): Promise<NextResponse> {
+export async function proxy(request: NextRequest): Promise<NextResponse> {
   const secret = process.env.ADMIN_ENTRY_SECRET;
 
   // Fail closed. An unset secret means "nobody can see this", never "everybody
