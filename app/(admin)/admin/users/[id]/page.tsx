@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { use, useCallback, useEffect, useState, type ReactNode } from "react";
 import { AuthGate, NotFoundBody } from "../../AuthGate";
+import { Actions } from "./Actions";
 import {
   formatCoins,
   formatUsd,
@@ -483,28 +484,22 @@ function UserDetail({ userId }: { userId: string }) {
       </div>
 
       {/* -------------------------------------------------------------------
-        * Task 8's mount point. Drop the component in here, between the
-        * overview and the ledger, and change nothing else:
-        *
-        *   import { Actions } from "./Actions";
-        *
-        *   {overview ? (
-        *     <Actions
-        *       userId={userId}
-        *       activations={activations}
-        *       onChanged={reload}
-        *     />
-        *   ) : null}
+        * Grant coins and reveal SMS, between the overview and the ledger.
         *
         * `activations` is already loaded and already in scope, so the reveal
-        * picker needs no second fetch of its own. `onChanged` is this page's
-        * reloader, which is how a grant shows up in the balance and in the
-        * ledger without a page reload.
+        * picker needs no fetch of its own. `onChanged` is this page's own
+        * reloader, which is how a grant shows up in the balance above and in
+        * the ledger below without a page reload.
         *
-        * The revealed row must not be held here. Keep it inside Actions,
-        * render it once, and let unmounting discard it — this component
-        * survives navigation between tabs and would keep it alive.
+        * The revealed row is NOT held here, and must never be: this component
+        * survives navigation between users inside the panel and would keep a
+        * full phone number and a message body alive past the reveal that was
+        * logged for them. Actions.tsx keeps it in its own state and lets
+        * unmounting discard it.
         * ---------------------------------------------------------------- */}
+      {overview ? (
+        <Actions userId={userId} activations={activations} onChanged={reload} />
+      ) : null}
 
       {overview === null ? null : (
         <>
