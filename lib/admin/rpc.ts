@@ -206,6 +206,84 @@ export type SupportRow = {
 };
 
 /* ---------------------------------------------------------------------------
+ * Delivery monitoring
+ * ------------------------------------------------------------------------ */
+
+export type OpsDigest = {
+  from: string;
+  to: string;
+  purchases: number;
+  /** Activations that got a number — excludes provider_failed/claim_failed. */
+  issued: number;
+  delivered: number;
+  expired: number;
+  provider_failed: number;
+  claim_failed: number;
+  cancelled: number;
+  in_flight: number;
+  /** delivered / issued, 0–100. Null when nothing was issued. */
+  success_pct: number | null;
+  median_sms_seconds: number | null;
+  coins_spent: number;
+  revenue_usd: number | null;
+  iap_count: number;
+  store_refunds: number;
+  top_failing: {
+    service: string;
+    country_dial: number | null;
+    failures: number;
+    reason: string | null;
+  }[];
+  balance_usd: number | null;
+  balance_at: string | null;
+  balance_burn_24h: number | null;
+};
+
+export type DeliveryStatsRow = {
+  bucket: string;
+  purchases: number;
+  issued: number;
+  delivered: number;
+  expired: number;
+  provider_failed: number;
+  other_failed: number;
+  success_pct: number | null;
+};
+
+export type DeliveryComboRow = {
+  service: string;
+  country_dial: number | null;
+  attempts: number;
+  issued: number;
+  delivered: number;
+  success_pct: number | null;
+  median_sms_seconds: number | null;
+  top_fail_reason: string | null;
+};
+
+export type ProviderBalanceRow = {
+  checked_at: string;
+  balance_usd: number;
+  frozen_usd: number | null;
+};
+
+export type OpsEventRow = {
+  id: number;
+  created_at: string;
+  kind: string;
+  severity: "info" | "warn" | "crit";
+  close_reason: string | null;
+  service: string | null;
+  country_dial: number | null;
+  /** Already masked in SQL. */
+  phone_masked: string | null;
+  seconds: number | null;
+  sent_at: string | null;
+  send_error: string | null;
+  detail: Record<string, unknown> | null;
+};
+
+/* ---------------------------------------------------------------------------
  * Plumbing
  * ------------------------------------------------------------------------ */
 
@@ -359,5 +437,36 @@ export const rpc = {
       p_id: id,
       p_status: status,
     });
+  },
+
+  /* -- Delivery monitoring (sms-expo 20260839000000_ops_monitoring.sql) -- */
+
+  /** `admin_ops_digest(p_hours int = 24) -> jsonb`. The same numbers the
+   *  Telegram digests post, so the two never disagree about one window. */
+  opsDigest(hours?: number): Promise<OpsDigest> {
+    return callScalar<OpsDigest>("admin_ops_digest", { p_hours: hours });
+  },
+
+  /** `admin_delivery_stats(p_hours int = 168)` — one row per hour, oldest
+   *  first, empty hours included. */
+  deliveryStats(hours?: number): Promise<DeliveryStatsRow[]> {
+    return callRows<DeliveryStatsRow>("admin_delivery_stats", { p_hours: hours });
+  },
+
+  /** `admin_delivery_by_combo(p_hours int = 168)` — worst first. */
+  deliveryByCombo(hours?: number): Promise<DeliveryComboRow[]> {
+    return callRows<DeliveryComboRow>("admin_delivery_by_combo", { p_hours: hours });
+  },
+
+  /** `admin_provider_balance(p_hours int = 168)` — OnlineSim balance checks,
+   *  oldest first, roughly every 15 minutes. */
+  providerBalance(hours?: number): Promise<ProviderBalanceRow[]> {
+    return callRows<ProviderBalanceRow>("admin_provider_balance", { p_hours: hours });
+  },
+
+  /** `admin_recent_failures(p_limit int = 50)` — the ops event feed, newest
+   *  first. Phones masked in SQL. */
+  recentFailures(limit?: number): Promise<OpsEventRow[]> {
+    return callRows<OpsEventRow>("admin_recent_failures", { p_limit: limit });
   },
 };

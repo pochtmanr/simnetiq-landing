@@ -536,6 +536,9 @@ function Chrome({
             <Link href="/admin/support" className="ghost-link">
               Support
             </Link>
+            <Link href="/admin/delivery" className="ghost-link">
+              Delivery
+            </Link>
           </nav>
           <button
             type="button"
