@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import AuthGate, { NotFoundBody } from "../AuthGate";
+import AuthGate, { DeniedBody } from "../AuthGate";
 import { formatWhen } from "../../../../lib/admin/format";
 import {
   isAdminDenied,
@@ -277,10 +277,8 @@ function Inbox() {
     }
   }
 
-  /* Denial is the 404 and nothing else — no heading, no filter bar, no
-     explanation. Anything else on the page would confirm the route exists,
-     which is the one fact concealment is protecting. */
-  if (denied) return <NotFoundBody />;
+  /* Denial replaces the whole screen — see AuthGate's DeniedBody. */
+  if (denied) return <DeniedBody />;
 
   return (
     <section>

@@ -18,24 +18,15 @@ import "../globals.css";
  *                          what this route wants
  *   <Analytics/>           an operator's clicks are not product telemetry, and
  *                          admin URLs must not land in an analytics dashboard
- *   Cormorant              matching app/global-not-found.tsx, which also loads
- *                          Inter alone. AuthGate renders that 404 body when it
- *                          has nothing to show, and a font this layout loaded
- *                          but the real 404 did not would make the two render
- *                          differently.
+ *   Cormorant              the panel is a tool; Inter alone is enough.
  *
- * There is no chrome here either — no header, no nav, no "Admin" wordmark.
- * Anything painted at this level would frame the 404 body that AuthGate shows
- * to a visitor who has not signed in, and a 404 wrapped in an admin header is
- * not a 404. The panel's header lives inside AuthGate's `ready` branch, where
- * only a verified operator ever sees it.
- *
- * Inter carries `cyrillic` because the shared 404 copy is half Russian.
+ * There is no chrome here either — no header, no nav. The panel's header lives
+ * inside AuthGate's `ready` branch, where only a verified operator sees it.
  * ------------------------------------------------------------------------ */
 
 const inter = Inter({
   variable: "--font-inter",
-  subsets: ["latin", "cyrillic"],
+  subsets: ["latin"],
   display: "swap",
 });
 
@@ -45,14 +36,11 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  /* Neutral on purpose. Naming the tool in the tab title would announce the
-     route to anyone glancing at a screen, and to any history sync. */
+  /* Neutral on purpose: tab titles end up in history sync and screenshots. */
   title: "SMS Code by SIMNETIQ",
-  /* Belt and braces. middleware.ts already answers 404 to anyone without the
-     entry cookie or a session, so a crawler should never reach this markup —
-     but if one ever does, it must not index or follow. Task 10 keeps the route
-     out of the sitemap; robots.txt deliberately stays silent, because a
-     Disallow rule would publish the very path it is trying to hide. */
+  /* The route is reachable by anyone (it shows a sign-in form), so this is
+     what keeps it out of search results. It is also absent from the
+     sitemap. */
   robots: { index: false, follow: false },
 };
 

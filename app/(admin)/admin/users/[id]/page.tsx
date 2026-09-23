@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { use, useCallback, useEffect, useState, type ReactNode } from "react";
-import { AuthGate, NotFoundBody } from "../../AuthGate";
+import { AuthGate, DeniedBody } from "../../AuthGate";
 import { Actions } from "./Actions";
 import {
   formatCoins,
@@ -442,7 +442,7 @@ function UserDetail({ userId }: { userId: string }) {
       } catch (err) {
         if (cancelled) return;
         /* 42501 is the only thing the database will ever say about not being
-           an admin, and the only correct answer is the 404 — see AuthGate. */
+           an admin — render the denied screen, see AuthGate. */
         if (isAdminDenied(err)) {
           setDenied(true);
           return;
@@ -457,7 +457,7 @@ function UserDetail({ userId }: { userId: string }) {
     };
   }, [userId, valid, nonce]);
 
-  if (denied) return <NotFoundBody />;
+  if (denied) return <DeniedBody />;
 
   if (!valid) {
     return (

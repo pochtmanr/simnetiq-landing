@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState, type ReactNode } from "react";
-import AuthGate, { NotFoundBody } from "./AuthGate";
+import AuthGate, { DeniedBody } from "./AuthGate";
 import {
   isAdminDenied,
   rpc,
@@ -25,11 +25,9 @@ import { formatCoins, formatUsd, formatWhen } from "../../../lib/admin/format";
  *
  * Three failure modes, and they must stay distinct:
  *
- *   AdminDenied   -> the 404 body, alone, with nothing else on the page and
- *                    no explanation. Concealment of the route is worth more
- *                    than an operator's convenience here, and a stranger who
- *                    reached `ready` with some other Supabase account gets
- *                    exactly what an anonymous visitor gets.
+ *   AdminDenied   -> <DeniedBody> alone, with nothing else on the page. A
+ *                    stranger who reached `ready` with some other Supabase
+ *                    account sees no data and a way to sign out.
  *   any other      -> an inline error with a retry. Never a blank screen and
  *   failure          never a silent swallow: resolveAdminState already turns
  *                    any auth error into `anon`, so a network blip can bounce
@@ -423,7 +421,7 @@ function Overview() {
     };
   }, [attempt]);
 
-  if (status.phase === "denied") return <NotFoundBody />;
+  if (status.phase === "denied") return <DeniedBody />;
 
   if (status.phase === "loading") {
     return (

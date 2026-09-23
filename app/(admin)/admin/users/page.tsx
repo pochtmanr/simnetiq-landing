@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useState, type FormEvent } from "react";
-import { AuthGate, NotFoundBody } from "../AuthGate";
+import { AuthGate, DeniedBody } from "../AuthGate";
 import { formatCoins, formatWhen } from "../../../../lib/admin/format";
 import { isAdminDenied, rpc, type UserSearchRow } from "../../../../lib/admin/rpc";
 
@@ -132,7 +132,7 @@ function UserSearch() {
       setRows(await rpc.userSearch(q, LIMIT));
     } catch (err) {
       /* 42501 is the only thing the database will ever say about not being an
-         admin, and the only correct response is the 404 — see AuthGate. */
+         admin — render the denied screen, see AuthGate. */
       if (isAdminDenied(err)) {
         setDenied(true);
         return;
@@ -150,7 +150,7 @@ function UserSearch() {
     void run(query);
   }
 
-  if (denied) return <NotFoundBody />;
+  if (denied) return <DeniedBody />;
 
   return (
     <div>

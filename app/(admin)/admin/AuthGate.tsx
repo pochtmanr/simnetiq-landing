@@ -21,57 +21,55 @@ import {
  * The gate every admin screen sits behind.
  *
  * <AuthGate> renders its children only for an `aal2` session. Everything else
- * it handles itself: the sign-in form, TOTP enrolment, the six-digit
- * challenge, and — for anyone it cannot place — the site's ordinary 404.
+ * it handles itself: the sign-in form, TOTP enrolment and the six-digit
+ * challenge. It signs the operator in on the URL they opened, so a link from
+ * the ops bot to /admin/users/<id> lands on that user after the code.
  *
  * It is a *router between screens*, not a permission check. Nothing here
  * decides who is an admin. `is_admin()` in Postgres does, on every single RPC,
  * and it demands allowlist membership as well as `aal2`. A stranger who signs
  * in with some other Supabase account can walk all the way through enrolment
  * to `ready` and will then be told 42501 by the first call the page makes —
- * which surfaces as `AdminDenied` and renders as the same 404 an anonymous
- * visitor gets. See lib/admin/guard.ts for why duplicating the check here
- * would be worse than useless.
+ * which surfaces as `AdminDenied` and renders <DeniedBody>. See
+ * lib/admin/guard.ts for why duplicating the check here would be worse than
+ * useless.
  *
- * Two concealment rules run through the whole file:
- *
- *   1. No screen below says "admin", "operator" or "panel" before the session
- *      is `aal2`. What a stranger can reach must not describe itself.
- *   2. No failure is ever explained. Sign-in has exactly one error string for
- *      every cause, and `AdminDenied` renders the 404 with no message at all.
- *      An explanation confirms the route exists, and that is the one thing
- *      worth hiding.
+ * The route used to hide behind a 404 (proxy.ts plus an entry cookie). That
+ * was dropped on 2026-09-23: Telegram's in-app browser never had the cookie,
+ * so every link from the ops bot opened a 404. Sign-in still gives one error
+ * string for every cause, so the form confirms nothing about accounts.
  * ------------------------------------------------------------------------ */
 
 /* ---------------------------------------------------------------------------
- * The 404 body
+ * The denied body
  * ------------------------------------------------------------------------ */
 
 /**
- * A copy of app/global-not-found.tsx's body, to the character.
- *
- * It is copied rather than imported because that file is a full document —
- * its own <html>, its own font — and this route group already has one of
- * those. If the wording there ever changes, change it here too: the whole
- * value of this component is that the two are indistinguishable.
- *
- * Exported so that Tasks 6–9 can render the identical body on `AdminDenied`
- * instead of each inventing their own.
+ * What a signed-in account that is not on the allowlist sees. Rendered by the
+ * boundary below and by every screen that catches `AdminDenied` itself.
  */
-export function NotFoundBody() {
+export function DeniedBody() {
+  async function signOut() {
+    try {
+      await getAdminClient().auth.signOut();
+    } catch {
+      /* The local session is cleared either way. */
+    }
+    window.location.reload();
+  }
+
   return (
     <div className="flex flex-1 flex-col items-center justify-center px-6 py-16 text-center">
-      <span className="tag-chip">404</span>
-      <h1 className="mt-[22px] text-heading">This page doesn’t exist</h1>
+      <h1 className="text-subheading">This account has no access</h1>
       <p className="mt-[10px] max-w-md text-body text-ink-muted">
-        Такой страницы нет. Everything about SMS Code lives on the home page.
+        Sign out and sign in with an operator account.
       </p>
-      <div className="mt-[30px] flex items-center gap-[10px]">
-        <Link href="/" className="cta">
-          Back to home
-        </Link>
-        <Link href="/ru" className="cta">
-          На главную
+      <div className="mt-[24px] flex items-center gap-[10px]">
+        <button type="button" onClick={signOut} className="cta">
+          Sign out
+        </button>
+        <Link href="/" className="ghost-link text-label">
+          Home
         </Link>
       </div>
     </div>
@@ -83,13 +81,13 @@ export function NotFoundBody() {
  * ------------------------------------------------------------------------ */
 
 /**
- * Renders the 404 body if a child throws `AdminDenied` while rendering, and
+ * Renders <DeniedBody> if a child throws `AdminDenied` while rendering, and
  * re-throws anything else so that a genuine bug still reaches Next's own error
- * handling instead of being disguised as a missing page.
+ * handling instead of being disguised as a denial.
  *
  * Screens catch their own `AdminDenied` around each RPC call — an awaited
  * rejection in an event handler never reaches a boundary. This exists for the
- * render-phase case, so that "denied means 404" holds even when a screen
+ * render-phase case, so that denial renders the same way even when a screen
  * forgets.
  */
 class DeniedBoundary extends Component<
@@ -104,7 +102,7 @@ class DeniedBoundary extends Component<
 
   render(): ReactNode {
     if (this.state.error !== null) {
-      if (isAdminDenied(this.state.error)) return <NotFoundBody />;
+      if (isAdminDenied(this.state.error)) return <DeniedBody />;
       /* Not ours. Hand it to the boundary above; React does not re-enter this
          one, so this is a hand-off, not a loop. */
       throw this.state.error;
@@ -507,12 +505,8 @@ function Challenge({
  * ------------------------------------------------------------------------ */
 
 /**
- * The header, and the only place in the app that admits what this is.
- *
- * It lives here rather than in layout.tsx on purpose: the layout wraps the 404
- * body too, and a 404 served under an "Operations" bar tells a visitor exactly
- * what they found. Rendering the chrome inside the `ready` branch means only a
- * session that already cleared password + TOTP ever sees it.
+ * The header. It lives here rather than in layout.tsx so that only a session
+ * that already cleared password + TOTP ever sees the nav.
  */
 function Chrome({
   children,
@@ -564,8 +558,8 @@ function Chrome({
  *
  *  resolveAdminState swallows its own auth errors, so a throw here means the
  *  client itself could not be built — a missing NEXT_PUBLIC_ variable on this
- *  deployment. That falls to `anon` deliberately: a misconfigured build must
- *  fail shut and look like a missing page rather than print a diagnostic. */
+ *  deployment. That falls to `anon` deliberately: a misconfigured build fails
+ *  shut, at the sign-in form. */
 async function currentState(): Promise<AdminState> {
   try {
     return await resolveAdminState(getAdminClient());
@@ -576,7 +570,8 @@ async function currentState(): Promise<AdminState> {
 
 export function AuthGate({ children }: { children: ReactNode }) {
   /* null while the first resolve is in flight. Rendering nothing until then
-     avoids a 404 flashing in front of an operator who is signed in. */
+     avoids the sign-in form flashing in front of an operator who is signed
+     in. */
   const [state, setState] = useState<AdminState | null>(null);
 
   const refresh = useCallback(async () => {
@@ -607,25 +602,14 @@ export function AuthGate({ children }: { children: ReactNode }) {
   if (state === null) return <div className="flex-1" aria-hidden />;
 
   if (state === "anon") {
-    /* The 404 body first, whole and unaltered, because that is what this URL
-       is to everyone but one person. The sign-in form sits below it, past the
-       fold, in no way announcing itself.
-   
-       Note this is not the concealment layer — middleware.ts is, and it has
-       already answered 404 to anyone without the entry cookie. What this
-       arrangement buys is that the page still says nothing about what it is
-       even to someone holding that cookie, while leaving the operator a way
-       in. A pure 404 here would have no way in at all: the sign-in form is at
-       /admin, and you have no session until you have used it. */
     return (
-      <>
-        <NotFoundBody />
-        <section className="border-t border-border px-6 py-[42px]">
-          <div className="mx-auto w-full max-w-[360px]">
-            <SignIn onSignedIn={refresh} />
-          </div>
-        </section>
-      </>
+      <Screen>
+        <h1 className="font-sans text-subheading">Sign in</h1>
+        <p className="mt-[8px] mb-[18px] text-body text-ink-muted">
+          SMS Code operations. Password, then your authenticator code.
+        </p>
+        <SignIn onSignedIn={refresh} />
+      </Screen>
     );
   }
 
@@ -637,11 +621,8 @@ export function AuthGate({ children }: { children: ReactNode }) {
     return <Challenge onVerified={refresh} onSignOut={signOut} />;
   }
 
-  // The boundary sits OUTSIDE Chrome deliberately. Nested the other way, a
-  // denial rendered the 404 body underneath the "Operations" header and nav —
-  // a 404 with an admin console around it, which announces the route far more
-  // loudly than a plain error would have. Outside, the boundary replaces the
-  // whole shell, so denied looks exactly like a page that was never written.
+  // The boundary sits OUTSIDE Chrome so a denied account never sees the nav
+  // of a panel it cannot use.
   return (
     <DeniedBoundary>
       <Chrome onSignOut={signOut}>{children}</Chrome>

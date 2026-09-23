@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useMemo, useState, type ReactNode } from "react";
-import { NotFoundBody } from "../../AuthGate";
+import { DeniedBody } from "../../AuthGate";
 import { formatCoins, formatWhen } from "../../../../../lib/admin/format";
 import {
   isAdminDenied,
@@ -230,7 +230,7 @@ function GrantCoins({
       onChanged();
     } catch (err) {
       /* 42501 is the only thing the database will say about not being an
-         admin, and the only correct answer is the 404 — see AuthGate. */
+         admin — render the denied screen, see AuthGate. */
       if (isAdminDenied(err)) {
         onDenied();
         return;
@@ -569,12 +569,11 @@ export function Actions({
   const [denied, setDenied] = useState(false);
   const onDenied = useCallback(() => setDenied(true), []);
 
-  /* The 404 body, alone, with nothing beside it and no explanation. A session
-     that was `aal2` when the page loaded and is refused now has stopped being
-     an admin mid-visit; saying so out loud would confirm the route exists to
-     whoever is holding it. AuthGate's DeniedBoundary does the same thing at
-     shell level for a denial thrown during render. */
-  if (denied) return <NotFoundBody />;
+  /* The denied screen, alone. A session that was `aal2` when the page loaded
+     and is refused now has stopped being an admin mid-visit. AuthGate's
+     DeniedBoundary does the same thing at shell level for a denial thrown
+     during render. */
+  if (denied) return <DeniedBody />;
 
   return (
     <section className="mt-[26px]">

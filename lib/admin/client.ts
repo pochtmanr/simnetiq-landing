@@ -42,10 +42,7 @@ import type { SupabaseClient } from "@supabase/supabase-js";
  * ------------------------------------------------------------------------ */
 
 /* createBrowserClient (from @supabase/ssr, not supabase-js's createClient)
-   because it persists the session in a cookie rather than localStorage. That
-   is a requirement, not a preference: middleware.ts conceals /admin by looking
-   for an `sb-*-auth-token` cookie, and a localStorage session is invisible to
-   it — every admin page would 404 for a signed-in operator. */
+   persists the session in a cookie rather than localStorage. */
 let client: SupabaseClient | null = null;
 
 /** The panel's single browser client. Anon key only; see the note above. */

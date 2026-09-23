@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState, type ReactNode } from "react";
-import AuthGate, { NotFoundBody } from "../AuthGate";
+import AuthGate, { DeniedBody } from "../AuthGate";
 import {
   isAdminDenied,
   rpc,
@@ -22,7 +22,7 @@ import LineChart from "./LineChart";
  * post — so this page and the ops group never disagree about a window.
  *
  * Same three failure modes as the overview (see ../page.tsx): denial renders
- * the 404 body alone, any other failure is an inline error with a retry, and
+ * the denied screen alone, any other failure is an inline error with a retry, and
  * an empty result is said out loud.
  *
  * Refreshes every 60s while the tab is visible. A background refresh that
@@ -329,7 +329,7 @@ function Delivery() {
     };
   }, []);
 
-  if (status.phase === "denied") return <NotFoundBody />;
+  if (status.phase === "denied") return <DeniedBody />;
 
   if (status.phase === "loading") {
     return (

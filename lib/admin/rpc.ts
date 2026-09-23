@@ -26,10 +26,7 @@ import { getAdminClient } from "./client";
  *
  * This is the *only* signal the panel gets that the caller is not an admin,
  * and it is deliberately indistinguishable from every other reason a call
- * could be refused. Callers must render the site's ordinary 404 body on it —
- * never "forbidden", never "you are not an admin". A message that explains
- * confirms the route exists, and concealment of the route is the one thing
- * that message would destroy.
+ * could be refused. Callers render AuthGate's <DeniedBody> on it.
  *
  * It is a distinct class rather than a flag on Error so that `catch` blocks
  * can tell it apart from a network blip, which gets an inline retry instead.

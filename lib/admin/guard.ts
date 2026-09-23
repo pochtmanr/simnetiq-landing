@@ -19,7 +19,7 @@ export type AdminState = "anon" | "needsEnrol" | "needsChallenge" | "ready";
 /**
  * Map the browser's current session onto the screen to render.
  *
- * - `anon`           → no session at all. The caller renders the 404 body.
+ * - `anon`           → no session at all. The caller renders the sign-in form.
  * - `needsEnrol`     → signed in, no verified TOTP factor yet.
  * - `needsChallenge` → signed in with a factor, but the session is still aal1.
  * - `ready`          → aal2. Render the panel.
@@ -28,7 +28,7 @@ export type AdminState = "anon" | "needsEnrol" | "needsChallenge" | "ready";
  * every RPC, which is the only place a check cannot be skipped by editing the
  * client. A signed-in stranger who somehow enrols a factor reaches `'ready'`
  * and then gets 42501 — an `AdminDenied` — from the very first call, which the
- * UI renders as the same 404 an anonymous visitor sees. Duplicating the check
+ * UI renders as the denied screen. Duplicating the check
  * here would buy nothing and would tempt someone into trusting it.
  */
 export async function resolveAdminState(
