@@ -3,10 +3,11 @@
 import { getAdminClient } from "./client";
 
 /* ---------------------------------------------------------------------------
- * Typed wrappers over the twelve `admin_*` RPCs.
+ * Typed wrappers over the `admin_*` RPCs.
  *
  * These add nothing. Every one of them is a `security definer` function in the
- * sms-expo repo (`supabase/migrations/20260834000000_admin.sql`), gated by
+ * sms-expo repo (`supabase/migrations/20260834000000_admin.sql`,
+ * `20260839000000_ops_monitoring.sql`, `20260843000000_admin_p1.sql`), gated by
  * `is_admin()`, granted to `authenticated` and revoked from `anon`. The panel
  * is a client for them, not an authority of its own — see lib/admin/client.ts
  * for why that distinction is the entire security model.
@@ -200,6 +201,93 @@ export type SupportRow = {
   message: string;
   locale: string;
   status: string;
+  reply_count: number;
+  last_reply_at: string | null;
+  /** Still `new` after 24 hours. */
+  stale: boolean;
+  /** The one account with this email, if exactly one exists. */
+  user_id: string | null;
+};
+
+export type SupportReplyRow = {
+  id: string;
+  created_at: string;
+  admin_email: string | null;
+  body: string;
+  sent_at: string | null;
+  send_error: string | null;
+};
+
+/* ---------------------------------------------------------------------------
+ * Purchases, sign-ups, jobs, orphans (20260843000000_admin_p1.sql)
+ * ------------------------------------------------------------------------ */
+
+export type PurchaseEvent = "purchase" | "refund" | "refund_reversed";
+
+export type PurchaseRow = {
+  id: number;
+  created_at: string;
+  event: PurchaseEvent;
+  user_id: string;
+  email_masked: string | null;
+  product_id: string | null;
+  /** Signed: a refund is negative (coins clawed back). */
+  coins: number;
+  usd: number | null;
+  /** Refunded coins that were already spent and could not be clawed back. */
+  shortfall: number;
+  sandbox: boolean;
+  first: boolean;
+};
+
+export type PurchaseSummary = {
+  hours: number;
+  purchases: number;
+  first_purchases: number;
+  refunds: number;
+  refunds_reversed: number;
+  refund_shortfall_coins: number;
+  net_usd: number;
+  gross_coins: number;
+  sandbox: number;
+  top_products: { product_id: string; purchases: number; coins: number; usd: number }[];
+};
+
+export type SignupRow = {
+  user_id: string;
+  email_masked: string | null;
+  provider: string;
+  registered_at: string;
+  created_at: string;
+  purchased: boolean;
+  balance_coins: number;
+};
+
+export type UsersSummary = {
+  hours: number;
+  anon_installs: number;
+  signups: number;
+  first_purchases: number;
+};
+
+export type JobRow = {
+  job_name: string;
+  last_run_at: string | null;
+  last_ok_at: string | null;
+  last_error: string | null;
+  runs: number;
+  failures: number;
+  expected_every_s: number | null;
+  stale_alerted_at: string | null;
+};
+
+export type OrphanRow = {
+  tzid: string;
+  first_seen_at: string;
+  attempts: number;
+  last_error: string | null;
+  service: string | null;
+  country: string | null;
 };
 
 /* ---------------------------------------------------------------------------
@@ -234,6 +322,11 @@ export type OpsDigest = {
   balance_usd: number | null;
   balance_at: string | null;
   balance_burn_24h: number | null;
+  /* Added in 20260844000000_ops_bot_p1.sql; absent before it is applied. */
+  anon_installs?: number;
+  signups?: number;
+  first_purchases?: number;
+  sandbox_purchases?: number;
 };
 
 export type DeliveryStatsRow = {
@@ -434,6 +527,45 @@ export const rpc = {
       p_id: id,
       p_status: status,
     });
+  },
+
+  /** `admin_support_thread(p_id uuid)` — replies sent on a ticket, oldest first. */
+  supportThread(id: string): Promise<SupportReplyRow[]> {
+    return callRows<SupportReplyRow>("admin_support_thread", { p_id: id });
+  },
+
+  /* -- Purchases, sign-ups, jobs, orphans (20260843000000_admin_p1.sql) -- */
+
+  /** `admin_purchases(p_hours int = 168, p_limit int = 200)` — purchases,
+   *  store refunds and reversed refunds, newest first. Emails masked in SQL. */
+  purchases(hours?: number, limit?: number): Promise<PurchaseRow[]> {
+    return callRows<PurchaseRow>("admin_purchases", { p_hours: hours, p_limit: limit });
+  },
+
+  /** `admin_purchase_summary(p_hours int = 168) -> jsonb`. The same figures
+   *  the bot's /revenue posts. Sandbox purchases are counted, never summed. */
+  purchaseSummary(hours?: number): Promise<PurchaseSummary> {
+    return callScalar<PurchaseSummary>("admin_purchase_summary", { p_hours: hours });
+  },
+
+  /** `admin_recent_signups(p_hours int = 168, p_limit int = 100)`. */
+  recentSignups(hours?: number, limit?: number): Promise<SignupRow[]> {
+    return callRows<SignupRow>("admin_recent_signups", { p_hours: hours, p_limit: limit });
+  },
+
+  /** `admin_users_summary(p_hours int = 168) -> jsonb`. */
+  usersSummary(hours?: number): Promise<UsersSummary> {
+    return callScalar<UsersSummary>("admin_users_summary", { p_hours: hours });
+  },
+
+  /** `admin_jobs()` — every cron/edge job heartbeat with its expected cadence. */
+  jobs(): Promise<JobRow[]> {
+    return callRows<JobRow>("admin_jobs");
+  },
+
+  /** `admin_open_orphans()` — OnlineSim operations nobody has closed yet. */
+  openOrphans(): Promise<OrphanRow[]> {
+    return callRows<OrphanRow>("admin_open_orphans");
   },
 
   /* -- Delivery monitoring (sms-expo 20260839000000_ops_monitoring.sql) -- */

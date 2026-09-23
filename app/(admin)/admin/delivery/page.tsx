@@ -1,7 +1,8 @@
 "use client";
 
-import { useCallback, useEffect, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useState } from "react";
 import AuthGate, { DeniedBody } from "../AuthGate";
+import { Figure, Section, TD, TH } from "../ui";
 import {
   isAdminDenied,
   rpc,
@@ -63,60 +64,6 @@ function dial(v: number | null | undefined): string {
   return v === null || v === undefined ? "—" : `+${v}`;
 }
 
-/* ---------------------------------------------------------------------------
- * Figures (same look as the overview's)
- * ------------------------------------------------------------------------ */
-
-function Figure({
-  label,
-  value,
-  alert = false,
-  note,
-}: {
-  label: string;
-  value: string;
-  alert?: boolean;
-  note?: string;
-}) {
-  return (
-    <div className="border-t border-border pt-[9px]">
-      <dt className="text-caption uppercase tracking-[0.07em] text-muted">
-        {label}
-      </dt>
-      <dd
-        className={`mt-[2px] font-sans text-subheading tabular-nums ${
-          alert ? "font-semibold text-[#a8201a]" : "text-ink"
-        }`}
-      >
-        {value}
-      </dd>
-      {note ? <p className="mt-[2px] text-caption text-muted">{note}</p> : null}
-    </div>
-  );
-}
-
-function Section({
-  title,
-  note,
-  children,
-}: {
-  title: string;
-  note?: string;
-  children: ReactNode;
-}) {
-  return (
-    <section className="mt-[30px]">
-      <div className="flex flex-wrap items-baseline gap-x-[10px]">
-        <h2 className="font-sans text-subheading">{title}</h2>
-        {note ? <span className="text-caption text-muted">{note}</span> : null}
-      </div>
-      <div className="mt-[10px]">{children}</div>
-    </section>
-  );
-}
-
-const TH = "py-[7px] pr-[14px] text-left font-medium";
-const TD = "py-[7px] pr-[14px]";
 
 /* The operator's own warn threshold lives in the edge function's env; this is
    only a colour cue and deliberately matches its default. */
@@ -159,6 +106,50 @@ function Kpis({ day, week }: { day: OpsDigest; week: OpsDigest }) {
         note={day.balance_burn_24h === null ? formatWhen(day.balance_at) : `24h burn ${formatUsd(day.balance_burn_24h)}`}
       />
     </dl>
+  );
+}
+
+/** The rest of the digest: what did not deliver, and the money side. */
+function MoreKpis({ day, week }: { day: OpsDigest; week: OpsDigest }) {
+  return (
+    <dl className="grid grid-cols-2 gap-x-[20px] gap-y-[14px] sm:grid-cols-4 lg:grid-cols-8">
+      <Figure label="Claim failed 24h" value={formatCoins(day.claim_failed)} alert={day.claim_failed > 0} note={`7d ${formatCoins(week.claim_failed)}`} />
+      <Figure label="Cancelled 24h" value={formatCoins(day.cancelled)} note={`7d ${formatCoins(week.cancelled)}`} />
+      <Figure label="In flight" value={formatCoins(day.in_flight)} note="waiting for an SMS now" />
+      <Figure label="IAP 24h" value={formatCoins(day.iap_count)} note={`7d ${formatCoins(week.iap_count)}`} />
+      <Figure label="Store refunds 24h" value={formatCoins(day.store_refunds)} alert={day.store_refunds > 0} note={`7d ${formatCoins(week.store_refunds)}`} />
+      <Figure label="Coins earned 24h" value={formatCoins(day.coins_spent)} note={`7d ${formatCoins(week.coins_spent)}`} />
+      <Figure label="Sign-ups 24h" value={formatCoins(day.signups)} note={`7d ${formatCoins(week.signups)}`} />
+      <Figure label="Anon installs 24h" value={formatCoins(day.anon_installs)} note={`7d ${formatCoins(week.anon_installs)}`} />
+    </dl>
+  );
+}
+
+function TopFailing({ rows }: { rows: OpsDigest["top_failing"] }) {
+  if (!rows?.length) return <p className="text-body text-ink-muted">No failed activations in the last 24h.</p>;
+  return (
+    <div className="overflow-x-auto">
+      <table className="w-full min-w-[480px] border-collapse text-label">
+        <thead>
+          <tr className="border-b border-border text-caption uppercase tracking-[0.07em] text-muted">
+            <th scope="col" className={TH}>Service</th>
+            <th scope="col" className={TH}>Country</th>
+            <th scope="col" className={`${TH} text-right`}>Failures</th>
+            <th scope="col" className="py-[7px] text-left font-medium">Usual reason</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr key={`${r.service}:${r.country_dial}`} className="border-b border-border">
+              <td className={`${TD} font-medium`}>{r.service}</td>
+              <td className={`${TD} tabular-nums text-ink-muted`}>{dial(r.country_dial)}</td>
+              <td className={`${TD} text-right tabular-nums`}>{formatCoins(r.failures)}</td>
+              <td className="py-[7px] text-ink-muted">{r.reason ?? "—"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 
@@ -373,6 +364,14 @@ function Delivery() {
       </div>
 
       <Kpis day={day} week={week} />
+
+      <Section title="Not delivered · money · users" note="24h, with the 7-day figure underneath">
+        <MoreKpis day={day} week={week} />
+      </Section>
+
+      <Section title="Top failing combos" note="last 24h · the same list the digest posts">
+        <TopFailing rows={day.top_failing} />
+      </Section>
 
       <Section title="Success rate" note="per hour, delivered ÷ issued · last 7 days · gaps are hours with nothing issued">
         <LineChart points={successPoints} yMin={0} yMax={100} format={(v) => `${Math.round(v)}%`} label="Hourly SMS success rate over the last 7 days" />

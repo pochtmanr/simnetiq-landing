@@ -520,7 +520,7 @@ function Chrome({
       <header className="border-b border-border bg-card">
         <div className="mx-auto flex w-full max-w-[1160px] flex-wrap items-center gap-x-[20px] gap-y-[6px] px-[clamp(16px,3vw,28px)] py-[12px]">
           <span className="text-label font-semibold">Operations</span>
-          <nav className="flex items-center gap-[16px] text-label text-ink-muted">
+          <nav className="flex flex-wrap items-center gap-x-[16px] gap-y-[4px] text-label text-ink-muted">
             <Link href="/admin" className="ghost-link">
               Overview
             </Link>
@@ -530,8 +530,14 @@ function Chrome({
             <Link href="/admin/support" className="ghost-link">
               Support
             </Link>
+            <Link href="/admin/purchases" className="ghost-link">
+              Purchases
+            </Link>
             <Link href="/admin/delivery" className="ghost-link">
               Delivery
+            </Link>
+            <Link href="/admin/system" className="ghost-link">
+              System
             </Link>
           </nav>
           <button

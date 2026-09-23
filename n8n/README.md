@@ -87,3 +87,47 @@ curl -X POST https://n8n.dopplervpn.org/webhook/simnetiq-support \
   -H 'x-webhook-secret: YOUR-SECRET' \
   -d '{"id":"test","created_at":"2026-07-06T00:00:00Z","name":"Test","email":"you@example.com","topic":"Bug report","message":"Test message"}'
 ```
+
+---
+
+# n8n support-reply workflow
+
+Answering a ticket from `/admin/support`: operator writes a reply → `POST
+/api/admin/support/reply` → `admin_support_reply()` records it (as that
+operator, checked by `is_admin()`) → webhook fired to n8n → n8n emails the
+customer from `support@simnetiq.store` (BCC to the same inbox, so the team has
+a copy) → the route records whether the send worked.
+
+This does not bring back the backscatter problem above: nothing is sent
+automatically. Each email is one reply that a signed-in operator (password +
+TOTP) wrote to one stored ticket, and it is audit-logged.
+
+## Import
+
+1. **Workflows → ⋯ → Import from File** → `simnetiq-reply-workflow.json`.
+2. **Email customer** node: pick the same SMTP credential as the other workflow.
+3. **Check secret** node: use the same secret as `N8N_WEBHOOK_SECRET`.
+4. **Activate** it, then set in Vercel (and `.env.local`):
+
+```
+N8N_SUPPORT_REPLY_WEBHOOK_URL=https://n8n.dopplervpn.org/webhook/simnetiq-support-reply
+```
+
+Until that variable is set, replies are saved and shown as "not emailed", and
+the panel offers the operator's own mail app instead.
+
+## Payload sent by the site
+
+```json
+{
+  "type": "reply",
+  "request_id": "uuid of the ticket",
+  "reply_id": "uuid of the support_replies row",
+  "to": "user@example.com",
+  "name": "Alex",
+  "locale": "en",
+  "subject": "Re: Billing & credits — SMS Code support",
+  "body": "the operator's reply",
+  "original_message": "what the customer wrote"
+}
+```

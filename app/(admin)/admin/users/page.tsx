@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useState, type FormEvent } from "react";
 import { AuthGate, DeniedBody } from "../AuthGate";
+import { RecentSignups } from "./RecentSignups";
 import { formatCoins, formatWhen } from "../../../../lib/admin/format";
 import { isAdminDenied, rpc, type UserSearchRow } from "../../../../lib/admin/rpc";
 
@@ -121,6 +122,7 @@ function UserSearch() {
      what actually failed rather than whatever is in the box by then — and the
      empty state names the query that found nothing, not the one being typed. */
   const [ran, setRan] = useState<string | null>(null);
+  const onDenied = useCallback(() => setDenied(true), []);
 
   const run = useCallback(async (raw: string) => {
     const q = raw.trim();
@@ -188,9 +190,11 @@ function UserSearch() {
             }}
           />
         ) : rows === null ? (
-          <p className="text-label text-muted">
-            {busy ? "Searching…" : "No search run yet."}
-          </p>
+          busy ? (
+            <p className="text-label text-muted">Searching…</p>
+          ) : (
+            <RecentSignups onDenied={onDenied} />
+          )
         ) : rows.length === 0 ? (
           <p className="text-label text-muted">
             Nothing matched “{ran}”.

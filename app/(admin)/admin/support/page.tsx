@@ -1,7 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import Link from "next/link";
+import { useCallback, useEffect, useState } from "react";
 import AuthGate, { DeniedBody } from "../AuthGate";
+import { ReplyPanel } from "./ReplyPanel";
 import { formatWhen } from "../../../../lib/admin/format";
 import {
   isAdminDenied,
@@ -198,6 +200,25 @@ function Inbox() {
 
   const reload = () => setRequest((r) => ({ ...r, nonce: r.nonce + 1 }));
 
+  /* Which rows have their reply thread open. */
+  const [open, setOpen] = useState<Record<string, true>>({});
+  const onDenied = useCallback(() => setDenied(true), []);
+  const toggle = (id: string) =>
+    setOpen((o) => {
+      const next = { ...o };
+      if (next[id]) delete next[id];
+      else next[id] = true;
+      return next;
+    });
+  const onSent = (id: string, status: "open" | "resolved") =>
+    setRows((current) =>
+      current.map((row) =>
+        row.id === id
+          ? { ...row, status, reply_count: (row.reply_count ?? 0) + 1, stale: false }
+          : row,
+      ),
+    );
+
   useEffect(() => {
     let cancelled = false;
     void (async () => {
@@ -391,10 +412,30 @@ function Inbox() {
                   >
                     <td className="px-[12px] py-[10px] text-label tabular-nums text-ink-muted">
                       {formatWhen(row.created_at)}
+                      {row.stale ? (
+                        <div className="mt-[4px] text-caption font-medium text-[#a32b20]">
+                          Waiting over 24h
+                        </div>
+                      ) : null}
                     </td>
                     <td className="px-[12px] py-[10px] break-words [overflow-wrap:anywhere]">
                       <div className="text-label text-ink">{row.name}</div>
-                      <div className="text-caption text-muted">{row.email}</div>
+                      <a
+                        href={`mailto:${encodeURIComponent(row.email)}`}
+                        className="text-caption text-muted underline underline-offset-2"
+                      >
+                        {row.email}
+                      </a>
+                      {row.user_id ? (
+                        <div className="mt-[2px]">
+                          <Link
+                            href={`/admin/users/${row.user_id}`}
+                            className="text-caption text-accent-deep underline underline-offset-2"
+                          >
+                            Open account
+                          </Link>
+                        </div>
+                      ) : null}
                     </td>
                     <td className="px-[12px] py-[10px] break-words [overflow-wrap:anywhere] text-label text-ink">
                       <div>{row.topic}</div>
@@ -404,6 +445,25 @@ function Inbox() {
                     </td>
                     <td className="px-[12px] py-[10px]">
                       <Message text={row.message} />
+                      <button
+                        type="button"
+                        onClick={() => toggle(row.id)}
+                        aria-expanded={open[row.id] === true}
+                        className="mt-[8px] text-caption text-accent-deep underline underline-offset-2"
+                      >
+                        {open[row.id]
+                          ? "Hide replies"
+                          : row.reply_count
+                            ? `Replies (${row.reply_count}) · Reply`
+                            : "Reply"}
+                      </button>
+                      {open[row.id] ? (
+                        <ReplyPanel
+                          row={row}
+                          onSent={(status) => onSent(row.id, status)}
+                          onDenied={onDenied}
+                        />
+                      ) : null}
                     </td>
                     <td className="px-[12px] py-[10px]">
                       <StatusSelect

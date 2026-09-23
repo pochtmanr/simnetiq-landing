@@ -1,0 +1,160 @@
+{
+  "name": "SIMNETIQ support reply",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "simnetiq-support-reply",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "a2000000-0000-4000-8000-000000000001",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "simnetiq-support-reply"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "c2000000-0000-4000-8000-000000000001",
+              "leftValue": "={{ $json.headers['x-webhook-secret'] }}",
+              "rightValue": "REPLACE-WITH-RANDOM-SECRET",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "a2000000-0000-4000-8000-000000000002",
+      "name": "Check secret",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "fromEmail": "SMS Code Support <support@simnetiq.store>",
+        "toEmail": "={{ $json.body.to }}",
+        "subject": "={{ $json.body.subject }}",
+        "emailFormat": "text",
+        "text": "={{ $json.body.locale === 'ru' ? 'Здравствуйте' : 'Hello' }}{{ $json.body.name ? ', ' + $json.body.name : '' }},\n\n{{ $json.body.body }}\n\n—\n{{ $json.body.locale === 'ru' ? 'Поддержка SMS Code' : 'SMS Code Support' }}\nhttps://simnetiq.xyz/support\n\n{{ $json.body.locale === 'ru' ? 'Ваше сообщение' : 'Your message' }}:\n> {{ ($json.body.original_message || '').split('\\n').join('\\n> ') }}",
+        "options": {
+          "replyTo": "support@simnetiq.store",
+          "bccEmail": "support@simnetiq.store"
+        }
+      },
+      "id": "a2000000-0000-4000-8000-000000000003",
+      "name": "Email customer",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        440,
+        -100
+      ],
+      "credentials": {
+        "smtp": {
+          "id": null,
+          "name": "SELECT YOUR EXISTING SMTP CREDENTIAL"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { \"ok\": true } }}",
+        "options": {}
+      },
+      "id": "a2000000-0000-4000-8000-000000000005",
+      "name": "Respond 200",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        660,
+        -100
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { \"ok\": false, \"error\": \"unauthorized\" } }}",
+        "options": {
+          "responseCode": 403
+        }
+      },
+      "id": "a2000000-0000-4000-8000-000000000006",
+      "name": "Respond 403",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        440,
+        120
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Check secret",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check secret": {
+      "main": [
+        [
+          {
+            "node": "Email customer",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Respond 403",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Email customer": {
+      "main": [
+        [
+          {
+            "node": "Respond 200",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}
