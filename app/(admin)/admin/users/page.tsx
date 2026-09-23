@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState, type FormEvent } from "react";
+import { useCallback, useEffect, useState, type FormEvent } from "react";
 import { AuthGate, DeniedBody } from "../AuthGate";
 import { RecentSignups } from "./RecentSignups";
 import { formatCoins, formatWhen } from "../../../../lib/admin/format";
@@ -29,10 +29,10 @@ import {
  * already been sent, which is the failure this design exists to prevent.
  * ------------------------------------------------------------------------ */
 
-/** More than the SQL default of 25. The operator is searching a small user
- *  base by hand; a truncated result they cannot see the edge of is worse than
- *  a long table, and the footer below says when the limit was reached. */
-const LIMIT = 50;
+/** The RPC's ceiling (the SQL default is 25). Shown 50/100 per page; a
+ *  truncated result the operator cannot see the edge of is worse than a long
+ *  one, and the footer below says when the ceiling was reached. */
+const LIMIT = 200;
 
 /* ---------------------------------------------------------------------------
  * Cells
@@ -159,6 +159,20 @@ function UserSearch() {
      empty state names the query that found nothing, not the one being typed. */
   const [ran, setRan] = useState<string | null>(null);
   const onDenied = useCallback(() => setDenied(true), []);
+  /* Set by the Danger zone on a user page after a deletion: `?deleted=<audit
+     id>`. Read once from the URL rather than with useSearchParams, which would
+     need a Suspense boundary for a notice this small; this component only ever
+     renders in the browser (AuthGate holds it back until the session resolves),
+     so reading window here cannot mismatch a server render. The parameter is
+     then dropped from the address so a reload does not announce it twice. */
+  const [deletedAudit] = useState<string | null>(() => {
+    if (typeof window === "undefined") return null;
+    const id = new URLSearchParams(window.location.search).get("deleted");
+    return id && /^\d+$/.test(id) ? id : null;
+  });
+  useEffect(() => {
+    if (deletedAudit) window.history.replaceState(null, "", window.location.pathname);
+  }, [deletedAudit]);
 
   const run = useCallback(async (raw: string) => {
     const q = raw.trim();
@@ -196,6 +210,13 @@ function UserSearch() {
         title="Users"
         subtitle="Search by email fragment or by user id. Addresses are masked by the database before they reach this page."
       />
+
+      {deletedAudit ? (
+        <p role="status" className="mb-[14px] rounded-[10px] border border-border bg-panel px-[12px] py-[10px] text-label text-ink">
+          Account deleted. The audit row is <span className="font-mono tabular-nums">{deletedAudit}</span>; purchase
+          records and anonymous totals were kept.
+        </p>
+      ) : null}
 
       <form onSubmit={submit} className="flex flex-wrap gap-[8px]">
         <input
@@ -235,6 +256,7 @@ function UserSearch() {
         ) : (
           <>
             <DataTable
+              pageSizes={[50, 100]}
               rows={rows}
               columns={COLUMNS}
               rowKey={(row) => row.user_id}

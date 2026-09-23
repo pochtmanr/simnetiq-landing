@@ -2,6 +2,7 @@
 
 import AuthGate from "../AuthGate";
 import { formatCoins, formatWhen } from "../../../../lib/admin/format";
+import { jobLinks, workflows, type JobLinks } from "../../../../lib/admin/jobLinks";
 import { rpc, type JobRow, type OrphanRow } from "../../../../lib/admin/rpc";
 import {
   DataTable,
@@ -24,6 +25,11 @@ import {
  * Jobs come from admin_jobs (ops_jobs(): job_heartbeats plus each job's
  * expected cadence). A job is stale after missing three beats, with a
  * five-minute floor — the same rule ops-notify uses for its job_stale card.
+ *
+ * Each job links to where it can be debugged (lib/admin/jobLinks.ts): its
+ * Supabase logs, its source on GitHub, and n8n for the workflows that live
+ * there. The links open the dashboards; they grant nothing — each of those
+ * sites asks for its own login.
  * ------------------------------------------------------------------------ */
 
 function every(s: number | null): string {
@@ -42,6 +48,27 @@ function isStale(j: JobRow, now: number): boolean {
   // Never succeeded: failing on every run, or seeded and never run.
   if ((j.runs ?? 0) >= 3 && j.failures === j.runs) return true;
   return !!j.last_run_at && (j.runs ?? 0) === 0 && now - Date.parse(j.last_run_at) > limit;
+}
+
+/** Small labelled links. `noreferrer` so the admin URL never reaches the
+ *  destination's logs (the panel also sends Referrer-Policy: no-referrer). */
+function Links({ links }: { links: JobLinks }) {
+  const items: [string, string | undefined][] = [
+    ["Logs", links.supabaseLogs],
+    ["n8n", links.n8n],
+    ["Code", links.github],
+  ];
+  const shown = items.filter((i): i is [string, string] => !!i[1]);
+  if (shown.length === 0) return <span className="text-muted">—</span>;
+  return (
+    <span className="flex flex-wrap gap-x-[10px] gap-y-[2px] text-caption">
+      {shown.map(([label, href]) => (
+        <a key={label} href={href} target="_blank" rel="noreferrer noopener" className="blue-link whitespace-nowrap">
+          {label} ↗
+        </a>
+      ))}
+    </span>
+  );
 }
 
 function jobColumns(now: number): Column<JobRow>[] {
@@ -67,6 +94,7 @@ function jobColumns(now: number): Column<JobRow>[] {
       className: "max-w-[320px]",
       cell: (j) => <span className="font-mono text-caption text-ink-muted [overflow-wrap:anywhere]">{j.last_error ?? "—"}</span>,
     },
+    { key: "links", header: "Links", cell: (j) => <Links links={jobLinks(j.job_name)} /> },
   ];
 }
 
@@ -109,6 +137,21 @@ function System() {
                 empty={<EmptyState title="No heartbeats recorded" hint="Jobs write a heartbeat each run; none has yet." />}
               />
             </Section>
+            {workflows().length ? (
+              <Section title="n8n workflows" note="not cron jobs, so no heartbeat — open n8n to see their executions">
+                <ul className="flex flex-col gap-[8px]">
+                  {workflows().map((w) => (
+                    <li key={w.name} className="flex flex-wrap items-baseline justify-between gap-x-[12px] gap-y-[4px] rounded-card border border-border bg-card px-[12px] py-[10px]">
+                      <span className="min-w-0">
+                        <span className="text-body font-medium">{w.name}</span>
+                        <span className="ml-[8px] text-caption text-muted">{w.what}</span>
+                      </span>
+                      <Links links={w.links} />
+                    </li>
+                  ))}
+                </ul>
+              </Section>
+            ) : null}
             <Section title="Open OnlineSim orphans" note="numbers OnlineSim holds that no activation owns · activation-release closes them">
               <DataTable
                 rows={data.orphans}

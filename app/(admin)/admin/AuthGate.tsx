@@ -16,6 +16,7 @@ import {
   resolveAdminState,
   type AdminState,
 } from "../../../lib/admin/guard";
+import { MeProvider } from "./components/Me";
 import { BottomNav, TopNav } from "./components/Nav";
 import { SkeletonRows, SkeletonStats } from "./components/States";
 
@@ -40,6 +41,18 @@ import { SkeletonRows, SkeletonStats } from "./components/States";
  * was dropped on 2026-09-23: Telegram's in-app browser never had the cookie,
  * so every link from the ops bot opened a 404. Sign-in still gives one error
  * string for every cause, so the form confirms nothing about accounts.
+ *
+ * Nothing an admin RPC returns is fetched before `ready`. The pre-`ready`
+ * screens call GoTrue only (sign-in, factors, password); the page and the
+ * MeProvider that asks `admin_me()` are mounted only inside the `ready`
+ * branch — and every RPC re-checks aal2 in Postgres regardless.
+ *
+ * Brute force. The real limits are Supabase Auth's own, per IP and per
+ * account (Dashboard → Authentication → Rate Limits: sign-ins/verifications
+ * and token refreshes; and the separate MFA verification limit). The growing
+ * cool-down in <SignIn> is UX on top — it keeps a fumbling operator from
+ * burning through that server budget and locking themselves out — and a
+ * script ignores it by definition.
  * ------------------------------------------------------------------------ */
 
 /* ---------------------------------------------------------------------------
@@ -189,12 +202,77 @@ function SignOutLink({ onSignOut }: { onSignOut: () => void }) {
  * confirms whether an address has an account, which is exactly the question an
  * attacker who found this page would want answered.
  */
-function SignIn({ onSignedIn }: { onSignedIn: () => void }) {
+/** Seconds to wait after the nth consecutive failure: nothing for the first
+ *  two typos, then 5s doubling to a five-minute ceiling. */
+function cooldownSeconds(failures: number): number {
+  if (failures < 3) return 0;
+  return Math.min(5 * 2 ** (failures - 3), 300);
+}
+
+/* Kept in sessionStorage so a reload does not reset the wait. Per tab, and
+   wrapped in try/catch: storage can be blocked or throw (private windows), and
+   then the cool-down simply lasts as long as the page does. */
+const COOLDOWN_KEY = "admin-signin-cooldown";
+type Cooldown = { failures: number; until: number };
+
+function readCooldown(): Cooldown {
+  try {
+    const raw = typeof window === "undefined" ? null : window.sessionStorage.getItem(COOLDOWN_KEY);
+    const parsed = raw ? (JSON.parse(raw) as Partial<Cooldown>) : null;
+    if (parsed && typeof parsed.failures === "number" && typeof parsed.until === "number") {
+      return { failures: parsed.failures, until: parsed.until };
+    }
+  } catch {
+    /* unreadable — start fresh */
+  }
+  return { failures: 0, until: 0 };
+}
+
+function writeCooldown(value: Cooldown | null) {
+  try {
+    if (value) window.sessionStorage.setItem(COOLDOWN_KEY, JSON.stringify(value));
+    else window.sessionStorage.removeItem(COOLDOWN_KEY);
+  } catch {
+    /* blocked — the in-memory state still applies */
+  }
+}
+
+function SignIn({ onSignedIn, notice }: { onSignedIn: () => void; notice?: string | null }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [busy, setBusy] = useState(false);
   const [failed, setFailed] = useState(false);
   const [resetNote, setResetNote] = useState<string | null>(null);
+  /* The cool-down. Client-side and therefore advisory — see the file header
+     for where the real limit lives. `now` only ticks while a wait is running. */
+  const [failures, setFailures] = useState(() => readCooldown().failures);
+  const [lockedUntil, setLockedUntil] = useState(() => readCooldown().until);
+  const [now, setNow] = useState(() => Date.now());
+  const waitSeconds = Math.max(0, Math.ceil((lockedUntil - now) / 1000));
+
+  useEffect(() => {
+    if (lockedUntil === 0) return;
+    const timer = window.setInterval(() => {
+      const t = Date.now();
+      setNow(t);
+      if (t >= lockedUntil) window.clearInterval(timer);
+    }, 500);
+    return () => window.clearInterval(timer);
+  }, [lockedUntil]);
+
+  function recordFailure() {
+    const next = failures + 1;
+    setFailures(next);
+    setFailed(true);
+    const wait = cooldownSeconds(next);
+    const t = Date.now();
+    const until = wait > 0 ? t + wait * 1000 : lockedUntil;
+    if (wait > 0) {
+      setNow(t);
+      setLockedUntil(until);
+    }
+    writeCooldown({ failures: next, until });
+  }
 
   /* Same answer whether or not the address has an account, for the reason
      above. The link comes back to /admin, where AuthGate picks it up. */
@@ -216,23 +294,26 @@ function SignIn({ onSignedIn }: { onSignedIn: () => void }) {
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (busy) return;
+    if (busy || waitSeconds > 0) return;
     setBusy(true);
     setFailed(false);
     try {
+      /* The password goes to GoTrue and nowhere else: never logged, never
+         stored, and cleared from state on success by the unmount. */
       const { error } = await getAdminClient().auth.signInWithPassword({
         email,
         password,
       });
       if (error) {
-        setFailed(true);
+        recordFailure();
         return;
       }
+      writeCooldown(null);
       onSignedIn();
     } catch {
       /* Thrown rather than returned — a missing env var, an offline browser.
          Same message; the operator retries, and nobody learns anything. */
-      setFailed(true);
+      recordFailure();
     } finally {
       setBusy(false);
     }
@@ -262,10 +343,20 @@ function SignIn({ onSignedIn }: { onSignedIn: () => void }) {
           required
         />
       </div>
-      <button type="submit" className="cta mt-[14px] w-full justify-center disabled:opacity-60" disabled={busy}>
-        {busy ? "Checking…" : "Continue"}
+      <button
+        type="submit"
+        className="cta mt-[14px] w-full justify-center disabled:opacity-60"
+        disabled={busy || waitSeconds > 0}
+      >
+        {busy ? "Checking…" : waitSeconds > 0 ? `Wait ${waitSeconds}s` : "Continue"}
       </button>
-      {failed ? <Notice>Sign in failed.</Notice> : null}
+      {notice ? <Notice>{notice}</Notice> : null}
+      {failed ? (
+        <Notice>
+          Sign in failed.
+          {waitSeconds > 0 ? ` Too many attempts — try again in ${waitSeconds}s.` : ""}
+        </Notice>
+      ) : null}
       <button
         type="button"
         onClick={() => void forgot()}
@@ -286,11 +377,21 @@ function SignIn({ onSignedIn }: { onSignedIn: () => void }) {
 const MIN_PASSWORD = 12;
 
 /**
- * Shown after a password-reset link. The link has already signed this browser
- * in (aal1 only), so all that is left is the new password; the gate then
- * continues to the authenticator step as usual.
+ * Shown after a password-reset or invitation link. The link has already signed
+ * this browser in (aal1 only), so all that is left is the password; the gate
+ * then continues to the authenticator step as usual. An invitation is the same
+ * screen with a welcome: the account may be brand new (GoTrue invite) or an
+ * existing app account that was added to the team (a recovery link).
  */
-function SetPassword({ onDone, onSignOut }: { onDone: () => void; onSignOut: () => void }) {
+function SetPassword({
+  mode,
+  onDone,
+  onSignOut,
+}: {
+  mode: LinkMode;
+  onDone: () => void;
+  onSignOut: () => void;
+}) {
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
   const [busy, setBusy] = useState(false);
@@ -325,7 +426,15 @@ function SetPassword({ onDone, onSignOut }: { onDone: () => void; onSignOut: () 
 
   return (
     <Screen>
-      <h1 className="font-sans text-subheading">Set a new password</h1>
+      <h1 className="font-sans text-subheading">
+        {mode === "invite" ? "Welcome — choose a password" : "Set a new password"}
+      </h1>
+      {mode === "invite" ? (
+        <p className="mt-[8px] text-body text-ink-muted">
+          You have been invited to SMS Code operations. Choose a password; next
+          you will set up an authenticator app.
+        </p>
+      ) : null}
       <form onSubmit={submit} className="mt-[18px] flex flex-col gap-[10px]">
         <input
           className="field"
@@ -357,26 +466,39 @@ function SetPassword({ onDone, onSignOut }: { onDone: () => void; onSignOut: () 
   );
 }
 
+/** Which link brought the browser here: a password reset or an invitation. */
+type LinkMode = "recovery" | "invite";
+
+type HashOutcome = LinkMode | "expired" | null;
+
 /**
- * A reset link sent from the Supabase dashboard arrives as
- * `#access_token=…&refresh_token=…&type=recovery` (implicit flow). The panel's
- * client is PKCE, which ignores that shape, so the session is taken from the
- * hash by hand. The hash is wiped first either way: those tokens must not
- * survive in the address bar or history.
+ * Links sent by the server — a reset from the Supabase dashboard, an invite or
+ * a set-up link from the admin-team edge function — arrive as
+ * `#access_token=…&refresh_token=…&type=recovery|invite` (implicit flow). The
+ * panel's client is PKCE, which ignores that shape, so the session is taken
+ * from the hash by hand. The hash is wiped first either way: those tokens must
+ * not survive in the address bar or history.
+ *
+ * A used or expired link comes back as `#error=…&error_code=otp_expired`.
+ * That is reported as "expired" so the sign-in screen can say so, instead of
+ * the operator staring at a form that never mentions their link.
  */
-async function consumeRecoveryHash(): Promise<boolean> {
-  if (typeof window === "undefined" || !window.location.hash) return false;
+async function consumeAuthHash(): Promise<HashOutcome> {
+  if (typeof window === "undefined" || !window.location.hash) return null;
   const params = new URLSearchParams(window.location.hash.slice(1));
-  if (params.get("type") !== "recovery") return false;
+  const type = params.get("type");
+  const isError = params.has("error") || params.has("error_code");
+  if (!isError && type !== "recovery" && type !== "invite") return null;
   window.history.replaceState(null, "", window.location.pathname + window.location.search);
+  if (isError) return "expired";
   const access_token = params.get("access_token");
   const refresh_token = params.get("refresh_token");
-  if (!access_token || !refresh_token) return false;
+  if (!access_token || !refresh_token) return null;
   try {
     const { error } = await getAdminClient().auth.setSession({ access_token, refresh_token });
-    return !error;
+    return error ? "expired" : (type as LinkMode);
   } catch {
-    return false;
+    return "expired";
   }
 }
 
@@ -695,8 +817,10 @@ export function AuthGate({ children }: { children: ReactNode }) {
      avoids the sign-in form flashing in front of an operator who is signed
      in. */
   const [state, setState] = useState<AdminState | null>(null);
-  /* True after a password-reset link: ask for the new password first. */
-  const [recovering, setRecovering] = useState(false);
+  /* Set after a password-reset or invitation link: ask for the password first. */
+  const [recovering, setRecovering] = useState<LinkMode | null>(null);
+  /* A link that was used or expired, said once on the sign-in screen. */
+  const [linkNotice, setLinkNotice] = useState<string | null>(null);
 
   const refresh = useCallback(async () => {
     setState(await currentState());
@@ -707,11 +831,16 @@ export function AuthGate({ children }: { children: ReactNode }) {
     /* A reset requested from the form comes back as ?code=… (PKCE); the
        client exchanges it on its own and announces PASSWORD_RECOVERY. */
     const { data: sub } = getAdminClient().auth.onAuthStateChange((event) => {
-      if (event === "PASSWORD_RECOVERY" && !cancelled) setRecovering(true);
+      if (event === "PASSWORD_RECOVERY" && !cancelled) setRecovering("recovery");
     });
     void (async () => {
-      const fromHash = await consumeRecoveryHash();
-      if (fromHash && !cancelled) setRecovering(true);
+      const fromHash = await consumeAuthHash();
+      if (!cancelled) {
+        if (fromHash === "recovery" || fromHash === "invite") setRecovering(fromHash);
+        else if (fromHash === "expired") {
+          setLinkNotice("That link has expired or was already used. Ask for a new one, or use “Forgot password?”.");
+        }
+      }
       const next = await currentState();
       if (!cancelled) setState(next);
     })();
@@ -722,7 +851,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
   }, []);
 
   const signOut = useCallback(async () => {
-    setRecovering(false);
+    setRecovering(null);
     try {
       await getAdminClient().auth.signOut();
     } catch {
@@ -743,8 +872,9 @@ export function AuthGate({ children }: { children: ReactNode }) {
   if (recovering && (state === "needsEnrol" || state === "ready")) {
     return (
       <SetPassword
+        mode={recovering}
         onDone={() => {
-          setRecovering(false);
+          setRecovering(null);
           void refresh();
         }}
         onSignOut={signOut}
@@ -759,7 +889,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
         <p className="mt-[8px] mb-[18px] text-body text-ink-muted">
           SMS Code operations. Password, then your authenticator code.
         </p>
-        <SignIn onSignedIn={refresh} />
+        <SignIn onSignedIn={refresh} notice={linkNotice} />
       </Screen>
     );
   }
@@ -776,7 +906,9 @@ export function AuthGate({ children }: { children: ReactNode }) {
   // of a panel it cannot use.
   return (
     <DeniedBoundary>
-      <Chrome onSignOut={signOut}>{children}</Chrome>
+      <MeProvider>
+        <Chrome onSignOut={signOut}>{children}</Chrome>
+      </MeProvider>
     </DeniedBoundary>
   );
 }

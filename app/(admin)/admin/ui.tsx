@@ -13,10 +13,10 @@ import { MigrationNotice, SkeletonRows } from "./components/States";
 
 export { Card, Facts, PageHeader, RefreshButton, Section } from "./components/Card";
 export { Stat, StatGrid, type Tone } from "./components/Stat";
-export { Badge, RiskBadge, SeverityDot, StatusBadge, type BadgeTone } from "./components/Badge";
+export { Badge, ProviderChip, RiskBadge, RoleBadge, SeverityDot, StatusBadge, type BadgeTone } from "./components/Badge";
 export { DataTable, type Column } from "./components/DataTable";
 export { EntityLink, ShortId, comboHref, entityHref, isUuid, shortId } from "./components/EntityLink";
-export { EmptyState, MigrationNotice, SkeletonRows, SkeletonStats } from "./components/States";
+export { EmptyState, MigrationNotice, PageSkeleton, Reveal, SkeletonRows, SkeletonStats } from "./components/States";
 export { Explained, SourceLine } from "./components/Help";
 
 export const TH = "py-[7px] pr-[14px] text-left font-medium";
@@ -180,6 +180,6 @@ export function Loaded<T>({
     case "error":
       return <LoadError title={title} message={status.message} retry={retry} />;
     case "ready":
-      return <>{children(status.data)}</>;
+      return <div className="animate-[admin-fade-in_180ms_ease-out]">{children(status.data)}</div>;
   }
 }

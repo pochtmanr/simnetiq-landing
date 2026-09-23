@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, type ReactNode } from "react";
+import { useCallback, useEffect, useState, type ReactNode } from "react";
 import AuthGate, { DeniedBody } from "../AuthGate";
 import { BarChart } from "../components/Charts";
 import {
@@ -22,7 +22,8 @@ import {
   PageHeader,
   RefreshButton,
   Section,
-  SkeletonStats,
+  PageSkeleton,
+  Reveal,
   Stat,
   StatGrid,
   WindowPicker,
@@ -197,9 +198,13 @@ function country(r: BreakdownRow) {
   return `${r.country_name ?? "Unknown"} ${formatDial(r.country_dial)}`;
 }
 
-function Breakdown({ hours }: { hours: number }) {
+function Breakdown({ hours, onSettled }: { hours: number; onSettled?: () => void }) {
   const [group, setGroup] = useState<BreakdownGroup>("combo");
   const { status, retry } = useAdminData(() => rpc.moneyBreakdown(hours, group), `${hours}:${group}`);
+  const settled = status.phase !== "loading";
+  useEffect(() => {
+    if (settled) onSettled?.();
+  }, [settled, onSettled]);
 
   const columns: Column<BreakdownRow>[] = [
     ...(group !== "country"
@@ -324,6 +329,8 @@ function MoneyScreen() {
   const [prefill, setPrefill] = useState<Prefill>(null);
   const [denied, setDenied] = useState(false);
   const [tick, setTick] = useState(0);
+  const [breakdownSettled, setBreakdownSettled] = useState(false);
+  const onBreakdownSettled = useCallback(() => setBreakdownSettled(true), []);
 
   const main = useAdminData<Main>(async () => {
     const [summary, pnl] = await Promise.all([rpc.moneySummary(hours), rpc.moneyPnl(hours)]);
@@ -353,9 +360,11 @@ function MoneyScreen() {
         }
       />
 
-      <Loaded status={main.status} retry={main.retry} title="Could not load money figures" skeleton={<SkeletonStats n={8} />}>
+      <Loaded status={main.status} retry={main.retry} title="Could not load money figures" skeleton={<PageSkeleton />}>
         {({ summary: s, pnl }) => (
-          <>
+          /* Summary is in; hold the page until spend and the breakdown are too,
+             so it appears whole rather than section by section. */
+          <Reveal ready={(breakdownSettled && spend.status.phase !== "loading") || tick > 0} skeleton={<PageSkeleton stats={0} />}>
             <StatGrid>
               <Stat
                 label={`Gross profit · ${label}`}
@@ -420,7 +429,7 @@ function MoneyScreen() {
               </div>
             </Section>
 
-            <Breakdown hours={hours} />
+            <Breakdown hours={hours} onSettled={onBreakdownSettled} />
 
             <Section title="Top-ups">
               <div id="topups" className="scroll-mt-[80px]">
@@ -433,7 +442,7 @@ function MoneyScreen() {
             <div className="mt-[30px]">
               <HowItWorks s={s} />
             </div>
-          </>
+          </Reveal>
         )}
       </Loaded>
     </>

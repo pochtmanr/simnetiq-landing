@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import AuthGate, { DeniedBody } from "./AuthGate";
 import {
   isAdminDenied,
@@ -17,7 +17,9 @@ import {
   Badge,
   EmptyState,
   PageHeader,
+  PageSkeleton,
   RefreshButton,
+  Reveal,
   Section,
   SeverityDot,
   SkeletonRows,
@@ -259,7 +261,7 @@ function auditToActivity(a: AdminAuditRow): ActivityRow {
 
 const PAGE = 40;
 
-function ActivityFeed({ tick }: { tick: number }) {
+function ActivityFeed({ tick, onSettled }: { tick: number; onSettled?: () => void }) {
   const [filter, setFilter] = useState("all");
   const [rows, setRows] = useState<ActivityRow[]>([]);
   const [phase, setPhase] = useState<"loading" | "ready" | "error" | "denied">("loading");
@@ -328,6 +330,10 @@ function ActivityFeed({ tick }: { tick: number }) {
     }
   }
 
+  useEffect(() => {
+    if (phase !== "loading") onSettled?.();
+  }, [phase, onSettled]);
+
   if (phase === "denied") return <DeniedBody />;
 
   return (
@@ -384,6 +390,8 @@ function ActivityFeed({ tick }: { tick: number }) {
 
 function OverviewScreen() {
   const [tick, setTick] = useState(0);
+  const [feedSettled, setFeedSettled] = useState(false);
+  const onFeedSettled = useCallback(() => setFeedSettled(true), []);
   const key = String(tick);
   const today = useAdminData(() => rpc.moneySummary(24), key);
   const week = useAdminData(() => rpc.moneySummary(168), key);
@@ -398,6 +406,10 @@ function OverviewScreen() {
   const d = digest.status.phase === "ready" ? digest.status.data : null;
   const openTickets = tickets.status.phase === "ready" ? tickets.status.data.filter((r) => r.status !== "resolved") : null;
   const staleTickets = openTickets?.filter((r) => r.stale).length ?? 0;
+  /* The first paint waits for every source, so the cockpit appears whole.
+     A refresh after that keeps the page up and updates in place. */
+  const ready =
+    feedSettled && [today, week, health, digest, tickets].every((x) => x.status.phase !== "loading");
   const lowBalance = w?.balance_now !== null && w?.balance_now !== undefined && w.balance_now < 20;
 
   return (
@@ -408,6 +420,7 @@ function OverviewScreen() {
         actions={<RefreshButton onClick={() => setTick((n) => n + 1)} busy={today.status.phase === "loading"} />}
       />
 
+      <Reveal ready={ready || tick > 0} skeleton={<PageSkeleton />}>
       <StatGrid>
         <Stat
           label="Profit today"
@@ -482,7 +495,8 @@ function OverviewScreen() {
 
       <AlarmStrip status={health.status} />
 
-      <ActivityFeed tick={tick} />
+      <ActivityFeed tick={tick} onSettled={onFeedSettled} />
+      </Reveal>
     </>
   );
 }

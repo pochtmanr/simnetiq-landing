@@ -4,6 +4,7 @@ import Link from "next/link";
 import { use, useCallback, useEffect, useState } from "react";
 import { AuthGate, DeniedBody } from "../../AuthGate";
 import { Actions } from "./Actions";
+import { DangerZone } from "./DangerZone";
 import {
   Card,
   comboHref,
@@ -289,6 +290,7 @@ const ACTIVATION_COLUMNS: Column<UserActivationsRow>[] = [
     key: "combo",
     header: "Service",
     mobile: "title",
+    linksItself: true,
     cell: (r) => {
       const href = comboHref(r.service, r.country_dial);
       const text = `${r.service} +${r.country_dial}`;
@@ -519,6 +521,11 @@ function UserDetail({ userId }: { userId: string }) {
               empty={<EmptyState title="No activations" />}
             />
           </Section>
+
+          {/* Last on the page, and keyed by user for the same reason as
+              Actions: a half-typed confirmation must never carry over to a
+              different account. */}
+          <DangerZone key={`danger:${userId}`} userId={userId} hasEmail={Boolean(overview.email)} />
         </>
       )}
     </div>

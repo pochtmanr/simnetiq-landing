@@ -8,6 +8,7 @@ import {
   DataTable,
   EmptyState,
   Loaded,
+  ProviderChip,
   Section,
   SkeletonRows,
   SkeletonStats,
@@ -24,7 +25,9 @@ import {
  * ops bot's /users posts. Emails are masked in SQL.
  * ------------------------------------------------------------------------ */
 
-const LIMIT = 100;
+/* The RPC's own ceiling. Paged 50/100 on screen, so fetching all of it once
+   keeps the pager instant. */
+const LIMIT = 500;
 
 /* The account cell is plain text: the row (and, on a phone, the card title)
    is already the link to the user, and an anchor inside it would nest. */
@@ -55,7 +58,7 @@ const COLUMNS: Column<SignupRow>[] = [
     className: "whitespace-nowrap tabular-nums text-ink-muted",
     cell: (r) => formatWhen(r.registered_at),
   },
-  { key: "via", header: "Via", className: "text-ink-muted", cell: (r) => r.provider },
+  { key: "via", header: "Via", mobile: "aside", cell: (r) => <ProviderChip provider={r.provider} /> },
 ];
 
 export function RecentSignups({ onDenied }: { onDenied: () => void }) {
@@ -116,6 +119,7 @@ export function RecentSignups({ onDenied }: { onDenied: () => void }) {
                 columns={COLUMNS}
                 rowKey={(r) => r.user_id}
                 rowHref={(r) => `/admin/users/${r.user_id}`}
+                pageSizes={[50, 100]}
                 empty={<EmptyState title="No sign-ups in this window." hint="Try a longer window above." />}
                 footer={
                   rows.length === LIMIT ? (

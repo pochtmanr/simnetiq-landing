@@ -3,10 +3,15 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { useMe } from "./Me";
 
 /* ---------------------------------------------------------------------------
  * Navigation. A top bar from `md` up; on a phone a thumb-reach tab bar with
  * the four screens used most, and "More" for the rest.
+ *
+ * Settings is everyone's; Team is drawn only for a main admin. Hiding it is a
+ * courtesy — `admin_team_*` refuses a worker with 42501 whether or not the
+ * link is on screen (see ./Me.tsx).
  * ------------------------------------------------------------------------ */
 
 type Item = { href: string; label: string; icon: string };
@@ -23,6 +28,23 @@ const SECONDARY: Item[] = [
   { href: "/admin/delivery", label: "Delivery", icon: "M3 17l5-5 4 4 8-8M15 8h5v5" },
   { href: "/admin/system", label: "System", icon: "M12 15a3 3 0 100-6 3 3 0 000 6zM19.4 15a1.7 1.7 0 00.3 1.8l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.8-.3 1.7 1.7 0 00-1 1.5V21a2 2 0 11-4 0v-.1a1.7 1.7 0 00-1.1-1.5 1.7 1.7 0 00-1.8.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.8 1.7 1.7 0 00-1.5-1H3a2 2 0 110-4h.1a1.7 1.7 0 001.5-1.1 1.7 1.7 0 00-.3-1.8l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.8.3H9a1.7 1.7 0 001-1.5V3a2 2 0 114 0v.1a1.7 1.7 0 001 1.5 1.7 1.7 0 001.8-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.8V9a1.7 1.7 0 001.5 1H21a2 2 0 110 4h-.1a1.7 1.7 0 00-1.5 1z" },
 ];
+
+const TEAM: Item = {
+  href: "/admin/team",
+  label: "Team",
+  icon: "M17 20v-1.5a3.5 3.5 0 00-3.5-3.5h-3A3.5 3.5 0 007 18.5V20M12 12a3.5 3.5 0 100-7 3.5 3.5 0 000 7M20 20v-1a3 3 0 00-2.2-2.9M4 20v-1a3 3 0 012.2-2.9",
+};
+const SETTINGS: Item = {
+  href: "/admin/settings",
+  label: "Settings",
+  icon: "M4 7h10M18 7h2M4 17h4M12 17h8M16 5v4M10 15v4",
+};
+
+/** The account-level screens: Team for owners, Settings for everyone. */
+function useAccountItems(): Item[] {
+  const { isOwner } = useMe();
+  return isOwner ? [TEAM, SETTINGS] : [SETTINGS];
+}
 
 /** Overview is active only on exactly /admin; the rest own their subtree
  *  (activations and combos belong to Money's area only loosely, so they
@@ -42,6 +64,7 @@ function Icon({ d }: { d: string }) {
 
 export function TopNav({ onSignOut }: { onSignOut: () => void }) {
   const pathname = usePathname() ?? "";
+  const account = useAccountItems();
   return (
     <header className="sticky top-0 z-30 border-b border-border bg-card/95 backdrop-blur">
       <div className="mx-auto flex w-full max-w-[1160px] items-center gap-x-[18px] px-[clamp(16px,3vw,28px)] py-[10px]">
@@ -66,9 +89,26 @@ export function TopNav({ onSignOut }: { onSignOut: () => void }) {
             );
           })}
         </nav>
-        <button type="button" onClick={onSignOut} className="ml-auto hidden text-label text-muted underline underline-offset-2 md:block">
-          Sign out
-        </button>
+        <div className="ml-auto hidden items-center gap-x-[2px] text-label md:flex">
+          {account.map((it) => {
+            const active = isActive(pathname, it.href);
+            return (
+              <Link
+                key={it.href}
+                href={it.href}
+                aria-current={active ? "page" : undefined}
+                className={`rounded-[8px] px-[10px] py-[6px] ${
+                  active ? "bg-panel-strong font-medium text-accent-deep" : "text-ink-muted hover:bg-panel hover:text-ink"
+                }`}
+              >
+                {it.label}
+              </Link>
+            );
+          })}
+          <button type="button" onClick={onSignOut} className="ml-[8px] text-label text-muted underline underline-offset-2">
+            Sign out
+          </button>
+        </div>
       </div>
     </header>
   );
@@ -77,7 +117,9 @@ export function TopNav({ onSignOut }: { onSignOut: () => void }) {
 export function BottomNav({ onSignOut }: { onSignOut: () => void }) {
   const pathname = usePathname() ?? "";
   const [more, setMore] = useState(false);
-  const moreActive = SECONDARY.some((it) => isActive(pathname, it.href));
+  const account = useAccountItems();
+  const sheet = [...SECONDARY, ...account];
+  const moreActive = sheet.some((it) => isActive(pathname, it.href));
 
   /* Close on Escape; links close it themselves when tapped. */
   useEffect(() => {
@@ -98,7 +140,7 @@ export function BottomNav({ onSignOut }: { onSignOut: () => void }) {
           <div className="absolute inset-x-0 bottom-0 rounded-t-[18px] bg-card px-[16px] pt-[10px] pb-[calc(16px+env(safe-area-inset-bottom))]">
             <div className="mx-auto mb-[10px] h-[4px] w-[36px] rounded-full bg-border" aria-hidden />
             <ul className="flex flex-col">
-              {SECONDARY.map((it) => (
+              {sheet.map((it) => (
                 <li key={it.href}>
                   <Link
                     href={it.href}

@@ -8,7 +8,7 @@ import { getAdminClient } from "./client";
  * These add nothing. Every one of them is a `security definer` function in the
  * sms-expo repo (`supabase/migrations/20260834000000_admin.sql`,
  * `20260839000000_ops_monitoring.sql`, `20260843000000_admin_p1.sql`,
- * `20260845000000_admin_money.sql`), gated by
+ * `20260845000000_admin_money.sql`, `20260846000000_admin_team.sql`), gated by
  * `is_admin()`, granted to `authenticated` and revoked from `anon`. The panel
  * is a client for them, not an authority of its own — see lib/admin/client.ts
  * for why that distinction is the entire security model.
@@ -791,6 +791,48 @@ export type ComboStats = {
   recent: ComboRecentRow[];
 };
 
+/* -- Team (sms-expo 20260846000000_admin_team.sql) -- */
+
+/** `owner` is the main admin: team management and customer deletion, at most
+ *  two live at once (a database trigger enforces it). Everyone else is a
+ *  `worker`. */
+export type TeamRole = "owner" | "worker";
+
+/** `admin_me()` — the caller, and only the caller. */
+export type AdminMe = {
+  user_id: string;
+  email: string | null;
+  role: TeamRole;
+  added_at: string;
+  invited_by: string | null;
+  invited_by_email: string | null;
+  invited_at: string | null;
+  last_seen_at: string | null;
+  /** Verified authenticator factors on the account. */
+  factor_count: number;
+};
+
+/** `revoked` = access removed; `invited` = no verified authenticator yet, so
+ *  they cannot have used the panel; `active` = everything else. */
+export type TeamStatus = "active" | "invited" | "revoked";
+
+/** One row of `admin_team_list()` (owners only). */
+export type TeamMember = {
+  user_id: string;
+  email: string | null;
+  role: TeamRole;
+  status: TeamStatus;
+  note: string | null;
+  added_at: string;
+  invited_by: string | null;
+  invited_by_email: string | null;
+  invited_at: string | null;
+  revoked_at: string | null;
+  last_seen_at: string | null;
+  last_sign_in_at: string | null;
+  factor_count: number;
+};
+
 /* ---------------------------------------------------------------------------
  * Plumbing
  * ------------------------------------------------------------------------ */
@@ -1106,5 +1148,37 @@ export const rpc = {
    *  Throws when there is no such ticket. */
   supportGet(id: string): Promise<SupportRow> {
     return callRow<SupportRow>("admin_support_get", { p_id: id });
+  },
+
+  /* -- Team (sms-expo 20260846000000_admin_team.sql). Owner-only calls raise
+   *    42501 for a worker, which arrives here as AdminDenied. Inviting and
+   *    deleting a customer go through the admin-team edge function instead —
+   *    see ./teamFunction.ts. -- */
+
+  /** `admin_me()` — the caller's own role and membership. Any admin. */
+  me(): Promise<AdminMe> {
+    return callRow<AdminMe>("admin_me", {});
+  },
+
+  /** `admin_team_list()` — owners only. */
+  teamList(): Promise<TeamMember[]> {
+    return callRows<TeamMember>("admin_team_list");
+  },
+
+  /** `admin_team_set_role(p_user uuid, p_role text, p_reason text) -> bigint`.
+   *  The two-owner ceiling and the last-owner floor are a trigger's; a breach
+   *  comes back as an Error with the trigger's own sentence. */
+  teamSetRole(userId: string, role: TeamRole, reason: string): Promise<number> {
+    return callScalar<number>("admin_team_set_role", { p_user: userId, p_role: role, p_reason: reason });
+  },
+
+  /** `admin_team_revoke(p_user uuid, p_reason text) -> bigint`. */
+  teamRevoke(userId: string, reason: string): Promise<number> {
+    return callScalar<number>("admin_team_revoke", { p_user: userId, p_reason: reason });
+  },
+
+  /** `admin_team_restore(p_user uuid, p_reason text) -> bigint`. */
+  teamRestore(userId: string, reason: string): Promise<number> {
+    return callScalar<number>("admin_team_restore", { p_user: userId, p_reason: reason });
   },
 };
