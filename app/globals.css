@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /*
- * SMS Code style system — see DESIGN.md
+ * SMS Code style system — see docs/DESIGN.md
  *
  * Structure is lifted wholesale from the reference system: flat and shadowless,
  * depth from stacked tinted panels rather than elevation, 14px cards, pill
