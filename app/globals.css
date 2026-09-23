@@ -166,6 +166,70 @@
     white-space: nowrap;
   }
 
+  /* Coin-pack chip: a pill tinted by its metal tier, holding a coin whose
+     fills come from the same tier vars. Text stays ink on every tint so the
+     contrast never depends on the tier. */
+  .coin-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    border-radius: var(--radius-pill);
+    background: var(--chip-bg);
+    border: 1px solid var(--chip-border);
+    padding: 6px 16px 6px 7px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .coin-chip__coin {
+    transition: transform 200ms ease;
+  }
+
+  .coin-chip:hover .coin-chip__coin {
+    transform: scale(1.12);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .coin-chip:hover .coin-chip__coin {
+      transform: none;
+    }
+  }
+
+  .coin-chip--bronze {
+    --chip-bg: #f6ebe1;
+    --chip-border: #e8cfbb;
+    --coin-base: #c98a5a;
+    --coin-dark: #8e5a34;
+  }
+
+  .coin-chip--silver {
+    --chip-bg: #f1f3f6;
+    --chip-border: #d6dbe3;
+    --coin-base: #a7b0be;
+    --coin-dark: #6e7786;
+  }
+
+  .coin-chip--gold {
+    --chip-bg: #fbf2d6;
+    --chip-border: #f0dc9c;
+    --coin-base: #e3b341;
+    --coin-dark: #a87c17;
+  }
+
+  .coin-chip--platinum {
+    --chip-bg: #e2f3f2;
+    --chip-border: #b7e0de;
+    --coin-base: #5fb3b3;
+    --coin-dark: #2f7a7a;
+  }
+
+  .coin-chip--diamond {
+    --chip-bg: #ece9fd;
+    --chip-border: #cdc6fa;
+    --coin-base: #7c6cf2;
+    --coin-dark: #4b3cc0;
+  }
+
   /* Text link in the one safe accent. */
   .blue-link {
     color: var(--color-accent-deep);

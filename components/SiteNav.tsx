@@ -7,6 +7,7 @@ import { track } from "@vercel/analytics";
 import { localePath, switchLocalePath, type Locale } from "../lib/i18n";
 import { LANGUAGES, NAV } from "../lib/content/common";
 import { APP_STORE_URL } from "../lib/site";
+import { AppleGlyph } from "./AppleGlyph";
 
 /*
  * The bar sits on the page's own grid — max-w-[1200px] with the same
@@ -164,6 +165,7 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
               onClick={() => track("CTA Click iOS", { placement: "nav" })}
               className="cta cta--sm max-sm:hidden"
             >
+              <AppleGlyph className="h-[14px] w-[14px]" />
               {t.cta}
             </a>
 
@@ -214,6 +216,7 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
                 }}
                 className="cta cta--sm mb-[14px] mt-[8px] w-full justify-center sm:hidden"
               >
+                <AppleGlyph className="h-[14px] w-[14px]" />
                 {t.cta}
               </a>
             </div>

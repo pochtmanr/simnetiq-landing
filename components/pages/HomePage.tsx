@@ -2,6 +2,7 @@ import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AppShot } from "../AppShot";
+import { CoinChip, type CoinTier } from "../CoinChip";
 import { HeroCta } from "../HeroCta";
 import { StoreBadges } from "../StoreBadges";
 import { localePath, type Locale } from "../../lib/i18n";
@@ -16,6 +17,9 @@ import { BLOG_POSTS } from "../../lib/content/blog";
    4.0:1, under AA for an 11px label, and one eyebrow colour across the three
    cards beats three. */
 const STEP_TINTS = ["bg-panel-deep", "bg-panel-strong", "bg-panel"];
+
+/* Coin packs climb the metal tiers in order, smallest pack first. */
+const COIN_TIERS: CoinTier[] = ["bronze", "silver", "gold", "platinum", "diamond"];
 
 function SectionHeading({
   label,
@@ -45,7 +49,7 @@ export function HomePage({ locale }: { locale: Locale }) {
       {/* Hero — the reference system's two-column split: tinted copy panel on
           the left, heavier tint on the right holding the product. The device
           bleeds off the panel's bottom edge rather than sitting inside it. */}
-      <section className="grid items-stretch gap-[22px] pb-[94px] pt-[40px] md:min-h-[min(82vh,780px)] md:grid-cols-2 md:pt-[56px]">
+      <section className="grid items-stretch gap-[22px] pt-[40px] md:min-h-[min(82vh,780px)] md:grid-cols-2 md:pt-[56px]">
         <div className="flex flex-col gap-[22px]">
           <div className="panel hero-rise flex flex-1 flex-col justify-center">
             <span className="section-label">{t.hero.label}</span>
@@ -73,9 +77,10 @@ export function HomePage({ locale }: { locale: Locale }) {
       </section>
 
 
-      {/* Stats strip */}
-      <section className="pt-[94px]" id="stats">
-        <div className="panel panel--strong grid gap-[28px] sm:grid-cols-2 lg:grid-cols-4">
+      {/* Stats strip — sits one hero-gap under the hero, in the copy panel's
+          grey, so the two read as a single block. */}
+      <section className="pt-[22px]" id="stats">
+        <div className="panel hero-rise grid grid-cols-2 gap-[28px] [animation-delay:0.18s] lg:grid-cols-4">
           {t.stats.items.map((s) => (
             <div key={s.label}>
               <span className="font-display text-[52px] font-light leading-none tracking-[-0.03em] text-accent-deep">
@@ -151,10 +156,13 @@ export function HomePage({ locale }: { locale: Locale }) {
         </p>
         <div className="mt-[28px] flex flex-wrap items-center gap-[11px]">
           <span className="text-label text-muted">{t.pricing.packsLabel}</span>
-          {t.pricing.packs.map((pack) => (
-            <span key={pack} className="tag-chip !px-[16px] !py-[7px] !text-[14px]">
-              {pack} {t.pricing.coinsUnit}
-            </span>
+          {t.pricing.packs.map((pack, i) => (
+            <CoinChip
+              key={pack}
+              amount={pack}
+              unit={t.pricing.coinsUnit}
+              tier={COIN_TIERS[Math.min(i, COIN_TIERS.length - 1)]}
+            />
           ))}
         </div>
         <div className="mt-[34px] grid gap-[22px] md:grid-cols-3">
