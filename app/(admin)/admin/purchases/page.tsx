@@ -59,7 +59,7 @@ function Feed({ rows }: { rows: PurchaseRow[] }) {
                 </td>
                 <td className="py-[7px] text-caption text-ink-muted">
                   {[
-                    r.first ? "first purchase" : null,
+                    r.is_first ? "first purchase" : null,
                     r.sandbox ? "sandbox" : null,
                     r.shortfall > 0 ? `${formatCoins(r.shortfall)} coins already spent` : null,
                   ]

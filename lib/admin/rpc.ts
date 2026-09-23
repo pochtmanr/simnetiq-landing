@@ -237,7 +237,7 @@ export type PurchaseRow = {
   /** Refunded coins that were already spent and could not be clawed back. */
   shortfall: number;
   sandbox: boolean;
-  first: boolean;
+  is_first: boolean;
 };
 
 export type PurchaseSummary = {

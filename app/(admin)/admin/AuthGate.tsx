@@ -192,6 +192,25 @@ function SignIn({ onSignedIn }: { onSignedIn: () => void }) {
   const [password, setPassword] = useState("");
   const [busy, setBusy] = useState(false);
   const [failed, setFailed] = useState(false);
+  const [resetNote, setResetNote] = useState<string | null>(null);
+
+  /* Same answer whether or not the address has an account, for the reason
+     above. The link comes back to /admin, where AuthGate picks it up. */
+  async function forgot() {
+    if (!email.trim()) {
+      setResetNote("Type your email above first.");
+      return;
+    }
+    setResetNote(null);
+    try {
+      await getAdminClient().auth.resetPasswordForEmail(email.trim(), {
+        redirectTo: `${window.location.origin}/admin`,
+      });
+    } catch {
+      /* Ignored: the answer below is the same either way. */
+    }
+    setResetNote("If that address has an account, a reset link is on its way. Open it in this browser.");
+  }
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -245,8 +264,118 @@ function SignIn({ onSignedIn }: { onSignedIn: () => void }) {
         {busy ? "Checking…" : "Continue"}
       </button>
       {failed ? <Notice>Sign in failed.</Notice> : null}
+      <button
+        type="button"
+        onClick={() => void forgot()}
+        disabled={busy}
+        className="mt-[14px] text-label text-muted underline underline-offset-2"
+      >
+        Forgot password?
+      </button>
+      {resetNote ? <Notice>{resetNote}</Notice> : null}
     </form>
   );
+}
+
+/* ---------------------------------------------------------------------------
+ * Password reset
+ * ------------------------------------------------------------------------ */
+
+const MIN_PASSWORD = 12;
+
+/**
+ * Shown after a password-reset link. The link has already signed this browser
+ * in (aal1 only), so all that is left is the new password; the gate then
+ * continues to the authenticator step as usual.
+ */
+function SetPassword({ onDone, onSignOut }: { onDone: () => void; onSignOut: () => void }) {
+  const [password, setPassword] = useState("");
+  const [confirm, setConfirm] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [message, setMessage] = useState<string | null>(null);
+
+  async function submit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (busy) return;
+    if (password.length < MIN_PASSWORD) {
+      setMessage(`Use at least ${MIN_PASSWORD} characters.`);
+      return;
+    }
+    if (password !== confirm) {
+      setMessage("The two passwords do not match.");
+      return;
+    }
+    setBusy(true);
+    setMessage(null);
+    try {
+      const { error } = await getAdminClient().auth.updateUser({ password });
+      if (error) {
+        setMessage(error.message || "Could not set the password. Request a new link.");
+        return;
+      }
+      onDone();
+    } catch {
+      setMessage("Could not set the password. Request a new link.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <Screen>
+      <h1 className="font-sans text-subheading">Set a new password</h1>
+      <form onSubmit={submit} className="mt-[18px] flex flex-col gap-[10px]">
+        <input
+          className="field"
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          autoComplete="new-password"
+          placeholder={`New password (${MIN_PASSWORD}+ characters)`}
+          aria-label="New password"
+          required
+        />
+        <input
+          className="field"
+          type="password"
+          value={confirm}
+          onChange={(e) => setConfirm(e.target.value)}
+          autoComplete="new-password"
+          placeholder="Repeat it"
+          aria-label="Repeat new password"
+          required
+        />
+        <button type="submit" className="cta mt-[4px] w-full justify-center disabled:opacity-60" disabled={busy}>
+          {busy ? "Saving…" : "Save password"}
+        </button>
+      </form>
+      {message ? <Notice>{message}</Notice> : null}
+      <SignOutLink onSignOut={onSignOut} />
+    </Screen>
+  );
+}
+
+/**
+ * A reset link sent from the Supabase dashboard arrives as
+ * `#access_token=…&refresh_token=…&type=recovery` (implicit flow). The panel's
+ * client is PKCE, which ignores that shape, so the session is taken from the
+ * hash by hand. The hash is wiped first either way: those tokens must not
+ * survive in the address bar or history.
+ */
+async function consumeRecoveryHash(): Promise<boolean> {
+  if (typeof window === "undefined" || !window.location.hash) return false;
+  const params = new URLSearchParams(window.location.hash.slice(1));
+  if (params.get("type") !== "recovery") return false;
+  window.history.replaceState(null, "", window.location.pathname + window.location.search);
+  const access_token = params.get("access_token");
+  const refresh_token = params.get("refresh_token");
+  if (!access_token || !refresh_token) return false;
+  try {
+    const { error } = await getAdminClient().auth.setSession({ access_token, refresh_token });
+    return !error;
+  } catch {
+    return false;
+  }
 }
 
 /* ---------------------------------------------------------------------------
@@ -579,6 +708,8 @@ export function AuthGate({ children }: { children: ReactNode }) {
      avoids the sign-in form flashing in front of an operator who is signed
      in. */
   const [state, setState] = useState<AdminState | null>(null);
+  /* True after a password-reset link: ask for the new password first. */
+  const [recovering, setRecovering] = useState(false);
 
   const refresh = useCallback(async () => {
     setState(await currentState());
@@ -586,16 +717,25 @@ export function AuthGate({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     let cancelled = false;
+    /* A reset requested from the form comes back as ?code=… (PKCE); the
+       client exchanges it on its own and announces PASSWORD_RECOVERY. */
+    const { data: sub } = getAdminClient().auth.onAuthStateChange((event) => {
+      if (event === "PASSWORD_RECOVERY" && !cancelled) setRecovering(true);
+    });
     void (async () => {
+      const fromHash = await consumeRecoveryHash();
+      if (fromHash && !cancelled) setRecovering(true);
       const next = await currentState();
       if (!cancelled) setState(next);
     })();
     return () => {
       cancelled = true;
+      sub.subscription.unsubscribe();
     };
   }, []);
 
   const signOut = useCallback(async () => {
+    setRecovering(false);
     try {
       await getAdminClient().auth.signOut();
     } catch {
@@ -606,6 +746,21 @@ export function AuthGate({ children }: { children: ReactNode }) {
   }, [refresh]);
 
   if (state === null) return <div className="flex-1" aria-hidden />;
+
+  /* With an authenticator already set up, Supabase refuses a password change
+     on an aal1 session, so the code comes first (needsChallenge renders
+     below) and the new password right after. */
+  if (recovering && (state === "needsEnrol" || state === "ready")) {
+    return (
+      <SetPassword
+        onDone={() => {
+          setRecovering(false);
+          void refresh();
+        }}
+        onSignOut={signOut}
+      />
+    );
+  }
 
   if (state === "anon") {
     return (
