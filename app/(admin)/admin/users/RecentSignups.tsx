@@ -1,10 +1,22 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { formatCoins, formatWhen } from "../../../../lib/admin/format";
-import { rpc } from "../../../../lib/admin/rpc";
-import { Figure, LoadError, TD, TH, THEAD_ROW, useAdminData, WindowPicker } from "../ui";
+import { rpc, type SignupRow } from "../../../../lib/admin/rpc";
+import {
+  Badge,
+  DataTable,
+  EmptyState,
+  Loaded,
+  Section,
+  SkeletonRows,
+  SkeletonStats,
+  Stat,
+  StatGrid,
+  useAdminData,
+  WindowPicker,
+  type Column,
+} from "../ui";
 
 /* ---------------------------------------------------------------------------
  * What the Users page shows before any search: accounts that became
@@ -13,6 +25,38 @@ import { Figure, LoadError, TD, TH, THEAD_ROW, useAdminData, WindowPicker } from
  * ------------------------------------------------------------------------ */
 
 const LIMIT = 100;
+
+/* The account cell is plain text: the row (and, on a phone, the card title)
+   is already the link to the user, and an anchor inside it would nest. */
+const COLUMNS: Column<SignupRow>[] = [
+  {
+    key: "account",
+    header: "Account",
+    mobile: "title",
+    className: "break-all",
+    cell: (r) => r.email_masked ?? <span className="font-mono">{r.user_id.slice(0, 8)}…</span>,
+  },
+  {
+    key: "balance",
+    header: "Balance",
+    align: "right",
+    mobile: "aside",
+    cell: (r) => <span className="font-medium">{formatCoins(r.balance_coins)}</span>,
+  },
+  {
+    key: "paid",
+    header: "Paid",
+    mobile: "aside",
+    cell: (r) => (r.purchased ? <Badge tone="good">paid</Badge> : <span className="text-caption text-muted">not yet</span>),
+  },
+  {
+    key: "registered",
+    header: "Registered",
+    className: "whitespace-nowrap tabular-nums text-ink-muted",
+    cell: (r) => formatWhen(r.registered_at),
+  },
+  { key: "via", header: "Via", className: "text-ink-muted", cell: (r) => r.provider },
+];
 
 export function RecentSignups({ onDenied }: { onDenied: () => void }) {
   const [hours, setHours] = useState(168);
@@ -24,6 +68,7 @@ export function RecentSignups({ onDenied }: { onDenied: () => void }) {
     String(hours),
   );
 
+  /* A denial replaces the whole Users screen, not just this section. */
   const denied = status.phase === "denied";
   useEffect(() => {
     if (denied) onDenied();
@@ -31,64 +76,57 @@ export function RecentSignups({ onDenied }: { onDenied: () => void }) {
   if (denied) return null;
 
   return (
-    <section>
-      <div className="flex flex-wrap items-baseline justify-between gap-[10px]">
-        <h2 className="font-sans text-subheading">Recent sign-ups</h2>
-        <WindowPicker hours={hours} onChange={setHours} />
-      </div>
-
-      {status.phase === "loading" ? (
-        <p className="mt-[12px] text-label text-muted" role="status">Loading…</p>
-      ) : status.phase === "error" ? (
-        <div className="mt-[12px]">
-          <LoadError title="Could not load sign-ups" message={status.message} retry={retry} />
-        </div>
-      ) : (
-        <>
-          <dl className="mt-[12px] grid max-w-[560px] grid-cols-3 gap-x-[20px]">
-            <Figure label="Sign-ups" value={formatCoins(status.data.summary.signups)} />
-            <Figure label="Anon installs" value={formatCoins(status.data.summary.anon_installs)} />
-            <Figure label="First purchases" value={formatCoins(status.data.summary.first_purchases)} />
-          </dl>
-          <div className="mt-[16px] overflow-x-auto">
-            <table className="w-full min-w-[640px] border-collapse text-label">
-              <thead>
-                <tr className={THEAD_ROW}>
-                  <th scope="col" className={TH}>Registered</th>
-                  <th scope="col" className={TH}>Account</th>
-                  <th scope="col" className={TH}>Via</th>
-                  <th scope="col" className={TH}>Paid</th>
-                  <th scope="col" className={`${TH} text-right`}>Balance</th>
-                </tr>
-              </thead>
-              <tbody>
-                {status.data.rows.length === 0 ? (
-                  <tr>
-                    <td colSpan={5} className="py-[14px] text-body text-ink-muted">No sign-ups in this window.</td>
-                  </tr>
-                ) : (
-                  status.data.rows.map((r) => (
-                    <tr key={r.user_id} className="border-b border-border hover:bg-panel">
-                      <td className={`${TD} whitespace-nowrap tabular-nums text-ink-muted`}>{formatWhen(r.registered_at)}</td>
-                      <td className={TD}>
-                        <Link href={`/admin/users/${r.user_id}`} className="ghost-link">
-                          {r.email_masked ?? r.user_id.slice(0, 8)}
-                        </Link>
-                      </td>
-                      <td className={`${TD} text-ink-muted`}>{r.provider}</td>
-                      <td className={TD}>{r.purchased ? "yes" : "—"}</td>
-                      <td className={`${TD} text-right tabular-nums`}>{formatCoins(r.balance_coins)}</td>
-                    </tr>
-                  ))
-                )}
-              </tbody>
-            </table>
+    <Section title="Recent sign-ups" actions={<WindowPicker hours={hours} onChange={setHours} />}>
+      <Loaded
+        status={status}
+        retry={retry}
+        title="Could not load sign-ups"
+        skeleton={
+          <div className="flex flex-col gap-[16px]">
+            <SkeletonStats n={3} />
+            <SkeletonRows n={4} />
           </div>
-          {status.data.rows.length === LIMIT ? (
-            <p className="mt-[8px] text-caption text-muted">Showing the newest {LIMIT}.</p>
-          ) : null}
-        </>
-      )}
-    </section>
+        }
+      >
+        {({ summary, rows }) => (
+          <>
+            <StatGrid wide={3}>
+              <Stat
+                label="Sign-ups"
+                value={formatCoins(summary.signups)}
+                help="Registered (non-anonymous, not deleted) accounts whose registration falls in the window. Counts up to 500."
+                source="admin_users_summary → ops_signup_rows"
+              />
+              <Stat
+                label="Anon installs"
+                value={formatCoins(summary.anon_installs)}
+                help="Accounts created in the window that are still anonymous — roughly, app installs that have not signed in yet. An install that later registers moves to Sign-ups."
+                source="auth.users where is_anonymous"
+              />
+              <Stat
+                label="First purchases"
+                value={formatCoins(summary.first_purchases)}
+                help="Purchases in the window that were the buyer's first ever. Sandbox (test) purchases are excluded."
+                source="ops_purchase_rows, is_first and not sandbox"
+              />
+            </StatGrid>
+            <div className="mt-[16px]">
+              <DataTable
+                rows={rows}
+                columns={COLUMNS}
+                rowKey={(r) => r.user_id}
+                rowHref={(r) => `/admin/users/${r.user_id}`}
+                empty={<EmptyState title="No sign-ups in this window." hint="Try a longer window above." />}
+                footer={
+                  rows.length === LIMIT ? (
+                    <p className="text-caption text-muted">Showing the newest {LIMIT}.</p>
+                  ) : null
+                }
+              />
+            </div>
+          </>
+        )}
+      </Loaded>
+    </Section>
   );
 }

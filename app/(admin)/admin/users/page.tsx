@@ -1,11 +1,20 @@
 "use client";
 
-import Link from "next/link";
 import { useCallback, useState, type FormEvent } from "react";
 import { AuthGate, DeniedBody } from "../AuthGate";
 import { RecentSignups } from "./RecentSignups";
 import { formatCoins, formatWhen } from "../../../../lib/admin/format";
 import { isAdminDenied, rpc, type UserSearchRow } from "../../../../lib/admin/rpc";
+import {
+  Badge,
+  DataTable,
+  EmptyState,
+  EntityLink,
+  PageHeader,
+  RiskBadge,
+  SkeletonRows,
+  type Column,
+} from "../ui";
 
 /* ---------------------------------------------------------------------------
  * User search.
@@ -29,10 +38,6 @@ const LIMIT = 50;
  * Cells
  * ------------------------------------------------------------------------ */
 
-const TH =
-  "px-[10px] py-[8px] text-left text-caption font-semibold uppercase tracking-[0.06em] text-muted whitespace-nowrap";
-const TD = "px-[10px] py-[8px] align-middle whitespace-nowrap";
-
 /**
  * The account column.
  *
@@ -45,36 +50,67 @@ const TD = "px-[10px] py-[8px] align-middle whitespace-nowrap";
 function Account({ row }: { row: UserSearchRow }) {
   if (row.has_no_email) {
     return (
-      <span className="text-ink-muted">
-        <span className="mr-[8px] inline-flex items-center rounded-pill bg-panel-strong px-[8px] py-[2px] text-caption font-medium text-accent-deep">
-          anonymous
-        </span>
-        no email on the account
+      <span className="inline-flex flex-wrap items-center gap-[6px] text-ink-muted">
+        <Badge tone="info">anonymous</Badge>
+        <span className="font-normal">no email on the account</span>
       </span>
     );
   }
-  return <span className="text-ink">{row.email_masked}</span>;
+  return <span className="break-all text-ink">{row.email_masked}</span>;
 }
 
-/** Risk is the reason this table exists, so it gets the only colour on it.
- *  The bands come from the SQL; anything unrecognised falls through neutral
- *  rather than being coerced into a band it may not be. */
+/** Risk is the reason this table exists, so it gets the colour. The bands
+ *  come from the SQL; RiskBadge leaves anything unrecognised neutral rather
+ *  than coercing it into a band it may not be. */
 function Risk({ band, score }: { band: string; score: number }) {
-  const tone =
-    band === "investigate"
-      ? "bg-panel-deep text-ink"
-      : band === "watch"
-        ? "bg-panel-mid text-ink"
-        : "bg-panel text-ink-muted";
   return (
-    <span
-      className={`inline-flex items-center gap-[6px] rounded-pill px-[8px] py-[2px] text-caption ${tone}`}
-    >
-      <span className="font-medium">{band}</span>
-      <span className="tabular-nums">{score}</span>
+    <span className="inline-flex items-center gap-[6px] whitespace-nowrap">
+      <RiskBadge band={band} />
+      <span className="text-caption tabular-nums text-muted" title="Risk score">
+        {score}
+      </span>
     </span>
   );
 }
+
+/* Account and user id are the only text columns; balance and risk ride on
+   the right of each phone card because they are what the operator scans. The
+   account cell is plain text — the row (and the card title) is the link, and
+   the user id column is a real anchor for keyboard and middle-click. */
+const COLUMNS: Column<UserSearchRow>[] = [
+  { key: "account", header: "Account", mobile: "title", cell: (row) => <Account row={row} /> },
+  {
+    key: "balance",
+    header: "Balance",
+    align: "right",
+    mobile: "aside",
+    cell: (row) => <span className="font-medium">{formatCoins(row.balance_coins)}</span>,
+  },
+  {
+    key: "purchased",
+    header: "Purchased",
+    align: "right",
+    cell: (row) => <span className="tabular-nums text-ink-muted">{formatCoins(row.purchased_coins)}</span>,
+  },
+  {
+    key: "activations",
+    header: "Activations",
+    align: "right",
+    cell: (row) => <span className="tabular-nums text-ink-muted">{formatCoins(row.activations)}</span>,
+  },
+  { key: "risk", header: "Risk", mobile: "aside", cell: (row) => <Risk band={row.risk_band} score={row.risk_score} /> },
+  {
+    key: "created",
+    header: "Created",
+    className: "whitespace-nowrap text-ink-muted",
+    cell: (row) => formatWhen(row.created_at),
+  },
+  {
+    key: "id",
+    header: "User id",
+    cell: (row) => <EntityLink type="user" id={row.user_id} />,
+  },
+];
 
 /* ---------------------------------------------------------------------------
  * Failure
@@ -156,15 +192,14 @@ function UserSearch() {
 
   return (
     <div>
-      <h1 className="font-sans text-heading-sm">Users</h1>
-      <p className="mt-[4px] text-label text-ink-muted">
-        Search by email fragment or by user id. Addresses are masked by the
-        database before they reach this page.
-      </p>
+      <PageHeader
+        title="Users"
+        subtitle="Search by email fragment or by user id. Addresses are masked by the database before they reach this page."
+      />
 
-      <form onSubmit={submit} className="mt-[16px] flex flex-wrap gap-[8px]">
+      <form onSubmit={submit} className="flex flex-wrap gap-[8px]">
         <input
-          className="field max-w-[420px] flex-1 py-[9px] text-[14px]"
+          className="field min-w-0 max-w-[420px] flex-1 py-[9px] text-[14px]"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="email fragment or uuid"
@@ -191,77 +226,35 @@ function UserSearch() {
           />
         ) : rows === null ? (
           busy ? (
-            <p className="text-label text-muted">Searching…</p>
+            <SkeletonRows n={4} />
           ) : (
             <RecentSignups onDenied={onDenied} />
           )
-        ) : rows.length === 0 ? (
-          <p className="text-label text-muted">
-            Nothing matched “{ran}”.
-          </p>
+        ) : busy ? (
+          <SkeletonRows n={4} />
         ) : (
           <>
-            <div className="overflow-x-auto rounded-card border border-border bg-card">
-              <table className="w-full border-collapse text-label">
-                <thead>
-                  <tr className="border-b border-border">
-                    <th className={TH}>Account</th>
-                    <th className={TH}>Balance</th>
-                    <th className={TH}>Purchased</th>
-                    <th className={TH}>Activations</th>
-                    <th className={TH}>Risk</th>
-                    <th className={TH}>Created</th>
-                    <th className={TH}>User id</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {rows.map((row) => (
-                    <tr
-                      key={row.user_id}
-                      className="border-b border-border last:border-b-0 hover:bg-panel"
-                    >
-                      <td className={TD}>
-                        <Link
-                          href={`/admin/users/${row.user_id}`}
-                          className="ghost-link"
-                        >
-                          <Account row={row} />
-                        </Link>
-                      </td>
-                      <td className={`${TD} tabular-nums`}>
-                        {formatCoins(row.balance_coins)}
-                      </td>
-                      <td className={`${TD} tabular-nums text-ink-muted`}>
-                        {formatCoins(row.purchased_coins)}
-                      </td>
-                      <td className={`${TD} tabular-nums text-ink-muted`}>
-                        {formatCoins(row.activations)}
-                      </td>
-                      <td className={TD}>
-                        <Risk band={row.risk_band} score={row.risk_score} />
-                      </td>
-                      <td className={`${TD} text-ink-muted`}>
-                        {formatWhen(row.created_at)}
-                      </td>
-                      <td className={`${TD} font-mono text-caption text-muted`}>
-                        <Link
-                          href={`/admin/users/${row.user_id}`}
-                          className="ghost-link"
-                        >
-                          {row.user_id}
-                        </Link>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            <p className="mt-[8px] text-caption text-muted">
-              {rows.length} {rows.length === 1 ? "account" : "accounts"}
-              {rows.length === LIMIT
-                ? ` — the limit. Narrow the query; there may be more.`
-                : ""}
-            </p>
+            <DataTable
+              rows={rows}
+              columns={COLUMNS}
+              rowKey={(row) => row.user_id}
+              rowHref={(row) => `/admin/users/${row.user_id}`}
+              rowTone={(row) => (row.risk_band === "investigate" ? "bad" : null)}
+              empty={
+                <EmptyState
+                  title={`Nothing matched “${ran}”.`}
+                  hint="Try a shorter email fragment, or paste the full user id."
+                />
+              }
+            />
+            {rows.length ? (
+              <p className="mt-[8px] text-caption text-muted">
+                {rows.length} {rows.length === 1 ? "account" : "accounts"}
+                {rows.length === LIMIT
+                  ? ` — the limit. Narrow the query; there may be more.`
+                  : ""}
+              </p>
+            ) : null}
           </>
         )}
       </div>

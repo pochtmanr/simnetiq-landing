@@ -69,3 +69,72 @@ export function formatWhen(iso: string | null | undefined): string {
   if (Number.isNaN(t.getTime())) return NOTHING;
   return `${t.toISOString().slice(0, 10)} ${t.toISOString().slice(11, 19)} UTC`;
 }
+
+/** A percentage already on a 0–100 scale (as every `*_pct` column is):
+ *  `73.5%`. One decimal by default; pass 0 for a whole number. */
+export function formatPct(value: Numeric, digits = 1): string {
+  const n = toNumber(value);
+  if (n === null) return NOTHING;
+  return `${n.toFixed(digits)}%`;
+}
+
+/** A dollar amount with an explicit sign, for profit and deltas: `+$12.40`,
+ *  `−$3.10`, `$0.00`. The minus is U+2212 so it lines up with the plus in
+ *  tabular figures. */
+export function formatUsdSigned(value: Numeric): string {
+  const n = toNumber(value);
+  if (n === null) return NOTHING;
+  if (n === 0) return USD.format(0);
+  return `${n > 0 ? "+" : "−"}${USD.format(Math.abs(n))}`;
+}
+
+/** How long ago, coarse: `just now`, `3m ago`, `5h ago`, `2d ago`. Past 30
+ *  days it falls back to the short date, because "94d ago" makes the reader do
+ *  arithmetic. A future timestamp (clock skew) reads as `just now`.
+ *
+ *  Relative time depends on the clock at render, so a server render and the
+ *  client one can differ — render it only in client components, or accept the
+ *  hydration warning's one-tick mismatch. `now` is injectable for tests. */
+export function formatRelative(
+  iso: string | null | undefined,
+  now: number = Date.now(),
+): string {
+  if (!iso) return NOTHING;
+  const t = new Date(iso).getTime();
+  if (Number.isNaN(t)) return NOTHING;
+  const seconds = Math.floor((now - t) / 1000);
+  if (seconds < 45) return "just now";
+  const minutes = Math.round(seconds / 60);
+  if (minutes < 60) return `${minutes}m ago`;
+  const hours = Math.round(minutes / 60);
+  if (hours < 48) return `${hours}h ago`;
+  const days = Math.round(hours / 24);
+  if (days <= 30) return `${days}d ago`;
+  return formatShortDate(iso);
+}
+
+const MONTHS = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+];
+
+/** A compact UTC date for chart axes and cards: `Sep 23`, or `Sep 23 14:00`
+ *  with `withTime`. UTC for the same reason as formatWhen. */
+export function formatShortDate(
+  iso: string | null | undefined,
+  withTime = false,
+): string {
+  if (!iso) return NOTHING;
+  const t = new Date(iso);
+  if (Number.isNaN(t.getTime())) return NOTHING;
+  const date = `${MONTHS[t.getUTCMonth()]} ${t.getUTCDate()}`;
+  return withTime ? `${date} ${t.toISOString().slice(11, 16)}` : date;
+}
+
+/** A country dial code as a user reads it: `+44`. Null stays an em dash
+ *  rather than `+null`; a value that already carries a plus is not doubled. */
+export function formatDial(value: Numeric): string {
+  if (value === null || value === undefined || value === "") return NOTHING;
+  const s = String(value).trim().replace(/^\+/, "");
+  return s ? `+${s}` : NOTHING;
+}

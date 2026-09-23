@@ -1,8 +1,26 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import AuthGate, { DeniedBody } from "../AuthGate";
-import { Figure, Section, TD, TH } from "../ui";
+import {
+  Card,
+  comboHref,
+  DataTable,
+  EmptyState,
+  entityHref,
+  isUuid,
+  LoadError,
+  PageHeader,
+  RefreshButton,
+  Section,
+  SkeletonRows,
+  SkeletonStats,
+  Stat,
+  StatGrid,
+  type Column,
+} from "../ui";
+import { LineChart } from "../components/Charts";
 import {
   isAdminDenied,
   rpc,
@@ -13,7 +31,6 @@ import {
   type ProviderBalanceRow,
 } from "../../../../lib/admin/rpc";
 import { formatCoins, formatUsd, formatWhen } from "../../../../lib/admin/format";
-import LineChart from "./LineChart";
 
 /* ---------------------------------------------------------------------------
  * Delivery: is the product actually handing out SMS codes?
@@ -64,186 +81,212 @@ function dial(v: number | null | undefined): string {
   return v === null || v === undefined ? "—" : `+${v}`;
 }
 
+function secs(v: number | null | undefined): string {
+  return v === null || v === undefined ? "—" : `${v}s`;
+}
 
 /* The operator's own warn threshold lives in the edge function's env; this is
    only a colour cue and deliberately matches its default. */
 const BALANCE_WARN_USD = 20;
 const SUCCESS_WARN_PCT = 70;
 
+const lowSuccess = (v: number | null) => v !== null && v < SUCCESS_WARN_PCT;
+
 function Kpis({ day, week }: { day: OpsDigest; week: OpsDigest }) {
   return (
-    <dl className="mt-[20px] grid grid-cols-2 gap-x-[20px] gap-y-[14px] sm:grid-cols-4 lg:grid-cols-8">
-      <Figure
+    <StatGrid>
+      <Stat
         label="Success 24h"
         value={pct(day.success_pct)}
-        alert={day.success_pct !== null && day.success_pct < SUCCESS_WARN_PCT}
-        note={`${day.delivered} of ${day.issued} issued`}
+        tone={lowSuccess(day.success_pct) ? "bad" : "neutral"}
+        sub={`${day.delivered} of ${day.issued} issued`}
+        help={`Numbers that received an SMS ÷ numbers issued. Purchases where no number was issued (provider or claim failures) are not in the denominator. Red below ${SUCCESS_WARN_PCT}%.`}
+        source="admin_ops_digest — the same SQL as the Telegram digest."
       />
-      <Figure
+      <Stat
         label="Success 7d"
         value={pct(week.success_pct)}
-        alert={week.success_pct !== null && week.success_pct < SUCCESS_WARN_PCT}
-        note={`${week.delivered} of ${week.issued} issued`}
+        tone={lowSuccess(week.success_pct) ? "bad" : "neutral"}
+        sub={`${week.delivered} of ${week.issued} issued`}
+        help="The same rate over the last 7 days — smooths out a bad hour."
       />
-      <Figure label="Purchases 24h" value={formatCoins(day.purchases)} note={`7d ${formatCoins(week.purchases)}`} />
-      <Figure
+      <Stat
+        label="Purchases 24h"
+        value={formatCoins(day.purchases)}
+        sub={`7d ${formatCoins(week.purchases)}`}
+        help="Number purchases (activations started) in the app, whether or not a number was issued."
+      />
+      <Stat
         label="Provider failed 24h"
         value={formatCoins(day.provider_failed)}
-        alert={day.provider_failed > 0}
-        note={`7d ${formatCoins(week.provider_failed)}`}
+        tone={day.provider_failed > 0 ? "bad" : "neutral"}
+        sub={`7d ${formatCoins(week.provider_failed)}`}
+        help="OnlineSim refused to hand out a number (no stock, error, low balance). The user was refunded."
       />
-      <Figure label="Expired 24h" value={formatCoins(day.expired)} note={`7d ${formatCoins(week.expired)}`} />
-      <Figure
+      <Stat
+        label="Expired 24h"
+        value={formatCoins(day.expired)}
+        sub={`7d ${formatCoins(week.expired)}`}
+        help="A number was issued but no SMS arrived before it timed out. The user was refunded."
+      />
+      <Stat
         label="Median to SMS"
-        value={day.median_sms_seconds === null ? "—" : `${day.median_sms_seconds}s`}
-        note={`7d ${week.median_sms_seconds === null ? "—" : `${week.median_sms_seconds}s`}`}
+        value={secs(day.median_sms_seconds)}
+        sub={`7d ${secs(week.median_sms_seconds)}`}
+        help="Half of delivered codes arrived faster than this, counted from when the number was issued."
       />
-      <Figure label="Net revenue 24h" value={formatUsd(day.revenue_usd)} note={`7d ${formatUsd(week.revenue_usd)}`} />
-      <Figure
+      <Stat
+        label="Net revenue 24h"
+        value={formatUsd(day.revenue_usd)}
+        sub={`7d ${formatUsd(week.revenue_usd)}`}
+        href="/admin/money"
+        help="In-app purchase money after Apple's cut, minus store refunds. Sandbox excluded."
+      />
+      <Stat
         label="OnlineSim balance"
         value={formatUsd(day.balance_usd)}
-        alert={day.balance_usd !== null && day.balance_usd < BALANCE_WARN_USD}
-        note={day.balance_burn_24h === null ? formatWhen(day.balance_at) : `24h burn ${formatUsd(day.balance_burn_24h)}`}
+        tone={day.balance_usd !== null && day.balance_usd < BALANCE_WARN_USD ? "bad" : "neutral"}
+        sub={day.balance_burn_24h === null ? formatWhen(day.balance_at) : `24h burn ${formatUsd(day.balance_burn_24h)}`}
+        href="/admin/money"
+        help={`What is left on the OnlineSim account. Red below $${BALANCE_WARN_USD}. Burn is the drop over 24h; a top-up in that window makes it look smaller.`}
+        source="provider_balance_log, snapshotted every 15 minutes."
       />
-    </dl>
+    </StatGrid>
   );
 }
 
 /** The rest of the digest: what did not deliver, and the money side. */
 function MoreKpis({ day, week }: { day: OpsDigest; week: OpsDigest }) {
   return (
-    <dl className="grid grid-cols-2 gap-x-[20px] gap-y-[14px] sm:grid-cols-4 lg:grid-cols-8">
-      <Figure label="Claim failed 24h" value={formatCoins(day.claim_failed)} alert={day.claim_failed > 0} note={`7d ${formatCoins(week.claim_failed)}`} />
-      <Figure label="Cancelled 24h" value={formatCoins(day.cancelled)} note={`7d ${formatCoins(week.cancelled)}`} />
-      <Figure label="In flight" value={formatCoins(day.in_flight)} note="waiting for an SMS now" />
-      <Figure label="IAP 24h" value={formatCoins(day.iap_count)} note={`7d ${formatCoins(week.iap_count)}`} />
-      <Figure label="Store refunds 24h" value={formatCoins(day.store_refunds)} alert={day.store_refunds > 0} note={`7d ${formatCoins(week.store_refunds)}`} />
-      <Figure label="Coins earned 24h" value={formatCoins(day.coins_spent)} note={`7d ${formatCoins(week.coins_spent)}`} />
-      <Figure label="Sign-ups 24h" value={formatCoins(day.signups)} note={`7d ${formatCoins(week.signups)}`} />
-      <Figure label="Anon installs 24h" value={formatCoins(day.anon_installs)} note={`7d ${formatCoins(week.anon_installs)}`} />
-    </dl>
+    <StatGrid>
+      <Stat
+        label="Claim failed 24h"
+        value={formatCoins(day.claim_failed)}
+        tone={day.claim_failed > 0 ? "bad" : "neutral"}
+        sub={`7d ${formatCoins(week.claim_failed)}`}
+        help="OnlineSim took the order but we could not record the number. Usually a bug on our side — look at the failures below."
+      />
+      <Stat
+        label="Cancelled 24h"
+        value={formatCoins(day.cancelled)}
+        sub={`7d ${formatCoins(week.cancelled)}`}
+        help="The user gave the number back before an SMS came."
+      />
+      <Stat label="In flight" value={formatCoins(day.in_flight)} sub="waiting for an SMS now" />
+      <Stat
+        label="IAP 24h"
+        value={formatCoins(day.iap_count)}
+        sub={`7d ${formatCoins(week.iap_count)}`}
+        href="/admin/purchases"
+        help="Coin packs bought in the App Store."
+      />
+      <Stat
+        label="Store refunds 24h"
+        value={formatCoins(day.store_refunds)}
+        tone={day.store_refunds > 0 ? "bad" : "neutral"}
+        sub={`7d ${formatCoins(week.store_refunds)}`}
+        href="/admin/purchases"
+        help="Refunds Apple granted on coin packs."
+      />
+      <Stat
+        label="Coins earned 24h"
+        value={formatCoins(day.coins_spent)}
+        sub={`7d ${formatCoins(week.coins_spent)}`}
+        help="Coins users spent on numbers that were not refunded."
+      />
+      <Stat label="Sign-ups 24h" value={formatCoins(day.signups)} sub={`7d ${formatCoins(week.signups)}`} />
+      <Stat
+        label="Anon installs 24h"
+        value={formatCoins(day.anon_installs)}
+        sub={`7d ${formatCoins(week.anon_installs)}`}
+        help="New anonymous sessions — app opens that have not signed up yet."
+      />
+    </StatGrid>
   );
 }
 
-function TopFailing({ rows }: { rows: OpsDigest["top_failing"] }) {
-  if (!rows?.length) return <p className="text-body text-ink-muted">No failed activations in the last 24h.</p>;
-  return (
-    <div className="overflow-x-auto">
-      <table className="w-full min-w-[480px] border-collapse text-label">
-        <thead>
-          <tr className="border-b border-border text-caption uppercase tracking-[0.07em] text-muted">
-            <th scope="col" className={TH}>Service</th>
-            <th scope="col" className={TH}>Country</th>
-            <th scope="col" className={`${TH} text-right`}>Failures</th>
-            <th scope="col" className="py-[7px] text-left font-medium">Usual reason</th>
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((r) => (
-            <tr key={`${r.service}:${r.country_dial}`} className="border-b border-border">
-              <td className={`${TD} font-medium`}>{r.service}</td>
-              <td className={`${TD} tabular-nums text-ink-muted`}>{dial(r.country_dial)}</td>
-              <td className={`${TD} text-right tabular-nums`}>{formatCoins(r.failures)}</td>
-              <td className="py-[7px] text-ink-muted">{r.reason ?? "—"}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
+type Failing = OpsDigest["top_failing"][number];
+
+const FAILING_COLUMNS: Column<Failing>[] = [
+  {
+    key: "combo",
+    header: "Service",
+    mobile: "title",
+    cell: (r) => <span className="font-medium">{r.service}</span>,
+  },
+  { key: "country", header: "Country", mobile: "title", cell: (r) => <span className="tabular-nums text-ink-muted">{dial(r.country_dial)}</span> },
+  { key: "failures", header: "Failures", align: "right", mobile: "aside", cell: (r) => <span className="text-bad">{formatCoins(r.failures)}</span> },
+  { key: "reason", header: "Usual reason", cell: (r) => <span className="text-ink-muted">{r.reason ?? "—"}</span> },
+];
+
+const COMBO_COLUMNS: Column<DeliveryComboRow>[] = [
+  { key: "service", header: "Service", mobile: "title", cell: (r) => <span className="font-medium">{r.service}</span> },
+  { key: "country", header: "Country", mobile: "title", cell: (r) => <span className="tabular-nums text-ink-muted">{dial(r.country_dial)}</span> },
+  {
+    key: "success",
+    header: "Success",
+    align: "right",
+    mobile: "aside",
+    cell: (r) => <span className={lowSuccess(r.success_pct) ? "font-semibold text-bad" : ""}>{pct(r.success_pct)}</span>,
+  },
+  { key: "attempts", header: "Attempts", align: "right", cell: (r) => formatCoins(r.attempts) },
+  { key: "delivered", header: "Delivered", align: "right", cell: (r) => formatCoins(r.delivered) },
+  { key: "median", header: "Median SMS", align: "right", cell: (r) => <span className="text-ink-muted">{secs(r.median_sms_seconds)}</span> },
+  { key: "fail", header: "Top failure", cell: (r) => <span className="text-ink-muted">{r.top_fail_reason ?? "—"}</span> },
+];
+
+/* 20260845000000_admin_money.sql adds a top-level `activation_id` column to
+   admin_recent_failures (it strips the id out of `detail`). Before that
+   migration is applied the column is absent, so `detail` stays the fallback. */
+function failureActivationId(r: OpsEventRow): string | null {
+  const direct = r.activation_id;
+  const fromDetail = r.detail?.activation_id;
+  const id = typeof direct === "string" ? direct : typeof fromDetail === "string" ? fromDetail : null;
+  return isUuid(id) ? id : null;
 }
 
-function CombosTable({ rows }: { rows: DeliveryComboRow[] }) {
-  return (
-    <div className="overflow-x-auto">
-      <table className="w-full min-w-[640px] border-collapse text-label">
-        <thead>
-          <tr className="border-b border-border text-caption uppercase tracking-[0.07em] text-muted">
-            <th scope="col" className={TH}>Service</th>
-            <th scope="col" className={TH}>Country</th>
-            <th scope="col" className={`${TH} text-right`}>Attempts</th>
-            <th scope="col" className={`${TH} text-right`}>Delivered</th>
-            <th scope="col" className={`${TH} text-right`}>Success</th>
-            <th scope="col" className={`${TH} text-right`}>Median SMS</th>
-            <th scope="col" className="py-[7px] text-left font-medium">Top failure</th>
-          </tr>
-        </thead>
-        <tbody>
-          {rows.length === 0 ? (
-            <tr>
-              <td colSpan={7} className="py-[14px] text-body text-ink-muted">No purchases in this window.</td>
-            </tr>
-          ) : (
-            rows.slice(0, 25).map((r) => (
-              <tr key={`${r.service}:${r.country_dial}`} className="border-b border-border">
-                <td className={`${TD} font-medium`}>{r.service}</td>
-                <td className={`${TD} tabular-nums text-ink-muted`}>{dial(r.country_dial)}</td>
-                <td className={`${TD} text-right tabular-nums`}>{formatCoins(r.attempts)}</td>
-                <td className={`${TD} text-right tabular-nums`}>{formatCoins(r.delivered)}</td>
-                <td
-                  className={`${TD} text-right tabular-nums ${
-                    r.success_pct !== null && r.success_pct < SUCCESS_WARN_PCT ? "font-semibold text-[#a8201a]" : ""
-                  }`}
-                >
-                  {pct(r.success_pct)}
-                </td>
-                <td className={`${TD} text-right tabular-nums text-ink-muted`}>
-                  {r.median_sms_seconds === null ? "—" : `${r.median_sms_seconds}s`}
-                </td>
-                <td className="py-[7px] text-ink-muted">{r.top_fail_reason ?? "—"}</td>
-              </tr>
-            ))
-          )}
-        </tbody>
-      </table>
-    </div>
-  );
+function telegramState(r: OpsEventRow): string {
+  if (r.sent_at) return r.send_error ? `gave up: ${r.send_error}` : "sent";
+  return r.send_error ? `retrying: ${r.send_error}` : "queued";
 }
 
-function FailuresFeed({ rows }: { rows: OpsEventRow[] }) {
-  return (
-    <div className="overflow-x-auto">
-      <table className="w-full min-w-[720px] border-collapse text-label">
-        <thead>
-          <tr className="border-b border-border text-caption uppercase tracking-[0.07em] text-muted">
-            <th scope="col" className={TH}>When</th>
-            <th scope="col" className={TH}>Event</th>
-            <th scope="col" className={TH}>Service</th>
-            <th scope="col" className={TH}>Number</th>
-            <th scope="col" className={`${TH} text-right`}>After</th>
-            <th scope="col" className="py-[7px] text-left font-medium">Telegram</th>
-          </tr>
-        </thead>
-        <tbody>
-          {rows.length === 0 ? (
-            <tr>
-              <td colSpan={6} className="py-[14px] text-body text-ink-muted">No events recorded.</td>
-            </tr>
-          ) : (
-            rows.map((r) => (
-              <tr key={r.id} className="border-b border-border align-top">
-                <td className={`${TD} whitespace-nowrap tabular-nums text-ink-muted`}>{formatWhen(r.created_at)}</td>
-                <td className={`${TD} ${r.severity === "crit" ? "font-semibold text-[#a8201a]" : "font-medium"}`}>
-                  {r.close_reason ?? r.kind.replace(/_/g, " ")}
-                </td>
-                <td className={`${TD} text-ink-muted`}>
-                  {r.service ?? "—"} {r.country_dial !== null ? dial(r.country_dial) : ""}
-                </td>
-                <td className={`${TD} font-mono text-caption text-ink-muted`}>{r.phone_masked ?? "—"}</td>
-                <td className={`${TD} text-right tabular-nums text-ink-muted`}>
-                  {r.seconds === null ? "—" : `${r.seconds}s`}
-                </td>
-                <td className="py-[7px] text-caption text-ink-muted">
-                  {r.sent_at ? (r.send_error ? `gave up: ${r.send_error}` : "sent") : r.send_error ? `retrying: ${r.send_error}` : "queued"}
-                </td>
-              </tr>
-            ))
-          )}
-        </tbody>
-      </table>
-    </div>
-  );
-}
+const FAILURE_COLUMNS: Column<OpsEventRow>[] = [
+  {
+    key: "event",
+    header: "Event",
+    mobile: "title",
+    cell: (r) => (
+      <span className={r.severity === "crit" ? "font-semibold text-bad" : "font-medium"}>
+        {r.close_reason ?? r.kind.replace(/_/g, " ")}
+      </span>
+    ),
+  },
+  {
+    key: "service",
+    header: "Service",
+    mobile: "title",
+    cell: (r) => {
+      const href = comboHref(r.service, r.country_dial);
+      const text = `${r.service ?? "—"} ${r.country_dial !== null ? dial(r.country_dial) : ""}`;
+      return href ? (
+        <Link href={href} className="text-accent-deep hover:underline">
+          {text}
+        </Link>
+      ) : (
+        <span className="text-ink-muted">{text}</span>
+      );
+    },
+  },
+  {
+    key: "when",
+    header: "When",
+    mobile: "aside",
+    cell: (r) => <span className="whitespace-nowrap text-caption tabular-nums text-ink-muted">{formatWhen(r.created_at)}</span>,
+  },
+  { key: "number", header: "Number", cell: (r) => <span className="font-mono text-caption text-ink-muted">{r.phone_masked ?? "—"}</span> },
+  { key: "after", header: "After", align: "right", cell: (r) => <span className="text-ink-muted">{secs(r.seconds)}</span> },
+  { key: "telegram", header: "Telegram", cell: (r) => <span className="text-caption text-ink-muted">{telegramState(r)}</span> },
+];
 
 /* ---------------------------------------------------------------------------
  * The screen
@@ -324,22 +367,18 @@ function Delivery() {
 
   if (status.phase === "loading") {
     return (
-      <p className="text-body text-ink-muted" role="status">
-        Loading…
-      </p>
+      <>
+        <PageHeader title="Delivery" subtitle="Is the product actually handing out SMS codes?" />
+        <SkeletonStats n={8} />
+        <div className="mt-[30px]">
+          <SkeletonRows />
+        </div>
+      </>
     );
   }
 
   if (status.phase === "error") {
-    return (
-      <div role="alert" className="max-w-[560px]">
-        <h2 className="font-sans text-subheading">Could not load delivery</h2>
-        <p className="mt-[6px] text-body text-ink-muted">{status.message}</p>
-        <button type="button" onClick={retry} className="cta cta--sm mt-[14px]">
-          Try again
-        </button>
-      </div>
-    );
+    return <LoadError title="Could not load delivery" message={status.message} retry={retry} />;
   }
 
   const { day, week, stats, combos, balance, failures, loadedAt } = status.data;
@@ -348,20 +387,16 @@ function Delivery() {
 
   return (
     <>
-      <div className="flex items-start justify-between gap-[16px]">
-        <div>
-          <h1 className="font-sans text-heading-sm">Delivery</h1>
-          <p className="mt-[2px] text-caption text-muted">
+      <PageHeader
+        title="Delivery"
+        subtitle={
+          <>
             updated {formatWhen(new Date(loadedAt).toISOString())} · refreshes every minute
-            {status.stale ? (
-              <span className="text-[#a8201a]"> · last refresh failed: {status.stale}</span>
-            ) : null}
-          </p>
-        </div>
-        <button type="button" onClick={retry} className="cta cta--sm">
-          Refresh
-        </button>
-      </div>
+            {status.stale ? <span className="text-bad"> · last refresh failed: {status.stale}</span> : null}
+          </>
+        }
+        actions={<RefreshButton onClick={retry} />}
+      />
 
       <Kpis day={day} week={week} />
 
@@ -370,23 +405,54 @@ function Delivery() {
       </Section>
 
       <Section title="Top failing combos" note="last 24h · the same list the digest posts">
-        <TopFailing rows={day.top_failing} />
+        <DataTable
+          rows={day.top_failing ?? []}
+          columns={FAILING_COLUMNS}
+          rowKey={(r) => `${r.service}:${r.country_dial}`}
+          rowHref={(r) => comboHref(r.service, r.country_dial)}
+          empty={<EmptyState title="No failed activations in the last 24h" />}
+        />
       </Section>
 
       <Section title="Success rate" note="per hour, delivered ÷ issued · last 7 days · gaps are hours with nothing issued">
-        <LineChart points={successPoints} yMin={0} yMax={100} format={(v) => `${Math.round(v)}%`} label="Hourly SMS success rate over the last 7 days" />
+        <Card>
+          <LineChart points={successPoints} yMin={0} yMax={100} format={(v) => `${Math.round(v)}%`} label="Hourly SMS success rate over the last 7 days" />
+        </Card>
       </Section>
 
       <Section title="OnlineSim balance" note="checked every 15 minutes · last 7 days">
-        <LineChart points={balancePoints} format={(v) => formatUsd(v)} label="OnlineSim balance over the last 7 days" />
+        <Card
+          note="A drop is spend; a jump is a top-up."
+          actions={
+            <Link href="/admin/money" className="text-label font-medium text-accent-deep hover:underline">
+              Spend &amp; top-ups →
+            </Link>
+          }
+        >
+          <LineChart points={balancePoints} format={(v) => formatUsd(v)} label="OnlineSim balance over the last 7 days" />
+        </Card>
       </Section>
 
-      <Section title="Worst combos" note="last 7 days · most undelivered first">
-        <CombosTable rows={combos} />
+      <Section title="Worst combos" note="last 7 days · most undelivered first · top 25">
+        <DataTable
+          rows={combos.slice(0, 25)}
+          columns={COMBO_COLUMNS}
+          rowKey={(r) => `${r.service}:${r.country_dial}`}
+          rowHref={(r) => comboHref(r.service, r.country_dial)}
+          rowTone={(r) => (lowSuccess(r.success_pct) ? "warn" : null)}
+          empty={<EmptyState title="No purchases in this window" />}
+        />
       </Section>
 
       <Section title="Recent failures" note={`newest first · up to ${FAILURE_LIMIT}`}>
-        <FailuresFeed rows={failures} />
+        <DataTable
+          rows={failures}
+          columns={FAILURE_COLUMNS}
+          rowKey={(r) => String(r.id)}
+          rowHref={(r) => entityHref("activation", failureActivationId(r))}
+          rowTone={(r) => (r.severity === "crit" ? "bad" : null)}
+          empty={<EmptyState title="No events recorded" />}
+        />
       </Section>
     </>
   );

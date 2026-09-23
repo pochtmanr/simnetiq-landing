@@ -1,9 +1,28 @@
 "use client";
 
 import Link from "next/link";
-import { use, useCallback, useEffect, useState, type ReactNode } from "react";
+import { use, useCallback, useEffect, useState } from "react";
 import { AuthGate, DeniedBody } from "../../AuthGate";
 import { Actions } from "./Actions";
+import {
+  Card,
+  comboHref,
+  DataTable,
+  EmptyState,
+  EntityLink,
+  entityHref,
+  Facts,
+  isUuid,
+  PageHeader,
+  RefreshButton,
+  RiskBadge,
+  Section,
+  ShortId,
+  SkeletonRows,
+  SkeletonStats,
+  StatusBadge,
+  type Column,
+} from "../../ui";
 import {
   formatCoins,
   formatUsd,
@@ -37,64 +56,10 @@ import {
  * so there is no pretending the lookup was invisible.
  * ------------------------------------------------------------------------ */
 
-/* Enough to catch a truncated or mistyped id before it becomes a Postgres
-   22P02 that reads like a fault in the panel. */
-const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-
 const LEDGER_LIMIT = 100;
 const ACTIVATIONS_LIMIT = 100;
 
 const NOTHING = "—";
-
-/* ---------------------------------------------------------------------------
- * Shared cells
- * ------------------------------------------------------------------------ */
-
-const TH =
-  "px-[10px] py-[8px] text-left text-caption font-semibold uppercase tracking-[0.06em] text-muted whitespace-nowrap";
-const TD = "px-[10px] py-[8px] align-top whitespace-nowrap";
-const TD_NUM = `${TD} tabular-nums`;
-
-function Section({ title, note, children }: { title: string; note?: string; children: ReactNode }) {
-  return (
-    <section className="mt-[26px]">
-      <h2 className="font-sans text-subheading">{title}</h2>
-      {note ? <p className="mt-[2px] text-caption text-muted">{note}</p> : null}
-      <div className="mt-[10px]">{children}</div>
-    </section>
-  );
-}
-
-function Figure({ label, value }: { label: string; value: ReactNode }) {
-  return (
-    <div>
-      <div className="text-caption uppercase tracking-[0.06em] text-muted">
-        {label}
-      </div>
-      <div className="mt-[2px] text-body text-ink">{value}</div>
-    </div>
-  );
-}
-
-function Empty({ children }: { children: ReactNode }) {
-  return <p className="text-label text-muted">{children}</p>;
-}
-
-function TableFrame({ children }: { children: ReactNode }) {
-  return (
-    <div className="overflow-x-auto rounded-card border border-border bg-card">
-      <table className="w-full border-collapse text-label">{children}</table>
-    </div>
-  );
-}
-
-function Row({ children }: { children: ReactNode }) {
-  return (
-    <tr className="border-b border-border last:border-b-0 hover:bg-panel">
-      {children}
-    </tr>
-  );
-}
 
 /** A count that has to be readable at a glance but must never be invented:
  *  a null delta is a hole in the ledger, not a zero. */
@@ -163,23 +128,20 @@ function JsonBlock({
 }) {
   const entries = flatten(value);
   return (
-    <div className="rounded-card border border-border bg-card p-[14px]">
-      <div className="text-caption uppercase tracking-[0.06em] text-muted">
-        {title}
-      </div>
+    <Card title={<span className="font-mono">{title}</span>}>
       {entries.length === 0 ? (
-        <p className="mt-[6px] text-label text-muted">Nothing recorded.</p>
+        <p className="text-label text-muted">Nothing recorded.</p>
       ) : (
-        <dl className="mt-[8px] grid grid-cols-[minmax(0,auto)_minmax(0,1fr)] gap-x-[14px] gap-y-[4px] text-label">
+        <dl className="grid grid-cols-[minmax(0,auto)_minmax(0,1fr)] gap-x-[14px] gap-y-[4px] text-label">
           {entries.map(([path, text]) => (
             <div key={path} className="contents">
-              <dt className="font-mono text-caption text-muted">{path}</dt>
-              <dd className="break-words text-ink">{text}</dd>
+              <dt className="break-all font-mono text-caption text-muted">{path}</dt>
+              <dd className="break-words text-ink [overflow-wrap:anywhere]">{text}</dd>
             </div>
           ))}
         </dl>
       )}
-    </div>
+    </Card>
   );
 }
 
@@ -221,181 +183,191 @@ function ErrorNote({
 
 function Overview({ overview }: { overview: UserOverviewRow }) {
   return (
-    <div className="rounded-card border border-border bg-card p-[16px]">
-      <div className="flex flex-wrap items-baseline gap-x-[12px] gap-y-[4px]">
-        <h1 className="font-sans text-heading-sm">
-          {overview.email ? overview.email : "Anonymous account"}
-        </h1>
-        <span className="font-mono text-caption text-muted">
-          {overview.user_id}
-        </span>
-      </div>
-      <div className="mt-[14px] grid gap-[14px] [grid-template-columns:repeat(auto-fit,minmax(150px,1fr))]">
-        <Figure
-          label="Balance"
-          value={
-            <span className="tabular-nums">
-              {formatCoins(overview.balance_coins)} coins
-            </span>
-          }
-        />
-        <Figure
-          label="Risk"
-          value={
-            <span>
-              {overview.risk_band}{" "}
-              <span className="tabular-nums text-ink-muted">
-                ({overview.risk_score})
+    <Card>
+      <Facts
+        items={[
+          {
+            label: "Balance",
+            value: <span className="text-subheading font-semibold tabular-nums">{formatCoins(overview.balance_coins)} coins</span>,
+          },
+          {
+            label: "Risk",
+            value: (
+              <span className="inline-flex items-center gap-[6px]">
+                <RiskBadge band={overview.risk_band} />
+                <span className="tabular-nums text-ink-muted">score {overview.risk_score}</span>
               </span>
-            </span>
-          }
-        />
-        <Figure label="Created" value={formatWhen(overview.created_at)} />
-        {/* Shown, not hidden: this page wrote that row by being opened. */}
-        <Figure
-          label="Audit id for this lookup"
-          value={<span className="tabular-nums">{overview.audit_id}</span>}
-        />
-      </div>
-    </div>
+            ),
+          },
+          { label: "Created", value: formatWhen(overview.created_at) },
+          /* Shown, not hidden: this page wrote that row by being opened. */
+          { label: "Audit id for this lookup", value: <span className="font-mono tabular-nums">{overview.audit_id}</span> },
+          { label: "User id", value: <ShortId id={overview.user_id} />, wide: true },
+        ]}
+      />
+    </Card>
   );
 }
 
 /* ---------------------------------------------------------------------------
  * Ledger
+ *
+ * Ten columns on a desktop; on a phone the kind and delta head a card and the
+ * rest fold into label/value pairs. The idempotency key is only ever needed
+ * when reconciling a duplicate, so it rides along as a tooltip on the note.
  * ------------------------------------------------------------------------ */
 
-function Ledger({ rows }: { rows: UserLedgerRow[] }) {
-  if (rows.length === 0) return <Empty>No wallet entries.</Empty>;
-  return (
-    <TableFrame>
-      <thead>
-        <tr className="border-b border-border">
-          <th className={TH}>When</th>
-          <th className={TH}>Kind</th>
-          <th className={TH}>Δ coins</th>
-          <th className={TH}>Balance after</th>
-          <th className={TH}>Shortfall</th>
-          <th className={TH}>USD</th>
-          <th className={TH}>Product</th>
-          <th className={TH}>RC transaction</th>
-          <th className={TH}>Activation</th>
-          <th className={TH}>Note</th>
-        </tr>
-      </thead>
-      <tbody>
-        {rows.map((row) => (
-          <Row key={row.id}>
-            <td className={`${TD} text-ink-muted`}>{formatWhen(row.created_at)}</td>
-            <td className={TD}>{row.kind}</td>
-            <td className={TD_NUM}>
-              <Delta coins={row.delta_coins} />
-            </td>
-            <td className={`${TD_NUM} text-ink-muted`}>
-              {formatCoins(row.balance_after)}
-            </td>
-            <td className={TD_NUM}>
-              {row.shortfall_coins ? formatCoins(row.shortfall_coins) : NOTHING}
-            </td>
-            <td className={`${TD_NUM} text-ink-muted`}>
-              {row.usd_value === null ? NOTHING : formatUsd(row.usd_value)}
-            </td>
-            <td className={`${TD} text-ink-muted`}>{row.product_id ?? NOTHING}</td>
-            <td className={`${TD} font-mono text-caption text-muted`}>
-              {row.rc_transaction_id ?? NOTHING}
-            </td>
-            <td className={`${TD} font-mono text-caption text-muted`}>
-              {row.activation_id ?? NOTHING}
-            </td>
-            <td
-              className={`${TD} max-w-[280px] whitespace-normal break-words text-ink-muted`}
-              /* The idempotency key is only ever needed when reconciling a
-                 duplicate, so it rides along as a tooltip rather than a
-                 tenth column nobody reads. */
-              title={row.idempotency_key ?? undefined}
-            >
-              {row.note ?? NOTHING}
-            </td>
-          </Row>
-        ))}
-      </tbody>
-    </TableFrame>
-  );
+const LEDGER_COLUMNS: Column<UserLedgerRow>[] = [
+  { key: "kind", header: "Kind", mobile: "title", cell: (r) => <StatusBadge status={r.kind} /> },
+  {
+    key: "when",
+    header: "When",
+    mobile: "title",
+    cell: (r) => <span className="whitespace-nowrap text-ink-muted">{formatWhen(r.created_at)}</span>,
+  },
+  {
+    key: "delta",
+    header: "Δ coins",
+    align: "right",
+    mobile: "aside",
+    cell: (r) => <Delta coins={r.delta_coins} />,
+  },
+  {
+    key: "after",
+    header: "Balance after",
+    align: "right",
+    cell: (r) => <span className="text-ink-muted">{formatCoins(r.balance_after)}</span>,
+  },
+  {
+    key: "shortfall",
+    header: "Shortfall",
+    align: "right",
+    cell: (r) => (r.shortfall_coins ? <span className="text-bad">{formatCoins(r.shortfall_coins)}</span> : NOTHING),
+  },
+  {
+    key: "usd",
+    header: "USD",
+    align: "right",
+    cell: (r) => <span className="text-ink-muted">{r.usd_value === null ? NOTHING : formatUsd(r.usd_value)}</span>,
+  },
+  { key: "product", header: "Product", cell: (r) => <span className="text-ink-muted">{r.product_id ?? NOTHING}</span> },
+  {
+    key: "txn",
+    header: "RC transaction",
+    cell: (r) => (r.rc_transaction_id ? <EntityLink type="purchase" id={r.rc_transaction_id} /> : NOTHING),
+  },
+  {
+    key: "activation",
+    header: "Activation",
+    cell: (r) => (r.activation_id ? <EntityLink type="activation" id={r.activation_id} /> : NOTHING),
+  },
+  {
+    key: "note",
+    header: "Note",
+    className: "max-w-[280px]",
+    cell: (r) => (
+      <span className="break-words text-ink-muted" title={r.idempotency_key ?? undefined}>
+        {r.note ?? NOTHING}
+      </span>
+    ),
+  },
+];
+
+/** A ledger row opens the thing it moved coins for, when there is one. */
+function ledgerHref(r: UserLedgerRow): string | null {
+  return entityHref("activation", r.activation_id) ?? entityHref("purchase", r.rc_transaction_id);
 }
 
 /* ---------------------------------------------------------------------------
  * Activations
+ *
+ * Numbers are masked by Postgres. Never the full number — see the file header.
  * ------------------------------------------------------------------------ */
 
-function Activations({ rows }: { rows: UserActivationsRow[] }) {
-  if (rows.length === 0) return <Empty>No activations.</Empty>;
-  return (
-    <TableFrame>
-      <thead>
-        <tr className="border-b border-border">
-          <th className={TH}>When</th>
-          <th className={TH}>Status</th>
-          <th className={TH}>Close reason</th>
-          <th className={TH}>Service</th>
-          <th className={TH}>Dial</th>
-          <th className={TH}>Number (masked)</th>
-          <th className={TH}>SMS</th>
-          <th className={TH}>To first SMS</th>
-          <th className={TH}>Coins</th>
-          <th className={TH}>Provider cost</th>
-          <th className={TH}>Retry</th>
-          <th className={TH}>Released</th>
-          <th className={TH}>Activation id</th>
-        </tr>
-      </thead>
-      <tbody>
-        {rows.map((row) => (
-          <Row key={row.id}>
-            <td className={`${TD} text-ink-muted`}>{formatWhen(row.created_at)}</td>
-            <td className={TD}>
-              {row.status}
-              {row.is_migrated ? (
-                <span className="ml-[6px] text-caption text-muted">migrated</span>
-              ) : null}
-            </td>
-            <td className={`${TD} text-ink-muted`}>{row.close_reason ?? NOTHING}</td>
-            <td className={TD}>{row.service}</td>
-            <td className={`${TD_NUM} text-ink-muted`}>+{row.country_dial}</td>
-            {/* Masked by Postgres. Never the full number — see the file header. */}
-            <td className={`${TD} font-mono text-caption`}>
-              {row.phone_masked ?? NOTHING}
-            </td>
-            <td className={TD}>
-              {row.has_sms ? (
-                <span>received {formatWhen(row.sms_received_at)}</span>
-              ) : (
-                <span className="text-muted">none</span>
-              )}
-            </td>
-            <td className={`${TD_NUM} text-ink-muted`}>
-              {row.first_sms_seconds === null
-                ? NOTHING
-                : `${row.first_sms_seconds}s`}
-            </td>
-            <td className={TD_NUM}>{formatCoins(row.coins_spent)}</td>
-            <td className={`${TD_NUM} text-ink-muted`}>
-              {row.provider_cost_cents === null
-                ? NOTHING
-                : formatUsd(row.provider_cost_cents / 100)}
-            </td>
-            <td className={`${TD} text-ink-muted`}>
-              {row.retry_of === null
-                ? NOTHING
-                : `#${row.retry_index ?? "?"} of ${row.retry_of.slice(0, 8)}`}
-            </td>
-            <td className={`${TD} text-ink-muted`}>{formatWhen(row.released_at)}</td>
-            <td className={`${TD} font-mono text-caption text-muted`}>{row.id}</td>
-          </Row>
-        ))}
-      </tbody>
-    </TableFrame>
-  );
-}
+const ACTIVATION_COLUMNS: Column<UserActivationsRow>[] = [
+  {
+    key: "combo",
+    header: "Service",
+    mobile: "title",
+    cell: (r) => {
+      const href = comboHref(r.service, r.country_dial);
+      const text = `${r.service} +${r.country_dial}`;
+      return href ? (
+        <Link href={href} className="font-medium text-accent-deep hover:underline">
+          {text}
+        </Link>
+      ) : (
+        text
+      );
+    },
+  },
+  {
+    key: "when",
+    header: "When",
+    mobile: "title",
+    cell: (r) => <span className="whitespace-nowrap text-ink-muted">{formatWhen(r.created_at)}</span>,
+  },
+  {
+    key: "status",
+    header: "Status",
+    mobile: "aside",
+    cell: (r) => (
+      <span className="inline-flex flex-wrap items-center justify-end gap-[4px]">
+        <StatusBadge status={r.status} />
+        {r.is_migrated ? <span className="text-caption text-muted">migrated</span> : null}
+      </span>
+    ),
+  },
+  {
+    key: "coins",
+    header: "Coins",
+    align: "right",
+    mobile: "aside",
+    cell: (r) => <span className="tabular-nums">{formatCoins(r.coins_spent)}</span>,
+  },
+  { key: "reason", header: "Close reason", cell: (r) => <span className="text-ink-muted">{r.close_reason ?? NOTHING}</span> },
+  {
+    key: "number",
+    header: "Number",
+    cell: (r) => <span className="font-mono text-caption">{r.phone_masked ?? NOTHING}</span>,
+  },
+  {
+    key: "sms",
+    header: "SMS",
+    cell: (r) =>
+      r.has_sms ? (
+        <span className="whitespace-nowrap">
+          received{r.first_sms_seconds === null ? "" : ` in ${r.first_sms_seconds}s`}
+        </span>
+      ) : (
+        <span className="text-muted">none</span>
+      ),
+  },
+  {
+    key: "cost",
+    header: "Provider cost",
+    align: "right",
+    cell: (r) => (
+      <span className="text-ink-muted">
+        {r.provider_cost_cents === null ? NOTHING : formatUsd(r.provider_cost_cents / 100)}
+      </span>
+    ),
+  },
+  {
+    key: "retry",
+    header: "Retry",
+    cell: (r) =>
+      r.retry_of === null ? (
+        NOTHING
+      ) : (
+        <span className="whitespace-nowrap">
+          #{r.retry_index ?? "?"} of <EntityLink type="activation" id={r.retry_of} />
+        </span>
+      ),
+  },
+  { key: "released", header: "Released", cell: (r) => <span className="text-ink-muted">{formatWhen(r.released_at)}</span> },
+  { key: "id", header: "Activation", cell: (r) => <EntityLink type="activation" id={r.id} /> },
+];
 
 /* ---------------------------------------------------------------------------
  * The screen
@@ -408,7 +380,7 @@ function UserDetail({ userId }: { userId: string }) {
   const [error, setError] = useState<string | null>(null);
   const [denied, setDenied] = useState(false);
 
-  const valid = UUID.test(userId);
+  const valid = isUuid(userId);
   const [busy, setBusy] = useState(valid);
   /* Bumping this re-runs the effect below. A counter rather than a callback
      because the three calls have to be fired from inside the effect: setting
@@ -467,21 +439,29 @@ function UserDetail({ userId }: { userId: string }) {
 
   return (
     <div>
-      <p className="text-caption text-muted">
-        <Link href="/admin/users" className="blue-link">
-          Users
-        </Link>
-      </p>
+      <PageHeader
+        crumbs={[{ href: "/admin/users", label: "Users" }]}
+        title={overview ? overview.email || "Anonymous account" : "User"}
+        subtitle={overview ? <span className="break-all font-mono text-caption">{overview.user_id}</span> : undefined}
+        actions={<RefreshButton onClick={reload} busy={busy} />}
+      />
 
-      <div className="mt-[10px]">
-        {error ? (
-          <ErrorNote message={error} onRetry={reload} />
-        ) : overview === null ? (
-          <Empty>{busy ? "Loading…" : "Nothing to show."}</Empty>
+      {error ? (
+        <ErrorNote message={error} onRetry={reload} />
+      ) : overview === null ? (
+        busy ? (
+          <>
+            <SkeletonStats n={4} />
+            <div className="mt-[30px]">
+              <SkeletonRows />
+            </div>
+          </>
         ) : (
-          <Overview overview={overview} />
-        )}
-      </div>
+          <EmptyState title="Nothing to show" />
+        )
+      ) : (
+        <Overview overview={overview} />
+      )}
 
       {/* -------------------------------------------------------------------
         * Grant coins and reveal SMS, between the overview and the ledger.
@@ -507,7 +487,7 @@ function UserDetail({ userId }: { userId: string }) {
             title="Signals"
             note="Straight from admin_user_overview. Free-form on the Postgres side; every key it emits is shown."
           >
-            <div className="grid gap-[12px] [grid-template-columns:repeat(auto-fit,minmax(280px,1fr))]">
+            <div className="grid grid-cols-1 gap-[12px] lg:grid-cols-2">
               <JsonBlock title="facts" value={overview.facts} />
               <JsonBlock title="risk" value={overview.risk} />
             </div>
@@ -517,14 +497,27 @@ function UserDetail({ userId }: { userId: string }) {
             title="Wallet ledger"
             note={`Newest first, up to ${LEDGER_LIMIT} entries.`}
           >
-            <Ledger rows={ledger} />
+            <DataTable
+              rows={ledger}
+              columns={LEDGER_COLUMNS}
+              rowKey={(r) => String(r.id)}
+              rowHref={ledgerHref}
+              rowTone={(r) => (r.shortfall_coins > 0 || r.kind === "clawback" ? "warn" : null)}
+              empty={<EmptyState title="No wallet entries" />}
+            />
           </Section>
 
           <Section
             title="Activations"
             note={`Numbers are masked and message bodies are not returned at all — “SMS” only says one arrived. Up to ${ACTIVATIONS_LIMIT} entries.`}
           >
-            <Activations rows={activations} />
+            <DataTable
+              rows={activations}
+              columns={ACTIVATION_COLUMNS}
+              rowKey={(r) => r.id}
+              rowHref={(r) => entityHref("activation", r.id)}
+              empty={<EmptyState title="No activations" />}
+            />
           </Section>
         </>
       )}

@@ -1,17 +1,29 @@
 "use client";
 
 import { useCallback, useEffect, useState, type ReactNode } from "react";
-import { isAdminDenied } from "../../../lib/admin/rpc";
+import { isAdminDenied, isMigrationMissing } from "../../../lib/admin/rpc";
+import { DeniedBody } from "./AuthGate";
+import { MigrationNotice, SkeletonRows } from "./components/States";
 
 /* ---------------------------------------------------------------------------
- * Pieces shared by the dashboard screens (delivery, purchases, system).
+ * Pieces shared by the dashboard screens. The newer building blocks live in
+ * ./components and are re-exported here so every screen imports from one
+ * place.
  * ------------------------------------------------------------------------ */
+
+export { Card, Facts, PageHeader, RefreshButton, Section } from "./components/Card";
+export { Stat, StatGrid, type Tone } from "./components/Stat";
+export { Badge, RiskBadge, SeverityDot, StatusBadge, type BadgeTone } from "./components/Badge";
+export { DataTable, type Column } from "./components/DataTable";
+export { EntityLink, ShortId, comboHref, entityHref, isUuid, shortId } from "./components/EntityLink";
+export { EmptyState, MigrationNotice, SkeletonRows, SkeletonStats } from "./components/States";
+export { Explained, SourceLine } from "./components/Help";
 
 export const TH = "py-[7px] pr-[14px] text-left font-medium";
 export const TD = "py-[7px] pr-[14px]";
 export const THEAD_ROW = "border-b border-border text-caption uppercase tracking-[0.07em] text-muted";
 /** The panel's one alarm colour; the marketing palette has none. */
-export const ALERT = "font-semibold text-[#a8201a]";
+export const ALERT = "font-semibold text-bad";
 
 export function Figure({
   label,
@@ -41,30 +53,12 @@ export function Figure({
   );
 }
 
-export function Section({
-  title,
-  note,
-  children,
-}: {
-  title: string;
-  note?: string;
-  children: ReactNode;
-}) {
-  return (
-    <section className="mt-[30px]">
-      <div className="flex flex-wrap items-baseline gap-x-[10px]">
-        <h2 className="font-sans text-subheading">{title}</h2>
-        {note ? <span className="text-caption text-muted">{note}</span> : null}
-      </div>
-      <div className="mt-[10px]">{children}</div>
-    </section>
-  );
-}
-
 export type Loadable<T> =
   | { phase: "loading" }
   | { phase: "ready"; data: T }
   | { phase: "denied" }
+  /** The RPC does not exist yet: a migration has not been applied. */
+  | { phase: "missing"; fn: string }
   | { phase: "error"; message: string };
 
 /**
@@ -86,6 +80,10 @@ export function useAdminData<T>(load: () => Promise<T>, key: string = "") {
         if (cancelled) return;
         if (isAdminDenied(err)) {
           setStatus({ phase: "denied" });
+          return;
+        }
+        if (isMigrationMissing(err)) {
+          setStatus({ phase: "missing", fn: err.fn });
           return;
         }
         console.error("Admin screen failed to load.", err);
@@ -147,4 +145,41 @@ export function WindowPicker({ hours, onChange }: { hours: number; onChange: (h:
       })}
     </div>
   );
+}
+
+/**
+ * Renders a Loadable: a skeleton while loading, the denied body, the
+ * migration notice, or an inline error — and `children(data)` once ready.
+ */
+export function Loaded<T>({
+  status,
+  retry,
+  title = "Could not load this",
+  skeleton,
+  children,
+}: {
+  status: Loadable<T>;
+  retry: () => void;
+  title?: string;
+  skeleton?: ReactNode;
+  children: (data: T) => ReactNode;
+}) {
+  switch (status.phase) {
+    case "loading":
+      /* Held open at most of a screen so the page doesn't render short,
+         then jump when the data lands. */
+      return (
+        <div className="min-h-[70vh]" aria-busy="true">
+          {skeleton ?? <SkeletonRows n={8} />}
+        </div>
+      );
+    case "denied":
+      return <DeniedBody />;
+    case "missing":
+      return <MigrationNotice fn={status.fn} />;
+    case "error":
+      return <LoadError title={title} message={status.message} retry={retry} />;
+    case "ready":
+      return <>{children(status.data)}</>;
+  }
 }

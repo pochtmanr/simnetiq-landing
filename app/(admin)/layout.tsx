@@ -33,6 +33,8 @@ const inter = Inter({
 export const viewport: Viewport = {
   themeColor: "#EFF1F5",
   colorScheme: "light",
+  /* Lets the phone tab bar pad itself clear of the home indicator. */
+  viewportFit: "cover",
 };
 
 export const metadata: Metadata = {

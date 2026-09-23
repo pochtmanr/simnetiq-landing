@@ -2,10 +2,28 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import AuthGate, { DeniedBody } from "../AuthGate";
+import AuthGate from "../AuthGate";
 import { formatCoins, formatUsd, formatWhen } from "../../../../lib/admin/format";
 import { rpc, type PurchaseRow, type PurchaseSummary } from "../../../../lib/admin/rpc";
-import { ALERT, Figure, LoadError, Section, TD, TH, THEAD_ROW, useAdminData, WindowPicker } from "../ui";
+import {
+  DataTable,
+  EmptyState,
+  EntityLink,
+  Loaded,
+  PageHeader,
+  RefreshButton,
+  Section,
+  SkeletonRows,
+  SkeletonStats,
+  SourceLine,
+  Stat,
+  StatGrid,
+  StatusBadge,
+  entityHref,
+  useAdminData,
+  WindowPicker,
+  type Column,
+} from "../ui";
 
 /* ---------------------------------------------------------------------------
  * Purchases: in-app purchases, store refunds and reversed refunds.
@@ -18,88 +36,117 @@ import { ALERT, Figure, LoadError, Section, TD, TH, THEAD_ROW, useAdminData, Win
 
 const FEED_LIMIT = 300;
 
-const EVENT_LABEL: Record<string, string> = {
-  purchase: "Purchase",
-  refund: "Store refund",
-  refund_reversed: "Refund reversed",
-};
+/* rc_transaction_id arrives with the admin_money migration; until then the
+   row has no purchase page to open and falls back to the customer. */
+function txnOf(r: PurchaseRow): string | null {
+  return (r as { rc_transaction_id?: string | null }).rc_transaction_id ?? null;
+}
 
-function Feed({ rows }: { rows: PurchaseRow[] }) {
+function notes(r: PurchaseRow): string {
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full min-w-[820px] border-collapse text-label">
-        <thead>
-          <tr className={THEAD_ROW}>
-            <th scope="col" className={TH}>When</th>
-            <th scope="col" className={TH}>Event</th>
-            <th scope="col" className={TH}>Product</th>
-            <th scope="col" className={`${TH} text-right`}>Coins</th>
-            <th scope="col" className={`${TH} text-right`}>Net</th>
-            <th scope="col" className={TH}>Customer</th>
-            <th scope="col" className="py-[7px] text-left font-medium">Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          {rows.length === 0 ? (
-            <tr>
-              <td colSpan={7} className="py-[14px] text-body text-ink-muted">No purchases in this window.</td>
-            </tr>
-          ) : (
-            rows.map((r) => (
-              <tr key={r.id} className={`border-b border-border align-top ${r.sandbox ? "opacity-60" : ""}`}>
-                <td className={`${TD} whitespace-nowrap tabular-nums text-ink-muted`}>{formatWhen(r.created_at)}</td>
-                <td className={`${TD} ${r.event === "refund" ? ALERT : "font-medium"}`}>{EVENT_LABEL[r.event] ?? r.event}</td>
-                <td className={`${TD} text-ink-muted`}>{r.product_id ?? "—"}</td>
-                <td className={`${TD} text-right tabular-nums`}>{formatCoins(r.coins)}</td>
-                <td className={`${TD} text-right tabular-nums`}>{formatUsd(r.usd)}</td>
-                <td className={TD}>
-                  <Link href={`/admin/users/${r.user_id}`} className="underline underline-offset-2">
-                    {r.email_masked ?? r.user_id.slice(0, 8)}
-                  </Link>
-                </td>
-                <td className="py-[7px] text-caption text-ink-muted">
-                  {[
-                    r.is_first ? "first purchase" : null,
-                    r.sandbox ? "sandbox" : null,
-                    r.shortfall > 0 ? `${formatCoins(r.shortfall)} coins already spent` : null,
-                  ]
-                    .filter(Boolean)
-                    .join(" · ") || "—"}
-                </td>
-              </tr>
-            ))
-          )}
-        </tbody>
-      </table>
-    </div>
+    [
+      r.is_first ? "first purchase" : null,
+      r.sandbox ? "sandbox" : null,
+      r.shortfall > 0 ? `${formatCoins(r.shortfall)} coins already spent` : null,
+    ]
+      .filter(Boolean)
+      .join(" · ") || "—"
   );
 }
 
-function TopProducts({ rows }: { rows: PurchaseSummary["top_products"] }) {
-  if (!rows?.length) return <p className="text-body text-ink-muted">Nothing sold in this window.</p>;
+const FEED_COLUMNS: Column<PurchaseRow>[] = [
+  {
+    key: "product",
+    header: "Product",
+    mobile: "title",
+    cell: (r) => <span className={r.sandbox ? "opacity-60" : ""}>{r.product_id ?? "—"}</span>,
+  },
+  {
+    key: "event",
+    header: "Event",
+    mobile: "aside",
+    cell: (r) => <StatusBadge status={r.event} />,
+  },
+  {
+    key: "usd",
+    header: "Net",
+    align: "right",
+    mobile: "aside",
+    cell: (r) => <span className={r.usd !== null && r.usd < 0 ? "text-bad" : "font-medium"}>{formatUsd(r.usd)}</span>,
+  },
+  {
+    key: "when",
+    header: "When",
+    cell: (r) => <span className="whitespace-nowrap tabular-nums text-ink-muted">{formatWhen(r.created_at)}</span>,
+  },
+  { key: "coins", header: "Coins", align: "right", cell: (r) => formatCoins(r.coins) },
+  {
+    key: "customer",
+    header: "Customer",
+    className: "max-w-[220px] truncate",
+    cell: (r) => (
+      <EntityLink type="user" id={r.user_id}>
+        {r.email_masked ?? r.user_id.slice(0, 8)}
+      </EntityLink>
+    ),
+  },
+  {
+    key: "notes",
+    header: "Notes",
+    cell: (r) => <span className="text-caption text-ink-muted">{notes(r)}</span>,
+  },
+];
+
+type Product = PurchaseSummary["top_products"][number];
+
+const PRODUCT_COLUMNS: Column<Product>[] = [
+  { key: "product", header: "Product", mobile: "title", cell: (p) => <span className="font-medium">{p.product_id}</span> },
+  { key: "usd", header: "Net", align: "right", mobile: "aside", cell: (p) => formatUsd(p.usd) },
+  { key: "sold", header: "Sold", align: "right", cell: (p) => formatCoins(p.purchases) },
+  { key: "coins", header: "Coins", align: "right", cell: (p) => formatCoins(p.coins) },
+];
+
+function Summary({ s }: { s: PurchaseSummary }) {
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full min-w-[420px] border-collapse text-label">
-        <thead>
-          <tr className={THEAD_ROW}>
-            <th scope="col" className={TH}>Product</th>
-            <th scope="col" className={`${TH} text-right`}>Sold</th>
-            <th scope="col" className={`${TH} text-right`}>Coins</th>
-            <th scope="col" className="py-[7px] text-right font-medium">Net</th>
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((p) => (
-            <tr key={p.product_id} className="border-b border-border">
-              <td className={`${TD} font-medium`}>{p.product_id}</td>
-              <td className={`${TD} text-right tabular-nums`}>{formatCoins(p.purchases)}</td>
-              <td className={`${TD} text-right tabular-nums`}>{formatCoins(p.coins)}</td>
-              <td className="py-[7px] text-right tabular-nums">{formatUsd(p.usd)}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+    <StatGrid>
+      <Stat
+        label="Net revenue"
+        value={formatUsd(s.net_usd)}
+        help="What reaches us after Apple's cut, minus store refunds. Sandbox (TestFlight) purchases are excluded."
+        source="admin_purchase_summary — the same numbers the ops bot's /revenue posts."
+      />
+      <Stat label="Purchases" value={formatCoins(s.purchases)} help="Completed in-app purchases in the window, sandbox excluded." />
+      <Stat
+        label="First purchases"
+        value={formatCoins(s.first_purchases)}
+        help="Purchases that were the customer's first ever — new paying customers."
+      />
+      <Stat label="Coins sold" value={formatCoins(s.gross_coins)} help="Coins credited by purchases, before any refund clawback." />
+      <Stat
+        label="Store refunds"
+        value={formatCoins(s.refunds)}
+        tone={s.refunds > 0 ? "bad" : "neutral"}
+        help="Refunds Apple granted. The coins are clawed back from the customer's wallet where possible."
+      />
+      <Stat
+        label="Refunds reversed"
+        value={formatCoins(s.refunds_reversed)}
+        help="Refunds Apple later cancelled; the coins were given back."
+      />
+      <Stat
+        label="Refund shortfall"
+        value={formatCoins(s.refund_shortfall_coins)}
+        tone={s.refund_shortfall_coins > 0 ? "warn" : "neutral"}
+        sub="coins spent before the refund"
+        help="Refunded coins the customer had already spent, so they could not be clawed back — a real loss."
+      />
+      <Stat
+        label="Sandbox"
+        value={formatCoins(s.sandbox)}
+        sub="TestFlight, not revenue"
+        help="Test purchases from TestFlight builds. Shown faded in the feed and never counted in revenue."
+      />
+    </StatGrid>
   );
 }
 
@@ -113,58 +160,67 @@ function Purchases() {
     String(hours),
   );
 
-  if (status.phase === "denied") return <DeniedBody />;
-
   return (
     <>
-      <div className="flex flex-wrap items-start justify-between gap-[16px]">
-        <div>
-          <h1 className="font-sans text-heading-sm">Purchases</h1>
-          <p className="mt-[2px] text-caption text-muted">
-            In-app purchases and store refunds · net of the store&apos;s cut · sandbox shown faded, never counted
-          </p>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <WindowPicker hours={hours} onChange={setHours} />
-          <button type="button" onClick={retry} className="cta cta--sm">
-            Refresh
-          </button>
-        </div>
-      </div>
+      <PageHeader
+        title="Purchases"
+        subtitle="In-app purchases and store refunds · net of the store's cut · sandbox shown faded, never counted"
+        actions={
+          <>
+            <WindowPicker hours={hours} onChange={setHours} />
+            <RefreshButton onClick={retry} busy={status.phase === "loading"} />
+          </>
+        }
+      />
 
-      {status.phase === "loading" ? (
-        <p className="mt-[20px] text-body text-ink-muted" role="status">Loading…</p>
-      ) : status.phase === "error" ? (
-        <div className="mt-[20px]">
-          <LoadError title="Could not load purchases" message={status.message} retry={retry} />
-        </div>
-      ) : (
-        <>
-          <dl className="mt-[20px] grid grid-cols-2 gap-x-[20px] gap-y-[14px] sm:grid-cols-4 lg:grid-cols-8">
-            <Figure label="Purchases" value={formatCoins(status.data.summary.purchases)} />
-            <Figure label="First purchases" value={formatCoins(status.data.summary.first_purchases)} />
-            <Figure label="Net revenue" value={formatUsd(status.data.summary.net_usd)} />
-            <Figure label="Coins sold" value={formatCoins(status.data.summary.gross_coins)} />
-            <Figure label="Store refunds" value={formatCoins(status.data.summary.refunds)} alert={status.data.summary.refunds > 0} />
-            <Figure label="Refunds reversed" value={formatCoins(status.data.summary.refunds_reversed)} />
-            <Figure
-              label="Refund shortfall"
-              value={formatCoins(status.data.summary.refund_shortfall_coins)}
-              alert={status.data.summary.refund_shortfall_coins > 0}
-              note="coins spent before the refund"
-            />
-            <Figure label="Sandbox" value={formatCoins(status.data.summary.sandbox)} note="TestFlight, not revenue" />
-          </dl>
+      <Loaded
+        status={status}
+        retry={retry}
+        title="Could not load purchases"
+        skeleton={
+          <>
+            <SkeletonStats n={8} />
+            <div className="mt-[30px]">
+              <SkeletonRows />
+            </div>
+          </>
+        }
+      >
+        {(data) => (
+          <>
+            <Summary s={data.summary} />
+            <SourceLine>
+              Cash only — what the API costs us is on the money page.{" "}
+              <Link href="/admin/money" className="font-medium text-accent-deep hover:underline">
+                Full P&amp;L →
+              </Link>
+            </SourceLine>
 
-          <Section title="Top products">
-            <TopProducts rows={status.data.summary.top_products} />
-          </Section>
+            <Section title="Top products">
+              <DataTable
+                rows={data.summary.top_products ?? []}
+                columns={PRODUCT_COLUMNS}
+                rowKey={(p) => p.product_id}
+                empty={<EmptyState title="Nothing sold in this window" hint="Try a longer window." />}
+              />
+            </Section>
 
-          <Section title="Feed" note={`newest first · up to ${FEED_LIMIT}`}>
-            <Feed rows={status.data.rows} />
-          </Section>
-        </>
-      )}
+            <Section title="Feed" note={`newest first · up to ${FEED_LIMIT}`}>
+              <DataTable
+                rows={data.rows}
+                columns={FEED_COLUMNS}
+                rowKey={(r) => String(r.id)}
+                rowHref={(r) => {
+                  const txn = txnOf(r);
+                  return txn ? entityHref("purchase", txn) : entityHref("user", r.user_id);
+                }}
+                rowTone={(r) => (r.event === "refund" ? "bad" : null)}
+                empty={<EmptyState title="No purchases in this window" hint="Try a longer window." />}
+              />
+            </Section>
+          </>
+        )}
+      </Loaded>
     </>
   );
 }

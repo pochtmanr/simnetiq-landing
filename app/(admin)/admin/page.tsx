@@ -1,482 +1,496 @@
 "use client";
 
-import { useCallback, useEffect, useState, type ReactNode } from "react";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 import AuthGate, { DeniedBody } from "./AuthGate";
 import {
   isAdminDenied,
+  isMigrationMissing,
   rpc,
+  type ActivityKind,
+  type ActivityRow,
   type AdminAuditRow,
   type MoneyHealthRow,
 } from "../../../lib/admin/rpc";
-import { formatCoins, formatUsd, formatWhen } from "../../../lib/admin/format";
+import { formatCoins, formatPct, formatRelative, formatUsd, formatUsdSigned, formatWhen } from "../../../lib/admin/format";
+import {
+  Badge,
+  EmptyState,
+  PageHeader,
+  RefreshButton,
+  Section,
+  SeverityDot,
+  SkeletonRows,
+  Stat,
+  StatGrid,
+  entityHref,
+  isUuid,
+  useAdminData,
+  type BadgeTone,
+  type Loadable,
+} from "./ui";
 
 /* ---------------------------------------------------------------------------
- * The overview screen: `admin_money_health()` as labelled figures, and
- * `admin_audit_recent()` as a reverse-chronological table.
+ * The overview: the business at a glance, then everything that happened.
  *
- * It is an instrument panel, not a page. No hero, no prose, no colour beyond
- * what distinguishes a figure that needs acting on from one that does not.
- * Everything here is read-only — the two RPCs it calls write nothing — so
- * there is no confirmation step and no optimistic state to keep honest.
+ * Top: the handful of numbers worth checking every morning — profit, revenue,
+ * OnlineSim spend and balance, open tickets, delivery rate. Each card opens
+ * the page that explains it. Then any alarm that is not zero. Then one feed of
+ * everything: purchases, refunds, sign-ups, tickets, failures, admin actions —
+ * every row opens the thing it is about.
  *
- * `"use client"` is not a preference: lib/admin/rpc.ts is a client module
- * (it reaches for the browser Supabase client, which holds the operator's
- * session in a cookie), so anything that calls it renders in the browser.
- *
- * Three failure modes, and they must stay distinct:
- *
- *   AdminDenied   -> <DeniedBody> alone, with nothing else on the page. A
- *                    stranger who reached `ready` with some other Supabase
- *                    account sees no data and a way to sign out.
- *   any other      -> an inline error with a retry. Never a blank screen and
- *   failure          never a silent swallow: resolveAdminState already turns
- *                    any auth error into `anon`, so a network blip can bounce
- *                    an operator to the sign-in screen for no visible reason.
- *                    A second silent failure on top of that would leave them
- *                    with a panel that simply shows nothing and says nothing.
- *   no rows        -> said out loud, per figure group. An empty result is a
- *                    fact about the database, not an error.
+ * Every source loads on its own. A failed or not-yet-migrated RPC blanks its
+ * own card, never the page: an operator who can't see profit should still see
+ * the open tickets.
  * ------------------------------------------------------------------------ */
 
-/** Matches the plan's `rpc.auditRecent(100)`. The RPC's own default is also
- *  100; it is stated here so the number on screen is the number in the code. */
-const AUDIT_LIMIT = 100;
-
-/* ---------------------------------------------------------------------------
- * Loading
- * ------------------------------------------------------------------------ */
-
-type Loaded = { health: MoneyHealthRow[]; audit: AdminAuditRow[] };
-
-type Status =
-  | { phase: "loading" }
-  | { phase: "ready"; data: Loaded }
-  | { phase: "denied" }
-  | { phase: "error"; message: string };
-
-/** What to put in front of the operator when a call failed for a reason that
- *  is not denial. The message is shown because this screen is only ever
- *  reached by an `aal2` session — there is nobody here to keep it from. */
-function describeFailure(reason: unknown): string {
-  if (reason instanceof Error && reason.message) return reason.message;
-  return "The request did not complete.";
+/** The value of a card whose load failed or whose RPC isn't deployed. */
+function unavailable(s: Loadable<unknown>): string | null {
+  if (s.phase === "missing") return "needs update";
+  if (s.phase === "error") return "failed";
+  return null;
 }
 
-/* ---------------------------------------------------------------------------
- * Figures
- * ------------------------------------------------------------------------ */
+/* -- Alarms -------------------------------------------------------------- */
 
-/**
- * One labelled number.
- *
- * `value` is already a string, formatted by lib/admin/format, because that is
- * the only module that gets to decide what a missing value looks like. Every
- * column below is passed through it — including the ones typed plain `number`
- * — so that a column which quietly becomes nullable in a later migration
- * renders an em dash rather than `NaN` or, worse, a confident `0`.
- */
-function Figure({
-  label,
-  value,
-  alert = false,
-  note,
-}: {
-  label: string;
-  value: string;
-  alert?: boolean;
-  note?: string;
-}) {
+type Alarm = { label: string; value: string; href: string; tone: "bad" | "warn"; why: string };
+
+/** Only counters whose healthy value is zero (or a job that is overdue).
+ *  Thresholds come from the view's own comments; nothing is invented here. */
+function alarmsFrom(h: MoneyHealthRow): Alarm[] {
+  const out: Alarm[] = [];
+  const add = (cond: boolean, a: Alarm) => cond && out.push(a);
+  add(h.stale_active_activations > 0, {
+    label: "Stuck activations",
+    value: formatCoins(h.stale_active_activations),
+    href: "/admin/system",
+    tone: "bad",
+    why: "Still waiting past their expiry — the sweeper should have closed and refunded them.",
+  });
+  add(h.sweep_last_ok_minutes === null, {
+    label: "Sweeper never succeeded",
+    value: "—",
+    href: "/admin/system",
+    tone: "bad",
+    why: "No successful sweep on record: expired numbers aren't being refunded.",
+  });
+  add((h.sweep_failures ?? 0) > 0, {
+    label: "Sweep failures",
+    value: formatCoins(h.sweep_failures),
+    href: "/admin/system",
+    tone: "bad",
+    why: "Recent sweeper runs failed.",
+  });
+  add(h.numbers_awaiting_release > 0, {
+    label: "Numbers to release",
+    value: formatCoins(h.numbers_awaiting_release),
+    href: "/admin/system",
+    tone: "warn",
+    why: "OnlineSim numbers not yet released back — they may keep costing money.",
+  });
+  add(h.unbalanced_wallets > 0, {
+    label: "Unbalanced wallets",
+    value: formatCoins(h.unbalanced_wallets),
+    href: "/admin/users",
+    tone: "bad",
+    why: "Wallet balance doesn't match its ledger.",
+  });
+  add(h.refunds_missing > 0, {
+    label: "Refunds missing",
+    value: formatCoins(h.refunds_missing),
+    href: "/admin/system",
+    tone: "bad",
+    why: "Failed activations whose coins were not returned.",
+  });
+  add(h.margin_alerts_7d > 0, {
+    label: "Margin alerts 7d",
+    value: formatCoins(h.margin_alerts_7d),
+    href: "/admin/money",
+    tone: "warn",
+    why: "A service/country went below target margin; check the Money breakdown.",
+  });
+  add(h.users_investigate > 0, {
+    label: "Users to investigate",
+    value: formatCoins(h.users_investigate),
+    href: "/admin/users",
+    tone: "warn",
+    why: "Risk scoring flagged these accounts (refund abuse, shortfalls).",
+  });
+  add(h.pii_overdue_rows > 0 || h.pii_purge_last_ok_hours === null, {
+    label: "PII purge overdue",
+    value: formatCoins(h.pii_overdue_rows),
+    href: "/admin/system",
+    tone: "bad",
+    why: "Phone numbers/SMS kept past the retention window.",
+  });
+  return out;
+}
+
+function AlarmStrip({ status }: { status: Loadable<MoneyHealthRow[]> }) {
+  if (status.phase !== "ready") return null;
+  const row = status.data[0];
+  if (!row) return null;
+  const alarms = alarmsFrom(row);
+  if (alarms.length === 0) {
+    return (
+      <p className="mt-[12px] flex items-center gap-[8px] rounded-card border border-border bg-card px-[14px] py-[10px] text-label text-ink-muted">
+        <SeverityDot severity="good" /> No alarms. Sweeper, refunds, wallets and PII purge all look healthy
+        <span className="text-caption text-muted">· checked {formatRelative(row.generated_at)}</span>
+      </p>
+    );
+  }
   return (
-    <div className="border-t border-border pt-[9px]">
-      <dt className="text-caption uppercase tracking-[0.07em] text-muted">
-        {label}
-      </dt>
-      <dd
-        /* No danger token exists in the palette — this design system was drawn
-           for a marketing site that never has to say "something is wrong". The
-           literal is deliberate rather than a missing variable. */
-        className={`mt-[2px] font-sans text-subheading tabular-nums ${
-          alert ? "font-semibold text-[#a8201a]" : "text-ink"
-        }`}
-      >
-        {value}
-      </dd>
-      {note ? (
-        <p className="mt-[2px] text-caption text-muted">{note}</p>
-      ) : null}
+    <div className="mt-[12px] grid gap-[8px] sm:grid-cols-2 lg:grid-cols-3">
+      {alarms.map((a) => (
+        <Link
+          key={a.label}
+          href={a.href}
+          className={`flex items-start gap-[10px] rounded-card border px-[12px] py-[10px] ${
+            a.tone === "bad" ? "border-bad/30 bg-bad-soft" : "border-warn/30 bg-warn-soft"
+          }`}
+        >
+          <span className={`text-subheading font-semibold tabular-nums ${a.tone === "bad" ? "text-bad" : "text-warn"}`}>{a.value}</span>
+          <span className="min-w-0">
+            <span className="block text-label font-semibold">{a.label}</span>
+            <span className="block text-caption text-ink-muted">{a.why}</span>
+          </span>
+        </Link>
+      ))}
     </div>
   );
 }
 
-function FigureGroup({
-  title,
-  children,
-}: {
-  title: string;
-  children: ReactNode;
-}) {
-  return (
-    <section className="mt-[20px]">
-      <h2 className="font-sans text-label font-semibold uppercase tracking-[0.07em] text-ink-muted">
-        {title}
-      </h2>
-      <dl className="mt-[10px] grid grid-cols-2 gap-x-[20px] gap-y-[14px] sm:grid-cols-3 lg:grid-cols-6">
-        {children}
-      </dl>
-    </section>
-  );
+/* -- Activity feed ------------------------------------------------------- */
+
+const FILTERS: { key: string; label: string; kinds: ActivityKind[] | null }[] = [
+  { key: "all", label: "Everything", kinds: null },
+  { key: "money", label: "Money", kinds: ["purchase", "refund", "refund_reversed"] },
+  { key: "signup", label: "Sign-ups", kinds: ["signup"] },
+  { key: "support", label: "Support", kinds: ["support"] },
+  { key: "problems", label: "Problems", kinds: ["failure", "alert"] },
+  { key: "admin", label: "Admin actions", kinds: ["admin"] },
+];
+
+const KIND: Record<ActivityKind, { label: string; tone: BadgeTone }> = {
+  purchase: { label: "Purchase", tone: "good" },
+  refund: { label: "Refund", tone: "bad" },
+  refund_reversed: { label: "Refund reversed", tone: "info" },
+  signup: { label: "Sign-up", tone: "info" },
+  support: { label: "Ticket", tone: "warn" },
+  failure: { label: "Failure", tone: "bad" },
+  alert: { label: "Alert", tone: "warn" },
+  admin: { label: "Admin", tone: "neutral" },
+};
+
+function feedHref(r: ActivityRow): string | null {
+  if (r.entity_type === "system") return "/admin/system";
+  return entityHref(r.entity_type, r.entity_id) ?? entityHref("user", r.user_id);
 }
 
-/** True when a counter whose healthy value is zero is not zero.
- *  Null is *not* an alarm: it means the underlying scalar subquery found no
- *  row at all, which is a different fact and is already shown as an em dash. */
-function nonZero(value: number | null): boolean {
-  return value !== null && value !== 0;
-}
-
-/**
- * The money_health row.
- *
- * The three groups — alarms, money, watch — are the view's own, transcribed
- * from the column comments in lib/admin/rpc.ts rather than invented here.
- *
- * Only the alarms group and the two PII columns get the alert treatment,
- * because those are the columns whose healthy value is unambiguously zero.
- * Nothing else is highlighted: neither the plan nor the view defines a
- * threshold for "margin too low" or "too many users to investigate", and a
- * threshold this file made up would be indistinguishable on screen from one
- * the business actually agreed to.
- */
-function MoneyHealth({ row }: { row: MoneyHealthRow }) {
-  return (
-    <section>
-      <div className="flex flex-wrap items-baseline gap-x-[10px]">
-        <h2 className="font-sans text-subheading">Money health</h2>
-        <span className="text-caption text-muted">
-          generated {formatWhen(row.generated_at)}
+function FeedItem({ r }: { r: ActivityRow }) {
+  const href = feedHref(r);
+  const k = KIND[r.kind] ?? { label: r.kind, tone: "neutral" as const };
+  const body = (
+    <>
+      <span className="mt-[6px]">
+        <SeverityDot severity={r.severity === "crit" ? "bad" : r.severity === "warn" ? "warn" : r.kind === "purchase" ? "good" : "info"} />
+      </span>
+      <span className="min-w-0 flex-1">
+        <span className="flex flex-wrap items-center gap-x-[8px] gap-y-[2px]">
+          <Badge tone={k.tone}>{k.label}</Badge>
+          <span className="text-body font-medium">{r.title}</span>
         </span>
-      </div>
-
-      <FigureGroup title="Alarms">
-        <Figure
-          label="Stale active activations"
-          value={formatCoins(row.stale_active_activations)}
-          alert={nonZero(row.stale_active_activations)}
-        />
-        <Figure
-          label="Sweep last OK"
-          value={formatCoins(row.sweep_last_ok_minutes)}
-          /* Null here is not "no data" but "no successful sweep on record",
-             which is the thing the column exists to catch. */
-          alert={row.sweep_last_ok_minutes === null}
-          note="minutes ago"
-        />
-        <Figure
-          label="Sweep failures"
-          value={formatCoins(row.sweep_failures)}
-          alert={nonZero(row.sweep_failures)}
-        />
-        <Figure
-          label="Numbers awaiting release"
-          value={formatCoins(row.numbers_awaiting_release)}
-          alert={nonZero(row.numbers_awaiting_release)}
-        />
-        <Figure
-          label="Unbalanced wallets"
-          value={formatCoins(row.unbalanced_wallets)}
-          alert={nonZero(row.unbalanced_wallets)}
-        />
-        <Figure
-          label="Refunds missing"
-          value={formatCoins(row.refunds_missing)}
-          alert={nonZero(row.refunds_missing)}
-        />
-      </FigureGroup>
-
-      <FigureGroup title="Money">
-        <Figure
-          label="Coins outstanding"
-          value={formatCoins(row.coins_outstanding)}
-          note="coins"
-        />
-        <Figure
-          label="Outstanding liability"
-          value={formatUsd(row.coins_outstanding_usd)}
-        />
-        <Figure
-          label="Coins purchased 7d"
-          value={formatCoins(row.coins_purchased_7d)}
-          note="coins"
-        />
-        <Figure label="Revenue 7d" value={formatUsd(row.revenue_usd_7d)} />
-        <Figure
-          label="Provider cost 7d"
-          value={formatUsd(row.provider_cost_usd_7d)}
-        />
-        <Figure label="Margin 7d" value={formatUsd(row.margin_usd_7d)} />
-        <Figure
-          label="Realised multiple 7d"
-          /* A bare ratio, not a coin count. formatCoins is the plain-number
-             formatter in lib/admin/format; the unit lives in the note so that
-             a null still renders as an unadorned em dash. */
-          value={formatCoins(row.realised_multiple_7d)}
-          note="× cost"
-        />
-      </FigureGroup>
-
-      <FigureGroup title="Watch">
-        <Figure
-          label="Clawback shortfall 30d"
-          value={formatCoins(row.clawback_shortfall_coins_30d)}
-          note="coins"
-        />
-        <Figure
-          label="Users to investigate"
-          value={formatCoins(row.users_investigate)}
-        />
-        <Figure label="Users to watch" value={formatCoins(row.users_watch)} />
-        <Figure
-          label="Deleted with shortfall"
-          value={formatCoins(row.deleted_with_shortfall)}
-        />
-        <Figure
-          label="Activations 24h"
-          value={formatCoins(row.activations_24h)}
-        />
-        <Figure
-          label="SMS received 24h"
-          value={formatCoins(row.activations_received_24h)}
-        />
-        <Figure
-          label="Margin alerts 7d"
-          value={formatCoins(row.margin_alerts_7d)}
-        />
-        <Figure
-          label="PII purge last OK"
-          value={formatCoins(row.pii_purge_last_ok_hours)}
-          alert={row.pii_purge_last_ok_hours === null}
-          note="hours ago"
-        />
-        <Figure
-          label="PII rows overdue"
-          value={formatCoins(row.pii_overdue_rows)}
-          alert={nonZero(row.pii_overdue_rows)}
-        />
-      </FigureGroup>
-    </section>
-  );
-}
-
-/* ---------------------------------------------------------------------------
- * Audit
- * ------------------------------------------------------------------------ */
-
-/** `admin_audit_recent` already answers newest first. Sorting again is cheap
- *  and makes "reverse-chronological" a property of this component rather than
- *  a promise made by a function in another repository. `id` breaks ties
- *  because it is a bigserial: two rows written in the same millisecond still
- *  have a defined order, and the table must not shuffle between renders. */
-function newestFirst(rows: AdminAuditRow[]): AdminAuditRow[] {
-  return [...rows].sort((a, b) => {
-    const delta = Date.parse(b.created_at) - Date.parse(a.created_at);
-    if (Number.isFinite(delta) && delta !== 0) return delta;
-    return b.id - a.id;
-  });
-}
-
-function AuditTable({ rows }: { rows: AdminAuditRow[] }) {
-  const ordered = newestFirst(rows);
-
-  return (
-    <section className="mt-[34px]">
-      <div className="flex flex-wrap items-baseline gap-x-[10px]">
-        <h2 className="font-sans text-subheading">Recent audit</h2>
-        <span className="text-caption text-muted">
-          newest first · up to {AUDIT_LIMIT} rows · showing {ordered.length}
+        {r.detail ? <span className="mt-[2px] block break-words text-label text-ink-muted [overflow-wrap:anywhere]">{r.detail}</span> : null}
+        <span className="mt-[2px] block text-caption text-muted" title={formatWhen(r.at)}>
+          {formatRelative(r.at)}
         </span>
-      </div>
-
-      <div className="mt-[10px] overflow-x-auto">
-        <table className="w-full min-w-[720px] border-collapse text-label">
-          <thead>
-            <tr className="border-b border-border text-caption uppercase tracking-[0.07em] text-muted">
-              <th scope="col" className="py-[7px] pr-[14px] text-left font-medium">
-                When
-              </th>
-              <th scope="col" className="py-[7px] pr-[14px] text-left font-medium">
-                Who
-              </th>
-              <th scope="col" className="py-[7px] pr-[14px] text-left font-medium">
-                Action
-              </th>
-              <th scope="col" className="py-[7px] pr-[14px] text-left font-medium">
-                Subject
-              </th>
-              <th scope="col" className="py-[7px] text-left font-medium">
-                Reason
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {ordered.length === 0 ? (
-              <tr>
-                <td colSpan={5} className="py-[14px] text-body text-ink-muted">
-                  No audit rows.
-                </td>
-              </tr>
-            ) : (
-              ordered.map((entry) => (
-                <tr key={entry.id} className="border-b border-border align-top">
-                  <td className="whitespace-nowrap py-[7px] pr-[14px] tabular-nums text-ink-muted">
-                    {formatWhen(entry.created_at)}
-                  </td>
-                  {/* An audit trail without "who" is a list of things that
-                      happened to nobody. actor_label is never null — it names
-                      the direct database session too, which is exactly the
-                      case a uid cannot describe. */}
-                  <td className="whitespace-nowrap py-[7px] pr-[14px] text-ink-muted">
-                    {entry.actor_label}
-                  </td>
-                  <td className="py-[7px] pr-[14px] font-medium">
-                    {entry.action}
-                  </td>
-                  {/* Free-form on the Postgres side — a uid, an activation id,
-                      a transaction id — so it gets a monospace column wide
-                      enough for a uuid and is allowed to wrap rather than
-                      pushing the reason off the table. */}
-                  <td className="py-[7px] pr-[14px] font-mono text-caption break-all text-ink-muted">
-                    {entry.subject ?? "—"}
-                  </td>
-                  <td className="py-[7px] text-ink-muted">
-                    {entry.reason ?? "—"}
-                  </td>
-                </tr>
-              ))
-            )}
-          </tbody>
-        </table>
-      </div>
-    </section>
+      </span>
+      {r.amount_usd !== null ? (
+        <span className={`shrink-0 text-body font-semibold tabular-nums ${r.amount_usd < 0 ? "text-bad" : "text-good"}`}>
+          {formatUsdSigned(r.amount_usd)}
+        </span>
+      ) : null}
+      {href ? (
+        <span className="shrink-0 self-center text-muted" aria-hidden>
+          ›
+        </span>
+      ) : null}
+    </>
+  );
+  const cls = "flex items-start gap-[10px] px-[14px] py-[11px]";
+  return (
+    <li className="border-b border-border last:border-b-0">
+      {href ? (
+        <Link href={href} className={`${cls} hover:bg-canvas active:bg-panel`}>
+          {body}
+        </Link>
+      ) : (
+        <div className={cls}>{body}</div>
+      )}
+    </li>
   );
 }
 
-/* ---------------------------------------------------------------------------
- * The screen
- * ------------------------------------------------------------------------ */
+/* Before the migration there is no feed RPC; the audit log is the next best
+   thing, with subjects linked where the action says what they are. */
+function auditToActivity(a: AdminAuditRow): ActivityRow {
+  const entity =
+    a.action === "user_open" || a.action === "grant_coins"
+      ? "user"
+      : a.action === "sms_reveal"
+        ? "activation"
+        : a.action.startsWith("support")
+          ? "support"
+          : a.action.startsWith("provider_topup")
+            ? "topup"
+            : null;
+  return {
+    at: a.created_at,
+    kind: "admin",
+    entity_type: (entity ?? "system") as ActivityRow["entity_type"],
+    entity_id: entity && (entity === "topup" || isUuid(a.subject)) ? a.subject : null,
+    user_id: null,
+    title: `${a.actor_label}: ${a.action.replaceAll("_", " ")}`,
+    detail: a.reason,
+    amount_usd: null,
+    severity: "info",
+  };
+}
 
-function Overview() {
-  const [status, setStatus] = useState<Status>({ phase: "loading" });
-  /* Bumped by the retry button. A counter rather than a boolean so that a
-     second failure in a row still re-runs the effect. */
-  const [attempt, setAttempt] = useState(0);
+const PAGE = 40;
 
-  /* The reset to `loading` belongs here rather than at the top of the effect:
-     a setState in an effect body is a second render before the browser has
-     painted the first, which React lints against. Doing it in the handler that
-     asked for the reload gets the spinner up in the same render as the click. */
-  const retry = useCallback(() => {
-    setStatus({ phase: "loading" });
-    setAttempt((n) => n + 1);
-  }, []);
+function ActivityFeed({ tick }: { tick: number }) {
+  const [filter, setFilter] = useState("all");
+  const [rows, setRows] = useState<ActivityRow[]>([]);
+  const [phase, setPhase] = useState<"loading" | "ready" | "error" | "denied">("loading");
+  const [fallback, setFallback] = useState(false);
+  const [more, setMore] = useState(true);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const kinds = FILTERS.find((f) => f.key === filter)?.kinds ?? null;
+
+  function choose(key: string) {
+    if (key === filter) return;
+    setPhase("loading");
+    setRows([]);
+    setFilter(key);
+  }
 
   useEffect(() => {
     let cancelled = false;
-
     void (async () => {
-      /* allSettled, not all: if one call is denied and the other merely fails
-         on the network, the denial has to win. `all` would hand back whichever
-         rejected first, and a lost connection would then render an error
-         message on a route that is supposed to look like it does not exist. */
-      const [health, audit] = await Promise.allSettled([
-        rpc.moneyHealth(),
-        rpc.auditRecent(AUDIT_LIMIT),
-      ]);
-      if (cancelled) return;
-
-      if (health.status === "rejected" || audit.status === "rejected") {
-        const reasons = [
-          health.status === "rejected" ? health.reason : null,
-          audit.status === "rejected" ? audit.reason : null,
-        ];
-        if (reasons.some(isAdminDenied)) {
-          setStatus({ phase: "denied" });
-          return;
+      try {
+        const page = await rpc.activityFeed({ limit: PAGE, kinds });
+        if (cancelled) return;
+        setFallback(false);
+        setRows(page);
+        setMore(page.length === PAGE);
+        setPhase("ready");
+      } catch (err) {
+        if (cancelled) return;
+        if (isAdminDenied(err)) return setPhase("denied");
+        if (isMigrationMissing(err)) {
+          try {
+            const audit = await rpc.auditRecent(100);
+            if (cancelled) return;
+            setFallback(true);
+            setRows(audit.map(auditToActivity));
+            setMore(false);
+            setPhase("ready");
+            return;
+          } catch (e2) {
+            err = e2;
+          }
         }
-        const failure = reasons.find((reason) => reason !== null);
-        /* Logged as well as shown. The inline message is one line; the console
-           keeps the PostgREST `cause` that says which call broke and why. */
-        console.error("Admin overview failed to load.", failure);
-        setStatus({ phase: "error", message: describeFailure(failure) });
-        return;
+        setError(err instanceof Error ? err.message : "The request did not complete.");
+        setPhase("error");
       }
-
-      setStatus({
-        phase: "ready",
-        data: { health: health.value, audit: audit.value },
-      });
     })();
-
     return () => {
       cancelled = true;
     };
-  }, [attempt]);
+    // kinds derives from filter
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filter, tick]);
 
-  if (status.phase === "denied") return <DeniedBody />;
-
-  if (status.phase === "loading") {
-    return (
-      <p className="text-body text-ink-muted" role="status">
-        Loading…
-      </p>
-    );
+  async function loadOlder() {
+    const last = rows[rows.length - 1];
+    if (!last) return;
+    setLoadingMore(true);
+    try {
+      const page = await rpc.activityFeed({ limit: PAGE, before: last.at, kinds });
+      setRows((r) => [...r, ...page]);
+      setMore(page.length === PAGE);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Could not load older items.");
+    } finally {
+      setLoadingMore(false);
+    }
   }
 
-  if (status.phase === "error") {
-    return (
-      <div role="alert" className="max-w-[560px]">
-        <h2 className="font-sans text-subheading">Could not load the overview</h2>
-        <p className="mt-[6px] text-body text-ink-muted">{status.message}</p>
-        <button type="button" onClick={retry} className="cta cta--sm mt-[14px]">
-          Try again
-        </button>
-      </div>
-    );
-  }
+  if (phase === "denied") return <DeniedBody />;
 
-  const { health, audit } = status.data;
+  return (
+    <Section
+      title="Activity"
+      note={fallback ? "Admin audit only — apply the money migration for the full feed" : "Everything, newest first · tap a row to open it"}
+    >
+      {!fallback ? (
+        <div className="-mx-[16px] mb-[10px] flex gap-[6px] overflow-x-auto px-[16px] pb-[2px] md:mx-0 md:flex-wrap md:px-0">
+          {FILTERS.map((f) => (
+            <button
+              key={f.key}
+              type="button"
+              aria-pressed={filter === f.key}
+              onClick={() => choose(f.key)}
+              className={`shrink-0 rounded-pill border px-[12px] py-[5px] text-label ${
+                filter === f.key ? "border-transparent bg-ink text-white" : "border-border bg-card text-ink-muted"
+              }`}
+            >
+              {f.label}
+            </button>
+          ))}
+        </div>
+      ) : null}
+      {phase === "loading" ? (
+        <SkeletonRows n={8} />
+      ) : phase === "error" ? (
+        <p role="alert" className="text-body text-bad">
+          {error}
+        </p>
+      ) : rows.length === 0 ? (
+        <EmptyState title="Nothing happened here in the last 30 days" />
+      ) : (
+        <>
+          <ul className="overflow-hidden rounded-card border border-border bg-card">
+            {rows.map((r, i) => (
+              <FeedItem key={`${r.at}-${r.kind}-${r.entity_id}-${i}`} r={r} />
+            ))}
+          </ul>
+          {more ? (
+            <div className="mt-[10px] text-center">
+              <button type="button" onClick={loadOlder} disabled={loadingMore} className="rounded-[8px] border border-border bg-card px-[14px] py-[7px] text-label text-ink-muted">
+                {loadingMore ? "Loading…" : "Load older"}
+              </button>
+            </div>
+          ) : null}
+        </>
+      )}
+    </Section>
+  );
+}
+
+/* -- Screen -------------------------------------------------------------- */
+
+function OverviewScreen() {
+  const [tick, setTick] = useState(0);
+  const key = String(tick);
+  const today = useAdminData(() => rpc.moneySummary(24), key);
+  const week = useAdminData(() => rpc.moneySummary(168), key);
+  const health = useAdminData(() => rpc.moneyHealth(), key);
+  const digest = useAdminData(() => rpc.opsDigest(24), key);
+  const tickets = useAdminData(() => rpc.supportList(null, 200), key);
+
+  if ([today, week, health, digest, tickets].some((s) => s.status.phase === "denied")) return <DeniedBody />;
+
+  const t = today.status.phase === "ready" ? today.status.data : null;
+  const w = week.status.phase === "ready" ? week.status.data : null;
+  const d = digest.status.phase === "ready" ? digest.status.data : null;
+  const openTickets = tickets.status.phase === "ready" ? tickets.status.data.filter((r) => r.status !== "resolved") : null;
+  const staleTickets = openTickets?.filter((r) => r.stale).length ?? 0;
+  const lowBalance = w?.balance_now !== null && w?.balance_now !== undefined && w.balance_now < 20;
 
   return (
     <>
-      <div className="flex items-start justify-between gap-[16px]">
-        <h1 className="font-sans text-heading-sm">Overview</h1>
-        <button type="button" onClick={retry} className="cta cta--sm">
-          Refresh
-        </button>
-      </div>
+      <PageHeader
+        title="Overview"
+        subtitle="How the business is doing today, and everything that just happened."
+        actions={<RefreshButton onClick={() => setTick((n) => n + 1)} busy={today.status.phase === "loading"} />}
+      />
 
-      {health.length === 0 ? (
-        <p className="mt-[20px] text-body text-ink-muted">
-          money_health returned no rows.
-        </p>
-      ) : (
-        /* The view yields a single row today. Mapping costs nothing and means
-           a second row appears on screen instead of being silently dropped. */
-        health.map((row) => (
-          <div key={row.generated_at} className="mt-[20px]">
-            <MoneyHealth row={row} />
-          </div>
-        ))
-      )}
+      <StatGrid>
+        <Stat
+          label="Profit today"
+          loading={today.status.phase === "loading"}
+          value={unavailable(today.status) ?? formatUsdSigned(t?.gross_profit)}
+          tone={t ? (t.gross_profit < 0 ? "bad" : "good") : "neutral"}
+          sub={t ? `${formatUsd(t.earned)} earned · ${formatUsd(t.recorded_cost)} cost` : undefined}
+          href="/admin/money"
+          help="Last 24 hours: revenue on numbers that got an SMS, minus what OnlineSim charged for them."
+        />
+        <Stat
+          label="Profit 7 days"
+          loading={week.status.phase === "loading"}
+          value={unavailable(week.status) ?? formatUsdSigned(w?.gross_profit)}
+          tone={w ? (w.gross_profit < 0 ? "bad" : "good") : "neutral"}
+          sub={w?.margin_pct !== null && w ? `${formatPct(w.margin_pct)} margin` : undefined}
+          href="/admin/money"
+          help="Same as today, over the last 7 days. Margin = profit ÷ revenue earned."
+        />
+        <Stat
+          label="Cash in 7 days"
+          loading={week.status.phase === "loading"}
+          value={unavailable(week.status) ?? formatUsd(w?.cash_net)}
+          sub={w ? `${formatCoins(w.purchases)} purchases · ${formatUsd(w.gross)} gross` : undefined}
+          href="/admin/purchases"
+          help="What customers paid after Apple's commission and refunds. Includes coins they haven't used yet."
+        />
+        <Stat
+          label="OnlineSim spend 7 days"
+          loading={week.status.phase === "loading"}
+          value={unavailable(week.status) ?? formatUsd(w?.real_spend ?? w?.recorded_cost)}
+          sub={w ? (w.real_spend === null ? "recorded prices (no balance data)" : `recorded ${formatUsd(w.recorded_cost)}`) : undefined}
+          href="/admin/money"
+          help="The real drop in your OnlineSim balance (top-ups added back). Below it: the sum of list prices recorded per number."
+        />
+        <Stat
+          label="OnlineSim balance"
+          loading={week.status.phase === "loading"}
+          value={unavailable(week.status) ?? formatUsd(w?.balance_now)}
+          tone={lowBalance ? "bad" : "neutral"}
+          sub={w?.balance_as_of ? `${w.frozen_now ? `${formatUsd(w.frozen_now)} frozen · ` : ""}${formatRelative(w.balance_as_of)}` : undefined}
+          href="/admin/money#topups"
+          help="Money left on the OnlineSim account. Frozen = held for numbers still waiting for an SMS. Top up before it runs out, then log the top-up."
+        />
+        <Stat
+          label="Open tickets"
+          loading={tickets.status.phase === "loading"}
+          value={unavailable(tickets.status) ?? formatCoins(openTickets?.length)}
+          tone={staleTickets > 0 ? "warn" : "neutral"}
+          sub={staleTickets > 0 ? `${staleTickets} waiting over 24h` : openTickets ? "none overdue" : undefined}
+          href="/admin/support"
+          help="Support requests not yet resolved (latest 200)."
+        />
+        <Stat
+          label="Delivery 24h"
+          loading={digest.status.phase === "loading"}
+          value={unavailable(digest.status) ?? formatPct(d?.success_pct, 0)}
+          tone={d?.success_pct !== null && d?.success_pct !== undefined && d.success_pct < 60 ? "bad" : "neutral"}
+          sub={d ? `${formatCoins(d.delivered)} of ${formatCoins(d.issued)} numbers got an SMS` : undefined}
+          href="/admin/delivery"
+          help="Share of numbers issued in the last 24h that received a code."
+        />
+        <Stat
+          label="New users 24h"
+          loading={digest.status.phase === "loading"}
+          value={unavailable(digest.status) ?? formatCoins(d?.signups)}
+          sub={d ? `${formatCoins(d.first_purchases)} first purchases` : undefined}
+          href="/admin/users"
+          help="Accounts created in the last 24 hours, and how many bought coins for the first time."
+        />
+      </StatGrid>
 
-      <AuditTable rows={audit} />
+      <AlarmStrip status={health.status} />
+
+      <ActivityFeed tick={tick} />
     </>
   );
 }
 
-export default function AdminOverviewPage() {
+export default function OverviewPage() {
   return (
     <AuthGate>
-      <Overview />
+      <OverviewScreen />
     </AuthGate>
   );
 }

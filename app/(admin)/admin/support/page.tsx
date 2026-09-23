@@ -1,9 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import AuthGate, { DeniedBody } from "../AuthGate";
-import { ReplyPanel } from "./ReplyPanel";
+import { StatusSelect } from "./StatusSelect";
 import { formatWhen } from "../../../../lib/admin/format";
 import {
   isAdminDenied,
@@ -11,6 +10,17 @@ import {
   type SupportRow,
   type SupportStatus,
 } from "../../../../lib/admin/rpc";
+import {
+  Badge,
+  DataTable,
+  EmptyState,
+  EntityLink,
+  PageHeader,
+  RefreshButton,
+  SkeletonRows,
+  StatusBadge,
+  type Column,
+} from "../ui";
 
 /* ---------------------------------------------------------------------------
  * The support inbox.
@@ -25,7 +35,7 @@ import {
  *   - Nothing submitted is allowed to decide the layout. Long messages, a
  *     4,000-character word with no spaces, a pasted stack trace — each is
  *     contained by the message cell rather than being allowed to widen the
- *     table or push the status control off-screen. See `Message` below.
+ *     list or push the status control off-screen. See the message column.
  *   - Nothing submitted is trusted to be a known value. `SupportRow.status` is
  *     typed `string`, not `SupportStatus`, because the type is a mirror of a
  *     CHECK constraint in another repository rather than a guarantee. The
@@ -38,11 +48,6 @@ import {
  * render this from.
  * ------------------------------------------------------------------------ */
 
-/* The three values `admin_support_set_status` accepts, in workflow order.
-   Mirrors `SupportStatus` in lib/admin/rpc.ts; if that union gains a member,
-   this array is the other half of the change. */
-const STATUSES: readonly SupportStatus[] = ["new", "open", "resolved"];
-
 /** `null` is "every status" — `admin_support_list(p_status => null)`. */
 type Filter = SupportStatus | null;
 
@@ -54,108 +59,122 @@ const FILTERS: readonly { value: Filter; label: string }[] = [
 ];
 
 /* ---------------------------------------------------------------------------
- * Message body
+ * Columns
  * ------------------------------------------------------------------------ */
 
-/* Long enough that a collapsed message is worth collapsing, short enough that
-   an ordinary two-paragraph enquiry is never truncated. Compared against the
-   raw string rather than measured, so the first paint is already correct and
-   the control does not appear and disappear on resize. */
-const LONG_MESSAGE = 420;
-
-/**
- * A support message, as plain text and nothing else.
- *
- * `whitespace-pre-wrap` keeps the sender's own line breaks, which is most of
- * what makes a pasted error report readable. `overflow-wrap: anywhere` is the
- * load-bearing one: `break-words` alone will not break a single unbroken token
- * that is wider than its column, so without it one pasted base64 blob widens
- * the table and the whole page scrolls sideways for every other row too.
- *
- * Height is capped when collapsed so that one 20,000-character message cannot
- * bury the rest of the inbox below it.
- */
-function Message({ text }: { text: string }) {
-  const [open, setOpen] = useState(false);
-  const long = text.length > LONG_MESSAGE;
-
-  return (
-    <div>
-      <div
-        className={`whitespace-pre-wrap break-words [overflow-wrap:anywhere] text-body text-ink ${
-          long && !open ? "max-h-[7.5rem] overflow-hidden" : ""
-        }`}
-      >
-        {text}
-      </div>
-      {long ? (
-        <button
-          type="button"
-          onClick={() => setOpen((v) => !v)}
-          className="mt-[6px] text-caption text-muted underline underline-offset-2"
-        >
-          {open ? "Show less" : `Show all (${text.length} characters)`}
-        </button>
-      ) : null}
-    </div>
-  );
-}
-
-/* ---------------------------------------------------------------------------
- * Status control
- * ------------------------------------------------------------------------ */
-
-/**
- * A plain `<select>`, deliberately.
- *
- * Three buttons per row would be faster to click and would also mean three
- * more chances to click the wrong one in a dense table. A select cannot be
- * mis-hit, shows the current value without a legend, and is the control an
- * operator already knows.
- *
- * `current` is whatever the database said, which is not necessarily a
- * `SupportStatus`. An unknown value is added to the list rather than dropped,
- * because a select whose value matches no option renders as blank — the
- * operator would see an empty box and no clue that the row has a status at all.
- */
-function StatusSelect({
-  current,
-  disabled,
-  onChange,
-}: {
-  current: string;
-  disabled: boolean;
-  onChange: (next: SupportStatus) => void;
-}) {
-  const known = (STATUSES as readonly string[]).includes(current);
-
-  return (
-    <select
-      className="w-full rounded-[8px] border border-border bg-card px-[8px] py-[5px] text-label text-ink outline-none disabled:opacity-50"
-      value={current}
-      disabled={disabled}
-      aria-label="Status"
-      onChange={(e) => {
-        const next = e.target.value;
-        /* Narrowing rather than casting: the extra option below is not a
-           valid argument to the RPC, so it must not be sendable. */
-        if ((STATUSES as readonly string[]).includes(next)) {
-          onChange(next as SupportStatus);
-        }
-      }}
-    >
-      {known ? null : (
-        <option value={current} disabled>
-          {current || "(no status)"}
-        </option>
-      )}
-      {STATUSES.map((s) => (
-        <option key={s} value={s}>
-          {s}
-        </option>
-      ))}
-    </select>
-  );
+function columns(
+  setRowStatus: (id: string, status: string) => void,
+  onDenied: () => void,
+): Column<SupportRow>[] {
+  return [
+    {
+      key: "from",
+      header: "From",
+      mobile: "title",
+      className: "min-w-[150px] max-w-[220px] break-words [overflow-wrap:anywhere]",
+      /* Plain text, not links: on a phone this cell sits inside the card's
+         own link to the ticket, and an anchor inside an anchor is invalid. */
+      cell: (row) => (
+        <div>
+          <div className="text-ink">{row.name || "(no name)"}</div>
+          <div className="text-caption font-normal text-muted">{row.email}</div>
+        </div>
+      ),
+    },
+    {
+      key: "message",
+      header: "Message",
+      mobile: "title",
+      className: "min-w-[240px]",
+      /* Two lines and no more: the full text lives on the ticket page. The
+         clamp is what keeps one 20,000-character message from burying the
+         rest of the inbox, and `overflow-wrap: anywhere` is load-bearing —
+         `break-words` alone will not break one unbroken pasted token wider
+         than its column, and that token would widen the whole table. */
+      cell: (row) => (
+        <p className="line-clamp-2 whitespace-pre-wrap break-words [overflow-wrap:anywhere] text-label text-ink">
+          {row.message}
+        </p>
+      ),
+    },
+    {
+      key: "status",
+      header: "Status",
+      mobile: "aside",
+      cell: (row) => (
+        <div className="flex flex-col items-start gap-[4px] max-md:items-end">
+          <StatusBadge status={row.status} />
+          {row.stale ? <Badge tone="bad">waiting over 24h</Badge> : null}
+        </div>
+      ),
+    },
+    {
+      key: "topic",
+      header: "Topic / locale",
+      className: "max-w-[180px] break-words [overflow-wrap:anywhere]",
+      cell: (row) => (
+        <div>
+          <div className="text-ink">{row.topic || "—"}</div>
+          <div className="mt-[2px] text-caption text-muted">{row.locale}</div>
+        </div>
+      ),
+    },
+    {
+      key: "when",
+      header: "When",
+      className: "whitespace-nowrap tabular-nums text-ink-muted",
+      cell: (row) => formatWhen(row.created_at),
+    },
+    {
+      key: "replies",
+      header: "Replies",
+      cell: (row) =>
+        row.reply_count ? (
+          <span>
+            {row.reply_count}
+            {row.last_reply_at ? (
+              <span className="block text-caption text-muted">last {formatWhen(row.last_reply_at)}</span>
+            ) : null}
+          </span>
+        ) : (
+          <span className="text-muted">none yet</span>
+        ),
+    },
+    {
+      key: "contact",
+      header: "Contact",
+      className: "whitespace-nowrap",
+      cell: (row) => (
+        <div className="flex flex-col gap-[2px]">
+          <a
+            href={`mailto:${encodeURIComponent(row.email)}`}
+            className="text-accent-deep hover:underline"
+          >
+            Email
+          </a>
+          {row.user_id ? (
+            <EntityLink type="user" id={row.user_id}>
+              Open account
+            </EntityLink>
+          ) : (
+            <span className="text-caption text-muted">no account</span>
+          )}
+        </div>
+      ),
+    },
+    {
+      key: "set",
+      header: "Set status",
+      cell: (row) => (
+        <StatusSelect
+          id={row.id}
+          status={row.status}
+          onChange={(status) => setRowStatus(row.id, status)}
+          onDenied={onDenied}
+        />
+      ),
+    },
+  ];
 }
 
 /* ---------------------------------------------------------------------------
@@ -180,13 +199,6 @@ function Inbox() {
     message: string;
   } | null>(null);
   const [denied, setDenied] = useState(false);
-  /* Per-row, keyed by request id: which rows have a status write in flight,
-     and which one failed. Two rows can be changed at once, so neither can be
-     a single scalar. */
-  const [saving, setSaving] = useState<Record<string, true>>({});
-  const [saveError, setSaveError] = useState<{ id: string; message: string } | null>(
-    null,
-  );
 
   const filter = request.filter;
   /* Derived rather than stored. "Loading" is precisely "what is on screen is
@@ -199,25 +211,15 @@ function Inbox() {
   const loading = !failed && loadedNonce !== request.nonce;
 
   const reload = () => setRequest((r) => ({ ...r, nonce: r.nonce + 1 }));
-
-  /* Which rows have their reply thread open. */
-  const [open, setOpen] = useState<Record<string, true>>({});
   const onDenied = useCallback(() => setDenied(true), []);
-  const toggle = (id: string) =>
-    setOpen((o) => {
-      const next = { ...o };
-      if (next[id]) delete next[id];
-      else next[id] = true;
-      return next;
-    });
-  const onSent = (id: string, status: "open" | "resolved") =>
-    setRows((current) =>
-      current.map((row) =>
-        row.id === id
-          ? { ...row, status, reply_count: (row.reply_count ?? 0) + 1, stale: false }
-          : row,
-      ),
-    );
+
+  /* StatusSelect owns the write and its revert; the inbox only mirrors
+     whatever it reports so the badge follows the select. */
+  const setRowStatus = useCallback(
+    (id: string, status: string) =>
+      setRows((current) => current.map((row) => (row.id === id ? { ...row, status } : row))),
+    [],
+  );
 
   useEffect(() => {
     let cancelled = false;
@@ -226,7 +228,6 @@ function Inbox() {
         const data = await rpc.supportList(request.filter);
         if (cancelled) return;
         setRows(data);
-        setSaveError(null);
         setLoadedNonce(request.nonce);
       } catch (err) {
         if (cancelled) return;
@@ -245,81 +246,22 @@ function Inbox() {
     };
   }, [request]);
 
-  /**
-   * Optimistic status change.
-   *
-   * The new status is painted immediately and put back if Postgres refuses.
-   * Optimism is safe here precisely because the write is cheap and the revert
-   * is exact: `previous` is read before the paint, so the row returns to the
-   * value it actually had rather than to a guess.
-   *
-   * `admin_support_set_status` answers a bare bigint — the audit id — not the
-   * updated row, so there is nothing to reconcile against on success. The
-   * optimistic value *is* the result, which is also why a failure has to be
-   * visible: nothing else would ever contradict it.
-   *
-   * `previous` is read from the render closure rather than from inside a
-   * setRows updater. An updater that also captured a value would be an impure
-   * one, and React calls those twice in development — the second call would
-   * read the already-optimistic value, and the revert would then restore the
-   * status the row was being changed *to*.
-   */
-  async function setStatus(id: string, next: SupportStatus) {
-    const previous = rows.find((row) => row.id === id)?.status;
-    if (previous === undefined || previous === next) return;
-
-    setRows((current) =>
-      current.map((row) => (row.id === id ? { ...row, status: next } : row)),
-    );
-    setSaveError(null);
-    setSaving((s) => ({ ...s, [id]: true }));
-    try {
-      await rpc.supportSetStatus(id, next);
-    } catch (err) {
-      setRows((current) =>
-        current.map((row) =>
-          row.id === id ? { ...row, status: previous } : row,
-        ),
-      );
-      if (isAdminDenied(err)) {
-        setDenied(true);
-        return;
-      }
-      setSaveError({
-        id,
-        message: err instanceof Error ? err.message : String(err),
-      });
-    } finally {
-      setSaving((s) => {
-        const rest = { ...s };
-        delete rest[id];
-        return rest;
-      });
-    }
-  }
-
   /* Denial replaces the whole screen — see AuthGate's DeniedBody. */
   if (denied) return <DeniedBody />;
 
   return (
     <section>
-      <header className="flex flex-wrap items-baseline gap-x-[16px] gap-y-[6px]">
-        <h1 className="text-heading-sm font-semibold">Support</h1>
-        <span className="text-caption text-muted">
-          {loading || failed
-            ? ""
-            : `${rows.length} ${rows.length === 1 ? "request" : "requests"}`}
-        </span>
-        <button
-          type="button"
-          onClick={reload}
-          className="ml-auto text-label text-muted underline underline-offset-2"
-        >
-          Refresh
-        </button>
-      </header>
+      <PageHeader
+        title="Support"
+        subtitle={
+          loading || failed
+            ? "Requests sent through the contact form. Open one to read it in full and reply."
+            : `${rows.length} ${rows.length === 1 ? "request" : "requests"} · open one to read it in full and reply.`
+        }
+        actions={<RefreshButton onClick={reload} busy={loading} />}
+      />
 
-      <div className="mt-[14px] flex flex-wrap gap-[6px]">
+      <div className="flex flex-wrap gap-[6px]">
         {FILTERS.map((f) => {
           const active = f.value === filter;
           return (
@@ -344,13 +286,13 @@ function Inbox() {
 
       <div className="mt-[18px]">
         {loading ? (
-          <p className="py-[28px] text-body text-ink-muted">Loading…</p>
+          <SkeletonRows n={5} />
         ) : failed ? (
           /* An ordinary failure — offline, a network blip, a genuine bug. It
              gets the message and a retry, unlike a denial, because there is
              nothing to conceal from someone who has already reached this
              screen with an aal2 session. */
-          <div className="rounded-[10px] border border-border bg-card p-[16px]">
+          <div className="rounded-card border border-border bg-card p-[16px]">
             <p role="alert" className="text-body text-ink">
               Could not load support requests.
             </p>
@@ -365,136 +307,36 @@ function Inbox() {
               Try again
             </button>
           </div>
-        ) : rows.length === 0 ? (
-          /* The empty state says which query was empty, and says the query
-             succeeded. An operator who cannot tell "nothing matched" from
-             "this page is broken" will go looking for a bug that is not
-             there — and this inbox has genuinely never had a submission, so
-             this is the branch that actually renders in production today. */
-          <div className="rounded-[10px] border border-border bg-card p-[20px]">
-            <p className="text-body text-ink">
-              {filter === null
-                ? "No support requests have been submitted."
-                : `No support requests with status “${filter}”.`}
-            </p>
-            <p className="mt-[6px] text-caption text-muted">
-              The inbox loaded successfully — this is an empty result, not an
-              error.
-              {filter === null
-                ? ""
-                : " Choose All to see requests in other statuses."}
-            </p>
-          </div>
         ) : (
-          <div className="overflow-x-auto rounded-[10px] border border-border bg-card">
-            <table className="w-full table-fixed border-collapse text-left">
-              <colgroup>
-                <col className="w-[190px]" />
-                <col className="w-[230px]" />
-                <col className="w-[170px]" />
-                <col />
-                <col className="w-[140px]" />
-              </colgroup>
-              <thead>
-                <tr className="border-b border-border text-caption uppercase tracking-[0.06em] text-muted">
-                  <th className="px-[12px] py-[9px] font-medium">When</th>
-                  <th className="px-[12px] py-[9px] font-medium">From</th>
-                  <th className="px-[12px] py-[9px] font-medium">Topic / locale</th>
-                  <th className="px-[12px] py-[9px] font-medium">Message</th>
-                  <th className="px-[12px] py-[9px] font-medium">Status</th>
-                </tr>
-              </thead>
-              <tbody>
-                {rows.map((row) => (
-                  <tr
-                    key={row.id}
-                    className="border-b border-border align-top last:border-b-0"
-                  >
-                    <td className="px-[12px] py-[10px] text-label tabular-nums text-ink-muted">
-                      {formatWhen(row.created_at)}
-                      {row.stale ? (
-                        <div className="mt-[4px] text-caption font-medium text-[#a32b20]">
-                          Waiting over 24h
-                        </div>
-                      ) : null}
-                    </td>
-                    <td className="px-[12px] py-[10px] break-words [overflow-wrap:anywhere]">
-                      <div className="text-label text-ink">{row.name}</div>
-                      <a
-                        href={`mailto:${encodeURIComponent(row.email)}`}
-                        className="text-caption text-muted underline underline-offset-2"
-                      >
-                        {row.email}
-                      </a>
-                      {row.user_id ? (
-                        <div className="mt-[2px]">
-                          <Link
-                            href={`/admin/users/${row.user_id}`}
-                            className="text-caption text-accent-deep underline underline-offset-2"
-                          >
-                            Open account
-                          </Link>
-                        </div>
-                      ) : null}
-                    </td>
-                    <td className="px-[12px] py-[10px] break-words [overflow-wrap:anywhere] text-label text-ink">
-                      <div>{row.topic}</div>
-                      <div className="mt-[2px] text-caption text-muted">
-                        {row.locale}
-                      </div>
-                    </td>
-                    <td className="px-[12px] py-[10px]">
-                      <Message text={row.message} />
-                      <button
-                        type="button"
-                        onClick={() => toggle(row.id)}
-                        aria-expanded={open[row.id] === true}
-                        className="mt-[8px] text-caption text-accent-deep underline underline-offset-2"
-                      >
-                        {open[row.id]
-                          ? "Hide replies"
-                          : row.reply_count
-                            ? `Replies (${row.reply_count}) · Reply`
-                            : "Reply"}
-                      </button>
-                      {open[row.id] ? (
-                        <ReplyPanel
-                          row={row}
-                          onSent={(status) => onSent(row.id, status)}
-                          onDenied={onDenied}
-                        />
-                      ) : null}
-                    </td>
-                    <td className="px-[12px] py-[10px]">
-                      <StatusSelect
-                        current={row.status}
-                        disabled={saving[row.id] === true}
-                        onChange={(next) => void setStatus(row.id, next)}
-                      />
-                      {saving[row.id] ? (
-                        <p className="mt-[4px] text-caption text-muted">
-                          Saving…
-                        </p>
-                      ) : null}
-                      {saveError && saveError.id === row.id ? (
-                        <p
-                          role="alert"
-                          /* An explicit red rather than a design token: the
-                             marketing palette has no danger colour, and the
-                             one failure on this page that the operator must
-                             not scroll past is a status change that silently
-                             did not happen. */
-                          className="mt-[4px] break-words [overflow-wrap:anywhere] text-caption text-[#a32b20]"
-                        >
-                          Not saved — reverted. {saveError.message}
-                        </p>
-                      ) : null}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <DataTable
+            rows={rows}
+            columns={columns(setRowStatus, onDenied)}
+            rowKey={(row) => row.id}
+            rowHref={(row) => `/admin/support/${row.id}`}
+            rowTone={(row) => (row.stale ? "warn" : null)}
+            /* The empty state says which query was empty, and says the query
+               succeeded. An operator who cannot tell "nothing matched" from
+               "this page is broken" will go looking for a bug that is not
+               there. */
+            empty={
+              <EmptyState
+                title={
+                  filter === null
+                    ? "No support requests have been submitted."
+                    : `No support requests with status “${filter}”.`
+                }
+                hint={
+                  <>
+                    The inbox loaded successfully — this is an empty result, not
+                    an error.
+                    {filter === null
+                      ? ""
+                      : " Choose All to see requests in other statuses."}
+                  </>
+                }
+              />
+            }
+          />
         )}
       </div>
     </section>

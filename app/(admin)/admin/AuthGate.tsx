@@ -16,6 +16,8 @@ import {
   resolveAdminState,
   type AdminState,
 } from "../../../lib/admin/guard";
+import { BottomNav, TopNav } from "./components/Nav";
+import { SkeletonRows, SkeletonStats } from "./components/States";
 
 /* ---------------------------------------------------------------------------
  * The gate every admin screen sits behind.
@@ -646,42 +648,27 @@ function Chrome({
 }) {
   return (
     <>
-      <header className="border-b border-border bg-card">
-        <div className="mx-auto flex w-full max-w-[1160px] flex-wrap items-center gap-x-[20px] gap-y-[6px] px-[clamp(16px,3vw,28px)] py-[12px]">
-          <span className="text-label font-semibold">Operations</span>
-          <nav className="flex flex-wrap items-center gap-x-[16px] gap-y-[4px] text-label text-ink-muted">
-            <Link href="/admin" className="ghost-link">
-              Overview
-            </Link>
-            <Link href="/admin/users" className="ghost-link">
-              Users
-            </Link>
-            <Link href="/admin/support" className="ghost-link">
-              Support
-            </Link>
-            <Link href="/admin/purchases" className="ghost-link">
-              Purchases
-            </Link>
-            <Link href="/admin/delivery" className="ghost-link">
-              Delivery
-            </Link>
-            <Link href="/admin/system" className="ghost-link">
-              System
-            </Link>
-          </nav>
-          <button
-            type="button"
-            onClick={onSignOut}
-            className="ml-auto text-label text-muted underline underline-offset-2"
-          >
-            Sign out
-          </button>
-        </div>
-      </header>
-      <main className="mx-auto w-full max-w-[1160px] flex-1 px-[clamp(16px,3vw,28px)] py-[28px]">
+      <TopNav onSignOut={onSignOut} />
+      <main className="mx-auto min-h-[calc(100dvh-49px)] w-full max-w-[1160px] flex-1 px-[clamp(16px,3vw,28px)] pt-[22px] pb-[calc(90px+env(safe-area-inset-bottom))] md:pt-[28px] md:pb-[40px]">
         {children}
       </main>
+      <BottomNav onSignOut={onSignOut} />
     </>
+  );
+}
+
+function GateSkeleton() {
+  return (
+    <div className="flex min-h-dvh flex-1 flex-col" aria-busy="true" aria-label="Loading">
+      <div className="h-[49px] border-b border-border bg-card" />
+      <main className="mx-auto min-h-[calc(100dvh-49px)] w-full max-w-[1160px] flex-1 px-[clamp(16px,3vw,28px)] pt-[22px] md:pt-[28px]">
+        <div className="mb-[18px] h-[28px] w-[160px] animate-pulse rounded-[8px] bg-panel" />
+        <SkeletonStats n={8} />
+        <div className="mt-[24px]">
+          <SkeletonRows n={8} />
+        </div>
+      </main>
+    </div>
   );
 }
 
@@ -745,7 +732,10 @@ export function AuthGate({ children }: { children: ReactNode }) {
     await refresh();
   }, [refresh]);
 
-  if (state === null) return <div className="flex-1" aria-hidden />;
+  /* While the session resolves, paint the panel's shape — header, cards, rows —
+     rather than an empty page that then jumps into place. It shows no data and
+     no nav links, so it tells a signed-out visitor nothing. */
+  if (state === null) return <GateSkeleton />;
 
   /* With an authenticator already set up, Supabase refuses a password change
      on an aal1 session, so the code comes first (needsChallenge renders
