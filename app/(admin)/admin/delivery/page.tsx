@@ -6,6 +6,7 @@ import AuthGate, { DeniedBody } from "../AuthGate";
 import {
   Card,
   comboHref,
+  CopyText,
   DataTable,
   EmptyState,
   entityHref,
@@ -31,6 +32,7 @@ import {
   type ProviderBalanceRow,
 } from "../../../../lib/admin/rpc";
 import { formatCoins, formatUsd, formatWhen } from "../../../../lib/admin/format";
+import { smsEventLabel } from "../../../../lib/admin/reasons";
 
 /* ---------------------------------------------------------------------------
  * Delivery: is the product actually handing out SMS codes?
@@ -253,13 +255,18 @@ function telegramState(r: OpsEventRow): string {
 const FAILURE_COLUMNS: Column<OpsEventRow>[] = [
   {
     key: "event",
-    header: "Event",
+    header: "What happened",
     mobile: "title",
-    cell: (r) => (
-      <span className={r.severity === "crit" ? "font-semibold text-bad" : "font-medium"}>
-        {r.close_reason ?? r.kind.replace(/_/g, " ")}
-      </span>
-    ),
+    cell: (r) => {
+      const why = smsEventLabel(r.kind, r.close_reason);
+      const copyWhy = r.kind !== "activation_received" && why !== "—";
+      return (
+        <span className="inline-flex items-start gap-[4px]">
+          <span className={r.severity === "crit" ? "font-semibold text-bad" : "font-medium"}>{why}</span>
+          {copyWhy ? <CopyText text={why} label="Copy why" /> : null}
+        </span>
+      );
+    },
   },
   {
     key: "service",
@@ -444,7 +451,7 @@ function Delivery() {
         />
       </Section>
 
-      <Section title="Recent failures" note={`newest first · up to ${FAILURE_LIMIT}`}>
+      <Section title="Recent SMS" note={`received and failed · newest first · up to ${FAILURE_LIMIT}`}>
         <DataTable
           rows={failures}
           columns={FAILURE_COLUMNS}

@@ -8,7 +8,8 @@ import { getAdminClient } from "./client";
  * These add nothing. Every one of them is a `security definer` function in the
  * sms-expo repo (`supabase/migrations/20260834000000_admin.sql`,
  * `20260839000000_ops_monitoring.sql`, `20260843000000_admin_p1.sql`,
- * `20260845000000_admin_money.sql`, `20260846000000_admin_team.sql`), gated by
+ * `20260845000000_admin_money.sql`, `20260846000000_admin_team.sql`,
+ * `20260847000000_sms_legacy_reporting.sql`), gated by
  * `is_admin()`, granted to `authenticated` and revoked from `anon`. The panel
  * is a client for them, not an authority of its own — see lib/admin/client.ts
  * for why that distinction is the entire security model.
@@ -436,7 +437,127 @@ export type PnlRow = {
   real_profit: number | null;
 };
 
-/** `admin_money_summary` — window totals (exactly now()-hours .. now()). */
+export type EconomicsMetric = {
+  amount: string | null;
+  currency: string;
+  quality: string;
+  reason?: string;
+  coverage: string;
+};
+
+export type EconomicsBasis = {
+  basis: string;
+  formula_version: string;
+  fx_policy_version: string;
+  cash_net_is_bank_cash: boolean;
+  mrr: null;
+  native: Record<string, EconomicsMetric>;
+  gbp: Record<string, EconomicsMetric>;
+  warnings: string[];
+};
+
+export type EconomicsEntry = {
+  id: string;
+  entry_kind: "expense" | "manual_income";
+  status: "draft" | "posted" | "void";
+  vendor: string | null;
+  category: string | null;
+  amount: string;
+  currency: string;
+  tax_inclusion: string;
+  due_on: string | null;
+  paid_on: string | null;
+  payment_account_id: string | null;
+  receipt_document_id: string | null;
+  record_id: string | null;
+  note: string | null;
+  exported: boolean;
+};
+
+export type EconomicsReport = {
+  formula_version: string;
+  legacy_formula_version: string;
+  fx_policy_version: string;
+  from: string;
+  to: string;
+  balances: {
+    snapshots: {
+      financial_account_id: string;
+      account_kind: string;
+      as_of: string;
+      amount: { amount: string | null; currency?: string; quality: string; reason?: string };
+      additive: false;
+    }[];
+    warnings: string[];
+  };
+  operations: {
+    buckets: {
+      date: string;
+      timezone: string;
+      partial: boolean;
+      flows: { name: string; count: number; additive: true }[];
+      stocks: { name: string; count: number; additive: false; as_of: string }[];
+    }[];
+    warnings: string[];
+  };
+  purchase: EconomicsBasis;
+  earned_management: EconomicsBasis;
+  settled_cash: EconomicsBasis;
+  reconciliation: {
+    runs: {
+      status: string;
+      residuals: { code: string; quality: string; amount: { amount: string | null; reason?: string } }[];
+      legacy_comparison: { cash_net_is_bank_cash: false; formula_version: string };
+    }[];
+    warnings: string[];
+  };
+  subscriptions: { supported: boolean; reason?: string; metrics: null };
+  entries: EconomicsEntry[];
+  sales: { record_id: string; amount: string | null; currency: string | null; occurred_at: string }[];
+  manual_income_usd: { amount: string | null; currency: string; quality: string; reason?: string };
+  statements: {
+    id: number;
+    line_kind: string;
+    direction: string;
+    amount: string;
+    currency: string;
+    occurred_at: string;
+    external_ref: string;
+    matches: { sale_record_id: string; amount: string }[];
+  }[];
+  warnings: string[];
+};
+
+export type ProjectEntryDraft = {
+  kind: "expense" | "manual_income";
+  vendor?: string | null;
+  category?: string | null;
+  amount: number;
+  currency?: string | null;
+  serviceFrom?: string | null;
+  serviceTo?: string | null;
+  dueOn?: string | null;
+  paidOn?: string | null;
+  taxAmount?: number | null;
+  taxInclusion?: string | null;
+  paymentAccountId?: string | null;
+  recurrence?: { interval: string; count: number } | null;
+  note?: string | null;
+};
+
+export type StatementImport = {
+  account: string;
+  occurredAt: string;
+  amount: number;
+  direction: "inflow" | "outflow";
+  lineKind: "settlement" | "payout" | "opening_balance" | "transfer";
+  externalRef: string;
+  destination?: string | null;
+  currency?: string | null;
+  note?: string | null;
+};
+
+/** `admin_money_summary` — window totals for one cutoff (`p_as_of`, or now()). */
 export type MoneySummary = {
   hours: number;
   from: string;
@@ -483,6 +604,26 @@ export type MoneySummary = {
   share_default_rate_pct: number | null;
   /** Plain-language explanation per figure, keyed by the field name. */
   sources: Record<string, string>;
+  /** Present after 20260847000000. The numeric fields above are unchanged. */
+  basis?: "sms_legacy";
+  formula_version?: string;
+  /** Live purchases whose store price was missing and may be reconstructed. */
+  purchases_missing_store_price?: number;
+  /** Delivered numbers valued at pricing_config.net_usd_per_coin. */
+  activations_default_rate?: number;
+  /** Same count as cost_unknown. Canonical export keeps this cost null. */
+  missing_supplier_cost?: number;
+  gross_quality?: string;
+  apple_fee_quality?: string;
+  apple_fee_reason?: string;
+  refunds_quality?: string;
+  refunds_reason?: string;
+  net_sales?: null;
+  sales_tax?: null;
+  processor_fee_confirmed?: null;
+  bank_cash?: null;
+  gbp_amount?: null;
+  mrr?: null;
 };
 
 export type BreakdownGroup = "service" | "country" | "combo";
@@ -549,6 +690,7 @@ export type ActivityKind =
   | "refund_reversed"
   | "signup"
   | "support"
+  | "delivered"
   | "failure"
   | "alert"
   | "admin";
@@ -1068,28 +1210,36 @@ export const rpc = {
   /* -- Money, spend, feed, details (sms-expo 20260845000000_admin_money.sql).
    *    Until that migration is applied these throw MigrationMissing. -- */
 
-  /** `admin_money_pnl(p_hours int = 168)` — buckets oldest first. */
-  moneyPnl(hours?: number): Promise<PnlRow[]> {
-    return callRows<PnlRow>("admin_money_pnl", { p_hours: hours });
+  /** `admin_report_cutoff() -> timestamptz`. One clock reading for a refresh. */
+  reportCutoff(): Promise<string> {
+    return callScalar<string>("admin_report_cutoff", {});
   },
 
-  /** `admin_money_summary(p_hours int = 168) -> jsonb`. */
-  moneySummary(hours?: number): Promise<MoneySummary> {
-    return callScalar<MoneySummary>("admin_money_summary", { p_hours: hours });
+  /** `admin_money_pnl(p_hours int = 168, p_as_of timestamptz = null)` —
+   *  buckets oldest first. Pass the same cutoff to every money call in a refresh. */
+  moneyPnl(hours?: number, asOf?: string): Promise<PnlRow[]> {
+    return callRows<PnlRow>("admin_money_pnl", { p_hours: hours, p_as_of: asOf });
   },
 
-  /** `admin_money_breakdown(p_hours int = 168, p_group text = 'service')` —
-   *  worst profit first, at most 200 rows. */
-  moneyBreakdown(hours?: number, group?: BreakdownGroup): Promise<BreakdownRow[]> {
+  /** `admin_money_summary(p_hours int = 168, p_as_of timestamptz = null) -> jsonb`. */
+  moneySummary(hours?: number, asOf?: string): Promise<MoneySummary> {
+    return callScalar<MoneySummary>("admin_money_summary", { p_hours: hours, p_as_of: asOf });
+  },
+
+  /** `admin_money_breakdown(p_hours int = 168, p_group text = 'service',
+   *  p_as_of timestamptz = null)` — worst profit first, at most 200 rows. */
+  moneyBreakdown(hours?: number, group?: BreakdownGroup, asOf?: string): Promise<BreakdownRow[]> {
     return callRows<BreakdownRow>("admin_money_breakdown", {
       p_hours: hours,
       p_group: group,
+      p_as_of: asOf,
     });
   },
 
-  /** `admin_provider_spend(p_hours int = 168)` — balance intervals, oldest first. */
-  providerSpend(hours?: number): Promise<SpendIntervalRow[]> {
-    return callRows<SpendIntervalRow>("admin_provider_spend", { p_hours: hours });
+  /** `admin_provider_spend(p_hours int = 168, p_as_of timestamptz = null)` —
+   *  balance intervals, oldest first. */
+  providerSpend(hours?: number, asOf?: string): Promise<SpendIntervalRow[]> {
+    return callRows<SpendIntervalRow>("admin_provider_spend", { p_hours: hours, p_as_of: asOf });
   },
 
   /** `admin_provider_topups(p_hours int = 2160)` — by occurred_at, newest
@@ -1113,6 +1263,80 @@ export const rpc = {
    *  id). Reason must be at least 8 characters. */
   topupVoid(id: number, reason: string): Promise<number> {
     return callScalar<number>("admin_provider_topup_void", { p_id: id, p_reason: reason });
+  },
+
+  /** `admin_bos_economics` — comparable bridge, operations, balances, local
+   *  entries and statement lines for one cutoff. Legacy P&L stays on
+   *  `moneySummary`. */
+  economics(hours?: number, asOf?: string): Promise<EconomicsReport> {
+    return callScalar<EconomicsReport>("admin_bos_economics", { p_hours: hours, p_as_of: asOf });
+  },
+
+  projectEntryDraft(input: ProjectEntryDraft): Promise<string> {
+    return callScalar<string>("admin_project_entry_draft", {
+      p_kind: input.kind,
+      p_vendor: input.vendor,
+      p_category: input.category,
+      p_amount: input.amount,
+      p_currency: input.currency,
+      p_service_from: input.serviceFrom,
+      p_service_to: input.serviceTo,
+      p_due: input.dueOn,
+      p_paid: input.paidOn,
+      p_tax: input.taxAmount,
+      p_tax_inclusion: input.taxInclusion,
+      p_payment_account: input.paymentAccountId,
+      p_recurrence: input.recurrence,
+      p_note: input.note,
+    });
+  },
+
+  projectEntryPost(id: string): Promise<string | null> {
+    return callScalar<string | null>("admin_project_entry_post", { p_id: id });
+  },
+
+  projectEntryCorrect(id: string, amount: number, reason: string): Promise<number> {
+    return callScalar<number>("admin_project_entry_correct", {
+      p_id: id,
+      p_amount: amount,
+      p_reason: reason,
+    });
+  },
+
+  projectEntryVoid(id: string, reason: string): Promise<number | null> {
+    return callScalar<number | null>("admin_project_entry_void", { p_id: id, p_reason: reason });
+  },
+
+  /** Checksum is SHA-256 hex. `bytes` is a Postgres hex bytea (`\\x...`). */
+  projectReceiptPut(entryId: string, sha256: string, bytes: string, contentType: string): Promise<string> {
+    return callScalar<string>("admin_project_receipt_put", {
+      p_entry: entryId,
+      p_sha256: sha256,
+      p_bytes: bytes,
+      p_content_type: contentType,
+    });
+  },
+
+  statementImport(input: StatementImport): Promise<number> {
+    return callScalar<number>("admin_statement_import", {
+      p_account: input.account,
+      p_occurred_at: input.occurredAt,
+      p_amount: input.amount,
+      p_direction: input.direction,
+      p_line_kind: input.lineKind,
+      p_external_ref: input.externalRef,
+      p_destination: input.destination,
+      p_currency: input.currency,
+      p_note: input.note,
+    });
+  },
+
+  statementMatch(lineId: number, saleRecordId: string, amount: number): Promise<number> {
+    return callScalar<number>("admin_statement_match", {
+      p_line_id: lineId,
+      p_sale_record_id: saleRecordId,
+      p_amount: amount,
+    });
   },
 
   /** `admin_activity_feed(p_limit int = 50, p_before timestamptz = null,

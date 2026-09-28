@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import AuthGate, { DeniedBody } from "./AuthGate";
 import {
   isAdminDenied,
@@ -15,6 +16,7 @@ import {
 import { formatCoins, formatPct, formatRelative, formatUsd, formatUsdSigned, formatWhen } from "../../../lib/admin/format";
 import {
   Badge,
+  CopyText,
   EmptyState,
   PageHeader,
   PageSkeleton,
@@ -169,6 +171,7 @@ const FILTERS: { key: string; label: string; kinds: ActivityKind[] | null }[] = 
   { key: "money", label: "Money", kinds: ["purchase", "refund", "refund_reversed"] },
   { key: "signup", label: "Sign-ups", kinds: ["signup"] },
   { key: "support", label: "Support", kinds: ["support"] },
+  { key: "sms", label: "SMS", kinds: ["delivered", "failure"] },
   { key: "problems", label: "Problems", kinds: ["failure", "alert"] },
   { key: "admin", label: "Admin actions", kinds: ["admin"] },
 ];
@@ -179,6 +182,7 @@ const KIND: Record<ActivityKind, { label: string; tone: BadgeTone }> = {
   refund_reversed: { label: "Refund reversed", tone: "info" },
   signup: { label: "Sign-up", tone: "info" },
   support: { label: "Ticket", tone: "warn" },
+  delivered: { label: "SMS", tone: "good" },
   failure: { label: "Failure", tone: "bad" },
   alert: { label: "Alert", tone: "warn" },
   admin: { label: "Admin", tone: "neutral" },
@@ -191,18 +195,24 @@ function feedHref(r: ActivityRow): string | null {
 
 function FeedItem({ r }: { r: ActivityRow }) {
   const href = feedHref(r);
+  const router = useRouter();
   const k = KIND[r.kind] ?? { label: r.kind, tone: "neutral" as const };
   const body = (
     <>
       <span className="mt-[6px]">
-        <SeverityDot severity={r.severity === "crit" ? "bad" : r.severity === "warn" ? "warn" : r.kind === "purchase" ? "good" : "info"} />
+        <SeverityDot severity={r.severity === "crit" ? "bad" : r.severity === "warn" ? "warn" : r.kind === "purchase" || r.kind === "delivered" ? "good" : "info"} />
       </span>
       <span className="min-w-0 flex-1">
         <span className="flex flex-wrap items-center gap-x-[8px] gap-y-[2px]">
           <Badge tone={k.tone}>{k.label}</Badge>
           <span className="text-body font-medium">{r.title}</span>
         </span>
-        {r.detail ? <span className="mt-[2px] block break-words text-label text-ink-muted [overflow-wrap:anywhere]">{r.detail}</span> : null}
+        {r.detail ? (
+          <span className="mt-[2px] flex items-start gap-[6px] break-words text-label text-ink-muted [overflow-wrap:anywhere]">
+            <span className="min-w-0">{r.detail}</span>
+            {r.kind === "failure" ? <CopyText text={r.detail} label="Copy why" /> : null}
+          </span>
+        ) : null}
         <span className="mt-[2px] block text-caption text-muted" title={formatWhen(r.at)}>
           {formatRelative(r.at)}
         </span>
@@ -222,13 +232,19 @@ function FeedItem({ r }: { r: ActivityRow }) {
   const cls = "flex items-start gap-[10px] px-[14px] py-[11px]";
   return (
     <li className="border-b border-border last:border-b-0">
-      {href ? (
-        <Link href={href} className={`${cls} hover:bg-canvas active:bg-panel`}>
-          {body}
-        </Link>
-      ) : (
-        <div className={cls}>{body}</div>
-      )}
+      <div
+        className={`${cls} ${href ? "cursor-pointer hover:bg-canvas active:bg-panel" : ""}`}
+        onClick={(e) => {
+          if (!href) return;
+          const target = e.target as HTMLElement;
+          if (target.closest("a,button,input,select,textarea,label")) return;
+          if (window.getSelection()?.toString()) return;
+          if (e.metaKey || e.ctrlKey) window.open(href, "_blank");
+          else router.push(href);
+        }}
+      >
+        {body}
+      </div>
     </li>
   );
 }
@@ -393,8 +409,25 @@ function OverviewScreen() {
   const [feedSettled, setFeedSettled] = useState(false);
   const onFeedSettled = useCallback(() => setFeedSettled(true), []);
   const key = String(tick);
-  const today = useAdminData(() => rpc.moneySummary(24), key);
-  const week = useAdminData(() => rpc.moneySummary(168), key);
+  const cutoff = useMemo(() => rpc.reportCutoff(), [tick]);
+  const today = useAdminData(async () => {
+    let asOf: string | undefined;
+    try {
+      asOf = await cutoff;
+    } catch (err) {
+      if (!isMigrationMissing(err)) throw err;
+    }
+    return rpc.moneySummary(24, asOf);
+  }, key);
+  const week = useAdminData(async () => {
+    let asOf: string | undefined;
+    try {
+      asOf = await cutoff;
+    } catch (err) {
+      if (!isMigrationMissing(err)) throw err;
+    }
+    return rpc.moneySummary(168, asOf);
+  }, key);
   const health = useAdminData(() => rpc.moneyHealth(), key);
   const digest = useAdminData(() => rpc.opsDigest(24), key);
   const tickets = useAdminData(() => rpc.supportList(null, 200), key);

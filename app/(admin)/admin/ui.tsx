@@ -15,7 +15,7 @@ export { Card, Facts, PageHeader, RefreshButton, Section } from "./components/Ca
 export { Stat, StatGrid, type Tone } from "./components/Stat";
 export { Badge, ProviderChip, RiskBadge, RoleBadge, SeverityDot, StatusBadge, type BadgeTone } from "./components/Badge";
 export { DataTable, type Column } from "./components/DataTable";
-export { EntityLink, ShortId, comboHref, entityHref, isUuid, shortId } from "./components/EntityLink";
+export { CopyText, EntityLink, ShortId, comboHref, entityHref, isUuid, shortId } from "./components/EntityLink";
 export { EmptyState, MigrationNotice, PageSkeleton, Reveal, SkeletonRows, SkeletonStats } from "./components/States";
 export { Explained, SourceLine } from "./components/Help";
 

@@ -64,6 +64,28 @@ export function EntityLink({
   );
 }
 
+/** Copies a short string. Used for a failure reason the operator wants to paste. */
+export function CopyText({ text, label = "Copy" }: { text: string; label?: string }) {
+  const [copied, setCopied] = useState(false);
+  return (
+    <button
+      type="button"
+      onClick={(e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        void navigator.clipboard?.writeText(text).then(() => {
+          setCopied(true);
+          setTimeout(() => setCopied(false), 1200);
+        });
+      }}
+      className="shrink-0 rounded-[4px] px-[3px] text-caption text-muted hover:bg-panel hover:text-ink"
+      aria-label={label}
+    >
+      {copied ? "✓" : "⧉"}
+    </button>
+  );
+}
+
 /** A shortened id with a copy button — for ids that have no page of their own. */
 export function ShortId({ id }: { id: string | null | undefined }) {
   const [copied, setCopied] = useState(false);
