@@ -1201,10 +1201,11 @@ export const rpc = {
     return callRows<ProviderBalanceRow>("admin_provider_balance", { p_hours: hours });
   },
 
-  /** `admin_recent_failures(p_limit int = 50)` — the ops event feed, newest
-   *  first. Phones masked in SQL. */
-  recentFailures(limit?: number): Promise<OpsEventRow[]> {
-    return callRows<OpsEventRow>("admin_recent_failures", { p_limit: limit });
+  /** `admin_recent_failures(p_limit int = 50, p_hours int = 168)` — SMS
+   *  outcomes from the last week, newest first. Phones masked in SQL.
+   *  The function refuses more than 2000 rows and more than 168 hours. */
+  recentFailures(limit?: number, hours?: number): Promise<OpsEventRow[]> {
+    return callRows<OpsEventRow>("admin_recent_failures", { p_limit: limit, p_hours: hours });
   },
 
   /* -- Money, spend, feed, details (sms-expo 20260845000000_admin_money.sql).

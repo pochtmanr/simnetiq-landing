@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import AuthGate, { DeniedBody } from "../AuthGate";
 import {
+  Badge,
   Card,
   comboHref,
   CopyText,
@@ -52,7 +53,25 @@ import { smsEventLabel } from "../../../../lib/admin/reasons";
 
 const WINDOW_HOURS = 168;
 const REFRESH_MS = 60_000;
-const FAILURE_LIMIT = 50;
+const WEEK_LOG_LIMIT = 2000;
+
+type OutcomeFilter = "all" | "delivered" | "errors";
+
+const OUTCOME_FILTERS: { value: OutcomeFilter; label: string }[] = [
+  { value: "all", label: "All" },
+  { value: "delivered", label: "Delivered" },
+  { value: "errors", label: "Errors" },
+];
+
+function isSmsError(r: OpsEventRow): boolean {
+  return r.kind === "activation_failed" || r.kind === "provider_timeout";
+}
+
+function OutcomeBadge({ kind }: { kind: string }) {
+  if (kind === "activation_received") return <Badge tone="good">Delivered</Badge>;
+  if (kind === "provider_timeout") return <Badge tone="bad">Timeout</Badge>;
+  return <Badge tone="warn">Failed</Badge>;
+}
 
 type Loaded = {
   day: OpsDigest;
@@ -261,8 +280,11 @@ const FAILURE_COLUMNS: Column<OpsEventRow>[] = [
       const why = smsEventLabel(r.kind, r.close_reason);
       const copyWhy = r.kind !== "activation_received" && why !== "—";
       return (
-        <span className="inline-flex items-start gap-[4px]">
-          <span className={r.severity === "crit" ? "font-semibold text-bad" : "font-medium"}>{why}</span>
+        <span className="inline-flex flex-wrap items-center gap-[6px]">
+          <OutcomeBadge kind={r.kind} />
+          {r.kind !== "activation_received" ? (
+            <span className={r.severity === "crit" ? "font-semibold text-bad" : "font-medium"}>{why}</span>
+          ) : null}
           {copyWhy ? <CopyText text={why} label="Copy why" /> : null}
         </span>
       );
@@ -306,7 +328,7 @@ async function load(): Promise<Loaded | { denied: true } | { error: unknown }> {
     rpc.deliveryStats(WINDOW_HOURS),
     rpc.deliveryByCombo(WINDOW_HOURS),
     rpc.providerBalance(WINDOW_HOURS),
-    rpc.recentFailures(FAILURE_LIMIT),
+    rpc.recentFailures(WEEK_LOG_LIMIT, WINDOW_HOURS),
   ] as const);
   const reasons = results.flatMap((r) => (r.status === "rejected" ? [r.reason] : []));
   if (reasons.some(isAdminDenied)) return { denied: true };
@@ -328,6 +350,7 @@ async function load(): Promise<Loaded | { denied: true } | { error: unknown }> {
 function Delivery() {
   const [status, setStatus] = useState<Status>({ phase: "loading" });
   const [attempt, setAttempt] = useState(0);
+  const [outcome, setOutcome] = useState<OutcomeFilter>("all");
 
   const retry = useCallback(() => setAttempt((n) => n + 1), []);
 
@@ -451,14 +474,57 @@ function Delivery() {
         />
       </Section>
 
-      <Section title="Recent SMS" note={`received and failed · newest first · up to ${FAILURE_LIMIT}`}>
+      <Section
+        title="This week"
+        note={
+          failures.length >= WEEK_LOG_LIMIT
+            ? "delivered and failed · newest 2000 of the last 7 days"
+            : "delivered and failed · last 7 days"
+        }
+        actions={
+          <div className="flex flex-wrap gap-[6px]">
+            {OUTCOME_FILTERS.map((f) => {
+              const active = f.value === outcome;
+              return (
+                <button
+                  key={f.value}
+                  type="button"
+                  onClick={() => setOutcome(f.value)}
+                  aria-pressed={active}
+                  className={`rounded-[8px] border px-[12px] py-[6px] text-label ${
+                    active
+                      ? "border-transparent bg-panel-strong text-accent-deep"
+                      : "border-border bg-card text-ink-muted"
+                  }`}
+                >
+                  {f.label}
+                </button>
+              );
+            })}
+          </div>
+        }
+      >
         <DataTable
-          rows={failures}
+          key={outcome}
+          rows={failures.filter((r) =>
+            outcome === "delivered" ? r.kind === "activation_received" : outcome === "errors" ? isSmsError(r) : true,
+          )}
           columns={FAILURE_COLUMNS}
           rowKey={(r) => String(r.id)}
           rowHref={(r) => entityHref("activation", failureActivationId(r))}
           rowTone={(r) => (r.severity === "crit" ? "bad" : null)}
-          empty={<EmptyState title="No events recorded" />}
+          pageSizes={[50, 100]}
+          empty={
+            <EmptyState
+              title={
+                outcome === "delivered"
+                  ? "No delivered SMS in the last 7 days"
+                  : outcome === "errors"
+                    ? "No failed SMS in the last 7 days"
+                    : "No SMS events in the last 7 days"
+              }
+            />
+          }
         />
       </Section>
     </>

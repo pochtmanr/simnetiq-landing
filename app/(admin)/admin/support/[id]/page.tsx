@@ -1,21 +1,22 @@
 "use client";
 
 import Link from "next/link";
-import { use, useCallback, useState } from "react";
+import { use, useCallback, useState, type ReactNode } from "react";
 import { AuthGate, DeniedBody } from "../../AuthGate";
 import { ReplyPanel } from "../ReplyPanel";
 import { StatusSelect } from "../StatusSelect";
 import {
   Badge,
   Card,
+  CopyText,
   EmptyState,
   EntityLink,
-  Facts,
   isUuid,
   Loaded,
   PageHeader,
   RefreshButton,
   shortId,
+  ShortId,
   SkeletonRows,
   SourceLine,
   StatusBadge,
@@ -58,6 +59,15 @@ async function loadTicket(id: string): Promise<Found> {
   }
 }
 
+function TicketFact({ label, children }: { label: string; children: ReactNode }) {
+  return (
+    <div className="min-w-0">
+      <dt className="text-caption uppercase tracking-[0.07em] text-muted">{label}</dt>
+      <dd className="mt-[2px] break-words text-body">{children}</dd>
+    </div>
+  );
+}
+
 function Ticket({ found, onDenied }: { found: NonNullable<Found>; onDenied: () => void }) {
   const { row, viaList } = found;
   /* StatusSelect and ReplyPanel both change the status; this is the one copy
@@ -68,39 +78,45 @@ function Ticket({ found, onDenied }: { found: NonNullable<Found>; onDenied: () =
   return (
     <div className="flex flex-col gap-[14px]">
       <div className="grid grid-cols-1 gap-[14px] lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
-        <Card title="Message" note={`Sent ${formatWhen(row.created_at)}`}>
+        <Card
+          title="Message"
+          note={`Sent ${formatWhen(row.created_at)}`}
+          actions={<CopyText text={row.message} label="Copy message" />}
+        >
           <p className="whitespace-pre-wrap text-body text-ink [overflow-wrap:anywhere]">{row.message}</p>
         </Card>
         <Card title="Ticket">
-          <Facts
-            items={[
-              { label: "From", value: row.name || "—", wide: true },
-              {
-                label: "Email",
-                value: (
-                  <a href={`mailto:${encodeURIComponent(row.email)}`} className="break-all text-accent-deep hover:underline">
-                    {row.email}
-                  </a>
-                ),
-                wide: true,
-              },
-              {
-                label: "Account",
-                value: row.user_id ? (
-                  <EntityLink type="user" id={row.user_id}>
-                    Open user →
-                  </EntityLink>
-                ) : (
-                  <span className="text-muted">No single account with this email</span>
-                ),
-                wide: true,
-              },
-              { label: "Topic", value: row.topic || "—" },
-              { label: "Locale", value: row.locale || "—" },
-              { label: "Replies", value: String(row.reply_count ?? 0) },
-              { label: "Last reply", value: row.last_reply_at ? formatRelative(row.last_reply_at) : "—" },
-            ]}
-          />
+          <div>
+            <Badge tone="info">Website</Badge>
+            <p className="mt-[8px] text-body font-medium">{row.name || "—"}</p>
+            <p className="mt-[2px] flex min-w-0 items-start gap-[4px]">
+              <a
+                href={`mailto:${encodeURIComponent(row.email)}`}
+                className="min-w-0 break-all text-accent-deep hover:underline"
+              >
+                {row.email}
+              </a>
+              <CopyText text={row.email} label="Copy email" />
+            </p>
+          </div>
+          <dl className="mt-[14px] grid grid-cols-1 gap-y-[10px] border-t border-border pt-[12px]">
+            <TicketFact label="Topic">{row.topic || "—"}</TicketFact>
+            <TicketFact label="Locale">{row.locale || "—"}</TicketFact>
+            <TicketFact label="Account">
+              {row.user_id ? (
+                <EntityLink type="user" id={row.user_id}>
+                  Open user →
+                </EntityLink>
+              ) : (
+                <span className="text-muted">No single account with this email</span>
+              )}
+            </TicketFact>
+            <TicketFact label="Replies">{String(row.reply_count ?? 0)}</TicketFact>
+            <TicketFact label="Last reply">{row.last_reply_at ? formatRelative(row.last_reply_at) : "—"}</TicketFact>
+            <TicketFact label="Ticket">
+              <ShortId id={row.id} />
+            </TicketFact>
+          </dl>
           <div className="mt-[14px] border-t border-border pt-[12px]">
             {/* The badge lives here, not in the page header, so it follows the
                 select's optimistic value instead of the loaded row. */}

@@ -23,7 +23,7 @@ export function reasonLine(code: string | null | undefined, fallback = "—"): s
   return label ? `${c} · ${label}` : c;
 }
 
-/** Label for one row of the Delivery "Recent SMS" table. */
+/** Label for one row of the Delivery week log. */
 export function smsEventLabel(kind: string, closeReason: string | null): string {
   if (kind === "activation_received") return "SMS received";
   const code = closeReason ?? (kind === "provider_timeout" ? "provider_timeout" : null);
