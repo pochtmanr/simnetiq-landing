@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/business-os/internal/analytics/collect",
+      "schedule": "0 6 * * *"
+    }
+  ]
+}

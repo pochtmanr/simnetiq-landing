@@ -1,10 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
 import AuthGate, { DeniedBody } from "../AuthGate";
 import { BarChart } from "../components/Charts";
 import {
+  isMigrationMissing,
   rpc,
   type BreakdownGroup,
   type BreakdownRow,
@@ -31,6 +32,7 @@ import {
   useAdminData,
   type Column,
 } from "../ui";
+import { Economics } from "./Economics";
 import { ProbableTopups, TopupCard, type Prefill } from "./Topups";
 
 /* ---------------------------------------------------------------------------
@@ -198,9 +200,31 @@ function country(r: BreakdownRow) {
   return `${r.country_name ?? "Unknown"} ${formatDial(r.country_dial)}`;
 }
 
-function Breakdown({ hours, onSettled }: { hours: number; onSettled?: () => void }) {
+async function sharedCutoff(cutoff: Promise<string>): Promise<string | undefined> {
+  try {
+    return await cutoff;
+  } catch (err) {
+    if (!isMigrationMissing(err)) throw err;
+    return undefined;
+  }
+}
+
+function Breakdown({
+  hours,
+  tick,
+  cutoff,
+  onSettled,
+}: {
+  hours: number;
+  tick: number;
+  cutoff: Promise<string>;
+  onSettled?: () => void;
+}) {
   const [group, setGroup] = useState<BreakdownGroup>("combo");
-  const { status, retry } = useAdminData(() => rpc.moneyBreakdown(hours, group), `${hours}:${group}`);
+  const { status, retry } = useAdminData(async () => {
+    const asOf = await sharedCutoff(cutoff);
+    return rpc.moneyBreakdown(hours, group, asOf);
+  }, `${tick}:${hours}:${group}`);
   const settled = status.phase !== "loading";
   useEffect(() => {
     if (settled) onSettled?.();
@@ -306,7 +330,18 @@ function HowItWorks({ s }: { s: MoneySummary }) {
           ? ` (${formatPct(s.share_default_rate_pct)} of revenue came from users with no purchase, valued at the default ${formatUsd(s.default_rate)}/coin)`
           : ""}
         . Cancelled and expired numbers are refunded to the user and not billed by OnlineSim, so they count as neither
-        revenue nor cost.
+        revenue nor cost. This is the legacy USD report. Apple&apos;s commission is inferred from gross minus net, not a
+        confirmed fee, and refunds are the legacy net rather than the gross amount returned.
+        {(s.purchases_missing_store_price ?? 0) > 0
+          ? ` ${s.purchases_missing_store_price} live ${s.purchases_missing_store_price === 1 ? "purchase has" : "purchases have"} no store price; that gross is reconstructed from the net and the configured Apple rate, and it is estimated.`
+          : ""}
+        {(s.missing_supplier_cost ?? 0) > 0
+          ? ` ${s.missing_supplier_cost} delivered ${s.missing_supplier_cost === 1 ? "number has" : "numbers have"} no supplier price: this total counts that cost as $0, and the export leaves it missing.`
+          : ""}
+        {(s.activations_default_rate ?? 0) > 0
+          ? ` ${s.activations_default_rate} delivered ${s.activations_default_rate === 1 ? "number is" : "numbers are"} valued at the configured default coin rate because that buyer has no live purchase.`
+          : ""}{" "}
+        Net sales, sales tax, bank cash, GBP and subscriptions are not part of this report.
       </p>
       {open ? (
         <dl className="mt-[12px] flex flex-col gap-[10px]">
@@ -332,12 +367,15 @@ function MoneyScreen() {
   const [breakdownSettled, setBreakdownSettled] = useState(false);
   const onBreakdownSettled = useCallback(() => setBreakdownSettled(true), []);
 
+  const cutoff = useMemo(() => rpc.reportCutoff(), [tick]);
   const main = useAdminData<Main>(async () => {
-    const [summary, pnl] = await Promise.all([rpc.moneySummary(hours), rpc.moneyPnl(hours)]);
+    const asOf = await sharedCutoff(cutoff);
+    const [summary, pnl] = await Promise.all([rpc.moneySummary(hours, asOf), rpc.moneyPnl(hours, asOf)]);
     return { summary, pnl };
   }, `${hours}:${tick}`);
   const spend = useAdminData<Spend>(async () => {
-    const [intervals, topups] = await Promise.all([rpc.providerSpend(hours), rpc.topups(2160)]);
+    const asOf = await sharedCutoff(cutoff);
+    const [intervals, topups] = await Promise.all([rpc.providerSpend(hours, asOf), rpc.topups(2160)]);
     return { intervals, topups };
   }, `${hours}:${tick}`);
 
@@ -429,7 +467,7 @@ function MoneyScreen() {
               </div>
             </Section>
 
-            <Breakdown hours={hours} onSettled={onBreakdownSettled} />
+            <Breakdown hours={hours} tick={tick} cutoff={cutoff} onSettled={onBreakdownSettled} />
 
             <Section title="Top-ups">
               <div id="topups" className="scroll-mt-[80px]">
@@ -438,6 +476,8 @@ function MoneyScreen() {
                 </Loaded>
               </div>
             </Section>
+
+            <Economics hours={hours} tick={tick} cutoff={cutoff} onChanged={refresh} onDenied={() => setDenied(true)} />
 
             <div className="mt-[30px]">
               <HowItWorks s={s} />

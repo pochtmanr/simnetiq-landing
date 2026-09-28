@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "contract_version": "business-os.contract.v1",
+  "project_id": "smscode",
+  "environment": "production",
+  "snapshot_id": "snap-analytics-vercel-sampled",
+  "generated_at": "2026-09-28T12:00:00Z",
+  "data_as_of": "2026-09-28T12:00:00Z",
+  "provider": "vercel",
+  "report": "vercel_daily",
+  "availability": "available",
+  "data_state": "sampled",
+  "source_timezone": "Europe/London",
+  "property_ref": "redacted",
+  "coverage": { "status": "partial", "missing": [] },
+  "posting": false,
+  "rows": [{ "date": "2026-09-27", "pageviews": 2, "custom_events": 0, "visitors": null }],
+  "page": { "limit": 100, "has_more": false, "next_cursor": null, "complete_property_total": false },
+  "limitations": ["Device identifiers are not visitors. Identical path and timestamp events are kept. Historical replay is not available."],
+  "period": { "from": "2026-09-26T23:00:00Z", "to": "2026-09-27T23:00:00Z", "timezone": "Europe/London" }
+}

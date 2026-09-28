@@ -1,0 +1,42 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "SMS Code Business OS export",
+    "version": "1.0.0",
+    "description": "Read-only GET API implemented by landing. Response bodies conform to business-os.contract.v1 schema 1.0.0. This file does not replace the pinned C0 schemas. Analytics reports stay unsupported until a provider is configured and a stored import exists. There is no deployed base URL."
+  },
+  "servers": [
+    {
+      "url": "https://{sourceHost}/api/business-os/v1",
+      "variables": {
+        "sourceHost": {
+          "default": "sms.example"
+        }
+      }
+    }
+  ],
+  "security": [{ "businessOsHmac": [] }],
+  "paths": {
+    "/capabilities": { "get": { "operationId": "capabilities", "responses": { "200": { "description": "Supported bases, datasets, and limits." } } } },
+    "/overview": { "get": { "operationId": "overview", "responses": { "200": { "description": "Non-posting snapshot. GBP headlines stay null while FX is unconfigured." } } } },
+    "/finance/summary": { "get": { "operationId": "financeSummary", "responses": { "200": { "description": "GBP headlines plus native USD subtotals from the shared SMS formulas." } } } },
+    "/finance/daily": { "get": { "operationId": "financeDaily", "responses": { "200": { "description": "London daily buckets. Metrics are native USD. Balances are not included." } } } },
+    "/finance/records": { "get": { "operationId": "financeRecords", "responses": { "200": { "description": "Canonical records frozen at a high watermark." }, "410": { "description": "Cursor or snapshot expired." } } } },
+    "/finance/balances": { "get": { "operationId": "financeBalances", "responses": { "200": { "description": "Non-additive prepaid, frozen, and cash snapshots." } } } },
+    "/finance/reconciliation": { "get": { "operationId": "financeReconciliation", "responses": { "200": { "description": "Legacy admin comparison. cash_net is not bank cash." } } } },
+    "/subscriptions/summary": { "get": { "operationId": "subscriptionsSummary", "responses": { "200": { "description": "supported false and metrics null. No MRR." } } } },
+    "/operations/daily": { "get": { "operationId": "operationsDaily", "responses": { "200": { "description": "Coin and delivery counts. No phone numbers or SMS content." } } } },
+    "/analytics/report": { "get": { "operationId": "analyticsReport", "responses": { "200": { "description": "Stored GA4, Search Console, or Vercel rows. Unconfigured providers return unsupported and empty rows." } } } },
+    "/health": { "get": { "operationId": "health", "responses": { "200": { "description": "Per-source covered-through. Unconfigured sources are unknown, not zero." } } } }
+  },
+  "components": {
+    "securitySchemes": {
+      "businessOsHmac": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-BOS-Signature",
+        "description": "HMAC-SHA256 over the C0 canonical string. Also send X-BOS-Key-Id, X-BOS-Timestamp, and X-BOS-Nonce. GET signs an empty body."
+      }
+    }
+  }
+}

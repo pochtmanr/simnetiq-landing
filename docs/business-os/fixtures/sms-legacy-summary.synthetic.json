@@ -1,0 +1,482 @@
+{
+  "basis": "sms_legacy",
+  "period": {
+    "to": "2099-01-15T00:00:00Z",
+    "from": "2099-01-14T00:00:00Z",
+    "timezone": "Europe/London"
+  },
+  "metrics": {
+    "net_sales": {
+      "amount": null,
+      "reason": "fx_policy_not_configured",
+      "quality": "unavailable",
+      "coverage": "missing",
+      "currency": "GBP",
+      "drill_through": {
+        "filter": {
+          "to": "2099-01-15T00:00:00Z",
+          "from": "2099-01-14T00:00:00Z",
+          "basis": "sms_legacy",
+          "project_id": "smscode",
+          "record_types": [
+            "sale"
+          ]
+        },
+        "dataset": "finance.records",
+        "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+      }
+    },
+    "sales_tax": {
+      "amount": null,
+      "reason": "fx_policy_not_configured",
+      "quality": "unavailable",
+      "coverage": "missing",
+      "currency": "GBP",
+      "drill_through": {
+        "filter": {
+          "to": "2099-01-15T00:00:00Z",
+          "from": "2099-01-14T00:00:00Z",
+          "basis": "sms_legacy",
+          "project_id": "smscode",
+          "record_types": [
+            "sale"
+          ]
+        },
+        "dataset": "finance.records",
+        "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+      }
+    },
+    "net_profit": {
+      "amount": null,
+      "reason": "fx_policy_not_configured",
+      "quality": "unavailable",
+      "coverage": "missing",
+      "currency": "GBP",
+      "drill_through": {
+        "filter": {
+          "to": "2099-01-15T00:00:00Z",
+          "from": "2099-01-14T00:00:00Z",
+          "basis": "sms_legacy",
+          "project_id": "smscode",
+          "record_types": [
+            "sale"
+          ]
+        },
+        "dataset": "finance.records",
+        "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+      }
+    },
+    "direct_costs": {
+      "amount": null,
+      "reason": "fx_policy_not_configured",
+      "quality": "unavailable",
+      "coverage": "missing",
+      "currency": "GBP",
+      "drill_through": {
+        "filter": {
+          "to": "2099-01-15T00:00:00Z",
+          "from": "2099-01-14T00:00:00Z",
+          "basis": "sms_legacy",
+          "project_id": "smscode",
+          "record_types": [
+            "sale"
+          ]
+        },
+        "dataset": "finance.records",
+        "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+      }
+    },
+    "net_proceeds": {
+      "amount": null,
+      "reason": "fx_policy_not_configured",
+      "quality": "unavailable",
+      "coverage": "missing",
+      "currency": "GBP",
+      "drill_through": {
+        "filter": {
+          "to": "2099-01-15T00:00:00Z",
+          "from": "2099-01-14T00:00:00Z",
+          "basis": "sms_legacy",
+          "project_id": "smscode",
+          "record_types": [
+            "sale"
+          ]
+        },
+        "dataset": "finance.records",
+        "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+      }
+    },
+    "operating_profit": {
+      "amount": null,
+      "reason": "fx_policy_not_configured",
+      "quality": "unavailable",
+      "coverage": "missing",
+      "currency": "GBP",
+      "drill_through": {
+        "filter": {
+          "to": "2099-01-15T00:00:00Z",
+          "from": "2099-01-14T00:00:00Z",
+          "basis": "sms_legacy",
+          "project_id": "smscode",
+          "record_types": [
+            "sale"
+          ]
+        },
+        "dataset": "finance.records",
+        "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+      }
+    },
+    "operating_expenses": {
+      "amount": null,
+      "reason": "fx_policy_not_configured",
+      "quality": "unavailable",
+      "coverage": "missing",
+      "currency": "GBP",
+      "drill_through": {
+        "filter": {
+          "to": "2099-01-15T00:00:00Z",
+          "from": "2099-01-14T00:00:00Z",
+          "basis": "sms_legacy",
+          "project_id": "smscode",
+          "record_types": [
+            "sale"
+          ]
+        },
+        "dataset": "finance.records",
+        "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+      }
+    },
+    "refunded_principal": {
+      "amount": null,
+      "reason": "fx_policy_not_configured",
+      "quality": "unavailable",
+      "coverage": "missing",
+      "currency": "GBP",
+      "drill_through": {
+        "filter": {
+          "to": "2099-01-15T00:00:00Z",
+          "from": "2099-01-14T00:00:00Z",
+          "basis": "sms_legacy",
+          "project_id": "smscode",
+          "record_types": [
+            "sale"
+          ]
+        },
+        "dataset": "finance.records",
+        "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+      }
+    },
+    "contribution_profit": {
+      "amount": null,
+      "reason": "fx_policy_not_configured",
+      "quality": "unavailable",
+      "coverage": "missing",
+      "currency": "GBP",
+      "drill_through": {
+        "filter": {
+          "to": "2099-01-15T00:00:00Z",
+          "from": "2099-01-14T00:00:00Z",
+          "basis": "sms_legacy",
+          "project_id": "smscode",
+          "record_types": [
+            "sale"
+          ]
+        },
+        "dataset": "finance.records",
+        "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+      }
+    },
+    "gross_customer_sales": {
+      "amount": null,
+      "reason": "fx_policy_not_configured",
+      "quality": "unavailable",
+      "coverage": "missing",
+      "currency": "GBP",
+      "drill_through": {
+        "filter": {
+          "to": "2099-01-15T00:00:00Z",
+          "from": "2099-01-14T00:00:00Z",
+          "basis": "sms_legacy",
+          "project_id": "smscode",
+          "record_types": [
+            "sale"
+          ]
+        },
+        "dataset": "finance.records",
+        "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+      }
+    },
+    "store_and_processor_fees": {
+      "amount": null,
+      "reason": "fx_policy_not_configured",
+      "quality": "unavailable",
+      "coverage": "missing",
+      "currency": "GBP",
+      "drill_through": {
+        "filter": {
+          "to": "2099-01-15T00:00:00Z",
+          "from": "2099-01-14T00:00:00Z",
+          "basis": "sms_legacy",
+          "project_id": "smscode",
+          "record_types": [
+            "sale"
+          ]
+        },
+        "dataset": "finance.records",
+        "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+      }
+    }
+  },
+  "posting": false,
+  "coverage": {
+    "status": "partial",
+    "missing": [
+      "fx",
+      "net_proceeds",
+      "net_profit",
+      "net_sales",
+      "operating_expenses",
+      "operating_profit",
+      "sales_tax"
+    ]
+  },
+  "warnings": [
+    "cash_net is legacy proceeds, not bank cash and not net sales.",
+    "A missing activation cost is not filled with zero on this export.",
+    "GBP is unconfigured. Headline amounts stay null.",
+    "SMS coin packs do not produce subscriptions or MRR."
+  ],
+  "data_as_of": "2099-01-15T00:00:00Z",
+  "project_id": "smscode",
+  "environment": "production",
+  "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14",
+  "generated_at": "2099-01-15T00:00:00Z",
+  "schema_version": "1.0.0",
+  "formula_version": "sms-legacy-usd-v1",
+  "contract_version": "business-os.contract.v1",
+  "fx_policy_version": "gbp-unconfigured",
+  "reporting_currency": "GBP",
+  "native_currency_subtotals": [
+    {
+      "metrics": {
+        "net_sales": {
+          "amount": null,
+          "reason": "sales_tax_not_recorded",
+          "quality": "unavailable",
+          "coverage": "missing",
+          "currency": "USD",
+          "drill_through": {
+            "filter": {
+              "to": "2099-01-15T00:00:00Z",
+              "from": "2099-01-14T00:00:00Z",
+              "basis": "sms_legacy",
+              "project_id": "smscode",
+              "record_types": [
+                "sale"
+              ]
+            },
+            "dataset": "finance.records",
+            "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+          }
+        },
+        "sales_tax": {
+          "amount": null,
+          "reason": "sales_tax_not_recorded",
+          "quality": "unavailable",
+          "coverage": "missing",
+          "currency": "USD",
+          "drill_through": {
+            "filter": {
+              "to": "2099-01-15T00:00:00Z",
+              "from": "2099-01-14T00:00:00Z",
+              "basis": "sms_legacy",
+              "project_id": "smscode",
+              "record_types": [
+                "sale"
+              ]
+            },
+            "dataset": "finance.records",
+            "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+          }
+        },
+        "net_profit": {
+          "amount": null,
+          "reason": "incomplete_costs_and_taxes",
+          "quality": "unavailable",
+          "coverage": "missing",
+          "currency": "USD",
+          "drill_through": {
+            "filter": {
+              "to": "2099-01-15T00:00:00Z",
+              "from": "2099-01-14T00:00:00Z",
+              "basis": "sms_legacy",
+              "project_id": "smscode",
+              "record_types": [
+                "sale"
+              ]
+            },
+            "dataset": "finance.records",
+            "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+          }
+        },
+        "direct_costs": {
+          "amount": "0",
+          "quality": "actual",
+          "coverage": "complete",
+          "currency": "USD",
+          "drill_through": {
+            "filter": {
+              "to": "2099-01-15T00:00:00Z",
+              "from": "2099-01-14T00:00:00Z",
+              "basis": "sms_legacy",
+              "project_id": "smscode",
+              "record_types": [
+                "sale"
+              ]
+            },
+            "dataset": "finance.records",
+            "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+          }
+        },
+        "net_proceeds": {
+          "amount": null,
+          "reason": "legacy_proceeds_not_bank_cash",
+          "quality": "unavailable",
+          "coverage": "missing",
+          "currency": "USD",
+          "drill_through": {
+            "filter": {
+              "to": "2099-01-15T00:00:00Z",
+              "from": "2099-01-14T00:00:00Z",
+              "basis": "sms_legacy",
+              "project_id": "smscode",
+              "record_types": [
+                "sale"
+              ]
+            },
+            "dataset": "finance.records",
+            "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+          }
+        },
+        "operating_profit": {
+          "amount": null,
+          "reason": "incomplete_overhead",
+          "quality": "unavailable",
+          "coverage": "missing",
+          "currency": "USD",
+          "drill_through": {
+            "filter": {
+              "to": "2099-01-15T00:00:00Z",
+              "from": "2099-01-14T00:00:00Z",
+              "basis": "sms_legacy",
+              "project_id": "smscode",
+              "record_types": [
+                "sale"
+              ]
+            },
+            "dataset": "finance.records",
+            "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+          }
+        },
+        "operating_expenses": {
+          "amount": null,
+          "reason": "not_in_sms_legacy_formula",
+          "quality": "unavailable",
+          "coverage": "missing",
+          "currency": "USD",
+          "drill_through": {
+            "filter": {
+              "to": "2099-01-15T00:00:00Z",
+              "from": "2099-01-14T00:00:00Z",
+              "basis": "sms_legacy",
+              "project_id": "smscode",
+              "record_types": [
+                "sale"
+              ]
+            },
+            "dataset": "finance.records",
+            "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+          }
+        },
+        "refunded_principal": {
+          "amount": "0",
+          "quality": "actual",
+          "coverage": "complete",
+          "currency": "USD",
+          "drill_through": {
+            "filter": {
+              "to": "2099-01-15T00:00:00Z",
+              "from": "2099-01-14T00:00:00Z",
+              "basis": "sms_legacy",
+              "project_id": "smscode",
+              "record_types": [
+                "refund"
+              ]
+            },
+            "dataset": "finance.records",
+            "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+          }
+        },
+        "contribution_profit": {
+          "amount": "0",
+          "quality": "actual",
+          "coverage": "complete",
+          "currency": "USD",
+          "drill_through": {
+            "filter": {
+              "to": "2099-01-15T00:00:00Z",
+              "from": "2099-01-14T00:00:00Z",
+              "basis": "sms_legacy",
+              "project_id": "smscode",
+              "record_types": [
+                "sale"
+              ]
+            },
+            "dataset": "finance.records",
+            "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+          }
+        },
+        "gross_customer_sales": {
+          "amount": "10",
+          "quality": "legacy_derived",
+          "coverage": "complete",
+          "currency": "USD",
+          "drill_through": {
+            "filter": {
+              "to": "2099-01-15T00:00:00Z",
+              "from": "2099-01-14T00:00:00Z",
+              "basis": "sms_legacy",
+              "project_id": "smscode",
+              "record_types": [
+                "sale"
+              ]
+            },
+            "dataset": "finance.records",
+            "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+          }
+        },
+        "store_and_processor_fees": {
+          "amount": "1.5",
+          "reason": "gross_minus_net",
+          "quality": "estimated",
+          "coverage": "partial",
+          "currency": "USD",
+          "drill_through": {
+            "filter": {
+              "to": "2099-01-15T00:00:00Z",
+              "from": "2099-01-14T00:00:00Z",
+              "basis": "sms_legacy",
+              "project_id": "smscode",
+              "record_types": [
+                "sale"
+              ]
+            },
+            "dataset": "finance.records",
+            "snapshot_id": "cc3781b4-ae4d-4b3b-8cf4-54b20aa22e14"
+          }
+        }
+      },
+      "currency": "USD"
+    }
+  ]
+}
