@@ -7,7 +7,7 @@ export const india: CountryEntry = {
   dialingCode: "+91",
   numberFormat: "+91 XXXXX XXXXX",
   popularServiceSlugs: ["whatsapp", "telegram", "google", "instagram", "uber"],
-  updatedAt: "2026-07-07",
+  updatedAt: "2026-09-30",
   en: {
     metaTitle: "India Virtual Number for SMS Verification — Real +91",
     metaDescription:
@@ -37,7 +37,7 @@ export const india: CountryEntry = {
       },
       {
         title: "Popular country, fresh numbers",
-        body: "Indian numbers are in heavy demand, so occasionally one has already met the service you're verifying. If the code doesn't come, cancel the activation free of charge and take another number. Swapping from the activation screen holds the current number for two minutes first — the supplier's rule, not ours — so cancelling and starting fresh is the quicker route.",
+        body: "Indian numbers are in heavy demand, so occasionally one has already met the service you're verifying. If no SMS arrives, cancellation and number replacement are available two minutes after assignment. The old activation’s coins return to your balance; check the new activation’s price before trying again.",
       },
     ],
     faqs: [
@@ -92,7 +92,7 @@ export const india: CountryEntry = {
       },
       {
         title: "Популярная страна — берите свежие номера",
-        body: "Индийские номера очень востребованы, поэтому иногда номер уже знаком сервису, который вы подтверждаете. Если код не приходит, отмените активацию бесплатно и возьмите другой номер. Смена номера прямо на экране активации сначала удерживает текущий номер две минуты — это правило провайдера, а не наше, — поэтому отменить и начать заново обычно быстрее.",
+        body: "Если SMS не пришло, отмена и замена доступны через две минуты после выдачи номера. Монеты за старую активацию возвращаются; перед повторной попыткой проверьте цену новой.",
       },
     ],
     faqs: [

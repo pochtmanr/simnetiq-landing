@@ -4,7 +4,7 @@
  * Sections 4, 5, 6, 9, 10 and 12 were drafted in August 2026 by a non-lawyer to
  * close specific, identified gaps:
  *
- *   - s.5  right to cancel + express-consent-to-immediate-performance waiver
+ *   - s.5  right to cancel and statutory safeguards (no assumed waiver)
  *          (Consumer Contracts (Information, Cancellation and Additional
  *          Charges) Regulations 2013, regs 28 and 37; EU Consumer Rights
  *          Directive art. 16(m)). There was no withdrawal clause at all.
@@ -17,13 +17,12 @@
  *   - s.12 unilateral variation, previously with no notice period and no exit.
  *
  * All of it needs review by counsel qualified in England and Wales before it is
- * relied on. Placeholders elsewhere (registered number, registered office in
- * lib/site.ts) are also outstanding.
+ * relied on. Registered company details have been verified against Companies House.
  * ========================================================================== */
 
 import type { Metadata } from "next";
 import { LegalShell, LegalSection } from "../../../components/Legal";
-import { SUPPORT_EMAIL } from "../../../lib/site";
+import { SUPPORT_EMAIL, COMPANY_NUMBER, COMPANY_REGISTERED_OFFICE } from "../../../lib/site";
 import { languageAlternates } from "../../../lib/i18n";
 
 export const metadata: Metadata = {
@@ -38,7 +37,7 @@ export const metadata: Metadata = {
 
 export default function TermsOfServicePage() {
   return (
-    <LegalShell label="Legal" title="Terms of Service" updated="22 August 2026">
+    <LegalShell label="Legal" title="Terms of Service" updated="30 September 2026">
       <LegalSection title="1. Agreement">
         <p>
           These Terms of Service (&ldquo;Terms&rdquo;) are an agreement between
@@ -48,6 +47,7 @@ export default function TermsOfServicePage() {
           simnetiq.xyz (the &ldquo;Site&rdquo;). By installing or using the App
           you accept these Terms. If you do not agree, do not use the App.
         </p>
+        <p>Company number: {COMPANY_NUMBER}. Registered office: {COMPANY_REGISTERED_OFFICE}. Contact: <a href={`mailto:${SUPPORT_EMAIL}`} className="blue-link">{SUPPORT_EMAIL}</a>.</p>
       </LegalSection>
 
       <LegalSection title="2. The service">
@@ -89,8 +89,8 @@ export default function TermsOfServicePage() {
           Coins are returned to your balance automatically in four situations:
         </p>
         <ul>
-          <li>you cancel an activation before a verification code has been received;</li>
-          <li>you swap to a different number before a code has been received;</li>
+          <li>you cancel an activation at least two minutes after number assignment, before a verification code has been received;</li>
+          <li>you swap to a different number at least two minutes after assignment, before a code has been received;</li>
           <li>the activation window ends without a code arriving; or</li>
           <li>our provider fails to supply a usable number for the activation.</li>
         </ul>
@@ -118,27 +118,19 @@ export default function TermsOfServicePage() {
           from the Consumer Rights Directive in the EU.
         </p>
         <p>
-          <strong className="font-normal text-ink">
-            The exception that applies here, and what you are agreeing to.
-          </strong>{" "}
-          Coins are digital content that is supplied to your balance
-          immediately, so that you can use them at once. By tapping to complete
-          a purchase you (a) expressly request that we begin supplying the
-          coins immediately, before the 14-day cancellation period has ended,
-          and (b) acknowledge that once they have been credited to your balance
-          you lose the right to cancel that purchase. You are shown this before
-          you confirm, and you do not have to buy coins to install or open the
-          App.
+          Coins are supplied to your balance after a successful purchase. Any
+          exception to a statutory cancellation right depends on the applicable
+          law and the consent, acknowledgement and confirmation actually given
+          during the purchase. Accepting these Terms alone does not waive your
+          statutory cancellation rights.
         </p>
         <p>
-          <strong className="font-normal text-ink">
-            If you have not used them.
-          </strong>{" "}
-          Where a pack you bought within the last 14 days is wholly unspent, we
-          will support a refund request rather than stand on the waiver — write
-          to us and we will confirm to Apple that the coins are unused and have
-          been removed from your balance. The refund itself is Apple&rsquo;s to
-          make, so the decision is theirs and not ours.
+          For an Apple-billed purchase, request a payment refund at <a href="https://reportaproblem.apple.com/" className="blue-link">reportaproblem.apple.com</a>.
+          Apple handles the payment-refund process under its regional terms and
+          applicable law. Contact us for a review of missing or faulty service,
+          unused coins or purchase and balance records. We do not guarantee
+          Apple&rsquo;s approval or automatic cash redemption of an unused balance.
+          If a purchase is refunded, its related coin credit may be removed.
         </p>
         <p>
           Nothing in this section affects your other statutory rights, including

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { LegalShell, LegalSection } from "../../../components/Legal";
-import { SUPPORT_EMAIL } from "../../../lib/site";
+import { SUPPORT_EMAIL, COMPANY_NUMBER, COMPANY_REGISTERED_OFFICE } from "../../../lib/site";
 import { languageAlternates } from "../../../lib/i18n";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <LegalShell label="Legal" title="Privacy Policy" updated="22 August 2026">
+    <LegalShell label="Legal" title="Privacy Policy" updated="30 September 2026">
       <LegalSection title="1. Who we are">
         <p>
           SMS Code (the &ldquo;App&rdquo;) and the website simnetiq.xyz (the
@@ -28,6 +28,7 @@ export default function PrivacyPolicyPage() {
           </a>
           .
         </p>
+        <p>Company number: {COMPANY_NUMBER}. Registered office: {COMPANY_REGISTERED_OFFICE}. Contact: <a href={`mailto:${SUPPORT_EMAIL}`} className="blue-link">{SUPPORT_EMAIL}</a>.</p>
       </LegalSection>
 
       <LegalSection title="2. What the App does">
@@ -105,8 +106,8 @@ export default function PrivacyPolicyPage() {
 
       <LegalSection title="5. Sharing and processors">
         <p>
-          We share data only with service providers who process it on our
-          behalf. In practice that is:
+          We use the following providers to operate the service. Their roles
+          depend on the service they provide:
         </p>
         <ul>
           <li>
@@ -144,11 +145,11 @@ export default function PrivacyPolicyPage() {
             </strong>{" "}
             — supplies the virtual numbers. It is sent only the service and
             country you asked for; it receives no identifier of yours at all,
-            so it cannot connect a number to you.
+            and we do not send your app account identifier. The provider processes numbers and SMS content to deliver the service.
           </li>
         </ul>
         <p>
-          Each processor is bound by a data processing agreement. We do not sell
+          Providers acting as processors must be subject to appropriate data processing terms. We do not sell
           your data and we share nothing with advertisers. We may also disclose
           data where required by law.
         </p>
@@ -157,8 +158,9 @@ export default function PrivacyPolicyPage() {
       <LegalSection title="6. International transfers">
         <p>
           Some providers are located outside the United Kingdom. Where data
-          leaves the UK or the European Economic Area, we rely on adequacy
-          decisions or standard contractual clauses to protect it.
+          leaves the UK or the European Economic Area, applicable data protection law requires an appropriate transfer
+          basis, such as an adequacy decision or contractual safeguards.
+          Contact us for information about the safeguards for your data.
         </p>
       </LegalSection>
 
@@ -169,7 +171,7 @@ export default function PrivacyPolicyPage() {
               Activation data — 90 days.
             </strong>{" "}
             The rented number and the text of any SMS received on it are erased
-            90 days after the activation ends. What remains after that is a
+            on a scheduled daily cleanup after 90 days from activation creation. What remains after that is a
             record with no number and no message text: the service, the
             country, the date, the outcome and the coins involved. We keep that
             because it is the accounting record for coins you spent, and the
@@ -179,8 +181,9 @@ export default function PrivacyPolicyPage() {
             <strong className="font-normal text-ink">
               Account data — until you delete your account.
             </strong>{" "}
-            Deleting your account removes your account identifier, your email
-            address and your activation history (see section 9).
+            Deleting your account removes your live account, email address and
+            activation history. Limited financial and fraud-prevention records
+            remain as described below and in section 9.
           </li>
           <li>
             <strong className="font-normal text-ink">
@@ -222,10 +225,14 @@ export default function PrivacyPolicyPage() {
           Delete account) or by emailing us. Deletion removes your account
           identifier, your email address, your coin balance and your activation
           history, including every rented number and every SMS body still held.
-          It does not require contacting support and it is not reversible. The
-          one thing it does not remove is the pseudonymised purchase record
-          described in section 7, which we are required to keep and which
-          cannot be traced back to you from the App.
+          It does not require contacting support and it is not reversible. Limited financial and fraud-prevention records remain: purchase
+          transaction references, the former account identifier, aggregate
+          activity and coin counts, refund shortfalls, timestamps and hashed
+          device-token links. These support accounting, disputes and prevention
+          of repeated refund abuse. They contain no retained activation phone
+          numbers, SMS bodies or account email, but they are pseudonymised,
+          not guaranteed anonymous, and may be linked to purchase records or
+          other accounts using the same device token.
         </p>
       </LegalSection>
 

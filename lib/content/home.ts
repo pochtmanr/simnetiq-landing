@@ -72,8 +72,8 @@ export const HOME = {
           body: "Nothing to install in your phone's settings and nothing tied to your identity. Just open the app.",
         },
         {
-          title: "Cancel pending numbers anytime",
-          body: "If a number doesn't fit, cancel the pending activation right from the app and grab a different one.",
+          title: "Cancel before SMS arrives",
+          body: "Two minutes after assignment, you can cancel a number that has not received an SMS and get its coins back.",
         },
       ],
     },
@@ -95,7 +95,7 @@ export const HOME = {
         },
         {
           title: "No code, coins back",
-          body: "If the number is rejected or the SMS never lands, take another one. The coins from the failed activation return to your balance automatically.",
+          body: "If no SMS arrives, cancel after the two-minute wait or let the activation expire to receive its coins back. A delivered but rejected code needs a support review.",
         },
       ],
       note: "Pack prices are set in the App Store and vary by region.",
@@ -133,11 +133,11 @@ export const HOME = {
         },
         {
           q: "What if the code never arrives?",
-          a: "You can cancel a pending activation directly in the app and take another number or try a different country. Support is one message away if anything looks off.",
+          a: "If no SMS has arrived, cancellation is available two minutes after number assignment. It returns coins to your balance. Choose another country only if the target service accepts it; contact support if the balance looks wrong.",
         },
         {
           q: "How long does an activation last, and can I swap the number?",
-          a: "The activation window is 15 minutes. If nothing arrives you can swap to a different number from the same screen — the app has to hold the current number for two minutes first, because the supplier will not let a number be released sooner than that, and you can swap up to three times within one activation. You can also cancel outright and start a fresh activation instead. Either way, the coins for a number that never received an SMS return to your balance.",
+          a: "The activation window is 15 minutes. If nothing arrives you can swap to a different number from the same screen — the app has to hold the current number for two minutes first, under our cancellation policy, and you can swap up to three times within one activation. You can also cancel outright and start a fresh activation instead. Either way, the coins for a number that never received an SMS return to your balance.",
         },
         {
           q: "How many numbers can I have at once?",
@@ -149,7 +149,7 @@ export const HOME = {
         },
         {
           q: "Is this legal to use?",
-          a: "Yes — receiving SMS on a virtual number is a standard tool for privacy, QA and development. You're responsible for complying with the terms of the services you sign up for.",
+          a: "Permitted uses depend on your country, the target service and your purpose. Follow applicable laws and platform rules. Do not use temporary numbers for fraud, identity misrepresentation or bypassing restrictions.",
         },
       ],
     },
@@ -280,8 +280,8 @@ export const HOME = {
           body: "Ничего не нужно настраивать в телефоне, ничего не привязано к вашей личности. Просто откройте приложение.",
         },
         {
-          title: "Отменяйте номера в любой момент",
-          body: "Если номер не подошёл, отмените ожидающую активацию прямо в приложении и возьмите другой.",
+          title: "Отмена до получения SMS",
+          body: "Через две минуты после выдачи номера можно отменить активацию без SMS и вернуть монеты на баланс.",
         },
       ],
     },
@@ -303,7 +303,7 @@ export const HOME = {
         },
         {
           title: "Нет кода — монеты возвращаются",
-          body: "Если номер отклонили или SMS так и не пришла, возьмите другой. Монеты за неудавшуюся активацию автоматически вернутся на баланс.",
+          body: "Если SMS не пришло, отмените активацию через две минуты или дождитесь окончания окна: монеты вернутся. Если полученный код отклонён, обратитесь в поддержку.",
         },
       ],
       note: "Цены пакетов задаются в App Store и зависят от региона.",
@@ -341,11 +341,11 @@ export const HOME = {
         },
         {
           q: "Что делать, если код так и не пришёл?",
-          a: "Отмените ожидающую активацию прямо в приложении и возьмите другой номер или попробуйте другую страну. А поддержка всегда на расстоянии одного сообщения.",
+          a: "Если SMS ещё нет, отмена доступна через две минуты после выдачи номера. Монеты вернутся на баланс. Другую страну выбирайте только если её принимает сервис; при ошибке баланса напишите в поддержку.",
         },
         {
           q: "Сколько длится активация и можно ли сменить номер?",
-          a: "Окно активации — 15 минут. Если ничего не приходит, номер можно сменить прямо на этом экране: сначала приложение обязано подержать текущий номер две минуты — раньше провайдер освободить его не даёт, — а всего в рамках одной активации доступно до трёх смен. Можно и просто отменить активацию и начать новую. В любом случае монеты за номер, на который SMS так и не пришла, возвращаются на баланс.",
+          a: "Окно активации — 15 минут. Отмена или замена номера без полученного SMS доступна через две минуты после выдачи. За номер без SMS монеты возвращаются. В одной цепочке доступно до трёх замен; новая активация оплачивается по актуальной цене.",
         },
         {
           q: "Сколько номеров можно держать одновременно?",
@@ -357,7 +357,7 @@ export const HOME = {
         },
         {
           q: "Это законно?",
-          a: "Да — приём SMS на виртуальный номер является стандартным инструментом для приватности, тестирования и разработки. Вы сами отвечаете за соблюдение правил сервисов, в которых регистрируетесь.",
+          a: "Допустимость зависит от страны, правил сервиса и цели использования. Соблюдайте закон и правила платформ. Не используйте временные номера для мошенничества, выдачи себя за другое лицо или обхода ограничений.",
         },
       ],
     },

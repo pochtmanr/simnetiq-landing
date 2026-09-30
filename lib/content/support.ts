@@ -7,11 +7,11 @@ export const SUPPORT_PAGE = {
     label: "Support",
     title: "How can we help?",
     introBefore: "Send us a message below or email ",
-    introAfter: " — we usually reply within one business day.",
+    introAfter: " — include the details below so we can review your request and reply by email.",
     items: [
       {
         title: "Activation issues",
-        body: "Code didn't arrive? Cancel the pending number in the app and take another — then tell us the service, country and time so we can check what happened.",
+        body: "No SMS yet? Cancellation is available two minutes after assignment, before an SMS arrives, and returns coins to your balance. Read the troubleshooting guide before trying again.",
       },
       {
         title: "Billing & coins",
@@ -27,11 +27,11 @@ export const SUPPORT_PAGE = {
     label: "Поддержка",
     title: "Чем помочь?",
     introBefore: "Напишите нам через форму ниже или на ",
-    introAfter: " — обычно отвечаем в течение одного рабочего дня.",
+    introAfter: " — укажите подробности ниже, чтобы мы могли рассмотреть обращение и ответить по электронной почте.",
     items: [
       {
         title: "Проблемы с активацией",
-        body: "Код не пришёл? Отмените ожидающий номер в приложении и возьмите другой, а нам напишите сервис, страну и время — мы проверим, что случилось.",
+        body: "SMS не пришло? Через две минуты после выдачи номера можно отменить активацию без SMS и вернуть монеты на баланс. Перед повторной попыткой прочитайте инструкцию.",
       },
       {
         title: "Оплата и монеты",
@@ -71,7 +71,7 @@ export const SUPPORT_FORM = {
     sentChip: "Sent",
     sentTitle: "Message received",
     sentBody:
-      "Thanks for reaching out — a confirmation is on its way to your inbox, and we usually reply within one business day.",
+      "Your request has been submitted. We will review it and reply to the email address you provided.",
     sendAnother: "Send another message",
   },
   ru: {
@@ -99,7 +99,7 @@ export const SUPPORT_FORM = {
     sentChip: "Отправлено",
     sentTitle: "Сообщение получено",
     sentBody:
-      "Спасибо за обращение — подтверждение уже летит на вашу почту, обычно мы отвечаем в течение одного рабочего дня.",
+      "Ваше обращение отправлено. Мы рассмотрим его и ответим на указанный адрес электронной почты.",
     sendAnother: "Отправить ещё одно сообщение",
   },
 } satisfies Record<Locale, unknown>;

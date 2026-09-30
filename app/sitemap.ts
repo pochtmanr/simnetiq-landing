@@ -1,3 +1,4 @@
+import { HELP_ARTICLES } from "../lib/content/help";
 import type { MetadataRoute } from "next";
 import { ALL_ALTERNATIVES } from "../lib/content/alternatives";
 import { BLOG_POSTS } from "../lib/content/blog";
@@ -26,7 +27,7 @@ const STATIC_PATHS: Array<{
   changeFrequency: Freq;
   priority: number;
 }> = [
-  { path: "/", lastModified: "2026-07-07", changeFrequency: "monthly", priority: 1 },
+  { path: "/", lastModified: "2026-09-30", changeFrequency: "monthly", priority: 1 },
   {
     path: "/virtual-numbers",
     lastModified: latest(ALL_SERVICES, ALL_COUNTRIES),
@@ -40,14 +41,15 @@ const STATIC_PATHS: Array<{
     changeFrequency: "monthly",
     priority: 0.6,
   },
-  { path: "/support", lastModified: "2026-07-06", changeFrequency: "monthly", priority: 0.8 },
+  { path: "/support", lastModified: "2026-09-30", changeFrequency: "monthly", priority: 0.8 },
   { path: "/privacy-policy", lastModified: "2026-07-06", changeFrequency: "yearly", priority: 0.3 },
-  { path: "/terms-of-service", lastModified: "2026-07-06", changeFrequency: "yearly", priority: 0.3 },
+  { path: "/terms-of-service", lastModified: "2026-09-30", changeFrequency: "yearly", priority: 0.3 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries = [
     ...STATIC_PATHS,
+    ...HELP_ARTICLES.map(a => ({ path: `/support/${a.slug}`, lastModified: "2026-09-30", changeFrequency: "monthly" as Freq, priority: 0.7 })),
     ...ALL_SERVICES.map((s) => ({
       path: `/virtual-numbers/${s.slug}`,
       lastModified: s.updatedAt,
