@@ -117,19 +117,25 @@ function Kpis({ day, week }: { day: OpsDigest; week: OpsDigest }) {
   return (
     <StatGrid>
       <Stat
-        label="Success 24h"
+        label="SMS recorded 24h"
         value={pct(day.success_pct)}
         tone={lowSuccess(day.success_pct) ? "bad" : "neutral"}
-        sub={`${day.delivered} of ${day.issued} issued`}
-        help={`Numbers that received an SMS ÷ numbers issued. Purchases where no number was issued (provider or claim failures) are not in the denominator. Red below ${SUCCESS_WARN_PCT}%.`}
+        sub={`${day.delivered} of ${day.matured_issued ?? "—"} finished numbers`}
+        help={`Recorded SMS ÷ finished issued numbers. Numbers still waiting and purchases without a number are excluded. This is not confirmation that verification succeeded. Red below ${SUCCESS_WARN_PCT}%.`}
         source="admin_ops_digest — the same SQL as the Telegram digest."
       />
       <Stat
-        label="Success 7d"
+        label="SMS recorded 7d"
         value={pct(week.success_pct)}
         tone={lowSuccess(week.success_pct) ? "bad" : "neutral"}
-        sub={`${week.delivered} of ${week.issued} issued`}
+        sub={`${week.delivered} of ${week.matured_issued ?? "—"} finished numbers`}
         help="The same rate over the last 7 days — smooths out a bad hour."
+      />
+      <Stat
+        label="Number allocation 24h"
+        value={pct(day.allocation_pct)}
+        sub={`7d ${pct(week.allocation_pct)}`}
+        help="Issued numbers divided by resolved allocation attempts. Pending allocation requests are excluded; SMS receipt is measured separately."
       />
       <Stat
         label="Purchases 24h"
@@ -142,19 +148,19 @@ function Kpis({ day, week }: { day: OpsDigest; week: OpsDigest }) {
         value={formatCoins(day.provider_failed)}
         tone={day.provider_failed > 0 ? "bad" : "neutral"}
         sub={`7d ${formatCoins(week.provider_failed)}`}
-        help="OnlineSim refused to hand out a number (no stock, error, low balance). The user was refunded."
+        help="Number allocation failed, including supplier refusals and timeouts. Check the refund ledger for settlement."
       />
       <Stat
         label="Expired 24h"
         value={formatCoins(day.expired)}
         sub={`7d ${formatCoins(week.expired)}`}
-        help="A number was issued but no SMS arrived before it timed out. The user was refunded."
+        help="The hold expired with no SMS recorded in the app. This does not prove the supplier never received a message. Check the refund ledger for settlement."
       />
       <Stat
-        label="Median to SMS"
+        label="Median observed wait"
         value={secs(day.median_sms_seconds)}
         sub={`7d ${secs(week.median_sms_seconds)}`}
-        help="Half of delivered codes arrived faster than this, counted from when the number was issued."
+        help="Median time from number assignment until the app or server recorded the SMS. Includes user action and polling delay; historical rows without assignment timestamps are excluded."
       />
       <Stat
         label="Net revenue 24h"
@@ -245,14 +251,14 @@ const COMBO_COLUMNS: Column<DeliveryComboRow>[] = [
   { key: "country", header: "Country", mobile: "title", cell: (r) => <span className="tabular-nums text-ink-muted">{dial(r.country_dial)}</span> },
   {
     key: "success",
-    header: "Success",
+    header: "SMS recorded",
     align: "right",
     mobile: "aside",
     cell: (r) => <span className={lowSuccess(r.success_pct) ? "font-semibold text-bad" : ""}>{pct(r.success_pct)}</span>,
   },
   { key: "attempts", header: "Attempts", align: "right", cell: (r) => formatCoins(r.attempts) },
   { key: "delivered", header: "Delivered", align: "right", cell: (r) => formatCoins(r.delivered) },
-  { key: "median", header: "Median SMS", align: "right", cell: (r) => <span className="text-ink-muted">{secs(r.median_sms_seconds)}</span> },
+  { key: "median", header: "Observed wait", align: "right", cell: (r) => <span className="text-ink-muted">{secs(r.median_sms_seconds)}</span> },
   { key: "fail", header: "Top failure", cell: (r) => <span className="text-ink-muted">{r.top_fail_reason ?? "—"}</span> },
 ];
 
@@ -444,7 +450,7 @@ function Delivery() {
         />
       </Section>
 
-      <Section title="Success rate" note="per hour, delivered ÷ issued · last 7 days · gaps are hours with nothing issued">
+      <Section title="Recorded SMS rate" note="per hour, recorded SMS ÷ finished issued numbers · last 7 days · waiting numbers excluded">
         <Card>
           <LineChart points={successPoints} yMin={0} yMax={100} format={(v) => `${Math.round(v)}%`} label="Hourly SMS success rate over the last 7 days" />
         </Card>

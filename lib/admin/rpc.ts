@@ -334,8 +334,11 @@ export type OpsDigest = {
   claim_failed: number;
   cancelled: number;
   in_flight: number;
-  /** delivered / issued, 0–100. Null when nothing was issued. */
+  /** Recorded SMS / terminal issued numbers, 0–100; excludes in-flight orders. */
   success_pct: number | null;
+  allocation_pct?: number | null;
+  matured_issued?: number;
+  latency_basis?: 'assignment_to_observation';
   median_sms_seconds: number | null;
   coins_spent: number;
   revenue_usd: number | null;
@@ -893,6 +896,9 @@ export type ComboStats = {
     cancelled: number;
     in_flight: number;
     success_pct: number | null;
+    allocation_pct?: number | null;
+    matured_issued?: number;
+    latency_basis?: 'assignment_to_observation';
     coins: number;
     earned: number;
     recorded_cost: number;

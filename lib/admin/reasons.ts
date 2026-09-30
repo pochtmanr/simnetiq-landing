@@ -4,9 +4,9 @@
  * and public.ops_reason_label() in 20260851000000_ops_sms_outcomes.sql.
  */
 export const REASON_LABELS: Record<string, string> = {
-  expired: "no SMS in 15 min, app open",
-  expired_swept: "no SMS in 15 min, app closed",
-  provider_failed: "OnlineSim gave no number",
+  expired: "hold expired; no SMS recorded",
+  expired_swept: "expired by cleanup; no SMS recorded",
+  provider_failed: "number allocation failed",
   provider_timeout: "OnlineSim did not answer; may hold an orphan",
   claim_failed: "internal error mid-purchase, a bug",
   replay_blocked: "same purchase replayed, not charged twice",
@@ -15,7 +15,7 @@ export const REASON_LABELS: Record<string, string> = {
   failed: "no reason recorded (old row)",
 };
 
-/** `expired · no SMS in 15 min, app open`, or the code alone when it is unknown. */
+/** `expired · hold expired; no SMS recorded`, or the code alone when it is unknown. */
 export function reasonLine(code: string | null | undefined, fallback = "—"): string {
   const c = (code ?? "").trim();
   if (!c) return fallback;

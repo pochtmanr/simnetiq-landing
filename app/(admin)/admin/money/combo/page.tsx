@@ -54,7 +54,7 @@ function ComboBody({ c }: { c: ComboStats }) {
     { key: "status", header: "Status", mobile: "aside", cell: (r) => <StatusBadge status={r.status} /> },
     { key: "coins", header: "Coins", align: "right", cell: (r) => formatCoins(r.coins_spent) },
     { key: "cost", header: "Cost", align: "right", cell: (r) => cents(r.provider_cost_cents) },
-    { key: "sms", header: "First SMS", align: "right", cell: (r) => (r.first_sms_seconds === null ? "—" : `${r.first_sms_seconds}s`) },
+    { key: "sms", header: "Observed SMS", align: "right", cell: (r) => (r.first_sms_seconds === null ? "—" : `${r.first_sms_seconds}s`) },
     { key: "user", header: "User", cell: (r) => <EntityLink type="user" id={r.user_id} /> },
     { key: "reason", header: "Closed because", cell: (r) => <span className="text-ink-muted">{r.close_reason ?? "—"}</span> },
   ];
@@ -70,15 +70,16 @@ function ComboBody({ c }: { c: ComboStats }) {
           help="Revenue earned on delivered numbers minus OnlineSim's recorded price for them."
         />
         <Stat
-          label="Success rate"
+          label="Recorded SMS rate"
           value={formatPct(s.success_pct, 0)}
           tone={s.success_pct !== null && s.success_pct < 50 ? "bad" : "neutral"}
-          sub={`${formatCoins(s.delivered)} of ${formatCoins(s.issued)} got an SMS`}
-          help="Share of issued numbers that received a code. Failed and expired numbers are refunded — they cost support time, not money."
+          sub={`${formatCoins(s.delivered)} of ${s.matured_issued == null ? "—" : formatCoins(s.matured_issued)} finished numbers`}
+          help="Recorded SMS divided by finished issued numbers. Waiting numbers and allocation failures are excluded. Receipt does not prove third-party verification succeeded."
         />
+        <Stat label="Number allocation" value={s.allocation_pct == null ? "—" : formatPct(s.allocation_pct, 0)} help="Issued numbers divided by resolved allocation attempts; pending allocation excluded." />
         <Stat label="Revenue earned" value={formatUsd(s.earned)} sub={`${formatCoins(s.coins)} coins`} />
         <Stat
-          label="Median time to SMS"
+          label="Median observed wait"
           value={s.median_sms_seconds === null ? "—" : `${Math.round(s.median_sms_seconds)}s`}
           sub={s.top_fail_reason ? `Top failure: ${s.top_fail_reason}` : undefined}
         />
@@ -116,7 +117,7 @@ function ComboBody({ c }: { c: ComboStats }) {
             items={[
               /* A 0–1 fraction, smoothed toward the country prior so a combo
                  with three attempts doesn't read as 0% or 100%. */
-              { label: "Success (smoothed)", value: c.quality ? formatPct(c.quality.success_rate * 100, 0) : "—" },
+              { label: "Recorded SMS (smoothed)", value: c.quality ? formatPct(c.quality.success_rate * 100, 0) : "—" },
               { label: "Attempts", value: c.quality ? formatCoins(c.quality.attempts_30d) : "—" },
               { label: "Received", value: c.quality ? formatCoins(c.quality.received_30d) : "—" },
               {
