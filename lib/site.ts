@@ -4,10 +4,10 @@ export const APP_STORE_URL = "https://apps.apple.com/us/app/id6803515179";
    removed sitewide (see StoreBadges/SiteFooter) rather than pointed at a
    placeholder or the old app. Re-add PLAY_STORE_URL here once a listing
    exists. */
-export const SUPPORT_EMAIL = "support@simnetiq.store";
+export const SUPPORT_EMAIL = "support@simnetiq.com";
 export const COMPANY = "SIMNETIQ LTD";
 /* The parent brand. simnetiq.xyz is this product's site; simnetiq.store is the
-   company's own, and the domain the support address belongs to. */
+   company's own site. Support mail is support@simnetiq.com. */
 export const COMPANY_SITE = "simnetiq.store";
 export const COMPANY_URL = "https://simnetiq.store";
 

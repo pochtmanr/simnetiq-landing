@@ -13,7 +13,7 @@ import { NextRequest, NextResponse } from "next/server";
  * Steps:
  *   1. admin_support_reply   records the reply, sets the ticket status and
  *                            returns the customer's address (audit-logged).
- *   2. n8n reply webhook     sends the email from support@simnetiq.store.
+ *   2. n8n reply webhook     sends the email from support@simnetiq.com.
  *   3. admin_support_reply_result  records whether step 2 worked.
  *
  * The reply is stored even when the email fails, and the response says so,

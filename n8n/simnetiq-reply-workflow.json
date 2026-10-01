@@ -53,14 +53,14 @@
     },
     {
       "parameters": {
-        "fromEmail": "SMS Code Support <support@simnetiq.store>",
+        "fromEmail": "SMS Code Support <support@simnetiq.com>",
         "toEmail": "={{ $json.body.to }}",
         "subject": "={{ $json.body.subject }}",
         "emailFormat": "text",
         "text": "={{ $json.body.locale === 'ru' ? 'Здравствуйте' : 'Hello' }}{{ $json.body.name ? ', ' + $json.body.name : '' }},\n\n{{ $json.body.body }}\n\n—\n{{ $json.body.locale === 'ru' ? 'Поддержка SMS Code' : 'SMS Code Support' }}\nhttps://simnetiq.xyz/support\n\n{{ $json.body.locale === 'ru' ? 'Ваше сообщение' : 'Your message' }}:\n> {{ ($json.body.original_message || '').split('\\n').join('\\n> ') }}",
         "options": {
-          "replyTo": "support@simnetiq.store",
-          "bccEmail": "support@simnetiq.store"
+          "replyTo": "support@simnetiq.com",
+          "bccEmail": "support@simnetiq.com"
         }
       },
       "id": "a2000000-0000-4000-8000-000000000003",

@@ -28,7 +28,7 @@ shows a confirmation on screen, which is what most people are actually after.
 1. In n8n (https://n8n.dopplervpn.org): **Workflows → ⋯ → Import from File**
    and select `simnetiq-support-workflow.json`.
 2. Open the **Send Email** node ("Email team") and pick your existing SMTP
-   credential — the one already used for `support@simnetiq.store` in your other
+   credential — the one already used for `support@simnetiq.com` in your other
    workflows.
 3. Open the **Check secret** node and replace `REPLACE-WITH-RANDOM-SECRET`
    with a real secret (`openssl rand -hex 24`). Put the same value in
@@ -51,7 +51,7 @@ for one call after you press "Listen for test event".)
 ```
 Webhook (POST /webhook/simnetiq-support)
   └─ Check secret (x-webhook-secret header matches N8N_WEBHOOK_SECRET)
-       ├─ true  → Email team (support@simnetiq.store, reply-to = user)
+       ├─ true  → Email team (support@simnetiq.com, reply-to = user)
        │           → Respond 200 {"ok":true}
        └─ false → Respond 403 {"ok":false}
 ```
@@ -95,7 +95,7 @@ curl -X POST https://n8n.dopplervpn.org/webhook/simnetiq-support \
 Answering a ticket from `/admin/support`: operator writes a reply → `POST
 /api/admin/support/reply` → `admin_support_reply()` records it (as that
 operator, checked by `is_admin()`) → webhook fired to n8n → n8n emails the
-customer from `support@simnetiq.store` (BCC to the same inbox, so the team has
+customer from `support@simnetiq.com` (BCC to the same inbox, so the team has
 a copy) → the route records whether the send worked.
 
 This does not bring back the backscatter problem above: nothing is sent

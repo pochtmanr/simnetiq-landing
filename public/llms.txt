@@ -7,7 +7,7 @@ Key facts:
 - A code usually arrives within seconds. An activation runs for 15 minutes; a pending activation can be cancelled in the app and the coins return to the balance. Swapping to another number from the activation screen requires holding the current number for two minutes first (a supplier rule) and is capped at three swaps per activation; up to three activations can be held at once.
 - No SIM or eSIM is installed, and the app needs an internet connection to show the code. Numbers are for one-time verification codes, not for long-term use or 2FA: when an activation ends the number returns to the supplier's pool and may later be issued to someone else.
 - Coins live with the SMS Code account, not the App Store receipt. An anonymous user who reinstalls gets a new account and does not keep the balance; signing in (Apple, Google or an email code) is what preserves it.
-- Operator: SIMNETIQ LTD, a company registered in England and Wales. Support: support@simnetiq.store (replies usually within one business day).
+- Operator: SIMNETIQ LTD, a company registered in England and Wales. Support: support@simnetiq.com (replies usually within one business day).
 - Download: App Store https://apps.apple.com/us/app/id6803515179 — there is no Google Play listing yet.
 
 ## Pages

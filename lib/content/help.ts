@@ -234,7 +234,7 @@ export const HELP_ARTICLES = [
         {
           "title": "Contact us safely",
           "paragraphs": [
-            "Use the support form or support@simnetiq.store. Send service, country, timing and activation or order identifiers, but never a password, verification code or full payment-card details. Review screenshots for sensitive information before sharing."
+            "Use the support form or support@simnetiq.com. Send service, country, timing and activation or order identifiers, but never a password, verification code or full payment-card details. Review screenshots for sensitive information before sharing."
           ]
         }
       ]
@@ -259,7 +259,7 @@ export const HELP_ARTICLES = [
         {
           "title": "Безопасное обращение",
           "paragraphs": [
-            "Используйте форму или support@simnetiq.store. Укажите сервис, страну, время и ID активации или заказа. Не передавайте пароль, SMS-код или полные данные карты. Проверьте снимки экрана на наличие секретных данных."
+            "Используйте форму или support@simnetiq.com. Укажите сервис, страну, время и ID активации или заказа. Не передавайте пароль, SMS-код или полные данные карты. Проверьте снимки экрана на наличие секретных данных."
           ]
         }
       ]
