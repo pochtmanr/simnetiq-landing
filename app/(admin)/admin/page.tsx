@@ -391,7 +391,7 @@ function ActivityFeed({ tick, onSettled }: { tick: number; onSettled?: () => voi
           </ul>
           {more ? (
             <div className="mt-[10px] text-center">
-              <button type="button" onClick={loadOlder} disabled={loadingMore} className="rounded-[8px] border border-border bg-card px-[14px] py-[7px] text-label text-ink-muted">
+              <button type="button" onClick={loadOlder} disabled={loadingMore} className="rounded-button border border-border bg-card px-[14px] py-[7px] text-label text-ink-muted">
                 {loadingMore ? "Loading…" : "Load older"}
               </button>
             </div>

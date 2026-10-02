@@ -133,10 +133,10 @@ export function WindowPicker({ hours, onChange }: { hours: number; onChange: (h:
             type="button"
             onClick={() => onChange(w.hours)}
             aria-pressed={active}
-            className={`rounded-[8px] border px-[12px] py-[6px] text-label ${
+            className={`rounded-pill border px-[14px] py-[6px] text-label transition-colors ${
               active
-                ? "border-transparent bg-panel-strong text-accent-deep"
-                : "border-border bg-card text-ink-muted"
+                ? "border-transparent bg-ink text-white"
+                : "border-border bg-card text-ink-muted hover:text-ink"
             }`}
           >
             {w.label}

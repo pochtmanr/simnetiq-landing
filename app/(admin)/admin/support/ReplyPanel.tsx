@@ -168,7 +168,7 @@ export function ReplyPanel({
         </button>
         <button
           type="button"
-          className="rounded-[8px] border border-border bg-card px-[12px] py-[6px] text-label text-ink disabled:opacity-60"
+          className="rounded-button border border-border bg-card px-[14px] py-[6px] text-label text-ink disabled:opacity-60"
           disabled={busy || !draft.trim()}
           onClick={() => void submit("open")}
         >

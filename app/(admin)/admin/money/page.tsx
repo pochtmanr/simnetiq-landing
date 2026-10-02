@@ -271,8 +271,8 @@ function Breakdown({
               role="tab"
               aria-selected={group === g.key}
               onClick={() => setGroup(g.key)}
-              className={`rounded-[8px] border px-[10px] py-[5px] text-label ${
-                group === g.key ? "border-transparent bg-panel-strong text-accent-deep" : "border-border bg-card text-ink-muted"
+              className={`rounded-pill border px-[12px] py-[5px] text-label ${
+                group === g.key ? "border-transparent bg-ink text-white" : "border-border bg-card text-ink-muted"
               }`}
             >
               {g.label}

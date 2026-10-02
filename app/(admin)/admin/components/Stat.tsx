@@ -60,7 +60,7 @@ export function Stat({
       {loading ? (
         <span className="mt-[8px] block h-[24px] w-[70%] animate-pulse rounded-[6px] bg-panel" aria-hidden />
       ) : (
-        <span className={`mt-[4px] block break-words text-[22px] font-semibold leading-[1.2] tabular-nums ${VALUE_TONE[tone]}`}>
+        <span className={`mt-[4px] block break-words font-display text-[21px] font-medium leading-[1.2] tracking-[-0.01em] tabular-nums ${VALUE_TONE[tone]}`}>
           {value}
         </span>
       )}

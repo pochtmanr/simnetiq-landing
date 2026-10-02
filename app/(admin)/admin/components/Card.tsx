@@ -52,7 +52,7 @@ export function Section({
     <section className="mt-[30px]">
       <div className="flex flex-wrap items-end justify-between gap-x-[12px] gap-y-[6px]">
         <div className="flex min-w-0 flex-wrap items-baseline gap-x-[10px]">
-          <h2 className="font-sans text-subheading">{title}</h2>
+          <h2 className="font-display text-[17px] font-medium tracking-[-0.01em]">{title}</h2>
           {note ? <span className="text-caption text-muted">{note}</span> : null}
         </div>
         {actions ? <div className="flex flex-wrap items-center gap-[8px]">{actions}</div> : null}
@@ -93,7 +93,7 @@ export function PageHeader({
       ) : null}
       <div className="flex flex-wrap items-end justify-between gap-x-[16px] gap-y-[10px]">
         <div className="min-w-0">
-          <h1 className="break-words font-sans text-heading-sm font-semibold">{title}</h1>
+          <h1 className="break-words font-display text-heading-sm font-medium">{title}</h1>
           {subtitle ? <p className="mt-[2px] text-label text-ink-muted">{subtitle}</p> : null}
         </div>
         {actions ? <div className="flex flex-wrap items-center gap-[8px]">{actions}</div> : null}
@@ -122,7 +122,7 @@ export function RefreshButton({ onClick, busy = false }: { onClick: () => void; 
       type="button"
       onClick={onClick}
       disabled={busy}
-      className="rounded-[8px] border border-border bg-card px-[12px] py-[6px] text-label text-ink-muted hover:text-ink disabled:opacity-60"
+      className="rounded-button border border-border bg-card px-[14px] py-[6px] text-label text-ink-muted transition-colors hover:text-ink disabled:opacity-60"
     >
       {busy ? "Loading…" : "Refresh"}
     </button>

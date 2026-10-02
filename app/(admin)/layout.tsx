@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Golos_Text } from "next/font/google";
+import { Golos_Text, Unbounded } from "next/font/google";
 import "../globals.css";
 
 /* ---------------------------------------------------------------------------
@@ -18,7 +18,6 @@ import "../globals.css";
  *                          what this route wants
  *   <Analytics/>           an operator's clicks are not product telemetry, and
  *                          admin URLs must not land in an analytics dashboard
- *   Unbounded              the panel is a tool; Golos alone is enough.
  *
  * There is no chrome here either — no header, no nav. The panel's header lives
  * inside AuthGate's `ready` branch, where only a verified operator sees it.
@@ -26,6 +25,14 @@ import "../globals.css";
 
 const golos = Golos_Text({
   variable: "--font-golos",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+/* The landing page's display face, for page titles and figures only, so the
+   panel reads as the same product. Body text stays Golos. */
+const unbounded = Unbounded({
+  variable: "--font-unbounded",
   subsets: ["latin"],
   display: "swap",
 });
@@ -52,7 +59,7 @@ export default function AdminLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${golos.variable} h-full`}>
+    <html lang="en" className={`${golos.variable} ${unbounded.variable} h-full`}>
       <body className="flex min-h-full flex-col">{children}</body>
     </html>
   );

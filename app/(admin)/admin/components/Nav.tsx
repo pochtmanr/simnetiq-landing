@@ -62,52 +62,55 @@ function Icon({ d }: { d: string }) {
   );
 }
 
+/* The landing page's bar (components/SiteNav.tsx), carried over: a white
+   rounded card on the page's own container rather than a full-width band,
+   sticky over a header that paints nothing, so the canvas runs under it. */
 export function TopNav({ onSignOut }: { onSignOut: () => void }) {
   const pathname = usePathname() ?? "";
   const account = useAccountItems();
+  const link = (active: boolean) =>
+    `rounded-pill px-[11px] py-[6px] transition-colors ${
+      active ? "bg-panel-strong font-medium text-accent-deep" : "text-ink-muted hover:text-ink"
+    }`;
   return (
-    <header className="sticky top-0 z-30 border-b border-border bg-card/95 backdrop-blur">
-      <div className="mx-auto flex w-full max-w-[1160px] items-center gap-x-[18px] px-[clamp(16px,3vw,28px)] py-[10px]">
-        <Link href="/admin" className="flex items-center gap-[8px] text-label font-semibold">
-          <span className="inline-block h-[10px] w-[10px] rounded-full bg-gradient-to-br from-accent to-accent-dark" aria-hidden />
-          Operations
-        </Link>
-        <nav className="hidden items-center gap-x-[2px] text-label md:flex" aria-label="Main">
-          {[...PRIMARY, ...SECONDARY].map((it) => {
-            const active = isActive(pathname, it.href);
-            return (
-              <Link
-                key={it.href}
-                href={it.href}
-                aria-current={active ? "page" : undefined}
-                className={`rounded-[8px] px-[10px] py-[6px] ${
-                  active ? "bg-panel-strong font-medium text-accent-deep" : "text-ink-muted hover:bg-panel hover:text-ink"
-                }`}
-              >
-                {it.label}
-              </Link>
-            );
-          })}
-        </nav>
-        <div className="ml-auto hidden items-center gap-x-[2px] text-label md:flex">
-          {account.map((it) => {
-            const active = isActive(pathname, it.href);
-            return (
-              <Link
-                key={it.href}
-                href={it.href}
-                aria-current={active ? "page" : undefined}
-                className={`rounded-[8px] px-[10px] py-[6px] ${
-                  active ? "bg-panel-strong font-medium text-accent-deep" : "text-ink-muted hover:bg-panel hover:text-ink"
-                }`}
-              >
-                {it.label}
-              </Link>
-            );
-          })}
-          <button type="button" onClick={onSignOut} className="ml-[8px] text-label text-muted underline underline-offset-2">
-            Sign out
-          </button>
+    <header className="pointer-events-none sticky top-0 z-30 pt-[12px] pb-[8px] md:pt-[16px]">
+      <div className="mx-auto w-full max-w-[1160px] px-[clamp(16px,3vw,28px)]">
+        <div className="pointer-events-auto flex w-full items-center gap-x-[14px] rounded-card bg-card py-[10px] pl-[16px] pr-[10px]">
+          <Link href="/admin" className="flex shrink-0 items-center gap-[8px] text-ink">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/brand/logo.svg" alt="" width={24} height={24} className="h-[24px] w-[24px]" />
+            <span className="font-display text-[15px] font-semibold tracking-[-0.02em] md:max-lg:hidden">SMS Code</span>
+            <span className="rounded-pill bg-panel-strong px-[8px] py-[2px] text-caption font-medium uppercase tracking-[0.07em] text-accent-deep">
+              Admin
+            </span>
+          </Link>
+          <nav className="hidden items-center gap-x-[2px] text-label md:flex" aria-label="Main">
+            {[...PRIMARY, ...SECONDARY].map((it) => {
+              const active = isActive(pathname, it.href);
+              return (
+                <Link key={it.href} href={it.href} aria-current={active ? "page" : undefined} className={link(active)}>
+                  {it.label}
+                </Link>
+              );
+            })}
+          </nav>
+          <div className="ml-auto hidden items-center gap-x-[2px] text-label md:flex">
+            {account.map((it) => {
+              const active = isActive(pathname, it.href);
+              return (
+                <Link key={it.href} href={it.href} aria-current={active ? "page" : undefined} className={link(active)}>
+                  {it.label}
+                </Link>
+              );
+            })}
+            <button
+              type="button"
+              onClick={onSignOut}
+              className="ml-[6px] rounded-button border border-border px-[12px] py-[6px] text-label text-ink-muted transition-colors hover:text-ink"
+            >
+              Sign out
+            </button>
+          </div>
         </div>
       </div>
     </header>
@@ -130,7 +133,9 @@ export function BottomNav({ onSignOut }: { onSignOut: () => void }) {
   }, [more]);
 
   const tab = (active: boolean) =>
-    `flex flex-1 flex-col items-center gap-[2px] pt-[8px] pb-[6px] text-[10.5px] font-medium ${active ? "text-accent-deep" : "text-muted"}`;
+    `flex flex-1 flex-col items-center gap-[2px] rounded-[10px] pt-[7px] pb-[5px] text-[10.5px] font-medium ${
+      active ? "bg-panel-strong text-accent-deep" : "text-muted"
+    }`;
 
   return (
     <>
@@ -165,7 +170,7 @@ export function BottomNav({ onSignOut }: { onSignOut: () => void }) {
       ) : null}
       <nav
         aria-label="Main"
-        className="fixed inset-x-0 bottom-0 z-30 flex border-t border-border bg-card/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden"
+        className="fixed inset-x-[10px] bottom-[calc(8px+env(safe-area-inset-bottom))] z-30 flex gap-[2px] rounded-card border border-border bg-card p-[4px] md:hidden"
       >
         {PRIMARY.map((it) => {
           const active = isActive(pathname, it.href);

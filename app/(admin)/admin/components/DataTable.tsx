@@ -209,7 +209,7 @@ function Pager({
 }) {
   const from = page * size + 1;
   const to = Math.min(total, from + size - 1);
-  const btn = "rounded-[8px] border border-border bg-card px-[12px] py-[6px] text-label disabled:opacity-40";
+  const btn = "rounded-button border border-border bg-card px-[12px] py-[6px] text-label disabled:opacity-40";
   return (
     <div className="mt-[10px] flex flex-wrap items-center justify-between gap-[10px] text-label text-ink-muted">
       <div className="flex items-center gap-[6px]">
@@ -220,7 +220,7 @@ function Pager({
             type="button"
             aria-pressed={n === size}
             onClick={() => onSize(n)}
-            className={`rounded-[8px] border px-[10px] py-[4px] ${n === size ? "border-transparent bg-panel-strong text-accent-deep" : "border-border bg-card"}`}
+            className={`rounded-pill border px-[10px] py-[4px] ${n === size ? "border-transparent bg-ink text-white" : "border-border bg-card"}`}
           >
             {n}
           </button>

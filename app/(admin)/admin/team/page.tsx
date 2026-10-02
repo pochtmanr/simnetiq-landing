@@ -377,7 +377,7 @@ function columns(me: string | null, pick: (m: TeamMember, a: Action) => void): C
               key={describe(a)}
               type="button"
               onClick={() => pick(m, a)}
-              className="rounded-[8px] border border-border bg-card px-[10px] py-[4px] text-caption text-ink-muted hover:text-ink"
+              className="rounded-button border border-border bg-card px-[10px] py-[4px] text-caption text-ink-muted hover:text-ink"
             >
               {describe(a)}
             </button>

@@ -14,7 +14,6 @@ import {
   Badge,
   DataTable,
   EmptyState,
-  EntityLink,
   PageHeader,
   RefreshButton,
   SkeletonRows,
@@ -126,43 +125,6 @@ function columns(
       cell: (row) => formatWhen(row.created_at),
     },
     {
-      key: "replies",
-      header: "Replies",
-      cell: (row) =>
-        row.reply_count ? (
-          <span>
-            {row.reply_count}
-            {row.last_reply_at ? (
-              <span className="block text-caption text-muted">last {formatWhen(row.last_reply_at)}</span>
-            ) : null}
-          </span>
-        ) : (
-          <span className="text-muted">none yet</span>
-        ),
-    },
-    {
-      key: "contact",
-      header: "Contact",
-      className: "whitespace-nowrap",
-      cell: (row) => (
-        <div className="flex flex-col gap-[2px]">
-          <a
-            href={`mailto:${encodeURIComponent(row.email)}`}
-            className="text-accent-deep hover:underline"
-          >
-            Email
-          </a>
-          {row.user_id ? (
-            <EntityLink type="user" id={row.user_id}>
-              Open account
-            </EntityLink>
-          ) : (
-            <span className="text-caption text-muted">no account</span>
-          )}
-        </div>
-      ),
-    },
-    {
       key: "set",
       header: "Set status",
       cell: (row) => (
@@ -272,9 +234,9 @@ function Inbox() {
                 setRequest((r) => ({ filter: f.value, nonce: r.nonce + 1 }))
               }
               aria-pressed={active}
-              className={`rounded-[8px] border px-[12px] py-[6px] text-label ${
+              className={`rounded-pill border px-[14px] py-[6px] text-label transition-colors ${
                 active
-                  ? "border-transparent bg-panel-strong text-accent-deep"
+                  ? "border-transparent bg-ink text-white"
                   : "border-border bg-card text-ink-muted"
               }`}
             >

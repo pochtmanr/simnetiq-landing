@@ -771,7 +771,7 @@ function Chrome({
   return (
     <>
       <TopNav onSignOut={onSignOut} />
-      <main className="mx-auto min-h-[calc(100dvh-49px)] w-full max-w-[1160px] flex-1 px-[clamp(16px,3vw,28px)] pt-[22px] pb-[calc(90px+env(safe-area-inset-bottom))] md:pt-[28px] md:pb-[40px]">
+      <main className="mx-auto min-h-[calc(100dvh-72px)] w-full max-w-[1160px] flex-1 px-[clamp(16px,3vw,28px)] pt-[14px] pb-[calc(100px+env(safe-area-inset-bottom))] md:pt-[20px] md:pb-[40px]">
         {children}
       </main>
       <BottomNav onSignOut={onSignOut} />
@@ -782,8 +782,10 @@ function Chrome({
 function GateSkeleton() {
   return (
     <div className="flex min-h-dvh flex-1 flex-col" aria-busy="true" aria-label="Loading">
-      <div className="h-[49px] border-b border-border bg-card" />
-      <main className="mx-auto min-h-[calc(100dvh-49px)] w-full max-w-[1160px] flex-1 px-[clamp(16px,3vw,28px)] pt-[22px] md:pt-[28px]">
+      <div className="mx-auto w-full max-w-[1160px] px-[clamp(16px,3vw,28px)] pt-[12px] pb-[8px] md:pt-[16px]">
+        <div className="h-[52px] rounded-card bg-card" />
+      </div>
+      <main className="mx-auto min-h-[calc(100dvh-72px)] w-full max-w-[1160px] flex-1 px-[clamp(16px,3vw,28px)] pt-[14px] md:pt-[20px]">
         <div className="mb-[18px] h-[28px] w-[160px] animate-pulse rounded-[8px] bg-panel" />
         <SkeletonStats n={8} />
         <div className="mt-[24px]">
