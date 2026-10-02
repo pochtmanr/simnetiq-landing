@@ -32,7 +32,7 @@ export async function GET() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          background: "#EFF1F5",
+          background: "#F3F4F7",
           padding: "72px 80px",
         }}
       >

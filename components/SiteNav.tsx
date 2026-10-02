@@ -8,6 +8,7 @@ import { localePath, switchLocalePath, type Locale } from "../lib/i18n";
 import { LANGUAGES, NAV } from "../lib/content/common";
 import { APP_STORE_URL } from "../lib/site";
 import { AppleGlyph } from "./AppleGlyph";
+import { LangFlag } from "./LangFlag";
 
 /*
  * The bar sits on the page's own grid — max-w-[1200px] with the same
@@ -53,9 +54,14 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
           instead of behind a canvas-filled band. pointer-events are handed back
           on the bar so the transparent gutters stay click-through. */}
       <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
+        {/* Insets are optical, not uniform: each end element sits the same
+            distance from the bar's edge on every side. The 37px CTA gets 10px
+            all round (pr = py); the 24px logo floats 16.5px from top and
+            bottom in the 57px bar, so it gets 16px on the left. Below sm the
+            CTA is hidden and the hamburger glyph lands ~18px in both ways. */}
         <nav
           aria-label="Main"
-          className="pointer-events-auto relative flex w-full items-center gap-x-6 rounded-card bg-card px-[22px] py-[11px]"
+          className="pointer-events-auto relative flex w-full items-center gap-x-6 rounded-card bg-card py-[10px] pl-[16px] pr-[16px] sm:pr-[10px]"
         >
           <Link
             href={localePath(locale, "/")}
@@ -71,7 +77,11 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
               height={24}
               className="h-[24px] w-[24px]"
             />
-            <span className="text-body">SMS Code</span>
+            {/* Wordmark in the display face, so the bar carries the same
+                voice as the headlines rather than reading as plain UI. */}
+            <span className="font-display text-[15px] font-semibold tracking-[-0.02em]">
+              SMS Code
+            </span>
           </Link>
 
           {/* Desktop links */}
@@ -80,7 +90,7 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
               <Link
                 key={link.path}
                 href={localePath(locale, link.path)}
-                className="ghost-link text-body"
+                className="text-body font-medium text-ink-muted transition-colors hover:text-ink"
               >
                 {link.label}
               </Link>
@@ -99,36 +109,17 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
                 aria-expanded={langOpen}
                 aria-haspopup="menu"
                 aria-label={t.langLabel}
-                className="flex items-center gap-[6px] text-label text-ink transition-opacity hover:opacity-70"
+                className="flex items-center gap-[7px] text-label font-medium text-ink transition-opacity hover:opacity-70"
               >
-                <svg
-                  viewBox="0 0 16 16"
-                  className="h-4 w-4 fill-none stroke-ink"
-                  strokeWidth="1"
-                  aria-hidden
-                >
-                  <circle cx="8" cy="8" r="6.5" />
-                  <ellipse cx="8" cy="8" rx="3" ry="6.5" />
-                  <path d="M1.5 8h13" />
-                </svg>
+                <LangFlag locale={locale} />
                 <span>{locale.toUpperCase()}</span>
-                <svg
-                  viewBox="0 0 8 8"
-                  className={`h-2 w-2 fill-none stroke-ink transition-transform ${
-                    langOpen ? "rotate-180" : ""
-                  }`}
-                  strokeWidth="1"
-                  aria-hidden
-                >
-                  <path d="M1 2.5l3 3 3-3" />
-                </svg>
               </button>
 
               {langOpen && (
                 <div
                   role="menu"
                   aria-label={t.langLabel}
-                  className="absolute right-0 top-full mt-[14px] min-w-[132px] rounded-card border border-border bg-card py-[6px]"
+                  className="absolute right-0 top-full mt-[14px] min-w-[156px] rounded-card border border-border bg-card py-[6px]"
                 >
                   {LANGUAGES.map((lang) => (
                     <Link
@@ -141,7 +132,10 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
                         lang.code === locale ? "text-ink" : "text-ink-muted"
                       }`}
                     >
-                      {lang.label}
+                      <span className="flex items-center gap-[10px]">
+                        <LangFlag locale={lang.code} />
+                        {lang.label}
+                      </span>
                       {lang.code === locale && (
                         <svg
                           viewBox="0 0 12 12"

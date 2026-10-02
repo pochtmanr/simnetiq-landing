@@ -7,13 +7,13 @@
 // paint and sets <html lang="ru"> for /ru… paths or a Russian browser, and the
 // CSS shows only the matching block. No flash, no request-time API.
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Golos_Text } from "next/font/google";
 import Link from "next/link";
 import { NOT_FOUND } from "../lib/content/common";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const golos = Golos_Text({
+  variable: "--font-golos",
   subsets: ["latin", "cyrillic"],
   display: "swap",
 });
@@ -47,7 +47,7 @@ function Body({ locale }: { locale: "en" | "ru" }) {
 
 export default function GlobalNotFound() {
   return (
-    <html lang="en" className={`${inter.variable} h-full`} suppressHydrationWarning>
+    <html lang="en" className={`${golos.variable} h-full`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: pickLocale }} />
         <style dangerouslySetInnerHTML={{ __html: localeCss }} />

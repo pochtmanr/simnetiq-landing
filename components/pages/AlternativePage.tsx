@@ -147,7 +147,7 @@ export function AlternativePage({
               }`}
             >
               <summary className="flex cursor-pointer list-none items-start justify-between gap-6 [&::-webkit-details-marker]:hidden">
-                <h3 className="font-display text-heading-sm font-light text-ink">
+                <h3 className="font-display text-heading-sm font-medium text-ink">
                   {item.q}
                 </h3>
                 <span className="mt-[6px] shrink-0 text-accent-deep transition-transform group-open:rotate-45">

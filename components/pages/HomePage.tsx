@@ -51,14 +51,18 @@ export function HomePage({ locale }: { locale: Locale }) {
           bleeds off the panel's bottom edge rather than sitting inside it. */}
       <section className="grid items-stretch gap-[22px] pt-[40px] md:min-h-[min(82vh,780px)] md:grid-cols-2 md:pt-[56px]">
         <div className="flex flex-col gap-[22px]">
-          <div className="panel hero-rise flex flex-1 flex-col justify-center">
-            <span className="section-label">{t.hero.label}</span>
-            <h1 className="text-heading-lg">
-              {t.hero.titleTop}
-              <br />
-              <span className="text-accent-deep">{t.hero.titleAccent}</span>
-            </h1>
-            <p className="mt-[21px] max-w-md text-subheading text-ink-muted">
+          {/* Copy panel: the headline holds the top, the explanation sits
+              under a hairline at the foot. */}
+          <div className="panel hero-rise flex flex-1 flex-col justify-between gap-[40px]">
+            <div>
+              <span className="section-label">{t.hero.label}</span>
+              <h1 className="text-heading-lg">
+                {t.hero.titleTop}
+                <span className="block text-ink-muted/80">{t.hero.titleAccent}</span>
+              </h1>
+            </div>
+
+            <p className="max-w-[46ch] border-t border-border pt-[21px] text-prose text-ink-muted">
               {t.hero.body}
             </p>
           </div>
@@ -83,7 +87,7 @@ export function HomePage({ locale }: { locale: Locale }) {
         <div className="panel hero-rise grid grid-cols-2 gap-[28px] [animation-delay:0.18s] lg:grid-cols-4">
           {t.stats.items.map((s) => (
             <div key={s.label}>
-              <span className="font-display text-[52px] font-light leading-none tracking-[-0.03em] text-accent-deep">
+              <span className="figures text-[clamp(34px,4vw,44px)] leading-none tracking-[-0.03em] text-accent-deep">
                 {s.value}
               </span>
               <p className="mt-[11px] text-label text-ink">{s.label}</p>
@@ -280,7 +284,7 @@ export function HomePage({ locale }: { locale: Locale }) {
               className={`group py-[21px] ${i > 0 ? "border-t border-border" : ""}`}
             >
               <summary className="flex cursor-pointer list-none items-start justify-between gap-6 [&::-webkit-details-marker]:hidden">
-                <h3 className="font-display text-heading-sm font-light text-ink">
+                <h3 className="font-display text-heading-sm font-medium text-ink">
                   {item.q}
                 </h3>
                 <span className="mt-[6px] shrink-0 text-accent-deep transition-transform group-open:rotate-45">

@@ -5,10 +5,11 @@
 
 SMS Code's site borrows its *structure* from a light editorial system — flat and
 shadowless surfaces, depth built by stacking tinted panels rather than by
-elevation, 14px cards, full-pill badges and buttons, and a whisper-weight serif
-display over a humanist sans. It borrows none of that system's colour. Every
-value below comes from the product itself: `sms-expo/lib/theme.ts` and
-`sms-expo/assets/brand-mark.svg`, so the site and the app share one palette.
+elevation, 14px cards, full-pill badges and buttons. Type is two clearly
+separate sans voices: Unbounded (wide, round) for headlines and figures, Golos
+Text for everything else. The brand blues come from the product itself: `sms-expo/lib/theme.ts` and
+`sms-expo/assets/brand-mark.svg`, so the site and the app share one accent. The neutrals are the site's own:
+one ramp at the mark's hue (~220°), low chroma, every text grey AA-measured.
 
 The page rhythm is a deliberate alternation — canvas, tint, canvas, ink — and the
 one dark band per screenful is where the app's own dark-mode screenshots live.
@@ -17,17 +18,17 @@ one dark band per screenful is where the app's own dark-mode screenshots live.
 
 | Name | Value | Token | Role |
 |------|-------|-------|------|
-| Canvas | `#EFF1F5` | `--color-canvas` | Page background. The app's `bg`, its splash ground and its adaptive-icon ground, all the same value |
+| Canvas | `#F3F4F7` | `--color-canvas` | Page background. A step lighter and less blue than the app's `#EFF1F5`, so white cards still separate |
 | Card | `#FFFFFF` | `--color-card` | White card surfaces. The app's `card` |
-| Panel | `#E7EAF1` | `--color-panel` | First tinted step up from the canvas — hero copy column, feature and compare blocks. The app's `cardElevated` |
+| Panel | `#E8EBF0` | `--color-panel` | First tinted step up from the canvas — hero copy column, feature and compare blocks |
 | Panel Mid | `#DCE7F8` | `--color-panel-mid` | Interpolated mid step, for when a section needs to sit between panel and panel-strong |
 | Panel Deep | `#A9C9F3` | `--color-panel-deep` | Deepest tint, the top of the how-it-works step ramp. `#1E5AA8` fails AA on it, so labels here go ink |
 | Panel Strong | `#C8DCF7` | `--color-panel-strong` | Heaviest tint — hero product column, stats band, final CTA. The app's `accentSoft`, and the colour of the mark's dots and backdrop bubble |
-| Panel Ink | `#23262C` | `--color-panel-ink` | The dark counter-panel: browse band and the product showcase. The app's `ink` |
-| Ink | `#23262C` | `--color-ink` | Headings and body text |
-| Ink Muted | `#5B6270` | `--color-ink-muted` | Long-form prose and secondary copy — 5.9:1 on canvas, which `--color-muted` is not |
-| Muted | `#868C97` | `--color-muted` | Captions, notes, low-emphasis labels only. Never body copy |
-| Border | `#E1E4EA` | `--color-border` | Hairline dividers, field edges, the nav's dropdown panels. The app's `border` |
+| Panel Ink | `#181B21` | `--color-panel-ink` | The dark counter-panel: browse band and the product showcase. Darker than ink so the band never reads as a block of text colour |
+| Ink | `#1C1F25` | `--color-ink` | Headings and body text. 15.0:1 on canvas |
+| Ink Muted | `#474D59` | `--color-ink-muted` | Long-form prose and secondary copy. 7.7:1 canvas, 7.1:1 panel |
+| Muted | `#5F6775` | `--color-muted` | Captions, notes, low-emphasis labels. 5.2:1 canvas, 4.8:1 panel, 5.7:1 white (the old `#868C97` was 2.8:1) |
+| Border | `#DCE0E7` | `--color-border` | Hairline dividers, field edges, the nav's dropdown panels |
 | Accent | `#59A1FC` | `--color-accent` | Gradient start, focus edges, eyebrow labels on ink. **Never** as text on white — 2.65:1 |
 | Accent Deep | `#1E5AA8` | `--color-accent-deep` | The one saturated dark: links, eyebrow labels, stat numerals, the FAQ marker |
 | Accent Dark | `#276CC5` | `--color-accent-dark` | Gradient end. The mark's own right-hand stop |
@@ -47,20 +48,22 @@ matters more than the contrast, it is one line in `.cta`.
 
 ## Tokens — Typography
 
-### Cormorant Garamond — display serif for h1 and h2 · `--font-display`
-- **Weights:** 300 only. Never bold the serif.
+### Unbounded — display for h1 and h2 · `--font-display`
+- **Weights:** 500 (headings, figures), 600 (nav wordmark). Variable.
 - **Subsets:** latin **and cyrillic** — the RU pages carry the same headline voice.
-- **Role:** h1 and h2, plus stat numerals and FAQ questions. Applied globally to
-  `h1, h2` in the base layer, so pages don't opt in one heading at a time.
-- **Not** h3 and below: at 18px and under, weight 300 Cormorant turns spindly.
-  Those stay on the sans. The rule is about *size*, not tag — an `h2` that sits
+- **Role:** h1 and h2, stat numerals (`.figures`, tabular), the nav wordmark, and
+  `heading-sm` card titles. Applied globally to `h1, h2` in the base layer.
+- **Tracking:** modest negative only. Past about -0.025em its word spaces close up.
+- **Not** below ~20px: it is wide, and small Unbounded is slow to scan.
+  Those stay on Golos. The rule is about *size*, not tag — an `h2` that sits
   at `text-subheading` (Legal, Support, AlternativePage) carries
   `font-sans font-medium` to opt out, rather than being demoted to `h3` and
   breaking the document outline.
 
-### Inter — everything else · `--font-sans`
-- **Weights:** 400, 500, 600
-- **Role:** body, navigation, UI labels, buttons, captions, h3 and below
+### Golos Text — everything else · `--font-sans`
+- **Weights:** 400, 500 (h3, nav links, labels), 600. Variable, latin + cyrillic.
+- **Role:** body, navigation, UI labels, buttons, captions, h3 and below.
+  Paratype's UI face, so Russian copy reads as native, not as a fallback.
 
 ### Type Scale
 
@@ -71,10 +74,10 @@ matters more than the contrast, it is one line in `.cta`.
 | body | 14px | 1.5 | — | `--text-body` |
 | prose | 16px | 1.6 | — | `--text-prose` |
 | subheading | 18px | 1.3 | — | `--text-subheading` |
-| heading-sm | 23px | 1.35 | — | `--text-heading-sm` |
-| heading | clamp(30–40px) | 1.15 | -0.01em | `--text-heading` |
-| heading-lg | clamp(38–56px) | 1.12 | -0.03em | `--text-heading-lg` |
-| display | clamp(44–74px) | 1.05 | -0.03em | `--text-display` |
+| heading-sm | 21px | 1.3 | -0.01em | `--text-heading-sm` |
+| heading | clamp(26–36px) | 1.15 | -0.015em | `--text-heading` |
+| heading-lg | clamp(32–48px) | 1.1 | -0.022em | `--text-heading-lg` |
+| display | clamp(38–64px) | 1.04 | -0.028em | `--text-display` |
 
 Long-form prose (blog posts, legal pages) uses 16px rather than the 14px body
 step — 14px over 60+ character lines is uncomfortable to read.
@@ -130,8 +133,8 @@ Right-aligned 46px outline arrow that shifts 4px on hover; the card lightens to
 `#C8DCF7` fill, `#1E5AA8` text, full pill, 4/12 padding, 12px/500.
 
 ### `.section-label`
-The eyebrow. Inter 11px/600, uppercase, 0.08em tracking, `--color-accent-deep`.
-The only uppercase treatment in the system — nowhere else.
+The section lead-in. Golos 14px/500, sentence case, `--color-accent-deep`.
+The system has no uppercase treatment.
 
 ### `.blue-link` / `.blue-link--ink`
 `--color-accent-deep`, 1px transparent bottom border that fills on hover.
@@ -226,4 +229,4 @@ included, not flattened one-colour stand-ins. The marquee greys them at rest
 - Don't bold the serif, and don't set h3 or smaller in it
 - Don't use `--color-muted` for body copy — it is a caption colour
 - Don't introduce a hue outside the blue ramp; the mark has exactly three colours
-- Don't put the uppercase 0.08em treatment anywhere but eyebrow labels
+- Don't set labels in tracked-out uppercase

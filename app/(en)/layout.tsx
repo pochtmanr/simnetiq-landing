@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Golos_Text, Unbounded } from "next/font/google";
 import "../globals.css";
 import { SiteNav } from "../../components/SiteNav";
 import { SiteFooter } from "../../components/SiteFooter";
@@ -9,23 +9,25 @@ import { languageAlternates } from "../../lib/i18n";
 import { organization, softwareApplication, webSite } from "../../lib/seo";
 import { APP_NAME, SITE_URL } from "../../lib/site";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+/* Text face: Paratype's Golos, built for interface copy in Latin and
+   Cyrillic alike, so /ru reads as native rather than as a fallback. */
+const golos = Golos_Text({
+  variable: "--font-golos",
+  subsets: ["latin", "cyrillic"],
   display: "swap",
 });
 
-/* Display serif for h1/h2 — weight 300 only, never bold. Cyrillic is
-   loaded too so the RU pages get the same headline voice. */
-const cormorant = Cormorant_Garamond({
-  variable: "--font-cormorant",
+/* Display face for h1/h2, stat figures and the wordmark. Wide and round,
+   so it sits apart from the compact text face instead of competing with
+   it. Variable, used at 500–600 only. */
+const unbounded = Unbounded({
+  variable: "--font-unbounded",
   subsets: ["latin", "cyrillic"],
-  weight: ["300"],
   display: "swap",
 });
 
 export const viewport: Viewport = {
-  themeColor: "#EFF1F5",
+  themeColor: "#F3F4F7",
   colorScheme: "light",
 };
 
@@ -33,8 +35,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   applicationName: APP_NAME,
   title: {
-    default: "SMS Code by SIMNETIQ — receive SMS codes on a private number",
-    template: "%s — SMS Code by SIMNETIQ",
+    default: "SMS Code by SIMNETIQ â receive SMS codes on a private number",
+    template: "%s â SMS Code by SIMNETIQ",
   },
   description:
     "Get a real virtual number in 100+ countries and receive SMS verification codes in seconds. Sign up for Telegram, WhatsApp, Google and 100+ services without giving out your personal number.",
@@ -76,7 +78,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${cormorant.variable} h-full`}>
+    <html lang="en" className={`${golos.variable} ${unbounded.variable} h-full`}>
       <body className="flex min-h-full flex-col">
         <JsonLd
           data={[organization(), webSite("en"), softwareApplication("en")]}

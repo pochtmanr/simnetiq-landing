@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Golos_Text } from "next/font/google";
 import "../globals.css";
 
 /* ---------------------------------------------------------------------------
@@ -18,20 +18,20 @@ import "../globals.css";
  *                          what this route wants
  *   <Analytics/>           an operator's clicks are not product telemetry, and
  *                          admin URLs must not land in an analytics dashboard
- *   Cormorant              the panel is a tool; Inter alone is enough.
+ *   Unbounded              the panel is a tool; Golos alone is enough.
  *
  * There is no chrome here either — no header, no nav. The panel's header lives
  * inside AuthGate's `ready` branch, where only a verified operator sees it.
  * ------------------------------------------------------------------------ */
 
-const inter = Inter({
-  variable: "--font-inter",
+const golos = Golos_Text({
+  variable: "--font-golos",
   subsets: ["latin"],
   display: "swap",
 });
 
 export const viewport: Viewport = {
-  themeColor: "#EFF1F5",
+  themeColor: "#F3F4F7",
   colorScheme: "light",
   /* Lets the phone tab bar pad itself clear of the home indicator. */
   viewportFit: "cover",
@@ -52,7 +52,7 @@ export default function AdminLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full`}>
+    <html lang="en" className={`${golos.variable} h-full`}>
       <body className="flex min-h-full flex-col">{children}</body>
     </html>
   );

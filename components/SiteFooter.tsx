@@ -27,8 +27,8 @@ const FOOTER_SERVICE_SLUGS = [
   "twitter",
 ];
 
-/* Column eyebrow. The system's one uppercase treatment, in the on-ink accent
-   (#59A1FC is 5.3:1 here; #1E5AA8, its light-mode counterpart, is 2.2:1).
+/* Column heading, in the on-ink accent
+   (#59A1FC is 6.5:1 here; #1E5AA8, its light-mode counterpart, is 2.2:1).
    !mb-0 because the columns space themselves with a flex gap. */
 const kicker = "section-label !mb-0 !text-accent";
 
