@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Twitch için sanal numara",
+  "metaDescription": "Twitch SMS kodunu gerçek bir sanal numarada genellikle saniyeler içinde alın. Telefonla doğrulanmış sohbeti geçin ve numaranızı kanalınıza bağlamadan 2FA kurun.",
+  "hero": {
+    "title": "Twitch için sanal numara",
+    "intro": [
+      "Twitch yalnızca bir e-posta ile kaydolmanıza izin verir — sonra telefon adımı sizi takip etmeye başlar. Yayıncılar botları dışarıda tutmak için sohbeti telefonla doğrulanmış moda alır, canlı yayına geçmeden önce iki adımlı doğrulama gerekir ve ikisinden biri olduğunda Twitch “Your Twitch verification code is 843921” gibi bir kodu sizin bir numaranıza göndermek ister.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız ve kod uygulamaya genellikle saniyeler içinde düşer. Sohbet mesajlarınız gider, 2FA’nız açılır — ve Twitch veritabanında kanal adınızın yanında duran telefon numarası hiçbir zaman kişisel numaranız olmamıştır."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Twitch için neden sanal numara?",
+    "body": [
+      "Twitch çoğu hesabın olmadığı biçimde herkese açık bir kimliktir: kullanıcı adınız ekrandadır, sohbet geçmişiniz herkese açıktır ve yayın yapıyorsanız yabancılar sizi aktif olarak araştırır. O kimliği kişisel mobil numaranıza bağlamak, bir internet kitlesi ile cebinizdeki telefon arasında bir veri sızıntısı veya dikkatsiz bir moderatör tartışması demektir. Kiralanan bir numara doğrulama adımını emer; herkese açık persona ile kişisel numara hiç temas etmez.",
+      "Dürüst ters yüzü: bir Twitch hesabındaki telefon süs değildir. Telefonla doğrulanmış sohbet onu kontrol eder ve SMS tabanlı 2FA ona bağlıdır. Mantıklı kalıp bu yüzden şudur: kiralanan numarayla doğrulayın, sonra 2FA’yı güvenlik ayarlarınızda hemen bir kimlik doğrulayıcıya taşıyın — Twitch bunu destekler ve hatta tercih eder. Numara işini doğrulama anında yapar; uzun vadeli girişiniz ona hiç bağlı kalmaz."
+    ]
+  },
+  "howTo": {
+    "title": "Twitch’i sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "Servis olarak Twitch’i seçin ve bir ülke seçin — gerçekten izlediğiniz veya yayın yaptığınız yerle eşleşen bir ülke işleri tutarlı tutar. Tek dokunuş size gerçek bir mobil numara ayırır."
+      },
+      {
+        "title": "Twitch güvenlik ayarlarına ekleyin",
+        "body": "Ayarlar → Güvenlik ve Gizlilik bölümünde telefon numarası eklemeyi seçin (veya bir kanalın telefonla doğrulanmış sohbeti istediğinde uyarıyı izleyin). Numaranın ülke kodunu seçin ve tam girin."
+      },
+      {
+        "title": "Kodu yazın",
+        "body": "SMS “Your Twitch verification code is 843921” diye okunur ve SMS Code uygulamasında genellikle saniyeler içinde görünür. Twitch’te girin, numara doğrulanır."
+      },
+      {
+        "title": "2FA’yı bir kimlik doğrulayıcıya alın",
+        "body": "Yayın için iki adımlı doğrulamayı açtıysanız aynı ayar ekranında onu hemen SMS’ten bir kimlik doğrulayıcıya taşıyın. Bundan sonra kiralanan numaranın süregelen bir rolü yoktur — girişleriniz ve yayınlarınız ona bağlı değildir."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Bir numara, bir hesap",
+      "body": "Twitch aynı telefon numarasını paylaşan hesapları bağlar — ve biri askıya alınmayı hak ederse aynı numaraya bağlı diğerleri onunla birlikte düşebilir. Bir numarayı birkaç hesapta geri dönüştürmek yerine her hesaba kendi etkinleştirmesini verin."
+    },
+    {
+      "title": "Telefonla doğrulanmış sohbet kanal başınadır",
+      "body": "Twitch’te aylarca telefon uyarısı olmadan gezinebilir, sonra sohbetin bir tane istediği büyük bir kanala çarpabilirsiniz. Bir kez doğrulayın, her yerde sayılır — bunu heyecan anının ortasında değil, kendi takviminizde yapın; katılmak istediğiniz sohbet çoktan ilerlemiş olabilir."
+    },
+    {
+      "title": "Numara bir yasağı geri almaz",
+      "body": "Kanal yasakları ve site genelinde askıya almalar Twitch’in kendi sinyalleriyle uygulanır, yalnızca telefonunuzla değil. Sanal numara kişisel numaranızı gizli tutar — yasağı aşma aracı değildir ve askıya almalardan kaçmak Twitch koşullarını ihlal eder, bağlı her hesabın işaretlenmesiyle bitmeye eğilimlidir."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Twitch kaydolmak için telefon numarası ister mi?",
+      "a": "Hayır — kayıt yalnızca e-posta ile çalışır. Telefon sonra çıkar: bir kanalın sohbeti telefon doğrulaması istediğinde, SMS iki adımlı doğrulamayı açtığınızda veya yayın yapmaya başlamadan önce. O anlardan biri geldiğinde sanal numara kodu bir SIM’in alacağı gibi alır."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince Twitch hesabım çalışmaya devam eder mi?",
+      "a": "Evet. Numara sürekli değil, doğrulamada kontrol edilir. E-postanızı onaylı tutun, güçlü bir parola kullanın ve 2FA’yı bir kimlik doğrulayıcıya taşıyın — bundan sonra girişinizde kiralanan numaraya bağlı hiçbir şey kalmaz."
+    },
+    {
+      "q": "Bir sanal numarayla birkaç Twitch hesabını doğrulayabilir miyim?",
+      "a": "Yapabilirsiniz ama yapmamalısınız. Twitch paylaşılan bir telefon numarasını hesaplar arasında bir bağ olarak görür ve yaptırım onların arasında yayılabilir. Kendi başına durmasını istediğiniz her hesap için ayrı bir etkinleştirme kiralayın."
+    },
+    {
+      "q": "Twitch’te yayın yapmak için telefon doğrulaması gerekir mi?",
+      "a": "Yayın yapmak için iki adımlı doğrulamanın açık olması gerekir ve kurulumu bir telefonla başlar. Kiralanan numarayla doğrulayın, sonra ikinci etkeni bir kimlik doğrulayıcıya alın; gelecekteki girişler hiçbir zaman bir SMS beklemesin."
+    },
+    {
+      "q": "Twitch kodu neden gelmedi?",
+      "a": "Ülke kodunun kiralanan numarayla eşleştiğini kontrol edin ve bir an verin — kodlar genellikle saniyeler içinde düşer. Hiçbir şey gelmezse SMS Code’da etkinleştirmeyi ücretsiz iptal edin ve taze bir numara alın; yalnızca teslim eden etkinleştirmeler için ödersiniz."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternatif SMS-Activate.org — SMS Code oleh SIMNETIQ",
+    "metaDescription": "Bandingkan SMS-Activate.org dengan SMS Code oleh SIMNETIQ: dasbor web dan API versus aplikasi iOS dengan paket koin sekali beli.",
+  "hero": {
+    "title": "Alternatif SMS-Activate.org yang hidup di telepon Anda",
+    "intro": [
+      "SMS-Activate.org adalah layanan web yang sudah lama untuk menerima kode verifikasi. SMS Code oleh SIMNETIQ mengambil tugas yang sama dari sudut berbeda — aplikasi iOS asli, bukan dasbor web. Jika Anda menginginkan ide inti, nomor sewaan dan kode yang cepat, tanpa masuk ke situs, perbandingan ini untuk Anda.",
+      "Tugas inti identik di keduanya: pilih layanan, pilih negara, dapatkan nomor asli, terima kode SMS. Bedanya cara Anda sampai di sana. SMS-Activate.org berpusat pada dasbor web dan API yang terdokumentasi; SMS Code menaruh seluruh alur di dalam aplikasi seluler yang Anda pasang dari App Store, bayar dengan paket koin sekali beli, dan pakai dalam beberapa ketukan."
+    ]
+  },
+  "whenThem": {
+    "title": "Kapan SMS-Activate.org adalah pilihan yang lebih baik",
+    "body": "Jika Anda membutuhkan nomor dalam skala, SMS-Activate.org dibangun untuk Anda. Situs mereka mendokumentasikan API penuh untuk membeli nomor, menjajak SMS masuk, dan mengelola pesanan secara terprogram, di samping katalog layanan dan negara yang sangat besar serta opsi sewa untuk pemakaian jangka lebih panjang. Pengembang yang menghubungkan verifikasi ke skrip, tim yang mendaftarkan akun secara massal, dan siapa pun yang lebih suka bekerja dari dasbor desktop akan merasa di rumah di sana — lapisan otomasi itu adalah sesuatu yang sengaja tidak dicoba ditiru aplikasi konsumen."
+  },
+  "whenUs": {
+    "title": "Kapan SMS Code lebih cocok",
+    "body": "Jika Anda satu orang yang sesekali membutuhkan kode verifikasi — akun Telegram kedua, pendaftaran WhatsApp, uji coba yang menginginkan nomor telepon — SMS Code adalah jalur yang lebih pendek. Tanpa dompet web yang diisi, tanpa dasbor yang dipelajari: Anda membeli paket koin sekali beli melalui penagihan Apple, pilih layanan dan negara, dan kode muncul di aplikasi biasanya dalam hitungan detik. Aktivasi yang tidak pernah menerima SMS dibatalkan gratis, cakupan mencakup 100+ negara dan 100+ layanan, dan keseluruhannya berperilaku seperti aplikasi konsumen biasa, bukan alat pengembang."
+  },
+  "comparison": {
+    "title": "SMS-Activate.org vs SMS Code, berdampingan",
+    "rows": [
+      {
+        "label": "Platform",
+        "competitor": "Dasbor web plus API terdokumentasi untuk otomasi",
+        "us": "Aplikasi iOS asli dari App Store"
+      },
+      {
+        "label": "Model harga",
+        "competitor": "Bayar per nomor dari saldo akun; opsi sewa untuk periode lebih panjang",
+        "us": "Paket koin sekali beli, bayar per aktivasi — tanpa langganan"
+      },
+      {
+        "label": "Pembayaran",
+        "competitor": "Isi saldo di web dengan metode pembayaran yang tercantum di situs mereka",
+        "us": "Penagihan toko Apple — tidak ada detail kartu yang dibagikan kepada kami"
+      },
+      {
+        "label": "Cakupan",
+        "competitor": "Katalog negara dan layanan yang sangat luas, ditujukan untuk pemakaian massal",
+        "us": "100+ negara dan 100+ layanan populer, dikurasi untuk pendaftaran sehari-hari"
+      },
+      {
+        "label": "Pembatalan",
+        "competitor": "Diatur aturan pengembalian dana mereka sendiri — periksa ketentuan terkini",
+        "us": "Aktivasi yang tidak menerima SMS dibatalkan gratis, koin kembali"
+      },
+      {
+        "label": "Dukungan",
+        "competitor": "Kanal dukungan lewat situs mereka",
+        "us": "Formulir kontak di aplikasi dan situs"
+      },
+      {
+        "label": "Paling cocok untuk",
+        "competitor": "Pengembang dan pengguna massal yang membutuhkan ratusan nomor lewat API",
+        "us": "Individu yang menginginkan aplikasi seluler yang bersih untuk verifikasi sesekali"
+      }
+    ],
+    "note": "Detail pesaing mencerminkan situs publik mereka saat tulisan ini dibuat dan dapat berubah — selalu konfirmasi di sms-activate.org sebelum memutuskan."
+  },
+  "switchSteps": {
+    "title": "Mencoba aplikasi memakan tiga langkah",
+    "steps": [
+      {
+        "title": "Pasang aplikasinya",
+        "body": "Dapatkan SMS Code oleh SIMNETIQ dari App Store — tidak perlu akun web atau penyiapan dompet."
+      },
+      {
+        "title": "Ambil paket koin",
+        "body": "Beli paket sekali lewat akun toko Anda. Koin tidak kedaluwarsa menjadi langganan; Anda hanya membayar saat mengaktifkan nomor."
+      },
+      {
+        "title": "Jalankan aktivasi pertama",
+        "body": "Pilih layanan dan negara, dapatkan nomor asli, dan lihat kode masuk ke aplikasi biasanya dalam hitungan detik. Jika tidak ada yang masuk, aktivasi dibatalkan gratis."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Apakah SMS Code berafiliasi dengan SMS-Activate.org?",
+      "a": "Tidak. SMS Code adalah produk independen oleh SIMNETIQ tanpa afiliasi dengan SMS-Activate.org — keduanya perusahaan terpisah yang menyelesaikan masalah yang sama dengan cara berbeda."
+    },
+    {
+      "q": "Apakah SMS Code punya API seperti SMS-Activate.org?",
+      "a": "Tidak — dan itu perbedaan yang disengaja. Aplikasi dibangun untuk orang, bukan skrip: alur seluler asli untuk verifikasi sesekali. Jika akses terprogram ke nomor adalah syarat keras, API terdokumentasi SMS-Activate.org lebih cocok."
+    },
+    {
+      "q": "Apakah saya perlu mengisi dompet untuk memakai aplikasi?",
+      "a": "Anda membeli paket koin sekali beli melalui penagihan Apple dan membelanjakan koin per aktivasi. Tidak ada dompet web terpisah, tidak ada langganan, dan tidak ada tagihan berulang."
+    },
+    {
+      "q": "Apa yang terjadi jika kode saya tidak pernah masuk?",
+      "a": "Aktivasi dibatalkan dan koin Anda dikembalikan. Anda hanya membayar nomor yang benar-benar menerima SMS."
+    },
+    {
+      "q": "Apakah nomornya nomor seluler yang asli?",
+      "a": "Ya — aplikasi menyewa nomor asli di jaringan operator nyata di 100+ negara. Bagi layanan yang Anda verifikasi, nomor terlihat seperti nomor telepon biasa."
+    }
+  ]
+}

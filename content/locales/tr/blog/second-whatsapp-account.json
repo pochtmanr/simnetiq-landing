@@ -1,0 +1,148 @@
+{
+  "title": "İkinci WhatsApp hesabı, ikinci SIM olmadan",
+  "description": "İkinci WhatsApp için ikinci SIM gerekmez — yalnızca ikinci bir numara ve onu çalıştıracak bir uygulama. WhatsApp Business, çoklu hesap ve sanal numara.",
+  "excerpt": "WhatsApp her hesabı tam olarak bir numaraya bağlar — ama o numara bir SIM yuvası gerektirmez. Resmi çift uygulama yolları, doğrulama yürüyüşü ve dürüst uyarılar.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Arkadaşlar ve aile için bir WhatsApp, iş, yan proje veya pazar yeri satışları için başka bir tane istiyorsunuz — ikinci bir SIM kart almadan veya ikinci bir telefon taşımadan. Birçok rehber bir hile vaat eder. Dürüst sürüm şudur: hile yoktur, çünkü sorun sandığınız şey değildir."
+    },
+    {
+      "type": "p",
+      "text": "WhatsApp’ın modeli katıdır — bir telefon numarası, bir hesap ve numara hesabın kimliğidir. Ama o modelde numaranın telefonunuzun bir SIM yuvasında yaşaması gerektiğini söyleyen hiçbir şey yoktur. Gerçekten ihtiyacınız olan iki şeydir: bir doğrulama kodu alabilen ikinci bir numara ve ikinci hesabı çalıştıracak telefonunuzda bir yer. İkinci kısmı WhatsApp’ın kendisi resmen sağlar; birincisini sanal numara karşılar. Bu rehber ikisini, sonra doğrulamanın kendisini, iki adımlı PIN’i ve WhatsApp rehberlerinin genellikle atladığı uyarıları yürür."
+    },
+    {
+      "type": "h2",
+      "id": "one-number-one-account",
+      "text": "WhatsApp neden hesap başına bir numarada ısrar eder"
+    },
+    {
+      "type": "p",
+      "text": "E-posta ile kaydolmanıza izin veren servislerin aksine WhatsApp telefon numarasını hesabın birincil anahtarı olarak kullanır. Kişileriniz sizi numaranız adres defterlerinde olduğu için bulur; şifreleme anahtarlarınız, sohbet yedekleriniz ve grup üyelikleriniz ona asılıdır. Aynı numarayı yeni bir hesapta kaydedin, eskisi yerinden olur — bir hesabı “klonlayamamanızın” ve her ikinci hesabın gerçekten kendi numarasına ihtiyaç duymasının nedeni de budur."
+    },
+    {
+      "type": "p",
+      "text": "İyi haber, WhatsApp’ın insanların meşru olarak birden fazla hesaba ihtiyacı olduğunu kabul etmesi ve artık onları tek telefonda çalıştırmanın iki resmi yolunu sunmasıdır."
+    },
+    {
+      "type": "h2",
+      "id": "official-ways-to-run-two-accounts",
+      "text": "İki hesabı tek telefonda çalıştırmanın resmi yolları"
+    },
+    {
+      "type": "list",
+      "items": [
+        "WhatsApp Business — hem iPhone hem Android’de resmi çift uygulama yolu. Normal WhatsApp’ın yanına kurulan, Meta’nın ayrı uygulamasıdır ve tam iş/kişisel ayrım için tasarlanmıştır: aynı sohbetler ve aramalar, artı iş profili, katalog ve otomatik yanıtlar. Yine kendi numarasına ihtiyaç duyar ve koşulları gerçekten iş tadında kullanım bekler.",
+        "Android’de çoklu hesap — Android’deki normal WhatsApp’ın daha yeni sürümleri aynı uygulama içinde ikinci bir hesap eklemenize ve ayarlardan aralarında geçmenize izin verir, ikinci uygulama gerekmez. Her hesap doğrulamak için yine kendi numarasına ihtiyaç duyar. iPhone’larda bu uygulama içi anahtar yoktur, iOS yolu bu yüzden genellikle Business uygulamasıdır.",
+        "İkinci telefon veya çift SIM yuvası — bütünlük için anılır: çalışır ama bu yazının kaçınmak için var olduğu donanım maliyeti tam odur."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Seçeneklerin ortak noktasına bakın: kap çözülmüştür, numara değil. Hangi yolu seçerseniz seçin bir noktada bir ekran ana hesabınıza bağlı olmayan bir telefon numarası ister. Sanal numara tam orada devreye girer."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-number-as-the-second-number",
+      "text": "İkinci numaranız olarak sanal numara"
+    },
+    {
+      "type": "p",
+      "text": "Sanal numara gerçek bir operatör ağındaki gerçek bir mobil numaradır — doğrulama için kiralarsınız, SMS kodu SMS Code uygulamasında genellikle saniyeler içinde görünür ve ikinci WhatsApp’ınız kendi kimliğini alır. SIM kart yok, yeni sözleşme yok, iptal etmeyi unutacağınız aylık hat yok: tek seferlik bir jeton paketinden etkinleştirme başına ödersiniz ve kod gelmezse etkinleştirme ücretsiz iptal olur. 100+ ülkede numaralar varken iş hesabınıza hizmet ettiğiniz pazar için yerel bir numara bile verebilirsiniz."
+    },
+    {
+      "type": "h2",
+      "id": "verification-walkthrough",
+      "text": "Doğrulama yürüyüşü, adım adım"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Önce kabı hazırlayın",
+          "body": "WhatsApp Business’ı kurun (iPhone veya Android) veya Android’de WhatsApp → Ayarlar → adınızın yanındaki oka dokunun → “Hesap ekle”. Telefon numarası isteyen ekrana, bir tane kiralamadan önce gelin — etkinleştirmelerin bir zaman penceresi vardır ve onu uygulama kurulumuna harcamanın anlamı yoktur."
+        },
+        {
+          "title": "WhatsApp için bir numara kiralayın",
+          "body": "SMS Code uygulamasında servis olarak WhatsApp’ı seçin ve bir ülke seçin. Tek dokunuş gerçek bir mobil numarayı yalnızca size ayırır."
+        },
+        {
+          "title": "Numarayı girin ve kodu isteyin",
+          "body": "Numarayı eşleşen ülke seçiliyken WhatsApp’a yazın — uyuşmayan ülke kodu kodun hiç gelmemesinin en sık nedenidir. İstendiğinde SMS teslimini seçin."
+        },
+        {
+          "title": "Kodu SMS Code’dan alın",
+          "body": "Doğrulama SMS’i SMS Code uygulamasında, genellikle saniyeler içinde görünür. 6 haneli kodu WhatsApp’a girin, profil adınızı belirleyin, ikinci hesap canlıdır."
+        },
+        {
+          "title": "İki adımlı PIN’i hemen belirleyin",
+          "body": "Yeni hesapta: Ayarlar → Hesap → İki adımlı doğrulama → açın, bir PIN seçin ve bir kurtarma e-postası ekleyin. Başka her şeyden önce bunu yapın — aşağıdaki bölüm kiralanan numarada neden daha da önemli olduğunu açıklar."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    },
+    {
+      "type": "h2",
+      "id": "two-step-pin",
+      "text": "İki adımlı PIN: küçük ayar, ağır işi o yapar"
+    },
+    {
+      "type": "p",
+      "text": "WhatsApp’ın iki adımlı doğrulama PIN’i, biri numaranızı WhatsApp’ta yeniden kaydetmeye çalıştığında sorulur. Kiralanan numarada bu güvenlik ağınızdır: o numara sonra başka bir servis için başkasına kiralanırsa PIN olmadan WhatsApp hesabınızı yeniden kaydedemezler. Telefonunuzdaki aktif bir oturumla birleşince hesabı sıkıca sizde tutar. Kurtarma e-postasını da ekleyin — PIN’i unutursanız geri dönüşün tek yoludur."
+    },
+    {
+      "type": "h2",
+      "id": "honest-caveats",
+      "text": "Dürüst uyarılar"
+    },
+    {
+      "type": "p",
+      "text": "Çoğu rehberin atladığı kısım budur. WhatsApp yeni kayıtlarda Telegram’dan belirgin biçimde daha katıdır ve bunu baştan bilmek daha iyidir."
+    },
+    {
+      "type": "callout",
+      "text": "WhatsApp geçici olduğundan şüphelendiği numaraları aktif olarak sevmez ve hemen istenmeyen ileti botu gibi davranan yepyeni bir hesap çabuk kısıtlanabilir. Yeni bir hesaba normal bir ısınma verin: profil adı ve fotoğrafını doldurun, sizi tanıyan ve yanıt verecek birkaç kişiye yazın ve daha ağır kullanımdan önce birkaç gün sessizce yaşamasına izin verin. İlk gün yabancılara toplu mesaj atmayın veya onlarca gruba katılmayın — bu bir çözüm ipucu değildir, WhatsApp koşullarının herhangi bir hesaptan beklediği şeydir ve yeni bir numara şüpheden daha az yarar görür."
+    },
+    {
+      "type": "p",
+      "text": "Bilmeniz gereken iki şey daha. Birincisi yeniden doğrulama: WhatsApp uygulamayı yeniden yüklediğinizde veya yeni telefona geçtiğinizde taze bir kod ister, bu yüzden kurulu, oturum açık uygulamayı koruduğunuz şey olarak görün — gelişigüzel çıkış yapmayın veya silmeyin. İkincisi işe doğru kabı seçin: ikinci hesap gerçekten ticarîyse WhatsApp Business hem resmi araçtır hem de koşullarına daha güvenli uyumdur; yalnızca ikinci bir kişisel kimlikse Android’in çoklu hesabı işi görür."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sıkça sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Bir telefonda iki WhatsApp hesabım olabilir mi?",
+          "a": "Evet, resmen. Android’de güncel WhatsApp sürümleri aynı uygulama içinde ikinci bir hesabı destekler; herhangi bir telefonda WhatsApp ile WhatsApp Business’ı yan yana çalıştırabilirsiniz. Her hesabın doğrulamak için kendi telefon numarası gerekir."
+        },
+        {
+          "q": "İkinci WhatsApp için ikinci bir SIM kart gerekir mi?",
+          "a": "Hayır. WhatsApp bir doğrulama kodu alabilen bir numara ister — o numaranın SIM tepsinizde yaşayıp yaşamadığı umurunda değildir. Kiralanan bir sanal numara hesabı doğrular ve kod SMS Code uygulamasına genellikle saniyeler içinde gelir."
+        },
+        {
+          "q": "WhatsApp sanal numarayla açılmış bir hesabı yasaklar mı?",
+          "a": "Sanal numara gerçek bir mobil numaradır ve onunla doğrulamak kendiliğinden bir ihlal değildir — WhatsApp numarayı kimin adına olduğunu değil, kontrol ettiğinizi kontrol eder. Hesapları kısıtlayan davranıştır: istenmeyen ileti gibi mesajlaşma, yabancılara toplu erişim, WhatsApp koşullarını çiğnemek. Hesabı normal bir kişi gibi kullanın ve nazikçe ısıtın."
+        },
+        {
+          "q": "Sanal numaranın süresi bitince WhatsApp’ıma ne olur?",
+          "a": "Hesap çalışmaya devam eder — numara kayıtta kontrol edilir ve gündelik kullanım oturum açık uygulamanıza dayanır. Uyarı: yeniden yüklemek veya telefon değiştirmek taze bir kodla yeniden doğrulamayı tetikler. Uygulamayı kurulu ve oturum açık tutun ve başka kimsenin numarayı yeniden kaydedememesi için iki adımlı PIN’i belirleyin."
+        },
+        {
+          "q": "WhatsApp Business’ı mı yoksa çoklu hesap özelliğini mi kullanmalıyım?",
+          "a": "İkinci hesap gerçek iş içinse — müşteriler, satış, destek — WhatsApp Business’ı kullanın: resmi araçtır, profil ve katalog özellikleri ekler ve kullanım koşullarına uyar. Yalnızca ikinci bir kişisel hesap istiyorsanız ve Android’deyseniz uygulama içi çoklu hesap anahtarı daha hafif seçenektir. iPhone’da pratik çift uygulama yolu Business’tır."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

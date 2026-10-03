@@ -1,0 +1,155 @@
+{
+  "title": "Numéro virtuel pour Tinder, sans votre numéro",
+  "description": "Les apps de rencontres veulent un numéro avant le premier swipe. Pourquoi, et comment vérifier Tinder avec un numéro virtuel sans donner le vôtre.",
+  "excerpt": "Votre numéro de téléphone est une clé de recherche inversée vers toute votre identité — et les apps de rencontres le veulent avant que vous ayez vu un seul profil. Voici comment vérifier Tinder sans remettre le vôtre.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Les apps de rencontres demandent votre numéro de téléphone avant de vous montrer un seul visage. Pas après un match, pas quand vous décidez de vous voir — au tout premier écran, avant que vous ayez tapé un nom. Pour une app dont toute la prémisse est de rencontrer des inconnus, c’est une étrange quantité de confiance à exiger d’emblée."
+    },
+    {
+      "type": "p",
+      "text": "La demande n’est pas arbitraire. La vérification téléphone est la façon dont Tinder, Bumble et les autres empêchent les fermes de bots d’inonder le paquet de faux profils — un numéro coûte quelque chose, une adresse e-mail ne coûte rien. Mais le numéro qu’ils collectent pour le contrôle des bots est aussi l’identifiant le plus reliant que vous possédez, et il finit stocké sur le compte d’une app bâtie autour d’inconnus."
+    },
+    {
+      "type": "p",
+      "text": "La bonne nouvelle\u00a0: rien dans la vérification téléphone n’exige que le numéro soit le vôtre. Ce guide couvre pourquoi le numéro compte plus que la plupart des gens ne le pensent, comment vérifier Tinder avec un numéro virtuel étape par étape, ce qu’un numéro virtuel ne fera honnêtement pas — et l’habitude unique qui garde ensuite le compte récupérable."
+    },
+    {
+      "type": "h2",
+      "id": "why-your-number-is-the-real-stake",
+      "text": "Pourquoi votre numéro est le vrai enjeu ici"
+    },
+    {
+      "type": "p",
+      "text": "Un numéro de téléphone n’est pas comme un nom d’utilisateur. C’est un identifiant stable et unique qui vous suit à travers les services pendant des années — et il fonctionne à l’envers. Donnez un numéro à un site de recherche de personnes et, dans beaucoup de pays, vous pouvez repartir avec un nom complet, des profils sociaux, parfois une adresse. Les courtiers en données assemblent ces recherches à partir de bases fuitées et de registres publics, et votre numéro est la clé de jointure qui relie les enregistrements."
+    },
+    {
+      "type": "p",
+      "text": "Mettez cela dans un contexte de rencontres. La plupart des matchs sont charmants, certains sont oubliables, et un petit nombre tourne mal — la personne qui ne prend pas «\u00a0non merci\u00a0» avec grâce, le rendez-vous qui finit par un blocage partout. Si une telle personne met un jour la main sur votre vrai numéro — par un écart dans le chat, une capture d’écran, ou une fuite de l’app elle-même — elle tient le fil qui défait le reste. Un numéro loué qui n’a jamais été le vôtre ne lui donne rien à tirer."
+    },
+    {
+      "type": "p",
+      "text": "Voilà le calcul\u00a0: l’app a besoin d’un numéro pour prouver que vous êtes humain\u00a0; vous avez besoin que le numéro ne soit pas une carte de votre vie. Un numéro virtuel satisfait les deux côtés."
+    },
+    {
+      "type": "h2",
+      "id": "which-apps-verify-by-sms",
+      "text": "Quelles apps de rencontres vérifient par SMS"
+    },
+    {
+      "type": "p",
+      "text": "Pratiquement toutes les grandes. Tinder exige un numéro de téléphone à l’inscription et lui envoie un code — c’est le parcours que nous suivrons ci-dessous. Bumble et Hinge se comportent de la même façon\u00a0: le numéro d’abord, le code SMS, puis le profil. Certaines apps vous laissent attacher un e-mail ou une connexion Apple/Google ensuite, mais l’étape téléphone vient en premier et se saute rarement."
+    },
+    {
+      "type": "p",
+      "text": "Pour le parcours nous utiliserons Tinder, parce que c’est le cas le plus recherché et que son flux est représentatif — si vous pouvez le faire sur Tinder, Bumble et Hinge n’ont pas de surprise."
+    },
+    {
+      "type": "h2",
+      "id": "what-a-virtual-number-wont-do",
+      "text": "Ce qu’un numéro virtuel ne fera pas (lisez ceci d’abord)"
+    },
+    {
+      "type": "p",
+      "text": "Avant les étapes, la part honnête. Un numéro virtuel est un outil de vie privée pour l’étape de vérification — ce n’est pas une clé universelle, et cela vaut de savoir exactement où son utilité s’arrête."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Il ne lèvera pas un bannissement. Si Tinder vous a banni, le bannissement est attaché à bien plus qu’un numéro de téléphone — identifiants d’appareil, moyens de paiement, photos, signaux de comportement. S’inscrire avec un numéro neuf sur le même téléphone finit en général par le même bannissement. C’est un autre problème, et un numéro virtuel ne le résout pas.",
+        "Il ne passera pas la vérification photo à votre place. Le contrôle selfie de Tinder (la coche bleue) compare votre caméra en direct à vos photos de profil. Cette étape est entièrement séparée de l’étape téléphone, et aucun numéro ne la change.",
+        "Un numéro vérifie un compte. Une activation est liée à un seul service pour sa fenêtre. Si vous voulez un compte Tinder et un compte Bumble, ce sont deux activations — chacune payée séparément depuis votre solde de pièces."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Si rien de cela n’est ce pour quoi vous êtes venu — vous voulez simplement swiper sans votre numéro personnel dans une base de plus — continuez. C’est exactement le cas pour lequel cela fonctionne."
+    },
+    {
+      "type": "h2",
+      "id": "tinder-step-by-step",
+      "text": "Vérifier Tinder avec un numéro virtuel, étape par étape"
+    },
+    {
+      "type": "p",
+      "text": "Il vous faut deux apps côte à côte\u00a0: Tinder, et SMS Code où le numéro vit et où le code arrive. Le tout prend quelques minutes."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Louez un numéro pour Tinder",
+          "body": "Dans l’app SMS Code, choisissez Tinder comme service et un pays — idéalement celui où vous êtes vraiment, afin que les détails du compte s’alignent. Un toucher réserve un vrai numéro mobile pour vous, payé depuis un pack de pièces en achat unique. Sans abonnement."
+        },
+        {
+          "title": "Commencez l’inscription Tinder",
+          "body": "Choisissez «\u00a0Se connecter avec un numéro de téléphone\u00a0», sélectionnez l’indicatif pays qui correspond à votre numéro loué, et tapez le numéro. Un indicatif décalé est la raison la plus courante pour qu’un code n’arrive jamais — vérifiez-le avant de toucher suivant."
+        },
+        {
+          "title": "Saisissez le code",
+          "body": "Passez à SMS Code. Le SMS de vérification apparaît dans l’app généralement en quelques secondes, quelque chose comme «\u00a0Your Tinder code is 314159\u00a0». Copiez-le dans Tinder et l’étape téléphone est faite."
+        },
+        {
+          "title": "Ancrez le compte sur quelque chose que vous gardez",
+          "body": "Dans les réglages de Tinder, reliez un e-mail que vous contrôlez — ou une connexion Apple/Google là où c’est proposé. C’est cela, pas le numéro de téléphone, qui devient votre chemin de retour dans le compte plus tard. Puis construisez le profil comme d’habitude."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "tinder"
+    },
+    {
+      "type": "h2",
+      "id": "privacy-not-deception",
+      "text": "Vie privée face aux inconnus — pas tromperie des matchs"
+    },
+    {
+      "type": "p",
+      "text": "Une distinction qui vaut d’être dite clairement\u00a0: cette configuration vous protège des inconnus qui n’ont pas encore gagné votre confiance, et c’est tout ce qu’elle fait. Votre profil est toujours vous — vos photos, votre âge, votre bio. Le numéro virtuel change ce qu’un mauvais acteur peut extraire des enregistrements de l’app, pas ce qu’un bon match voit sur votre profil."
+    },
+    {
+      "type": "p",
+      "text": "Quand quelqu’un gagne votre confiance, vous partagez votre vrai numéro comme les gens l’ont toujours fait — en choisissant de le faire. Le sens est que le choix reste le vôtre, au lieu d’être fait pour vous par un formulaire d’inscription au jour zéro. Et jusque-là, discutez dans l’app\u00a0; c’est à cela que sert le chat intégré."
+    },
+    {
+      "type": "callout",
+      "text": "Rendez le compte récupérable avant d’en avoir besoin\u00a0: liez une adresse e-mail (ou une connexion Apple/Google) dans les réglages juste après l’inscription. Le numéro loué est pour le moment de la vérification — votre e-mail est ce qui vous fait rentrer depuis un nouvel appareil. Faites cela le premier jour, pas après être verrouillé dehors."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Questions fréquentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Tinder accepte-t-il les numéros virtuels\u00a0?",
+          "a": "Un numéro virtuel loué est un vrai numéro mobile sur un vrai réseau d’opérateur — Tinder le traite comme n’importe quel autre téléphone. Ce qui échoue en général, ce sont les numéros partagés gratuits des sites de réception SMS\u00a0: ils ont été utilisés par des milliers de personnes, et les apps de rencontres les refusent presque à vue."
+        },
+        {
+          "q": "Mes matchs verront-ils le numéro avec lequel je me suis inscrit\u00a0?",
+          "a": "Non. Tinder ne montre jamais votre numéro de téléphone aux autres utilisateurs — c’est un identifiant de connexion et de vérification, pas un contenu de profil. Les matchs voient votre nom, vos photos et votre bio\u00a0; le numéro reste entre vous et l’app."
+        },
+        {
+          "q": "Puis-je rentrer dans mon compte après l’expiration du numéro loué\u00a0?",
+          "a": "Oui, si vous l’avez configuré\u00a0: restez connecté et liez un e-mail ou une connexion Apple/Google juste après l’inscription. Au quotidien, Tinder garde votre session\u00a0; pour un appareil neuf, l’e-mail lié est votre chemin d’entrée. Ce que vous ne devriez pas faire, c’est compter sur la réception d’un nouveau SMS sur un numéro que vous ne louez plus."
+        },
+        {
+          "q": "La même chose fonctionne-t-elle pour Bumble et Hinge\u00a0?",
+          "a": "Le parcours est le même — numéro, code SMS, profil — donc oui, mécaniquement cela fonctionne de la même façon. Chaque app a besoin de sa propre activation, et chacune a ses contrôles supplémentaires (Bumble fait aussi une vérification photo). Choisissez l’app comme service dans SMS Code et suivez les mêmes étapes."
+        },
+        {
+          "q": "Pourquoi mon code Tinder n’est-il pas arrivé\u00a0?",
+          "a": "En général un décalage d’indicatif pays entre ce que vous avez sélectionné dans Tinder et le numéro loué — vérifiez cela d’abord. Si le SMS n’arrive vraiment jamais, annulez l’activation dans SMS Code sans frais, prenez un numéro neuf et réessayez. Vous ne payez que les activations qui livrent un code."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "tinder"
+    }
+  ]
+}

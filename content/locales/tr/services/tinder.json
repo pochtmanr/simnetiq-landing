@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Tinder için sanal numara",
+  "metaDescription": "Tinder telefonsuz başlamaz. Onu gerçek bir sanal numarayla doğrulayın — kod genellikle saniyeler içinde gelir, SMS hiç gelmezse iptal ücretsizdir.",
+  "hero": {
+    "title": "Tinder için sanal numara",
+    "intro": [
+      "Bunun etrafından dolaşılmaz: Tinder hesap oluşturmak için telefon numarası ister. İlk ekran bir tane ister, SMS kodu gönderir ve kod girilene kadar tek bir profil göstermez. E-posta, Apple veya Google girişi sonra eklenebilir — hesabın dayandığı şey numaradır.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız, onu Tinder’a yazarsınız ve kod uygulamada genellikle saniyeler içinde görünür. Tek seferlik bir jeton paketinden etkinleştirme başına ödersiniz — abonelik yok — ve numara hiçbir şey almazsa ücret ödemeden iptal edersiniz."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Tinder için neden sanal numara?",
+    "body": [
+      "Tanışma uygulamaları tasarım gereği yabancılarla konuştuğunuz yerdir — ve telefon numaranız bir kez dışarı çıktığında geri alamayacağınız tek iletişim verisidir. Tinder numaranızı eşleşmelere hiç göstermez ama hesapta durur: bir sızıntıda ya da yalnızca tanışma profilinizi dijital hayatınızın geri kalanına bağlayan iplik olarak. Sanal numara o ipliği keser — flört uygulamada olur, profilin arkasındaki numara ailenizin ve bankanızın kullandığı numara değildir.",
+      "Yeniden başlamanın da dürüst yoludur. Eski bir profili sildiyseniz ve gerçekten boş bir sayfa istiyorsanız — yeni fotoğraflar, yeni biyografi, eski geçmiş yok — Tinder numaraları hatırlar; daha önce kullandığınız numarayla kaydolmak sizi sessizce geçmişe bağlar. Taze bir numara taze bir başlangıç verir. Bu, kendiniz kapattığınız hesaplar içindir, bir yasağın etrafından sızmak için değil."
+    ]
+  },
+  "howTo": {
+    "title": "Tinder’ı sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara alın",
+        "body": "SMS Code uygulamasını açın, servis olarak Tinder’ı seçin, bir ülke seçin ve bir kez dokunun. Etkinleştirme süresi boyunca yalnızca size ayrılmış gerçek bir mobil numara tutulur."
+      },
+      {
+        "title": "Onu Tinder’ın ilk ekranına girin",
+        "body": "“Telefon numarasıyla giriş yap”ı seçin, kiralanan numarayla eşleşen ülke kodunu seçin ve yazın. Ülke uyuşmazlığı kodun hiç çıkmamasının klasik nedenidir."
+      },
+      {
+        "title": "Kodu yazın — yalnızca rakamlar",
+        "body": "SMS, SMS Code uygulamasına genellikle saniyeler içinde düşer ve “Your Tinder code is 402318 dwEzWOx6XSV” gibi görünür. Sondaki harfler teknik bir uygulama özetidir — yok sayın, kod yalnızca altı rakamdır."
+      },
+      {
+        "title": "Bir yedek bağlayın ve oturum açık kalsın",
+        "body": "Ayarlar’da hesaba bir e-posta adresi bağlayın. Tinder çoğu uygulamadan daha kolay SMS ile yeniden doğrulama ister — bağlı bir e-posta ve kesintisiz bir oturum hesabı rahatça sizde tutar."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Çıkış yapmayı gerçek bir karar olarak görün",
+      "body": "Tinder yeni bir cihazda yeniden girişte veya çıkıştan sonra taze bir SMS istemeye hazırdır. Oturum açık kaldığınız sürece nadiren rahatsız eder. Bu yüzden gelişigüzel çıkış yapmayın — Tinder’da aktif bir oturum neredeyse diğer tüm uygulamalardan daha değerlidir."
+    },
+    {
+      "title": "Numaranın ülkesi eşleşmelerinizi kaydırmaz",
+      "body": "Kart destesiniz gerçekten olduğunuz yerden gelir — GPS ve mesafe ayarlarınız — numaranın arama kodundan değil. Başka bir ülkeden bir numara hesabı gayet doğrular ve kimi gördüğünüzü ya da kimin sizi gördüğünü etkilemez."
+    },
+    {
+      "title": "Taze numara, taze başlangıç içindir",
+      "body": "Eski hesabınızı sildiyseniz yeni profili gerçekten yeni yapan yeni bir numaradır. Eski hesap yasaklandıysa yeni numara bir çözüm değildir — yasaktan sonra dönüşe dair Tinder kuralları geçerlidir ve platformun telefon numarasından başka sinyalleri de vardır."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Eşleşmelerim telefon numaramı görür mü?",
+      "a": "Hayır, asla. Tinder eşleşmelere adınızı, fotoğraflarınızı ve biyografinizi gösterir — telefon numarası görünmez kalır ve tüm sohbet uygulamanın içinde olur. Numaranın işi doğrulamadır; sanal numara bu işi yaparken gerçek numaranızı sistemin tamamen dışında tutar."
+    },
+    {
+      "q": "Numaranın ülkesi bana kimin gösterildiğini değiştirir mi?",
+      "a": "Hayır. Tinder destenizi arama kodunuzdan değil, gerçek konumunuzdan kurar — Madrid’de yabancı bir numara size yine Madrid’i verir. Hangi ülkenin numaraları uygun ve uygun fiyatlıysa onu seçin; bu yalnızca bir doğrulama ayrıntısıdır."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince hesabıma ne olur?",
+      "a": "Oturumunuz açık kaldığı sürece hiçbir şey — numara günlük kullanım için değil, kod içindi. Dürüst uyarı: Tinder yeni bir girişte bazen SMS ile yeniden doğrulama ister; Ayarlar’da bir e-posta bağlayın ve gerekçesiz çıkış yapmayın."
+    },
+    {
+      "q": "Hiç telefon numarası olmadan Tinder hesabı oluşturabilir miyim?",
+      "a": "Hayır. Telefon doğrulaması kayıtta zorunludur — Apple, Google ve e-posta hesabı tamamlayabilir ama hiçbiri SMS adımının yerini almaz. Kiralanan numaranın tam da bu durum için olduğu yer burasıdır."
+    },
+    {
+      "q": "Tinder kodum neden gelmedi?",
+      "a": "Çoğunlukla Tinder’da seçilen ülke kodu numarayla uyuşmuyor ya da Tinder o numaraya mesaj atmayı reddetti. SMS Code’da bekleyen etkinleştirmeyi iptal edin — hiçbir şey almayan numaralar için jetonlar geri gelir — ve tercihen başka bir ülkeden taze bir tane alın."
+    }
+  ]
+}

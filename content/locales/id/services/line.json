@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk LINE — tanpa SIM lokal",
+  "metaDescription": "Sewa nomor virtual asli untuk verifikasi LINE. Daftar LINE tanpa nomor pribadi Anda — kode SMS masuk ke aplikasi SMS Code biasanya dalam hitungan detik.",
+  "hero": {
+    "title": "Nomor virtual untuk LINE",
+    "intro": [
+      "Jika teman, keluarga, atau rekan Anda ada di Jepang, Taiwan, Thailand, atau Indonesia, cepat atau lambat seseorang akan bilang “tambahkan saya di LINE.” Aplikasi ini adalah pesan instan bawaan di sebagian besar Asia — dan tidak akan membiarkan Anda masuk tanpa nomor telepon, yang diverifikasi lewat SMS sebelum Anda bahkan bisa mengatur nama tampilan.",
+      "SMS Code memberi Anda nomor asli dari salah satu dari 100+ negara. Masukkan di layar pendaftaran LINE, dan kode verifikasi empat digit muncul di aplikasi SMS Code biasanya dalam hitungan detik — nomor Anda sendiri tetap sepenuhnya di luar."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk LINE?",
+    "body": [
+      "LINE memperlakukan nomor telepon sebagai identitas Anda: itu cara Anda mendaftar, cara teman dapat mencari Anda, dan apa yang menjadi sandaran akun. Jika Anda hanya membutuhkan LINE untuk tetap berhubungan dengan kontak di Asia — atau karena game atau layanan yang Anda pakai mengunci login di balik akun LINE — menyerahkan nomor pribadi adalah permintaan besar untuk aplikasi yang mungkin hanya sesekali dipakai. Nomor virtual menjaga akun tetap berfungsi penuh sementara nomor asli Anda tetap privat.",
+      "Ini juga menyelesaikan masalah praktis: LINE mengikat satu akun ke satu nomor, jadi siapa pun yang menginginkan profil terpisah — misalnya satu untuk komunitas hobi atau game Asia yang mensyaratkan login LINE — membutuhkan nomor kedua. Menyewa satu untuk satu aktivasi jauh lebih sederhana daripada menjaga SIM cadangan tetap hidup hanya untuk pesan instan."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi LINE dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih LINE sebagai layanan, dan pilih negara — Indonesia dan Filipina adalah pilihan populer karena LINE banyak dipakai di sana. Satu ketukan mencadangkan nomor seluler asli untuk Anda."
+      },
+      {
+        "title": "Mulai pendaftaran LINE dengan nomor itu",
+        "body": "Di LINE, pilih “Daftar”, pilih negara yang sama dengan nomor sewaan Anda, dan ketik. LINE menawarkan verifikasi lewat SMS — terima opsi itu, bukan panggilan suara."
+      },
+      {
+        "title": "Masukkan kode dari SMS Code",
+        "body": "Pesan masuk ke aplikasi SMS Code, biasanya dalam hitungan detik: “Your verification code is 4820. Enter it in LINE within the next 30 mins.” Ketik empat digit ke LINE sebelum kedaluwarsa."
+      },
+      {
+        "title": "Siapkan email dan kata sandi",
+        "body": "Setelah masuk, buka Setelan → Akun dan daftarkan alamat email dengan kata sandi. Itu menjadi login independen untuk memindahkan LINE ke telepon baru nanti, agar akun tidak pernah bergantung pada menerima SMS lain."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kodenya punya pengatur waktu",
+      "body": "Kode SMS LINE kedaluwarsa — pesannya sendiri menyebut dalam berapa menit. Jangan sewa nomor lalu pergi: buka layar pendaftaran LINE dan siapkan sebelum meminta kode, lalu masukkan begitu masuk di SMS Code."
+    },
+    {
+      "title": "Daftarkan email segera",
+      "body": "LINE mengikat riwayat chat dan transfer akun ke email dan kata sandi yang terdaftar, bukan hanya nomor. Tambahkan segera setelah mendaftar di Setelan → Akun — ini langkah paling penting agar akun tetap dapat dipakai lama setelah jendela aktivasi nomor sewaan tertutup."
+    },
+    {
+      "title": "Matikan “Izinkan orang lain menambahkan lewat nomor”",
+      "body": "Di setelan Teman LINE, nonaktifkan opsi yang membiarkan orang menambahkan Anda lewat pencarian nomor telepon. Dengan nomor virtual tidak ada yang akan menemukan identitas asli Anda, tetapi mematikannya juga menghentikan orang asing yang menggilir nomor agar tidak masuk ke permintaan pertemanan Anda."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah LINE berfungsi di luar Asia dengan nomor virtual?",
+      "a": "Ya. LINE tersedia di seluruh dunia; ia hanya paling populer di Jepang, Taiwan, Thailand, dan Indonesia. Anda dapat mendaftar dengan nomor dari negara mana pun yang didukung dan mengobrol dengan kontak di mana saja — negara nomor tidak membatasi siapa yang dapat Anda ajak bicara."
+    },
+    {
+      "q": "Bisakah saya memakai akun LINE yang dibuat dengan cara ini untuk masuk ke game?",
+      "a": "Ya. Banyak game dan layanan di Asia menawarkan “Masuk dengan LINE.” Setelah akun LINE terverifikasi dan Anda mendaftarkan email serta kata sandi, ia berfungsi sebagai metode login seperti akun LINE lain."
+    },
+    {
+      "q": "Apakah akun LINE saya bertahan setelah nomor sewaan berakhir?",
+      "a": "Nomor diperiksa saat pendaftaran, bukan pada setiap peluncuran. Tetap masuk dan — yang krusial — daftarkan email dan kata sandi di Setelan → Akun. Dengan itu terpasang, Anda bahkan dapat mentransfer akun ke telepon baru tanpa menerima SMS lain di nomor lama."
+    },
+    {
+      "q": "Mengapa kode verifikasi LINE saya tidak masuk?",
+      "a": "Paling sering negara yang dipilih di LINE tidak cocok dengan nomor sewaan, atau LINE beralih ke verifikasi panggilan suara, yang tidak dapat dijawab nomor SMS sewaan. Batalkan aktivasi di SMS Code — tidak ada yang ditagih jika SMS tidak masuk — lalu ambil nomor baru dan pastikan SMS adalah metode yang dipilih."
+    },
+    {
+      "q": "Bisakah saya punya dua akun LINE di satu telepon?",
+      "a": "Aplikasi LINE menampung satu akun per perangkat, jadi akun kedua membutuhkan perangkat kedua atau alat bisnis LINE. Yang diselesaikan nomor virtual adalah sisi nomornya: setiap akun harus tertaut ke nomornya sendiri, dan menyewa satu menghindari membeli SIM tambahan."
+    }
+  ]
+}

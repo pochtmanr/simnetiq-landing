@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternativa ao OnlineSim — SMS Code da SIMNETIQ",
+  "metaDescription": "Comparando o OnlineSim e o SMS Code da SIMNETIQ: aluguel longo na web versus ativação simples num aplicativo nativo para iOS.",
+  "hero": {
+    "title": "Uma alternativa ao OnlineSim focada em ativações de um toque",
+    "intro": [
+      "O OnlineSim é um serviço web para receber SMS em números virtuais, e o traço distintivo é o alcance: além de ativações únicas, o site deles descreve aluguéis de prazo mais longo, em que você fica com um número por dias ou semanas e recebe SMS ilimitados de qualquer serviço nessa janela. Se um número precisa continuar seu por um tempo, esse é o território deles.",
+      "O SMS Code da SIMNETIQ, de propósito, faz uma coisa: verificação por ativação num aplicativo nativo para iOS. Escolha serviço e país, receba um número real e o código aparece no aplicativo em geral em segundos. Você paga com pacotes avulsos de moedas — sem assinatura, sem relógio de aluguel — e ativações que não recebem nada cancelam sem custo."
+    ]
+  },
+  "whenThem": {
+    "title": "Quando o OnlineSim é a melhor escolha",
+    "body": "Escolha o OnlineSim quando você precisa de um número que viva mais do que um código. O modelo de aluguel deles — ficar com um número por um período escolhido e receber SMS ilimitados nele — serve a contas que vão pedir nova verificação, serviços que mandam códigos no acesso, ou quem quer o mesmo número alcançável por dias ou semanas. Um aplicativo por ativação de fato não cobre esse cenário: quando uma ativação termina, o número volta para o conjunto."
+  },
+  "whenUs": {
+    "title": "Quando o aplicativo SMS Code encaixa melhor",
+    "body": "Escolha o aplicativo quando o que você de fato precisa é um código, uma vez, agora. A maioria dos cadastros — uma segunda conta de mensageiro, um registro em marketplace, um teste — verifica um número uma única vez e nunca manda texto de novo, e nesse caso um aluguel é pagar por dias que você não vai usar. O aplicativo reduz a uma transação: alguns toques, um número real em um de 100+ países, o SMS em geral em segundos e cancelamento sem custo se nada chegar. A cobrança passa pela App Store, então não há saldo de conta na web para administrar."
+  },
+  "comparison": {
+    "title": "OnlineSim e o aplicativo SMS Code, lado a lado",
+    "rows": [
+      {
+        "label": "Plataformas",
+        "competitor": "Serviço web; o site deles também documenta uma API",
+        "us": "Aplicativo nativo para iOS na App Store"
+      },
+      {
+        "label": "Modelo de preço",
+        "competitor": "Ativações únicas mais aluguel de número por prazo mais longo",
+        "us": "Pacotes avulsos de moedas, pague por ativação — sem aluguel, sem assinatura"
+      },
+      {
+        "label": "Pagamento",
+        "competitor": "Recarga de saldo na web, com os meios que o site deles lista",
+        "us": "Cobrança da loja da Apple — nenhum dado de cartão compartilhado conosco"
+      },
+      {
+        "label": "Cobertura",
+        "competitor": "Uma lista ampla de países, mais larga para ativações do que para aluguéis",
+        "us": "100+ países e 100+ serviços populares, curados para cadastros do dia a dia"
+      },
+      {
+        "label": "Cancelamento",
+        "competitor": "Regido pelas regras de reembolso deles — confira os termos atuais",
+        "us": "Ativações que não recebem SMS cancelam sem custo, as moedas voltam"
+      },
+      {
+        "label": "Suporte",
+        "competitor": "Canais de suporte pelo site deles",
+        "us": "No aplicativo e no formulário de contato do site"
+      },
+      {
+        "label": "Melhor para",
+        "competitor": "Manter um número alcançável por dias ou semanas de SMS",
+        "us": "Códigos de verificação pontuais, sem compromisso contínuo"
+      }
+    ],
+    "note": "Os dados do concorrente refletem o site público deles na data da redação e podem mudar — confirme sempre em onlinesim.io antes de decidir."
+  },
+  "switchSteps": {
+    "title": "Experimentar o aplicativo leva três passos",
+    "steps": [
+      {
+        "title": "Instale o aplicativo",
+        "body": "Baixe o SMS Code da SIMNETIQ na App Store — sem conta na web nem configuração de carteira."
+      },
+      {
+        "title": "Pegue um pacote de moedas",
+        "body": "Compre um pacote avulso pela sua conta da loja. Você paga por ativação; não há período de aluguel correndo ao fundo."
+      },
+      {
+        "title": "Faça a primeira ativação",
+        "body": "Escolha um serviço e um país, receba um número real e veja o código chegar no aplicativo em geral em segundos. Se nada chegar, a ativação cancela sem custo."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Qual a principal diferença entre o OnlineSim e o aplicativo SMS Code?",
+      "a": "O modelo. O site do OnlineSim enfatiza aluguel de número — ficar com um número por dias ou semanas, com SMS ilimitados — junto com ativações únicas. O aplicativo SMS Code da SIMNETIQ faz só verificação por ativação, embrulhada num aplicativo móvel nativo com pacotes avulsos de moedas."
+    },
+    {
+      "q": "Dá para ficar com um número no longo prazo no aplicativo SMS Code?",
+      "a": "Não — cada ativação cobre receber o código de um serviço, e depois o número volta para o conjunto. Se você precisa do mesmo número alcançável por um longo período, um serviço de aluguel como o OnlineSim é, com honestidade, o encaixe melhor."
+    },
+    {
+      "q": "A minha conta para de funcionar quando o número expira?",
+      "a": "Na maioria dos serviços, não. O número só é necessário no passo da verificação; se você ativar proteções no nível do aplicativo, como senhas de dois fatores, os próximos acessos não dependem de receber outro SMS nesse número."
+    },
+    {
+      "q": "O que acontece se o meu código nunca chegar?",
+      "a": "A ativação cancela e as suas moedas são devolvidas. Você só paga por números que de fato recebem um SMS."
+    },
+    {
+      "q": "Preciso criar uma conta num site para usar o aplicativo?",
+      "a": "Nenhuma carteira nem painel na web entra nisso. Você instala o aplicativo pela App Store, compra um pacote de moedas pela cobrança da loja, e tudo acontece no aplicativo."
+    }
+  ]
+}

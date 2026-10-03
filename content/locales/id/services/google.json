@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Google — buat Gmail tanpa SIM",
+  "metaDescription": "Verifikasi akun Google baru dengan nomor virtual asli. Dapatkan kode G biasanya dalam hitungan detik dan buat Gmail tanpa nomor pribadi Anda.",
+  "hero": {
+    "title": "Nomor virtual untuk Google",
+    "intro": [
+      "Membuat akun Google seharusnya hanya seminit — sampai formulir pendaftaran meminta nomor telepon. Google memutuskan secara dinamis apakah verifikasi diperlukan, dan begitu diperlukan, tidak ada jalan melewati layar itu tanpa menerima SMS yang nyata. Kode datang dari “Google” dan tampil seperti “G-482915”.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara, memasukkannya di layar verifikasi Google, dan kode G muncul di aplikasi biasanya dalam hitungan detik. Gmail baru Anda terbentuk — dan nomor pribadi Anda tetap di luar."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Google?",
+    "body": [
+      "Nomor yang Anda pakai untuk verifikasi tidak hanya membuka pendaftaran — secara bawaan Google juga menyimpannya sebagai metode pemulihan dan kanal 2FA, diam-diam menghubungkan akun baru ke telepon pribadi Anda. Jika seluruh tujuan akun adalah pemisahan — Gmail untuk satu proyek, akun uji pengembang, alamat pendaftaran untuk nawala — memverifikasi dengan SIM sendiri menggagalkannya sebelum Anda mengirim satu email. Nomor virtual menjaga identitas baru benar-benar terpisah.",
+      "Ada batas praktis juga: Google membatasi berapa banyak akun yang dapat diverifikasi satu nomor telepon. Jika nomor Anda sendiri sudah menanggung satu atau dua Gmail, ia mungkin berhenti berfungsi untuk yang baru. Nomor virtual yang baru datang tanpa riwayat itu, jadi verifikasi lolos pada percobaan pertama."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi akun Google dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Dapatkan nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih Google sebagai layanan, dan pilih negara — Amerika Serikat, Britania Raya, atau Jerman adalah pilihan populer. Satu ketukan mencadangkan nomor seluler asli hanya untuk Anda."
+      },
+      {
+        "title": "Masukkan di layar verifikasi Google",
+        "body": "Mulai pendaftaran di accounts.google.com dan isi data dasar. Saat Google meminta verifikasi nomor telepon, pilih negara nomor itu dan ketik persis — kode negara yang salah adalah alasan paling umum SMS tidak pernah masuk."
+      },
+      {
+        "title": "Ketik kode G",
+        "body": "SMS masuk ke aplikasi SMS Code biasanya dalam hitungan detik dan berbunyi “G-482915 is your Google verification code.” Masukkan enam digit (tanpa awalan “G-” jika kolom Google hanya meminta digit) dan akun terbentuk."
+      },
+      {
+        "title": "Lepaskan akun dari nomor sewaan",
+        "body": "Segera setelah masuk, buka Akun Google → Keamanan. Hapus atau ganti nomor telepon di opsi pemulihan, tambahkan aplikasi autentikator dan unduh kode cadangan, serta atur email pemulihan. Jika dilakukan dengan benar, akun tidak pernah lagi bergantung pada nomor sewaan."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "“Nomor telepon ini tidak dapat digunakan untuk verifikasi”",
+      "body": "Google secara aktif menyaring nomor yang diyakininya VoIP atau sudah terlalu sering dipakai, dan menolaknya dengan pesan persis ini. Itu terjadi; jangan dilawan. Batalkan aktivasi yang tertunda di SMS Code — nomor yang tidak menerima apa pun tidak dikenai biaya — dan coba nomor baru, idealnya dari negara lain."
+    },
+    {
+      "title": "Jangan biarkan nomor itu sebagai metode pemulihan",
+      "body": "Google otomatis menyimpan nomor yang terverifikasi sebagai pemulihan akun dan kanal 2FA. Itu baik untuk SIM di saku Anda, bukan untuk nomor sewaan. Ganti di Akun Google → Keamanan segera setelah mendaftar: aplikasi autentikator plus kode cadangan dan email pemulihan mencakup setiap situasi yang tadinya ditangani SMS."
+    },
+    {
+      "title": "Satu nomor, akun terbatas",
+      "body": "Google membatasi berapa banyak akun yang dapat diverifikasi satu nomor selama masa hidupnya — dan ia menghitung semua orang yang memakai nomor itu sebelum Anda. Jika kode masuk tetapi Google tetap menolak nomor, kemungkinan batas itu sudah tercapai. Nomor baru dari SMS Code memulai hitungan dari aktivasi Anda."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah Google selalu meminta nomor telepon saat mendaftar?",
+      "a": "Tidak — Google memutuskan kasus per kasus, berdasarkan sinyal seperti IP, perangkat, dan bagaimana pendaftaran terlihat oleh sistem risikonya. Banyak pendaftaran melewati langkah telepon sepenuhnya; banyak yang lain tidak bisa lanjut tanpanya. Jika formulir Anda memang menuntut nomor, nomor virtual memenuhinya sama seperti SIM."
+    },
+    {
+      "q": "Apakah Gmail saya tetap berfungsi setelah nomor sewaan berakhir?",
+      "a": "Ya. Google memeriksa nomor sekali, saat verifikasi. Akun tidak terikat pada nomor yang tetap aktif — terutama jika Anda mengikuti langkah empat kami dan menggantinya dengan aplikasi autentikator, kode cadangan, dan email pemulihan. Setelah itu, tidak ada pada akun yang bergantung pada nomor sewaan."
+    },
+    {
+      "q": "Google mengatakan nomor tidak bisa dipakai untuk verifikasi. Lalu apa?",
+      "a": "Itu filter Google untuk nomor yang dicurigai VoIP atau sudah tertaut ke terlalu banyak akun. Batalkan aktivasi di SMS Code — koin untuk nomor yang tidak menerima apa pun kembali ke saldo Anda — dan ambil yang baru. Beralih ke negara lain sering mendapat rentang yang lebih bersih."
+    },
+    {
+      "q": "Bisakah saya membuat lebih dari satu akun Google dengan cara ini?",
+      "a": "Setiap akun membutuhkan verifikasi sendiri, dan Google membatasi berapa banyak akun yang dapat ditanggung satu nomor — jadi pakai nomor baru per akun daripada memakai ulang satu nomor. Tetap dalam ketentuan layanan Google: akun terpisah untuk proyek, kotak masuk tim, atau pengujian adalah pemakaian normal."
+    },
+    {
+      "q": "Apa yang terjadi jika Google meminta verifikasi ulang nomor nanti?",
+      "a": "Permintaan verifikasi ulang biasanya muncul saat Google meragukan suatu login — perangkat baru, lokasi yang tidak biasa. Jika Anda sudah mengganti nomor sewaan dengan aplikasi autentikator, kode cadangan, dan email pemulihan, Anda dapat melewati pemeriksaan itu tanpa SMS. Itulah tepatnya mengapa kami menyarankan melakukannya di hari pertama."
+    }
+  ]
+}

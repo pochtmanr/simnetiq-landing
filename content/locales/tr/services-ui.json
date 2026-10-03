@@ -1,0 +1,41 @@
+{
+  "breadcrumbHome": "Ana sayfa",
+  "breadcrumbHub": "Sanal numaralar",
+  "heroLabel": "Sanal numaralar",
+  "step": "Adım",
+  "tipsLabel": "Bilmekte fayda var",
+  "tipsTitle": "Doğrulamadan önce",
+  "faqLabel": "Sorular",
+  "countriesLabel": "Bu servis için popüler ülkeler",
+  "relatedLabel": "İlgili servisler",
+  "relatedTitle": "Birlikte sık doğrulananlar",
+  "ctaTitle": "Bir dakikadan kısa sürede numara ve kod",
+  "ctaSupport": "Sorunuz mu var? Desteğe yazın",
+  "hub": {
+    "metaTitle": "Sanal numara ile online SMS al — tüm servisler",
+    "metaDescription": "Telegram, WhatsApp, Google ve Instagram için gerçek sanal numara kiralayın. Doğrulama kodunu genellikle saniyeler içinde alın — SIM yok, abonelik yok.",
+    "label": "Kapsam",
+    "title": "Her kayda bir numara kadar uzaktasınız",
+    "sub": "Kaydolacağınız servisi seçin. Her rehber gerçek doğrulama akışını, takılan noktaları ve insanların gerçekten sorduğu soruları anlatır.",
+    "allNote": "Servisler düzenli eklenir — uygulamanın kendisi 100+ ülkede 100+ servisi destekler."
+  },
+  "categories": {
+    "messaging": "Mesajlaşma",
+    "social": "Sosyal medya",
+    "finance": "Finans",
+    "shopping": "Alışveriş",
+    "travel": "Seyahat ve ulaşım",
+    "entertainment": "Eğlence",
+    "dev": "Geliştirici araçları",
+    "other": "Hesaplar ve platformlar"
+  },
+  "country": {
+    "hubLabel": "Ülkeye göre",
+    "hubTitle": "Ülkeye göre numaralar",
+    "dialingCode": "Ülke kodu",
+    "numberFormat": "Numara biçimi",
+    "servicesLabel": "Bu ülkeyle sık doğrulananlar",
+    "allCountries": "Tüm ülkeler",
+    "breadcrumb": "Ülkeler"
+  }
+}

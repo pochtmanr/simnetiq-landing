@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour Google",
+  "metaDescription": "Vérifiez un nouveau compte Google avec un vrai numéro virtuel. Recevez le code G généralement en quelques secondes et créez un Gmail sans votre numéro.",
+  "hero": {
+    "title": "Numéro virtuel pour Google",
+    "intro": [
+      "Créer un compte Google est censé prendre une minute — jusqu’à ce que le formulaire demande un numéro de téléphone. Google décide dynamiquement s’il exige une vérification, et une fois qu’il le fait, on ne passe pas cet écran sans recevoir un vrai SMS. Le code arrive de «\u00a0Google\u00a0» et ressemble à «\u00a0G-482915\u00a0».",
+      "Avec SMS Code, vous louez un vrai numéro mobile dans l’un de plus de 100 pays, vous le saisissez sur l’écran de vérification de Google, et le code G apparaît dans l’app généralement en quelques secondes. Votre nouveau Gmail est créé — et votre numéro personnel en reste dehors."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour Google\u00a0?",
+    "body": [
+      "Le numéro avec lequel vous vérifiez ne déverrouille pas seulement l’inscription — par défaut, Google l’enregistre aussi comme moyen de récupération et canal de 2FA, reliant discrètement votre nouveau compte à votre téléphone personnel. Si tout le sens du compte est la séparation — un Gmail pour un projet, un compte de test développeur, une adresse d’inscription aux newsletters — vérifier avec votre propre SIM le défait avant que vous ayez envoyé un seul e-mail. Un numéro virtuel garde la nouvelle identité vraiment séparée.",
+      "Il y a aussi un plafond pratique\u00a0: Google limite le nombre de comptes qu’un seul numéro de téléphone peut vérifier. Si votre propre numéro a déjà cautionné un ou deux Gmail, il peut simplement cesser de fonctionner pour les nouveaux. Un numéro virtuel neuf arrive sans cet historique, donc la vérification passe du premier coup."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier un compte Google avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Obtenez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, choisissez Google comme service et un pays — les États-Unis, le Royaume-Uni ou l’Allemagne sont des choix courants. Un toucher réserve un vrai numéro mobile rien que pour vous."
+      },
+      {
+        "title": "Saisissez-le sur l’écran de vérification de Google",
+        "body": "Commencez l’inscription sur accounts.google.com et remplissez les bases. Quand Google demande de vérifier votre numéro, sélectionnez le pays du numéro et tapez-le exactement — un mauvais indicatif est la raison la plus courante pour que le SMS n’arrive jamais."
+      },
+      {
+        "title": "Saisissez le code G",
+        "body": "Le SMS arrive dans l’app SMS Code généralement en quelques secondes et se lit «\u00a0G-482915 is your Google verification code.\u00a0» Saisissez les six chiffres (sans le préfixe «\u00a0G-\u00a0» si le champ de Google ne demande que des chiffres) et le compte est créé."
+      },
+      {
+        "title": "Détachez le compte du numéro loué",
+        "body": "Juste après la connexion, ouvrez Compte Google → Sécurité. Retirez ou remplacez le numéro de téléphone dans les options de récupération, ajoutez une application d’authentification et téléchargez des codes de secours, et définissez un e-mail de récupération. Bien fait, le compte ne dépend plus jamais du numéro loué."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "«\u00a0Ce numéro de téléphone ne peut pas être utilisé pour la validation\u00a0»",
+      "body": "Google écarte activement les numéros qu’il croit être de la VoIP ou déjà trop utilisés, et les refuse avec exactement ce message. Cela arrive\u00a0; ne vous battez pas. Annulez l’activation en cours dans SMS Code — les numéros qui n’ont rien reçu ne coûtent rien — et essayez un numéro neuf, idéalement d’un autre pays."
+    },
+    {
+      "title": "Ne laissez pas le numéro comme moyen de récupération",
+      "body": "Google enregistre automatiquement le numéro vérifié comme récupération du compte et canal de 2FA. C’est très bien pour une SIM dans votre poche, pas pour un numéro loué. Remplacez-le dans Compte Google → Sécurité juste après l’inscription\u00a0: une application d’authentification, plus des codes de secours et un e-mail de récupération, couvre chaque situation qu’un SMS couvrirait."
+    },
+    {
+      "title": "Un numéro, un nombre limité de comptes",
+      "body": "Google plafonne le nombre de comptes qu’un seul numéro peut vérifier au cours de sa vie — et il compte tous ceux qui ont utilisé ce numéro avant vous. Si un code arrive mais que Google refuse quand même le numéro, il a probablement atteint ce plafond. Un numéro neuf de SMS Code remet le compteur à votre activation."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Google demande-t-il toujours un numéro de téléphone à l’inscription\u00a0?",
+      "a": "Non — Google décide au cas par cas, selon des signaux comme votre IP, votre appareil et l’allure de l’inscription pour ses systèmes de risque. Beaucoup d’inscriptions sautent entièrement l’étape téléphone\u00a0; beaucoup d’autres ne peuvent pas avancer sans. Si votre formulaire exige un numéro, un numéro virtuel le satisfait de la même façon qu’une SIM."
+    },
+    {
+      "q": "Mon Gmail continuera-t-il après l’expiration du numéro loué\u00a0?",
+      "a": "Oui. Google contrôle le numéro une fois, à la vérification. Le compte n’est pas lié au fait que le numéro reste actif — surtout si vous suivez notre quatrième étape et le remplacez par une application d’authentification, des codes de secours et un e-mail de récupération. Après cela, rien dans le compte ne dépend du numéro loué."
+    },
+    {
+      "q": "Google dit que le numéro ne peut pas servir à la validation. Et maintenant\u00a0?",
+      "a": "C’est le filtre de Google pour les numéros qu’il soupçonne d’être de la VoIP ou déjà liés à trop de comptes. Annulez l’activation dans SMS Code — les pièces d’un numéro qui n’a rien reçu reviennent sur votre solde — et prenez-en un nouveau. Changer de pays donne souvent une tranche plus propre."
+    },
+    {
+      "q": "Puis-je créer plus d’un compte Google de cette façon\u00a0?",
+      "a": "Chaque compte a besoin de sa propre vérification, et Google limite le nombre de comptes qu’un numéro peut cautionner — utilisez donc un numéro neuf par compte plutôt que d’en réutiliser un. Restez dans les conditions d’utilisation de Google\u00a0: des comptes séparés pour un projet, une boîte d’équipe ou des tests sont un usage normal."
+    },
+    {
+      "q": "Que se passe-t-il si Google demande de revérifier le numéro plus tard\u00a0?",
+      "a": "Les demandes de revérification apparaissent en général quand Google doute d’une connexion — nouvel appareil, lieu inhabituel. Si vous avez déjà remplacé le numéro loué par une application d’authentification, des codes de secours et un e-mail de récupération, vous pouvez passer ces contrôles sans aucun SMS. C’est exactement pourquoi nous recommandons de le faire le premier jour."
+    }
+  ]
+}

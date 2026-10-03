@@ -2,7 +2,7 @@
 
 import Script from "next/script";
 import { useState } from "react";
-import { SUPPORT_FORM } from "../lib/content/support";
+import type { SupportDict } from "../lib/content/ui";
 import type { Locale } from "../lib/i18n";
 
 type Status = "idle" | "sending" | "sent" | "error";
@@ -13,10 +13,9 @@ type Status = "idle" | "sending" | "sent" | "error";
    is the configuration that breaks submissions. */
 const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
-export function SupportForm({ locale = "en" }: { locale?: Locale }) {
+export function SupportForm({ locale, t }: { locale: Locale; t: SupportDict["form"] }) {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState<string | null>(null);
-  const t = SUPPORT_FORM[locale];
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -123,7 +122,7 @@ export function SupportForm({ locale = "en" }: { locale?: Locale }) {
       </label>
 
       {/* Honeypot — invisible to people, tempting to bots */}
-      <div className="absolute -left-[9999px] top-auto" aria-hidden>
+      <div className="absolute -start-[9999px] top-auto" aria-hidden>
         <label>
           {t.honeypot}
           <input name="website" tabIndex={-1} autoComplete="off" />

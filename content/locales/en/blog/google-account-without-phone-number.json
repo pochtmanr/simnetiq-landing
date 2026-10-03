@@ -1,0 +1,152 @@
+{
+  "title": "How to Create a Google Account Without Your Phone Number",
+  "description": "Google doesn’t always demand a phone number — and when it does, it needn’t be yours. The flows that skip it, the virtual-number route and the recovery trap.",
+  "excerpt": "Sometimes Google lets you sign up with no phone at all; sometimes the prompt is mandatory. Here’s what decides it, the routes that genuinely work, and the one recovery setting that keeps the account yours afterwards.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A Google account is the key to half the internet — Gmail, YouTube, Drive, the Play Store, every “Sign in with Google” button. Which is precisely why handing Google your personal phone number feels heavier than giving it to some forum: this number gets attached to the account that already knows your searches, your location history and your inbox."
+    },
+    {
+      "type": "p",
+      "text": "Here’s the part most guides get wrong: Google does not always require a phone number. Sometimes the sign-up sails through with just a name and a birthday; sometimes the same form refuses to continue until a code is texted somewhere. Which one you get isn’t random — and once you know what tips the scales, you can pick the route that fits."
+    },
+    {
+      "type": "p",
+      "text": "This guide covers when the prompt actually appears, the ways to sign up that genuinely work without your number, and — because it matters more here than anywhere else — how to set up recovery so the account never depends on a number you don’t keep."
+    },
+    {
+      "type": "h2",
+      "id": "when-google-actually-asks",
+      "text": "When Google actually demands a number"
+    },
+    {
+      "type": "p",
+      "text": "Google decides per sign-up whether phone verification is required, based on how risky the attempt looks. You’ll likely face a mandatory prompt when several of these line up:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The sign-up comes from a desktop browser — especially a fresh profile, private window or VPN exit that Google’s systems haven’t seen before.",
+        "Several accounts were recently created from the same device, network or browser fingerprint. The counter is invisible, but it exists — the second and third account face the prompt far more often than the first.",
+        "Anything about the attempt looks automated: unusual typing cadence, a flagged IP range, a data-centre address."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Flip those around and you get the friendlier flows: sign-ups from a real phone, on a residential connection, with an unhurried pace are the ones where the phone field shows up marked optional — or not at all. That’s the honest nuance: you can’t force Google to skip the prompt, but you can choose the flow where skipping is most likely."
+    },
+    {
+      "type": "h2",
+      "id": "why-keep-your-number-out",
+      "text": "Why keep your number out of it"
+    },
+    {
+      "type": "p",
+      "text": "Beyond the general principle — one fewer database holding your permanent identifier — Google specifically uses a verified phone for cross-account linking: numbers connect your “separate” accounts to each other, tie sign-ups to your advertising profile, and make anonymous or work-separated accounts anything but. A number is also a discovery channel: people who have it in their contacts can be shown your profile. If the whole point of a second account is separation, wiring it to the same SIM defeats it on day one."
+    },
+    {
+      "type": "h2",
+      "id": "routes-that-work",
+      "text": "The routes that genuinely work"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Skip it when it’s optional. If the phone field shows a “Skip” option — take it. Add a recovery email on the next screen and the account is complete. This is the zero-cost route and it works more often than people expect, especially on the flows above.",
+        "Sign up through an Android device. Adding an account via Settings → Accounts on an Android phone or tablet is the flow where Google most often asks for no number at all — the device itself vouches for the sign-up. If you have any Android device around, this is worth trying first.",
+        "Use a virtual number when the prompt is mandatory. When Google refuses to continue without a code, any number that can receive one SMS will do — including a rented virtual number that never links back to you. The steps below cover it."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-a-virtual-number",
+      "text": "Verifying with a virtual number, step by step"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Rent a number for Google",
+          "body": "In the SMS Code app, pick Google as the service and choose a country. One tap reserves a real mobile number for you alone — you pay for it in coins from a one-time pack, no subscription."
+        },
+        {
+          "title": "Enter it at the verification screen",
+          "body": "Back in the Google sign-up, select the country matching the rented number and type it in. Google is strict about formats, so let the country selector do the work rather than typing the prefix by hand."
+        },
+        {
+          "title": "Copy the code",
+          "body": "The SMS — “G-482916 is your Google verification code” — appears in SMS Code usually within seconds. Enter it and the sign-up continues."
+        },
+        {
+          "title": "Detach the number immediately",
+          "body": "Once you’re in, open myaccount.google.com → Security, add a recovery email you control, then remove the phone number from both “Recovery phone” and “Phone” sections. The account now stands on your password and email alone."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    },
+    {
+      "type": "h2",
+      "id": "the-recovery-trap",
+      "text": "The recovery trap — read this before you close the tab"
+    },
+    {
+      "type": "p",
+      "text": "With Google, recovery settings aren’t an afterthought; they’re the difference between an account you own and an account you borrowed. Google leans on the verified phone for suspicious-login checks: travel somewhere new, clear your cookies, or just get unlucky, and the login screen may demand the code again — sent to whatever number is on file."
+    },
+    {
+      "type": "callout",
+      "text": "The moment the sign-up completes, do two things: add a recovery email you control, and remove the rented number from the account’s phone settings. If the number stays on file after the rental ends, a future verification check can lock you out of your own account — that’s the one real risk in this whole process, and it’s entirely avoidable."
+    },
+    {
+      "type": "h2",
+      "id": "honest-limits",
+      "text": "The honest limits"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Google can re-ask for verification later. A new device, an odd location or a cleared browser can trigger another check. With a recovery email set and the old number removed, you’ll verify by email — but expect the occasional challenge; that’s how Google works for every account.",
+        "One number verifies a limited number of accounts. Google tracks how many accounts each number has confirmed and starts refusing after a few. A rented number you use once doesn’t hit that wall — but the same number recycled across many sign-ups will.",
+        "This is not a mass-registration tool. One private account for separation or privacy is normal use. Farms of accounts violate Google’s terms, get caught by the same risk systems described above, and usually end in a wave of suspensions."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Frequently asked questions"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Can I really create a Google account with no phone number at all?",
+          "a": "Sometimes, yes. When the phone field is marked optional — most often on Android’s add-account flow or low-risk sign-ups — you can skip it entirely and use a recovery email instead. When Google decides verification is mandatory for your attempt, some number has to receive one code; it just doesn’t have to be yours."
+        },
+        {
+          "q": "Will Gmail and YouTube work normally afterwards?",
+          "a": "Yes. An account verified with a virtual number is a full Google account — Gmail, YouTube, Drive and Play all behave identically. The number’s only role was the one-time code at sign-up."
+        },
+        {
+          "q": "What happens when the rented number expires?",
+          "a": "Nothing — provided you removed it from the account and set a recovery email. The account runs on your password and email. If you leave the dead number as the recovery phone, a future security check may send codes there, which is why detaching it immediately matters."
+        },
+        {
+          "q": "Why does Google say my number “can’t be used for verification”?",
+          "a": "Google rejects ranges it has seen abused — most free public numbers and some virtual ranges. If a rented number is refused, cancel the activation free in SMS Code and take a different one, ideally from another country; the next number usually passes."
+        },
+        {
+          "q": "Is signing up this way against Google’s terms?",
+          "a": "Google’s terms require accurate recovery information and prohibit abuse — they don’t require the sign-up phone to be registered in your name. A personal account created with a rented number and then properly secured with your own recovery email is normal use; mass account creation is not."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    }
+  ]
+}

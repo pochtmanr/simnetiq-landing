@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour Grab",
+  "metaDescription": "Vérifiez Grab avec un vrai numéro virtuel. Le code d’activation arrive généralement en quelques secondes — courses, repas et plus, sans votre numéro personnel.",
+  "hero": {
+    "title": "Numéro virtuel pour Grab",
+    "intro": [
+      "Atterrissez n’importe où en Asie du Sud-Est et Grab est la première app dont vous aurez besoin\u00a0: courses depuis l’aéroport, repas à l’hôtel, paiements au stand de rue. C’est la super-app de la région — et elle est d’abord téléphone. Il n’y a pas de connexion e-mail de repli à l’inscription\u00a0; Grab commence par demander un numéro mobile et lui envoyer un code d’activation.",
+      "SMS Code vous remet un vrai numéro de l’un de plus de 100 pays. Saisissez-le sur l’écran d’accueil de Grab, et le code à six chiffres apparaît dans l’app SMS Code généralement en quelques secondes — votre compte est en ligne avant que vos bagages arrivent au tapis, et votre numéro personnel n’a jamais fait partie de l’affaire."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour Grab\u00a0?",
+    "body": [
+      "Grab est construit autour des numéros locaux. Son parcours d’inscription attend un numéro d’un pays où il opère, et les voyageurs qui arrivent avec une SIM européenne ou américaine trouvent souvent cela malcommode — les SMS en itinérance peuvent être lents ou bloqués, et certains opérateurs font payer le privilège de recevoir un code. Un numéro virtuel d’Indonésie ou des Philippines s’insère directement dans ce que Grab attend, sans chercher un kiosque SIM le premier jour.",
+      "Il y a aussi un angle de vie privée. Parce que Grab est d’abord téléphone, votre numéro devient la clé de tout ce qu’il contient — historique des courses, commandes de repas, le portefeuille. Garder cette clé séparée du numéro que votre banque, votre famille et votre employeur utilisent est simplement une compartimentation sensée\u00a0: si vous cessez d’utiliser Grab après le voyage, rien de votre numéro du quotidien n’est parti avec."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier Grab avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Louez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, choisissez Grab comme service et un pays — un pays d’Asie du Sud-Est comme l’Indonésie ou les Philippines correspond le mieux au terrain de Grab. Le numéro est réservé instantanément."
+      },
+      {
+        "title": "Saisissez-le sur l’écran d’inscription de Grab",
+        "body": "Grab demande votre numéro mobile dès le premier écran. Sélectionnez l’indicatif pays qui correspond à votre numéro loué et tapez-le — Grab envoie le code d’activation par SMS tout de suite."
+      },
+      {
+        "title": "Saisissez le code d’activation",
+        "body": "Regardez l’app SMS Code\u00a0: le texto arrive généralement en quelques secondes et se lit «\u00a0702415 is your Grab activation code. For your account safety, do not share this code.\u00a0» Saisissez les six chiffres dans Grab."
+      },
+      {
+        "title": "Ajoutez l’e-mail et le paiement",
+        "body": "Une fois dedans, attachez une adresse e-mail dans votre profil et définissez comment vous paierez — carte ou portefeuille dans l’app. L’e-mail donne à votre compte une seconde ancre au-delà du numéro de téléphone."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Choisissez un pays où Grab opère vraiment",
+      "body": "Grab sert l’Asie du Sud-Est — Singapour, Indonésie, Malaisie, Thaïlande, Vietnam, Philippines et voisins. Un numéro de l’un de ces marchés correspond à ce que le parcours d’inscription attend\u00a0; c’est pourquoi les numéros indonésiens et philippins sont le choix courant pour les activations Grab."
+    },
+    {
+      "title": "Faites l’inscription avant le voyage",
+      "body": "Vérifiez le compte tant que vous êtes encore sur un Wi-Fi confortable, pas dans un hall d’arrivée. Le contrôle téléphone a lieu une fois à l’inscription — ensuite vous vous connectez sur le même appareil sans avoir besoin d’un autre SMS, donc votre compte est prêt au moment où vous atterrissez."
+    },
+    {
+      "title": "Les chauffeurs appellent via l’app",
+      "body": "Quand un chauffeur a besoin de vous joindre, Grab route le contact par le chat dans l’app et des appels internet plutôt que de composer votre numéro brut. Gardez les notifications de l’app Grab activées pour attraper le message «\u00a0je suis dehors\u00a0» même si aucun SMS n’est en jeu."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je utiliser Grab en touriste avec un numéro virtuel\u00a0?",
+      "a": "Oui — c’est le cas classique. Vérifiez le compte avec un numéro d’un pays où Grab opère, ajoutez un moyen de paiement, et commandez courses et repas pendant votre voyage comme n’importe quel utilisateur local. Le compte n’est pas lié à la SIM de votre téléphone."
+    },
+    {
+      "q": "Quel pays choisir pour un numéro Grab\u00a0?",
+      "a": "L’un des marchés d’origine de Grab. L’Indonésie et les Philippines sont les choix les plus courants dans SMS Code pour Grab, puisque le parcours d’inscription est bâti autour de numéros de pays où le service tourne."
+    },
+    {
+      "q": "Mon compte Grab continuera-t-il après la fin de la fenêtre de location\u00a0?",
+      "a": "Le code d’activation est un contrôle unique à l’inscription. Tant que vous restez connecté sur votre appareil, le compte fonctionne normalement. Si vous vous déconnectez plus tard et que Grab demande de revérifier, vous pouvez louer un numéro neuf et mettre à jour celui de votre profil."
+    },
+    {
+      "q": "Pourquoi mon code d’activation Grab n’est-il pas arrivé\u00a0?",
+      "a": "Vérifiez que l’indicatif pays sélectionné dans Grab correspond au numéro loué — ce décalage est la cause la plus fréquente. Si rien ne vient, annulez l’activation dans SMS Code (les numéros qui n’ont reçu aucun SMS sont sans frais) et essayez un autre numéro."
+    },
+    {
+      "q": "Ai-je besoin d’un numéro local pour payer avec GrabPay\u00a0?",
+      "a": "Le portefeuille vit dans votre compte vérifié, pas dans votre SIM. Une fois le compte activé, les fonctions de paiement suivent les règles du pays auquel votre compte est réglé — les options de recharge et la prise en charge des cartes varient selon le marché, ce qui est une politique de Grab, pas une question de numéro."
+    }
+  ]
+}

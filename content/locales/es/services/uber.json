@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Uber",
+  "metaDescription": "Uber te inicia sesión con un código SMS. Alquila un número virtual real, recibe el código normalmente en segundos y deja tu teléfono fuera del historial.",
+  "hero": {
+    "title": "Número virtual para Uber",
+    "intro": [
+      "Uber no trata el teléfono como un detalle: es la cuenta. Escribes un número, Uber manda «Your Uber code is 7204. Never share this code.» y ese es todo el inicio de sesión: sin nombre de usuario y, para muchos, sin contraseña. Quien recibe códigos en ese número, en la práctica, tiene la cuenta.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países y el código de Uber aparece en la aplicación normalmente en segundos. Tus viajes, recibos e historial de recogidas quedan atados a un número alquilado, no al que usan tus amigos y tu banco."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Uber?",
+    "body": [
+      "Una cuenta de transporte va acumulando en silencio un mapa de tu vida: casa, trabajo, el aeropuerto a las 6 de la mañana. Dejar tu número personal fuera de ese registro es higiene de privacidad, sin más. Los conductores ya te localizan por el relé enmascarado de Uber y nunca ven el número real; la copia que importa es la que está guardada en tu cuenta, y esa es justo la que sustituye un número virtual.",
+      "Como Uber te inicia sesión por SMS, aquí el número no es un atrezo de una sola vez: sé honesto contigo en eso. La aplicación te mantiene con la sesión iniciada durante meses, pero una instalación nueva o un teléfono nuevo volverán a pedir un código. El montaje funciona bien con un número alquilado si lo planeas: no cierres sesión, añade un correo a la cuenta y, si Uber se vuelve una herramienta diaria, pasa la cuenta a un número que siempre controlarás."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar Uber con un número virtual",
+    "steps": [
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Elige Uber como servicio y escoge un país. Para el uso de cada día, toma el tuyo: la región de la cuenta moldea las opciones de pago y las funciones locales."
+      },
+      {
+        "title": "Escríbelo en la aplicación de Uber",
+        "body": "En la pantalla de registro, selecciona el prefijo del número y escríbelo. Uber puede ofrecer mandar el código por WhatsApp o por una llamada de voz: elige SMS."
+      },
+      {
+        "title": "Escribe los cuatro dígitos",
+        "body": "«Your Uber code is 7204. Never share this code.» llega a la aplicación SMS Code normalmente en segundos. Escríbelo y ya has iniciado sesión."
+      },
+      {
+        "title": "Dale a la cuenta un segundo canal",
+        "body": "Añade tu correo en los ajustes de Uber y termina el perfil. El correo le da a Uber una forma de verificarte que no depende del número alquilado, y deja los recibos en un sitio donde de verdad los vas a leer."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Uber volverá a pedir un SMS: planéalo",
+      "body": "Los inicios de sesión en dispositivos nuevos y las reinstalaciones se confirman con un código al número de la cuenta. No cierres sesión por costumbre, añade un correo y, si usas Uber cada semana, cambia el teléfono de la cuenta en los ajustes a uno que lleves encima: puedes hacerlo en cualquier momento mientras tengas la sesión iniciada."
+    },
+    {
+      "title": "Los conductores no ven tu número de todas formas",
+      "body": "Las llamadas y los mensajes entre tú y el conductor pasan por el relé enmascarado de Uber. La pregunta de privacidad no es el conductor: es el número que está en el registro de tu cuenta, en tus recibos y en lo que alimente esa base de datos. Esa es la copia que un número virtual mantiene limpia."
+    },
+    {
+      "title": "En el extranjero, tu cuenta ya viaja",
+      "body": "Una cuenta de Uber que ya existe funciona en otros países: no necesitas un número local para pedir un viaje en París. Donde un número virtual sí ayuda de verdad: tu SIM de casa no puede recibir textos en roaming cuando un control de inicio de sesión salta a mitad de viaje, o quieres una cuenta local aparte para una estancia larga."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Mi cuenta de Uber sigue funcionando cuando caduca el número alquilado?",
+      "a": "Mientras sigas con la sesión iniciada, sí: todo funciona. El pero es el próximo inicio de sesión desde cero: Uber lo confirma con un SMS al número de la cuenta. Así que o mantienes viva la sesión o — mejor — cambias el teléfono en los ajustes de la cuenta a uno que controles mientras aún estás dentro. Esa opción siempre está disponible desde la aplicación."
+    },
+    {
+      "q": "¿Los conductores ven mi teléfono real?",
+      "a": "No. Uber conecta al pasajero y al conductor con números de relé enmascarados, así que ninguno ve el real del otro. Un número virtual protege la otra copia: la que está guardada en el perfil de tu cuenta y pegada a cada recibo."
+    },
+    {
+      "q": "¿Puedo usar un número virtual para Uber mientras viajo?",
+      "a": "Sí, y resuelve un problema real de viaje: controles de inicio de sesión que llegan como SMS que tu SIM en roaming no puede recibir. Los códigos a un número alquilado caen en la aplicación SMS Code por internet, estés donde estés. Ten en cuenta que no necesitas un número local solo para viajar en el extranjero: tu cuenta normal funciona a nivel internacional."
+    },
+    {
+      "q": "¿Por qué no llegó el código de Uber?",
+      "a": "Primero comprueba que el prefijo coincide con el número alquilado. Luego asegúrate de que el código viene por SMS: a veces Uber pone por defecto WhatsApp o una llamada de voz. Si no llegó nada, cancela la activación en SMS Code sin coste y toma otro número."
+    },
+    {
+      "q": "¿Registrarse en Uber con un número virtual está permitido?",
+      "a": "Uber comprueba que controlas el número y espera una cuenta por persona que viaja, con datos veraces: esas son sus condiciones, y las funciones de seguridad dependen de ello. Usar un número alquilado para mantener privado el tuyo está bien; usar números para cazar promociones de alta o llevar cuentas duplicadas es lo que acaba en baneos."
+    }
+  ]
+}

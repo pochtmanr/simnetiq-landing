@@ -1,18 +1,15 @@
 import Link from "next/link";
 import { Breadcrumbs } from "../Breadcrumbs";
-import { ALL_ALTERNATIVES } from "../../lib/content/alternatives";
-import {
-  ALTERNATIVES_HUB_UI,
-  ALTERNATIVES_UI,
-} from "../../lib/content/alternativesUi";
+import { getAlternatives } from "../../lib/content/alternatives";
+import { alternativesUi } from "../../lib/content/ui";
+import { Arrow } from "../Arrow";
 import { localePath, type Locale } from "../../lib/i18n";
 
 /** /alternatives — card grid over the comparison registry. Mirrors
  *  BlogIndexPage; the card body reuses each entry's metaDescription rather
  *  than adding a summary field to AlternativeEntry. */
 export function AlternativesIndexPage({ locale }: { locale: Locale }) {
-  const t = ALTERNATIVES_HUB_UI[locale];
-  const chrome = ALTERNATIVES_UI[locale];
+  const { hub: t, page: chrome } = alternativesUi(locale);
   return (
     <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
       <div className="pt-[40px]">
@@ -36,8 +33,8 @@ export function AlternativesIndexPage({ locale }: { locale: Locale }) {
       </section>
 
       <section className="grid gap-[22px] pb-[40px] md:grid-cols-2 lg:grid-cols-3">
-        {ALL_ALTERNATIVES.map((alt) => {
-          const c = alt[locale];
+        {getAlternatives(locale).map((alt) => {
+          const c = alt.copy;
           return (
             <Link
               key={alt.slug}
@@ -50,7 +47,7 @@ export function AlternativesIndexPage({ locale }: { locale: Locale }) {
                 {c.metaDescription}
               </p>
               <span className="blue-link mt-[22px] text-label">
-                {t.readMore} →
+                {t.readMore} <Arrow />
               </span>
             </Link>
           );

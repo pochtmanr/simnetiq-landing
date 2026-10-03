@@ -5,7 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { track } from "@vercel/analytics";
 import { localePath, switchLocalePath, type Locale } from "../lib/i18n";
-import { LANGUAGES, NAV } from "../lib/content/common";
+import { LOCALE_REGISTRY } from "../lib/locales";
+import type { UiDict } from "../lib/content/ui";
 import { APP_STORE_URL } from "../lib/site";
 import { AppleGlyph } from "./AppleGlyph";
 import { LangFlag } from "./LangFlag";
@@ -18,12 +19,19 @@ import { LangFlag } from "./LangFlag";
  * the band's fill rather than by a shadow or a blur.
  */
 
-export function SiteNav({ locale = "en" }: { locale?: Locale }) {
+export function SiteNav({
+  locale,
+  t,
+  mainNavLabel,
+}: {
+  locale: Locale;
+  t: UiDict["nav"];
+  mainNavLabel: string;
+}) {
   const [open, setOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
-  const t = NAV[locale];
 
   useEffect(() => {
     if (!open && !langOpen) return;
@@ -60,8 +68,8 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
             bottom in the 57px bar, so it gets 16px on the left. Below sm the
             CTA is hidden and the hamburger glyph lands ~18px in both ways. */}
         <nav
-          aria-label="Main"
-          className="pointer-events-auto relative flex w-full items-center gap-x-6 rounded-card bg-card py-[10px] pl-[16px] pr-[16px] sm:pr-[10px]"
+          aria-label={mainNavLabel}
+          className="pointer-events-auto relative flex w-full items-center gap-x-6 rounded-card bg-card py-[10px] ps-[16px] pe-[16px] sm:pe-[10px]"
         >
           <Link
             href={localePath(locale, "/")}
@@ -97,7 +105,7 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
             ))}
           </div>
 
-          <div className="ml-auto flex items-center gap-[16px]">
+          <div className="ms-auto flex items-center gap-[16px]">
             {/* Language switcher */}
             <div ref={langRef} className="relative">
               <button
@@ -119,9 +127,9 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
                 <div
                   role="menu"
                   aria-label={t.langLabel}
-                  className="absolute right-0 top-full mt-[14px] min-w-[156px] rounded-card border border-border bg-card py-[6px]"
+                  className="absolute end-0 top-full mt-[14px] min-w-[156px] rounded-card border border-border bg-card py-[6px]"
                 >
-                  {LANGUAGES.map((lang) => (
+                  {LOCALE_REGISTRY.map((lang) => (
                     <Link
                       key={lang.code}
                       role="menuitem"
@@ -134,7 +142,7 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
                     >
                       <span className="flex items-center gap-[10px]">
                         <LangFlag locale={lang.code} />
-                        {lang.label}
+                        {lang.nativeName}
                       </span>
                       {lang.code === locale && (
                         <svg
@@ -170,7 +178,7 @@ export function SiteNav({ locale = "en" }: { locale?: Locale }) {
               aria-expanded={open}
               aria-controls="mobile-menu"
               aria-label={open ? t.closeMenu : t.openMenu}
-              className="-mr-[6px] flex h-8 w-8 items-center justify-center lg:hidden"
+              className="-me-[6px] flex h-8 w-8 items-center justify-center lg:hidden"
             >
               {open ? (
                 <svg viewBox="0 0 16 16" className="h-4 w-4 stroke-ink" strokeWidth="1" aria-hidden>

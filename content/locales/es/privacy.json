@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Política de privacidad",
+    "description": "Cómo SIMNETIQ LTD recoge, usa y protege tus datos en la aplicación SMS Code y en simnetiq.xyz, y tus derechos bajo el RGPD de Reino Unido y UE."
+  },
+  "prevailingNotice": "Esta traducción se ofrece por comodidad. Si difiere de la versión en inglés, prevalece la versión en inglés.",
+  "label": "Información legal",
+  "title": "Política de privacidad",
+  "updatedLabel": "Última actualización:",
+  "sections": [
+    {
+      "title": "1. Quiénes somos",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SMS Code (la «Aplicación») y el sitio web simnetiq.xyz (el «Sitio») los opera SIMNETIQ LTD («nosotros»), sociedad inscrita en Inglaterra y Gales. Actuamos como responsables del tratamiento de los datos personales descritos en esta política. Puedes escribirnos a {supportEmail}."
+        },
+        {
+          "type": "p",
+          "text": "Número de sociedad: {companyNumber}. Domicilio social: {registeredOffice}. Contacto: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Qué hace la Aplicación",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "La Aplicación ofrece números de teléfono virtuales temporales que pueden recibir códigos de verificación por SMS, para que te registres en servicios online sin compartir tu número de teléfono personal."
+        }
+      ]
+    },
+    {
+      "title": "3. Datos que recogemos",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Datos de la cuenta.** Un identificador de cuenta anónimo que se crea la primera vez que abres la Aplicación, y tu dirección de correo si decides facilitarla.",
+            "**Datos de compra.** Registros de los paquetes de monedas que compras. El pago lo procesa el Apple App Store: nosotros nunca vemos los datos de tu tarjeta.",
+            "**Datos de activación.** El servicio, el país, el número virtual y el texto de los SMS de verificación recibidos en ese número, conservados el tiempo necesario para entregarte el código y resolver disputas.",
+            "**Datos del dispositivo.** Dos cosas, y solo si te aplican. Si permites las notificaciones, el token push que se asigna a tu dispositivo, para avisarte de que ha llegado un código. Y el código de región de dos letras que informa tu dispositivo (por ejemplo *GB*), enviado con la lista de países para marcar uno como «Recomendado»: es un ajuste del dispositivo, no tu ubicación, y no interviene ningún permiso de localización.",
+            "**Datos de soporte.** Cuando contactas con soporte a través del Sitio o por correo, recogemos tu nombre, tu dirección de correo y el contenido de tu mensaje. Las solicitudes enviadas en el Sitio se guardan en nuestra base de datos (alojada en Supabase) y se procesan con nuestras herramientas de correo para poder responderte. También guardamos la cadena user-agent de tu navegador y un hash unidireccional con sal de tu dirección IP, para bloquear el abuso automatizado del formulario.",
+            "**Analítica del sitio web.** El Sitio usa Vercel Web Analytics, que cuenta las páginas vistas sin cookies y sin elaborarte un perfil en otros sitios. La Aplicación no incluye ningún SDK de analítica, publicidad o atribución."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Lo que deliberadamente no recogemos: tu propio número de teléfono, tus contactos, tu ubicación, identificadores publicitarios y cualquier telemetría de uso, fallos o diagnóstico desde dentro de la Aplicación. No hay SDK de analítica ni de informes de fallos en la Aplicación, así que no hay nada de ese tipo que enviar. Esto coincide con la etiqueta de privacidad del App Store para SMS Code."
+        }
+      ]
+    },
+    {
+      "title": "4. Cómo usamos tus datos",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Para darte números virtuales y entregarte códigos de verificación (ejecución de un contrato).",
+            "Para mantener tu saldo de monedas y restaurar compras entre dispositivos (ejecución de un contrato).",
+            "Para responder solicitudes de soporte (intereses legítimos / ejecución de un contrato).",
+            "Para detectar y prevenir fraude, abuso e incumplimientos de nuestros Términos del servicio (intereses legítimos).",
+            "Para mantener el Sitio en funcionamiento y entender qué páginas resultan útiles, con analítica web agregada y sin cookies (intereses legítimos)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "No vendemos tus datos personales ni los usamos para publicidad de terceros."
+        }
+      ]
+    },
+    {
+      "title": "5. Cesiones y encargados",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Usamos los siguientes proveedores para operar el servicio. Su función depende del servicio que prestan:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Supabase** — la base de datos y el backend de la Aplicación. Guarda todo lo descrito en la sección 3 que llega a almacenarse.",
+            "**Apple** — procesa cada compra dentro de la aplicación y gestiona Sign in with Apple si lo usas. Nunca vemos tus datos de pago.",
+            "**RevenueCat** — valida los recibos de compra e informa a nuestro backend de qué paquete de monedas compraste. Recibe el identificador de tu cuenta, los datos de compra e información básica del dispositivo.",
+            "**Expo** — entrega notificaciones push y actualizaciones de la Aplicación. Recibe tu token push y el texto de la notificación.",
+            "**Vercel** — aloja el Sitio y aporta su analítica.",
+            "**Nuestras herramientas de correo** — transportan la correspondencia de soporte.",
+            "**Nuestro proveedor de telefonía** — suministra los números virtuales. Solo se le envían el servicio y el país que pediste; no recibe ningún identificador tuyo, y no le enviamos el identificador de tu cuenta en la aplicación. El proveedor trata números y el contenido de los SMS para prestar el servicio."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Los proveedores que actúan como encargados del tratamiento deben estar sujetos a condiciones adecuadas de tratamiento de datos. No vendemos tus datos y no compartimos nada con anunciantes. También podemos comunicar datos cuando la ley lo exija."
+        }
+      ]
+    },
+    {
+      "title": "6. Transferencias internacionales",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Algunos proveedores están fuera del Reino Unido. Cuando los datos salen del Reino Unido o del Espacio Económico Europeo, la normativa aplicable de protección de datos exige una base de transferencia adecuada, como una decisión de adecuación o garantías contractuales. Escríbenos si quieres información sobre las garantías aplicables a tus datos."
+        }
+      ]
+    },
+    {
+      "title": "7. Conservación",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Datos de activación — 90 días.** El número alquilado y el texto de cualquier SMS recibido en él se borran en una limpieza diaria programada a los 90 días de la creación de la activación. Lo que queda después es un registro sin número y sin texto del mensaje: el servicio, el país, la fecha, el resultado y las monedas implicadas. Lo conservamos porque es el registro contable de las monedas que gastaste y la prueba que necesitamos si se impugna un pago.",
+            "**Datos de la cuenta — hasta que elimines tu cuenta.** Eliminar tu cuenta borra tu cuenta activa, tu dirección de correo y el historial de activaciones. Permanecen registros limitados, financieros y de prevención del fraude, como se describe más abajo y en la sección 9.",
+            "**Registros de compra — el tiempo que exija la ley.** Un registro financiero seudonimizado de cada compra — referencia de la transacción, paquete, importe, fecha y si después se reembolsó — se conserva el periodo que exigen la normativa fiscal y contable, y sobrevive a la eliminación de la cuenta. No contiene número de teléfono, texto del mensaje ni dirección de correo.",
+            "**Correspondencia de soporte — hasta 24 meses** después de cerrar la solicitud."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8. Tus derechos",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Según el UK GDPR y el EU GDPR tienes derecho a acceder a tus datos personales, rectificarlos, suprimirlos o recibir una copia, a limitar u oponerte a su tratamiento, y a retirar el consentimiento en cualquier momento cuando el tratamiento se base en el consentimiento. Para ejercer cualquiera de estos derechos, escribe a {supportEmail}. También puedes reclamar ante la Information Commissioner's Office del Reino Unido (ico.org.uk) o ante tu autoridad de control local."
+        }
+      ]
+    },
+    {
+      "title": "9. Eliminación de la cuenta y de los datos",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Puedes eliminar tu cuenta directamente en la Aplicación (Ajustes → Eliminar cuenta) o escribiéndonos. La eliminación quita el identificador de tu cuenta, tu dirección de correo, tu saldo de monedas y tu historial de activaciones, incluidos cada número alquilado y cada cuerpo de SMS que aún conservemos. No hace falta contactar con soporte y no se puede deshacer. Permanecen registros limitados, financieros y de prevención del fraude: referencias de transacciones de compra, el identificador anterior de la cuenta, actividad agregada y recuentos de monedas, faltantes por reembolso, marcas de tiempo y vínculos con hash del token del dispositivo. Sirven para la contabilidad, las disputas y para evitar el abuso repetido de reembolsos. No contienen números de teléfono de activaciones conservados, cuerpos de SMS ni el correo de la cuenta, pero están seudonimizados, no se garantiza que sean anónimos, y pueden vincularse a registros de compra o a otras cuentas que usen el mismo token de dispositivo."
+        }
+      ]
+    },
+    {
+      "title": "10. Menores",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "La Aplicación no se dirige a menores y está pensada para usuarios de 18 años o más. No recogemos datos de menores a sabiendas; si crees que un menor ha usado la Aplicación, escríbenos y borraremos los datos."
+        }
+      ]
+    },
+    {
+      "title": "11. Seguridad",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Los datos se cifran en tránsito, el acceso se limita al personal que lo necesita y nuestras bases de datos aplican controles de acceso por fila. Ningún sistema es perfectamente seguro, así que también reducimos al mínimo la cantidad de datos que guardamos."
+        }
+      ]
+    },
+    {
+      "title": "12. Cambios de esta política",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Podemos actualizar esta política de vez en cuando. Los cambios sustanciales se anunciarán en la Aplicación o en el Sitio, y la fecha de «Última actualización» de arriba refleja siempre la versión vigente."
+        }
+      ]
+    }
+  ]
+}

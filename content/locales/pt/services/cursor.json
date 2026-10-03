@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o Cursor — verifique a conta de dev",
+  "metaDescription": "Verifique o cadastro do Cursor com um número virtual real. O SMS chega em geral em segundos e o seu celular fica fora da conta de dev.",
+  "hero": {
+    "title": "Número virtual para o Cursor",
+    "intro": [
+      "O Cursor — o editor de código com IA — está na mesma esteira de toda ferramenta de desenvolvimento que entrega computação: níveis gratuitos atraem abuso, então os cadastros ganham uma porta. Junto com a confirmação por e-mail, o Cursor pode pedir para verificar um número de telefone por SMS antes de uma conta ou um teste ir ao ar, exatamente porque um celular que funciona é mais difícil de produzir em massa do que uma caixa de entrada.",
+      "O SMS Code aluga um número real em um de 100+ países. Quando o cadastro do Cursor pedir um telefone, digite o alugado — o código de seis dígitos aparece no aplicativo SMS Code em geral em segundos, e o seu número pessoal fica fora de mais um banco de SaaS."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o Cursor?",
+    "body": [
+      "Quem desenvolve acumula contas do jeito que uma bancada acumula chaves de fenda — editores, nuvens, APIs, serviços de CI — e cada um quer cada vez mais um número de telefone. Ligar o seu número pessoal a todos significa que todo vazamento de fornecedor, lista de marketing e grafo de vínculo de contas o inclui. Manter um número alugado entre as suas identidades de ferramenta de dev e a real é o mesmo instinto de usar um e-mail de trabalho: separação por padrão, com o seu número de verdade reservado a pessoas, não a plataformas.",
+      "Há também um uso técnico legítimo. Se você está construindo ou testando um fluxo de cadastro — do seu próprio produto, ou avaliando como o onboarding do Cursor se comporta para um usuário limpo — você precisa de um número real que de fato receba SMS, não do seu próprio número queimado numa conta de teste. Uma ativação alugada entrega exatamente isso: um número real que recebe, usado uma vez, sem gaveta de chips."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o Cursor com um número virtual",
+    "steps": [
+      {
+        "title": "Alugue um número no SMS Code",
+        "body": "Abra o aplicativo SMS Code, escolha Cursor como serviço e escolha um país — EUA, Alemanha ou Holanda são escolhas típicas para ferramentas de dev. O número fica reservado para você na hora."
+      },
+      {
+        "title": "Cadastre-se e digite o número",
+        "body": "Crie a sua conta do Cursor com um e-mail que você controla. Quando o fluxo pedir para verificar um número de telefone, digite o alugado com o código do país correspondente."
+      },
+      {
+        "title": "Digite o código do SMS Code",
+        "body": "O SMS chega no aplicativo SMS Code em geral em segundos — “Your Cursor verification code is 812750”. Cole os seis dígitos no campo de verificação do Cursor e você passa."
+      },
+      {
+        "title": "Proteja a própria conta",
+        "body": "Termine com o básico: uma senha forte e única e um e-mail confirmado. O acesso do dia a dia do Cursor roda nisso, não em SMS — a checagem de telefone foi uma porta única, não recorrente."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Deixe o cadastro aberto antes de alugar",
+      "body": "Códigos de verificação duram pouco e a janela da ativação é finita. Coloque a tela de verificação de telefone do Cursor na sua frente primeiro, depois alugue o número e peça o código — o SMS chega em geral em segundos quando você está pronto para ele."
+    },
+    {
+      "title": "O e-mail é a conta; o telefone é a porta",
+      "body": "O Cursor identifica você pelo acesso de e-mail, e questões de licença ou assinatura passam por ele. Use uma caixa que você vai manter, e a conta sobrevive à janela da ativação do número alugado sem tropeço."
+    },
+    {
+      "title": "Uma conta, dentro das regras",
+      "body": "Portas de telefone existem porque níveis gratuitos são cultivados em massa. Use um número virtual para manter o seu número pessoal privado na sua conta genuína — não para empilhar contas de teste, o que viola os termos do Cursor e tende a terminar em contas banidas."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "O Cursor sempre pede um número de telefone?",
+      "a": "Não necessariamente — como muitas ferramentas de dev, o Cursor aplica a verificação por telefone de forma seletiva, muitas vezes conforme os sinais do cadastro e a pressão de abuso. Se e quando o aviso aparecer, um número virtual alugado satisfaz em geral em segundos."
+    },
+    {
+      "q": "A minha conta do Cursor continua depois que o número expira?",
+      "a": "Sim. A checagem de SMS acontece no cadastro; depois você entra com e-mail e senha. A janela da ativação do número alugado terminar não muda nada numa conta que você já usa."
+    },
+    {
+      "q": "Dá para usar um número virtual para testar o fluxo de cadastro por SMS do meu próprio produto?",
+      "a": "Dá — esse é um padrão de desenvolvimento de fato útil. Um número alugado é um número real que recebe, numa operadora real, então você percorre um fluxo de OTP de ponta a ponta como um usuário novo, sem queimar o seu número pessoal numa conta de teste."
+    },
+    {
+      "q": "Por que o código de verificação do Cursor não chegou?",
+      "a": "Na maior parte das vezes é um código de país que não combina, ou o serviço recusou aquela faixa de números. Cancele a ativação no SMS Code — sem SMS, as moedas voltam para o seu saldo — e tente de novo com outro número ou país."
+    },
+    {
+      "q": "É permitido verificar o Cursor com um número virtual?",
+      "a": "A checagem confirma que você controla um número real, e um alugado é exatamente isso. O que importa é o que você faz depois: uma conta genuína usada dentro dos termos do Cursor está bem; cultivar vários testes gratuitos não está, com número virtual ou sem."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { localePath, type Locale } from "../lib/i18n";
 import { breadcrumbList } from "../lib/seo";
+import { ui } from "../lib/content/ui";
 import { JsonLd } from "./JsonLd";
 
 /** Visible breadcrumb trail + matching BreadcrumbList JSON-LD, so the two can
@@ -14,7 +15,7 @@ export function Breadcrumbs({
   crumbs: ReadonlyArray<{ name: string; path: string }>;
 }) {
   return (
-    <nav aria-label="Breadcrumb" className="mb-8">
+    <nav aria-label={ui(locale).a11y.breadcrumb} className="mb-8">
       <JsonLd data={breadcrumbList(locale, crumbs)} />
       <ol className="flex flex-wrap items-center gap-2 text-label text-muted">
         {crumbs.map(({ name, path }, i) => {

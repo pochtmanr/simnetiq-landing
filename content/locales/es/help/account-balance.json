@@ -1,0 +1,26 @@
+{
+  "title": "Conserva tu saldo, recupera el acceso y elimina la cuenta",
+  "metaDescription": "Conserva el saldo de monedas de SMS Code entre dispositivos, recupera el acceso a tu cuenta y elimínala sin perder monedas ni opciones de reembolso.",
+  "sections": [
+    {
+      "title": "Inicia sesión antes de reinstalar",
+      "paragraphs": [
+        "Las monedas pertenecen a tu cuenta de SMS Code. Inicia sesión con Apple, Google o un código por correo mientras aún tienes acceso al saldo, y usa el mismo acceso en otro dispositivo. Tu cuenta de compras de Apple y tu inicio de sesión en SMS Code son cosas distintas.",
+        "Reinstalar usando una cuenta anónima puede crear una cuenta diferente. Restaurar compras del App Store no reconstruye por sí solo el saldo de monedas de una cuenta anónima. Si perdiste el acceso, escribe a soporte con tu ID de pedido de Apple y los datos de cuenta que aún tengas; recuperar exige verificación."
+      ]
+    },
+    {
+      "title": "Antes de eliminar una cuenta",
+      "paragraphs": [
+        "Eliminar la cuenta y pedir el reembolso del pago son acciones distintas. Guarda los datos de compra que necesites, cierra cualquier activación pendiente y consulta a soporte por las monedas que queden antes de eliminar. El reembolso del pago de Apple se pide aparte.",
+        "Usa la opción de eliminar cuenta en los ajustes de la aplicación. Si no puedes llegar a ella, escribe a soporte. Eliminar no cancela un pago de Apple, y los registros necesarios por obligaciones legales o para gestionar disputas pueden conservarse como describe nuestra Política de privacidad."
+      ]
+    },
+    {
+      "title": "Escríbenos con cuidado",
+      "paragraphs": [
+        "Usa el formulario de soporte o support@simnetiq.com. Envía el servicio, el país, la hora y los identificadores de activación o de pedido, pero nunca una contraseña, un código de verificación ni los datos completos de una tarjeta. Revisa las capturas por si llevan información sensible antes de compartirlas."
+      ]
+    }
+  ]
+}

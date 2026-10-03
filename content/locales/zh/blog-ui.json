@@ -1,0 +1,25 @@
+{
+  "breadcrumbHome": "首页",
+  "breadcrumb": "博客",
+  "metaTitle": "博客：虚拟号码、隐私与接码",
+  "metaDescription": "关于虚拟号码、在线接收短信，以及如何不把真实手机号交出去的实用指南，由 SMS Code 团队撰写。",
+  "label": "博客",
+  "title": "给在意自己号码的人的指南",
+  "sub": "实用、说实话的文章：验证实际怎么进行，按服务拆开讲，以及怎样让个人手机号不参与进去。",
+  "published": "发布于",
+  "updated": "更新于",
+  "ctaTitle": "下一次注册就用上",
+  "ctaBody": "拿一个号码，看验证码通常在几秒内到达。",
+  "readMore": "阅读指南",
+  "tags": {
+    "guide": "指南",
+    "privacy": "隐私",
+    "esim": "eSIM",
+    "google": "Google",
+    "dating": "交友",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "how-to": "教程",
+    "basics": "入门"
+  }
+}

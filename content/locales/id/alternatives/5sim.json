@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternatif 5SIM — aplikasi SMS Code oleh SIMNETIQ",
+    "metaDescription": "Bandingkan 5SIM dengan aplikasi SMS Code oleh SIMNETIQ: platform web dan API versus paket koin sekali beli dan batal gratis.",
+  "hero": {
+    "title": "Alternatif 5SIM yang dibangun sebagai aplikasi seluler asli",
+    "intro": [
+      "5SIM adalah platform web yang mapan untuk menerima kode verifikasi SMS: Anda mengisi saldo, membeli nomor untuk layanan yang dibutuhkan, dan membaca kode di dasbor. Beranda mereka menawarkan pemakaian grosir dan eceran, dengan API untuk otomasi dan katalog yang situs mereka gambarkan mencakup lebih dari 180 negara dan lebih dari seribu layanan.",
+      "SMS Code oleh SIMNETIQ mendekati tugas yang sama dari sisi konsumen. Ini aplikasi iOS asli: pilih layanan dan negara, dapatkan nomor asli, dan kode masuk ke aplikasi biasanya dalam hitungan detik. Anda membayar dengan paket koin sekali beli melalui penagihan Apple — tanpa dompet web, tanpa langganan — dan aktivasi yang tidak pernah menerima SMS dibatalkan gratis."
+    ]
+  },
+  "whenThem": {
+    "title": "Kapan 5SIM adalah pilihan yang lebih baik",
+    "body": "Pilih 5SIM jika volume atau otomasi adalah intinya. Platform mereka ditujukan kepada webmaster, spesialis SMM, dan pengusaha yang membeli nomor dalam jumlah, dan API membiarkan Anda men-skrip seluruh siklus — beli, jajak SMS, lanjut. Katalognya juga lebih besar: jika Anda membutuhkan layanan yang tidak umum atau kombinasi negara yang tidak biasa, platform seluas itu lebih mungkin memilikinya daripada aplikasi konsumen yang dikurasi."
+  },
+  "whenUs": {
+    "title": "Kapan aplikasi SMS Code lebih cocok",
+    "body": "Pilih aplikasi jika Anda memverifikasi akun untuk diri sendiri, bukan ratusan. Tidak ada saldo yang harus diisi lebih dulu dan tidak ada dasbor yang dinavigasi di layar telepon: seluruh alur — layanan, negara, nomor, kode — adalah pengalaman seluler asli yang dipasang dari App Store. Paket koin sekali beli berarti Anda membayar per aktivasi dengan penagihan toko (detail kartu Anda tidak pernah sampai kepada kami), cakupan mencapai 100+ negara dan 100+ layanan populer, dan aktivasi yang tidak diterima dibatalkan gratis secara otomatis."
+  },
+  "comparison": {
+    "title": "5SIM vs aplikasi SMS Code, berdampingan",
+    "rows": [
+      {
+        "label": "Platform",
+        "competitor": "Platform web dengan API untuk pembelian otomatis",
+        "us": "Aplikasi iOS asli dari App Store"
+      },
+      {
+        "label": "Model harga",
+        "competitor": "Bayar per nomor dari saldo dompet yang diisi",
+        "us": "Paket koin sekali beli, bayar per aktivasi — tanpa langganan"
+      },
+      {
+        "label": "Pembayaran",
+        "competitor": "Isi dompet di web dengan metode yang tercantum di situs mereka",
+        "us": "Penagihan toko Apple — tidak ada detail kartu yang dibagikan kepada kami"
+      },
+      {
+        "label": "Cakupan",
+        "competitor": "Situs mereka mengklaim 180+ negara dan katalog 1.000+ layanan",
+        "us": "100+ negara dan 100+ layanan populer, dikurasi untuk pendaftaran sehari-hari"
+      },
+      {
+        "label": "Pembatalan",
+        "competitor": "Diatur aturan pengembalian dana mereka sendiri — periksa ketentuan terkini",
+        "us": "Aktivasi yang tidak menerima SMS dibatalkan gratis, koin kembali"
+      },
+      {
+        "label": "Dukungan",
+        "competitor": "Situs mereka mengiklankan dukungan 24/7",
+        "us": "Formulir kontak di aplikasi dan situs"
+      },
+      {
+        "label": "Paling cocok untuk",
+        "competitor": "Pembeli massal dan pengembang yang men-skrip verifikasi lewat API",
+        "us": "Individu yang menginginkan aplikasi seluler yang bersih untuk verifikasi sesekali"
+      }
+    ],
+    "note": "Detail pesaing mencerminkan situs publik mereka saat tulisan ini dibuat dan dapat berubah — selalu konfirmasi di 5sim.net sebelum memutuskan."
+  },
+  "switchSteps": {
+    "title": "Mencoba aplikasi memakan tiga langkah",
+    "steps": [
+      {
+        "title": "Pasang aplikasinya",
+        "body": "Dapatkan SMS Code oleh SIMNETIQ dari App Store — tidak perlu akun web atau penyiapan dompet."
+      },
+      {
+        "title": "Ambil paket koin",
+        "body": "Beli paket sekali lewat akun toko Anda. Tidak ada saldo yang diisi lebih dulu di situs; Anda membelanjakan koin hanya saat mengaktifkan nomor."
+      },
+      {
+        "title": "Jalankan aktivasi pertama",
+        "body": "Pilih layanan dan negara, dapatkan nomor asli, dan lihat kode masuk ke aplikasi biasanya dalam hitungan detik. Jika tidak ada yang masuk, aktivasi dibatalkan gratis."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Apa beda aplikasi SMS Code dengan 5SIM?",
+      "a": "5SIM adalah platform web dengan saldo dompet dan API, berorientasi pada pembeli volume. Aplikasi SMS Code oleh SIMNETIQ adalah aplikasi seluler asli untuk individu: paket koin sekali beli lewat penagihan toko, beberapa ketukan per aktivasi, dan pembatalan gratis saat SMS tidak masuk."
+    },
+    {
+      "q": "Apakah aplikasi punya API seperti 5SIM?",
+      "a": "Tidak. Aplikasi sengaja menjadi produk konsumen — jika Anda perlu membeli nomor secara terprogram, API 5SIM adalah alat yang lebih baik. Jika Anda membutuhkan kode sesekali, aplikasi adalah jalur yang lebih pendek."
+    },
+    {
+      "q": "Apakah saya harus mengisi saldo lebih dulu?",
+      "a": "Anda membeli paket koin sekali beli melalui penagihan Apple dan membelanjakannya per aktivasi. Tidak ada dompet web yang harus terus diisi dan tidak ada langganan."
+    },
+    {
+      "q": "Bagaimana jika kode verifikasi tidak pernah masuk?",
+      "a": "Aktivasi dibatalkan dan koin Anda dikembalikan secara otomatis. Anda hanya membayar nomor yang benar-benar menerima SMS."
+    },
+    {
+      "q": "Apakah daftar negara 5SIM lebih besar daripada aplikasi?",
+      "a": "Menurut beranda mereka sendiri, ya — situs mereka mengklaim 180+ negara dibanding 100+ pada aplikasi. Daftar aplikasi dikurasi di sekitar negara yang berfungsi andal untuk layanan populer; jika Anda membutuhkan sesuatu yang eksotis, katalog yang lebih besar mungkin lebih cocok."
+    }
+  ]
+}

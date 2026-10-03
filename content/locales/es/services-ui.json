@@ -1,0 +1,41 @@
+{
+  "breadcrumbHome": "Inicio",
+  "breadcrumbHub": "Números virtuales",
+  "heroLabel": "Números virtuales",
+  "step": "Paso",
+  "tipsLabel": "Conviene saber",
+  "tipsTitle": "Antes de verificar",
+  "faqLabel": "Preguntas",
+  "countriesLabel": "Países habituales para este servicio",
+  "relatedLabel": "Servicios relacionados",
+  "relatedTitle": "También se verifica",
+  "ctaTitle": "El número y el código, en menos de un minuto",
+  "ctaSupport": "¿Dudas? Habla con soporte",
+  "hub": {
+    "metaTitle": "Números virtuales para verificación por SMS",
+    "metaDescription": "Alquila un número virtual real para Telegram, WhatsApp, Google e Instagram. Recibe códigos SMS normalmente en segundos, sin SIM ni suscripción.",
+    "label": "Cobertura",
+    "title": "A un número de cualquier registro",
+    "sub": "Elige el servicio en el que te vas a registrar. Cada guía explica el flujo real de verificación, los tropiezos y las preguntas que la gente hace de verdad.",
+    "allNote": "Añadimos servicios con frecuencia: la propia aplicación admite 100+ servicios en 100+ países."
+  },
+  "categories": {
+    "messaging": "Mensajería",
+    "social": "Redes sociales",
+    "finance": "Finanzas",
+    "shopping": "Compras",
+    "travel": "Viajes y transporte",
+    "entertainment": "Entretenimiento",
+    "dev": "Herramientas para desarrolladores",
+    "other": "Cuentas y plataformas"
+  },
+  "country": {
+    "hubLabel": "Por país",
+    "hubTitle": "Números por país",
+    "dialingCode": "Prefijo",
+    "numberFormat": "Formato del número",
+    "servicesLabel": "Suele verificarse con este país",
+    "allCountries": "Todos los países",
+    "breadcrumb": "Países"
+  }
+}

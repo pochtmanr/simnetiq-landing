@@ -1,0 +1,99 @@
+{
+  "metaTitle": "SMS-Man alternatifi — SMS Code, SIMNETIQ",
+  "metaDescription": "SMS-Man ile SIMNETIQ’ten SMS Code’u karşılaştırın: çok yöntemli web yüklemesi, App Store’dan faturalanan yerel iOS uygulaması.",
+  "hero": {
+    "title": "Uygulama mağazanız üzerinden faturalanan bir SMS-Man alternatifi",
+    "intro": [
+      "SMS-Man, sanal numaralarda SMS doğrulama kodu almak için uzun süredir çalışan bir web hizmetidir. Sitelerine kaydolursunuz, hesap bakiyesi yüklersiniz — hizmetin herkese açık tarifleri banka kartlarından e-ödeme sistemlerine ve kripto paraya kadar geniş bir yöntem yelpazesinden söz eder — ve etkinleştirme başına numara alırsınız; otomatik iş akışları için bir API vardır.",
+      "SIMNETIQ’ten SMS Code o esnekliği daha basit bir güven modeliyle değiştirir. Ödemenin tamamen Apple faturalamasıyla olduğu yerel bir iOS uygulamasıdır: herhangi bir uygulama içi satın alma gibi tek seferlik bir jeton paketi alırsınız ve hiçbir kart numarası, cüzdan adresi veya ödeme kimliği bizimle paylaşılmaz. Servis ve ülke seçin, kod uygulamada genellikle saniyeler içinde gelir."
+    ]
+  },
+  "whenThem": {
+    "title": "SMS-Man ne zaman daha iyi seçimdir",
+    "body": "Nasıl ödediğiniz ne aldığınız kadar önemliyse SMS-Man’i seçin. Birçok yükleme yolu kabul eden bir web hizmeti — mağaza faturalamasının basitçe sunmadığı kripto para gibi seçenekler dahil — tercih ettiği ödeme yöntemi Apple ve Google raylarının dışında kalan kullanıcılara uyar. API’leri doğrulamayı hacimde otomatikleştiren geliştiricilere de hizmet eder ve ülke ile servis katalogları o daha geniş, daha ağır kullanıma yönelik anlatılır."
+  },
+  "whenUs": {
+    "title": "SMS Code uygulaması ne zaman daha iyi uyar",
+    "body": "Ödeme ayrıntılarını niş bir siteye hiç vermek istemiyorsanız uygulamayı seçin. Mağaza faturalaması bütün meseledir: ücreti Apple işler, kartınızı hiç görmeyiz ve satın alma olağan korumalarıyla normal mağaza geçmişinizde durur. Üstüne yerel uygulama deneyimini alırsınız — servisten koda birkaç dokunuş, 100+ ülke, 100+ popüler servis, aboneliksiz tek seferlik jeton paketleri ve bir etkinleştirme SMS almadığında ücretsiz iptal."
+  },
+  "comparison": {
+    "title": "SMS-Man ve SMS Code uygulaması, yan yana",
+    "rows": [
+      {
+        "label": "Platformlar",
+        "competitor": "Otomasyon için API’si olan web hizmeti",
+        "us": "App Store’dan yerel iOS uygulaması"
+      },
+      {
+        "label": "Fiyat modeli",
+        "competitor": "Yüklenmiş hesap bakiyesinden etkinleştirme başına ödeme",
+        "us": "Tek seferlik jeton paketleri, etkinleştirme başına ödeme — abonelik yok"
+      },
+      {
+        "label": "Ödeme",
+        "competitor": "Herkese açık tariflere göre kartlar, e-ödemeler ve kripto dahil birçok yöntemle bakiye yükleme",
+        "us": "Yalnızca Apple mağaza faturalaması — ödeme ayrıntıları bizimle paylaşılmaz"
+      },
+      {
+        "label": "Kapsam",
+        "competitor": "Ağır kullanıma yönelik geniş bir ülke ve servis kataloğu",
+        "us": "Gündelik kayıtlar için seçilmiş 100+ ülke ve 100+ popüler servis"
+      },
+      {
+        "label": "İptal",
+        "competitor": "Kendi iade kurallarına tabidir — güncel koşullarına bakın",
+        "us": "SMS almayan etkinleştirmeler ücretsiz iptal olur, jetonlar döner"
+      },
+      {
+        "label": "Destek",
+        "competitor": "Web siteleri üzerinden destek kanalları",
+        "us": "Uygulama içi ve site iletişim formu"
+      },
+      {
+        "label": "En uygun",
+        "competitor": "Esnek ödeme yolları veya API ile hacim gereken kullanıcılar",
+        "us": "Mağaza faturalı sadelik ve yerel mobil uygulama isteyen kişiler"
+      }
+    ],
+    "note": "Rakip ayrıntıları yazıldığı tarihteki hizmetin herkese açık tariflerini yansıtır ve değişebilir — karar vermeden önce her zaman sms-man.com üzerinde doğrulayın."
+  },
+  "switchSteps": {
+    "title": "Uygulamayı denemek üç adım sürer",
+    "steps": [
+      {
+        "title": "Uygulamayı kurun",
+        "body": "SMS Code’u SIMNETIQ’ten App Store’dan alın — site kaydı veya bakiye yükleme söz konusu değildir."
+      },
+      {
+        "title": "Bir jeton paketi alın",
+        "body": "App Store hesabınız üzerinden tek seferlik bir paket alın. Ödemeyi Apple yürütür; kart ayrıntılarınız bize hiç ulaşmaz."
+      },
+      {
+        "title": "İlk etkinleştirmenizi çalıştırın",
+        "body": "Bir servis ve ülke seçin, gerçek bir numara alın ve kodun uygulamada genellikle saniyeler içinde geldiğini izleyin. Hiçbir şey gelmezse etkinleştirme ücretsiz iptal olur."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "SMS Code uygulamasında ödeme SMS-Man’den nasıl ayrılır?",
+      "a": "SMS-Man çoğu web hizmeti gibi çalışır: kabul ettikleri yöntemlerden biriyle site bakiyesi yüklersiniz. Uygulamada ödeme yalnızca Apple faturalamasından geçer — normal bir uygulama içi satın alma — bu yüzden hiçbir kart numarası veya ödeme kimliği bizimle paylaşılmaz."
+    },
+    {
+      "q": "Uygulamada kripto parayla ödeyebilir miyim?",
+      "a": "Hayır. Mağaza faturalaması kriptoyu desteklemez ve uygulama App Store dışında ödeme kabul etmez. Kripto bir koşulsa böyle seçenekler listeleyen SMS-Man gibi bir web hizmeti daha iyi uyar."
+    },
+    {
+      "q": "Abonelik veya yinelenen ücret var mı?",
+      "a": "Hayır. Jeton paketleri tek seferlik satın almadır; etkinleştirme başına jeton harcarsınız ve başka bir paketi yalnızca siz seçtiğinizde alırsınız."
+    },
+    {
+      "q": "Kodum hiç gelmezse ne olur?",
+      "a": "Etkinleştirme iptal olur ve jetonlarınız döner. Yalnızca gerçekten SMS alan numaralar için ödersiniz."
+    },
+    {
+      "q": "Uygulamanın SMS-Man gibi bir API’si var mı?",
+      "a": "Hayır — uygulama hesapları elle doğrulamak için bir tüketici ürünüdür, betikli kayıt için bir platform değil. Numaralara programatik erişim gerekiyorsa SMS-Man’in API’si o kullanım durumuna hizmet eder."
+    }
+  ]
+}

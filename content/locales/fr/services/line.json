@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour LINE",
+  "metaDescription": "Louez un vrai numéro virtuel pour LINE. Inscrivez-vous sans votre numéro personnel — le code SMS arrive dans SMS Code généralement en quelques secondes.",
+  "hero": {
+    "title": "Numéro virtuel pour LINE",
+    "intro": [
+      "Si vos amis, votre famille ou vos collègues sont au Japon, à Taïwan, en Thaïlande ou en Indonésie, tôt ou tard quelqu’un dira «\u00a0ajoute-moi sur LINE\u00a0». L’app est la messagerie par défaut dans une grande part de l’Asie — et elle ne vous laisse pas entrer sans un numéro de téléphone, qu’elle vérifie par SMS avant même que vous puissiez définir un nom d’affichage.",
+      "SMS Code vous donne un vrai numéro de l’un de plus de 100 pays. Saisissez-le sur l’écran d’inscription de LINE, et le code de vérification à quatre chiffres apparaît dans l’app SMS Code généralement en quelques secondes — votre propre numéro en reste entièrement dehors."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour LINE\u00a0?",
+    "body": [
+      "LINE traite le numéro de téléphone comme votre identité\u00a0: c’est ainsi que vous vous inscrivez, que des amis peuvent vous chercher, et ce sur quoi le compte se rabat. Si vous n’avez besoin de LINE que pour rester en contact avec des gens en Asie — ou parce qu’un jeu ou un service que vous utilisez verrouille sa connexion derrière un compte LINE — remettre votre numéro personnel est beaucoup demander pour ce qui peut être une app d’usage occasionnel. Un numéro virtuel garde le compte pleinement fonctionnel pendant que votre vrai numéro reste privé.",
+      "Cela résout aussi un problème pratique\u00a0: LINE lie un compte à un numéro, donc quiconque veut un profil séparé — par exemple pour une communauté de loisir ou un jeu asiatique qui exige une connexion LINE — a besoin d’un second numéro. En louer un pour une seule activation est bien plus simple que de garder une SIM de réserve en vie juste pour une messagerie."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier LINE avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Louez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, choisissez LINE comme service et un pays — l’Indonésie et les Philippines sont des choix courants, puisque LINE y est largement utilisé. Un toucher réserve un vrai numéro mobile pour vous."
+      },
+      {
+        "title": "Commencez l’inscription LINE avec ce numéro",
+        "body": "Dans LINE, choisissez «\u00a0S’inscrire\u00a0», sélectionnez le même pays que votre numéro loué et tapez-le. LINE propose de vérifier par SMS — acceptez cette option plutôt qu’un appel vocal."
+      },
+      {
+        "title": "Saisissez le code depuis SMS Code",
+        "body": "Le message arrive dans l’app SMS Code, en général en quelques secondes\u00a0: «\u00a0Your verification code is 4820. Enter it in LINE within the next 30 mins.\u00a0» Tapez les quatre chiffres dans LINE avant qu’ils expirent."
+      },
+      {
+        "title": "Configurez un e-mail et un mot de passe",
+        "body": "Une fois dedans, allez dans Paramètres → Compte et enregistrez une adresse e-mail avec un mot de passe. Cela devient votre connexion indépendante pour déplacer LINE sur un nouveau téléphone plus tard, afin que le compte ne dépende jamais de la réception d’un autre SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Le code a un minuteur",
+      "body": "Les codes SMS de LINE expirent — le message lui-même dit en combien de minutes. Ne louez pas le numéro pour vous éloigner\u00a0: ayez l’écran d’inscription LINE ouvert et prêt avant de demander le code, puis saisissez-le dès qu’il arrive dans SMS Code."
+    },
+    {
+      "title": "Enregistrez un e-mail tout de suite",
+      "body": "LINE lie l’historique des discussions et les transferts de compte à l’e-mail et au mot de passe enregistrés, pas seulement au numéro. Ajoutez-les juste après l’inscription dans Paramètres → Compte — c’est l’étape la plus importante pour garder le compte utilisable longtemps après la fermeture de la fenêtre d’activation du numéro loué."
+    },
+    {
+      "title": "Désactivez «\u00a0Autoriser les autres à m’ajouter par numéro\u00a0»",
+      "body": "Dans les réglages Amis de LINE, désactivez l’option qui laisse les gens vous ajouter par recherche de numéro. Avec un numéro virtuel, personne ne trouvera de toute façon votre identité réelle, mais le couper empêche aussi des inconnus qui parcourent des numéros d’atterrir dans vos demandes d’amis."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "LINE fonctionne-t-il hors d’Asie avec un numéro virtuel\u00a0?",
+      "a": "Oui. LINE est disponible dans le monde entier\u00a0; il est simplement le plus populaire au Japon, à Taïwan, en Thaïlande et en Indonésie. Vous pouvez vous inscrire avec un numéro de n’importe quel pays pris en charge et discuter avec des contacts partout — le pays du numéro ne restreint pas à qui vous pouvez parler."
+    },
+    {
+      "q": "Puis-je utiliser un compte LINE créé ainsi pour me connecter à des jeux\u00a0?",
+      "a": "Oui. Beaucoup de jeux et de services en Asie proposent «\u00a0Se connecter avec LINE\u00a0». Une fois votre compte LINE vérifié et un e-mail et un mot de passe enregistrés, il fonctionne comme méthode de connexion comme n’importe quel autre compte LINE."
+    },
+    {
+      "q": "Mon compte LINE survivra-t-il après l’expiration du numéro loué\u00a0?",
+      "a": "Le numéro est contrôlé à l’inscription, pas à chaque lancement. Restez connecté et — c’est crucial — enregistrez un e-mail et un mot de passe dans Paramètres → Compte. Avec cela, vous pouvez même transférer le compte sur un nouveau téléphone sans recevoir un autre SMS sur l’ancien numéro."
+    },
+    {
+      "q": "Pourquoi mon code de vérification LINE n’est-il pas arrivé\u00a0?",
+      "a": "Le plus souvent, le pays sélectionné dans LINE ne correspond pas au numéro loué, ou LINE est passé à une vérification par appel vocal, à laquelle un numéro SMS loué ne peut pas répondre. Annulez l’activation dans SMS Code — rien n’est facturé quand aucun SMS n’arrive — puis prenez un numéro neuf et assurez-vous que le SMS est la méthode choisie."
+    },
+    {
+      "q": "Puis-je avoir deux comptes LINE sur un téléphone\u00a0?",
+      "a": "L’app LINE tient un compte par appareil, donc un second compte a besoin soit d’un second appareil, soit des outils professionnels de LINE. Ce qu’un numéro virtuel résout, c’est le côté numéro\u00a0: chaque compte doit être lié à son propre numéro, et en louer un évite d’acheter une SIM supplémentaire."
+    }
+  ]
+}

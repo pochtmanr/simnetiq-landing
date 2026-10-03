@@ -63,10 +63,11 @@
   --color-bad-soft: #fbe7e5;
 
   /* Typography */
-  --font-sans: var(--font-golos), ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-display: var(--font-unbounded), var(--font-golos), ui-sans-serif,
-    system-ui, sans-serif;
+  --font-sans: var(--font-golos), var(--font-script, ui-sans-serif),
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  --font-display: var(--font-unbounded), var(--font-golos),
+    var(--font-script, ui-sans-serif), ui-sans-serif, system-ui, sans-serif;
 
   --text-caption: 11px;
   --text-caption--line-height: 1.5;
@@ -271,6 +272,16 @@
 
   .blue-link--ink:hover {
     border-bottom-color: var(--color-accent);
+  }
+
+  /* Same link on a painted card (.media-card): white on the navy scrim. */
+  .blue-link--white {
+    color: #ffffff;
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .blue-link--white:hover {
+    border-bottom-color: #ffffff;
   }
 
   /* Ghost Link: unstyled, underline on hover */
@@ -519,6 +530,1057 @@
   }
   html {
     scroll-behavior: auto;
+  }
+}
+
+/* --- Page frame ----------------------------------------------------------
+   The site reads as cards on a grey desk. The rounding lives on the cards
+   themselves, so corners show only where a card starts or ends and scroll
+   with it. The page is a sheet inset from the desk edge; at the bottom it
+   lifts away to reveal the footer, an ink card sitting underneath. */
+
+.site-body {
+  --frame: 12px;
+  --frame-r: 28px;
+  /* The desk: a cool mid grey on the canvas's hue, dark enough that every
+     card on it (canvas sheet, ink, blue) reads as a separate surface. */
+  --desk: #dce0e6;
+  background: var(--desk);
+}
+
+@media (max-width: 640px) {
+  .site-body {
+    --frame: 6px;
+    --frame-r: 20px;
+  }
+}
+
+.page-sheet {
+  position: relative;
+  z-index: 1;
+  margin: var(--frame) var(--frame) 0;
+  border-radius: var(--frame-r);
+  background: var(--color-canvas);
+  /* clip, not hidden: rounds the full-bleed bands at the bottom edge without
+     making the sheet a scroll container, so the sticky nav keeps working. */
+  overflow: clip;
+  /* Lets .sheet-cut size itself to the sheet exactly (cqw), scrollbar or not. */
+  container-type: inline-size;
+}
+
+/* A section cut out of the sheet: a strip of desk above and below, and the
+   section as its own rounded card between. The pseudo-elements are the
+   canvas's corners on either side of the cut — desk outside a quarter
+   circle — so the sheet above ends, and the one below starts, rounded. */
+.sheet-cut {
+  position: relative;
+  width: 100cqw;
+  margin-inline: calc(50% - 50cqw);
+  padding-block: var(--frame);
+  background: var(--desk);
+}
+
+.sheet-cut::before,
+.sheet-cut::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  height: var(--frame-r);
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: var(--frame-r) var(--frame-r);
+  background-position: left top, right top;
+}
+
+.sheet-cut::before {
+  bottom: 100%;
+  background-image:
+    radial-gradient(circle at 100% 0, transparent calc(var(--frame-r) - 0.5px), var(--desk) var(--frame-r)),
+    radial-gradient(circle at 0 0, transparent calc(var(--frame-r) - 0.5px), var(--desk) var(--frame-r));
+}
+
+.sheet-cut::after {
+  top: 100%;
+  background-image:
+    radial-gradient(circle at 100% 100%, transparent calc(var(--frame-r) - 0.5px), var(--desk) var(--frame-r)),
+    radial-gradient(circle at 0 100%, transparent calc(var(--frame-r) - 0.5px), var(--desk) var(--frame-r));
+}
+
+/* The last card ends the sheet itself, so nothing follows it. */
+.sheet-cut--end {
+  padding-bottom: 0;
+}
+
+.sheet-cut--end::after {
+  display: none;
+}
+
+.sheet-cut__card {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--frame-r);
+}
+
+/* The footer is a card on the desk too, the same ink as the showcase. */
+.site-body > .site-footer {
+  margin: var(--frame);
+  border-radius: var(--frame-r);
+}
+
+/* Footer reveal: pinned to the viewport bottom underneath the sheet, so the
+   sheet's rounded end slides up off it. Only where the whole footer fits on
+   screen — otherwise part of it could never be reached. */
+@media (min-width: 768px) and (min-height: 760px) {
+  .site-body > .site-footer {
+    position: sticky;
+    bottom: var(--frame);
+    z-index: 0;
+  }
+}
+
+/* --- Inside the app + download ------------------------------------------- */
+
+/* Phones: a swipeable strip on small screens, a staggered row of four on
+   wider ones that runs off the card's bottom edge. */
+.showcase-row {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  margin-inline: calc(-1 * clamp(20px, 4vw, 34px));
+  padding: 0 clamp(20px, 4vw, 34px) 44px;
+}
+
+.showcase-row::-webkit-scrollbar {
+  display: none;
+}
+
+.showcase-shot {
+  flex: 0 0 62%;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.showcase-shot img {
+  transition: transform 450ms cubic-bezier(0.2, 0.8, 0.25, 1);
+}
+
+@media (min-width: 768px) {
+  .showcase-row {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: clamp(18px, 2.4vw, 34px);
+    overflow: visible;
+    margin-inline: 0;
+    padding: 0;
+    margin-bottom: calc(-1 * clamp(90px, 10vw, 150px));
+  }
+
+  /* The stagger: every other phone stands a step lower. */
+  .showcase-shot:nth-child(even) {
+    margin-top: clamp(32px, 4vw, 64px);
+  }
+
+  @media (hover: hover) {
+    .showcase-shot:hover img {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+/* Download card's phones, like the showcase carousel's next slide: the dark
+   phone in front, the light one tucked behind it and peeking out from the
+   inline-end side, a step smaller and lower. Both are cropped by the card's
+   bottom edge so they read as rising out of it. */
+.download-devices {
+  position: relative;
+  justify-self: center;
+  align-self: end;
+  width: min(440px, 100%);
+  height: clamp(280px, 32vw, 440px);
+}
+
+/* Crop only the bottom edge: overflow: hidden would also slice the drop
+   shadow along the other three sides and draw a box around the phone. */
+.download-device {
+  position: absolute;
+  bottom: 0;
+  clip-path: inset(-80px -80px 0 -80px);
+}
+
+.download-device--front {
+  z-index: 1;
+  inset-inline-start: 4%;
+  width: 64%;
+  height: 100%;
+}
+
+.download-device--front img {
+  filter: drop-shadow(0 18px 40px rgba(8, 30, 74, 0.45));
+}
+
+.download-device--back img {
+  filter: drop-shadow(0 12px 28px rgba(8, 30, 74, 0.3));
+}
+
+.download-device--back {
+  inset-inline-end: 0;
+  width: 54%;
+  height: 84%;
+}
+
+@media (min-width: 768px) {
+  .download-devices {
+    margin-top: clamp(48px, 6vw, 80px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .showcase-shot img {
+    transition: none;
+  }
+}
+
+/* --- Painted cards (AmbientBg) ----------------------------------------------
+ * A card filled with one of the public/bg plates. The plate drifts, a glow
+ * wanders over it, and a navy scrim holds the text side at AA for white type.
+ * Loops are paused until PlayWhenVisible marks an ancestor [data-play]. */
+
+@layer components {
+  .media-card {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    color: #ffffff;
+  }
+
+  .media-card > :not(.ambient) {
+    position: relative;
+    z-index: 1;
+  }
+
+  .ambient {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: inherit;
+    pointer-events: none;
+    background: #5f8fd6;
+  }
+
+  /* Soft-focus plates: blurred so they read as atmosphere, never as detail
+     competing with the type or the slips on top. The drift's 1.08+ scale
+     keeps the blur's soft edge outside the card, and the plate is oversized
+     by 40px a side (beating next/image's inline fill box) so even small
+     cards never show the blur fading in at their border. */
+  .ambient__img {
+    inset: -40px !important;
+    width: calc(100% + 80px) !important;
+    height: calc(100% + 80px) !important;
+    object-fit: cover;
+    filter: blur(16px);
+    transform: scale(1.08);
+    animation: ambient-drift 28s ease-in-out infinite alternate paused;
+    will-change: transform;
+  }
+
+  .ambient__glow {
+    position: absolute;
+    inset: -30%;
+    background:
+      radial-gradient(closest-side at 30% 40%, rgba(255, 255, 255, 0.4), transparent 70%),
+      radial-gradient(closest-side at 70% 65%, rgba(196, 232, 255, 0.35), transparent 70%);
+    mix-blend-mode: screen;
+    opacity: 0.7;
+    animation: ambient-glow 18s ease-in-out infinite alternate paused;
+  }
+
+  .ambient__scrim {
+    position: absolute;
+    inset: 0;
+  }
+
+  .ambient__scrim--top {
+    background: linear-gradient(
+      180deg,
+      rgba(8, 30, 74, 0.72) 0%,
+      rgba(8, 30, 74, 0.5) 45%,
+      rgba(8, 30, 74, 0.12) 100%
+    );
+  }
+
+  .ambient__scrim--left {
+    background: linear-gradient(
+      90deg,
+      rgba(8, 30, 74, 0.72) 0%,
+      rgba(8, 30, 74, 0.45) 55%,
+      rgba(8, 30, 74, 0.05) 100%
+    );
+  }
+
+  .ambient__scrim--bottom {
+    background: linear-gradient(0deg, rgba(8, 30, 74, 0.72) 0%, rgba(8, 30, 74, 0) 70%);
+  }
+
+  [data-play] .ambient__img,
+  [data-play] .ambient__glow,
+  [data-play] .price-art * {
+    animation-play-state: running;
+  }
+
+  /* --- Pricing cards ----------------------------------------------------- */
+
+  .price-card {
+    padding: 10px 10px clamp(24px, 3vw, 32px);
+  }
+
+  .price-card > :not(.price-art) {
+    margin-inline: clamp(14px, 2vw, 22px);
+  }
+
+  .price-art {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 16 / 11;
+    padding: 18px;
+    border-radius: 10px;
+    --coin-base: #e3b341;
+    --coin-dark: #a87c17;
+  }
+
+  /* Positioned so it overlaps the art field's bottom edge, which is itself
+     positioned (.media-card). */
+  .price-icon {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    margin-top: -22px;
+    border-radius: 999px;
+    background: #ffffff;
+    color: var(--color-accent-deep);
+    box-shadow: 0 0 0 4px var(--color-card), 0 2px 8px rgba(28, 31, 37, 0.12);
+  }
+
+  .price-slip {
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 0 6px 20px rgba(8, 30, 74, 0.18);
+    color: var(--color-ink);
+  }
+
+  .price-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    padding: 0 12px;
+  }
+
+  .price-row__logo {
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    border-radius: 7px;
+    background: var(--color-canvas);
+  }
+
+  .price-row__price {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    color: var(--color-ink);
+  }
+
+  /* Ticker: one 40px window over the service list. The list holds the four
+     rows plus the first again, so the loop's last frame matches its first. */
+  .price-ticker {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+  }
+
+  .price-ticker__list {
+    animation: price-ticker 8s cubic-bezier(0.6, 0, 0.2, 1) infinite paused;
+  }
+
+  .price-floor {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: rgba(8, 30, 74, 0.42);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(6px);
+    font-size: 13px;
+    color: #ffffff;
+    animation: price-pulse 2s ease-in-out infinite paused;
+  }
+
+  /* Country picker: a selection bar steps down three rows, then the confirm
+     button lights up. */
+  .price-picker {
+    position: relative;
+    width: 100%;
+    padding: 4px 0;
+  }
+
+  .price-picker .price-row {
+    position: relative;
+    height: 34px;
+  }
+
+  .price-picker__sel {
+    position: absolute;
+    inset-inline: 4px;
+    top: 4px;
+    height: 34px;
+    border-radius: 10px;
+    background: var(--color-panel-mid);
+    box-shadow: inset 0 0 0 1.5px var(--color-accent-deep);
+    animation: price-select 6s cubic-bezier(0.5, 0, 0.2, 1) infinite paused;
+  }
+
+  .price-row__iso {
+    display: inline-grid;
+    place-items: center;
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    background: var(--color-panel);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--color-ink-muted);
+  }
+
+  .price-row__bar {
+    flex: 1;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--color-panel);
+  }
+
+  .price-confirm {
+    display: grid;
+    place-items: center;
+    align-self: flex-end;
+    width: 40px;
+    height: 32px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, var(--color-accent-dark), var(--color-accent-deep));
+    color: #ffffff;
+    animation: price-confirm 6s ease-in-out infinite paused;
+  }
+
+  /* Coins back: the wait ring runs out, coins fly to the balance, which
+     ticks over from the old figure to the new one. */
+  .price-refund {
+    --ring: 64px;
+    --coin: 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 240px;
+  }
+
+  .price-refund__ring {
+    position: relative;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: var(--ring);
+    height: var(--ring);
+    padding: 6px;
+    border-radius: 999px;
+    background: #ffffff;
+    box-shadow: 0 6px 20px rgba(8, 30, 74, 0.18);
+    color: var(--color-accent-deep);
+  }
+
+  .price-refund__ring > svg:first-child {
+    position: absolute;
+    inset: 6px;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+  }
+
+  .price-refund__arc {
+    animation: price-arc 7s linear infinite paused;
+  }
+
+  .price-refund__x {
+    width: 18px;
+    height: 18px;
+    color: var(--color-muted);
+    opacity: 0;
+    animation: price-x 7s ease infinite paused;
+  }
+
+  /* The gap between ring and balance. Coins start at the ring's centre (half
+     a ring plus the row gap behind the track's left edge) and land on the
+     balance pill's edge at the track's right end. */
+  .price-refund__track {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    min-width: 40px;
+  }
+
+  .price-refund__coin {
+    position: absolute;
+    top: 50%;
+    --coin-start: calc(-1 * (var(--ring) / 2 + 10px + var(--coin) / 2));
+    left: var(--coin-start);
+    width: var(--coin);
+    height: var(--coin);
+    margin-top: calc(var(--coin) / -2);
+    opacity: 0;
+    animation: price-coin 7s cubic-bezier(0.5, 0, 0.3, 1) infinite paused;
+  }
+
+  .price-balance {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 6px;
+    height: 40px;
+    padding: 0 14px;
+    font-size: 16px;
+    animation: price-bump 7s ease infinite paused;
+  }
+
+  .price-balance__num {
+    position: relative;
+    display: inline-grid;
+  }
+
+  .price-balance__num > span {
+    grid-area: 1 / 1;
+  }
+
+  .price-balance__old {
+    animation: price-old 7s ease infinite paused;
+  }
+
+  .price-balance__new {
+    color: var(--color-good);
+    opacity: 0;
+    animation: price-new 7s ease infinite paused;
+  }
+}
+
+@keyframes ambient-drift {
+  from {
+    transform: scale(1.08) translate3d(-1.5%, 0, 0);
+  }
+  to {
+    transform: scale(1.16) translate3d(1.5%, -1.5%, 0);
+  }
+}
+
+@keyframes ambient-glow {
+  from {
+    transform: translate3d(-8%, -4%, 0) rotate(0deg);
+  }
+  to {
+    transform: translate3d(8%, 5%, 0) rotate(12deg);
+  }
+}
+
+@keyframes price-ticker {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  25%,
+  45% {
+    transform: translateY(-40px);
+  }
+  50%,
+  70% {
+    transform: translateY(-80px);
+  }
+  75%,
+  95% {
+    transform: translateY(-120px);
+  }
+  100% {
+    transform: translateY(-160px);
+  }
+}
+
+@keyframes price-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+}
+
+@keyframes price-select {
+  0%,
+  22% {
+    transform: translateY(0);
+  }
+  30%,
+  52% {
+    transform: translateY(34px);
+  }
+  60%,
+  100% {
+    transform: translateY(68px);
+  }
+}
+
+@keyframes price-confirm {
+  0%,
+  64%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+  72% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.45);
+  }
+  82% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes price-arc {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  42%,
+  100% {
+    stroke-dashoffset: 100;
+  }
+}
+
+@keyframes price-x {
+  0%,
+  40% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  46%,
+  88% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  96%,
+  100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+
+/* The coin rises out of the ring, arcs along the track and drops into the
+   balance pill's edge. `left` runs from the ring's centre (set on the coin)
+   to the track's right end, so the path fits whatever width the row has. */
+@keyframes price-coin {
+  0%,
+  46% {
+    left: var(--coin-start);
+    opacity: 0;
+    transform: translateY(0) scale(0.6);
+  }
+  50% {
+    left: var(--coin-start);
+    opacity: 1;
+    transform: translateY(-16px) scale(1);
+  }
+  62% {
+    opacity: 1;
+    transform: translateY(-16px) scale(0.9);
+  }
+  68% {
+    left: calc(100% - var(--coin) / 2);
+    opacity: 0;
+    transform: translateY(0) scale(0.5);
+  }
+  100% {
+    left: calc(100% - var(--coin) / 2);
+    opacity: 0;
+    transform: translateY(0) scale(0.5);
+  }
+}
+
+@keyframes price-bump {
+  0%,
+  64%,
+  100% {
+    transform: scale(1);
+  }
+  69% {
+    transform: scale(1.08);
+  }
+}
+
+@keyframes price-old {
+  0%,
+  64% {
+    opacity: 1;
+    transform: none;
+  }
+  70%,
+  92% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes price-new {
+  0%,
+  64% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  70%,
+  92% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient__img,
+  .ambient__glow,
+  .price-art * {
+    animation: none !important;
+  }
+  /* Static frame: the refund scene shows its outcome. */
+  .price-refund__arc {
+    stroke-dashoffset: 100;
+  }
+  .price-refund__x,
+  .price-balance__new {
+    opacity: 1;
+  }
+  .price-balance__old {
+    opacity: 0;
+  }
+}
+
+/* --- Live inbox (how-it-works, step 3) ----------------------------------- */
+
+/* In the components layer so Tailwind utilities on the same elements win. */
+@layer components {
+  /* Bubbles are absolutely placed by slot, so a slot change is a transform,
+     never a layout shift; the stack reserves the height of three. */
+  .sms-stack {
+    --bubble-h: 60px;
+    --bubble-gap: 8px;
+    height: calc(var(--bubble-h) * 3 + var(--bubble-gap) * 2);
+    /* Nothing paints outside the three slots: the newcomer grows in place
+       and the leaver fades in the last slot instead of dropping to a fourth. */
+    overflow: clip;
+    overflow-clip-margin: 8px;
+  }
+
+  .sms-bubble {
+    position: absolute;
+    top: 0;
+    inset-inline: 0;
+    z-index: calc(10 - var(--slot));
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: var(--bubble-h);
+    padding: 0 14px 0 10px;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 4px 14px rgba(8, 30, 74, 0.16);
+    transform-origin: top center;
+    transform: translateY(calc(var(--slot) * (var(--bubble-h) + var(--bubble-gap))))
+      scale(calc(1 - var(--slot) * 0.04));
+    transition: transform 650ms cubic-bezier(0.2, 0.8, 0.25, 1), opacity 650ms ease;
+  }
+
+  /* Older messages recede by dimming their content, not the card. */
+  .sms-bubble > * {
+    opacity: calc(1 - var(--slot) * 0.22);
+    transition: opacity 650ms ease;
+  }
+
+  .sms-bubble[data-out] {
+    opacity: 0;
+    transform: translateY(calc(2 * (var(--bubble-h) + var(--bubble-gap)))) scale(0.86);
+  }
+
+  .sms-bubble--new {
+    animation: bubble-in 650ms cubic-bezier(0.2, 0.9, 0.3, 1.15) both;
+  }
+
+  .sms-bubble__logo {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    padding: 8px;
+    border-radius: 11px;
+    background: var(--color-canvas);
+  }
+
+  .sms-bubble__code {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    color: var(--color-accent-deep);
+  }
+
+  .digit-in {
+    display: inline-block;
+    animation: digit-in 280ms ease-out both;
+  }
+
+  /* How-it-works cards: the hero's grey, then pale blue, then a painted
+     plate, so the three read as progress. Steps 1-2 carry ink type; step 3
+     turns white on its scrim, where the inbox's white bubbles stand out. */
+  .step-card--1 {
+    background: var(--color-panel);
+  }
+
+  .step-card--2 {
+    background: var(--color-panel-mid);
+  }
+
+  /* Painted: AmbientBg fills it, the navy top scrim keeps white type at AA. */
+  .step-card--3 {
+    background: var(--color-accent-deep);
+    color: #ffffff;
+  }
+
+  .step-card .step-card__label {
+    color: var(--color-accent-deep);
+  }
+
+  .step-card--3 .step-card__label {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .step-card__title {
+    color: var(--color-ink);
+  }
+
+  .step-card--3 .step-card__title {
+    color: #ffffff;
+  }
+
+  .step-card__body {
+    color: var(--color-ink-muted);
+  }
+
+  /* How-it-works step pictures. Quiet white objects on the step tints, the
+     same family as the inbox bubbles in step 3. */
+  .pick-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    height: 34px;
+    padding: 0 12px 0 9px;
+    border-radius: 999px;
+    background: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-ink);
+  }
+
+  .pick-chip--on {
+    background: #ffffff;
+    color: var(--color-accent-deep);
+    box-shadow: inset 0 0 0 1.5px var(--color-accent-deep);
+  }
+
+  .pick-chip--more {
+    padding: 0 12px;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px rgba(28, 31, 37, 0.25);
+    color: var(--color-ink-muted);
+  }
+
+  .number-slip {
+    display: block;
+    padding: 14px 16px;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 4px 14px rgba(8, 30, 74, 0.16);
+  }
+
+  .wait-dots {
+    display: inline-flex;
+    gap: 3px;
+  }
+
+  .wait-dots > span {
+    width: 4px;
+    height: 4px;
+    border-radius: 999px;
+    background: var(--color-accent-deep);
+    animation: wait-dot 1.2s ease-in-out infinite;
+  }
+
+  .wait-dots > span:nth-child(2) {
+    animation-delay: 0.15s;
+  }
+
+  .wait-dots > span:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+
+  /* --- Footer ------------------------------------------------------------ */
+
+  .site-footer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .live-dot {
+    position: relative;
+    width: 7px;
+    height: 7px;
+    flex-shrink: 0;
+    border-radius: 999px;
+    background: #5bd08f;
+  }
+
+  .live-dot::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    border: 1.5px solid #5bd08f;
+    animation: live-pulse 2.4s cubic-bezier(0.2, 0.7, 0.3, 1) infinite;
+  }
+
+  /* Back to top: the hero CTA's ring arrow, turned upward. */
+  .back-to-top {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: rgba(243, 244, 247, 0.65);
+    transition: color 150ms ease;
+  }
+
+  .back-to-top:hover {
+    color: var(--color-canvas);
+  }
+
+  .back-to-top__ring {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 999px;
+    border: 1px solid rgba(243, 244, 247, 0.22);
+    transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+  }
+
+  .back-to-top:hover .back-to-top__ring {
+    transform: translateY(-3px);
+    background: rgba(243, 244, 247, 0.08);
+    border-color: rgba(243, 244, 247, 0.4);
+  }
+
+  /* Wordmark on the footer's bottom edge, fading into the ink and clipped by
+     the frame's rounded window. */
+  .footer-wordmark {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(54px, 13.4vw, 186px);
+    line-height: 0.82;
+    letter-spacing: -0.045em;
+    white-space: nowrap;
+    color: transparent;
+    background: linear-gradient(180deg, rgba(200, 220, 247, 0.15), rgba(200, 220, 247, 0) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: -0.1em;
+    user-select: none;
+  }
+}
+
+@keyframes live-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  70%,
+  100% {
+    transform: scale(3.2);
+    opacity: 0;
+  }
+}
+
+@keyframes wait-dot {
+  0%,
+  60%,
+  100% {
+    opacity: 0.25;
+    transform: none;
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes bubble-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes digit-in {
+  from {
+    opacity: 0;
+    transform: translateY(7px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sms-bubble--new,
+  .digit-in,
+  .live-dot::after,
+  .wait-dots > span {
+    animation: none;
+  }
+  .sms-bubble,
+  .sms-bubble > * {
+    transition: none;
   }
 }
 

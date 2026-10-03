@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o Uber — cadastro com privacidade",
+  "metaDescription": "O Uber entra por SMS. Alugue um número virtual real, receba os quatro dígitos em geral em segundos e tire o celular do histórico de corridas.",
+  "hero": {
+    "title": "Número virtual para o Uber",
+    "intro": [
+      "O Uber não trata o número de telefone como detalhe — ele é a conta. Você digita um número, o Uber manda “Your Uber code is 7204. Never share this code.”, e esse é o login inteiro: sem nome de usuário e, para muita gente, sem senha. Quem recebe códigos nesse número, na prática, segura a conta.",
+      "Com o SMS Code você aluga um número de celular real em um de 100+ países e o código do Uber aparece no aplicativo em geral em segundos. As suas corridas, recibos e histórico de embarque ficam ligados a um número alugado, e não ao que os amigos e o banco usam."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o Uber?",
+    "body": [
+      "Uma conta de transporte por aplicativo acumula em silêncio um mapa da sua vida — casa, trabalho, o aeroporto às 6 da manhã. Manter o seu número pessoal fora desse registro é higiene básica de privacidade. Motoristas já falam com você pelo revezamento mascarado do Uber e nunca veem o número real; a cópia que importa é a guardada na sua conta, e é exatamente essa que um número virtual substitui.",
+      "Como o Uber entra por SMS, o número aqui não é um adereço de uso único — seja honesto consigo sobre isso. O aplicativo mantém você conectado por meses, mas uma instalação nova ou um celular novo vai pedir um código de novo. O arranjo funciona bem com um número alugado se você planejar: permaneça conectado, adicione um e-mail à conta e, se o Uber virar ferramenta diária, passe a conta para um número que você sempre controla."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o Uber com um número virtual",
+    "steps": [
+      {
+        "title": "Alugue um número no SMS Code",
+        "body": "Escolha Uber como serviço e escolha um país. Para o uso do dia a dia, pegue o seu próprio país — a região da conta molda opções de pagamento e recursos locais."
+      },
+      {
+        "title": "Digite no aplicativo Uber",
+        "body": "Na tela de cadastro, selecione o código do país do número e digite. O Uber pode oferecer mandar o código pelo WhatsApp ou por ligação — escolha SMS."
+      },
+      {
+        "title": "Digite os quatro dígitos",
+        "body": "“Your Uber code is 7204. Never share this code.” chega no aplicativo SMS Code em geral em segundos. Digite e você entra."
+      },
+      {
+        "title": "Dê à conta um segundo canal",
+        "body": "Adicione o seu e-mail nos ajustes do Uber e termine o perfil. O e-mail dá ao Uber um jeito de verificar você que não depende do número alugado — e guarda os recibos num lugar que você de fato lê."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "O Uber vai pedir SMS de novo — planeje",
+      "body": "Acessos em aparelhos novos e reinstalações são confirmados por um código para o número da conta. Não saia por acaso, adicione um e-mail e, se você usa o Uber toda semana, mude o telefone da conta nos ajustes para um que você carrega — dá para fazer isso a qualquer momento enquanto estiver conectado."
+    },
+    {
+      "title": "Motoristas nunca veem o seu número de qualquer forma",
+      "body": "Ligações e mensagens entre você e o motorista passam pelo revezamento mascarado do Uber. A pergunta de privacidade não é o motorista — é o número sentado no registro da conta, nos recibos e no que esse banco de dados alimenta. Essa é a cópia que um número virtual mantém limpa."
+    },
+    {
+      "title": "No exterior, a sua conta já viaja",
+      "body": "Uma conta Uber que já existe funciona em outros países — você não precisa de um número local para pedir uma corrida em Paris. Onde um número virtual de fato ajuda: o chip de casa não recebe textos em roaming quando uma checagem de acesso dispara no meio da viagem, ou você quer uma conta local separada para uma estadia longa."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "A minha conta Uber continua depois que o número alugado expira?",
+      "a": "Enquanto você permanecer conectado — sim, tudo funciona. O porém é o próximo acesso novo: o Uber confirma com um SMS para o número da conta. Então ou mantenha a sessão viva ou — melhor — mude o telefone nos ajustes da conta para um que você controla enquanto ainda estiver conectado. Essa opção está sempre disponível de dentro do aplicativo."
+    },
+    {
+      "q": "Os motoristas veem o meu número de celular real?",
+      "a": "Não. O Uber liga você e o motorista por números de revezamento mascarados, então nenhum dos lados vê o real do outro. Um número virtual protege a outra cópia — a guardada no perfil da conta e anexada a cada recibo."
+    },
+    {
+      "q": "Dá para usar um número virtual no Uber durante uma viagem?",
+      "a": "Dá, e resolve um problema real de viagem: checagens de acesso que chegam como SMS que o chip em roaming não recebe. Códigos para um número alugado caem no aplicativo SMS Code pela internet, onde você estiver. Note que você não precisa de um número local só para andar de Uber no exterior — a sua conta normal funciona internacionalmente."
+    },
+    {
+      "q": "Por que o código do Uber não chegou?",
+      "a": "Primeiro confira se o código do país combina com o número alugado. Depois garanta que o código vem por SMS — o Uber às vezes usa WhatsApp ou ligação por padrão. Se nada chegou, cancele a ativação no SMS Code sem custo e pegue outro número."
+    },
+    {
+      "q": "Cadastrar o Uber com número virtual é permitido?",
+      "a": "O Uber verifica se você controla o número e espera uma conta por passageiro, com dados verdadeiros — esses são os termos dele, e os recursos de segurança dependem disso. Usar um número alugado para manter o pessoal privado está bem; usar números para farmar promoções de cadastro ou tocar contas duplicadas é o que bane passageiros."
+    }
+  ]
+}

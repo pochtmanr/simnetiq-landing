@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternativa ao TextVerified — SMS Code da SIMNETIQ",
+  "metaDescription": "Comparando o TextVerified com o aplicativo SMS Code da SIMNETIQ: números só dos EUA, com aluguel na web, versus 100+ países num aplicativo nativo para iOS.",
+  "hero": {
+    "title": "Uma alternativa ao TextVerified com números em 100+ países",
+    "intro": [
+      "O TextVerified é um especialista dos EUA. O site deles é explícito: todos os números são americanos, descritos como celulares reais dos EUA sustentados por chips físicos, oferecidos como verificações únicas ou como aluguéis de curto prazo e renováveis, por um aplicativo web, uma API e uma extensão de navegador. Quando um cadastro exige especificamente um número +1, esse foco é exatamente o que você quer.",
+      "O SMS Code da SIMNETIQ parte da premissa oposta: a necessidade de verificação é internacional. É um aplicativo nativo para iOS com números reais em 100+ países — os EUA entre eles, mas também Europa, Ásia e além — cobrindo 100+ serviços populares. Escolha serviço e país, receba um número, e o código chega no aplicativo em geral em segundos, pago com pacotes avulsos de moedas e cancelado sem custo se nenhum SMS aparecer."
+    ]
+  },
+  "whenThem": {
+    "title": "Quando o TextVerified é a melhor escolha",
+    "body": "Escolha o TextVerified quando o trabalho é estritamente americano. Profundidade num único mercado tem vantagens reais: o site deles descreve números dos EUA que não são VoIP, sustentados por chips físicos, cobertura de centenas de serviços e faixas de aluguel — inclusive aluguéis mensais renováveis — para manter um número dos EUA alcançável ao longo do tempo. Se você verifica plataformas só dos EUA, precisa de um +1 que passe em checagens de operadora ou quer um número americano de vida longa, um serviço dedicado aos EUA é a ferramenta mais forte."
+  },
+  "whenUs": {
+    "title": "Quando o aplicativo SMS Code encaixa melhor",
+    "body": "Escolha o aplicativo quando um país não basta — ou quando os EUA nem são o país de que você precisa. Muitos serviços são mais baratos ou mais tranquilos de verificar com um número europeu ou asiático, e alguns nem estão disponíveis para números +1; com 100+ países num aplicativo você simplesmente escolhe o que funciona melhor em cada cadastro. A experiência é nativa de celular, pela App Store, a cobrança é de pacotes avulsos de moedas pela Apple, sem assinatura, e ativações que não recebem nada cancelam sem custo."
+  },
+  "comparison": {
+    "title": "TextVerified e o aplicativo SMS Code, lado a lado",
+    "rows": [
+      {
+        "label": "Plataformas",
+        "competitor": "Aplicativo web com uma API e uma extensão de navegador",
+        "us": "Aplicativo nativo para iOS na App Store"
+      },
+      {
+        "label": "Modelo de preço",
+        "competitor": "Preço por verificação mais aluguel de número de curto prazo e renovável",
+        "us": "Pacotes avulsos de moedas, pague por ativação — sem assinatura"
+      },
+      {
+        "label": "Pagamento",
+        "competitor": "O site deles lista cartões e uma gama de criptomoedas",
+        "us": "Cobrança da loja da Apple — nenhum dado de cartão compartilhado conosco"
+      },
+      {
+        "label": "Cobertura",
+        "competitor": "Só números dos EUA, por desenho — o site deles afirma que todos os números são dos EUA",
+        "us": "Números reais em 100+ países, em 100+ serviços populares"
+      },
+      {
+        "label": "Cancelamento",
+        "competitor": "Regido pelas regras de reembolso deles — confira os termos atuais",
+        "us": "Ativações que não recebem SMS cancelam sem custo, as moedas voltam"
+      },
+      {
+        "label": "Suporte",
+        "competitor": "Canais de suporte pelo site deles",
+        "us": "No aplicativo e no formulário de contato do site"
+      },
+      {
+        "label": "Melhor para",
+        "competitor": "Verificações só dos EUA e números americanos de vida longa",
+        "us": "Cadastros internacionais a partir do celular, um país por toque"
+      }
+    ],
+    "note": "Os dados do concorrente refletem o site público deles na data da redação e podem mudar — confirme sempre em textverified.com antes de decidir."
+  },
+  "switchSteps": {
+    "title": "Experimentar o aplicativo leva três passos",
+    "steps": [
+      {
+        "title": "Instale o aplicativo",
+        "body": "Baixe o SMS Code da SIMNETIQ na App Store — sem conta na web nem configuração de carteira."
+      },
+      {
+        "title": "Pegue um pacote de moedas",
+        "body": "Compre um pacote avulso pela sua conta da loja. Sem assinatura e sem data de renovação — as moedas são gastas por ativação."
+      },
+      {
+        "title": "Faça a primeira ativação",
+        "body": "Escolha um serviço e depois qualquer um de 100+ países — os EUA incluídos. O código chega no aplicativo em geral em segundos; se nada chegar, a ativação cancela sem custo."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Qual a maior diferença entre o TextVerified e o aplicativo SMS Code?",
+      "a": "A geografia. O site do TextVerified afirma que todos os números deles são dos EUA — profundidade num mercado. O aplicativo SMS Code da SIMNETIQ oferece números reais em 100+ países por um aplicativo móvel nativo, então você escolhe o país por cadastro."
+    },
+    {
+      "q": "O aplicativo SMS Code também tem números dos EUA?",
+      "a": "Tem — os EUA são um dos 100+ países disponíveis. A diferença é que é uma opção entre muitas, e não o catálogo inteiro."
+    },
+    {
+      "q": "Dá para alugar um número no longo prazo, como os aluguéis renováveis do TextVerified?",
+      "a": "Não. O aplicativo funciona por ativação: um número, um serviço, um código. Se você precisa de um número dos EUA que continue alcançável por semanas ou meses, as faixas de aluguel do TextVerified são, com honestidade, o encaixe melhor."
+    },
+    {
+      "q": "O que acontece se o meu código nunca chegar?",
+      "a": "A ativação cancela e as suas moedas são devolvidas. Você só paga por números que de fato recebem um SMS."
+    },
+    {
+      "q": "Há assinatura no aplicativo SMS Code?",
+      "a": "Não. Você compra pacotes avulsos de moedas pela cobrança da Apple e gasta por ativação — nada se renova e nenhum dado de cartão é compartilhado conosco."
+    }
+  ]
+}

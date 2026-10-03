@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for Tinder — Sign Up Without Your Number",
+  "metaDescription": "Tinder won’t start without a phone number. Verify it with a real virtual number — the code arrives usually within seconds, free cancel if none comes.",
+  "hero": {
+    "title": "A virtual number for Tinder",
+    "intro": [
+      "There's no way around it: Tinder requires a phone number to create an account. The very first screen asks for one, sends an SMS code and won't show you a single profile until it's entered. Email, Apple or Google sign-in can be attached later — the number is what the account hangs on.",
+      "With SMS Code you rent a real mobile number in one of 100+ countries, type it into Tinder, and the code appears in the app usually within seconds. You pay per activation from a one-time coin pack — no subscription — and if a number receives nothing, you cancel it without being charged."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for Tinder?",
+    "body": [
+      "Dating apps are, by design, where you talk to strangers — and your phone number is the one piece of contact data you can't take back once it's out. Tinder never shows your number to matches, but it still sits on the account: in the event of a breach, or simply as the thread that connects your dating profile to the rest of your digital life. A virtual number cuts that thread — the flirting happens in the app, and the number behind the profile isn't the one your family and bank use.",
+      "It's also the honest way to start over. If you deleted an old profile and want a genuinely blank slate — new photos, new bio, none of the old history — Tinder remembers numbers, so signing up on the one you used before quietly ties you back to the past. A fresh number gives a fresh start. That's about accounts you closed yourself, not about slipping past a ban."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify Tinder with a virtual number",
+    "steps": [
+      {
+        "title": "Get a number in SMS Code",
+        "body": "Open the SMS Code app, choose Tinder as the service, pick a country and tap once. A real mobile number is reserved just for you for the length of the activation."
+      },
+      {
+        "title": "Enter it on Tinder's first screen",
+        "body": "Choose “Log in with phone number”, select the country code that matches the rented number and type it in. A country mismatch is the classic reason a code never turns up."
+      },
+      {
+        "title": "Type in the code — digits only",
+        "body": "The SMS lands in the SMS Code app usually within seconds and looks like “Your Tinder code is 402318 dwEzWOx6XSV”. The trailing letters are a technical app hash — ignore them, the code is just the six digits."
+      },
+      {
+        "title": "Attach a backup and stay signed in",
+        "body": "In Settings, connect an email address to the account. Tinder re-verifies by SMS more readily than most apps — a linked email plus an unbroken session is what keeps the account comfortably yours."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Treat logging out as a real decision",
+      "body": "Tinder is quick to ask for a fresh SMS when you sign in again on a new device or after a logout. While you stay logged in, it rarely bothers you. So don't log out casually — on Tinder, an active session is worth more than on almost any other app."
+    },
+    {
+      "title": "The number's country doesn't move your matches",
+      "body": "Your card stack comes from where you actually are — GPS and your distance settings — not from the number's dialling code. A number from another country verifies the account just fine and has no effect on who you see or who sees you."
+    },
+    {
+      "title": "A fresh number is for a fresh start",
+      "body": "If you deleted your old account, a new number is what makes the new profile genuinely new. If the old account was banned, a new number isn't a workaround — Tinder's rules on returning after a ban still apply, and the platform has more signals than the phone number alone."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will my matches see my phone number?",
+      "a": "No, never. Tinder shows matches your name, photos and bio — the phone number stays invisible and all chat happens inside the app. The number's job is verification, and a virtual number does that job while keeping your real one out of the system entirely."
+    },
+    {
+      "q": "Does the number's country change who I'm shown?",
+      "a": "No. Tinder builds your stack from your actual location, not your dialling code — a foreign number in Madrid still gets you Madrid. Pick whichever country's numbers are available and cheap; it's purely a verification detail."
+    },
+    {
+      "q": "What happens to my account when the rented number expires?",
+      "a": "Nothing, as long as you stay signed in — the number was needed for the code, not for daily use. The honest caveat: Tinder sometimes asks for SMS re-verification at a new login, so link an email in Settings and don't log out without a reason."
+    },
+    {
+      "q": "Can I create a Tinder account without any phone number?",
+      "a": "No. Phone verification is mandatory at sign-up — Apple, Google and email can supplement the account, but none of them replaces the SMS step. That's precisely the situation a rented number is for."
+    },
+    {
+      "q": "Why didn't my Tinder code arrive?",
+      "a": "Most often the country code picked in Tinder doesn't match the number, or Tinder declined to text that particular number. Cancel the pending activation in SMS Code — the coins come back for numbers that received nothing — and take a fresh one, ideally from a different country."
+    }
+  ]
+}

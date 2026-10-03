@@ -1,0 +1,26 @@
+{
+  "title": "Keep your balance, recover access and delete your account",
+  "metaDescription": "Keep your SMS Code coin balance across devices, recover access to your account, and delete it safely without losing coins or refund options.",
+  "sections": [
+    {
+      "title": "Sign in before reinstalling",
+      "paragraphs": [
+        "Coins belong to your SMS Code account. Sign in with Apple, Google or an email code while you still have access to the balance, then use the same login on another device. Your Apple purchase account and your SMS Code login are separate.",
+        "Reinstalling while using an anonymous account can create a different account. App Store purchase restoration does not by itself recreate an anonymous coin balance. If you lost access, contact support with your Apple order ID and the account details you still have; recovery requires verification."
+      ]
+    },
+    {
+      "title": "Before deleting an account",
+      "paragraphs": [
+        "Account deletion and payment refunds are separate actions. Save the purchase details you need, resolve any pending activation and contact support about remaining coins before deleting. Request any Apple payment refund separately.",
+        "Use the account-deletion option in the app’s settings. If you cannot access it, contact support. Deletion does not cancel an Apple payment, and records needed for legal obligations or dispute handling may be retained as described in our Privacy Policy."
+      ]
+    },
+    {
+      "title": "Contact us safely",
+      "paragraphs": [
+        "Use the support form or support@simnetiq.com. Send service, country, timing and activation or order identifiers, but never a password, verification code or full payment-card details. Review screenshots for sensitive information before sharing."
+      ]
+    }
+  ]
+}

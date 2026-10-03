@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Cursor",
+  "metaDescription": "Verifica tu alta en Cursor con un número virtual real. El código SMS llega normalmente en segundos y deja tu número personal fuera de las cuentas de desarrollo.",
+  "hero": {
+    "title": "Número virtual para Cursor",
+    "intro": [
+      "Cursor, el editor de código con IA, está en la misma cinta que cualquier herramienta de desarrollo que regala cómputo: los niveles gratis atraen abuso, así que las altas se cierran. Junto a la confirmación por correo, Cursor puede pedir verificar un teléfono por SMS antes de que una cuenta o una prueba se active, precisamente porque un móvil que funciona es más difícil de fabricar en masa que un buzón.",
+      "SMS Code te alquila un número real en uno de 100+ países. Cuando el alta de Cursor pida un teléfono, escribe el alquilado: el código de seis dígitos aparece en la aplicación SMS Code normalmente en segundos, y tu número personal se queda fuera de una base de SaaS más."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Cursor?",
+    "body": [
+      "Quien desarrolla acumula cuentas como un banco de trabajo acumula destornilladores: editores, nubes, APIs, servicios de CI, y cada uno quiere cada vez más un teléfono. Cablear tu número personal en todos significa que cada filtración de un proveedor, cada lista comercial y cada grafo de cuentas vinculadas lo incluye. Poner un número alquilado entre tus identidades de herramientas de desarrollo y la real es el mismo instinto que usar un correo de trabajo: separación por defecto, con tu número de verdad reservado a personas, no a plataformas.",
+      "También hay un uso técnico legítimo. Si estás construyendo o probando un flujo de alta — el de tu propio producto, o evaluando cómo se comporta el onboarding de Cursor para un usuario limpio —, necesitas un número real que de verdad reciba SMS, no el tuyo quemado en una cuenta de prueba. Una activación alquilada te da exactamente eso: un número receptor real, usado una vez, sin un cajón de SIMs."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar Cursor con un número virtual",
+    "steps": [
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Abre la aplicación SMS Code, elige Cursor como servicio y escoge un país: Estados Unidos, Alemania o Países Bajos son elecciones típicas para herramientas de desarrollo. El número queda reservado para ti al instante."
+      },
+      {
+        "title": "Regístrate y escribe el número",
+        "body": "Crea tu cuenta de Cursor con un correo que controles. Cuando el flujo pida verificar un teléfono, escribe el alquilado con el prefijo que corresponde."
+      },
+      {
+        "title": "Escribe el código de SMS Code",
+        "body": "El SMS cae en la aplicación SMS Code normalmente en segundos: «Your Cursor verification code is 812750». Pega los seis dígitos en el campo de verificación de Cursor y ya pasaste."
+      },
+      {
+        "title": "Asegura la propia cuenta",
+        "body": "Termina con lo básico: una contraseña fuerte y única, y un correo confirmado. El inicio de sesión diario de Cursor va por ahí, no por SMS: el control del teléfono fue una puerta de una sola vez, no una que se repite."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Ten el alta abierto antes de alquilar",
+      "body": "Los códigos de verificación duran poco y la ventana de activación es finita. Pon primero delante la pantalla de verificación de teléfono de Cursor, luego alquila el número y pide el código: el SMS llega normalmente en segundos cuando ya estás listo."
+    },
+    {
+      "title": "El correo es la cuenta; el teléfono es la puerta",
+      "body": "Cursor te identifica por el acceso con correo, y las preguntas de licencia o de suscripción pasan por ahí. Usa un buzón que vayas a conservar, y la cuenta sobrevive a la ventana de activación del número alquilado sin tropiezo."
+    },
+    {
+      "title": "Una cuenta, dentro de las normas",
+      "body": "Las puertas de teléfono existen porque los niveles gratis se cultivan. Usa un número virtual para mantener privado tu número personal en tu cuenta genuina, no para apilar cuentas de prueba: eso incumple las condiciones de Cursor y suele acabar en cuentas baneadas."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Cursor siempre pide un teléfono?",
+      "a": "No necesariamente: como muchas herramientas de desarrollo, Cursor aplica la verificación por teléfono de forma selectiva, a menudo según las señales del alta y la presión de abuso. Si aparece el aviso, y cuando aparece, un número virtual alquilado lo cumple normalmente en segundos."
+    },
+    {
+      "q": "¿Mi cuenta de Cursor sigue funcionando cuando caduca el número?",
+      "a": "Sí. El control del SMS ocurre en el alta; después entras con correo y contraseña. Que el número alquilado termine su ventana de activación no cambia nada de una cuenta que ya estás usando."
+    },
+    {
+      "q": "¿Puedo usar un número virtual para probar el flujo de alta por SMS de mi propio producto?",
+      "a": "Sí: es un patrón de desarrollo de verdad útil. Un número alquilado es un número receptor real, en un operador real, así que puedes recorrer un flujo de OTP de punta a punta como un usuario nuevo, sin quemar tu número personal en una cuenta de prueba."
+    },
+    {
+      "q": "¿Por qué no me llegó el código de verificación de Cursor?",
+      "a": "Casi siempre un prefijo que no coincide, o el servicio rechazó ese rango concreto de números. Cancela la activación en SMS Code — sin SMS, las monedas vuelven a tu saldo — y reintenta con otro número o país."
+    },
+    {
+      "q": "¿Está permitido verificar Cursor con un número virtual?",
+      "a": "El control confirma que manejas un número real, y uno alquilado es exactamente eso. Lo que importa es lo que haces después: una cuenta genuina, usada dentro de las condiciones de Cursor, está bien; cultivar varias pruebas gratis no, haya número virtual o no."
+    }
+  ]
+}

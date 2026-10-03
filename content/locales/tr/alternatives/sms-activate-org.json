@@ -1,0 +1,99 @@
+{
+  "metaTitle": "SMS-Activate.org alternatifi — SMS Code, SIMNETIQ",
+  "metaDescription": "SMS-Activate.org ile SIMNETIQ’ten SMS Code’u karşılaştırın: web paneli ve API, tek seferlik jeton paketleri, ücretsiz iptalli yerel iOS uygulaması.",
+  "hero": {
+    "title": "Telefonunuzda yaşayan bir SMS-Activate.org alternatifi",
+    "intro": [
+      "SMS-Activate.org doğrulama kodu almak için uzun süredir çalışan bir web hizmetidir. SIMNETIQ’ten SMS Code aynı işi farklı bir açıdan üstlenir — web paneli yerine yerel bir iOS uygulaması. Kiralanan numara ve hızlı kod fikrini bir siteye giriş yapmadan istiyorsanız bu karşılaştırma siz içindir.",
+      "Çekirdek görev ikisinde de aynıdır: servis seçin, ülke seçin, gerçek bir numara alın, SMS kodunu alın. Fark oraya nasıl vardığınızdır. SMS-Activate.org bir web paneli ve belgelenmiş bir API etrafında döner; SMS Code bütün akışı App Store’dan kurduğunuz, tek seferlik jeton paketleriyle ödediğiniz ve birkaç dokunuşla kullandığınız bir mobil uygulamanın içine koyar."
+    ]
+  },
+  "whenThem": {
+    "title": "SMS-Activate.org ne zaman daha iyi seçimdir",
+    "body": "Numaralara ölçekte ihtiyacınız varsa SMS-Activate.org sizin için kurulmuştur. Siteleri numara almak, gelen SMS’i yoklamak ve siparişleri programatik yönetmek için tam bir API belgeler; yanında çok geniş bir servis ve ülke kataloğu ve daha uzun süreli kullanım için kiralama seçenekleri vardır. Doğrulamayı betiklere bağlayan geliştiriciler, hesapları toplu kaydeden ekipler ve masaüstü panelden çalışmayı tercih eden herkes orada evinde hisseder — o otomasyon katmanı, bir tüketici mobil uygulamasının bilinçli olarak kopyalamaya çalışmadığı bir şeydir."
+  },
+  "whenUs": {
+    "title": "SMS Code ne zaman daha iyi uyar",
+    "body": "Ara sıra bir doğrulama koduna ihtiyaç duyan tek bir kişiseniz — ikinci bir Telegram hesabı, bir WhatsApp kaydı, telefon numarası isteyen bir deneme — SMS Code daha kısa yoldur. Yüklenecek web cüzdanı yok, öğrenilecek panel yok: Apple faturalamasıyla tek seferlik bir jeton paketi alırsınız, servis ve ülke seçersiniz, kod uygulamada genellikle saniyeler içinde görünür. SMS hiç almayan etkinleştirmeler ücretsiz iptal olur, kapsam 100+ ülke ve 100+ servise uzanır ve bütün şey bir geliştirici aracı değil, normal bir tüketici uygulaması gibi davranır."
+  },
+  "comparison": {
+    "title": "SMS-Activate.org ve SMS Code, yan yana",
+    "rows": [
+      {
+        "label": "Platformlar",
+        "competitor": "Otomasyon için belgelenmiş bir API artı web paneli",
+        "us": "App Store’dan yerel iOS uygulaması"
+      },
+      {
+        "label": "Fiyat modeli",
+        "competitor": "Hesap bakiyesinden numara başına ödeme; daha uzun süreler için kiralama seçenekleri",
+        "us": "Tek seferlik jeton paketleri, etkinleştirme başına ödeme — abonelik yok"
+      },
+      {
+        "label": "Ödeme",
+        "competitor": "Sitelerinin listelediği ödeme yöntemleriyle web’de bakiye yükleme",
+        "us": "Apple mağaza faturalaması — kart ayrıntıları bizimle paylaşılmaz"
+      },
+      {
+        "label": "Kapsam",
+        "competitor": "Toplu kullanıma yönelik çok geniş bir ülke ve servis kataloğu",
+        "us": "Gündelik kayıtlar için seçilmiş 100+ ülke ve 100+ popüler servis"
+      },
+      {
+        "label": "İptal",
+        "competitor": "Kendi iade kurallarına tabidir — güncel koşullarına bakın",
+        "us": "SMS almayan etkinleştirmeler ücretsiz iptal olur, jetonlar döner"
+      },
+      {
+        "label": "Destek",
+        "competitor": "Web siteleri üzerinden destek kanalları",
+        "us": "Uygulama içi ve site iletişim formu"
+      },
+      {
+        "label": "En uygun",
+        "competitor": "API ile yüzlerce numara gereken geliştiriciler ve toplu kullanıcılar",
+        "us": "Ara sıra doğrulama için temiz bir mobil uygulama isteyen kişiler"
+      }
+    ],
+    "note": "Rakip ayrıntıları yazıldığı tarihteki herkese açık sitelerini yansıtır ve değişebilir — karar vermeden önce her zaman sms-activate.org üzerinde doğrulayın."
+  },
+  "switchSteps": {
+    "title": "Uygulamayı denemek üç adım sürer",
+    "steps": [
+      {
+        "title": "Uygulamayı kurun",
+        "body": "SMS Code’u SIMNETIQ’ten App Store’dan alın — web hesabı veya cüzdan kurulumu gerekmez."
+      },
+      {
+        "title": "Bir jeton paketi alın",
+        "body": "Mağaza hesabınız üzerinden tek seferlik bir paket alın. Jetonlar bir aboneliğe dönüşerek sona ermez; yalnızca bir numara etkinleştirdiğinizde ödersiniz."
+      },
+      {
+        "title": "İlk etkinleştirmenizi çalıştırın",
+        "body": "Bir servis ve ülke seçin, gerçek bir numara alın ve kodun uygulamada genellikle saniyeler içinde geldiğini izleyin. Hiçbir şey gelmezse etkinleştirme ücretsiz iptal olur."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "SMS Code, SMS-Activate.org ile bağlantılı mı?",
+      "a": "Hayır. SMS Code, SMS-Activate.org ile bağlantısı olmayan, SIMNETIQ’in bağımsız bir ürünüdür — ikisi aynı sorunu farklı yollarla çözen ayrı şirketlerdir."
+    },
+    {
+      "q": "SMS Code’un SMS-Activate.org gibi bir API’si var mı?",
+      "a": "Hayır — ve bu bilinçli bir farktır. Uygulama betikler için değil, insanlar için kurulmuştur: ara sıra doğrulamalar için yerel bir mobil akış. Numaralara programatik erişim kesin bir koşulsa SMS-Activate.org’un belgelenmiş API’si daha iyi uyar."
+    },
+    {
+      "q": "Uygulamayı kullanmak için cüzdan yüklemem gerekir mi?",
+      "a": "Apple faturalamasıyla tek seferlik jeton paketleri alırsınız ve etkinleştirme başına jeton harcarsınız. Ayrı bir web cüzdanı, abonelik ve yinelenen ücret yoktur."
+    },
+    {
+      "q": "Kodum hiç gelmezse ne olur?",
+      "a": "Etkinleştirme iptal olur ve jetonlarınız döner. Yalnızca gerçekten SMS alan numaralar için ödersiniz."
+    },
+    {
+      "q": "Numaralar gerçek mobil numaralar mı?",
+      "a": "Evet — uygulama 100+ ülkede gerçek operatör ağlarında gerçek numaralar kiralar. Doğruladığınız servise numara sıradan herhangi bir telefon numarası gibi görünür."
+    }
+  ]
+}

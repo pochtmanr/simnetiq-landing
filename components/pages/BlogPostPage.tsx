@@ -3,16 +3,9 @@ import { JsonLd } from "../JsonLd";
 import { RelatedServices } from "../RelatedServices";
 import { PostBody } from "../blog/PostBody";
 import type { BlogPost } from "../../lib/content/blog/types";
-import { BLOG_UI } from "../../lib/content/blogUi";
-import type { Locale } from "../../lib/i18n";
+import { blogUi } from "../../lib/content/ui";
+import { formatDate, type Locale } from "../../lib/i18n";
 import { article } from "../../lib/seo";
-
-function formatDate(iso: string, locale: Locale): string {
-  return new Date(iso).toLocaleDateString(
-    locale === "ru" ? "ru-RU" : "en-GB",
-    { year: "numeric", month: "long", day: "numeric" },
-  );
-}
 
 /** Template for /blog/[slug]. */
 export function BlogPostPage({
@@ -22,8 +15,8 @@ export function BlogPostPage({
   locale: Locale;
   post: BlogPost;
 }) {
-  const t = BLOG_UI[locale];
-  const c = post[locale];
+  const t = blogUi(locale);
+  const c = post.copy;
   return (
     <div className="mx-auto w-full max-w-[860px] px-[clamp(20px,4vw,34px)]">
       <JsonLd
@@ -53,7 +46,7 @@ export function BlogPostPage({
           <div className="flex flex-wrap items-center gap-[10px]">
             {post.tags.map((tag) => (
               <span key={tag} className="tag-chip">
-                {tag}
+                {t.tags[tag as keyof typeof t.tags] ?? tag}
               </span>
             ))}
           </div>

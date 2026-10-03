@@ -1,0 +1,35 @@
+{
+  "title": "Masalah aktivasi: SMS belum masuk atau ditolak",
+  "metaDescription": "SMS belum masuk atau kode ditolak? Periksa layanan dan nomor, pakai pembatalan dua menit, dan ketahui apa yang dikirim ke dukungan SMS Code.",
+  "sections": [
+    {
+      "title": "Periksa layanan dan nomor",
+      "paragraphs": [
+        "Pilih layanan yang persis ingin Anda verifikasi. Masukkan nomor yang ditetapkan beserta kode negaranya dan periksa awalan yang terduplikasi. Minta verifikasi SMS di layanan itu; panggilan suara atau kode yang dikirim ke perangkat lain tidak dapat diterima di sini.",
+        "Biarkan aktivasi tetap terbuka dan periksa statusnya di aplikasi. Notifikasi dapat membantu, tetapi layar aktivasi adalah tempat untuk memeriksa kode. Hindari permintaan kirim ulang yang berulang: layanan tujuan dapat menerapkan jeda sendiri."
+      ]
+    },
+    {
+      "title": "Pembatalan dua menit dan jendela aktivasi",
+      "paragraphs": [
+        "Jika SMS belum masuk, Anda dapat membatalkan dua menit setelah nomor ditetapkan. Pengatur waktu dimulai saat penetapan, bukan saat Anda membuka aplikasi atau membeli koin. Gunakan hitung mundur pembatalan yang ditampilkan di aplikasi.",
+        "Pembatalan mengembalikan koin aktivasi ke saldo di dalam aplikasi. Mencoba nomor lain juga mengembalikan koin aktivasi lama sebelum membeli aktivasi baru; periksa harga yang baru. Ini pengembalian koin, bukan pengembalian pembayaran.",
+        "Jendela aktivasi saat ini adalah 15 menit setelah penetapan. Ikuti hitung mundur di aplikasi Anda. Jika jendela berakhir tanpa SMS, aktivasi ditutup dan koinnya dikembalikan. Jika pengembalian masih tertunda atau saldo salah, hubungi dukungan daripada berulang kali membeli nomor.",
+        "Pembatalan tidak tersedia setelah SMS diterima, meskipun layanan tujuan menolak kodenya. SMS yang masuk saat pembatalan dapat mengubah kelayakan."
+      ]
+    },
+    {
+      "title": "Kode ditolak atau nomor sudah terpakai",
+      "paragraphs": [
+        "Gunakan kode terbaru untuk akun dan layanan yang benar, tanpa spasi tambahan. Layanan tujuan yang mengendalikan masa berlaku kode, penerimaan nomor, dan pembatasan akun. SMS yang terkirim tidak menjamin pendaftaran berhasil.",
+        "Jika nomor sudah terdaftar, jangan mengakses akun orang lain. Jika kode ditolak, hentikan percobaan berbayar yang berulang dan hubungi dukungan untuk tinjauan. Tidak ada pengembalian koin otomatis setelah SMS masuk; ini tidak membatasi hak konsumen yang berlaku."
+      ]
+    },
+    {
+      "title": "Apa yang dikirim ke dukungan",
+      "paragraphs": [
+        "Sertakan ID aktivasi, layanan dan negara yang dipilih, perkiraan waktu dan zona waktu, status, serta pesan kesalahan yang persis. Tangkapan layar kesalahan membantu. Jangan kirim kata sandi, kode verifikasi, atau detail kartu lengkap."
+      ]
+    }
+  ]
+}

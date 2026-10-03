@@ -1,0 +1,26 @@
+{
+  "title": "Jaga saldo, pulihkan akses, dan hapus akun Anda",
+  "metaDescription": "Simpan saldo koin SMS Code di semua perangkat, pulihkan akses akun, dan hapus akun dengan aman tanpa kehilangan koin atau opsi pengembalian dana.",
+  "sections": [
+    {
+      "title": "Masuk sebelum memasang ulang",
+      "paragraphs": [
+        "Koin milik akun SMS Code Anda. Masuk dengan Apple, Google, atau kode email selagi Anda masih punya akses ke saldo, lalu gunakan login yang sama di perangkat lain. Akun pembelian Apple dan login SMS Code terpisah.",
+        "Memasang ulang saat memakai akun anonim dapat membuat akun yang berbeda. Pemulihan pembelian App Store tidak dengan sendirinya membuat ulang saldo koin anonim. Jika Anda kehilangan akses, hubungi dukungan dengan ID pesanan Apple dan detail akun yang masih Anda miliki; pemulihan memerlukan verifikasi."
+      ]
+    },
+    {
+      "title": "Sebelum menghapus akun",
+      "paragraphs": [
+        "Penghapusan akun dan pengembalian pembayaran adalah tindakan terpisah. Simpan detail pembelian yang Anda butuhkan, selesaikan aktivasi yang tertunda, dan hubungi dukungan tentang sisa koin sebelum menghapus. Ajukan pengembalian pembayaran Apple secara terpisah.",
+        "Gunakan opsi penghapusan akun di setelan aplikasi. Jika Anda tidak dapat mengaksesnya, hubungi dukungan. Penghapusan tidak membatalkan pembayaran Apple, dan catatan yang diperlukan untuk kewajiban hukum atau penanganan sengketa dapat disimpan sebagaimana dijelaskan dalam Kebijakan Privasi kami."
+      ]
+    },
+    {
+      "title": "Hubungi kami dengan aman",
+      "paragraphs": [
+        "Gunakan formulir dukungan atau support@simnetiq.com. Kirim layanan, negara, waktu, serta pengenal aktivasi atau pesanan, tetapi jangan pernah mengirim kata sandi, kode verifikasi, atau detail kartu pembayaran lengkap. Periksa tangkapan layar untuk informasi sensitif sebelum membagikannya."
+      ]
+    }
+  ]
+}

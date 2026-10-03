@@ -1,0 +1,41 @@
+{
+  "breadcrumbHome": "Home",
+  "breadcrumbHub": "Virtual numbers",
+  "heroLabel": "Virtual numbers",
+  "step": "Step",
+  "tipsLabel": "Good to know",
+  "tipsTitle": "Before you verify",
+  "faqLabel": "Questions",
+  "countriesLabel": "Popular countries for this service",
+  "relatedLabel": "Related services",
+  "relatedTitle": "People also verify",
+  "ctaTitle": "Get a number and the code in under a minute",
+  "ctaSupport": "Questions? Talk to support",
+  "hub": {
+    "metaTitle": "Virtual Numbers for SMS Verification — All Services",
+    "metaDescription": "Rent a real virtual number for Telegram, WhatsApp, Google, Instagram and more. Receive SMS verification codes usually within seconds — no SIM, no subscription.",
+    "label": "Coverage",
+    "title": "One number away from any sign-up",
+    "sub": "Pick the service you're signing up for — each guide covers the real verification flow, the gotchas and the questions people actually ask.",
+    "allNote": "More services are added regularly — the app itself supports 100+ services in 100+ countries."
+  },
+  "categories": {
+    "messaging": "Messaging",
+    "social": "Social media",
+    "finance": "Finance",
+    "shopping": "Shopping",
+    "travel": "Travel & transport",
+    "entertainment": "Entertainment",
+    "dev": "Developer tools",
+    "other": "Accounts & platforms"
+  },
+  "country": {
+    "hubLabel": "By country",
+    "hubTitle": "Numbers by country",
+    "dialingCode": "Dialing code",
+    "numberFormat": "Number format",
+    "servicesLabel": "Often verified with this country",
+    "allCountries": "All countries",
+    "breadcrumb": "Countries"
+  }
+}

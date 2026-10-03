@@ -1,0 +1,75 @@
+{
+  "metaTitle": "WeChat için sanal numara",
+  "metaDescription": "Sanal numara WeChat SMS’ini genellikle saniyeler içinde alır ama yeni WeChat hesapları çoğu zaman mevcut bir kullanıcıdan arkadaş onayı da ister. Dürüst rehber.",
+  "hero": {
+    "title": "WeChat için sanal numara",
+    "intro": [
+      "Açık olalım: WeChat en zor ana akım kayıttır. SMS adımı başka her yer gibi çalışır — bir numara girersiniz, “Use the code (582074) on WeChat to log in to your account.” gelir, yazarsınız. Ama birçok yeni kayıtta WeChat sonra ikinci bir kapı ekler: kriterlerini karşılayan mevcut bir WeChat kullanıcısının onayı. Hiçbir numara, sanal veya başka türlü, bunun yerine geçemez.",
+      "SMS Code ile telefon adımının kendisi kolaydır — 100+ ülkeden birinde gerçek bir numara, kod uygulamada genellikle saniyeler içinde. Bu sayfa numaranın neyi kapsadığını, neyi kapsamadığını ve bir insana bağlı kısma nasıl hazırlanacağınızı dürüstçe anlatır."
+    ]
+  },
+  "whyVirtual": {
+    "title": "WeChat için neden sanal numara?",
+    "body": [
+      "WeChat telefon numarasının etrafında neredeyse her uygulamadan daha sıkı kuruludur — giriş, kimlik ve kurtarma yolu birdir. İnsanların sanal numaraya uzanmasının nedeni tam budur: Çin’deki aile, iş arkadaşları veya bir tedarikçiyle konuşmak için WeChat’e ihtiyacınız varsa gündelik numaranızın bu kadar kapsamlı bir ekosistemde kimliğiniz olması için neden yoktur. O rolü kiralanan numara üstlenir.",
+      "Ama dürüst resmin ikinci bir yarısı vardır. WeChat yeni kayıtları agresif korur ve arkadaş onayı adımı — yerleşik bir kullanıcının sizi kendi uygulamasından onaylaması — özellikle uluslararası numaralar için sık çıkar. Tanıdığınız kimse WeChat kullanmıyorsa kayıt SMS’ten sonra basitçe takılabilir ve bu bir numara sorunu değildir. Bir şey kiralamadan önce yardımcınızı ayarlayın: WeChat sorduğu anda sizi onaylayabilecek, hesabı iyi durumda bir iş arkadaşı, akraba veya arkadaş."
+    ]
+  },
+  "howTo": {
+    "title": "WeChat’i sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "Önce yardımcınızı ayarlayın",
+        "body": "Yerleşik bir WeChat hesabı olan, kişisel olarak tanıdığınız birine yeni bir kayda yardım edip edemeyeceğini sorun. Asıl darboğaz bu adımdır — bir numaraya bir şey harcamadan önce onu çözün."
+      },
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "Servis olarak WeChat’i seçin ve bir ülke seçin. Tek dokunuş size gerçek bir mobil numara ayırır."
+      },
+      {
+        "title": "Kaydolun ve kodu girin",
+        "body": "WeChat’te kaydı kiralanan numarayla başlatın. “Use the code (582074) on WeChat to log in to your account.” SMS Code uygulamasına genellikle saniyeler içinde gelir — yazın, sonra WeChat’in sunduğu güvenlik doğrulamasını izleyin ve arkadaş onayı kısmını yardımcınıza bırakın."
+      },
+      {
+        "title": "Hesabı SMS’in ötesine bağlayın",
+        "body": "İçeri girdikten sonra bir WeChat kimliği ve parola belirleyin ve ayarlarda bir e-posta bağlayın. Günlük giriş SMS’e bağlı kalmaz — WeChat yine de cihaz kontrolleri çalıştırabilir, bu yüzden tek oturum açık cihazınızdan gelişigüzel çıkış yapmayın."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Asıl kapı arkadaş onayıdır",
+      "body": "WeChat’in yardımcısı WeChat’in kendi koyduğu kriterleri karşılamalıdır — yerleşik, aktif bir hesap — ve WeChat tam listeyi yayımlamaz. Yabancılardan asla “doğrulama yardımı” satın almayın: bu bir dolandırıcılık pazarıdır ve o yolla doğrulanan hesaplar yardım eden yabancıya kaptırılma alışkanlığındadır."
+    },
+    {
+      "title": "Neye ödediğinizi bilin",
+      "body": "Yalnızca SMS almış bir etkinleştirme için ödersiniz — hiçbir şey almayan ücretsiz iptal edilebilir. Ama açık gözlü olun: WeChat kodu gönderip sizi arkadaş onayında takarsa o etkinleştirme kullanılmış demektir. Kaybı önlemenin yolu daha iyi bir numara değil, başlamadan önce yardımcınızın hazır olmasıdır."
+    },
+    {
+      "title": "Oturumu hesapmış gibi koruyun",
+      "body": "WeChat yeni cihazlarda agresif yeniden doğrular ve bu kontroller bağlı numarayı içerebilir. Oturum açık kalın, parola ve WeChat kimliğini hemen belirleyin ve hesap önemli olursa her şey hâlâ çalışırken ayarlarda telefonu kontrol ettiğiniz bir numaraya yeniden bağlayın."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Yalnızca sanal numara bana bir WeChat hesabı kazandırır mı?",
+      "a": "Dürüst olmak gerekirse: çoğu zaman hayır. Numara SMS adımını kusursuz karşılar ama birçok yeni kayıt — özellikle uluslararası olanlar — sonra mevcut bir WeChat kullanıcısının onayını ister. O kapı çıkarsa hiçbir tür numara onu geçemez; bir kişi geçer."
+    },
+    {
+      "q": "Arkadaş onayı doğrulaması tam olarak nedir?",
+      "a": "WeChat, hesabı iç kriterlerini karşılayan mevcut bir kullanıcıdan kaydınızı kendi uygulamasından onaylamasını ister — tipik olarak bir QR kodu tarayarak veya kendi tarafındaki yönergeleri izleyerek. Yeni hesaplar için WeChat’in kötüye kullanım kapısıdır. Bunu gerçekten tanıdığınız biriyle ayarlayın; hesabının yerleşik ve iyi durumda olması gerekir."
+    },
+    {
+      "q": "Tanıdığım kimse WeChat kullanmıyor. Yine de kaydolabilir miyim?",
+      "a": "Dürüst söyleyelim: belki hayır. WeChat arkadaş onayı isterse ve soracak kimseniz yoksa kayıt takılır — ve yabancılardan çevrimiçi yardım satın almak uzak durmanız gereken bir dolandırıcılık ve hesap hırsızlığı pazarıdır. WeChat vazgeçilmezse gerçekçi yol onu kullanan gerçek bir kişi bulmaktır."
+    },
+    {
+      "q": "Numaranın süresi bitince hesap çalışmaya devam eder mi?",
+      "a": "Günlük kullanım için evet — parola ve WeChat kimliği ayarlıyken SMS olmadan giriş yaparsınız. Uyarı, bağlı telefona başvurabilen yeni cihazlardaki WeChat güvenlik kontrolleridir. Hesap uzun vadede önemliyse tam erişiminiz varken ayarlarda onu kontrol ettiğiniz bir numaraya yeniden bağlayın."
+    },
+    {
+      "q": "WeChat kodu neden gelmedi?",
+      "a": "Önce ülke kodunu kontrol edin. Bunun ötesinde WeChat hangi numaralara hizmet ettiğinde çoğu uygulamadan gerçekten daha seçicidir. Hiçbir şey almayan bir etkinleştirme SMS Code’da ücretsiz iptal edilebilir; tercihen başka bir ülkeden taze bir numara alın ve yeniden deneyin."
+    }
+  ]
+}

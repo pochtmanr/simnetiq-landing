@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour Facebook",
+  "metaDescription": "Vérifiez Facebook avec un vrai numéro virtuel dans plus de 100 pays. Le code arrive généralement en quelques secondes, annulation sans frais si aucun SMS.",
+  "hero": {
+    "title": "Numéro virtuel pour Facebook",
+    "intro": [
+      "Sur le papier, Facebook vous laisse vous inscrire avec un simple e-mail. En pratique, un numéro de téléphone sort rarement du tableau\u00a0: le formulaire d’inscription en demande souvent un, et les comptes neufs atterrissent couramment dans un contrôle de sécurité dans leurs premiers jours — où un code envoyé par SMS est le moyen le plus rapide de prouver qu’une vraie personne est derrière le profil.",
+      "Avec SMS Code, vous louez un vrai numéro mobile dans l’un de plus de 100 pays, vous le donnez à Facebook, et le code de confirmation apparaît dans l’app généralement en quelques secondes. Vous payez par activation, à partir d’un pack de pièces en achat unique — sans abonnement — et si un numéro ne reçoit rien, vous l’annulez sans être facturé."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour Facebook\u00a0?",
+    "body": [
+      "Un profil Facebook porte déjà votre nom, votre visage et votre liste d’amis. Y ajouter votre numéro personnel le relie à tout le reste de votre vie — et des numéros attachés à des comptes Facebook ont été extraits et fuités à une échelle énorme par le passé. Un numéro fuité fonctionne comme une clé de recherche\u00a0: il relie votre profil à des messageries, des places de marché et des fichiers de courtiers en données. Un numéro virtuel donne à Facebook un vrai numéro qui fonctionne, et qui n’est simplement pas cette clé.",
+      "Il y a aussi des raisons du quotidien\u00a0: vous vous inscrivez à l’étranger et votre SIM d’origine ne peut pas recevoir de SMS, ou vous vendez sur Marketplace et vous préférez que des inconnus ne détiennent pas un numéro qui sonne dans votre poche. Une chose pour laquelle un numéro virtuel n’est pas fait — les conditions de Facebook autorisent un compte personnel par personne, donc traitez cela comme de la vie privée pour votre compte, pas comme un moyen d’en tenir plusieurs."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier Facebook avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Obtenez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, choisissez Facebook comme service, un pays, et touchez une fois. Un vrai numéro mobile vous est réservé pour la durée de l’activation."
+      },
+      {
+        "title": "Saisissez-le quand Facebook le demande",
+        "body": "Ce peut être sur le formulaire d’inscription lui-même ou à un contrôle peu après. Sélectionnez l’indicatif pays qui correspond au numéro loué — un décalage est la raison la plus courante pour qu’un code n’arrive jamais."
+      },
+      {
+        "title": "Saisissez le code de confirmation",
+        "body": "Le SMS arrive dans l’app SMS Code généralement en quelques secondes, de l’expéditeur «\u00a0Facebook\u00a0», sous une forme comme «\u00a0285103 is your Facebook confirmation code\u00a0». Saisissez les chiffres et le contrôle est levé."
+      },
+      {
+        "title": "Ancrez le compte sur ce que vous contrôlez",
+        "body": "Tout de suite, ajoutez un e-mail qui vous appartient et activez l’authentification à deux facteurs avec une application d’authentification dans Centre de comptes → Mot de passe et sécurité. À partir de là, les connexions et la récupération ne dépendent plus du numéro loué."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Attendez-vous au contrôle — c’est routinier",
+      "body": "Facebook conteste les comptes neufs plus agressivement que presque tout autre réseau social. Une photo de profil, quelques vrais détails et un rythme humain vont loin\u00a0; un compte à moitié vide qui ajoute cinquante amis en une heure est exactement ce qui fait trébucher les filtres."
+    },
+    {
+      "title": "Sortez la récupération du numéro dès le premier jour",
+      "body": "Le numéro loué est pour le moment de la vérification, pas pour la vie. Une fois dedans, confirmez une adresse e-mail et configurez une application d’authentification — ensuite aucun futur parcours de connexion ou de récupération ne passe par SMS."
+    },
+    {
+      "title": "Une personne, un compte",
+      "body": "Les conditions de Facebook sont explicites\u00a0: un compte personnel par personne. Un numéro virtuel garde votre vrai numéro privé sur le compte que vous avez — l’utiliser pour multiplier les comptes les met tous à risque."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mon compte Facebook continuera-t-il après l’expiration du numéro\u00a0?",
+      "a": "Oui. Le numéro est contrôlé au moment de la vérification, pas en continu. Ajoutez un e-mail et une 2FA par application d’authentification juste après l’inscription, et plus rien dans le compte ne dépendra de ce numéro."
+    },
+    {
+      "q": "Puis-je m’inscrire à Facebook sans aucun numéro de téléphone\u00a0?",
+      "a": "Parfois — l’inscription par e-mail seul existe. Mais beaucoup de comptes neufs se font demander un téléphone pendant l’inscription ou peu après, à un contrôle. L’approche pratique est de louer un numéro au moment où Facebook en exige vraiment un."
+    },
+    {
+      "q": "Pourquoi Facebook a-t-il verrouillé mon compte tout neuf\u00a0?",
+      "a": "Les contrôles sur les comptes neufs sont normaux, pas le signe que vous avez mal agi. Facebook demande périodiquement aux nouveaux profils de confirmer un numéro de téléphone, et parfois une photo. Terminez l’étape SMS, continuez à remplir le profil à un rythme humain, et le compte se calme."
+    },
+    {
+      "q": "Pourquoi mon code Facebook n’est-il pas arrivé\u00a0?",
+      "a": "En général l’une de deux choses\u00a0: l’indicatif pays saisi sur Facebook ne correspond pas au numéro loué, ou Facebook a refusé d’envoyer un texto à ce numéro précis. Annulez l’activation en cours dans SMS Code — les pièces reviennent pour les numéros qui n’ont rien reçu — et essayez-en un neuf, idéalement d’un autre pays."
+    },
+    {
+      "q": "Vérifier Facebook avec un numéro loué est-il contre les règles\u00a0?",
+      "a": "Les contrôles de Facebook existent pour confirmer une personne joignable, et un numéro virtuel est un vrai numéro joignable. Ce que la plateforme applique vraiment, c’est le comportement et l’authenticité\u00a0: un compte véritable, pas d’usurpation, pas de spam. Tenez-vous-en à cela et l’origine du numéro n’est pas un sujet."
+    }
+  ]
+}

@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { getService } from "../lib/content/services";
-import { SERVICES_UI } from "../lib/content/servicesUi";
+import { servicesUi } from "../lib/content/ui";
 import { localePath, type Locale } from "../lib/i18n";
 
-/** Card links to other service pages; slugs not (yet) in the registry are
- *  skipped, so cross-links can be authored ahead of the pages they point to. */
+/** Card links to other service pages; slugs not (yet) published in this
+ *  locale are skipped, so cross-links can be authored ahead of the pages they
+ *  point to. */
 export function RelatedServices({
   locale,
   slugs,
@@ -12,9 +13,9 @@ export function RelatedServices({
   locale: Locale;
   slugs: string[];
 }) {
-  const t = SERVICES_UI[locale];
+  const t = servicesUi(locale);
   const entries = slugs
-    .map((slug) => getService(slug))
+    .map((slug) => getService(locale, slug))
     .filter((e) => e !== undefined);
   if (entries.length === 0) return null;
   return (

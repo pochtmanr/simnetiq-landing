@@ -1,0 +1,152 @@
+{
+  "title": "Como criar uma conta do Google sem o seu celular",
+  "description": "O Google nem sempre pede um celular — e, quando pede, não precisa ser o seu. Fluxos que pulam, número virtual e a armadilha da recuperação.",
+  "excerpt": "Às vezes o Google deixa você se cadastrar sem telefone nenhum; às vezes o aviso é obrigatório. Veja o que decide isso, os caminhos que de fato funcionam e o ajuste de recuperação que mantém a conta sua depois.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Uma conta do Google é a chave de metade da internet — Gmail, YouTube, Drive, a Play Store, todo botão de “Entrar com o Google”. É exatamente por isso que entregar ao Google o seu celular pessoal pesa mais do que entregar a algum fórum: esse número fica ligado à conta que já conhece as suas buscas, o histórico de localização e a caixa de entrada."
+    },
+    {
+      "type": "p",
+      "text": "Eis a parte que a maioria dos guias erra: o Google nem sempre exige um número de telefone. Às vezes o cadastro passa só com nome e data de nascimento; às vezes o mesmo formulário recusa continuar até um código ser enviado a algum lugar. Qual dos dois você recebe não é aleatório — e, quando você sabe o que inclina a balança, pode escolher o caminho que combina."
+    },
+    {
+      "type": "p",
+      "text": "Este guia cobre quando o aviso de fato aparece, os jeitos de se cadastrar que funcionam de verdade sem o seu número e — porque aqui importa mais do que em qualquer outro lugar — como configurar a recuperação para a conta nunca depender de um número que você não guarda."
+    },
+    {
+      "type": "h2",
+      "id": "when-google-actually-asks",
+      "text": "Quando o Google de fato exige um número"
+    },
+    {
+      "type": "p",
+      "text": "O Google decide por cadastro se a verificação por telefone é obrigatória, com base em quão arriscada a tentativa parece. Você provavelmente enfrenta um aviso obrigatório quando várias destas se alinham:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "O cadastro vem de um navegador de computador — sobretudo um perfil novo, uma janela privada ou uma saída de VPN que os sistemas do Google ainda não viram.",
+        "Várias contas foram criadas há pouco do mesmo aparelho, rede ou impressão digital do navegador. O contador é invisível, mas existe — a segunda e a terceira conta enfrentam o aviso bem mais do que a primeira.",
+        "Qualquer coisa na tentativa parece automatizada: ritmo de digitação incomum, uma faixa de IP marcada, um endereço de data center."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Inverta isso e você tem os fluxos mais amigáveis: cadastros de um celular real, numa conexão residencial, num ritmo sem pressa são aqueles em que o campo de telefone aparece marcado como opcional — ou nem aparece. Essa é a nuance honesta: você não pode forçar o Google a pular o aviso, mas pode escolher o fluxo em que pular é mais provável."
+    },
+    {
+      "type": "h2",
+      "id": "why-keep-your-number-out",
+      "text": "Por que manter o seu número fora disso"
+    },
+    {
+      "type": "p",
+      "text": "Além do princípio geral — um banco a menos guardando o seu identificador permanente — o Google usa de forma específica um telefone verificado para ligar contas entre si: números conectam as suas contas “separadas”, amarram cadastros ao perfil de publicidade e tornam contas anônimas ou separadas do trabalho tudo menos isso. Um número também é um canal de descoberta: quem o tem nos contatos pode ver o seu perfil. Se o ponto inteiro de uma segunda conta é separação, ligá-la ao mesmo chip desfaz isso no primeiro dia."
+    },
+    {
+      "type": "h2",
+      "id": "routes-that-work",
+      "text": "Os caminhos que de fato funcionam"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pule quando for opcional. Se o campo de telefone mostrar uma opção “Pular” — use. Adicione um e-mail de recuperação na tela seguinte e a conta está completa. Esse é o caminho de custo zero e funciona mais vezes do que as pessoas esperam, sobretudo nos fluxos acima.",
+        "Cadastre-se por um aparelho Android. Adicionar uma conta em Ajustes → Contas num celular ou tablet Android é o fluxo em que o Google mais vezes não pede número nenhum — o próprio aparelho avaliza o cadastro. Se você tiver qualquer aparelho Android por perto, vale tentar primeiro.",
+        "Use um número virtual quando o aviso for obrigatório. Quando o Google recusar continuar sem um código, qualquer número que receba um SMS serve — inclusive um número virtual alugado que nunca aponta de volta para você. Os passos abaixo cobrem isso."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-a-virtual-number",
+      "text": "Verificar com um número virtual, passo a passo"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Alugue um número para o Google",
+          "body": "No aplicativo SMS Code, escolha Google como serviço e escolha um país. Um toque reserva um número de celular real só para você — você paga em moedas de um pacote avulso, sem assinatura."
+        },
+        {
+          "title": "Digite na tela de verificação",
+          "body": "De volta ao cadastro do Google, selecione o país que combina com o número alugado e digite. O Google é rígido com formatos, então deixe o seletor de país fazer o trabalho, em vez de digitar o prefixo à mão."
+        },
+        {
+          "title": "Copie o código",
+          "body": "O SMS — “G-482916 is your Google verification code” — aparece no SMS Code em geral em segundos. Digite e o cadastro continua."
+        },
+        {
+          "title": "Desligue o número na hora",
+          "body": "Quando você entrar, abra myaccount.google.com → Segurança, adicione um e-mail de recuperação que você controla e depois remova o número de telefone das seções “Telefone de recuperação” e “Telefone”. A conta passa a se apoiar só na sua senha e no e-mail."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    },
+    {
+      "type": "h2",
+      "id": "the-recovery-trap",
+      "text": "A armadilha da recuperação — leia antes de fechar a aba"
+    },
+    {
+      "type": "p",
+      "text": "No Google, os ajustes de recuperação não são um detalhe; são a diferença entre uma conta que você tem e uma conta que você pegou emprestada. O Google se apoia no telefone verificado para checagens de acesso suspeito: viaje para um lugar novo, limpe os cookies ou só tenha azar, e a tela de acesso pode exigir o código de novo — enviado ao número que estiver no arquivo."
+    },
+    {
+      "type": "callout",
+      "text": "No momento em que o cadastro termina, faça duas coisas: adicione um e-mail de recuperação que você controla e remova o número alugado dos ajustes de telefone da conta. Se o número permanecer no arquivo depois que o aluguel termina, uma checagem futura pode trancar você fora da própria conta — esse é o único risco real deste processo, e é totalmente evitável."
+    },
+    {
+      "type": "h2",
+      "id": "honest-limits",
+      "text": "Os limites honestos"
+    },
+    {
+      "type": "list",
+      "items": [
+        "O Google pode pedir verificação de novo mais tarde. Um aparelho novo, um lugar estranho ou um navegador limpo podem disparar outra checagem. Com um e-mail de recuperação definido e o número antigo removido, você verifica por e-mail — mas espere o desafio ocasional; é assim que o Google funciona para toda conta.",
+        "Um número verifica um número limitado de contas. O Google acompanha quantas contas cada número confirmou e começa a recusar depois de algumas. Um número alugado que você usa uma vez não bate nessa parede — mas o mesmo número reciclado em muitos cadastros bate.",
+        "Isto não é uma ferramenta de cadastro em massa. Uma conta privada para separação ou privacidade é uso normal. Fazendas de contas violam os termos do Google, são pegas pelos mesmos sistemas de risco descritos acima e em geral terminam numa onda de suspensões."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Perguntas frequentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Dá mesmo para criar uma conta do Google sem nenhum número de telefone?",
+          "a": "Às vezes, sim. Quando o campo de telefone está marcado como opcional — com mais frequência no fluxo de adicionar conta do Android ou em cadastros de baixo risco — você pode pular por completo e usar um e-mail de recuperação. Quando o Google decide que a verificação é obrigatória para a sua tentativa, algum número precisa receber um código; só não precisa ser o seu."
+        },
+        {
+          "q": "O Gmail e o YouTube funcionam normalmente depois?",
+          "a": "Sim. Uma conta verificada com número virtual é uma conta do Google completa — Gmail, YouTube, Drive e Play se comportam do mesmo jeito. O único papel do número foi o código único do cadastro."
+        },
+        {
+          "q": "O que acontece quando o número alugado expira?",
+          "a": "Nada — desde que você o tenha removido da conta e definido um e-mail de recuperação. A conta roda com a sua senha e o e-mail. Se você deixar o número morto como telefone de recuperação, uma checagem futura de segurança pode mandar códigos para lá, e por isso desligá-lo na hora importa."
+        },
+        {
+          "q": "Por que o Google diz que o meu número “não pode ser usado para verificação”?",
+          "a": "O Google recusa faixas que viu serem abusadas — a maioria dos números públicos gratuitos e algumas faixas virtuais. Se um número alugado for recusado, cancele a ativação sem custo no SMS Code e pegue outro, de preferência de outro país; o próximo número em geral passa."
+        },
+        {
+          "q": "Cadastrar assim fere os termos do Google?",
+          "a": "Os termos do Google exigem informações de recuperação verdadeiras e proíbem abuso — não exigem que o telefone do cadastro esteja registrado no seu nome. Uma conta pessoal criada com um número alugado e depois protegida direito com o seu próprio e-mail de recuperação é uso normal; criação de contas em massa não é."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    }
+  ]
+}

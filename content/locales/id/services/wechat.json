@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk WeChat — yang berhasil dan yang tidak",
+  "metaDescription": "Nomor virtual menerima SMS WeChat biasanya dalam hitungan detik, tetapi akun baru sering butuh bantuan teman dari pengguna yang sudah ada.",
+  "hero": {
+    "title": "Nomor virtual untuk WeChat",
+    "intro": [
+      "Mari terus terang: WeChat adalah pendaftaran arus utama yang paling sulit. Langkah SMS bekerja seperti di tempat lain — Anda memasukkan nomor, “Use the code (582074) on WeChat to log in to your account.” tiba, Anda mengetiknya. Tetapi bagi banyak pendaftaran baru WeChat kemudian menambah gerbang kedua: konfirmasi oleh pengguna WeChat yang sudah ada yang akunnya memenuhi kriterianya. Tidak ada nomor, virtual atau bukan, yang dapat menggantikan itu.",
+      "Dengan SMS Code langkah telepon sendiri mudah — nomor asli di salah satu dari 100+ negara, kode di aplikasi biasanya dalam hitungan detik. Halaman ini memberi tahu dengan jujur apa yang dicakup nomor, apa yang tidak, dan cara bersiap untuk bagian yang bergantung pada manusia."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk WeChat?",
+    "body": [
+      "WeChat dibangun di sekitar nomor telepon lebih ketat daripada hampir aplikasi mana pun — itu login, identitas, dan jalur pemulihan sekaligus. Persis itulah mengapa orang meraih nomor virtual: jika Anda membutuhkan WeChat untuk berbicara dengan keluarga, rekan, atau pemasok di Tiongkok, itu bukan alasan nomor sehari-hari Anda menjadi identitas di dalam ekosistem yang selengkap ini. Nomor sewaan mengambil peran itu sebagai gantinya.",
+      "Tetapi gambar jujurnya punya separuh kedua. WeChat menjaga pendaftaran baru secara agresif, dan langkah bantuan teman — pengguna mapan mengonfirmasi Anda dari aplikasi mereka sendiri — sering muncul, terutama untuk nomor internasional. Jika tidak ada yang Anda kenal memakai WeChat, pendaftaran mungkin mandek setelah SMS, dan itu bukan masalah nomor. Siapkan pembantu Anda sebelum menyewa apa pun: rekan, kerabat, teman dengan akun yang berstatus baik yang dapat mengonfirmasi Anda begitu WeChat meminta."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi WeChat dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Atur pembantu Anda lebih dulu",
+        "body": "Tanyakan kepada seseorang yang Anda kenal pribadi dengan akun WeChat yang mapan apakah mereka dapat membantu pendaftaran baru. Langkah ini adalah hambatan yang sebenarnya — selesaikan sebelum membelanjakan apa pun untuk nomor."
+      },
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Pilih WeChat sebagai layanan dan pilih negara. Satu ketukan mencadangkan nomor seluler asli untuk Anda."
+      },
+      {
+        "title": "Daftar dan masukkan kode",
+        "body": "Mulai pendaftaran di WeChat dengan nomor sewaan. “Use the code (582074) on WeChat to log in to your account.” tiba di aplikasi SMS Code biasanya dalam hitungan detik — ketik, lalu ikuti verifikasi keamanan apa pun yang ditampilkan WeChat, serahkan bagian bantuan teman kepada pembantu Anda."
+      },
+      {
+        "title": "Tambatkan akun di luar SMS",
+        "body": "Setelah masuk, atur ID WeChat dan kata sandi, serta tautkan email di setelan. Login harian berhenti bergantung pada SMS — meskipun WeChat masih dapat menjalankan pemeriksaan perangkat, jadi jangan keluar dari satu-satunya perangkat yang masuk secara sembarangan."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Bantuan teman adalah gerbang yang sebenarnya",
+      "body": "Pembantu WeChat harus memenuhi kriteria yang ditetapkan WeChat sendiri — akun yang mapan dan aktif — dan WeChat tidak memublikasikan daftar persisnya. Jangan pernah membeli “bantuan verifikasi” dari orang asing: itu pasar penipuan, dan akun yang diverifikasi dengan cara itu punya kebiasaan hilang ke orang asing yang membantu."
+    },
+    {
+      "title": "Ketahui apa yang Anda bayar",
+      "body": "Anda hanya membayar untuk aktivasi yang menerima SMS — yang tidak menerima apa pun dapat dibatalkan gratis. Tetapi lihat dengan jernih: jika WeChat mengirim kode lalu menahan Anda di bantuan teman, aktivasi itu sudah terpakai. Cara menghindari kerugian bukan nomor yang lebih baik, melainkan pembantu yang siap sebelum Anda mulai."
+    },
+    {
+      "title": "Jaga sesi seolah itu akunnya",
+      "body": "WeChat memverifikasi ulang secara agresif di perangkat baru, dan pemeriksaan itu dapat melibatkan nomor yang tertaut. Tetap masuk, atur kata sandi dan ID WeChat segera, dan jika akun menjadi penting, tautkan ulang telepon di setelan ke nomor yang Anda kendalikan selagi semuanya masih berfungsi."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah nomor virtual saja memberi saya akun WeChat?",
+      "a": "Jujur: sering tidak. Nomor menangani langkah SMS dengan sempurna, tetapi banyak pendaftaran baru — terutama yang internasional — kemudian mensyaratkan konfirmasi oleh pengguna WeChat yang sudah ada. Jika gerbang itu muncul, tidak ada jenis nomor yang melewatinya; oranglah yang melakukannya."
+    },
+    {
+      "q": "Apa sebenarnya verifikasi bantuan teman itu?",
+      "a": "WeChat meminta pengguna yang sudah ada yang akunnya memenuhi kriteria internal untuk mengonfirmasi pendaftaran Anda dari aplikasi mereka — biasanya dengan memindai kode QR atau mengikuti permintaan di sisi mereka. Ini gerbang anti-penyalahgunaan WeChat untuk akun baru. Atur dengan seseorang yang benar-benar Anda kenal; akun mereka perlu mapan dan berstatus baik."
+    },
+    {
+      "q": "Tidak ada yang saya kenal memakai WeChat. Bisakah saya tetap mendaftar?",
+      "a": "Kami lebih suka jujur: mungkin tidak. Jika WeChat menuntut bantuan teman dan Anda tidak punya siapa pun untuk diminta, pendaftaran mandek — dan membeli bantuan dari orang asing daring adalah pasar penipuan dan pencurian akun yang sebaiknya Anda jauhi. Jika WeChat penting, jalur realistisnya adalah menemukan kontak tulus yang memakainya."
+    },
+    {
+      "q": "Apakah akun tetap berfungsi setelah nomornya berakhir?",
+      "a": "Untuk pemakaian harian, ya — dengan kata sandi dan ID WeChat terpasang, Anda masuk tanpa SMS. Catatannya adalah pemeriksaan keamanan WeChat di perangkat baru, yang dapat merujuk telepon yang tertaut. Jika akun penting jangka panjang, tautkan ulang di setelan ke nomor yang Anda kendalikan selagi Anda masih punya akses penuh."
+    },
+    {
+      "q": "Mengapa kode WeChat tidak masuk?",
+      "a": "Periksa kode negara lebih dulu. Di luar itu, WeChat benar-benar pemilih tentang nomor mana yang dilayaninya — lebih daripada kebanyakan aplikasi. Aktivasi yang tidak menerima apa pun dapat dibatalkan di SMS Code tanpa biaya; ambil nomor baru, idealnya dari negara lain, dan coba lagi."
+    }
+  ]
+}

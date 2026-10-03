@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Support",
+    "description": "Get help with SMS Code — activations, billing, coins and account questions. Read troubleshooting guides or contact our support team by email."
+  },
+  "page": {
+    "label": "Support",
+    "title": "How can we help?",
+    "introBefore": "Send us a message below or email ",
+    "introAfter": " — include the details below so we can review your request and reply by email.",
+    "items": [
+      {
+        "title": "Activation issues",
+        "body": "No SMS yet? Cancellation is available two minutes after assignment, before an SMS arrives, and returns coins to your balance. Read the troubleshooting guide before trying again.",
+        "slug": "activation-issues"
+      },
+      {
+        "title": "Billing & coins",
+        "body": "Purchases go through the App Store. Include your store receipt or order ID and we'll trace any missing coins.",
+        "slug": "billing-coins-refunds"
+      },
+      {
+        "title": "Keeping your balance",
+        "body": "Your coins live with your SMS Code account, not with the App Store receipt. If you have only ever used the app anonymously, reinstalling starts a new account and the balance does not follow — so sign in (Apple, Google or an email code) while you still have coins, and they will be there on any device you sign in on. Already reinstalled and lost a balance? Write in with your App Store receipt or order ID and we will sort it out.",
+        "slug": "account-balance"
+      }
+    ],
+    "readGuide": "Read the guide",
+    "knowledgeBase": "Knowledge base",
+    "safetyTitle": "Choosing a country and staying safe",
+    "safetyLink": "How to choose a country and protect your account"
+  },
+  "form": {
+    "name": "Your name",
+    "namePlaceholder": "Alex",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "topic": "Topic",
+    "topicPlaceholder": "Choose a topic",
+    "topics": [
+      "Activation didn't arrive",
+      "Billing & coins",
+      "Account & restore purchases",
+      "Bug report",
+      "Feature request",
+      "Something else"
+    ],
+    "message": "Message",
+    "messagePlaceholder": "Tell us what happened — the service, country and rough time of the activation help us find it fast.",
+    "honeypot": "Leave this field empty",
+    "send": "Send message",
+    "sending": "Sending…",
+    "genericError": "Something went wrong. Please try again.",
+    "sentChip": "Sent",
+    "sentTitle": "Message received",
+    "sentBody": "Your request has been submitted. We will review it and reply to the email address you provided.",
+    "sendAnother": "Send another message"
+  },
+  "help": {
+    "label": "Knowledge base",
+    "updatedLabel": "Last updated:",
+    "back": "Support and contact form",
+    "appleTitle": "Official Apple guidance",
+    "appleLinks": {
+      "refund": "Request a refund",
+      "instructions": "Apple refund instructions",
+      "status": "Refund status and payment timeframes",
+      "terms": "Apple regional terms",
+      "support": "Apple Support"
+    },
+    "appleNote": "Guidance checked against Apple's official support materials on 30 September 2026. Refund eligibility depends on your region and applicable law.",
+    "related": "Related help",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  },
+  "api": {
+    "invalidBody": "Invalid request body.",
+    "invalidJson": "Invalid JSON.",
+    "name": "Please enter your name.",
+    "email": "Please enter a valid email address.",
+    "topic": "Topic is too long.",
+    "message": "Please describe your issue in at least 10 characters.",
+    "unavailable": "Support form is temporarily unavailable. Please email us instead.",
+    "saveFailed": "We couldn't save your message. Please try again or email us.",
+    "forbidden": "This request didn't come from the support page. Please reload and try again.",
+    "challenge": "Please complete the verification check and try again.",
+    "replySubject": "SMS Code support"
+  }
+}

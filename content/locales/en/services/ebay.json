@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for eBay — Buy and Sell Privately",
+  "metaDescription": "Receive eBay’s security code on a real virtual number usually within seconds. Register, sell and pass sign-in checks without exposing your personal phone.",
+  "hero": {
+    "title": "A virtual number for eBay",
+    "intro": [
+      "eBay wants a phone number early and checks it often. Registration asks for one, opening a seller account insists on one, and its sign-in protection loves to pause a login until a text like “Your eBay security code is 271846” gets typed back in. For a marketplace where you mostly wanted to buy a camera lens, that’s a lot of connection to your personal phone.",
+      "With SMS Code you rent a real mobile number in one of 100+ countries and the code shows up in the app usually within seconds. The account gets verified, the listing goes live — and the number in eBay’s contact records isn’t the one in your pocket."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for eBay?",
+    "body": [
+      "A marketplace account gathers an unusual amount of you in one place: your buying history, your address, your card, and — if the phone is yours — a direct line that outlives every transaction. eBay has decades of accumulated customer data and a long history as a phishing target; “your eBay account has a problem, click here” is a whole genre of scam SMS. A rented number takes the verification step so that genre plays out on a number that was never really yours.",
+      "The honest flip side: eBay uses the phone for more than sign-up. Security codes at login, seller identity checks, and buyer-seller contact features can all reach for it later. That’s why the pattern that works is: verify with the rented number, then keep your email as the account anchor and update the phone in account settings if you stop renting it. An eBay account that can’t receive its own security codes locks its owner out at the worst moment — don’t let that number go stale silently."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify eBay with a virtual number",
+    "steps": [
+      {
+        "title": "Rent a number in SMS Code",
+        "body": "Pick eBay as the service and choose the country of the eBay site you actually use — ebay.com, ebay.co.uk, ebay.de and the rest share one account, but a matching number keeps your registration details consistent."
+      },
+      {
+        "title": "Enter it where eBay asks",
+        "body": "At registration, in the seller-account setup, or when sign-in protection prompts you to confirm a phone. Select the number’s country code and type it carefully."
+      },
+      {
+        "title": "Type in the code",
+        "body": "The SMS reads “Your eBay security code is 271846” and appears in the SMS Code app usually within seconds. Enter it on eBay and the number is confirmed."
+      },
+      {
+        "title": "Anchor the account to email",
+        "body": "Confirm your email address, set a strong password, and treat the phone as a checkpoint rather than the foundation. If you won’t keep the rented number, replace it in Account Settings → Personal Info once you’re set up, so future security codes go somewhere you actually read."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Selling raises the bar",
+      "body": "A buyer account may sail through with minimal checks, but registering as a seller triggers real identity and payout verification — bank details, sometimes documents. The virtual number handles the SMS step of that process; the rest is between you and eBay’s seller onboarding, and it’s not optional."
+    },
+    {
+      "title": "Sign-in checks come back",
+      "body": "eBay’s login protection re-texts the phone on new devices and unusual activity, sometimes months later. If the rented number has lapsed and the phone on file is dead, account recovery becomes a support ticket. Update the number in settings before that happens, not after."
+    },
+    {
+      "title": "One account is the right number of accounts",
+      "body": "eBay links accounts through far more than phone numbers — addresses, payment methods, devices. A virtual number won’t resurrect a suspended account or stack promotional vouchers, and trying tends to end all the linked accounts at once. Use it for privacy on the account you keep."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does eBay accept virtual numbers?",
+      "a": "eBay verifies that a number can receive its SMS — and a rented number from SMS Code is a real mobile number on a carrier network, so the code arrives like any other text. Numbers from free SMS sites, by contrast, are usually recognized and refused."
+    },
+    {
+      "q": "Can I sell on eBay with a virtual number?",
+      "a": "The phone-verification step, yes — seller sign-up texts a code and the rented number receives it. But selling also involves payout and identity verification through eBay’s own process, which a phone number doesn’t influence. Expect to complete that with real details."
+    },
+    {
+      "q": "Will my eBay account survive the rented number expiring?",
+      "a": "Yes — the account anchors to your email and password. Just don’t leave a dead number as the security contact: replace or update the phone in Account Settings so sign-in confirmations and alerts reach a number you still read."
+    },
+    {
+      "q": "Which country should the number be from?",
+      "a": "The country you actually shop or sell from. Your address, payment method and phone tell eBay one consistent story; a number from a different continent than your delivery address invites extra verification instead of less."
+    },
+    {
+      "q": "The eBay code didn’t arrive — what now?",
+      "a": "Double-check the country code matches the rented number and give it a minute; eBay sometimes offers a voice call as an alternative, which won’t reach a rented SMS number — request the text again instead. If nothing arrives, cancel the activation free in SMS Code and take a fresh number."
+    }
+  ]
+}

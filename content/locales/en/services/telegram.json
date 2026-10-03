@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for Telegram — Sign Up Without Your Number",
+  "metaDescription": "Get a real virtual number for Telegram verification usually within seconds. Register a new or second account without a SIM and keep your number private.",
+  "hero": {
+    "title": "A virtual number for Telegram",
+    "intro": [
+      "Telegram asks for a phone number on its very first screen — before you can pick a username, join a group or send a single message. That number becomes the permanent anchor of your account, and by default your contacts can see it.",
+      "With SMS Code you rent a real number in one of 100+ countries, type it into Telegram, and the verification code appears in the app usually within seconds. Your personal number never touches Telegram's servers."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for Telegram?",
+    "body": [
+      "Telegram is built around the phone number: it's your login, your recovery method and — unless you change the privacy settings — what strangers in group chats can use to find you. Using a virtual number cuts that link entirely, so the account works exactly the same but points back to a number that isn't yours.",
+      "It's also the practical way to run a second account. Telegram officially supports multiple accounts in one app, but each one needs its own number. A virtual number gives your work profile, project channel or test account a separate identity without buying a second SIM."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify Telegram with a virtual number",
+    "steps": [
+      {
+        "title": "Get a number in SMS Code",
+        "body": "Open the SMS Code app, choose Telegram as the service, pick a country and tap once. You get a real mobile number reserved just for you."
+      },
+      {
+        "title": "Enter it in Telegram",
+        "body": "On Telegram's sign-up screen, select the matching country code and type the number. Double-check the country — a mismatch is the most common reason a code never arrives."
+      },
+      {
+        "title": "Grab the code from SMS Code",
+        "body": "The SMS lands in the SMS Code app, usually within seconds. It looks like “Telegram code: 48329”. Type it into Telegram and you're in."
+      },
+      {
+        "title": "Lock the account down",
+        "body": "Straight after signing in, set a cloud password in Settings → Privacy and Security → Two-Step Verification. With 2FA on, future logins don't depend on receiving another SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Codes can go to an existing session",
+      "body": "If a number was ever used for Telegram before, Telegram sends the login code to the existing session instead of SMS. SMS Code issues you a fresh number, but if you re-verify later, remember the code may appear inside Telegram itself."
+    },
+    {
+      "title": "Keep your session logged in",
+      "body": "Telegram rarely asks you to re-verify while a session stays active. Don't log out of your only device, and add the cloud password — then the account survives even after the rented number's activation window ends."
+    },
+    {
+      "title": "Hide your number either way",
+      "body": "In Settings → Privacy and Security → Phone Number, set “Who can see my number” to Nobody. Even with a virtual number, it's good hygiene — group members will see only your username."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will my Telegram account keep working after the number expires?",
+      "a": "Yes. The number is only needed at the verification step. As long as you stay logged in and enable Two-Step Verification (a cloud password), the account keeps working normally — Telegram sends future login codes to your active session, not by SMS."
+    },
+    {
+      "q": "Can I make a second Telegram account with a virtual number?",
+      "a": "Yes — that's one of the most common uses. Telegram supports multiple accounts in one app; add your virtual number as the second account and switch between profiles with one tap."
+    },
+    {
+      "q": "Why didn't my Telegram code arrive?",
+      "a": "The usual causes: the country code entered in Telegram doesn't match the number, or Telegram decided to deliver the code to a previous session. Cancel the pending activation in SMS Code — the coins for numbers that received nothing come back to your balance — and try a fresh number."
+    },
+    {
+      "q": "Will people see that I'm using a virtual number?",
+      "a": "No. It's a real mobile number on a real carrier network. To other users it looks like any other account — and if you hide your number in privacy settings, they only ever see your username."
+    },
+    {
+      "q": "Is signing up for Telegram with a virtual number allowed?",
+      "a": "Telegram verifies that you control a number, not whose name it's registered in. Renting a number for the sign-up is fine for normal personal use; what matters is that you follow Telegram's own terms of service once you're in."
+    }
+  ]
+}

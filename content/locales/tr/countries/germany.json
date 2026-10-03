@@ -1,0 +1,55 @@
+{
+  "name": "Almanya",
+  "metaTitle": "Almanya sanal numara +49",
+  "metaDescription": "Gerçek bir Almanya (+49) sanal numara alın, SMS kodunu saniyeler içinde görün. Google, Discord, Steam, Signal ve PayPal’ı doğrulayın.",
+  "hero": {
+    "title": "SMS doğrulama için Almanya sanal numara",
+    "intro": [
+      "Almanya Avrupa’nın en büyük pazarı ve gizlilik konusunda en bilinçlilerinden biridir; +49 mobil numarası bu itibarı yanında taşır. Servisler sıkı veri koruma kültürü ve olgun bir operatör ağı olan bir ülkeden numara görür — en iyi anlamda sağlam, sıradan bir seçim.",
+      "SMS Code size tek dokunuşla gerçek bir Alman mobil numarası kiralar. Onu Google, Discord, Steam veya desteklenen başka bir servisin doğrulama adımına girin; kodunuzu taşıyan SMS uygulamaya genellikle saniyeler içinde düşer."
+    ]
+  },
+  "whyCountry": {
+    "title": "Neden Almanya numarası?",
+    "body": [
+      "Alman numarası güçlü bir AB güven sinyalidir. Avrupa kuralları altında çalışan platformlar — PayPal gibi ödeme servisleri, Steam gibi oyun ekosistemleri, Signal gibi gizlilik öncelikli mesajlaşma uygulamaları — +49 numaralarına iyice alışkındır ve AB’deki kayıt akışları onları egzotik değil, yurt içi bir durum olarak karşılar.",
+      "Alman mobilleri 15x, 16x ve 17x aralıklarında yaşar; daha yeni numaralar için en yaygın olan 15x’tir. Yapı — +49, sonra mobil önek ve abone haneleri — uluslararası formlarca temiz ayrıştırılır, bu yüzden işlerin ters gittiği yer nadiren doğrulama adımıdır."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Uluslararası biçimde girin",
+      "body": "Yurt içinde numara 015X… diye yazılır ama doğrulama formları +49’dan sonra baştaki sıfır olmadan numarayı ister. Ülke seçicili çoğu form bunu sizin için halleder — yalnızca Almanya’nın seçili olduğundan emin olun."
+    },
+    {
+      "title": "AB düzenlemeli servislere iyi uyum",
+      "body": "Hesap Avrupa ödeme veya pazar yeri kurallarıyla etkileşecekse Alman numarası bütün kurulumu AB resmi içinde tutar — bir servis kayıtta AB ve AB dışı kullanıcıları farklı gördüğünde yararlıdır."
+    },
+    {
+      "title": "Takılan kod size bir şeye mal olmaz",
+      "body": "Etkinleştirme penceresinde SMS gelmezse etkinleştirmeyi uygulamada iptal edin — hiçbir şey alınmadığında ücretsizdir — ve temiz bir yeniden deneme için başka bir Alman numarası alın."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bu gerçek bir Alman mobil numarası mı?",
+      "a": "Evet — Almanya’nın standart mobil aralıklarında gerçek bir operatördeki numara. Doğruladığınız servis sıradan bir Alman telefon numarası görür, yalnızca web’e ait bir alma servisi değil."
+    },
+    {
+      "q": "Alman numarasıyla hangi servisler iyi eşleşir?",
+      "a": "Genel olarak AB’ye bakan platformlar: Google, Discord, Steam, Signal ve PayPal sık tercihlerdir ve Avrupa kayıt akışı çalıştıran her servis +49’u tamamen rutin görür."
+    },
+    {
+      "q": "Kullanmak için Almanya’da olmam gerekir mi?",
+      "a": "Hayır. Numara ve gelen SMS’i SMS Code uygulamasının içinde yaşar, dünyanın herhangi bir yerinde olabilirsiniz — kendi SIM kartınız ve konumunuzun payı yoktur."
+    },
+    {
+      "q": "Ödeme nasıl çalışır?",
+      "a": "Tek seferlik bir jeton paketinden etkinleştirme başına ödersiniz — abonelik yok. Bir etkinleştirme SMS’ini hiç almazsa ücretsiz iptal olur ve jetonlar sizde kalır."
+    },
+    {
+      "q": "Numara kalıcı olarak benim mi?",
+      "a": "Kiralama etkinleştirme penceresini kapsar — doğrulama kodunu almak için yeter. Uzun ömürlü bir hesap için kayıttan hemen sonra kurtarma e-postası ve kimlik doğrulayıcı 2FA ekleyin; hesap bir daha o numaraya bağlı kalmasın."
+    }
+  ]
+}

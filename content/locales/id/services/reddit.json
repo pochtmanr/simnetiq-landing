@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Reddit — jaga nama samaran tetap privat",
+  "metaDescription": "Terima kode Reddit di nomor virtual asli biasanya dalam hitungan detik. Lewati pemeriksaan telepon tanpa menautkan akun ke identitas nyata Anda.",
+  "hero": {
+    "title": "Nomor virtual untuk Reddit",
+    "intro": [
+      "Reddit membangun seluruh budayanya di atas nama pengguna, bukan nama asli — lalu, sesekali, meminta pengenal paling nyata yang Anda miliki. Sebagian besar pendaftaran berjalan dengan email saja, tetapi alur, jaringan, dan pemeriksaan “aktivitas mencurigakan” tertentu menampilkan layar telepon, dan teks seperti “Your Reddit verification code is 617293” berdiri di antara Anda dan beranda.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara dan kodenya masuk ke aplikasi biasanya dalam hitungan detik. Pemeriksaan selesai, akun terbuka — dan nama samaran yang Anda pakai untuk posting tetap tidak tertaut ke nomor yang melekat pada nama Anda di tempat lain."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Reddit?",
+    "body": [
+      "Tidak ada tempat nomor telepon meruntuhkan tujuan platform sebesar di Reddit. Orang memakainya untuk bertanya soal medis, membahas atasan, posting di komunitas pemulihan — persis hal yang nama pengguna ada untuk menjauhkan dari identitas nyata. Menyerahkan seluler pribadi diam-diam membangun kembali jembatan yang seharusnya dibakar nama samaran: satu pengenal, duduk di satu basis data lagi, menghubungkan nama hukum Anda ke riwayat posting.",
+      "Sisi jujurnya: sering kali, Reddit tidak pernah meminta. Pendaftaran hanya email masih menjadi norma, dan permintaan telepon muncul secara situasional — aplikasi dan wilayah tertentu, lalu lintas VPN dan jaringan bersama, atau tinjauan keamanan pada akun yang sudah ada. Jadi jangan sewa nomor lebih dulu. Mulai pendaftaran, dan jika layar telepon muncul, saat itulah nomor sewaan berguna; aktivasi yang Anda batalkan sebelum SMS apa pun masuk tidak dikenai biaya."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Reddit dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Mulai pendaftaran lebih dulu",
+        "body": "Buat akun dengan email yang Anda kendalikan dan lihat apakah Reddit bahkan meminta telepon. Jika tidak, Anda selesai dan tidak membelanjakan apa pun. Jika layar telepon muncul, lanjut ke langkah dua."
+      },
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Pilih Reddit sebagai layanan dan pilih negara. Satu ketukan mencadangkan nomor seluler asli hanya untuk Anda — dicadangkan berarti tidak ada orang lain yang memakainya untuk Reddit pada saat yang sama."
+      },
+      {
+        "title": "Masukkan nomor dan ketik kode",
+        "body": "Pilih kode negara yang sesuai di layar Reddit dan masukkan nomornya. SMS berbunyi “Your Reddit verification code is 617293” dan muncul di aplikasi SMS Code biasanya dalam hitungan detik — salin."
+      },
+      {
+        "title": "Lepaskan nomor setelahnya",
+        "body": "Di Setelan → Akun, Anda dapat melihat dan menghapus telepon setelah verifikasi selesai. Biarkan email terverifikasi dan kata sandi kuat — itu jangkar akun yang sebenarnya, dan alur pemulihan Reddit bersandar pada email, bukan SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Sewa secara reaktif, bukan lebih dulu",
+      "body": "Permintaan telepon Reddit bersifat situasional, bukan universal. Coba pendaftaran email biasa lebih dulu; raih nomor virtual hanya saat layar benar-benar menuntutnya. Halaman ini tetap ada."
+    },
+    {
+      "title": "Nama samaran bocor ke samping, bukan lewat telepon",
+      "body": "Setelah pertanyaan nomor ditangani, risiko yang tersisa bersifat perilaku: posting nama pengguna yang sama yang Anda pakai di tempat lain, foto nyata, detail yang dapat diidentifikasi. Nomor virtual menutup tautan terkuat — pasangkan dengan email yang bukan namadepan.namabelakang@ dan nama pengguna yang tidak Anda pakai di mana pun."
+    },
+    {
+      "title": "Komunitas yang diblokir tetap diblokir",
+      "body": "Reddit menegakkan penangguhan melalui banyak sinyal — perangkat, perilaku, jaringan — bukan hanya nomor telepon. Nomor virtual melindungi privasi akun yang sah; ia bukan perangkat penghindaran blokir, dan menghindari penangguhan melanggar aturan Reddit serta cenderung berakhir cepat."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah Reddit mensyaratkan nomor telepon untuk mendaftar?",
+      "a": "Biasanya tidak — email saja adalah alur standar. Verifikasi telepon muncul secara situasional: sebagian aplikasi dan wilayah, pendaftaran lewat VPN atau jaringan bersama, atau pemeriksaan keamanan pada aktivitas yang tidak biasa. Saat muncul, nomor virtual menerima kode persis seperti SIM."
+    },
+    {
+      "q": "Apakah akun Reddit saya berhenti berfungsi saat nomor sewaan berakhir?",
+      "a": "Tidak. Nomor diperiksa saat verifikasi, dan Anda dapat menghapusnya dari Setelan → Akun setelahnya. Jaga email terverifikasi dan kata sandi yang kuat — itulah yang benar-benar dijalankan pemulihan Reddit."
+    },
+    {
+      "q": "Bisakah pengguna atau moderator Reddit melihat nomor saya?",
+      "a": "Tidak. Nomor telepon adalah saluran akun, tidak pernah ditampilkan di profil atau kepada pengguna lain. Yang mengekspos nama samaran di Reddit adalah konten — nama pengguna yang dipakai ulang, foto, detail pengenal — bukan nomor verifikasi."
+    },
+    {
+      "q": "Bisakah saya memakai nomor daring gratis untuk Reddit?",
+      "a": "Jarang berhasil. Nomor publik di situs SMS gratis sudah melewati ribuan pendaftaran, dan pemeriksaan Reddit cenderung mengenali serta menolaknya. Nomor sewaan dicadangkan hanya untuk Anda selama aktivasi, persis perbedaan yang dipedulikan pemeriksaan."
+    },
+    {
+      "q": "Kode Reddit tidak pernah datang — lalu apa?",
+      "a": "Pastikan kode negara cocok dengan nomor sewaan dan tunggu sebentar; kode biasanya mendarat dalam hitungan detik. Jika tidak ada yang masuk, batalkan aktivasi di SMS Code tanpa biaya dan ambil nomor baru — Anda hanya membayar aktivasi yang menyampaikan SMS."
+    }
+  ]
+}

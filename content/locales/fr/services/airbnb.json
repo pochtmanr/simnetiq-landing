@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour Airbnb",
+  "metaDescription": "Vérifiez Airbnb avec un vrai numéro virtuel. Le code SMS arrive généralement en quelques secondes — réservez sans partager votre numéro personnel.",
+  "hero": {
+    "title": "Numéro virtuel pour Airbnb",
+    "intro": [
+      "Airbnb repose sur la confiance entre inconnus, et un numéro de téléphone vérifié est l’une des premières briques de ce mur. Avant que vous puissiez réserver un séjour — et souvent avant qu’un hôte réponde même à une demande — Airbnb veut confirmer que vous êtes joignable, et il le fait avec un code SMS envoyé au numéro de votre compte.",
+      "Avec SMS Code, vous louez un vrai numéro mobile dans l’un de plus de 100 pays, vous le saisissez pendant l’inscription Airbnb, et le code à six chiffres apparaît dans l’app SMS Code généralement en quelques secondes. Vous obtenez un compte vérifié\u00a0; votre numéro personnel reste le vôtre."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour Airbnb\u00a0?",
+    "body": [
+      "Voici la part étrange\u00a0: une fois une réservation confirmée, vous utilisez à peine votre numéro de téléphone sur Airbnb. Voyageurs et hôtes s’écrivent via l’app, et même les appels passent par les numéros de relais masqués d’Airbnb précisément pour qu’aucun des deux ne voie les vraies coordonnées de l’autre. Pourtant l’inscription exige encore un numéro capable de recevoir un SMS — la vérification existe pour la plateforme, pas pour la personne à l’autre bout de votre réservation.",
+      "Cela fait d’un numéro virtuel un choix naturel pour les voyageurs qui tiennent à leur vie privée. Votre compte est vérifié et réserve des séjours comme n’importe quel autre, mais le numéro attaché à votre profil n’est pas celui qui vous suit dans la vie quotidienne — il ne peut pas finir dans la liste de contacts d’un hôte, une base marketing, ou ailleurs que vous n’aviez pas prévu."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier Airbnb avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Obtenez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, sélectionnez Airbnb comme service et un pays — beaucoup de voyageurs choisissent le pays depuis lequel ils réservent vraiment, comme les États-Unis, la France ou l’Espagne. Le numéro vous est réservé instantanément."
+      },
+      {
+        "title": "Ajoutez-le pendant l’inscription Airbnb",
+        "body": "Créez votre compte Airbnb (e-mail ou connexion sociale, les deux fonctionnent) et saisissez le numéro loué quand Airbnb demande de vérifier votre téléphone. Assurez-vous que l’indicatif pays sélectionné correspond au pays du numéro."
+      },
+      {
+        "title": "Saisissez le code SMS",
+        "body": "Le texto arrive dans l’app SMS Code généralement en quelques secondes — «\u00a0Your Airbnb verification code is\u00a0: 517203.\u00a0» Saisissez-le sur l’écran de vérification d’Airbnb et votre téléphone est confirmé."
+      },
+      {
+        "title": "Terminez votre profil",
+        "body": "Ajoutez une photo, confirmez votre e-mail et complétez les étapes d’identité qu’Airbnb demande. Un profil rempli compte sur Airbnb — les hôtes acceptent bien plus volontiers les demandes de profils complets que de profils vides."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Réservez avec le compte que vous avez vérifié",
+      "body": "Airbnb lie votre vérification téléphone au compte, pas à l’appareil. Faites la vérification sur le même compte avec lequel vous réserverez vraiment, et gardez la session de connexion vivante — au quotidien vous vous connecterez par e-mail ou connexion sociale, pas par SMS."
+    },
+    {
+      "title": "Les messages restent dans l’app",
+      "body": "Les hôtes vous contactent via la messagerie propre d’Airbnb, et les appels sont routés par des numéros de relais masqués. Activez les notifications push dans l’app Airbnb pour ne jamais dépendre du SMS pour avoir des nouvelles d’une réservation."
+    },
+    {
+      "title": "Les contrôles d’identité sont séparés",
+      "body": "Pour certaines réservations, Airbnb demande aussi de vérifier une pièce d’identité officielle. C’est une étape indépendante de la vérification téléphone — un numéro virtuel n’y change rien dans un sens ni dans l’autre, et la pièce doit vraiment être la vôtre. Les comptes Airbnb sont personnels et non cessibles selon ses conditions."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Les hôtes verront-ils le numéro virtuel avec lequel j’ai vérifié\u00a0?",
+      "a": "Non. Hôtes et voyageurs communiquent via la messagerie d’Airbnb, et les appels passent par des numéros de relais masqués des deux côtés. Le numéro de votre compte sert à la vérification d’Airbnb, ce n’est pas quelque chose d’affiché aux hôtes."
+    },
+    {
+      "q": "Puis-je encore réserver des séjours normalement après une vérification par numéro virtuel\u00a0?",
+      "a": "Oui. C’est un vrai numéro mobile sur un vrai opérateur, et une fois le code confirmé votre compte est vérifié comme n’importe quel autre. Réservation, messagerie et avis fonctionnent de la même façon."
+    },
+    {
+      "q": "Que se passe-t-il quand la fenêtre d’activation du numéro loué se termine\u00a0?",
+      "a": "Votre compte continue de fonctionner — le numéro est contrôlé à la vérification, pas en continu. Restez connecté et gardez votre e-mail confirmé, puisque l’e-mail est votre chemin quotidien pour revenir dans le compte. Si Airbnb demande un jour de revérifier le téléphone, vous pouvez mettre à jour le numéro au dossier vers un neuf."
+    },
+    {
+      "q": "Pourquoi mon code Airbnb n’est-il pas arrivé\u00a0?",
+      "a": "Les suspects habituels\u00a0: l’indicatif pays choisi sur Airbnb ne correspond pas au numéro loué, ou la demande a expiré. Annulez l’activation dans SMS Code — les pièces reviennent pour les numéros qui n’ont rien reçu — et réessayez avec un nouveau numéro, en revérifiant le pays."
+    },
+    {
+      "q": "Vérifier Airbnb avec un numéro virtuel est-il permis\u00a0?",
+      "a": "Le contrôle d’Airbnb confirme que vous contrôlez un numéro qui fonctionne\u00a0; en louer un à cette fin est tout à fait normal pour un usage personnel. Ce sur quoi Airbnb insiste, c’est que le compte vous représente vraiment — utilisez votre vrai nom, votre propre pièce d’identité quand on la demande, et un compte par personne."
+    }
+  ]
+}

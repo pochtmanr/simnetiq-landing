@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Apple — Akun Apple tanpa SIM",
+  "metaDescription": "Verifikasi Akun Apple baru dengan nomor virtual asli. Kode tiba biasanya dalam hitungan detik, lalu pindahkan 2FA ke perangkat yang Anda kendalikan.",
+  "hero": {
+    "title": "Nomor virtual untuk Apple",
+    "intro": [
+      "Akun Apple baru tidak dapat diselesaikan tanpa telepon: saat pendaftaran Apple meminta nomor, mengirim kode enam digit untuk membuktikan Anda menguasainya, lalu menyimpan nomor itu sebagai “nomor telepon tepercaya” — kanal yang akan dipakai untuk autentikasi dua faktor sejak hari itu.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara, menerima kode Apple di aplikasi biasanya dalam hitungan detik, dan menyelesaikan pendaftaran. Nomor pribadi Anda tetap di luar akun — dan Anda memutuskan kemudian nomor serta perangkat tepercaya mana yang diandalkan akun."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Apple?",
+    "body": [
+      "Akun Apple menjangkau lebih jauh daripada kebanyakan pendaftaran: ia adalah kunci ke App Store, iCloud, iMessage, dan setiap perangkat Apple yang Anda miliki. Masuk dengan suatu nomor di iPhone dan orang yang menyimpan nomor itu dapat menemukan Anda di iMessage dan FaceTime. Jika akun dimaksudkan terpisah — untuk perangkat uji, wilayah App Store yang berbeda, profil kerja — memverifikasinya dengan SIM pribadi menjahit identitas Anda kembali ke dalamnya.",
+      "Apple juga mengaktifkan autentikasi dua faktor untuk setiap akun baru dan mensyaratkan setidaknya satu nomor telepon tepercaya. Nomor virtual memenuhi pendaftaran dengan bersih; yang penting adalah apa yang Anda lakukan berikutnya. Setelah Anda masuk di perangkat Apple, kode verifikasi muncul di perangkat itu tanpa SMS — dan di samping (atau sebagai ganti) nomor sewaan Anda dapat menambahkan nomor tepercaya yang benar-benar milik Anda."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Akun Apple dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Pilih Apple sebagai layanan, pilih negara, dan ketuk sekali untuk mencadangkan nomor seluler asli. Jika akun ditujukan untuk wilayah App Store tertentu, ambil nomor dari negara itu — ini menjaga detail akun konsisten."
+      },
+      {
+        "title": "Masukkan saat pendaftaran Apple",
+        "body": "Buat akun di account.apple.com atau langsung dari layar penyiapan iPhone. Saat Apple meminta nomor telepon, pilih verifikasi lewat pesan teks dan ketik nomor sewaan dengan negara yang benar dipilih."
+      },
+      {
+        "title": "Ketik kodenya",
+        "body": "SMS berbunyi “Your Apple Account code is: 617402. Don't share it with anyone.” dan masuk ke aplikasi SMS Code biasanya dalam hitungan detik. Masukkan enam digit dan akun terverifikasi."
+      },
+      {
+        "title": "Tambahkan faktor tepercaya yang Anda kendalikan",
+        "body": "Masuk di perangkat Apple yang Anda miliki — sejak itu kode dua faktor muncul langsung di perangkat itu, tanpa SMS. Lalu buka setelan Masuk dan Keamanan akun dan tambahkan nomor telepon tepercaya kedua yang benar-benar milik Anda."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Perangkat tepercaya mengalahkan nomor tepercaya",
+      "body": "Setelah Anda masuk di iPhone, iPad, atau Mac, Apple menampilkan kode dua faktor langsung di perangkat — SMS menjadi cadangan, bukan kanal utama. Biarkan setidaknya satu perangkat tepercaya tetap masuk dan nomor sewaan tetap seperti seharusnya: alat pendaftaran sekali pakai."
+    },
+    {
+      "title": "Apple menyimpan nomor sebagai jangkar 2FA",
+      "body": "Setiap Akun Apple dua faktor harus menyimpan setidaknya satu nomor telepon tepercaya. Jangan biarkan nomor sewaan tetap menjadi satu-satunya: tambahkan nomor yang Anda kendalikan lebih dulu, lalu hapus yang sewaan di Masuk dan Keamanan."
+    },
+    {
+      "title": "Cocokkan negara dengan wilayah akun",
+      "body": "Nomor saja tidak mengatur wilayah App Store Anda — itu mengikuti setelan negara akun dan metode pembayaran. Tetapi nomor dari negara yang sama menjaga detail konsisten, jadi pilih dari tempat akun dimaksudkan untuk hidup."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah Apple mensyaratkan nomor telepon untuk membuat Akun Apple?",
+      "a": "Ya — pendaftaran meminta nomor yang dapat dikirimi teks atau ditelepon, dan akun baru mendapat autentikasi dua faktor dengan nomor itu disimpan sebagai tepercaya. Nomor virtual melewati langkah ini persis seperti SIM: kode tiba di aplikasi SMS Code dan akun terbentuk."
+    },
+    {
+      "q": "Apakah akun tetap berfungsi setelah nomor sewaan berakhir?",
+      "a": "Ya. Nomor diperiksa saat Apple mengirim kode; setelah itu akun hidup di perangkat tepercaya Anda. Lakukan langkah empat lebih awal — masuk di perangkat yang Anda miliki dan tambahkan nomor tepercaya yang Anda kendalikan — dan tidak ada pada akun yang bergantung pada nomor sewaan lagi."
+    },
+    {
+      "q": "Bisakah saya mengubah nomor telepon tepercaya nanti?",
+      "a": "Ya, di Masuk dan Keamanan pada account.apple.com atau di setelan perangkat Anda. Apple menegaskan bahwa akun dua faktor menyimpan setidaknya satu nomor tepercaya, jadi tambahkan yang baru lebih dulu, lalu hapus yang sewaan."
+    },
+    {
+      "q": "Bisakah saya membuat Akun Apple untuk App Store negara lain?",
+      "a": "Anda dapat memilih nomor dari 100+ negara mana pun, dan mencocokkannya dengan wilayah akun menjaga semuanya rapi. Ketahuilah bahwa etalase mengikuti negara akun dan setelan pembayaran, bukan telepon — nomor memverifikasi Anda, ia tidak memindahkan toko."
+    },
+    {
+      "q": "Mengapa kode Apple saya tidak masuk?",
+      "a": "Paling sering negara yang dipilih di formulir Apple tidak cocok dengan nomor, atau alur beralih ke panggilan telepon — pilih “pesan teks” secara eksplisit. Batalkan aktivasi yang tertunda di SMS Code (nomor yang tidak menerima apa pun tidak dikenai biaya) dan coba yang baru."
+    }
+  ]
+}

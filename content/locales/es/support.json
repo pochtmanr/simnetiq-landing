@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Soporte",
+    "description": "Ayuda con SMS Code: activaciones, pagos, monedas y tu cuenta. Lee las guías o escribe al equipo de soporte por correo electrónico."
+  },
+  "page": {
+    "label": "Soporte",
+    "title": "¿En qué te ayudamos?",
+    "introBefore": "Envíanos un mensaje abajo o escribe a ",
+    "introAfter": " — incluye los datos de abajo para que podamos revisar tu solicitud y responderte por correo.",
+    "items": [
+      {
+        "title": "Problemas de activación",
+        "body": "¿Aún no llega el SMS? Puedes cancelar dos minutos después de la asignación, antes de que llegue un SMS, y las monedas vuelven a tu saldo. Lee la guía antes de intentarlo otra vez.",
+        "slug": "activation-issues"
+      },
+      {
+        "title": "Pagos y monedas",
+        "body": "Las compras pasan por el App Store. Incluye el recibo de la tienda o el ID del pedido y rastrearemos las monedas que falten.",
+        "slug": "billing-coins-refunds"
+      },
+      {
+        "title": "Conservar tu saldo",
+        "body": "Tus monedas viven en tu cuenta de SMS Code, no en el recibo del App Store. Si solo has usado la aplicación de forma anónima, reinstalar crea una cuenta nueva y el saldo no la sigue: inicia sesión (Apple, Google o un código por correo) mientras aún tengas monedas, y estarán en cualquier dispositivo en el que inicies sesión. ¿Ya reinstalaste y perdiste el saldo? Escríbenos con el recibo del App Store o el ID del pedido y lo revisamos.",
+        "slug": "account-balance"
+      }
+    ],
+    "readGuide": "Leer la guía",
+    "knowledgeBase": "Base de ayuda",
+    "safetyTitle": "Elegir país y usarlo con cuidado",
+    "safetyLink": "Cómo elegir un país y proteger tu cuenta"
+  },
+  "form": {
+    "name": "Tu nombre",
+    "namePlaceholder": "Ana",
+    "email": "Correo",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "topic": "Tema",
+    "topicPlaceholder": "Elige un tema",
+    "topics": [
+      "La activación no llegó",
+      "Pagos y monedas",
+      "Cuenta y restaurar compras",
+      "Informar de un error",
+      "Sugerir una función",
+      "Otra cosa"
+    ],
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntanos qué pasó: el servicio, el país y la hora aproximada de la activación nos ayudan a encontrarla rápido.",
+    "honeypot": "Deja este campo vacío",
+    "send": "Enviar mensaje",
+    "sending": "Enviando…",
+    "genericError": "Algo salió mal. Inténtalo de nuevo.",
+    "sentChip": "Enviado",
+    "sentTitle": "Mensaje recibido",
+    "sentBody": "Hemos recibido tu solicitud. La revisaremos y responderemos a la dirección de correo que indicaste.",
+    "sendAnother": "Enviar otro mensaje"
+  },
+  "help": {
+    "label": "Base de ayuda",
+    "updatedLabel": "Última actualización:",
+    "back": "Soporte y formulario de contacto",
+    "appleTitle": "Guía oficial de Apple",
+    "appleLinks": {
+      "refund": "Solicitar un reembolso",
+      "instructions": "Instrucciones de reembolso de Apple",
+      "status": "Estado del reembolso y plazos de pago",
+      "terms": "Condiciones regionales de Apple",
+      "support": "Soporte de Apple"
+    },
+    "appleNote": "Guía contrastada con los materiales oficiales de soporte de Apple el 30 de septiembre de 2026. Que un reembolso proceda depende de tu región y de la ley aplicable.",
+    "related": "Ayuda relacionada",
+    "terms": "Términos del servicio",
+    "privacy": "Política de privacidad"
+  },
+  "api": {
+    "invalidBody": "El cuerpo de la solicitud no es válido.",
+    "invalidJson": "El JSON no es válido.",
+    "name": "Escribe tu nombre.",
+    "email": "Escribe una dirección de correo válida.",
+    "topic": "El tema es demasiado largo.",
+    "message": "Describe el problema en al menos 10 caracteres.",
+    "unavailable": "El formulario de soporte no está disponible por ahora. Escríbenos por correo.",
+    "saveFailed": "No pudimos guardar tu mensaje. Inténtalo de nuevo o escríbenos por correo.",
+    "forbidden": "Esta solicitud no vino de la página de soporte. Recarga e inténtalo de nuevo.",
+    "challenge": "Completa la verificación e inténtalo de nuevo.",
+    "replySubject": "Soporte de SMS Code"
+  }
+}

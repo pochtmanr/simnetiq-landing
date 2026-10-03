@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Facebook için sanal numara",
+  "metaDescription": "Facebook’u 100+ ülkeden gerçek bir sanal numarayla doğrulayın. Kod genellikle saniyeler içinde gelir — etkinleştirme başına ödeme, SMS yoksa ücretsiz iptal.",
+  "hero": {
+    "title": "Facebook için sanal numara",
+    "intro": [
+      "Kâğıt üzerinde Facebook yalnızca bir e-posta ile kaydolmanıza izin verir. Pratikte telefon numarası nadiren resmin dışında kalır: kayıt formu sık sık bir tane ister ve taze hesaplar ilk günlerinde rutin olarak bir güvenlik kontrol noktasına düşer — profilin arkasında gerçek bir kişi olduğunu kanıtmanın en hızlı yolu SMS ile gelen bir koddur.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız, onu Facebook’a verirsiniz ve onay kodu uygulamada genellikle saniyeler içinde görünür. Tek seferlik bir jeton paketinden etkinleştirme başına ödersiniz — abonelik yok — ve numara hiçbir şey almazsa ücret ödemeden iptal edersiniz."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Facebook için neden sanal numara?",
+    "body": [
+      "Bir Facebook profili zaten adınızı, yüzünüzü ve arkadaş listenizi taşır. Kişisel telefon numaranızı bu yığına eklemek onu hayatınızdaki her şeye bağlar — ve Facebook hesaplarına bağlı numaralar geçmişte devasa ölçekte kazınıp sızdırıldı. Sızan bir numara arama anahtarı gibi çalışır: profilinizi mesajlaşma uygulamalarına, pazar yerlerine ve veri simsarı kayıtlarına bağlar. Sanal numara Facebook’a gerçek, çalışan ve o anahtar olmayan bir numara verir.",
+      "Gündelik nedenler de vardır: yurt dışındayken kaydoluyorsunuz ve evdeki SIM SMS alamıyor ya da Marketplace’te satıyorsunuz ve yabancıların cebinizde çalan bir numarayı tutmasını istemiyorsunuz. Sanal numaranın olmadığı bir şey vardır — Facebook koşulları kişi başına bir kişisel hesaba izin verir; bunu hesabınızın gizliliği olarak görün, birkaç hesap çalıştırmanın yolu olarak değil."
+    ]
+  },
+  "howTo": {
+    "title": "Facebook’u sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara alın",
+        "body": "SMS Code uygulamasını açın, servis olarak Facebook’u seçin, bir ülke seçin ve bir kez dokunun. Etkinleştirme süresi boyunca yalnızca size ayrılmış gerçek bir mobil numara tutulur."
+      },
+      {
+        "title": "Facebook istediğinde girin",
+        "body": "Bu, kayıt formunun kendisinde veya kısa süre sonraki bir kontrol noktasında olabilir. Kiraladığınız numarayla eşleşen ülke kodunu seçin — uyuşmazlık kodun hiç gelmemesinin en sık nedenidir."
+      },
+      {
+        "title": "Onay kodunu yazın",
+        "body": "SMS, SMS Code uygulamasına genellikle saniyeler içinde, gönderen “Facebook” olarak, “285103 is your Facebook confirmation code” biçiminde düşer. Rakamları girin, kontrol kalkar."
+      },
+      {
+        "title": "Hesabı kontrol ettiğiniz şeylere bağlayın",
+        "body": "Hemen sahip olduğunuz bir e-posta ekleyin ve Hesaplar Merkezi → Parola ve güvenlik bölümünde kimlik doğrulayıcı ile iki adımlı doğrulamayı açın. Bundan sonra giriş ve kurtarma kiralanan numaraya bağlı kalmaz."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kontrol noktasını bekleyin — rutindir",
+      "body": "Facebook taze hesapları neredeyse diğer tüm sosyal ağlardan daha agresif sorgular. Bir profil fotoğrafı, birkaç gerçek ayrıntı ve insan temposu çok işe yarar; bir saatte elli arkadaş ekleyen yarı boş bir hesap tam da süzgeçleri tetikleyen şeydir."
+    },
+    {
+      "title": "Kurtarmayı ilk gün numaradan çıkarın",
+      "body": "Kiralanan numara doğrulama anı içindir, ömür boyu değil. İçeri girdikten sonra bir e-posta adresini onaylayın ve bir kimlik doğrulayıcı kurun — sonra hiçbir gelecek giriş veya kurtarma akışı SMS üzerinden gitmez."
+    },
+    {
+      "title": "Bir kişi, bir hesap",
+      "body": "Facebook koşulları açıktır: kişi başına bir kişisel hesap. Sanal numara gerçek numaranızı sahip olduğunuz hesapta gizli tutar — onu hesap çoğaltmak için kullanmak hepsini riske atar."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Numaranın süresi bitince Facebook hesabım çalışmaya devam eder mi?",
+      "a": "Evet. Numara doğrulama anında kontrol edilir, sürekli değil. Kayıttan hemen sonra bir e-posta ve kimlik doğrulayıcı 2FA ekleyin; hesapta o numaraya bir daha bağlı hiçbir şey kalmaz."
+    },
+    {
+      "q": "Facebook’a hiç telefon numarası olmadan kaydolabilir miyim?",
+      "a": "Bazen — yalnızca e-posta ile kayıt vardır. Ama birçok yeni hesaptan kayıt sırasında veya kısa süre sonra, bir kontrol noktasında telefon istenir. Pratik yol, Facebook gerçekten numara istediği anda bir tane kiralamaktır."
+    },
+    {
+      "q": "Facebook yepyeni hesabımı neden kilitledi?",
+      "a": "Taze hesaplardaki kontrol noktaları normaldir, yanlış bir şey yaptığınızın işareti değildir. Facebook yeni profillerden zaman zaman bir telefon numarası, ara sıra da bir fotoğraf onaylamalarını ister. SMS adımını tamamlayın, profili insan temposunda doldurmaya devam edin, hesap oturur."
+    },
+    {
+      "q": "Facebook kodum neden gelmedi?",
+      "a": "Genellikle iki şeyden biridir: Facebook’a girilen ülke kodu kiralanan numarayla uyuşmuyor ya da Facebook o numaraya mesaj atmayı reddetti. SMS Code’da bekleyen etkinleştirmeyi iptal edin — hiçbir şey almayan numaralar için jetonlar geri gelir — ve tercihen başka bir ülkeden taze bir tane deneyin."
+    },
+    {
+      "q": "Facebook’u kiralanan numarayla doğrulamak kurallara aykırı mı?",
+      "a": "Facebook kontrolleri ulaşılabilir bir kişiyi doğrulamak içindir ve sanal numara gerçek, ulaşılabilir bir numaradır. Platformun fiilen uyguladığı şey davranış ve özgünlüktür: bir gerçek hesap, kimliğe bürünme yok, istenmeyen ileti yok. Buna uyun, numaranın kökeni sorun olmaz."
+    }
+  ]
+}

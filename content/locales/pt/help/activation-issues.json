@@ -1,0 +1,35 @@
+{
+  "title": "Problemas de ativação: SMS ausente ou recusado",
+  "metaDescription": "O SMS não chegou ou o código foi recusado? Confira serviço e número, use o cancelamento de dois minutos e saiba o que enviar ao suporte do SMS Code.",
+  "sections": [
+    {
+      "title": "Confira o serviço e o número",
+      "paragraphs": [
+        "Escolha exatamente o serviço que você quer verificar. Digite o número atribuído com o código do país e veja se não há prefixo duplicado. Peça a verificação por SMS nesse serviço; uma ligação de voz ou um código enviado a outro aparelho não pode ser recebido aqui.",
+        "Deixe a ativação aberta e confira o status no aplicativo. As notificações ajudam, mas a tela da ativação é o lugar para ver o código. Evite pedir reenvio várias vezes: o serviço de destino pode impor a própria espera."
+      ]
+    },
+    {
+      "title": "Cancelamento de dois minutos e a janela da ativação",
+      "paragraphs": [
+        "Se nenhum SMS chegou, você pode cancelar dois minutos depois que o número é atribuído. O cronômetro começa na atribuição, não quando você abre o aplicativo ou compra moedas. Use a contagem regressiva de cancelamento mostrada no aplicativo.",
+        "Cancelar devolve as moedas da ativação ao seu saldo no aplicativo. Pedir outro número também devolve as moedas da ativação antiga antes de comprar uma ativação nova; confira o preço novo. São devoluções de moedas, não reembolsos de pagamento.",
+        "A janela atual da ativação é de 15 minutos depois da atribuição. Siga a contagem no seu aplicativo. Se a janela terminar sem SMS, a ativação fecha e as moedas são devolvidas. Se a devolução continuar pendente ou o saldo estiver errado, fale com o suporte em vez de comprar números de novo e de novo.",
+        "O cancelamento deixa de estar disponível quando um SMS é recebido, mesmo que o serviço de destino recuse o código. Um SMS que chega durante o cancelamento pode mudar a elegibilidade."
+      ]
+    },
+    {
+      "title": "Código recusado ou número já usado",
+      "paragraphs": [
+        "Use o código mais recente da conta e do serviço certos, sem espaços a mais. O serviço de destino controla a validade do código, a aceitação do número e as restrições da conta. Um SMS entregue não garante que o cadastro dê certo.",
+        "Se o número já estiver cadastrado, não acesse a conta de outra pessoa. Se um código for recusado, pare as tentativas pagas repetidas e fale com o suporte para uma análise. Não há devolução automática de moedas depois que um SMS chegou; isso não limita nenhum direito do consumidor aplicável."
+      ]
+    },
+    {
+      "title": "O que enviar ao suporte",
+      "paragraphs": [
+        "Inclua o ID da ativação, o serviço e o país escolhidos, o horário aproximado e o fuso, o status e a mensagem de erro exata. Uma captura do erro ajuda. Não envie senhas, códigos de verificação nem os dados completos do cartão."
+      ]
+    }
+  ]
+}

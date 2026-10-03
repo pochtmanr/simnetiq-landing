@@ -1,25 +1,12 @@
-import type { AlternativeEntry } from "./types";
-import { smsActivateOrg } from "./sms-activate-org";
-import { fiveSim } from "./5sim";
-import { onlinesim } from "./onlinesim";
-import { smsMan } from "./sms-man";
-import { textverified } from "./textverified";
+import { collection } from "../load";
+import { ALTERNATIVES_META } from "./meta";
+import type { AlternativeCopy, AlternativeMeta } from "./types";
 
-/* The registry IS the publish switch — same policy as ../services/index.ts. */
+/* meta.ts IS the publish switch — same policy as ../services/index.ts. */
 
-export const ALL_ALTERNATIVES: AlternativeEntry[] = [
-  smsActivateOrg,
-  fiveSim,
-  onlinesim,
-  smsMan,
-  textverified,
-];
+const alternatives = collection<AlternativeMeta, AlternativeCopy>(ALTERNATIVES_META, "alternatives");
 
-export const ALTERNATIVES_REGISTRY: Record<string, AlternativeEntry> =
-  Object.fromEntries(ALL_ALTERNATIVES.map((a) => [a.slug, a]));
-
-export const ALTERNATIVE_SLUGS = ALL_ALTERNATIVES.map((a) => a.slug);
-
-export function getAlternative(slug: string): AlternativeEntry | undefined {
-  return ALTERNATIVES_REGISTRY[slug];
-}
+export const ALTERNATIVE_SLUGS = alternatives.slugs;
+export const getAlternatives = alternatives.all;
+export const getAlternative = alternatives.get;
+export const alternativeLocales = alternatives.locales;

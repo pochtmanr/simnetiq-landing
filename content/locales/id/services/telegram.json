@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Telegram — tanpa nomor pribadi",
+  "metaDescription": "Dapatkan nomor virtual asli untuk verifikasi Telegram biasanya dalam hitungan detik. Daftarkan akun baru atau kedua tanpa SIM dan jaga nomor Anda tetap privat.",
+  "hero": {
+    "title": "Nomor virtual untuk Telegram",
+    "intro": [
+      "Telegram meminta nomor telepon di layar paling pertama — sebelum Anda bisa memilih nama pengguna, bergabung ke grup, atau mengirim satu pesan. Nomor itu menjadi jangkar permanen akun Anda, dan secara bawaan kontak Anda dapat melihatnya.",
+      "Dengan SMS Code Anda menyewa nomor asli di salah satu dari 100+ negara, mengetiknya di Telegram, dan kode verifikasi muncul di aplikasi biasanya dalam hitungan detik. Nomor pribadi Anda tidak pernah menyentuh server Telegram."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Telegram?",
+    "body": [
+      "Telegram dibangun di sekitar nomor telepon: itu login Anda, cara pemulihan Anda, dan — kecuali Anda mengubah setelan privasi — apa yang bisa dipakai orang asing di obrolan grup untuk menemukan Anda. Nomor virtual memutus tautan itu sepenuhnya, jadi akun bekerja sama persis tetapi mengarah ke nomor yang bukan milik Anda.",
+      "Ini juga cara praktis untuk menjalankan akun kedua. Telegram secara resmi mendukung beberapa akun dalam satu aplikasi, tetapi masing-masing membutuhkan nomor sendiri. Nomor virtual memberi profil kerja, kanal proyek, atau akun uji identitas terpisah tanpa membeli SIM kedua."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Telegram dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Dapatkan nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih Telegram sebagai layanan, pilih negara, dan ketuk sekali. Anda mendapat nomor seluler asli yang dicadangkan hanya untuk Anda."
+      },
+      {
+        "title": "Masukkan di Telegram",
+        "body": "Di layar pendaftaran Telegram, pilih kode negara yang sesuai dan ketik nomornya. Periksa negaranya dua kali — ketidakcocokan adalah alasan paling umum kode tidak pernah masuk."
+      },
+      {
+        "title": "Ambil kode dari SMS Code",
+        "body": "SMS masuk ke aplikasi SMS Code, biasanya dalam hitungan detik. Tampilannya seperti “Telegram code: 48329”. Ketik ke Telegram dan Anda masuk."
+      },
+      {
+        "title": "Kunci akunnya",
+        "body": "Segera setelah masuk, atur kata sandi cloud di Setelan → Privasi dan Keamanan → Verifikasi dua langkah. Dengan 2FA aktif, login berikutnya tidak bergantung pada menerima SMS lain."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kode bisa masuk ke sesi yang sudah ada",
+      "body": "Jika suatu nomor pernah dipakai untuk Telegram sebelumnya, Telegram mengirim kode login ke sesi yang ada, bukan lewat SMS. SMS Code memberi Anda nomor baru, tetapi jika Anda verifikasi ulang nanti, ingat kodenya mungkin muncul di dalam Telegram sendiri."
+    },
+    {
+      "title": "Tetap masuk di sesi Anda",
+      "body": "Telegram jarang meminta verifikasi ulang selama sesi tetap aktif. Jangan keluar dari satu-satunya perangkat Anda, dan tambahkan kata sandi cloud — maka akun tetap hidup bahkan setelah jendela aktivasi nomor sewaan berakhir."
+    },
+    {
+      "title": "Sembunyikan nomor Anda bagaimanapun",
+      "body": "Di Setelan → Privasi dan Keamanan → Nomor telepon, atur “Siapa yang dapat melihat nomor saya” ke Tidak ada. Bahkan dengan nomor virtual, ini kebiasaan yang baik — anggota grup hanya akan melihat nama pengguna Anda."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah akun Telegram saya tetap berfungsi setelah nomornya berakhir?",
+      "a": "Ya. Nomor hanya dibutuhkan pada langkah verifikasi. Selama Anda tetap masuk dan mengaktifkan Verifikasi dua langkah (kata sandi cloud), akun tetap bekerja normal — Telegram mengirim kode login berikutnya ke sesi aktif Anda, bukan lewat SMS."
+    },
+    {
+      "q": "Bisakah saya membuat akun Telegram kedua dengan nomor virtual?",
+      "a": "Ya — ini salah satu pemakaian paling umum. Telegram mendukung beberapa akun dalam satu aplikasi; tambahkan nomor virtual Anda sebagai akun kedua dan beralih antarprofil dengan satu ketukan."
+    },
+    {
+      "q": "Mengapa kode Telegram saya tidak masuk?",
+      "a": "Penyebab yang biasa: kode negara yang dimasukkan di Telegram tidak cocok dengan nomor, atau Telegram mengirim kode ke sesi sebelumnya. Batalkan aktivasi yang tertunda di SMS Code — koin untuk nomor yang tidak menerima apa pun kembali ke saldo Anda — dan coba nomor baru."
+    },
+    {
+      "q": "Apakah orang lain melihat bahwa saya memakai nomor virtual?",
+      "a": "Tidak. Ini nomor seluler asli di jaringan operator yang nyata. Bagi pengguna lain akunnya terlihat seperti akun biasa — dan jika Anda menyembunyikan nomor di setelan privasi, mereka hanya melihat nama pengguna Anda."
+    },
+    {
+      "q": "Apakah mendaftar Telegram dengan nomor virtual diperbolehkan?",
+      "a": "Telegram memverifikasi bahwa Anda menguasai suatu nomor, bukan atas nama siapa nomor itu terdaftar. Menyewa nomor untuk pendaftaran wajar untuk pemakaian pribadi yang normal; yang penting Anda mengikuti ketentuan layanan Telegram sendiri setelah masuk."
+    }
+  ]
+}

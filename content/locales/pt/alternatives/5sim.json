@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternativa ao 5SIM — SMS Code da SIMNETIQ",
+  "metaDescription": "Comparando o 5SIM com o aplicativo SMS Code da SIMNETIQ: plataforma web e API com recarga de saldo versus pacotes avulsos de moedas e cancelamento sem custo.",
+  "hero": {
+    "title": "Uma alternativa ao 5SIM feita como aplicativo nativo",
+    "intro": [
+      "O 5SIM é uma plataforma web consolidada para receber códigos de verificação por SMS: você recarrega um saldo, compra um número para o serviço de que precisa e lê o código no painel. A página inicial deles fala de uso no atacado e no varejo, com uma API para automação e um catálogo que o site descreve como mais de 180 países e mais de mil serviços.",
+      "O SMS Code da SIMNETIQ aborda o mesmo trabalho pelo lado do consumidor. É um aplicativo nativo para iOS: escolha serviço e país, receba um número real e o código chega no aplicativo em geral em segundos. Você paga com pacotes avulsos de moedas pela cobrança da Apple — sem carteira na web, sem assinatura — e ativações que nunca recebem SMS cancelam sem custo."
+    ]
+  },
+  "whenThem": {
+    "title": "Quando o 5SIM é a melhor escolha",
+    "body": "Escolha o 5SIM se volume ou automação for o ponto. A plataforma deles mira webmasters, especialistas de SMM e empreendedores que compram números em quantidade, e a API deixa você programar o ciclo inteiro — comprar, consultar o SMS, seguir. O catálogo também é simplesmente maior: se você precisa de um serviço obscuro ou de uma combinação incomum de país, uma plataforma dessa amplitude tem mais chance de ter em estoque do que um aplicativo de consumo curado."
+  },
+  "whenUs": {
+    "title": "Quando o aplicativo SMS Code encaixa melhor",
+    "body": "Escolha o aplicativo se você verifica contas para si, não às centenas. Não há saldo para pré-carregar nem painel para navegar na tela do celular: o fluxo inteiro — serviço, país, número, código — é uma experiência móvel nativa instalada pela App Store. Pacotes avulsos de moedas significam que você paga por ativação com a cobrança da loja (os dados do seu cartão nunca chegam até nós), a cobertura vai a 100+ países e 100+ serviços populares, e ativações não recebidas cancelam sem custo automaticamente."
+  },
+  "comparison": {
+    "title": "5SIM e o aplicativo SMS Code, lado a lado",
+    "rows": [
+      {
+        "label": "Plataformas",
+        "competitor": "Plataforma web com uma API para compra automatizada",
+        "us": "Aplicativo nativo para iOS na App Store"
+      },
+      {
+        "label": "Modelo de preço",
+        "competitor": "Pague por número a partir de um saldo de carteira recarregado",
+        "us": "Pacotes avulsos de moedas, pague por ativação — sem assinatura"
+      },
+      {
+        "label": "Pagamento",
+        "competitor": "Recarga de carteira na web, com os meios que o site deles lista",
+        "us": "Cobrança da loja da Apple — nenhum dado de cartão compartilhado conosco"
+      },
+      {
+        "label": "Cobertura",
+        "competitor": "O site deles afirma 180+ países e um catálogo de 1.000+ serviços",
+        "us": "100+ países e 100+ serviços populares, curados para cadastros do dia a dia"
+      },
+      {
+        "label": "Cancelamento",
+        "competitor": "Regido pelas regras de reembolso deles — confira os termos atuais",
+        "us": "Ativações que não recebem SMS cancelam sem custo, as moedas voltam"
+      },
+      {
+        "label": "Suporte",
+        "competitor": "O site deles anuncia suporte 24/7",
+        "us": "No aplicativo e no formulário de contato do site"
+      },
+      {
+        "label": "Melhor para",
+        "competitor": "Compradores em volume e desenvolvedores que programam verificações via API",
+        "us": "Quem quer um aplicativo móvel limpo para verificações ocasionais"
+      }
+    ],
+    "note": "Os dados do concorrente refletem o site público deles na data da redação e podem mudar — confirme sempre em 5sim.net antes de decidir."
+  },
+  "switchSteps": {
+    "title": "Experimentar o aplicativo leva três passos",
+    "steps": [
+      {
+        "title": "Instale o aplicativo",
+        "body": "Baixe o SMS Code da SIMNETIQ na App Store — sem conta na web nem configuração de carteira."
+      },
+      {
+        "title": "Pegue um pacote de moedas",
+        "body": "Compre um pacote avulso pela sua conta da loja. Não há saldo pré-carregado parado num site; você gasta moedas só quando ativa um número."
+      },
+      {
+        "title": "Faça a primeira ativação",
+        "body": "Escolha um serviço e um país, receba um número real e veja o código chegar no aplicativo em geral em segundos. Se nada chegar, a ativação cancela sem custo."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "No que o aplicativo SMS Code difere do 5SIM?",
+      "a": "O 5SIM é uma plataforma web com saldo de carteira e uma API, voltada a compradores de volume. O aplicativo SMS Code da SIMNETIQ é um aplicativo móvel nativo para pessoas: pacotes avulsos de moedas pela cobrança da loja, alguns toques por ativação e cancelamento sem custo quando nenhum SMS chega."
+    },
+    {
+      "q": "O aplicativo tem uma API como o 5SIM?",
+      "a": "Não. O aplicativo é, de propósito, um produto de consumo — se você precisa comprar números por programa, a API do 5SIM é a ferramenta melhor. Se você precisa de um código de vez em quando, o aplicativo é o caminho mais curto."
+    },
+    {
+      "q": "Preciso recarregar um saldo com antecedência?",
+      "a": "Você compra pacotes avulsos de moedas pela cobrança da Apple e gasta por ativação. Não há carteira na web para manter abastecida nem assinatura."
+    },
+    {
+      "q": "E se o código de verificação nunca chegar?",
+      "a": "A ativação cancela e as suas moedas são devolvidas automaticamente. Você só paga por números que de fato recebem um SMS."
+    },
+    {
+      "q": "A lista de países do 5SIM é maior do que a do aplicativo?",
+      "a": "Pela página inicial deles, sim — o site afirma 180+ países contra os 100+ do aplicativo. A lista do aplicativo é curada em torno dos países que funcionam com confiança para serviços populares; se você precisa de algo exótico, um catálogo maior pode servir melhor."
+    }
+  ]
+}

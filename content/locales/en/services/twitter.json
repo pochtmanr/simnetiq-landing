@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for X (Twitter) — Verify Without Your Number",
+  "metaDescription": "Pass X (Twitter) phone verification with a real virtual number from 100+ countries. The code arrives usually within seconds; free cancel if no SMS comes.",
+  "hero": {
+    "title": "A virtual number for X (Twitter)",
+    "intro": [
+      "You can create an X account with nothing but an email — the sign-up form itself doesn't insist on a phone. The catch arrives minutes or days later: fresh accounts are routinely locked “to confirm you're not a robot”, and the unlock screen wants a phone number that can receive an SMS right now. For many people, that challenge is the real registration step.",
+      "With SMS Code you rent a real mobile number in one of 100+ countries, give it to X at exactly that moment, and the confirmation code appears in the app usually within seconds. You pay per activation from a one-time coin pack — no subscription — and a number that received nothing is cancelled without charge."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for X (Twitter)?",
+    "body": [
+      "X is one of the few big platforms where a pseudonym is part of the culture — but a pseudonymous handle with your personal phone number attached is only pseudonymous until the first leak or lookup. The number is also a discovery vector: by default, people who have it in their contacts can be pointed at your account. A virtual number keeps the anonymity you signed up for intact while still passing every SMS check X throws at you.",
+      "There's a structural reason too: X limits how many accounts a single phone number can back. If you run a personal account and want a separate one for a project or a brand, hanging both off your one personal number is fragile — a challenge against either account pulls on the same thread. Giving each account its own rented number keeps them independent."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify X (Twitter) with a virtual number",
+    "steps": [
+      {
+        "title": "Get a number in SMS Code",
+        "body": "Open the SMS Code app, choose X (Twitter) as the service, pick a country and tap once. A real mobile number is reserved just for you for the length of the activation."
+      },
+      {
+        "title": "Enter it where X asks",
+        "body": "That's usually the unlock challenge on a fresh account, sometimes the sign-up flow itself, or Settings → Your account → Account information → Phone. Match the country code to the rented number."
+      },
+      {
+        "title": "Type in the confirmation code",
+        "body": "The SMS lands in the SMS Code app usually within seconds, from sender “X”, formatted like “Your X confirmation code is 941507. Don't share this code with anyone.” Enter the digits and the lock lifts."
+      },
+      {
+        "title": "Move security off SMS",
+        "body": "Set up two-factor authentication with an authenticator app or a passkey — on X, SMS-based 2FA is reserved for Premium subscribers anyway. Verify your email, and turn off discoverability by phone number in the privacy settings."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "The lock is a rite of passage",
+      "body": "A brand-new account getting locked within its first hours is X's standard anti-bot reflex, not a verdict on you. Verify the phone, then behave like a person: profile photo, a bio, following at a human pace. Accounts that post like scripts get challenged again regardless of the number."
+    },
+    {
+      "title": "Never build 2FA on SMS here",
+      "body": "Two reasons: X only offers text-message 2FA to Premium subscribers, and you won't be keeping the rented number anyway. An authenticator app or a passkey is free, works for everyone and never depends on a code arriving by SMS."
+    },
+    {
+      "title": "Close the discovery door",
+      "body": "In Settings → Privacy and safety → Discoverability and contacts, untick “Let people who have your phone number find you on X”. The number then exists purely as a verification record — nobody can walk from it to your handle."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why was my new X account locked right after sign-up?",
+      "a": "Because it's new. X leans heavily on phone challenges to filter bot registrations, and email-only accounts are the first to be asked. It's routine: verify with a number that can receive SMS at that moment — a rented number does exactly that — and the account unlocks."
+    },
+    {
+      "q": "Can several X accounts share one phone number?",
+      "a": "Only up to a limit — X caps the number of accounts a single phone number can be attached to, and tangled numbers make challenges messier. If you're setting up a separate project or brand account, a fresh number per account is the cleaner architecture."
+    },
+    {
+      "q": "Will my account keep working after the rented number expires?",
+      "a": "Yes. The number matters at the moment of the check. Verify your email, set up authenticator or passkey 2FA, and daily use never touches the number again. You can even remove it later in Settings → Account information — just make sure the other anchors are in place first."
+    },
+    {
+      "q": "Will the number be visible on my profile?",
+      "a": "No — X never displays phone numbers publicly. The only path from number to account is contact-based discoverability, and that's a switch you can turn off in Privacy and safety. Off, the number is invisible in every direction."
+    },
+    {
+      "q": "Why didn't my X confirmation code arrive?",
+      "a": "Check that the country code matches the rented number first; after that, know that X declines to text some numbers it distrusts. Cancel the pending activation in SMS Code — the coins come back for numbers that received nothing — and take a fresh number, ideally from another country."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Assistance",
+    "description": "Aide pour SMS Code\u00a0: activations, facturation, pièces et compte. Consultez les guides ou écrivez à notre assistance par e-mail."
+  },
+  "page": {
+    "label": "Assistance",
+    "title": "Comment pouvons-nous vous aider\u00a0?",
+    "introBefore": "Envoyez-nous un message ci-dessous ou écrivez à ",
+    "introAfter": " — indiquez les détails ci-dessous afin que nous puissions examiner votre demande et vous répondre par e-mail.",
+    "items": [
+      {
+        "title": "Problèmes d’activation",
+        "body": "Toujours pas de SMS\u00a0? L’annulation est possible deux minutes après l’attribution, avant l’arrivée d’un SMS, et renvoie les pièces sur votre solde. Lisez le guide de dépannage avant de réessayer.",
+        "slug": "activation-issues"
+      },
+      {
+        "title": "Facturation et pièces",
+        "body": "Les achats passent par l’App Store. Indiquez votre reçu ou l’identifiant de commande et nous retracerons les pièces manquantes.",
+        "slug": "billing-coins-refunds"
+      },
+      {
+        "title": "Conserver votre solde",
+        "body": "Vos pièces sont liées à votre compte SMS Code, pas au reçu de l’App Store. Si vous n’avez utilisé l’app qu’en anonyme, une réinstallation crée un nouveau compte et le solde ne suit pas — connectez-vous donc (Apple, Google ou un code par e-mail) tant que vous avez des pièces\u00a0: elles seront là sur tout appareil où vous vous connectez. Déjà réinstallé et un solde perdu\u00a0? Écrivez-nous avec votre reçu App Store ou l’identifiant de commande et nous réglerons cela.",
+        "slug": "account-balance"
+      }
+    ],
+    "readGuide": "Lire le guide",
+    "knowledgeBase": "Base de connaissances",
+    "safetyTitle": "Choisir un pays et rester prudent",
+    "safetyLink": "Comment choisir un pays et protéger votre compte"
+  },
+  "form": {
+    "name": "Votre nom",
+    "namePlaceholder": "Camille",
+    "email": "E-mail",
+    "emailPlaceholder": "vous@example.com",
+    "topic": "Sujet",
+    "topicPlaceholder": "Choisissez un sujet",
+    "topics": [
+      "L’activation n’est pas arrivée",
+      "Facturation et pièces",
+      "Compte et restauration des achats",
+      "Signaler un bug",
+      "Suggestion de fonctionnalité",
+      "Autre chose"
+    ],
+    "message": "Message",
+    "messagePlaceholder": "Dites-nous ce qui s’est passé — le service, le pays et l’heure approximative de l’activation nous aident à la retrouver vite.",
+    "honeypot": "Laissez ce champ vide",
+    "send": "Envoyer le message",
+    "sending": "Envoi…",
+    "genericError": "Une erreur est survenue. Veuillez réessayer.",
+    "sentChip": "Envoyé",
+    "sentTitle": "Message reçu",
+    "sentBody": "Votre demande a été envoyée. Nous l’examinerons et répondrons à l’adresse e-mail que vous avez indiquée.",
+    "sendAnother": "Envoyer un autre message"
+  },
+  "help": {
+    "label": "Base de connaissances",
+    "updatedLabel": "Dernière mise à jour\u00a0:",
+    "back": "Assistance et formulaire de contact",
+    "appleTitle": "Documentation officielle d’Apple",
+    "appleLinks": {
+      "refund": "Demander un remboursement",
+      "instructions": "Instructions de remboursement Apple",
+      "status": "Statut du remboursement et délais de paiement",
+      "terms": "Conditions régionales d’Apple",
+      "support": "Assistance Apple"
+    },
+    "appleNote": "Indications vérifiées d’après les documents officiels d’assistance Apple au 30 septembre 2026. L’éligibilité au remboursement dépend de votre région et du droit applicable.",
+    "related": "Aide associée",
+    "terms": "Conditions d’utilisation",
+    "privacy": "Politique de confidentialité"
+  },
+  "api": {
+    "invalidBody": "Corps de requête invalide.",
+    "invalidJson": "JSON invalide.",
+    "name": "Veuillez indiquer votre nom.",
+    "email": "Veuillez indiquer une adresse e-mail valide.",
+    "topic": "Le sujet est trop long.",
+    "message": "Décrivez votre demande en au moins 10 caractères.",
+    "unavailable": "Le formulaire d’assistance est momentanément indisponible. Écrivez-nous plutôt par e-mail.",
+    "saveFailed": "Nous n’avons pas pu enregistrer votre message. Réessayez ou écrivez-nous par e-mail.",
+    "forbidden": "Cette demande ne provient pas de la page d’assistance. Rechargez la page et réessayez.",
+    "challenge": "Veuillez terminer la vérification et réessayer.",
+    "replySubject": "Assistance SMS Code"
+  }
+}

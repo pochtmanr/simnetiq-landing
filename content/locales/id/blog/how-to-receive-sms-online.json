@@ -1,0 +1,146 @@
+{
+  "title": "Cara terima SMS online: kode tanpa nomor sendiri",
+  "description": "Setiap pendaftaran minta nomor telepon. Tiga cara terima SMS online — situs gratis, SIM kedua, nomor virtual — dan kapan masing-masing berfungsi.",
+  "excerpt": "Situs kode gratis, SIM kedua, atau nomor virtual sewaan — tiga jalur menerima SMS verifikasi secara daring, dibandingkan dengan jujur: biaya masing-masing, di mana gagal, dan cara yang andal benar-benar bekerja.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Di suatu tempat antara “buat kata sandi” dan “terima ketentuan”, hampir setiap pendaftaran kini menyisipkan tuntutan yang sama: masukkan nomor telepon Anda. Pesan instan mensyaratkannya, marketplace menginginkannya, bahkan forum yang akan Anda kunjungi dua kali bersikeras mengirim kode enam digit sebelum membiarkan Anda masuk."
+    },
+    {
+      "type": "p",
+      "text": "Kodenya sendiri tidak berbahaya. Yang mengganggu orang adalah nomor di belakangnya — pengenal pribadi yang permanen, yang bertahan lebih lama dari akun, menautkan profil Anda, dan tidak dapat diputar seperti kata sandi saat bocor. Jadi pertanyaan praktisnya bukan cara menghindari verifikasi; layanan tidak akan bergeser soal itu. Melainkan cara menerima SMS di tempat lain selain SIM Anda sendiri."
+    },
+    {
+      "type": "p",
+      "text": "Ada tepat tiga cara melakukannya. Panduan ini menelusuri semuanya — termasuk dua yang kebanyakan membuang waktu Anda — lalu menunjukkan alur penuh dengan yang andal berfungsi."
+    },
+    {
+      "type": "h2",
+      "id": "why-services-want-your-number",
+      "text": "Mengapa layanan menuntut nomor sejak awal"
+    },
+    {
+      "type": "p",
+      "text": "Layak memahami apa yang Anda hadapi, karena itu menjelaskan mengapa sebagian jalur gagal. Layanan memverifikasi nomor telepon karena tiga alasan, dan privasi bukan salah satunya."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pengendalian spam. Nomor telepon adalah sumber daya langka termurah yang dapat dituntut layanan. Alamat email gratis dan tak terbatas; nomor seluler memakan uang dan berkas, jadi mensyaratkannya menaikkan harga setiap akun palsu.",
+        "Pemulihan akun dan 2FA. Setelah terverifikasi, nomor menjadi kanal login cadangan — yang juga berarti siapa pun yang menguasai nomor sering dapat mengatur ulang kata sandi. Itu memotong dua arah, dan kita akan kembali ke sana.",
+        "Penautan identitas. Nomor menghubungkan akun Anda ke akun lain, kontak Anda, dan, melalui operator, identitas hukum Anda. Bagi sistem iklan ia adalah kunci penggabung yang bertahan setelah cookie dibersihkan dan perangkat baru."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Tidak ada dari ini yang mensyaratkan nomor itu milik Anda. Layanan memeriksa satu hal saja: bahwa Anda dapat membaca kode yang dikirim ke nomor yang Anda ketik. Di mana nomor itu hidup — SIM di saku atau aplikasi di layar — tidak terlihat di sisi mereka."
+    },
+    {
+      "type": "h2",
+      "id": "three-ways-to-receive-sms-online",
+      "text": "Tiga cara terima SMS online"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nomor publik gratis. Puluhan situs memublikasikan nomor yang kotak masuknya dapat dibaca siapa pun. Tidak dikenai biaya dan sesekali berfungsi — tetapi setiap nomor dibagi dengan ribuan orang asing, jadi layanan populer sudah lama melihat, menandai, dan memblokir sebagian besar. Saat satu menerima nomor, Anda sering diberitahu sudah terdaftar — karena seseorang lebih dulu. Dan karena kotak masuknya publik, apa pun yang dikirim ke nomor itu, termasuk kode atur ulang kata sandi untuk akun yang baru Anda buat, dapat dibaca semua orang.",
+        "SIM atau eSIM kedua. Benar-benar privat dan permanen — nomor nyata yang hanya milik Anda. Pertukarannya biaya dan gesekan: paket bulanan atau kewajiban isi ulang agar nomor tetap hidup, syarat identitas di banyak negara, dan keabsurdan memelihara paket telepon karena satu situs menginginkan kode pada 2026. Masuk akal jika Anda membutuhkan jalur kedua jangka panjang; berlebihan untuk pendaftaran.",
+        "Nomor virtual sewaan. Nomor seluler asli di jaringan operator nyata, dicadangkan hanya untuk Anda selama satu verifikasi. Anda membayar per kode yang diterima, SMS muncul di aplikasi, dan tidak ada paket, kontrak, atau kotak masuk bersama. Ini jalur tengah: privat seperti SIM, sekali pakai seperti seharusnya."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Untuk verifikasi sekali, nomor sewaan adalah jalur yang benar-benar bertahan. Inilah seluruh alurnya, dari awal sampai akhir."
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-sms-code",
+      "text": "Menerima kode dengan SMS Code, langkah demi langkah"
+    },
+    {
+      "type": "p",
+      "text": "Anda membutuhkan aplikasi SMS Code dan formulir pendaftaran berdampingan. Prosesnya sama baik layanannya Telegram, marketplace, atau apa pun di daftar — beberapa menit, dari ujung ke ujung."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Pilih layanan dan negara",
+          "body": "Di SMS Code, pilih apa yang Anda verifikasi — Telegram, WhatsApp, Google, 100+ layanan — dan dari negara mana nomornya. Nomor tersedia di 100+ negara; satu ketukan mencadangkan satu hanya untuk Anda."
+        },
+        {
+          "title": "Masukkan nomor di formulir pendaftaran",
+          "body": "Ketik nomor sewaan ke layar verifikasi layanan, pastikan kode negara cocok. Pemilih negara yang tidak cocok adalah alasan paling umum kode tidak pernah masuk."
+        },
+        {
+          "title": "Baca kode di aplikasi",
+          "body": "SMS masuk ke SMS Code biasanya dalam hitungan detik dan layar aktivasi diperbarui secara langsung. Ketuk sekali untuk menyalin kode, tempel ke formulir, dan verifikasi selesai."
+        },
+        {
+          "title": "Amankan akun dengan benar",
+          "body": "Atur kata sandi yang kuat, tambahkan email pemulihan yang Anda kendalikan, dan aktifkan autentikasi dua faktor yang tidak bergantung pada SMS. Setelah itu, akun berdiri sendiri — nomor sewaan sudah menyelesaikan tugasnya."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-number-is-the-wrong-tool",
+      "text": "Kapan nomor virtual adalah alat yang salah"
+    },
+    {
+      "type": "p",
+      "text": "Panduan yang jujur harus menarik garis ini, karena sifat yang sama yang membuat nomor sewaan bagus untuk pendaftaran — bersifat sementara — membuatnya salah untuk apa pun yang terus memeriksa nomor selama bertahun-tahun."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bank, pialang, dan layanan pembayaran. Akun keuangan memverifikasi ulang lewat SMS terus-menerus — setiap perangkat baru, setiap transfer besar. Mereka juga mencocokkan nomor dengan identitas terdaftar Anda. Pakai nomor yang akan Anda pegang jangka panjang, titik.",
+        "Portal pemerintah dan apa pun yang tertaut ke identitas hukum Anda. Kantor pajak, sistem kesehatan, dan login e-government mengasumsikan nomor tetap milik Anda selama hidup akun.",
+        "Akun apa pun di mana nomor telepon adalah satu-satunya jalur pemulihan. Jika Anda kehilangan kata sandi dan satu-satunya jalur atur ulang layanan adalah SMS, nomor yang tidak lagi Anda sewa berarti akun yang tidak lagi Anda miliki. Tambahkan jalur pemulihan email segera, atau jangan memakai nomor sementara di sana."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Aturan praktis: nomor virtual untuk momen verifikasi, bukan untuk umur akun. Jika suatu layanan perlu menghubungi nomor itu lagi dalam setahun, berikan nomor yang masih milik Anda dalam setahun. Untuk yang lain — pesan instan, jejaring sosial, toko, uji coba — momen itu saja yang ada."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Apakah menerima SMS di nomor virtual legal?",
+          "a": "Ya. Menyewa nomor dan menerima pesan di atasnya adalah layanan telekomunikasi biasa, dipakai rutin untuk privasi, QA, dan pengembangan. Yang penting secara hukum adalah apa yang Anda lakukan dengan akun setelahnya — ketentuan layanan yang Anda daftari berlaku seperti biasa."
+        },
+        {
+          "q": "Mengapa nomor daring gratis terus ditolak?",
+          "a": "Karena dibagi. Ribuan orang telah memakai nomor yang sama sebelum Anda, jadi layanan memblokirnya langsung atau melaporkannya sudah terdaftar. Nomor sewaan dicadangkan hanya untuk Anda selama aktivasi, persis perbedaan yang diselidiki filter spam layanan."
+        },
+        {
+          "q": "Apakah akun saya tetap berfungsi setelah sewa berakhir?",
+          "a": "Ya, selama akun tidak bergantung pada nomor itu untuk pemulihan. Nomor diperiksa saat verifikasi; setelahnya, akun hidup di kata sandi, email, dan sesi aktif. Siapkan itu dengan benar dan tidak ada pada pemakaian sehari-hari yang menyentuh nomor lama."
+        },
+        {
+          "q": "Bisakah saya menerima panggilan di nomor itu juga?",
+          "a": "Tidak — nomor SMS Code hanya menerima pesan teks. Jika suatu layanan bersikeras pada panggilan suara sebagai satu-satunya metode verifikasi, nomor SMS virtual tidak akan menyelesaikan alur itu."
+        },
+        {
+          "q": "Berapa biayanya?",
+          "a": "Anda membeli paket koin sekali di aplikasi dan membelanjakan koin per aktivasi — mulai 20, bergantung pada layanan dan negara, dengan harga persis ditampilkan sebelum Anda mengonfirmasi. Tidak ada langganan dan koin tidak kedaluwarsa, dan jika kode tidak pernah masuk aktivasi dibatalkan gratis dan koin kembali."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

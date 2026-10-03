@@ -1,0 +1,41 @@
+{
+  "breadcrumbHome": "Accueil",
+  "breadcrumbHub": "Numéros virtuels",
+  "heroLabel": "Numéros virtuels",
+  "step": "Étape",
+  "tipsLabel": "Bon à savoir",
+  "tipsTitle": "Avant de vérifier",
+  "faqLabel": "Questions",
+  "countriesLabel": "Pays souvent choisis pour ce service",
+  "relatedLabel": "Services proches",
+  "relatedTitle": "On vérifie aussi",
+  "ctaTitle": "Un numéro et le code en moins d’une minute",
+  "ctaSupport": "Une question\u00a0? Contactez l’assistance",
+  "hub": {
+    "metaTitle": "Numéro virtuel pour SMS — tous les services",
+    "metaDescription": "Louez un vrai numéro virtuel pour Telegram, WhatsApp, Google, Instagram et plus. Codes SMS généralement en quelques secondes — sans SIM, sans abonnement.",
+    "label": "Couverture",
+    "title": "À un numéro de n’importe quelle inscription",
+    "sub": "Choisissez le service auquel vous vous inscrivez — chaque guide décrit le vrai parcours de vérification, les pièges et les questions que l’on pose vraiment.",
+    "allNote": "De nouveaux services sont ajoutés régulièrement — l’application elle-même couvre plus de 100 services dans plus de 100 pays."
+  },
+  "categories": {
+    "messaging": "Messagerie",
+    "social": "Réseaux sociaux",
+    "finance": "Finance",
+    "shopping": "Achats",
+    "travel": "Voyage et transport",
+    "entertainment": "Divertissement",
+    "dev": "Outils de développement",
+    "other": "Comptes et plateformes"
+  },
+  "country": {
+    "hubLabel": "Par pays",
+    "hubTitle": "Numéros par pays",
+    "dialingCode": "Indicatif",
+    "numberFormat": "Format du numéro",
+    "servicesLabel": "Souvent vérifiés avec ce pays",
+    "allCountries": "Tous les pays",
+    "breadcrumb": "Pays"
+  }
+}

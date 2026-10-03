@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Privacy Policy",
+    "description": "How SIMNETIQ LTD collects, uses, stores and protects your personal data in the SMS Code app and on simnetiq.xyz, and your rights under UK and EU GDPR."
+  },
+  "prevailingNotice": "This translation is provided for convenience. If it differs from the English version, the English version prevails.",
+  "label": "Legal",
+  "title": "Privacy Policy",
+  "updatedLabel": "Last updated:",
+  "sections": [
+    {
+      "title": "1. Who we are",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SMS Code (the “App”) and the website simnetiq.xyz (the “Site”) are operated by SIMNETIQ LTD (“we”, “us”, “our”), a company registered in England and Wales. We act as the data controller for the personal data described in this policy. You can reach us at {supportEmail}."
+        },
+        {
+          "type": "p",
+          "text": "Company number: {companyNumber}. Registered office: {registeredOffice}. Contact: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. What the App does",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The App provides temporary virtual phone numbers that can receive SMS verification codes, so you can sign up for online services without sharing your personal phone number."
+        }
+      ]
+    },
+    {
+      "title": "3. Data we collect",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Account data.** An anonymous account identifier created when you first open the App, and your email address if you choose to provide it.",
+            "**Purchase data.** Records of coin packs you buy. Payment itself is processed by the Apple App Store — we never see your card details.",
+            "**Activation data.** The service, country, virtual number and the text of verification SMS messages received on that number, kept for the time needed to deliver the code to you and to resolve disputes.",
+            "**Device data.** Two things, and only if they apply to you. If you allow notifications, the push token your device is issued, so we can tell you a code has arrived. And the two-letter region code your device reports (for example *GB*), sent with the country list so we can mark one country “Recommended” — this is a device setting, not your location, and no location permission is involved.",
+            "**Support data.** When you contact support through the Site or by email, we collect your name, email address and the content of your message. Support requests submitted on the Site are stored in our database (hosted on Supabase) and processed through our email tooling in order to respond to you. We also store your browser’s user-agent string and a salted one-way hash of your IP address, to block automated abuse of the form.",
+            "**Website analytics.** The Site uses Vercel Web Analytics, which counts page views without cookies and without profiling you across other websites. The App contains no analytics, advertising or attribution SDK of any kind."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "What we deliberately do not collect: your own phone number, your contacts, your location, advertising identifiers, and any usage, crash or diagnostic telemetry from inside the App. There is no analytics or crash-reporting SDK in the App, so there is nothing of that kind to send. This matches the App Store privacy label for SMS Code."
+        }
+      ]
+    },
+    {
+      "title": "4. How we use your data",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "To provide virtual numbers and deliver verification codes to you (performance of a contract).",
+            "To maintain your coin balance and restore purchases across devices (performance of a contract).",
+            "To answer support requests (legitimate interests / performance of a contract).",
+            "To detect and prevent fraud, abuse and violations of our Terms of Service (legitimate interests).",
+            "To keep the Site working and understand which pages people find useful, using aggregated, cookie-free website analytics (legitimate interests)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "We do not sell your personal data and we do not use it for third-party advertising."
+        }
+      ]
+    },
+    {
+      "title": "5. Sharing and processors",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We use the following providers to operate the service. Their roles depend on the service they provide:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Supabase** — the database and backend behind the App. It holds everything described in section 3 that is stored at all.",
+            "**Apple** — processes every in-app purchase, and handles Sign in with Apple if you use it. We never see your payment details.",
+            "**RevenueCat** — validates purchase receipts and tells our backend which coin pack you bought. It receives your account identifier, purchase data and basic device information.",
+            "**Expo** — delivers push notifications and App updates. It receives your push token and the text of the notification.",
+            "**Vercel** — hosts the Site and provides its analytics.",
+            "**Our email tooling** — carries support correspondence.",
+            "**Our telephony provider** — supplies the virtual numbers. It is sent only the service and country you asked for; it receives no identifier of yours at all, and we do not send your app account identifier. The provider processes numbers and SMS content to deliver the service."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Providers acting as processors must be subject to appropriate data processing terms. We do not sell your data and we share nothing with advertisers. We may also disclose data where required by law."
+        }
+      ]
+    },
+    {
+      "title": "6. International transfers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Some providers are located outside the United Kingdom. Where data leaves the UK or the European Economic Area, applicable data protection law requires an appropriate transfer basis, such as an adequacy decision or contractual safeguards. Contact us for information about the safeguards for your data."
+        }
+      ]
+    },
+    {
+      "title": "7. Retention",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Activation data — 90 days.** The rented number and the text of any SMS received on it are erased on a scheduled daily cleanup after 90 days from activation creation. What remains after that is a record with no number and no message text: the service, the country, the date, the outcome and the coins involved. We keep that because it is the accounting record for coins you spent, and the evidence we need if a payment is disputed.",
+            "**Account data — until you delete your account.** Deleting your account removes your live account, email address and activation history. Limited financial and fraud-prevention records remain as described below and in section 9.",
+            "**Purchase records — as required by law.** A pseudonymised financial record of each purchase — transaction reference, pack, amount, date, and whether it was later refunded — is retained for the period tax and accounting law requires, and survives account deletion. It contains no phone number, no message text and no email address.",
+            "**Support correspondence — up to 24 months** after the request is closed."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8. Your rights",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Under the UK GDPR and the EU GDPR you have the right to access, correct, delete or receive a copy of your personal data, to restrict or object to its processing, and to withdraw consent at any time where processing is based on consent. To exercise any of these rights, email {supportEmail}. You can also complain to the UK Information Commissioner’s Office (ico.org.uk) or your local supervisory authority."
+        }
+      ]
+    },
+    {
+      "title": "9. Account and data deletion",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "You can delete your account directly in the App (Settings → Delete account) or by emailing us. Deletion removes your account identifier, your email address, your coin balance and your activation history, including every rented number and every SMS body still held. It does not require contacting support and it is not reversible. Limited financial and fraud-prevention records remain: purchase transaction references, the former account identifier, aggregate activity and coin counts, refund shortfalls, timestamps and hashed device-token links. These support accounting, disputes and prevention of repeated refund abuse. They contain no retained activation phone numbers, SMS bodies or account email, but they are pseudonymised, not guaranteed anonymous, and may be linked to purchase records or other accounts using the same device token."
+        }
+      ]
+    },
+    {
+      "title": "10. Children",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The App is not directed at children and is intended for users aged 18 or over. We do not knowingly collect data from children; if you believe a child has used the App, contact us and we will delete the data."
+        }
+      ]
+    },
+    {
+      "title": "11. Security",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Data is encrypted in transit, access is restricted to personnel who need it, and our databases enforce row-level access controls. No system is perfectly secure, so we also keep the amount of data we hold to a minimum."
+        }
+      ]
+    },
+    {
+      "title": "12. Changes to this policy",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We may update this policy from time to time. Material changes will be announced in the App or on the Site, and the “Last updated” date above always reflects the current version."
+        }
+      ]
+    }
+  ]
+}

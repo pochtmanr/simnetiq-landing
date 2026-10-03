@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Shopee",
+  "metaDescription": "Recibe el código SMS de Shopee en un número virtual real, normalmente en segundos. Compra sin cablear textos de promo y avisos de pedido a tu teléfono personal.",
+  "hero": {
+    "title": "Número virtual para Shopee",
+    "intro": [
+      "Shopee empieza por el teléfono de una forma que los marketplaces occidentales no: en el sudeste asiático y en Brasil, el número es en la práctica la cuenta. El alta empieza con un teléfono, un OTP como «382916 is your Shopee verification code» lo confirma, y a partir de ahí ese número es tu acceso, tu vía de recuperación y la dirección de un chorro constante de SMS de ventas flash.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países y el código cae en la aplicación normalmente en segundos. La cuenta queda verificada, y el bombardeo comercial apunta a otro sitio que no es el teléfono que te despierta de noche."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Shopee?",
+    "body": [
+      "Los marketplaces están entre los servicios más ruidosos que puede conocer un teléfono. Los avisos de pedido son útiles; los vales, las cuentas atrás y las ráfagas de «venta 9.9» no, y cuando tu número personal está en una base de comercio, tiende a quedarse ahí a través de cada lista de socios y cada filtración que sigue. Un número aparte para comprar mantiene la caza de ofertas lejos del número que usa tu familia.",
+      "La otra cara, honesta: precisamente porque Shopee empieza por el teléfono, aquí el número importa más que en los servicios anclados al correo. No es solo un control: es el acceso. Eso no descarta un número virtual; cambia cómo lo usas. Verifica con él y luego vincula enseguida un correo y pon una contraseña en los ajustes de la cuenta, para que iniciar sesión no dependa nunca de recibir otro OTP en un número que alquilaste una tarde."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar Shopee con un número virtual",
+    "steps": [
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Elige Shopee como servicio y escoge el país que coincide con el mercado de Shopee en el que compras: la aplicación de Indonesia espera un número indonesio, la de Tailandia uno tailandés. Un toque reserva un número móvil real."
+      },
+      {
+        "title": "Empieza el alta con ese número",
+        "body": "Escribe el número en la pantalla de registro de Shopee con el prefijo correcto. Shopee manda el OTP enseguida: esta es la parte que corre contra el reloj, así que ten las dos aplicaciones abiertas."
+      },
+      {
+        "title": "Escribe el código",
+        "body": "El SMS dice «382916 is your Shopee verification code» y aparece en SMS Code normalmente en segundos. Escríbelo y la cuenta está viva."
+      },
+      {
+        "title": "Dale a la cuenta un segundo ancla",
+        "body": "Justo después del alta, abre los ajustes de la cuenta, vincula tu correo y pon una contraseña de acceso. Así puedes entrar con usuario y contraseña en lugar de un OTP nuevo: el número alquilado deja de ser la única llave."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Haz coincidir el número con el mercado",
+      "body": "Shopee lleva aplicaciones y sitios por país, y cada uno espera un número local. Un número vietnamita no va a abrir una cuenta en Shopee Indonesia. Decide en qué mercado de verdad compras y luego alquila el número que coincida."
+    },
+    {
+      "title": "El número es el acceso: planéalo",
+      "body": "Donde los servicios que empiezan por el correo tratan el teléfono como un control, Shopee puede volver a pedir un SMS en restablecimientos de contraseña o en inicios de sesión desde dispositivos nuevos. Deja puesta la contraseña de acceso, sigue con la sesión iniciada en tu dispositivo y trata una cuenta de tienda que vaya a durar como algo que merece un número que conservas."
+    },
+    {
+      "title": "Vender es otro juego",
+      "body": "Abrir una tienda trae verificación de vendedor: documentos de identidad y datos bancarios en la mayoría de mercados. Un número virtual cubre el paso del SMS de una cuenta de comprador; no ocupa el lugar de los controles que Shopee aplica a quien cobra."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo registrarme en Shopee con un número virtual?",
+      "a": "Sí: es un número móvil real, en la red real de un operador, y Shopee lo verifica con un OTP estándar. Elige el país que coincide con el mercado de Shopee en el que te registras, porque cada mercado espera números locales."
+    },
+    {
+      "q": "¿Qué pasa con mi cuenta de Shopee cuando caduca el número alquilado?",
+      "a": "La cuenta sigue funcionando mientras puedas iniciar sesión. Como Shopee empieza por el teléfono, pon una contraseña y vincula un correo justo después del registro: los accesos de cada día no necesitan un OTP. Si piensas usar la cuenta durante años, plantéate actualizarla a un número que conserves."
+    },
+    {
+      "q": "¿Los SMS de promo van a llegar a mi teléfono personal?",
+      "a": "No: esa es media gracia del asunto. Los textos comerciales persiguen el número de la cuenta, y ese número vive en la aplicación SMS Code, no en tu bolsillo. También puedes recortar las notificaciones en los ajustes de Shopee."
+    },
+    {
+      "q": "¿Puedo abrir una cuenta de vendedor de Shopee así?",
+      "a": "El paso del SMS funciona igual, pero el alta de vendedor añade verificación de identidad y bancaria que un teléfono no sustituye. Espera aportar documentos reales si quieres vender y retirar dinero."
+    },
+    {
+      "q": "¿Por qué no llegó el código de Shopee?",
+      "a": "Casi siempre el país del número no coincide con el mercado de Shopee, o el prefijo se escribió mal. Si el SMS de verdad no llega nunca, cancela la activación en SMS Code sin cargo y toma otro número."
+    }
+  ]
+}

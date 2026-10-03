@@ -1,12 +1,14 @@
 import Link from "next/link";
-import { localePath } from "../../lib/i18n";
+import { localePath, type Locale } from "../../lib/i18n";
 import { SupportForm } from "../SupportForm";
-import { SUPPORT_PAGE } from "../../lib/content/support";
+import { Arrow } from "../Arrow";
+import { supportUi } from "../../lib/content/ui";
+import { getHelpArticle } from "../../lib/content/help";
 import { SUPPORT_EMAIL } from "../../lib/site";
-import type { Locale } from "../../lib/i18n";
 
 export function SupportPageContent({ locale }: { locale: Locale }) {
-  const t = SUPPORT_PAGE[locale];
+  const { page: t, form } = supportUi(locale);
+  const safety = getHelpArticle(locale, "choosing-country");
   return (
     <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
       <section className="pb-[50px] pt-[69px]">
@@ -23,22 +25,36 @@ export function SupportPageContent({ locale }: { locale: Locale }) {
 
       <section className="grid items-start gap-[22px] pb-[34px] md:grid-cols-3">
         <div className="relative md:order-last md:col-span-2">
-          <SupportForm locale={locale} />
+          <SupportForm locale={locale} t={form} />
         </div>
         <div className="flex flex-col gap-[22px] md:order-first">
-          {t.items.map((item, index) => (
+          {t.items.map((item) => (
             <div key={item.title} className="card !p-[34px]">
               <h2 className="font-sans text-subheading font-medium">{item.title}</h2>
               <p className="mt-[10px] text-label text-ink-muted">{item.body}</p>
-              <Link className="blue-link mt-[14px] inline-block text-label" href={localePath(locale, `/support/${["activation-issues", "billing-coins-refunds", "account-balance"][index]}`)}>{locale === "ru" ? "Читать инструкцию →" : "Read the guide →"}</Link>
+              {getHelpArticle(locale, item.slug) && (
+                <Link
+                  className="blue-link mt-[14px] inline-block text-label"
+                  href={localePath(locale, `/support/${item.slug}`)}
+                >
+                  {t.readGuide} <Arrow />
+                </Link>
+              )}
             </div>
           ))}
         </div>
       </section>
-      <nav aria-label={locale === "ru" ? "База знаний" : "Knowledge base"} className="card">
-        <h2 className="text-subheading font-medium">{locale === "ru" ? "Выбор страны и безопасность" : "Choosing a country and staying safe"}</h2>
-        <Link className="blue-link mt-[14px] inline-block" href={localePath(locale, "/support/choosing-country")}>{locale === "ru" ? "Как выбрать страну и защитить аккаунт →" : "How to choose a country and protect your account →"}</Link>
-      </nav>
+      {safety && (
+        <nav aria-label={t.knowledgeBase} className="card">
+          <h2 className="text-subheading font-medium">{t.safetyTitle}</h2>
+          <Link
+            className="blue-link mt-[14px] inline-block"
+            href={localePath(locale, "/support/choosing-country")}
+          >
+            {t.safetyLink} <Arrow />
+          </Link>
+        </nav>
+      )}
     </div>
   );
 }

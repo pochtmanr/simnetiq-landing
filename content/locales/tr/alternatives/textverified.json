@@ -1,0 +1,99 @@
+{
+  "metaTitle": "TextVerified alternatifi — SMS Code, SIMNETIQ",
+  "metaDescription": "TextVerified ile SIMNETIQ’ten SMS Code uygulamasını karşılaştırın: web’de kiralamalı yalnızca ABD numaraları, yerel iOS uygulamasında 100+ ülke.",
+  "hero": {
+    "title": "100+ ülkede numarası olan bir TextVerified alternatifi",
+    "intro": [
+      "TextVerified bir ABD uzmanıdır. Siteleri bu konuda açıktır: tüm numaraları Amerikandır, fiziksel SIM’lerle desteklenen gerçek ABD mobil numaraları diye tarif edilir, tek seferlik doğrulamalar veya bir web uygulaması, bir API ve bir tarayıcı uzantısı üzerinden kısa süreli ve yenilenebilir kiralamalar olarak sunulur. Bir kayıt özellikle +1 numarası istediğinde o odak tam istediğiniz şeydir.",
+      "SIMNETIQ’ten SMS Code karşı öncülden başlar: doğrulama ihtiyaçları uluslararasıdır. 100+ ülkede gerçek numaraları olan yerel bir iOS uygulamasıdır — ABD de aralarındadır ama Avrupa, Asya ve ötesi de — 100+ popüler servisi kapsar. Servis ve ülke seçin, bir numara alın, kod uygulamada genellikle saniyeler içinde gelir; tek seferlik jeton paketleriyle ödenir ve SMS görünmezse ücretsiz iptal olur."
+    ]
+  },
+  "whenThem": {
+    "title": "TextVerified ne zaman daha iyi seçimdir",
+    "body": "İş kesin olarak Amerikansa TextVerified’ı seçin. Tek bir pazarda derinlik gerçek avantajlar taşır: siteleri fiziksel SIM’lerle desteklenen VoIP olmayan ABD numaralarını, yüzlerce servis kapsamını ve bir ABD numarasını zaman içinde ulaşılabilir tutmak için kiralama katmanlarını — yenilenebilir aylık kiralamalar dahil — anlatır. Yalnızca ABD platformlarını doğruluyorsanız, operatör kontrollerini geçmesi gereken bir +1 numarasına ihtiyacınız varsa veya uzun ömürlü bir Amerikan numarası istiyorsanız adanmış bir ABD hizmeti daha güçlü araçtır."
+  },
+  "whenUs": {
+    "title": "SMS Code uygulaması ne zaman daha iyi uyar",
+    "body": "Tek ülke yetmiyorsa — veya ihtiyacınız olan ülke ABD bile değilse — uygulamayı seçin. Birçok servis Avrupa veya Asya numarasıyla doğrulanınca daha ucuz veya daha akıcıdır ve bazıları +1 numaralarına hiç açık değildir; bir uygulamada 100+ ülkeyle kayıt başına en iyi çalışanı seçmeniz yeter. Deneyim App Store’dan mobil yerlidir, faturalama Apple üzerinden aboneliksiz tek seferlik jeton paketleridir ve hiçbir şey almayan etkinleştirmeler ücretsiz iptal olur."
+  },
+  "comparison": {
+    "title": "TextVerified ve SMS Code uygulaması, yan yana",
+    "rows": [
+      {
+        "label": "Platformlar",
+        "competitor": "API’si ve tarayıcı uzantısı olan web uygulaması",
+        "us": "App Store’dan yerel iOS uygulaması"
+      },
+      {
+        "label": "Fiyat modeli",
+        "competitor": "Doğrulama başına fiyat artı kısa süreli ve yenilenebilir numara kiralamaları",
+        "us": "Tek seferlik jeton paketleri, etkinleştirme başına ödeme — abonelik yok"
+      },
+      {
+        "label": "Ödeme",
+        "competitor": "Siteleri kartlar ve bir dizi kripto para listeler",
+        "us": "Apple mağaza faturalaması — kart ayrıntıları bizimle paylaşılmaz"
+      },
+      {
+        "label": "Kapsam",
+        "competitor": "Tasarım gereği yalnızca ABD numaraları — siteleri tüm numaraların ABD’den olduğunu belirtir",
+        "us": "100+ popüler serviste 100+ ülkede gerçek numaralar"
+      },
+      {
+        "label": "İptal",
+        "competitor": "Kendi iade kurallarına tabidir — güncel koşullarına bakın",
+        "us": "SMS almayan etkinleştirmeler ücretsiz iptal olur, jetonlar döner"
+      },
+      {
+        "label": "Destek",
+        "competitor": "Web siteleri üzerinden destek kanalları",
+        "us": "Uygulama içi ve site iletişim formu"
+      },
+      {
+        "label": "En uygun",
+        "competitor": "Yalnızca ABD doğrulamaları ve uzun ömürlü Amerikan numaraları",
+        "us": "Telefondan uluslararası kayıtlar, dokunuş başına bir ülke"
+      }
+    ],
+    "note": "Rakip ayrıntıları yazıldığı tarihteki herkese açık sitelerini yansıtır ve değişebilir — karar vermeden önce her zaman textverified.com üzerinde doğrulayın."
+  },
+  "switchSteps": {
+    "title": "Uygulamayı denemek üç adım sürer",
+    "steps": [
+      {
+        "title": "Uygulamayı kurun",
+        "body": "SMS Code’u SIMNETIQ’ten App Store’dan alın — web hesabı veya cüzdan kurulumu gerekmez."
+      },
+      {
+        "title": "Bir jeton paketi alın",
+        "body": "Mağaza hesabınız üzerinden tek seferlik bir paket alın. Abonelik ve yenileme tarihi yoktur — jetonlar etkinleştirme başına harcanır."
+      },
+      {
+        "title": "İlk etkinleştirmenizi çalıştırın",
+        "body": "Bir servis, sonra 100+ ülkeden herhangi birini seçin — ABD dahil. Kod uygulamada genellikle saniyeler içinde gelir; hiçbir şey gelmezse etkinleştirme ücretsiz iptal olur."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "TextVerified ile SMS Code uygulaması arasındaki en büyük fark nedir?",
+      "a": "Coğrafya. TextVerified’ın sitesi tüm numaralarının ABD numarası olduğunu belirtir — tek pazarda derinlik. SIMNETIQ’ten SMS Code uygulaması yerel bir mobil uygulama üzerinden 100+ ülkede gerçek numaralar sunar, ülkeyi kayıt başına siz seçersiniz."
+    },
+    {
+      "q": "SMS Code uygulamasında ABD numaraları da var mı?",
+      "a": "Evet — ABD, mevcut 100+ ülkeden biridir. Fark, bütün katalog değil, birçok seçenekten biri olmasıdır."
+    },
+    {
+      "q": "TextVerified’ın yenilenebilir kiralamaları gibi bir numarayı uzun vadede kiralayabilir miyim?",
+      "a": "Hayır. Uygulama etkinleştirme başına çalışır: bir numara, bir servis, bir kod. Haftalar veya aylar ulaşılabilir kalan bir ABD numarası gerekiyorsa TextVerified’ın kiralama katmanları dürüstçe daha iyi eşleşmedir."
+    },
+    {
+      "q": "Kodum hiç gelmezse ne olur?",
+      "a": "Etkinleştirme iptal olur ve jetonlarınız döner. Yalnızca gerçekten SMS alan numaralar için ödersiniz."
+    },
+    {
+      "q": "SMS Code uygulamasında abonelik var mı?",
+      "a": "Hayır. Apple faturalamasıyla tek seferlik jeton paketleri alırsınız ve etkinleştirme başına harcarsınız — hiçbir şey yenilenmez ve kart ayrıntıları bizimle paylaşılmaz."
+    }
+  ]
+}

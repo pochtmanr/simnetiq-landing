@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Reddit için sanal numara",
+  "metaDescription": "Reddit kodunu gerçek bir sanal numarada genellikle saniyeler içinde alın. Telefon kontrolünü hesabınızı gerçek kimliğinize bağlamadan geçin.",
+  "hero": {
+    "title": "Reddit için sanal numara",
+    "intro": [
+      "Reddit bütün kültürünü gerçek adlar yerine kullanıcı adları üzerine kurdu — sonra ara sıra sahip olduğunuz en gerçek tanımlayıcıyı ister. Çoğu kayıt yalnızca e-posta ile yürür ama bazı akışlar, ağlar ve “şüpheli etkinlik” kontrolleri bir telefon ekranı koyar ve “Your Reddit verification code is 617293” gibi bir metin sizinle ön sayfa arasında durur.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız ve kod uygulamaya genellikle saniyeler içinde düşer. Kontrol kalkar, hesap açılır — ve altında paylaştığınız takma ad, adınızın başka her yerde bağlı olduğu numaradan bağlantısız kalır."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Reddit için neden sanal numara?",
+    "body": [
+      "Bir telefon numarasının platformun amacını bu kadar alt üst ettiği yer azdır. İnsanlar Reddit’i tıbbi soru sormak, işverenlerini tartışmak, iyileşme topluluklarında yazmak için kullanır — bir kullanıcı adının gerçek kimlikten kol mesafesinde tutmak için var olduğu şeyler tam bunlardır. Kişisel mobilinizi vermek, takma adın yakması gereken köprüyü sessizce yeniden kurar: bir tanımlayıcı, bir veritabanının daha içinde, yasal adınızı paylaşım geçmişinize bağlar.",
+      "Dürüst ters yüzü: çoğu zaman Reddit hiç sormaz. Yalnızca e-posta ile kayıt hâlâ normdur ve telefon uyarısı duruma bağlı çıkar — bazı uygulamalar ve bölgeler, VPN ve paylaşılan ağ trafiği veya mevcut bir hesapta güvenlik incelemesi. Bu yüzden önceden numara kiralamayın. Kaydı başlatın ve telefon ekranı çıkarsa kiralanan numaranın hakkını verdiği an odur; SMS gelmeden iptal ettiğiniz bir etkinleştirme hiçbir şeye mal olmaz."
+    ]
+  },
+  "howTo": {
+    "title": "Reddit’i sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "Önce kaydı başlatın",
+        "body": "Hesabı kontrol ettiğiniz bir e-posta ile oluşturun ve Reddit’in telefon isteyip istemediğine bakın. İstemiyorsa bittiniz ve hiçbir şey harcamadınız. Telefon ekranı çıkarsa ikinci adıma geçin."
+      },
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "Servis olarak Reddit’i seçin ve bir ülke seçin. Tek dokunuş yalnızca size gerçek bir mobil numara ayırır — ayrılmış demek, aynı anda Reddit için onu başka kimsenin kullanmamasıdır."
+      },
+      {
+        "title": "Numarayı girin ve kodu yazın",
+        "body": "Reddit ekranında eşleşen ülke kodunu seçin ve numarayı girin. SMS “Your Reddit verification code is 617293” diye okunur ve SMS Code uygulamasında genellikle saniyeler içinde görünür — kopyalayın."
+      },
+      {
+        "title": "Numarayı sonra ayırın",
+        "body": "Ayarlar → Hesap bölümünde doğrulama bittikten sonra telefonu görüp kaldırabilirsiniz. E-postayı doğrulanmış, parolayı güçlü tutun — hesabın gerçek dayanakları bunlardır ve Reddit kurtarma akışları SMS’e değil e-postaya yaslanır."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Önceden değil, tepki olarak kiralayın",
+      "body": "Reddit’in telefon uyarısı evrensel değil, durumsaldır. Önce olağan e-posta kaydını deneyin; sanal numaraya yalnızca ekran gerçekten bir tane istediğinde uzanın. Bu sayfa hâlâ burada olacak."
+    },
+    {
+      "title": "Takma ad yandan sızar, telefondan değil",
+      "body": "Numara sorusu halledildikten sonra kalan riskler davranışsaldır: başka yerde kullandığınız kullanıcı adını paylaşmak, gerçek fotoğraflar, tanımlanabilir ayrıntılar. Sanal numara en güçlü bağı kapatır — onu ad.soyad@ olmayan bir e-posta ve başka hiçbir yerde kullanmadığınız bir kullanıcı adıyla eşleştirin."
+    },
+    {
+      "title": "Yasaklı topluluklar yasaklı kalır",
+      "body": "Reddit askıya almaları yalnızca telefon numaralarıyla değil, birçok sinyalle uygular — cihazlar, davranış, ağlar. Sanal numara meşru bir hesabın gizliliğini korur; yasağı aşma kiti değildir ve askıya almalardan kaçmak Reddit kurallarını ihlal eder, çabuk bitmeye eğilimlidir."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Reddit kaydolmak için telefon numarası ister mi?",
+      "a": "Genellikle hayır — standart akış yalnızca e-postadır. Telefon doğrulaması duruma bağlı çıkar: bazı uygulamalar ve bölgeler, VPN veya paylaşılan ağlar üzerinden kayıtlar ya da alışılmadık etkinlikte güvenlik kontrolleri. Çıktığında sanal numara kodu bir SIM’in alacağı gibi alır."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince Reddit hesabım çalışmayı bırakır mı?",
+      "a": "Hayır. Numara doğrulamada kontrol edilir ve sonra Ayarlar → Hesap bölümünden kaldırabilirsiniz. Doğrulanmış bir e-posta ve güçlü bir parola tutun — Reddit kurtarmasının gerçekten yürüdüğü şey budur."
+    },
+    {
+      "q": "Reddit kullanıcıları veya moderatörler numaramı görebilir mi?",
+      "a": "Hayır. Telefon numarası hesap tesisatıdır, profilinizde veya diğer kullanıcılara hiç gösterilmez. Reddit’te bir takma adı açığa çıkaran içeriktir — yeniden kullanılan kullanıcı adları, fotoğraflar, tanımlayıcı ayrıntılar — doğrulama numarası değil."
+    },
+    {
+      "q": "Reddit için ücretsiz çevrimiçi numara kullanabilir miyim?",
+      "a": "Nadiren başarıyla. Ücretsiz SMS sitelerindeki herkese açık numaralar binlerce kayıttan geçmiştir ve Reddit kontrolleri onları tanımayı ve reddetmeyi eğilimlidir. Kiralanan bir numara etkinleştirme boyunca yalnızca size ayrılır; kontrolün önemsediği fark tam budur."
+    },
+    {
+      "q": "Reddit kodu hiç gelmedi — şimdi ne olacak?",
+      "a": "Ülke kodunun kiralanan numarayla eşleştiğini doğrulayın ve bir an bekleyin; kodlar genellikle saniyeler içinde düşer. Hiçbir şey gelmezse SMS Code’da etkinleştirmeyi ücretsiz iptal edin ve taze bir numara alın — yalnızca SMS teslim eden etkinleştirmeler için ödersiniz."
+    }
+  ]
+}

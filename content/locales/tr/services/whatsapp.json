@@ -1,0 +1,75 @@
+{
+  "metaTitle": "WhatsApp için sanal numara",
+  "metaDescription": "WhatsApp’ı 100+ ülkeden gerçek sanal numarayla doğrulayın. 6 haneli kod genellikle saniyeler içinde gelir. SIM yok, abonelik yok; SMS yoksa ücretsiz iptal.",
+  "hero": {
+    "title": "WhatsApp için sanal numara",
+    "intro": [
+      "WhatsApp’ta telefon numarası yalnızca bir giriş değildir — hesabın kendisidir. Numaranızı kayıtlı tutan her kişi profilinizi görür ve başka bir numaraya geçmek resmi Numara Değiştir akışından geçmek demektir. Hangi numarayla kaydolursanız onunla görünürsünüz.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız, onu WhatsApp kayıt ekranına yazarsınız ve 6 haneli doğrulama kodu uygulamada genellikle saniyeler içinde görünür. Tek seferlik bir jeton paketinden etkinleştirme başına ödersiniz — numara hiçbir şey almazsa ücret ödemeden iptal edersiniz."
+    ]
+  },
+  "whyVirtual": {
+    "title": "WhatsApp için neden sanal numara?",
+    "body": [
+      "Numaranız WhatsApp kimliğiniz olduğu için onu vermek çoğu uygulamadan daha büyük bir karardır: pazar yerindeki satıcılar, yabancılarla dolu gruplar ve tek seferlik iş kişileri size doğrudan bir hat edinir. Sanal numara bu dışa dönük kimliğe bir duvar koyar — hesap diğerleri gibi davranır ama arkasındaki numara bankanızın ve ailenizin kullandığı numara değildir.",
+      "Ayrı bir ikinci WhatsApp çalıştırmanın da temiz yoludur. WhatsApp Business ile bir iş profili kişisel uygulamayla aynı telefonda durabilir ama kendi numarasına ihtiyaç duyar. Yurt dışındayken kaydolmak da böyledir: evdeki SIM’iniz ulaşılamazsa veya dolaşım SMS’i güvenilmez kılıyorsa kiralanan yerel bir numara kart değiştirmeden doğrulamanızı sağlar."
+    ]
+  },
+  "howTo": {
+    "title": "WhatsApp’ı sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara alın",
+        "body": "SMS Code uygulamasını açın, servis olarak WhatsApp’ı seçin, bir ülke seçin ve bir kez dokunun. Etkinleştirme süresi boyunca yalnızca size ayrılmış gerçek bir mobil numara tutulur."
+      },
+      {
+        "title": "Onu WhatsApp’a girin",
+        "body": "WhatsApp kayıt ekranında eşleşen ülkeyi seçin ve numarayı verildiği gibi yazın. WhatsApp ülkeyi seçtiğiniz koddan okur; buradaki uyuşmazlık kodun hiç görünmemesinin klasik nedenidir."
+      },
+      {
+        "title": "6 haneli kodu alın",
+        "body": "SMS, SMS Code uygulamasına genellikle saniyeler içinde, gönderen “WhatsApp” olarak ve “WhatsApp code 305-921” biçiminde gelir. Altı haneyi WhatsApp’a yazın — tire yalnızca biçimdir."
+      },
+      {
+        "title": "İki adımlı doğrulama PIN’i belirleyin",
+        "body": "Kayıttan hemen sonra Ayarlar → Hesap → İki adımlı doğrulama bölümüne gidip bir PIN belirleyin. WhatsApp, uygulamayı yeniden yüklediğinizde veya telefon değiştirdiğinizde numarayı yeniden doğrular; o anda hesabın size ait olduğunu kanıtlayan PIN’dir."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "WhatsApp numaralar konusunda seçicidir — yeniden denemeye hazır olun",
+      "body": "WhatsApp gelen kayıtları çoğu servisten daha sıkı tarar ve geçici olduğundan şüphelendiği bir numaraya kod göndermeyi reddedebilir. Bu normaldir: SMS Code’da bekleyen etkinleştirmeyi iptal edin — hiçbir şey almayan numaraların jetonları bakiyenize döner — ve tercihen başka bir ülkeyle yeniden deneyin."
+    },
+    {
+      "title": "Hesap kurulumunu bitirin",
+      "body": "Bir ad ve fotoğraf belirleyin, sizi tanıyan kişilere yazın — normal yeni bir hesap böyle görünür ve dürüstçe önerebileceğimiz şey budur. Taze bir hesaptan yabancılara toplu mesaj, WhatsApp’ın istenmeyen ileti sistemlerinin durdurmak için var olduğu şeydir; kiralanan hiçbir numara bunu değiştirmez. Sanal numara sizi olağan kayıt kontrolünden geçirir, bir engelin etrafından dolaşmanın yolu değildir."
+    },
+    {
+      "title": "Oturum açık kalsın, hesap sizde kalsın",
+      "body": "WhatsApp numarayı yalnızca yeniden kayıt olduğunuzda ister — uygulamayı yeniden yüklemek veya yeni telefona geçmek. Cihazınızda oturum açık kaldığı sürece hesap, kiralanan numaranın etkinleştirme penceresi bittikten sonra da çalışır. İki adımlı PIN, ilerideki o yeniden doğrulama için güvenlik ağınızdır."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Numaranın süresi bitince WhatsApp’ım çalışmaya devam eder mi?",
+      "a": "Evet. Numara kayıtta kontrol edilir, sürekli değil. Telefonunuzda oturum açık kalsın, hesap normal çalışır. Yeniden doğrulama yalnızca WhatsApp’ı yeniden yüklediğinizde veya cihaz değiştirdiğinizde olur — bu yüzden kayıttan hemen sonra iki adımlı doğrulama PIN’ini belirlemek önemlidir."
+    },
+    {
+      "q": "WhatsApp kodum neden gelmedi?",
+      "a": "İki sık neden: WhatsApp’ta seçilen ülke numarayla uyuşmuyor ya da WhatsApp o numaraya kod göndermeyi reddetti — geçici olduğundan şüphelendiği numaralar konusunda çoğu servisten daha katıdır. SMS Code’da bekleyen etkinleştirmeyi ücretsiz iptal edin ve tercihen başka bir ülkede yeni bir numara alın. WhatsApp kodu numarayı arayarak da söyleyebilir; yeniden kayıtta ise SMS yerine mevcut bir WhatsApp oturumuna gönderebilir."
+    },
+    {
+      "q": "Bu yolla ikinci bir WhatsApp hesabı çalıştırabilir miyim?",
+      "a": "Evet — en sık kullanımlardan biridir. Normal uygulamanın yanına WhatsApp Business kurun ve onu sanal numaranızla kaydedin. Tamamen ayrı bir iş kimliği elde edersiniz: kendi profili, kendi sohbetleri, müşterilerinizin gördüğü kendi numarası."
+    },
+    {
+      "q": "Kişilerim numaranın sanal olduğunu görür mü?",
+      "a": "Hayır. Gerçek bir operatör ağındaki gerçek bir mobil numaradır ve herkes için hesap tamamen sıradan görünür. Kişilerin gördüğü şey numaranın kendisidir — WhatsApp böyle çalışır — sanal numaranın amacı da gördükleri numaranın kişisel numaranız olmamasıdır."
+    },
+    {
+      "q": "Sanal numara kullandığım için hesabım yasaklanabilir mi?",
+      "a": "WhatsApp hesapları numaranın nasıl edinildiğine göre değil, davranışa göre yasaklar: toplu mesaj, istenmeyen ileti, otomasyon. Herhangi bir numaradaki yeni bir hesap hemen yabancılara toplu yazarsa risk altındadır. Hesabı bir kişi gibi kullanın, yayın aracı gibi değil; SIM ile kaydolmuş bir hesaptan farkı kalmaz."
+    }
+  ]
+}

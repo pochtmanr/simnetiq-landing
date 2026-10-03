@@ -1,0 +1,21 @@
+{
+  "hub": {
+    "metaTitle": "接码平台对比",
+    "metaDescription": "SMS Code 应用与 5SIM、SMS-Activate.org、OnlineSim、SMS-Man、TextVerified 的对比，包括对方更合适的情况。",
+    "label": "替代方案",
+    "title": "我们怎么比——也包括我们不如别人的地方",
+    "sub": "对照人们会拿来比较的服务，手写的对比。每一篇都会写明：什么情况下另一家平台更合适。",
+    "readMore": "阅读对比"
+  },
+  "page": {
+    "breadcrumbHome": "首页",
+    "breadcrumb": "替代方案",
+    "heroLabel": "对比",
+    "comparisonUsColumn": "SMS Code",
+    "switchLabel": "换过来",
+    "faqLabel": "问题",
+    "ctaTitle": "下一次激活就试试",
+    "ctaSupport": "有问题？联系客服",
+    "disclaimer": "竞品信息依据撰写时的公开材料，之后可能变化——请以其网站的现行条款为准。所有商标归各自所有者所有。"
+  }
+}

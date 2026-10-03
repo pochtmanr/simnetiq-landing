@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternativa ao SMS-Activate.org — SMS Code da SIMNETIQ",
+  "metaDescription": "O SMS-Activate.org e o aplicativo SMS Code da SIMNETIQ: painel web e API versus iOS nativo, pacotes de moedas e cancelamento sem custo.",
+  "hero": {
+    "title": "Uma alternativa ao SMS-Activate.org que vive no seu celular",
+    "intro": [
+      "O SMS-Activate.org é um serviço web de longa data para receber códigos de verificação. O SMS Code da SIMNETIQ assume o mesmo trabalho de outro ângulo — um aplicativo nativo para iOS, em vez de um painel web. Se você quer a ideia central, um número alugado e um código rápido, sem entrar num site, esta comparação é para você.",
+      "A tarefa central é idêntica nos dois: escolha um serviço, escolha um país, receba um número real, receba o código de SMS. A diferença é como você chega lá. O SMS-Activate.org gira em torno de um painel web e de uma API documentada; o SMS Code põe o fluxo inteiro dentro de um aplicativo móvel que você instala pela App Store, paga com pacotes avulsos de moedas e usa em alguns toques."
+    ]
+  },
+  "whenThem": {
+    "title": "Quando o SMS-Activate.org é a melhor escolha",
+    "body": "Se você precisa de números em escala, o SMS-Activate.org foi feito para você. O site deles documenta uma API completa para comprar números, consultar SMS que chegam e gerenciar pedidos por programa, junto com um catálogo muito grande de serviços e países e opções de aluguel para uso mais longo. Desenvolvedores que ligam verificação a scripts, equipes que registram contas em volume e quem prefere trabalhar de um painel no computador se sentem em casa lá — essa camada de automação é algo que um aplicativo móvel de consumo, de propósito, não tenta replicar."
+  },
+  "whenUs": {
+    "title": "Quando o SMS Code encaixa melhor",
+    "body": "Se você é uma pessoa que de vez em quando precisa de um código de verificação — uma segunda conta do Telegram, um cadastro do WhatsApp, um teste que quer um número de telefone — o SMS Code é o caminho mais curto. Sem carteira na web para recarregar, sem painel para aprender: você compra um pacote avulso de moedas pela cobrança da Apple, escolhe serviço e país, e o código aparece no aplicativo em geral em segundos. Ativações que nunca recebem SMS cancelam sem custo, a cobertura abrange 100+ países e 100+ serviços, e o conjunto se comporta como um aplicativo de consumo normal, não como ferramenta de desenvolvedor."
+  },
+  "comparison": {
+    "title": "SMS-Activate.org e SMS Code, lado a lado",
+    "rows": [
+      {
+        "label": "Plataformas",
+        "competitor": "Painel web mais uma API documentada para automação",
+        "us": "Aplicativo nativo para iOS na App Store"
+      },
+      {
+        "label": "Modelo de preço",
+        "competitor": "Pague por número a partir de um saldo da conta; opções de aluguel por períodos mais longos",
+        "us": "Pacotes avulsos de moedas, pague por ativação — sem assinatura"
+      },
+      {
+        "label": "Pagamento",
+        "competitor": "Recarga de saldo na web, com os meios de pagamento que o site deles lista",
+        "us": "Cobrança da loja da Apple — nenhum dado de cartão compartilhado conosco"
+      },
+      {
+        "label": "Cobertura",
+        "competitor": "Um catálogo muito amplo de países e serviços, voltado a uso em volume",
+        "us": "100+ países e 100+ serviços populares, curados para cadastros do dia a dia"
+      },
+      {
+        "label": "Cancelamento",
+        "competitor": "Regido pelas regras de reembolso deles — confira os termos atuais",
+        "us": "Ativações que não recebem SMS cancelam sem custo, as moedas voltam"
+      },
+      {
+        "label": "Suporte",
+        "competitor": "Canais de suporte pelo site deles",
+        "us": "No aplicativo e no formulário de contato do site"
+      },
+      {
+        "label": "Melhor para",
+        "competitor": "Desenvolvedores e usuários de volume que precisam de centenas de números via API",
+        "us": "Quem quer um aplicativo móvel limpo para verificações ocasionais"
+      }
+    ],
+    "note": "Os dados do concorrente refletem o site público deles na data da redação e podem mudar — confirme sempre em sms-activate.org antes de decidir."
+  },
+  "switchSteps": {
+    "title": "Experimentar o aplicativo leva três passos",
+    "steps": [
+      {
+        "title": "Instale o aplicativo",
+        "body": "Baixe o SMS Code da SIMNETIQ na App Store — sem conta na web nem configuração de carteira."
+      },
+      {
+        "title": "Pegue um pacote de moedas",
+        "body": "Compre um pacote avulso pela sua conta da loja. As moedas não viram uma assinatura; você paga só quando ativa um número."
+      },
+      {
+        "title": "Faça a primeira ativação",
+        "body": "Escolha um serviço e um país, receba um número real e veja o código chegar no aplicativo em geral em segundos. Se nada chegar, a ativação cancela sem custo."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "O SMS Code é afiliado ao SMS-Activate.org?",
+      "a": "Não. O SMS Code é um produto independente da SIMNETIQ, sem afiliação ao SMS-Activate.org — as duas são empresas separadas resolvendo o mesmo problema de jeitos diferentes."
+    },
+    {
+      "q": "O SMS Code tem uma API como o SMS-Activate.org?",
+      "a": "Não — e essa é uma diferença de propósito. O aplicativo foi feito para pessoas, não para scripts: um fluxo móvel nativo para verificações ocasionais. Se o acesso programático a números é uma exigência dura, a API documentada do SMS-Activate.org encaixa melhor."
+    },
+    {
+      "q": "Preciso recarregar uma carteira para usar o aplicativo?",
+      "a": "Você compra pacotes avulsos de moedas pela cobrança da Apple e gasta moedas por ativação. Não há carteira na web separada, nem assinatura, nem cobrança recorrente."
+    },
+    {
+      "q": "O que acontece se o meu código nunca chegar?",
+      "a": "A ativação cancela e as suas moedas são devolvidas. Você só paga por números que de fato recebem um SMS."
+    },
+    {
+      "q": "Os números são celulares reais?",
+      "a": "Sim — o aplicativo aluga números reais em redes de operadora reais, em 100+ países. Para o serviço que você verifica, o número parece qualquer telefone comum."
+    }
+  ]
+}

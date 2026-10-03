@@ -1,0 +1,161 @@
+{
+  "title": "O que é um número virtual e como ele funciona?",
+  "description": "Explicação clara: como o número virtual funciona, no que difere de VoIP, eSIM e celular descartável, como flui o SMS e o que faz um bom provedor.",
+  "excerpt": "Um número virtual é um celular real que chega até você por um aplicativo, em vez de um chip no bolso. Veja como isso funciona de verdade — e quando é a ferramenta certa.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Um número de telefone virtual é um número real numa rede móvel real — pode receber ligações ou textos como qualquer outro — só que nenhum chip físico fica no seu celular para atender por ele. Em vez disso, o que chega no número é encaminhado a você pela internet: para um aplicativo, um painel ou uma API. Para a pessoa (ou o serviço) do outro lado, é indistinguível de qualquer celular comum."
+    },
+    {
+      "type": "p",
+      "text": "Essa definição de uma frase levanta as perguntas que este guia responde: onde esses números vivem fisicamente, se não num chip? No que um número virtual difere de VoIP, de um eSIM ou de um celular descartável? Por que os códigos de cadastro chegam nele sem problema? Alguma parte disso é legal? E, se você decidir que precisa de um, o que separa um bom provedor de um site gratuito compartilhado que nunca entrega um código?"
+    },
+    {
+      "type": "h2",
+      "id": "how-phone-numbers-actually-work",
+      "text": "Como os números de telefone funcionam de verdade"
+    },
+    {
+      "type": "p",
+      "text": "A ideia central é que um número de telefone nunca viveu “dentro” do seu chip. Os números pertencem às redes das operadoras: reguladores nacionais alocam faixas às operadoras móveis, e a rede central da operadora mantém um registro que liga cada número a um assinante. O seu chip é só um cartão de chave criptográfica que prova à rede que o seu aparelho é esse assinante, então ligações e textos endereçados ao número são entregues a ele."
+    },
+    {
+      "type": "p",
+      "text": "Um número virtual só muda o último salto. O número continua alocado por uma operadora e continua vivendo numa rede móvel real — mas o chip que atende por ele fica na infraestrutura do provedor, e não no seu bolso. Quando um SMS chega, o sistema do provedor lê e encaminha a você pela internet, em geral para um aplicativo, em geral em segundos. Nada muda do lado de quem envia, e é exatamente por isso que os sistemas de verificação tratam esses números como celulares comuns: do ponto de vista da rede, eles são."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-vs-voip-esim-burner",
+      "text": "Número virtual, VoIP, eSIM e celular descartável"
+    },
+    {
+      "type": "p",
+      "text": "Esses quatro termos se misturam o tempo todo, e as diferenças importam — sobretudo na verificação por SMS, em que alguns deles falham com rotina."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Número de celular virtual: um número de celular real de operadora, cujas mensagens são encaminhadas a você online. É o melhor encaixe para receber códigos de verificação por SMS, porque os serviços veem um celular normal.",
+        "Número VoIP (Google Voice, Skype e similares): um número que existe num serviço de telefonia pela internet, e não numa rede móvel. Ótimo para ligações, mas muitos serviços detectam faixas VoIP e recusam mandar códigos de verificação para elas — números VoIP são baratos de registrar em massa, então os sistemas de cadastro desconfiam.",
+        "eSIM: não é outro tipo de número, só um chip sem o plástico — um perfil de operadora baixado no seu aparelho. O número é totalmente seu e totalmente móvel, mas você está comprando uma linha real com contrato ou plano real, o que é excesso se tudo o que você precisa é receber um código de verificação.",
+        "Celular descartável: um aparelho pré-pago barato mais um chip, comprados para uso temporário. Funciona, mas é a opção mais cara e mais lenta — hardware, uma ida à loja, exigência de documento para registrar o chip em muitos países — para fazer o que um número virtual faz em geral em segundos."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Regra prática: se o objetivo é receber um código de SMS sem envolver o seu número pessoal, você quer um número de celular virtual. Se o objetivo é uma segunda linha permanente para ligações, você quer um eSIM ou um plano VoIP."
+    },
+    {
+      "type": "h2",
+      "id": "how-sms-verification-works",
+      "text": "Como a verificação por SMS flui de verdade"
+    },
+    {
+      "type": "p",
+      "text": "Entender o caminho explica tanto por que os números virtuais funcionam quanto por que os códigos às vezes não chegam — de qualquer número, virtual ou não."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "O serviço gera uma senha de uso único (OTP)",
+          "body": "Quando você digita um número num formulário de cadastro, o serviço cria um código de vida curta — em geral de 4 a 8 dígitos, válido por alguns minutos — e guarda contra o seu cadastro pendente."
+        },
+        {
+          "title": "A mensagem entra na rede de SMS",
+          "body": "O serviço entrega o código a um gateway de SMS, muitas vezes com um remetente alfanumérico (“Telegram”, “Google”) em vez de um número de telefone. O gateway encaminha pelas redes das operadoras até a operadora do número de destino."
+        },
+        {
+          "title": "A operadora entrega a quem detém o número",
+          "body": "A operadora de destino entrega o SMS ao assinante registrado para aquele número. Num número virtual, isso é a infraestrutura de chip do provedor — que lê a mensagem e empurra para o seu aplicativo, em geral em segundos."
+        },
+        {
+          "title": "Você digita o código de volta e fecha o ciclo",
+          "body": "O serviço compara o que você digitou com o que gerou. Se bater, passa a confiar que você controla aquele número. É tudo o que a verificação por SMS jamais prova: o controle de um número num momento."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    },
+    {
+      "type": "h2",
+      "id": "is-it-legal",
+      "text": "Usar um número virtual é legal?"
+    },
+    {
+      "type": "p",
+      "text": "Sim — alugar e usar números virtuais é legal na esmagadora maioria das jurisdições; é a mesma infraestrutura de numeração regulada que empresas usam há décadas para linhas de atendimento e avisos de entrega. O que a lei (e os termos de cada serviço) observa é o que você faz com a conta depois: fraude é ilegal a partir de qualquer número, e as regras de cada plataforma valem igualmente para toda conta. Um número virtual é uma ferramenta de privacidade, não uma autorização."
+    },
+    {
+      "type": "p",
+      "text": "Os usos legítimos são mais amplos do que a maioria espera:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Privacidade: cadastrar-se em aplicativos e sites sem alimentar o seu número real em mais um banco que pode vazar, ser vendido ou ser raspado para ligações de spam.",
+        "Separação: uma segunda conta de mensageiro para o trabalho, um projeto ou vendas em marketplaces — alcançável sem expor a sua linha pessoal.",
+        "QA e desenvolvimento: quem testa fluxos de cadastro, entrega de SMS e localização em muitos países sem manter uma gaveta de chips.",
+        "Viagem e geografia: cadastrar-se num serviço que espera um número local num país em que você não tem chip.",
+        "Controle de dano: quando um serviço em que você fundamentalmente não confia exige um número, entregar um alugado limita o prejuízo."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "choosing-a-provider",
+      "text": "O que procurar num provedor"
+    },
+    {
+      "type": "p",
+      "text": "Os provedores diferem bem mais do que as páginas deles sugerem, e as diferenças aparecem exatamente no momento em que você espera um código. Quatro coisas valem a conferência antes de pagar a alguém:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Números de celular reais e dedicados — não os números compartilhados de sites gratuitos de “receber SMS online”. Esses são usados por milhares de pessoas, então os serviços os bloqueiam ou os encontram já registrados; e qualquer outra pessoa na mesma página pode ler o seu código.",
+        "Uma política de cancelamento justa: se nenhum SMS chegar, você não deveria pagar. No SMS Code, uma ativação que não recebeu nada cancela sem custo.",
+        "Cobertura de países que combine com o que você precisa — o SMS Code oferece números em 100+ países, o que também dá alternativas quando um caminho está lento.",
+        "Preço que dá para entender: pagar por ativação a partir de um pacote avulso de moedas ganha de uma assinatura se a sua necessidade é ocasional — você não deveria alugar uma linha mensal para receber um código."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "O teste de qualidade mais rápido de qualquer provedor: o que acontece quando um código não chega? Se a resposta é “você pagou mesmo assim”, continue procurando. A verificação é probabilística nas bordas — um provedor sério precifica isso, em vez de passar a conta para você."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Perguntas frequentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Um número de telefone virtual é um número real?",
+          "a": "Sim. Ele é alocado por uma operadora real e vive numa rede móvel real — a única diferença para o número no seu bolso é que as mensagens que chegam são encaminhadas a você pela internet, em vez de tocar um chip no seu próprio aparelho."
+        },
+        {
+          "q": "Um número virtual recebe códigos de verificação por SMS?",
+          "a": "Recebe — esse é o uso principal. Como é um celular genuíno, os serviços entregam códigos OTP normalmente, e um bom provedor mostra a mensagem em geral em segundos. Números VoIP, por contraste, muitas vezes são recusados pelos sistemas de cadastro."
+        },
+        {
+          "q": "Preciso de chip ou de hardware novo para um número virtual?",
+          "a": "Não. O chip que atende pelo número fica na infraestrutura do provedor. Você só vê as mensagens que chegam num aplicativo — nada é instalado na bandeja de chip do seu celular e nenhum perfil de eSIM é adicionado."
+        },
+        {
+          "q": "Qual a diferença entre um número virtual e um celular descartável?",
+          "a": "O descartável é físico: um aparelho pré-pago barato e um chip que você compra, carrega e acaba descartando. Um número virtual faz a mesma separação sem hardware, sem ida à loja e sem papelada de registro de chip — você aluga o número para a verificação e recebe o código num aplicativo."
+        },
+        {
+          "q": "Sites gratuitos de “receber SMS online” bastam?",
+          "a": "Para qualquer coisa com a qual você se importe, não. Os números deles são compartilhados e visíveis ao público: os serviços os bloqueiam, o número muitas vezes já está registrado, e qualquer pessoa na mesma página pode ler os códigos que você recebe — inclusive um código que poderia redefinir a conta que você acabou de criar."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

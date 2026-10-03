@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Politique de confidentialité",
+    "description": "Comment SIMNETIQ LTD collecte, utilise et protège vos données dans SMS Code et sur simnetiq.xyz, et vos droits au titre du RGPD britannique et de l’UE."
+  },
+  "prevailingNotice": "Cette traduction est fournie à titre de commodité. En cas de différence avec la version anglaise, la version anglaise prévaut.",
+  "label": "Mentions légales",
+  "title": "Politique de confidentialité",
+  "updatedLabel": "Dernière mise à jour\u00a0:",
+  "sections": [
+    {
+      "title": "1. Qui nous sommes",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SMS Code (l’«\u00a0App\u00a0») et le site simnetiq.xyz (le «\u00a0Site\u00a0») sont exploités par SIMNETIQ LTD («\u00a0nous\u00a0», «\u00a0notre\u00a0»), société immatriculée en Angleterre et au pays de Galles. Nous agissons en qualité de responsable du traitement pour les données à caractère personnel décrites dans cette politique. Vous pouvez nous joindre à {supportEmail}."
+        },
+        {
+          "type": "p",
+          "text": "Numéro de société\u00a0: {companyNumber}. Siège social\u00a0: {registeredOffice}. Contact\u00a0: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Ce que fait l’App",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "L’App fournit des numéros de téléphone virtuels temporaires capables de recevoir des codes de vérification par SMS, afin que vous puissiez vous inscrire à des services en ligne sans communiquer votre numéro de téléphone personnel."
+        }
+      ]
+    },
+    {
+      "title": "3. Données que nous collectons",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Données de compte.** Un identifiant de compte anonyme créé à la première ouverture de l’App, et votre adresse e-mail si vous choisissez de la fournir.",
+            "**Données d’achat.** Les enregistrements des packs de pièces que vous achetez. Le paiement lui-même est traité par l’Apple App Store — nous ne voyons jamais les données de votre carte.",
+            "**Données d’activation.** Le service, le pays, le numéro virtuel et le texte des SMS de vérification reçus sur ce numéro, conservés le temps nécessaire pour vous remettre le code et pour résoudre les litiges.",
+            "**Données d’appareil.** Deux choses, et seulement si elles vous concernent. Si vous autorisez les notifications, le jeton push délivré à votre appareil, afin que nous puissions vous signaler l’arrivée d’un code. Et le code de région à deux lettres que votre appareil transmet (par exemple *GB*), envoyé avec la liste des pays pour que nous puissions en marquer un «\u00a0Recommandé\u00a0» — il s’agit d’un réglage de l’appareil, pas de votre position, et aucune autorisation de localisation n’est en jeu.",
+            "**Données d’assistance.** Lorsque vous contactez l’assistance via le Site ou par e-mail, nous collectons votre nom, votre adresse e-mail et le contenu de votre message. Les demandes d’assistance envoyées sur le Site sont stockées dans notre base de données (hébergée sur Supabase) et traitées par nos outils d’e-mail afin de vous répondre. Nous conservons aussi la chaîne user-agent de votre navigateur et un hachage salé à sens unique de votre adresse IP, pour bloquer les abus automatisés du formulaire.",
+            "**Mesure d’audience du site.** Le Site utilise Vercel Web Analytics, qui compte les pages vues sans cookies et sans vous profiler d’un site à l’autre. L’App ne contient aucun SDK d’analyse, de publicité ou d’attribution, d’aucune sorte."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ce que nous ne collectons délibérément pas\u00a0: votre propre numéro de téléphone, vos contacts, votre position, les identifiants publicitaires, ni aucune télémétrie d’usage, de plantage ou de diagnostic depuis l’intérieur de l’App. Il n’y a pas de SDK d’analyse ni de rapport de plantage dans l’App, donc rien de ce type à envoyer. Cela correspond à l’étiquette de confidentialité de l’App Store pour SMS Code."
+        }
+      ]
+    },
+    {
+      "title": "4. Comment nous utilisons vos données",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Pour fournir des numéros virtuels et vous remettre les codes de vérification (exécution d’un contrat).",
+            "Pour tenir votre solde de pièces et restaurer les achats d’un appareil à l’autre (exécution d’un contrat).",
+            "Pour répondre aux demandes d’assistance (intérêts légitimes / exécution d’un contrat).",
+            "Pour détecter et prévenir la fraude, les abus et les violations de nos conditions d’utilisation (intérêts légitimes).",
+            "Pour faire fonctionner le Site et comprendre quelles pages sont utiles, au moyen d’une mesure d’audience agrégée et sans cookies (intérêts légitimes)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Nous ne vendons pas vos données à caractère personnel et nous ne les utilisons pas pour de la publicité de tiers."
+        }
+      ]
+    },
+    {
+      "title": "5. Partage et sous-traitants",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nous faisons appel aux prestataires suivants pour exploiter le service. Leur rôle dépend du service qu’ils fournissent\u00a0:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Supabase** — la base de données et le backend de l’App. Il détient tout ce qui est décrit à la section 3 et qui est effectivement stocké.",
+            "**Apple** — traite chaque achat intégré et gère la Connexion avec Apple si vous l’utilisez. Nous ne voyons jamais vos données de paiement.",
+            "**RevenueCat** — valide les reçus d’achat et indique à notre backend quel pack de pièces vous avez acheté. Il reçoit l’identifiant de votre compte, les données d’achat et des informations de base sur l’appareil.",
+            "**Expo** — livre les notifications push et les mises à jour de l’App. Il reçoit votre jeton push et le texte de la notification.",
+            "**Vercel** — héberge le Site et fournit sa mesure d’audience.",
+            "**Nos outils d’e-mail** — acheminent la correspondance d’assistance.",
+            "**Notre fournisseur de téléphonie** — fournit les numéros virtuels. On ne lui envoie que le service et le pays demandés\u00a0; il ne reçoit aucun identifiant vous concernant, et nous ne lui transmettons pas l’identifiant de votre compte dans l’app. Le fournisseur traite les numéros et le contenu des SMS pour rendre le service."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Les prestataires qui agissent comme sous-traitants doivent être soumis à des clauses de traitement des données appropriées. Nous ne vendons pas vos données et nous ne partageons rien avec des annonceurs. Nous pouvons aussi divulguer des données lorsque la loi l’exige."
+        }
+      ]
+    },
+    {
+      "title": "6. Transferts internationaux",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Certains prestataires sont situés en dehors du Royaume-Uni. Lorsque des données quittent le Royaume-Uni ou l’Espace économique européen, le droit applicable en matière de protection des données exige une base de transfert appropriée, telle qu’une décision d’adéquation ou des garanties contractuelles. Contactez-nous pour obtenir des informations sur les garanties applicables à vos données."
+        }
+      ]
+    },
+    {
+      "title": "7. Conservation",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Données d’activation — 90 jours.** Le numéro loué et le texte de tout SMS reçu sur celui-ci sont effacés lors d’un nettoyage quotidien planifié, 90 jours après la création de l’activation. Ce qui reste ensuite est un enregistrement sans numéro et sans texte de message\u00a0: le service, le pays, la date, le résultat et les pièces concernées. Nous le conservons parce que c’est la pièce comptable des pièces que vous avez dépensées, et la preuve dont nous avons besoin si un paiement est contesté.",
+            "**Données de compte — jusqu’à la suppression de votre compte.** Supprimer votre compte retire votre compte actif, votre adresse e-mail et l’historique des activations. Des enregistrements financiers et de prévention de la fraude, limités, restent comme décrit ci-dessous et à la section 9.",
+            "**Enregistrements d’achat — aussi longtemps que la loi l’exige.** Un enregistrement financier pseudonymisé de chaque achat — référence de transaction, pack, montant, date, et s’il a ensuite été remboursé — est conservé pendant la durée exigée par le droit fiscal et comptable, et survit à la suppression du compte. Il ne contient ni numéro de téléphone, ni texte de message, ni adresse e-mail.",
+            "**Correspondance d’assistance — jusqu’à 24 mois** après la clôture de la demande."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8. Vos droits",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Au titre du UK GDPR et du RGPD de l’UE, vous avez le droit d’accéder à vos données à caractère personnel, de les rectifier, de les effacer ou d’en recevoir une copie, de limiter leur traitement ou de vous y opposer, et de retirer votre consentement à tout moment lorsque le traitement est fondé sur le consentement. Pour exercer l’un de ces droits, écrivez à {supportEmail}. Vous pouvez aussi introduire une réclamation auprès de l’Information Commissioner’s Office du Royaume-Uni (ico.org.uk) ou de votre autorité de contrôle locale."
+        }
+      ]
+    },
+    {
+      "title": "9. Suppression du compte et des données",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vous pouvez supprimer votre compte directement dans l’App (Réglages → Supprimer le compte) ou en nous écrivant. La suppression retire l’identifiant de votre compte, votre adresse e-mail, votre solde de pièces et votre historique d’activations, y compris chaque numéro loué et chaque corps de SMS encore conservé. Elle n’exige pas de contacter l’assistance et elle n’est pas réversible. Des enregistrements financiers et de prévention de la fraude, limités, restent\u00a0: références de transaction d’achat, ancien identifiant de compte, activité agrégée et décomptes de pièces, écarts de remboursement, horodatages et liens hachés de jetons d’appareil. Ils servent la comptabilité, les litiges et la prévention des abus répétés de remboursement. Ils ne contiennent aucun numéro de téléphone d’activation conservé, aucun corps de SMS ni e-mail de compte, mais ils sont pseudonymisés, pas garantis anonymes, et peuvent être reliés à des enregistrements d’achat ou à d’autres comptes utilisant le même jeton d’appareil."
+        }
+      ]
+    },
+    {
+      "title": "10. Enfants",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "L’App ne s’adresse pas aux enfants et est destinée aux utilisateurs âgés de 18 ans ou plus. Nous ne collectons pas sciemment de données auprès d’enfants\u00a0; si vous pensez qu’un enfant a utilisé l’App, contactez-nous et nous supprimerons les données."
+        }
+      ]
+    },
+    {
+      "title": "11. Sécurité",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Les données sont chiffrées en transit, l’accès est limité au personnel qui en a besoin, et nos bases de données appliquent des contrôles d’accès au niveau des lignes. Aucun système n’est parfaitement sûr, c’est pourquoi nous réduisons aussi au minimum la quantité de données que nous détenons."
+        }
+      ]
+    },
+    {
+      "title": "12. Modifications de cette politique",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nous pouvons mettre à jour cette politique de temps à autre. Les changements importants seront annoncés dans l’App ou sur le Site, et la date «\u00a0Dernière mise à jour\u00a0» ci-dessus reflète toujours la version en vigueur."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "title": "Segunda conta do WhatsApp sem um segundo chip",
+  "description": "Um segundo WhatsApp não exige segundo chip: só um segundo número e um aplicativo. WhatsApp Business, várias contas e número virtual.",
+  "excerpt": "O WhatsApp amarra cada conta a exatamente um número — mas esse número não exige um espaço de chip. Os caminhos oficiais de dois aplicativos, o passo a passo da verificação e as ressalvas honestas.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Você quer um WhatsApp para amigos e família e outro para o trabalho, um projeto paralelo ou vendas em marketplace — sem comprar um segundo chip nem carregar um segundo celular. Muitos guias prometem um truque. Eis a versão honesta: não há truque, porque o problema não é o que você pensa."
+    },
+    {
+      "type": "p",
+      "text": "O modelo do WhatsApp é rígido — um número de telefone, uma conta, e o número é a identidade da conta. Mas nada nesse modelo diz que o número precisa viver num espaço de chip do seu celular. O que você de fato precisa são duas coisas: um segundo número que receba um código de verificação e um lugar no celular para rodar a segunda conta. O próprio WhatsApp oferece a segunda parte de forma oficial; um número virtual cobre a primeira. Este guia percorre as duas, depois a verificação em si, o PIN de duas etapas e as ressalvas que os guias de WhatsApp em geral pulam."
+    },
+    {
+      "type": "h2",
+      "id": "one-number-one-account",
+      "text": "Por que o WhatsApp insiste em um número por conta"
+    },
+    {
+      "type": "p",
+      "text": "Ao contrário de serviços que deixam você se cadastrar com e-mail, o WhatsApp usa o número de telefone como a chave primária da conta. Os seus contatos encontram você porque o seu número está na agenda deles; as chaves de criptografia, os backups de conversa e as participações em grupo pendem dele. Registrar o mesmo número numa conta nova desloca a antiga — e é também por isso que você não “clona” uma conta e que toda segunda conta de fato precisa do próprio número."
+    },
+    {
+      "type": "p",
+      "text": "A boa notícia é que o WhatsApp aceitou que as pessoas legitimamente precisam de mais de uma conta e agora oferece dois jeitos oficiais de rodá-las num único celular."
+    },
+    {
+      "type": "h2",
+      "id": "official-ways-to-run-two-accounts",
+      "text": "Os jeitos oficiais de ter duas contas num celular"
+    },
+    {
+      "type": "list",
+      "items": [
+        "WhatsApp Business — o caminho oficial de dois aplicativos no iPhone e no Android. É um aplicativo separado da Meta que se instala ao lado do WhatsApp comum, feito exatamente para a divisão trabalho/pessoal: as mesmas conversas e ligações, mais perfil comercial, catálogo e respostas automáticas. Ainda precisa do próprio número, e os termos esperam um uso de fato com cara de negócio.",
+        "Várias contas no Android — versões mais novas do WhatsApp comum no Android deixam você adicionar uma segunda conta dentro do mesmo aplicativo e trocar entre elas nos ajustes, sem um segundo aplicativo. Cada conta ainda exige o próprio número para verificar. iPhones não têm esse interruptor dentro do aplicativo, e por isso o aplicativo Business é o caminho usual no iOS.",
+        "Um segundo celular ou espaço de dois chips — mencionado por completude: funciona, mas é exatamente o custo de hardware que este artigo existe para evitar."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Repare no que todas as opções têm em comum: o recipiente está resolvido, o número não. Qualquer caminho que você escolha, em algum momento uma tela pede um número de telefone que ainda não está ligado à sua conta principal. É aí que entra um número virtual."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-number-as-the-second-number",
+      "text": "Um número virtual como o seu segundo número"
+    },
+    {
+      "type": "p",
+      "text": "Um número virtual é um número de celular real numa rede de operadora real — você aluga para a verificação, o código de SMS aparece no aplicativo SMS Code em geral em segundos, e o seu segundo WhatsApp ganha uma identidade própria. Sem chip, sem contrato novo, sem linha mensal que você esquece de cancelar: você paga por ativação a partir de um pacote avulso de moedas e, se nenhum código chegar, a ativação cancela sem custo. Com números disponíveis em 100+ países, você pode até dar à conta de trabalho um número local do mercado que atende."
+    },
+    {
+      "type": "h2",
+      "id": "verification-walkthrough",
+      "text": "Passo a passo da verificação"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Prepare o recipiente primeiro",
+          "body": "Instale o WhatsApp Business (iPhone ou Android) ou, no Android, abra WhatsApp → Ajustes → toque na seta ao lado do seu nome → “Adicionar conta”. Chegue à tela que pede um número de telefone antes de alugar um — as ativações têm uma janela de tempo, e não faz sentido gastá-la configurando o aplicativo."
+        },
+        {
+          "title": "Alugue um número para o WhatsApp",
+          "body": "No aplicativo SMS Code, escolha WhatsApp como serviço e escolha um país. Um toque reserva um número de celular real só para você."
+        },
+        {
+          "title": "Digite o número e peça o código",
+          "body": "Digite o número no WhatsApp com o país correspondente selecionado — um código de país que não combina é o motivo mais comum de um código nunca chegar. Escolha entrega por SMS quando perguntarem."
+        },
+        {
+          "title": "Pegue o código no SMS Code",
+          "body": "O SMS de verificação aparece no aplicativo SMS Code, em geral em segundos. Digite o código de 6 dígitos no WhatsApp, defina o nome do perfil e a segunda conta está no ar."
+        },
+        {
+          "title": "Defina o PIN de duas etapas na hora",
+          "body": "Na conta nova: Ajustes → Conta → Verificação em duas etapas → ativar, escolha um PIN e adicione um e-mail de recuperação. Faça isso antes de qualquer outra coisa — a seção abaixo explica por que isso importa ainda mais num número alugado."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    },
+    {
+      "type": "h2",
+      "id": "two-step-pin",
+      "text": "O PIN de duas etapas: ajuste pequeno, faz o trabalho pesado"
+    },
+    {
+      "type": "p",
+      "text": "O PIN de verificação em duas etapas do WhatsApp é pedido sempre que alguém tenta registrar o seu número no WhatsApp de novo. Num número alugado, essa é a sua rede de segurança: mesmo que esse número seja alugado depois por outra pessoa para um serviço diferente, ela não consegue recadastrar a sua conta do WhatsApp sem o PIN. Combinado com uma sessão ativa no celular, isso mantém a conta firmemente sua. Adicione o e-mail de recuperação também — é o único caminho de volta se você esquecer o PIN."
+    },
+    {
+      "type": "h2",
+      "id": "honest-caveats",
+      "text": "As ressalvas honestas"
+    },
+    {
+      "type": "p",
+      "text": "Esta é a parte que a maioria dos guias pula. O WhatsApp é visivelmente mais rígido do que o Telegram com cadastros novos, e é melhor saber disso ao entrar."
+    },
+    {
+      "type": "callout",
+      "text": "O WhatsApp desgosta de forma ativa de números que suspeita serem temporários, e uma conta novíssima que imediatamente se comporta como um bot de spam pode ser restrita rápido. Dê a uma conta nova um aquecimento normal: preencha o nome e a foto do perfil, converse com algumas pessoas que conhecem você e vão responder, e deixe viver quieta por alguns dias antes de qualquer uso mais pesado. Não mande mensagem em massa para desconhecidos nem entre em dezenas de grupos no primeiro dia — isso não é uma dica de atalho, é simplesmente o que os termos do WhatsApp esperam de qualquer conta, e um número novo recebe menos benefício da dúvida."
+    },
+    {
+      "type": "p",
+      "text": "Mais duas coisas para saber. Primeiro, a nova verificação: o WhatsApp pede um código novo quando você reinstala o aplicativo ou muda de celular, então trate o aplicativo instalado e conectado como a coisa que você preserva — não saia nem apague por acaso. Segundo, escolha o recipiente certo para o trabalho: se a segunda conta é de fato comercial, o WhatsApp Business é ao mesmo tempo a ferramenta oficial e o encaixe mais seguro para os termos; se é simplesmente uma segunda identidade pessoal, as várias contas do Android fazem o trabalho."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Perguntas frequentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Dá para ter duas contas do WhatsApp num celular?",
+          "a": "Dá, de forma oficial. No Android, versões recentes do WhatsApp aceitam uma segunda conta dentro do mesmo aplicativo; em qualquer celular você pode rodar WhatsApp e WhatsApp Business lado a lado. Cada conta precisa do próprio número de telefone para verificar."
+        },
+        {
+          "q": "Preciso de um segundo chip para um segundo WhatsApp?",
+          "a": "Não. O WhatsApp precisa de um número que receba um código de verificação — não se importa se esse número vive na bandeja de chip. Um número virtual alugado verifica a conta, e o código chega no aplicativo SMS Code em geral em segundos."
+        },
+        {
+          "q": "O WhatsApp bane uma conta feita com número virtual?",
+          "a": "Um número virtual é um número de celular real, e verificar com ele não é, por si, uma violação — o WhatsApp confere se você controla o número, não em nome de quem ele está. O que restringe contas é comportamento: mensagens com cara de spam, alcance em massa a desconhecidos, quebrar os termos do WhatsApp. Use a conta como uma pessoa normal e aqueça com cuidado."
+        },
+        {
+          "q": "O que acontece com o meu WhatsApp quando o número virtual expira?",
+          "a": "A conta continua funcionando — o número é conferido no cadastro, e o uso do dia a dia se apoia no aplicativo em que você está conectado. A ressalva: reinstalar ou trocar de celular dispara uma nova verificação com um código novo. Mantenha o aplicativo instalado e conectado, e defina o PIN de duas etapas para ninguém mais recadastrar o número."
+        },
+        {
+          "q": "Devo usar o WhatsApp Business ou o recurso de várias contas?",
+          "a": "Se a segunda conta é para negócio de verdade — clientes, vendas, suporte — use o WhatsApp Business: é a ferramenta oficial, acrescenta perfil e catálogo, e combina com os termos de uso. Se você só quer uma segunda conta pessoal e está no Android, o interruptor de várias contas dentro do aplicativo é a opção mais leve. No iPhone, o Business é o caminho prático de dois aplicativos."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

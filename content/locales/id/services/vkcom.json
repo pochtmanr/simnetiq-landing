@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk VK — daftar tanpa nomor asli",
+  "metaDescription": "Dapatkan nomor virtual asli untuk verifikasi VK. Kode SMS tiba biasanya dalam hitungan detik — buat akun VK tanpa mengekspos nomor pribadi Anda.",
+  "hero": {
+    "title": "Nomor virtual untuk VK",
+    "intro": [
+      "VK tidak menawarkan jalan memutar nomor telepon: pendaftaran dibangun di atasnya. Sebelum Anda dapat menjelajah komunitas, mengirim pesan kepada siapa pun, atau memasang barang di marketplace, VK mengirim kode SMS ke nomor yang Anda berikan — dan nomor itu menjadi jangkar login serta pemulihan untuk seluruh akun.",
+      "Dengan SMS Code Anda menyewa nomor asli dari salah satu dari 100+ negara, memasukkannya di formulir pendaftaran VK, dan kode konfirmasi masuk ke aplikasi SMS Code biasanya dalam hitungan detik. Akun terverifikasi penuh — dan nomor pribadi Anda tidak pernah masuk ke basis data VK."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk VK?",
+    "body": [
+      "Alasan paling umum adalah pemisahan. Banyak orang menginginkan akun VK yang bukan identitas utama mereka: satu untuk menjalankan komunitas, satu untuk berjualan di marketplace VK, satu untuk mengikuti grup niche tanpa mencampurnya ke profil pribadi. VK mengikat setiap akun ke nomornya sendiri, jadi setiap identitas terpisah membutuhkan nomor terpisah — dan menyewa satu lebih baik daripada menyimpan laci kartu SIM cadangan.",
+      "Nomor yang Anda berikan ke VK juga membawa bobot lebih besar daripada di kebanyakan platform, karena ia menjadi VK ID — satu login yang menjangkau seluruh ekosistem layanan Mail.ru/VK. Mendaftar dengan nomor virtual berarti pengenal yang dibagikan luas itu adalah nomor sewaan, bukan nomor yang dipakai bank dan keluarga Anda. Jika akun pernah dikompromikan atau dikikis, nomor asli Anda tidak pernah berada di radius ledakan."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi VK dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih VK sebagai layanan, dan pilih negara — Kazakhstan dan negara terdekat lain adalah pilihan yang sering. Satu ketukan mencadangkan nomor seluler asli untuk Anda."
+      },
+      {
+        "title": "Masukkan di formulir pendaftaran VK",
+        "body": "Mulai pendaftaran VK dan ketik nomor sewaan dengan kode negara yang benar. VK segera mengirim kode konfirmasi lewat SMS ke nomor itu."
+      },
+      {
+        "title": "Konfirmasi dengan kode",
+        "body": "Pesan muncul di aplikasi SMS Code biasanya dalam hitungan detik — “VK: 348715 — код подтверждения”. Masukkan enam digit di layar VK dan akun terbentuk."
+      },
+      {
+        "title": "Tambahkan kata sandi yang kuat dan akses cadangan",
+        "body": "Atur kata sandi unik yang kuat segera, dan lampirkan alamat email di setelan VK ID. Dengan begitu login sehari-hari dan pemulihan bersandar pada kata sandi dan email, bukan pada menerima SMS lain."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Satu nomor, satu akun VK",
+      "body": "VK menegakkan tautan satu-lawan-satu yang ketat antara nomor dan akun. Jika suatu nomor pernah terdaftar di VK sebelumnya, pendaftaran dapat berubah menjadi alur masuk atau pulihkan. SMS Code menerbitkan nomor per aktivasi, tetapi jika VK berperilaku aneh, batalkan dan ambil nomor baru."
+    },
+    {
+      "title": "VK ID menjangkau di luar VK",
+      "body": "Akun yang Anda buat juga menjadi VK ID — login untuk ekosistem layanan VK yang lebih luas (surat, musik, iklan baris, dan lainnya). Perlakukan sesuai: kata sandi yang kuat dan email yang tertaut lebih penting di sini daripada di aplikasi satu tujuan."
+    },
+    {
+      "title": "Kencangkan setelan privasi",
+      "body": "Di setelan privasi VK, batasi siapa yang dapat menemukan Anda lewat nomor telepon dan siapa yang melihat detail profil. Dipadukan dengan nomor virtual, ini menjaga aktivitas komunitas atau marketplace terpisah bersih dari identitas pribadi Anda."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah saya mendaftar VK tanpa nomor telepon sama sekali?",
+      "a": "Tidak — VK mensyaratkan konfirmasi SMS saat pendaftaran, tanpa jalur hanya email. Nomor virtual adalah cara memenuhi persyaratan itu tanpa menyerahkan nomor pribadi Anda."
+    },
+    {
+      "q": "Bisakah saya menjalankan akun VK kedua untuk komunitas atau toko saya?",
+      "a": "Ya, itu pemakaian yang tipikal. Setiap akun VK membutuhkan nomor sendiri, jadi sewa nomor virtual baru untuk akun baru dan jaga pengelolaan komunitas atau penjualan marketplace terpisah dari profil pribadi Anda."
+    },
+    {
+      "q": "Apakah akun bertahan setelah nomor sewaan berakhir?",
+      "a": "Nomor dibutuhkan untuk SMS pendaftaran, bukan untuk pemakaian harian. Tetap masuk, atur kata sandi yang kuat, dan lampirkan email di setelan VK ID — maka login rutin dan pemulihan tidak bergantung pada nomor lama. Jika VK nanti menegaskan konfirmasi ulang SMS, Anda dapat mengubah nomor di akun ke nomor sewaan yang baru."
+    },
+    {
+      "q": "Mengapa kode konfirmasi VK saya tidak masuk?",
+      "a": "Biasanya nomor pernah terdaftar di VK sebelumnya, atau kode negara dimasukkan salah. Batalkan aktivasi di SMS Code — Anda tidak membayar untuk nomor yang tidak menerima SMS — dan coba lagi dengan nomor lain."
+    },
+    {
+      "q": "Apakah negara nomor penting untuk VK?",
+      "a": "VK menerima nomor dari banyak negara; Kazakhstan, Polandia, Jerman, dan Belanda adalah pilihan populer di SMS Code. Bahasa antarmuka dan setelan profil tidak bergantung pada negara nomor — Anda memilihnya sendiri."
+    }
+  ]
+}

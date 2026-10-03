@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "SMS Code da SIMNETIQ — receba SMS num número privado",
+    "description": "Receba um número virtual real em 100+ países e códigos de verificação por SMS em segundos. Cadastre-se no Telegram, WhatsApp e Google sem o seu número.",
+    "ogTitle": "SMS Code da SIMNETIQ",
+    "ogDescription": "Um número para o cadastro, não para a vida toda. Números virtuais reais em 100+ países, códigos de verificação em segundos.",
+    "twitterDescription": "Um número para o cadastro, não para a vida toda. Códigos de verificação em segundos."
+  },
+  "hero": {
+    "label": "Números virtuais · verificação por SMS",
+    "titleTop": "Um número para o cadastro.",
+    "titleAccent": "Não para a vida toda.",
+    "body": "O SMS Code entrega um número virtual real em 100+ países e mostra o código de verificação em geral em segundos — Telegram, WhatsApp, Google e mais de 100 serviços nunca ficam sabendo do seu número pessoal.",
+    "note": "Pacotes avulsos de moedas · sem assinatura"
+  },
+  "services": {
+    "label": "Cobertura",
+    "title": "Funciona nos cadastros que você realmente faz",
+    "caption": "Telegram, WhatsApp, Google, Instagram e mais de 100 serviços"
+  },
+  "how": {
+    "label": "Visão geral",
+    "title": "Três passos e pronto",
+    "step": "Passo",
+    "steps": [
+      {
+        "title": "Escolha o serviço e o país",
+        "body": "Diga onde você vai se cadastrar — Telegram, WhatsApp, Google, 100+ serviços — e de qual país o número deve ser."
+      },
+      {
+        "title": "Receba um número real na hora",
+        "body": "O aplicativo entrega um número virtual ativo. Cole no formulário de cadastro como qualquer outro número de celular."
+      },
+      {
+        "title": "O código chega no aplicativo",
+        "body": "O SMS de verificação aparece na tela em geral em segundos. Um toque copia o código, o cadastro termina, pronto."
+      }
+    ],
+    "inbox": {
+      "codeLabel": "O seu código",
+      "now": "agora",
+      "secondsAgo": "há {n} s"
+    },
+    "waiting": "Aguardando o SMS"
+  },
+  "features": {
+    "label": "Por que o SMS Code",
+    "title": "Feito para quem protege o próprio número",
+    "sub": "Desenvolvedores testando cadastros, quem gerencia várias contas e qualquer pessoa cansada de “informe o seu celular para continuar”.",
+    "items": [
+      {
+        "title": "O seu número real continua seu",
+        "body": "Cadastre-se em qualquer lugar sem entregar o seu número pessoal a mais um banco de dados, lista de e-mail ou vazamento."
+      },
+      {
+        "title": "100+ serviços, 100+ países",
+        "body": "Do Telegram e do WhatsApp ao Steam e ao Tinder — com números da Europa, da Ásia, das Américas e de outros lugares."
+      },
+      {
+        "title": "Em geral segundos, não minutos",
+        "body": "O número fica ativo no momento em que você o recebe. O SMS aparece no aplicativo, com cópia em um toque."
+      },
+      {
+        "title": "Pague pelo código, sem assinatura",
+        "body": "Compre um pacote de moedas uma vez e gaste quando quiser. Sem plano mensal, sem renovação automática, nada no seu saldo expira."
+      },
+      {
+        "title": "Sem chip, sem eSIM e sem contrato",
+        "body": "Nada para configurar no celular e nada ligado à sua identidade. É só abrir o aplicativo."
+      },
+      {
+        "title": "Cancele antes do SMS chegar",
+        "body": "Dois minutos depois da atribuição, você pode cancelar um número que não recebeu SMS e receber as moedas de volta."
+      }
+    ]
+  },
+  "showcase": {
+    "label": "Dentro do aplicativo",
+    "title": "Como isso aparece de verdade",
+    "body": "Não são maquetes — são telas reais do aplicativo. O aplicativo é atualizado com frequência, então o detalhe de uma captura pode estar uma versão atrás.",
+    "shots": [
+      {
+        "src": "/app/shot-countries.png",
+        "caption": "O preço de cada país aparece antes da escolha"
+      },
+      {
+        "src": "/app/shot-waiting.png",
+        "caption": "O código chega na tela da ativação"
+      },
+      {
+        "src": "/app/shot-activations.png",
+        "caption": "Números ativos, um toque para copiar"
+      },
+      {
+        "src": "/app/shot-languages.png",
+        "caption": "Dez idiomas, trocados nos Ajustes"
+      }
+    ]
+  },
+  "faq": {
+    "label": "Perguntas",
+    "title": "Perguntas, com resposta",
+    "items": [
+      {
+        "q": "O que é um número virtual?",
+        "a": "Um número de telefone real, na rede de uma operadora, que não está ligado a um chip no seu bolso. Ele recebe SMS como qualquer outro número: você usa na etapa de verificação, e o seu número pessoal nem entra na história. A ativação é de uso único: enquanto ela dura, o número fica reservado só para você e, quando termina, volta para o conjunto do provedor, de onde pode ser entregue a outra pessoa depois. Trate como um número para o cadastro, não como um número que fica com você."
+      },
+      {
+        "q": "Dá para reutilizar o número ou pedir o código de novo?",
+        "a": "Não. Uma ativação cobre um código em um número. Quando ela termina ou expira, o número volta para o conjunto do provedor: não dá para receber outro SMS nele, e mais tarde ele pode ser entregue a outro cliente. Precisa verificar de novo? Comece uma ativação nova e você recebe um número novo. Em qualquer conta que você pretende manter, adicione um e-mail de recuperação e a autenticação de dois fatores por aplicativo logo depois do cadastro, para a conta não depender de um número que você não tem mais."
+      },
+      {
+        "q": "Em quanto tempo o código chega?",
+        "a": "Em geral em segundos depois que o serviço envia. A tela da ativação atualiza ao vivo, então você vê o texto do SMS e o código no momento em que chega."
+      },
+      {
+        "q": "Quais serviços dá para verificar?",
+        "a": "100+ serviços populares, entre eles Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal e outros — cada um com a própria lista de países disponíveis."
+      },
+      {
+        "q": "E se o código nunca chegar?",
+        "a": "Se nenhum SMS chegou, o cancelamento fica disponível dois minutos depois da atribuição do número. As moedas voltam para o seu saldo. Escolha outro país só se o serviço de destino aceitar; fale com o suporte se o saldo parecer errado."
+      },
+      {
+        "q": "Quanto tempo dura uma ativação e dá para trocar o número?",
+        "a": "A janela da ativação é de 15 minutos. Se nada chegar, você pode trocar para outro número na mesma tela — o aplicativo precisa segurar o número atual por dois minutos antes, conforme a política de cancelamento, e dá para trocar até três vezes dentro de uma ativação. Você também pode cancelar de vez e começar uma ativação nova. Nos dois casos, as moedas de um número que não recebeu SMS voltam para o seu saldo."
+      },
+      {
+        "q": "Quantos números posso ter ao mesmo tempo?",
+        "a": "Três ativos ao mesmo tempo. Também há tetos por hora e por dia de quantas moedas uma conta pode gastar. Eles ficam bem acima do uso comum: existem para barrar abuso automatizado, não para limitar quem usa de forma normal."
+      },
+      {
+        "q": "As moedas expiram?",
+        "a": "Não. Os pacotes de moedas são compras avulsas, não assinatura: as moedas que você não gastou ficam no saldo até serem usadas e acompanham a sua conta em um aparelho novo."
+      },
+      {
+        "q": "Isso é legal?",
+        "a": "O que é permitido depende do seu país, do serviço de destino e da sua finalidade. Siga as leis aplicáveis e as regras da plataforma. Não use números temporários para fraude, para se passar por outra pessoa ou para burlar restrições."
+      }
+    ]
+  },
+  "browse": {
+    "label": "Encontre o seu número",
+    "title": "Escolha o serviço. O número é com a gente.",
+    "body": "Cada serviço tem o próprio guia: o fluxo real de verificação, os detalhes que fazem as pessoas tropeçar e os países que funcionam melhor.",
+    "allLink": "Todos os serviços e guias"
+  },
+  "personas": {
+    "label": "Para quem é",
+    "title": "Feito para quem protege o próprio número",
+    "items": [
+      {
+        "title": "Quem desenvolve",
+        "body": "Teste fluxos de cadastro e o tratamento de OTP com um número que recebe de verdade — sem uma gaveta de chips no escritório.",
+        "slug": "cursor",
+        "linkLabel": "Números para ferramentas de dev"
+      },
+      {
+        "title": "Quem cuida de redes sociais",
+        "body": "Uma identidade de contato limpa para cada conta de marca, sem ligar nada ao seu celular pessoal.",
+        "slug": "instagram",
+        "linkLabel": "Números para o Instagram"
+      },
+      {
+        "title": "Quem preza a privacidade",
+        "body": "Desconhecidos em grupos não deveriam ter uma linha direta com você. Guarde o seu número real para quem você confia.",
+        "slug": "telegram",
+        "linkLabel": "Números para o Telegram"
+      },
+      {
+        "title": "Quem compra com cabeça",
+        "body": "Marketplaces e cadastros de promoção recebem um número que funciona — o SMS de marketing nunca chega ao seu bolso.",
+        "slug": "aliexpress",
+        "linkLabel": "Números para o AliExpress"
+      },
+      {
+        "title": "Quem toca várias contas",
+        "body": "Um segundo WhatsApp para o trabalho, um Telegram separado para o projeto — cada um com o próprio número.",
+        "slug": "whatsapp",
+        "linkLabel": "Números para o WhatsApp"
+      }
+    ]
+  },
+  "compare": {
+    "label": "Comparar",
+    "title": "Como o SMS Code se sai",
+    "body": "Pesando a gente contra SMS-Activate.org, 5SIM ou outro provedor? Escrevemos as comparações lado a lado — o que cada serviço faz bem e onde um aplicativo pensado para o celular, com pacotes avulsos de moedas, encaixa melhor.",
+    "vsLabel": "SMS Code vs"
+  },
+  "blog": {
+    "label": "Do blog",
+    "title": "Guias que valem a leitura antes do próximo cadastro",
+    "readMore": "Ler o guia",
+    "allLink": "Todos os artigos"
+  },
+  "cta": {
+    "title": "O seu próximo cadastro não precisa do seu número real",
+    "support": "Dúvidas antes de baixar? Fale com o suporte"
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "100+",
+        "label": "países com números de celular reais em redes de operadora ativas"
+      },
+      {
+        "value": "100+",
+        "label": "serviços para verificar, do Telegram ao Steam"
+      },
+      {
+        "value": "3",
+        "label": "toques da escolha do serviço até um número ativo na tela"
+      },
+      {
+        "value": "0",
+        "label": "assinaturas — pacotes avulsos de moedas, e as moedas não expiram"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Preços",
+    "title": "Pague pelos códigos, não por um plano",
+    "sub": "O aplicativo funciona com moedas. Você compra uma vez, no tamanho de pacote que fizer sentido, e gasta uma verificação de cada vez — sem assinatura, sem renovação automática, e nada no seu saldo expira.",
+    "packsLabel": "Pacotes de moedas",
+    "coinsUnit": "moedas",
+    "facts": [
+      {
+        "title": "A partir de 20 moedas — mas olhe o serviço primeiro",
+        "body": "Quem manda no preço é o serviço que você verifica; o país só ajusta, e não o contrário. 20 moedas é o piso, não o preço usual: um mensageiro comum pode começar por volta de 35 moedas, e um serviço muito procurado pode chegar a centenas em todo país em que está disponível. O aplicativo mostra o preço de cada combinação na hora — olhe antes de escolher o pacote."
+      },
+      {
+        "title": "O preço antes de você confirmar",
+        "body": "Cada país da lista traz o preço exato em moedas ao lado. Nada sai do seu saldo até você ver o valor e seguir em frente."
+      },
+      {
+        "title": "Sem código, as moedas voltam",
+        "body": "Se o SMS não chegar, cancele depois da espera de dois minutos ou deixe a ativação expirar para receber as moedas de volta. Um código entregue e recusado precisa de análise do suporte."
+      }
+    ],
+    "note": "Os preços dos pacotes são definidos na App Store e variam por região."
+  }
+}

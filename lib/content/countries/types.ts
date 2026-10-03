@@ -1,12 +1,13 @@
 /* Per-country landing pages ("/virtual-numbers/country/united-states").
  *
- * Same editorial policy as services (see ../services/types.ts): a country
- * file is only imported into index.ts when every field is hand-written for
- * that specific country in BOTH locales — what its numbers look like, which
- * services people actually verify with them, and country-specific FAQs.
- * Russian is hand-translated, never by API or script. */
+ * Same editorial policy as services (see ../services/types.ts): an entry is
+ * only added to meta.ts when its English copy is written for that specific
+ * country — what its numbers look like, which services people actually verify
+ * with them, and country-specific FAQs. */
 
 export interface CountryCopy {
+  /** Country name in this locale, e.g. "Germany" / "Германия". */
+  name: string;
   metaTitle: string;
   metaDescription: string;
   hero: {
@@ -26,11 +27,10 @@ export interface CountryCopy {
   faqs: { q: string; a: string }[];
 }
 
-export interface CountryEntry {
+/** Locale-neutral facts, in meta.ts. Never translated. */
+export interface CountryMeta {
   /** Locale-independent URL slug, e.g. "united-states". */
   slug: string;
-  /** English display name; localized names live in the copy. */
-  name: { en: string; ru: string };
   /** Emoji flag, e.g. "🇺🇸". */
   flag: string;
   /** International dialing code, e.g. "+1". */
@@ -41,6 +41,9 @@ export interface CountryEntry {
   popularServiceSlugs: string[];
   /** ISO date of last substantive copy edit — feeds sitemap lastModified. */
   updatedAt: string;
-  en: CountryCopy;
-  ru: CountryCopy;
+}
+
+/** A country as published in one locale. */
+export interface CountryEntry extends CountryMeta {
+  copy: CountryCopy;
 }

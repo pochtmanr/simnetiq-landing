@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o LINE — verifique sem chip local",
+  "metaDescription": "Alugue um número virtual real para verificar o LINE. Cadastre o LINE sem o seu número pessoal — o código chega no aplicativo SMS Code em geral em segundos.",
+  "hero": {
+    "title": "Número virtual para o LINE",
+    "intro": [
+      "Se os seus amigos, a família ou os colegas estão no Japão, em Taiwan, na Tailândia ou na Indonésia, mais cedo ou mais tarde alguém vai dizer “me adiciona no LINE”. O aplicativo é o mensageiro padrão em boa parte da Ásia — e não deixa você entrar sem um número de telefone, que ele verifica por SMS antes mesmo de você definir um nome de exibição.",
+      "O SMS Code entrega um número real de um de 100+ países. Digite na tela de cadastro do LINE e o código de verificação de quatro dígitos aparece no aplicativo SMS Code em geral em segundos — o seu próprio número fica completamente de fora."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o LINE?",
+    "body": [
+      "O LINE trata o número de telefone como a sua identidade: é como você se cadastra, como amigos podem procurar você e no que a conta se apoia. Se você só precisa do LINE para falar com contatos na Ásia — ou porque um jogo ou serviço que você usa trava o acesso atrás de uma conta LINE — entregar o seu número pessoal é pedir muito para o que pode ser um aplicativo de uso ocasional. Um número virtual mantém a conta totalmente funcional enquanto o seu número real fica privado.",
+      "Também resolve um problema prático: o LINE amarra uma conta a um número, então quem quer um perfil separado — por exemplo, um para uma comunidade de hobby ou um jogo asiático que exige login pelo LINE — precisa de um segundo número. Alugar um para uma única ativação é bem mais simples do que manter um chip reserva vivo só por um mensageiro."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o LINE com um número virtual",
+    "steps": [
+      {
+        "title": "Alugue um número no SMS Code",
+        "body": "Abra o aplicativo SMS Code, escolha LINE como serviço e escolha um país — Indonésia e Filipinas são escolhas comuns, porque o LINE é muito usado lá. Um toque reserva um número de celular real para você."
+      },
+      {
+        "title": "Comece o cadastro do LINE com esse número",
+        "body": "No LINE, escolha “Cadastrar”, selecione o mesmo país do número alugado e digite. O LINE oferece verificar por SMS — aceite essa opção, em vez de uma ligação."
+      },
+      {
+        "title": "Digite o código do SMS Code",
+        "body": "A mensagem chega no aplicativo SMS Code, em geral em segundos: “Your verification code is 4820. Enter it in LINE within the next 30 mins.” Digite os quatro dígitos no LINE antes de expirarem."
+      },
+      {
+        "title": "Configure e-mail e senha",
+        "body": "Quando você entrar, vá em Ajustes → Conta e registre um e-mail com uma senha. Isso vira o seu acesso independente para levar o LINE a um celular novo depois, e a conta nunca depende de receber outro SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "O código tem um cronômetro",
+      "body": "Os códigos de SMS do LINE expiram — a própria mensagem diz em quantos minutos. Não alugue o número e saia: deixe a tela de cadastro do LINE aberta e pronta antes de pedir o código e digite assim que ele cair no SMS Code."
+    },
+    {
+      "title": "Registre um e-mail na hora",
+      "body": "O LINE amarra o histórico de conversas e as transferências de conta ao e-mail e à senha registrados, não só ao número. Adicione logo depois do cadastro em Ajustes → Conta — é o passo mais importante para a conta continuar usável muito depois de a janela da ativação do número alugado fechar."
+    },
+    {
+      "title": "Desligue “Permitir que outros adicionem pelo número”",
+      "body": "Nos ajustes de Amigos do LINE, desative a opção que deixa as pessoas adicionarem você pela busca de número de telefone. Com um número virtual ninguém vai achar a sua identidade real de qualquer forma, mas desligar também impede desconhecidos que percorrem números de caírem nos seus pedidos de amizade."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "O LINE funciona fora da Ásia com um número virtual?",
+      "a": "Funciona. O LINE está disponível no mundo inteiro; só é mais popular no Japão, em Taiwan, na Tailândia e na Indonésia. Você pode se cadastrar com um número de qualquer país compatível e conversar com contatos em qualquer lugar — o país do número não restringe com quem você fala."
+    },
+    {
+      "q": "Dá para usar uma conta LINE criada assim para entrar em jogos?",
+      "a": "Dá. Muitos jogos e serviços na Ásia oferecem “Entrar com o LINE”. Quando a sua conta LINE estiver verificada e você tiver registrado e-mail e senha, ela funciona como método de acesso igual a qualquer outra conta LINE."
+    },
+    {
+      "q": "A minha conta do LINE sobrevive depois que o número alugado expira?",
+      "a": "O número é conferido no cadastro, não a cada abertura. Permaneça conectado e — o que é crucial — registre um e-mail e uma senha em Ajustes → Conta. Com isso definido, você pode até transferir a conta para um celular novo sem receber outro SMS no número antigo."
+    },
+    {
+      "q": "Por que o código de verificação do LINE não chegou?",
+      "a": "Na maior parte das vezes o país selecionado no LINE não combina com o número alugado, ou o LINE mudou para verificação por ligação, que um número alugado só de SMS não atende. Cancele a ativação no SMS Code — nada é cobrado quando nenhum SMS chega — depois pegue um número novo e garanta que o SMS é o método escolhido."
+    },
+    {
+      "q": "Dá para ter duas contas do LINE num celular?",
+      "a": "O aplicativo LINE guarda uma conta por aparelho, então uma segunda conta precisa de um segundo aparelho ou das ferramentas de negócio do LINE. O que um número virtual resolve é o lado do número: cada conta precisa estar ligada ao próprio número, e alugar um evita comprar um chip extra."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Como receber SMS online: códigos sem o seu número",
+  "description": "Todo cadastro quer um celular. Três jeitos de receber SMS online — sites grátis, segundo chip e número virtual — e quando cada um funciona.",
+  "excerpt": "Sites gratuitos de código, um segundo chip ou um número virtual alugado — três caminhos para receber SMS de verificação online, comparados com honestidade: o que cada um custa, onde cada um falha e como o confiável funciona.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Em algum ponto entre “crie uma senha” e “aceite os termos”, quase todo cadastro insere a mesma exigência: informe o seu número de celular. Mensageiros exigem, marketplaces querem, até um fórum que você vai visitar duas vezes insiste em mandar um código de seis dígitos antes de deixar você entrar."
+    },
+    {
+      "type": "p",
+      "text": "O código em si é inofensivo. O que incomoda as pessoas é o número por trás — um identificador permanente e pessoal que sobrevive à conta, liga os seus perfis e não pode ser trocado como uma senha quando vaza. Então a pergunta prática não é como evitar a verificação; os serviços não cedem nisso. É como receber o SMS em outro lugar que não o seu próprio chip."
+    },
+    {
+      "type": "p",
+      "text": "Há exatamente três jeitos de fazer isso. Este guia percorre todos — inclusive os dois que na maior parte desperdiçam o seu tempo — e depois mostra o fluxo completo com o que funciona de forma confiável."
+    },
+    {
+      "type": "h2",
+      "id": "why-services-want-your-number",
+      "text": "Por que os serviços exigem um número, para começo de conversa"
+    },
+    {
+      "type": "p",
+      "text": "Vale entender com o que você está lidando, porque isso explica por que alguns caminhos falham. Os serviços verificam números de telefone por três motivos, e privacidade não é um deles."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Controle de spam. Um número de telefone é o recurso escasso mais barato que um serviço pode exigir. Endereços de e-mail são gratuitos e infinitos; números de celular custam dinheiro e papelada, então exigir um eleva o preço de cada conta falsa.",
+        "Recuperação de conta e 2FA. Uma vez verificado, o número vira um canal de acesso de reserva — o que também significa que quem controla o número muitas vezes pode redefinir a senha. Isso corta dos dois lados, e voltamos a isso.",
+        "Vínculo de identidade. Um número conecta a sua conta às outras contas, aos seus contatos e, pela operadora, à sua identidade legal. Para sistemas de publicidade, é a chave de junção que sobrevive a cookies apagados e aparelhos novos."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nada disso exige que o número seja seu. O serviço confere uma coisa só: se você consegue ler um código enviado ao número que digitou. Onde esse número vive — um chip no bolso ou um aplicativo na tela — é invisível do lado deles."
+    },
+    {
+      "type": "h2",
+      "id": "three-ways-to-receive-sms-online",
+      "text": "Os três jeitos de receber SMS online"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Números públicos gratuitos. Dezenas de sites publicam números cuja caixa de entrada qualquer pessoa pode ler. Não custam nada e de vez em quando funcionam — mas cada número é compartilhado com milhares de desconhecidos, então os serviços populares há muito viram, marcaram e bloquearam a maioria. Quando um aceita o número, muitas vezes avisam que já está registrado — porque alguém chegou primeiro. E, como a caixa é pública, tudo o que é enviado a esse número, inclusive um código de redefinição de senha da conta que você acabou de criar, pode ser lido por todo mundo.",
+        "Um segundo chip ou eSIM. De fato privado e permanente — é um número real que é só seu. A troca é custo e atrito: um plano mensal ou obrigações de recarga para manter o número vivo, exigência de documento em muitos países, e o absurdo de manter um plano de celular porque um site quis um código em 2026. Faz sentido se você precisa de uma segunda linha de longo prazo; é excesso para cadastros.",
+        "Um número virtual alugado. Um número de celular real numa rede de operadora real, reservado só para você pela duração de uma verificação. Você paga por código recebido, o SMS aparece num aplicativo, e não há plano, contrato nem caixa compartilhada. Esse é o caminho do meio: privado como um chip, descartável como deveria ser."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Para uma verificação pontual, o número alugado é o caminho que de fato se sustenta. Eis o fluxo inteiro, do começo ao fim."
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-sms-code",
+      "text": "Receber um código com o SMS Code, passo a passo"
+    },
+    {
+      "type": "p",
+      "text": "Você vai precisar do aplicativo SMS Code e do formulário de cadastro lado a lado. O processo é o mesmo seja o serviço Telegram, um marketplace ou qualquer outro da lista — alguns minutos, de ponta a ponta."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Escolha o serviço e um país",
+          "body": "No SMS Code, escolha o que você está verificando — Telegram, WhatsApp, Google, 100+ serviços — e de qual país o número deve vir. Há números em 100+ países; um toque reserva um só para você."
+        },
+        {
+          "title": "Digite o número no formulário de cadastro",
+          "body": "Digite o número alugado na tela de verificação do serviço, conferindo se o código do país combina. Um seletor de país que não combina é o motivo mais comum de um código nunca chegar."
+        },
+        {
+          "title": "Leia o código no aplicativo",
+          "body": "O SMS chega no SMS Code em geral em segundos e a tela da ativação atualiza ao vivo. Um toque copia o código, você cola no formulário e a verificação está feita."
+        },
+        {
+          "title": "Proteja a conta do jeito certo",
+          "body": "Defina uma senha forte, adicione um e-mail de recuperação que você controla e ative a autenticação de dois fatores que não dependa de SMS. Feito isso, a conta fica de pé sozinha — o número alugado cumpriu o papel."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-number-is-the-wrong-tool",
+      "text": "Quando um número virtual é a ferramenta errada"
+    },
+    {
+      "type": "p",
+      "text": "Um guia honesto precisa traçar essa linha, porque a mesma propriedade que torna um número alugado ótimo para cadastros — ele é temporário — o torna errado para qualquer coisa que continue conferindo o número por anos."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bancos, corretoras e serviços de pagamento. Contas financeiras verificam de novo por SMS o tempo todo — cada aparelho novo, cada transferência grande. Também cruzam números com a sua identidade cadastrada. Use um número que você vai manter no longo prazo, ponto.",
+        "Portais do governo e qualquer coisa ligada à sua identidade legal. Receita, sistemas de saúde e acessos de governo eletrônico presumem que o número continua seu pela vida da conta.",
+        "Qualquer conta em que o número de telefone é o único caminho de recuperação. Se você perder a senha e o único caminho de redefinição do serviço for um SMS, um número que você não aluga mais significa uma conta que você não tem mais. Ou adicione um caminho de recuperação por e-mail na hora, ou não use um número temporário ali."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "A regra prática: um número virtual é para o momento da verificação, não para a vida da conta. Se um serviço vai precisar alcançar esse número de novo daqui a um ano, entregue um número que ainda será seu daqui a um ano. Para o resto — mensageiros, redes sociais, lojas, testes — o momento é tudo o que existe."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Perguntas frequentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Receber SMS num número virtual é legal?",
+          "a": "Sim. Alugar um número e receber mensagens nele é um serviço de telecomunicações comum, usado com rotina para privacidade, QA e desenvolvimento. O que importa legalmente é o que você faz com a conta depois — os termos do serviço em que você se cadastra valem como sempre."
+        },
+        {
+          "q": "Por que os números online gratuitos continuam sendo recusados?",
+          "a": "Porque são compartilhados. Milhares de pessoas usaram o mesmo número antes de você, então os serviços ou bloqueiam de cara ou informam que já está registrado. Um número alugado fica reservado só para você durante a ativação, que é exatamente a diferença que o filtro de spam do serviço está sondando."
+        },
+        {
+          "q": "A minha conta continua funcionando depois que o aluguel termina?",
+          "a": "Continua, desde que a conta não dependa desse número para recuperação. O número é conferido na verificação; depois, a conta vive da senha, do e-mail e das sessões ativas. Configure isso direito e nada do uso do dia a dia toca o número antigo."
+        },
+        {
+          "q": "Dá para receber ligações no número também?",
+          "a": "Não — os números do SMS Code recebem só mensagens de texto. Se um serviço insistir numa ligação de voz como único método de verificação, um número virtual de SMS não completa esse fluxo."
+        },
+        {
+          "q": "Quanto custa?",
+          "a": "Você compra um pacote avulso de moedas no aplicativo e gasta moedas por ativação — a partir de 20, conforme o serviço e o país, com o preço exato mostrado antes de você confirmar. Não há assinatura e as moedas não expiram, e, se um código nunca chegar, a ativação cancela sem custo e as moedas voltam."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

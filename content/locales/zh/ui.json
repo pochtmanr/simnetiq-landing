@@ -1,0 +1,69 @@
+{
+  "site": {
+    "name": "SMS Code 由 SIMNETIQ",
+    "titleTemplate": "%s — SMS Code 由 SIMNETIQ",
+    "appDescription": "在 100+ 个国家/地区提供虚拟号码，用来接收短信验证码。注册 Telegram、WhatsApp、Google 等 100 多种服务，不必交出个人手机号。"
+  },
+  "a11y": {
+    "mainNav": "主导航",
+    "breadcrumb": "面包屑"
+  },
+  "faqHeading": "常见问题",
+  "nav": {
+    "langLabel": "语言",
+    "links": [
+      {
+        "path": "/#how-it-works",
+        "label": "怎么用"
+      },
+      {
+        "path": "/virtual-numbers",
+        "label": "号码"
+      },
+      {
+        "path": "/#pricing",
+        "label": "价格"
+      },
+      {
+        "path": "/#faq",
+        "label": "常见问题"
+      },
+      {
+        "path": "/support",
+        "label": "客服"
+      }
+    ],
+    "cta": "下载应用",
+    "home": "SMS Code 首页",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单"
+  },
+  "footer": {
+    "tagline": "注册用的号码。不是长期持有。",
+    "liveStatus": "100+ 个国家/地区的号码在线",
+    "backToTop": "回到顶部",
+    "servicesLabel": "热门服务",
+    "allServices": "全部服务",
+    "resourcesLabel": "资源",
+    "hub": "虚拟号码",
+    "blog": "博客",
+    "companyLabel": "公司",
+    "getApp": "下载应用",
+    "followLabel": "关注",
+    "support": "客服",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "rights": "保留所有权利。",
+    "registered": "注册于",
+    "companyNo": "公司编号",
+    "registeredOffice": "注册地址"
+  },
+  "badges": {
+    "appStore": "在 App Store 下载"
+  },
+  "notFound": {
+    "title": "这个页面不存在",
+    "body": "地址可能已经变了。关于 SMS Code 的内容都在首页。",
+    "back": "返回首页"
+  }
+}

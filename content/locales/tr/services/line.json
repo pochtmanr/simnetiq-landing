@@ -1,0 +1,75 @@
+{
+  "metaTitle": "LINE için sanal numara",
+  "metaDescription": "LINE için gerçek sanal numara kiralayın. SMS kodu SMS Code’da saniyeler içinde gelir; kişisel numaranız olmadan kaydolun.",
+  "hero": {
+    "title": "LINE için sanal numara",
+    "intro": [
+      "Arkadaşlarınız, aileniz veya iş arkadaşlarınız Japonya, Tayvan, Tayland veya Endonezya’daysa er ya da geç biri “beni LINE’da ekle” diyecektir. Uygulama Asya’nın büyük bölümünde varsayılan mesajlaşma uygulamasıdır — ve bir görünen ad bile belirlemeden önce SMS ile doğruladığı bir telefon numarası olmadan içeri almaz.",
+      "SMS Code size 100+ ülkeden birinden gerçek bir numara verir. Onu LINE’ın kayıt ekranına girin, dört haneli doğrulama kodu SMS Code uygulamasında genellikle saniyeler içinde görünür — kendi numaranız tamamen dışında kalır."
+    ]
+  },
+  "whyVirtual": {
+    "title": "LINE için neden sanal numara?",
+    "body": [
+      "LINE telefon numarasını kimliğiniz olarak görür: kaydolduğunuz, arkadaşların sizi arayabildiği ve hesabın geri düştüğü şey odur. LINE’a yalnızca Asya’daki kişilerle iletişimde kalmak için ihtiyacınız varsa — veya kullandığınız bir oyun ya da servis girişini bir LINE hesabının arkasına kilitliyorsa — kişisel numaranızı vermek, ara sıra kullanılan bir uygulama için büyük bir istektir. Sanal numara hesabı tam çalışır tutar, gerçek numaranız gizli kalır.",
+      "Pratik bir sorunu da çözer: LINE bir hesabı bir numaraya bağlar, bu yüzden ayrı bir profil isteyen herkes — diyelim bir hobi topluluğu veya LINE girişi isteyen bir Asya oyunu için — ikinci bir numaraya ihtiyaç duyar. Tek bir etkinleştirme için bir tane kiralamak, bir mesajlaşma uygulaması için yedek bir SIM’i canlı tutmaktan çok daha basittir."
+    ]
+  },
+  "howTo": {
+    "title": "LINE’ı sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "SMS Code uygulamasını açın, servis olarak LINE’ı seçin ve bir ülke seçin — LINE orada yaygın olduğu için Endonezya ve Filipinler popüler tercihlerdir. Tek dokunuş size gerçek bir mobil numara ayırır."
+      },
+      {
+        "title": "LINE kaydını o numarayla başlatın",
+        "body": "LINE’da “Kaydol”u seçin, kiralanan numaranızla aynı ülkeyi seçin ve yazın. LINE SMS ile doğrulamayı önerir — sesli arama yerine o seçeneği kabul edin."
+      },
+      {
+        "title": "Kodu SMS Code’dan girin",
+        "body": "Mesaj SMS Code uygulamasına genellikle saniyeler içinde gelir: “Your verification code is 4820. Enter it in LINE within the next 30 mins.” Dört haneyi süresi dolmadan LINE’a yazın."
+      },
+      {
+        "title": "E-posta ve parola belirleyin",
+        "body": "İçeri girdikten sonra Ayarlar → Hesap bölümüne gidin ve parola ile bir e-posta adresi kaydedin. Bu, LINE’ı sonra yeni bir telefona taşımak için bağımsız girişiniz olur; hesap bir SMS daha almaya hiç bağlı kalmaz."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kodun bir zamanlayıcısı vardır",
+      "body": "LINE’ın SMS kodlarının süresi dolar — mesajın kendisi kaç dakika içinde olduğunu söyler. Numarayı kiralayıp uzaklaşmayın: kodu istemeden önce LINE kayıt ekranı açık ve hazır olsun, sonra SMS Code’a düşer düşmez girin."
+    },
+    {
+      "title": "Hemen bir e-posta kaydedin",
+      "body": "LINE sohbet geçmişini ve hesap aktarımlarını yalnızca numaraya değil, kayıtlı e-posta ve parolaya bağlar. Kayıttan hemen sonra Ayarlar → Hesap bölümünde ekleyin — kiralanan numaranın etkinleştirme penceresi kapandıktan çok sonra hesabı kullanılabilir tutmanın en önemli tek adımıdır."
+    },
+    {
+      "title": "“Başkaları numarayla ekleyebilsin”i kapatın",
+      "body": "LINE’ın Arkadaşlar ayarlarında telefon numarası aramasıyla sizi eklemeye izin veren seçeneği kapatın. Sanal numarayla kimse gerçek kimliğinizi zaten bulamaz ama kapatmak, numaraları tarayan yabancıların arkadaşlık isteklerinize düşmesini de durdurur."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "LINE sanal numarayla Asya dışında çalışır mı?",
+      "a": "Evet. LINE dünya çapında vardır; yalnızca Japonya, Tayvan, Tayland ve Endonezya’da en popülerdir. Desteklenen herhangi bir ülkeden numarayla kaydolabilir ve her yerdeki kişilerle sohbet edebilirsiniz — numaranın ülkesi kiminle konuşabileceğinizi kısıtlamaz."
+    },
+    {
+      "q": "Bu yolla oluşturulan bir LINE hesabını oyunlara giriş için kullanabilir miyim?",
+      "a": "Evet. Asya’daki birçok oyun ve servis “LINE ile giriş” sunar. LINE hesabınız doğrulandıktan ve bir e-posta ile parola kaydettikten sonra başka herhangi bir LINE hesabı gibi bir giriş yöntemi olarak çalışır."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince LINE hesabım ayakta kalır mı?",
+      "a": "Numara her açılışta değil, kayıtta kontrol edilir. Oturum açık kalsın ve — kritik olarak — Ayarlar → Hesap bölümünde bir e-posta ve parola kaydedin. Bunlar ayarlıyken hesabı eski numarada başka bir SMS almadan yeni bir telefona bile aktarabilirsiniz."
+    },
+    {
+      "q": "LINE doğrulama kodum neden gelmedi?",
+      "a": "Çoğunlukla LINE’da seçilen ülke kiralanan numarayla uyuşmuyor ya da LINE, kiralanan bir SMS numarasının yanıtlayamayacağı sesli arama doğrulamasına geçti. SMS Code’da etkinleştirmeyi iptal edin — SMS gelmediğinde hiçbir şey ücretlendirilmez — sonra taze bir numara alın ve yöntemin SMS olduğundan emin olun."
+    },
+    {
+      "q": "Bir telefonda iki LINE hesabım olabilir mi?",
+      "a": "LINE uygulaması cihaz başına bir hesap tutar, bu yüzden ikinci bir hesap ya ikinci bir cihaz ya da LINE’ın iş araçlarını ister. Sanal numaranın çözdüğü taraf numara tarafıdır: her hesap kendi numarasına bağlı olmalıdır ve bir tane kiralamak ek bir SIM almaktan kaçınır."
+    }
+  ]
+}

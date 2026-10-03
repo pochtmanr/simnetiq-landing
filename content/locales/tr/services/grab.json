@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Grab için sanal numara",
+  "metaDescription": "Grab’ı gerçek sanal numarayla doğrulayın. Etkinleştirme kodu saniyeler içinde gelir — kişisel numaranız olmadan yolculuk ve yemek kurun.",
+  "hero": {
+    "title": "Grab için sanal numara",
+    "intro": [
+      "Güneydoğu Asya’da herhangi bir yere inin, ihtiyacınız olan ilk uygulama Grab’dır: havaalanından yolculuk, otele yemek, sokak tezgâhında ödeme. Bölgenin süper uygulamasıdır — ve telefon önceliklidir. Kayıtta geri düşülecek bir e-posta girişi yoktur; Grab bir mobil numara isteyerek ve ona bir etkinleştirme kodu göndererek başlar.",
+      "SMS Code size 100+ ülkeden birinden gerçek bir numara verir. Onu Grab’ın karşılama ekranına girin, altı haneli kod SMS Code uygulamasında genellikle saniyeler içinde görünür — hesabınız valiziniz bandı görmeden canlıdır ve kişisel numaranız anlaşmanın parçası hiç olmamıştır."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Grab için neden sanal numara?",
+    "body": [
+      "Grab yerel numaraların etrafında kuruludur. Kayıt akışı çalıştığı bir ülkeden numara bekler ve Avrupa veya Amerika SIM’iyle gelen gezginler bunu çoğu zaman tuhaf bulur — dolaşım SMS’i yavaş veya engelli olabilir ve bazı operatörler kod almak için ücret alır. Endonezya veya Filipinler’den bir sanal numara Grab’ın beklediğine doğrudan oturur, ilk gün bir SIM büfesi aramadan.",
+      "Bir gizlilik açısı da vardır. Grab telefon öncelikli olduğu için numaranız içindeki her şeyin anahtarı olur — yolculuk geçmişi, yemek siparişleri, cüzdan. O anahtarı bankanızın, ailenizin ve işvereninizin kullandığı numaradan ayrı tutmak basit bir bölmelendirmedir: yolculuktan sonra Grab’ı bırakırsanız gündelik numaranızla ilgili hiçbir şey onunla gitmemiştir."
+    ]
+  },
+  "howTo": {
+    "title": "Grab’ı sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "SMS Code uygulamasını açın, servis olarak Grab’ı seçin ve bir ülke seçin — Endonezya veya Filipinler gibi bir Güneydoğu Asya ülkesi Grab’ın sahasına en iyi uyar. Numara anında ayrılır."
+      },
+      {
+        "title": "Onu Grab kayıt ekranına girin",
+        "body": "Grab mobil numaranızı en ilk ekranda ister. Kiralanan numaranızla eşleşen ülke kodunu seçin ve yazın — Grab etkinleştirme kodunu hemen SMS ile gönderir."
+      },
+      {
+        "title": "Etkinleştirme kodunu yazın",
+        "body": "SMS Code uygulamasını izleyin: metin genellikle saniyeler içinde gelir ve “702415 is your Grab activation code. For your account safety, do not share this code.” diye okunur. Altı haneyi Grab’a girin."
+      },
+      {
+        "title": "E-posta ve ödeme ayrıntıları ekleyin",
+        "body": "İçeri girdikten sonra profilinize bir e-posta adresi bağlayın ve nasıl ödeyeceğinizi kurun — kart veya uygulama içi cüzdan. E-posta, hesabınıza telefon numarasının ötesinde ikinci bir dayanak verir."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Grab’ın gerçekten çalıştığı bir ülke seçin",
+      "body": "Grab Güneydoğu Asya’ya hizmet verir — Singapur, Endonezya, Malezya, Tayland, Vietnam, Filipinler ve komşular. Bu pazarlardan birinden numara kayıt akışının beklediğiyle eşleşir; Grab etkinleştirmeleri için Endonezya ve Filipinler numaralarının popüler olmasının nedeni budur."
+    },
+    {
+      "title": "Kaydı yolculuğunuzdan önce yapın",
+      "body": "Hesabı varış salonunda değil, rahat bir Wi-Fi’dayken doğrulayın. Telefon kontrolü kayıtta bir kez olur — sonra aynı cihazda başka bir SMS gerekmeden giriş yaparsınız, hesabınız indiğiniz anda hazırdır."
+    },
+    {
+      "title": "Sürücüler uygulama üzerinden arar",
+      "body": "Bir sürücünün size ulaşması gerektiğinde Grab iletişimi ham numaranızı çevirmek yerine uygulama içi sohbet ve internet aramalarıyla yönlendirir. SMS olmasa da “dışarıdayım” mesajını kaçırmamak için Grab uygulamasının bildirimlerini açık tutun."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Turist olarak Grab’ı sanal numarayla kullanabilir miyim?",
+      "a": "Evet — klasik durum budur. Hesabı Grab’ın çalıştığı bir ülkeden numarayla doğrulayın, bir ödeme yöntemi ekleyin ve yolculuğunuz boyunca yerel bir kullanıcı gibi yolculuk ve yemek sipariş edin. Hesap telefonunuzdaki SIM’e bağlı değildir."
+    },
+    {
+      "q": "Grab numarası için hangi ülkeyi seçmeliyim?",
+      "a": "Grab’ın ev pazarlarından birini. Endonezya ve Filipinler, SMS Code’da Grab için en popüler tercihlerdir; kayıt akışı servisin çalıştığı ülkelerden numaraların etrafında kuruludur."
+    },
+    {
+      "q": "Numaranın kiralama penceresi bitince Grab hesabım çalışmaya devam eder mi?",
+      "a": "Etkinleştirme kodu kayıtta tek seferlik bir kontroldür. Cihazınızda oturum açık kaldığınız sürece hesap normal çalışır. Sonra çıkış yaparsanız ve Grab yeniden doğrulama isterse taze bir numara kiralayıp profilinizdekini güncelleyebilirsiniz."
+    },
+    {
+      "q": "Grab etkinleştirme kodum neden gelmedi?",
+      "a": "Grab’da seçilen ülke kodunun kiralanan numarayla eşleştiğini kontrol edin — en sık neden bu uyuşmazlıktır. Hiçbir şey gelmezse SMS Code’da etkinleştirmeyi iptal edin (SMS almayan numaralar ücretsizdir) ve başka bir numara deneyin."
+    },
+    {
+      "q": "GrabPay ile ödemek için yerel numara gerekir mi?",
+      "a": "Cüzdan SIM’inizin içinde değil, doğrulanmış hesabınızın içinde yaşar. Hesap etkinleştikten sonra ödeme özellikleri hesabınızın ayarlandığı ülkenin kurallarını izler — yükleme seçenekleri ve kart desteği pazara göre değişir, bu bir Grab politikasıdır, numara sorunu değil."
+    }
+  ]
+}

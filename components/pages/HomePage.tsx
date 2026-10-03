@@ -1,25 +1,83 @@
 import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AppShot } from "../AppShot";
 import { CoinChip, type CoinTier } from "../CoinChip";
 import { HeroCta } from "../HeroCta";
+import { LiveInbox } from "../LiveInbox";
 import { StoreBadges } from "../StoreBadges";
 import { localePath, type Locale } from "../../lib/i18n";
-import { HOME, SERVICES } from "../../lib/content/home";
-import { ALL_SERVICES } from "../../lib/content/services";
-import { ALL_ALTERNATIVES } from "../../lib/content/alternatives";
-import { BLOG_POSTS } from "../../lib/content/blog";
+import { blogUi, COIN_PACKS, homeUi, MARQUEE_SERVICES } from "../../lib/content/ui";
+import { getService, getServices } from "../../lib/content/services";
+import { getAlternatives } from "../../lib/content/alternatives";
+import { getPosts } from "../../lib/content/blog";
+import { Arrow } from "../Arrow";
+import { AmbientBg } from "../AmbientBg";
+import { PlayWhenVisible } from "../PlayWhenVisible";
+import { PRICE_ART, PRICE_ICONS } from "../PriceArt";
 
-/* Step cards walk the accent ramp from the deepest tint down to the lightest,
-   so the three steps read as a sequence rather than three equal boxes. Their
-   eyebrows go ink rather than accent-deep: #1E5AA8 on the deepest tint is
-   4.0:1, under AA for an 11px label, and one eyebrow colour across the three
-   cards beats three. */
-const STEP_TINTS = ["bg-panel-deep", "bg-panel-strong", "bg-panel"];
+/* Pricing cards' art fields, one plate per fact. The middle card frames the
+   temple and its light shaft, so it doesn't repeat the sky on either side. */
+const PRICE_BGS = [
+  { src: "/bg/curtain-sky.webp" },
+  { src: "/bg/jungle-temple.webp", focus: "50% 55%" },
+  { src: "/bg/forest-rays.webp", focus: "85% 60%" },
+];
 
 /* Coin packs climb the metal tiers in order, smallest pack first. */
 const COIN_TIERS: CoinTier[] = ["bronze", "silver", "gold", "platinum", "diamond"];
+
+/* Step 1's picture: the service list as chips, one already chosen. */
+const PICK_CHIPS = [
+  { slug: "telegram", name: "Telegram" },
+  { slug: "whatsapp", name: "WhatsApp" },
+  { slug: "google", name: "Google" },
+] as const;
+
+function StepPick() {
+  return (
+    <div className="flex flex-wrap gap-[8px]">
+      {PICK_CHIPS.map((c, i) => (
+        <span key={c.slug} className={`pick-chip${i === 0 ? " pick-chip--on" : ""}`}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={`/services/${c.slug}.svg`} alt="" className="h-[18px] w-[18px]" />
+          {c.name}
+          {i === 0 && (
+            <svg viewBox="0 0 16 16" className="h-[14px] w-[14px]" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="m3.5 8.5 3 3 6-7" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          )}
+        </span>
+      ))}
+      <span className="pick-chip pick-chip--more">100+</span>
+    </div>
+  );
+}
+
+/* Step 2's picture: the number as the app shows it, waiting for the SMS.
+   07700 900xxx is Ofcom's range reserved for fiction, so it rings no one. */
+function StepNumber({ waiting }: { waiting: string }) {
+  return (
+    <div className="number-slip">
+      <span className="flex items-center justify-between gap-[12px]">
+        <span className="figures text-[18px] tracking-[0.02em] text-ink" dir="ltr">
+          +44 7700 900418
+        </span>
+        <svg viewBox="0 0 24 24" className="h-[18px] w-[18px] shrink-0 text-muted" fill="none" stroke="currentColor" strokeWidth="1.6">
+          <rect x="8" y="8" width="12" height="12" rx="3" />
+          <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" />
+        </svg>
+      </span>
+      <span className="mt-[10px] flex items-center gap-[8px] text-label text-muted">
+        <span className="wait-dots">
+          <span />
+          <span />
+          <span />
+        </span>
+        {waiting}
+      </span>
+    </div>
+  );
+}
 
 function SectionHeading({
   label,
@@ -43,7 +101,8 @@ function SectionHeading({
 }
 
 export function HomePage({ locale }: { locale: Locale }) {
-  const t = HOME[locale];
+  const t = homeUi(locale);
+  const tags = blogUi(locale).tags;
   return (
     <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
       {/* Hero — the reference system's two-column split: tinted copy panel on
@@ -68,16 +127,17 @@ export function HomePage({ locale }: { locale: Locale }) {
           </div>
           <HeroCta locale={locale} />
         </div>
-        <div className="panel panel--strong hero-rise flex items-center justify-center [animation-delay:0.12s]">
+        <PlayWhenVisible className="panel media-card hero-rise flex items-center justify-center [animation-delay:0.12s]">
+          <AmbientBg src="/bg/colonnade.webp" scrim="none" priority sizes="(max-width: 768px) 100vw, 600px" />
           <Image
             src="/app/hero-services.png"
             alt=""
             width={670}
             height={1100}
             priority
-            className="h-auto w-full max-w-[400px]"
+            className="h-auto w-full max-w-[400px] drop-shadow-[0_18px_40px_rgba(8,30,74,0.28)]"
           />
-        </div>
+        </PlayWhenVisible>
       </section>
 
 
@@ -99,17 +159,37 @@ export function HomePage({ locale }: { locale: Locale }) {
       {/* How it works */}
       <section className="pt-[94px]" id="how-it-works">
         <SectionHeading label={t.how.label} title={t.how.title} />
-        <div className="mt-[34px] grid gap-[22px] md:grid-cols-3">
+        <PlayWhenVisible className="mt-[34px] grid gap-[22px] md:grid-cols-3">
           {t.how.steps.map((step, i) => (
-            <div key={step.title} className={`card ${STEP_TINTS[i]}`}>
-              <span className="section-label !text-ink">
+            <div
+              key={step.title}
+              className={`card step-card step-card--${i + 1} flex flex-col${i === 2 ? " media-card" : ""}`}
+            >
+              {i === 2 && <AmbientBg src="/bg/forest-rays.webp" scrim="top" focus="20% 30%" />}
+              <span className="section-label step-card__label">
                 {t.how.step} {i + 1}
               </span>
-              <h3 className="text-subheading">{step.title}</h3>
-              <p className="mt-[11px] text-body text-ink/75">{step.body}</p>
+              <h3 className="text-subheading step-card__title">{step.title}</h3>
+              {/* The last step shows the code arriving instead of describing
+                  it; its sentence stays for screen readers and crawlers. */}
+              {i === t.how.steps.length - 1 ? (
+                <>
+                  <p className="sr-only">{step.body}</p>
+                  <div className="mt-auto pt-[24px]">
+                    <LiveInbox copy={t.how.inbox} className="relative" />
+                  </div>
+                </>
+              ) : (
+                <>
+                  <p className="mt-[11px] text-body step-card__body">{step.body}</p>
+                  <div className="mt-auto pt-[28px]" aria-hidden>
+                    {i === 0 ? <StepPick /> : <StepNumber waiting={t.how.waiting} />}
+                  </div>
+                </>
+              )}
             </div>
           ))}
-        </div>
+        </PlayWhenVisible>
       </section>
 
       {/* Services */}
@@ -118,7 +198,7 @@ export function HomePage({ locale }: { locale: Locale }) {
         <h2 className="text-center text-heading">{t.services.title}</h2>
         <div className="logo-strip mx-[calc(50%-50vw)] mt-[28px]" aria-hidden>
           <div className="marquee-track flex items-center gap-[36px] px-4">
-            {[...SERVICES, ...SERVICES].map((slug, i) => (
+            {[...MARQUEE_SERVICES, ...MARQUEE_SERVICES].map((slug, i) => (
               <span
                 key={`${slug}-${i}`}
                 className="logo-chip"
@@ -160,7 +240,7 @@ export function HomePage({ locale }: { locale: Locale }) {
         </p>
         <div className="mt-[28px] flex flex-wrap items-center gap-[11px]">
           <span className="text-label text-muted">{t.pricing.packsLabel}</span>
-          {t.pricing.packs.map((pack, i) => (
+          {COIN_PACKS.map((pack, i) => (
             <CoinChip
               key={pack}
               amount={pack}
@@ -169,34 +249,66 @@ export function HomePage({ locale }: { locale: Locale }) {
             />
           ))}
         </div>
-        <div className="mt-[34px] grid gap-[22px] md:grid-cols-3">
-          {t.pricing.facts.map((fact) => (
-            <div key={fact.title} className="card">
-              <h3 className="text-subheading">{fact.title}</h3>
-              <p className="mt-[11px] text-label text-ink-muted">{fact.body}</p>
-            </div>
-          ))}
-        </div>
+        {/* Each fact gets a picture of itself: a painted art field with a
+            small looping scene, an icon badge, then the copy on white. */}
+        <PlayWhenVisible className="mt-[34px] grid gap-[22px] md:grid-cols-3">
+          {t.pricing.facts.map((fact, i) => {
+            const Art = PRICE_ART[i % PRICE_ART.length];
+            return (
+              <div key={fact.title} className="card price-card flex flex-col">
+                <div className="price-art media-card" aria-hidden>
+                  <AmbientBg {...PRICE_BGS[i % PRICE_BGS.length]} scrim="none" />
+                  <Art />
+                </div>
+                <span className="price-icon" aria-hidden>
+                  <svg viewBox="0 0 24 24" className="h-[20px] w-[20px]" fill="none" stroke="currentColor" strokeWidth="1.8">
+                    {PRICE_ICONS[i % PRICE_ICONS.length]}
+                  </svg>
+                </span>
+                <h3 className="mt-[14px] text-subheading">{fact.title}</h3>
+                <p className="mt-[11px] text-label text-ink-muted">{fact.body}</p>
+              </div>
+            );
+          })}
+        </PlayWhenVisible>
         <p className="mt-[21px] text-caption text-muted">{t.pricing.note}</p>
       </section>
 
-      {/* Inside the app — the reference system's product panel, recoloured to
-          ink so the app's dark-mode screens read against it. */}
+      {/* Inside the app — its own ink card, cut out of the page by a strip
+          of the desk above and below, so the change of section is a change
+          of surface. The phones stand in a staggered row and run off the
+          card's bottom edge; on phones the row becomes a swipeable strip. */}
       <section className="pt-[94px]" id="inside">
-        <div className="panel--ink mx-[calc(50%-50vw)] w-screen py-[clamp(42px,5vw,70px)]">
-          <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
-            <SectionHeading
-              label={t.showcase.label}
-              title={t.showcase.title}
-              onInk
-            />
-            <p className="mt-[14px] max-w-xl text-body text-white/70">
-              {t.showcase.body}
-            </p>
-            <div className="mt-[34px] grid grid-cols-2 gap-[22px] lg:grid-cols-4">
-              {t.showcase.shots.map((shot) => (
-                <AppShot key={shot.src} src={shot.src} caption={shot.caption} />
-              ))}
+        <div className="sheet-cut">
+          <div className="sheet-cut__card panel--ink">
+            <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)] pt-[clamp(48px,6vw,84px)]">
+              <div className="grid gap-[21px] md:grid-cols-[1.2fr_1fr] md:items-end">
+                <SectionHeading
+                  label={t.showcase.label}
+                  title={t.showcase.title}
+                  onInk
+                />
+                <p className="max-w-[44ch] text-body text-white/65 md:justify-self-end">
+                  {t.showcase.body}
+                </p>
+              </div>
+              <div className="showcase-row mt-[clamp(40px,5vw,64px)]">
+                {t.showcase.shots.map((shot) => (
+                  <figure key={shot.src} className="showcase-shot">
+                    <figcaption className="text-label text-white/60">
+                      {shot.caption}
+                    </figcaption>
+                    <Image
+                      src={shot.src}
+                      alt=""
+                      width={503}
+                      height={900}
+                      sizes="(max-width: 768px) 62vw, 270px"
+                      className="h-auto w-full"
+                    />
+                  </figure>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -212,7 +324,7 @@ export function HomePage({ locale }: { locale: Locale }) {
           {t.browse.body}
         </p>
         <div className="mt-[34px] flex flex-wrap gap-[11px]">
-          {ALL_SERVICES.map((s) => (
+          {getServices(locale).map((s) => (
             <Link
               key={s.slug}
               href={localePath(locale, `/virtual-numbers/${s.slug}`)}
@@ -226,7 +338,7 @@ export function HomePage({ locale }: { locale: Locale }) {
             href={localePath(locale, "/virtual-numbers")}
             className="inline-flex items-center rounded-pill border border-border px-[16px] py-[9px] text-label text-accent-deep transition-colors hover:border-accent-deep"
           >
-            {t.browse.allLink} →
+            {t.browse.allLink} <Arrow />
           </Link>
         </div>
       </section>
@@ -235,7 +347,7 @@ export function HomePage({ locale }: { locale: Locale }) {
       <section className="pt-[94px]" id="use-cases">
         <SectionHeading label={t.personas.label} title={t.personas.title} />
         <div className="mt-[34px] grid gap-[22px] sm:grid-cols-2 lg:grid-cols-5">
-          {t.personas.items.map((p) => (
+          {t.personas.items.filter((p) => getService(locale, p.slug)).map((p) => (
             <div key={p.title} className="flex flex-col border-t border-border pt-[21px]">
               <h3 className="text-body text-ink">{p.title}</h3>
               <p className="mt-[11px] flex-1 text-label text-ink-muted">
@@ -245,7 +357,7 @@ export function HomePage({ locale }: { locale: Locale }) {
                 href={localePath(locale, `/virtual-numbers/${p.slug}`)}
                 className="blue-link mt-[14px] text-label"
               >
-                {p.linkLabel} →
+                {p.linkLabel} <Arrow />
               </Link>
             </div>
           ))}
@@ -260,13 +372,13 @@ export function HomePage({ locale }: { locale: Locale }) {
             {t.compare.body}
           </p>
           <div className="mt-[34px] flex flex-wrap gap-[11px]">
-            {ALL_ALTERNATIVES.map((a) => (
+            {getAlternatives(locale).map((a) => (
               <Link
                 key={a.slug}
                 href={localePath(locale, `/alternatives/${a.slug}`)}
                 className="rounded-pill bg-card px-[18px] py-[9px] text-label text-ink transition-colors hover:text-accent-deep"
               >
-                {t.compare.vsLabel} {a.competitorName} →
+                {t.compare.vsLabel} {a.competitorName} <Arrow />
               </Link>
             ))}
           </div>
@@ -307,12 +419,12 @@ export function HomePage({ locale }: { locale: Locale }) {
             href={localePath(locale, "/blog")}
             className="blue-link mb-[6px] hidden shrink-0 text-label sm:block"
           >
-            {t.blog.allLink} →
+            {t.blog.allLink} <Arrow />
           </Link>
         </div>
         <div className="mt-[34px] grid gap-[22px] md:grid-cols-3">
-          {BLOG_POSTS.slice(0, 3).map((post) => {
-            const c = post[locale];
+          {getPosts(locale).slice(0, 3).map((post) => {
+            const c = post.copy;
             return (
               <Link
                 key={post.slug}
@@ -322,7 +434,7 @@ export function HomePage({ locale }: { locale: Locale }) {
                 <div className="flex flex-wrap gap-[8px]">
                   {post.tags.map((tag) => (
                     <span key={tag} className="tag-chip">
-                      {tag}
+                      {tags[tag as keyof typeof tags] ?? tag}
                     </span>
                   ))}
                 </div>
@@ -331,7 +443,7 @@ export function HomePage({ locale }: { locale: Locale }) {
                   {c.excerpt}
                 </p>
                 <span className="blue-link mt-[21px] text-label">
-                  {t.blog.readMore} →
+                  {t.blog.readMore} <Arrow />
                 </span>
               </Link>
             );
@@ -341,21 +453,57 @@ export function HomePage({ locale }: { locale: Locale }) {
           href={localePath(locale, "/blog")}
           className="blue-link mt-[21px] inline-block text-label sm:hidden"
         >
-          {t.blog.allLink} →
+          {t.blog.allLink} <Arrow />
         </Link>
       </section>
 
-      {/* Final CTA — full-bleed heavy tint. The -mb pulls it flush to the
-          footer so no canvas stripe shows in the footer's mt-[94px] gap. */}
-      <section className="-mb-[94px] pt-[94px]">
-        <div className="mx-[calc(50%-50vw)] w-screen bg-panel-strong py-[clamp(42px,5vw,70px)]">
-          <div className="mx-auto flex w-full max-w-[1200px] flex-col items-center gap-[28px] px-[clamp(20px,4vw,34px)] text-center">
-            <h2 className="max-w-2xl text-heading">{t.cta.title}</h2>
-            <StoreBadges locale={locale} placement="final_cta" />
-            <Link href={localePath(locale, "/support")} className="blue-link text-label">
-              {t.cta.support}
-            </Link>
-          </div>
+      {/* Download — the sheet's last card, in the brand's soft blue. The
+          -mb cancels <main>'s bottom padding so this card is the sheet's
+          rounded end, the part that lifts off the footer. A phone rises
+          from its bottom edge, mid-activation. */}
+      <section className="-mb-[94px] pt-[94px]" id="download">
+        <div className="sheet-cut sheet-cut--end">
+          <PlayWhenVisible className="sheet-cut__card media-card">
+            <AmbientBg src="/bg/jungle-temple.webp" scrim="left" focus="70% 50%" sizes="100vw" />
+            <div className="relative mx-auto grid w-full max-w-[1200px] gap-x-[34px] px-[clamp(20px,4vw,34px)] md:grid-cols-[1.15fr_1fr]">
+              <div className="flex flex-col items-start gap-[28px] py-[clamp(56px,7vw,96px)]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/brand/logo.svg" alt="" width={56} height={56} className="h-[56px] w-[56px]" />
+                <h2 className="max-w-[17ch] text-heading-lg !text-white">{t.cta.title}</h2>
+                <div className="flex flex-col items-start gap-[16px]">
+                  <StoreBadges dark locale={locale} placement="final_cta" />
+                  <Link href={localePath(locale, "/support")} className="blue-link blue-link--white text-label">
+                    {t.cta.support}
+                  </Link>
+                </div>
+              </div>
+              {/* Two phones, both themes: the dark one mid-activation in
+                  front, the light one behind it showing a finished
+                  activation, offset up and to the side. */}
+              <div className="download-devices" aria-hidden>
+                <div className="download-device download-device--back">
+                  <Image
+                    src="/app/shot-activations.png"
+                    alt=""
+                    width={503}
+                    height={900}
+                    sizes="(max-width: 768px) 60vw, 280px"
+                    className="h-auto w-full"
+                  />
+                </div>
+                <div className="download-device download-device--front">
+                  <Image
+                    src="/app/shot-waiting.png"
+                    alt=""
+                    width={501}
+                    height={900}
+                    sizes="(max-width: 768px) 70vw, 320px"
+                    className="h-auto w-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </PlayWhenVisible>
         </div>
       </section>
     </div>

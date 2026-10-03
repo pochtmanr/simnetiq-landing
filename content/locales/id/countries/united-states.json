@@ -1,0 +1,55 @@
+{
+  "name": "Amerika Serikat",
+  "metaTitle": "Nomor virtual Amerika Serikat +1 untuk OTP",
+  "metaDescription": "Dapatkan nomor virtual AS (+1) asli dan terima kode SMS biasanya dalam hitungan detik. Verifikasi Google, Instagram, TikTok, Discord, dan lainnya.",
+  "hero": {
+    "title": "Nomor virtual AS untuk verifikasi SMS",
+    "intro": [
+      "Nomor +1 adalah hal terdekat yang dimiliki internet dengan bawaan: layanan Amerika mengharapkannya, formulir pendaftaran memilihnya lebih dulu, dan alur dukungan dibangun di sekitarnya. Saat suatu layanan pemilih terhadap nomor asing, nomor AS biasanya yang langsung berfungsi.",
+      "SMS Code memberi Anda nomor seluler Amerika yang asli dalam satu ketukan. Masukkan pada langkah verifikasi, dan SMS — dengan kode dari Google, Instagram, TikTok, atau 100+ layanan lain — muncul di aplikasi biasanya dalam hitungan detik."
+    ]
+  },
+  "whyCountry": {
+    "title": "Mengapa memilih nomor AS?",
+    "body": [
+      "Platform yang berbasis di AS memperlakukan nomor +1 sebagai wilayah asal. Sebagian fitur dan jalur pendaftaran lebih mulus dengan nomor Amerika — versi aplikasi khusus AS, layanan yang mengunci pendaftaran menurut wilayah, atau akun yang ingin Anda tautkan ke pasar AS, bukan negara asal Anda.",
+      "Formatnya familiar di mana-mana: +1, lalu kode area tiga digit dan nomor tujuh digit. Layanan jarang salah mengurainya, dan ia tidak menarik pengawasan ekstra yang ditarik sebagian kode negara langka pada saat verifikasi."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Cocokkan wilayah akun",
+      "body": "Jika Anda membangun akun bercita rasa AS — profil App Store AS, TikTok pasar AS — pakai nomor AS bersama wilayah toko dan bahasa aplikasi yang sesuai agar gambarnya konsisten."
+    },
+    {
+      "title": "Kode area tidak penting",
+      "body": "Layanan memvalidasi nomor, bukan kota di balik kode area. Tiga digit apa pun yang mengawali nomor Anda, kode verifikasi tiba dengan cara yang sama."
+    },
+    {
+      "title": "Jika kode macet, tukar nomor",
+      "body": "Permintaan tinggi berarti sebagian nomor AS sudah pernah melihat pendaftaran, dan suatu layanan dapat membatasinya. Batalkan aktivasi yang tertunda — koin kembali jika tidak ada yang masuk — dan ambil nomor baru."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah ini nomor seluler AS yang asli?",
+      "a": "Ya — nomor di jaringan operator nyata dengan format +1 standar. Layanan melihat nomor seluler Amerika biasa, bukan penerima kode pendek yang hanya internet."
+    },
+    {
+      "q": "Layanan apa yang paling baik dengan nomor AS?",
+      "a": "Nomor AS adalah bawaan paling aman untuk platform Amerika — Google, Discord, Tinder, TikTok, Instagram — dan untuk layanan apa pun yang alur pendaftarannya mengasumsikan nomor domestik."
+    },
+    {
+      "q": "Bisakah saya memakai nomor AS dari luar Amerika Serikat?",
+      "a": "Ya. Nomor itu hidup di aplikasi SMS Code, jadi lokasi dan SIM Anda sendiri tidak penting — Anda menerima kode di mana pun Anda berada."
+    },
+    {
+      "q": "Apakah saya menyimpan nomor setelah verifikasi?",
+      "a": "Nomor disewa untuk jendela aktivasi — cukup lama untuk menerima kode verifikasi. Untuk akun yang ingin Anda simpan, tambahkan email pemulihan dan 2FA berbasis aplikasi segera setelah mendaftar."
+    },
+    {
+      "q": "Seperti apa SMS verifikasi AS?",
+      "a": "Seperti teks Amerika domestik mana pun: nama layanan atau kode pendek sebagai pengirim dan kode 4–8 digit di isi. Teks lengkap tampil di aplikasi begitu masuk."
+    }
+  ]
+}

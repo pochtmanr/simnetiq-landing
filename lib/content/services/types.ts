@@ -1,14 +1,15 @@
-import type { Locale } from "../../i18n";
-
 /* Per-service landing pages ("/virtual-numbers/telegram").
  *
- * EDITORIAL POLICY — these are NOT doorway pages. A service file may only be
- * imported into index.ts when every copy field below is genuinely hand-written
- * for that specific service, in BOTH locales: the real sign-up flow, the
+ * EDITORIAL POLICY — these are NOT doorway pages. An entry may only be added
+ * to meta.ts when its English copy (content/locales/en/services/<slug>.json)
+ * is genuinely written for that specific service: the real sign-up flow, the
  * service's own quirks (where the code arrives, what can go wrong), and FAQs
- * a user of that service would actually ask. Russian copy is translated by
- * hand — never by an API or script. An unfinished file simply stays out of
- * the registry and therefore out of the sitemap, hub and footer. */
+ * a user of that service would actually ask.
+ *
+ * Other locales are localized from the English file under
+ * docs/i18n/TRANSLATOR_BRIEF.md and must pass `npm run i18n:check`. A locale
+ * without the file simply doesn't publish the page: no route, no sitemap
+ * entry, no hreflang, no links to it. */
 
 export type ServiceCategory =
   | "messaging"
@@ -43,7 +44,8 @@ export interface ServiceCopy {
   faqs: { q: string; a: string }[];
 }
 
-export interface ServiceEntry {
+/** Locale-neutral facts, in meta.ts. Never translated. */
+export interface ServiceMeta {
   /** Locale-independent URL slug, e.g. "telegram". Must never be "country". */
   slug: string;
   /** Display name, e.g. "Telegram". */
@@ -59,8 +61,9 @@ export interface ServiceEntry {
   updatedAt: string;
   /** A realistic OTP text in this service’s actual format. Not rendered today. */
   smsExample: { sender: string; message: string; code: string };
-  en: ServiceCopy;
-  ru: ServiceCopy;
 }
 
-export type ServiceDict = Record<Locale, ServiceCopy>;
+/** A service as published in one locale. */
+export interface ServiceEntry extends ServiceMeta {
+  copy: ServiceCopy;
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Facebook",
+  "metaDescription": "Verifica Facebook con un número virtual real de 100+ países. El código llega normalmente en segundos: pagas por activación y cancelas sin cargo si no hay SMS.",
+  "hero": {
+    "title": "Número virtual para Facebook",
+    "intro": [
+      "Sobre el papel, Facebook te deja registrarte solo con un correo. En la práctica, un teléfono rara vez se queda fuera: el formulario de registro a menudo pide uno, y las cuentas nuevas suelen caer en un control de seguridad en sus primeros días, donde un código por SMS es la vía más rápida de demostrar que hay una persona real detrás del perfil.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países, se lo das a Facebook y el código de confirmación aparece en la aplicación normalmente en segundos. Pagas por activación con un paquete de monedas de un solo pago — sin suscripción — y, si un número no recibe nada, lo cancelas sin que te cobren."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Facebook?",
+    "body": [
+      "Un perfil de Facebook ya lleva tu nombre, tu cara y tu lista de amigos. Añadir tu teléfono personal a ese montón lo ata a todo lo demás de tu vida, y los números ligados a cuentas de Facebook se han raspado y filtrado a escala enorme en el pasado. Un número filtrado funciona como llave de búsqueda: conecta tu perfil con mensajeros, marketplaces y ficheros de intermediarios de datos. Un número virtual le da a Facebook un número real y que funciona, que simplemente no es esa llave.",
+      "También hay razones de todos los días: te registras en el extranjero y tu SIM de casa no puede recibir SMS, o vendes en Marketplace y prefieres que los desconocidos no tengan un número que suena en tu bolsillo. Para lo que un número virtual no sirve: las condiciones de Facebook permiten una cuenta personal por persona, así que trátalo como privacidad de tu cuenta, no como forma de llevar varias."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar Facebook con un número virtual",
+    "steps": [
+      {
+        "title": "Consigue un número en SMS Code",
+        "body": "Abre la aplicación SMS Code, elige Facebook como servicio, escoge un país y toca una vez. Un número móvil real queda reservado solo para ti mientras dure la activación."
+      },
+      {
+        "title": "Escríbelo cuando Facebook lo pida",
+        "body": "Puede ser en el propio formulario de registro o en un control poco después. Selecciona el prefijo que coincide con el número que alquilaste: un desajuste es la razón más habitual de que un código no llegue."
+      },
+      {
+        "title": "Escribe el código de confirmación",
+        "body": "El SMS cae en la aplicación SMS Code normalmente en segundos, del remitente «Facebook», con una forma como «285103 is your Facebook confirmation code». Escribe los dígitos y el control queda pasado."
+      },
+      {
+        "title": "Ancla la cuenta a cosas que controlas",
+        "body": "Enseguida, añade un correo que sea tuyo y activa la autenticación en dos factores con una aplicación de autenticación en Centro de cuentas → Contraseña y seguridad. A partir de ahí, los inicios de sesión y la recuperación no dependen del número alquilado."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Espera el control: es rutina",
+      "body": "Facebook desafía las cuentas nuevas con más agresividad que casi cualquier otra red. Una foto de perfil, unos datos reales y un ritmo humano ayudan mucho; una cuenta a medias que añade cincuenta amigos en una hora es justo lo que dispara los filtros."
+    },
+    {
+      "title": "Saca la recuperación del número el primer día",
+      "body": "El número alquilado es para el momento de la verificación, no para toda la vida. Cuando ya estás dentro, confirma un correo y configura una aplicación de autenticación: ningún inicio de sesión ni flujo de recuperación futuro pasa por SMS."
+    },
+    {
+      "title": "Una persona, una cuenta",
+      "body": "Las condiciones de Facebook son explícitas: una cuenta personal por persona. Un número virtual mantiene privado tu número real en la cuenta que tienes; usarlo para multiplicar cuentas pone en riesgo a todas."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Mi cuenta de Facebook sigue funcionando cuando caduca el número?",
+      "a": "Sí. El número se comprueba en el momento de la verificación, no de forma continua. Añade un correo y 2FA con una aplicación de autenticación justo después de registrarte, y nada de la cuenta volverá a depender de ese número."
+    },
+    {
+      "q": "¿Puedo registrarme en Facebook sin ningún teléfono?",
+      "a": "A veces: el alta solo con correo existe. Pero a muchas cuentas nuevas les piden un teléfono durante el registro o poco después, en un control. Lo práctico es alquilar un número en el momento en que Facebook de verdad lo exige."
+    },
+    {
+      "q": "¿Por qué Facebook bloqueó mi cuenta recién creada?",
+      "a": "Los controles en cuentas nuevas son normales, no una señal de que hiciste algo mal. Facebook pide de vez en cuando a los perfiles nuevos que confirmen un teléfono, y a veces una foto. Completa el paso del SMS, sigue rellenando el perfil a ritmo humano y la cuenta se asienta."
+    },
+    {
+      "q": "¿Por qué no me llegó el código de Facebook?",
+      "a": "Casi siempre es una de dos cosas: el prefijo escrito en Facebook no coincide con el número alquilado, o Facebook se negó a escribir a ese número en concreto. Cancela la activación pendiente en SMS Code — las monedas vuelven en los números que no recibieron nada — y prueba uno nuevo, a ser posible de otro país."
+    },
+    {
+      "q": "¿Verificar Facebook con un número alquilado va contra las normas?",
+      "a": "Los controles de Facebook existen para confirmar a una persona localizable, y un número virtual es un número real y localizable. Lo que la plataforma de verdad exige es conducta y autenticidad: una cuenta genuina, sin suplantación y sin spam. Cíñete a eso y el origen del número no es un problema."
+    }
+  ]
+}

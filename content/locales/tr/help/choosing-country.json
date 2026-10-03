@@ -1,0 +1,26 @@
+{
+  "title": "Ülke seçimi ve geçici numarayı güvenle kullanma",
+  "metaDescription": "Hedef servisin kabul ettiği ülkeyi seçin, ulaşmayan SMS’i yönetin ve geçici numaranın banka veya hesap kurtarma için neden dayanak olmaması gerektiğini öğrenin.",
+  "sections": [
+    {
+      "title": "Hedef servise göre seçin",
+      "paragraphs": [
+        "Önce servisinizi, sonra meşru kullanımınız için kabul ettiği bir ülkeyi seçin. Servis yerel numara istiyorsa bu koşula uyun. Satın almadan önce kayıt formunun o ülkenin arama kodunu kabul ettiğini doğrulayın.",
+        "Önerilen, cihazınızın bölge ayarına dayanan bir kolaylık önerisidir; SMS teslimi veya numaranın kabulü vaadi değildir. Fiziksel konumunuz ile numaranın ülkesi farklıdır. Hiçbir ülke teslimatı garanti etmez. Onaylamadan önce uygunluğu ve gösterilen jeton fiyatını karşılaştırın."
+      ]
+    },
+    {
+      "title": "Teslimat başarısız olursa",
+      "paragraphs": [
+        "SMS seçeneğine ve servisin bekleme süresine bakın. Bazı platformlar geçici veya sanal numaraları reddeder. İki dakikalık bekleyişten sonra SMS almamış numarayı iptal edin; başka bir desteklenen ülkeyi yalnızca servis izin veriyorsa düşünün. Ülke seçimini yasal, kimlik veya platform kısıtlarını aşmak için kullanmayın."
+      ]
+    },
+    {
+      "title": "Hesabınızı koruyun",
+      "paragraphs": [
+        "Numaralar geçicidir ve yeniden atanabilir. Numaranın sahibi siz değilsiniz; etkinleştirme bitince erişim sizde kalmaz. Bankacılık, acil servisler, uzun süreli iki adımlı doğrulama veya hesap kurtarma için ona güvenmeyin.",
+        "Platform izin veriyorsa erişimi kaybetmeden önce e-posta, geçiş anahtarı, kimlik doğrulayıcı veya kendi kalıcı kurtarma numaranızı ekleyin. Geri dönüştürülmüş bir numarayla başkasının hesabına asla girmeyin."
+      ]
+    }
+  ]
+}

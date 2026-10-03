@@ -1,0 +1,154 @@
+{
+  "title": "eSIM mi, sanal numara mı?",
+  "description": "Benzer duyulur ve yan yana satılırlar ama eSIM ile sanal numara farklı sorunları çözer. Doğru olanı seçmek için sade dilli bir rehber.",
+  "excerpt": "Biri telefonunuzun içinde yaşayan bir operatör planıdır; diğeri doğrulama kodu için kiraladığınız bir numaradır. Onları karıştırmak gerçek paraya mal olur — sorununuzun hangisine ihtiyacı olduğunu nasıl anlayacağınız burada.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "“eSIM’e mi ihtiyacım var, sanal numaraya mı?” soran kişinin genellikle belirli bir sorunu olduğu sorulardandır — gelecek hafta bir yolculuk, telefon numarası isteyen bir kayıt formu — ve internet ikisinin de pazarlamasıyla yanıt verir. İki ürün benzer duyulur, benzer uygulama mağazası kategorilerinde yaşar ve aynı şirketlerce düzenli satılır. Aynı şey değildirler."
+    },
+    {
+      "type": "p",
+      "text": "Onları karıştırmak yalnızca bir sözcük kayması değildir; paraya mal olur. İnsanlar üzerinde doğrulama metni almayı bekleyerek seyahat eSIM’i alır ve — yolculuğun ortasında, bir banka veya mesajlaşma uygulamasının tam kod istediği anda — eSIM’lerinin hiç SMS alamadığını keşfeder. Diğerleri tek istedikleri mobil veri iken ay ay sanal numara kiralar."
+    },
+    {
+      "type": "p",
+      "text": "Bu rehber çizgiyi net çizer: her birinin gerçekte ne olduğu, yan yana karşılaştırma, on saniyede uygulayabileceğiniz bir karar kuralı ve iki dünyanın gerçekten örtüştüğü uç durumlar."
+    },
+    {
+      "type": "h2",
+      "id": "two-different-tools",
+      "text": "Aynı rafta duran iki farklı araç"
+    },
+    {
+      "type": "p",
+      "text": "eSIM cihazınıza gömülü gerçek bir operatör planıdır. Tepsinizdeki plastik SIM kartla aynı şeydir, plastik hariç: telefonunuzun donanımına indirilen ve onu bir mobil ağa bağlayan bir profil. Onunla bir ağ bağlantısının sağladığı şeyler gelir — her şeyden önce mobil veri ve plana göre aramalar ve metinler. Onu telefon ayarlarınıza kurarsınız ve taşıyan telefonunuzdur."
+    },
+    {
+      "type": "p",
+      "text": "Sanal numara SMS almak için kiraladığınız bir numaradır ve cihazınızın donanımına hiç değmez. Numara sağlayıcı tarafında yaşar; gelen mesajlar bir uygulamada görünür. Ayarlarınıza hiçbir şey kurulmaz, ağ profili değişmez, mevcut SIM’iniz ve veri planınız işe girmez. Onu bir servisin size kod göndermek istediği an için kullanırsınız — ve işin tamamı budur."
+    },
+    {
+      "type": "p",
+      "text": "Kısaca: eSIM cihazınızı bir ağa bağlar. Sanal numara sizin adınıza bir mesaj alır. Biri altyapıdır, diğeri bir iştir."
+    },
+    {
+      "type": "h2",
+      "id": "side-by-side",
+      "text": "Yan yana"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Maliyet modeli — eSIM bir plandır: günler veya haftalar süren bir veri paketi (ve bazen dakika/metin) için ödersiniz. Sanal numara kullanıldıkça ödemedir: bir etkinleştirme, alınan bir kod, bir jeton paketinden ödenir. Tek bir doğrulama kodu için plan fazladır; yurt dışında iki hafta harita ve mesajlaşma için SMS başına fiyat tamamen yanlış biçimdir.",
+        "Kurulum — eSIM telefona sağlanır: QR kodu veya uygulama, hücresel ayarlarınızda yeni bir hat belirir ve cihazınızın eSIM’i desteklemesi gerekir. Sanal numara sağlama istemez: uygulamayı açın, servis ve ülke seçin, numara genellikle saniyeler içinde ekrandadır.",
+        "Ne alırsınız — eSIM bağlantı verir: veri, bir ağ göstergesi, çoğu zaman bir telefon hattı. Sanal numara tam bir yetenek verir: ona gönderilen SMS’i almak, uygulamada göstermek.",
+        "Ne kadar tutarsınız — eSIM plan sürdüğü sürece sürer ve yerel olan süresiz yüklenebilir. Sanal numara bir etkinleştirme penceresi için kiralanır — kayıt kodu için yeterince uzun, yıllarca numaranız olması için değil.",
+        "Ne içindir — eSIM: yurt dışında çevrimiçi olmak, tablet için veri hattı, SIM büfesi aramadan yerel plan. Sanal numara: kişisel numaranızı kayıtların dışında tutmak, ikinci bir hesabı doğrulamak, bütün bir plan almadan bir kod almak."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "which-one-do-you-need",
+      "text": "On saniyelik karar kuralı"
+    },
+    {
+      "type": "p",
+      "text": "Neredeyse her gerçek durum üç soruyla çözülür:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Cihazınızda internete mi ihtiyacınız var — seyahat verisi, bağlı bir tablet, yedek bir hat? Bu bağlantıdır. Bir eSIM alın; sanal numara telefonunuzu çevrimiçi koyamaz, nokta.",
+        "Kişisel numaranızı vermeden bir doğrulama kodu mu almanız gerekiyor — Telegram, WhatsApp, Google, bir pazar yeri için? Bu, tek iş yapan tek bir SMS’tir. Sanal numara kiralayın; tek bir metin almak için operatör planı almak, bir zarf teslim etmek için kamyon ödemektir.",
+        "Uzun vadeli ikinci bir hatta mı ihtiyacınız var — müşterilere vereceğiniz ve yıllarca arama yanıtlayacağınız bir numara? O zaman gerçekten bir telefon planı gerekir (eSIM veya plastik). Kiralanan sanal numara kalıcı kimliğiniz olmak için kurulmamıştır — ve dürüst sağlayıcılar bunu söyler."
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "the-data-only-esim-trap",
+      "text": "Tuzak: yalnızca verili eSIM’ler ve doğrulama kodları"
+    },
+    {
+      "type": "p",
+      "text": "En çok insanı yakalayan uç durum budur. Ucuz seyahat eSIM’lerinin çoğu yalnızca veridir: sizi internete bağlar ama hiç telefon numarası gelmez — SMS’in adresleneceği hiçbir şey yoktur. Ürün sayfası bunu açıkça söyler ama gigabayt sayıları arasında kaçırması kolaydır."
+    },
+    {
+      "type": "p",
+      "text": "Başarısızlık yolda oynanır: ineriz, seyahat eSIM’iniz güzel çalışır, sonra bankanız — veya yeniden yüklenmiş uygulamadaki Telegram — sizin olduğunuzu onaylamak için bir kod göndermek ister. Kod, ya telefondan çıkmış ya da acı veren ücretlerle dolaşımda olan evdeki SIM’inize gider. Gerçekten kullandığınız yalnızca verili eSIM onu alamaz, çünkü alacak numara yoktur."
+    },
+    {
+      "type": "callout",
+      "text": "İşe yarayan kombinasyon: internet için yalnızca verili bir eSIM, zaten ona bağlı servisler için aktif tutulan evdeki SIM’iniz — ve kişisel numaranızda zaten istemediğiniz yeni kayıtlar için bir sanal numara. Her araç gerçekten kurulduğu tek şeyi yapar."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-number-step-by-step",
+      "text": "Yanıtınız “yalnızca bir kod” ise: sanal numara yolu"
+    },
+    {
+      "type": "p",
+      "text": "Doğrulama kodu senaryosu için bütün süreç burada — yaklaşık bir dakika sürer:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Servisi ve ülkeyi seçin",
+          "body": "SMS Code uygulamasında neyi doğruladığınızı seçin — Telegram, WhatsApp, Google, 100+ servis — ve numaranın hangi ülkeden olacağını. Tek dokunuş size gerçek bir mobil numara ayırır."
+        },
+        {
+          "title": "Numarayı kayıtta kullanın",
+          "body": "Onu eşleşen ülke koduyla herhangi bir telefon numarası gibi doğrulama formuna yazın. Servis SMS’ini her zamanki gibi gönderir — gerçek bir operatör ağındaki gerçek bir numaradır."
+        },
+        {
+          "title": "Kodu uygulamada okuyun",
+          "body": "SMS etkinleştirme ekranında genellikle saniyeler içinde görünür. Kodu kopyalayın, kaydı bitirin. Kod hiç gelmezse etkinleştirmeyi ücretsiz iptal edin ve başka bir numara alın — yalnızca teslim edilen kodlar için ödersiniz."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Kurulan profil yok, başlayan plan yok, sonra iptal edilecek bir şey yok. Taahhütteki bu asimetri karşılaştırmanın minyatürüdür: eSIM kurduğunuz ve birlikte yaşadığınız bir şeydir; sanal numara kullandığınız ve bittiğiniz bir şeydir."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sıkça sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Seyahat eSIM’i doğrulama SMS’i alabilir mi?",
+          "a": "Yalnızca telefon numarasıyla geliyorsa — ve çoğu bütçe seyahat eSIM’i yalnızca veridir, yani numara yok ve hiç SMS yok. Kodlar için birine güvenmeden önce ürün sayfasında “ses ve SMS” arayın. Yalnızca veriyse doğrulama tarafını sanal numara karşılar."
+        },
+        {
+          "q": "Sanal numara bir SIM kart mıdır?",
+          "a": "Hayır. Cihazınıza hiçbir şey kurulmaz — plastik yok, eSIM profili yok, hücresel ayarlarınızda değişiklik yok. Numara sağlayıcının ağında vardır ve aldığı mesajlar size uygulamada gösterilir. Kendi SIM’inizin bunda payı yoktur — numara operatörünüze hiç bağlı değildir. Uygulamanın size kodu göstermesi için telefonunuzda Wi-Fi veya mobil veri üzerinden bir internet bağlantısı gerekir."
+        },
+        {
+          "q": "Sanal numarayı sonsuza dek tutabilir miyim?",
+          "a": "Kiralanan etkinleştirme numaraları bunun için tasarlanmamıştır — numarayı kodu almak için yeterince uzun olan etkinleştirme penceresi boyunca tutarsınız. Doğruladığınız hesaplar sonra çalışmaya devam eder (oturum açık kalın ve hesap kurtarmasını kurun) ama yayımlayacağınız ve yıllarca yanıtlayacağınız bir numara gerekiyorsa bu bir telefon planı sorunudur, sanal numara sorunu değil."
+        },
+        {
+          "q": "Tek bir kod almak için hangisi daha ucuzdur?",
+          "a": "Sanal numara, açık ara. Tam o iş için fiyatlanmış, tek seferlik bir jeton paketinden bir etkinleştirmedir. En ucuz eSIM planı hâlâ bir SMS için ihtiyacınız olmayan günlerce hizmet ve gigabaytlarca veri satar."
+        },
+        {
+          "q": "İkisine birden hiç ihtiyaç duyar mıyım?",
+          "a": "Seyahat klasik durumdur: yalnızca verili bir eSIM sizi çevrimiçi tutar ve sanal numara yol boyunca yeni kayıtları karşılar — evdeki SIM’iniz zaten ona bağlı hesaplara ayrılmış kalır. Yarışmazlar; farklı başarısızlık noktalarını kapsarlar."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

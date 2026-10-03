@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour Discord",
+  "metaDescription": "Un vrai mobile pour la vérification téléphone de Discord, généralement en quelques secondes. Passez le contrôle sans lier votre numéro personnel.",
+  "hero": {
+    "title": "Numéro virtuel pour Discord",
+    "intro": [
+      "Discord ne demande qu’un e-mail à l’inscription — jusqu’au jour où ce n’est plus le cas. Essayez de poster dans un serveur au niveau de vérification élevé, rejoignez plusieurs serveurs d’affilée, ou connectez-vous via un VPN, et le système anti-abus de Discord exige un numéro de téléphone vérifié avant que vous alliez plus loin.",
+      "Avec SMS Code, vous louez un vrai numéro mobile dans l’un de plus de 100 pays, vous le saisissez dans Discord, et le code à six chiffres de l’expéditeur «\u00a0Discord\u00a0» apparaît dans l’app généralement en quelques secondes. Votre numéro personnel en reste dehors — et hors de la base de Discord."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour Discord\u00a0?",
+    "body": [
+      "Discord ne laisse vérifier un numéro de téléphone que sur un seul compte à la fois\u00a0: le vérifier sur un nouveau compte le détache silencieusement de l’ancien. Cette seule règle explique pourquoi on loue des numéros pour Discord. Si vous tenez un compte de modération, un compte de dev pour tester des bots, ou une identité séparée pour une communauté que vous aidez à gérer, chaque compte a besoin de son propre numéro — et un numéro virtuel donne à chacun une ligne dédiée, sans un tiroir plein de cartes SIM.",
+      "L’autre moitié, c’est que Discord est exigeant. Il est connu pour refuser les numéros qu’il classe comme VoIP, ce qui explique pourquoi les sites gratuits de «\u00a0SMS temporaires\u00a0» échouent si souvent à cette étape précise. SMS Code délivre de vrais numéros mobiles sur de vrais réseaux d’opérateurs, que Discord accepte en général — et les fois, honnêtes, où un numéro précis est quand même refusé, vous annulez l’activation en cours sans être facturé et essayez un numéro d’un autre pays."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier Discord avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Obtenez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, choisissez Discord comme service, un pays, et touchez une fois. Le numéro est une vraie ligne mobile, réservée à vous seul — ce qui compte, parce que Discord lie chaque numéro à un seul compte."
+      },
+      {
+        "title": "Saisissez-le dans Discord",
+        "body": "Tapez le numéro dans l’invite que Discord affiche — le mur de vérification d’un compte verrouillé, la porte d’un serveur qui exige un téléphone, ou Paramètres → Mon compte → Ajouter un téléphone. Sélectionnez l’indicatif pays correspondant\u00a0; un décalage est la raison la plus courante pour qu’un code n’arrive jamais."
+      },
+      {
+        "title": "Récupérez le code à six chiffres",
+        "body": "Le SMS arrive dans l’app SMS Code généralement en quelques secondes, de l’expéditeur «\u00a0Discord\u00a0»\u00a0: «\u00a0Your Discord verification code is\u00a0: 274918\u00a0». Saisissez-le et la coche apparaît — le compte est vérifié et toute porte téléphone se lève."
+      },
+      {
+        "title": "Sécurisez correctement le compte",
+        "body": "Le numéro reste lié dans Paramètres → Mon compte, et le compte continue de fonctionner normalement à partir de là. Ajoutez tout de suite la 2FA par application d’authentification et enregistrez les codes de secours — c’est cela, pas le téléphone, qui protège vraiment le compte sur la durée."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Un numéro vérifie un compte — point",
+      "body": "Si vous vérifiez le même numéro sur un second compte Discord, Discord l’y déplace et le détache du premier, ce qui peut renvoyer le premier compte derrière un mur de vérification. Louez un numéro séparé pour chaque compte que vous voulez garder vérifié."
+    },
+    {
+      "title": "Si Discord refuse le numéro, ne vous battez pas",
+      "body": "Discord filtre les numéros qu’il marque comme VoIP, et il arrive qu’une tranche mobile légitime soit prise aussi. Annulez l’activation en cours dans SMS Code — les pièces d’un numéro qui n’a reçu aucun code reviennent sur votre solde — et prenez un numéro neuf, idéalement d’un autre pays."
+    },
+    {
+      "title": "Les serveurs à téléphone contrôlent le lien, pas l’historique",
+      "body": "Les serveurs au plus haut niveau de vérification exigent un téléphone actuellement lié à votre compte. Vous pouvez retirer le numéro dans les Paramètres une fois la 2FA par authentificateur et les codes de secours en place, mais faites-le après avoir rejoint les serveurs verrouillés qui vous importent — ou gardez-le lié tant que vous y êtes actif."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Pourquoi Discord me demande-t-il soudain un numéro de téléphone\u00a0?",
+      "a": "Deux déclencheurs principaux. Les serveurs à haut niveau de vérification exigent un téléphone vérifié avant que vous puissiez y poster. Et le système anti-abus de Discord verrouille des comptes en attente de vérification téléphone quand il voit des signaux qui lui déplaisent — une connexion VPN, rejoindre beaucoup de serveurs vite, un compte neuf qui agit trop vite. Dans les deux cas, saisir un numéro et le code à six chiffres lève le blocage."
+    },
+    {
+      "q": "Puis-je vérifier deux comptes Discord avec un seul numéro virtuel\u00a0?",
+      "a": "Non — et ce n’est pas notre limite, c’est celle de Discord. Un numéro ne peut être vérifié que sur un seul compte Discord à la fois\u00a0; le vérifier sur un second le détache du premier. Louez plutôt un numéro dédié par compte, afin qu’un profil de modération ou un compte de test de bots ne fasse jamais perdre à votre compte principal son statut vérifié."
+    },
+    {
+      "q": "Discord acceptera-t-il un numéro virtuel\u00a0? J’ai entendu qu’il les bloque.",
+      "a": "Discord bloque les numéros qu’il classe comme VoIP, ce que la plupart des sites gratuits de «\u00a0SMS temporaires\u00a0» distribuent. Les numéros SMS Code sont de vrais numéros mobiles sur des réseaux d’opérateurs, et Discord les accepte en général. Aucun service ne peut promettre que chaque numéro passe — si l’un est refusé, annulez l’activation sans frais et essayez un autre pays."
+    },
+    {
+      "q": "Qu’arrive-t-il à mon compte Discord quand le numéro loué expire\u00a0?",
+      "a": "Il continue de fonctionner normalement. La vérification est un contrôle unique\u00a0; le numéro reste simplement listé dans Paramètres → Mon compte, et Discord ne le revérifie pas par SMS au quotidien. Ajoutez la 2FA par authentificateur avec des codes de secours et le compte ne dépend plus du tout de ce numéro — vous pouvez même le retirer, sauf si vous en avez besoin lié pour des serveurs à porte téléphone."
+    },
+    {
+      "q": "Le code de Discord n’est jamais arrivé — que faire\u00a0?",
+      "a": "Vérifiez d’abord que l’indicatif pays sélectionné dans Discord correspond au numéro — ce décalage cause la plupart des échecs silencieux. S’il est correct et que rien ne vient en quelques minutes, Discord a probablement refusé ce numéro. Annulez l’activation en cours dans SMS Code — les pièces reviennent pour les numéros qui n’ont rien reçu — et demandez-en un nouveau d’un autre pays."
+    }
+  ]
+}

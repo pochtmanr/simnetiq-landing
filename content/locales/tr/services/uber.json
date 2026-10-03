@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Uber için sanal numara",
+  "metaDescription": "Uber sizi SMS koduyla içeri alır. Sanal numara kiralayın, dört haneli kodu saniyeler içinde alın, telefonunuzu yolculuk geçmişinin dışında tutun.",
+  "hero": {
+    "title": "Uber için sanal numara",
+    "intro": [
+      "Uber telefon numarasını bir ayrıntı olarak görmez — hesabın kendisidir. Bir numara yazarsınız, Uber “Your Uber code is 7204. Never share this code.” diye mesaj atar ve girişin tamamı budur: kullanıcı adı yok ve birçok yolcu için parola da yok. O numarada kod alan kişi fiilen hesabı tutar.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız ve Uber’in kodu uygulamada genellikle saniyeler içinde görünür. Yolculuklarınız, makbuzlarınız ve alış geçmişiniz arkadaşlarınızın ve bankanızın kullandığı numara yerine kiralanan bir numaraya bağlanır."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Uber için neden sanal numara?",
+    "body": [
+      "Bir yolculuk hesabı sessizce hayatınızın bir haritasını biriktirir — ev, iş, sabah 6’da havaalanı. Kişisel numaranızı o kaydın dışında tutmak düz gizlilik alışkanlığıdır. Sürücüler size zaten Uber’in maskeli aktarımı üzerinden ulaşır ve gerçek numarayı hiç görmez; önemli olan kopya hesabınızda saklanandır ve sanal numaranın değiştirdiği tam odur.",
+      "Uber sizi SMS ile içeri aldığı için buradaki numara tek seferlik bir aksesuar değildir — bu konuda kendinize dürüst olun. Uygulama sizi aylarca oturum açık tutar ama yeni bir kurulum veya yeni bir telefon yine kod ister. Kurulum kiralanan numarayla gayet çalışır, yeter ki planlayın: oturum açık kalsın, hesaba bir e-posta ekleyin ve Uber günlük bir araç olursa hesabı her zaman kontrol edeceğiniz bir numaraya taşıyın."
+    ]
+  },
+  "howTo": {
+    "title": "Uber’i sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "Servis olarak Uber’i seçin ve bir ülke seçin. Gündelik kullanım için kendi ülkenizi alın — hesabın bölgesi ödeme seçeneklerini ve yerel özellikleri şekillendirir."
+      },
+      {
+        "title": "Onu Uber uygulamasına girin",
+        "body": "Kayıt ekranında numaranın ülke kodunu seçin ve yazın. Uber kodu WhatsApp veya sesli aramayla göndermeyi önerebilir — SMS’i seçin."
+      },
+      {
+        "title": "Dört haneyi yazın",
+        "body": "“Your Uber code is 7204. Never share this code.” SMS Code uygulamasına genellikle saniyeler içinde gelir. Girin, oturumunuz açılır."
+      },
+      {
+        "title": "Hesaba ikinci bir kanal verin",
+        "body": "Uber ayarlarında e-postanızı ekleyin ve profili bitirin. E-posta, Uber’e kiralanan numaraya bağlı olmayan bir doğrulama yolu verir — ve makbuzları gerçekten okuyacağınız bir yerde tutar."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Uber yine SMS isteyecek — buna göre planlayın",
+      "body": "Yeni cihazlardaki girişler ve yeniden kurulumlar hesabın numarasına bir kodla onaylanır. Gelişigüzel çıkış yapmayın, bir e-posta ekleyin ve Uber’i her hafta kullanıyorsanız hesabın telefonunu ayarlarda taşıdığınız bir numarayla değiştirin — oturum açıkken bunu istediğiniz zaman yapabilirsiniz."
+    },
+    {
+      "title": "Sürücüler numaranızı zaten görmez",
+      "body": "Sizinle sürücü arasındaki aramalar ve mesajlar Uber’in maskeli aktarımından geçer. Gizlilik sorusu sürücü değildir — hesabınızda, makbuzlarınızda ve o veritabanının beslediği her yerde duran numaradır. Sanal numaranın temiz tuttuğu kopya odur."
+    },
+    {
+      "title": "Yurt dışında hesabınız zaten seyahat eder",
+      "body": "Mevcut bir Uber hesabı başka ülkelerde çalışır — Paris’te yolculuk çağırmak için yerel numara gerekmez. Sanal numaranın gerçekten yardım ettiği yer: yolculuk ortasında bir giriş kontrolü geldiğinde evdeki SIM’iniz dolaşım mesajı alamıyorsa veya uzun bir kalış için ayrı bir yerel hesap istiyorsanız."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kiralanan numaranın süresi bitince Uber hesabım çalışmaya devam eder mi?",
+      "a": "Oturumunuz açık kaldığı sürece evet, her şey çalışır. Püf noktası bir sonraki taze giriştir: Uber onu hesabın numarasına bir SMS ile onaylar. Ya oturumu canlı tutun ya da — daha iyisi — hâlâ girişliyken telefonu hesap ayarlarında kontrol ettiğiniz bir numarayla değiştirin. Bu seçenek uygulamanın içinden her zaman vardır."
+    },
+    {
+      "q": "Sürücüler gerçek telefon numaramı görür mü?",
+      "a": "Hayır. Uber sizi ve sürücüyü maskeli aktarım numaralarıyla bağlar, iki taraf da diğerinin gerçek numarasını görmez. Sanal numara diğer kopyayı korur — hesap profilinizde saklanan ve her makbuza bağlı olanı."
+    },
+    {
+      "q": "Seyahatte Uber için sanal numara kullanabilir miyim?",
+      "a": "Evet ve gerçek bir seyahat sorununu çözer: dolaşımdaki SIM’inizin alamadığı SMS olarak gelen giriş kontrolleri. Kiralanan numaraya giden kodlar nerede olursanız olun internet üzerinden SMS Code uygulamasına düşer. Yalnızca yurt dışında yolculuk için yerel numara gerekmediğini not edin — normal hesabınız uluslararası çalışır."
+    },
+    {
+      "q": "Uber kodu neden gelmedi?",
+      "a": "Önce ülke kodunun kiralanan numarayla eşleştiğini kontrol edin. Sonra kodun SMS ile geldiğinden emin olun — Uber bazen varsayılan olarak WhatsApp veya sesli arama kullanır. Hiçbir şey gelmediyse SMS Code’da etkinleştirmeyi ücretsiz iptal edin ve başka bir numara alın."
+    },
+    {
+      "q": "Uber’e sanal numarayla kaydolmak serbest mi?",
+      "a": "Uber numarayı kontrol ettiğinizi doğrular ve doğru ayrıntılarla yolcu başına bir hesap bekler — koşulları budur ve güvenlik özellikleri buna bağlıdır. Kişisel numaranızı gizli tutmak için kiralanan numara kullanmak uygundur; kayıt promosyonları toplamak veya yinelenen hesap çalıştırmak için numara kullanmak yolcuların yasaklandığı şeydir."
+    }
+  ]
+}

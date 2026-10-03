@@ -1,0 +1,41 @@
+{
+  "breadcrumbHome": "Beranda",
+  "breadcrumbHub": "Nomor virtual",
+  "heroLabel": "Nomor virtual",
+  "step": "Langkah",
+  "tipsLabel": "Perlu diketahui",
+  "tipsTitle": "Sebelum Anda verifikasi",
+  "faqLabel": "Pertanyaan",
+  "countriesLabel": "Negara populer untuk layanan ini",
+  "relatedLabel": "Layanan terkait",
+  "relatedTitle": "Orang juga memverifikasi",
+  "ctaTitle": "Dapatkan nomor dan kode dalam waktu kurang dari satu menit",
+  "ctaSupport": "Ada pertanyaan? Hubungi dukungan",
+  "hub": {
+    "metaTitle": "Nomor virtual untuk verifikasi SMS — semua layanan",
+    "metaDescription": "Sewa nomor virtual asli untuk Telegram, WhatsApp, Google, dan Instagram. Terima kode verifikasi SMS biasanya dalam hitungan detik — tanpa SIM, tanpa langganan.",
+    "label": "Cakupan",
+    "title": "Satu nomor lagi menuju pendaftaran apa pun",
+    "sub": "Pilih layanan yang Anda daftarkan — setiap panduan membahas alur verifikasi yang sebenarnya, jebakan, dan pertanyaan yang benar-benar ditanyakan orang.",
+    "allNote": "Layanan baru ditambahkan secara berkala — aplikasi sendiri mendukung 100+ layanan di 100+ negara."
+  },
+  "categories": {
+    "messaging": "Pesan",
+    "social": "Media sosial",
+    "finance": "Keuangan",
+    "shopping": "Belanja",
+    "travel": "Perjalanan & transportasi",
+    "entertainment": "Hiburan",
+    "dev": "Alat pengembang",
+    "other": "Akun & platform"
+  },
+  "country": {
+    "hubLabel": "Menurut negara",
+    "hubTitle": "Nomor menurut negara",
+    "dialingCode": "Kode panggil",
+    "numberFormat": "Format nomor",
+    "servicesLabel": "Sering diverifikasi dengan negara ini",
+    "allCountries": "Semua negara",
+    "breadcrumb": "Negara"
+  }
+}

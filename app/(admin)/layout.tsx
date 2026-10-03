@@ -6,7 +6,7 @@ import "../globals.css";
  * Root layout for the operator panel.
  *
  * This is a *root* layout, not a nested one: the app has no app/layout.tsx —
- * (en) and (ru) each own their own <html> — so this route group owns its own
+ * app/[locale] owns the public site's <html> — so this route group owns its own
  * document too. Nothing from the marketing layouts reaches here, and that is
  * the point rather than an oversight. Deliberately absent:
  *

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Apple için sanal numara",
+  "metaDescription": "Yeni bir Apple Hesabını gerçek sanal numarayla doğrulayın. Kod genellikle saniyeler içinde gelir — sonra iki adımlı kodları kontrol ettiğiniz cihazlara taşıyın.",
+  "hero": {
+    "title": "Apple için sanal numara",
+    "intro": [
+      "Yeni bir Apple Hesabı telefonsuz bitirilemez: kayıt sırasında Apple bir numara ister, kontrol ettiğinizi kanıtlamak için altı haneli bir kod gönderir ve o numarayı “güvenilir telefon numarası” olarak tutar — o günden sonra iki adımlı doğrulama için kullanacağı kanal.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız, Apple’ın kodunu uygulamada genellikle saniyeler içinde alırsınız ve kaydı tamamlarsınız. Kişisel numaranız hesabın dışında kalır — hesabın hangi güvenilir numaralara ve cihazlara dayanacağına sonra siz karar verirsiniz."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Apple için neden sanal numara?",
+    "body": [
+      "Bir Apple Hesabı çoğu kayıttan daha uzağa uzanır: App Store, iCloud, iMessage ve sahip olduğunuz her Apple cihazının anahtarıdır. Bir iPhone’da numarayla giriş yapın, o numarayı kayıtlı tutan kişiler sizi iMessage ve FaceTime’ta bulabilir. Hesap ayrı durmak içinse — bir test cihazı, farklı bir App Store bölgesi, bir iş profili — kişisel SIM’inizle doğrulamak kimliğinizi yeniden içine diker.",
+      "Apple ayrıca her yeni hesapta iki adımlı doğrulamayı açar ve en az bir güvenilir telefon numarası ister. Sanal numara kaydı temiz karşılar; önemli olan sonra ne yaptığınızdır. Bir Apple cihazında oturum açtıktan sonra doğrulama kodları SMS olmadan o cihazda görünür — ve kiralanan numaranın yanında (veya yerine) gerçekten size ait bir güvenilir numara ekleyebilirsiniz."
+    ]
+  },
+  "howTo": {
+    "title": "Apple Hesabını sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "Servis olarak Apple’ı seçin, bir ülke seçin ve gerçek bir mobil numara ayırmak için bir kez dokunun. Hesap belirli bir App Store bölgesi içinse o ülkeden bir numara alın — hesabın ayrıntılarını tutarlı tutar."
+      },
+      {
+        "title": "Apple kaydı sırasında girin",
+        "body": "Hesabı account.apple.com adresinde veya doğrudan bir iPhone’un kurulum ekranından oluşturun. Apple telefon numarası istediğinde kısa mesajla doğrulamayı seçin ve doğru ülke seçiliyken kiralanan numarayı yazın."
+      },
+      {
+        "title": "Kodu yazın",
+        "body": "SMS “Your Apple Account code is: 617402. Don't share it with anyone.” diye okunur ve SMS Code uygulamasına genellikle saniyeler içinde düşer. Altı haneyi girin, hesap doğrulanır."
+      },
+      {
+        "title": "Kontrol ettiğiniz güvenilir etkenler ekleyin",
+        "body": "Sahip olduğunuz bir Apple cihazında oturum açın — o andan sonra iki adımlı kodlar SMS gerekmeden doğrudan o cihazda görünür. Sonra hesabın Oturum Açma ve Güvenlik ayarlarını açın ve gerçekten size ait ikinci bir güvenilir telefon numarası ekleyin."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Güvenilir cihazlar, güvenilir numaraları geçer",
+      "body": "Bir iPhone, iPad veya Mac’te oturum açtıktan sonra Apple iki adımlı kodları doğrudan cihazda gösterir — SMS yedek kanal olur, ana kanal değil. En az bir güvenilir cihazda oturum açık tutun; kiralanan numara olması gerektiği gibi kalır: tek seferlik bir kayıt aracı."
+    },
+    {
+      "title": "Apple numarayı bir 2FA dayanağı olarak tutar",
+      "body": "İki adımlı her Apple Hesabı dosyada en az bir güvenilir telefon numarası tutmalıdır. Kiralanan numaranın tek numara kalmasına izin vermeyin: önce kontrol ettiğiniz bir numarayı ekleyin, sonra kiralananı Oturum Açma ve Güvenlik altından kaldırın."
+    },
+    {
+      "title": "Ülkeyi hesabın bölgesiyle eşleştirin",
+      "body": "Numara tek başına App Store bölgenizi belirlemez — bu, hesabın ülke ayarlarını ve ödeme yöntemini izler. Ama aynı ülkeden bir numara ayrıntıları tutarlı tutar; hesabın yaşaması gereken yerden bir tane seçin."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apple Hesabı oluşturmak için telefon numarası şart mı?",
+      "a": "Evet — kayıt, mesaj atabileceği veya arayabileceği bir numara ister ve yeni hesaplar o numara güvenilir olarak kayıtlı iki adımlı doğrulama alır. Sanal numara bu adımı bir SIM gibi geçer: kod SMS Code uygulamasına gelir ve hesap oluşur."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince hesap çalışmaya devam eder mi?",
+      "a": "Evet. Numara, Apple kodu gönderdiğinde kontrol edilir; sonra hesap güvenilir cihazlarınızda yaşar. Dördüncü adımı erken yapın — sahip olduğunuz bir cihazda oturum açın ve kontrol ettiğiniz bir güvenilir numara ekleyin — hesabın kiralanan numaraya bağlı hiçbir yanı kalmaz."
+    },
+    {
+      "q": "Güvenilir telefon numarasını sonra değiştirebilir miyim?",
+      "a": "Evet, account.apple.com üzerindeki Oturum Açma ve Güvenlik bölümünden veya cihaz ayarlarınızdan. Apple, iki adımlı bir hesabın en az bir güvenilir numara tutmasında ısrar eder; önce yenisini ekleyin, sonra kiralananı kaldırın."
+    },
+    {
+      "q": "Başka bir ülkenin App Store’u için Apple Hesabı oluşturabilir miyim?",
+      "a": "100+ ülkeden bir numara seçebilirsiniz ve onu hesabın bölgesiyle eşleştirmek işleri düzenli tutar. Yalnız bilin ki vitrin telefonu değil, hesabın ülke ve ödeme ayarlarını izler — numara sizi doğrular, mağazayı taşımaz."
+    },
+    {
+      "q": "Apple kodum neden gelmedi?",
+      "a": "Çoğunlukla Apple formunda seçilen ülke numarayla uyuşmuyor ya da akış telefon aramasına geçti — “kısa mesaj”ı açıkça seçin. SMS Code’da bekleyen etkinleştirmeyi iptal edin (hiçbir şey almayan numaralar ücretsizdir) ve taze bir tane deneyin."
+    }
+  ]
+}

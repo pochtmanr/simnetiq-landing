@@ -1,0 +1,44 @@
+{
+  "title": "Billing, coins and Apple refunds",
+  "metaDescription": "How SMS Code coin packs work, what to do about missing coins or unfamiliar charges, and how to request a refund from Apple step by step.",
+  "sections": [
+    {
+      "title": "How coins work",
+      "paragraphs": [
+        "Coin packs are one-time App Store purchases, not subscriptions. There is no automatic renewal. Coins do not expire, cannot be transferred and are not a cash wallet. The activation price depends on the service and country and is shown before confirmation.",
+        "An eligible cancellation, number replacement, expiry without SMS or failed number assignment returns the activation’s coins. Once an SMS has arrived, cancellation does not automatically return coins. Report delivery or billing faults to support for review."
+      ]
+    },
+    {
+      "title": "Missing coins or an unfamiliar charge",
+      "paragraphs": [
+        "Check that you are signed into the same SMS Code account used for the purchase. Allow a pending Apple payment to complete and reopen the app. Avoid buying another pack just to fix a missing balance.",
+        "Send support the Apple order ID or receipt, pack, purchase date and your app account identifier if available. Redact unrelated purchases and payment details. For a charge you do not recognize, check your Apple purchase history and Family Sharing purchases, then contact Apple."
+      ]
+    },
+    {
+      "title": "Unused coins and payment refunds",
+      "paragraphs": [
+        "Returning coins to the app does not reverse an Apple payment. For money back on an Apple-billed coin purchase, request a refund from Apple for the purchase and explain accurately whether coins are unused, partly used, missing or faulty. An unused balance does not automatically entitle you to a refund or a partial cash withdrawal.",
+        "Apple assesses refund eligibility under its regional terms and applicable law. We cannot promise approval or issue a refund through Apple’s payment system ourselves. Contact us about service defects or unused coins if you need purchase or balance records. Your mandatory consumer rights remain unaffected.",
+        "If Apple approves a refund, the related coin credit may be removed from your balance. Do not continue spending coins for a purchase you are asking to have refunded. Deleting your account or uninstalling does not submit a refund request."
+      ]
+    },
+    {
+      "title": "Request a refund from Apple",
+      "paragraphs": [
+        "1. Open reportaproblem.apple.com and sign in with the Apple Account that paid for the pack.",
+        "2. In the request menu, select the refund option, then choose the reason that describes what happened.",
+        "3. Continue, select the SMS Code coin purchase and submit the request.",
+        "4. Apple normally provides an update within 24–48 hours. Check the claim status on the same site. This is an update timeframe; the request may still be pending, and returning money takes additional time."
+      ]
+    },
+    {
+      "title": "If the purchase is missing or the refund is delayed",
+      "paragraphs": [
+        "Pending charges cannot be requested until Apple issues a receipt; unpaid orders must be settled first. Check the Apple Account shown on your receipt. If the purchase is unavailable or you cannot submit a request, contact Apple Support.",
+        "After approval, Apple says store-credit returns can take up to 48 hours, card and most other payment-method returns up to 30 days, and mobile billing up to 60 days. SIMNETIQ cannot speed up Apple or bank processing."
+      ]
+    }
+  ]
+}

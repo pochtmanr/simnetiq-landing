@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Dukungan",
+    "description": "Dapatkan bantuan SMS Code untuk aktivasi, penagihan, koin, dan pertanyaan akun. Baca panduan pemecahan masalah atau hubungi tim dukungan lewat email."
+  },
+  "page": {
+    "label": "Dukungan",
+    "title": "Ada yang bisa kami bantu?",
+    "introBefore": "Kirim pesan di bawah atau email ",
+    "introAfter": " — sertakan detail di bawah agar kami dapat meninjau permintaan Anda dan membalas lewat email.",
+    "items": [
+      {
+        "title": "Masalah aktivasi",
+        "body": "SMS belum masuk? Pembatalan tersedia dua menit setelah nomor ditetapkan, sebelum SMS tiba, dan mengembalikan koin ke saldo Anda. Baca panduan pemecahan masalah sebelum mencoba lagi.",
+        "slug": "activation-issues"
+      },
+      {
+        "title": "Penagihan & koin",
+        "body": "Pembelian lewat App Store. Sertakan tanda terima toko atau ID pesanan, dan kami akan menelusuri koin yang hilang.",
+        "slug": "billing-coins-refunds"
+      },
+      {
+        "title": "Menjaga saldo Anda",
+        "body": "Koin Anda ada di akun SMS Code, bukan di tanda terima App Store. Jika Anda hanya pernah memakai aplikasi secara anonim, memasang ulang membuat akun baru dan saldo tidak ikut — jadi masuk (Apple, Google, atau kode email) selagi Anda masih punya koin, dan koin itu akan ada di perangkat mana pun yang Anda masuki. Sudah memasang ulang dan saldo hilang? Tulis kepada kami dengan tanda terima App Store atau ID pesanan, dan kami akan mengurusnya.",
+        "slug": "account-balance"
+      }
+    ],
+    "readGuide": "Baca panduan",
+    "knowledgeBase": "Basis pengetahuan",
+    "safetyTitle": "Memilih negara dan tetap aman",
+    "safetyLink": "Cara memilih negara dan melindungi akun Anda"
+  },
+  "form": {
+    "name": "Nama Anda",
+    "namePlaceholder": "Andi",
+    "email": "Email",
+    "emailPlaceholder": "anda@example.com",
+    "topic": "Topik",
+    "topicPlaceholder": "Pilih topik",
+    "topics": [
+      "Aktivasi tidak masuk",
+      "Penagihan & koin",
+      "Akun & pulihkan pembelian",
+      "Laporan bug",
+      "Permintaan fitur",
+      "Lainnya"
+    ],
+    "message": "Pesan",
+    "messagePlaceholder": "Ceritakan apa yang terjadi — layanan, negara, dan perkiraan waktu aktivasi membantu kami menemukannya dengan cepat.",
+    "honeypot": "Biarkan kolom ini kosong",
+    "send": "Kirim pesan",
+    "sending": "Mengirim…",
+    "genericError": "Terjadi kesalahan. Silakan coba lagi.",
+    "sentChip": "Terkirim",
+    "sentTitle": "Pesan diterima",
+    "sentBody": "Permintaan Anda telah dikirim. Kami akan meninjaunya dan membalas ke alamat email yang Anda berikan.",
+    "sendAnother": "Kirim pesan lain"
+  },
+  "help": {
+    "label": "Basis pengetahuan",
+    "updatedLabel": "Terakhir diperbarui:",
+    "back": "Dukungan dan formulir kontak",
+    "appleTitle": "Panduan resmi Apple",
+    "appleLinks": {
+      "refund": "Minta pengembalian dana",
+      "instructions": "Petunjuk pengembalian dana Apple",
+      "status": "Status pengembalian dana dan jangka waktu pembayaran",
+      "terms": "Ketentuan regional Apple",
+      "support": "Dukungan Apple"
+    },
+    "appleNote": "Panduan diperiksa terhadap materi dukungan resmi Apple pada 30 September 2026. Kelayakan pengembalian dana bergantung pada wilayah Anda dan hukum yang berlaku.",
+    "related": "Bantuan terkait",
+    "terms": "Ketentuan layanan",
+    "privacy": "Kebijakan privasi"
+  },
+  "api": {
+    "invalidBody": "Isi permintaan tidak valid.",
+    "invalidJson": "JSON tidak valid.",
+    "name": "Silakan masukkan nama Anda.",
+    "email": "Silakan masukkan alamat email yang valid.",
+    "topic": "Topik terlalu panjang.",
+    "message": "Jelaskan masalah Anda dalam minimal 10 karakter.",
+    "unavailable": "Formulir dukungan untuk sementara tidak tersedia. Silakan kirim email kepada kami.",
+    "saveFailed": "Kami tidak dapat menyimpan pesan Anda. Silakan coba lagi atau kirim email kepada kami.",
+    "forbidden": "Permintaan ini tidak berasal dari halaman dukungan. Muat ulang dan coba lagi.",
+    "challenge": "Selesaikan pemeriksaan verifikasi lalu coba lagi.",
+    "replySubject": "Dukungan SMS Code"
+  }
+}

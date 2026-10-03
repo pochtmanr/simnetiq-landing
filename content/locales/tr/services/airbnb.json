@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Airbnb için sanal numara",
+  "metaDescription": "Airbnb hesabınızı gerçek bir sanal numarayla doğrulayın. SMS kodu genellikle saniyeler içinde gelir — kişisel numaranızı paylaşmadan konaklama ayırtın.",
+  "hero": {
+    "title": "Airbnb için sanal numara",
+    "intro": [
+      "Airbnb yabancılar arasındaki güvene dayanır ve doğrulanmış bir telefon numarası o duvarın ilk tuğlalarından biridir. Bir konaklama ayırtmadan önce — ve çoğu zaman bir ev sahibi talebe yanıt vermeden önce — Airbnb ulaşılabilir olduğunuzu onaylamak ister ve bunu hesabınızdaki numaraya gönderilen bir SMS koduyla yapar.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız, onu Airbnb kaydı sırasında girersiniz ve altı haneli kod SMS Code uygulamasında genellikle saniyeler içinde görünür. Doğrulanmış bir hesap alırsınız; kişisel numaranız sizde kalır."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Airbnb için neden sanal numara?",
+    "body": [
+      "Tuhaf kısım şudur: rezervasyon onaylandıktan sonra telefon numaranızı Airbnb’de neredeyse hiç kullanmazsınız. Misafirler ve ev sahipleri uygulama üzerinden yazışır ve aramalar bile Airbnb’nin maskeli aktarım numaralarından gider; tam da iki tarafın diğerinin gerçek iletişimini görmemesi için. Yine de kayıt, SMS alabilen bir numara ister — doğrulama platform içindir, rezervasyonun öbür ucundaki kişi için değil.",
+      "Bu, gizliliğine önem veren gezginler için sanal numarayı doğal bir uyum yapar. Hesabınız doğrulanır ve diğerleri gibi konaklama ayırtır ama profilinize bağlı numara günlük hayatınızı izleyen numara değildir — bir ev sahibinin kişi listesine, bir pazarlama veritabanına veya planlamadığınız başka bir yere düşemez."
+    ]
+  },
+  "howTo": {
+    "title": "Airbnb’yi sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara alın",
+        "body": "SMS Code uygulamasını açın, servis olarak Airbnb’yi seçin ve bir ülke seçin — birçok gezgin gerçekten ayırttığı ülkeyi seçer, ABD, Fransa veya İspanya gibi. Numara anında size ayrılır."
+      },
+      {
+        "title": "Airbnb kaydı sırasında ekleyin",
+        "body": "Airbnb hesabınızı oluşturun (e-posta veya sosyal giriş ikisi de olur) ve Airbnb telefonunuzu doğrulamanızı istediğinde kiralanan numarayı girin. Seçtiğiniz ülke kodunun numaranın ülkesiyle eşleştiğinden emin olun."
+      },
+      {
+        "title": "SMS kodunu yazın",
+        "body": "Metin SMS Code uygulamasına genellikle saniyeler içinde düşer — “Your Airbnb verification code is: 517203.” Onu Airbnb’nin doğrulama ekranına girin, telefonunuz onaylanır."
+      },
+      {
+        "title": "Profilinizi bitirin",
+        "body": "Bir fotoğraf ekleyin, e-postanızı onaylayın ve Airbnb’nin istediği kimlik adımlarını tamamlayın. Dolu bir profil Airbnb’de önemlidir — ev sahipleri talepleri boş profillerden çok tamamlanmış profillerden kabul eder."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Doğruladığınız hesapla ayırtın",
+      "body": "Airbnb telefon doğrulamasını cihaza değil, hesaba bağlar. Doğrulamayı gerçekten ayırtacağınız hesapta yapın ve oturumu canlı tutun — gündelik giriş e-posta veya sosyal girişle olur, SMS ile değil."
+    },
+    {
+      "title": "Mesajlar uygulamanın içinde kalır",
+      "body": "Ev sahipleri sizinle Airbnb’nin kendi mesajlaşması üzerinden iletişim kurar ve telefon aramaları maskeli aktarım numaralarından yönlendirilir. Bir rezervasyon hakkında haber almak için SMS’e hiç bağlı kalmamak üzere Airbnb uygulamasında anlık bildirimleri açın."
+    },
+    {
+      "title": "Kimlik kontrolleri ayrıdır",
+      "body": "Bazı rezervasyonlarda Airbnb ayrıca resmi bir kimlik doğrulamanızı ister. Bu, telefon doğrulamasından bağımsız bir adımdır — sanal numara onu iki yönde de etkilemez ve kimlik gerçekten sizin olmalıdır. Airbnb hesapları koşullarına göre kişiseldir ve devredilemez."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ev sahipleri doğruladığım sanal numarayı görür mü?",
+      "a": "Hayır. Ev sahipleri ve misafirler Airbnb mesajlaşması üzerinden iletişim kurar ve aramalar iki tarafta da maskeli aktarım numaralarından gider. Hesabınızdaki numara Airbnb’nin doğrulaması içindir, ev sahiplerine gösterilen bir şey değildir."
+    },
+    {
+      "q": "Sanal numarayla doğruladıktan sonra konaklamaları normal ayırtabilir miyim?",
+      "a": "Evet. Gerçek bir operatördeki gerçek bir mobil numaradır ve kod onaylandıktan sonra hesabınız diğerleri gibi doğrulanır. Rezervasyon, mesajlaşma ve yorumlar aynı çalışır."
+    },
+    {
+      "q": "Kiralanan numaranın etkinleştirme penceresi bitince ne olur?",
+      "a": "Hesabınız çalışmaya devam eder — numara sürekli değil, doğrulamada kontrol edilir. Oturum açık kalsın ve e-postanız onaylı kalsın; hesaba gündelik dönüş yolunuz e-postadır. Airbnb telefonu yeniden doğrulamanızı isterse dosyadaki numarayı taze biriyle güncelleyebilirsiniz."
+    },
+    {
+      "q": "Airbnb kodum neden gelmedi?",
+      "a": "Olağan şüpheliler: Airbnb’de seçilen ülke kodu kiralanan numarayla uyuşmuyor ya da istek zaman aşımına uğradı. SMS Code’da etkinleştirmeyi iptal edin — hiçbir şey almayan numaralar için jetonlar geri gelir — ve ülkeyi iki kez kontrol ederek yeni bir numarayla yeniden deneyin."
+    },
+    {
+      "q": "Airbnb’yi sanal numarayla doğrulamak serbest mi?",
+      "a": "Airbnb’nin kontrolü çalışan bir numarayı kontrol ettiğinizi onaylar; bu amaçla bir tane kiralamak olağan kişisel kullanım için uygundur. Airbnb’nin ısrar ettiği şey hesabın gerçek sizi temsil etmesidir — gerçek adınızı, istendiğinde kendi kimliğinizi ve kişi başına bir hesabı kullanın."
+    }
+  ]
+}

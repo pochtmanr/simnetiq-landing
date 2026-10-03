@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o PayPal — leia antes de verificar",
+  "metaDescription": "O PayPal manda um código de segurança no cadastro, e um número virtual pode recebê-lo. Numa conta de dinheiro, porém, o número é âncora de segurança.",
+  "hero": {
+    "title": "Número virtual para o PayPal",
+    "intro": [
+      "O PayPal confirma um número de telefone cedo: no cadastro manda “Your PayPal security code is: 305174. It expires in 10 minutes.” e não segue até o código ser digitado. Desse momento em diante o número não é formalidade — passa a fazer parte de como o PayPal decide se um acesso, um pagamento ou uma mudança de limite é realmente você.",
+      "Um número virtual do SMS Code recebe esse código em geral em segundos, como qualquer celular real. Mas o PayPal é uma conta de dinheiro, e preferimos ser diretos a vender um atalho: leia as trocas abaixo antes de verificar e decida onde o número deve — e não deve — ficar na segurança da sua conta."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o PayPal?",
+    "body": [
+      "O caso de privacidade é real. O banco de dados de uma empresa de pagamento é ímã de listas de marketing e, de vez em quando, de vazamentos; o seu número de celular é a peça que liga um perfil de pagamento ao resto da sua vida. Alugar um número para o SMS único de cadastro mantém o seu número pessoal fora desse registro e ainda prova ao PayPal que um telefone real atendeu.",
+      "Agora a parte honesta. O PayPal continua usando o número verificado em checagens extras — um acesso de um aparelho novo, uma revisão de segurança, um posto de limite. Se uma dessas checagens disparar depois que a janela da ativação do número alugado fechou, você fica trancado numa conta com dinheiro, e a recuperação vira chamado de suporte e documentos de identidade, não um toque. Então a nossa recomendação de fato: use o número virtual para o código de cadastro e depois passe a segurança contínua para canais que você sempre controla — o seu e-mail, um aplicativo autenticador e, se for manter saldo real lá, um número de celular que vive no seu bolso."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o PayPal com um número virtual",
+    "steps": [
+      {
+        "title": "Alugue um número no país certo",
+        "body": "No SMS Code escolha PayPal e o país em que a sua conta PayPal está registrada. Contas PayPal são específicas de país, e um número de um país diferente da conta é um desencontro que as checagens de risco notam."
+      },
+      {
+        "title": "Digite no passo do telefone",
+        "body": "Durante o cadastro — ou nos ajustes, quando o PayPal pede para confirmar um telefone — selecione o código do país correspondente e digite o número exatamente."
+      },
+      {
+        "title": "Digite o código rápido",
+        "body": "O SMS diz “Your PayPal security code is: 305174. It expires in 10 minutes.” Ele chega no aplicativo SMS Code em geral em segundos — digite antes de os dez minutos acabarem."
+      },
+      {
+        "title": "Passe a segurança para canais que você controla",
+        "body": "Na hora, confirme o seu e-mail, defina uma senha forte e única e adicione um aplicativo autenticador nos ajustes de segurança do PayPal. Se você for guardar dinheiro de verdade na conta, substitua o número alugado por um que você sempre alcança — um número de segurança inalcançável numa conta de dinheiro é um risco, não uma conveniência."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Consistência de país não é opcional",
+      "body": "O PayPal amarra a conta a um país no cadastro — endereço, banco, cartões e telefone devem concordar. Um número do mesmo país da conta mantém as checagens quietas; um que não combina convida revisão. Escolha o país de propósito."
+    },
+    {
+      "title": "Trate o número como ferramenta de uso único",
+      "body": "O número alugado é excelente num trabalho: receber o código de cadastro sem expor o seu. É uma âncora permanente ruim de 2FA para uma conta que guarda dinheiro — a janela da ativação termina, os avisos de segurança do PayPal não. Troque assim que a conta estiver configurada."
+    },
+    {
+      "title": "Fique dentro das regras do PayPal",
+      "body": "Os termos do PayPal exigem informações verdadeiras da conta, e as checagens ficam mais rígidas conforme o dinheiro se move. Use um número virtual para manter o seu celular pessoal privado — não para fingir ser alguém ou estar onde você não está. Contas com dados falseados são as que acabam limitadas."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Um número virtual recebe o SMS de verificação do PayPal?",
+      "a": "Recebe — é um número de celular real numa rede real, e o código de cadastro do PayPal chega no aplicativo SMS Code em geral em segundos. O código expira em dez minutos, então deixe a tela de cadastro aberta quando pedir."
+    },
+    {
+      "q": "É seguro deixar o número alugado na minha conta PayPal?",
+      "a": "Como contato permanente de segurança — não, e não vamos fingir o contrário. O PayPal manda texto para esse número quando desconfia de um acesso ou revisa a conta; se a janela da ativação terminou, essas checagens falham. Use no passo do cadastro e depois substitua pelo seu e-mail, um aplicativo autenticador e um número que você controla."
+    },
+    {
+      "q": "E se o PayPal pedir um SMS depois que o meu número expirou?",
+      "a": "Esse é exatamente o cenário para planejar. Espere um caminho mais lento: provar a sua identidade ao suporte do PayPal com documentos, o que pode levar dias e limitar a conta nesse meio-tempo. Fazer o quarto passo no primeiro dia — passar a segurança para canais que são seus — faz com que essa situação simplesmente não apareça."
+    },
+    {
+      "q": "O país do número precisa combinar com o país do meu PayPal?",
+      "a": "Sim, faça combinar. Contas PayPal são abertas para um país específico, e o telefone faz parte desse quadro. Um número do mesmo país deixa a verificação tranquila; um estrangeiro é uma bandeira que pode disparar revisão extra mesmo quando o resto está em ordem."
+    },
+    {
+      "q": "Cadastrar o PayPal com número virtual é permitido?",
+      "a": "O PayPal verifica se você controla um número que funciona; alugar um por privacidade no passo do SMS faz isso com honestidade. O que os termos do PayPal exigem é informação verdadeira da conta — o seu nome real, o seu país real. Use o número virtual para proteger a privacidade, não para disfarçar a identidade, e você está usando do jeito para o qual ele serve."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Telegram için sanal numara",
+  "metaDescription": "Telegram için gerçek sanal numara alın; doğrulama genellikle saniyeler içinde gelir. SIM olmadan yeni veya ikinci hesap açın, kendi numaranız gizli kalsın.",
+  "hero": {
+    "title": "Telegram için sanal numara",
+    "intro": [
+      "Telegram, kullanıcı adı seçmeden, bir gruba katılmadan veya tek bir mesaj göndermeden önce, ilk ekranda telefon numarası ister. Bu numara hesabın kalıcı dayanağı olur ve varsayılan olarak kişileriniz onu görebilir.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir numara kiralarsınız, onu Telegram’a yazarsınız ve doğrulama kodu uygulamada genellikle saniyeler içinde görünür. Kişisel numaranız Telegram sunucularına hiç değmez."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Telegram için neden sanal numara?",
+    "body": [
+      "Telegram telefon numarasının etrafında kuruludur: girişiniz, kurtarma yönteminiz ve — gizlilik ayarlarını değiştirmezseniz — grup sohbetlerindeki yabancıların sizi bulmak için kullandığı şey odur. Sanal numara bu bağı tamamen keser: hesap aynı çalışır ama size ait olmayan bir numaraya işaret eder.",
+      "İkinci hesap için de pratik yoldur. Telegram tek uygulamada birden fazla hesabı resmen destekler ama her birinin kendi numarası gerekir. Sanal numara, ikinci bir SIM almadan iş profilinize, proje kanalınıza veya test hesabınıza ayrı bir kimlik verir."
+    ]
+  },
+  "howTo": {
+    "title": "Telegram’ı sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara alın",
+        "body": "SMS Code uygulamasını açın, servis olarak Telegram’ı seçin, bir ülke seçin ve bir kez dokunun. Yalnızca size ayrılmış gerçek bir mobil numara alırsınız."
+      },
+      {
+        "title": "Onu Telegram’a girin",
+        "body": "Telegram kayıt ekranında eşleşen ülke kodunu seçin ve numarayı yazın. Ülkeyi iki kez kontrol edin — ülke kodunun numarayla uyuşmaması, kodun gelmemesinin en sık nedenidir."
+      },
+      {
+        "title": "Kodu SMS Code’dan alın",
+        "body": "SMS, SMS Code uygulamasına genellikle saniyeler içinde düşer. Şuna benzer: “Telegram code: 48329”. Kodu Telegram’a yazın, girişiniz tamam."
+      },
+      {
+        "title": "Hesabı kilitleyin",
+        "body": "Girişten hemen sonra Ayarlar → Gizlilik ve Güvenlik → İki Adımlı Doğrulama bölümünden bir bulut parolası belirleyin. 2FA açıkken sonraki girişler yeni bir SMS almaya bağlı kalmaz."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kod mevcut bir oturuma gidebilir",
+      "body": "Numara daha önce Telegram’da kullanıldıysa giriş kodu SMS yerine aktif oturuma gider. SMS Code size yeni bir numara verir; daha sonra yeniden doğrularsanız kodun Telegram’ın içinde görünebileceğini unutmayın."
+    },
+    {
+      "title": "Oturumunuz açık kalsın",
+      "body": "Oturum aktifken Telegram nadiren yeniden doğrulama ister. Tek cihazınızdan çıkış yapmayın ve bulut parolasını ekleyin — kiralanan numaranın etkinleştirme penceresi bitse de hesap çalışmaya devam eder."
+    },
+    {
+      "title": "Numarayı her durumda gizleyin",
+      "body": "Ayarlar → Gizlilik ve Güvenlik → Telefon Numarası bölümünde “Numaramı kimler görebilir” seçeneğini Hiç kimse yapın. Sanal numarada bile bu doğru alışkanlıktır: grup üyeleri yalnızca kullanıcı adınızı görür."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Numaranın süresi bitince Telegram hesabım çalışmaya devam eder mi?",
+      "a": "Evet. Numara yalnızca doğrulama adımında gerekir. Oturumunuz açık kaldığı ve İki Adımlı Doğrulamayı (bulut parolası) açtığınız sürece hesap normal çalışır: Telegram sonraki giriş kodlarını SMS ile değil, aktif oturumunuza gönderir."
+    },
+    {
+      "q": "Sanal numarayla ikinci bir Telegram hesabı açabilir miyim?",
+      "a": "Evet — en sık kullanımlardan biridir. Telegram tek uygulamada birden fazla hesabı destekler: sanal numaranızı ikinci hesap olarak ekleyin ve profiller arasında tek dokunuşla geçin."
+    },
+    {
+      "q": "Telegram kodum neden gelmedi?",
+      "a": "Olağan nedenler: Telegram’a girilen ülke kodu numarayla uyuşmuyor ya da Telegram kodu önceki bir oturuma göndermeye karar verdi. SMS Code’da bekleyen etkinleştirmeyi iptal edin — hiçbir şey almayan numaraların jetonları bakiyenize döner — ve yeni bir numara deneyin."
+    },
+    {
+      "q": "Sanal numara kullandığım başkalarına görünür mü?",
+      "a": "Hayır. Bu, gerçek bir operatör ağındaki gerçek bir mobil numaradır. Diğer kullanıcılara hesap herhangi bir hesap gibi görünür; numarayı gizlilik ayarlarında gizlerseniz yalnızca kullanıcı adınızı görürler."
+    },
+    {
+      "q": "Telegram’a sanal numarayla kaydolmak serbest mi?",
+      "a": "Telegram, numaranın kimin adına kayıtlı olduğunu değil, numarayı sizin kontrol ettiğinizi doğrular. Kayıt için numara kiralamak olağan kişisel kullanım için uygundur; önemli olan içeri girdikten sonra Telegram’ın kendi kullanım koşullarına uymaktır."
+    }
+  ]
+}

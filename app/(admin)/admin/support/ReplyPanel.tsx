@@ -29,6 +29,14 @@ type SendState =
   | { phase: "unsent"; message: string }
   | { phase: "failed"; message: string };
 
+function languageName(code: string): string {
+  try {
+    return new Intl.DisplayNames(["en"], { type: "language" }).of(code) ?? code;
+  } catch {
+    return code;
+  }
+}
+
 function mailto(row: SupportRow): string {
   const subject = row.topic ? `Re: ${row.topic}` : "SMS Code support";
   return `mailto:${encodeURIComponent(row.email)}?subject=${encodeURIComponent(subject)}`;
@@ -153,7 +161,11 @@ export function ReplyPanel({
         className="field mt-[10px] min-h-[110px] w-full resize-y"
         value={draft}
         onChange={(e) => setDraft(e.target.value.slice(0, 5000))}
-        placeholder={row.locale === "ru" ? "Ответ клиенту (по-русски)…" : "Reply to the customer…"}
+        placeholder={
+          row.locale && row.locale !== "en"
+            ? `Reply to the customer — they wrote from the ${languageName(row.locale)} site…`
+            : "Reply to the customer…"
+        }
         aria-label="Reply"
         disabled={busy}
       />

@@ -1,0 +1,41 @@
+{
+  "breadcrumbHome": "首页",
+  "breadcrumbHub": "虚拟号码",
+  "heroLabel": "虚拟号码",
+  "step": "步骤",
+  "tipsLabel": "先知道这些",
+  "tipsTitle": "验证之前",
+  "faqLabel": "问题",
+  "countriesLabel": "这个服务常用的国家/地区",
+  "relatedLabel": "相关服务",
+  "relatedTitle": "人们也会验证",
+  "ctaTitle": "不到一分钟拿到号码和验证码",
+  "ctaSupport": "有问题？联系客服",
+  "hub": {
+    "metaTitle": "短信验证用的虚拟号码 — 全部服务",
+    "metaDescription": "为 Telegram、WhatsApp、Google、Instagram 等租真实虚拟号码，验证码通常几秒内到达，无需 SIM、无需订阅。",
+    "label": "覆盖范围",
+    "title": "离任何注册，只差一个号码",
+    "sub": "选你要注册的服务——每篇指南都写了真实的验证流程、容易踩的坑，以及大家真正会问的问题。",
+    "allNote": "服务会持续增加——应用本身支持 100+ 个国家/地区的 100 多种服务。"
+  },
+  "categories": {
+    "messaging": "即时通讯",
+    "social": "社交媒体",
+    "finance": "金融",
+    "shopping": "购物",
+    "travel": "出行",
+    "entertainment": "娱乐",
+    "dev": "开发工具",
+    "other": "账号与平台"
+  },
+  "country": {
+    "hubLabel": "按国家/地区",
+    "hubTitle": "按国家/地区选号码",
+    "dialingCode": "国际区号",
+    "numberFormat": "号码格式",
+    "servicesLabel": "常与该国家/地区一起验证的服务",
+    "allCountries": "全部国家/地区",
+    "breadcrumb": "国家/地区"
+  }
+}

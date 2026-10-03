@@ -1,0 +1,142 @@
+{
+  "title": "Telegram’a kendi numaranız olmadan kaydolun",
+  "description": "Telegram her zaman bir numara ister — sizin olmak zorunda değildir. Gerçek seçenekler: sanal numara, sabit hat, Fragment ve önemli gizlilik ayarları.",
+  "excerpt": "Telegram bir telefon numarası olmadan kaydolmanıza izin vermez — ama o numara sizin olmak zorunda değildir. Gerçekten işe yarayan seçenekler ve kimliğinizi bunun dışında tutan ayarlar burada.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Telegram’ı kurdunuz, “Mesajlaşmaya başla”ya dokundunuz — ve ilk ekran bir telefon numarası ister. E-posta seçeneği yok, “şimdilik atla” yok. Kişisel numaranızı bir veritabanının daha dışında tutmayı umuyorsanız o ekran bir duvar gibi gelir."
+    },
+    {
+      "type": "p",
+      "text": "Dürüst yanıt en baştan şudur: hiç telefon numarası olmadan Telegram hesabı oluşturmanın yolu yoktur. Telefonla doğrulama Telegram’ın hesapları tanımlama biçimine işlenmiştir ve çevrimiçi bulacağınız her çözüm bir yerde yine numara içerir. Yapabileceğiniz — kolayca — kendi numaranız olmadan kaydolmaktır. Hesap tam aynı çalışır; yalnızca cebinizdeki SIM karta bağlı değildir."
+    },
+    {
+      "type": "p",
+      "text": "Bu rehber gerçekten var olan üç yolu yürür, sonra sanal numarayla tam kaydı, kullandığınız numarayı gizleyen gizlilik ayarlarını ve hesabı kalıcı olarak sizde tutan tek adımı — bulut parolasını — gösterir."
+    },
+    {
+      "type": "h2",
+      "id": "your-real-options",
+      "text": "Gerçek seçenekleriniz (ve her birinin ne için olduğu)"
+    },
+    {
+      "type": "p",
+      "text": "Mitleri soyun — “e-posta ile kaydol” hiç var olmadı, “SIM’siz APK modları” bir kötü amaçlı yazılım piyangosudur — üç meşru yol kalır. Çok farklı insanlara hizmet ederler."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sanal numara. Doğrulama süresi boyunca gerçek bir mobil numara kiralarsınız, kodu alırsınız ve kaydolursunuz. Çoğu kişi için en hızlı ve en az pahalı yoldur: kişisel numaranız Telegram sunucularına hiç değmez ve oturumunuz açık kaldığı sürece hesap kiralama bittikten sonra da çalışır.",
+        "Sabit hat veya sabit numara. Telegram giriş kodunu SMS yerine sesli aramayla teslim edebilir, bu yüzden bir ev veya ofis sabit hattı teknik olarak bir hesabı doğrulayabilir. Sınırlar gerçektir: arama seçeneği yalnızca bir SMS denemesi zaman aşımına uğradıktan sonra çıkar, birçok sabit hat ve VoIP aralığı doğrudan reddedilir ve gelecekteki her yeniden doğrulama için o hatta uzun vadeli erişiminiz olmalıdır.",
+        "Fragment’ten anonim bir +888 numarası. Telegram’ın kendi blokzincir pazarı, yalnızca Telegram içinde çalışan ve hiç SIM gerektirmeyen sanal +888 numaralarını açık artırmaya çıkarır. Kâğıt üzerinde en özel seçenektir — ama farklı bir kitleye yöneliktir: Toncoin ile teklif verirsiniz, fiyatlar koleksiyon piyasasıyla yüzer ve başlamadan önce bir TON cüzdanı gerekir. “Yalnızca numaram olmadan bir hesap istiyorum” için fazladır."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Çoğu okur için pratik seçim birincisidir. Sanal numara gerçek bir operatör ağındaki gerçek bir numaradır — Telegram onu başka herhangi bir mobil numara gibi görür, özel durum yok, açık artırma beklemek yok. Asıl kaydı yapalım."
+    },
+    {
+      "type": "h2",
+      "id": "sign-up-with-a-virtual-number",
+      "text": "Sanal numarayla kaydolmak, adım adım"
+    },
+    {
+      "type": "p",
+      "text": "Bütün süreç birkaç dakika sürer. Telegram uygulaması ile SMS Code uygulamasının yan yana olması gerekir — kod ikincisine gelir, birincisine yazılır."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Telegram için bir numara kiralayın",
+          "body": "SMS Code uygulamasında servis olarak Telegram’ı seçin ve bir ülke seçin — 100+ ülkede gerçek mobil numaralar vardır. Tek dokunuş bir numarayı yalnızca size ayırır. Tek seferlik bir jeton paketinden etkinleştirme başına ödersiniz; abonelik yoktur ve kod hiç gelmezse etkinleştirme ücretsiz iptal olur."
+        },
+        {
+          "title": "Numarayı Telegram’a girin",
+          "body": "Telegram’ın kayıt ekranında kiralanan numaranızla eşleşen ülkeyi seçin, sonra numarayı yazın. Uyuşmayan ülke kodu kodun hiç görünmemesinin tek en sık nedenidir; İleri’ye dokunmadan önce iki kez kontrol edin."
+        },
+        {
+          "title": "Kodu bekleyin — genellikle saniyeler içinde düşer",
+          "body": "SMS Code’a geri dönün. Doğrulama SMS’i uygulamada, genellikle saniyeler içinde, “Telegram code: 48329” gibi görünür. Kodu Telegram’a kopyalayın."
+        },
+        {
+          "title": "Profili bitirin",
+          "body": "Bir ad seçin (gerçek olmak zorunda değildir) ve içeridesiniz. Tek bir gruba katılmadan önce aşağıdaki gizlilik ayarlarına iki dakika ayırın — hangi numarayı kullandığınızdan daha önemlidirler."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "privacy-settings-that-matter",
+      "text": "Sizi gerçekten gizleyen gizlilik ayarları"
+    },
+    {
+      "type": "p",
+      "text": "Hangi yolu seçerseniz seçin, doğruladığınız numara artık hesaba bağlıdır — ve varsayılan olarak Telegram onu kişilerinize gösterir ve onu kayıtlı tutan herkesin sizi bulmasına izin verir. İki ayar ve bir alışkanlık o boşlukları kapatır."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Numarayı gizleyin: Ayarlar → Gizlilik ve Güvenlik → Telefon Numarası → “Telefon numaramı kimler görebilir” → Hiç kimse. O andan itibaren grup üyeleri ve mesaj alıcıları yalnızca görünen adınızı görür.",
+        "Bulunmayı kontrol edin: aynı ekranda “Beni numaramla kimler bulabilir”i Kişilerim yapın. Yoksa numarayı adres defterinde tutmuş herkes — numara geri dönüştürüldüyse önceki sahibinin kişileri dahil — onu yeni hesabınızla eşleştirebilir.",
+        "Kullanıcı adıyla yaşayın: Ayarlar’da bir @kullanıcıadı belirleyin ve numara yerine onu paylaşın. Kullanıcı adları Telegram’ın insanların birbirini bulmasını istediği yoldur; telefon numarası bir giriş kimliği olarak kalabilir, başka bir şey değil."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "lock-it-with-a-cloud-password",
+      "text": "Kilitleyin: iki adımlı doğrulama parolası"
+    },
+    {
+      "type": "p",
+      "text": "İnsanların atladığı ve sonra pişman olduğu adım budur. Ayarlar → Gizlilik ve Güvenlik → İki Adımlı Doğrulama bölümünde bir bulut parolası belirleyin. Açıkken yeni bir cihazdan giriş hem kod hem parola ister — telefon numarasının kontrolü tek başına hesabı almak için hiçbir zaman yetmez."
+    },
+    {
+      "type": "callout",
+      "text": "Kiralanan numarayla kaydolduysanız bulut parolası isteğe bağlı değildir — hesabı kalıcı olarak sizin yapan odur. Hemen belirleyin, bir kurtarma e-postası ekleyin ve tek aktif oturumunuzdan çıkış yapmayın. Telegram sonraki giriş kodlarını SMS ile değil, aktif oturumlara gönderir; gündelik kullanım eski numaraya hiç bağlı kalmaz."
+    },
+    {
+      "type": "p",
+      "text": "Tam resim budur: başka herhangi bir Telegram hesabı gibi davranan, yalnızca kullanıcı adıyla bulunabilen, parola ile güvenceye alınmış ve en başından sizin olmayan bir numaraya işaret eden bir hesap."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sıkça sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Telegram’ı hiç telefon numarası olmadan kullanabilir miyim?",
+          "a": "Hayır. Telegram kayıtta numara ister, e-posta veya yalnızca kullanıcı adı alternatifi yoktur. Gerçekçi seçenekler sizin olmayan bir numaradır: kiralanan sanal numara, sesli arama kodu alabilen bir sabit hat veya Fragment’ten anonim bir +888 numarası."
+        },
+        {
+          "q": "Sanal numaranın süresi bitince hesabım çalışmayı bırakır mı?",
+          "a": "Hayır. Numara yalnızca doğrulamada kontrol edilir. Oturum açık kalsın ve İki Adımlı Doğrulamayı açın, hesap süresiz çalışır — Telegram sonraki giriş kodlarını SMS ile değil, aktif oturumunuza teslim eder."
+        },
+        {
+          "q": "Telegram’a ücretsiz çevrimiçi numarayla kaydolabilir miyim?",
+          "a": "Genellikle hayır. Ücretsiz SMS alma sitelerindeki numaralar binlerce kişiyle paylaşılır, Telegram onları neredeyse her zaman daha önce görmüştür ve kod teslim etmeyi reddeder — ya da numara başkasının hesabına bağlıdır. Kiralanan bir numara etkinleştirme boyunca yalnızca size ayrılır."
+        },
+        {
+          "q": "Sanal numarayla kaydolmak Telegram kurallarına aykırı mı?",
+          "a": "Telegram numarayı kimin adına kayıtlı olduğunu değil, kontrol ettiğinizi doğrular. Olağan kişisel kullanım için kiralanan numarayla kaydolmak uygundur — önemli olan içeri girdikten sonra Telegram’ın kullanım koşullarına uymaktır, herhangi bir hesap gibi."
+        },
+        {
+          "q": "Başkaları sanal numara kullandığımı anlayabilir mi?",
+          "a": "Hayır. Gerçek bir operatör ağındaki gerçek bir mobil numaradır, diğerlerinden ayırt edilemez. “Telefon numaramı kimler görebilir”i Hiç kimse yaptıktan sonra diğer kullanıcılar zaten yalnızca adınızı ve kullanıcı adınızı görür."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    }
+  ]
+}

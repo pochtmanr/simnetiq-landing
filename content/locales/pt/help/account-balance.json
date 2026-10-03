@@ -1,0 +1,26 @@
+{
+  "title": "Mantenha o saldo, recupere o acesso e exclua a conta",
+  "metaDescription": "Mantenha o saldo de moedas do SMS Code entre aparelhos, recupere o acesso à conta e exclua com segurança, sem perder moedas nem o reembolso.",
+  "sections": [
+    {
+      "title": "Entre antes de reinstalar",
+      "paragraphs": [
+        "As moedas pertencem à sua conta do SMS Code. Entre com Apple, Google ou um código por e-mail enquanto ainda tiver acesso ao saldo e use o mesmo acesso em outro aparelho. A conta de compras da Apple e o acesso ao SMS Code são coisas separadas.",
+        "Reinstalar usando uma conta anônima pode criar uma conta diferente. Restaurar compras na App Store, sozinho, não recria um saldo de moedas anônimo. Se você perdeu o acesso, fale com o suporte com o ID do pedido da Apple e os dados da conta que ainda tiver; a recuperação exige verificação."
+      ]
+    },
+    {
+      "title": "Antes de excluir uma conta",
+      "paragraphs": [
+        "Excluir a conta e reembolsar um pagamento são ações separadas. Guarde os dados da compra de que você precisa, resolva qualquer ativação pendente e fale com o suporte sobre as moedas restantes antes de excluir. Peça qualquer reembolso de pagamento da Apple à parte.",
+        "Use a opção de exclusão de conta nos ajustes do aplicativo. Se você não conseguir acessá-la, fale com o suporte. A exclusão não cancela um pagamento da Apple, e registros necessários para obrigações legais ou tratamento de disputas podem ser mantidos como descrito na nossa Política de privacidade."
+      ]
+    },
+    {
+      "title": "Fale conosco com segurança",
+      "paragraphs": [
+        "Use o formulário de suporte ou support@simnetiq.com. Envie serviço, país, horário e identificadores de ativação ou de pedido, mas nunca uma senha, um código de verificação ou os dados completos do cartão. Revise as capturas de tela e tire informações sensíveis antes de compartilhar."
+      ]
+    }
+  ]
+}

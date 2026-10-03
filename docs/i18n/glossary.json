@@ -1,0 +1,113 @@
+{
+  "$comment": "Read by translators (see TRANSLATOR_BRIEF.md) and by scripts/i18n-check.ts. Service and competitor names are added automatically from lib/content/*/meta.ts, so they are not listed here. Terms come from the mobile app (sms-expo/locales) and the App Store listings (store-metadata), so the site uses the words people already see in the app.",
+
+  "doNotTranslate": [
+    "SMS Code",
+    "SIMNETIQ",
+    "SIMNETIQ LTD",
+    "simnetiq.xyz",
+    "support@simnetiq.com",
+    "App Store",
+    "eSIM"
+  ],
+
+  "aliases": {
+    "$comment": "Native spellings accepted in place of a Latin brand name, per locale. Add one only when that spelling is what people in the market actually search for.",
+    "ar": {},
+    "hi": {},
+    "zh": {}
+  },
+
+  "terms": {
+    "en": {
+      "virtual number": "virtual number",
+      "coins": "coins",
+      "activation": "activation",
+      "balance": "balance",
+      "sign in": "sign in",
+      "verification code": "verification code",
+      "seoKeywords": ["virtual number", "temp phone number", "receive sms online", "second number", "otp"]
+    },
+    "ru": {
+      "virtual number": "виртуальный номер",
+      "coins": "монеты",
+      "activation": "активация",
+      "balance": "баланс",
+      "sign in": "войти",
+      "verification code": "код подтверждения",
+      "seoKeywords": ["виртуальный номер", "временный номер", "приём смс онлайн", "одноразовый номер", "номер для регистрации"]
+    },
+    "zh": {
+      "virtual number": "虚拟号码",
+      "coins": "金币",
+      "activation": "激活",
+      "balance": "余额",
+      "sign in": "登录",
+      "verification code": "验证码",
+      "seoKeywords": ["虚拟号码", "临时手机号", "接码", "在线接收短信", "小号", "海外手机号"]
+    },
+    "hi": {
+      "virtual number": "वर्चुअल नंबर",
+      "coins": "सिक्के",
+      "activation": "सक्रियण",
+      "balance": "बैलेंस",
+      "sign in": "साइन इन",
+      "verification code": "OTP",
+      "seoKeywords": ["वर्चुअल नंबर", "OTP", "अस्थायी नंबर", "ऑनलाइन SMS", "temp number"]
+    },
+    "es": {
+      "virtual number": "número virtual",
+      "coins": "monedas",
+      "activation": "activación",
+      "balance": "saldo",
+      "sign in": "iniciar sesión",
+      "verification code": "código de verificación",
+      "seoKeywords": ["número virtual", "número temporal", "recibir SMS online", "número desechable", "segunda línea"]
+    },
+    "pt": {
+      "virtual number": "número virtual",
+      "coins": "moedas",
+      "activation": "ativação",
+      "balance": "saldo",
+      "sign in": "entrar",
+      "verification code": "código de verificação",
+      "seoKeywords": ["número virtual", "número temporário", "receber SMS online", "segundo chip", "número descartável"]
+    },
+    "id": {
+      "virtual number": "nomor virtual",
+      "coins": "koin",
+      "activation": "aktivasi",
+      "balance": "saldo",
+      "sign in": "masuk",
+      "verification code": "kode verifikasi",
+      "seoKeywords": ["nomor virtual", "nomor sementara", "terima SMS online", "nomor kedua", "OTP"]
+    },
+    "ar": {
+      "virtual number": "رقم افتراضي",
+      "coins": "عملات",
+      "activation": "تفعيل",
+      "balance": "الرصيد",
+      "sign in": "تسجيل الدخول",
+      "verification code": "رمز التحقق",
+      "seoKeywords": ["رقم افتراضي", "رقم مؤقت", "استقبال رسائل SMS", "رقم وهمي", "رقم ثاني"]
+    },
+    "fr": {
+      "virtual number": "numéro virtuel",
+      "coins": "pièces",
+      "activation": "activation",
+      "balance": "solde",
+      "sign in": "se connecter",
+      "verification code": "code de vérification",
+      "seoKeywords": ["numéro virtuel", "numéro temporaire", "recevoir SMS en ligne", "numéro jetable", "seconde ligne"]
+    },
+    "tr": {
+      "virtual number": "sanal numara",
+      "coins": "jeton",
+      "activation": "etkinleştirme",
+      "balance": "bakiye",
+      "sign in": "giriş yap",
+      "verification code": "doğrulama kodu",
+      "seoKeywords": ["sanal numara", "geçici numara", "online SMS al", "tek kullanımlık numara", "ikinci hat"]
+    }
+  }
+}

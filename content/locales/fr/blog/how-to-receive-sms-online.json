@@ -1,0 +1,146 @@
+{
+  "title": "Recevoir un SMS en ligne sans votre numéro",
+  "description": "Trois façons de recevoir un SMS en ligne\u00a0: sites gratuits, seconde SIM ou numéro virtuel loué. Ce que chacune coûte et quand elle fonctionne vraiment.",
+  "excerpt": "Sites de codes gratuits, une seconde SIM, ou un numéro virtuel loué — trois voies pour recevoir des SMS de vérification en ligne, comparées honnêtement\u00a0: ce que chacune coûte, où chacune échoue, et comment celle qui est fiable fonctionne vraiment.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Quelque part entre «\u00a0créez un mot de passe\u00a0» et «\u00a0acceptez les conditions\u00a0», presque chaque inscription insère maintenant la même exigence\u00a0: saisissez votre numéro de téléphone. Les messageries l’exigent, les places de marché le veulent, même un forum que vous visiterez deux fois insiste pour vous envoyer un code à six chiffres avant de vous laisser entrer."
+    },
+    {
+      "type": "p",
+      "text": "Le code lui-même est inoffensif. Ce qui dérange, c’est le numéro derrière — un identifiant permanent et personnel qui survit au compte, relie vos profils, et ne peut pas être changé comme un mot de passe quand il fuit. La question pratique n’est donc pas comment éviter la vérification\u00a0; les services ne céderont pas là-dessus. C’est comment recevoir le SMS ailleurs que sur votre propre SIM."
+    },
+    {
+      "type": "p",
+      "text": "Il y a exactement trois façons de le faire. Ce guide les parcourt toutes — y compris les deux qui vous font surtout perdre du temps — puis montre le parcours complet avec celle qui fonctionne de façon fiable."
+    },
+    {
+      "type": "h2",
+      "id": "why-services-want-your-number",
+      "text": "Pourquoi les services exigent un numéro au départ"
+    },
+    {
+      "type": "p",
+      "text": "Cela vaut de comprendre à quoi vous avez affaire, parce que cela explique pourquoi certaines voies échouent. Les services vérifient les numéros de téléphone pour trois raisons, et la vie privée n’en est pas une."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Contrôle du spam. Un numéro de téléphone est la ressource rare la moins chère qu’un service puisse exiger. Les adresses e-mail sont gratuites et infinies\u00a0; les mobiles coûtent de l’argent et de la paperasse, donc en exiger un relève le prix de chaque faux compte.",
+        "Récupération de compte et 2FA. Une fois vérifié, le numéro devient un canal de connexion de recours — ce qui veut aussi dire que quiconque contrôle le numéro peut souvent réinitialiser le mot de passe. Cela coupe dans les deux sens, et nous y reviendrons.",
+        "Liaison d’identité. Un numéro relie votre compte à vos autres comptes, à vos contacts et, via votre opérateur, à votre identité légale. Pour les systèmes publicitaires, c’est la clé de jointure qui survit aux cookies effacés et aux nouveaux appareils."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Rien de tout cela n’exige que le numéro soit le vôtre. Le service ne contrôle qu’une chose\u00a0: que vous puissiez lire un code envoyé au numéro que vous avez tapé. Où ce numéro vit — une SIM dans votre poche ou une app sur votre écran — est invisible de leur côté."
+    },
+    {
+      "type": "h2",
+      "id": "three-ways-to-receive-sms-online",
+      "text": "Les trois façons de recevoir un SMS en ligne"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Numéros publics gratuits. Des dizaines de sites publient des numéros dont n’importe qui peut lire la boîte. Ils ne coûtent rien et fonctionnent parfois — mais chaque numéro est partagé avec des milliers d’inconnus, donc les services populaires ont depuis longtemps vu, signalé et bloqué la plupart. Quand l’un accepte le numéro, on vous dit souvent qu’il est déjà inscrit — parce que quelqu’un est passé avant. Et comme la boîte est publique, tout ce qui est envoyé à ce numéro, y compris un code de réinitialisation de mot de passe pour le compte que vous venez de créer, est lisible par tout le monde.",
+        "Une seconde SIM ou eSIM. Vraiment privée et permanente — c’est un vrai numéro qui n’est qu’à vous. Le compromis est le coût et la friction\u00a0: un forfait mensuel ou des obligations de recharge pour garder le numéro en vie, des exigences d’identité dans beaucoup de pays, et l’absurdité d’entretenir un forfait téléphone parce qu’un site voulait un code en 2026. Cela a du sens si vous avez besoin d’une seconde ligne de long terme\u00a0; c’est excessif pour des inscriptions.",
+        "Un numéro virtuel loué. Un vrai numéro mobile sur un vrai réseau d’opérateur, réservé à vous seul pour la durée d’une vérification. Vous payez par code reçu, le SMS apparaît dans une app, et il n’y a ni forfait, ni contrat, ni boîte partagée. C’est la voie du milieu\u00a0: privé comme une SIM, jetable comme il se doit."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Pour une vérification ponctuelle, le numéro loué est la voie qui tient vraiment. Voici tout le parcours, du début à la fin."
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-sms-code",
+      "text": "Recevoir un code avec SMS Code, étape par étape"
+    },
+    {
+      "type": "p",
+      "text": "Il vous faut l’app SMS Code et le formulaire d’inscription côte à côte. Le processus est le même que le service soit Telegram, une place de marché ou n’importe quoi d’autre de la liste — quelques minutes, de bout en bout."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Choisissez le service et un pays",
+          "body": "Dans SMS Code, choisissez ce que vous vérifiez — Telegram, WhatsApp, Google, plus de 100 services — et de quel pays le numéro doit venir. Des numéros sont disponibles dans plus de 100 pays\u00a0; un toucher en réserve un rien que pour vous."
+        },
+        {
+          "title": "Saisissez le numéro dans le formulaire d’inscription",
+          "body": "Tapez le numéro loué dans l’écran de vérification du service, en vous assurant que l’indicatif pays correspond. Un sélecteur de pays décalé est la raison la plus courante pour qu’un code n’arrive jamais."
+        },
+        {
+          "title": "Lisez le code dans l’app",
+          "body": "Le SMS arrive dans SMS Code généralement en quelques secondes et l’écran d’activation se met à jour en direct. Un toucher pour copier le code, collez-le dans le formulaire, et la vérification est faite."
+        },
+        {
+          "title": "Sécurisez correctement le compte",
+          "body": "Définissez un mot de passe fort, ajoutez un e-mail de récupération que vous contrôlez, et activez une authentification à deux facteurs qui ne repose pas sur le SMS. Une fois cela fait, le compte tient tout seul — le numéro loué a servi."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-number-is-the-wrong-tool",
+      "text": "Quand un numéro virtuel est le mauvais outil"
+    },
+    {
+      "type": "p",
+      "text": "Un guide honnête doit tracer cette ligne, parce que la même propriété qui rend un numéro loué excellent pour les inscriptions — il est temporaire — le rend mauvais pour tout ce qui continue de contrôler le numéro pendant des années."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Banques, courtiers et services de paiement. Les comptes financiers se revérifient par SMS en permanence — chaque nouvel appareil, chaque gros virement. Ils rapprochent aussi les numéros de votre identité enregistrée. Utilisez un numéro que vous détiendrez sur la durée, point.",
+        "Portails publics et tout ce qui est lié à votre identité légale. Les services fiscaux, les systèmes de santé et les connexions d’administration en ligne supposent que le numéro reste le vôtre pendant la vie du compte.",
+        "Tout compte dont le numéro de téléphone est la seule voie de récupération. Si vous perdez le mot de passe et que le seul chemin de réinitialisation du service est un SMS, un numéro que vous ne louez plus veut dire un compte que vous ne possédez plus. Soit ajoutez tout de suite une voie de récupération par e-mail, soit n’utilisez pas de numéro temporaire là."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "La règle simple\u00a0: un numéro virtuel est pour le moment de la vérification, pas pour la vie du compte. Si un service aura besoin de joindre ce numéro dans un an, donnez-lui un numéro qui sera encore le vôtre dans un an. Pour tout le reste — messageries, réseaux sociaux, boutiques, essais — le moment est tout ce qu’il y a."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Questions fréquentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Recevoir des SMS sur un numéro virtuel est-il légal\u00a0?",
+          "a": "Oui. Louer un numéro et y recevoir des messages est un service de télécom ordinaire, utilisé couramment pour la vie privée, le QA et le développement. Ce qui compte juridiquement, c’est ce que vous faites du compte ensuite — les conditions du service auquel vous vous inscrivez s’appliquent comme d’habitude."
+        },
+        {
+          "q": "Pourquoi les numéros en ligne gratuits sont-ils sans cesse refusés\u00a0?",
+          "a": "Parce qu’ils sont partagés. Des milliers de personnes ont utilisé le même numéro avant vous, donc les services soit le bloquent d’emblée, soit le signalent comme déjà inscrit. Un numéro loué vous est réservé seul pendant l’activation, ce qui est exactement la différence que le filtre anti-spam du service sonde."
+        },
+        {
+          "q": "Mon compte continuera-t-il après la fin de la location\u00a0?",
+          "a": "Oui, tant que le compte ne dépend pas de ce numéro pour la récupération. Le numéro est contrôlé à la vérification\u00a0; ensuite, le compte vit sur son mot de passe, son e-mail et ses sessions actives. Configurez cela correctement et rien dans l’usage quotidien ne touche l’ancien numéro."
+        },
+        {
+          "q": "Puis-je aussi recevoir des appels sur le numéro\u00a0?",
+          "a": "Non — les numéros SMS Code ne reçoivent que des textos. Si un service insiste sur un appel vocal comme seule méthode de vérification, un numéro SMS virtuel ne terminera pas ce parcours."
+        },
+        {
+          "q": "Combien cela coûte-t-il\u00a0?",
+          "a": "Vous achetez un pack de pièces en achat unique dans l’app et dépensez des pièces par activation — à partir de 20, selon le service et le pays, le prix exact étant affiché avant confirmation. Il n’y a pas d’abonnement et les pièces n’expirent pas, et si un code n’arrive jamais l’activation s’annule sans frais et les pièces reviennent."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

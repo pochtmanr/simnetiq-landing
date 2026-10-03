@@ -1,7 +1,9 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { ImageResponse } from "next/og";
-import { COMPANY, APP_NAME } from "../../lib/site";
+import { COMPANY, APP_NAME, SITE_URL } from "../../lib/site";
+
+const SITE_HOST = new URL(SITE_URL).host;
 
 /**
  * The share card, rendered rather than stored.
@@ -10,9 +12,10 @@ import { COMPANY, APP_NAME } from "../../lib/site";
  * carried the retired eSIM mark. Generating it means the card can never drift
  * from the brand mark again — it reads the same brand-logo.svg the nav does.
  *
- * Deliberately locale-neutral: mark, wordmark, domain, no prose. Every page's
- * OG title and description already come from its own metadata, so one card
- * serves both /en and /ru.
+ * Deliberately locale-neutral: mark, wordmark, company, domain — no prose, so
+ * no locale ever shares a card in someone else's language and the renderer
+ * needs no fonts beyond Latin. Every page's OG title and description already
+ * come from its own metadata.
  */
 
 export const size = { width: 1200, height: 630 };
@@ -49,27 +52,13 @@ export async function GET() {
               {APP_NAME}
             </div>
             <div style={{ display: "flex", fontSize: 26, color: "#5B6270" }}>
-              by {COMPANY}
+              {COMPANY}
             </div>
           </div>
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
-          <div
-            style={{
-              display: "flex",
-              maxWidth: 660,
-              fontSize: 54,
-              color: "#1E5AA8",
-              lineHeight: 1.15,
-              letterSpacing: -1.5,
-            }}
-          >
-            A number for the sign-up. Not for life.
-          </div>
-          <div style={{ display: "flex", fontSize: 28, color: "#5B6270" }}>
-            Real virtual numbers in 100+ countries · simnetiq.xyz
-          </div>
+        <div style={{ display: "flex", fontSize: 30, color: "#5B6270" }}>
+          {SITE_HOST}
         </div>
 
         <div

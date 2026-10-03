@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o Instagram — sem o seu chip",
+  "metaDescription": "Número virtual real para verificar o Instagram, em geral em segundos. Confirme uma conta nova, de marca ou segunda sem informar o seu número.",
+  "hero": {
+    "title": "Número virtual para o Instagram",
+    "intro": [
+      "O Instagram deixa você se cadastrar com um e-mail — mas o passo do celular raramente fica opcional por muito tempo. Um aparelho novo, uma rede desconhecida ou algumas ações rápidas logo depois do cadastro, e o Instagram pede para confirmar um número de celular antes de deixar você continuar. Esse número acaba ligado à conta.",
+      "Com o SMS Code você aluga um número real em um de 100+ países, entrega ao Instagram e o código de seis dígitos chega no aplicativo em geral em segundos. O seu número pessoal fica fora do grafo de contatos da Meta — e fora das sugestões de “pessoas que você talvez conheça” construídas em cima dele."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o Instagram?",
+    "body": [
+      "Um número de celular no Instagram faz mais do que verificar você uma vez: liga a conta à sua identidade na Meta e pode mostrar o seu perfil a quem tem o seu número salvo nos contatos. Se você está lançando uma página de marca, uma loja ou um perfil de criador que prefere manter separado da vida pessoal, um número virtual mantém essa parede — a conta verifica normalmente, mas não aponta de volta para você.",
+      "Também é o jeito limpo de tocar várias contas. O Instagram aceita oficialmente até cinco no mesmo aplicativo, mas, quando os sistemas desafiam uma delas, cada conta pode precisar do próprio ponto de contato para confirmar. Um número virtual dá a cada projeto o seu — sem juntar chips."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o Instagram com um número virtual",
+    "steps": [
+      {
+        "title": "Receba um número no SMS Code",
+        "body": "Abra o aplicativo SMS Code, escolha Instagram como serviço, escolha um país e toque uma vez. Um número de celular real fica reservado só para você — você paga por ativação, sem assinatura."
+      },
+      {
+        "title": "Digite no Instagram",
+        "body": "Esteja você na tela de cadastro ou diante de um aviso de “confirme o seu número de telefone” numa conta que já existe, selecione o código do país correspondente e digite o número exatamente como foi emitido."
+      },
+      {
+        "title": "Pegue o código no SMS Code",
+        "body": "O Instagram envia um SMS de seis dígitos — algo como “391 504 is your Instagram code. Don't share it.” Ele aparece no aplicativo SMS Code em geral em segundos; digite e a checagem passa."
+      },
+      {
+        "title": "Tire a conta do número alugado",
+        "body": "Adicione um e-mail que você controla e ligue a autenticação de dois fatores por aplicativo autenticador: Ajustes → Central de Contas → Senha e segurança. Depois disso, acessos e recuperação nunca mais dependem do número virtual."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Configure a conta direito antes de usar",
+      "body": "Um perfil com foto, bio e alguma publicação é simplesmente uma conta terminada, e uma conta terminada é convidada a reconfirmar o celular bem menos do que uma vazia. Se o Instagram continuar desafiando você, é o sistema antiabuso fazendo o trabalho dele — um número virtual passa na checagem comum de telefone, não é um jeito de contornar uma restrição ou um banimento."
+    },
+    {
+      "title": "Cadastro por e-mail não significa sem passo de celular",
+      "body": "Até contas registradas com e-mail recebem pedido de número de celular sempre que o Instagram quer uma confirmação extra — aparelho novo, rede incomum, uma rajada de atividade. Tenha isso em mente: o número virtual não é só para o cadastro, é para o posto de controle que pode vir depois."
+    },
+    {
+      "title": "Se o código não chegar, troque de número",
+      "body": "O Instagram às vezes limita o SMS para um número que pediu códigos há pouco. Não fique tocando em “reenviar” — cancele a ativação pendente no SMS Code (números que não receberam nada são sem custo) e pegue um número novo, ou tente outro país."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "A minha conta do Instagram continua depois que o número expira?",
+      "a": "Sim. O número só é necessário enquanto o código de verificação está sendo entregue. Quando você entrar, adicione um e-mail que controla e ative a autenticação de dois fatores por aplicativo autenticador na Central de Contas — aí a conta nunca mais precisa receber outro SMS nesse número."
+    },
+    {
+      "q": "Dá para criar uma segunda conta do Instagram com número virtual?",
+      "a": "Dá. A Meta permite várias contas e o Instagram aceita até cinco no mesmo aplicativo. Cada conta pode ser convidada a confirmar o próprio número de celular quando os sistemas do Instagram a desafiam, então dê a cada uma um número virtual separado, em vez de reutilizar um único ponto de contato."
+    },
+    {
+      "q": "Por que o Instagram fica pedindo para eu confirmar um celular?",
+      "a": "Esse é o fluxo de posto de controle. Em geral dispara quando uma conta parece automatizada: criada há instantes e já seguindo dezenas de pessoas, ou entrando de uma rede que o Instagram não viu. Vá mais devagar, complete o perfil e verifique uma vez com um número no qual você consegue receber o código."
+    },
+    {
+      "q": "Por que o código do Instagram não chegou?",
+      "a": "A causa mais comum é um código de país que não combina; a segunda é o Instagram limitar o SMS para um número que pediu códigos há pouco. Cancele a ativação pendente no SMS Code — as moedas de um número que não recebeu nada voltam para o seu saldo — e tente um número novo ou outro país."
+    },
+    {
+      "q": "Cadastrar o Instagram com número virtual é permitido?",
+      "a": "A verificação do Instagram confere se você consegue receber um código no número, não em nome de quem o chip está registrado. Alugar um número para o passo de confirmação é adequado para uso normal — uma página pessoal, uma marca ou uma loja. O que importa é seguir as regras da comunidade do próprio Instagram depois que você entra."
+    }
+  ]
+}

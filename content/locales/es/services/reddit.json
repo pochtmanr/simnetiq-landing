@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Reddit",
+  "metaDescription": "Recibe el código de Reddit en un número virtual real, normalmente en segundos. Pasa el control del teléfono sin atar tu cuenta a tu identidad real.",
+  "hero": {
+    "title": "Número virtual para Reddit",
+    "intro": [
+      "Reddit construyó toda su cultura sobre nombres de usuario en lugar de nombres reales y, de vez en cuando, pide el identificador más real que tienes. La mayoría de altas van solo con correo, pero ciertos flujos, redes y controles de «actividad sospechosa» ponen una pantalla de teléfono, y un texto como «Your Reddit verification code is 617293» se interpone entre tú y la portada.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países y el código cae en la aplicación normalmente en segundos. El control pasa, la cuenta se abre, y el seudónimo con el que publicas se queda desligado del número al que tu nombre va pegado en todas partes."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Reddit?",
+    "body": [
+      "En ningún sitio un teléfono desmonta tanto el sentido de la plataforma como en Reddit. La gente lo usa para preguntar de salud, hablar de su trabajo, publicar en comunidades de recuperación: justo lo que un nombre de usuario existe para mantener a distancia de una identidad real. Entregar tu móvil personal reconstruye en silencio el puente que el seudónimo debía quemar: un identificador, en una base más, que conecta tu nombre legal con tu historial de publicaciones.",
+      "La otra cara, honesta: muchas veces Reddit no pregunta. El alta solo con correo sigue siendo la norma, y el aviso del teléfono aparece según el caso: ciertas aplicaciones y regiones, tráfico de VPN y de redes compartidas, o una revisión de seguridad en una cuenta que ya existe. No alquiles un número por adelantado. Empieza el alta y, si aparece la pantalla del teléfono, ese es el momento en que un número alquilado se gana el sitio; una activación que cancelas antes de que llegue cualquier SMS no cuesta nada."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar Reddit con un número virtual",
+    "steps": [
+      {
+        "title": "Empieza primero el alta",
+        "body": "Crea la cuenta con un correo que controles y mira si Reddit siquiera pide un teléfono. Si no lo pide, has terminado y no gastaste nada. Si aparece la pantalla del teléfono, pasa al segundo paso."
+      },
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Elige Reddit como servicio y escoge un país. Un toque reserva un número móvil real solo para ti: reservado significa que nadie más lo está usando para Reddit al mismo tiempo."
+      },
+      {
+        "title": "Escribe el número y el código",
+        "body": "Selecciona el prefijo que corresponde en la pantalla de Reddit y escribe el número. El SMS dice «Your Reddit verification code is 617293» y aparece en la aplicación SMS Code normalmente en segundos: cópialo."
+      },
+      {
+        "title": "Despega el número después",
+        "body": "En Ajustes → Cuenta puedes ver y quitar el teléfono cuando la verificación esté hecha. Mantén el correo verificado y la contraseña fuerte: esos son los anclajes de verdad de la cuenta, y los flujos de recuperación de Reddit se apoyan en el correo, no en el SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Alquila cuando haga falta, no por adelantado",
+      "body": "El aviso de teléfono de Reddit es según el caso, no universal. Prueba primero el alta corriente con correo; tira de un número virtual solo cuando la pantalla de verdad lo exija. Esta página seguirá aquí."
+    },
+    {
+      "title": "El seudónimo se filtra de lado, no por el teléfono",
+      "body": "Cuando la cuestión del número está resuelta, los riesgos que quedan son de conducta: publicar el mismo usuario que usas en otros sitios, fotos reales, detalles identificables. Un número virtual cierra el vínculo más fuerte: combínalo con un correo que no sea nombre.apellido@ y un usuario que no uses en ningún otro sitio."
+    },
+    {
+      "title": "Las comunidades baneadas siguen baneadas",
+      "body": "Reddit aplica las suspensiones con muchas señales — dispositivos, conducta, redes —, no solo con teléfonos. Un número virtual protege la privacidad de una cuenta legítima; no es un kit para saltarse un baneo, y saltarse suspensiones incumple las normas de Reddit y suele acabar rápido."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Reddit exige un teléfono para registrarse?",
+      "a": "Normalmente no: el flujo estándar es solo el correo. La verificación por teléfono aparece según el caso: algunas aplicaciones y regiones, altas sobre VPN o redes compartidas, o controles de seguridad ante actividad rara. Cuando aparece, un número virtual recibe el código exactamente como lo haría una SIM."
+    },
+    {
+      "q": "¿Mi cuenta de Reddit deja de funcionar cuando caduca el número alquilado?",
+      "a": "No. El número se comprueba en la verificación, y puedes quitarlo después en Ajustes → Cuenta. Conserva un correo verificado y una contraseña fuerte: de eso corre de verdad la recuperación de Reddit."
+    },
+    {
+      "q": "¿Los usuarios o los moderadores de Reddit pueden ver mi número?",
+      "a": "No. El teléfono es fontanería de la cuenta, y nunca se muestra en tu perfil ni a otros usuarios. Lo que expone un seudónimo en Reddit es el contenido — usuarios reutilizados, fotos, detalles identificables —, no el número de verificación."
+    },
+    {
+      "q": "¿Puedo usar un número online gratis para Reddit?",
+      "a": "Rara vez con éxito. Los números públicos de los sitios de SMS gratis han pasado por miles de altas, y los controles de Reddit suelen reconocerlos y rechazarlos. Un número alquilado queda reservado solo para ti durante la activación, que es justo la diferencia que le importa al control."
+    },
+    {
+      "q": "El código de Reddit no llegó nunca. ¿Y ahora?",
+      "a": "Confirma que el prefijo coincide con el número alquilado y espera un momento: los códigos suelen caer en segundos. Si no llega nada, cancela la activación en SMS Code sin cargo y toma un número nuevo: solo pagas las activaciones que entregan un SMS."
+    }
+  ]
+}

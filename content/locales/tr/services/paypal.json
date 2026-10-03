@@ -1,0 +1,75 @@
+{
+  "metaTitle": "PayPal için sanal numara",
+  "metaDescription": "PayPal kayıtta güvenlik kodu gönderir; sanal numara onu alabilir. Para hesabında numara güvenlik dayanağıdır — doğrulamadan önce dürüst takası okuyun.",
+  "hero": {
+    "title": "PayPal için sanal numara",
+    "intro": [
+      "PayPal telefon numarasını erken onaylar: kayıt sırasında “Your PayPal security code is: 305174. It expires in 10 minutes.” diye mesaj atar ve kod girilene kadar ilerlemez. O andan itibaren numara bir formalite değildir — PayPal bir girişin, ödemenin veya limit değişikliğinin gerçekten siz olup olmadığına karar verirken kullandığı şeyin parçası olur.",
+      "SMS Code’dan bir sanal numara o kodu, herhangi bir gerçek mobil numara gibi, genellikle saniyeler içinde alır. Ama PayPal bir para hesabıdır ve size bir kestirme satmaktansa dürüst olmayı yeğleriz: doğrulamadan önce aşağıdaki takasları okuyun ve numaranın hesabınızın güvenliğinde nerede durması — ve durmaması — gerektiğine karar verin."
+    ]
+  },
+  "whyVirtual": {
+    "title": "PayPal için neden sanal numara?",
+    "body": [
+      "Gizlilik gerekçesi gerçektir. Bir ödeme şirketinin veritabanı pazarlama listeleri ve ara sıra sızıntılar için mıknatıstır; telefon numaranız bir ödeme profilini hayatınızın geri kalanına bağlayan parçadır. Tek seferlik kayıt SMS’i için numara kiralamak kişisel numaranızı o kaydın dışında tutar ve PayPal’a gerçek bir telefonun yanıt verdiğini yine kanıtlar.",
+      "Şimdi dürüst kısım. PayPal doğrulanmış numarayı adım yükseltme kontrolleri için kullanmaya devam eder — yeni bir cihazdan giriş, güvenlik incelemesi, limit kontrol noktası. Bu kontrollerden biri kiralanan numaranızın etkinleştirme penceresi kapandıktan sonra devreye girerse içinde para olan bir hesaptan kilitlenirsiniz ve kurtarma bir dokunuş değil, destek talepleri ve kimlik belgeleri demektir. Asıl önerimiz: sanal numarayı kayıt kodu için kullanın, sonra süregelen güvenliği her zaman kontrol edeceğiniz kanallara taşıyın — e-postanız, bir kimlik doğrulayıcı ve gerçek bakiye tutacaksanız cebinizde yaşayan bir telefon numarası."
+    ]
+  },
+  "howTo": {
+    "title": "PayPal’ı sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "Doğru ülkede bir numara kiralayın",
+        "body": "SMS Code’da PayPal’ı seçin ve PayPal hesabınızın kayıtlı olduğu ülkeyi seçin. PayPal hesapları ülkeye özeldir ve hesaptan farklı bir ülkeden numara, risk kontrollerinin fark ettiği bir uyuşmazlıktır."
+      },
+      {
+        "title": "Telefon adımında girin",
+        "body": "Kayıt sırasında — veya PayPal bir telefon onaylamanızı istediğinde ayarlarda — eşleşen ülke kodunu seçin ve numarayı tam olarak yazın."
+      },
+      {
+        "title": "Kodu çabuk yazın",
+        "body": "SMS “Your PayPal security code is: 305174. It expires in 10 minutes.” der. SMS Code uygulamasına genellikle saniyeler içinde ulaşır — on dakika dolmadan girin."
+      },
+      {
+        "title": "Güvenliği kontrol ettiğiniz kanallara taşıyın",
+        "body": "Hemen e-postanızı onaylayın, güçlü ve benzersiz bir parola belirleyin ve PayPal’ın güvenlik ayarlarına bir kimlik doğrulayıcı ekleyin. Hesapta gerçek para tutacaksanız kiralanan numarayı her zaman ulaşabileceğiniz bir numarayla değiştirin — para hesabında ulaşılamayan bir güvenlik numarası kolaylık değil, risktir."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Ülke tutarlılığı isteğe bağlı değildir",
+      "body": "PayPal hesabı kayıtta bir ülkeye bağlar — adres, banka, kartlar ve telefonun uyuşması beklenir. Hesapla aynı ülkeden bir numara kontrolleri sessiz tutar; uyuşmayanı incelemeye davet eder. Ülkeyi bilinçli seçin."
+    },
+    {
+      "title": "Numarayı tek seferlik bir araç olarak görün",
+      "body": "Kiralanan numara tek bir işte iyidir: kendi numaranızı açmadan kayıt kodunu almak. Para tutan bir hesap için kalıcı bir 2FA dayanağı olarak zayıftır — etkinleştirme penceresi biter, PayPal’ın güvenlik uyarıları bitmez. Hesap kurulur kurulmaz değiştirin."
+    },
+    {
+      "title": "PayPal’ın kuralları içinde kalın",
+      "body": "PayPal koşulları doğru hesap bilgisi ister ve para hareket ettikçe kontrolleri sıkılaşır. Sanal numarayı kişisel telefonunuzu gizli tutmak için kullanın — olmadığınız biri veya olmadığınız bir yer gibi görünmek için değil. Yanlış tanıtılan hesaplar sınırlananlardır."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Sanal numara PayPal’ın doğrulama SMS’ini alabilir mi?",
+      "a": "Evet — gerçek bir ağdaki gerçek bir mobil numaradır ve PayPal’ın kayıt kodu SMS Code uygulamasına genellikle saniyeler içinde gelir. Kod on dakikada sona erer; istediğinizde kayıt ekranı açık olsun."
+    },
+    {
+      "q": "Kiralanan numarayı PayPal hesabımda bırakmak güvenli mi?",
+      "a": "Kalıcı bir güvenlik kişisi olarak hayır ve aksini iddia etmeyiz. PayPal bir girişten şüphelendiğinde veya hesabı incelediğinde o numaraya mesaj atar; numaranın etkinleştirme penceresi bittiyse bu kontroller başarısız olur. Onu kayıt adımı için tutun, sonra e-postanız, bir kimlik doğrulayıcı ve kontrol ettiğiniz bir numarayla değiştirin."
+    },
+    {
+      "q": "Numaramın süresi bittikten sonra PayPal SMS isterse ne olur?",
+      "a": "Etrafında plan yapılacak senaryo tam budur. Daha yavaş bir yol bekleyin: kimliğinizi belgelerle PayPal desteğine kanıtlamak; bu günler sürebilir ve bu arada hesabı sınırlayabilir. İlk gün dördüncü adımı yapmak — güvenliği sahip olduğunuz kanallara taşımak — bu durumun hiç çıkmaması demektir."
+    },
+    {
+      "q": "Numaranın ülkesi PayPal ülkeminle eşleşmek zorunda mı?",
+      "a": "Evet, eşleştirin. PayPal hesapları belirli bir ülke için açılır ve telefon bu resmin parçasıdır. Aynı ülkeden bir numara doğrulamayı akıcı tutar; yabancı bir numara, geri kalan her şey yolunda olsa bile ek inceleme tetikleyebilen bir işarettir."
+    },
+    {
+      "q": "PayPal’a sanal numarayla kaydolmak serbest mi?",
+      "a": "PayPal çalışan bir numarayı kontrol ettiğinizi doğrular; SMS adımında gizlilik için bir tane kiralamak bunu dürüstçe yapar. PayPal koşullarının istediği şey doğru hesap bilgisidir — gerçek adınız, gerçek ülkeniz. Sanal numarayı kimliğinizi gizlemek için değil, gizliliğinizi korumak için kullanın; amaçlandığı gibi kullanmış olursunuz."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "metaTitle": "5SIM alternatifi — SMS Code, SIMNETIQ",
+  "metaDescription": "5SIM ile SIMNETIQ’ten SMS Code’u karşılaştırın: cüzdanlı web ve API, tek seferlik jeton paketleri, ücretsiz iptalli mobil uygulama.",
+  "hero": {
+    "title": "Yerel mobil uygulama olarak kurulan bir 5SIM alternatifi",
+    "intro": [
+      "5SIM, SMS doğrulama kodu almak için yerleşik bir web platformudur: bakiye yüklersiniz, ihtiyacınız olan servis için bir numara alırsınız ve kodu panelinizde okursunuz. Ana sayfaları toptan ve perakende kullanımı birlikte anlatır; otomasyon için bir API ve sitelerinin 180’den fazla ülke ile bin servisin üzerinde diye tarif ettiği bir katalog vardır.",
+      "SIMNETIQ’ten SMS Code aynı işe tüketici tarafından yaklaşır. Yerel bir iOS uygulamasıdır: servis ve ülke seçin, gerçek bir numara alın, kod uygulamada genellikle saniyeler içinde düşer. Apple faturalamasıyla tek seferlik jeton paketleriyle ödersiniz — web cüzdanı yok, abonelik yok — ve SMS hiç almayan etkinleştirmeler ücretsiz iptal olur."
+    ]
+  },
+  "whenThem": {
+    "title": "5SIM ne zaman daha iyi seçimdir",
+    "body": "Mesele hacim veya otomasyonsa 5SIM’i seçin. Platformları numarayı miktarla alan web yöneticilerine, SMM uzmanlarına ve girişimcilere yöneliktir ve API bütün döngüyü betiklemenize izin verir — satın al, SMS’i yokla, ilerle. Katalog da basitçe daha büyüktür: belirsiz bir servis veya alışılmadık bir ülke kombinasyonu gerekiyorsa o genişlikte bir platformun stokta bulundurma ihtimali, seçilmiş bir tüketici uygulamasından yüksektir."
+  },
+  "whenUs": {
+    "title": "SMS Code uygulaması ne zaman daha iyi uyar",
+    "body": "Hesapları yüzlük değil, kendiniz için doğruluyorsanız uygulamayı seçin. Önceden finanse edilecek bakiye yoktur ve telefon ekranında gezilecek panel yoktur: bütün akış — servis, ülke, numara, kod — App Store’dan kurulan yerel bir mobil deneyimdir. Tek seferlik jeton paketleri, mağaza faturalamasıyla etkinleştirme başına ödediğiniz anlamına gelir (kart ayrıntılarınız bize hiç ulaşmaz), kapsam 100+ ülke ve 100+ popüler servise uzanır ve alınmayan etkinleştirmeler otomatik ücretsiz iptal olur."
+  },
+  "comparison": {
+    "title": "5SIM ve SMS Code uygulaması, yan yana",
+    "rows": [
+      {
+        "label": "Platformlar",
+        "competitor": "Otomatik satın alma için API’si olan web platformu",
+        "us": "App Store’dan yerel iOS uygulaması"
+      },
+      {
+        "label": "Fiyat modeli",
+        "competitor": "Yüklenmiş cüzdan bakiyesinden numara başına ödeme",
+        "us": "Tek seferlik jeton paketleri, etkinleştirme başına ödeme — abonelik yok"
+      },
+      {
+        "label": "Ödeme",
+        "competitor": "Sitelerinin listelediği yöntemlerle web’de cüzdan yükleme",
+        "us": "Apple mağaza faturalaması — kart ayrıntıları bizimle paylaşılmaz"
+      },
+      {
+        "label": "Kapsam",
+        "competitor": "Siteleri 180+ ülke ve 1.000+ servislik bir katalog iddia eder",
+        "us": "Gündelik kayıtlar için seçilmiş 100+ ülke ve 100+ popüler servis"
+      },
+      {
+        "label": "İptal",
+        "competitor": "Kendi iade kurallarına tabidir — güncel koşullarına bakın",
+        "us": "SMS almayan etkinleştirmeler ücretsiz iptal olur, jetonlar döner"
+      },
+      {
+        "label": "Destek",
+        "competitor": "Siteleri 7/24 destek duyurur",
+        "us": "Uygulama içi ve site iletişim formu"
+      },
+      {
+        "label": "En uygun",
+        "competitor": "API ile doğrulamaları betikleyen toplu alıcılar ve geliştiriciler",
+        "us": "Ara sıra doğrulama için temiz bir mobil uygulama isteyen kişiler"
+      }
+    ],
+    "note": "Rakip ayrıntıları yazıldığı tarihteki herkese açık sitelerini yansıtır ve değişebilir — karar vermeden önce her zaman 5sim.net üzerinde doğrulayın."
+  },
+  "switchSteps": {
+    "title": "Uygulamayı denemek üç adım sürer",
+    "steps": [
+      {
+        "title": "Uygulamayı kurun",
+        "body": "SMS Code’u SIMNETIQ’ten App Store’dan alın — web hesabı veya cüzdan kurulumu gerekmez."
+      },
+      {
+        "title": "Bir jeton paketi alın",
+        "body": "Mağaza hesabınız üzerinden tek seferlik bir paket alın. Bir sitede oturan önceden finanse edilmiş bakiye yoktur; jetonları yalnızca bir numara etkinleştirdiğinizde harcarsınız."
+      },
+      {
+        "title": "İlk etkinleştirmenizi çalıştırın",
+        "body": "Bir servis ve ülke seçin, gerçek bir numara alın ve kodun uygulamada genellikle saniyeler içinde geldiğini izleyin. Hiçbir şey gelmezse etkinleştirme ücretsiz iptal olur."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "SMS Code uygulaması 5SIM’den nasıl ayrılır?",
+      "a": "5SIM, hacim alıcılarına yönelik, cüzdan bakiyesi ve API’si olan bir web platformudur. SIMNETIQ’ten SMS Code uygulaması kişiler için yerel bir mobil uygulamadır: mağaza faturalamasıyla tek seferlik jeton paketleri, etkinleştirme başına birkaç dokunuş ve SMS gelmediğinde ücretsiz iptal."
+    },
+    {
+      "q": "Uygulamanın 5SIM gibi bir API’si var mı?",
+      "a": "Hayır. Uygulama bilinçli olarak bir tüketici ürünüdür — numaraları programatik almanız gerekiyorsa 5SIM’in API’si daha iyi araçtır. Ara sıra bir koda ihtiyacınız varsa daha kısa yol uygulamadır."
+    },
+    {
+      "q": "Bakiyeyi önceden yüklemem gerekir mi?",
+      "a": "Apple faturalamasıyla tek seferlik jeton paketleri alırsınız ve etkinleştirme başına harcarsınız. Fonlanacak web cüzdanı yoktur ve abonelik yoktur."
+    },
+    {
+      "q": "Doğrulama kodu hiç gelmezse ne olur?",
+      "a": "Etkinleştirme iptal olur ve jetonlarınız otomatik döner. Yalnızca gerçekten SMS alan numaralar için ödersiniz."
+    },
+    {
+      "q": "5SIM’in ülke listesi uygulamanınkinden büyük mü?",
+      "a": "Kendi ana sayfalarına göre evet — siteleri uygulamanın 100+ ülkesine karşı 180+ ülke iddia eder. Uygulamanın listesi popüler servisler için güvenilir çalışan ülkelerin etrafında seçilmiştir; egzotik bir şey gerekiyorsa daha büyük bir katalog size daha iyi hizmet edebilir."
+    }
+  ]
+}

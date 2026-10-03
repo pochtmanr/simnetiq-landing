@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for adidas — Verify Your Shop Account",
+  "metaDescription": "Verify your adidas account with a real virtual number. The SMS code arrives usually within seconds — shop online without giving out your personal number.",
+  "hero": {
+    "title": "A virtual number for adidas",
+    "intro": [
+      "An adidas account is more than a checkout shortcut — it's membership in the adiClub program, order tracking, saved sizes and access to member-only releases. And like most large retailers, adidas increasingly wants a phone number it can verify by SMS, both at sign-up in some regions and as an extra check when something about a login or order looks unusual.",
+      "SMS Code rents you a real mobile number in one of 100+ countries. Enter it on the adidas account screen, and the verification code appears in the SMS Code app usually within seconds — the account is confirmed, and your everyday number stays out of yet another retail database."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for adidas?",
+    "body": [
+      "Retail databases are where phone numbers go to be marketed at. Give a shop your real number and it tends to resurface — promo SMS, “back in stock” pings, and, after the inevitable data leak somewhere in the industry, spam from parties you never dealt with. Verifying adidas with a virtual number gets you the working account without volunteering your personal number into that pipeline: marketing texts land on a rented number, not the one in your pocket.",
+      "One honest caveat: if you're eyeing limited releases, know that adidas raffles and hyped drops run under their own rules — typically one entry per person, with anti-bot checks that go well beyond a phone number. A virtual number is for keeping your private number private, not for multiplying raffle entries; that would break adidas's terms and usually gets entries voided anyway. For everyday shopping, adiClub membership and order tracking, it works exactly as a number should."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify adidas with a virtual number",
+    "steps": [
+      {
+        "title": "Get a number in SMS Code",
+        "body": "Open the SMS Code app, pick adidas as the service and choose a country — the US, UK or Germany are common picks since they're major adidas markets. The number is reserved for you at once."
+      },
+      {
+        "title": "Enter it in your adidas account",
+        "body": "Create your adidas account with an email, then add the rented number in the profile or when the site prompts for phone verification. Match the country code to the number's country."
+      },
+      {
+        "title": "Confirm with the SMS code",
+        "body": "The text arrives in the SMS Code app usually within seconds — “Your adidas verification code is 604927”. Type it into the adidas verification field and the number is confirmed."
+      },
+      {
+        "title": "Set your shipping and size details",
+        "body": "Fill in your delivery address and size preferences. Order updates arrive by email and app notifications, so day-to-day use of the shop doesn't depend on the phone number at all."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Match the store region to the number",
+      "body": "adidas runs separate country storefronts, and a US account pairs naturally with a US number. Keeping the store region, delivery country and number country consistent avoids tripping the shop's fraud checks on your first order."
+    },
+    {
+      "title": "Email is your real account anchor",
+      "body": "adidas logins run on email and password; the phone number is a verification and contact channel. Keep the email confirmed and the password strong, and the account works long after the rented number's activation window has closed."
+    },
+    {
+      "title": "Raffles play by their own rules",
+      "body": "Limited-edition drops use raffle systems with one-per-person policies and layered anti-bot checks. A virtual number won't — and shouldn't — change your odds there. Use it for privacy on your one genuine account, and enter drops the way the rules describe."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I always need a phone number for an adidas account?",
+      "a": "It depends on the region — some storefronts let you register with email alone, others ask for SMS verification at sign-up or before certain orders. When the prompt appears, a rented virtual number satisfies it without exposing your own."
+    },
+    {
+      "q": "Will order and delivery updates come by SMS?",
+      "a": "adidas primarily uses email and app notifications for order status; couriers may send their own texts depending on the carrier and country. Make sure your email is correct — that's where the essentials arrive."
+    },
+    {
+      "q": "Can I enter adidas raffles with multiple accounts on virtual numbers?",
+      "a": "No — and we don't help with that. Raffles are explicitly one entry per person, and adidas voids entries that break the rule. A virtual number is for keeping your personal number private on your single genuine account."
+    },
+    {
+      "q": "Why didn't my adidas verification code arrive?",
+      "a": "Check that the country code matches the rented number and that the store region corresponds to the number's country. If no SMS comes, cancel the activation in SMS Code — uncharged, since nothing arrived — and retry with a fresh number."
+    },
+    {
+      "q": "Will my adidas account keep working after the rented number expires?",
+      "a": "Yes. You log in with email and password; the number was needed for the verification moment. If adidas asks to re-verify the phone later, update the number in your profile to a newly rented one and confirm the new code."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Choosing a country and using temporary numbers safely",
+  "metaDescription": "Pick a country your target service accepts, handle failed delivery, and learn why temporary numbers should never protect banking or account recovery.",
+  "sections": [
+    {
+      "title": "Choose for the target service",
+      "paragraphs": [
+        "Select your service first, then a country it accepts for your legitimate use. If the service requires a local number, follow that requirement. Confirm that its signup form accepts the country’s dialing code before purchasing.",
+        "Recommended is a convenience suggestion based on your device region setting, not a promise of SMS delivery or number acceptance. Your physical location and the number’s country are different. No country guarantees delivery. Compare availability and the coin price shown before confirming."
+      ]
+    },
+    {
+      "title": "When delivery fails",
+      "paragraphs": [
+        "Check for an SMS option and any service cooldown. Some platforms reject temporary or virtual numbers. After the two-minute wait, cancel a number with no received SMS; consider another supported country only if the service permits it. Do not use country selection to bypass legal, identity or platform restrictions."
+      ]
+    },
+    {
+      "title": "Protect your account",
+      "paragraphs": [
+        "Numbers are temporary and may be reassigned. You do not own the number or retain access after the activation ends. Do not rely on it for banking, emergency services, long-term two-factor authentication or account recovery.",
+        "Where the platform permits it, add an email, passkey, authenticator or your own permanent recovery number before losing access. Never use a recycled number to enter another person’s account."
+      ]
+    }
+  ]
+}

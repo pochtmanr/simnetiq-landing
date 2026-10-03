@@ -1,0 +1,44 @@
+{
+  "title": "Penagihan, koin, dan pengembalian dana Apple",
+  "metaDescription": "Cara kerja paket koin SMS Code, apa yang dilakukan jika koin hilang atau ada tagihan tak dikenal, dan cara meminta pengembalian dana ke Apple.",
+  "sections": [
+    {
+      "title": "Cara kerja koin",
+      "paragraphs": [
+        "Paket koin adalah pembelian sekali di App Store, bukan langganan. Tidak ada perpanjangan otomatis. Koin tidak kedaluwarsa, tidak dapat dipindahtangankan, dan bukan dompet uang tunai. Harga aktivasi bergantung pada layanan dan negara, dan ditampilkan sebelum konfirmasi.",
+        "Pembatalan yang memenuhi syarat, penggantian nomor, kedaluwarsa tanpa SMS, atau penetapan nomor yang gagal mengembalikan koin aktivasi. Setelah SMS masuk, pembatalan tidak otomatis mengembalikan koin. Laporkan gangguan pengiriman atau penagihan ke dukungan untuk ditinjau."
+      ]
+    },
+    {
+      "title": "Koin hilang atau tagihan yang tidak dikenal",
+      "paragraphs": [
+        "Pastikan Anda masuk ke akun SMS Code yang sama dengan yang dipakai untuk pembelian. Biarkan pembayaran Apple yang tertunda selesai dan buka kembali aplikasi. Hindari membeli paket lain hanya untuk memperbaiki saldo yang hilang.",
+        "Kirim ke dukungan ID pesanan atau tanda terima Apple, paket, tanggal pembelian, dan pengenal akun aplikasi jika ada. Samarkan pembelian yang tidak terkait dan detail pembayaran. Untuk tagihan yang tidak Anda kenali, periksa riwayat pembelian Apple dan pembelian Family Sharing, lalu hubungi Apple."
+      ]
+    },
+    {
+      "title": "Koin yang belum terpakai dan pengembalian pembayaran",
+      "paragraphs": [
+        "Mengembalikan koin ke aplikasi tidak membalikkan pembayaran Apple. Untuk uang kembali atas pembelian koin yang ditagih Apple, minta pengembalian dana ke Apple untuk pembelian itu dan jelaskan dengan akurat apakah koin belum terpakai, sebagian terpakai, hilang, atau bermasalah. Saldo yang belum terpakai tidak otomatis memberi hak atas pengembalian dana atau penarikan tunai sebagian.",
+        "Apple menilai kelayakan pengembalian dana menurut ketentuan regionalnya dan hukum yang berlaku. Kami tidak dapat menjanjikan persetujuan atau menerbitkan pengembalian dana melalui sistem pembayaran Apple sendiri. Hubungi kami tentang cacat layanan atau koin yang belum terpakai jika Anda membutuhkan catatan pembelian atau saldo. Hak konsumen wajib Anda tetap tidak terpengaruh.",
+        "Jika Apple menyetujui pengembalian dana, kredit koin terkait dapat dihapus dari saldo Anda. Jangan terus membelanjakan koin untuk pembelian yang sedang Anda minta dikembalikan. Menghapus akun atau mencopot pemasangan tidak mengajukan permintaan pengembalian dana."
+      ]
+    },
+    {
+      "title": "Minta pengembalian dana ke Apple",
+      "paragraphs": [
+        "1. Buka reportaproblem.apple.com dan masuk dengan Akun Apple yang membayar paket tersebut.",
+        "2. Di menu permintaan, pilih opsi pengembalian dana, lalu pilih alasan yang menggambarkan apa yang terjadi.",
+        "3. Lanjutkan, pilih pembelian koin SMS Code, dan kirim permintaan.",
+        "4. Apple biasanya memberi pembaruan dalam 24–48 jam. Periksa status klaim di situs yang sama. Ini jangka waktu pembaruan; permintaan masih bisa tertunda, dan pengembalian uang membutuhkan waktu tambahan."
+      ]
+    },
+    {
+      "title": "Jika pembelian tidak ada atau pengembalian dana tertunda",
+      "paragraphs": [
+        "Tagihan yang tertunda tidak dapat diminta sampai Apple menerbitkan tanda terima; pesanan yang belum dibayar harus diselesaikan lebih dulu. Periksa Akun Apple yang tertera di tanda terima Anda. Jika pembelian tidak tersedia atau Anda tidak dapat mengirim permintaan, hubungi Dukungan Apple.",
+        "Setelah disetujui, Apple menyatakan pengembalian kredit toko dapat memakan waktu hingga 48 jam, pengembalian kartu dan sebagian besar metode pembayaran lain hingga 30 hari, dan penagihan seluler hingga 60 hari. SIMNETIQ tidak dapat mempercepat pemrosesan Apple atau bank."
+      ]
+    }
+  ]
+}

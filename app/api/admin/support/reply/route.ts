@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+import { DEFAULT_LOCALE, isLocale } from "../../../../../lib/i18n";
+import { supportUi } from "../../../../../lib/content/ui";
 
 /* ---------------------------------------------------------------------------
  * POST /api/admin/support/reply — answer a support ticket by email.
@@ -38,7 +40,7 @@ function fail(error: string, status: number) {
 
 /** Subject line in the customer's language. */
 function subject(locale: string, topic: string | null): string {
-  const base = locale === "ru" ? "Ответ поддержки SMS Code" : "SMS Code support";
+  const base = supportUi(isLocale(locale) ? locale : DEFAULT_LOCALE).api.replySubject;
   return topic ? `Re: ${topic} — ${base}` : base;
 }
 

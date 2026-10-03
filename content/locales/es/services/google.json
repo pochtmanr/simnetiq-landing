@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Google",
+  "metaDescription": "Verifica una cuenta nueva de Google con un número virtual real. Recibe el código G normalmente en segundos y crea un Gmail sin tu número personal.",
+  "hero": {
+    "title": "Número virtual para Google",
+    "intro": [
+      "Crear una cuenta de Google debería llevar un minuto, hasta que el formulario pide un teléfono. Google decide sobre la marcha si exige verificación y, cuando lo hace, no hay forma de pasar de esa pantalla sin recibir un SMS real. El código llega de «Google» y se ve como «G-482915».",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países, lo escribes en la pantalla de verificación de Google y el código G aparece en la aplicación normalmente en segundos. Se crea tu Gmail nuevo, y tu número personal se queda fuera."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Google?",
+    "body": [
+      "El número con el que verificas no solo abre el registro: por defecto Google también lo guarda como método de recuperación y como canal de 2FA, y ata en silencio la cuenta nueva a tu teléfono personal. Si el sentido de la cuenta es separarla — un Gmail para un proyecto, una cuenta de prueba de desarrollo, una dirección para boletines —, verificar con tu propia SIM lo deshace antes de que envíes un solo correo. Un número virtual mantiene la identidad nueva de verdad aparte.",
+      "También hay un techo práctico: Google limita cuántas cuentas puede verificar un mismo teléfono. Si tu número ya avaló un Gmail o dos, puede dejar de servir para otros nuevos. Un número virtual recién tomado llega sin ese historial, y la verificación pasa a la primera."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar una cuenta de Google con un número virtual",
+    "steps": [
+      {
+        "title": "Consigue un número en SMS Code",
+        "body": "Abre la aplicación SMS Code, elige Google como servicio y escoge un país: Estados Unidos, Reino Unido o Alemania son opciones habituales. Un toque reserva un número móvil real solo para ti."
+      },
+      {
+        "title": "Escríbelo en la pantalla de verificación de Google",
+        "body": "Empieza el alta en accounts.google.com y rellena lo básico. Cuando Google pida verificar tu teléfono, selecciona el país del número y escríbelo exacto: un prefijo mal puesto es la razón más habitual de que el SMS no llegue."
+      },
+      {
+        "title": "Escribe el código G",
+        "body": "El SMS cae en la aplicación SMS Code normalmente en segundos y dice «G-482915 is your Google verification code». Escribe los seis dígitos (sin el prefijo «G-» si el campo de Google pide solo dígitos) y la cuenta queda creada."
+      },
+      {
+        "title": "Desengancha la cuenta del número alquilado",
+        "body": "Justo después de iniciar sesión, abre Cuenta de Google → Seguridad. Quita o sustituye el teléfono en las opciones de recuperación, añade una aplicación de autenticación, descarga los códigos de respaldo y pon un correo de recuperación. Bien hecho, la cuenta no vuelve a depender del número alquilado."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "«Este número de teléfono no se puede usar para la verificación»",
+      "body": "Google filtra de forma activa los números que cree VoIP o ya muy usados, y los rechaza con un mensaje de ese tipo. Pasa; no luches contra ello. Cancela la activación pendiente en SMS Code — los números que no recibieron nada no cuestan nada — y prueba un número nuevo, a ser posible de otro país."
+    },
+    {
+      "title": "No dejes el número como método de recuperación",
+      "body": "Google guarda solo el número verificado como recuperación de la cuenta y como canal de 2FA. Eso está bien para una SIM en el bolsillo, no para un número alquilado. Cámbialo en Cuenta de Google → Seguridad justo después del alta: una aplicación de autenticación, más códigos de respaldo y un correo de recuperación, cubre cada situación que cubriría un SMS."
+    },
+    {
+      "title": "Un número, cuentas limitadas",
+      "body": "Google pone un tope a cuántas cuentas puede verificar un mismo número a lo largo de su vida, y cuenta a quien lo usó antes que tú. Si llega un código pero Google sigue rechazando el número, es probable que haya tocado ese techo. Un número nuevo de SMS Code empieza el recuento en tu activación."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Google siempre pide un teléfono al registrarte?",
+      "a": "No: Google decide caso por caso, según señales como tu IP, el dispositivo y cómo ve el alta su sistema de riesgo. Muchos registros se saltan el paso del teléfono; muchos otros no pueden seguir sin él. Si tu formulario sí exige un número, uno virtual lo cumple igual que una SIM."
+    },
+    {
+      "q": "¿Mi Gmail sigue funcionando cuando caduca el número alquilado?",
+      "a": "Sí. Google comprueba el número una vez, en la verificación. La cuenta no queda atada a que el número siga activo, sobre todo si sigues nuestro cuarto paso y lo sustituyes por una aplicación de autenticación, códigos de respaldo y un correo de recuperación. Después, nada de la cuenta depende del número alquilado."
+    },
+    {
+      "q": "Google dice que el número no sirve para verificar. ¿Y ahora?",
+      "a": "Es el filtro de Google para números que sospecha VoIP o ya ligados a demasiadas cuentas. Cancela la activación en SMS Code — las monedas de un número que no recibió nada vuelven a tu saldo — y toma uno nuevo. Cambiar de país suele dar un rango más limpio."
+    },
+    {
+      "q": "¿Puedo crear más de una cuenta de Google así?",
+      "a": "Cada cuenta necesita su propia verificación, y Google limita cuántas cuentas puede avalar un número: usa un número nuevo por cuenta, en lugar de reutilizar uno. Mantente dentro de las condiciones de Google: cuentas aparte para un proyecto, un buzón de equipo o pruebas son un uso normal."
+    },
+    {
+      "q": "¿Qué pasa si Google pide verificar el número otra vez más adelante?",
+      "a": "Los avisos de nueva verificación suelen salir cuando Google duda de un inicio de sesión: dispositivo nuevo, ubicación rara. Si ya sustituiste el número alquilado por una aplicación de autenticación, códigos de respaldo y un correo de recuperación, pasas esos controles sin ningún SMS. Por eso recomendamos hacerlo el primer día."
+    }
+  ]
+}

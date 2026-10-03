@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Conditions d’utilisation",
+    "description": "Conditions d’utilisation de SMS Code et de simnetiq.xyz\u00a0: pièces et achats, droit de rétractation, usage acceptable, numéros virtuels et responsabilité."
+  },
+  "prevailingNotice": "Cette traduction est fournie à titre de commodité. En cas de différence avec la version anglaise, la version anglaise prévaut.",
+  "label": "Mentions légales",
+  "title": "Conditions d’utilisation",
+  "updatedLabel": "Dernière mise à jour\u00a0:",
+  "sections": [
+    {
+      "title": "1. Accord",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Les présentes conditions d’utilisation («\u00a0Conditions\u00a0») constituent un accord entre vous et SIMNETIQ LTD, société immatriculée en Angleterre et au pays de Galles («\u00a0nous\u00a0»), et régissent votre utilisation de l’application mobile SMS Code (l’«\u00a0App\u00a0») et du site simnetiq.xyz (le «\u00a0Site\u00a0»). En installant ou en utilisant l’App, vous acceptez ces Conditions. Si vous n’êtes pas d’accord, n’utilisez pas l’App."
+        },
+        {
+          "type": "p",
+          "text": "Numéro de société\u00a0: {companyNumber}. Siège social\u00a0: {registeredOffice}. Contact\u00a0: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Le service",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "L’App fournit des numéros de téléphone virtuels temporaires pour recevoir des codes de vérification par SMS en provenance de services en ligne pris en charge. Les numéros sont fournis par des opérateurs de téléphonie tiers\u00a0; la disponibilité d’un service, d’un pays ou d’un numéro donné n’est pas garantie et peut changer sans préavis."
+        }
+      ]
+    },
+    {
+      "title": "3. Éligibilité",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vous devez avoir au moins 18 ans et être juridiquement capable de conclure cet accord. Vous ne pouvez utiliser l’App que de manières permises par les lois qui vous sont applicables."
+        }
+      ]
+    },
+    {
+      "title": "4. Pièces et achats",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Les pièces sont des achats intégrés uniques, traités par l’Apple App Store selon ses conditions de paiement. Il n’y a pas d’abonnement et rien ne se renouvelle automatiquement.",
+            "Les pièces se dépensent par activation. Le montant dépend du service et du pays, est surtout déterminé par le service, et vous est montré avant confirmation.",
+            "Les pièces n’expirent pas, ne sont pas cessibles et n’ont pas de valeur monétaire."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Quand les pièces vous reviennent.** Les pièces sont renvoyées automatiquement sur votre solde dans quatre situations\u00a0:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "vous annulez une activation au moins deux minutes après l’attribution du numéro, avant qu’un code de vérification ait été reçu\u00a0;",
+            "vous passez à un autre numéro au moins deux minutes après l’attribution, avant qu’un code ait été reçu\u00a0;",
+            "la fenêtre d’activation se termine sans qu’un code arrive\u00a0; ou",
+            "notre fournisseur ne parvient pas à fournir un numéro utilisable pour l’activation."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Un retour de pièces n’est pas un remboursement d’argent.** Dans chacune des situations ci-dessus, ce qui vous revient, ce sont les pièces, recréditées sur votre solde dans l’app. Nous ne rendons pas d’argent en échange, et les pièces n’ont pas de valeur monétaire. Si vous voulez récupérer de l’argent pour un achat, cela relève d’Apple\u00a0: les remboursements du prix d’achat se demandent à Apple et sont décidés par Apple selon la politique de remboursement de l’App Store, et nous n’avons aucun pouvoir d’en émettre, d’en approuver ou d’en refuser un. La section 5 expose votre droit légal distinct de rétractation."
+        }
+      ]
+    },
+    {
+      "title": "5. Votre droit de rétractation (consommateurs au Royaume-Uni et dans l’UE)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Si vous êtes un consommateur au Royaume-Uni ou dans l’Union européenne, vous disposez en principe de 14 jours à compter du jour où un contrat de contenu numérique est conclu pour vous rétracter et obtenir un remboursement, sans avoir à motiver votre décision. Ce droit vient des Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 au Royaume-Uni et de la directive relative aux droits des consommateurs dans l’UE."
+        },
+        {
+          "type": "p",
+          "text": "Les pièces sont portées sur votre solde après un achat réussi. Toute exception à un droit légal de rétractation dépend du droit applicable et du consentement, de la reconnaissance et de la confirmation effectivement donnés pendant l’achat. Le seul fait d’accepter ces Conditions ne renonce pas à vos droits légaux de rétractation."
+        },
+        {
+          "type": "p",
+          "text": "Pour un achat facturé par Apple, demandez un remboursement du paiement sur [reportaproblem.apple.com](https://reportaproblem.apple.com/). Apple gère le processus de remboursement du paiement selon ses conditions régionales et le droit applicable. Contactez-nous pour un examen d’un service manquant ou défectueux, de pièces inutilisées ou des enregistrements d’achat et de solde. Nous ne garantissons pas l’approbation d’Apple ni le rachat automatique en espèces d’un solde inutilisé. Si un achat est remboursé, le crédit de pièces correspondant peut être retiré."
+        },
+        {
+          "type": "p",
+          "text": "Rien dans cette section n’affecte vos autres droits légaux, y compris vos droits si le service est défectueux, non conforme à sa description, ou non fourni avec une diligence et une compétence raisonnables."
+        }
+      ]
+    },
+    {
+      "title": "6. Usage acceptable",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vous vous engagez à ne pas utiliser l’App pour\u00a0:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "enfreindre une loi ou un règlement, ou porter atteinte aux droits de quiconque\u00a0;",
+            "commettre une fraude, du spam, du harcèlement ou une usurpation d’identité\u00a0;",
+            "violer les conditions d’utilisation des plateformes auxquelles vous vous inscrivez — vous êtes seul responsable de les respecter\u00a0;",
+            "recevoir des communications que la loi vous oblige à recevoir sur un numéro personnel vérifié (par exemple les services publics, bancaires ou d’urgence lorsque c’est interdit)\u00a0;",
+            "revendre, extraire ou abuser du service de façon programmatique."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Nous pouvons suspendre ou résilier un compte qui viole cette section. Dans les cas graves — fraude, ou abus délibéré des mécanismes de remboursement ou d’activation — nous pouvons aussi perdre les pièces restant sur le solde, dans la mesure où cela est proportionné au manquement. Nous ne perdrons pas un solde pour un manquement mineur ou isolé, et rien ici ne retire des droits que vous avez en tant que consommateur et qui ne peuvent pas être exclus par contrat."
+        }
+      ]
+    },
+    {
+      "title": "7. Numéros virtuels",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Les numéros virtuels sont temporaires et peuvent être réattribués à d’autres utilisateurs après la fin de votre activation. Ils sont destinés à recevoir des codes de vérification à usage unique, pas à un usage personnel ou professionnel continu, à la récupération de compte, ni à une authentification à deux facteurs sur laquelle vous comptez à long terme."
+        }
+      ]
+    },
+    {
+      "title": "8. Propriété intellectuelle",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "L’App, le Site et l’ensemble de l’image de marque associée appartiennent à SIMNETIQ LTD ou à ses concédants. Nous vous accordons une licence personnelle, non exclusive et non cessible d’utiliser l’App pour l’usage prévu. Les noms de services tiers affichés dans l’App appartiennent à leurs propriétaires respectifs et n’impliquent aucun partenariat ni aucune approbation."
+        }
+      ]
+    },
+    {
+      "title": "9. Exclusions de garantie",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "L’App est fournie «\u00a0en l’état\u00a0» et «\u00a0selon disponibilité\u00a0». Dans toute la mesure permise par la loi, nous excluons toutes les garanties, expresses ou implicites, y compris l’adéquation à un usage particulier. Nous ne garantissons pas qu’un code de vérification particulier arrivera, que les numéros seront acceptés par une plateforme donnée, ni que le service sera ininterrompu ou exempt d’erreur."
+        },
+        {
+          "type": "p",
+          "text": "Cette section n’exclut ni ne limite rien qui ne puisse légalement être exclu ou limité. Si vous êtes un consommateur, vos droits légaux ne sont pas affectés — y compris votre droit, au titre du Consumer Rights Act 2015 (ou de son équivalent là où vous vivez), à un service numérique fourni avec une diligence et une compétence raisonnables, d’une qualité satisfaisante, et conforme à sa description."
+        }
+      ]
+    },
+    {
+      "title": "10. Limitation de responsabilité",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rien dans ces Conditions ne limite une responsabilité qui ne peut pas être limitée par la loi, y compris en cas de décès, de dommage corporel causé par une négligence, ou de fraude. Pour le reste, notre responsabilité totale découlant de l’App ou en lien avec elle est limitée au montant que vous nous avez payé au cours des 12 mois précédant la réclamation, et nous ne sommes pas responsables des pertes indirectes ou consécutives, ni de la perte de profits, de données ou de clientèle."
+        }
+      ]
+    },
+    {
+      "title": "11. Résiliation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vous pouvez cesser d’utiliser l’App et supprimer votre compte à tout moment. Nous pouvons suspendre ou résilier l’accès immédiatement si vous violez ces Conditions, si un fournisseur retire une capacité dont nous dépendons, ou si nous cessons le service\u00a0; lorsque la loi l’exige, nous donnerons un préavis raisonnable."
+        }
+      ]
+    },
+    {
+      "title": "12. Modifications de ces Conditions",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nous pouvons mettre à jour ces Conditions de temps à autre — par exemple lorsque la loi change, lorsqu’un fournisseur dont nous dépendons change, ou lorsque l’App gagne ou perd une fonction. Les changements qui affectent sensiblement vos droits seront annoncés dans l’App ou sur le Site au moins 30 jours avant leur entrée en vigueur. Si vous ne les acceptez pas, vous pouvez cesser d’utiliser l’App et clôturer votre compte avant cette date\u00a0; écrivez-nous au sujet des pièces non dépensées et nous traiterons votre demande de bonne foi. Continuer à utiliser l’App après l’entrée en vigueur des changements signifie que vous acceptez les Conditions mises à jour. Les changements ne s’appliquent jamais rétroactivement à un achat que vous avez déjà effectué."
+        }
+      ]
+    },
+    {
+      "title": "13. Droit applicable",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ces Conditions sont régies par le droit de l’Angleterre et du pays de Galles, et les tribunaux d’Angleterre et du pays de Galles ont compétence exclusive — sauf que, si vous êtes un consommateur, vous conservez les protections impératives et les droits de for du pays où vous vivez."
+        }
+      ]
+    },
+    {
+      "title": "14. Contact",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Questions sur ces Conditions\u00a0: {supportEmail}."
+        }
+      ]
+    }
+  ]
+}

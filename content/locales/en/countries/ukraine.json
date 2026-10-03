@@ -1,0 +1,55 @@
+{
+  "name": "Ukraine",
+  "metaTitle": "Ukrainian Virtual Number for SMS — Real +380 Numbers",
+  "metaDescription": "Rent a real Ukrainian (+380) mobile number and receive SMS codes usually within seconds. Verify Telegram, Viber, AliExpress, Google and more.",
+  "hero": {
+    "title": "A Ukrainian virtual number for SMS verification",
+    "intro": [
+      "Ukraine is famously Viber country — nowhere else has the messenger been so dominant — and a +380 number is right at home in Viber, Telegram and the wider ecosystem of services popular across the region. It's the natural pick when the account you're building points east of the EU.",
+      "SMS Code gives you a real Ukrainian mobile number in one tap. Put it into the verification form of Telegram, Viber, AliExpress or another supported service, and the SMS with your code appears in the app usually within seconds."
+    ]
+  },
+  "whyCountry": {
+    "title": "Why choose a Ukrainian number?",
+    "body": [
+      "If a service is big in Ukraine, its verification flow has processed millions of +380 numbers, and Viber is the flagship example — Ukraine has long been its strongest market. Telegram is equally at ease with Ukrainian numbers, and shopping platforms like AliExpress see them constantly from one of their most active regional audiences.",
+      "The format is +380 followed by a two-digit operator code and seven subscriber digits, usually grouped XX XXX XX XX. Forms across regional and global services parse it without trouble, and for messenger sign-ups it behaves exactly like any local user's number would."
+    ]
+  },
+  "tips": [
+    {
+      "title": "The zero belongs to the country code",
+      "body": "Ukraine's code is +380 — the zero is part of it, not a domestic prefix to remove. Enter +380 and then the nine remaining digits; splitting it as +38 (0XX) also works in forms that format for you."
+    },
+    {
+      "title": "First stop for Viber and Telegram",
+      "body": "Messengers are where Ukrainian numbers shine. If you're setting up a Viber or Telegram account, a +380 number is about as native a choice as exists for those services."
+    },
+    {
+      "title": "Free retry if nothing lands",
+      "body": "Should the code not arrive within the activation window, cancel it in the app — unreceived activations are free — and take another Ukrainian number for a clean second attempt."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it a real Ukrainian mobile number?",
+      "a": "Yes — a number on a real Ukrainian carrier network in the standard +380 mobile format. The service sees an ordinary local phone, not an internet-only inbox."
+    },
+    {
+      "q": "What are Ukrainian numbers best for?",
+      "a": "Messengers above all — Viber and Telegram are the classic pairings — plus AliExpress, Google and regional services whose audiences skew toward Ukraine and its neighbors."
+    },
+    {
+      "q": "Can I use a +380 number from another country?",
+      "a": "Yes. The number lives inside the SMS Code app, so your actual location and SIM card are irrelevant — you read the code wherever you happen to be."
+    },
+    {
+      "q": "How quickly will the SMS show up?",
+      "a": "Typically usually within seconds of the service sending it. The app shows the full message text the moment it arrives, so the code is ready to copy immediately."
+    },
+    {
+      "q": "Is the number reserved for me after verification?",
+      "a": "The rental spans the activation window — long enough to receive the code. If the account matters long-term, attach a recovery email and authenticator-based 2FA straight away so it never hinges on this number."
+    }
+  ]
+}

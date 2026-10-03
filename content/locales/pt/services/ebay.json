@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o eBay — compre e venda com privacidade",
+  "metaDescription": "Receba o código de segurança do eBay num número virtual real, em geral em segundos. Cadastre, venda e passe nas checagens de acesso sem expor o seu celular.",
+  "hero": {
+    "title": "Número virtual para o eBay",
+    "intro": [
+      "O eBay quer um número de telefone cedo e confere com frequência. O cadastro pede um, abrir uma conta de vendedor insiste num, e a proteção de acesso adora pausar um login até um texto como “Your eBay security code is 271846” ser digitado de volta. Para um marketplace em que você sobretudo queria comprar uma lente de câmera, isso é muita ligação com o seu celular pessoal.",
+      "Com o SMS Code você aluga um número de celular real em um de 100+ países e o código aparece no aplicativo em geral em segundos. A conta fica verificada, o anúncio vai ao ar — e o número nos registros de contato do eBay não é o do seu bolso."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o eBay?",
+    "body": [
+      "Uma conta de marketplace junta uma quantidade incomum de você num só lugar: o histórico de compras, o endereço, o cartão e — se o telefone for seu — uma linha direta que sobrevive a cada transação. O eBay tem décadas de dados de cliente acumulados e uma longa história como alvo de phishing; “a sua conta do eBay tem um problema, clique aqui” é um gênero inteiro de SMS de golpe. Um número alugado assume o passo da verificação para esse gênero acontecer num número que nunca foi de fato seu.",
+      "O outro lado honesto: o eBay usa o telefone para mais do que o cadastro. Códigos de segurança no acesso, checagens de identidade de vendedor e recursos de contato entre comprador e vendedor podem buscar esse número depois. Por isso o padrão que funciona é: verifique com o número alugado, mantenha o e-mail como âncora da conta e atualize o telefone nos ajustes se parar de alugá-lo. Uma conta do eBay que não recebe os próprios códigos de segurança tranca o dono no pior momento — não deixe esse número envelhecer em silêncio."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o eBay com um número virtual",
+    "steps": [
+      {
+        "title": "Alugue um número no SMS Code",
+        "body": "Escolha eBay como serviço e o país do site do eBay que você de fato usa — ebay.com, ebay.co.uk, ebay.de e os demais compartilham uma conta, mas um número que combina mantém os dados do cadastro consistentes."
+      },
+      {
+        "title": "Digite onde o eBay pedir",
+        "body": "No cadastro, na configuração da conta de vendedor ou quando a proteção de acesso pedir para confirmar um telefone. Selecione o código do país do número e digite com cuidado."
+      },
+      {
+        "title": "Digite o código",
+        "body": "O SMS diz “Your eBay security code is 271846” e aparece no aplicativo SMS Code em geral em segundos. Digite no eBay e o número fica confirmado."
+      },
+      {
+        "title": "Ancore a conta no e-mail",
+        "body": "Confirme o seu e-mail, defina uma senha forte e trate o telefone como posto de controle, não como fundação. Se você não for ficar com o número alugado, substitua em Ajustes da conta → Informações pessoais depois de configurar, para os próximos códigos de segurança irem a um lugar que você de fato lê."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Vender eleva a barra",
+      "body": "Uma conta de comprador pode passar com checagens mínimas, mas se cadastrar como vendedor dispara verificação real de identidade e de pagamento — dados bancários, às vezes documentos. O número virtual cuida do passo de SMS desse processo; o resto é entre você e o cadastro de vendedor do eBay, e não é opcional."
+    },
+    {
+      "title": "Checagens de acesso voltam",
+      "body": "A proteção de login do eBay manda texto de novo para o telefone em aparelhos novos e atividade incomum, às vezes meses depois. Se o número alugado venceu e o telefone no arquivo está morto, a recuperação da conta vira um chamado de suporte. Atualize o número nos ajustes antes que isso aconteça, não depois."
+    },
+    {
+      "title": "Uma conta é a quantidade certa de contas",
+      "body": "O eBay liga contas por muito mais do que números de telefone — endereços, meios de pagamento, aparelhos. Um número virtual não ressuscita uma conta suspensa nem empilha vouchers promocionais, e tentar isso tende a encerrar todas as contas ligadas de uma vez. Use para privacidade na conta que você mantém."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "O eBay aceita números virtuais?",
+      "a": "O eBay verifica se um número consegue receber o SMS dele — e um número alugado do SMS Code é um celular real numa rede de operadora, então o código chega como qualquer outro texto. Números de sites gratuitos de SMS, por contraste, em geral são reconhecidos e recusados."
+    },
+    {
+      "q": "Dá para vender no eBay com um número virtual?",
+      "a": "O passo de verificação por telefone, sim — o cadastro de vendedor manda um código e o número alugado recebe. Mas vender também envolve verificação de pagamento e de identidade pelo processo próprio do eBay, que um número de telefone não influencia. Espere concluir isso com dados reais."
+    },
+    {
+      "q": "A minha conta do eBay sobrevive ao número alugado expirar?",
+      "a": "Sobrevive — a conta se ancora no seu e-mail e na senha. Só não deixe um número morto como contato de segurança: substitua ou atualize o telefone nos Ajustes da conta para confirmações de acesso e alertas chegarem a um número que você ainda lê."
+    },
+    {
+      "q": "De qual país o número deve ser?",
+      "a": "O país de onde você de fato compra ou vende. O seu endereço, o meio de pagamento e o telefone contam ao eBay uma história consistente; um número de outro continente que não o do endereço de entrega convida verificação extra, em vez de menos."
+    },
+    {
+      "q": "O código do eBay não chegou — e agora?",
+      "a": "Confira duas vezes se o código do país combina com o número alugado e dê um minuto; o eBay às vezes oferece uma ligação como alternativa, que não alcança um número alugado só de SMS — peça o texto de novo. Se nada chegar, cancele a ativação sem custo no SMS Code e pegue um número novo."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "site": {
+    "name": "SMS Code من SIMNETIQ",
+    "titleTemplate": "%s — SMS Code من SIMNETIQ",
+    "appDescription": "أرقام افتراضية في أكثر من 100 دولة لاستقبال رموز التحقق عبر SMS. سجّل في Telegram وWhatsApp وGoogle وأكثر من 100 خدمة دون الإفصاح عن رقمك الشخصي."
+  },
+  "a11y": {
+    "mainNav": "القائمة الرئيسية",
+    "breadcrumb": "مسار التنقّل"
+  },
+  "faqHeading": "الأسئلة الشائعة",
+  "nav": {
+    "langLabel": "اللغة",
+    "links": [
+      {
+        "path": "/#how-it-works",
+        "label": "كيف يعمل"
+      },
+      {
+        "path": "/virtual-numbers",
+        "label": "الأرقام"
+      },
+      {
+        "path": "/#pricing",
+        "label": "الأسعار"
+      },
+      {
+        "path": "/#faq",
+        "label": "الأسئلة الشائعة"
+      },
+      {
+        "path": "/support",
+        "label": "الدعم"
+      }
+    ],
+    "cta": "احصل على التطبيق",
+    "home": "الصفحة الرئيسية لـ SMS Code",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة"
+  },
+  "footer": {
+    "tagline": "رقم للتسجيل. وليس مدى الحياة.",
+    "liveStatus": "أرقام متاحة في أكثر من 100 دولة",
+    "backToTop": "العودة إلى الأعلى",
+    "servicesLabel": "خدمات شائعة",
+    "allServices": "كل الخدمات",
+    "resourcesLabel": "موارد",
+    "hub": "أرقام افتراضية",
+    "blog": "المدونة",
+    "companyLabel": "الشركة",
+    "getApp": "احصل على التطبيق",
+    "followLabel": "تابعنا",
+    "support": "الدعم",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "rights": "جميع الحقوق محفوظة.",
+    "registered": "مسجّلة في",
+    "companyNo": "رقم الشركة",
+    "registeredOffice": "المكتب المسجّل"
+  },
+  "badges": {
+    "appStore": "نزّل من App Store"
+  },
+  "notFound": {
+    "title": "هذه الصفحة غير موجودة",
+    "body": "ربما تغيّر العنوان. كل ما يخص SMS Code موجود في الصفحة الرئيسية.",
+    "back": "العودة إلى الرئيسية"
+  }
+}

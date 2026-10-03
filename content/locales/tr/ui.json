@@ -1,0 +1,69 @@
+{
+  "site": {
+    "name": "SMS Code, SIMNETIQ'ten",
+    "titleTemplate": "%s — SMS Code, SIMNETIQ'ten",
+    "appDescription": "100+ ülkede SMS doğrulama kodu almak için sanal numaralar. Kişisel numaranızı vermeden Telegram, WhatsApp, Google ve 100+ servise kaydolun."
+  },
+  "a11y": {
+    "mainNav": "Ana menü",
+    "breadcrumb": "Sayfa yolu"
+  },
+  "faqHeading": "Sıkça sorulanlar",
+  "nav": {
+    "langLabel": "Dil",
+    "links": [
+      {
+        "path": "/#how-it-works",
+        "label": "Nasıl çalışır"
+      },
+      {
+        "path": "/virtual-numbers",
+        "label": "Numaralar"
+      },
+      {
+        "path": "/#pricing",
+        "label": "Fiyatlar"
+      },
+      {
+        "path": "/#faq",
+        "label": "Sorular"
+      },
+      {
+        "path": "/support",
+        "label": "Destek"
+      }
+    ],
+    "cta": "Uygulamayı indir",
+    "home": "SMS Code ana sayfa",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "footer": {
+    "tagline": "Kayıt için bir numara. Ömür boyu değil.",
+    "liveStatus": "100+ ülkede çevrimiçi numaralar",
+    "backToTop": "Yukarı çık",
+    "servicesLabel": "Popüler servisler",
+    "allServices": "Tüm servisler",
+    "resourcesLabel": "Kaynaklar",
+    "hub": "Sanal numaralar",
+    "blog": "Blog",
+    "companyLabel": "Şirket",
+    "getApp": "Uygulamayı indir",
+    "followLabel": "Takip edin",
+    "support": "Destek",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "rights": "Tüm hakları saklıdır.",
+    "registered": "Kayıtlı olduğu yer",
+    "companyNo": "şirket no.",
+    "registeredOffice": "Kayıtlı ofis"
+  },
+  "badges": {
+    "appStore": "App Store'dan indirin"
+  },
+  "notFound": {
+    "title": "Bu sayfa yok",
+    "body": "Adres değişmiş olabilir. SMS Code ile ilgili her şey ana sayfada.",
+    "back": "Ana sayfaya dön"
+  }
+}

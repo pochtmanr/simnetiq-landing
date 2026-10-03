@@ -1,0 +1,155 @@
+{
+  "title": "Tanışma: Tinder için sanal numara",
+  "description": "Tanışma uygulamaları ilk kaydırmadan önce numara ister. Neden sordukları, neden sizinkini vermeyebileceğiniz ve Tinder’ı sanal numarayla nasıl doğrulayacağınız.",
+  "excerpt": "Telefon numaranız bütün kimliğinize giden ters arama anahtarıdır — ve tanışma uygulamaları tek bir profil görmeden onu ister. Tinder’ı sizinkini vermeden nasıl doğrulayacağınız burada.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Tanışma uygulamaları size tek bir yüz göstermeden telefon numaranızı ister. Biriyle eşleştikten sonra değil, buluşmaya karar verdiğinizde değil — adınızı bile yazmadan, en ilk ekranda. Bütün öncülü yabancılarla tanışmak olan bir uygulama için bu, en baştan istenen tuhaf miktarda güvendir."
+    },
+    {
+      "type": "p",
+      "text": "İstek keyfî değildir. Telefon doğrulaması Tinder, Bumble ve geri kalanın bot tarlalarının desteyi sahte profillerle doldurmasını engelleme biçimidir — bir numara bir şeye mal olur, bir e-posta adresi hiçbir şeye. Ama bot kontrolü için topladıkları numara sahip olduğunuz en bağlanabilir tanımlayıcıdır da ve yabancılar etrafında kurulu bir uygulamanın hesabında saklanır."
+    },
+    {
+      "type": "p",
+      "text": "İyi haber: telefon doğrulaması numaranın sizin olmasını gerektirmez. Bu rehber numaranın çoğu insanın sandığından neden daha önemli olduğunu, Tinder’ı sanal numarayla adım adım nasıl doğrulayacağınızı, sanal numaranın dürüstçe yapmayacağı şeyleri ve hesabı sonra kurtarılabilir tutan tek alışkanlığı kapsar."
+    },
+    {
+      "type": "h2",
+      "id": "why-your-number-is-the-real-stake",
+      "text": "Burada gerçek bahis neden numaranızdır"
+    },
+    {
+      "type": "p",
+      "text": "Telefon numarası kullanıcı adı gibi değildir. Yıllarca servisler arasında sizi izleyen kararlı, benzersiz bir tanımlayıcıdır — ve tersine çalışır. Bir numarayı kişi arama sitesine verin, birçok ülkede tam ad, sosyal profiller, bazen bir ev adresiyle ayrılabilirsiniz. Veri simsarları bu sorguları sızmış veritabanları ve kamu kayıtlarından bir araya getirir ve numaranız kayıtları birbirine bağlayan birleştirme anahtarıdır."
+    },
+    {
+      "type": "p",
+      "text": "Bunu bir tanışma bağlamına koyun. Çoğu eşleşme hoştur, bazıları unutulur ve küçük bir sayı tatsızlaşır — “hayır, teşekkürler”i zarif karşılamayan kişi, her yerde engellenerek biten randevu. Böyle biri gerçek numaranızı ele geçirirse — sohbette bir sürçme, bir ekran görüntüsü veya uygulamanın kendisinin sızıntısı yoluyla — geri kalanı çözen ipliği tutar. Hiç sizin olmayan kiralanmış bir numara çekilecek bir şey vermez."
+    },
+    {
+      "type": "p",
+      "text": "Hesap budur: uygulamanın insan olduğunuzu kanıtlamak için numaraya ihtiyacı vardır; sizin numaranın hayatınızın haritası olmamasına ihtiyacınız vardır. Sanal numara iki tarafı da karşılar."
+    },
+    {
+      "type": "h2",
+      "id": "which-apps-verify-by-sms",
+      "text": "Hangi tanışma uygulamaları SMS ile doğrular"
+    },
+    {
+      "type": "p",
+      "text": "Büyüklerin neredeyse hepsi. Tinder kayıtta telefon numarası ister ve ona bir kod gönderir — aşağıda yürüyeceğimiz akış budur. Bumble ve Hinge aynı davranır: önce numara, SMS kodu, sonra profil. Bazı uygulamalar sonra e-posta veya Apple/Google girişi bağlamanıza izin verir ama telefon adımı önce gelir ve nadiren atlanabilir."
+    },
+    {
+      "type": "p",
+      "text": "Yürüyüş için Tinder’ı kullanacağız, çünkü en çok aranan durumdur ve akışı temsilidir — bunu Tinder’da yapabiliyorsanız Bumble ve Hinge’de sürpriz yoktur."
+    },
+    {
+      "type": "h2",
+      "id": "what-a-virtual-number-wont-do",
+      "text": "Sanal numaranın yapmayacağı şeyler (önce bunu okuyun)"
+    },
+    {
+      "type": "p",
+      "text": "Adımlardan önce dürüst kısım. Sanal numara doğrulama adımı için bir gizlilik aracıdır — ana anahtar değildir ve yararlılığının tam nerede bittiğini bilmeye değer."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Yasağı kaldırmaz. Tinder sizi yasakladıysa yasak telefon numarasından çok daha fazlasına bağlıdır — cihaz tanımlayıcıları, ödeme yöntemleri, fotoğraflar, davranış sinyalleri. Aynı telefonda taze bir numarayla kaydolmak genellikle aynı yasakla biter. Bu farklı bir sorundur ve sanal numara onu çözmez.",
+        "Fotoğraf doğrulamasını sizin yerinize geçmez. Tinder’ın özçekim kontrolü (mavi tik) canlı kameranızı profil fotoğraflarınızla karşılaştırır. O adım telefon adımından tamamen ayrıdır ve hiçbir numara onu değiştirmez.",
+        "Bir numara bir hesabı doğrular. Bir etkinleştirme penceresi boyunca tek bir servise bağlıdır. Bir Tinder hesabı ve bir Bumble hesabı istiyorsanız bu iki etkinleştirmedir — her biri jeton bakiyenizden ayrı ödenir."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bunların hiçbiri geldiğiniz şey değilse — kişisel numaranız bir veritabanının daha içinde olmadan kaydırmak istiyorsanız — devam edin. Bunun işe yaradığı durum tam odur."
+    },
+    {
+      "type": "h2",
+      "id": "tinder-step-by-step",
+      "text": "Tinder’ı sanal numarayla doğrulamak, adım adım"
+    },
+    {
+      "type": "p",
+      "text": "Yan yana iki uygulama gerekir: Tinder ve numaranın yaşadığı, kodun geldiği SMS Code. Bütün şey birkaç dakika sürer."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Tinder için bir numara kiralayın",
+          "body": "SMS Code uygulamasında servis olarak Tinder’ı seçin ve bir ülke seçin — hesabın ayrıntıları hizalansın diye tercihen gerçekten olduğunuz ülke. Tek dokunuş size gerçek bir mobil numara ayırır, tek seferlik bir jeton paketinden ödenir. Abonelik yok."
+        },
+        {
+          "title": "Tinder kaydını başlatın",
+          "body": "“Telefon numarasıyla giriş yap”ı seçin, kiralanan numaranızla eşleşen ülke kodunu seçin ve numarayı yazın. Uyuşmayan ülke kodu kodun hiç gelmemesinin en sık nedenidir — ileriye dokunmadan önce kontrol edin."
+        },
+        {
+          "title": "Kodu girin",
+          "body": "SMS Code’a geçin. Doğrulama SMS’i uygulamada genellikle saniyeler içinde, “Your Tinder code is 314159” gibi görünür. Tinder’a kopyalayın, telefon adımı biter."
+        },
+        {
+          "title": "Hesabı tuttuğunuz bir şeye bağlayın",
+          "body": "Tinder ayarlarında kontrol ettiğiniz bir e-posta bağlayın — veya sunulduğu yerde Apple/Google girişi. Sonra hesaba geri dönüş yolunuz telefon numarası değil, o olur. Sonra profili her zamanki gibi kurun."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "tinder"
+    },
+    {
+      "type": "h2",
+      "id": "privacy-not-deception",
+      "text": "Yabancılardan gizlilik — eşleşmeleri aldatmak değil"
+    },
+    {
+      "type": "p",
+      "text": "Açıkça yapmaya değer bir ayrım: bu kurulum sizi henüz güveninizi kazanmamış yabancılardan korur ve yaptığı tek şey budur. Profiliniz hâlâ sizsiniz — fotoğraflarınız, yaşınız, biyografiniz. Sanal numara kötü niyetli birinin uygulama kayıtlarından çıkarabileceğini değiştirir, iyi bir eşleşmenin profilinizde gördüğünü değil."
+    },
+    {
+      "type": "p",
+      "text": "Biri güveninizi kazandığında gerçek numaranızı insanların her zaman yaptığı gibi paylaşırsınız — seçerek. Mesele, seçimin sıfırıncı gün bir kayıt formu tarafından sizin yerinize yapılmak yerine sizde kalmasıdır. O zamana kadar uygulama içinde sohbet edin; uygulama içi sohbet bunun içindir."
+    },
+    {
+      "type": "callout",
+      "text": "Hesabı ihtiyacınız olmadan önce kurtarılabilir kılın: kayıttan hemen sonra ayarlarda bir e-posta adresi (veya Apple/Google girişi) bağlayın. Kiralanan numara doğrulama anı içindir — yeni bir cihazdan geri getiren e-postanızdır. Bunu kilitlendikten sonra değil, ilk gün yapın."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sıkça sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Tinder sanal numaraları kabul eder mi?",
+          "a": "Kiralanan sanal numara gerçek bir operatör ağındaki gerçek bir mobil numaradır — Tinder onu başka herhangi bir telefon gibi görür. Genel olarak başarısız olanlar SMS alma sitelerindeki ücretsiz paylaşımlı numaralardır: onları binlerce kişi kullanmıştır ve tanışma uygulamaları neredeyse görür görmez reddeder."
+        },
+        {
+          "q": "Eşleşmelerim kaydolduğum numarayı görür mü?",
+          "a": "Hayır. Tinder telefon numaranızı diğer kullanıcılara hiç göstermez — giriş ve doğrulama kimliğidir, profil içeriği değil. Eşleşmeler adınızı, fotoğraflarınızı ve biyografinizi görür; numara sizinle uygulama arasında kalır."
+        },
+        {
+          "q": "Kiralanan numaranın süresi bittikten sonra hesabıma geri girebilir miyim?",
+          "a": "Kurduysanız evet: oturum açık kalın ve kayıttan hemen sonra bir e-posta veya Apple/Google girişi bağlayın. Gündelik olarak Tinder oturumunuzu tutar; taze bir cihaz için bağlı e-posta giriş yolunuzdur. Yapmamanız gereken, artık kiralamadığınız bir numarada SMS’i yeniden almaya güvenmektir."
+        },
+        {
+          "q": "Aynı yol Bumble ve Hinge için de işe yarar mı?",
+          "a": "Akış aynıdır — numara, SMS kodu, profil — bu yüzden evet, mekanik olarak aynı çalışır. Her uygulamanın kendi etkinleştirmesi gerekir ve her birinin ek kontrolleri vardır (Bumble fotoğraf doğrulaması da yapar). SMS Code’da servis olarak uygulamayı seçin ve aynı adımları izleyin."
+        },
+        {
+          "q": "Tinder kodum neden gelmedi?",
+          "a": "Genellikle Tinder’da seçtiğiniz ile kiraladığınız numara arasındaki ülke kodu uyuşmazlığıdır — önce ona bakın. SMS gerçekten hiç gelmezse SMS Code’da etkinleştirmeyi ücretsiz iptal edin, taze bir numara alın ve yeniden deneyin. Yalnızca kod teslim eden etkinleştirmeler için ödersiniz."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "tinder"
+    }
+  ]
+}

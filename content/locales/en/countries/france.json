@@ -1,0 +1,55 @@
+{
+  "name": "France",
+  "metaTitle": "French Virtual Number for SMS — Real +33 Mobile Numbers",
+  "metaDescription": "Rent a real French (+33) mobile number and get SMS verification codes usually within seconds. Verify Instagram, Tinder, Uber, Airbnb and Google.",
+  "hero": {
+    "title": "A French virtual number for SMS verification",
+    "intro": [
+      "French mobiles start with 06 or 07, and every sign-up form in Europe knows what to do with them. A +33 number reads as a mainstream Western European mobile — familiar to lifestyle apps like Tinder and Uber, travel platforms like Airbnb, and every global service in between.",
+      "SMS Code gives you a real French mobile number in one tap. Type it into the verification field, and the SMS with your code from Instagram, Google or another supported service appears in the app usually within seconds."
+    ]
+  },
+  "whyCountry": {
+    "title": "Why choose a French number?",
+    "body": [
+      "France is one of Europe's biggest consumer app markets, so services that live on phone verification — dating, ride-hailing, short-term rentals — process +33 numbers all day long. If you want an account anchored to the French or wider EU market, a French mobile is the obvious starting point.",
+      "The format is distinctive and easy to read: +33, then a 6 or 7 for mobile, then eight digits traditionally written in pairs — 6 XX XX XX XX. Forms parse it reliably, and it raises no flags where a rarely-seen country code might slow verification down."
+    ]
+  },
+  "tips": [
+    {
+      "title": "06 and 07 are both mobile",
+      "body": "France assigns mobiles in both the 06 and 07 ranges; services treat them identically. In international form the leading zero disappears — +33 6… or +33 7… — so don't be surprised the zero is gone."
+    },
+    {
+      "title": "Think in pairs when copying",
+      "body": "The French write numbers in two-digit groups, but verification forms just want the digits. If you're retyping rather than pasting, ignore the spacing — only the digit sequence matters."
+    },
+    {
+      "title": "Retry on a fresh number, free",
+      "body": "If a service is slow to deliver or the number has seen prior sign-ups, cancel the activation — no SMS means the coins come back to your balance — and pull a new French number for another attempt."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it a real French mobile number?",
+      "a": "Yes — a number on a real French carrier network in the standard 06/07 mobile ranges. Services see a normal French phone, not an online-only SMS gateway."
+    },
+    {
+      "q": "Which services work well with a French number?",
+      "a": "Consumer apps with a strong French footprint are natural fits — Instagram, Tinder, Uber, Airbnb — along with Google and most global platforms that expect a European mobile."
+    },
+    {
+      "q": "Can I use a +33 number from outside France?",
+      "a": "Yes. The number lives inside the SMS Code app, so where you are and what SIM your phone carries make no difference — the code reaches you anywhere."
+    },
+    {
+      "q": "Will the verification SMS be in French?",
+      "a": "It depends on the service, not the number: most send the code in the language of your account or app settings. Either way, the code itself is just digits, shown in full in the app."
+    },
+    {
+      "q": "Do I keep the number after the code arrives?",
+      "a": "The rental lasts for the activation window — enough to receive the code. For accounts you intend to keep, set up a recovery email and app-based 2FA right away so future logins never need this number."
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import { RelatedServices } from "../RelatedServices";
 import { StoreBadges } from "../StoreBadges";
 import { getCountry } from "../../lib/content/countries";
 import type { ServiceEntry } from "../../lib/content/services/types";
-import { SERVICES_UI } from "../../lib/content/servicesUi";
+import { servicesUi, ui } from "../../lib/content/ui";
 import { localePath, type Locale } from "../../lib/i18n";
 import { faqPage } from "../../lib/seo";
 
@@ -18,14 +18,14 @@ export function ServicePage({
   locale: Locale;
   entry: ServiceEntry;
 }) {
-  const t = SERVICES_UI[locale];
-  const c = entry[locale];
+  const t = servicesUi(locale);
+  const c = entry.copy;
   const countries = entry.popularCountries
-    .map((slug) => getCountry(slug))
+    .map((slug) => getCountry(locale, slug))
     .filter((e) => e !== undefined);
   return (
     <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
-      <JsonLd data={faqPage(c.faqs)} />
+      <JsonLd data={faqPage(locale, c.faqs)} />
       <div className="pt-[40px]">
         <Breadcrumbs
           locale={locale}
@@ -121,7 +121,7 @@ export function ServicePage({
       {/* FAQ */}
       <section className="mx-auto max-w-3xl pt-[94px]">
         <span className="section-label">{t.faqLabel}</span>
-        <h2 className="text-heading">FAQ</h2>
+        <h2 className="text-heading">{ui(locale).faqHeading}</h2>
         <div className="mt-[34px]">
           {c.faqs.map((item, i) => (
             <details
@@ -161,7 +161,7 @@ export function ServicePage({
                 className="inline-flex items-center gap-[8px] rounded-pill border border-border bg-card px-[14px] py-[8px] text-label text-ink transition-colors hover:border-accent hover:text-accent-deep"
               >
                 <span>{country.flag}</span>
-                {country.name[locale]}
+                {country.copy.name}
               </Link>
             ))}
           </div>

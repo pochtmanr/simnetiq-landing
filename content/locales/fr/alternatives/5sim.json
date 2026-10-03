@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternative à 5SIM — SMS Code par SIMNETIQ",
+  "metaDescription": "Comparer 5SIM et l’app SMS Code par SIMNETIQ\u00a0: une plateforme web et API, contre une app mobile et des packs de pièces en achat unique.",
+  "hero": {
+    "title": "Une alternative à 5SIM, construite comme app mobile native",
+    "intro": [
+      "5SIM est une plateforme web établie pour recevoir des codes de vérification SMS\u00a0: vous rechargez un solde, achetez un numéro pour le service dont vous avez besoin, et lisez le code dans votre tableau de bord. Leur page d’accueil vise autant le gros que le détail, avec une API pour l’automatisation et un catalogue que leur site décrit comme couvrant plus de 180 pays et plus d’un millier de services.",
+      "SMS Code par SIMNETIQ aborde le même travail du côté du particulier. C’est une app iOS native\u00a0: choisissez un service et un pays, obtenez un vrai numéro, et le code arrive dans l’app généralement en quelques secondes. Vous payez avec des packs de pièces en achat unique via la facturation Apple — pas de portefeuille web, pas d’abonnement — et les activations qui ne reçoivent jamais de SMS s’annulent sans frais."
+    ]
+  },
+  "whenThem": {
+    "title": "Quand 5SIM est le meilleur choix",
+    "body": "Choisissez 5SIM si le volume ou l’automatisation est le but. Leur plateforme vise les webmasters, les spécialistes SMM et les entrepreneurs qui achètent des numéros en quantité, et l’API vous laisse scripter tout le cycle — achat, interrogation du SMS, suite. Le catalogue est aussi simplement plus grand\u00a0: s’il vous faut un service obscur ou une combinaison de pays inhabituelle, une plateforme de cette ampleur a plus de chances de l’avoir en stock qu’une app grand public sélectionnée."
+  },
+  "whenUs": {
+    "title": "Quand l’app SMS Code convient mieux",
+    "body": "Choisissez l’app si vous vérifiez des comptes pour vous-même, pas par centaines. Il n’y a pas de solde à préfinancer et pas de tableau de bord à naviguer sur un écran de téléphone\u00a0: tout le parcours — service, pays, numéro, code — est une expérience mobile native installée depuis l’App Store. Les packs de pièces en achat unique veulent dire que vous payez par activation avec la facturation du store (les données de votre carte ne nous parviennent jamais), la couverture va à plus de 100 pays et plus de 100 services courants, et les activations non reçues s’annulent sans frais automatiquement."
+  },
+  "comparison": {
+    "title": "5SIM face à l’app SMS Code, côte à côte",
+    "rows": [
+      {
+        "label": "Plateformes",
+        "competitor": "Plateforme web avec une API pour l’achat automatisé",
+        "us": "App iOS native depuis l’App Store"
+      },
+      {
+        "label": "Modèle de prix",
+        "competitor": "Paiement par numéro depuis un solde de portefeuille rechargé",
+        "us": "Packs de pièces en achat unique, paiement par activation — sans abonnement"
+      },
+      {
+        "label": "Paiement",
+        "competitor": "Recharge de portefeuille sur le web avec les méthodes que leur site liste",
+        "us": "Facturation de l’App Store — aucune donnée de carte partagée avec nous"
+      },
+      {
+        "label": "Couverture",
+        "competitor": "Leur site annonce plus de 180 pays et un catalogue de plus de 1\u00a0000 services",
+        "us": "Plus de 100 pays et plus de 100 services courants, sélectionnés pour les inscriptions du quotidien"
+      },
+      {
+        "label": "Annulation",
+        "competitor": "Régie par leurs propres règles de remboursement — vérifiez leurs conditions en vigueur",
+        "us": "Les activations qui ne reçoivent aucun SMS s’annulent sans frais, les pièces reviennent"
+      },
+      {
+        "label": "Assistance",
+        "competitor": "Leur site annonce une assistance 24 h/24 et 7 j/7",
+        "us": "Dans l’app et formulaire de contact du site"
+      },
+      {
+        "label": "Le mieux pour",
+        "competitor": "Acheteurs en volume et développeurs qui scriptent des vérifications via l’API",
+        "us": "Particuliers qui veulent une app mobile propre pour des vérifications occasionnelles"
+      }
+    ],
+    "note": "Les détails sur le concurrent reflètent leur site public au moment de la rédaction et peuvent changer — confirmez toujours sur 5sim.net avant de décider."
+  },
+  "switchSteps": {
+    "title": "Essayer l’app prend trois étapes",
+    "steps": [
+      {
+        "title": "Installez l’app",
+        "body": "Obtenez SMS Code par SIMNETIQ sur l’App Store — pas de compte web ni de configuration de portefeuille."
+      },
+      {
+        "title": "Prenez un pack de pièces",
+        "body": "Achetez un pack unique via votre compte du store. Pas de solde préfinancé qui attend sur un site\u00a0; vous dépensez des pièces seulement quand vous activez un numéro."
+      },
+      {
+        "title": "Lancez votre première activation",
+        "body": "Choisissez un service et un pays, obtenez un vrai numéro, et voyez le code arriver dans l’app généralement en quelques secondes. Si rien n’arrive, l’activation s’annule sans frais."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "En quoi l’app SMS Code diffère-t-elle de 5SIM\u00a0?",
+      "a": "5SIM est une plateforme web avec un solde de portefeuille et une API, orientée vers les acheteurs en volume. L’app SMS Code par SIMNETIQ est une app mobile native pour les particuliers\u00a0: packs de pièces en achat unique via la facturation du store, quelques touchers par activation, et annulation sans frais quand aucun SMS n’arrive."
+    },
+    {
+      "q": "L’app a-t-elle une API comme 5SIM\u00a0?",
+      "a": "Non. L’app est délibérément un produit grand public — s’il vous faut acheter des numéros de façon programmatique, l’API de 5SIM est le meilleur outil. S’il vous faut un code de temps en temps, l’app est le chemin le plus court."
+    },
+    {
+      "q": "Dois-je recharger un solde à l’avance\u00a0?",
+      "a": "Vous achetez des packs de pièces en achat unique via la facturation Apple et les dépensez par activation. Il n’y a pas de portefeuille web à maintenir alimenté et pas d’abonnement."
+    },
+    {
+      "q": "Et si le code de vérification n’arrive jamais\u00a0?",
+      "a": "L’activation s’annule et vos pièces sont renvoyées automatiquement. Vous ne payez que les numéros qui reçoivent vraiment un SMS."
+    },
+    {
+      "q": "La liste de pays de 5SIM est-elle plus grande que celle de l’app\u00a0?",
+      "a": "Selon leur propre page d’accueil, oui — leur site annonce plus de 180 pays contre plus de 100 pour l’app. La liste de l’app est sélectionnée autour des pays qui fonctionnent de façon fiable pour les services courants\u00a0; s’il vous faut quelque chose d’exotique, un catalogue plus grand peut mieux vous servir."
+    }
+  ]
+}

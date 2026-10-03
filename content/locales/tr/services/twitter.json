@@ -1,0 +1,75 @@
+{
+  "metaTitle": "X (Twitter) için sanal numara",
+  "metaDescription": "X (Twitter) telefon doğrulamasını 100+ ülkeden gerçek bir sanal numarayla geçin. Kod genellikle saniyeler içinde gelir; SMS gelmezse iptal ücretsiz.",
+  "hero": {
+    "title": "X (Twitter) için sanal numara",
+    "intro": [
+      "Bir X hesabını yalnızca e-posta ile oluşturabilirsiniz — kayıt formunun kendisi telefon dayatmaz. Püf noktası dakikalar veya günler sonra gelir: taze hesaplar rutin olarak “robot olmadığınızı doğrulamak için” kilitlenir ve kilit ekranı şu anda SMS alabilen bir telefon numarası ister. Birçok kişi için asıl kayıt adımı bu sorgudur.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız, onu tam o anda X’e verirsiniz ve onay kodu uygulamada genellikle saniyeler içinde görünür. Tek seferlik bir jeton paketinden etkinleştirme başına ödersiniz — abonelik yok — ve hiçbir şey almayan bir numara ücretsiz iptal edilir."
+    ]
+  },
+  "whyVirtual": {
+    "title": "X (Twitter) için neden sanal numara?",
+    "body": [
+      "X, takma adın kültürün parçası olduğu az sayıdaki büyük platformdan biridir — ama kişisel telefon numaranız bağlı bir takma ad, ilk sızıntıya veya sorguya kadar takma addır. Numara bir keşif vektörüdür de: varsayılan olarak onu kişilerinde tutan kişiler hesabınıza yönlendirilebilir. Sanal numara kaydolduğunuz anonimliği yerinde tutar ve X’in size attığı her SMS kontrolünü yine geçirir.",
+      "Yapısal bir neden de vardır: X tek bir telefon numarasının kaç hesaba destek olabileceğini sınırlar. Kişisel bir hesabınız varsa ve proje veya marka için ayrı bir tane istiyorsanız ikisini de tek kişisel numaranıza asmak kırılgandır — hesaplardan birine karşı bir sorgu aynı ipliği çeker. Her hesaba kendi kiralanan numarasını vermek onları bağımsız tutar."
+    ]
+  },
+  "howTo": {
+    "title": "X (Twitter)’ı sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara alın",
+        "body": "SMS Code uygulamasını açın, servis olarak X (Twitter)’ı seçin, bir ülke seçin ve bir kez dokunun. Etkinleştirme süresi boyunca yalnızca size ayrılmış gerçek bir mobil numara tutulur."
+      },
+      {
+        "title": "X’in istediği yere girin",
+        "body": "Bu genellikle taze bir hesaptaki kilit sorgusudur, bazen kayıt akışının kendisidir ya da Ayarlar → Hesabınız → Hesap bilgileri → Telefon. Ülke kodunu kiralanan numarayla eşleştirin."
+      },
+      {
+        "title": "Onay kodunu yazın",
+        "body": "SMS, SMS Code uygulamasına genellikle saniyeler içinde, gönderen “X” olarak, “Your X confirmation code is 941507. Don't share this code with anyone.” biçiminde düşer. Rakamları girin, kilit kalkar."
+      },
+      {
+        "title": "Güvenliği SMS’ten çıkarın",
+        "body": "Kimlik doğrulayıcı veya geçiş anahtarı ile iki adımlı doğrulama kurun — X’te SMS tabanlı 2FA zaten Premium abonelere ayrılmıştır. E-postanızı doğrulayın ve gizlilik ayarlarında telefon numarasıyla bulunabilirliği kapatın."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kilit bir geçiş ritüelidir",
+      "body": "Yepyeni bir hesabın ilk saatlerinde kilitlenmesi X’in standart bot refleksidir, size dair bir hüküm değil. Telefonu doğrulayın, sonra bir kişi gibi davranın: profil fotoğrafı, bir biyografi, insan temposunda takip. Betik gibi paylaşan hesaplar numaradan bağımsız olarak yeniden sorgulanır."
+    },
+    {
+      "title": "Burada 2FA’yı SMS üzerine kurmayın",
+      "body": "İki neden: X kısa mesaj 2FA’yı yalnızca Premium abonelere sunar ve kiralanan numarayı zaten tutmayacaksınız. Kimlik doğrulayıcı veya geçiş anahtarı ücretsizdir, herkes için çalışır ve hiçbir zaman SMS ile kod gelmesine bağlı değildir."
+    },
+    {
+      "title": "Keşif kapısını kapatın",
+      "body": "Ayarlar → Gizlilik ve güvenlik → Bulunabilirlik ve kişiler bölümünde “Telefon numaranız olan kişiler sizi X’te bulabilsin” kutusunun işaretini kaldırın. Numara o zaman yalnızca bir doğrulama kaydı olarak durur — kimse ondan kullanıcı adınıza yürüyemez."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Yeni X hesabım kayıttan hemen sonra neden kilitlendi?",
+      "a": "Çünkü yeni. X bot kayıtlarını süzmek için telefon sorgularına ağır yaslanır ve önce yalnızca e-postalı hesaplar istenir. Rutindir: o anda SMS alabilen bir numarayla doğrulayın — kiralanan bir numara tam bunu yapar — hesap açılır."
+    },
+    {
+      "q": "Birkaç X hesabı bir telefon numarasını paylaşabilir mi?",
+      "a": "Yalnızca bir sınıra kadar — X tek bir telefon numarasının bağlanabileceği hesap sayısını sınırlar ve dolaşık numaralar sorguları daha karmaşık yapar. Ayrı bir proje veya marka hesabı kuruyorsanız hesap başına taze bir numara daha temiz mimaridir."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince hesabım çalışmaya devam eder mi?",
+      "a": "Evet. Numara kontrol anında önemlidir. E-postanızı doğrulayın, kimlik doğrulayıcı veya geçiş anahtarı 2FA kurun; günlük kullanım numaraya bir daha değmez. Daha sonra Ayarlar → Hesap bilgileri bölümünden kaldırabilirsiniz bile — önce diğer dayanakların yerinde olduğundan emin olun."
+    },
+    {
+      "q": "Numara profilimde görünür mü?",
+      "a": "Hayır — X telefon numaralarını herkese açık göstermez. Numaradan hesaba tek yol kişi tabanlı bulunabilirliktir ve bu, Gizlilik ve güvenlik’te kapatabileceğiniz bir anahtardır. Kapalıyken numara her yönde görünmezdir."
+    },
+    {
+      "q": "X onay kodum neden gelmedi?",
+      "a": "Önce ülke kodunun kiralanan numarayla eşleştiğini kontrol edin; sonra bilin ki X güvenmediği bazı numaralara mesaj atmayı reddeder. SMS Code’da bekleyen etkinleştirmeyi iptal edin — hiçbir şey almayan numaralar için jetonlar geri gelir — ve tercihen başka bir ülkeden taze bir numara alın."
+    }
+  ]
+}

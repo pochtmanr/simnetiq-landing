@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Binance",
+  "metaDescription": "Recibe el código SMS de Binance en un número virtual real, normalmente en segundos, y mira con honestidad qué puede y qué no puede hacer en el control KYC.",
+  "hero": {
+    "title": "Número virtual para Binance",
+    "intro": [
+      "Binance guarda las cuentas como esperarías de un exchange: el alta quiere un contacto verificado, los controles de seguridad saltan en dispositivos nuevos, y códigos SMS como «[Binance] SMS verification code: 592731» puntúan todo, desde vincular un teléfono hasta confirmar un retiro. Es buena seguridad, y una empresa más que tiene tu móvil personal.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países y el código cae en la aplicación normalmente en segundos. El paso del teléfono queda hecho, y el número guardado junto a tu cuenta de trading no es el que ya conocen tu banco, tu familia y tus otros exchanges."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Binance?",
+    "body": [
+      "Un teléfono enganchado a un exchange de cripto es un premio mayor que la mayoría: los ataques de SIM-swap existen precisamente porque un número robado puede convertirse en un canal de restablecer la contraseña hacia cuentas que guardan dinero. Dejar tu número de todos los días fuera de las bases de los exchanges reduce esa superficie: el número que recibe tus códigos de Binance simplemente no es el que un atacante puede encontrar en una lista de clientes filtrada de otro sitio.",
+      "Ahora la parte honesta: en Binance el teléfono es solo una capa, y no la que sostiene el peso. La verificación de identidad — el KYC con un documento oficial y un control facial — es obligatoria para operar y para los depósitos, es del todo aparte del paso del SMS, y un número virtual no cambia nada de eso. Lo mismo con la disponibilidad regional: dónde opera Binance y qué entidad te atiende sigue sus propias normas y tu identidad verificada, no el prefijo de tu teléfono. Un número virtual es una herramienta de privacidad para el momento del SMS: ni más y, con honestidad, ni menos."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar Binance con un número virtual",
+    "steps": [
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Elige Binance como servicio y escoge un país: hacerlo coincidir con el país de tu residencia y de tus documentos mantiene coherentes los datos de la cuenta cuando llegue el KYC. Un toque reserva un número móvil real."
+      },
+      {
+        "title": "Escríbelo cuando Binance pida un teléfono",
+        "body": "En el alta, o más tarde en Seguridad → Número de teléfono, cuando vincules uno. Selecciona el prefijo del número y escríbelo exacto: un desajuste es la razón más habitual de que los códigos se pierdan."
+      },
+      {
+        "title": "Escribe el código",
+        "body": "El SMS dice «[Binance] SMS verification code: 592731» y aparece en la aplicación SMS Code normalmente en segundos. Escríbelo y el paso del teléfono queda hecho."
+      },
+      {
+        "title": "Pasa la seguridad a factores que conservas",
+        "body": "En los ajustes de Seguridad, activa una aplicación de autenticación o una clave de acceso como 2FA principal y mantén el correo verificado. Binance vuelve a comprobar factores en retiros y en dispositivos nuevos: esos controles deben apuntar a cosas que seguirás controlando después de la ventana de alquiler, no al SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "El KYC va aparte, y no se negocia",
+      "body": "Un número virtual te pasa la pantalla del SMS, y nada más. Operar, depositar y retirar exigen una verificación de identidad completa, con documentos reales, y una cuenta cuyos papeles no cuadran se restringe dé el teléfono que dé. Si no puedes usar Binance en tu región, un número alquilado no lo cambia."
+    },
+    {
+      "title": "No dejes los retiros colgando del SMS",
+      "body": "Binance puede pedir un código SMS mucho después del alta: en un dispositivo nuevo, un retiro grande, una revisión de seguridad. Antes de que se cierre la ventana de alquiler, pasa el 2FA a una aplicación de autenticación o a una clave de acceso y quita o sustituye el teléfono, para que ninguna confirmación futura espere a un número que ya no lees."
+    },
+    {
+      "title": "Haz coincidir el número con tu país real",
+      "body": "Tus documentos de KYC, tu tarjeta o tu banco, y el prefijo del teléfono le describen a los sistemas de riesgo de Binance a la misma persona. Elegir un número de tu país real mantiene esa historia coherente; un desajuste exótico invita a más verificación, no la evita."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Un número virtual me deja saltarme el KYC de Binance?",
+      "a": "No. El KYC es una capa aparte y obligatoria: documento oficial, control facial y a veces un justificante de domicilio. El número virtual solo recibe el código SMS. Quien prometa atajos de KYC basados en el teléfono está describiendo una forma de perder el saldo de una cuenta."
+    },
+    {
+      "q": "¿Puedo abrir una cuenta de Binance en un país donde no está disponible?",
+      "a": "No, y esta página no va a fingir lo contrario. La disponibilidad sigue las licencias de Binance y tu identidad verificada, no tu teléfono. Un número virtual mantiene privado tu número personal en una región que Binance ya atiende; no te traslada."
+    },
+    {
+      "q": "¿Mi cuenta de Binance funciona cuando caduca el número alquilado?",
+      "a": "Sí, si te preparaste: verifica el correo, pon una aplicación de autenticación o una clave de acceso como 2FA, y actualiza o quita el teléfono en los ajustes de Seguridad. El número solo importa cuando Binance le manda un SMS: asegúrate de que eso deje de ser tu única vía de entrada."
+    },
+    {
+      "q": "¿Por qué Binance sigue mandando códigos a mi teléfono?",
+      "a": "El SMS se queda como canal de confirmación de reserva para inicios de sesión, retiros y cambios de seguridad mientras haya un teléfono vinculado. Por eso el cuarto paso de arriba mueve tu 2FA a otro sitio: para que esos avisos apunten a un autenticador que conservas, no a un alquiler que termina."
+    },
+    {
+      "q": "El código de Binance no llegó nunca. ¿Y ahora?",
+      "a": "Comprueba que el prefijo coincide con el número alquilado y dale un minuto: el SMS de un exchange puede hacer cola detrás de controles de seguridad. Si no cae nada, cancela la activación en SMS Code sin cargo y toma un número nuevo; solo pagas cuando se entrega un SMS."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "title": "Número virtual para namoro: Tinder sem o seu celular",
+  "description": "Apps de namoro pedem um celular antes do swipe. Por que pedem, por que guardar o seu e como verificar o Tinder com um número virtual.",
+  "excerpt": "O seu número de celular é uma chave de consulta reversa da sua identidade inteira — e os apps de namoro querem isso antes de você ver um único perfil. Veja como verificar o Tinder sem entregá-lo.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Aplicativos de namoro pedem o seu número de celular antes de mostrar um único rosto. Não depois de um match, não quando você decide se encontrar — na primeira tela, antes de você digitar um nome. Para um aplicativo cuja premissa inteira é conhecer desconhecidos, isso é uma quantidade estranha de confiança para exigir de cara."
+    },
+    {
+      "type": "p",
+      "text": "O pedido não é arbitrário. A verificação por telefone é como o Tinder, o Bumble e o resto impedem fazendas de bot de inundar o baralho com perfis falsos — um número custa alguma coisa, um endereço de e-mail não custa nada. Mas o número que eles coletam para controlar bots também é o identificador mais vinculável que você tem, e acaba guardado na conta de um aplicativo construído em volta de desconhecidos."
+    },
+    {
+      "type": "p",
+      "text": "A boa notícia: nada na verificação por telefone exige que o número seja seu. Este guia cobre por que o número importa mais do que a maioria pensa, como verificar o Tinder com um número virtual passo a passo, o que um número virtual honestamente não faz — e o hábito que mantém a conta recuperável depois."
+    },
+    {
+      "type": "h2",
+      "id": "why-your-number-is-the-real-stake",
+      "text": "Por que o seu número é a aposta real aqui"
+    },
+    {
+      "type": "p",
+      "text": "Um número de celular não é como um nome de usuário. É um identificador estável e único que acompanha você entre serviços por anos — e funciona ao contrário. Coloque um número num site de busca de pessoas e, em muitos países, você sai com nome completo, perfis sociais, às vezes um endereço. Corretores de dados montam essas consultas a partir de bancos vazados e registros públicos, e o seu número é a chave de junção que amarra os registros."
+    },
+    {
+      "type": "p",
+      "text": "Agora ponha isso num contexto de namoro. A maioria dos matches é ótima, alguns são esquecíveis, e um número pequeno vira desagradável — a pessoa que não leva o “não, obrigado” com graça, o encontro que termina com bloqueio em tudo. Se uma pessoa assim um dia tiver o seu número real — por um deslize no chat, uma captura de tela ou um vazamento do próprio aplicativo — ela segura o fio que desfaz o resto. Um número alugado que nunca foi seu não dá nada para puxar."
+    },
+    {
+      "type": "p",
+      "text": "Essa é a conta: o aplicativo precisa de um número para provar que você é humano; você precisa que o número não seja um mapa da sua vida. Um número virtual satisfaz os dois lados."
+    },
+    {
+      "type": "h2",
+      "id": "which-apps-verify-by-sms",
+      "text": "Quais apps de namoro verificam por SMS"
+    },
+    {
+      "type": "p",
+      "text": "Praticamente todos os grandes. O Tinder exige um número de telefone no cadastro e manda um código para ele — esse é o fluxo que percorremos abaixo. Bumble e Hinge se comportam do mesmo jeito: número primeiro, código de SMS, depois o perfil. Alguns aplicativos deixam você anexar um e-mail ou entrar com Apple/Google depois, mas o passo do telefone vem primeiro e raramente pode ser pulado."
+    },
+    {
+      "type": "p",
+      "text": "No passo a passo usamos o Tinder, porque é o caso mais buscado e o fluxo é representativo — se você consegue fazer isso no Tinder, Bumble e Hinge não guardam surpresa."
+    },
+    {
+      "type": "h2",
+      "id": "what-a-virtual-number-wont-do",
+      "text": "O que um número virtual não faz (leia isto primeiro)"
+    },
+    {
+      "type": "p",
+      "text": "Antes dos passos, a parte honesta. Um número virtual é uma ferramenta de privacidade para o passo da verificação — não é uma chave mestra, e vale saber exatamente onde a utilidade dele termina."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Não levanta um banimento. Se o Tinder baniu você, o banimento está ligado a muito mais do que um número de telefone — identificadores de aparelho, meios de pagamento, fotos, sinais de comportamento. Cadastrar com um número novo no mesmo celular em geral termina no mesmo banimento. Esse é outro problema, e um número virtual não resolve.",
+        "Não passa na verificação de foto por você. A checagem de selfie do Tinder (o tique azul) compara a câmera ao vivo com as fotos do perfil. Esse passo é totalmente separado do passo do telefone, e nenhum número o muda.",
+        "Um número verifica uma conta. Uma ativação fica ligada a um único serviço durante a janela dela. Se você quer uma conta do Tinder e uma do Bumble, são duas ativações — cada uma paga à parte com o seu saldo de moedas."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Se nada disso é o que você veio buscar — você só quer deslizar sem o seu número pessoal em mais um banco de dados — siga. Esse é exatamente o caso para o qual isso funciona."
+    },
+    {
+      "type": "h2",
+      "id": "tinder-step-by-step",
+      "text": "Verificar o Tinder com um número virtual, passo a passo"
+    },
+    {
+      "type": "p",
+      "text": "Você vai precisar de dois aplicativos lado a lado: o Tinder e o SMS Code, onde o número vive e o código chega. O conjunto leva alguns minutos."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Alugue um número para o Tinder",
+          "body": "No aplicativo SMS Code, escolha Tinder como serviço e escolha um país — de preferência aquele em que você de fato está, para os dados da conta se alinharem. Um toque reserva um número de celular real para você, pago com um pacote avulso de moedas. Sem assinatura."
+        },
+        {
+          "title": "Comece o cadastro do Tinder",
+          "body": "Escolha “Entrar com número de telefone”, selecione o código do país que combina com o número alugado e digite o número. Um código de país que não combina é o motivo mais comum de um código nunca chegar — confira antes de tocar em avançar."
+        },
+        {
+          "title": "Digite o código",
+          "body": "Mude para o SMS Code. O SMS de verificação aparece no aplicativo em geral em segundos, algo como “Your Tinder code is 314159”. Copie para o Tinder e o passo do telefone está feito."
+        },
+        {
+          "title": "Ancore a conta em algo que você guarda",
+          "body": "Nos ajustes do Tinder, conecte um e-mail que você controla — ou o acesso com Apple/Google, onde for oferecido. Isso, e não o número de telefone, vira o caminho de volta à conta mais tarde. Depois monte o perfil como de costume."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "tinder"
+    },
+    {
+      "type": "h2",
+      "id": "privacy-not-deception",
+      "text": "Privacidade diante de desconhecidos — não engano dos matches"
+    },
+    {
+      "type": "p",
+      "text": "Uma distinção que vale fazer com clareza: este arranjo protege você de desconhecidos que ainda não mereceram a sua confiança, e é só isso que faz. O seu perfil continua sendo você — as fotos, a idade, a bio. O número virtual muda o que uma pessoa mal-intencionada consegue extrair dos registros do aplicativo, não o que um bom match vê no seu perfil."
+    },
+    {
+      "type": "p",
+      "text": "Quando alguém de fato merece a sua confiança, você compartilha o número real do jeito que as pessoas sempre fizeram — escolhendo. O ponto é que a escolha continua sua, em vez de ser feita por você por um formulário de cadastro no dia zero. E, até lá, converse dentro do aplicativo; é para isso que o chat do aplicativo existe."
+    },
+    {
+      "type": "callout",
+      "text": "Deixe a conta recuperável antes de precisar que ela seja: vincule um e-mail (ou o acesso com Apple/Google) nos ajustes logo depois do cadastro. O número alugado é para o momento da verificação — o seu e-mail é o que traz você de volta num aparelho novo. Faça isso no primeiro dia, não depois de estar trancado fora."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Perguntas frequentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "O Tinder aceita números virtuais?",
+          "a": "Um número virtual alugado é um número de celular real numa rede de operadora real — o Tinder trata como qualquer outro telefone. O que em geral falha são números compartilhados gratuitos de sites de recepção de SMS: esses foram usados por milhares de pessoas, e os apps de namoro recusam quase à primeira vista."
+        },
+        {
+          "q": "Os meus matches vão ver o número com que eu me cadastrei?",
+          "a": "Não. O Tinder nunca mostra o seu número de telefone a outros usuários — é uma credencial de acesso e de verificação, não conteúdo de perfil. Os matches veem o seu nome, as fotos e a bio; o número fica entre você e o aplicativo."
+        },
+        {
+          "q": "Dá para voltar à conta depois que o número alugado expira?",
+          "a": "Dá, se você configurar: permaneça conectado e vincule um e-mail ou o acesso com Apple/Google logo depois do cadastro. No dia a dia, o Tinder mantém a sua sessão; num aparelho novo, o e-mail vinculado é o caminho de entrada. O que você não deve fazer é contar com receber SMS de novo num número que não aluga mais."
+        },
+        {
+          "q": "O mesmo vale para Bumble e Hinge?",
+          "a": "O fluxo é o mesmo — número, código de SMS, perfil — então, mecanicamente, funciona do mesmo jeito. Cada aplicativo precisa da própria ativação, e cada um tem checagens adicionais próprias (o Bumble também faz verificação de foto). Escolha o aplicativo como serviço no SMS Code e siga os mesmos passos."
+        },
+        {
+          "q": "Por que o código do Tinder não chegou?",
+          "a": "Em geral é um código de país que não combina entre o que você selecionou no Tinder e o número que alugou — confira isso primeiro. Se o SMS de fato nunca vier, cancele a ativação no SMS Code sem cobrança, pegue um número novo e tente de novo. Você só paga por ativações que entregam um código."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "tinder"
+    }
+  ]
+}

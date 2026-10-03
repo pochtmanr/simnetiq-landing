@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Tinder — daftar tanpa nomor Anda",
+  "metaDescription": "Tinder tidak dimulai tanpa nomor telepon. Verifikasi dengan nomor virtual asli — kode tiba biasanya dalam hitungan detik, batal tanpa biaya jika tidak ada.",
+  "hero": {
+    "title": "Nomor virtual untuk Tinder",
+    "intro": [
+      "Tidak ada jalan memutar: Tinder mensyaratkan nomor telepon untuk membuat akun. Layar paling pertama memintanya, mengirim kode SMS, dan tidak akan menampilkan satu profil pun sampai kode dimasukkan. Email, Apple, atau Google dapat ditautkan kemudian — nomor itulah yang menjadi sandaran akun.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara, mengetiknya di Tinder, dan kodenya muncul di aplikasi biasanya dalam hitungan detik. Anda membayar per aktivasi dari paket koin sekali beli — tanpa langganan — dan jika suatu nomor tidak menerima apa pun, Anda membatalkannya tanpa dikenai biaya."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Tinder?",
+    "body": [
+      "Aplikasi kencan, secara desain, adalah tempat Anda berbicara dengan orang asing — dan nomor telepon adalah satu data kontak yang tidak dapat ditarik kembali begitu keluar. Tinder tidak pernah menampilkan nomor Anda kepada pasangan, tetapi nomor itu tetap ada di akun: jika terjadi kebocoran, atau sekadar sebagai benang yang menghubungkan profil kencan Anda ke sisa kehidupan digital. Nomor virtual memutus benang itu — obrolannya terjadi di aplikasi, dan nomor di balik profil bukan nomor yang dipakai keluarga dan bank Anda.",
+      "Ini juga cara jujur untuk memulai lagi. Jika Anda menghapus profil lama dan menginginkan lembaran yang benar-benar kosong — foto baru, bio baru, tanpa riwayat lama — Tinder mengingat nomor, jadi mendaftar dengan nomor yang pernah dipakai diam-diam menautkan Anda kembali ke masa lalu. Nomor baru memberi awal baru. Ini tentang akun yang Anda tutup sendiri, bukan tentang menyelinap melewati pemblokiran."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Tinder dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Dapatkan nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih Tinder sebagai layanan, pilih negara, dan ketuk sekali. Nomor seluler asli dicadangkan hanya untuk Anda selama aktivasi berlangsung."
+      },
+      {
+        "title": "Masukkan di layar pertama Tinder",
+        "body": "Pilih “Masuk dengan nomor telepon”, pilih kode negara yang cocok dengan nomor sewaan, dan ketik. Ketidakcocokan negara adalah alasan klasik kode tidak pernah muncul."
+      },
+      {
+        "title": "Ketik kodenya — hanya digit",
+        "body": "SMS masuk ke aplikasi SMS Code biasanya dalam hitungan detik dan tampil seperti “Your Tinder code is 402318 dwEzWOx6XSV”. Huruf di belakang adalah hash teknis aplikasi — abaikan, kodenya hanya enam digit."
+      },
+      {
+        "title": "Lampirkan cadangan dan tetap masuk",
+        "body": "Di Setelan, hubungkan alamat email ke akun. Tinder memverifikasi ulang lewat SMS lebih mudah daripada kebanyakan aplikasi — email yang tertaut plus sesi yang tidak terputus menjaga akun tetap nyaman milik Anda."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Anggap keluar sebagai keputusan yang nyata",
+      "body": "Tinder cepat meminta SMS baru saat Anda masuk lagi di perangkat baru atau setelah keluar. Selama Anda tetap masuk, ia jarang mengganggu. Jadi jangan keluar sembarangan — di Tinder, sesi aktif lebih berharga daripada di hampir aplikasi lain mana pun."
+    },
+    {
+      "title": "Negara nomor tidak memindahkan pasangan Anda",
+      "body": "Tumpukan kartu Anda berasal dari tempat Anda benar-benar berada — GPS dan setelan jarak — bukan dari kode panggil nomor. Nomor dari negara lain memverifikasi akun dengan baik dan tidak memengaruhi siapa yang Anda lihat atau siapa yang melihat Anda."
+    },
+    {
+      "title": "Nomor baru untuk awal baru",
+      "body": "Jika Anda menghapus akun lama, nomor baru membuat profil baru benar-benar baru. Jika akun lama diblokir, nomor baru bukan jalan memutar — aturan Tinder tentang kembali setelah pemblokiran tetap berlaku, dan platform punya lebih banyak sinyal daripada nomor telepon saja."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah pasangan saya melihat nomor telepon saya?",
+      "a": "Tidak, tidak pernah. Tinder menampilkan nama, foto, dan bio kepada pasangan — nomor telepon tetap tidak terlihat dan semua obrolan terjadi di dalam aplikasi. Tugas nomor adalah verifikasi, dan nomor virtual melakukan tugas itu sambil menjaga nomor asli Anda sepenuhnya di luar sistem."
+    },
+    {
+      "q": "Apakah negara nomor mengubah siapa yang ditampilkan kepada saya?",
+      "a": "Tidak. Tinder membangun tumpukan Anda dari lokasi aktual, bukan kode panggil — nomor asing di Madrid tetap menampilkan Madrid. Pilih negara mana pun yang nomornya tersedia dan terjangkau; ini murni detail verifikasi."
+    },
+    {
+      "q": "Apa yang terjadi pada akun saya saat nomor sewaan berakhir?",
+      "a": "Tidak ada, selama Anda tetap masuk — nomor dibutuhkan untuk kode, bukan untuk pemakaian harian. Catatan jujurnya: Tinder terkadang meminta verifikasi ulang SMS pada login baru, jadi tautkan email di Setelan dan jangan keluar tanpa alasan."
+    },
+    {
+      "q": "Bisakah saya membuat akun Tinder tanpa nomor telepon sama sekali?",
+      "a": "Tidak. Verifikasi telepon wajib saat pendaftaran — Apple, Google, dan email dapat melengkapi akun, tetapi tidak ada yang menggantikan langkah SMS. Persis itulah situasi untuk nomor sewaan."
+    },
+    {
+      "q": "Mengapa kode Tinder saya tidak masuk?",
+      "a": "Paling sering kode negara yang dipilih di Tinder tidak cocok dengan nomor, atau Tinder menolak mengirim SMS ke nomor tertentu itu. Batalkan aktivasi yang tertunda di SMS Code — koin kembali untuk nomor yang tidak menerima apa pun — dan ambil yang baru, idealnya dari negara lain."
+    }
+  ]
+}

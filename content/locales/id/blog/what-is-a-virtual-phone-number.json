@@ -1,0 +1,161 @@
+{
+  "title": "Apa itu nomor telepon virtual dan bagaimana kerjanya?",
+  "description": "Penjelasan sederhana: cara nomor virtual bekerja, bedanya dari VoIP, eSIM, dan burner, alur verifikasi SMS, serta apa yang membuat penyedia bagus.",
+  "excerpt": "Nomor virtual adalah nomor seluler asli yang mencapai Anda lewat aplikasi, bukan kartu SIM di saku. Begini cara kerjanya — dan kapan itu alat yang tepat.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Nomor telepon virtual adalah nomor asli di jaringan seluler nyata — ia dapat menerima panggilan atau teks seperti yang lain — kecuali tidak ada kartu SIM fisik di telepon Anda yang menjawabnya. Sebaliknya, apa pun yang tiba di nomor itu dialihkan kepada Anda lewat internet: ke aplikasi, dasbor, atau API. Bagi orang (atau layanan) di ujung lain, ia tidak dapat dibedakan dari nomor seluler biasa."
+    },
+    {
+      "type": "p",
+      "text": "Definisi satu kalimat itu memunculkan pertanyaan yang dijawab panduan ini: di mana nomor ini secara fisik hidup jika bukan di SIM? Bagaimana nomor virtual berbeda dari VoIP, eSIM, atau telepon burner? Mengapa kode pendaftaran mencapainya dengan baik? Apakah ini legal? Dan jika Anda memutuskan membutuhkannya, apa yang memisahkan penyedia yang baik dari situs gratis bersama yang tidak pernah menyampaikan kode?"
+    },
+    {
+      "type": "h2",
+      "id": "how-phone-numbers-actually-work",
+      "text": "Bagaimana nomor telepon sebenarnya bekerja"
+    },
+    {
+      "type": "p",
+      "text": "Wawasan kuncinya adalah nomor telepon tidak pernah hidup “di dalam” kartu SIM Anda. Nomor milik jaringan operator: regulator nasional mengalokasikan rentang ke operator seluler, dan jaringan inti operator menyimpan daftar yang memetakan setiap nomor ke pelanggan. SIM Anda hanyalah kartu kunci kriptografis yang membuktikan kepada jaringan bahwa perangkat Anda adalah pelanggan itu, sehingga panggilan dan teks yang ditujukan ke nomor disampaikan kepadanya."
+    },
+    {
+      "type": "p",
+      "text": "Nomor virtual hanya mengubah lompatan terakhir. Nomor tetap dialokasikan operator dan tetap hidup di jaringan seluler nyata — tetapi SIM yang menjawabnya duduk di infrastruktur penyedia, bukan di saku Anda. Saat SMS masuk, sistem penyedia membacanya dan meneruskannya kepada Anda lewat internet, biasanya ke aplikasi, biasanya dalam hitungan detik. Tidak ada yang berubah di sisi pengirim, persis mengapa sistem verifikasi memperlakukan nomor ini sebagai nomor seluler biasa: dari sudut pandang jaringan, memang begitu."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-vs-voip-esim-burner",
+      "text": "Nomor virtual vs VoIP vs eSIM vs telepon burner"
+    },
+    {
+      "type": "p",
+      "text": "Empat istilah ini terus tercampur, dan perbedaannya penting — terutama untuk verifikasi SMS, di mana sebagian rutin gagal."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nomor seluler virtual: nomor seluler jaringan operator nyata yang pesannya diteruskan kepada Anda secara daring. Paling cocok untuk menerima kode verifikasi SMS, karena layanan melihat nomor seluler normal.",
+        "Nomor VoIP (Google Voice, Skype, dan sejenisnya): nomor yang ada di layanan telepon internet, bukan jaringan seluler. Bagus untuk panggilan, tetapi banyak layanan mendeteksi rentang nomor VoIP dan menolak mengirim kode verifikasi kepadanya — nomor VoIP murah untuk didaftarkan massal, jadi sistem pendaftaran tidak mempercayainya.",
+        "eSIM: sama sekali bukan jenis nomor yang berbeda, hanya SIM tanpa plastik — profil operator yang diunduh ke perangkat Anda. Nomor sepenuhnya milik Anda dan sepenuhnya seluler, tetapi Anda membeli jalur nyata dengan kontrak atau paket nyata, yang berlebihan jika yang Anda butuhkan hanya menerima satu kode verifikasi.",
+        "Telepon burner: gawai prabayar murah plus SIM yang dibeli untuk pemakaian sementara. Ia berfungsi, tetapi opsi paling mahal dan paling lambat — perangkat keras, perjalanan ke toko, syarat identitas untuk registrasi SIM di banyak negara — untuk menyelesaikan apa yang dilakukan nomor virtual biasanya dalam hitungan detik."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Aturan praktis: jika tujuan Anda menerima kode SMS tanpa melibatkan nomor pribadi, Anda menginginkan nomor seluler virtual. Jika tujuan Anda jalur kedua permanen untuk panggilan, Anda menginginkan eSIM atau paket VoIP."
+    },
+    {
+      "type": "h2",
+      "id": "how-sms-verification-works",
+      "text": "Bagaimana alur verifikasi SMS sebenarnya"
+    },
+    {
+      "type": "p",
+      "text": "Memahami jalur itu menjelaskan baik mengapa nomor virtual berfungsi maupun mengapa kode sesekali tidak masuk — dari nomor mana pun, virtual atau bukan."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Layanan menghasilkan kata sandi sekali pakai (OTP)",
+          "body": "Saat Anda mengetik nomor ke formulir pendaftaran, layanan membuat kode berumur pendek — biasanya 4 sampai 8 digit, berlaku beberapa menit — dan menyimpannya terhadap pendaftaran yang tertunda."
+        },
+        {
+          "title": "Pesan masuk ke jaringan SMS",
+          "body": "Layanan menyerahkan kode ke gerbang SMS, sering dengan ID pengirim alfanumerik (“Telegram”, “Google”) bukan nomor telepon. Gerbang mengarahkannya melintasi jaringan operator menuju operator nomor tujuan."
+        },
+        {
+          "title": "Operator menyampaikan kepada siapa pun yang memegang nomor",
+          "body": "Operator tujuan menyampaikan SMS kepada pelanggan yang terdaftar untuk nomor itu. Untuk nomor virtual, itu infrastruktur SIM penyedia — yang membaca pesan dan mendorongnya ke aplikasi Anda, biasanya dalam hitungan detik."
+        },
+        {
+          "title": "Anda mengetik kode kembali, menutup lingkaran",
+          "body": "Layanan membandingkan yang Anda masukkan dengan yang dihasilkannya. Cocok — dan ia kini percaya Anda menguasai nomor itu. Hanya itu yang pernah dibuktikan verifikasi SMS: penguasaan suatu nomor pada satu saat."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    },
+    {
+      "type": "h2",
+      "id": "is-it-legal",
+      "text": "Apakah memakai nomor virtual legal?"
+    },
+    {
+      "type": "p",
+      "text": "Ya — menyewa dan memakai nomor virtual legal di sebagian besar yurisdiksi; itu infrastruktur penomoran teregulasi yang sama yang dipakai bisnis selama puluhan tahun untuk hotline dan notifikasi pengiriman. Yang dipedulikan hukum (dan ketentuan setiap layanan) adalah apa yang Anda lakukan dengan akun setelahnya: penipuan ilegal dari nomor mana pun, dan aturan setiap platform berlaku sama bagi setiap akun. Nomor virtual adalah alat privasi, bukan surat izin."
+    },
+    {
+      "type": "p",
+      "text": "Pemakaian yang sah lebih luas daripada yang diharapkan kebanyakan orang:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Privasi: mendaftar ke aplikasi dan situs tanpa memasukkan nomor asli Anda ke satu basis data lagi yang dapat bocor, dijual, atau dikikis untuk panggilan spam.",
+        "Pemisahan: akun pesan instan kedua untuk kerja, proyek, atau berjualan di marketplace — dapat dihubungi tanpa mengekspos jalur pribadi Anda.",
+        "QA dan pengembangan: insinyur yang menguji alur pendaftaran, pengiriman SMS, dan lokalisasi di banyak negara tanpa memelihara laci kartu SIM.",
+        "Perjalanan dan geografi: mendaftar ke layanan yang mengharapkan nomor lokal di negara tempat Anda tidak memegang SIM.",
+        "Pengendalian kerugian: saat nomor disyaratkan layanan yang pada dasarnya tidak Anda percayai, memberinya nomor sewaan membatasi sisi buruknya."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "choosing-a-provider",
+      "text": "Apa yang dicari pada penyedia"
+    },
+    {
+      "type": "p",
+      "text": "Penyedia berbeda jauh lebih banyak daripada yang disarankan halaman mereka, dan perbedaannya muncul persis saat Anda menunggu kode. Empat hal layak diperiksa sebelum Anda membayar siapa pun:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nomor seluler nyata dan khusus — bukan nomor bersama di situs “terima SMS online” gratis. Nomor itu dipakai ribuan orang, jadi layanan memasukkannya ke daftar blokir atau menemukannya sudah terdaftar; dan siapa pun yang melihat halaman yang sama dapat membaca kode Anda.",
+        "Kebijakan pembatalan yang adil: jika SMS tidak masuk, Anda tidak seharusnya membayar. Dengan SMS Code, aktivasi yang tidak menerima apa pun dibatalkan gratis.",
+        "Cakupan negara yang sesuai kebutuhan Anda — SMS Code menawarkan nomor di 100+ negara, yang juga memberi alternatif saat satu jalur lambat.",
+        "Harga yang dapat Anda pahami: bayar per aktivasi dari paket koin sekali beli mengalahkan langganan jika kebutuhan Anda sesekali — Anda tidak seharusnya menyewa jalur bulanan untuk menerima satu kode."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Uji kualitas tercepat penyedia mana pun: apa yang terjadi saat kode tidak masuk? Jika jawabannya “Anda tetap membayar”, terus cari. Verifikasi bersifat probabilistik di tepinya — penyedia yang serius memasukkan itu ke harga, bukan meneruskannya kepada Anda."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Apakah nomor telepon virtual nomor yang asli?",
+          "a": "Ya. Ia dialokasikan operator nyata dan hidup di jaringan seluler nyata — satu-satunya beda dari nomor di saku Anda adalah pesan masuk diteruskan kepada Anda lewat internet, bukan membunyikan SIM di perangkat Anda sendiri."
+        },
+        {
+          "q": "Bisakah nomor virtual menerima kode verifikasi SMS?",
+          "a": "Ya — itu pemakaian utama. Karena ia nomor seluler yang tulus, layanan menyampaikan kode OTP kepadanya secara normal, dan penyedia yang baik menampilkan pesan biasanya dalam hitungan detik. Nomor VoIP, sebaliknya, sering ditolak sistem pendaftaran."
+        },
+        {
+          "q": "Apakah saya membutuhkan kartu SIM atau perangkat keras baru untuk nomor virtual?",
+          "a": "Tidak. SIM yang menjawab nomor itu duduk di infrastruktur penyedia. Anda hanya melihat pesan masuk di aplikasi — tidak ada yang dipasang di baki SIM telepon Anda dan tidak ada profil eSIM yang ditambahkan."
+        },
+        {
+          "q": "Apa beda nomor virtual dan telepon burner?",
+          "a": "Burner bersifat fisik: gawai prabayar murah dan SIM yang Anda beli, bawa, dan akhirnya buang. Nomor virtual mencapai pemisahan yang sama tanpa perangkat keras, tanpa kunjungan toko, dan tanpa berkas registrasi SIM — Anda menyewa nomor untuk verifikasi dan menerima kode di aplikasi."
+        },
+        {
+          "q": "Apakah situs “terima SMS online” gratis cukup baik?",
+          "a": "Untuk apa pun yang Anda pedulikan, tidak. Nomor mereka dibagi dan terlihat publik: layanan memasukkannya ke daftar blokir, nomor sering sudah terdaftar, dan siapa pun di halaman yang sama dapat membaca kode yang Anda terima — termasuk kode yang dapat mengatur ulang akun yang baru Anda buat."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

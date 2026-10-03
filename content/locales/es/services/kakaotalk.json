@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para KakaoTalk",
+  "metaDescription": "Recibe el código de KakaoTalk en un número virtual real, normalmente en segundos. Usa el mensajero principal de Corea sin entregar tu teléfono personal.",
+  "hero": {
+    "title": "Número virtual para KakaoTalk",
+    "intro": [
+      "KakaoTalk es como habla Corea — grupos, hilos familiares, contactos de negocio — y, como todo mensajero serio, abre con una pantalla de teléfono. El alta manda un código corto como «[KakaoTalk] 4829 is your verification code», y no hay un camino solo con correo para rodearlo.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países y el código aparece en la aplicación normalmente en segundos. Entras en la conversación, y los amigos, colegas o familia política coreanos que esperan ahí no necesitan tu número personal para localizarte."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en KakaoTalk?",
+    "body": [
+      "Los mensajeros construidos sobre el teléfono comparten un valor por defecto silencioso: quien tenga tu número guardado puede encontrar tu perfil, y con quien chateas está a un ajuste de verlo. Entrar en KakaoTalk por un intercambio de idiomas, un contacto de negocio o un viaje a Seúl no debería significar que tu número de toda la vida entre en otro grafo social. Un número alquilado se queda la verificación, y el tuyo real se queda fuera de la ecuación.",
+      "La otra cara, honesta: un número que no es coreano te da una cuenta de chat completa, pero no todo Kakao. Los rincones del ecosistema cerrados a Corea — Kakao Pay, servicios de certificados, funciones atadas a controles de identidad de operadores coreanos — esperan un contrato telefónico coreano y a menudo un documento de residente, y ningún número alquilado ocupa su lugar. Si el objetivo es chatear, un número virtual hace el trabajo del todo; si el objetivo son los servicios financieros coreanos, nunca iba a bastar."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar KakaoTalk con un número virtual",
+    "steps": [
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Elige KakaoTalk como servicio y escoge un país. Un número de donde de verdad vives mantiene la cuenta sin llamar la atención. Un toque reserva un número móvil real para ti."
+      },
+      {
+        "title": "Escríbelo en la pantalla de registro",
+        "body": "KakaoTalk pide el número justo después de instalar. Selecciona el prefijo que corresponde, escribe el número y deja que la aplicación mande el SMS."
+      },
+      {
+        "title": "Escribe el código",
+        "body": "El texto llega como «[KakaoTalk] 4829 is your verification code» y aparece en SMS Code normalmente en segundos. Escríbelo; si el SMS se atasca, KakaoTalk también puede leer el código en una llamada de voz después de una espera."
+      },
+      {
+        "title": "Monta la cuenta para el largo plazo",
+        "body": "Registra un correo y una contraseña de cuenta Kakao en los ajustes y anótalos en un sitio seguro. Las migraciones de dispositivo y las reinstalaciones se apoyan en esa cuenta Kakao: es lo que mantiene tus chats tuyos cuando el número alquilado ya no está."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Los chats viven en el dispositivo, las copias en la cuenta",
+      "body": "KakaoTalk guarda el historial en local y lo restaura con copias atadas a tu cuenta Kakao. Pon el correo y la contraseña de la cuenta enseguida y haz una copia antes de cambiar de teléfono: el número de teléfono solo no va a llevar tu historial a ningún sitio."
+    },
+    {
+      "title": "Cuida los ajustes de descubrimiento",
+      "body": "KakaoTalk puede emparejarte con quien tenga tu número guardado, incluida la vida anterior de un número reciclado. Apaga en los ajustes el añadido automático de amigos por teléfono y comparte tu ID de KakaoTalk: es el identificador más limpio para vivir con él."
+    },
+    {
+      "title": "Las funciones solo de Corea van por identidad, no por el número",
+      "body": "Kakao Pay, los certificados y servicios parecidos verifican contra operadores coreanos y el registro de residente, no solo contra un prefijo +82. Un número coreano alquilado no los abre: planifica alrededor de las funciones de chat, que funcionan del todo en cualquier número verificado."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo registrarme en KakaoTalk con un número que no sea coreano?",
+      "a": "Sí. KakaoTalk registra cuentas con números de la mayoría de países: el alta, los chats, los grupos y las llamadas funcionan. Los servicios específicos de Corea que van encima tienen sus propios controles de identidad, que un teléfono solo no cumple."
+    },
+    {
+      "q": "¿Mi cuenta de KakaoTalk sobrevive cuando caduca el número alquilado?",
+      "a": "Sí, mientras sigas con la sesión iniciada y pongas un correo y una contraseña de cuenta Kakao. La nueva verificación sale sobre todo cuando pasas a un dispositivo nuevo: haz el cambio mientras aún puedas recibir la confirmación, o apóyate en las credenciales de la cuenta Kakao."
+    },
+    {
+      "q": "¿Por qué KakaoTalk dice que el número no se puede usar?",
+      "a": "Algunos rangos y números ya registrados antes se rechazan. Cancela la activación en SMS Code sin cargo, toma un número nuevo — otro país si el patrón se repite — y vuelve a verificar."
+    },
+    {
+      "q": "¿Los amigos pueden ver qué número usé?",
+      "a": "Los contactos que ya tengan el número guardado pueden emparejarlo con tu perfil si el añadido automático de amigos está encendido. Desactiva añadir amigos por número, usa tu ID de KakaoTalk para las presentaciones, y el número se queda como dato de acceso, no como identificador público."
+    },
+    {
+      "q": "¿Un número virtual sirve para Kakao Pay o para servicios de verificación coreanos?",
+      "a": "No. Esos comprueban contratos de operadores coreanos e identidad de residente, que un número alquilado no lleva. Un número virtual es para el propio mensajero — cuentas, chats y llamadas —, no para la capa financiera de Corea cerrada por identidad."
+    }
+  ]
+}

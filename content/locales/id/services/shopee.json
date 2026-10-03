@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Shopee — terima OTP belanja",
+  "metaDescription": "Terima kode SMS Shopee di nomor virtual asli biasanya dalam hitungan detik. Belanja tanpa mengarahkan teks promo dan pembaruan pesanan ke telepon pribadi Anda.",
+  "hero": {
+    "title": "Nomor virtual untuk Shopee",
+    "intro": [
+      "Shopee mengutamakan telepon dengan cara yang tidak dilakukan marketplace Barat: di Asia Tenggara dan Brasil, nomor itu praktis adalah akunnya. Pendaftaran dimulai dengan telepon, OTP seperti “382916 is your Shopee verification code” mengonfirmasinya, dan sejak itu nomor itu adalah login Anda, jalur pemulihan Anda — dan alamat untuk arus SMS flash sale yang terus-menerus.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara dan kodenya masuk ke aplikasi biasanya dalam hitungan detik. Akun terverifikasi — dan rentetan pemasaran mengarah ke tempat lain, bukan telepon yang membangunkan Anda di malam hari."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Shopee?",
+    "body": [
+      "Marketplace termasuk layanan paling berisik yang bisa ditemui sebuah nomor telepon. Pembaruan pesanan berguna; voucher, hitung mundur, dan ledakan “obral 9.9” tidak — dan begitu nomor pribadi Anda masuk ke basis data perdagangan, ia cenderung tetap di sana melalui setiap daftar mitra dan kebocoran yang menyusul. Nomor terpisah untuk belanja menjauhkan perburuan diskon dari nomor yang dipakai keluarga Anda.",
+      "Sisi jujurnya: justru karena Shopee mengutamakan telepon, nomor lebih penting di sini daripada di layanan yang berjangkar email. Ini bukan sekadar pos pemeriksaan — ini loginnya. Itu tidak menyingkirkan nomor virtual; ini mengubah cara Anda memakainya. Verifikasi dengannya, lalu segera tautkan email dan atur kata sandi di setelan akun, agar masuk tidak pernah bergantung pada menerima OTP lain di nomor yang Anda sewa untuk satu sore."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Shopee dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Pilih Shopee sebagai layanan dan pilih negara yang cocok dengan pasar Shopee tempat Anda berbelanja — aplikasi Indonesia mengharapkan nomor Indonesia, aplikasi Thailand nomor Thailand. Satu ketukan mencadangkan nomor seluler asli."
+      },
+      {
+        "title": "Mulai pendaftaran dengan nomor itu",
+        "body": "Masukkan nomor di layar pendaftaran Shopee dengan kode negara yang benar. Shopee mengirim OTP segera — ini bagian yang peka waktu, jadi buka kedua aplikasi."
+      },
+      {
+        "title": "Ketik kodenya",
+        "body": "SMS berbunyi “382916 is your Shopee verification code” dan muncul di SMS Code biasanya dalam hitungan detik. Masukkan, dan akunnya aktif."
+      },
+      {
+        "title": "Beri akun jangkar kedua",
+        "body": "Segera setelah mendaftar, buka setelan akun lalu tautkan email dan atur kata sandi login. Dengan begitu Anda dapat masuk dengan nama pengguna dan kata sandi, bukan OTP baru — nomor sewaan berhenti menjadi satu-satunya kunci."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Cocokkan nomor dengan pasarnya",
+      "body": "Shopee menjalankan aplikasi dan situs khusus negara, dan masing-masing mengharapkan nomor lokal. Nomor Vietnam tidak akan memulai akun di Shopee Indonesia. Putuskan pasar mana yang benar-benar Anda beli, lalu sewa nomor yang cocok."
+    },
+    {
+      "title": "Nomor itu adalah login — rencanakan itu",
+      "body": "Jika layanan yang mengutamakan email memperlakukan telepon sebagai pos pemeriksaan, Shopee dapat meminta SMS lagi saat atur ulang kata sandi atau login dari perangkat baru. Biarkan kata sandi login terpasang, tetap masuk di perangkat Anda, dan anggap akun belanja jangka panjang sebagai sesuatu yang layak memakai nomor yang Anda simpan."
+    },
+    {
+      "title": "Berjualan adalah permainan yang berbeda",
+      "body": "Membuka toko membawa verifikasi penjual — dokumen identitas dan detail bank di sebagian besar pasar. Nomor virtual mencakup langkah SMS akun pembeli; ia tidak menggantikan pemeriksaan yang dijalankan Shopee pada orang yang menerima pembayaran."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah saya mendaftar Shopee dengan nomor virtual?",
+      "a": "Ya — ini nomor seluler asli di jaringan operator yang nyata, dan Shopee memverifikasinya dengan OTP standar. Pilih negara yang cocok dengan pasar Shopee tempat Anda mendaftar, karena setiap pasar mengharapkan nomor lokal."
+    },
+    {
+      "q": "Apa yang terjadi pada akun Shopee saya saat nomor sewaan berakhir?",
+      "a": "Akun tetap berfungsi selama Anda bisa masuk. Karena Shopee mengutamakan telepon, atur kata sandi dan tautkan email segera setelah pendaftaran — maka login sehari-hari tidak membutuhkan OTP. Jika Anda berencana memakai akun selama bertahun-tahun, pertimbangkan memperbaruinya ke nomor yang Anda simpan."
+    },
+    {
+      "q": "Apakah SMS promo masuk ke telepon pribadi saya?",
+      "a": "Tidak — itu separuh gunanya. Teks pemasaran mengikuti nomor di akun, dan nomor itu ada di aplikasi SMS Code, bukan di saku Anda. Anda juga dapat mengurangi notifikasi di setelan Shopee."
+    },
+    {
+      "q": "Bisakah saya membuka akun penjual Shopee dengan cara ini?",
+      "a": "Langkah SMS bekerja sama, tetapi onboarding penjual menambah verifikasi identitas dan perbankan yang tidak digantikan nomor telepon. Bersiaplah menyediakan dokumen asli jika Anda ingin berjualan dan menarik uang."
+    },
+    {
+      "q": "Mengapa kode Shopee tidak masuk?",
+      "a": "Paling sering negara nomor tidak cocok dengan pasar Shopee, atau kode negara salah ketik. Jika SMS benar-benar tidak pernah datang, batalkan aktivasi di SMS Code tanpa biaya dan ambil nomor lain."
+    }
+  ]
+}

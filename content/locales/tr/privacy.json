@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Gizlilik Politikası",
+    "description": "SIMNETIQ LTD, SMS Code uygulamasında ve simnetiq.xyz sitesinde kişisel verilerinizi nasıl toplar, kullanır ve korur; BK ve AB GDPR haklarınız."
+  },
+  "prevailingNotice": "Bu çeviri kolaylık için sunulmuştur. İngilizce sürümle farklılık varsa İngilizce sürüm geçerlidir.",
+  "label": "Hukuki",
+  "title": "Gizlilik Politikası",
+  "updatedLabel": "Son güncelleme:",
+  "sections": [
+    {
+      "title": "1. Biz kimiz",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SMS Code (“Uygulama”) ve simnetiq.xyz sitesi (“Site”), İngiltere ve Galler’de kayıtlı SIMNETIQ LTD (“biz”) tarafından işletilir. Bu politikada anlatılan kişisel veriler için veri sorumlusu biziz. Bize {supportEmail} adresinden ulaşabilirsiniz."
+        },
+        {
+          "type": "p",
+          "text": "Şirket numarası: {companyNumber}. Kayıtlı ofis: {registeredOffice}. İletişim: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Uygulama ne yapar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Uygulama, SMS doğrulama kodu alabilen geçici sanal telefon numaraları sağlar; böylece kişisel telefon numaranızı paylaşmadan çevrimiçi servislere kaydolabilirsiniz."
+        }
+      ]
+    },
+    {
+      "title": "3. Topladığımız veriler",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Hesap verisi.** Uygulamayı ilk açtığınızda oluşturulan anonim bir hesap kimliği ve vermeyi seçerseniz e-posta adresiniz.",
+            "**Satın alma verisi.** Aldığınız jeton paketlerinin kayıtları. Ödemenin kendisini Apple App Store işler — kart bilgilerinizi hiç görmeyiz.",
+            "**Etkinleştirme verisi.** Servis, ülke, sanal numara ve o numaraya gelen doğrulama SMS’lerinin metni; kodu size iletmek ve uyuşmazlıkları çözmek için gereken süre boyunca tutulur.",
+            "**Cihaz verisi.** Yalnızca iki şey ve yalnızca sizi ilgilendiriyorsa. Bildirimlere izin verirseniz, kodun geldiğini söyleyebilmemiz için cihazınıza verilen anlık bildirim belirteci. Ve cihazınızın bildirdiği iki harfli bölge kodu (örneğin *GB*); ülke listesiyle birlikte gönderilir, böylece bir ülkeyi “Önerilen” olarak işaretleyebiliriz — bu bir cihaz ayarıdır, konumunuz değildir ve konum izni söz konusu değildir.",
+            "**Destek verisi.** Site üzerinden veya e-posta ile desteğe yazdığınızda adınızı, e-posta adresinizi ve mesajınızın içeriğini toplarız. Siteden gönderilen destek talepleri veritabanımızda (Supabase üzerinde barındırılır) saklanır ve size yanıt vermek için e-posta araçlarımızdan geçer. Formun otomatik kötüye kullanımını engellemek için tarayıcınızın user-agent dizesini ve IP adresinizin tuzlanmış tek yönlü özetini de saklarız.",
+            "**Site analitiği.** Site, çerez kullanmadan ve sizi başka sitelerde profillemeden sayfa görüntülemelerini sayan Vercel Web Analytics kullanır. Uygulamada hiçbir analitik, reklam veya ilişkilendirme SDK’sı yoktur."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bilerek toplamadıklarımız: kendi telefon numaranız, kişileriniz, konumunuz, reklam kimlikleri ve Uygulama içinden herhangi bir kullanım, çökme veya tanılama telemetrisi. Uygulamada analitik veya çökme raporlama SDK’sı yoktur, dolayısıyla bu türden gönderilecek bir şey de yoktur. Bu, SMS Code için App Store gizlilik etiketiyle uyumludur."
+        }
+      ]
+    },
+    {
+      "title": "4. Verilerinizi nasıl kullanırız",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Size sanal numara sağlamak ve doğrulama kodlarını iletmek için (sözleşmenin ifası).",
+            "Jeton bakiyenizi tutmak ve satın almaları cihazlar arasında geri yüklemek için (sözleşmenin ifası).",
+            "Destek taleplerini yanıtlamak için (meşru menfaat / sözleşmenin ifası).",
+            "Dolandırıcılığı, kötüye kullanımı ve Kullanım Koşullarımızın ihlalini tespit edip önlemek için (meşru menfaat).",
+            "Siteyi çalışır tutmak ve insanların hangi sayfaları yararlı bulduğunu anlamak için, toplu ve çerezsiz site analitiğiyle (meşru menfaat)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Kişisel verilerinizi satmayız ve üçüncü taraf reklamı için kullanmayız."
+        }
+      ]
+    },
+    {
+      "title": "5. Paylaşım ve işleyenler",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hizmeti işletmek için aşağıdaki sağlayıcıları kullanırız. Rolleri, verdikleri hizmete bağlıdır:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Supabase** — Uygulamanın arkasındaki veritabanı ve arka uç. Saklanan her şey, 3. bölümde anlatılanların tamamıdır.",
+            "**Apple** — her uygulama içi satın almayı işler ve kullanırsanız Sign in with Apple işlemini yürütür. Ödeme ayrıntılarınızı hiç görmeyiz.",
+            "**RevenueCat** — satın alma makbuzlarını doğrular ve arka ucumuza hangi jeton paketini aldığınızı söyler. Hesap kimliğinizi, satın alma verinizi ve temel cihaz bilgisini alır.",
+            "**Expo** — anlık bildirimleri ve Uygulama güncellemelerini iletir. Anlık bildirim belirtecinizi ve bildirimin metnini alır.",
+            "**Vercel** — Siteyi barındırır ve analitiğini sağlar.",
+            "**E-posta araçlarımız** — destek yazışmasını taşır.",
+            "**Telefon sağlayıcımız** — sanal numaraları temin eder. Yalnızca istediğiniz servis ve ülke gönderilir; sizin hiçbir kimliğiniz ona ulaşmaz ve uygulama hesap kimliğinizi göndermeyiz. Sağlayıcı, hizmeti sunmak için numaraları ve SMS içeriğini işler."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "İşleyen olarak hareket eden sağlayıcılar uygun veri işleme koşullarına tabi olmalıdır. Verinizi satmayız ve reklamverenlerle hiçbir şey paylaşmayız. Hukukun gerektirdiği yerde veriyi ayrıca açıklayabiliriz."
+        }
+      ]
+    },
+    {
+      "title": "6. Uluslararası aktarımlar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bazı sağlayıcılar Birleşik Krallık dışındadır. Veri Birleşik Krallık’tan veya Avrupa Ekonomik Alanı’ndan çıktığında, yürürlükteki veri koruma hukuku yeterlilik kararı veya sözleşmesel güvenceler gibi uygun bir aktarım dayanağı ister. Verilerinize ilişkin güvenceler hakkında bilgi için bize yazın."
+        }
+      ]
+    },
+    {
+      "title": "7. Saklama",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Etkinleştirme verisi — 90 gün.** Kiralanan numara ve ona gelen SMS’lerin metni, etkinleştirmenin oluşturulmasından 90 gün sonra zamanlanmış günlük temizlikte silinir. Bundan sonra kalan kayıtta numara ve mesaj metni yoktur: servis, ülke, tarih, sonuç ve ilgili jetonlar. Bunu tutarız çünkü harcadığınız jetonların muhasebe kaydıdır ve bir ödeme uyuşmazlığında ihtiyacımız olan kanıttır.",
+            "**Hesap verisi — hesabınızı silene kadar.** Hesabınızı silmek canlı hesabınızı, e-posta adresinizi ve etkinleştirme geçmişinizi kaldırır. Sınırlı mali ve dolandırıcılık önleme kayıtları aşağıda ve 9. bölümde anlatıldığı gibi kalır.",
+            "**Satın alma kayıtları — hukukun gerektirdiği süre.** Her satın almanın pseudonimleştirilmiş mali kaydı — işlem referansı, paket, tutar, tarih ve sonradan iade edilip edilmediği — vergi ve muhasebe hukukunun gerektirdiği süre boyunca tutulur ve hesap silinse de kalır. Telefon numarası, mesaj metni ve e-posta adresi içermez.",
+            "**Destek yazışması — en fazla 24 ay** talep kapatıldıktan sonra."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8. Haklarınız",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "UK GDPR ve EU GDPR kapsamında kişisel verilerinize erişme, düzeltme, silme veya bir kopyasını alma, işlemeyi kısıtlama veya itiraz etme ve işlemenin rızaya dayandığı hallerde rızanızı istediğiniz zaman geri çekme hakkınız vardır. Bu haklardan herhangi birini kullanmak için {supportEmail} adresine yazın. Birleşik Krallık Information Commissioner’s Office’e (ico.org.uk) veya yerel denetim otoritenize de şikayette bulunabilirsiniz."
+        }
+      ]
+    },
+    {
+      "title": "9. Hesap ve veri silme",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hesabınızı doğrudan Uygulamada (Ayarlar → Hesabı sil) veya bize e-posta yazarak silebilirsiniz. Silme; hesap kimliğinizi, e-posta adresinizi, jeton bakiyenizi ve etkinleştirme geçmişinizi, hâlâ tutulan her kiralanmış numara ve her SMS gövdesi dahil, kaldırır. Destekle iletişimi gerektirmez ve geri alınamaz. Sınırlı mali ve dolandırıcılık önleme kayıtları kalır: satın alma işlem referansları, eski hesap kimliği, toplu etkinlik ve jeton sayıları, iade açıkları, zaman damgaları ve özetlenmiş cihaz belirteci bağlantıları. Bunlar muhasebeyi, uyuşmazlıkları ve tekrarlayan iade kötüye kullanımının önlenmesini destekler. Saklanan etkinleştirme telefon numarası, SMS gövdesi veya hesap e-postası içermez; ancak pseudonimleştirilmiştir, anonim oldukları garanti edilmez ve aynı cihaz belirtecini kullanan satın alma kayıtlarına veya başka hesaplara bağlanabilir."
+        }
+      ]
+    },
+    {
+      "title": "10. Çocuklar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Uygulama çocuklara yönelik değildir ve 18 yaş ve üzeri kullanıcılar içindir. Çocuklardan bilerek veri toplamayız; bir çocuğun Uygulamayı kullandığını düşünüyorsanız bize yazın, veriyi sileriz."
+        }
+      ]
+    },
+    {
+      "title": "11. Güvenlik",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Veri aktarım sırasında şifrelenir, erişim yalnızca ihtiyacı olan personelle sınırlıdır ve veritabanlarımız satır düzeyinde erişim denetimleri uygular. Hiçbir sistem kusursuz güvenli değildir; bu yüzden tuttuğumuz veri miktarını da asgari düzeyde tutarız."
+        }
+      ]
+    },
+    {
+      "title": "12. Bu politikadaki değişiklikler",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişiklikler Uygulamada veya Sitede duyurulur ve yukarıdaki “Son güncelleme” tarihi her zaman güncel sürümü yansıtır."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Signal — daftar privat tanpa SIM",
+  "metaDescription": "Daftarkan Signal dengan nomor virtual asli dari 100+ negara. Kode tiba biasanya dalam hitungan detik — bayar per aktivasi, batal tanpa biaya jika tidak ada SMS.",
+  "hero": {
+    "title": "Nomor virtual untuk Signal",
+    "intro": [
+      "Inilah ironi Signal: pesan instan yang mengenkripsi segalanya, menyimpan hampir tidak ada, dan direkomendasikan setiap peneliti privasi tetap meminta nomor telepon sebelum Anda dapat mengirim pesan pertama. Pendaftaran dibangun di atas kode SMS — meskipun nama pengguna kini berarti tidak ada yang harus melihat nomor itu setelahnya.",
+      "Dengan SMS Code Anda menutup celah terakhir itu: sewa nomor seluler asli di salah satu dari 100+ negara, daftarkan Signal dengannya, dan kodenya muncul di aplikasi biasanya dalam hitungan detik. Anda membayar per aktivasi dari paket koin sekali beli — tanpa langganan — dan aktivasi yang tidak menerima SMS dibatalkan tanpa biaya."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Signal?",
+    "body": [
+      "Jika Anda memilih Signal, Anda memilihnya karena metadata yang tidak disimpannya — dan nomor telepon adalah satu pengenal yang masih disyaratkan pendaftaran. Mendaftar dengan nomor pribadi diam-diam meruntuhkan sisa desain itu: pesan instan tidak mengungkap apa pun, tetapi nomor di berkas adalah nomor yang sama yang tertaut ke bank, atasan, dan catatan setiap pialang data. Nomor sewaan melengkapi gambar yang dimulai Signal.",
+      "Sejak nama pengguna hadir, satu-satunya pekerjaan nomor yang tersisa adalah pendaftaran. Kontak dapat menemukan Anda lewat nama pengguna, dan setelan privasi membiarkan Anda membuat nomor tidak terlihat dan tidak dapat dicari: “Siapa yang dapat melihat nomor saya” — Tidak ada, “Siapa yang dapat menemukan saya lewat nomor” — Tidak ada. Pasangkan setelan itu dengan nomor virtual dan akun tidak dapat ditemukan lewat nomor asli Anda, karena alasan sederhana bahwa nomor asli Anda tidak pernah terlibat."
+    ]
+  },
+  "howTo": {
+    "title": "Cara mendaftarkan Signal dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Dapatkan nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih Signal sebagai layanan, pilih negara, dan ketuk sekali. Nomor seluler asli dicadangkan hanya untuk Anda selama aktivasi berlangsung."
+      },
+      {
+        "title": "Masukkan di Signal",
+        "body": "Di layar pendaftaran, pilih kode negara yang sesuai dan ketik nomornya. Signal terkadang menampilkan captcha sebelum mengirim kode — itu pemeriksaan anti-penyalahgunaannya, cukup selesaikan."
+      },
+      {
+        "title": "Ambil kodenya",
+        "body": "SMS masuk ke aplikasi SMS Code biasanya dalam hitungan detik, berformat seperti “SIGNAL: Your code is: 613904”. Masukkan digitnya dan pendaftaran selesai."
+      },
+      {
+        "title": "Atur PIN dan klaim nama pengguna",
+        "body": "Buat PIN Signal Anda, lalu aktifkan Kunci Pendaftaran di Setelan → Akun. Berikutnya, atur nama pengguna dan alihkan “Siapa yang dapat melihat nomor saya” serta “Siapa yang dapat menemukan saya lewat nomor” ke Tidak ada. Kini nomor sudah menyelesaikan satu tugasnya dan menghilang dari pandangan."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kunci Pendaftaran adalah jaring pengaman Anda",
+      "body": "Dengan Kunci Pendaftaran aktif, mendaftarkan ulang nomor Anda membutuhkan PIN Signal — jadi tidak ada yang kemudian memegang nomor itu dapat mengambil alih akun. Satu catatan langsung dari desain Signal: kunci tetap siaga hanya selagi akun dipakai, jadi buka aplikasi setidaknya sekali seminggu."
+    },
+    {
+      "title": "Biarkan nama pengguna yang bicara",
+      "body": "Bagikan nama pengguna Anda, bukan nomornya — itulah seluruh gunanya fitur ini. Anda dapat mengubah nama pengguna kapan saja, dan dengan sakelar privasi nomor telepon diatur ke Tidak ada, bahkan orang yang entah bagaimana mengetahui nomor sewaan tidak dapat menemukan akun melaluinya."
+    },
+    {
+      "title": "Akun Anda hidup di perangkat Anda",
+      "body": "Sesuai filosofinya, Signal tidak menyimpan salinan cloud obrolan Anda — akun dan riwayat ada di telepon Anda. Pindah ke telepon baru bekerja lewat transfer bawaan selagi yang lama masih hidup. Rencanakan itu: dengan jendela nomor sewaan tertutup, perangkat itu sendiri adalah akunnya."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bukankah pesan instan paling privat yang mensyaratkan nomor telepon menggagalkan tujuannya?",
+      "a": "Ini ketegangan yang nyata, dan Signal mengetahuinya — itulah mengapa nama pengguna dan setelan privasi nomor telepon ada. Nomor disyaratkan sekali, saat pendaftaran, sebagai langkah anti-spam. Nomor virtual memenuhi persyaratan itu tanpa menautkan akun kepada Anda, yang boleh dibilang cara mendaftar yang paling sesuai semangat Signal."
+    },
+    {
+      "q": "Apakah ada yang melihat nomor yang saya daftarkan?",
+      "a": "Tidak jika Anda membalik sakelarnya: atur “Siapa yang dapat melihat nomor saya” dan “Siapa yang dapat menemukan saya lewat nomor” ke Tidak ada, dan bagikan nama pengguna sebagai gantinya. Sejak itu nomor tidak muncul di mana pun — tidak di profil, tidak di pencarian."
+    },
+    {
+      "q": "Apa yang terjadi pada akun Signal saya saat nomor sewaan berakhir?",
+      "a": "Akun tetap bekerja di perangkat Anda — nomor dibutuhkan untuk pendaftaran sekali. Aktifkan Kunci Pendaftaran agar nomor tidak dapat didaftarkan ulang oleh siapa pun tanpa PIN Anda, dan terus pakai aplikasi agar kunci tetap aktif."
+    },
+    {
+      "q": "Bagaimana jika saya kehilangan telepon atau memasang ulang Signal?",
+      "a": "Ini batasan yang jujur: mendaftar ulang membutuhkan menerima kode di nomor itu lagi, dan sewa yang sudah berakhir tidak dapat melakukannya. Transfer ke telepon baru selagi yang lama masih berfungsi, dan anggap perangkat sebagai rumah akun. Untuk penyiapan yang mengutamakan privasi, pertukaran itu biasanya dapat diterima — lakukan dengan sadar."
+    },
+    {
+      "q": "Mengapa kode Signal saya tidak masuk?",
+      "a": "Signal berhati-hati terhadap pendaftaran yang dianggap mencurigakan: Anda mungkin mendapat captcha lebih dulu, dan sebagian nomor ditolak langsung. Periksa bahwa kode negara cocok, selesaikan captcha apa pun, dan jika SMS tetap tidak datang, batalkan aktivasi di SMS Code — koin kembali untuk nomor yang tidak menerima apa pun — dan coba nomor atau negara lain."
+    }
+  ]
+}

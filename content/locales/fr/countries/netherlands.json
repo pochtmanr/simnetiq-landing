@@ -1,0 +1,55 @@
+{
+  "name": "Pays-Bas",
+  "metaTitle": "Numéro virtuel Pays-Bas +31",
+  "metaDescription": "Louez un vrai mobile néerlandais (+31) et recevez des codes SMS généralement en quelques secondes. Vérifiez Telegram, WhatsApp, Google, Discord et Signal.",
+  "hero": {
+    "title": "Numéro virtuel des Pays-Bas pour la vérification SMS",
+    "intro": [
+      "Si vous avez déjà vu une démo de vérification par téléphone, il y a de bonnes chances qu’un numéro +31 6 était à l’écran — les mobiles néerlandais sont un peu l’exemple type du secteur. Cette familiarité joue en votre faveur\u00a0: partout, les formulaires savent exactement à quoi ressemble un mobile des Pays-Bas.",
+      "SMS Code vous donne un vrai numéro mobile néerlandais en un toucher. Saisissez-le quand Telegram, WhatsApp, Google ou un autre service pris en charge demande un téléphone, et le SMS avec votre code apparaît dans l’app généralement en quelques secondes."
+    ]
+  },
+  "whyCountry": {
+    "title": "Pourquoi choisir un numéro néerlandais\u00a0?",
+    "body": [
+      "Les Pays-Bas sont un marché européen compact et très connecté, et un numéro +31 est un défaut européen fiable — accepté par des messageries comme Telegram, WhatsApp et Signal, par des plateformes comme Discord, et par Google. Quand vous n’avez pas besoin d’un pays précis, il vous faut un pays qui ne pose jamais de problème, et les numéros néerlandais en posent rarement.",
+      "Chaque mobile néerlandais suit un seul schéma\u00a0: +31, puis 6, puis huit chiffres. Pas de préfixes concurrents, pas de variantes régionales — un format unique et sans ambiguïté, que les formulaires internationaux lisent du premier coup, ce qui garde l’étape de vérification aussi banale qu’elle doit l’être."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Mobile veut toujours dire 6",
+      "body": "Aux Pays-Bas, le 6 après +31 marque un mobile — les autres chiffres de tête sont des fixes et ne recevront pas de textos. Les numéros de SMS Code sont des mobiles par définition, donc le 6 est déjà en place."
+    },
+    {
+      "title": "Le zéro sort, le plus entre",
+      "body": "Écrit en national, le numéro commence par 06\u00a0; en international, le zéro tombe et +31 prend sa place. Si un formulaire proteste, vérifiez que vous n’avez pas collé la forme nationale 06 dans un champ international."
+    },
+    {
+      "title": "Le second essai est sans frais si le premier échoue",
+      "body": "Quand un code n’arrive pas dans la fenêtre d’activation, annulez-le dans l’app — rien n’est facturé pour une activation non reçue — et prenez un nouveau numéro néerlandais pour réessayer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Est-ce un vrai numéro mobile néerlandais\u00a0?",
+      "a": "Oui — un numéro sur un vrai réseau d’opérateur, dans la tranche mobile standard +31 6. Pour le service qui vous vérifie, il est indiscernable du téléphone d’un résident."
+    },
+    {
+      "q": "À quoi un numéro néerlandais convient-il\u00a0?",
+      "a": "Surtout aux messageries et aux comptes du quotidien — Telegram, WhatsApp, Signal, Discord et Google sont des associations courantes — plus tout service qui veut simplement un mobile européen solide."
+    },
+    {
+      "q": "Puis-je recevoir le SMS sans être aux Pays-Bas\u00a0?",
+      "a": "Oui. Le numéro vit dans l’app SMS Code, donc votre lieu physique et votre propre carte SIM sont hors sujet — le code apparaît dans l’app où que vous soyez."
+    },
+    {
+      "q": "Comment paie-t-on une activation\u00a0?",
+      "a": "À partir d’un pack de pièces en achat unique, par activation — pas d’abonnement qui tourne en arrière-plan. Les activations qui ne reçoivent jamais de SMS s’annulent sans frais, donc les échecs ne grignotent pas votre solde."
+    },
+    {
+      "q": "Dois-je laisser quelque chose lié à ce numéro sur la durée\u00a0?",
+      "a": "Non — traitez-le comme la clé qui ouvre la porte. Une fois le compte créé, attachez un e-mail de récupération et une 2FA par application d’authentification, afin que les prochaines connexions et récupérations ne dépendent jamais du numéro loué."
+    }
+  ]
+}

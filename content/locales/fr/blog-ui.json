@@ -1,0 +1,25 @@
+{
+  "breadcrumbHome": "Accueil",
+  "breadcrumb": "Blog",
+  "metaTitle": "Blog — numéros virtuels, vie privée et SMS",
+  "metaDescription": "Guides pratiques sur le numéro virtuel, la vérification SMS et la protection de votre vrai numéro — par l’équipe de SMS Code.",
+  "label": "Blog",
+  "title": "Guides pour protéger votre numéro",
+  "sub": "Des articles pratiques et honnêtes\u00a0: comment la vérification fonctionne vraiment, service par service, et comment en tenir votre numéro personnel à l’écart.",
+  "published": "Publié",
+  "updated": "Mis à jour",
+  "ctaTitle": "Mettez-le en pratique à la prochaine inscription",
+  "ctaBody": "Obtenez un numéro et voyez le code arriver généralement en quelques secondes.",
+  "readMore": "Lire le guide",
+  "tags": {
+    "guide": "Guide",
+    "privacy": "Vie privée",
+    "esim": "eSIM",
+    "google": "Google",
+    "dating": "Rencontres",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "how-to": "Mode d’emploi",
+    "basics": "Bases"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "site": {
+    "name": "SMS Code oleh SIMNETIQ",
+    "titleTemplate": "%s — SMS Code oleh SIMNETIQ",
+    "appDescription": "Nomor virtual di 100+ negara untuk menerima kode verifikasi SMS. Daftar Telegram, WhatsApp, Google, dan 100+ layanan tanpa memberikan nomor pribadi Anda."
+  },
+  "a11y": {
+    "mainNav": "Utama",
+    "breadcrumb": "Jalur navigasi"
+  },
+  "faqHeading": "FAQ",
+  "nav": {
+    "langLabel": "Bahasa",
+    "links": [
+      {
+        "path": "/#how-it-works",
+        "label": "Cara kerja"
+      },
+      {
+        "path": "/virtual-numbers",
+        "label": "Nomor"
+      },
+      {
+        "path": "/#pricing",
+        "label": "Harga"
+      },
+      {
+        "path": "/#faq",
+        "label": "FAQ"
+      },
+      {
+        "path": "/support",
+        "label": "Dukungan"
+      }
+    ],
+    "cta": "Dapatkan aplikasinya",
+    "home": "Beranda SMS Code",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu"
+  },
+  "footer": {
+    "tagline": "Nomor untuk pendaftaran. Bukan untuk selamanya.",
+    "liveStatus": "Nomor daring di 100+ negara",
+    "backToTop": "Kembali ke atas",
+    "servicesLabel": "Layanan populer",
+    "allServices": "Semua layanan",
+    "resourcesLabel": "Sumber",
+    "hub": "Nomor virtual",
+    "blog": "Blog",
+    "companyLabel": "Perusahaan",
+    "getApp": "Dapatkan aplikasinya",
+    "followLabel": "Ikuti",
+    "support": "Dukungan",
+    "privacy": "Kebijakan privasi",
+    "terms": "Ketentuan layanan",
+    "rights": "Hak cipta dilindungi.",
+    "registered": "Terdaftar di",
+    "companyNo": "no. perusahaan",
+    "registeredOffice": "Kantor terdaftar"
+  },
+  "badges": {
+    "appStore": "Unduh di App Store"
+  },
+  "notFound": {
+    "title": "Halaman ini tidak ada",
+    "body": "Alamatnya mungkin sudah berubah. Semua tentang SMS Code ada di beranda.",
+    "back": "Kembali ke beranda"
+  }
+}

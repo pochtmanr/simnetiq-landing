@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Discord — tanpa nomor asli",
+  "metaDescription": "Dapatkan nomor seluler asli untuk verifikasi telepon Discord biasanya dalam hitungan detik. Lewati pemeriksaan telepon di server tanpa menautkan nomor pribadi.",
+  "hero": {
+    "title": "Nomor virtual untuk Discord",
+    "intro": [
+      "Discord hanya meminta email saat mendaftar — sampai hari ia tidak begitu. Coba posting di server dengan tingkat verifikasi tinggi, bergabung ke beberapa server berturut-turut, atau terhubung lewat VPN, dan sistem anti-penyalahgunaan Discord menuntut nomor telepon terverifikasi sebelum Anda bisa lanjut.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara, memasukkannya di Discord, dan kode enam digit dari pengirim “Discord” muncul di aplikasi biasanya dalam hitungan detik. Nomor pribadi Anda tetap di luar — dan di luar basis data Discord."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Discord?",
+    "body": [
+      "Discord membiarkan satu nomor telepon terverifikasi tepat pada satu akun pada satu waktu: verifikasi di akun baru dan ia diam-diam terlepas dari yang lama. Aturan tunggal itu alasan orang menyewa nomor untuk Discord. Jika Anda menjalankan akun moderasi, akun dev untuk uji bot, atau identitas terpisah untuk komunitas yang Anda bantu kelola, setiap akun membutuhkan nomor sendiri — dan nomor virtual memberi masing-masing jalur khusus tanpa laci penuh kartu SIM.",
+      "Separuh lainnya: Discord pemilih. Ia dikenal menolak nomor yang diklasifikasikan sebagai VoIP, itulah mengapa situs “SMS sementara” gratis sering gagal di langkah persis ini. SMS Code menerbitkan nomor seluler asli di jaringan operator nyata, yang biasanya diterima Discord — dan pada kesempatan jujur saat nomor tertentu tetap ditolak, Anda membatalkan aktivasi yang tertunda tanpa dikenai biaya dan mencoba nomor dari negara lain."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Discord dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Dapatkan nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih Discord sebagai layanan, pilih negara, dan ketuk sekali. Nomor itu jalur seluler asli, dicadangkan hanya untuk Anda — ini penting, karena Discord mengikat setiap nomor ke satu akun."
+      },
+      {
+        "title": "Masukkan di Discord",
+        "body": "Ketik nomor ke permintaan apa pun yang ditampilkan Discord — dinding verifikasi pada akun terkunci, gerbang server yang mensyaratkan telepon, atau Setelan → Akun Saya → Tambah Telepon. Pilih kode negara yang sesuai; ketidakcocokan adalah alasan paling umum kode tidak pernah masuk."
+      },
+      {
+        "title": "Ambil kode enam digit",
+        "body": "SMS masuk ke aplikasi SMS Code biasanya dalam hitungan detik, dari pengirim “Discord”: “Your Discord verification code is: 274918”. Masukkan, dan tanda centang muncul — akun terverifikasi dan gerbang telepon apa pun terbuka."
+      },
+      {
+        "title": "Amankan akun dengan benar",
+        "body": "Nomor tetap tertaut di Setelan → Akun Saya, dan akun terus bekerja normal dari sini. Tambahkan 2FA aplikasi autentikator dan simpan kode cadangan segera — itulah, bukan telepon, yang benar-benar melindungi akun dalam jangka panjang."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Satu nomor memverifikasi satu akun — titik",
+      "body": "Jika Anda memverifikasi nomor yang sama di akun Discord kedua, Discord memindahkannya ke sana dan melepaskannya dari yang pertama, yang dapat mendorong akun pertama kembali ke balik dinding verifikasi. Sewa nomor terpisah untuk setiap akun yang ingin tetap terverifikasi."
+    },
+    {
+      "title": "Jika Discord menolak nomor, jangan dilawan",
+      "body": "Discord menyaring nomor yang ditandai sebagai VoIP, dan sesekali rentang seluler yang sah ikut tertangkap. Batalkan aktivasi yang tertunda di SMS Code — koin untuk nomor yang tidak menerima kode kembali ke saldo Anda — dan ambil nomor baru, idealnya dari negara lain."
+    },
+    {
+      "title": "Server bergerbang telepon memeriksa tautan, bukan riwayat",
+      "body": "Server pada tingkat verifikasi tertinggi mensyaratkan telepon yang saat ini tertaut ke akun Anda. Anda dapat menghapus nomor di Setelan setelah 2FA autentikator dan kode cadangan terpasang, tetapi lakukan setelah bergabung ke server bergerbang yang Anda pedulikan — atau biarkan tertaut selagi Anda aktif di sana."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mengapa Discord tiba-tiba meminta nomor telepon?",
+      "a": "Dua pemicu utama. Server dengan tingkat verifikasi tinggi mensyaratkan telepon terverifikasi sebelum Anda bisa posting sama sekali. Dan sistem anti-penyalahgunaan Discord mengunci akun menunggu verifikasi telepon saat melihat sinyal yang tidak disukainya — koneksi VPN, bergabung ke banyak server dengan cepat, akun baru yang bertindak terlalu cepat. Dalam kedua kasus, memasukkan nomor dan kode enam digit membuka blokir."
+    },
+    {
+      "q": "Bisakah saya memverifikasi dua akun Discord dengan satu nomor virtual?",
+      "a": "Tidak — dan ini bukan batas kami, melainkan batas Discord. Satu nomor hanya dapat terverifikasi pada satu akun Discord pada satu waktu; memverifikasinya di akun kedua melepaskannya dari yang pertama. Sewa nomor khusus per akun, agar profil moderasi atau akun uji bot tidak pernah menjatuhkan akun utama Anda dari status terverifikasi."
+    },
+    {
+      "q": "Apakah Discord menerima nomor virtual? Saya dengar ia memblokirnya.",
+      "a": "Discord memblokir nomor yang diklasifikasikan sebagai VoIP, yaitu yang dibagikan sebagian besar situs “SMS sementara” gratis. Nomor SMS Code adalah nomor seluler asli di jaringan operator, dan Discord biasanya menerimanya. Tidak ada layanan yang dapat menjanjikan setiap nomor lolos — jika satu ditolak, batalkan aktivasi tanpa biaya dan coba negara lain."
+    },
+    {
+      "q": "Apa yang terjadi pada akun Discord saya saat nomor sewaan berakhir?",
+      "a": "Akun tetap bekerja normal. Verifikasi adalah pemeriksaan sekali; nomor hanya tetap tercantum di Setelan → Akun Saya, dan Discord tidak memverifikasi ulang lewat SMS dalam pemakaian sehari-hari. Tambahkan 2FA autentikator dengan kode cadangan dan akun tidak bergantung pada nomor itu sama sekali — Anda bahkan dapat menghapusnya, kecuali Anda membutuhkannya tertaut untuk server bergerbang telepon."
+    },
+    {
+      "q": "Kode dari Discord tidak pernah masuk — apa yang harus saya lakukan?",
+      "a": "Periksa lebih dulu bahwa kode negara yang Anda pilih di Discord cocok dengan nomor — ketidakcocokan itu menyebabkan sebagian besar kegagalan diam. Jika sudah benar dan tidak ada yang datang dalam beberapa menit, Discord kemungkinan menolak nomor itu. Batalkan aktivasi yang tertunda di SMS Code — koin kembali untuk nomor yang tidak menerima apa pun — dan minta yang baru dari negara lain."
+    }
+  ]
+}

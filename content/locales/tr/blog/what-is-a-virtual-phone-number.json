@@ -1,0 +1,161 @@
+{
+  "title": "Sanal numara nedir ve nasıl çalışır?",
+  "description": "Sanal numara nasıl çalışır, VoIP, eSIM ve tek kullanımlık telefondan nasıl ayrılır, SMS doğrulama nasıl akar ve iyi bir sağlayıcıyı ne belirler.",
+  "excerpt": "Sanal numara, cebinizdeki bir SIM kart yerine bir uygulama üzerinden size ulaşan gerçek bir mobil numaradır. Bunun gerçekte nasıl çalıştığı — ve ne zaman doğru araç olduğu — burada.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Sanal telefon numarası gerçek bir mobil ağdaki gerçek bir numaradır — başka herhangi biri gibi arama veya mesaj alabilir — tek fark, telefonunuzda onun adına yanıt veren fiziksel bir SIM kartın olmamasıdır. Bunun yerine numaraya gelen her şey size internet üzerinden yönlendirilir: bir uygulamaya, bir panele veya bir API’ye. Karşı uçtaki kişi (veya servis) için sıradan herhangi bir mobil numaradan ayırt edilemez."
+    },
+    {
+      "type": "p",
+      "text": "Bu tek cümlelik tanım, bu rehberin yanıtladığı soruları doğurur: bu numaralar bir SIM’de değilse fiziksel olarak nerede yaşar? Sanal numara VoIP’ten, bir eSIM’den veya tek kullanımlık telefondan nasıl ayrılır? Kayıt kodları ona neden sorunsuz ulaşır? Bunların herhangi biri yasal mıdır? Ve bir taneye ihtiyacınız olduğuna karar verirseniz iyi bir sağlayıcıyı, hiç kod teslim etmeyen paylaşımlı ücretsiz bir siteden ne ayırır?"
+    },
+    {
+      "type": "h2",
+      "id": "how-phone-numbers-actually-work",
+      "text": "Telefon numaraları gerçekte nasıl çalışır"
+    },
+    {
+      "type": "p",
+      "text": "Kilit içgörü şudur: bir telefon numarası hiçbir zaman SIM kartınızın “içinde” yaşamamıştır. Numaralar operatör ağlarına aittir: ulusal düzenleyiciler aralıkları mobil operatörlere tahsis eder ve operatörün çekirdek ağı her numarayı bir aboneyle eşleyen bir kayıt tutar. SIM’iniz yalnızca cihazınızın o abone olduğunu ağa kanıtlayan kriptografik bir anahtar kartıdır; numaraya adreslenen aramalar ve metinler ona teslim edilir."
+    },
+    {
+      "type": "p",
+      "text": "Sanal numara yalnızca son sıçramayı değiştirir. Numara hâlâ bir operatörce tahsis edilir ve hâlâ gerçek bir mobil ağda yaşar — ama onun adına yanıt veren SIM cebinizde değil, sağlayıcının altyapısındadır. Bir SMS geldiğinde sağlayıcının sistemi onu okur ve size internet üzerinden iletir, tipik olarak bir uygulamaya, genellikle saniyeler içinde. Gönderen tarafta hiçbir şey değişmez; doğrulama sistemlerinin bu numaraları sıradan mobil numaralar olarak görmesinin nedeni tam budur: ağın bakış açısından öyledirler."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-vs-voip-esim-burner",
+      "text": "Sanal numara, VoIP, eSIM ve tek kullanımlık telefon"
+    },
+    {
+      "type": "p",
+      "text": "Bu dört terim sürekli karışır ve farklar önemlidir — özellikle bazılarının rutin başarısız olduğu SMS doğrulamada."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sanal mobil numara: mesajları size çevrimiçi iletilen, gerçek bir operatör ağı mobil numarası. SMS doğrulama kodu almak için en iyi uyumdur, çünkü servisler normal bir mobil numara görür.",
+        "VoIP numarası (Google Voice, Skype ve benzerleri): mobil ağda değil, bir internet telefonu servisinde var olan numara. Aramalar için iyidir ama birçok servis VoIP numara aralıklarını tespit eder ve onlara doğrulama kodu göndermeyi reddeder — VoIP numaraları toplu kaydetmek ucuzdur, kayıt sistemleri onlara güvenmez.",
+        "eSIM: hiç farklı türde bir numara değil, yalnızca plastiksiz bir SIM — cihazınıza indirilen bir operatör profili. Numara tamamen sizindir ve tamamen mobildir ama gerçek bir hat, gerçek bir sözleşme veya plan alıyorsunuzdur; tek ihtiyacınız bir doğrulama kodu almaksa bu fazladır.",
+        "Tek kullanımlık telefon: geçici kullanım için alınmış ucuz bir ön ödemeli cihaz artı SIM. Çalışır ama en pahalı ve en yavaş seçenektir — donanım, mağazaya bir gidiş, birçok ülkede SIM kaydı için kimlik koşulları — sanal numaranın genellikle saniyeler içinde yaptığı iş için."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Pratik kural: amacınız kişisel numaranızı karıştırmadan bir SMS kodu almaksa sanal mobil numara istersiniz. Amacınız aramalar için kalıcı bir ikinci hat ise bir eSIM veya bir VoIP planı istersiniz."
+    },
+    {
+      "type": "h2",
+      "id": "how-sms-verification-works",
+      "text": "SMS doğrulama gerçekte nasıl akar"
+    },
+    {
+      "type": "p",
+      "text": "Boru hattını anlamak hem sanal numaraların neden çalıştığını hem de kodların ara sıra neden gelmediğini açıklar — herhangi bir numaradan, sanal olsun olmasın."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Servis tek kullanımlık bir parola (OTP) üretir",
+          "body": "Kayıt formuna bir numara yazdığınızda servis kısa ömürlü bir kod oluşturur — genellikle 4 ila 8 hane, birkaç dakika geçerli — ve onu bekleyen kaydınıza karşı saklar."
+        },
+        {
+          "title": "Mesaj SMS ağına girer",
+          "body": "Servis kodu bir SMS geçidine verir, çoğu zaman telefon numarası yerine alfanümerik bir gönderen kimliğiyle (“Telegram”, “Google”). Geçit onu operatör ağları boyunca hedef numaranın operatörüne yönlendirir."
+        },
+        {
+          "title": "Operatör numarayı tutana teslim eder",
+          "body": "Hedef operatör SMS’i o numaraya kayıtlı aboneye teslim eder. Sanal numara için bu, sağlayıcının SIM altyapısıdır — mesajı okur ve uygulamanıza iter, tipik olarak genellikle saniyeler içinde."
+        },
+        {
+          "title": "Kodu geri yazarsınız, döngü kapanır",
+          "body": "Servis girdiğinizi ürettiğiyle karşılaştırır. Eşleşme — ve artık o numarayı kontrol ettiğinize güvenir. SMS doğrulamanın kanıtladığı tek şey budur: bir anda bir numaranın kontrolü."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    },
+    {
+      "type": "h2",
+      "id": "is-it-legal",
+      "text": "Sanal numara kullanmak yasal mı?"
+    },
+    {
+      "type": "p",
+      "text": "Evet — sanal numara kiralamak ve kullanmak yargı çevrelerinin ezici çoğunluğunda yasaldır; işletmelerin onlarca yıldır hatlar ve teslimat bildirimleri için kullandığı aynı düzenlenmiş numaralandırma altyapısıdır. Hukukun (ve her servisin koşullarının) önemsediği şey hesapla sonra ne yaptığınızdır: dolandırıcılık herhangi bir numaradan yasa dışıdır ve her platformun kendi kuralları her hesaba eşit uygulanır. Sanal numara bir gizlilik aracıdır, izin belgesi değil."
+    },
+    {
+      "type": "p",
+      "text": "Meşru kullanımlar çoğu insanın beklediğinden geniştir:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Gizlilik: gerçek numaranızı sızabilecek, satılabilecek veya istenmeyen aramalar için kazınabilecek bir veritabanının daha içine vermeden uygulama ve sitelere kaydolmak.",
+        "Ayrım: iş, proje veya pazar yerlerinde satış için ikinci bir mesajlaşma hesabı — kişisel hattınızı açmadan ulaşılabilir.",
+        "QA ve geliştirme: mühendislerin bir çekmece dolusu SIM kart tutmadan birçok ülkede kayıt akışlarını, SMS teslimini ve yerelleştirmeyi test etmesi.",
+        "Seyahat ve coğrafya: SIM tutmadığınız bir ülkede yerel numara bekleyen bir servise kaydolmak.",
+        "Hasar sınırı: temelden güvenmediğiniz bir servis numara istediğinde ona kiralanmış bir tane vermek olumsuz tarafı sınırlar."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "choosing-a-provider",
+      "text": "Bir sağlayıcıda ne aramalı"
+    },
+    {
+      "type": "p",
+      "text": "Sağlayıcılar açılış sayfalarının önerdiğinden çok daha fazla ayrılır ve farklar tam bir kod beklediğiniz anda görünür. Birine ödemeden önce kontrol etmeye değer dört şey vardır:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Gerçek, size ayrılmış mobil numaralar — ücretsiz “online SMS al” sitelerindeki paylaşımlı numaralar değil. Onları binlerce kişi kullanır, servisler onları kara listeye alır veya zaten kayıtlı bulur; aynı sayfaya bakan başka herkes kodunuzu okuyabilir.",
+        "Adil bir iptal politikası: SMS gelmezse ödememelisiniz. SMS Code’da hiçbir şey almayan bir etkinleştirme ücretsiz iptal olur.",
+        "İhtiyacınıza uyan ülke kapsamı — SMS Code 100+ ülkede numara sunar, bir yol yavaşken alternatif de verir.",
+        "Akıl yürütebileceğiniz fiyat: ihtiyacınız ara sıraysa tek seferlik jeton paketinden etkinleştirme başına ödeme bir aboneliği yener — bir kod almak için aylık hat kiralamamalısınız."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Herhangi bir sağlayıcının en hızlı kalite testi: kod gelmezse ne olur? Yanıt “yine de ödediniz” ise aramaya devam edin. Doğrulama kenarlarda olasılıksaldır — ciddi bir sağlayıcı bunu size yıkmak yerine fiyata işler."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sıkça sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Sanal telefon numarası gerçek bir numara mıdır?",
+          "a": "Evet. Gerçek bir operatörce tahsis edilir ve gerçek bir mobil ağda yaşar — cebinizdeki numaradan tek fark, gelen mesajların kendi cihazınızdaki bir SIM’i çaldırmak yerine size internet üzerinden iletilmesidir."
+        },
+        {
+          "q": "Sanal numara SMS doğrulama kodu alabilir mi?",
+          "a": "Evet — birincil kullanım budur. Gerçek bir mobil numara olduğu için servisler OTP kodlarını ona normal teslim eder ve iyi bir sağlayıcı mesajı genellikle saniyeler içinde gösterir. VoIP numaraları ise kayıt sistemlerince sık reddedilir."
+        },
+        {
+          "q": "Sanal numara için SIM kart veya yeni donanım gerekir mi?",
+          "a": "Hayır. Numara adına yanıt veren SIM sağlayıcının altyapısındadır. Gelen mesajları yalnızca bir uygulamada görürsünüz — telefonunuzun SIM tepsisine hiçbir şey kurulmaz ve eSIM profili eklenmez."
+        },
+        {
+          "q": "Sanal numara ile tek kullanımlık telefon arasındaki fark nedir?",
+          "a": "Tek kullanımlık telefon fizikseldir: satın aldığınız, taşıdığınız ve sonunda attığınız ucuz bir ön ödemeli cihaz ve SIM. Sanal numara aynı ayrımı donanım, mağaza ziyareti ve SIM kayıt evrakı olmadan sağlar — numarayı doğrulama için kiralarsınız ve kodu bir uygulamada alırsınız."
+        },
+        {
+          "q": "Ücretsiz “online SMS al” siteleri yeterli mi?",
+          "a": "Önemsediğiniz herhangi bir şey için hayır. Numaraları paylaşımlıdır ve herkese açıktır: servisler onları kara listeye alır, numara çoğu zaman zaten kayıtlıdır ve aynı sayfadaki herkes aldığınız kodları okuyabilir — az önce oluşturduğunuz hesabı sıfırlayabilecek bir kod dahil."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

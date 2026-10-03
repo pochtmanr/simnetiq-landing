@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour VK",
+  "metaDescription": "Un vrai numéro virtuel pour vérifier VK. Le code SMS arrive généralement en quelques secondes — créez un compte VK sans exposer votre numéro personnel.",
+  "hero": {
+    "title": "Numéro virtuel pour VK",
+    "intro": [
+      "VK n’offre pas de contournement du numéro de téléphone\u00a0: l’inscription est bâtie dessus. Avant que vous puissiez parcourir des communautés, écrire à quelqu’un ou mettre un article sur la place de marché, VK envoie un code SMS au numéro que vous fournissez — et ce numéro devient l’ancre de connexion et de récupération de tout le compte.",
+      "Avec SMS Code, vous louez un vrai numéro de l’un de plus de 100 pays, vous le saisissez sur le formulaire d’inscription de VK, et le code de confirmation arrive dans l’app SMS Code généralement en quelques secondes. Le compte est pleinement vérifié — et votre numéro personnel n’entre jamais dans la base de VK."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour VK\u00a0?",
+    "body": [
+      "La raison la plus courante est la séparation. Beaucoup de gens veulent un compte VK qui n’est pas leur identité principale\u00a0: un pour animer une communauté, un pour vendre sur la place de marché de VK, un pour suivre des groupes de niche sans mélanger cela à un profil personnel. VK lie chaque compte à son propre numéro, donc chaque identité séparée a besoin d’un numéro séparé — et en louer un vaut mieux que de garder un tiroir de SIM de réserve.",
+      "Le numéro que vous donnez à VK pèse aussi plus que sur la plupart des plateformes, parce qu’il devient un VK ID — une connexion unique qui atteint tout l’écosystème de services Mail.ru/VK. S’inscrire avec un numéro virtuel signifie que cet identifiant largement partagé est un numéro loué, pas celui de votre banque et de votre famille. Si le compte est un jour compromis ou extrait, votre vrai numéro n’était jamais dans le rayon d’impact."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier VK avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Louez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, choisissez VK comme service et un pays — le Kazakhstan et d’autres pays voisins sont des choix fréquents. Un toucher réserve un vrai numéro mobile pour vous."
+      },
+      {
+        "title": "Saisissez-le sur le formulaire d’inscription de VK",
+        "body": "Commencez l’inscription VK et tapez le numéro loué avec son bon indicatif pays. VK envoie immédiatement un code de confirmation par SMS à ce numéro."
+      },
+      {
+        "title": "Confirmez avec le code",
+        "body": "Le message apparaît dans l’app SMS Code généralement en quelques secondes — «\u00a0VK\u00a0: 348715 — код подтверждения\u00a0». Saisissez les six chiffres sur l’écran de VK et le compte est créé."
+      },
+      {
+        "title": "Ajoutez un mot de passe fort et un accès de secours",
+        "body": "Définissez tout de suite un mot de passe solide et unique, et attachez une adresse e-mail dans les réglages VK ID. Ainsi les connexions et la récupération du quotidien s’appuient sur le mot de passe et l’e-mail plutôt que sur la réception d’un autre SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Un numéro, un compte VK",
+      "body": "VK impose un lien strict un pour un entre le numéro et le compte. Si un numéro a déjà été inscrit sur VK, l’inscription peut devenir un parcours de connexion ou de récupération. SMS Code délivre des numéros par activation, mais si VK se comporte bizarrement, annulez et prenez un numéro neuf."
+    },
+    {
+      "title": "VK ID va au-delà de VK",
+      "body": "Le compte que vous créez sert aussi de VK ID — la connexion de l’écosystème plus large de services de VK (mail, musique, petites annonces et plus). Traitez-le en conséquence\u00a0: un mot de passe fort et un e-mail attaché comptent plus ici que sur une app à usage unique."
+    },
+    {
+      "title": "Serrez les réglages de confidentialité",
+      "body": "Dans les réglages de confidentialité de VK, restreignez qui peut vous trouver par numéro de téléphone et qui voit les détails de votre profil. Combiné à un numéro virtuel, cela garde votre activité de communauté ou de place de marché proprement séparée de votre identité personnelle."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je inscrire VK sans aucun numéro de téléphone\u00a0?",
+      "a": "Non — VK exige une confirmation SMS à l’inscription, sans parcours par e-mail seul. Un numéro virtuel est le moyen de satisfaire cette exigence sans remettre le vôtre."
+    },
+    {
+      "q": "Puis-je tenir un second compte VK pour ma communauté ou ma boutique\u00a0?",
+      "a": "Oui, c’est un usage typique. Chaque compte VK a besoin de son propre numéro, donc louez un numéro virtuel neuf pour le nouveau compte et gardez la gestion de communauté ou la vente séparée de votre profil personnel."
+    },
+    {
+      "q": "Le compte survivra-t-il après l’expiration du numéro loué\u00a0?",
+      "a": "Le numéro est nécessaire pour le SMS d’inscription, pas pour l’usage quotidien. Restez connecté, définissez un mot de passe fort et attachez un e-mail dans les réglages VK ID — ensuite les connexions et la récupération courantes ne dépendent plus de l’ancien numéro. Si VK insiste plus tard sur une reconfirmation SMS, vous pouvez changer le numéro du compte pour un nouveau numéro loué."
+    },
+    {
+      "q": "Pourquoi mon code de confirmation VK n’est-il pas arrivé\u00a0?",
+      "a": "En général le numéro avait déjà été inscrit sur VK, ou l’indicatif pays a été saisi de travers. Annulez l’activation dans SMS Code — vous ne payez rien pour un numéro qui n’a reçu aucun SMS — et réessayez avec un autre numéro."
+    },
+    {
+      "q": "Le pays du numéro compte-t-il pour VK\u00a0?",
+      "a": "VK accepte des numéros de beaucoup de pays\u00a0; le Kazakhstan, la Pologne, l’Allemagne et les Pays-Bas sont des choix courants dans SMS Code. La langue de l’interface et les réglages de votre profil ne dépendent pas du pays du numéro — vous les choisissez vous-même."
+    }
+  ]
+}

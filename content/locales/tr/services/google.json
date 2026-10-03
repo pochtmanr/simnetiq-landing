@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Google için sanal numara",
+  "metaDescription": "Yeni bir Google hesabını gerçek sanal numarayla doğrulayın. G kodu genellikle saniyeler içinde gelir; kişisel numaranız olmadan bir Gmail oluşturun.",
+  "hero": {
+    "title": "Google için sanal numara",
+    "intro": [
+      "Google hesabı açmak bir dakika sürmeli — kayıt formu telefon numarası isteyene kadar. Google doğrulama isteyip istemeyeceğine dinamik karar verir; istediğinde o ekranı gerçek bir SMS almadan geçmenin yolu yoktur. Kod “Google”dan gelir ve “G-482915” gibi görünür.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız, onu Google doğrulama ekranına yazarsınız ve G kodu uygulamada genellikle saniyeler içinde görünür. Yeni Gmail’iniz oluşur — kişisel numaranız bunun dışında kalır."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Google için neden sanal numara?",
+    "body": [
+      "Doğruladığınız numara yalnızca kaydı açmaz — Google onu varsayılan olarak kurtarma yöntemi ve bir 2FA kanalı olarak da kaydeder ve yeni hesabı sessizce kişisel telefonunuza bağlar. Hesabın amacı ayrım ise — bir proje için Gmail, bir geliştirici test hesabı, bültenler için bir kayıt adresi — kendi SIM’inizle doğrulamak daha tek e-posta göndermeden bunu bozar. Sanal numara yeni kimliği gerçekten ayrı tutar.",
+      "Pratik bir tavan da vardır: Google tek bir telefon numarasının kaç hesabı doğrulayabileceğini sınırlar. Kendi numaranız bir iki Gmail’e zaten kefil olduysa yenileri için çalışmayı bırakabilir. Taze bir sanal numara o geçmiş olmadan gelir, doğrulama ilk denemede geçer."
+    ]
+  },
+  "howTo": {
+    "title": "Google hesabını sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara alın",
+        "body": "SMS Code uygulamasını açın, servis olarak Google’ı seçin ve bir ülke seçin — Amerika Birleşik Devletleri, Birleşik Krallık veya Almanya sık tercih edilir. Tek dokunuş yalnızca size gerçek bir mobil numara ayırır."
+      },
+      {
+        "title": "Onu Google’ın doğrulama ekranına girin",
+        "body": "Kaydı accounts.google.com adresinde başlatın ve temel bilgileri doldurun. Google telefon numaranızı doğrulamanızı istediğinde numaranın ülkesini seçin ve onu tam olarak yazın — yanlış ülke kodu SMS’in hiç gelmemesinin en sık nedenidir."
+      },
+      {
+        "title": "G kodunu yazın",
+        "body": "SMS, SMS Code uygulamasına genellikle saniyeler içinde düşer ve “G-482915 is your Google verification code.” diye okunur. Altı haneyi girin (Google alanı yalnızca rakam istiyorsa “G-” önekini yazmayın); hesap oluşur."
+      },
+      {
+        "title": "Hesabı kiralanan numaradan ayırın",
+        "body": "Girişten hemen sonra Google Hesabı → Güvenlik bölümünü açın. Kurtarma seçeneklerindeki telefon numarasını kaldırın veya değiştirin, bir kimlik doğrulayıcı uygulama ekleyin, yedek kodları indirin ve bir kurtarma e-postası belirleyin. Doğru yapılırsa hesap bir daha kiralanan numaraya bağlı kalmaz."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "“Bu telefon numarası doğrulama için kullanılamaz”",
+      "body": "Google, VoIP olduğunu veya aşırı kullanıldığını düşündüğü numaraları aktif olarak eler ve tam bu mesajla reddeder. Olur; zorlamayın. SMS Code’da bekleyen etkinleştirmeyi iptal edin — hiçbir şey almayan numaralar bir şeye mal olmaz — ve tercihen başka bir ülkeden taze bir numara deneyin."
+    },
+    {
+      "title": "Numarayı kurtarma yöntemi olarak bırakmayın",
+      "body": "Google doğrulanan numarayı hesap kurtarma ve bir 2FA kanalı olarak otomatik kaydeder. Cebinizdeki bir SIM için uygundur, kiralanan bir numara için değil. Kayıttan hemen sonra Google Hesabı → Güvenlik bölümünde değiştirin: bir kimlik doğrulayıcı, yedek kodlar ve bir kurtarma e-postası SMS’in kapsayacağı her durumu karşılar."
+    },
+    {
+      "title": "Bir numara, sınırlı hesap",
+      "body": "Google, tek bir numaranın ömrü boyunca kaç hesabı doğrulayabileceğini sınırlar — ve sizden önce o numarayı kullanan herkesi sayar. Kod gelir ama Google numarayı yine reddederse tavan büyük olasılıkla dolmuştur. SMS Code’dan taze bir numara sayacı sizin etkinleştirmenizden başlatır."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Google kayıtta her zaman telefon numarası ister mi?",
+      "a": "Hayır — Google duruma göre karar verir; IP’niz, cihazınız ve kaydın risk sistemlerine nasıl göründüğü gibi sinyallere bakar. Birçok kayıt telefon adımını tamamen atlar; birçoğu onsuz ilerleyemez. Formunuz numara istiyorsa sanal bir numara bunu bir SIM’in yapacağı şekilde karşılar."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince Gmail’im çalışmaya devam eder mi?",
+      "a": "Evet. Google numarayı bir kez, doğrulamada kontrol eder. Hesap numaranın aktif kalmasına bağlı değildir — özellikle dördüncü adımımızı izleyip onu kimlik doğrulayıcı, yedek kodlar ve kurtarma e-postasıyla değiştirirseniz. Bundan sonra hesapta kiralanan numaraya bağlı hiçbir şey kalmaz."
+    },
+    {
+      "q": "Google numaranın doğrulama için kullanılamayacağını söylüyor. Şimdi ne olacak?",
+      "a": "Bu, Google’ın VoIP olduğundan veya çok fazla hesaba bağlı olduğundan şüphelendiği numaralar için süzgecidir. SMS Code’da etkinleştirmeyi iptal edin — hiçbir şey almayan numaranın jetonları bakiyenize döner — ve yeni bir tane alın. Başka bir ülkeye geçmek çoğu zaman daha temiz bir aralık verir."
+    },
+    {
+      "q": "Bu yolla birden fazla Google hesabı oluşturabilir miyim?",
+      "a": "Her hesabın kendi doğrulaması gerekir ve Google bir numaranın kaç hesaba kefil olabileceğini sınırlar — bu yüzden bir numarayı yeniden kullanmak yerine hesap başına taze bir numara kullanın. Google’ın kullanım koşulları içinde kalın: proje, ekip gelen kutusu veya test için ayrı hesaplar olağan kullanımdır."
+    },
+    {
+      "q": "Google daha sonra numarayı yeniden doğrulamamı isterse ne olur?",
+      "a": "Yeniden doğrulama uyarıları genellikle Google bir girişten şüphelendiğinde çıkar — yeni cihaz, alışılmadık konum. Kiralanan numarayı kimlik doğrulayıcı, yedek kodlar ve kurtarma e-postasıyla zaten değiştirdiyseniz bu kontrolleri SMS olmadan geçebilirsiniz. İlk günden bunu önermemizin nedeni tam olarak budur."
+    }
+  ]
+}

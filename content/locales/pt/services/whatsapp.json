@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o WhatsApp — sem chip",
+  "metaDescription": "Verifique o WhatsApp com um número virtual real de 100+ países. O código de 6 dígitos chega em geral em segundos, sem chip nem assinatura.",
+  "hero": {
+    "title": "Número virtual para o WhatsApp",
+    "intro": [
+      "No WhatsApp, o número de celular não é só um login — ele é a conta. Todo contato que tem o seu número salvo vê o seu perfil, e mudar de número significa passar pelo fluxo oficial de Alterar número. O número com que você se cadastra é o que você usa em público.",
+      "Com o SMS Code você aluga um número de celular real em um de 100+ países, digita na tela de cadastro do WhatsApp e o código de verificação de 6 dígitos aparece no aplicativo em geral em segundos. Você paga por ativação, com um pacote avulso de moedas — e, se um número não receber nada, cancela sem cobrança."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o WhatsApp?",
+    "body": [
+      "Como o seu número é a sua identidade no WhatsApp, entregá-lo pesa mais do que na maioria dos aplicativos: vendedores de marketplace, grupos cheios de desconhecidos e contatos de negócio pontuais acabam com uma linha direta até você. Um número virtual põe um firewall nessa identidade pública — a conta se comporta como qualquer outra, mas o número por trás não é o do seu banco nem o da sua família.",
+      "Também é o jeito limpo de ter um segundo WhatsApp, separado. Um perfil de trabalho pelo WhatsApp Business pode viver no mesmo celular que o aplicativo pessoal, mas precisa do próprio número. O mesmo vale para se cadastrar no exterior, quando o chip de casa está fora de alcance ou o roaming torna o SMS instável — um número local alugado verifica você sem trocar de chip."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o WhatsApp com um número virtual",
+    "steps": [
+      {
+        "title": "Receba um número no SMS Code",
+        "body": "Abra o aplicativo SMS Code, escolha WhatsApp como serviço, escolha um país e toque uma vez. Um número de celular real fica reservado só para você pelo tempo da ativação."
+      },
+      {
+        "title": "Digite no WhatsApp",
+        "body": "Na tela de cadastro do WhatsApp, selecione o país correspondente e digite o número exatamente como foi emitido. O WhatsApp lê o país pelo código que você escolhe, então um desencontro aqui é o motivo clássico de o código nunca aparecer."
+      },
+      {
+        "title": "Pegue o código de 6 dígitos",
+        "body": "O SMS chega no aplicativo SMS Code, em geral em segundos, do remetente “WhatsApp” e no formato “WhatsApp code 305-921”. Digite os seis dígitos no WhatsApp — o hífen é só formatação."
+      },
+      {
+        "title": "Defina um PIN de verificação em duas etapas",
+        "body": "Logo depois do cadastro, vá em Ajustes → Conta → Verificação em duas etapas e defina um PIN. O WhatsApp verifica o número de novo quando você reinstala ou troca de celular, e o PIN é o que prova que a conta é sua nesse momento."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "O WhatsApp é exigente com números — planeje uma nova tentativa",
+      "body": "O WhatsApp filtra cadastros com mais rigor do que a maioria dos serviços e pode recusar enviar um código a um número que suspeita ser temporário. Isso é normal: cancele a ativação pendente no SMS Code — as moedas de números que não receberam nada voltam para o seu saldo — e tente de novo, de preferência com outro país."
+    },
+    {
+      "title": "Termine de configurar a conta",
+      "body": "Defina um nome e uma foto e converse com gente que conhece você — é assim que uma conta nova normal se parece, e é tudo o que podemos recomendar com honestidade. Mandar mensagem em massa para desconhecidos a partir de uma conta recém-criada é exatamente o que os sistemas antispam do WhatsApp existem para barrar, e nenhum número alugado muda isso: um número virtual passa na checagem comum de cadastro, não é um jeito de contornar um bloqueio."
+    },
+    {
+      "title": "Permaneça conectado e a conta continua sua",
+      "body": "O WhatsApp só pede o número de novo quando você se cadastra outra vez — ao reinstalar o aplicativo ou mudar de celular. Enquanto você permanecer conectado no aparelho, a conta continua funcionando depois que a janela da ativação do número alugado termina. O PIN de duas etapas é a sua rede de segurança para essa nova verificação futura."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "O meu WhatsApp continua depois que o número expira?",
+      "a": "Sim. O número é conferido no cadastro, não de forma contínua. Permaneça conectado no celular e a conta funciona normalmente. A nova verificação só acontece quando você reinstala o WhatsApp ou troca de aparelho — por isso definir o PIN de verificação em duas etapas logo depois do cadastro importa."
+    },
+    {
+      "q": "Por que o código do WhatsApp não chegou?",
+      "a": "Duas causas comuns: o país selecionado no WhatsApp não combina com o número, ou o WhatsApp recusou enviar um código àquele número — ele é mais rígido do que a maioria com os que suspeita serem temporários. Cancele a ativação pendente no SMS Code sem cobrança e pegue um número novo, de preferência em outro país. O WhatsApp também pode oferecer ligar para o número com o código ou, num novo cadastro, enviar o código para uma sessão de WhatsApp que já existe, em vez de por SMS."
+    },
+    {
+      "q": "Dá para ter uma segunda conta de WhatsApp assim?",
+      "a": "Dá — é um dos usos mais comuns. Instale o WhatsApp Business ao lado do aplicativo comum no mesmo celular e cadastre com o seu número virtual. Você ganha uma identidade de trabalho totalmente separada: o próprio perfil, as próprias conversas, o próprio número que os clientes veem."
+    },
+    {
+      "q": "Os meus contatos vão ver que o número é virtual?",
+      "a": "Não. É um número de celular real, na rede de uma operadora real, e para todo mundo a conta parece completamente comum. O que os contatos veem é o número em si — é assim que o WhatsApp funciona — então o ponto de um número virtual é exatamente esse: o número que eles veem não é o seu pessoal."
+    },
+    {
+      "q": "A conta pode ser banida por usar um número virtual?",
+      "a": "O WhatsApp não bane contas pelo modo como o número foi obtido — bane comportamento: mensagem em massa, spam, automação. Uma conta nova, em qualquer número, que imediatamente manda mensagem em massa para desconhecidos corre risco. Use a conta como uma pessoa, não como ferramenta de disparo, e ela não difere de uma cadastrada num chip."
+    }
+  ]
+}

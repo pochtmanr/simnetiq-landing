@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o KakaoTalk — sem o seu celular",
+  "metaDescription": "Receba o código do KakaoTalk num número virtual real, em geral em segundos. Use o principal mensageiro da Coreia sem entregar o seu celular pessoal.",
+  "hero": {
+    "title": "Número virtual para o KakaoTalk",
+    "intro": [
+      "O KakaoTalk é como a Coreia conversa — grupos, fios da família, contatos de trabalho — e, como todo mensageiro sério, abre com uma tela de telefone. O cadastro manda um código curto como “[KakaoTalk] 4829 is your verification code”, e não há caminho só de e-mail em volta disso.",
+      "Com o SMS Code você aluga um número de celular real em um de 100+ países e o código aparece no aplicativo em geral em segundos. Você entra na conversa — e os amigos, colegas ou sogros coreanos que esperam lá nunca precisam do seu número pessoal para alcançar você."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o KakaoTalk?",
+    "body": [
+      "Mensageiros construídos em números de telefone compartilham um padrão quieto: quem tem o seu número salvo pode achar o seu perfil, e com quem você conversa está a um ajuste de distância disso. Entrar no KakaoTalk por uma troca de idioma, um contato de trabalho ou uma viagem a Seul não deveria significar que o seu número de uma vida inteira entra em outro grafo social. Um número alugado assume a verificação, e o seu número real fica fora da equação.",
+      "O outro lado honesto: um número que não é coreano entrega uma conta de chat completa, mas não o Kakao inteiro. Cantos do ecossistema travados para a Coreia — Kakao Pay, serviços de certificado, recursos ligados a checagens de identidade de operadora coreana — esperam um contrato de celular coreano e muitas vezes um documento de residente, e nenhum número alugado ocupa esse lugar. Se o objetivo é conversar, um número virtual faz o trabalho por completo; se o objetivo são serviços financeiros coreanos, nunca ia ser suficiente."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o KakaoTalk com um número virtual",
+    "steps": [
+      {
+        "title": "Alugue um número no SMS Code",
+        "body": "Escolha KakaoTalk como serviço e escolha um país. Um número de onde você de fato mora mantém a conta sem alarde. Um toque reserva um número de celular real para você."
+      },
+      {
+        "title": "Digite na tela de cadastro",
+        "body": "O KakaoTalk pede o número logo depois da instalação. Selecione o código do país correspondente, digite o número e deixe o aplicativo mandar o SMS."
+      },
+      {
+        "title": "Digite o código",
+        "body": "O texto chega como “[KakaoTalk] 4829 is your verification code” e aparece no SMS Code em geral em segundos. Digite — se o SMS travar, o KakaoTalk também pode ler o código por ligação depois de uma espera."
+      },
+      {
+        "title": "Prepare a conta para o longo prazo",
+        "body": "Registre um e-mail e uma senha da conta Kakao nos ajustes e anote num lugar seguro. Migrações de aparelho e reinstalações se apoiam nessa conta Kakao — é o que mantém as suas conversas suas depois que o número alugado se vai."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "As conversas vivem no aparelho, os backups na conta",
+      "body": "O KakaoTalk guarda o histórico localmente e restaura por backups ligados à sua conta Kakao. Defina o e-mail e a senha da conta na hora e faça um backup antes de trocar de celular — o número de telefone sozinho não carrega o seu histórico para lugar nenhum."
+    },
+    {
+      "title": "Fique de olho nos ajustes de descoberta",
+      "body": "O KakaoTalk pode combinar você com quem tem o seu número salvo, inclusive a vida anterior de um número reciclado. Desligue a adição automática de amigos por número de telefone nos ajustes e compartilhe o seu ID do KakaoTalk — é o identificador mais limpo para viver."
+    },
+    {
+      "title": "Recursos só da Coreia são travados por documento, não por número",
+      "body": "Kakao Pay, certificados e serviços parecidos verificam contra operadoras coreanas e registro de residente, não só um prefixo +82. Um número coreano alugado não destrava isso — planeje em volta dos recursos de chat, que funcionam por completo em qualquer número verificado."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Dá para se cadastrar no KakaoTalk com um número que não é coreano?",
+      "a": "Dá. O KakaoTalk registra contas em números da maioria dos países — cadastro, conversas, grupos e ligações funcionam. Serviços específicos da Coreia empilhados por cima têm as próprias checagens de identidade, que um número de telefone sozinho não satisfaz."
+    },
+    {
+      "q": "A minha conta do KakaoTalk sobrevive depois que o número alugado expira?",
+      "a": "Sobrevive, enquanto você permanecer conectado e definir um e-mail e uma senha da conta Kakao. A nova verificação aparece sobretudo quando você muda de aparelho — faça a mudança enquanto ainda consegue receber a confirmação, ou se apoie nas credenciais da conta Kakao."
+    },
+    {
+      "q": "Por que o KakaoTalk diz que o número não pode ser usado?",
+      "a": "Algumas faixas e números já registrados antes são recusados. Cancele a ativação no SMS Code sem cobrança, pegue um número novo — outro país se o padrão se repetir — e rode a verificação de novo."
+    },
+    {
+      "q": "Os amigos veem qual número eu usei?",
+      "a": "Contatos que já têm o número salvo podem combiná-lo com o seu perfil se a adição automática de amigos estiver ligada. Desative adicionar amigos por número, use o seu ID do KakaoTalk nas apresentações, e o número fica um detalhe de acesso, não um identificador público."
+    },
+    {
+      "q": "Um número virtual funciona no Kakao Pay ou em serviços coreanos de verificação?",
+      "a": "Não. Esses conferem contratos de operadora coreana e identidade de residente, que um número alugado não carrega. Um número virtual é para o próprio mensageiro — contas, conversas e ligações — não para a camada financeira da Coreia travada por documento."
+    }
+  ]
+}

@@ -534,7 +534,7 @@ function UserDetail({ userId }: { userId: string }) {
 
 /**
  * Next 16 hands `params` to a page as a Promise, exactly as the repo's other
- * dynamic route (`app/(en)/virtual-numbers/[service]/page.tsx`) treats it. That
+ * dynamic route (`app/[locale]/virtual-numbers/[service]/page.tsx`) treats it. That
  * one awaits it, because it is a server component. This one cannot be: every
  * admin module is `"use client"`, so the promise is unwrapped with `use()`
  * instead.

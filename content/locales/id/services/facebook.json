@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Facebook — tanpa kartu SIM",
+  "metaDescription": "Verifikasi Facebook dengan nomor virtual asli dari 100+ negara. Kode tiba biasanya dalam hitungan detik. Bayar per aktivasi, batal jika tidak ada SMS.",
+  "hero": {
+    "title": "Nomor virtual untuk Facebook",
+    "intro": [
+      "Di atas kertas, Facebook mengizinkan Anda mendaftar hanya dengan email. Dalam praktik, nomor telepon jarang tetap di luar gambar: formulir pendaftaran sering memintanya, dan akun baru rutin masuk ke pos pemeriksaan keamanan dalam beberapa hari pertama — di mana kode yang dikirim lewat SMS adalah cara tercepat untuk membuktikan ada orang nyata di balik profil.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara, memberikannya ke Facebook, dan kode konfirmasi muncul di aplikasi biasanya dalam hitungan detik. Anda membayar per aktivasi dari paket koin sekali beli — tanpa langganan — dan jika suatu nomor tidak menerima apa pun, Anda membatalkannya tanpa dikenai biaya."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Facebook?",
+    "body": [
+      "Profil Facebook sudah membawa nama, wajah, dan daftar teman Anda. Menambahkan nomor telepon pribadi ke tumpukan itu mengikatnya ke segala sesuatu yang lain dalam hidup Anda — dan nomor yang tertaut ke akun Facebook pernah dikikis dan bocor dalam skala sangat besar. Nomor yang bocor bekerja seperti kunci pencarian: ia menghubungkan profil Anda ke pesan instan, marketplace, dan catatan pialang data. Nomor virtual memberi Facebook nomor yang nyata dan berfungsi yang justru bukan kunci itu.",
+      "Ada alasan sehari-hari juga: Anda mendaftar di luar negeri dan SIM rumah tidak dapat menerima SMS, atau Anda berjualan di Marketplace dan lebih suka orang asing tidak memegang nomor yang berdering di saku Anda. Satu hal yang bukan untuknya nomor virtual — ketentuan Facebook mengizinkan satu akun pribadi per orang, jadi anggap ini sebagai privasi untuk akun Anda, bukan cara menjalankan beberapa akun."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Facebook dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Dapatkan nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih Facebook sebagai layanan, pilih negara, dan ketuk sekali. Nomor seluler asli dicadangkan hanya untuk Anda selama aktivasi berlangsung."
+      },
+      {
+        "title": "Masukkan saat Facebook meminta",
+        "body": "Itu bisa di formulir pendaftaran sendiri atau di pos pemeriksaan tidak lama setelahnya. Pilih kode negara yang cocok dengan nomor yang Anda sewa — ketidakcocokan adalah alasan paling umum kode tidak pernah masuk."
+      },
+      {
+        "title": "Ketik kode konfirmasinya",
+        "body": "SMS masuk ke aplikasi SMS Code biasanya dalam hitungan detik, dari pengirim “Facebook”, berformat seperti “285103 is your Facebook confirmation code”. Masukkan digitnya dan pemeriksaan selesai."
+      },
+      {
+        "title": "Tambatkan akun ke hal yang Anda kendalikan",
+        "body": "Segera, tambahkan email yang Anda miliki dan aktifkan autentikasi dua faktor dengan aplikasi autentikator di Pusat Akun → Kata sandi dan keamanan. Sejak itu, login dan pemulihan tidak pernah bergantung pada nomor sewaan."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Antisipasi pos pemeriksaan — itu rutin",
+      "body": "Facebook menantang akun baru lebih agresif daripada hampir semua jejaring sosial lain. Foto profil, beberapa detail nyata, dan tempo manusia sangat membantu; akun yang setengah kosong yang menambahkan lima puluh teman dalam sejam persis yang memicu filter."
+    },
+    {
+      "title": "Pindahkan pemulihan dari nomor di hari pertama",
+      "body": "Nomor sewaan untuk momen verifikasi, bukan untuk selamanya. Setelah Anda masuk, konfirmasi alamat email dan siapkan aplikasi autentikator — maka tidak ada alur login atau pemulihan di masa depan yang melewati SMS."
+    },
+    {
+      "title": "Satu orang, satu akun",
+      "body": "Ketentuan Facebook eksplisit: satu akun pribadi per orang. Nomor virtual menjaga nomor asli Anda tetap privat di akun yang Anda miliki — memakainya untuk memperbanyak akun menempatkan semuanya dalam risiko."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah akun Facebook saya tetap berfungsi setelah nomornya berakhir?",
+      "a": "Ya. Nomor diperiksa pada momen verifikasi, bukan secara terus-menerus. Tambahkan email dan 2FA aplikasi autentikator segera setelah mendaftar, dan tidak ada pada akun yang akan bergantung pada nomor itu lagi."
+    },
+    {
+      "q": "Bisakah saya mendaftar Facebook tanpa nomor telepon sama sekali?",
+      "a": "Kadang — pendaftaran hanya email memang ada. Tetapi banyak akun baru diminta telepon saat pendaftaran atau tidak lama setelahnya, di pos pemeriksaan. Pendekatan praktisnya adalah menyewa nomor pada saat Facebook benar-benar menuntutnya."
+    },
+    {
+      "q": "Mengapa Facebook mengunci akun baru saya?",
+      "a": "Pos pemeriksaan pada akun baru adalah hal normal, bukan tanda Anda melakukan kesalahan. Facebook secara berkala meminta profil baru mengonfirmasi nomor telepon, dan sesekali sebuah foto. Selesaikan langkah SMS, terus isi profil dengan tempo manusia, dan akunnya tenang."
+    },
+    {
+      "q": "Mengapa kode Facebook saya tidak masuk?",
+      "a": "Biasanya salah satu dari dua hal: kode negara yang dimasukkan di Facebook tidak cocok dengan nomor sewaan, atau Facebook menolak mengirim SMS ke nomor tertentu itu. Batalkan aktivasi yang tertunda di SMS Code — koin kembali untuk nomor yang tidak menerima apa pun — dan coba yang baru, idealnya dari negara lain."
+    },
+    {
+      "q": "Apakah memverifikasi Facebook dengan nomor sewaan melanggar aturan?",
+      "a": "Pemeriksaan Facebook ada untuk mengonfirmasi orang yang dapat dihubungi, dan nomor virtual adalah nomor yang nyata dan dapat dihubungi. Yang benar-benar ditegakkan platform adalah perilaku dan keaslian: satu akun yang tulus, tanpa penyamaran, tanpa spam. Patuhi itu dan asal nomor bukan masalah."
+    }
+  ]
+}

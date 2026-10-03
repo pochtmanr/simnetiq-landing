@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para X (Twitter)",
+  "metaDescription": "Pasa la verificación de teléfono de X (Twitter) con un número virtual real de 100+ países. El código llega normalmente en segundos; cancelas si no hay SMS.",
+  "hero": {
+    "title": "Número virtual para X (Twitter)",
+    "intro": [
+      "Puedes crear una cuenta de X solo con un correo: el propio formulario de alta no insiste en un teléfono. El pero llega minutos o días después: a las cuentas nuevas las bloquean de forma habitual «para confirmar que no eres un robot», y la pantalla de desbloqueo quiere un teléfono que pueda recibir un SMS ahora mismo. Para mucha gente, ese desafío es el registro de verdad.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países, se lo das a X justo en ese momento y el código de confirmación aparece en la aplicación normalmente en segundos. Pagas por activación con un paquete de monedas de un solo pago — sin suscripción — y un número que no recibió nada se cancela sin cargo."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en X (Twitter)?",
+    "body": [
+      "X es de las pocas plataformas grandes donde el seudónimo forma parte de la cultura, pero un usuario seudónimo con tu teléfono personal enganchado solo es seudónimo hasta la primera filtración o consulta. El número también es un vector de descubrimiento: por defecto, quien lo tenga en sus contactos puede ser apuntado a tu cuenta. Un número virtual mantiene intacto el anonimato con el que te registraste y aun así pasa cada control de SMS que te lance X.",
+      "También hay una razón de estructura: X limita cuántas cuentas puede respaldar un mismo teléfono. Si llevas una cuenta personal y quieres otra aparte para un proyecto o una marca, colgar las dos de tu único número personal es frágil: un desafío contra cualquiera de las dos tira del mismo hilo. Dar a cada cuenta su propio número alquilado las mantiene independientes."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar X (Twitter) con un número virtual",
+    "steps": [
+      {
+        "title": "Consigue un número en SMS Code",
+        "body": "Abre la aplicación SMS Code, elige X (Twitter) como servicio, escoge un país y toca una vez. Un número móvil real queda reservado solo para ti mientras dure la activación."
+      },
+      {
+        "title": "Escríbelo donde lo pida X",
+        "body": "Suele ser el desafío de desbloqueo de una cuenta nueva, a veces el propio flujo de alta, o Ajustes → Tu cuenta → Información de la cuenta → Teléfono. Haz coincidir el prefijo con el número alquilado."
+      },
+      {
+        "title": "Escribe el código de confirmación",
+        "body": "El SMS cae en la aplicación SMS Code normalmente en segundos, del remitente «X», con una forma como «Your X confirmation code is 941507. Don't share this code with anyone». Escribe los dígitos y se levanta el bloqueo."
+      },
+      {
+        "title": "Saca la seguridad del SMS",
+        "body": "Configura la autenticación en dos factores con una aplicación de autenticación o una clave de acceso: en X, el 2FA por SMS está reservado a suscriptores de Premium. Verifica tu correo y desactiva que te puedan encontrar por teléfono en los ajustes de privacidad."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "El bloqueo es un rito de paso",
+      "body": "Que una cuenta recién creada se bloquee en sus primeras horas es el reflejo antibots habitual de X, no un veredicto sobre ti. Verifica el teléfono y luego compórtate como una persona: foto de perfil, una bio, seguir a ritmo humano. Las cuentas que publican como un script vuelven a ser desafiadas, dé el número que dé."
+    },
+    {
+      "title": "Aquí no construyas el 2FA sobre el SMS",
+      "body": "Dos razones: X solo ofrece 2FA por mensaje de texto a suscriptores de Premium, y de todas formas no vas a conservar el número alquilado. Una aplicación de autenticación o una clave de acceso es gratis, vale para todo el mundo y nunca depende de que llegue un código por SMS."
+    },
+    {
+      "title": "Cierra la puerta del descubrimiento",
+      "body": "En Ajustes → Privacidad y seguridad → Visibilidad y contactos, desmarca «Permitir que las personas que tienen tu número de teléfono te encuentren en X». El número queda entonces solo como registro de verificación: nadie puede ir de él a tu usuario."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Por qué bloquearon mi cuenta nueva de X justo después del alta?",
+      "a": "Porque es nueva. X se apoya mucho en los desafíos de teléfono para filtrar registros de bots, y las cuentas solo con correo son las primeras a las que se lo piden. Es rutina: verifica con un número que pueda recibir SMS en ese momento — un número alquilado hace exactamente eso — y la cuenta se desbloquea."
+    },
+    {
+      "q": "¿Varias cuentas de X pueden compartir un teléfono?",
+      "a": "Solo hasta un límite: X pone un tope a cuántas cuentas se pueden enganchar a un mismo teléfono, y los números enredados hacen los desafíos más liados. Si estás montando una cuenta aparte de proyecto o de marca, un número nuevo por cuenta es la arquitectura más limpia."
+    },
+    {
+      "q": "¿Mi cuenta sigue funcionando cuando caduca el número alquilado?",
+      "a": "Sí. El número importa en el momento del control. Verifica tu correo, configura 2FA con autenticador o clave de acceso, y el uso diario no vuelve a tocar el número. Incluso puedes quitarlo después en Ajustes → Información de la cuenta: solo asegúrate de que los otros anclajes estén puestos antes."
+    },
+    {
+      "q": "¿El número se va a ver en mi perfil?",
+      "a": "No: X nunca muestra los teléfonos en público. El único camino del número a la cuenta es el descubrimiento por contactos, y eso es un interruptor que puedes apagar en Privacidad y seguridad. Apagado, el número es invisible en todas las direcciones."
+    },
+    {
+      "q": "¿Por qué no me llegó el código de confirmación de X?",
+      "a": "Comprueba primero que el prefijo coincide con el número alquilado; después, ten en cuenta que X se niega a escribir a algunos números en los que no confía. Cancela la activación pendiente en SMS Code — las monedas vuelven en los números que no recibieron nada — y toma un número nuevo, a ser posible de otro país."
+    }
+  ]
+}

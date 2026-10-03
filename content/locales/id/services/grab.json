@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Grab — daftar tanpa nomor pribadi",
+  "metaDescription": "Verifikasi Grab dengan nomor virtual asli. Kode aktivasi tiba biasanya dalam hitungan detik — atur ojek, makanan, dan lainnya tanpa nomor pribadi Anda.",
+  "hero": {
+    "title": "Nomor virtual untuk Grab",
+    "intro": [
+      "Mendarat di mana pun di Asia Tenggara dan Grab adalah aplikasi pertama yang Anda butuhkan: ojek dari bandara, makanan ke hotel, pembayaran di warung. Ini super-app kawasan — dan mengutamakan telepon. Tidak ada login email sebagai cadangan saat mendaftar; Grab mulai dengan meminta nomor seluler dan mengirim kode aktivasi ke nomor itu.",
+      "SMS Code memberi Anda nomor asli dari salah satu dari 100+ negara. Masukkan di layar sambutan Grab, dan kode enam digit muncul di aplikasi SMS Code biasanya dalam hitungan detik — akun Anda aktif sebelum koper sampai di sabuk bagasi, dan nomor pribadi Anda tidak pernah menjadi bagian dari urusan itu."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Grab?",
+    "body": [
+      "Grab dibangun di sekitar nomor lokal. Alur pendaftarannya mengharapkan nomor dari negara tempat ia beroperasi, dan pelancong yang datang dengan SIM Eropa atau Amerika sering merasa itu merepotkan — SMS roaming bisa lambat atau terblokir, dan sebagian operator memungut biaya untuk menerima kode. Nomor virtual dari Indonesia atau Filipina langsung masuk ke yang diharapkan Grab, tanpa mencari kios SIM di hari pertama.",
+      "Ada sudut privasi juga. Karena Grab mengutamakan telepon, nomor Anda menjadi kunci untuk segala sesuatu di dalamnya — riwayat perjalanan, pesanan makanan, dompet. Menjaga kunci itu terpisah dari nomor yang dipakai bank, keluarga, dan atasan Anda hanyalah pemisahan yang masuk akal: jika Anda berhenti memakai Grab setelah perjalanan, tidak ada yang ikut dari nomor sehari-hari Anda."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Grab dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih Grab sebagai layanan, dan pilih negara — negara Asia Tenggara seperti Indonesia atau Filipina paling cocok dengan wilayah asal Grab. Nomor dicadangkan seketika."
+      },
+      {
+        "title": "Masukkan di layar pendaftaran Grab",
+        "body": "Grab meminta nomor seluler Anda di layar paling pertama. Pilih kode negara yang cocok dengan nomor sewaan Anda dan ketik — Grab mengirim kode aktivasi lewat SMS segera."
+      },
+      {
+        "title": "Ketik kode aktivasinya",
+        "body": "Perhatikan aplikasi SMS Code: teksnya tiba biasanya dalam hitungan detik dan berbunyi “702415 is your Grab activation code. For your account safety, do not share this code.” Masukkan enam digit di Grab."
+      },
+      {
+        "title": "Tambahkan email dan detail pembayaran",
+        "body": "Setelah masuk, lampirkan alamat email di profil Anda dan atur cara membayar — kartu atau dompet di dalam aplikasi. Email memberi akun Anda jangkar kedua di luar nomor telepon."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Pilih negara tempat Grab benar-benar beroperasi",
+      "body": "Grab melayani Asia Tenggara — Singapura, Indonesia, Malaysia, Thailand, Vietnam, Filipina, dan tetangga. Nomor dari salah satu pasar itu cocok dengan yang diharapkan alur pendaftaran; itulah mengapa nomor Indonesia dan Filipina adalah pilihan populer untuk aktivasi Grab."
+    },
+    {
+      "title": "Daftar sebelum perjalanan Anda",
+      "body": "Verifikasi akun selagi Anda masih di Wi-Fi yang nyaman, bukan di aula kedatangan. Pemeriksaan telepon terjadi sekali saat pendaftaran — setelah itu Anda masuk di perangkat yang sama tanpa membutuhkan SMS lain, jadi akun siap begitu Anda mendarat."
+    },
+    {
+      "title": "Pengemudi menghubungi lewat aplikasi",
+      "body": "Saat pengemudi perlu menghubungi Anda, Grab mengarahkan kontak lewat obrolan dalam aplikasi dan panggilan internet, bukan menelepon nomor mentah Anda. Biarkan notifikasi Grab aktif agar Anda menangkap pesan “saya di luar” meskipun tidak ada SMS."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah saya memakai Grab sebagai turis dengan nomor virtual?",
+      "a": "Ya — itu kasus klasik. Verifikasi akun dengan nomor dari negara tempat Grab beroperasi, tambahkan metode pembayaran, dan pesan ojek serta makanan selama perjalanan seperti pengguna lokal. Akun tidak terikat pada SIM di telepon Anda."
+    },
+    {
+      "q": "Negara mana yang sebaiknya saya pilih untuk nomor Grab?",
+      "a": "Salah satu pasar asal Grab. Indonesia dan Filipina adalah pilihan paling populer di SMS Code untuk Grab, karena alur pendaftaran dibangun di sekitar nomor dari negara tempat layanan berjalan."
+    },
+    {
+      "q": "Apakah akun Grab saya tetap berfungsi setelah jendela sewa nomor berakhir?",
+      "a": "Kode aktivasi adalah pemeriksaan sekali pada pendaftaran. Selama Anda tetap masuk di perangkat, akun bekerja normal. Jika nanti Anda keluar dan Grab meminta verifikasi ulang, Anda dapat menyewa nomor baru dan memperbarui nomor di profil."
+    },
+    {
+      "q": "Mengapa kode aktivasi Grab saya tidak masuk?",
+      "a": "Periksa bahwa kode negara yang dipilih di Grab cocok dengan nomor sewaan — ketidakcocokan itu penyebab paling sering. Jika tidak ada yang datang, batalkan aktivasi di SMS Code (nomor yang tidak menerima SMS tidak dikenai biaya) dan coba nomor lain."
+    },
+    {
+      "q": "Apakah saya membutuhkan nomor lokal untuk membayar dengan GrabPay?",
+      "a": "Dompet ada di dalam akun yang sudah terverifikasi, bukan di dalam SIM Anda. Setelah akun diaktifkan, fitur pembayaran mengikuti aturan negara yang disetel pada akun Anda — opsi isi ulang dan dukungan kartu berbeda menurut pasar, dan itu kebijakan Grab, bukan masalah nomor."
+    }
+  ]
+}

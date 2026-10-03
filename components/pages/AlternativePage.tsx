@@ -3,7 +3,7 @@ import { Breadcrumbs } from "../Breadcrumbs";
 import { JsonLd } from "../JsonLd";
 import { StoreBadges } from "../StoreBadges";
 import type { AlternativeEntry } from "../../lib/content/alternatives/types";
-import { ALTERNATIVES_UI } from "../../lib/content/alternativesUi";
+import { alternativesUi, ui } from "../../lib/content/ui";
 import { localePath, type Locale } from "../../lib/i18n";
 import { faqPage } from "../../lib/seo";
 
@@ -15,11 +15,11 @@ export function AlternativePage({
   locale: Locale;
   entry: AlternativeEntry;
 }) {
-  const t = ALTERNATIVES_UI[locale];
-  const c = entry[locale];
+  const t = alternativesUi(locale).page;
+  const c = entry.copy;
   return (
     <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
-      <JsonLd data={faqPage(c.faqs)} />
+      <JsonLd data={faqPage(locale, c.faqs)} />
       <div className="pt-[40px]">
         <Breadcrumbs
           locale={locale}
@@ -77,7 +77,7 @@ export function AlternativePage({
       <section className="pt-[94px]">
         <h2 className="text-heading">{c.comparison.title}</h2>
         <div className="mt-[34px] overflow-x-auto rounded-card border border-border bg-card">
-          <table className="w-full min-w-[560px] border-collapse text-left">
+          <table className="w-full min-w-[560px] border-collapse text-start">
             <thead>
               <tr className="border-b border-border">
                 <th className="px-[clamp(22px,4vw,34px)] py-[18px] text-label font-normal text-muted" />
@@ -137,7 +137,7 @@ export function AlternativePage({
       {/* FAQ */}
       <section className="mx-auto max-w-3xl pt-[94px]">
         <span className="section-label">{t.faqLabel}</span>
-        <h2 className="text-heading">FAQ</h2>
+        <h2 className="text-heading">{ui(locale).faqHeading}</h2>
         <div className="mt-[34px]">
           {c.faqs.map((item, i) => (
             <details

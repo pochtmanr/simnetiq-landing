@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Twitch",
+  "metaDescription": "Recibe el código SMS de Twitch en un número virtual real, normalmente en segundos. Pasa el chat verificado y configura el 2FA sin atar tu número al canal.",
+  "hero": {
+    "title": "Número virtual para Twitch",
+    "intro": [
+      "Twitch te deja registrarte solo con un correo, y luego el paso del teléfono empieza a seguirte. Quien emite pasa el chat a modo verificado por teléfono para dejar fuera a los bots, la autenticación de dos factores es obligatoria antes de poder emitir en directo, y en el momento en que ocurre cualquiera de las dos, Twitch quiere mandar un código como «Your Twitch verification code is 843921» a un número tuyo.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países y el código cae en la aplicación normalmente en segundos. Tus mensajes de chat salen, tu 2FA se enciende, y el teléfono que queda junto al nombre de tu canal en la base de Twitch nunca fue el tuyo personal."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Twitch?",
+    "body": [
+      "Twitch es una identidad de cara al público de una forma que la mayoría de cuentas no lo son: tu usuario está en pantalla, tu historial de chat es público y, si emites, los desconocidos te investigan de forma activa. Atar esa identidad a tu móvil personal significa que una filtración de datos o una disputa descuidada con un moderador se interpone entre una audiencia de internet y el teléfono de tu bolsillo. Un número alquilado absorbe el paso de verificación para que la persona pública y el número personal no se toquen nunca.",
+      "La otra cara, honesta: el teléfono en una cuenta de Twitch no es decorativo. El chat verificado por teléfono lo comprueba, y el 2FA basado en SMS depende de él. Por eso el patrón sensato es verificar con un número alquilado y luego pasar enseguida el 2FA a una aplicación de autenticación en los ajustes de seguridad: Twitch lo admite e incluso lo prefiere. El número hace su único trabajo en el momento de la verificación; tu acceso a largo plazo no depende de él."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar Twitch con un número virtual",
+    "steps": [
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Elige Twitch como servicio y escoge un país, uno que coincida con dónde de verdad ves o emites, para mantener las cosas coherentes. Un toque reserva un número móvil real para ti."
+      },
+      {
+        "title": "Añádelo en los ajustes de seguridad de Twitch",
+        "body": "En Ajustes → Seguridad y privacidad, elige añadir un teléfono (o sigue el aviso cuando el chat verificado por teléfono de un canal lo pida). Selecciona el prefijo del número y escríbelo exacto."
+      },
+      {
+        "title": "Escribe el código",
+        "body": "El SMS dice «Your Twitch verification code is 843921» y aparece en la aplicación SMS Code normalmente en segundos. Escríbelo en Twitch y el número queda verificado."
+      },
+      {
+        "title": "Pasa el 2FA a una aplicación de autenticación",
+        "body": "Si activaste el doble factor para emitir, pásalo del SMS a una aplicación de autenticación enseguida, en la misma pantalla de ajustes. Después el número alquilado no tiene un papel continuo: tus inicios de sesión y tus directos no dependen de él."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Un número, una cuenta",
+      "body": "Twitch vincula las cuentas que comparten un teléfono y, si una se gana una suspensión, las otras atadas al mismo número pueden caer con ella. Dale a cada cuenta su propia activación, en lugar de reciclar un número entre varias."
+    },
+    {
+      "title": "El chat verificado por teléfono es por canal",
+      "body": "A menudo navegas Twitch durante meses sin un aviso de teléfono, y luego caes en un canal grande cuyo chat exige uno. Verifica una vez y cuenta en todas partes: hazlo cuando tú decidas, no en mitad del momento de hype, cuando el chat al que querías entrar ya sigue adelante."
+    },
+    {
+      "title": "Un número no deshace un baneo",
+      "body": "Los baneos de canal y las suspensiones de todo el sitio se aplican con las propias señales de Twitch, no solo con tu teléfono. Un número virtual mantiene privado tu número personal: no es una herramienta para saltarse un baneo, y saltarse suspensiones incumple las condiciones de Twitch y suele marcar todas las cuentas vinculadas."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Twitch exige un teléfono para registrarse?",
+      "a": "No: el registro funciona solo con correo. El teléfono aparece después: cuando el chat de un canal exige verificación por teléfono, cuando activas el doble factor por SMS, o antes de empezar a emitir. Cuando llega uno de esos momentos, un número virtual recibe el código exactamente como lo haría una SIM."
+    },
+    {
+      "q": "¿Mi cuenta de Twitch sigue funcionando cuando caduca el número alquilado?",
+      "a": "Sí. El número se comprueba en la verificación, no de forma continua. Mantén el correo confirmado, usa una contraseña fuerte y pasa el 2FA a una aplicación de autenticación: después, nada de tu inicio de sesión depende del número alquilado."
+    },
+    {
+      "q": "¿Puedo verificar varias cuentas de Twitch con un solo número virtual?",
+      "a": "Puedes, pero no deberías. Twitch trata un teléfono compartido como un vínculo entre cuentas, y la aplicación de las normas puede propagarse entre ellas. Alquila una activación aparte para cada cuenta que quieras que se sostenga sola."
+    },
+    {
+      "q": "¿Necesito verificación por teléfono para emitir en Twitch?",
+      "a": "Necesitas la autenticación de dos factores activada para emitir, y configurarla empieza por un teléfono. Verifica con el número alquilado y luego pasa el segundo factor a una aplicación de autenticación, para que los próximos inicios de sesión no esperen nunca un SMS."
+    },
+    {
+      "q": "¿Por qué no llegó el código de Twitch?",
+      "a": "Comprueba que el prefijo coincide con el número alquilado y dale un momento: los códigos suelen caer en segundos. Si no llega nada, cancela la activación en SMS Code sin cargo y toma un número nuevo; solo pagas las activaciones que entregan."
+    }
+  ]
+}

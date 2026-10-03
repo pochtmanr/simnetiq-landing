@@ -1,16 +1,30 @@
-import { HELP_ARTICLES } from "../lib/content/help";
 import type { MetadataRoute } from "next";
-import { ALL_ALTERNATIVES } from "../lib/content/alternatives";
-import { BLOG_POSTS } from "../lib/content/blog";
-import { ALL_COUNTRIES } from "../lib/content/countries";
-import { ALL_SERVICES } from "../lib/content/services";
+import { ALTERNATIVES_META } from "../lib/content/alternatives/meta";
+import { alternativeLocales } from "../lib/content/alternatives";
+import { BLOG_META } from "../lib/content/blog/meta";
+import { postLocales } from "../lib/content/blog";
+import { COUNTRIES_META } from "../lib/content/countries/meta";
+import { countryLocales } from "../lib/content/countries";
+import { HELP_META } from "../lib/content/help/meta";
+import { helpLocales } from "../lib/content/help";
+import { SERVICES_META } from "../lib/content/services/meta";
+import { serviceLocales } from "../lib/content/services";
+import { DEFAULT_LOCALE, LOCALES, localeConfig, type Locale } from "../lib/i18n";
 import { absolute } from "../lib/seo";
 
 /* Registry-driven: static chrome pages are listed here, everything else
    derives from the content registries — publishing a page is just adding it
-   to its registry. */
+   to its registry. Each URL is emitted once per locale that publishes it. */
 
 type Freq = "weekly" | "monthly" | "yearly";
+
+interface Entry {
+  path: string;
+  lastModified: string;
+  changeFrequency: Freq;
+  priority: number;
+  locales: readonly Locale[];
+}
 
 /** Most recent updatedAt across a set of registry entries. Hub pages render
  *  their registry, so this is their real last-modified — Google discounts
@@ -21,78 +35,81 @@ function latest(...groups: ReadonlyArray<ReadonlyArray<{ updatedAt: string }>>):
     .reduce((max, entry) => (entry.updatedAt > max ? entry.updatedAt : max), "");
 }
 
-const STATIC_PATHS: Array<{
-  path: string;
-  lastModified: string;
-  changeFrequency: Freq;
-  priority: number;
-}> = [
-  { path: "/", lastModified: "2026-09-30", changeFrequency: "monthly", priority: 1 },
+const STATIC_PATHS: Entry[] = [
+  { path: "/", lastModified: "2026-09-30", changeFrequency: "monthly", priority: 1, locales: LOCALES },
   {
     path: "/virtual-numbers",
-    lastModified: latest(ALL_SERVICES, ALL_COUNTRIES),
+    lastModified: latest(SERVICES_META, COUNTRIES_META),
     changeFrequency: "weekly",
     priority: 0.9,
+    locales: LOCALES,
   },
-  { path: "/blog", lastModified: latest(BLOG_POSTS), changeFrequency: "weekly", priority: 0.8 },
+  { path: "/blog", lastModified: latest(BLOG_META), changeFrequency: "weekly", priority: 0.8, locales: LOCALES },
   {
     path: "/alternatives",
-    lastModified: latest(ALL_ALTERNATIVES),
+    lastModified: latest(ALTERNATIVES_META),
     changeFrequency: "monthly",
     priority: 0.6,
+    locales: LOCALES,
   },
-  { path: "/support", lastModified: "2026-09-30", changeFrequency: "monthly", priority: 0.8 },
-  { path: "/privacy-policy", lastModified: "2026-07-06", changeFrequency: "yearly", priority: 0.3 },
-  { path: "/terms-of-service", lastModified: "2026-09-30", changeFrequency: "yearly", priority: 0.3 },
+  { path: "/support", lastModified: "2026-09-30", changeFrequency: "monthly", priority: 0.8, locales: LOCALES },
+  { path: "/privacy-policy", lastModified: "2026-07-06", changeFrequency: "yearly", priority: 0.3, locales: LOCALES },
+  { path: "/terms-of-service", lastModified: "2026-09-30", changeFrequency: "yearly", priority: 0.3, locales: LOCALES },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const entries = [
+  const entries: Entry[] = [
     ...STATIC_PATHS,
-    ...HELP_ARTICLES.map(a => ({ path: `/support/${a.slug}`, lastModified: "2026-09-30", changeFrequency: "monthly" as Freq, priority: 0.7 })),
-    ...ALL_SERVICES.map((s) => ({
+    ...HELP_META.map((a) => ({
+      path: `/support/${a.slug}`,
+      lastModified: a.updatedAt,
+      changeFrequency: "monthly" as Freq,
+      priority: 0.7,
+      locales: helpLocales(a.slug),
+    })),
+    ...SERVICES_META.map((s) => ({
       path: `/virtual-numbers/${s.slug}`,
       lastModified: s.updatedAt,
       changeFrequency: "monthly" as Freq,
       priority: 0.7,
+      locales: serviceLocales(s.slug),
     })),
-    ...ALL_COUNTRIES.map((c) => ({
+    ...COUNTRIES_META.map((c) => ({
       path: `/virtual-numbers/country/${c.slug}`,
       lastModified: c.updatedAt,
       changeFrequency: "monthly" as Freq,
       priority: 0.6,
+      locales: countryLocales(c.slug),
     })),
-    ...ALL_ALTERNATIVES.map((a) => ({
+    ...ALTERNATIVES_META.map((a) => ({
       path: `/alternatives/${a.slug}`,
       lastModified: a.updatedAt,
       changeFrequency: "monthly" as Freq,
       priority: 0.5,
+      locales: alternativeLocales(a.slug),
     })),
-    ...BLOG_POSTS.map((p) => ({
+    ...BLOG_META.map((p) => ({
       path: `/blog/${p.slug}`,
       lastModified: p.updatedAt,
       changeFrequency: "monthly" as Freq,
       priority: 0.6,
+      locales: postLocales(p.slug),
     })),
   ];
 
-  return entries.flatMap(({ path, lastModified, changeFrequency, priority }) => {
+  return entries.flatMap(({ path, lastModified, changeFrequency, priority, locales }) => {
     /* Mirrors languageAlternates() in lib/i18n.ts — x-default included. Google
        cross-checks sitemap hreflang against the on-page tags, so the two sets
        have to match key for key. */
-    const alternates = {
-      languages: {
-        en: absolute("en", path),
-        ru: absolute("ru", path),
-        "x-default": absolute("en", path),
-      },
-    };
-    return (["en", "ru"] as const).map((locale) => ({
+    const languages: Record<string, string> = {};
+    for (const locale of locales) languages[localeConfig(locale).hreflang] = absolute(locale, path);
+    if (locales.includes(DEFAULT_LOCALE)) languages["x-default"] = absolute(DEFAULT_LOCALE, path);
+    return locales.map((locale) => ({
       url: absolute(locale, path),
       lastModified: new Date(lastModified),
       changeFrequency,
       priority,
-      alternates,
+      alternates: { languages },
     }));
   });
 }

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o Facebook — cadastro sem chip",
+  "metaDescription": "Verifique o Facebook com um número virtual real de 100+ países. O código chega em geral em segundos — pague por ativação e cancele se não houver SMS.",
+  "hero": {
+    "title": "Número virtual para o Facebook",
+    "intro": [
+      "No papel, o Facebook deixa você se cadastrar só com um e-mail. Na prática, um número de celular raramente fica de fora: o formulário de registro muitas vezes pede um, e contas novas costumam cair num posto de segurança nos primeiros dias — onde um código por SMS é o caminho mais rápido de provar que há uma pessoa real por trás do perfil.",
+      "Com o SMS Code você aluga um número de celular real em um de 100+ países, entrega ao Facebook e o código de confirmação aparece no aplicativo em geral em segundos. Você paga por ativação, com um pacote avulso de moedas — sem assinatura — e, se um número não receber nada, cancela sem cobrança."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o Facebook?",
+    "body": [
+      "Um perfil do Facebook já carrega o seu nome, o seu rosto e a lista de amigos. Acrescentar o seu celular pessoal a essa pilha liga tudo ao resto da sua vida — e números ligados a contas do Facebook já foram raspados e vazados em escala enorme. Um número vazado funciona como chave de busca: conecta o seu perfil a mensageiros, marketplaces e registros de corretores de dados. Um número virtual dá ao Facebook um número real, que funciona, e que simplesmente não é essa chave.",
+      "Há motivos do dia a dia também: você se cadastra no exterior e o chip de casa não recebe SMS, ou vende no Marketplace e prefere que desconhecidos não tenham um número que toca no seu bolso. Uma coisa para a qual um número virtual não serve — os termos do Facebook permitem uma conta pessoal por pessoa, então trate isso como privacidade da sua conta, não como jeito de ter várias."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o Facebook com um número virtual",
+    "steps": [
+      {
+        "title": "Receba um número no SMS Code",
+        "body": "Abra o aplicativo SMS Code, escolha Facebook como serviço, escolha um país e toque uma vez. Um número de celular real fica reservado só para você pelo tempo da ativação."
+      },
+      {
+        "title": "Digite quando o Facebook pedir",
+        "body": "Pode ser no próprio formulário de cadastro ou num posto de controle pouco depois. Selecione o código do país que combina com o número que você alugou — um desencontro é o motivo mais comum de um código nunca chegar."
+      },
+      {
+        "title": "Digite o código de confirmação",
+        "body": "O SMS chega no aplicativo SMS Code em geral em segundos, do remetente “Facebook”, no formato “285103 is your Facebook confirmation code”. Digite os dígitos e a checagem passa."
+      },
+      {
+        "title": "Ancore a conta no que você controla",
+        "body": "Na hora, adicione um e-mail seu e ligue a autenticação de dois fatores com um aplicativo autenticador em Central de Contas → Senha e segurança. Daí em diante, acessos e recuperação nunca dependem do número alugado."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Espere o posto de controle — é rotina",
+      "body": "O Facebook desafia contas novas com mais agressividade do que quase qualquer outra rede social. Uma foto de perfil, alguns dados reais e um ritmo humano ajudam muito; uma conta pela metade que adiciona cinquenta amigos numa hora é exatamente o que dispara os filtros."
+    },
+    {
+      "title": "Tire a recuperação do número no primeiro dia",
+      "body": "O número alugado é para o momento da verificação, não para a vida. Quando você entrar, confirme um e-mail e configure um aplicativo autenticador — aí nenhum acesso futuro nem fluxo de recuperação passa por SMS."
+    },
+    {
+      "title": "Uma pessoa, uma conta",
+      "body": "Os termos do Facebook são explícitos: uma conta pessoal por pessoa. Um número virtual mantém o seu número real privado na conta que você tem — usá-lo para multiplicar contas põe todas em risco."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "A minha conta do Facebook continua depois que o número expira?",
+      "a": "Sim. O número é conferido no momento da verificação, não de forma contínua. Adicione um e-mail e a 2FA por aplicativo autenticador logo depois do cadastro, e nada na conta vai depender desse número de novo."
+    },
+    {
+      "q": "Dá para se cadastrar no Facebook sem nenhum celular?",
+      "a": "Às vezes — o cadastro só com e-mail existe. Mas muitas contas novas recebem pedido de telefone durante o registro ou pouco depois, num posto de controle. O caminho prático é alugar um número no momento em que o Facebook de fato exige um."
+    },
+    {
+      "q": "Por que o Facebook travou a minha conta recém-criada?",
+      "a": "Postos de controle em contas novas são normais, não um sinal de que você fez algo errado. O Facebook periodicamente pede a perfis novos que confirmem um número de celular e, de vez em quando, uma foto. Complete o passo do SMS, continue preenchendo o perfil num ritmo humano, e a conta se acomoda."
+    },
+    {
+      "q": "Por que o código do Facebook não chegou?",
+      "a": "Em geral é uma de duas coisas: o código do país digitado no Facebook não combina com o número alugado, ou o Facebook recusou mandar texto para aquele número. Cancele a ativação pendente no SMS Code — as moedas voltam para números que não receberam nada — e tente um novo, de preferência de outro país."
+    },
+    {
+      "q": "Verificar o Facebook com um número alugado fere as regras?",
+      "a": "As checagens do Facebook existem para confirmar uma pessoa alcançável, e um número virtual é um número real, alcançável. O que a plataforma de fato cobra é comportamento e autenticidade: uma conta genuína, sem se passar por outra pessoa, sem spam. Fique nisso e a origem do número não é problema."
+    }
+  ]
+}

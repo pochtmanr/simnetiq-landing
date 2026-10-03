@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o Steam — telefone sem o seu chip",
+  "metaDescription": "Vincule um telefone ao Steam com um número virtual real; o código chega em geral em segundos. Notas sobre Steam Guard e o autenticador.",
+  "hero": {
+    "title": "Número virtual para o Steam",
+    "intro": [
+      "O Steam cria uma conta só com e-mail de bom grado — essa parte é simples e honesta. O número de telefone entra na história depois, onde conta: códigos do Steam Guard por SMS, recuperação da conta e os passos de verificação em volta de trocas e do Mercado da Comunidade. É aí que “Your Steam verification code is J4K8P” aparece.",
+      "Com o SMS Code você aluga um número de celular real em um de 100+ países e o código do Steam chega no aplicativo em geral em segundos. A sua biblioteca — muitas vezes anos de compras — ganha um telefone sem o seu número pessoal entrar nos registros da Valve."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o Steam?",
+    "body": [
+      "Uma conta madura do Steam é uma das coisas mais valiosas que um jogador tem, e é exatamente por isso que você pode não querer o número do dia a dia ligado a ela. Phishing contra usuários do Steam é uma indústria caseira; quanto menos os dados de contato da conta se sobrepõem ao número que todo mundo conhece, menor a superfície de ataque. Um número virtual deixa você passar nos passos de telefone do Steam mantendo essa separação.",
+      "Eis a arquitetura honesta, porém: no Steam, o SMS é a guarda mais fraca. A proteção que de fato importa para trocas e para o Mercado é o Autenticador Móvel do Steam Guard no aplicativo Steam — a Valve segura trocas e anúncios por muito mais tempo em contas sem ele. Trate o número alugado como a chave que passa na porta da verificação por telefone, e o autenticador como a fechadura que você instala lá dentro."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o Steam com um número virtual",
+    "steps": [
+      {
+        "title": "Alugue um número no SMS Code",
+        "body": "Escolha Steam como serviço e escolha um país. Um toque reserva um número de celular real só para você."
+      },
+      {
+        "title": "Adicione à sua conta Steam",
+        "body": "Vá em Detalhes da conta → Informações de contato — ou siga o aviso que o Steam mostra quando uma troca precisa de telefone — e digite o número com o código do país."
+      },
+      {
+        "title": "Digite o código — com as letras",
+        "body": "O código do Steam tem o formato “J4K8P”: letras e dígitos, não os seis números de sempre. Ele chega no aplicativo SMS Code em geral em segundos; digite exatamente como está escrito."
+      },
+      {
+        "title": "Configure o Autenticador Móvel",
+        "body": "No aplicativo móvel do Steam, ative o Autenticador Móvel do Steam Guard enquanto o número ainda está ativo. Isso vira a sua 2FA durável — e guarde o código de recuperação que ele entrega num lugar seguro."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "O código não é só dígitos",
+      "body": "Ao contrário da maioria dos serviços, o Steam manda um código alfanumérico — J4K8P, não 123456. Se um código “não funcionar”, confira se você não confundiu letras e dígitos (O com 0, I com 1) e digite em maiúsculas, exatamente como recebeu."
+    },
+    {
+      "title": "O autenticador está acima do SMS",
+      "body": "O Steam Guard por SMS é o nível de entrada; o Autenticador Móvel é o que encurta as esperas de trocas e de anúncios no Mercado — e ele sobrevive a qualquer número que expire. Ative logo depois de verificar: leva minutos e é a diferença entre uma conta protegida e uma meio protegida."
+    },
+    {
+      "title": "Mudar o telefone depois tem efeitos colaterais",
+      "body": "O Steam trata mudanças e remoções de telefone como eventos de segurança e pode aplicar esperas temporárias em volta delas. Se você planeja trocar o número alugado pelo seu ou tirá-lo de vez, faça de propósito em Detalhes da conta enquanto ainda consegue receber códigos — não com pressa antes de uma troca."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Preciso de um número de telefone para criar uma conta Steam?",
+      "a": "Não — o cadastro roda só com e-mail, e isso é de fato tudo o que uma conta básica precisa. O telefone passa a importar para o Steam Guard por SMS, a recuperação da conta e a verificação em volta de trocas e do Mercado da Comunidade. Alugue um número no momento em que o Steam de fato pede um."
+    },
+    {
+      "q": "Um número virtual remove as esperas de troca e do Mercado?",
+      "a": "Não sozinho — não vamos vender isso além da conta. As esperas da Valve estão ligadas ao Autenticador Móvel do Steam Guard, não a ter um telefone no arquivo. O número passa nos passos de verificação por telefone; ativar o autenticador no aplicativo Steam é o que de fato muda como as esperas funcionam para você."
+    },
+    {
+      "q": "O que acontece quando o número alugado expira?",
+      "a": "A sua conta continua funcionando — você entra com a senha e o Steam Guard como antes. Se o autenticador estiver configurado, a segurança do dia a dia não envolve SMS. Se um dia quiser o SMS de volta como opção, atualize o telefone em Detalhes da conta para um número que você controla agora."
+    },
+    {
+      "q": "Por que o meu código do Steam foi recusado?",
+      "a": "Em geral é o formato: os códigos do Steam misturam letras e dígitos, e um O pode esconder um 0. Digite o código exatamente como aparece no aplicativo SMS Code. Se nenhum SMS chegou, confira o código do país, cancele a ativação pendente sem custo e pegue um número novo."
+    },
+    {
+      "q": "O número muda a região da loja Steam?",
+      "a": "Não. A região da loja segue a sua localização e os dados de pagamento, pelas regras da própria Valve — o número de telefone não tem voz nisso. Escolha um número do país onde a conta de fato vive; usar números para pular de região não é para o que eles servem e não é algo que as checagens do Steam premiam."
+    }
+  ]
+}

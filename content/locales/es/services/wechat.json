@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para WeChat",
+  "metaDescription": "Un número virtual recibe el SMS de WeChat normalmente en segundos, pero las cuentas nuevas suelen necesitar la ayuda de un usuario que ya existe.",
+  "hero": {
+    "title": "Número virtual para WeChat",
+    "intro": [
+      "Vamos a ser claros: WeChat es el alta más difícil de las corrientes. El paso del SMS funciona como en cualquier sitio: escribes un número, llega «Use the code (582074) on WeChat to log in to your account.» y lo escribes. Pero en muchos registros nuevos WeChat añade después una segunda puerta: la confirmación de un usuario de WeChat que ya existe y cuya cuenta cumple sus criterios. Ningún número, virtual o no, puede sustituir eso.",
+      "Con SMS Code el paso del teléfono en sí es fácil: un número real en uno de 100+ países, el código en la aplicación normalmente en segundos. Esta página te dice con honestidad qué cubre el número, qué no cubre y cómo prepararte para la parte que depende de una persona."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en WeChat?",
+    "body": [
+      "WeChat está construido alrededor del teléfono con más fuerza que casi cualquier aplicación: es el acceso, la identidad y la vía de recuperación, todo en uno. Justo por eso la gente busca un número virtual: si necesitas WeChat para hablar con familia, colegas o un proveedor en China, eso no es razón para que tu número de todos los días se convierta en tu identidad dentro de un ecosistema tan completo. El número alquilado ocupa ese papel.",
+      "Pero el cuadro honesto tiene una segunda mitad. WeChat vigila los registros nuevos con agresividad, y el paso de ayuda de un amigo — un usuario ya asentado que te confirma desde su propia aplicación — aparece a menudo, sobre todo con números internacionales. Si nadie que conozcas usa WeChat, el registro puede simplemente atascarse después del SMS, y eso no es un problema del número. Ten a tu persona de apoyo alineada antes de alquilar nada: un colega, un familiar, un amigo con una cuenta en buen estado que pueda confirmarte en el momento en que WeChat lo pida."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar WeChat con un número virtual",
+    "steps": [
+      {
+        "title": "Arregla primero a quien te va a ayudar",
+        "body": "Pregunta a alguien que conozcas en persona, con una cuenta de WeChat ya asentada, si puede ayudar en un registro nuevo. Este paso es el cuello de botella de verdad: resuélvelo antes de gastar nada en un número."
+      },
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Elige WeChat como servicio y escoge un país. Un toque reserva un número móvil real para ti."
+      },
+      {
+        "title": "Regístrate y escribe el código",
+        "body": "Empieza el registro en WeChat con el número alquilado. «Use the code (582074) on WeChat to log in to your account.» llega a la aplicación SMS Code normalmente en segundos: escríbelo y luego sigue la verificación de seguridad que presente WeChat, pasando la parte de la ayuda del amigo a tu persona de apoyo."
+      },
+      {
+        "title": "Ancla la cuenta más allá del SMS",
+        "body": "Cuando ya estás dentro, pon un ID de WeChat y una contraseña, y vincula un correo en los ajustes. El inicio de sesión diario deja de depender del SMS, aunque WeChat puede seguir haciendo controles de dispositivo, así que no cierres sesión en tu único dispositivo con la sesión iniciada por costumbre."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "La ayuda del amigo es la puerta de verdad",
+      "body": "Quien te ayuda en WeChat tiene que cumplir criterios que pone el propio WeChat — una cuenta asentada y activa — y WeChat no publica la lista exacta. Nunca compres «ayuda de verificación» a desconocidos: es un mercado de estafas, y las cuentas verificadas así tienen la costumbre de perderse a manos del desconocido que ayudó."
+    },
+    {
+      "title": "Ten claro qué estás pagando",
+      "body": "Solo pagas una activación que recibió un SMS: una que no recibió nada se puede cancelar gratis. Pero míralo con claridad: si WeChat manda el código y luego te atasca en la ayuda del amigo, esa activación se usó. La forma de evitar la pérdida no es un número mejor, es tener a tu persona de apoyo lista antes de empezar."
+    },
+    {
+      "title": "Cuida la sesión como si fuera la cuenta",
+      "body": "WeChat vuelve a verificar con agresividad en dispositivos nuevos, y esos controles pueden implicar el número vinculado. Sigue con la sesión iniciada, pon la contraseña y el ID de WeChat enseguida y, si la cuenta pasa a importar, vuelve a vincular el teléfono en los ajustes a un número que controles mientras todo sigue funcionando."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Un número virtual solo me consigue una cuenta de WeChat?",
+      "a": "Con honestidad: a menudo no. El número resuelve el paso del SMS a la perfección, pero muchos registros nuevos — sobre todo los internacionales — exigen después la confirmación de un usuario de WeChat que ya existe. Si aparece esa puerta, ningún número de ningún tipo la pasa: la pasa una persona."
+    },
+    {
+      "q": "¿Qué es exactamente la verificación con ayuda de un amigo?",
+      "a": "WeChat pide a un usuario que ya existe, cuya cuenta cumple sus criterios internos, que confirme tu registro desde su aplicación: normalmente escaneando un código QR o siguiendo avisos de su lado. Es la puerta antiabuso de WeChat para cuentas nuevas. Arréglalo con alguien que de verdad conozcas; su cuenta tiene que estar asentada y en buen estado."
+    },
+    {
+      "q": "Nadie que conozco usa WeChat. ¿Puedo registrarme igual?",
+      "a": "Preferimos decírtelo directo: quizá no. Si WeChat exige la ayuda de un amigo y no tienes a quién pedirla, el registro se atasca, y comprar ayuda a desconocidos online es un mercado de estafas y de robo de cuentas del que conviene quedarse fuera. Si WeChat es imprescindible, el camino realista es encontrar un contacto genuino que lo use."
+    },
+    {
+      "q": "¿La cuenta sigue funcionando cuando caduca el número?",
+      "a": "Para el uso diario, sí: con una contraseña y un ID de WeChat puestos, entras sin SMS. El matiz son los controles de seguridad de WeChat en dispositivos nuevos, que pueden referirse al teléfono vinculado. Si la cuenta importa a largo plazo, vuelve a vincularla en los ajustes a un número que controles mientras aún tengas acceso completo."
+    },
+    {
+      "q": "¿Por qué no llegó el código de WeChat?",
+      "a": "Mira primero el prefijo. Más allá de eso, WeChat es de verdad exigente con los números a los que atiende, más que la mayoría de aplicaciones. Una activación que no recibió nada se puede cancelar en SMS Code sin coste; toma un número nuevo, a ser posible de otro país, y prueba otra vez."
+    }
+  ]
+}

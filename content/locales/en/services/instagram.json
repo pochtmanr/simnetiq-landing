@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for Instagram — Verify Without Your SIM",
+  "metaDescription": "Get a real virtual number for Instagram verification usually within seconds. Confirm a new, brand or second account without giving out your number.",
+  "hero": {
+    "title": "A virtual number for Instagram",
+    "intro": [
+      "Instagram lets you sign up with an email address — but the phone step rarely stays optional for long. A new device, an unfamiliar network or a few quick actions right after signup, and Instagram asks you to confirm a phone number before letting you continue. That number ends up tied to the account.",
+      "With SMS Code you rent a real number in one of 100+ countries, give it to Instagram, and the six-digit code lands in the app usually within seconds. Your personal number stays out of Meta's contact graph — and out of “people you may know” suggestions built on it."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for Instagram?",
+    "body": [
+      "A phone number on Instagram does more than verify you once: it links the account to your identity across Meta, and it can surface your profile to anyone who has your number saved in their contacts. If you're launching a brand page, a shop or a creator profile you'd rather keep separate from your personal life, a virtual number keeps that wall intact — the account verifies normally but doesn't point back to you.",
+      "It's also the clean way to run several accounts. Instagram officially supports up to five in one app, but when its systems challenge one of them, each account may need its own contact point to confirm. A virtual number gives every project its own — without collecting SIM cards."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify Instagram with a virtual number",
+    "steps": [
+      {
+        "title": "Get a number in SMS Code",
+        "body": "Open the SMS Code app, choose Instagram as the service, pick a country and tap once. A real mobile number is reserved just for you — you pay per activation, no subscription."
+      },
+      {
+        "title": "Enter it in Instagram",
+        "body": "Whether you're on the sign-up screen or facing a “confirm your phone number” prompt on an existing account, select the matching country code and type the number exactly as issued."
+      },
+      {
+        "title": "Grab the code from SMS Code",
+        "body": "Instagram sends a six-digit SMS — something like “391 504 is your Instagram code. Don't share it.” It appears in the SMS Code app usually within seconds; type it in and the check clears."
+      },
+      {
+        "title": "Move the account off the rented number",
+        "body": "Add an email address you control and turn on two-factor via an authenticator app: Settings → Accounts Center → Password and security. After that, logins and recovery never depend on the virtual number again."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Set the account up properly before you use it",
+      "body": "A profile with a photo, a bio and something posted is simply a finished account, and a finished account gets asked to re-confirm its phone far less often than an empty one. If Instagram keeps challenging you, that is its anti-abuse system doing its job — a virtual number gets you through the ordinary phone check, it is not a way around a restriction or a ban."
+    },
+    {
+      "title": "Email signup doesn't mean no phone step",
+      "body": "Even accounts registered with an email get asked for a phone number whenever Instagram wants extra confirmation — a new device, an unusual network, a burst of activity. Keep that in mind: the virtual number isn't just for signup, it's for the checkpoint that may come later."
+    },
+    {
+      "title": "If the code doesn't arrive, switch numbers",
+      "body": "Instagram sometimes rate-limits SMS to a number that requested codes recently. Don't keep tapping “resend” — cancel the pending activation in SMS Code (numbers that received nothing are free) and take a fresh number, or try a different country."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will my Instagram account keep working after the number expires?",
+      "a": "Yes. The number is only needed while the verification code is being delivered. Once you're in, add an email you control and enable two-factor through an authenticator app in Accounts Center — then the account never needs to receive another SMS on that number."
+    },
+    {
+      "q": "Can I create a second Instagram account with a virtual number?",
+      "a": "Yes. Meta allows multiple accounts and Instagram supports up to five in one app. Each account may be asked to confirm its own phone number when Instagram's systems challenge it, so give each one a separate virtual number rather than reusing a single contact point."
+    },
+    {
+      "q": "Why does Instagram keep asking me to confirm a phone number?",
+      "a": "That's the checkpoint flow. It usually fires when an account looks automated: created moments ago and already following dozens of people, or logging in from a network Instagram hasn't seen. Slow down, complete the profile, and verify once with a number you can receive the code on."
+    },
+    {
+      "q": "Why didn't my Instagram code arrive?",
+      "a": "The most common cause is a mismatched country code; the second is Instagram rate-limiting SMS to a number that recently requested codes. Cancel the pending activation in SMS Code — the coins for a number that received nothing come back to your balance — and try a fresh number or another country."
+    },
+    {
+      "q": "Is signing up for Instagram with a virtual number allowed?",
+      "a": "Instagram's verification checks that you can receive a code on the number, not whose name the SIM is registered in. Renting a number for the confirmation step is fine for normal use — running a personal page, a brand or a shop. What matters is following Instagram's own community rules once you're in."
+    }
+  ]
+}

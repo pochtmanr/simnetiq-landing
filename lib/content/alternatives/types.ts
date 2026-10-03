@@ -4,7 +4,8 @@
  * Facts about the competitor must be verifiable on their public site at the
  * time of writing — no scraped, guessed or fabricated claims, no invented
  * prices. The tone is fair: say plainly when the competitor is the better
- * fit. Russian is hand-translated, never by API or script. */
+ * fit. Translations must carry these facts over unchanged — never add or
+ * "improve" a claim while localizing. */
 
 export interface ComparisonRow {
   /** e.g. "Platforms" */
@@ -37,13 +38,17 @@ export interface AlternativeCopy {
   faqs: { q: string; a: string }[];
 }
 
-export interface AlternativeEntry {
+/** Locale-neutral facts, in meta.ts. Never translated. */
+export interface AlternativeMeta {
   /** URL slug, e.g. "5sim". */
   slug: string;
   /** Competitor display name, e.g. "5SIM". */
   competitorName: string;
   /** ISO date of last fact-check — feeds sitemap lastModified. */
   updatedAt: string;
-  en: AlternativeCopy;
-  ru: AlternativeCopy;
+}
+
+/** A comparison as published in one locale. */
+export interface AlternativeEntry extends AlternativeMeta {
+  copy: AlternativeCopy;
 }

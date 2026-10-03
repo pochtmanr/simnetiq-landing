@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para TikTok",
+  "metaDescription": "Número virtual real para verificar TikTok, normalmente en segundos. Registra cuentas extra de creador y deja tu número personal fuera de la aplicación.",
+  "hero": {
+    "title": "Número virtual para TikTok",
+    "intro": [
+      "TikTok te deja registrarte con un teléfono o un correo, pero el camino del teléfono es al que vuelve: un código SMS de 4 a 6 dígitos confirma el alta, y el mismo número se usa después para entrar con código y para recuperar la cuenta. El número que escribes el primer día se convierte, en silencio, en parte de la identidad de la cuenta.",
+      "Con SMS Code alquilas un número real en uno de 100+ países, lo escribes en la pantalla de registro de TikTok y el código de verificación cae en la aplicación normalmente en segundos. Tu número personal se queda fuera: sirve tanto si cuidas tu privacidad como si estás montando un elenco de cuentas de creador."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en TikTok?",
+    "body": [
+      "Para quien crea contenido, el país del número es más que un trámite. TikTok localiza el feed y algunas funciones con señales de región — el teléfono entre ellas, junto con tu IP y el idioma del dispositivo. Un número del mercado al que quieres llegar no anula las otras señales por sí solo, pero es una palanca que sí controlas, y la más barata de tirar cuando montas una cuenta orientada, por ejemplo, a audiencias de Estados Unidos o de Indonesia.",
+      "La otra razón es la separación. Quien crea contenido suele llevar una cuenta por nicho o por marca, y cada cuenta verificada por teléfono necesita su propio número: TikTok no deja que un solo número ancle a todas. Las agencias tienen el mismo problema del lado del cliente: gestionar la cuenta de una marca no debería atarla a tu SIM personal. Un número alquilado da a cada cuenta su identidad de contacto, sin un cajón lleno de SIMs."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar TikTok con un número virtual",
+    "steps": [
+      {
+        "title": "Consigue un número en SMS Code",
+        "body": "Abre la aplicación SMS Code, elige TikTok como servicio y escoge un país, a ser posible el mercado al que va tu contenido. Un toque reserva un número móvil real solo para ti."
+      },
+      {
+        "title": "Escríbelo en la pantalla de registro de TikTok",
+        "body": "Elige «Usar teléfono o correo», quédate en la pestaña del teléfono, selecciona el prefijo que corresponde y escribe el número. Un prefijo que no coincide es la razón más habitual de que el código no aparezca."
+      },
+      {
+        "title": "Coge el código en SMS Code",
+        "body": "TikTok manda un código de 4 a 6 dígitos, algo como «[TikTok] 604812 is your verification code, valid for 5 minutes». Aparece en la aplicación SMS Code normalmente en segundos; escríbelo antes de que caduque y termina de crear la cuenta."
+      },
+      {
+        "title": "Vincula un correo enseguida",
+        "body": "En Ajustes y privacidad → Cuenta, añade un correo y verifícalo, y pasa la verificación en dos pasos al correo o a un autenticador cuando se pueda. Así la cuenta no depende del número alquilado cuando termina su ventana de activación."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "No le des una y otra vez a «Reenviar código»",
+      "body": "TikTok limita las peticiones repetidas de SMS desde el mismo número. Si no llega nada en un par de minutos, espera antes de volver a pedir, o cancela la activación en SMS Code (gratis cuando no llegó ningún SMS) y toma un número nuevo en lugar de reintentar el mismo."
+    },
+    {
+      "title": "Haz que el número coincida con la región de la aplicación",
+      "body": "El número es una señal de región entre varias: TikTok también mira tu IP y el idioma del dispositivo. Si tomas un número para apuntar a un mercado concreto, mantén el resto coherente. Un número brasileño con todo lo demás apuntando a otro sitio le manda a TikTok mensajes mezclados."
+    },
+    {
+      "title": "Un número por cuenta",
+      "body": "Cada cuenta de TikTok verificada por teléfono necesita su propio número, y un número ya atado a una cuenta no puede verificar otra nueva. ¿Llevas varios nichos o marcas de clientes? Alquila una activación aparte para cada una y anota qué número abrió qué cuenta."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Mi cuenta de TikTok sigue funcionando cuando caduca el número?",
+      "a": "Sí. El número hace falta en el paso de verificación, no para el uso de cada día. Vincula y verifica un correo justo después de registrarte y saca la verificación en dos pasos del SMS: los inicios de sesión y la recuperación pasan por canales que sigues controlando."
+    },
+    {
+      "q": "¿El país del número cambia lo que me muestra TikTok?",
+      "a": "Es una de las señales. TikTok localiza el contenido y algunas funciones por región, y lee el país de tu teléfono junto con tu dirección IP y el idioma del dispositivo. Un número de tu mercado objetivo empuja la cuenta hacia ahí, pero no anula las otras señales por sí solo."
+    },
+    {
+      "q": "¿Puedo llevar varias cuentas de TikTok con números virtuales?",
+      "a": "Sí: es el montaje habitual de quien crea contenido con una cuenta por nicho, y de las agencias que llevan marcas de clientes. Cada cuenta verificada por teléfono necesita su propio número, así que alquila una activación aparte por cuenta, en lugar de reutilizar una."
+    },
+    {
+      "q": "¿Por qué no me llegó el código de TikTok?",
+      "a": "Mira primero el prefijo: un desajuste es el culpable de siempre. TikTok también limita las peticiones repetidas de SMS, así que reenviar rápido puede silenciar el código del todo. Espera un par de minutos, o cancela la activación pendiente en SMS Code — las monedas de los números que no recibieron nada vuelven a tu saldo — y toma un número nuevo."
+    },
+    {
+      "q": "¿Una agencia puede verificar así la cuenta de TikTok de un cliente?",
+      "a": "Sí, y es más limpio que la alternativa: la cuenta tiene su propia identidad de contacto, en lugar de anclarse a la SIM personal de alguien del equipo. Configura la recuperación por correo en una dirección que controle el cliente, para que la cuenta no quede atada al número alquilado — ni a tu equipo — a largo plazo."
+    }
+  ]
+}

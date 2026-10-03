@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "SMS Code by SIMNETIQ — receive SMS codes on a private number",
+    "description": "Get a real virtual number in 100+ countries and receive SMS verification codes in seconds. Sign up for Telegram, WhatsApp, Google and more without your number.",
+    "ogTitle": "SMS Code by SIMNETIQ",
+    "ogDescription": "A phone number for the sign-up, not for life. Real virtual numbers in 100+ countries, verification codes in seconds.",
+    "twitterDescription": "A phone number for the sign-up, not for life. Verification codes in seconds."
+  },
+  "hero": {
+    "label": "Virtual numbers · SMS verification",
+    "titleTop": "A number for the sign‑up.",
+    "titleAccent": "Not for life.",
+    "body": "SMS Code gives you a real virtual number in 100+ countries and shows the verification code usually within seconds — so Telegram, WhatsApp, Google and 100+ other services never learn your personal number.",
+    "note": "One-time coin packs · no subscription"
+  },
+  "services": {
+    "label": "Coverage",
+    "title": "Works with the sign-ups you actually do",
+    "caption": "Telegram, WhatsApp, Google, Instagram and 100+ more services"
+  },
+  "how": {
+    "label": "Overview",
+    "title": "Three steps, and you're done",
+    "step": "Step",
+    "steps": [
+      {
+        "title": "Pick a service and a country",
+        "body": "Choose what you're signing up for — Telegram, WhatsApp, Google, 100+ services — and where the number should be from."
+      },
+      {
+        "title": "Get a real number instantly",
+        "body": "The app hands you a live virtual number. Paste it into the sign-up form like any other phone number."
+      },
+      {
+        "title": "The code lands in the app",
+        "body": "The verification SMS shows up on screen usually within seconds. Tap once to copy the code, finish the sign-up, done."
+      }
+    ],
+    "inbox": {
+      "codeLabel": "Your code",
+      "now": "now",
+      "secondsAgo": "{n}s ago"
+    },
+    "waiting": "Waiting for the SMS"
+  },
+  "features": {
+    "label": "Why SMS Code",
+    "title": "Built for people who guard their number",
+    "sub": "Developers testing sign-up flows, marketers running accounts, and anyone tired of “enter your phone number to continue.”",
+    "items": [
+      {
+        "title": "Your real number stays yours",
+        "body": "Sign up for anything without handing your personal number to one more database, mailing list, or data breach."
+      },
+      {
+        "title": "100+ services, 100+ countries",
+        "body": "From Telegram and WhatsApp to Steam and Tinder — with numbers from Europe, Asia, the Americas and more."
+      },
+      {
+        "title": "Usually seconds, not minutes",
+        "body": "Numbers are live the moment you get them. The SMS appears right in the app with one-tap copy."
+      },
+      {
+        "title": "Pay per code, no subscription",
+        "body": "Buy a pack of coins once and spend them whenever. No monthly plan, no auto-renew, nothing on your balance expires."
+      },
+      {
+        "title": "No SIM, no eSIM, no contracts",
+        "body": "Nothing to install in your phone's settings and nothing tied to your identity. Just open the app."
+      },
+      {
+        "title": "Cancel before SMS arrives",
+        "body": "Two minutes after assignment, you can cancel a number that has not received an SMS and get its coins back."
+      }
+    ]
+  },
+  "showcase": {
+    "label": "Inside the app",
+    "title": "What it actually looks like",
+    "body": "No mock-ups — these are real screens from the app. The app is updated regularly, so the fine print in a screenshot may be a version behind.",
+    "shots": [
+      {
+        "src": "/app/shot-countries.png",
+        "caption": "Every country priced before you pick one"
+      },
+      {
+        "src": "/app/shot-waiting.png",
+        "caption": "The code lands on the activation screen"
+      },
+      {
+        "src": "/app/shot-activations.png",
+        "caption": "Active numbers, one tap to copy"
+      },
+      {
+        "src": "/app/shot-languages.png",
+        "caption": "Ten languages, switched from Settings"
+      }
+    ]
+  },
+  "faq": {
+    "label": "Questions",
+    "title": "Questions, answered",
+    "items": [
+      {
+        "q": "What exactly is a virtual number?",
+        "a": "A real phone number that exists on a carrier network but isn't tied to a SIM card in your pocket. It can receive SMS like any other number — you use it for the verification step, and your personal number never enters the picture. An activation is single-use: the number is reserved for you alone while it runs, and when it ends the number returns to the provider's pool, where it may later be issued to someone else. So treat it as a number for the sign-up, not a number you keep."
+      },
+      {
+        "q": "Can I reuse a number or have the code resent?",
+        "a": "No. An activation covers one code on one number. Once it finishes or expires the number goes back to the provider's pool — you can't have another SMS delivered to it, and it may be reissued to a different customer later. Need to verify again? Start a new activation and you'll get a fresh number. For any account you plan to keep, add a recovery email and app-based two-factor right after signing up, so the account never depends on a number you no longer hold."
+      },
+      {
+        "q": "How fast does the code arrive?",
+        "a": "Usually within seconds of the service sending it. The activation screen updates live, so you'll see the SMS text and the code the moment it lands."
+      },
+      {
+        "q": "Which services can I verify?",
+        "a": "100+ popular services including Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal and more — each with its own list of available countries."
+      },
+      {
+        "q": "What if the code never arrives?",
+        "a": "If no SMS has arrived, cancellation is available two minutes after number assignment. It returns coins to your balance. Choose another country only if the target service accepts it; contact support if the balance looks wrong."
+      },
+      {
+        "q": "How long does an activation last, and can I swap the number?",
+        "a": "The activation window is 15 minutes. If nothing arrives you can swap to a different number from the same screen — the app has to hold the current number for two minutes first, under our cancellation policy, and you can swap up to three times within one activation. You can also cancel outright and start a fresh activation instead. Either way, the coins for a number that never received an SMS return to your balance."
+      },
+      {
+        "q": "How many numbers can I have at once?",
+        "a": "Three active at a time. There are also hourly and daily ceilings on how many coins one account can spend. They are set well above ordinary use — they exist to stop automated abuse, not to ration normal customers."
+      },
+      {
+        "q": "Do my coins expire?",
+        "a": "No. Coin packs are one-time purchases, not subscriptions — unused coins stay on your balance until you spend them, and follow your account onto a new device."
+      },
+      {
+        "q": "Is this legal to use?",
+        "a": "Permitted uses depend on your country, the target service and your purpose. Follow applicable laws and platform rules. Do not use temporary numbers for fraud, identity misrepresentation or bypassing restrictions."
+      }
+    ]
+  },
+  "browse": {
+    "label": "Find your number",
+    "title": "Pick the service. We handle the number.",
+    "body": "Every service gets its own guide: the real verification flow, the quirks that trip people up, and the countries that work best for it.",
+    "allLink": "All services and guides"
+  },
+  "personas": {
+    "label": "Who it’s for",
+    "title": "Built for people who guard their number",
+    "items": [
+      {
+        "title": "The developer",
+        "body": "Test sign-up flows and OTP handling with a real receiving number — no office SIM drawer.",
+        "slug": "cursor",
+        "linkLabel": "Numbers for dev tools"
+      },
+      {
+        "title": "The social media manager",
+        "body": "A clean contact identity for every brand account you run, without wiring them to your personal phone.",
+        "slug": "instagram",
+        "linkLabel": "Numbers for Instagram"
+      },
+      {
+        "title": "The privacy-minded",
+        "body": "Strangers in group chats shouldn’t have a direct line to you. Keep your real number for people you trust.",
+        "slug": "telegram",
+        "linkLabel": "Numbers for Telegram"
+      },
+      {
+        "title": "The smart shopper",
+        "body": "Marketplaces and promo sign-ups get a working number — the marketing SMS never reaches your pocket.",
+        "slug": "aliexpress",
+        "linkLabel": "Numbers for AliExpress"
+      },
+      {
+        "title": "The multi-account entrepreneur",
+        "body": "A second WhatsApp for work, a separate Telegram for the project — each with its own number.",
+        "slug": "whatsapp",
+        "linkLabel": "Numbers for WhatsApp"
+      }
+    ]
+  },
+  "compare": {
+    "label": "Compare",
+    "title": "How SMS Code stacks up",
+    "body": "Weighing us against SMS-Activate.org, 5SIM or another provider? We wrote the side-by-side comparisons ourselves — what each service does well, and where a mobile-first app with one-time coin packs is the better fit.",
+    "vsLabel": "SMS Code vs"
+  },
+  "blog": {
+    "label": "From the blog",
+    "title": "Guides worth reading before your next sign-up",
+    "readMore": "Read the guide",
+    "allLink": "All articles"
+  },
+  "cta": {
+    "title": "Your next sign-up doesn’t need your real number",
+    "support": "Questions before you download? Talk to support"
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "100+",
+        "label": "countries with real mobile numbers on live carrier networks"
+      },
+      {
+        "value": "100+",
+        "label": "services you can verify, from Telegram to Steam"
+      },
+      {
+        "value": "3",
+        "label": "taps from picking a service to a live number on screen"
+      },
+      {
+        "value": "0",
+        "label": "subscriptions — one-time coin packs, and coins never expire"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "Pay for codes, not for a plan",
+    "sub": "The app runs on coins. Buy them once in whichever pack size suits you, then spend them one verification at a time — no subscription, no auto-renew, and nothing on your balance expires.",
+    "packsLabel": "Coin packs",
+    "coinsUnit": "coins",
+    "facts": [
+      {
+        "title": "From 20 coins — but check the service first",
+        "body": "The service you're verifying drives most of the price and the country adjusts it, not the other way round. 20 coins is the floor, not the going rate: a common messenger can start around 35 coins and a high-demand service can run into the hundreds in every country it offers. The app quotes each combination live, so look at the price before you pick a pack."
+      },
+      {
+        "title": "The price before you confirm",
+        "body": "Every country in the list carries its exact coin price next to it. Nothing leaves your balance until you have seen the number and tapped through."
+      },
+      {
+        "title": "No code, coins back",
+        "body": "If no SMS arrives, cancel after the two-minute wait or let the activation expire to receive its coins back. A delivered but rejected code needs a support review."
+      }
+    ],
+    "note": "Pack prices are set in the App Store and vary by region."
+  }
+}

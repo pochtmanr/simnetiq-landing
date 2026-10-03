@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Snapchat",
+  "metaDescription": "Verifica Snapchat con un número virtual real de 100+ países. El código llega normalmente en segundos: sin SIM, sin suscripción y cancelas si no hay SMS.",
+  "hero": {
+    "title": "Número virtual para Snapchat",
+    "intro": [
+      "Snapchat crea una cuenta solo con un correo: el campo del teléfono se puede saltar de verdad en el alta. No se queda callado mucho tiempo: entra desde un dispositivo nuevo, tropieza un control de seguridad o intenta recuperar una contraseña olvidada, y Snapchat empieza a pedir un número al que pueda mandar un código.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países, lo escribes en Snapchat y el SMS de verificación aparece en la aplicación normalmente en segundos. Pagas por activación con un paquete de monedas de un solo pago — sin suscripción — y cualquier activación que no recibió SMS se puede cancelar sin cargo."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Snapchat?",
+    "body": [
+      "Snapchat es donde la gente está más en modo casual: rachas, snaps que desaparecen, amigos de amigos del Quick Add. Tu teléfono no pinta nada en esa mezcla: cuando está en la cuenta, quien lo tenga guardado en sus contactos puede sacarte como amigo sugerido, que es justo cómo compañeros de clase, colegas y desconocidos de una vez tropiezan con tu vida de snaps. Un número virtual mantiene la cuenta verificada mientras tu número real se queda con la gente a la que de verdad se lo diste.",
+      "El número que quiere Snapchat también tiene que funcionar ahora mismo: los desafíos de verificación y la recuperación de contraseña dependen de recibir un texto en ese momento. Un número alquilado en la aplicación SMS Code hace exactamente eso: caza el único código que Snapchat necesita, sin convertirse en un hilo permanente entre tus snaps y tu SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar Snapchat con un número virtual",
+    "steps": [
+      {
+        "title": "Consigue un número en SMS Code",
+        "body": "Abre la aplicación SMS Code, elige Snapchat como servicio, escoge un país y toca una vez. Un número móvil real queda reservado solo para ti mientras dure la activación."
+      },
+      {
+        "title": "Escríbelo en Snapchat",
+        "body": "Ya sea en la pantalla de registro, cuando Snapchat pida un teléfono, o más tarde en Ajustes → Número de móvil. Elige el prefijo que coincide con el número alquilado: un desajuste es la razón habitual de que un código no aparezca."
+      },
+      {
+        "title": "Coge el código",
+        "body": "El SMS llega a la aplicación SMS Code normalmente en segundos, del remitente «Snapchat», con una forma como «Snapchat code: 719402. Happy Snapping!». Escribe los dígitos en Snapchat y el número queda confirmado."
+      },
+      {
+        "title": "Aprieta los tornillos de la privacidad",
+        "body": "En Ajustes → Número de móvil, apaga «Permitir que otros me encuentren con mi número de teléfono». Luego verifica un correo que sea tuyo y activa la autenticación en dos factores con una aplicación de autenticación: la recuperación deja de depender de cualquier SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Apaga el descubrimiento por teléfono",
+      "body": "Quick Add funciona en parte con contactos sincronizados: a quien tenga un número guardado se le puede mostrar a su dueño. Con el descubrimiento por teléfono apagado, el número alquilado verifica la cuenta sin hacerte localizable a través de él. Es un hábito que vale la pena en cualquier cuenta."
+    },
+    {
+      "title": "Dale a la recuperación un segundo camino",
+      "body": "Snapchat se apoya en el teléfono para restablecer la contraseña, así que verifica también un correo y activa el 2FA con una aplicación de autenticación. Entonces una contraseña olvidada nunca se reduce a recibir un texto en un número cuya ventana de activación terminó hace tiempo."
+    },
+    {
+      "title": "No le des una y otra vez a reenviar",
+      "body": "Snapchat limita las peticiones de código: pide demasiadas veces seguidas y se queda en silencio un rato. Dale al primer código un momento para llegar; si el número sigue vacío, cancela la activación sin cargo y toma uno nuevo, en lugar de reenviar al vacío."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo usar Snapchat sin ningún teléfono?",
+      "a": "Puedes registrarte solo con un correo, sí. Pero Snapchat pide un teléfono cuando algo parece raro — un dispositivo nuevo, un desafío de seguridad, un restablecimiento de contraseña — y en ese momento necesitas un número que pueda recibir un texto ahí mismo. Un número alquilado cubre exactamente ese momento."
+    },
+    {
+      "q": "¿Mi Snapchat sigue funcionando cuando caduca el número?",
+      "a": "Sí. El número importa en el momento de la verificación, no después. Sigue con la sesión iniciada, verifica un correo y activa el 2FA con una aplicación de autenticación, y la cuenta no vuelve a necesitar ese número."
+    },
+    {
+      "q": "¿Mis amigos van a ver el número que usé?",
+      "a": "No: Snapchat nunca muestra tu teléfono en el perfil. La única exposición es la descubribilidad: quien tenga el número en sus contactos podría verte en Quick Add. Apaga «Permitir que otros me encuentren con mi número de teléfono» y ese camino también se cierra."
+    },
+    {
+      "q": "¿Por qué no me llegó el código de Snapchat?",
+      "a": "Los sospechosos de siempre: el prefijo elegido en Snapchat no coincide con el número alquilado, o tocaste el límite de reenvíos y Snapchat pausó las entregas. Cancela la activación pendiente en SMS Code — las monedas vuelven en los números que no recibieron nada — y empieza de nuevo con un número nuevo."
+    },
+    {
+      "q": "¿Puedo tener una segunda cuenta de Snapchat?",
+      "a": "Snapchat permite más de una cuenta por persona — una personal y una pública o de proyecto, por ejemplo — y la aplicación puede cambiar entre ellas. Cada una necesita su propio usuario y sus propios datos de contacto, que es justo donde encaja un número virtual aparte."
+    }
+  ]
+}

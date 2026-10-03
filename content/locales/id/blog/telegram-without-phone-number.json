@@ -1,0 +1,142 @@
+{
+  "title": "Cara daftar Telegram tanpa nomor telepon sendiri",
+  "description": "Telegram selalu meminta nomor — tetapi tidak harus milik Anda. Opsi nyata: nomor virtual, telepon rumah, Fragment — dan setelan privasi yang penting.",
+  "excerpt": "Telegram tidak akan membiarkan Anda mendaftar tanpa suatu nomor telepon — tetapi tidak harus milik Anda. Inilah opsi yang benar-benar berfungsi, dan setelan yang menjaga identitas Anda di luarnya.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Anda memasang Telegram, mengetuk “Mulai Pesan” — dan layar paling pertama menuntut nomor telepon. Tidak ada opsi email, tidak ada “lewati dulu”. Jika Anda berharap menjaga nomor pribadi di luar satu basis data lagi, layar itu terasa seperti dinding."
+    },
+    {
+      "type": "p",
+      "text": "Inilah jawaban jujur di depan: tidak ada cara membuat akun Telegram tanpa nomor telepon sama sekali. Verifikasi lewat telepon tertanam dalam cara Telegram mengidentifikasi akun, dan setiap jalan memutar yang Anda temukan daring tetap melibatkan nomor di suatu tempat. Yang dapat Anda lakukan — dengan mudah — adalah mendaftar tanpa nomor Anda. Akun bekerja persis sama; ia hanya tidak berjangkar pada kartu SIM di saku Anda."
+    },
+    {
+      "type": "p",
+      "text": "Panduan ini menelusuri tiga jalur yang benar-benar ada, lalu menunjukkan pendaftaran penuh dengan nomor virtual, setelan privasi yang menyembunyikan nomor apa pun yang Anda pakai, dan satu langkah — kata sandi cloud — yang menjaga akun milik Anda untuk selamanya."
+    },
+    {
+      "type": "h2",
+      "id": "your-real-options",
+      "text": "Opsi nyata Anda (dan untuk apa masing-masing)"
+    },
+    {
+      "type": "p",
+      "text": "Singkirkan mitos — “daftar dengan email” tidak pernah ada, “mod APK tanpa SIM” adalah lotere malware — dan tiga jalur sah tersisa. Mereka melayani orang yang sangat berbeda."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nomor virtual. Anda menyewa nomor seluler asli selama verifikasi, menerima kode, dan mendaftar. Bagi kebanyakan orang ini jalur tercepat dan paling murah: nomor pribadi Anda tidak pernah menyentuh server Telegram, dan akun tetap berfungsi setelah sewa berakhir selama Anda tetap masuk.",
+        "Telepon rumah atau nomor tetap. Telegram dapat menyampaikan kode login lewat panggilan suara, bukan SMS, jadi telepon rumah atau kantor secara teknis dapat memverifikasi akun. Batasannya nyata: opsi panggilan hanya muncul setelah percobaan SMS habis waktu, banyak rentang tetap dan VoIP ditolak langsung, dan Anda harus menjaga akses jangka panjang ke jalur itu untuk verifikasi ulang di masa depan.",
+        "Nomor +888 anonim dari Fragment. Marketplace blockchain milik Telegram melelang nomor virtual +888 yang hanya berfungsi di dalam Telegram dan tidak membutuhkan SIM sama sekali. Di atas kertas ini opsi paling privat — tetapi ditujukan untuk audiens berbeda: Anda menawar dalam Toncoin, harga mengambang dengan pasar koleksi, dan Anda membutuhkan dompet TON sebelum bisa mulai. Untuk “saya hanya ingin akun tanpa nomor saya”, ini berlebihan."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bagi sebagian besar pembaca pilihan praktisnya adalah yang pertama. Nomor virtual adalah nomor asli di jaringan operator nyata — Telegram memperlakukannya seperti nomor seluler lain, tanpa perlakuan khusus, tanpa menunggu lelang. Jadi mari lakukan pendaftaran yang sebenarnya."
+    },
+    {
+      "type": "h2",
+      "id": "sign-up-with-a-virtual-number",
+      "text": "Mendaftar dengan nomor virtual, langkah demi langkah"
+    },
+    {
+      "type": "p",
+      "text": "Seluruh proses memakan beberapa menit. Anda membutuhkan aplikasi Telegram dan aplikasi SMS Code berdampingan — kode tiba di yang kedua dan diketik ke yang pertama."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Sewa nomor untuk Telegram",
+          "body": "Di aplikasi SMS Code, pilih Telegram sebagai layanan dan pilih negara — ada nomor seluler asli di 100+ negara. Satu ketukan mencadangkan nomor hanya untuk Anda. Anda membayar per aktivasi dari paket koin sekali beli; tidak ada langganan, dan jika kode tidak pernah masuk, aktivasi dibatalkan gratis."
+        },
+        {
+          "title": "Masukkan nomor di Telegram",
+          "body": "Di layar pendaftaran Telegram, pilih negara yang cocok dengan nomor sewaan Anda, lalu ketik nomornya. Kode negara yang tidak cocok adalah alasan paling umum kode tidak pernah muncul, jadi periksa dua kali sebelum mengetuk Berikutnya."
+        },
+        {
+          "title": "Tunggu kode — biasanya mendarat dalam hitungan detik",
+          "body": "Kembali ke SMS Code. SMS verifikasi muncul langsung di aplikasi, biasanya dalam hitungan detik, tampil seperti “Telegram code: 48329”. Salin kode ke Telegram."
+        },
+        {
+          "title": "Selesaikan profil",
+          "body": "Pilih nama depan (tidak harus asli) dan Anda masuk. Sebelum bergabung ke satu grup pun, habiskan dua menit pada setelan privasi di bawah — itu lebih penting daripada nomor mana yang Anda pakai."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "privacy-settings-that-matter",
+      "text": "Setelan privasi yang benar-benar menyembunyikan Anda"
+    },
+    {
+      "type": "p",
+      "text": "Jalur mana pun yang Anda ambil, nomor yang Anda verifikasi kini tertaut ke akun — dan secara bawaan, Telegram menampilkannya kepada kontak Anda dan membiarkan siapa pun yang menyimpannya menemukan Anda. Dua setelan dan satu kebiasaan menutup celah itu."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sembunyikan nomor: Setelan → Privasi dan Keamanan → Nomor telepon → “Siapa yang dapat melihat nomor telepon saya” → Tidak ada. Sejak saat itu, anggota grup dan penerima pesan hanya melihat nama tampilan Anda.",
+        "Kendalikan penemuan: di layar yang sama, atur “Siapa yang dapat menemukan saya lewat nomor saya” ke Kontak Saya. Jika tidak, siapa pun yang pernah menyimpan nomor di buku alamat — termasuk kontak pemegang sebelumnya, jika nomor didaur ulang — dapat mencocokkannya ke akun baru Anda.",
+        "Hidup dengan nama pengguna: atur @username di Setelan dan bagikan itu, bukan nomor. Nama pengguna adalah cara Telegram menginginkan orang saling menemukan; nomor telepon dapat tetap kredensial login dan tidak lebih."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "lock-it-with-a-cloud-password",
+      "text": "Kunci: kata sandi verifikasi dua langkah"
+    },
+    {
+      "type": "p",
+      "text": "Ini langkah yang orang lewati dan kemudian sesali. Di Setelan → Privasi dan Keamanan → Verifikasi dua langkah, atur kata sandi cloud. Dengan itu aktif, masuk dari perangkat baru membutuhkan kode dan kata sandi — jadi penguasaan nomor telepon saja tidak pernah cukup untuk mengambil akun."
+    },
+    {
+      "type": "callout",
+      "text": "Jika Anda mendaftar dengan nomor sewaan, kata sandi cloud bukan opsional — itulah yang membuat akun secara permanen milik Anda. Atur segera, tambahkan email pemulihan, dan jangan keluar dari satu-satunya sesi aktif. Telegram mengirim kode login berikutnya ke sesi aktif, bukan lewat SMS, jadi pemakaian sehari-hari tidak pernah bergantung pada nomor lama."
+    },
+    {
+      "type": "p",
+      "text": "Itulah gambar lengkapnya: akun yang berperilaku seperti akun Telegram lain, hanya dapat ditemukan lewat nama pengguna, diamankan kata sandi, dan menunjuk ke nomor yang sejak awal bukan milik Anda."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Bisakah saya memakai Telegram tanpa nomor telepon sama sekali?",
+          "a": "Tidak. Telegram mensyaratkan nomor saat pendaftaran tanpa alternatif hanya email atau nama pengguna. Pilihan realistisnya adalah nomor yang bukan milik Anda: nomor virtual sewaan, telepon rumah yang dapat menerima kode panggilan suara, atau nomor +888 anonim dari Fragment."
+        },
+        {
+          "q": "Apakah akun saya berhenti berfungsi saat nomor virtual berakhir?",
+          "a": "Tidak. Nomor hanya diperiksa saat verifikasi. Tetap masuk dan aktifkan Verifikasi dua langkah, dan akun terus berfungsi tanpa batas — Telegram menyampaikan kode login berikutnya ke sesi aktif Anda, bukan lewat SMS."
+        },
+        {
+          "q": "Bisakah saya mendaftar Telegram dengan nomor daring gratis?",
+          "a": "Biasanya tidak. Nomor di situs penerimaan SMS gratis dibagi ribuan orang, jadi Telegram hampir selalu sudah melihatnya dan menolak menyampaikan kode — atau nomor sudah tertaut ke akun orang lain. Nomor sewaan dicadangkan hanya untuk Anda selama aktivasi."
+        },
+        {
+          "q": "Apakah mendaftar dengan nomor virtual melanggar aturan Telegram?",
+          "a": "Telegram memverifikasi bahwa Anda menguasai suatu nomor, bukan atas nama siapa terdaftar. Mendaftar dengan nomor sewaan untuk pemakaian pribadi normal tidak masalah — yang penting mengikuti ketentuan layanan Telegram setelah Anda masuk, sama seperti akun mana pun."
+        },
+        {
+          "q": "Bisakah orang lain tahu saya memakai nomor virtual?",
+          "a": "Tidak. Ini nomor seluler asli di jaringan operator nyata, tidak dapat dibedakan dari yang lain. Dan setelah Anda mengatur “Siapa yang dapat melihat nomor telepon saya” ke Tidak ada, pengguna lain hanya melihat nama dan nama pengguna Anda."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    }
+  ]
+}

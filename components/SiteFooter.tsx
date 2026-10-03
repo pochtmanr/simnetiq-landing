@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { localePath, type Locale } from "../lib/i18n";
-import { FOOTER } from "../lib/content/common";
-import { ALL_SERVICES } from "../lib/content/services";
+import { ui } from "../lib/content/ui";
+import { getService } from "../lib/content/services";
+import { Arrow } from "./Arrow";
 import {
   APP_STORE_URL,
   COMPANY_DETAILS_READY,
@@ -46,18 +47,18 @@ const SOCIAL_PATHS: Record<string, string> = {
     "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z",
 };
 
-export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
-  const t = FOOTER[locale];
-  const services = FOOTER_SERVICE_SLUGS.map((slug) =>
-    ALL_SERVICES.find((s) => s.slug === slug),
-  ).filter((s) => s !== undefined);
+export function SiteFooter({ locale }: { locale: Locale }) {
+  const t = ui(locale).footer;
+  const services = FOOTER_SERVICE_SLUGS.map((slug) => getService(locale, slug)).filter(
+    (s) => s !== undefined,
+  );
 
   return (
-    <footer className="panel--ink mt-[94px]">
-      <div className="mx-auto max-w-[1200px] px-[clamp(20px,4vw,34px)] py-[clamp(42px,5vw,70px)]">
+    <footer className="site-footer panel--ink">
+      <div className="mx-auto max-w-[1200px] px-[clamp(20px,4vw,34px)] pt-[clamp(42px,5vw,70px)]">
         <div className="grid gap-[34px] md:grid-cols-[1.6fr_1fr_1fr_1fr]">
           {/* Brand */}
-          <div className="flex flex-col items-start gap-[16px] md:pr-[32px]">
+          <div className="flex flex-col items-start gap-[16px] md:pe-[32px]">
             <div className="flex items-center gap-[10px]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -73,6 +74,10 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
             </div>
             <p className="max-w-[26ch] text-subheading text-canvas/85">
               {t.tagline}
+            </p>
+            <p className="flex items-center gap-[10px] text-label text-canvas/70">
+              <span className="live-dot" aria-hidden />
+              {t.liveStatus}
             </p>
             <a
               href={`mailto:${SUPPORT_EMAIL}`}
@@ -101,7 +106,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
               href={localePath(locale, "/virtual-numbers")}
               className="blue-link blue-link--ink text-label"
             >
-              {t.allServices} →
+              {t.allServices} <Arrow />
             </Link>
           </nav>
 
@@ -160,30 +165,45 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
               </p>
             )}
           </div>
-          <nav
-            aria-label={t.followLabel}
-            className="flex items-center gap-[18px]"
-          >
-            {SOCIALS.map((s) => (
-              <a
-                key={s.name}
-                href={s.url}
-                aria-label={s.name}
-                className="text-canvas/45 transition-colors hover:text-canvas"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  width={18}
-                  height={18}
-                  fill="currentColor"
-                  aria-hidden
+          <div className="flex items-center gap-[28px]">
+            <nav
+              aria-label={t.followLabel}
+              className="flex items-center gap-[18px]"
+            >
+              {SOCIALS.map((s) => (
+                <a
+                  key={s.name}
+                  href={s.url}
+                  aria-label={s.name}
+                  className="text-canvas/45 transition-colors hover:text-canvas"
                 >
-                  <path d={SOCIAL_PATHS[s.name]} />
+                  <svg
+                    viewBox="0 0 24 24"
+                    width={18}
+                    height={18}
+                    fill="currentColor"
+                    aria-hidden
+                  >
+                    <path d={SOCIAL_PATHS[s.name]} />
+                  </svg>
+                </a>
+              ))}
+            </nav>
+            <a href="#top" className="back-to-top text-label">
+              {t.backToTop}
+              <span className="back-to-top__ring" aria-hidden>
+                <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.6">
+                  <path d="M12 19V5m0 0-6 6m6-6 6 6" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-              </a>
-            ))}
-          </nav>
+              </span>
+            </a>
+          </div>
         </div>
+
+        {/* Wordmark sitting on the footer's bottom edge, clipped by it. */}
+        <span className="footer-wordmark mt-[clamp(34px,5vw,56px)]" dir="ltr" aria-hidden>
+          SMS Code
+        </span>
       </div>
     </footer>
   );

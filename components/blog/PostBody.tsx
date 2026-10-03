@@ -3,7 +3,8 @@ import { JsonLd } from "../JsonLd";
 import { StoreBadges } from "../StoreBadges";
 import type { Block } from "../../lib/content/blog/types";
 import { getService } from "../../lib/content/services";
-import { BLOG_UI } from "../../lib/content/blogUi";
+import { blogUi } from "../../lib/content/ui";
+import { Arrow } from "../Arrow";
 import { localePath, type Locale } from "../../lib/i18n";
 import { faqPage } from "../../lib/seo";
 
@@ -16,7 +17,7 @@ export function PostBody({
   locale: Locale;
   blocks: Block[];
 }) {
-  const t = BLOG_UI[locale];
+  const t = blogUi(locale);
   return (
     <div className="flex flex-col gap-[22px]">
       {blocks.map((block, i) => {
@@ -92,7 +93,7 @@ export function PostBody({
           case "faq":
             return (
               <div key={i}>
-                <JsonLd data={faqPage(block.items)} />
+                <JsonLd data={faqPage(locale, block.items)} />
                 <div className="overflow-hidden rounded-card border border-border bg-card">
                   {block.items.map((item, j) => (
                     <details
@@ -133,7 +134,7 @@ export function PostBody({
             );
           case "cta": {
             const service = block.serviceSlug
-              ? getService(block.serviceSlug)
+              ? getService(locale, block.serviceSlug)
               : undefined;
             return (
               <div
@@ -151,7 +152,7 @@ export function PostBody({
                     )}
                     className="blue-link text-label"
                   >
-                    {service.name} →
+                    {service.name} <Arrow />
                   </Link>
                 )}
               </div>

@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "SMS Code oleh SIMNETIQ — nomor virtual, terima SMS",
+    "description": "Dapatkan nomor virtual asli di 100+ negara dan terima kode verifikasi SMS dalam hitungan detik. Daftar Telegram, WhatsApp, dan Google tanpa nomor pribadi Anda.",
+    "ogTitle": "SMS Code oleh SIMNETIQ",
+    "ogDescription": "Nomor untuk pendaftaran, bukan untuk selamanya. Nomor virtual asli di 100+ negara, kode verifikasi dalam hitungan detik.",
+    "twitterDescription": "Nomor untuk pendaftaran, bukan untuk selamanya. Kode verifikasi dalam hitungan detik."
+  },
+  "hero": {
+    "label": "Nomor virtual · verifikasi SMS",
+    "titleTop": "Nomor untuk pendaftaran.",
+    "titleAccent": "Bukan untuk selamanya.",
+    "body": "SMS Code memberi Anda nomor virtual asli di 100+ negara dan menampilkan kode verifikasi biasanya dalam hitungan detik — sehingga Telegram, WhatsApp, Google, dan 100+ layanan lain tidak pernah mengetahui nomor pribadi Anda.",
+    "note": "Paket koin sekali beli · tanpa langganan"
+  },
+  "services": {
+    "label": "Cakupan",
+    "title": "Cocok untuk pendaftaran yang benar-benar Anda lakukan",
+    "caption": "Telegram, WhatsApp, Google, Instagram, dan 100+ layanan lainnya"
+  },
+  "how": {
+    "label": "Ringkasan",
+    "title": "Tiga langkah, dan selesai",
+    "step": "Langkah",
+    "steps": [
+      {
+        "title": "Pilih layanan dan negara",
+        "body": "Pilih apa yang Anda daftarkan — Telegram, WhatsApp, Google, 100+ layanan — dan dari negara mana nomornya."
+      },
+      {
+        "title": "Dapatkan nomor asli seketika",
+        "body": "Aplikasi memberikan nomor virtual yang aktif. Tempelkan ke formulir pendaftaran seperti nomor telepon biasa."
+      },
+      {
+        "title": "Kode masuk ke aplikasi",
+        "body": "SMS verifikasi muncul di layar biasanya dalam hitungan detik. Ketuk sekali untuk menyalin kode, selesaikan pendaftaran, selesai."
+      }
+    ],
+    "inbox": {
+      "codeLabel": "Kode Anda",
+      "now": "sekarang",
+      "secondsAgo": "{n} dtk lalu"
+    },
+    "waiting": "Menunggu SMS"
+  },
+  "features": {
+    "label": "Mengapa SMS Code",
+    "title": "Dibuat bagi yang menjaga nomornya",
+    "sub": "Pengembang yang menguji alur pendaftaran, pemasar yang mengelola akun, dan siapa pun yang lelah dengan “masukkan nomor telepon Anda untuk melanjutkan.”",
+    "items": [
+      {
+        "title": "Nomor asli Anda tetap milik Anda",
+        "body": "Daftar di mana pun tanpa menyerahkan nomor pribadi Anda ke satu basis data, milis, atau kebocoran data lagi."
+      },
+      {
+        "title": "100+ layanan, 100+ negara",
+        "body": "Dari Telegram dan WhatsApp hingga Steam dan Tinder — dengan nomor dari Eropa, Asia, Amerika, dan lainnya."
+      },
+      {
+        "title": "Biasanya hitungan detik, bukan menit",
+        "body": "Nomor aktif sejak Anda menerimanya. SMS muncul langsung di aplikasi dengan salin sekali ketuk."
+      },
+      {
+        "title": "Bayar per kode, tanpa langganan",
+        "body": "Beli paket koin sekali dan pakai kapan saja. Tanpa paket bulanan, tanpa perpanjangan otomatis, tidak ada yang kedaluwarsa di saldo Anda."
+      },
+      {
+        "title": "Tanpa SIM, tanpa eSIM, tanpa kontrak",
+        "body": "Tidak ada yang perlu dipasang di setelan telepon Anda dan tidak ada yang terikat pada identitas Anda. Cukup buka aplikasinya."
+      },
+      {
+        "title": "Batalkan sebelum SMS masuk",
+        "body": "Dua menit setelah nomor ditetapkan, Anda dapat membatalkan nomor yang belum menerima SMS dan koinnya kembali."
+      }
+    ]
+  },
+  "showcase": {
+    "label": "Di dalam aplikasi",
+    "title": "Tampilannya yang sebenarnya",
+    "body": "Bukan gambar rekaan — ini layar asli dari aplikasi. Aplikasi diperbarui secara berkala, jadi detail kecil di tangkapan layar mungkin tertinggal satu versi.",
+    "shots": [
+      {
+        "src": "/app/shot-countries.png",
+        "caption": "Harga setiap negara tampil sebelum Anda memilih"
+      },
+      {
+        "src": "/app/shot-waiting.png",
+        "caption": "Kode masuk di layar aktivasi"
+      },
+      {
+        "src": "/app/shot-activations.png",
+        "caption": "Nomor aktif, satu ketukan untuk menyalin"
+      },
+      {
+        "src": "/app/shot-languages.png",
+        "caption": "Sepuluh bahasa, diganti dari Setelan"
+      }
+    ]
+  },
+  "faq": {
+    "label": "Pertanyaan",
+    "title": "Pertanyaan, terjawab",
+    "items": [
+      {
+        "q": "Apa sebenarnya nomor virtual itu?",
+        "a": "Nomor telepon asli yang ada di jaringan operator, tetapi tidak terikat pada kartu SIM di saku Anda. Nomor itu dapat menerima SMS seperti nomor lain — Anda memakainya untuk langkah verifikasi, dan nomor pribadi Anda tidak pernah ikut. Aktivasi bersifat sekali pakai: nomor dicadangkan hanya untuk Anda selama berjalan, dan saat selesai nomor kembali ke kumpulan penyedia, yang nanti mungkin diberikan kepada orang lain. Jadi anggap sebagai nomor untuk pendaftaran, bukan nomor yang Anda simpan."
+      },
+      {
+        "q": "Bisakah saya memakai ulang nomor atau meminta kode dikirim ulang?",
+        "a": "Tidak. Satu aktivasi mencakup satu kode pada satu nomor. Setelah selesai atau kedaluwarsa, nomor kembali ke kumpulan penyedia — Anda tidak dapat menerima SMS lain ke nomor itu, dan nomor itu nanti mungkin diberikan kepada pelanggan lain. Perlu verifikasi lagi? Mulai aktivasi baru dan Anda mendapat nomor baru. Untuk akun yang ingin Anda simpan, tambahkan email pemulihan dan autentikasi dua faktor berbasis aplikasi segera setelah mendaftar, agar akun tidak bergantung pada nomor yang tidak lagi Anda pegang."
+      },
+      {
+        "q": "Seberapa cepat kode tiba?",
+        "a": "Biasanya dalam hitungan detik setelah layanan mengirimkannya. Layar aktivasi diperbarui secara langsung, jadi Anda melihat teks SMS dan kodenya begitu masuk."
+      },
+      {
+        "q": "Layanan apa yang bisa saya verifikasi?",
+        "a": "100+ layanan populer, termasuk Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal, dan lainnya — masing-masing dengan daftar negaranya sendiri."
+      },
+      {
+        "q": "Bagaimana jika kode tidak pernah tiba?",
+        "a": "Jika SMS belum masuk, pembatalan tersedia dua menit setelah nomor ditetapkan. Koin kembali ke saldo Anda. Pilih negara lain hanya jika layanan tujuan menerimanya; hubungi dukungan jika saldo terlihat salah."
+      },
+      {
+        "q": "Berapa lama aktivasi berlangsung, dan bisakah saya menukar nomor?",
+        "a": "Jendela aktivasi adalah 15 menit. Jika tidak ada yang masuk, Anda dapat menukar ke nomor lain dari layar yang sama — aplikasi harus menahan nomor saat ini selama dua menit lebih dulu, sesuai kebijakan pembatalan kami, dan Anda dapat menukar hingga tiga kali dalam satu aktivasi. Anda juga dapat membatalkan sepenuhnya dan memulai aktivasi baru. Bagaimanapun, koin untuk nomor yang tidak pernah menerima SMS kembali ke saldo Anda."
+      },
+      {
+        "q": "Berapa banyak nomor yang bisa saya miliki sekaligus?",
+        "a": "Tiga nomor aktif pada satu waktu. Ada juga batas per jam dan per hari untuk jumlah koin yang dapat dibelanjakan satu akun. Batas itu jauh di atas pemakaian biasa — ada untuk menghentikan penyalahgunaan otomatis, bukan untuk membatasi pelanggan biasa."
+      },
+      {
+        "q": "Apakah koin saya kedaluwarsa?",
+        "a": "Tidak. Paket koin adalah pembelian sekali, bukan langganan — koin yang belum terpakai tetap di saldo Anda sampai dibelanjakan, dan mengikuti akun Anda ke perangkat baru."
+      },
+      {
+        "q": "Apakah ini legal untuk digunakan?",
+        "a": "Penggunaan yang diizinkan bergantung pada negara Anda, layanan tujuan, dan tujuan Anda. Ikuti hukum yang berlaku dan aturan platform. Jangan memakai nomor sementara untuk penipuan, penyamaran identitas, atau melewati pembatasan."
+      }
+    ]
+  },
+  "browse": {
+    "label": "Temukan nomor Anda",
+    "title": "Pilih layanannya. Kami yang mengurus nomornya.",
+    "body": "Setiap layanan punya panduan sendiri: alur verifikasi yang sebenarnya, kebiasaan yang sering menjebak, dan negara yang paling cocok.",
+    "allLink": "Semua layanan dan panduan"
+  },
+  "personas": {
+    "label": "Untuk siapa",
+    "title": "Dibuat bagi yang menjaga nomornya",
+    "items": [
+      {
+        "title": "Pengembang",
+        "body": "Uji alur pendaftaran dan penanganan OTP dengan nomor penerima yang asli — tanpa laci SIM kantor.",
+        "slug": "cursor",
+        "linkLabel": "Nomor untuk alat pengembang"
+      },
+      {
+        "title": "Pengelola media sosial",
+        "body": "Identitas kontak yang bersih untuk setiap akun merek yang Anda kelola, tanpa menghubungkannya ke telepon pribadi Anda.",
+        "slug": "instagram",
+        "linkLabel": "Nomor untuk Instagram"
+      },
+      {
+        "title": "Yang peduli privasi",
+        "body": "Orang asing di obrolan grup tidak seharusnya punya jalur langsung ke Anda. Simpan nomor asli untuk orang yang Anda percaya.",
+        "slug": "telegram",
+        "linkLabel": "Nomor untuk Telegram"
+      },
+      {
+        "title": "Pembeli yang cermat",
+        "body": "Marketplace dan pendaftaran promo mendapat nomor yang berfungsi — SMS pemasaran tidak pernah sampai ke saku Anda.",
+        "slug": "aliexpress",
+        "linkLabel": "Nomor untuk AliExpress"
+      },
+      {
+        "title": "Pengusaha multiakun",
+        "body": "WhatsApp kedua untuk kerja, Telegram terpisah untuk proyek — masing-masing dengan nomornya sendiri.",
+        "slug": "whatsapp",
+        "linkLabel": "Nomor untuk WhatsApp"
+      }
+    ]
+  },
+  "compare": {
+    "label": "Bandingkan",
+    "title": "Bagaimana posisi SMS Code",
+    "body": "Membandingkan kami dengan SMS-Activate.org, 5SIM, atau penyedia lain? Kami menulis perbandingan berdampingan sendiri — apa yang masing-masing layanan lakukan dengan baik, dan di mana aplikasi yang mengutamakan ponsel dengan paket koin sekali beli lebih cocok.",
+    "vsLabel": "SMS Code vs"
+  },
+  "blog": {
+    "label": "Dari blog",
+    "title": "Panduan yang layak dibaca sebelum pendaftaran berikutnya",
+    "readMore": "Baca panduan",
+    "allLink": "Semua artikel"
+  },
+  "cta": {
+    "title": "Pendaftaran berikutnya tidak perlu nomor asli Anda",
+    "support": "Ada pertanyaan sebelum mengunduh? Hubungi dukungan"
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "100+",
+        "label": "negara dengan nomor seluler asli di jaringan operator yang aktif"
+      },
+      {
+        "value": "100+",
+        "label": "layanan yang dapat Anda verifikasi, dari Telegram hingga Steam"
+      },
+      {
+        "value": "3",
+        "label": "ketukan dari memilih layanan hingga nomor aktif di layar"
+      },
+      {
+        "value": "0",
+        "label": "langganan — paket koin sekali beli, dan koin tidak pernah kedaluwarsa"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Harga",
+    "title": "Bayar untuk kode, bukan untuk paket langganan",
+    "sub": "Aplikasi berjalan dengan koin. Beli sekali dalam ukuran paket yang cocok, lalu pakai satu verifikasi demi satu — tanpa langganan, tanpa perpanjangan otomatis, dan tidak ada yang kedaluwarsa di saldo Anda.",
+    "packsLabel": "Paket koin",
+    "coinsUnit": "koin",
+    "facts": [
+      {
+        "title": "Mulai 20 koin — tetapi periksa layanannya dulu",
+        "body": "Layanan yang Anda verifikasi paling menentukan harga, dan negara menyesuaikannya, bukan sebaliknya. 20 koin adalah batas bawah, bukan harga umum: pesan instan yang umum bisa mulai sekitar 35 koin, dan layanan dengan permintaan tinggi bisa mencapai ratusan di setiap negara yang ditawarkannya. Aplikasi menampilkan harga setiap kombinasi secara langsung, jadi lihat harganya sebelum memilih paket."
+      },
+      {
+        "title": "Harga sebelum Anda mengonfirmasi",
+        "body": "Setiap negara dalam daftar membawa harga koin yang tepat di sampingnya. Tidak ada yang keluar dari saldo Anda sampai Anda melihat nomornya dan mengetuk untuk lanjut."
+      },
+      {
+        "title": "Tidak ada kode, koin kembali",
+        "body": "Jika SMS tidak masuk, batalkan setelah menunggu dua menit atau biarkan aktivasi kedaluwarsa agar koinnya kembali. Kode yang terkirim tetapi ditolak perlu tinjauan dukungan."
+      }
+    ],
+    "note": "Harga paket ditetapkan di App Store dan berbeda menurut wilayah."
+  }
+}

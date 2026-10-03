@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour Viber",
+  "metaDescription": "Activez Viber avec un vrai numéro virtuel dans plus de 100 pays. Le code arrive généralement en quelques secondes, annulation sans frais si aucun SMS.",
+  "hero": {
+    "title": "Numéro virtuel pour Viber",
+    "intro": [
+      "Viber joue selon la même règle que WhatsApp\u00a0: votre numéro de téléphone est le compte. C’est ce avec quoi vous vous inscrivez, ce que vos contacts voient, et ce à quoi chaque discussion est ancrée. En Europe de l’Est, dans les Balkans et aux Philippines, c’est simplement là que vit le groupe familial — donc tôt ou tard il vous faut un numéro pour rejoindre.",
+      "Avec SMS Code, vous louez un vrai numéro mobile dans l’un de plus de 100 pays, vous le saisissez sur l’écran d’activation de Viber, et le code apparaît dans l’app généralement en quelques secondes. Vous payez par activation, à partir d’un pack de pièces en achat unique — sans abonnement — et un numéro qui n’a rien reçu peut être annulé sans frais."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour Viber\u00a0?",
+    "body": [
+      "Parce que le numéro est l’identité, tous ceux à qui vous parlez sur Viber le voient — membres de communautés, vendeurs de places de marché, le groupe des habitants de l’immeuble. Leur remettre à tous le numéro que votre banque appelle est une concession plus grande qu’il n’y paraît. Un numéro virtuel garde le compte pleinement fonctionnel pendant que le numéro affiché n’est pas celui relié au reste de votre vie.",
+      "Il y a aussi un angle régional. Viber est souvent la messagerie d’un cercle précis — des proches en Ukraine, des contacts d’affaires à Manille, un groupe de quartier à Varsovie — et Viber lie un compte à un numéro sur un téléphone principal. Un numéro loué vous permet de monter une identité dédiée pour ce cercle, sans seconde SIM et sans le fusionner dans le numéro que vous utilisez partout ailleurs."
+    ]
+  },
+  "howTo": {
+    "title": "Comment activer Viber avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Obtenez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, choisissez Viber comme service, un pays, et touchez une fois. Un vrai numéro mobile vous est réservé pour la durée de l’activation."
+      },
+      {
+        "title": "Saisissez-le sur l’écran d’activation de Viber",
+        "body": "Sélectionnez le pays correspondant et tapez le numéro exactement comme délivré. Si Viber propose de vérifier par appel téléphonique à la place, restez sur le SMS — c’est ce qui arrive dans l’app SMS Code."
+      },
+      {
+        "title": "Récupérez le code",
+        "body": "Le SMS arrive généralement en quelques secondes, de l’expéditeur «\u00a0Viber\u00a0», sous une forme comme «\u00a0Your Viber code\u00a0: 528114\u00a0». Tapez les chiffres dans Viber et le compte s’active."
+      },
+      {
+        "title": "Sauvegardez et installez-vous",
+        "body": "Définissez votre nom et votre photo, puis créez une sauvegarde de discussion dans Réglages → Compte → Sauvegarde (Google Drive ou iCloud). Viber redemande le numéro seulement à une réactivation — donc une sauvegarde plus une session ininterrompue est toute l’assurance dont vous avez besoin."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Ne réinstallez pas sur un coup de tête",
+      "body": "Viber revérifie le numéro chaque fois que l’app est réinstallée ou déplacée sur un nouveau téléphone. Tant que vous restez connecté, le compte fonctionne — longtemps après la fin de la fenêtre d’activation. Traitez la réinstallation comme quelque chose que vous faites délibérément, avec une sauvegarde en place, pas comme un correctif rapide."
+    },
+    {
+      "title": "Votre téléphone est l’appareil principal",
+      "body": "Viber sur ordinateur et tablette ne fait que refléter le compte qui vit sur votre téléphone — ils y sont liés, pas indépendants. Gardez l’app téléphone installée et connectée\u00a0; si elle disparaît, les appareils liés partent avec elle."
+    },
+    {
+      "title": "Réduisez ce que les inconnus peuvent voir",
+      "body": "Dans Réglages → Confidentialité, vous pouvez masquer votre statut en ligne et votre photo aux personnes hors de vos contacts. Dans les communautés publiques, Viber montre déjà un surnom plutôt qu’un numéro — mais serrer ces interrupteurs est une bonne hygiène sur n’importe quel compte."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Viber continuera-t-il après l’expiration du numéro loué\u00a0?",
+      "a": "Oui. Le numéro est contrôlé à l’activation, pas en continu. Restez connecté sur votre téléphone et tout fonctionne normalement\u00a0; le numéro ne serait à nouveau nécessaire que si vous réinstallez ou changez d’appareil — donc faites une sauvegarde et ne le faites pas à la légère."
+    },
+    {
+      "q": "Mes contacts verront-ils que le numéro est virtuel\u00a0?",
+      "a": "Ils verront le numéro lui-même — c’est ainsi que Viber fonctionne, comme WhatsApp — mais il ressemble à n’importe quel mobile ordinaire, parce que c’en est un. Et c’est le sens\u00a0: le numéro qu’ils voient n’est pas votre numéro personnel."
+    },
+    {
+      "q": "Puis-je tenir un second compte Viber sur le même téléphone\u00a0?",
+      "a": "Pas dans Viber lui-même — l’app prend en charge un compte par téléphone comme appareil principal. En pratique, un second compte a besoin soit d’un second appareil, soit de la fonction de clonage d’app que certains téléphones Android proposent. Chaque compte, où qu’il vive, a besoin de son propre numéro."
+    },
+    {
+      "q": "Pourquoi mon code Viber n’est-il pas arrivé\u00a0?",
+      "a": "Vérifiez d’abord les bases\u00a0: le pays sélectionné dans Viber doit correspondre au numéro loué. S’il correspond et que le SMS n’arrive toujours pas, annulez l’activation en cours dans SMS Code — les pièces reviennent pour les numéros qui n’ont rien reçu — et prenez un numéro neuf. Choisissez le SMS plutôt qu’un rappel quand Viber propose les deux."
+    },
+    {
+      "q": "Activer Viber avec un numéro loué est-il permis\u00a0?",
+      "a": "Viber vérifie que vous contrôlez le numéro à l’activation — ce que vous faites, pendant la durée de la location. Pour un usage personnel ordinaire, c’est tout\u00a0; ce qui compte ensuite, c’est de suivre les règles de Viber, qui portent sur le comportement, pas sur le nom auquel le numéro est enregistré."
+    }
+  ]
+}

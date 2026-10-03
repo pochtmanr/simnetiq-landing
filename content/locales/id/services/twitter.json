@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk X (Twitter) — tanpa nomor Anda",
+  "metaDescription": "Lewati verifikasi telepon X (Twitter) dengan nomor virtual asli dari 100+ negara. Kode tiba biasanya dalam hitungan detik; batal tanpa biaya jika tidak ada SMS.",
+  "hero": {
+    "title": "Nomor virtual untuk X (Twitter)",
+    "intro": [
+      "Anda dapat membuat akun X hanya dengan email — formulir pendaftaran sendiri tidak memaksa telepon. Jebakannya datang beberapa menit atau hari kemudian: akun baru rutin terkunci “untuk mengonfirmasi Anda bukan robot”, dan layar buka kunci menginginkan nomor telepon yang dapat menerima SMS saat itu juga. Bagi banyak orang, tantangan itu adalah langkah pendaftaran yang sebenarnya.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara, memberikannya ke X tepat pada momen itu, dan kode konfirmasi muncul di aplikasi biasanya dalam hitungan detik. Anda membayar per aktivasi dari paket koin sekali beli — tanpa langganan — dan nomor yang tidak menerima apa pun dibatalkan tanpa biaya."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk X (Twitter)?",
+    "body": [
+      "X adalah salah satu dari sedikit platform besar di mana nama samaran adalah bagian dari budaya — tetapi nama samaran dengan nomor telepon pribadi yang tertaut hanya samaran sampai kebocoran atau pencarian pertama. Nomor juga vektor penemuan: secara bawaan, orang yang menyimpannya di kontak dapat diarahkan ke akun Anda. Nomor virtual menjaga anonimitas yang Anda daftarkan tetap utuh sambil tetap melewati setiap pemeriksaan SMS yang dilempar X.",
+      "Ada alasan struktural juga: X membatasi berapa banyak akun yang dapat ditopang satu nomor telepon. Jika Anda menjalankan akun pribadi dan menginginkan yang terpisah untuk proyek atau merek, menggantung keduanya pada satu nomor pribadi itu rapuh — tantangan terhadap salah satu akun menarik benang yang sama. Memberi setiap akun nomor sewaan sendiri menjaga mereka independen."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi X (Twitter) dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Dapatkan nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih X (Twitter) sebagai layanan, pilih negara, dan ketuk sekali. Nomor seluler asli dicadangkan hanya untuk Anda selama aktivasi berlangsung."
+      },
+      {
+        "title": "Masukkan di tempat X meminta",
+        "body": "Biasanya itu tantangan buka kunci pada akun baru, terkadang alur pendaftaran sendiri, atau Setelan → Akun Anda → Informasi akun → Telepon. Cocokkan kode negara dengan nomor sewaan."
+      },
+      {
+        "title": "Ketik kode konfirmasinya",
+        "body": "SMS masuk ke aplikasi SMS Code biasanya dalam hitungan detik, dari pengirim “X”, berformat seperti “Your X confirmation code is 941507. Don't share this code with anyone.” Masukkan digitnya dan kunci terbuka."
+      },
+      {
+        "title": "Pindahkan keamanan dari SMS",
+        "body": "Siapkan autentikasi dua faktor dengan aplikasi autentikator atau kunci sandi — di X, 2FA berbasis SMS dicadangkan untuk pelanggan Premium. Verifikasi email Anda, dan matikan keterdapatan lewat nomor telepon di setelan privasi."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kunci itu adalah ritus peralihan",
+      "body": "Akun baru yang terkunci dalam beberapa jam pertama adalah refleks anti-bot standar X, bukan vonis atas Anda. Verifikasi telepon, lalu berperilaku seperti orang: foto profil, bio, mengikuti dengan tempo manusia. Akun yang posting seperti skrip ditantang lagi terlepas dari nomornya."
+    },
+    {
+      "title": "Jangan pernah membangun 2FA di atas SMS di sini",
+      "body": "Dua alasan: X hanya menawarkan 2FA pesan teks kepada pelanggan Premium, dan Anda tidak akan menyimpan nomor sewaan. Aplikasi autentikator atau kunci sandi gratis, berfungsi untuk semua orang, dan tidak pernah bergantung pada kode yang datang lewat SMS."
+    },
+    {
+      "title": "Tutup pintu penemuan",
+      "body": "Di Setelan → Privasi dan keamanan → Keterdapatan dan kontak, hapus centang “Biarkan orang yang memiliki nomor telepon Anda menemukan Anda di X”. Nomor itu kemudian ada murni sebagai catatan verifikasi — tidak ada yang dapat berjalan dari nomor itu ke nama pengguna Anda."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mengapa akun X baru saya terkunci segera setelah mendaftar?",
+      "a": "Karena ia baru. X sangat bersandar pada tantangan telepon untuk menyaring pendaftaran bot, dan akun hanya email adalah yang pertama diminta. Ini rutin: verifikasi dengan nomor yang dapat menerima SMS pada saat itu — nomor sewaan melakukan persis itu — dan akun terbuka."
+    },
+    {
+      "q": "Bisakah beberapa akun X berbagi satu nomor telepon?",
+      "a": "Hanya sampai suatu batas — X membatasi jumlah akun yang dapat ditautkan ke satu nomor telepon, dan nomor yang kusut membuat tantangan lebih berantakan. Jika Anda menyiapkan akun proyek atau merek yang terpisah, nomor baru per akun adalah arsitektur yang lebih bersih."
+    },
+    {
+      "q": "Apakah akun saya tetap berfungsi setelah nomor sewaan berakhir?",
+      "a": "Ya. Nomor penting pada momen pemeriksaan. Verifikasi email, siapkan 2FA autentikator atau kunci sandi, dan pemakaian harian tidak pernah menyentuh nomor lagi. Anda bahkan dapat menghapusnya nanti di Setelan → Informasi akun — pastikan jangkar lain sudah terpasang lebih dulu."
+    },
+    {
+      "q": "Apakah nomor akan terlihat di profil saya?",
+      "a": "Tidak — X tidak pernah menampilkan nomor telepon secara publik. Satu-satunya jalur dari nomor ke akun adalah keterdapatan berbasis kontak, dan itu sakelar yang dapat Anda matikan di Privasi dan keamanan. Jika mati, nomor tidak terlihat dari segala arah."
+    },
+    {
+      "q": "Mengapa kode konfirmasi X saya tidak masuk?",
+      "a": "Periksa bahwa kode negara cocok dengan nomor sewaan lebih dulu; setelah itu, ketahuilah bahwa X menolak mengirim teks ke sebagian nomor yang tidak dipercayainya. Batalkan aktivasi yang tertunda di SMS Code — koin kembali untuk nomor yang tidak menerima apa pun — dan ambil nomor baru, idealnya dari negara lain."
+    }
+  ]
+}

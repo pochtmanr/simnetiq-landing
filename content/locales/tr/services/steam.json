@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Steam için sanal numara",
+  "metaDescription": "Steam’e gerçek sanal numarayla telefon ekleyin; kod saniyeler içinde gelir. Steam Guard, takas bekletmesi ve kimlik doğrulayıcı üzerine dürüst not.",
+  "hero": {
+    "title": "Steam için sanal numara",
+    "intro": [
+      "Steam yalnızca bir e-posta ile hesap açmaktan memnuniyet duyar — bu kısım basit ve dürüsttür. Telefon numarası hikâyeye sonra, önemli olduğu yerde girer: SMS ile Steam Guard kodları, hesap kurtarma ve takas ile Topluluk Pazarı etrafındaki doğrulama adımları. “Your Steam verification code is J4K8P” o zaman çıkar.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız ve Steam’in kodu uygulamaya genellikle saniyeler içinde düşer. Oyun kütüphaneniz — çoğu zaman yılların satın almaları — kişisel numaranız Valve kayıtlarına girmeden bir telefona bağlanır."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Steam için neden sanal numara?",
+    "body": [
+      "Tecrübeli bir Steam hesabı bir oyuncunun sahip olduğu daha değerli şeylerden biridir; günlük numaranızı ona bağlamak istememenizin nedeni tam budur. Steam kullanıcılarına karşı oltalama bir ev sanayisidir; hesabınızın iletişim ayrıntıları herkesin bildiği numarayla ne kadar az örtüşürse saldırı yüzeyi o kadar küçülür. Sanal numara Steam’in telefon adımlarını geçirirken o ayrımı korur.",
+      "Dürüst mimari şudur: Steam’de SMS daha zayıf korumadır. Takas ve Pazar için asıl önemli olan koruma, Steam uygulamasındaki Steam Guard Mobil Kimlik Doğrulayıcı’dır — Valve, onsuz hesaplarda takasları ve ilanları çok daha uzun tutar. Kiralanan numarayı telefon doğrulama kapısından geçiren anahtar, kimlik doğrulayıcıyı ise içeri girdikten sonra taktığınız kilit olarak görün."
+    ]
+  },
+  "howTo": {
+    "title": "Steam’i sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "Servis olarak Steam’i seçin ve bir ülke seçin. Tek dokunuş yalnızca size gerçek bir mobil numara ayırır."
+      },
+      {
+        "title": "Onu Steam hesabınıza ekleyin",
+        "body": "Hesap Ayrıntıları → İletişim Bilgileri bölümüne gidin — veya takas telefon istediğinde Steam’in gösterdiği uyarıyı izleyin — ve numarayı ülke koduyla girin."
+      },
+      {
+        "title": "Kodu girin — harfler dahil",
+        "body": "Steam’in kodu “J4K8P” gibi görünür: harf ve rakam, olağan altı sayı değil. SMS Code uygulamasına genellikle saniyeler içinde gelir; yazıldığı gibi tam girin."
+      },
+      {
+        "title": "Mobil Kimlik Doğrulayıcı’yı kurun",
+        "body": "Numara hâlâ aktifken Steam mobil uygulamasında Steam Guard Mobil Kimlik Doğrulayıcı’yı açın. Bu, kalıcı 2FA’nız olur — verdiği kurtarma kodunu güvenli bir yerde saklayın."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kodun tamamı rakam değildir",
+      "body": "Çoğu servisin aksine Steam alfanümerik bir kod gönderir — 123456 değil, J4K8P. Bir kod “çalışmıyorsa” harflerle rakamları karıştırmadığınızı kontrol edin (O ile 0, I ile 1) ve tam alındığı gibi büyük harfle girin."
+    },
+    {
+      "title": "Kimlik doğrulayıcı SMS’ten önde gelir",
+      "body": "SMS Steam Guard giriş düzeyidir; Mobil Kimlik Doğrulayıcı takas ve Pazar ilanlarındaki bekletmeleri kısaltan şeydir — ve herhangi bir numaranın süresi bitse de kalır. Doğrulamadan hemen sonra açın: dakikalar sürer ve korunan bir hesap ile yarı korunan bir hesap arasındaki farktır."
+    },
+    {
+      "title": "Telefonu sonra değiştirmenin yan etkileri vardır",
+      "body": "Steam telefon değişikliklerini ve kaldırmaları güvenlik olayı olarak görür ve etraflarında geçici bekletmeler uygulayabilir. Kiralanan numarayı kendinizinkiyle değiştirmeyi veya tamamen bırakmayı planlıyorsanız bunu hâlâ kod alabilirken Hesap Ayrıntıları’ndan bilinçli yapın — bir takastan hemen önce aceleyle değil."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Steam hesabı oluşturmak için telefon numarası gerekir mi?",
+      "a": "Hayır — kayıt yalnızca e-posta ile yürür ve temel bir hesabın gerçekten ihtiyacı olan budur. Telefon, SMS ile Steam Guard, hesap kurtarma ve takas ile Topluluk Pazarı etrafındaki doğrulama için önem kazanır. Steam gerçekten istediği anda bir numara kiralayın."
+    },
+    {
+      "q": "Sanal numara takas ve Pazar bekletmelerini kaldırır mı?",
+      "a": "Tek başına hayır — bunu abartmayız. Valve’ın bekletmeleri dosyada telefon olmasına değil, Steam Guard Mobil Kimlik Doğrulayıcı’ya bağlıdır. Numara sizi telefon doğrulama adımlarından geçirir; bekletmelerin sizin için nasıl işlediğini asıl değiştiren, Steam uygulamasında kimlik doğrulayıcıyı açmaktır."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince ne olur?",
+      "a": "Hesabınız çalışmaya devam eder — eskisi gibi parolanız ve Steam Guard ile giriş yaparsınız. Kimlik doğrulayıcı kurulduysa günlük güvenlik SMS içermez. SMS’i yine bir seçenek olarak istiyorsanız telefonu Hesap Ayrıntıları’nda şu anda kontrol ettiğiniz bir numarayla güncelleyin."
+    },
+    {
+      "q": "Steam kodum neden reddedildi?",
+      "a": "Genellikle biçimdir: Steam kodları harf ve rakam karıştırır ve bir O, 0’ı gizleyebilir. Kodu SMS Code uygulamasında göründüğü gibi tam girin. SMS hiç gelmediyse ülke kodunu kontrol edin, bekleyen etkinleştirmeyi ücretsiz iptal edin ve taze bir numara alın."
+    },
+    {
+      "q": "Numara Steam mağaza bölgemi değiştirir mi?",
+      "a": "Hayır. Mağaza bölgeniz Valve’ın kendi kuralları altında konumunuzu ve ödeme ayrıntılarınızı izler — telefon numarasının bunda sözü yoktur. Hesabın gerçekten yaşadığı ülkeden bir numara seçin; bölge atlamak için numara kullanmak onların işi değildir ve Steam kontrollerinin ödüllendirdiği bir şey değildir."
+    }
+  ]
+}

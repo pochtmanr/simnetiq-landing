@@ -1,38 +1,14 @@
 import { createHash } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { SITE_URL } from "../../../lib/site";
+import { DEFAULT_LOCALE, isLocale, type Locale } from "../../../lib/i18n";
+import { supportUi } from "../../../lib/content/ui";
 
 const MAX = { name: 200, email: 320, topic: 100, message: 5000 } as const;
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-type Locale = "en" | "ru";
-
-const MESSAGES: Record<Locale, Record<string, string>> = {
-  en: {
-    invalidBody: "Invalid request body.",
-    invalidJson: "Invalid JSON.",
-    name: "Please enter your name.",
-    email: "Please enter a valid email address.",
-    topic: "Topic is too long.",
-    message: "Please describe your issue in at least 10 characters.",
-    unavailable: "Support form is temporarily unavailable. Please email us instead.",
-    saveFailed: "We couldn't save your message. Please try again or email us.",
-    forbidden: "This request didn't come from the support page. Please reload and try again.",
-    challenge: "Please complete the verification check and try again.",
-  },
-  ru: {
-    invalidBody: "Некорректный запрос.",
-    invalidJson: "Некорректный JSON.",
-    name: "Пожалуйста, укажите имя.",
-    email: "Пожалуйста, укажите корректный email.",
-    topic: "Слишком длинная тема.",
-    message: "Опишите проблему хотя бы в 10 символах.",
-    unavailable: "Форма временно недоступна. Напишите нам на почту.",
-    saveFailed: "Не удалось сохранить сообщение. Попробуйте ещё раз или напишите нам на почту.",
-    forbidden: "Запрос пришёл не со страницы поддержки. Обновите страницу и попробуйте снова.",
-    challenge: "Пройдите проверку и попробуйте ещё раз.",
-  },
-};
+/** Error copy in the visitor's language; unknown locales fall back to the default. */
+const messages = (locale: Locale) => supportUi(locale).api;
 
 type Payload = {
   name: string;
@@ -43,7 +19,7 @@ type Payload = {
 };
 
 function validate(body: unknown, locale: Locale): Payload | string {
-  const m = MESSAGES[locale];
+  const m = messages(locale);
   if (typeof body !== "object" || body === null) return m.invalidBody;
   const b = body as Record<string, unknown>;
 
@@ -151,14 +127,15 @@ export async function POST(request: NextRequest) {
   try {
     body = await request.json();
   } catch {
-    return NextResponse.json({ error: MESSAGES.en.invalidJson }, { status: 400 });
+    return NextResponse.json({ error: messages(DEFAULT_LOCALE).invalidJson }, { status: 400 });
   }
 
   const rawLocale = (body as Record<string, unknown>)?.locale;
-  const locale: Locale = rawLocale === "ru" ? "ru" : "en";
+  const locale: Locale =
+    typeof rawLocale === "string" && isLocale(rawLocale) ? rawLocale : DEFAULT_LOCALE;
 
   if (!originOk(request)) {
-    return NextResponse.json({ error: MESSAGES[locale].forbidden }, { status: 403 });
+    return NextResponse.json({ error: messages(locale).forbidden }, { status: 403 });
   }
 
   // Honeypot filled in → almost certainly a bot. Pretend success.
@@ -176,7 +153,7 @@ export async function POST(request: NextRequest) {
     request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
     null;
   if (!(await turnstileOk((body as Record<string, unknown>)?.turnstileToken, rawIp))) {
-    return NextResponse.json({ error: MESSAGES[locale].challenge }, { status: 400 });
+    return NextResponse.json({ error: messages(locale).challenge }, { status: 400 });
   }
 
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -188,7 +165,7 @@ export async function POST(request: NextRequest) {
   if (!supabaseUrl || !anonKey) {
     console.error("Support form: Supabase env vars are not configured.");
     return NextResponse.json(
-      { error: MESSAGES[locale].unavailable },
+      { error: messages(locale).unavailable },
       { status: 503 },
     );
   }
@@ -221,7 +198,7 @@ export async function POST(request: NextRequest) {
       await rpcRes.text().catch(() => ""),
     );
     return NextResponse.json(
-      { error: MESSAGES[locale].saveFailed },
+      { error: messages(locale).saveFailed },
       { status: 502 },
     );
   }

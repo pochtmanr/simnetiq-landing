@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Airbnb",
+  "metaDescription": "Verifica tu cuenta de Airbnb con un número virtual real. El código SMS llega normalmente en segundos: reserva estancias sin compartir tu número personal.",
+  "hero": {
+    "title": "Número virtual para Airbnb",
+    "intro": [
+      "Airbnb funciona con la confianza entre desconocidos, y un teléfono verificado es uno de los primeros ladrillos de ese muro. Antes de que puedas reservar una estancia — y a menudo antes de que un anfitrión conteste siquiera una solicitud — Airbnb quiere confirmar que se te puede localizar, y lo hace con un código SMS al número de tu cuenta.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países, lo escribes durante el alta de Airbnb y el código de seis dígitos aparece en la aplicación SMS Code normalmente en segundos. Te queda una cuenta verificada; tu número personal sigue siendo tuyo."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Airbnb?",
+    "body": [
+      "Aquí está la parte rara: cuando una reserva está confirmada, apenas usas el teléfono en Airbnb. Huéspedes y anfitriones se escriben por la aplicación, e incluso las llamadas pasan por números de relé enmascarados de Airbnb, precisamente para que ninguno vea los datos reales del otro. Y aun así el alta exige un número que pueda recibir un SMS: la verificación existe para la plataforma, no para la persona al otro lado de tu reserva.",
+      "Eso hace que un número virtual encaje de forma natural en quien viaja y cuida la privacidad. Tu cuenta está verificada y reserva estancias como cualquier otra, pero el número pegado a tu perfil no es el que te sigue en la vida diaria: no puede acabar en la agenda de un anfitrión, en una base de marketing ni en ningún sitio que no hayas planeado."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar Airbnb con un número virtual",
+    "steps": [
+      {
+        "title": "Consigue un número en SMS Code",
+        "body": "Abre la aplicación SMS Code, elige Airbnb como servicio y escoge un país: mucha gente que viaja elige el país desde el que de verdad reserva, como Estados Unidos, Francia o España. El número queda reservado para ti al instante."
+      },
+      {
+        "title": "Añádelo durante el alta de Airbnb",
+        "body": "Crea tu cuenta de Airbnb (valen el correo o el inicio de sesión social) y escribe el número alquilado cuando Airbnb pida verificar tu teléfono. Asegúrate de que el prefijo que eliges coincide con el país del número."
+      },
+      {
+        "title": "Escribe el código SMS",
+        "body": "El texto cae en la aplicación SMS Code normalmente en segundos: «Your Airbnb verification code is: 517203». Escríbelo en la pantalla de verificación de Airbnb y tu teléfono queda confirmado."
+      },
+      {
+        "title": "Termina tu perfil",
+        "body": "Añade una foto, confirma tu correo y completa los pasos de identidad que pida Airbnb. Un perfil relleno importa en Airbnb: los anfitriones aceptan solicitudes de perfiles completos con mucha más facilidad que de perfiles en blanco."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Reserva con la cuenta que verificaste",
+      "body": "Airbnb liga la verificación del teléfono a la cuenta, no al dispositivo. Haz la verificación en la misma cuenta con la que de verdad vas a reservar, y mantén viva la sesión: en el día a día entrarás con correo o con inicio de sesión social, no por SMS."
+    },
+    {
+      "title": "Los mensajes se quedan dentro de la aplicación",
+      "body": "Los anfitriones te contactan por la mensajería propia de Airbnb, y las llamadas se enrutan por números de relé enmascarados. Activa las notificaciones push en la aplicación de Airbnb para no depender nunca del SMS si te contestan sobre una reserva."
+    },
+    {
+      "title": "Los controles de identidad van aparte",
+      "body": "En algunas reservas Airbnb también pide verificar un documento oficial. Es un paso independiente de la verificación por teléfono: un número virtual no lo afecta ni en un sentido ni en otro, y el documento tiene que ser de verdad tuyo. Las cuentas de Airbnb son personales e intransferibles según sus condiciones."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Los anfitriones van a ver el número virtual con el que verifiqué?",
+      "a": "No. Anfitriones y huéspedes se comunican por la mensajería de Airbnb, y las llamadas pasan por números de relé enmascarados en los dos lados. El número de tu cuenta es para la verificación de Airbnb, no algo que se muestre a los anfitriones."
+    },
+    {
+      "q": "¿Puedo reservar estancias con normalidad después de verificar con un número virtual?",
+      "a": "Sí. Es un número móvil real, en un operador real, y cuando el código está confirmado tu cuenta queda verificada como cualquier otra. Reservar, escribirse y las reseñas funcionan igual."
+    },
+    {
+      "q": "¿Qué pasa cuando termina la ventana de activación del número alquilado?",
+      "a": "Tu cuenta sigue funcionando: el número se comprueba en la verificación, no de forma continua. Sigue con la sesión iniciada y mantén el correo confirmado, porque el correo es tu vía de todos los días para volver a la cuenta. Si Airbnb pide alguna vez volver a verificar el teléfono, puedes actualizar el número del archivo a uno nuevo."
+    },
+    {
+      "q": "¿Por qué no me llegó el código de Airbnb?",
+      "a": "Los sospechosos de siempre: el prefijo elegido en Airbnb no coincide con el número alquilado, o la petición caducó. Cancela la activación en SMS Code — las monedas vuelven en los números que no recibieron nada — y prueba otra vez con un número nuevo, revisando el país dos veces."
+    },
+    {
+      "q": "¿Verificar Airbnb con un número virtual está permitido?",
+      "a": "El control de Airbnb confirma que controlas un número que funciona; alquilar uno para eso está bien para un uso personal normal. En lo que Airbnb sí insiste es en que la cuenta te represente de verdad: usa tu nombre real, tu propio documento cuando lo pidan, y una cuenta por persona."
+    }
+  ]
+}

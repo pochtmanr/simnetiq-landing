@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npm run i18n:sync && npm run i18n:check",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "i18n:sync": "jiti scripts/i18n-sync.ts",
+    "i18n:check": "jiti scripts/i18n-check.ts",
     "test:business-os": "vitest run --config vitest.config.ts"
   },
   "dependencies": {
@@ -28,6 +31,7 @@
     "ajv-formats": "^3.0.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
+    "jiti": "^2.7.0",
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^3.2.4"

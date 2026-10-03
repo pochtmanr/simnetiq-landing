@@ -1,0 +1,146 @@
+{
+  "title": "Online SMS al: kendi numaranız olmadan kod",
+  "description": "Her kayıt bir telefon numarası ister. Online SMS almanın üç yolu — ücretsiz siteler, ikinci SIM, kiralanan sanal numara — ve her birinin ne zaman işe yaradığı.",
+  "excerpt": "Ücretsiz kod siteleri, ikinci bir SIM veya kiralanan sanal numara — doğrulama SMS’ini çevrimiçi almanın üç yolu, dürüstçe karşılaştırılır: her birinin maliyeti, nerede başarısız olduğu ve güvenilir olanın gerçekte nasıl çalıştığı.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "“Parola oluşturun” ile “koşulları kabul edin” arasında neredeyse her kayıt artık aynı talebi sokar: telefon numaranızı girin. Mesajlaşma uygulamaları ister, pazar yerleri ister, iki kez uğrayacağınız bir forum bile içeri almadan önce size altı haneli bir kod göndermekte ısrar eder."
+    },
+    {
+      "type": "p",
+      "text": "Kodun kendisi zararsızdır. İnsanları rahatsız eden arkasındaki numaradır — hesabı geride bırakan, profillerinizi birbirine bağlayan ve sızdığında parola gibi döndüremeyeceğiniz kalıcı, kişisel bir tanımlayıcı. Pratik soru doğrulamadan nasıl kaçınılacağı değildir; servisler bundan vazgeçmez. SMS’i kendi SIM’inizden başka bir yerde nasıl alacağınızdır."
+    },
+    {
+      "type": "p",
+      "text": "Bunu yapmanın tam üç yolu vardır. Bu rehber hepsini yürür — zamanınızı çoğunlukla boşa harcayan ikisi dahil — sonra güvenilir çalışanla tam akışı gösterir."
+    },
+    {
+      "type": "h2",
+      "id": "why-services-want-your-number",
+      "text": "Servisler neden en başta numara ister"
+    },
+    {
+      "type": "p",
+      "text": "Ne ile uğraştığınızı anlamakta fayda vardır, çünkü bazı yolların neden başarısız olduğunu açıklar. Servisler telefon numaralarını üç nedenle doğrular ve gizlilik bunlardan biri değildir."
+    },
+    {
+      "type": "list",
+      "items": [
+        "İstenmeyen ileti kontrolü. Telefon numarası bir servisin talep edebileceği en ucuz kıt kaynaktır. E-posta adresleri ücretsiz ve sonsuzdur; mobil numaralar para ve evrak ister, bir tane istemek her sahte hesabın fiyatını yükseltir.",
+        "Hesap kurtarma ve 2FA. Doğrulandıktan sonra numara yedek bir giriş kanalı olur — bu, numarayı kontrol edenin çoğu zaman parolayı sıfırlayabileceği anlamına da gelir. İki tarafa da keser ve buna döneceğiz.",
+        "Kimlik bağlama. Bir numara hesabınızı diğer hesaplarınıza, kişilerinize ve operatörünüz aracılığıyla yasal kimliğinize bağlar. Reklam sistemleri için temizlenmiş çerezleri ve yeni cihazları geride bırakan birleştirme anahtarıdır."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bunların hiçbiri numaranın sizin olmasını gerektirmez. Servis tek bir şeyi kontrol eder: yazdığınız numaraya gönderilen bir kodu okuyabildiğinizi. O numaranın nerede yaşadığı — cebinizdeki bir SIM veya ekranınızdaki bir uygulama — onların tarafında görünmezdir."
+    },
+    {
+      "type": "h2",
+      "id": "three-ways-to-receive-sms-online",
+      "text": "Online SMS almanın üç yolu"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ücretsiz herkese açık numaralar. Onlarca site, gelen kutusunu herkesin okuyabildiği numaralar yayımlar. Hiçbir şeye mal olmazlar ve ara sıra işe yararlar — ama her numara binlerce yabancıyla paylaşılır, popüler servisler çoğunu çoktan görmüş, işaretlemiş ve engellemiştir. Biri numarayı kabul ettiğinde çoğu zaman zaten kayıtlı olduğu söylenir — çünkü biri sizden önce varmıştır. Ve gelen kutu herkese açık olduğu için o numaraya gönderilen her şey, az önce açtığınız hesabın parola sıfırlama kodu dahil, herkesçe okunabilir.",
+        "İkinci bir SIM veya eSIM. Gerçekten özel ve kalıcıdır — yalnızca size ait gerçek bir numaradır. Takas maliyet ve sürtünmedir: numarayı canlı tutmak için aylık plan veya yükleme yükümlülükleri, birçok ülkede kimlik koşulları ve 2026’da bir sitenin kod istemesi yüzünden bir telefon planı tutmanın saçmalığı. Uzun vadeli ikinci bir hat gerekiyorsa mantıklıdır; kayıtlar için fazladır.",
+        "Kiralanan sanal numara. Tek bir doğrulama süresi boyunca yalnızca size ayrılmış, gerçek bir operatör ağındaki gerçek bir mobil numara. Alınan kod başına ödersiniz, SMS bir uygulamada görünür ve plan, sözleşme veya paylaşımlı gelen kutu yoktur. Orta yoldur: bir SIM gibi özel, olması gerektiği gibi tek kullanımlık."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Tek seferlik bir doğrulama için ayakta duran yol kiralanan numaradır. İşte baştan sona bütün akış."
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-sms-code",
+      "text": "SMS Code ile kod almak, adım adım"
+    },
+    {
+      "type": "p",
+      "text": "SMS Code uygulaması ile kayıt formunun yan yana olması gerekir. Süreç servis Telegram, bir pazar yeri veya listedeki başka bir şey olsun aynıdır — uçtan uca birkaç dakika."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Servisi ve bir ülkeyi seçin",
+          "body": "SMS Code’da neyi doğruladığınızı seçin — Telegram, WhatsApp, Google, 100+ servis — ve numaranın hangi ülkeden geleceğini. Numaralar 100+ ülkede vardır; tek dokunuş birini yalnızca size ayırır."
+        },
+        {
+          "title": "Numarayı kayıt formuna girin",
+          "body": "Kiralanan numarayı servisin doğrulama ekranına yazın, ülke kodunun eşleştiğinden emin olun. Uyuşmayan ülke seçici, kodun hiç gelmemesinin en sık nedenidir."
+        },
+        {
+          "title": "Kodu uygulamada okuyun",
+          "body": "SMS, SMS Code’a genellikle saniyeler içinde düşer ve etkinleştirme ekranı canlı güncellenir. Kodu kopyalamak için bir kez dokunun, forma yapıştırın, doğrulama biter."
+        },
+        {
+          "title": "Hesabı düzgün güvenceye alın",
+          "body": "Güçlü bir parola belirleyin, kontrol ettiğiniz bir kurtarma e-postası ekleyin ve SMS’e dayanmayan iki adımlı doğrulamayı açın. Bu yapıldıktan sonra hesap kendi ayakları üzerinde durur — kiralanan numara işini görmüştür."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-number-is-the-wrong-tool",
+      "text": "Sanal numara yanlış araç olduğunda"
+    },
+    {
+      "type": "p",
+      "text": "Dürüst bir rehber bu çizgiyi çekmek zorundadır, çünkü kiralanan numarayı kayıtlar için iyi yapan aynı özellik — geçici olması — numarayı yıllarca kontrol etmeye devam eden her şey için yanlış kılar."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bankalar, aracılar ve ödeme servisleri. Finansal hesaplar SMS ile sürekli yeniden doğrular — her yeni cihaz, her büyük transfer. Numaraları kayıtlı kimliğinizle de eşleştirirler. Uzun vadede tutacağınız bir numara kullanın, nokta.",
+        "Devlet portalları ve yasal kimliğinize bağlı her şey. Vergi daireleri, sağlık sistemleri ve e-devlet girişleri numaranın hesabın ömrü boyunca sizde kalacağını varsayar.",
+        "Telefon numarasının tek kurtarma yolu olduğu her hesap. Parolayı kaybederseniz ve servisin tek sıfırlama yolu bir SMS ise artık kiralamadığınız bir numara artık sahip olmadığınız bir hesap demektir. Ya hemen bir e-posta kurtarma yolu ekleyin ya da orada geçici numara kullanmayın."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Pratik kural: sanal numara doğrulama anı içindir, hesabın ömrü için değil. Bir servisin o numaraya bir yıl sonra yine ulaşması gerekecekse ona bir yıl sonra hâlâ sizin olacak bir numara verin. Geri kalan her şey için — mesajlaşma uygulamaları, sosyal ağlar, mağazalar, denemeler — olan tek şey o andır."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sıkça sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Sanal numarada SMS almak yasal mı?",
+          "a": "Evet. Numara kiralamak ve onda mesaj almak sıradan bir telekom hizmetidir; gizlilik, QA ve geliştirme için rutin kullanılır. Hukuken önemli olan hesapla sonra ne yaptığınızdır — kaydolduğunuz servisin koşulları her zamanki gibi uygulanır."
+        },
+        {
+          "q": "Ücretsiz çevrimiçi numaralar neden sürekli reddediliyor?",
+          "a": "Çünkü paylaşılırlar. Sizden önce aynı numarayı binlerce kişi kullanmıştır, servisler ya onu doğrudan engeller ya da zaten kayıtlı diye bildirir. Kiralanan bir numara etkinleştirme boyunca yalnızca size ayrılır; servisin istenmeyen ileti süzgecinin yokladığı fark tam budur."
+        },
+        {
+          "q": "Kiralama bitince hesabım çalışmaya devam eder mi?",
+          "a": "Evet, hesap kurtarma için o numaraya bağlı olmadığı sürece. Numara doğrulamada kontrol edilir; sonra hesap parolası, e-postası ve aktif oturumları üzerinde yaşar. Bunları düzgün kurun, gündelik kullanım eski numaraya hiç değmez."
+        },
+        {
+          "q": "Numarada arama da alabilir miyim?",
+          "a": "Hayır — SMS Code numaraları yalnızca metin mesajı alır. Bir servis tek doğrulama yöntemi olarak sesli aramada ısrar ederse sanal bir SMS numarası o akışı tamamlamaz."
+        },
+        {
+          "q": "Maliyeti ne kadar?",
+          "a": "Uygulamada tek seferlik bir jeton paketi alırsınız ve etkinleştirme başına jeton harcarsınız — servise ve ülkeye bağlı olarak 20’den başlar, tam fiyat onaylamadan önce gösterilir. Abonelik yoktur, jetonlar sona ermez ve kod hiç gelmezse etkinleştirme ücretsiz iptal olur, jetonlar geri gelir."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

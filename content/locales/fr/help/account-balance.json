@@ -1,0 +1,26 @@
+{
+  "title": "Gardez votre solde, récupérez l’accès, supprimez le compte",
+  "metaDescription": "Conservez le solde de pièces SMS Code d’un appareil à l’autre, récupérez l’accès au compte et supprimez-le sans perdre vos options de remboursement.",
+  "sections": [
+    {
+      "title": "Connectez-vous avant de réinstaller",
+      "paragraphs": [
+        "Les pièces appartiennent à votre compte SMS Code. Connectez-vous avec Apple, Google ou un code par e-mail tant que vous avez encore accès au solde, puis utilisez la même connexion sur un autre appareil. Votre compte d’achat Apple et votre connexion SMS Code sont distincts.",
+        "Réinstaller en utilisant un compte anonyme peut créer un autre compte. La restauration des achats de l’App Store ne recrée pas à elle seule un solde de pièces anonyme. Si vous avez perdu l’accès, contactez l’assistance avec votre identifiant de commande Apple et les informations de compte qu’il vous reste\u00a0; la récupération exige une vérification."
+      ]
+    },
+    {
+      "title": "Avant de supprimer un compte",
+      "paragraphs": [
+        "La suppression du compte et le remboursement d’un paiement sont deux actions distinctes. Conservez les détails d’achat dont vous avez besoin, terminez toute activation en cours et contactez l’assistance au sujet des pièces restantes avant de supprimer. Demandez séparément tout remboursement de paiement Apple.",
+        "Utilisez l’option de suppression du compte dans les réglages de l’app. Si vous ne pouvez pas y accéder, contactez l’assistance. La suppression n’annule pas un paiement Apple, et les enregistrements nécessaires aux obligations légales ou au traitement des litiges peuvent être conservés comme l’indique notre politique de confidentialité."
+      ]
+    },
+    {
+      "title": "Nous contacter en sécurité",
+      "paragraphs": [
+        "Utilisez le formulaire d’assistance ou support@simnetiq.com. Envoyez le service, le pays, l’horaire et les identifiants d’activation ou de commande, mais jamais un mot de passe, un code de vérification ni les données complètes d’une carte de paiement. Relisez les captures d’écran pour en retirer les informations sensibles avant de les partager."
+      ]
+    }
+  ]
+}

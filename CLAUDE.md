@@ -21,6 +21,7 @@
 - **Dev Server:** `npm run dev`
 - **Build App:** `npm run build`
 - **Linting:** `npm run lint`
+- **Translations:** copy lives in `content/locales/<code>/`. After editing any locale JSON run `npm run i18n:sync` (if files were added/removed) and `npm run i18n:check`. Translating a new language: follow `docs/i18n/TRANSLATOR_BRIEF.md`.
 
 ---
 @AGENTS.md

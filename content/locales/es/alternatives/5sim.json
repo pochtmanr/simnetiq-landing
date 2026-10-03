@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternativa a 5SIM — SMS Code de SIMNETIQ",
+  "metaDescription": "Compara 5SIM con SMS Code de SIMNETIQ: web y API con recargas, frente a una aplicación móvil con paquetes de monedas de un solo pago y cancelación gratis.",
+  "hero": {
+    "title": "Una alternativa a 5SIM hecha como aplicación móvil nativa",
+    "intro": [
+      "5SIM es una plataforma web asentada para recibir códigos de verificación por SMS: recargas un saldo, compras un número para el servicio que necesitas y lees el código en tu panel. Su página de inicio habla tanto de uso mayorista como minorista, con una API para automatizar y un catálogo que su sitio describe como más de 180 países y más de mil servicios.",
+      "SMS Code de SIMNETIQ aborda el mismo trabajo desde el lado del consumidor. Es una aplicación nativa de iOS: eliges un servicio y un país, recibes un número real y el código cae en la aplicación normalmente en segundos. Pagas con paquetes de monedas de un solo pago a través de la facturación de Apple — sin monedero web y sin suscripción — y las activaciones que nunca reciben un SMS se cancelan gratis."
+    ]
+  },
+  "whenThem": {
+    "title": "Cuándo 5SIM es la mejor opción",
+    "body": "Elige 5SIM si el punto es el volumen o la automatización. Su plataforma va dirigida a webmasters, especialistas de SMM y emprendedores que compran números en cantidad, y la API te deja programar todo el ciclo: comprar, consultar el SMS y seguir. El catálogo también es simplemente más grande: si necesitas un servicio oscuro o una combinación de país poco habitual, una plataforma de esa amplitud tiene más probabilidad de tenerlo en stock que una aplicación de consumo curada."
+  },
+  "whenUs": {
+    "title": "Cuándo encaja mejor la aplicación SMS Code",
+    "body": "Elige la aplicación si verificas cuentas para ti, no por centenares. No hay un saldo que precargar ni un panel que navegar en la pantalla del teléfono: todo el flujo — servicio, país, número, código — es una experiencia móvil nativa instalada desde el App Store. Los paquetes de monedas de un solo pago significan que pagas por activación con la facturación de la tienda (los datos de tu tarjeta no nos llegan nunca), la cobertura llega a 100+ países y 100+ servicios populares, y las activaciones no recibidas se cancelan gratis de forma automática."
+  },
+  "comparison": {
+    "title": "5SIM frente a la aplicación SMS Code, lado a lado",
+    "rows": [
+      {
+        "label": "Plataformas",
+        "competitor": "Plataforma web con una API para comprar de forma automatizada",
+        "us": "Aplicación nativa de iOS desde el App Store"
+      },
+      {
+        "label": "Modelo de precio",
+        "competitor": "Pago por número desde un saldo de monedero recargado",
+        "us": "Paquetes de monedas de un solo pago, por activación: sin suscripción"
+      },
+      {
+        "label": "Pago",
+        "competitor": "Recarga del monedero en la web, con los métodos que lista su sitio",
+        "us": "Facturación de la tienda de Apple: no compartes datos de tarjeta con nosotros"
+      },
+      {
+        "label": "Cobertura",
+        "competitor": "Su sitio afirma 180+ países y un catálogo de 1.000+ servicios",
+        "us": "100+ países y 100+ servicios populares, curados para altas de todos los días"
+      },
+      {
+        "label": "Cancelación",
+        "competitor": "La rigen sus propias normas de reembolso: consulta sus condiciones vigentes",
+        "us": "Las activaciones que no reciben SMS se cancelan gratis y las monedas vuelven"
+      },
+      {
+        "label": "Soporte",
+        "competitor": "Su sitio anuncia soporte 24/7",
+        "us": "Dentro de la aplicación y formulario de contacto del sitio"
+      },
+      {
+        "label": "Mejor para",
+        "competitor": "Compras en volumen y desarrolladores que programan verificaciones por API",
+        "us": "Quien quiere una aplicación móvil limpia para verificaciones ocasionales"
+      }
+    ],
+    "note": "Los datos de la competencia reflejan su sitio público en el momento de redactar esto y pueden cambiar: confirma siempre en 5sim.net antes de decidir."
+  },
+  "switchSteps": {
+    "title": "Probar la aplicación son tres pasos",
+    "steps": [
+      {
+        "title": "Instala la aplicación",
+        "body": "Consigue SMS Code de SIMNETIQ en el App Store: no hace falta una cuenta web ni montar un monedero."
+      },
+      {
+        "title": "Coge un paquete de monedas",
+        "body": "Compra un paquete de un solo pago con tu cuenta de la tienda. No hay un saldo precargado en un sitio web: gastas monedas solo cuando activas un número."
+      },
+      {
+        "title": "Haz tu primera activación",
+        "body": "Elige un servicio y un país, recibe un número real y mira cómo llega el código a la aplicación, normalmente en segundos. Si no llega nada, la activación se cancela gratis."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "¿En qué se diferencia la aplicación SMS Code de 5SIM?",
+      "a": "5SIM es una plataforma web con un saldo de monedero y una API, orientada a quien compra en volumen. La aplicación SMS Code de SIMNETIQ es una aplicación móvil nativa para personas: paquetes de monedas de un solo pago por la facturación de la tienda, unos toques por activación y cancelación gratis cuando no llega un SMS."
+    },
+    {
+      "q": "¿La aplicación tiene una API como 5SIM?",
+      "a": "No. La aplicación es a propósito un producto de consumo: si necesitas comprar números por programa, la API de 5SIM es la mejor herramienta. Si necesitas un código de vez en cuando, la aplicación es el camino más corto."
+    },
+    {
+      "q": "¿Tengo que recargar un saldo por adelantado?",
+      "a": "Compras paquetes de monedas de un solo pago por la facturación de Apple y los gastas por activación. No hay un monedero web que mantener cargado ni una suscripción."
+    },
+    {
+      "q": "¿Qué pasa si el código de verificación no llega nunca?",
+      "a": "La activación se cancela y tus monedas se devuelven de forma automática. Solo pagas los números que de verdad reciben un SMS."
+    },
+    {
+      "q": "¿La lista de países de 5SIM es más grande que la de la aplicación?",
+      "a": "Según su propia página de inicio, sí: su sitio afirma 180+ países frente a los 100+ de la aplicación. La lista de la aplicación está curada alrededor de los países que funcionan con fiabilidad para servicios populares; si necesitas algo exótico, un catálogo más grande puede servirte mejor."
+    }
+  ]
+}

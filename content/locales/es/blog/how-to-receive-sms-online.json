@@ -1,0 +1,146 @@
+{
+  "title": "Cómo recibir SMS online sin tu propio número",
+  "description": "Cada alta pide un teléfono. Las tres formas de recibir SMS online: sitios gratis, una segunda SIM, un número virtual alquilado, y cuándo funciona cada una.",
+  "excerpt": "Sitios de códigos gratis, una segunda SIM o un número virtual alquilado: tres vías para recibir SMS de verificación online, comparadas con honestidad. Qué cuesta cada una, dónde falla y cómo funciona la que aguanta.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "En algún punto entre «crea una contraseña» y «acepta las condiciones», casi cada alta inserta la misma exigencia: escribe tu teléfono. Los mensajeros lo requieren, los marketplaces lo quieren, incluso un foro que visitarás dos veces insiste en mandarte un código de seis dígitos antes de dejarte entrar."
+    },
+    {
+      "type": "p",
+      "text": "El código en sí es inofensivo. Lo que molesta es el número de detrás: un identificador permanente y personal que sobrevive a la cuenta, liga tus perfiles y no se puede rotar como una contraseña cuando se filtra. Así que la pregunta práctica no es cómo evitar la verificación; los servicios no van a ceder en eso. Es cómo recibir el SMS en un sitio que no sea tu propia SIM."
+    },
+    {
+      "type": "p",
+      "text": "Hay exactamente tres formas de hacerlo. Esta guía recorre las tres — incluidas las dos que sobre todo te hacen perder el tiempo — y luego enseña el flujo completo con la que funciona con fiabilidad."
+    },
+    {
+      "type": "h2",
+      "id": "why-services-want-your-number",
+      "text": "Por qué los servicios exigen un número, para empezar"
+    },
+    {
+      "type": "p",
+      "text": "Vale la pena entender con qué tratas, porque explica por qué algunas vías fallan. Los servicios verifican teléfonos por tres razones, y la privacidad no es una de ellas."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Control del spam. Un teléfono es el recurso escaso más barato que un servicio puede exigir. Los correos son gratis e infinitos; los móviles cuestan dinero y papeleo, así que exigir uno sube el precio de cada cuenta falsa.",
+        "Recuperación de la cuenta y 2FA. Una vez verificado, el número se convierte en un canal de acceso de reserva, lo que también significa que quien controla el número a menudo puede restablecer la contraseña. Corta en los dos sentidos, y volveremos a ello.",
+        "Vínculo de identidad. Un número conecta tu cuenta con tus otras cuentas, tus contactos y, a través de tu operador, tu identidad legal. Para los sistemas de publicidad es la clave de unión que sobrevive a las cookies borradas y a los dispositivos nuevos."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nada de esto exige que el número sea tuyo. El servicio comprueba una sola cosa: que puedes leer un código enviado al número que escribiste. Dónde vive ese número — una SIM en tu bolsillo o una aplicación en tu pantalla — es invisible de su lado."
+    },
+    {
+      "type": "h2",
+      "id": "three-ways-to-receive-sms-online",
+      "text": "Las tres formas de recibir SMS online"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Números públicos gratis. Decenas de sitios publican números cuyo buzón puede leer cualquiera. No cuestan nada y de vez en cuando funcionan, pero cada número se comparte con miles de desconocidos, así que los servicios populares hace tiempo que vieron, marcaron y bloquearon la mayoría. Cuando uno sí acepta el número, a menudo te dicen que ya está registrado, porque alguien llegó antes. Y como el buzón es público, todo lo que se mande a ese número, incluido un código de restablecer la contraseña de la cuenta que acabas de hacer, lo puede leer todo el mundo.",
+        "Una segunda SIM o eSIM. De verdad privada y permanente: es un número real que es solo tuyo. El trueque es coste y fricción: un plan mensual u obligaciones de recarga para mantener vivo el número, requisitos de identidad en muchos países, y el absurdo de mantener un plan de teléfono porque un sitio quiso un código en 2026. Tiene sentido si necesitas una segunda línea a largo plazo; es demasiado para un alta.",
+        "Un número virtual alquilado. Un móvil real, en la red real de un operador, reservado solo para ti durante una verificación. Pagas por código recibido, el SMS aparece en una aplicación, y no hay plan, ni contrato, ni buzón compartido. Este es el camino de en medio: privado como una SIM, desechable como debe ser."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Para una verificación de una vez, el número alquilado es la vía que de verdad aguanta. Aquí está todo el flujo, de principio a fin."
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-sms-code",
+      "text": "Recibir un código con SMS Code, paso a paso"
+    },
+    {
+      "type": "p",
+      "text": "Vas a necesitar la aplicación SMS Code y el formulario de alta uno al lado del otro. El proceso es el mismo dé el servicio que sea Telegram, un marketplace o cualquier otra cosa de la lista: un par de minutos, de punta a punta."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Elige el servicio y un país",
+          "body": "En SMS Code, elige qué estás verificando — Telegram, WhatsApp, Google, 100+ servicios — y de qué país debe venir el número. Hay números en 100+ países; un toque reserva uno solo para ti."
+        },
+        {
+          "title": "Escribe el número en el formulario de alta",
+          "body": "Escribe el número alquilado en la pantalla de verificación del servicio, asegurándote de que el prefijo coincide. Un selector de país que no coincide es la razón más habitual de que un código no llegue."
+        },
+        {
+          "title": "Lee el código en la aplicación",
+          "body": "El SMS cae en SMS Code normalmente en segundos y la pantalla de activación se actualiza en directo. Un toque para copiar el código, lo pegas en el formulario y la verificación está hecha."
+        },
+        {
+          "title": "Asegura la cuenta como toca",
+          "body": "Pon una contraseña fuerte, añade un correo de recuperación que controles y activa una autenticación de dos factores que no dependa del SMS. Hecho eso, la cuenta se sostiene sola: el número alquilado ya cumplió."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-number-is-the-wrong-tool",
+      "text": "Cuándo un número virtual es la herramienta incorrecta"
+    },
+    {
+      "type": "p",
+      "text": "Una guía honesta tiene que trazar esta línea, porque la misma propiedad que hace grande a un número alquilado para las altas — que es temporal — lo hace incorrecto para cualquier cosa que siga comprobando el número durante años."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bancos, brókers y servicios de pago. Las cuentas financieras vuelven a verificar por SMS todo el tiempo: cada dispositivo nuevo, cada transferencia grande. También cruzan los números con tu identidad registrada. Usa un número que vayas a conservar a largo plazo, y punto.",
+        "Portales de la administración y cualquier cosa atada a tu identidad legal. Hacienda, sistemas de salud e inicios de sesión de administración electrónica asumen que el número sigue siendo tuyo durante la vida de la cuenta.",
+        "Cualquier cuenta en la que el teléfono sea la única vía de recuperación. Si pierdes la contraseña y el único camino de restablecimiento del servicio es un SMS, un número que ya no alquilas significa una cuenta que ya no es tuya. O añades enseguida una vía de recuperación por correo, o no uses ahí un número temporal."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "La regla práctica: un número virtual es para el momento de la verificación, no para la vida de la cuenta. Si un servicio va a necesitar localizar ese número dentro de un año, dale un número que siga siendo tuyo dentro de un año. Para todo lo demás — mensajeros, redes, tiendas, pruebas — el momento es todo lo que hay."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Preguntas frecuentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "¿Es legal recibir SMS en un número virtual?",
+          "a": "Sí. Alquilar un número y recibir mensajes en él es un servicio de telecomunicaciones corriente, usado de forma habitual para privacidad, QA y desarrollo. Lo que importa legalmente es lo que haces con la cuenta después: las condiciones del servicio en el que te registras se aplican como siempre."
+        },
+        {
+          "q": "¿Por qué los números online gratis se rechazan una y otra vez?",
+          "a": "Porque son compartidos. Miles de personas usaron el mismo número antes que tú, así que los servicios o lo bloquean de plano o lo informan como ya registrado. Un número alquilado queda reservado solo para ti durante la activación, que es justo la diferencia que sondea el filtro de spam del servicio."
+        },
+        {
+          "q": "¿Mi cuenta sigue funcionando cuando termina el alquiler?",
+          "a": "Sí, mientras la cuenta no dependa de ese número para recuperarse. El número se comprueba en la verificación; después, la cuenta vive de su contraseña, su correo y sus sesiones activas. Monta eso bien y nada del uso diario toca el número viejo."
+        },
+        {
+          "q": "¿También puedo recibir llamadas en el número?",
+          "a": "No: los números de SMS Code solo reciben mensajes de texto. Si un servicio insiste en una llamada de voz como único método de verificación, un número virtual de SMS no va a completar ese flujo."
+        },
+        {
+          "q": "¿Cuánto cuesta?",
+          "a": "Compras un paquete de monedas de un solo pago en la aplicación y gastas monedas por activación: desde 20, según el servicio y el país, con el precio exacto a la vista antes de confirmar. No hay suscripción y las monedas no caducan, y si un código no llega nunca la activación se cancela gratis y las monedas vuelven."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour Twitch",
+  "metaDescription": "Recevez le code SMS de Twitch sur un vrai numéro virtuel, généralement en quelques secondes. Chat vérifié et 2FA, sans lier votre numéro à la chaîne.",
+  "hero": {
+    "title": "Numéro virtuel pour Twitch",
+    "intro": [
+      "Twitch vous laisse vous inscrire avec un simple e-mail — puis l’étape téléphone commence à vous suivre. Les streamers passent leur chat en mode vérifié par téléphone pour tenir les bots dehors, l’authentification à deux facteurs est exigée avant de pouvoir passer en direct, et dès que l’un ou l’autre arrive, Twitch veut envoyer un code comme «\u00a0Your Twitch verification code is 843921\u00a0» à un numéro à vous.",
+      "Avec SMS Code, vous louez un vrai numéro mobile dans l’un de plus de 100 pays et le code arrive dans l’app généralement en quelques secondes. Vos messages de chat partent, votre 2FA s’active — et le numéro de téléphone assis à côté du nom de votre chaîne dans la base de Twitch n’a jamais été votre numéro personnel."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour Twitch\u00a0?",
+    "body": [
+      "Twitch est une identité tournée vers le public d’une façon que la plupart des comptes ne sont pas\u00a0: votre nom d’utilisateur est à l’écran, votre historique de chat est public, et si vous streamez, des inconnus vous recherchent activement. Lier cette identité à votre mobile personnel veut dire qu’une fuite de données ou un différend de modérateur négligent se tient entre une audience internet et le téléphone dans votre poche. Un numéro loué absorbe l’étape de vérification afin que la persona publique et le numéro personnel ne se touchent jamais.",
+      "Le revers honnête\u00a0: le téléphone sur un compte Twitch n’est pas décoratif. Le chat vérifié par téléphone le contrôle, et la 2FA par SMS en dépend. C’est pourquoi le schéma sensé est de vérifier avec un numéro loué, puis de passer tout de suite la 2FA sur une application d’authentification dans vos réglages de sécurité — Twitch le prend en charge et le préfère même. Le numéro fait son unique travail au moment de la vérification\u00a0; votre connexion de long terme n’en dépend jamais."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier Twitch avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Louez un numéro dans SMS Code",
+        "body": "Choisissez Twitch comme service et un pays — un qui correspond à l’endroit où vous regardez ou streamez vraiment garde les choses cohérentes. Un toucher réserve un vrai numéro mobile pour vous."
+      },
+      {
+        "title": "Ajoutez-le dans les réglages de sécurité de Twitch",
+        "body": "Dans Paramètres → Sécurité et confidentialité, choisissez d’ajouter un numéro de téléphone (ou suivez l’invite quand le chat vérifié par téléphone d’une chaîne le demande). Sélectionnez l’indicatif du numéro et saisissez-le exactement."
+      },
+      {
+        "title": "Saisissez le code",
+        "body": "Le SMS se lit «\u00a0Your Twitch verification code is 843921\u00a0» et apparaît dans l’app SMS Code généralement en quelques secondes. Saisissez-le sur Twitch et le numéro est vérifié."
+      },
+      {
+        "title": "Passez la 2FA sur une application d’authentification",
+        "body": "Si vous avez activé la double authentification pour streamer, passez-la du SMS à une application d’authentification tout de suite dans le même écran de réglages. Ensuite le numéro loué n’a plus de rôle continu — vos connexions et streams n’en dépendent pas."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Un numéro, un compte",
+      "body": "Twitch relie les comptes qui partagent un numéro de téléphone — et si l’un d’eux gagne une suspension, les autres liés au même numéro peuvent tomber avec lui. Donnez à chaque compte sa propre activation au lieu de recycler un numéro sur plusieurs."
+    },
+    {
+      "title": "Le chat vérifié par téléphone est par chaîne",
+      "body": "Vous naviguerez souvent sur Twitch pendant des mois sans invite téléphone, puis tomberez sur une grande chaîne dont le chat en exige un. Vérifiez une fois et cela compte partout — donc faites-le à votre rythme, pas au milieu d’un moment de hype quand le chat que vous vouliez rejoindre est déjà passé à autre chose."
+    },
+    {
+      "title": "Un numéro n’annule pas un bannissement",
+      "body": "Les bannissements de chaîne et les suspensions du site sont appliqués via les propres signaux de Twitch, pas seulement votre téléphone. Un numéro virtuel garde votre numéro personnel privé — ce n’est pas un outil pour échapper à un bannissement, et contourner des suspensions viole les conditions de Twitch et tend à faire signaler chaque compte lié."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Twitch exige-t-il un numéro de téléphone pour s’inscrire\u00a0?",
+      "a": "Non — l’inscription fonctionne par e-mail seul. Le téléphone apparaît plus tard\u00a0: quand le chat d’une chaîne exige une vérification téléphone, quand vous activez la double authentification par SMS, ou avant de commencer à streamer. Quand l’un de ces moments arrive, un numéro virtuel reçoit le code exactement comme une SIM le ferait."
+    },
+    {
+      "q": "Mon compte Twitch continuera-t-il après l’expiration du numéro loué\u00a0?",
+      "a": "Oui. Le numéro est contrôlé à la vérification, pas en continu. Gardez votre e-mail confirmé, utilisez un mot de passe fort, et passez la 2FA sur une application d’authentification — ensuite plus rien dans votre connexion ne dépend du numéro loué."
+    },
+    {
+      "q": "Puis-je vérifier plusieurs comptes Twitch avec un seul numéro virtuel\u00a0?",
+      "a": "Vous le pouvez, mais vous ne devriez pas. Twitch traite un numéro de téléphone partagé comme un lien entre comptes, et l’application des règles peut se propager entre eux. Louez une activation séparée pour chaque compte que vous voulez autonome."
+    },
+    {
+      "q": "Ai-je besoin d’une vérification téléphone pour streamer sur Twitch\u00a0?",
+      "a": "Vous avez besoin de l’authentification à deux facteurs activée pour streamer, et sa configuration commence par un téléphone. Vérifiez avec le numéro loué, puis passez le second facteur sur une application d’authentification afin que les futures connexions n’attendent jamais un SMS."
+    },
+    {
+      "q": "Pourquoi le code Twitch n’est-il pas arrivé\u00a0?",
+      "a": "Vérifiez que l’indicatif pays correspond au numéro loué, et laissez un instant — les codes arrivent en général en quelques secondes. Si rien ne vient, annulez l’activation dans SMS Code sans frais et prenez un numéro neuf\u00a0; vous ne payez que les activations qui livrent."
+    }
+  ]
+}

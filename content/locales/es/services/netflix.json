@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Netflix",
+  "metaDescription": "Recibe el código de verificación de Netflix en un número virtual real, normalmente en segundos, y deja pruebas y suscripciones aparte de tu teléfono personal.",
+  "hero": {
+    "title": "Número virtual para Netflix",
+    "intro": [
+      "Netflix es un servicio que empieza por el correo, pero el paso del teléfono se va colando. Algunas regiones y algunos flujos de alta verifican un número enseguida, los planes móviles de varios países se construyen alrededor de uno, y la aplicación manda un código como «Your Netflix verification code is 428916» cuando quiere comprobar que eres de verdad tú.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países y el código cae en la aplicación normalmente en segundos. La suscripción queda verificada, y tu número personal se queda fuera de otra base de clientes más."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Netflix?",
+    "body": [
+      "Una cuenta de streaming es algo extrañamente personal: sabe qué ves, a qué hora te duermes y quién comparte el sofá. Añadir tu número personal como contacto de recuperación ata ese perfil a tu identidad del mundo real, y le das a una empresa más un número al que se pueden dirigir textos de restablecer la contraseña. Si la cuenta es de casa, o una prueba que quizá no conserves, no hay razón para que tu SIM sea su ancla.",
+      "La otra cara, honesta: como Netflix se apoya en el correo, aquí el teléfono rara vez es el cimiento de la cuenta: es un control. Justo eso hace que un número virtual encaje bien. Absorbe el momento de la verificación (el alta, un control de dispositivo nuevo, un aviso de recuperación), mientras el correo que controlas sigue siendo de lo que de verdad depende la cuenta."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar Netflix con un número virtual",
+    "steps": [
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Elige Netflix como servicio y escoge un país, a ser posible el que coincide con dónde te registras y pagas. Un toque reserva un número móvil real para ti."
+      },
+      {
+        "title": "Escríbelo cuando Netflix lo pida",
+        "body": "El aviso del teléfono aparece en el alta en algunos flujos, o más tarde en los ajustes de la cuenta cuando añades un teléfono. Selecciona el prefijo del número y escríbelo con cuidado."
+      },
+      {
+        "title": "Escribe el código",
+        "body": "El SMS dice «Your Netflix verification code is 428916» y aparece en la aplicación SMS Code normalmente en segundos. Escríbelo y el número queda confirmado."
+      },
+      {
+        "title": "Deja el correo como ancla",
+        "body": "Asegúrate de que el correo de la cuenta es uno que controlas y de que la contraseña es fuerte. Si no piensas conservar el número alquilado, quítalo o sustitúyelo en los ajustes de la cuenta después: Netflix no debería tener motivo para escribir a un número que ya no lees."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Puede que no necesites un número en absoluto",
+      "body": "Muchos altas de Netflix no piden nunca un teléfono: bastan el correo y el pago. Mira primero tu flujo y alquila un número solo cuando de verdad aparezca la pantalla del teléfono. Una activación que cancelas antes de que llegue cualquier SMS no cuesta nada."
+    },
+    {
+      "title": "No dejes un número muerto como recuperación",
+      "body": "Si un teléfono se queda en la cuenta, Netflix puede mandar ahí códigos de inicio de sesión o enlaces de restablecimiento. Después de verificar, cámbialo por un número que controles o quítalo del todo, para que un momento de contraseña olvidada no dependa nunca de un número que ya no está."
+    },
+    {
+      "title": "Un número no dobla las normas",
+      "body": "Los controles de hogar, los catálogos regionales y las ofertas de una por cliente los aplica Netflix con sus propias señales, no con tu teléfono. Un número virtual es una herramienta de privacidad para el paso del SMS: no reencamina tu región ni multiplica promociones, y intentarlo sobre todo acaba con cuentas marcadas."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Netflix siempre pide un teléfono?",
+      "a": "No. La mayoría de altas funcionan solo con correo y pago. Un teléfono aparece en ciertas regiones y flujos: planes pensados para el móvil, controles de seguridad extra, configuración de recuperación. Cuando tu flujo sí lo pide, un número virtual recibe el código exactamente como lo haría una SIM."
+    },
+    {
+      "q": "¿Mi cuenta de Netflix funciona cuando caduca el número alquilado?",
+      "a": "Sí. Las cuentas de Netflix se anclan al correo y a la contraseña; el teléfono es un control, no el cimiento. Confirma tu correo, pon una contraseña fuerte y quita o sustituye el número alquilado en los ajustes de la cuenta: después, nada depende de él."
+    },
+    {
+      "q": "¿Puedo empezar una prueba o una promo de Netflix con un número virtual?",
+      "a": "Donde Netflix tiene pruebas u ofertas de bienvenida, sus condiciones las hacen una por cliente. Un número virtual deja tu teléfono personal fuera del alta: no es una forma de cobrar la misma oferta dos veces, y los trucos de cuentas duplicadas suelen acabar en promociones canceladas."
+    },
+    {
+      "q": "¿Esto cambia mi región o mi catálogo de Netflix?",
+      "a": "No. Lo que puedes ver sigue dónde estás y cómo se factura la cuenta, según las normas de Netflix: el teléfono no interviene. Elige un número de tu propio país para mantener coherentes los datos de la cuenta."
+    },
+    {
+      "q": "¿Por qué no llegó el código de Netflix?",
+      "a": "Comprueba que el prefijo que elegiste coincide con el número alquilado, y mira el correo de la cuenta: a veces Netflix verifica ahí en su lugar. Si el SMS no llegó nunca, cancela la activación en SMS Code sin cargo y toma un número nuevo."
+    }
+  ]
+}

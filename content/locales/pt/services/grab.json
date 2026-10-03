@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o Grab — corridas no Sudeste Asiático",
+  "metaDescription": "Verifique o Grab com um número virtual real. O código de ativação chega em geral em segundos — configure corridas, comida e o resto sem o seu número pessoal.",
+  "hero": {
+    "title": "Número virtual para o Grab",
+    "intro": [
+      "Desembarque em qualquer lugar do Sudeste Asiático e o Grab é o primeiro aplicativo de que você vai precisar: corrida do aeroporto, comida no hotel, pagamento na barraca. É o superaplicativo da região — e começa pelo telefone. Não há login por e-mail para recorrer no cadastro; o Grab começa pedindo um número de celular e mandando um código de ativação para ele.",
+      "O SMS Code entrega um número real de um de 100+ países. Digite na tela de boas-vindas do Grab e o código de seis dígitos aparece no aplicativo SMS Code em geral em segundos — a sua conta está no ar antes de a mala chegar na esteira, e o seu número pessoal nunca fez parte do acordo."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o Grab?",
+    "body": [
+      "O Grab é construído em volta de números locais. O fluxo de cadastro espera um número de um país onde ele opera, e quem chega com um chip europeu ou americano muitas vezes acha isso estranho — o SMS em roaming pode ser lento ou bloqueado, e algumas operadoras cobram pelo privilégio de receber um código. Um número virtual da Indonésia ou das Filipinas encaixa direto no que o Grab espera, sem caçar uma loja de chip no primeiro dia.",
+      "Há um ângulo de privacidade também. Como o Grab começa pelo telefone, o seu número vira a chave de tudo lá dentro — histórico de corridas, pedidos de comida, a carteira. Manter essa chave separada do número que o banco, a família e o empregador usam é simplesmente compartimentar com bom senso: se você parar de usar o Grab depois da viagem, nada do seu número do dia a dia foi junto."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o Grab com um número virtual",
+    "steps": [
+      {
+        "title": "Alugue um número no SMS Code",
+        "body": "Abra o aplicativo SMS Code, escolha Grab como serviço e escolha um país — um país do Sudeste Asiático, como Indonésia ou Filipinas, combina melhor com o território de origem do Grab. O número fica reservado na hora."
+      },
+      {
+        "title": "Digite na tela de cadastro do Grab",
+        "body": "O Grab pede o seu número de celular na primeira tela. Selecione o código do país que combina com o número alugado e digite — o Grab manda o código de ativação por SMS na hora."
+      },
+      {
+        "title": "Digite o código de ativação",
+        "body": "Olhe o aplicativo SMS Code: o texto chega em geral em segundos e diz “702415 is your Grab activation code. For your account safety, do not share this code.” Digite os seis dígitos no Grab."
+      },
+      {
+        "title": "Adicione e-mail e pagamento",
+        "body": "Lá dentro, anexe um e-mail no perfil e defina como vai pagar — cartão ou a carteira do aplicativo. O e-mail dá à conta uma segunda âncora além do número de telefone."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Escolha um país onde o Grab de fato opera",
+      "body": "O Grab atende o Sudeste Asiático — Singapura, Indonésia, Malásia, Tailândia, Vietnã, Filipinas e vizinhos. Um número de um desses mercados combina com o que o fluxo de cadastro espera; por isso números indonésios e filipinos são a escolha comum para ativações do Grab."
+    },
+    {
+      "title": "Faça o cadastro antes da viagem",
+      "body": "Verifique a conta enquanto ainda está num Wi-Fi confortável, não no saguão de desembarque. A checagem de telefone acontece uma vez no registro — depois você entra no mesmo aparelho sem precisar de outro SMS, então a conta está pronta no momento em que você pousa."
+    },
+    {
+      "title": "Motoristas ligam pelo aplicativo",
+      "body": "Quando um motorista precisa falar com você, o Grab encaminha o contato pelo chat do aplicativo e por ligações de internet, em vez de discar o seu número cru. Deixe as notificações do aplicativo Grab ligadas para pegar o “estou na porta” mesmo sem SMS."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Dá para usar o Grab como turista com um número virtual?",
+      "a": "Dá — esse é o caso clássico. Verifique a conta com um número de um país em que o Grab opera, adicione um meio de pagamento e peça corridas e comida durante a viagem como qualquer usuário local. A conta não está ligada ao chip do seu celular."
+    },
+    {
+      "q": "Qual país eu escolho para um número do Grab?",
+      "a": "Um dos mercados de origem do Grab. Indonésia e Filipinas são as escolhas mais comuns no SMS Code para o Grab, porque o fluxo de cadastro é construído em volta de números de países onde o serviço roda."
+    },
+    {
+      "q": "A minha conta do Grab continua depois que a janela do aluguel do número termina?",
+      "a": "O código de ativação é uma checagem única no cadastro. Enquanto você permanecer conectado no aparelho, a conta funciona normalmente. Se mais tarde você sair e o Grab pedir para verificar de novo, pode alugar um número novo e atualizar o do perfil."
+    },
+    {
+      "q": "Por que o código de ativação do Grab não chegou?",
+      "a": "Confira se o código do país selecionado no Grab combina com o número alugado — esse desencontro é a causa mais frequente. Se nada vier, cancele a ativação no SMS Code (números que não receberam SMS são sem custo) e tente outro número."
+    },
+    {
+      "q": "Preciso de um número local para pagar com o GrabPay?",
+      "a": "A carteira vive dentro da sua conta verificada, não dentro do seu chip. Ativada a conta, os recursos de pagamento seguem as regras do país em que a conta está configurada — opções de recarga e suporte a cartão variam por mercado, o que é política do Grab, não um problema de número."
+    }
+  ]
+}

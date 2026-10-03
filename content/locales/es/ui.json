@@ -1,0 +1,69 @@
+{
+  "site": {
+    "name": "SMS Code de SIMNETIQ",
+    "titleTemplate": "%s — SMS Code de SIMNETIQ",
+    "appDescription": "Números virtuales en 100+ países para recibir códigos de verificación por SMS. Regístrate en Telegram, WhatsApp, Google y 100+ servicios sin dar tu número personal."
+  },
+  "a11y": {
+    "mainNav": "Principal",
+    "breadcrumb": "Migas de pan"
+  },
+  "faqHeading": "Preguntas frecuentes",
+  "nav": {
+    "langLabel": "Idioma",
+    "links": [
+      {
+        "path": "/#how-it-works",
+        "label": "Cómo funciona"
+      },
+      {
+        "path": "/virtual-numbers",
+        "label": "Números"
+      },
+      {
+        "path": "/#pricing",
+        "label": "Precios"
+      },
+      {
+        "path": "/#faq",
+        "label": "Preguntas"
+      },
+      {
+        "path": "/support",
+        "label": "Soporte"
+      }
+    ],
+    "cta": "Descargar",
+    "home": "Inicio de SMS Code",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "footer": {
+    "tagline": "Un número para registrarte. No para toda la vida.",
+    "liveStatus": "Números online en 100+ países",
+    "backToTop": "Volver arriba",
+    "servicesLabel": "Servicios populares",
+    "allServices": "Todos los servicios",
+    "resourcesLabel": "Recursos",
+    "hub": "Números virtuales",
+    "blog": "Blog",
+    "companyLabel": "Empresa",
+    "getApp": "Descargar la aplicación",
+    "followLabel": "Síguenos",
+    "support": "Soporte",
+    "privacy": "Política de privacidad",
+    "terms": "Términos del servicio",
+    "rights": "Todos los derechos reservados.",
+    "registered": "Registrada en",
+    "companyNo": "n.º de sociedad",
+    "registeredOffice": "Domicilio social"
+  },
+  "badges": {
+    "appStore": "Descargar en el App Store"
+  },
+  "notFound": {
+    "title": "Esta página no existe",
+    "body": "Puede que la dirección haya cambiado. Todo sobre SMS Code está en la página de inicio.",
+    "back": "Volver al inicio"
+  }
+}

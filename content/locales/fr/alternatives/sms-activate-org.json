@@ -1,0 +1,99 @@
+{
+  "metaTitle": "SMS-Activate.org vs SMS Code par SIMNETIQ",
+  "metaDescription": "Comparer SMS-Activate.org et SMS Code par SIMNETIQ\u00a0: tableau de bord web et API, contre une app iOS et des packs de pièces en achat unique.",
+  "hero": {
+    "title": "Une alternative à SMS-Activate.org qui vit sur votre téléphone",
+    "intro": [
+      "SMS-Activate.org est un service web de longue date pour recevoir des codes de vérification. SMS Code par SIMNETIQ prend le même travail sous un autre angle — une app iOS native plutôt qu’un tableau de bord web. Si vous voulez l’idée de base, un numéro loué et un code rapide, sans vous connecter à un site, ce comparatif est pour vous.",
+      "La tâche de cœur est identique des deux côtés\u00a0: choisir un service, choisir un pays, obtenir un vrai numéro, recevoir le code SMS. La différence est le chemin pour y arriver. SMS-Activate.org est centré sur un tableau de bord web et une API documentée\u00a0; SMS Code met tout le parcours dans une app mobile que vous installez depuis l’App Store, payez avec des packs de pièces en achat unique, et utilisez en quelques touchers."
+    ]
+  },
+  "whenThem": {
+    "title": "Quand SMS-Activate.org est le meilleur choix",
+    "body": "S’il vous faut des numéros à l’échelle, SMS-Activate.org est fait pour vous. Leur site documente une API complète pour acheter des numéros, interroger les SMS entrants et gérer les commandes de façon programmatique, à côté d’un très grand catalogue de services et de pays et d’options de location pour un usage plus long. Les développeurs qui branchent la vérification dans des scripts, les équipes qui inscrivent des comptes en masse, et quiconque préfère travailler depuis un tableau de bord de bureau s’y sentiront chez eux — cette couche d’automatisation est quelque chose qu’une app mobile grand public ne cherche délibérément pas à reproduire."
+  },
+  "whenUs": {
+    "title": "Quand SMS Code convient mieux",
+    "body": "Si vous êtes une personne qui a parfois besoin d’un code de vérification — un second compte Telegram, une inscription WhatsApp, un essai qui veut un numéro de téléphone — SMS Code est le chemin le plus court. Pas de portefeuille web à recharger, pas de tableau de bord à apprendre\u00a0: vous achetez un pack de pièces en achat unique via la facturation Apple, choisissez un service et un pays, et le code apparaît dans l’app généralement en quelques secondes. Les activations qui ne reçoivent jamais de SMS s’annulent sans frais, la couverture couvre plus de 100 pays et plus de 100 services, et le tout se comporte comme une app grand public normale plutôt que comme un outil de développeur."
+  },
+  "comparison": {
+    "title": "SMS-Activate.org face à SMS Code, côte à côte",
+    "rows": [
+      {
+        "label": "Plateformes",
+        "competitor": "Tableau de bord web plus une API documentée pour l’automatisation",
+        "us": "App iOS native depuis l’App Store"
+      },
+      {
+        "label": "Modèle de prix",
+        "competitor": "Paiement par numéro depuis un solde de compte\u00a0; options de location pour des périodes plus longues",
+        "us": "Packs de pièces en achat unique, paiement par activation — sans abonnement"
+      },
+      {
+        "label": "Paiement",
+        "competitor": "Recharge de solde sur le web avec les moyens de paiement que leur site liste",
+        "us": "Facturation de l’App Store — aucune donnée de carte partagée avec nous"
+      },
+      {
+        "label": "Couverture",
+        "competitor": "Un très large catalogue de pays et de services visé à l’usage en volume",
+        "us": "Plus de 100 pays et plus de 100 services courants, sélectionnés pour les inscriptions du quotidien"
+      },
+      {
+        "label": "Annulation",
+        "competitor": "Régie par leurs propres règles de remboursement — vérifiez leurs conditions en vigueur",
+        "us": "Les activations qui ne reçoivent aucun SMS s’annulent sans frais, les pièces reviennent"
+      },
+      {
+        "label": "Assistance",
+        "competitor": "Canaux d’assistance via leur site",
+        "us": "Dans l’app et formulaire de contact du site"
+      },
+      {
+        "label": "Le mieux pour",
+        "competitor": "Développeurs et utilisateurs en volume qui ont besoin de centaines de numéros via l’API",
+        "us": "Particuliers qui veulent une app mobile propre pour des vérifications occasionnelles"
+      }
+    ],
+    "note": "Les détails sur le concurrent reflètent leur site public au moment de la rédaction et peuvent changer — confirmez toujours sur sms-activate.org avant de décider."
+  },
+  "switchSteps": {
+    "title": "Essayer l’app prend trois étapes",
+    "steps": [
+      {
+        "title": "Installez l’app",
+        "body": "Obtenez SMS Code par SIMNETIQ sur l’App Store — pas de compte web ni de configuration de portefeuille."
+      },
+      {
+        "title": "Prenez un pack de pièces",
+        "body": "Achetez un pack unique via votre compte du store. Les pièces ne se transforment pas en abonnement\u00a0; vous ne payez que quand vous activez un numéro."
+      },
+      {
+        "title": "Lancez votre première activation",
+        "body": "Choisissez un service et un pays, obtenez un vrai numéro, et voyez le code arriver dans l’app généralement en quelques secondes. Si rien n’arrive, l’activation s’annule sans frais."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "SMS Code est-il affilié à SMS-Activate.org\u00a0?",
+      "a": "Non. SMS Code est un produit indépendant de SIMNETIQ, sans affiliation à SMS-Activate.org — les deux sont des sociétés séparées qui résolvent le même problème de façons différentes."
+    },
+    {
+      "q": "SMS Code a-t-il une API comme SMS-Activate.org\u00a0?",
+      "a": "Non — et c’est une différence délibérée. L’app est faite pour les personnes, pas pour les scripts\u00a0: un parcours mobile natif pour des vérifications occasionnelles. Si l’accès programmatique aux numéros est une exigence dure, l’API documentée de SMS-Activate.org convient mieux."
+    },
+    {
+      "q": "Dois-je recharger un portefeuille pour utiliser l’app\u00a0?",
+      "a": "Vous achetez des packs de pièces en achat unique via la facturation Apple et dépensez des pièces par activation. Il n’y a pas de portefeuille web séparé, pas d’abonnement et pas de prélèvement récurrent."
+    },
+    {
+      "q": "Que se passe-t-il si mon code n’arrive jamais\u00a0?",
+      "a": "L’activation s’annule et vos pièces sont renvoyées. Vous ne payez que les numéros qui reçoivent vraiment un SMS."
+    },
+    {
+      "q": "Les numéros sont-ils de vrais numéros mobiles\u00a0?",
+      "a": "Oui — l’app loue de vrais numéros sur de vrais réseaux d’opérateurs dans plus de 100 pays. Pour le service que vous vérifiez, le numéro ressemble à n’importe quel numéro de téléphone ordinaire."
+    }
+  ]
+}

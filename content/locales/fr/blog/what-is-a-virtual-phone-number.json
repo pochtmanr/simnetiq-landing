@@ -1,0 +1,161 @@
+{
+  "title": "Numéro virtuel\u00a0: ce que c’est et comment il marche",
+  "description": "Un numéro virtuel est un vrai mobile qui reçoit les SMS dans une app. VoIP, eSIM, téléphone jetable\u00a0: comment ça marche et comment choisir.",
+  "excerpt": "Un numéro virtuel est un vrai numéro mobile qui vous atteint via une app plutôt qu’une carte SIM dans votre poche. Voici comment cela fonctionne vraiment — et quand c’est le bon outil.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Un numéro de téléphone virtuel est un vrai numéro sur un vrai réseau mobile — il peut recevoir des appels ou des textos comme n’importe quel autre — sauf qu’aucune carte SIM physique ne siège dans votre téléphone pour y répondre. À la place, ce qui arrive au numéro vous est routé par internet\u00a0: dans une app, un tableau de bord ou une API. Pour la personne (ou le service) à l’autre bout, il est indiscernable de n’importe quel mobile ordinaire."
+    },
+    {
+      "type": "p",
+      "text": "Cette définition en une phrase soulève les questions auxquelles ce guide répond\u00a0: où ces numéros vivent-ils physiquement s’ils ne sont pas dans une SIM\u00a0? En quoi un numéro virtuel diffère-t-il de la VoIP, d’une eSIM ou d’un téléphone jetable\u00a0? Pourquoi les codes d’inscription l’atteignent-ils très bien\u00a0? Tout cela est-il légal\u00a0? Et si vous décidez qu’il vous en faut un, qu’est-ce qui sépare un bon fournisseur d’un site gratuit partagé qui ne livre jamais de code\u00a0?"
+    },
+    {
+      "type": "h2",
+      "id": "how-phone-numbers-actually-work",
+      "text": "Comment les numéros de téléphone fonctionnent vraiment"
+    },
+    {
+      "type": "p",
+      "text": "L’idée clé est qu’un numéro de téléphone n’a jamais vécu «\u00a0dans\u00a0» votre carte SIM. Les numéros appartiennent aux réseaux d’opérateurs\u00a0: les régulateurs nationaux allouent des tranches aux opérateurs mobiles, et le cœur de réseau de l’opérateur tient un registre qui associe chaque numéro à un abonné. Votre SIM n’est qu’une carte à clé cryptographique qui prouve au réseau que votre appareil est cet abonné, afin que les appels et textos adressés au numéro lui soient livrés."
+    },
+    {
+      "type": "p",
+      "text": "Un numéro virtuel change simplement le dernier saut. Le numéro est toujours alloué par un opérateur et vit toujours dans un vrai réseau mobile — mais la SIM qui y répond siège dans l’infrastructure d’un fournisseur plutôt que dans votre poche. Quand un SMS arrive, le système du fournisseur le lit et vous le transmet par internet, en général dans une app, généralement en quelques secondes. Rien ne change du côté de l’envoi, ce qui est exactement pourquoi les systèmes de vérification traitent ces numéros comme des mobiles ordinaires\u00a0: du point de vue du réseau, ils le sont."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-vs-voip-esim-burner",
+      "text": "Numéro virtuel, VoIP, eSIM et téléphone jetable"
+    },
+    {
+      "type": "p",
+      "text": "Ces quatre termes se mélangent en permanence, et les différences comptent — surtout pour la vérification SMS, où certains échouent couramment."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Numéro mobile virtuel\u00a0: un vrai numéro de réseau d’opérateur dont les messages vous sont transmis en ligne. Le meilleur choix pour recevoir des codes de vérification SMS, parce que les services voient un mobile normal.",
+        "Numéro VoIP (Google Voice, Skype et similaires)\u00a0: un numéro qui existe dans un service de téléphonie internet plutôt que dans un réseau mobile. Très bien pour les appels, mais beaucoup de services détectent les tranches VoIP et refusent d’y envoyer des codes de vérification — les numéros VoIP sont bon marché à inscrire en masse, donc les systèmes d’inscription s’en méfient.",
+        "eSIM\u00a0: pas un autre type de numéro du tout, juste une SIM sans le plastique — un profil d’opérateur téléchargé dans votre appareil. Le numéro est pleinement le vôtre et pleinement mobile, mais vous achetez une vraie ligne avec un vrai contrat ou forfait, ce qui est excessif si tout ce qu’il vous faut est recevoir un code de vérification.",
+        "Téléphone jetable\u00a0: un combiné prépayé bon marché plus une SIM achetés pour un usage temporaire. Cela fonctionne, mais c’est l’option la plus chère et la plus lente — du matériel, un passage en boutique, des exigences d’identité pour l’enregistrement de la SIM dans beaucoup de pays — pour accomplir ce qu’un numéro virtuel fait généralement en quelques secondes."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Règle simple\u00a0: si votre but est de recevoir un code SMS sans impliquer votre numéro personnel, il vous faut un numéro mobile virtuel. Si votre but est une seconde ligne permanente pour les appels, il vous faut une eSIM ou un forfait VoIP."
+    },
+    {
+      "type": "h2",
+      "id": "how-sms-verification-works",
+      "text": "Comment la vérification SMS se déroule vraiment"
+    },
+    {
+      "type": "p",
+      "text": "Comprendre le tuyau explique à la fois pourquoi les numéros virtuels fonctionnent et pourquoi les codes n’arrivent parfois pas — depuis n’importe quel numéro, virtuel ou non."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Le service génère un mot de passe à usage unique (OTP)",
+          "body": "Quand vous tapez un numéro dans un formulaire d’inscription, le service crée un code de courte durée — en général 4 à 8 chiffres, valable quelques minutes — et le stocke contre votre inscription en attente."
+        },
+        {
+          "title": "Le message entre dans le réseau SMS",
+          "body": "Le service remet le code à une passerelle SMS, souvent avec un identifiant d’expéditeur alphanumérique («\u00a0Telegram\u00a0», «\u00a0Google\u00a0») plutôt qu’un numéro de téléphone. La passerelle le route à travers les réseaux d’opérateurs vers l’opérateur du numéro de destination."
+        },
+        {
+          "title": "L’opérateur livre à qui détient le numéro",
+          "body": "L’opérateur de destination livre le SMS à l’abonné enregistré pour ce numéro. Pour un numéro virtuel, c’est l’infrastructure SIM du fournisseur — qui lit le message et le pousse vers votre app, généralement en quelques secondes."
+        },
+        {
+          "title": "Vous retapez le code, et la boucle se ferme",
+          "body": "Le service compare ce que vous avez saisi à ce qu’il a généré. Correspondance — et il fait maintenant confiance au fait que vous contrôlez ce numéro. C’est tout ce que la vérification SMS prouve jamais\u00a0: le contrôle d’un numéro à un moment donné."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    },
+    {
+      "type": "h2",
+      "id": "is-it-legal",
+      "text": "Utiliser un numéro virtuel est-il légal\u00a0?"
+    },
+    {
+      "type": "p",
+      "text": "Oui — louer et utiliser des numéros virtuels est légal dans l’immense majorité des juridictions\u00a0; c’est la même infrastructure de numérotation régulée que les entreprises utilisent depuis des décennies pour les hotlines et les avis de livraison. Ce dont la loi (et les conditions de chaque service) se soucie, c’est de ce que vous faites du compte ensuite\u00a0: la fraude est illégale depuis n’importe quel numéro, et les règles propres de chaque plateforme s’appliquent également à chaque compte. Un numéro virtuel est un outil de vie privée, pas un permis."
+    },
+    {
+      "type": "p",
+      "text": "Les usages légitimes sont plus larges que la plupart des gens ne l’attendent\u00a0:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Vie privée\u00a0: s’inscrire à des apps et des sites sans nourrir votre vrai numéro dans une base de plus qui peut fuiter, être vendue ou être extraite pour des appels spam.",
+        "Séparation\u00a0: un second compte de messagerie pour le travail, un projet, ou vendre sur des places de marché — joignable sans exposer votre ligne personnelle.",
+        "QA et développement\u00a0: des ingénieurs qui testent des parcours d’inscription, la livraison SMS et la localisation dans de nombreux pays sans entretenir un tiroir de cartes SIM.",
+        "Voyage et géographie\u00a0: s’inscrire à un service qui attend un numéro local dans un pays où vous n’avez pas de SIM.",
+        "Limitation des dégâts\u00a0: quand un numéro est exigé par un service auquel vous ne faites fondamentalement pas confiance, lui en donner un loué plafonne le risque."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "choosing-a-provider",
+      "text": "Quoi chercher chez un fournisseur"
+    },
+    {
+      "type": "p",
+      "text": "Les fournisseurs diffèrent bien plus que leurs pages d’accueil ne le suggèrent, et les différences apparaissent exactement au moment où vous attendez un code. Quatre choses valent d’être vérifiées avant de payer qui que ce soit\u00a0:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "De vrais numéros mobiles dédiés — pas les numéros partagés des sites gratuits «\u00a0recevoir SMS en ligne\u00a0». Ceux-là sont utilisés par des milliers de personnes, donc les services les mettent sur liste noire ou les trouvent déjà inscrits\u00a0; et n’importe qui d’autre qui regarde la même page peut lire votre code.",
+        "Une politique d’annulation juste\u00a0: si aucun SMS n’arrive, vous ne devriez pas payer. Avec SMS Code, une activation qui n’a rien reçu s’annule sans frais.",
+        "Une couverture de pays qui correspond à vos besoins — SMS Code propose des numéros dans plus de 100 pays, ce qui vous donne aussi des alternatives quand une voie est lente.",
+        "Un prix que vous pouvez raisonner\u00a0: payer par activation à partir d’un pack de pièces en achat unique bat un abonnement si votre besoin est occasionnel — vous ne devriez pas louer une ligne mensuelle pour recevoir un code."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Le test de qualité le plus rapide de n’importe quel fournisseur\u00a0: que se passe-t-il quand un code n’arrive pas\u00a0? Si la réponse est «\u00a0vous avez payé quand même\u00a0», continuez à chercher. La vérification est probabiliste sur les bords — un fournisseur sérieux intègre cela au prix plutôt que de vous le faire porter."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Questions fréquentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Un numéro de téléphone virtuel est-il un vrai numéro\u00a0?",
+          "a": "Oui. Il est alloué par un vrai opérateur et vit dans un vrai réseau mobile — la seule différence avec le numéro dans votre poche est que les messages entrants vous sont transmis par internet au lieu de faire sonner une SIM dans votre propre appareil."
+        },
+        {
+          "q": "Un numéro virtuel peut-il recevoir des codes de vérification SMS\u00a0?",
+          "a": "Oui — c’est l’usage principal. Parce que c’est un vrai numéro mobile, les services y livrent les codes OTP normalement, et un bon fournisseur vous montre le message généralement en quelques secondes. Les numéros VoIP, en revanche, sont souvent refusés par les systèmes d’inscription."
+        },
+        {
+          "q": "Ai-je besoin d’une carte SIM ou de nouveau matériel pour un numéro virtuel\u00a0?",
+          "a": "Non. La SIM qui répond pour le numéro siège dans l’infrastructure du fournisseur. Vous voyez simplement les messages entrants dans une app — rien n’est installé dans le tiroir SIM de votre téléphone et aucun profil eSIM n’est ajouté."
+        },
+        {
+          "q": "Quelle est la différence entre un numéro virtuel et un téléphone jetable\u00a0?",
+          "a": "Un jetable est physique\u00a0: un combiné prépayé bon marché et une SIM que vous achetez, portez et finissez par jeter. Un numéro virtuel obtient la même séparation sans matériel, sans passage en boutique et sans paperasse d’enregistrement de SIM — vous louez le numéro pour la vérification et recevez le code dans une app."
+        },
+        {
+          "q": "Les sites gratuits «\u00a0recevoir SMS en ligne\u00a0» suffisent-ils\u00a0?",
+          "a": "Pour tout ce qui vous importe, non. Leurs numéros sont partagés et visibles publiquement\u00a0: les services les mettent sur liste noire, le numéro est souvent déjà inscrit, et n’importe qui sur la même page peut lire les codes que vous recevez — y compris un code qui pourrait réinitialiser le compte que vous venez de créer."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

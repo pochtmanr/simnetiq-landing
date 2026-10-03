@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Signal için sanal numara",
+  "metaDescription": "Signal’ı 100+ ülkeden gerçek bir sanal numarayla kaydedin. Kod genellikle saniyeler içinde gelir — etkinleştirme başına ödeme, SMS yoksa ücretsiz iptal.",
+  "hero": {
+    "title": "Signal için sanal numara",
+    "intro": [
+      "Signal’ın ironisi şudur: her şeyi şifreleyen, neredeyse hiçbir şey saklamayan ve her gizlilik araştırmacısının önerdiği mesajlaşma uygulaması, ilk mesajınızı göndermeden önce yine de telefon numarası ister. Kayıt SMS koduna dayanır — kullanıcı adları sayesinde o numarayı sonradan kimsenin görmesi gerekmese bile.",
+      "SMS Code ile o son boşluğu kapatırsınız: 100+ ülkeden birinde gerçek bir mobil numara kiralayın, Signal’ı onunla kaydedin ve kod uygulamada genellikle saniyeler içinde görünsün. Tek seferlik bir jeton paketinden etkinleştirme başına ödersiniz — abonelik yok — ve SMS almayan bir etkinleştirme ücretsiz iptal edilir."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Signal için neden sanal numara?",
+    "body": [
+      "Signal’ı seçtiyseniz tutmadığı üstveri için seçtiniz — ve telefon numarası kaydın hâlâ istediği tek tanımlayıcıdır. Kişisel numaranızla kaydolmak tasarımın geri kalanını sessizce zayıflatır: mesajlaşma hiçbir şey açığa vurmaz ama dosyadaki numara bankanıza, işvereninize ve her veri simsarının kayıtlarına bağlı olanın aynısıdır. Kiralanan bir numara Signal’ın başladığı resmi tamamlar.",
+      "Kullanıcı adları geldiğinden beri numaranın kalan tek işi kayıttır. Kişiler sizi kullanıcı adıyla bulabilir ve gizlilik ayarları numarayı görünmez ve aranamaz yapmanıza izin verir: “Numaramı kimler görebilir” — Hiç kimse, “Beni numarayla kimler bulabilir” — Hiç kimse. Bu ayarları sanal numarayla eşleştirin; hesap gerçek numaranız üzerinden bulunamaz, çünkü gerçek numaranız hiç dahil olmadı."
+    ]
+  },
+  "howTo": {
+    "title": "Signal’ı sanal numarayla nasıl kaydedersiniz",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara alın",
+        "body": "SMS Code uygulamasını açın, servis olarak Signal’ı seçin, bir ülke seçin ve bir kez dokunun. Etkinleştirme süresi boyunca yalnızca size ayrılmış gerçek bir mobil numara tutulur."
+      },
+      {
+        "title": "Onu Signal’a girin",
+        "body": "Kayıt ekranında eşleşen ülke kodunu seçin ve numarayı yazın. Signal kodu göndermeden önce bazen bir captcha gösterir — bu kötüye kullanım kontrolüdür, tamamlayın."
+      },
+      {
+        "title": "Kodu alın",
+        "body": "SMS, SMS Code uygulamasına genellikle saniyeler içinde, “SIGNAL: Your code is: 613904” biçiminde düşer. Rakamları girin, kayıt tamamlanır."
+      },
+      {
+        "title": "PIN belirleyin ve bir kullanıcı adı alın",
+        "body": "Signal PIN’inizi oluşturun, sonra Ayarlar → Hesap bölümünde Kayıt Kilidi’ni açın. Ardından bir kullanıcı adı belirleyin ve “Numaramı kimler görebilir” ile “Beni numarayla kimler bulabilir” seçeneklerini Hiç kimse yapın. Numara tek işini yapmıştır ve görünümden çıkar."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kayıt Kilidi güvenlik ağınızdır",
+      "body": "Kayıt Kilidi açıkken numaranızı yeniden kaydetmek Signal PIN’ini gerektirir — böylece numarayı sonradan elinde tutan kimse hesabı devralamaz. Signal’ın tasarımından gelen bir uyarı: kilit yalnızca hesap kullanımdayken silahlı kalır, bu yüzden uygulamayı en az haftada bir açın."
+    },
+    {
+      "title": "Konuşmayı kullanıcı adı yapsın",
+      "body": "Numarayı değil, kullanıcı adınızı paylaşın — özelliğin bütün amacı budur. Kullanıcı adını istediğiniz zaman değiştirebilirsiniz ve telefon numarası gizlilik anahtarları Hiç kimse iken, kiralanan numarayı bir şekilde öğrenenler bile hesabı onun üzerinden bulamaz."
+    },
+    {
+      "title": "Hesabınız cihazınızda yaşar",
+      "body": "Felsefesine uygun olarak Signal sohbetlerinizin bulut kopyasını tutmaz — hesap ve geçmiş telefonunuzdadır. Yeni telefona geçiş, eskisi canlıyken yerleşik aktarımla olur. Buna göre planlayın: kiralanan numaranın penceresi kapandıktan sonra hesabın evi cihazın kendisidir."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "En gizli mesajlaşma uygulamasının telefon istemesi amaca aykırı değil mi?",
+      "a": "Gerçek bir gerilimdir ve Signal bunu bilir — kullanıcı adları ve telefon numarası gizlilik ayarları bu yüzden vardır. Numara bir kez, kayıtta, istenmeyen iletiye karşı bir önlem olarak istenir. Sanal numara bu koşulu hesabı size bağlamadan karşılar; kayıt olmanın belki de en Signal’a yakışan yolu budur."
+    },
+    {
+      "q": "Kaydettiğim numarayı kimse görür mü?",
+      "a": "Anahtarları çevirirseniz hayır: “Numaramı kimler görebilir” ve “Beni numarayla kimler bulabilir” seçeneklerini Hiç kimse yapın ve bunun yerine kullanıcı adınızı paylaşın. O andan sonra numara hiçbir yerde görünmez — ne profilinizde ne aramada."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince Signal hesabıma ne olur?",
+      "a": "Hesap cihazınızda çalışmaya devam eder — numara tek seferlik kayıt içindi. PIN’iniz olmadan kimsenin numarayı yeniden kaydedememesi için Kayıt Kilidi’ni açın ve kilidin aktif kalması için uygulamayı kullanmaya devam edin."
+    },
+    {
+      "q": "Telefonumu kaybedersem veya Signal’ı yeniden yüklersem ne olur?",
+      "a": "Dürüst sınır budur: yeniden kayıt, numarada yine bir kod almayı gerektirir ve süresi bitmiş bir kiralama bunu yapamaz. Eski telefon hâlâ çalışırken yeni telefona aktarın ve cihazı hesabın evi olarak görün. Gizlilik öncelikli bir kurulumda bu takas genellikle kabul edilebilirdir — yalnızca bilinçli yapın."
+    },
+    {
+      "q": "Signal kodum neden gelmedi?",
+      "a": "Signal şüpheli bulduğu kayıtlarda dikkatlidir: önce bir captcha gelebilir ve bazı numaralar doğrudan reddedilir. Ülke kodunun eşleştiğini kontrol edin, captcha varsa tamamlayın ve SMS hâlâ gelmezse SMS Code’da etkinleştirmeyi iptal edin — hiçbir şey almayan numaralar için jetonlar geri gelir — ve başka bir numara veya ülke deneyin."
+    }
+  ]
+}

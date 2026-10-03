@@ -1,0 +1,35 @@
+{
+  "title": "Problèmes d’activation\u00a0: SMS absent ou refusé",
+  "metaDescription": "SMS absent ou code refusé\u00a0? Vérifiez le service et le numéro, utilisez l’annulation à deux minutes, et sachez quoi envoyer à l’assistance SMS Code.",
+  "sections": [
+    {
+      "title": "Vérifiez le service et le numéro",
+      "paragraphs": [
+        "Choisissez exactement le service que vous voulez vérifier. Saisissez le numéro attribué avec son indicatif pays et contrôlez les préfixes en double. Demandez une vérification par SMS dans ce service\u00a0: un appel vocal ou un code envoyé vers un autre appareil ne peut pas être reçu ici.",
+        "Laissez l’activation ouverte et consultez son statut dans l’app. Les notifications aident, mais l’écran d’activation est l’endroit où vérifier le code. Évitez les renvois répétés\u00a0: le service visé peut imposer son propre délai d’attente."
+      ]
+    },
+    {
+      "title": "Annulation à deux minutes et fenêtre d’activation",
+      "paragraphs": [
+        "Si aucun SMS n’est arrivé, vous pouvez annuler deux minutes après l’attribution du numéro. Le minuteur part à l’attribution, pas au moment où vous ouvrez l’app ou achetez des pièces. Utilisez le compte à rebours d’annulation affiché dans l’app.",
+        "L’annulation renvoie les pièces de l’activation sur votre solde dans l’app. Choisir un autre numéro renvoie aussi les pièces de l’ancienne activation avant l’achat d’une nouvelle\u00a0; vérifiez le nouveau prix. Ce sont des retours de pièces, pas des remboursements de paiement.",
+        "La fenêtre d’activation actuelle est de 15 minutes après l’attribution. Suivez le compte à rebours dans votre app. Si la fenêtre se termine sans SMS, l’activation se ferme et ses pièces sont renvoyées. Si le retour reste en attente ou si le solde est incorrect, contactez l’assistance plutôt que de racheter des numéros en boucle.",
+        "L’annulation n’est plus possible dès qu’un SMS est reçu, même si le service visé refuse le code. Un SMS qui arrive pendant l’annulation peut changer l’éligibilité."
+      ]
+    },
+    {
+      "title": "Code refusé ou numéro déjà utilisé",
+      "paragraphs": [
+        "Utilisez le dernier code pour le bon compte et le bon service, sans espaces en trop. Le service visé décide de la validité du code, de l’acceptation du numéro et des restrictions de compte. Un SMS bien reçu ne garantit pas une inscription réussie.",
+        "Si le numéro est déjà enregistré, n’accédez pas au compte de quelqu’un d’autre. Si un code est refusé, arrêtez les tentatives payantes répétées et contactez l’assistance pour un examen. Il n’y a pas de retour automatique de pièces après l’arrivée d’un SMS\u00a0; cela ne limite aucun droit des consommateurs applicable."
+      ]
+    },
+    {
+      "title": "Quoi envoyer à l’assistance",
+      "paragraphs": [
+        "Indiquez l’identifiant d’activation, le service et le pays choisis, l’heure approximative et le fuseau horaire, le statut et le message d’erreur exact. Une capture de l’erreur aide. N’envoyez ni mot de passe, ni code de vérification, ni données complètes de carte."
+      ]
+    }
+  ]
+}

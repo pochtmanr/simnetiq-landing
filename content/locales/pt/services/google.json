@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o Google — Gmail sem chip",
+  "metaDescription": "Verifique uma conta nova do Google com um número virtual real. Receba o código G em geral em segundos e crie um Gmail sem o seu número pessoal.",
+  "hero": {
+    "title": "Número virtual para o Google",
+    "intro": [
+      "Criar uma conta do Google deveria levar um minuto — até o formulário pedir um número de celular. O Google decide de forma dinâmica se exige verificação e, quando exige, não há como passar daquela tela sem receber um SMS de verdade. O código chega de “Google” e tem o formato “G-482915”.",
+      "Com o SMS Code você aluga um número de celular real em um de 100+ países, digita na tela de verificação do Google e o código G aparece no aplicativo em geral em segundos. O Gmail novo é criado — e o seu número pessoal fica de fora."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o Google?",
+    "body": [
+      "O número com que você verifica não só destrava o cadastro — por padrão o Google também o salva como método de recuperação e canal de 2FA, ligando em silêncio a conta nova ao seu celular pessoal. Se o ponto da conta é separação — um Gmail para um projeto, uma conta de teste de desenvolvedor, um endereço para newsletters — verificar com o seu próprio chip desfaz isso antes de você enviar um e-mail. Um número virtual mantém a identidade nova de fato separada.",
+      "Há um teto prático também: o Google limita quantas contas um único número de celular pode verificar. Se o seu número já avalizou um Gmail ou dois, pode simplesmente parar de funcionar para contas novas. Um número virtual novo chega sem esse histórico, então a verificação passa de primeira."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar uma conta do Google com número virtual",
+    "steps": [
+      {
+        "title": "Receba um número no SMS Code",
+        "body": "Abra o aplicativo SMS Code, escolha Google como serviço e escolha um país — Estados Unidos, Reino Unido ou Alemanha são escolhas comuns. Um toque reserva um número de celular real só para você."
+      },
+      {
+        "title": "Digite na tela de verificação do Google",
+        "body": "Comece o cadastro em accounts.google.com e preencha o básico. Quando o Google pedir para verificar o número de celular, selecione o país do número e digite exatamente — um código de país errado é o motivo mais comum de o SMS nunca chegar."
+      },
+      {
+        "title": "Digite o código G",
+        "body": "O SMS chega no aplicativo SMS Code em geral em segundos e diz “G-482915 is your Google verification code.” Digite os seis dígitos (sem o prefixo “G-” se o campo do Google pedir só dígitos) e a conta é criada."
+      },
+      {
+        "title": "Desligue a conta do número alugado",
+        "body": "Logo depois de entrar, abra Conta do Google → Segurança. Remova ou substitua o número de celular nas opções de recuperação, adicione um aplicativo autenticador, baixe os códigos de backup e defina um e-mail de recuperação. Feito direito, a conta nunca mais depende do número alugado."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "“Este número de telefone não pode ser usado para verificação”",
+      "body": "O Google filtra de forma ativa números que considera VoIP ou já usados demais, e recusa com exatamente essa mensagem. Acontece; não lute contra isso. Cancele a ativação pendente no SMS Code — números que não receberam nada não custam nada — e tente um número novo, de preferência de outro país."
+    },
+    {
+      "title": "Não deixe o número como método de recuperação",
+      "body": "O Google salva sozinho o número verificado como recuperação da conta e canal de 2FA. Isso serve para um chip no bolso, não para um número alugado. Troque em Conta do Google → Segurança logo depois do cadastro: um aplicativo autenticador, códigos de backup e um e-mail de recuperação cobrem toda situação que um SMS cobriria."
+    },
+    {
+      "title": "Um número, contas limitadas",
+      "body": "O Google limita quantas contas um único número pode verificar ao longo da vida — e conta todo mundo que usou esse número antes de você. Se um código chegar e o Google ainda recusar o número, é provável que tenha batido nesse teto. Um número novo do SMS Code começa a contagem a partir da sua ativação."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "O Google sempre pede um celular no cadastro?",
+      "a": "Não — o Google decide caso a caso, com base em sinais como o seu IP, o aparelho e a cara do cadastro para os sistemas de risco. Muitos cadastros pulam o passo do telefone; muitos outros não seguem sem ele. Se o seu formulário exigir um número, um virtual satisfaz do mesmo jeito que um chip."
+    },
+    {
+      "q": "O meu Gmail continua depois que o número alugado expira?",
+      "a": "Sim. O Google confere o número uma vez, na verificação. A conta não fica amarrada ao número continuar ativo — sobretudo se você seguir o nosso quarto passo e substituir por um aplicativo autenticador, códigos de backup e um e-mail de recuperação. Depois disso, nada na conta depende do número alugado."
+    },
+    {
+      "q": "O Google diz que o número não pode ser usado para verificação. E agora?",
+      "a": "Esse é o filtro do Google para números que ele suspeita serem VoIP ou já ligados a contas demais. Cancele a ativação no SMS Code — as moedas de um número que não recebeu nada voltam para o seu saldo — e pegue um novo. Mudar de país muitas vezes entrega uma faixa mais limpa."
+    },
+    {
+      "q": "Dá para criar mais de uma conta do Google assim?",
+      "a": "Cada conta precisa da própria verificação, e o Google limita quantas contas um número pode avalizar — então use um número novo por conta, em vez de reutilizar um. Fique dentro dos termos de serviço do Google: contas separadas para um projeto, uma caixa da equipe ou testes são uso normal."
+    },
+    {
+      "q": "E se o Google pedir para verificar o número de novo mais tarde?",
+      "a": "Pedidos de nova verificação em geral aparecem quando o Google desconfia de um acesso — aparelho novo, lugar incomum. Se você já substituiu o número alugado por um aplicativo autenticador, códigos de backup e um e-mail de recuperação, passa nessas checagens sem SMS. É exatamente por isso que recomendamos fazer isso no primeiro dia."
+    }
+  ]
+}

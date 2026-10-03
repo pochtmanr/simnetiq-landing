@@ -1,0 +1,69 @@
+{
+  "site": {
+    "name": "SMS Code द्वारा SIMNETIQ",
+    "titleTemplate": "%s — SMS Code द्वारा SIMNETIQ",
+    "appDescription": "100+ देशों में वर्चुअल नंबर, SMS OTP पाने के लिए। Telegram, WhatsApp, Google और 100+ सेवाओं पर साइन अप करें — अपना निजी नंबर दिए बिना।"
+  },
+  "a11y": {
+    "mainNav": "मुख्य",
+    "breadcrumb": "ब्रेडक्रम्ब"
+  },
+  "faqHeading": "सवाल",
+  "nav": {
+    "langLabel": "भाषा",
+    "links": [
+      {
+        "path": "/#how-it-works",
+        "label": "कैसे काम करता है"
+      },
+      {
+        "path": "/virtual-numbers",
+        "label": "नंबर"
+      },
+      {
+        "path": "/#pricing",
+        "label": "कीमत"
+      },
+      {
+        "path": "/#faq",
+        "label": "सवाल"
+      },
+      {
+        "path": "/support",
+        "label": "सहायता"
+      }
+    ],
+    "cta": "ऐप पाएँ",
+    "home": "SMS Code होम",
+    "openMenu": "मेनू खोलें",
+    "closeMenu": "मेनू बंद करें"
+  },
+  "footer": {
+    "tagline": "साइन-अप के लिए नंबर। ज़िंदगी भर के लिए नहीं।",
+    "liveStatus": "100+ देशों में नंबर ऑनलाइन",
+    "backToTop": "ऊपर जाएँ",
+    "servicesLabel": "लोकप्रिय सेवाएँ",
+    "allServices": "सभी सेवाएँ",
+    "resourcesLabel": "संसाधन",
+    "hub": "वर्चुअल नंबर",
+    "blog": "ब्लॉग",
+    "companyLabel": "कंपनी",
+    "getApp": "ऐप पाएँ",
+    "followLabel": "फ़ॉलो करें",
+    "support": "सहायता",
+    "privacy": "गोपनीयता नीति",
+    "terms": "सेवा की शर्तें",
+    "rights": "सर्वाधिकार सुरक्षित।",
+    "registered": "पंजीकृत देश",
+    "companyNo": "कंपनी नं.",
+    "registeredOffice": "पंजीकृत कार्यालय"
+  },
+  "badges": {
+    "appStore": "App Store पर डाउनलोड करें"
+  },
+  "notFound": {
+    "title": "यह पेज मौजूद नहीं है",
+    "body": "पता बदल गया होगा। SMS Code की सारी जानकारी होम पेज पर है।",
+    "back": "होम पर वापस"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Kebijakan privasi",
+    "description": "Cara SIMNETIQ LTD mengumpulkan, memakai, menyimpan, dan melindungi data pribadi Anda di aplikasi SMS Code dan simnetiq.xyz, serta hak GDPR Inggris dan UE."
+  },
+  "prevailingNotice": "Terjemahan ini disediakan untuk kemudahan. Jika berbeda dari versi bahasa Inggris, versi bahasa Inggris yang berlaku.",
+  "label": "Hukum",
+  "title": "Kebijakan privasi",
+  "updatedLabel": "Terakhir diperbarui:",
+  "sections": [
+    {
+      "title": "1. Siapa kami",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SMS Code (“Aplikasi”) dan situs simnetiq.xyz (“Situs”) dioperasikan oleh SIMNETIQ LTD (“kami”), perusahaan yang terdaftar di Inggris dan Wales. Kami bertindak sebagai pengendali data untuk data pribadi yang dijelaskan dalam kebijakan ini. Anda dapat menghubungi kami di {supportEmail}."
+        },
+        {
+          "type": "p",
+          "text": "Nomor perusahaan: {companyNumber}. Kantor terdaftar: {registeredOffice}. Kontak: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Apa yang dilakukan Aplikasi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikasi menyediakan nomor telepon virtual sementara yang dapat menerima kode verifikasi SMS, sehingga Anda dapat mendaftar ke layanan daring tanpa membagikan nomor telepon pribadi Anda."
+        }
+      ]
+    },
+    {
+      "title": "3. Data yang kami kumpulkan",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Data akun.** Pengenal akun anonim yang dibuat saat Anda pertama kali membuka Aplikasi, dan alamat email Anda jika Anda memilih untuk memberikannya.",
+            "**Data pembelian.** Catatan paket koin yang Anda beli. Pembayaran sendiri diproses oleh Apple App Store — kami tidak pernah melihat detail kartu Anda.",
+            "**Data aktivasi.** Layanan, negara, nomor virtual, dan teks pesan SMS verifikasi yang diterima di nomor itu, disimpan selama waktu yang dibutuhkan untuk menyampaikan kode kepada Anda dan menyelesaikan sengketa.",
+            "**Data perangkat.** Dua hal, dan hanya jika berlaku bagi Anda. Jika Anda mengizinkan notifikasi, token push yang diterbitkan perangkat Anda, agar kami dapat memberi tahu bahwa kode telah masuk. Dan kode wilayah dua huruf yang dilaporkan perangkat Anda (misalnya *GB*), dikirim bersama daftar negara agar kami dapat menandai satu negara “Direkomendasikan” — ini setelan perangkat, bukan lokasi Anda, dan tidak ada izin lokasi yang terlibat.",
+            "**Data dukungan.** Saat Anda menghubungi dukungan melalui Situs atau lewat email, kami mengumpulkan nama, alamat email, dan isi pesan Anda. Permintaan dukungan yang dikirim di Situs disimpan di basis data kami (dihosting di Supabase) dan diproses melalui perangkat email kami agar dapat membalas Anda. Kami juga menyimpan string user-agent peramban Anda dan hash satu arah yang diberi garam dari alamat IP Anda, untuk memblokir penyalahgunaan otomatis formulir.",
+            "**Analitik situs.** Situs memakai Vercel Web Analytics, yang menghitung tampilan halaman tanpa cookie dan tanpa memprofilkan Anda di situs lain. Aplikasi tidak berisi SDK analitik, iklan, atau atribusi dalam bentuk apa pun."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Yang sengaja tidak kami kumpulkan: nomor telepon Anda sendiri, kontak Anda, lokasi Anda, pengenal iklan, serta telemetri pemakaian, kerusakan, atau diagnostik apa pun dari dalam Aplikasi. Tidak ada SDK analitik atau pelaporan kerusakan di Aplikasi, jadi tidak ada hal semacam itu untuk dikirim. Ini sesuai dengan label privasi App Store untuk SMS Code."
+        }
+      ]
+    },
+    {
+      "title": "4. Cara kami memakai data Anda",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Untuk menyediakan nomor virtual dan menyampaikan kode verifikasi kepada Anda (pelaksanaan kontrak).",
+            "Untuk menjaga saldo koin Anda dan memulihkan pembelian di berbagai perangkat (pelaksanaan kontrak).",
+            "Untuk menjawab permintaan dukungan (kepentingan yang sah / pelaksanaan kontrak).",
+            "Untuk mendeteksi dan mencegah penipuan, penyalahgunaan, dan pelanggaran Ketentuan Layanan kami (kepentingan yang sah).",
+            "Untuk menjaga Situs tetap berjalan dan memahami halaman mana yang dianggap berguna orang, memakai analitik situs teragregasi tanpa cookie (kepentingan yang sah)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Kami tidak menjual data pribadi Anda dan tidak memakainya untuk iklan pihak ketiga."
+        }
+      ]
+    },
+    {
+      "title": "5. Pembagian dan pemroses",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kami memakai penyedia berikut untuk menjalankan layanan. Peran mereka bergantung pada layanan yang mereka berikan:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Supabase** — basis data dan backend di balik Aplikasi. Ia menyimpan semua yang dijelaskan di bagian 3 yang memang disimpan.",
+            "**Apple** — memproses setiap pembelian dalam aplikasi, dan menangani Masuk dengan Apple jika Anda memakainya. Kami tidak pernah melihat detail pembayaran Anda.",
+            "**RevenueCat** — memvalidasi tanda terima pembelian dan memberi tahu backend kami paket koin mana yang Anda beli. Ia menerima pengenal akun Anda, data pembelian, dan informasi perangkat dasar.",
+            "**Expo** — menyampaikan notifikasi push dan pembaruan Aplikasi. Ia menerima token push Anda dan teks notifikasi.",
+            "**Vercel** — menghosting Situs dan menyediakan analitiknya.",
+            "**Perangkat email kami** — membawa korespondensi dukungan.",
+            "**Penyedia telepon kami** — menyediakan nomor virtual. Yang dikirim kepadanya hanya layanan dan negara yang Anda minta; ia tidak menerima pengenal Anda sama sekali, dan kami tidak mengirim pengenal akun aplikasi Anda. Penyedia memproses nomor dan isi SMS untuk menyampaikan layanan."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Penyedia yang bertindak sebagai pemroses harus tunduk pada ketentuan pemrosesan data yang sesuai. Kami tidak menjual data Anda dan tidak membagikan apa pun kepada pengiklan. Kami juga dapat mengungkapkan data jika diwajibkan oleh hukum."
+        }
+      ]
+    },
+    {
+      "title": "6. Transfer internasional",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sebagian penyedia berada di luar Britania Raya. Jika data meninggalkan Britania Raya atau Wilayah Ekonomi Eropa, hukum perlindungan data yang berlaku mensyaratkan dasar transfer yang sesuai, seperti keputusan kecukupan atau perlindungan kontraktual. Hubungi kami untuk informasi tentang perlindungan atas data Anda."
+        }
+      ]
+    },
+    {
+      "title": "7. Penyimpanan",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Data aktivasi — 90 hari.** Nomor yang disewa dan teks SMS apa pun yang diterima di nomor itu dihapus pada pembersihan harian terjadwal setelah 90 hari sejak pembuatan aktivasi. Yang tersisa setelah itu adalah catatan tanpa nomor dan tanpa teks pesan: layanan, negara, tanggal, hasil, dan koin yang terlibat. Kami menyimpannya karena itu catatan akuntansi untuk koin yang Anda belanjakan, dan bukti yang kami butuhkan jika pembayaran disengketakan.",
+            "**Data akun — sampai Anda menghapus akun.** Menghapus akun menghapus akun aktif, alamat email, dan riwayat aktivasi Anda. Catatan keuangan dan pencegahan penipuan yang terbatas tetap ada sebagaimana dijelaskan di bawah dan di bagian 9.",
+            "**Catatan pembelian — sesuai yang diwajibkan hukum.** Catatan keuangan yang disamarkan untuk setiap pembelian — referensi transaksi, paket, jumlah, tanggal, dan apakah kemudian dikembalikan dananya — disimpan selama jangka waktu yang diwajibkan hukum pajak dan akuntansi, dan tetap ada setelah penghapusan akun. Catatan itu tidak berisi nomor telepon, teks pesan, atau alamat email.",
+            "**Korespondensi dukungan — hingga 24 bulan** setelah permintaan ditutup."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8. Hak Anda",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Menurut GDPR Inggris dan GDPR UE, Anda berhak mengakses, memperbaiki, menghapus, atau menerima salinan data pribadi Anda, membatasi atau menolak pemrosesannya, dan menarik persetujuan kapan saja jika pemrosesan didasarkan pada persetujuan. Untuk menggunakan hak-hak ini, kirim email ke {supportEmail}. Anda juga dapat mengajukan keluhan ke UK Information Commissioner’s Office (ico.org.uk) atau otoritas pengawas setempat Anda."
+        }
+      ]
+    },
+    {
+      "title": "9. Penghapusan akun dan data",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Anda dapat menghapus akun langsung di Aplikasi (Setelan → Hapus akun) atau dengan mengirim email kepada kami. Penghapusan menghapus pengenal akun, alamat email, saldo koin, dan riwayat aktivasi Anda, termasuk setiap nomor yang disewa dan setiap isi SMS yang masih disimpan. Penghapusan tidak mengharuskan menghubungi dukungan dan tidak dapat dibatalkan. Catatan keuangan dan pencegahan penipuan yang terbatas tetap ada: referensi transaksi pembelian, pengenal akun sebelumnya, aktivitas agregat dan jumlah koin, kekurangan pengembalian dana, stempel waktu, dan tautan token perangkat yang di-hash. Catatan ini mendukung akuntansi, sengketa, dan pencegahan penyalahgunaan pengembalian dana yang berulang. Catatan itu tidak berisi nomor telepon aktivasi yang disimpan, isi SMS, atau email akun, tetapi disamarkan, tidak dijamin anonim, dan dapat dihubungkan ke catatan pembelian atau akun lain yang memakai token perangkat yang sama."
+        }
+      ]
+    },
+    {
+      "title": "10. Anak-anak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikasi tidak ditujukan kepada anak-anak dan dimaksudkan untuk pengguna berusia 18 tahun atau lebih. Kami tidak dengan sengaja mengumpulkan data dari anak-anak; jika Anda yakin seorang anak telah memakai Aplikasi, hubungi kami dan kami akan menghapus datanya."
+        }
+      ]
+    },
+    {
+      "title": "11. Keamanan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Data dienkripsi saat transit, akses dibatasi pada personel yang membutuhkannya, dan basis data kami menerapkan kontrol akses tingkat baris. Tidak ada sistem yang aman sempurna, jadi kami juga menjaga jumlah data yang kami simpan seminimal mungkin."
+        }
+      ]
+    },
+    {
+      "title": "12. Perubahan kebijakan ini",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kami dapat memperbarui kebijakan ini dari waktu ke waktu. Perubahan material akan diumumkan di Aplikasi atau di Situs, dan tanggal “Terakhir diperbarui” di atas selalu mencerminkan versi terkini."
+        }
+      ]
+    }
+  ]
+}

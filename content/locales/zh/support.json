@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "虚拟号码客服",
+    "description": "获取 SMS Code 帮助：处理激活失败、金币与账单、账号登录问题。先看排查指南，或发邮件联系客服。"
+  },
+  "page": {
+    "label": "客服",
+    "title": "需要什么帮助？",
+    "introBefore": "在下方留言，或发邮件至 ",
+    "introAfter": " ——请附上以下信息，方便我们审核你的请求并用邮件回复。",
+    "items": [
+      {
+        "title": "激活问题",
+        "body": "短信还没到？号码分配两分钟后、短信到达之前可以取消，金币会退回你的余额。再试之前先看排查指南。",
+        "slug": "activation-issues"
+      },
+      {
+        "title": "账单与金币",
+        "body": "购买通过 App Store 完成。附上商店收据或订单号，我们会追查没到账的金币。",
+        "slug": "billing-coins-refunds"
+      },
+      {
+        "title": "保住你的余额",
+        "body": "金币跟你的 SMS Code 账号走，不跟 App Store 收据走。如果你一直匿名使用，重装会开一个新账号，余额不会跟着走——所以在还有金币的时候就登录（Apple、Google 或邮箱验证码），之后在任何设备登录，金币都在。已经重装、余额没了？把 App Store 收据或订单号发给我们，我们来处理。",
+        "slug": "account-balance"
+      }
+    ],
+    "readGuide": "阅读指南",
+    "knowledgeBase": "帮助文档",
+    "safetyTitle": "怎么选国家/地区，以及怎样更安全",
+    "safetyLink": "如何选择国家/地区并保护账号"
+  },
+  "form": {
+    "name": "你的名字",
+    "namePlaceholder": "小明",
+    "email": "邮箱",
+    "emailPlaceholder": "you@example.com",
+    "topic": "主题",
+    "topicPlaceholder": "选择一个主题",
+    "topics": [
+      "激活的短信没到",
+      "账单与金币",
+      "账号与恢复购买",
+      "错误报告",
+      "功能建议",
+      "其他"
+    ],
+    "message": "留言",
+    "messagePlaceholder": "说说发生了什么——服务、国家/地区和大致的激活时间，能帮我们更快找到记录。",
+    "honeypot": "请勿填写此栏",
+    "send": "发送",
+    "sending": "正在发送…",
+    "genericError": "出了点问题，请重试。",
+    "sentChip": "已发送",
+    "sentTitle": "已收到留言",
+    "sentBody": "你的请求已提交。我们会审核，并回复到你填写的邮箱。",
+    "sendAnother": "再发一条"
+  },
+  "help": {
+    "label": "帮助文档",
+    "updatedLabel": "最近更新：",
+    "back": "客服与联系表单",
+    "appleTitle": "Apple 官方说明",
+    "appleLinks": {
+      "refund": "申请退款",
+      "instructions": "Apple 退款说明",
+      "status": "退款状态与到账时间",
+      "terms": "Apple 地区条款",
+      "support": "Apple 支持"
+    },
+    "appleNote": "说明已对照 Apple 官方支持材料核对，日期为 2026 年 9 月 30 日。能否退款取决于你所在地区和适用法律。",
+    "related": "相关帮助",
+    "terms": "服务条款",
+    "privacy": "隐私政策"
+  },
+  "api": {
+    "invalidBody": "请求正文无效。",
+    "invalidJson": "JSON 无效。",
+    "name": "请填写你的名字。",
+    "email": "请填写有效的邮箱地址。",
+    "topic": "主题太长。",
+    "message": "请至少用 10 个字符描述你的问题。",
+    "unavailable": "客服表单暂时不可用。请改为发邮件。",
+    "saveFailed": "没能保存你的留言。请重试，或直接发邮件。",
+    "forbidden": "这个请求不是从客服页面发出的。请刷新后重试。",
+    "challenge": "请完成验证检查后再试。",
+    "replySubject": "SMS Code 客服"
+  }
+}

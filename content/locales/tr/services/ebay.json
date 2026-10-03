@@ -1,0 +1,75 @@
+{
+  "metaTitle": "eBay için sanal numara",
+  "metaDescription": "eBay güvenlik kodunu gerçek bir sanal numarada genellikle saniyeler içinde alın. Kişisel telefonunuzu açmadan kaydolun, satın ve giriş kontrollerini geçin.",
+  "hero": {
+    "title": "eBay için sanal numara",
+    "intro": [
+      "eBay telefon numarasını erken ister ve sık kontrol eder. Kayıt bir tane ister, satıcı hesabı açmak birinde ısrar eder ve giriş koruması “Your eBay security code is 271846” gibi bir metin geri yazılana kadar girişi duraklatmayı sever. Çoğunlukla bir kamera lensi almak istediğiniz bir pazar yerinde bu, kişisel telefonunuza çok fazla bağdır.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız ve kod uygulamada genellikle saniyeler içinde görünür. Hesap doğrulanır, ilan yayına girer — ve eBay’in iletişim kayıtlarındaki numara cebinizdeki değildir."
+    ]
+  },
+  "whyVirtual": {
+    "title": "eBay için neden sanal numara?",
+    "body": [
+      "Bir pazar yeri hesabı sizi tek yerde alışılmadık miktarda toplar: satın alma geçmişiniz, adresiniz, kartınız ve — telefon sizinse — her işlemi geride bırakan doğrudan bir hat. eBay’in onlarca yıllık birikmiş müşteri verisi ve oltalama hedefi olarak uzun bir geçmişi vardır; “eBay hesabınızda sorun var, buraya tıklayın” koca bir dolandırıcılık SMS türüdür. Kiralanan bir numara doğrulama adımını üstlenir, böylece o tür hiç gerçekten sizin olmayan bir numarada oynanır.",
+      "Dürüst ters yüzü: eBay telefonu kayıttan fazlası için kullanır. Girişteki güvenlik kodları, satıcı kimlik kontrolleri ve alıcı-satıcı iletişim özellikleri sonra ona uzanabilir. İşe yarayan kalıp şudur: kiralanan numarayla doğrulayın, e-postayı hesap dayanağı olarak tutun ve kiralamayı bırakırsanız telefonu hesap ayarlarında güncelleyin. Kendi güvenlik kodlarını alamayan bir eBay hesabı sahibini en kötü anda kilitler — o numaranın sessizce bayatlamasına izin vermeyin."
+    ]
+  },
+  "howTo": {
+    "title": "eBay’i sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "Servis olarak eBay’i seçin ve gerçekten kullandığınız eBay sitesinin ülkesini seçin — ebay.com, ebay.co.uk, ebay.de ve geri kalanı bir hesabı paylaşır ama eşleşen bir numara kayıt ayrıntılarınızı tutarlı tutar."
+      },
+      {
+        "title": "eBay’in istediği yere girin",
+        "body": "Kayıtta, satıcı hesabı kurulumunda veya giriş koruması bir telefon onaylamanızı istediğinde. Numaranın ülke kodunu seçin ve dikkatle yazın."
+      },
+      {
+        "title": "Kodu yazın",
+        "body": "SMS “Your eBay security code is 271846” diye okunur ve SMS Code uygulamasında genellikle saniyeler içinde görünür. eBay’de girin, numara onaylanır."
+      },
+      {
+        "title": "Hesabı e-postaya bağlayın",
+        "body": "E-posta adresinizi onaylayın, güçlü bir parola belirleyin ve telefonu temel değil kontrol noktası olarak görün. Kiralanan numarayı tutmayacaksanız kurulumdan sonra Hesap Ayarları → Kişisel Bilgiler bölümünde değiştirin; gelecekteki güvenlik kodları gerçekten okuduğunuz bir yere gitsin."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Satmak çıtayı yükseltir",
+      "body": "Bir alıcı hesabı asgari kontrollerle geçebilir ama satıcı olarak kaydolmak gerçek kimlik ve ödeme doğrulaması tetikler — banka ayrıntıları, bazen belgeler. Sanal numara bu sürecin SMS adımını karşılar; geri kalanı sizinle eBay’in satıcı kabulü arasındadır ve isteğe bağlı değildir."
+    },
+    {
+      "title": "Giriş kontrolleri geri gelir",
+      "body": "eBay’in giriş koruması yeni cihazlarda ve alışılmadık etkinlikte, bazen aylar sonra, telefona yeniden mesaj atar. Kiralanan numara düştüyse ve dosyadaki telefon ölüyse hesap kurtarma bir destek talebi olur. Numarayı bu olduktan sonra değil, olmadan önce ayarlarda güncelleyin."
+    },
+    {
+      "title": "Doğru hesap sayısı birdir",
+      "body": "eBay hesapları telefon numaralarından çok daha fazlasıyla bağlar — adresler, ödeme yöntemleri, cihazlar. Sanal numara askıya alınmış bir hesabı diriltmez veya promosyon kuponlarını yığmaz; denemek bağlı hesapların hepsini birden bitirmeye eğilimlidir. Onu tuttuğunuz hesapta gizlilik için kullanın."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "eBay sanal numaraları kabul eder mi?",
+      "a": "eBay bir numaranın SMS’ini alabildiğini doğrular — ve SMS Code’dan kiralanan bir numara operatör ağında gerçek bir mobil numaradır, kod başka herhangi bir mesaj gibi gelir. Ücretsiz SMS sitelerinden numaralar ise genellikle tanınır ve reddedilir."
+    },
+    {
+      "q": "Sanal numarayla eBay’de satabilir miyim?",
+      "a": "Telefon doğrulama adımı evet — satıcı kaydı bir kod gönderir ve kiralanan numara onu alır. Ama satmak, bir telefon numarasının etkilemediği, eBay’in kendi süreciyle ödeme ve kimlik doğrulamasını da içerir. Bunu gerçek ayrıntılarla tamamlamanızı bekleyin."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince eBay hesabım ayakta kalır mı?",
+      "a": "Evet — hesap e-postanıza ve parolanıza dayanır. Yalnızca ölü bir numarayı güvenlik kişisi olarak bırakmayın: giriş onayları ve uyarılar hâlâ okuduğunuz bir numaraya ulaşsın diye telefonu Hesap Ayarları’nda değiştirin veya güncelleyin."
+    },
+    {
+      "q": "Numara hangi ülkeden olmalı?",
+      "a": "Gerçekten alışveriş yaptığınız veya sattığınız ülke. Adresiniz, ödeme yönteminiz ve telefonunuz eBay’e tutarlı bir hikâye anlatır; teslimat adresinizden farklı bir kıtadan numara daha az değil, ek doğrulama davet eder."
+    },
+    {
+      "q": "eBay kodu gelmedi — şimdi ne olacak?",
+      "a": "Ülke kodunun kiralanan numarayla eşleştiğini iki kez kontrol edin ve bir dakika verin; eBay bazen alternatif olarak sesli arama sunar, bu kiralanan bir SMS numarasına ulaşmaz — bunun yerine metni yeniden isteyin. Hiçbir şey gelmezse SMS Code’da etkinleştirmeyi ücretsiz iptal edin ve taze bir numara alın."
+    }
+  ]
+}

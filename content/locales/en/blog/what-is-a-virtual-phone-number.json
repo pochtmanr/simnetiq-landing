@@ -1,0 +1,161 @@
+{
+  "title": "What Is a Virtual Phone Number and How Does It Work?",
+  "description": "A plain-language explainer: how virtual numbers work, how they differ from VoIP, eSIM and burners, how SMS verification flows, and what makes a good provider.",
+  "excerpt": "A virtual number is a real mobile number that reaches you through an app instead of a SIM card in your pocket. Here’s how that actually works — and when it’s the right tool.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A virtual phone number is a real number on a real mobile network — it can receive calls or texts like any other — except no physical SIM card sits in your phone to answer for it. Instead, whatever arrives at the number is routed to you over the internet: into an app, a dashboard or an API. To the person (or service) on the other end, it is indistinguishable from any ordinary mobile number."
+    },
+    {
+      "type": "p",
+      "text": "That one-sentence definition raises the questions this guide answers: where do these numbers physically live if not in a SIM? How is a virtual number different from VoIP, an eSIM or a burner phone? Why do sign-up codes reach it just fine? Is any of this legal? And if you decide you need one, what separates a good provider from a shared free site that never delivers a code?"
+    },
+    {
+      "type": "h2",
+      "id": "how-phone-numbers-actually-work",
+      "text": "How phone numbers actually work"
+    },
+    {
+      "type": "p",
+      "text": "The key insight is that a phone number never lived “inside” your SIM card. Numbers belong to carrier networks: national regulators allocate ranges to mobile operators, and the operator’s core network keeps a register mapping each number to a subscriber. Your SIM is just a cryptographic key card proving to the network that your device is that subscriber, so calls and texts addressed to the number get delivered to it."
+    },
+    {
+      "type": "p",
+      "text": "A virtual number simply changes the last hop. The number is still allocated by a carrier and still lives in a real mobile network — but the SIM answering for it sits in a provider’s infrastructure rather than in your pocket. When an SMS arrives, the provider’s system reads it and forwards it to you over the internet, typically into an app, usually within seconds. Nothing about the sending side changes, which is exactly why verification systems treat these numbers as ordinary mobile numbers: from the network’s point of view, they are."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-vs-voip-esim-burner",
+      "text": "Virtual number vs VoIP vs eSIM vs burner phone"
+    },
+    {
+      "type": "p",
+      "text": "These four terms get mixed up constantly, and the differences matter — especially for SMS verification, where some of them routinely fail."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Virtual mobile number: a real carrier-network mobile number whose messages are forwarded to you online. Best fit for receiving SMS verification codes, because services see a normal mobile number.",
+        "VoIP number (Google Voice, Skype and similar): a number that exists in an internet-telephony service rather than a mobile network. Great for calls, but many services detect VoIP number ranges and refuse to send verification codes to them — VoIP numbers are cheap to mass-register, so sign-up systems distrust them.",
+        "eSIM: not a different kind of number at all, just a SIM without the plastic — a carrier profile downloaded into your device. The number is fully yours and fully mobile, but you’re buying a real line with a real contract or plan, which is overkill if all you need is to receive one verification code.",
+        "Burner phone: a cheap prepaid handset plus SIM bought for temporary use. It works, but it’s the most expensive and slowest option — hardware, a trip to a shop, ID requirements for SIM registration in many countries — to accomplish what a virtual number does usually within seconds."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Rule of thumb: if your goal is receiving an SMS code without involving your personal number, you want a virtual mobile number. If your goal is a permanent second line for calls, you want an eSIM or a VoIP plan."
+    },
+    {
+      "type": "h2",
+      "id": "how-sms-verification-works",
+      "text": "How SMS verification actually flows"
+    },
+    {
+      "type": "p",
+      "text": "Understanding the pipeline explains both why virtual numbers work and why codes occasionally don’t arrive — from any number, virtual or not."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "The service generates a one-time password (OTP)",
+          "body": "When you type a number into a sign-up form, the service creates a short-lived code — usually 4 to 8 digits, valid for a few minutes — and stores it against your pending registration."
+        },
+        {
+          "title": "The message enters the SMS network",
+          "body": "The service hands the code to an SMS gateway, often with an alphanumeric sender ID (“Telegram”, “Google”) instead of a phone number. The gateway routes it across carrier networks toward the destination number’s operator."
+        },
+        {
+          "title": "The carrier delivers to whoever holds the number",
+          "body": "The destination operator delivers the SMS to the subscriber registered for that number. For a virtual number, that’s the provider’s SIM infrastructure — which reads the message and pushes it to your app, typically usually within seconds."
+        },
+        {
+          "title": "You type the code back, closing the loop",
+          "body": "The service compares what you entered with what it generated. Match — and it now trusts that you control that number. That’s all SMS verification ever proves: control of a number at one moment in time."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    },
+    {
+      "type": "h2",
+      "id": "is-it-legal",
+      "text": "Is using a virtual number legal?"
+    },
+    {
+      "type": "p",
+      "text": "Yes — renting and using virtual numbers is legal in the overwhelming majority of jurisdictions; it’s the same regulated numbering infrastructure businesses have used for decades for hotlines and delivery notifications. What the law (and each service’s terms) cares about is what you do with the account afterwards: fraud is illegal from any number, and each platform’s own rules apply equally to every account. A virtual number is a privacy tool, not a permission slip."
+    },
+    {
+      "type": "p",
+      "text": "The legitimate uses are broader than most people expect:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Privacy: signing up for apps and sites without feeding your real number into one more database that may leak, be sold, or be scraped for spam calls.",
+        "Separation: a second messenger account for work, a project, or selling on marketplaces — reachable without exposing your personal line.",
+        "QA and development: engineers testing sign-up flows, SMS delivery and localisation across many countries without maintaining a drawer of SIM cards.",
+        "Travel and geography: registering for a service that expects a local number in a country where you don’t hold a SIM.",
+        "Damage control: when a number is required by a service you fundamentally don’t trust, giving it a rented one caps the downside."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "choosing-a-provider",
+      "text": "What to look for in a provider"
+    },
+    {
+      "type": "p",
+      "text": "Providers differ far more than their landing pages suggest, and the differences show up exactly at the moment you’re waiting for a code. Four things are worth checking before you pay anyone:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Real, dedicated mobile numbers — not the shared numbers on free “receive SMS online” sites. Those are used by thousands of people, so services blocklist them or find them already registered; and anyone else viewing the same page can read your code.",
+        "A fair cancellation policy: if no SMS arrives, you shouldn’t pay. With SMS Code, an activation that received nothing cancels free.",
+        "Country coverage that matches your needs — SMS Code offers numbers in 100+ countries, which also gives you alternatives when one route is slow.",
+        "Pricing you can reason about: pay-per-activation from a one-time coin pack beats a subscription if your need is occasional — you shouldn’t rent a monthly line to receive one code."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "The quickest quality test of any provider: what happens when a code doesn’t arrive? If the answer is “you’ve paid anyway”, keep looking. Verification is probabilistic at the edges — a serious provider prices that in rather than passing it to you."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Frequently asked questions"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is a virtual phone number a real number?",
+          "a": "Yes. It’s allocated by a real carrier and lives in a real mobile network — the only difference from the number in your pocket is that inbound messages are forwarded to you over the internet instead of ringing a SIM in your own device."
+        },
+        {
+          "q": "Can a virtual number receive SMS verification codes?",
+          "a": "Yes — that’s the primary use. Because it’s a genuine mobile number, services deliver OTP codes to it normally, and a good provider shows you the message usually within seconds. VoIP numbers, by contrast, are often refused by sign-up systems."
+        },
+        {
+          "q": "Do I need a SIM card or new hardware for a virtual number?",
+          "a": "No. The SIM answering for the number sits in the provider’s infrastructure. You just see incoming messages in an app — nothing is installed in your phone’s SIM tray and no eSIM profile is added."
+        },
+        {
+          "q": "What’s the difference between a virtual number and a burner phone?",
+          "a": "A burner is physical: a cheap prepaid handset and SIM you buy, carry and eventually discard. A virtual number achieves the same separation with no hardware, no shop visit and no SIM-registration paperwork — you rent the number for the verification and receive the code in an app."
+        },
+        {
+          "q": "Are free “receive SMS online” sites good enough?",
+          "a": "For anything you care about, no. Their numbers are shared and publicly visible: services blocklist them, the number is often already registered, and anyone on the same page can read the codes you receive — including a code that could reset the account you just created."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

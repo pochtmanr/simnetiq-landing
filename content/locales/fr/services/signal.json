@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour Signal",
+  "metaDescription": "Inscrivez Signal avec un vrai numéro virtuel dans plus de 100 pays. Le code arrive généralement en quelques secondes, annulation sans frais si aucun SMS.",
+  "hero": {
+    "title": "Numéro virtuel pour Signal",
+    "intro": [
+      "Voici l’ironie de Signal\u00a0: la messagerie qui chiffre tout, ne stocke presque rien et que chaque chercheur en vie privée recommande demande encore un numéro de téléphone avant que vous puissiez envoyer votre premier message. L’inscription repose sur le code SMS — même si les noms d’utilisateur font qu’ensuite plus personne n’a à voir ce numéro.",
+      "Avec SMS Code, vous fermez ce dernier écart\u00a0: louez un vrai numéro mobile dans l’un de plus de 100 pays, inscrivez Signal avec, et le code apparaît dans l’app généralement en quelques secondes. Vous payez par activation, à partir d’un pack de pièces en achat unique — sans abonnement — et une activation qui n’a reçu aucun SMS s’annule sans frais."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour Signal\u00a0?",
+    "body": [
+      "Si vous avez choisi Signal, vous l’avez choisi pour les métadonnées qu’il ne garde pas — et le numéro de téléphone est le seul identifiant que l’inscription exige encore. S’inscrire avec votre numéro personnel sape discrètement le reste du dessin\u00a0: la messagerie ne révèle rien, mais le numéro au dossier est le même que celui lié à votre banque, à votre employeur et aux fichiers de chaque courtier en données. Un numéro loué complète le tableau que Signal a commencé.",
+      "Depuis l’arrivée des noms d’utilisateur, le seul travail restant du numéro est l’inscription. Les contacts peuvent vous trouver par nom d’utilisateur, et les réglages de confidentialité vous permettent de rendre le numéro invisible et introuvable\u00a0: «\u00a0Qui peut voir mon numéro\u00a0» — Personne, «\u00a0Qui peut me trouver par mon numéro\u00a0» — Personne. Associez ces réglages à un numéro virtuel et le compte n’est pas découvrable via votre vrai numéro, pour la simple raison que votre vrai numéro n’a jamais été en jeu."
+    ]
+  },
+  "howTo": {
+    "title": "Comment inscrire Signal avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Obtenez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, choisissez Signal comme service, un pays, et touchez une fois. Un vrai numéro mobile vous est réservé pour la durée de l’activation."
+      },
+      {
+        "title": "Saisissez-le dans Signal",
+        "body": "Sur l’écran d’inscription, sélectionnez l’indicatif pays correspondant et tapez le numéro. Signal affiche parfois un captcha avant d’envoyer le code — c’est son contrôle anti-abus, complétez-le simplement."
+      },
+      {
+        "title": "Récupérez le code",
+        "body": "Le SMS arrive dans l’app SMS Code généralement en quelques secondes, sous une forme comme «\u00a0SIGNAL\u00a0: Your code is\u00a0: 613904\u00a0». Saisissez les chiffres et l’inscription se termine."
+      },
+      {
+        "title": "Définissez le code PIN et prenez un nom d’utilisateur",
+        "body": "Créez votre code PIN Signal, puis activez le verrou d’inscription dans Paramètres → Compte. Ensuite, définissez un nom d’utilisateur et passez «\u00a0Qui peut voir mon numéro\u00a0» et «\u00a0Qui peut me trouver par mon numéro\u00a0» sur Personne. Le numéro a fait son unique travail et disparaît de la vue."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Le verrou d’inscription est votre filet",
+      "body": "Avec le verrou d’inscription activé, réinscrire votre numéro exige le code PIN Signal — donc personne qui détiendrait ce numéro plus tard ne peut prendre le compte. Une réserve directement issue du dessin de Signal\u00a0: le verrou ne reste armé que tant que le compte est utilisé, donc ouvrez l’app au moins une fois par semaine."
+    },
+    {
+      "title": "Laissez le nom d’utilisateur parler",
+      "body": "Partagez votre nom d’utilisateur, pas le numéro — c’est tout le sens de la fonction. Vous pouvez changer le nom d’utilisateur à tout moment, et avec les interrupteurs de confidentialité du numéro réglés sur Personne, même des gens qui apprendraient le numéro loué ne peuvent pas trouver le compte par lui."
+    },
+    {
+      "title": "Votre compte vit sur votre appareil",
+      "body": "Fidèle à sa philosophie, Signal ne garde aucune copie cloud de vos discussions — le compte et l’historique existent sur votre téléphone. Passer à un nouveau téléphone se fait via le transfert intégré tant que l’ancien est allumé. Prévoyez cela\u00a0: une fois la fenêtre du numéro loué fermée, l’appareil lui-même est le compte."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "La messagerie la plus privée qui exige un téléphone ne va-t-elle pas à l’encontre du but\u00a0?",
+      "a": "C’est une vraie tension, et Signal le sait — c’est pourquoi les noms d’utilisateur et les réglages de confidentialité du numéro existent. Le numéro est exigé une fois, à l’inscription, comme mesure anti-spam. Un numéro virtuel satisfait cette exigence sans lier le compte à vous, ce qui est sans doute la façon la plus dans l’esprit de Signal de s’inscrire."
+    },
+    {
+      "q": "Quelqu’un verra-t-il le numéro avec lequel je me suis inscrit\u00a0?",
+      "a": "Pas si vous basculez les interrupteurs\u00a0: réglez «\u00a0Qui peut voir mon numéro\u00a0» et «\u00a0Qui peut me trouver par mon numéro\u00a0» sur Personne, et partagez votre nom d’utilisateur à la place. À partir de là, le numéro n’apparaît nulle part — ni sur votre profil, ni dans la recherche."
+    },
+    {
+      "q": "Qu’arrive-t-il à mon compte Signal quand le numéro loué expire\u00a0?",
+      "a": "Le compte continue de fonctionner sur votre appareil — le numéro n’était nécessaire que pour l’inscription unique. Activez le verrou d’inscription afin que le numéro ne puisse pas être réinscrit par quelqu’un sans votre code PIN, et continuez d’utiliser l’app pour que le verrou reste actif."
+    },
+    {
+      "q": "Et si je perds mon téléphone ou réinstalle Signal\u00a0?",
+      "a": "C’est la limite honnête\u00a0: se réinscrire exige de recevoir à nouveau un code sur le numéro, et une location expirée ne peut pas le faire. Transférez vers un nouveau téléphone tant que l’ancien fonctionne encore, et traitez l’appareil comme le domicile du compte. Pour une configuration centrée sur la vie privée, ce compromis est en général acceptable — à condition de le faire en connaissance de cause."
+    },
+    {
+      "q": "Pourquoi mon code Signal n’est-il pas arrivé\u00a0?",
+      "a": "Signal est prudent avec les inscriptions qu’il trouve suspectes\u00a0: vous pouvez avoir un captcha d’abord, et certains numéros sont refusés d’emblée. Vérifiez que l’indicatif pays correspond, complétez tout captcha, et si le SMS n’arrive toujours pas, annulez l’activation dans SMS Code — les pièces reviennent pour les numéros qui n’ont rien reçu — et essayez un autre numéro ou un autre pays."
+    }
+  ]
+}

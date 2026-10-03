@@ -1,0 +1,26 @@
+{
+  "title": "Bakiye, erişim ve hesabı güvenle silme",
+  "metaDescription": "SMS Code jeton bakiyenizi cihazlar arasında koruyun, hesaba yeniden erişin ve jeton veya iade seçeneklerini kaybetmeden hesabı güvenle silin.",
+  "sections": [
+    {
+      "title": "Yeniden yüklemeden önce giriş yapın",
+      "paragraphs": [
+        "Jetonlar SMS Code hesabınıza aittir. Bakiyeye hâlâ erişiminiz varken Apple, Google veya bir e-posta koduyla giriş yapın, sonra aynı girişle başka bir cihazda devam edin. Apple satın alma hesabınız ile SMS Code girişiniz ayrıdır.",
+        "Anonim bir hesap kullanırken yeniden yüklemek farklı bir hesap oluşturabilir. App Store satın alma geri yüklemesi, anonim jeton bakiyesini tek başına yeniden yaratmaz. Erişimi kaybettiyseniz Apple sipariş kimliğiniz ve elinizde kalan hesap bilgileriyle desteğe yazın; kurtarma doğrulama gerektirir."
+      ]
+    },
+    {
+      "title": "Hesabı silmeden önce",
+      "paragraphs": [
+        "Hesap silme ile ödeme iadesi ayrı işlemlerdir. Gerekli satın alma ayrıntılarını kaydedin, bekleyen etkinleştirmeyi sonuçlandırın ve silmeden önce kalan jetonlar için desteğe yazın. Apple ödeme iadesini ayrıca talep edin.",
+        "Uygulamanın Ayarlar bölümündeki hesap silme seçeneğini kullanın. Erişemiyorsanız desteğe yazın. Silme bir Apple ödemesini iptal etmez; yasal yükümlülükler veya uyuşmazlık için gereken kayıtlar Gizlilik Politikamızda anlatıldığı gibi saklanabilir."
+      ]
+    },
+    {
+      "title": "Bize güvenle ulaşın",
+      "paragraphs": [
+        "Destek formunu veya support@simnetiq.com adresini kullanın. Servis, ülke, zaman ve etkinleştirme ya da sipariş kimliklerini gönderin; parola, doğrulama kodu veya kartın tamamını asla göndermeyin. Paylaşmadan önce ekran görüntülerini hassas bilgi açısından gözden geçirin."
+      ]
+    }
+  ]
+}

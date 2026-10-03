@@ -1,0 +1,75 @@
+{
+  "metaTitle": "VK için sanal numara",
+  "metaDescription": "VK doğrulaması için gerçek bir sanal numara alın. SMS kodu genellikle saniyeler içinde gelir — kişisel numaranızı açmadan bir VK hesabı oluşturun.",
+  "hero": {
+    "title": "VK için sanal numara",
+    "intro": [
+      "VK telefon numarasının etrafından bir yol sunmaz: kayıt onun üzerine kuruludur. Topluluklara bakmadan, birine yazmadan veya pazar yerinde bir ürün listelemeden önce VK verdiğiniz numaraya bir SMS kodu gönderir — ve o numara bütün hesabın giriş ve kurtarma dayanağı olur.",
+      "SMS Code ile 100+ ülkeden birinden gerçek bir numara kiralarsınız, onu VK kayıt formuna girersiniz ve onay kodu SMS Code uygulamasına genellikle saniyeler içinde düşer. Hesap tam doğrulanır — ve kişisel numaranız VK veritabanına hiç girmez."
+    ]
+  },
+  "whyVirtual": {
+    "title": "VK için neden sanal numara?",
+    "body": [
+      "En sık neden ayrımdır. Birçok kişi ana kimliği olmayan bir VK hesabı ister: topluluk yönetmek için bir tane, VK pazar yerinde satmak için bir tane, niş grupları kişisel profile karıştırmadan takip etmek için bir tane. VK her hesabı kendi numarasına bağlar, bu yüzden her ayrı kimliğin ayrı bir numarası gerekir — ve bir tane kiralamak yedek SIM çekmecesi tutmaktan iyidir.",
+      "VK’ya verdiğiniz numara çoğu platformdan daha ağırdır çünkü bir VK ID olur — Mail.ru/VK servis ekosisteminin tamamına uzanan tek bir giriş. Sanal numarayla kaydolmak, o geniş paylaşılan tanımlayıcının bankanızın ve ailenizin kullandığı numara değil, kiralanmış bir numara olması demektir. Hesap ele geçirilirse veya kazınırsa gerçek numaranız patlama yarıçapında hiç olmamıştır."
+    ]
+  },
+  "howTo": {
+    "title": "VK’yı sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "SMS Code uygulamasını açın, servis olarak VK’yı seçin ve bir ülke seçin — Kazakistan ve yakındaki diğer ülkeler sık tercihtir. Tek dokunuş size gerçek bir mobil numara ayırır."
+      },
+      {
+        "title": "Onu VK kayıt formuna girin",
+        "body": "VK kaydını başlatın ve kiralanan numarayı doğru ülke koduyla yazın. VK o numaraya hemen SMS ile bir onay kodu gönderir."
+      },
+      {
+        "title": "Kodla onaylayın",
+        "body": "Mesaj SMS Code uygulamasında genellikle saniyeler içinde görünür — “VK: 348715 — код подтверждения”. Altı haneyi VK ekranına girin, hesap oluşur."
+      },
+      {
+        "title": "Güçlü bir parola ve yedek erişim ekleyin",
+        "body": "Hemen sağlam ve benzersiz bir parola belirleyin ve VK ID ayarlarında bir e-posta adresi bağlayın. Böylece gündelik girişler ve kurtarma başka bir SMS almaya değil, parola ve e-postaya yaslanır."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Bir numara, bir VK hesabı",
+      "body": "VK numara ile hesap arasında katı bire bir bağ uygular. Bir numara daha önce VK’da kaydedildiyse kayıt bir giriş veya kurtarma akışına dönebilir. SMS Code numaraları etkinleştirme başına verir ama VK tuhaf davranırsa iptal edin ve taze bir numara alın."
+    },
+    {
+      "title": "VK ID, VK’nın ötesine uzanır",
+      "body": "Oluşturduğunuz hesap aynı zamanda bir VK ID’dir — VK’nın daha geniş servis ekosisteminin girişi (posta, müzik, ilanlar ve daha fazlası). Buna göre davranın: güçlü bir parola ve bağlı bir e-posta burada tek amaçlı bir uygulamadan daha önemlidir."
+    },
+    {
+      "title": "Gizlilik ayarlarını sıkın",
+      "body": "VK gizlilik ayarlarında sizi telefon numarasıyla kimlerin bulabileceğini ve profil ayrıntılarınızı kimlerin göreceğini kısıtlayın. Sanal numarayla birleşince bu, topluluk veya pazar yeri etkinliğinizi kişisel kimliğinizden temiz bir duvarla ayırır."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "VK’ya hiç telefon numarası olmadan kaydolabilir miyim?",
+      "a": "Hayır — VK kayıtta SMS onayı ister, yalnızca e-posta yolu yoktur. Sanal numara, kişisel numaranızı vermeden o koşulu karşılamanın yoludur."
+    },
+    {
+      "q": "Topluluğum veya mağazam için ikinci bir VK hesabı çalıştırabilir miyim?",
+      "a": "Evet, tipik bir kullanımdır. Her VK hesabının kendi numarası gerekir; yeni hesap için taze bir sanal numara kiralayın ve topluluk yönetimini veya pazar yeri satışını kişisel profilinizden ayrı tutun."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince hesap ayakta kalır mı?",
+      "a": "Numara günlük kullanım için değil, kayıt SMS’i içindir. Oturum açık kalsın, güçlü bir parola belirleyin ve VK ID ayarlarında bir e-posta bağlayın — sonra rutin girişler ve kurtarma eski numaraya bağlı kalmaz. VK sonra SMS ile yeniden onayda ısrar ederse hesaptaki numarayı yeni kiralanmış biriyle değiştirebilirsiniz."
+    },
+    {
+      "q": "VK onay kodum neden gelmedi?",
+      "a": "Genellikle numara daha önce VK’da kaydedilmiştir veya ülke kodu yanlış girilmiştir. SMS Code’da etkinleştirmeyi iptal edin — SMS almayan bir numara için hiçbir şey ödemezsiniz — ve başka bir numarayla yeniden deneyin."
+    },
+    {
+      "q": "Numaranın ülkesi VK için önemli mi?",
+      "a": "VK birçok ülkeden numara kabul eder; Kazakistan, Polonya, Almanya ve Hollanda SMS Code’da popüler tercihlerdir. Arayüz dili ve profil ayarlarınız numaranın ülkesine bağlı değildir — onları kendiniz seçersiniz."
+    }
+  ]
+}

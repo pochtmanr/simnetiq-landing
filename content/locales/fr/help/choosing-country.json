@@ -1,0 +1,26 @@
+{
+  "title": "Choisir un pays et utiliser un numéro temporaire",
+  "metaDescription": "Choisissez un pays accepté par le service visé, gérez un échec de réception, et pourquoi un numéro temporaire ne protège ni la banque ni la récupération.",
+  "sections": [
+    {
+      "title": "Choisissez pour le service visé",
+      "paragraphs": [
+        "Sélectionnez d’abord votre service, puis un pays qu’il accepte pour un usage légitime. Si le service exige un numéro local, respectez cette exigence. Confirmez que son formulaire d’inscription accepte l’indicatif du pays avant d’acheter.",
+        "«\u00a0Recommandé\u00a0» est une suggestion de commodité fondée sur le réglage de région de votre appareil, pas une promesse de réception du SMS ni d’acceptation du numéro. Votre lieu physique et le pays du numéro sont deux choses différentes. Aucun pays ne garantit la livraison. Comparez la disponibilité et le prix en pièces affiché avant de confirmer."
+      ]
+    },
+    {
+      "title": "Quand la réception échoue",
+      "paragraphs": [
+        "Vérifiez qu’une option SMS existe et qu’aucun délai d’attente du service n’est en cours. Certaines plateformes refusent les numéros temporaires ou virtuels. Après l’attente de deux minutes, annulez un numéro qui n’a reçu aucun SMS\u00a0; n’envisagez un autre pays pris en charge que si le service l’autorise. N’utilisez pas le choix du pays pour contourner des restrictions légales, d’identité ou de plateforme."
+      ]
+    },
+    {
+      "title": "Protégez votre compte",
+      "paragraphs": [
+        "Les numéros sont temporaires et peuvent être réattribués. Vous ne possédez pas le numéro et vous n’y avez plus accès une fois l’activation terminée. Ne vous y fiez pas pour la banque, les services d’urgence, une authentification à deux facteurs durable ou la récupération de compte.",
+        "Lorsque la plateforme le permet, ajoutez un e-mail, une clé d’accès, une application d’authentification ou votre propre numéro de récupération permanent avant de perdre l’accès. N’utilisez jamais un numéro recyclé pour entrer dans le compte d’une autre personne."
+      ]
+    }
+  ]
+}

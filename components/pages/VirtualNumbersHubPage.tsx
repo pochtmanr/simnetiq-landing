@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { Breadcrumbs } from "../Breadcrumbs";
 import { StoreBadges } from "../StoreBadges";
-import { ALL_COUNTRIES } from "../../lib/content/countries";
-import { ALL_SERVICES } from "../../lib/content/services";
+import { getCountries } from "../../lib/content/countries";
+import { getServices } from "../../lib/content/services";
 import type { ServiceCategory } from "../../lib/content/services/types";
-import { SERVICES_UI } from "../../lib/content/servicesUi";
+import { servicesUi } from "../../lib/content/ui";
 import { localePath, type Locale } from "../../lib/i18n";
 
 const CATEGORY_ORDER: ServiceCategory[] = [
@@ -20,10 +20,12 @@ const CATEGORY_ORDER: ServiceCategory[] = [
 
 /** /virtual-numbers — the crawl hub: every service page one click away. */
 export function VirtualNumbersHubPage({ locale }: { locale: Locale }) {
-  const t = SERVICES_UI[locale];
+  const t = servicesUi(locale);
+  const services = getServices(locale);
+  const countries = getCountries(locale);
   const grouped = CATEGORY_ORDER.map((category) => ({
     category,
-    entries: ALL_SERVICES.filter((s) => s.category === category),
+    entries: services.filter((s) => s.category === category),
   })).filter((g) => g.entries.length > 0);
 
   return (
@@ -67,12 +69,12 @@ export function VirtualNumbersHubPage({ locale }: { locale: Locale }) {
       ))}
 
       {/* Countries */}
-      {ALL_COUNTRIES.length > 0 && (
+      {countries.length > 0 && (
         <section className="pb-[60px]" id="countries">
           <span className="section-label">{t.country.hubLabel}</span>
           <h2 className="text-heading">{t.country.hubTitle}</h2>
           <div className="mt-[22px] grid grid-cols-2 gap-[15px] sm:grid-cols-3 lg:grid-cols-4">
-            {ALL_COUNTRIES.map((c) => (
+            {countries.map((c) => (
               <Link
                 key={c.slug}
                 href={localePath(
@@ -83,9 +85,9 @@ export function VirtualNumbersHubPage({ locale }: { locale: Locale }) {
               >
                 <span className="text-[22px] leading-none">{c.flag}</span>
                 <span className="text-body text-ink">
-                  {c.name[locale]}
+                  {c.copy.name}
                 </span>
-                <span className="ml-auto text-label text-muted">
+                <span className="ms-auto text-label text-muted">
                   {c.dialingCode}
                 </span>
               </Link>

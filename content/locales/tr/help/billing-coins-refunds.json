@@ -1,0 +1,44 @@
+{
+  "title": "Jetonlar, faturalama ve Apple iadeleri",
+  "metaDescription": "SMS Code jeton paketleri nasıl çalışır, eksik jeton veya tanımadığınız ücret ne yapılır ve Apple’dan adım adım nasıl iade istenir.",
+  "sections": [
+    {
+      "title": "Jetonlar nasıl çalışır",
+      "paragraphs": [
+        "Jeton paketleri abonelik değil, App Store üzerinden tek seferlik satın almadır. Otomatik yenileme yoktur. Jetonlar sona ermez, devredilemez ve nakit cüzdan değildir. Etkinleştirme fiyatı servise ve ülkeye bağlıdır ve onaydan önce gösterilir.",
+        "Uygun bir iptal, numara değişimi, SMS olmadan sürenin dolması veya başarısız numara ataması etkinleştirmenin jetonlarını döndürür. SMS geldikten sonra iptal jetonları otomatik olarak geri vermez. Teslimat veya faturalama hatalarını inceleme için desteğe bildirin."
+      ]
+    },
+    {
+      "title": "Eksik jeton veya tanımadığınız bir ücret",
+      "paragraphs": [
+        "Satın alma için kullandığınız SMS Code hesabıyla giriş yaptığınızdan emin olun. Bekleyen bir Apple ödemesinin tamamlanmasına izin verin ve uygulamayı yeniden açın. Eksik bakiyeyi düzeltmek için hemen başka bir paket almayın.",
+        "Desteğe Apple sipariş kimliğini veya makbuzu, paketi, satın alma tarihini ve varsa uygulama hesap kimliğinizi gönderin. İlgisiz satın almaları ve ödeme ayrıntılarını karartın. Tanımadığınız bir ücret için Apple satın alma geçmişinize ve Aile Paylaşımı alımlarına bakın, sonra Apple ile iletişime geçin."
+      ]
+    },
+    {
+      "title": "Kullanılmayan jetonlar ve ödeme iadeleri",
+      "paragraphs": [
+        "Jetonları uygulamaya geri döndürmek bir Apple ödemesini geri almaz. Apple üzerinden faturalanan bir jeton satın almasında paranızın iadesi için o satın alma adına Apple’dan iade isteyin ve jetonların kullanılmamış, kısmen kullanılmış, eksik veya hatalı olup olmadığını doğru anlatın. Kullanılmayan bir bakiye otomatik olarak iade veya kısmi nakit çekme hakkı vermez.",
+        "Apple, iade uygunluğunu bölgesel koşullarına ve yürürlükteki hukuka göre değerlendirir. Onayı vaat edemeyiz ve Apple’ın ödeme sistemi üzerinden kendimiz iade çıkaramayız. Satın alma veya bakiye kayıtları gerekiyorsa hizmet kusuru ya da kullanılmayan jetonlar için bize yazın. Zorunlu tüketici haklarınız etkilenmez.",
+        "Apple iadeyi onaylarsa ilgili jeton kredisi bakiyenizden düşülebilir. İade istediğiniz bir satın almanın jetonlarını harcamaya devam etmeyin. Hesabı silmek veya uygulamayı kaldırmak iade talebi oluşturmaz."
+      ]
+    },
+    {
+      "title": "Apple’dan iade isteyin",
+      "paragraphs": [
+        "1. reportaproblem.apple.com adresini açın ve paketi ödeyen Apple Hesabı ile giriş yapın.",
+        "2. Talep menüsünde iade seçeneğini seçin, sonra olanı anlatan nedeni seçin.",
+        "3. Devam edin, SMS Code jeton satın almasını seçin ve talebi gönderin.",
+        "4. Apple normalde 24–48 saat içinde bir güncelleme verir. Talep durumunu aynı siteden kontrol edin. Bu bir güncelleme süresidir; talep hâlâ beklemede olabilir ve paranın dönmesi ek zaman alır."
+      ]
+    },
+    {
+      "title": "Satın alma görünmüyorsa veya iade gecikirse",
+      "paragraphs": [
+        "Bekleyen ücretler, Apple makbuz kesene kadar talep edilemez; ödenmemiş siparişler önce kapatılmalıdır. Makbuzunuzdaki Apple Hesabını kontrol edin. Satın alma görünmüyorsa veya talep gönderemiyorsanız Apple Destek ile iletişime geçin.",
+        "Onaydan sonra Apple, mağaza kredisi iadelerinin 48 saate, kart ve çoğu diğer ödeme yöntemi iadelerinin 30 güne, mobil faturalamanın ise 60 güne kadar sürebileceğini söyler. SIMNETIQ, Apple veya banka işlemini hızlandıramaz."
+      ]
+    }
+  ]
+}

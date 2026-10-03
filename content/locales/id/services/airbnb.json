@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Airbnb — pesan menginap, jaga nomor",
+  "metaDescription": "Verifikasi akun Airbnb dengan nomor virtual asli. Kode SMS tiba biasanya dalam hitungan detik — pesan menginap tanpa membagikan nomor pribadi Anda.",
+  "hero": {
+    "title": "Nomor virtual untuk Airbnb",
+    "intro": [
+      "Airbnb berjalan di atas kepercayaan antarorang asing, dan nomor telepon terverifikasi adalah salah satu batu pertama di dinding itu. Sebelum Anda dapat memesan menginap — dan sering sebelum tuan rumah membalas permintaan — Airbnb ingin mengonfirmasi Anda dapat dihubungi, dan ia melakukannya dengan kode SMS yang dikirim ke nomor di akun Anda.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara, memasukkannya saat pendaftaran Airbnb, dan kode enam digit muncul di aplikasi SMS Code biasanya dalam hitungan detik. Anda mendapat akun terverifikasi; nomor pribadi Anda tetap milik Anda."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Airbnb?",
+    "body": [
+      "Inilah bagian yang aneh: setelah pemesanan terkonfirmasi, Anda hampir tidak memakai nomor telepon di Airbnb sama sekali. Tamu dan tuan rumah berkirim pesan lewat aplikasi, dan bahkan panggilan melewati nomor relay bertopeng Airbnb persis agar tidak ada pihak yang melihat detail kontak asli pihak lain. Namun pendaftaran tetap menuntut nomor yang dapat menerima SMS — verifikasi ada untuk platform, bukan untuk orang di ujung pemesanan Anda.",
+      "Itu membuat nomor virtual cocok secara alami bagi pelancong yang peduli privasi. Akun Anda terverifikasi dan memesan menginap seperti yang lain, tetapi nomor yang tertaut ke profil bukan yang mengikuti Anda dalam kehidupan sehari-hari — ia tidak dapat berakhir di daftar kontak tuan rumah, basis data pemasaran, atau tempat lain yang tidak Anda rencanakan."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Airbnb dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Dapatkan nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih Airbnb sebagai layanan, dan pilih negara — banyak pelancong memilih negara tempat mereka benar-benar memesan, seperti AS, Prancis, atau Spanyol. Nomor dicadangkan untuk Anda seketika."
+      },
+      {
+        "title": "Tambahkan saat pendaftaran Airbnb",
+        "body": "Buat akun Airbnb (email atau login sosial keduanya berfungsi) dan masukkan nomor sewaan saat Airbnb meminta verifikasi telepon. Pastikan kode negara yang Anda pilih cocok dengan negara nomor."
+      },
+      {
+        "title": "Ketik kode SMS",
+        "body": "Teks masuk ke aplikasi SMS Code biasanya dalam hitungan detik — “Your Airbnb verification code is: 517203.” Masukkan di layar verifikasi Airbnb dan telepon Anda terkonfirmasi."
+      },
+      {
+        "title": "Selesaikan profil Anda",
+        "body": "Tambahkan foto, konfirmasi email, dan selesaikan langkah identitas apa pun yang diminta Airbnb. Profil yang terisi penting di Airbnb — tuan rumah menerima permintaan dari profil lengkap jauh lebih mudah daripada dari yang kosong."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Pesan dengan akun yang Anda verifikasi",
+      "body": "Airbnb menautkan verifikasi telepon ke akun, bukan perangkat. Lakukan verifikasi di akun yang sama yang benar-benar Anda pakai untuk memesan, dan biarkan sesi login tetap hidup — sehari-hari Anda masuk dengan email atau login sosial, bukan SMS."
+    },
+    {
+      "title": "Pesan tetap di dalam aplikasi",
+      "body": "Tuan rumah menghubungi Anda lewat pesan Airbnb sendiri, dan panggilan telepon dialihkan melalui nomor relay bertopeng. Aktifkan notifikasi push di aplikasi Airbnb agar Anda tidak pernah bergantung pada SMS untuk mendengar kabar pemesanan."
+    },
+    {
+      "title": "Pemeriksaan identitas terpisah",
+      "body": "Untuk sebagian pemesanan Airbnb juga meminta verifikasi identitas pemerintah. Itu langkah independen dari verifikasi telepon — nomor virtual tidak memengaruhinya, dan identitas harus benar-benar milik Anda. Akun Airbnb bersifat pribadi dan tidak dapat dipindahtangankan menurut ketentuannya."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah tuan rumah melihat nomor virtual yang saya verifikasi?",
+      "a": "Tidak. Tuan rumah dan tamu berkomunikasi lewat pesan Airbnb, dan panggilan melewati nomor relay bertopeng di kedua sisi. Nomor di akun Anda untuk verifikasi Airbnb, bukan sesuatu yang ditampilkan kepada tuan rumah."
+    },
+    {
+      "q": "Bisakah saya tetap memesan menginap secara normal setelah verifikasi dengan nomor virtual?",
+      "a": "Ya. Ini nomor seluler asli di operator nyata, dan setelah kode terkonfirmasi akun Anda terverifikasi seperti yang lain. Pemesanan, pesan, dan ulasan semuanya bekerja sama."
+    },
+    {
+      "q": "Apa yang terjadi saat jendela aktivasi nomor sewaan berakhir?",
+      "a": "Akun Anda tetap berfungsi — nomor diperiksa saat verifikasi, bukan terus-menerus. Tetap masuk dan biarkan email terkonfirmasi, karena email adalah cara sehari-hari kembali ke akun. Jika Airbnb pernah meminta verifikasi ulang telepon, Anda dapat memperbarui nomor di berkas ke yang baru."
+    },
+    {
+      "q": "Mengapa kode Airbnb saya tidak masuk?",
+      "a": "Tersangka biasa: kode negara yang dipilih di Airbnb tidak cocok dengan nomor sewaan, atau permintaan habis waktu. Batalkan aktivasi di SMS Code — koin kembali untuk nomor yang tidak menerima apa pun — dan coba lagi dengan nomor baru, periksa negaranya dua kali."
+    },
+    {
+      "q": "Apakah memverifikasi Airbnb dengan nomor virtual diperbolehkan?",
+      "a": "Pemeriksaan Airbnb mengonfirmasi Anda menguasai nomor yang berfungsi; menyewa satu untuk tujuan itu wajar untuk pemakaian pribadi normal. Yang ditegaskan Airbnb adalah bahwa akun mewakili diri Anda yang nyata — pakai nama asli, identitas Anda sendiri saat diminta, dan satu akun per orang."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Destek",
+    "description": "SMS Code yardımı: etkinleştirme, jeton, bakiye ve hesap. Sorun giderme rehberlerini okuyun veya destek ekibine e-posta gönderin."
+  },
+  "page": {
+    "label": "Destek",
+    "title": "Nasıl yardımcı olabiliriz?",
+    "introBefore": "Aşağıdan mesaj gönderin veya e-posta yazın: ",
+    "introAfter": " — talebinizi inceleyip e-posta ile yanıtlayabilmemiz için aşağıdaki bilgileri ekleyin.",
+    "items": [
+      {
+        "title": "Etkinleştirme sorunları",
+        "body": "SMS hâlâ yok mu? İptal, atamadan iki dakika sonra, SMS gelmeden önce açılır ve jetonları bakiyenize döndürür. Tekrar denemeden önce sorun giderme rehberini okuyun.",
+        "slug": "activation-issues"
+      },
+      {
+        "title": "Faturalama ve jetonlar",
+        "body": "Satın almalar App Store üzerinden geçer. Mağaza makbuzunuzu veya sipariş kimliğinizi ekleyin, eksik jetonların izini sürelim.",
+        "slug": "billing-coins-refunds"
+      },
+      {
+        "title": "Bakiyenizi korumak",
+        "body": "Jetonlarınız App Store makbuzuyla değil, SMS Code hesabınızla durur. Uygulamayı yalnızca anonim kullandıysanız yeniden yüklemek yeni bir hesap açar ve bakiye onu izlemez — jetonlarınız dururken giriş yapın (Apple, Google veya e-posta kodu); giriş yaptığınız her cihazda orada olurlar. Yeniden yüklediniz ve bakiyeyi mi kaybettiniz? App Store makbuzunuz veya sipariş kimliğinizle yazın, çözelim.",
+        "slug": "account-balance"
+      }
+    ],
+    "readGuide": "Rehberi okuyun",
+    "knowledgeBase": "Bilgi bankası",
+    "safetyTitle": "Ülke seçmek ve güvende kalmak",
+    "safetyLink": "Ülke nasıl seçilir ve hesap nasıl korunur"
+  },
+  "form": {
+    "name": "Adınız",
+    "namePlaceholder": "Ali",
+    "email": "E-posta",
+    "emailPlaceholder": "siz@ornek.com",
+    "topic": "Konu",
+    "topicPlaceholder": "Bir konu seçin",
+    "topics": [
+      "Etkinleştirme gelmedi",
+      "Faturalama ve jetonlar",
+      "Hesap ve satın alımları geri yükleme",
+      "Hata bildirimi",
+      "Özellik isteği",
+      "Başka bir konu"
+    ],
+    "message": "Mesaj",
+    "messagePlaceholder": "Ne olduğunu anlatın — servis, ülke ve etkinleştirmenin yaklaşık saati kaydı hızlı bulmamıza yardım eder.",
+    "honeypot": "Bu alanı boş bırakın",
+    "send": "Mesajı gönder",
+    "sending": "Gönderiliyor…",
+    "genericError": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "sentChip": "Gönderildi",
+    "sentTitle": "Mesaj alındı",
+    "sentBody": "Talebiniz iletildi. İnceleyip verdiğiniz e-posta adresine yanıt vereceğiz.",
+    "sendAnother": "Başka bir mesaj gönder"
+  },
+  "help": {
+    "label": "Bilgi bankası",
+    "updatedLabel": "Son güncelleme:",
+    "back": "Destek ve iletişim formu",
+    "appleTitle": "Resmi Apple rehberi",
+    "appleLinks": {
+      "refund": "İade talep edin",
+      "instructions": "Apple iade talimatları",
+      "status": "İade durumu ve ödeme süreleri",
+      "terms": "Apple bölgesel koşulları",
+      "support": "Apple Destek"
+    },
+    "appleNote": "Rehber, Apple’ın resmi destek malzemeleriyle 30 Eylül 2026 tarihinde karşılaştırıldı. İade uygunluğu bölgenize ve yürürlükteki hukuka bağlıdır.",
+    "related": "İlgili yardım",
+    "terms": "Kullanım Koşulları",
+    "privacy": "Gizlilik Politikası"
+  },
+  "api": {
+    "invalidBody": "Geçersiz istek gövdesi.",
+    "invalidJson": "Geçersiz JSON.",
+    "name": "Lütfen adınızı girin.",
+    "email": "Lütfen geçerli bir e-posta adresi girin.",
+    "topic": "Konu çok uzun.",
+    "message": "Lütfen sorununuzu en az 10 karakterle anlatın.",
+    "unavailable": "Destek formu geçici olarak kullanılamıyor. Lütfen bize e-posta yazın.",
+    "saveFailed": "Mesajınızı kaydedemedik. Lütfen tekrar deneyin veya bize e-posta yazın.",
+    "forbidden": "Bu istek destek sayfasından gelmedi. Lütfen sayfayı yenileyip tekrar deneyin.",
+    "challenge": "Lütfen doğrulama kontrolünü tamamlayıp tekrar deneyin.",
+    "replySubject": "SMS Code destek"
+  }
+}

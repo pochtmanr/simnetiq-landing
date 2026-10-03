@@ -1,0 +1,152 @@
+{
+  "title": "Créer un compte Google sans votre numéro",
+  "description": "Google n’exige pas toujours un numéro — et quand il le fait, il n’a pas à être le vôtre. Parcours sans téléphone, numéro virtuel et piège de récupération.",
+  "excerpt": "Parfois Google vous laisse vous inscrire sans aucun téléphone\u00a0; parfois l’invite est obligatoire. Voici ce qui décide, les voies qui fonctionnent vraiment, et le réglage de récupération qui garde ensuite le compte à vous.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Un compte Google est la clé de la moitié d’internet — Gmail, YouTube, Drive, le Play Store, chaque bouton «\u00a0Se connecter avec Google\u00a0». C’est précisément pourquoi remettre à Google votre numéro personnel pèse plus lourd que de le donner à un forum\u00a0: ce numéro s’attache au compte qui connaît déjà vos recherches, votre historique de position et votre boîte mail."
+    },
+    {
+      "type": "p",
+      "text": "Voici la part que la plupart des guides ont tort\u00a0: Google n’exige pas toujours un numéro de téléphone. Parfois l’inscription passe avec juste un nom et une date de naissance\u00a0; parfois le même formulaire refuse de continuer tant qu’un code n’est pas envoyé quelque part. Ce que vous obtenez n’est pas aléatoire — et une fois que vous savez ce qui fait pencher la balance, vous pouvez choisir la voie qui convient."
+    },
+    {
+      "type": "p",
+      "text": "Ce guide couvre quand l’invite apparaît vraiment, les façons de s’inscrire qui fonctionnent vraiment sans votre numéro, et — parce que cela compte plus ici qu’ailleurs — comment configurer la récupération afin que le compte ne dépende jamais d’un numéro que vous ne gardez pas."
+    },
+    {
+      "type": "h2",
+      "id": "when-google-actually-asks",
+      "text": "Quand Google exige vraiment un numéro"
+    },
+    {
+      "type": "p",
+      "text": "Google décide à chaque inscription si la vérification téléphone est exigée, selon le risque que la tentative paraît présenter. Vous ferez probablement face à une invite obligatoire quand plusieurs de ces éléments s’alignent\u00a0:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "L’inscription vient d’un navigateur de bureau — surtout un profil neuf, une fenêtre privée ou une sortie VPN que les systèmes de Google n’ont pas vus avant.",
+        "Plusieurs comptes ont été créés récemment depuis le même appareil, réseau ou empreinte de navigateur. Le compteur est invisible, mais il existe — le deuxième et le troisième compte font face à l’invite bien plus souvent que le premier.",
+        "Quelque chose dans la tentative a l’air automatisé\u00a0: une cadence de frappe inhabituelle, une tranche d’IP signalée, une adresse de centre de données."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Retournez cela et vous obtenez les parcours plus amicaux\u00a0: les inscriptions depuis un vrai téléphone, sur une connexion résidentielle, à un rythme non pressé sont celles où le champ téléphone apparaît marqué facultatif — ou pas du tout. C’est la nuance honnête\u00a0: vous ne pouvez pas forcer Google à sauter l’invite, mais vous pouvez choisir le parcours où le saut est le plus probable."
+    },
+    {
+      "type": "h2",
+      "id": "why-keep-your-number-out",
+      "text": "Pourquoi en tenir votre numéro à l’écart"
+    },
+    {
+      "type": "p",
+      "text": "Au-delà du principe général — une base de moins qui détient votre identifiant permanent — Google utilise spécifiquement un téléphone vérifié pour lier les comptes entre eux\u00a0: les numéros relient vos comptes «\u00a0séparés\u00a0», attachent les inscriptions à votre profil publicitaire, et rendent les comptes anonymes ou séparés du travail tout sauf cela. Un numéro est aussi un canal de découverte\u00a0: les personnes qui l’ont dans leurs contacts peuvent se voir montrer votre profil. Si tout le sens d’un second compte est la séparation, le relier à la même SIM le défait dès le premier jour."
+    },
+    {
+      "type": "h2",
+      "id": "routes-that-work",
+      "text": "Les voies qui fonctionnent vraiment"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sautez-le quand il est facultatif. Si le champ téléphone montre une option «\u00a0Passer\u00a0» — prenez-la. Ajoutez un e-mail de récupération à l’écran suivant et le compte est complet. C’est la voie à coût zéro et elle fonctionne plus souvent qu’on ne l’attend, surtout sur les parcours ci-dessus.",
+        "Inscrivez-vous via un appareil Android. Ajouter un compte via Paramètres → Comptes sur un téléphone ou une tablette Android est le parcours où Google ne demande le plus souvent aucun numéro — l’appareil lui-même cautionne l’inscription. Si vous avez un appareil Android sous la main, cela vaut d’essayer en premier.",
+        "Utilisez un numéro virtuel quand l’invite est obligatoire. Quand Google refuse de continuer sans un code, n’importe quel numéro capable de recevoir un SMS fera l’affaire — y compris un numéro virtuel loué qui ne renvoie jamais vers vous. Les étapes ci-dessous le couvrent."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-a-virtual-number",
+      "text": "Vérifier avec un numéro virtuel, étape par étape"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Louez un numéro pour Google",
+          "body": "Dans l’app SMS Code, choisissez Google comme service et un pays. Un toucher réserve un vrai numéro mobile rien que pour vous — vous le payez en pièces à partir d’un pack unique, sans abonnement."
+        },
+        {
+          "title": "Saisissez-le à l’écran de vérification",
+          "body": "De retour dans l’inscription Google, sélectionnez le pays qui correspond au numéro loué et tapez-le. Google est strict sur les formats, donc laissez le sélecteur de pays faire le travail plutôt que de taper le préfixe à la main."
+        },
+        {
+          "title": "Copiez le code",
+          "body": "Le SMS — «\u00a0G-482916 is your Google verification code\u00a0» — apparaît dans SMS Code généralement en quelques secondes. Saisissez-le et l’inscription continue."
+        },
+        {
+          "title": "Détachez le numéro tout de suite",
+          "body": "Une fois dedans, ouvrez myaccount.google.com → Sécurité, ajoutez un e-mail de récupération que vous contrôlez, puis retirez le numéro de téléphone des sections «\u00a0Téléphone de récupération\u00a0» et «\u00a0Téléphone\u00a0». Le compte repose alors sur votre mot de passe et votre e-mail seuls."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    },
+    {
+      "type": "h2",
+      "id": "the-recovery-trap",
+      "text": "Le piège de la récupération — lisez ceci avant de fermer l’onglet"
+    },
+    {
+      "type": "p",
+      "text": "Avec Google, les réglages de récupération ne sont pas une arrière-pensée\u00a0; ils sont la différence entre un compte que vous possédez et un compte que vous avez emprunté. Google s’appuie sur le téléphone vérifié pour les contrôles de connexion suspecte\u00a0: voyagez quelque part de nouveau, effacez vos cookies, ou ayez simplement de la malchance, et l’écran de connexion peut redemander le code — envoyé au numéro qui est au dossier."
+    },
+    {
+      "type": "callout",
+      "text": "Dès que l’inscription se termine, faites deux choses\u00a0: ajoutez un e-mail de récupération que vous contrôlez, et retirez le numéro loué des réglages téléphone du compte. Si le numéro reste au dossier après la fin de la location, un futur contrôle de vérification peut vous verrouiller hors de votre propre compte — c’est le seul vrai risque de tout ce processus, et il est entièrement évitable."
+    },
+    {
+      "type": "h2",
+      "id": "honest-limits",
+      "text": "Les limites honnêtes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Google peut redemander une vérification plus tard. Un nouvel appareil, un lieu étrange ou un navigateur vidé peut déclencher un autre contrôle. Avec un e-mail de récupération défini et l’ancien numéro retiré, vous vérifierez par e-mail — mais attendez-vous au défi occasionnel\u00a0; c’est ainsi que Google fonctionne pour chaque compte.",
+        "Un numéro vérifie un nombre limité de comptes. Google suit combien de comptes chaque numéro a confirmés et commence à refuser après quelques-uns. Un numéro loué que vous utilisez une fois ne heurte pas ce mur — mais le même numéro recyclé sur beaucoup d’inscriptions le fera.",
+        "Ce n’est pas un outil d’inscription en masse. Un compte privé pour la séparation ou la vie privée est un usage normal. Des fermes de comptes violent les conditions de Google, se font attraper par les mêmes systèmes de risque décrits ci-dessus, et finissent en général par une vague de suspensions."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Questions fréquentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Puis-je vraiment créer un compte Google sans aucun numéro de téléphone\u00a0?",
+          "a": "Parfois, oui. Quand le champ téléphone est marqué facultatif — le plus souvent dans le parcours d’ajout de compte d’Android ou les inscriptions à faible risque — vous pouvez le sauter entièrement et utiliser un e-mail de récupération à la place. Quand Google décide que la vérification est obligatoire pour votre tentative, un numéro doit recevoir un code\u00a0; il n’a simplement pas à être le vôtre."
+        },
+        {
+          "q": "Gmail et YouTube fonctionneront-ils normalement ensuite\u00a0?",
+          "a": "Oui. Un compte vérifié avec un numéro virtuel est un compte Google complet — Gmail, YouTube, Drive et Play se comportent de façon identique. Le seul rôle du numéro était le code unique à l’inscription."
+        },
+        {
+          "q": "Que se passe-t-il quand le numéro loué expire\u00a0?",
+          "a": "Rien — à condition que vous l’ayez retiré du compte et défini un e-mail de récupération. Le compte tourne sur votre mot de passe et votre e-mail. Si vous laissez le numéro mort comme téléphone de récupération, un futur contrôle de sécurité peut y envoyer des codes, c’est pourquoi le détacher tout de suite compte."
+        },
+        {
+          "q": "Pourquoi Google dit-il que mon numéro «\u00a0ne peut pas être utilisé pour la validation\u00a0»\u00a0?",
+          "a": "Google refuse les tranches qu’il a vues abusées — la plupart des numéros publics gratuits et certaines tranches virtuelles. Si un numéro loué est refusé, annulez l’activation sans frais dans SMS Code et prenez-en un autre, idéalement d’un autre pays\u00a0; le numéro suivant passe en général."
+        },
+        {
+          "q": "S’inscrire ainsi est-il contre les conditions de Google\u00a0?",
+          "a": "Les conditions de Google exigent des informations de récupération exactes et interdisent l’abus — elles n’exigent pas que le téléphone d’inscription soit enregistré à votre nom. Un compte personnel créé avec un numéro loué puis correctement sécurisé avec votre propre e-mail de récupération est un usage normal\u00a0; la création de comptes en masse ne l’est pas."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Viber için sanal numara",
+  "metaDescription": "Viber’ı 100+ ülkeden gerçek bir sanal numarayla etkinleştirin. Kod genellikle saniyeler içinde gelir — etkinleştirme başına ödeme, SMS yoksa ücretsiz iptal.",
+  "hero": {
+    "title": "Viber için sanal numara",
+    "intro": [
+      "Viber WhatsApp ile aynı kurala uyar: telefon numaranız hesaptır. Kaydolduğunuz, kişilerinizin gördüğü ve her sohbetin bağlandığı şey odur. Doğu Avrupa, Balkanlar ve Filipinler’de aile grubunun durduğu yer budur — er ya da geç katılmak için bir numara gerekir.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız, onu Viber’ın etkinleştirme ekranına yazarsınız ve kod uygulamada genellikle saniyeler içinde görünür. Tek seferlik bir jeton paketinden etkinleştirme başına ödersiniz — abonelik yok — ve hiçbir şey almayan bir numara ücretsiz iptal edilebilir."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Viber için neden sanal numara?",
+    "body": [
+      "Numara kimlik olduğu için Viber’da sohbet ettiğiniz herkes onu görür — topluluk üyeleri, pazar yeri satıcıları, binanın sakinler sohbeti. Hepsine bankanızın aradığı numarayı vermek göründüğünden daha büyük bir ödündür. Sanal numara hesabı tam çalışır tutar, görünen numara ise hayatınızın geri kalanına bağlı olan değildir.",
+      "Bölgesel bir açı da vardır. Viber çoğu zaman belirli bir çevrenin mesajlaşma uygulamasıdır — Ukrayna’daki akrabalar, Manila’daki iş kişileri, Varşova’daki bir mahalle grubu — ve Viber bir hesabı bir numaraya, bir birincil telefona bağlar. Kiralanan bir numara o çevre için ayrı bir kimlik kurmanıza izin verir; ikinci bir SIM olmadan ve her yerde kullandığınız numarayla birleştirmeden."
+    ]
+  },
+  "howTo": {
+    "title": "Viber’ı sanal numarayla nasıl etkinleştirirsiniz",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara alın",
+        "body": "SMS Code uygulamasını açın, servis olarak Viber’ı seçin, bir ülke seçin ve bir kez dokunun. Etkinleştirme süresi boyunca yalnızca size ayrılmış gerçek bir mobil numara tutulur."
+      },
+      {
+        "title": "Onu Viber’ın etkinleştirme ekranına girin",
+        "body": "Eşleşen ülkeyi seçin ve numarayı verildiği gibi yazın. Viber bunun yerine telefon aramasıyla doğrulamayı önerirse SMS’te kalın — SMS Code uygulamasına düşen odur."
+      },
+      {
+        "title": "Kodu alın",
+        "body": "SMS genellikle saniyeler içinde, gönderen “Viber” olarak, “Your Viber code: 528114” biçiminde gelir. Rakamları Viber’a yazın, hesap etkinleşir."
+      },
+      {
+        "title": "Yedekleyin ve yerleşin",
+        "body": "Adınızı ve fotoğrafınızı belirleyin, sonra Ayarlar → Hesap → Yedekleme (Google Drive veya iCloud) bölümünde bir sohbet yedeği oluşturun. Viber numarayı yalnızca yeniden etkinleştirmede ister — yedek ve kesintisiz oturum ihtiyacınız olan tüm sigortadır."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Keyfi yeniden yüklemeyin",
+      "body": "Viber, uygulama yeniden yüklendiğinde veya yeni telefona taşındığında numarayı yeniden doğrular. Oturum açık kaldığınız sürece hesap çalışır — etkinleştirme penceresi bittikten çok sonra da. Yeniden yüklemeyi hızlı bir düzeltme değil, yedek yerindeyken bilinçli yaptığınız bir şey olarak görün."
+    },
+    {
+      "title": "Birincil cihaz telefonunuzdur",
+      "body": "Masaüstü ve tabletteki Viber yalnızca telefonunuzda yaşayan hesabı yansıtır — ona bağlıdır, bağımsız değildir. Telefon uygulamasını kurulu ve oturum açık tutun; o giderse bağlı cihazlar da onunla gider."
+    },
+    {
+      "title": "Yabancıların görebildiğini kırpın",
+      "body": "Ayarlar → Gizlilik bölümünde çevrimiçi durumunuzu ve fotoğrafınızı kişileriniz dışındakilerden gizleyebilirsiniz. Herkese açık topluluklarda Viber zaten numara yerine bir takma ad gösterir — ama bu anahtarları sıkmak her hesapta iyi alışkanlıktır."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kiralanan numaranın süresi bitince Viber çalışmaya devam eder mi?",
+      "a": "Evet. Numara sürekli değil, etkinleştirmede kontrol edilir. Telefonunuzda oturum açık kalsın, her şey normal çalışır; numara yalnızca yeniden yüklerseniz veya cihaz değiştirirseniz yine gerekir — yedek alın ve bunu gelişigüzel yapmayın."
+    },
+    {
+      "q": "Kişilerim numaranın sanal olduğunu görür mü?",
+      "a": "Numaranın kendisini görürler — Viber böyle çalışır, WhatsApp gibi — ama sıradan bir mobil numara gibi görünür, çünkü öyledir. Mesele de budur: gördükleri numara kişisel numaranız değildir."
+    },
+    {
+      "q": "Aynı telefonda ikinci bir Viber hesabı çalıştırabilir miyim?",
+      "a": "Viber’ın kendi içinde hayır — uygulama birincil cihaz olarak telefon başına bir hesabı destekler. Pratikte ikinci bir hesap ya ikinci bir cihaz ya da bazı Android telefonların sunduğu uygulama klonlama ister. Hesap nerede yaşarsa yaşasın kendi numarasına ihtiyaç duyar."
+    },
+    {
+      "q": "Viber kodum neden gelmedi?",
+      "a": "Önce temele bakın: Viber’da seçilen ülke kiralanan numarayla eşleşmelidir. Eşleşiyorsa ve SMS hâlâ gelmiyorsa SMS Code’da bekleyen etkinleştirmeyi iptal edin — hiçbir şey almayan numaralar için jetonlar geri gelir — ve taze bir numara alın. Viber ikisini de sunduğunda geri arama yerine SMS’i seçin."
+    },
+    {
+      "q": "Viber’ı kiralanan numarayla etkinleştirmek serbest mi?",
+      "a": "Viber, etkinleştirmede numarayı kontrol ettiğinizi doğrular — kiralama süresi boyunca edersiniz. Olağan kişisel kullanım için bu kadardır; sonrasında önemli olan Viber’ın kendi kurallarına uymaktır, bunlar davranış hakkındadır, numaranın kimin adına olduğu hakkında değil."
+    }
+  ]
+}

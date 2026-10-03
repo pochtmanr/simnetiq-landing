@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for WhatsApp — Verify Without a SIM Card",
+  "metaDescription": "Verify WhatsApp with a real virtual number from 100+ countries. The 6-digit code arrives usually within seconds. No SIM, no subscription, free cancel if no SMS.",
+  "hero": {
+    "title": "A virtual number for WhatsApp",
+    "intro": [
+      "In WhatsApp, the phone number isn't just a login — it is the account. Every contact who has your number saved sees your profile, and moving to a different number means walking through the official Change Number flow. Whatever number you register with, you're wearing it in public.",
+      "With SMS Code you rent a real mobile number in one of 100+ countries, enter it on WhatsApp's sign-up screen, and the 6-digit verification code appears in the app usually within seconds. You pay per activation from a one-time coin pack — and if a number receives nothing, you cancel it without being charged."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for WhatsApp?",
+    "body": [
+      "Because your number is your WhatsApp identity, giving it out is a bigger decision than on most apps: sellers on marketplaces, group chats full of strangers and one-off business contacts all end up with a direct line to you. A virtual number gives that public-facing identity a firewall — the account behaves exactly like any other, but the number behind it isn't the one your bank and family use.",
+      "It's also the clean way to run a second, separate WhatsApp. A work profile through WhatsApp Business can live on the same phone as your personal app, but it needs its own number. The same goes for signing up while abroad, when your home SIM is out of reach or roaming makes receiving SMS unreliable — a rented local number gets you verified without swapping cards."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify WhatsApp with a virtual number",
+    "steps": [
+      {
+        "title": "Get a number in SMS Code",
+        "body": "Open the SMS Code app, choose WhatsApp as the service, pick a country and tap once. A real mobile number is reserved just for you for the length of the activation."
+      },
+      {
+        "title": "Enter it in WhatsApp",
+        "body": "On WhatsApp's registration screen, select the matching country and type the number exactly as issued. WhatsApp reads the country from the code you pick, so a mismatch here is the classic reason a code never shows up."
+      },
+      {
+        "title": "Grab the 6-digit code",
+        "body": "The SMS arrives in the SMS Code app, usually within seconds, from sender “WhatsApp” and formatted like “WhatsApp code 305-921”. Type the six digits into WhatsApp — the dash is just formatting."
+      },
+      {
+        "title": "Set a two-step verification PIN",
+        "body": "Straight after signing up, go to Settings → Account → Two-step verification and set a PIN. WhatsApp re-verifies the number when you reinstall or switch phones, and the PIN is what proves the account is yours at that moment."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "WhatsApp is picky about numbers — plan for a retry",
+      "body": "WhatsApp screens incoming registrations harder than most services and can refuse to send a code to a number it suspects is temporary. That's normal: cancel the pending activation in SMS Code — the coins for numbers that received nothing come back to your balance — and try again, ideally with a different country."
+    },
+    {
+      "title": "Finish setting the account up",
+      "body": "Set a name and photo and message people who know you — that is what a normal new account looks like, and it is all we can honestly recommend. Mass-messaging strangers from a fresh account is what WhatsApp's anti-spam systems exist to stop, and no rented number changes that: a virtual number gets you through the ordinary registration check, it is not a way around a block."
+    },
+    {
+      "title": "Stay signed in and the account stays yours",
+      "body": "WhatsApp only asks for the number again when you re-register — reinstalling the app or moving to a new phone. As long as you stay logged in on your device, the account keeps working after the rented number's activation window ends. The two-step PIN is your safety net for that future re-verification."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will my WhatsApp keep working after the number expires?",
+      "a": "Yes. The number is checked at registration, not on an ongoing basis. Stay logged in on your phone and the account works normally. Re-verification only happens when you reinstall WhatsApp or switch devices — which is why setting the two-step verification PIN right after signup matters."
+    },
+    {
+      "q": "Why didn't my WhatsApp code arrive?",
+      "a": "Two common causes: the country selected in WhatsApp doesn't match the number, or WhatsApp declined to send a code to that particular number — it's stricter than most services about ones it suspects are temporary. Cancel the pending activation in SMS Code free of charge and take a fresh number, ideally in another country. WhatsApp may also offer to call the number with the code, or on re-registration send it to an existing WhatsApp session instead of by SMS."
+    },
+    {
+      "q": "Can I run a second WhatsApp account this way?",
+      "a": "Yes — that's one of the most common uses. Install WhatsApp Business alongside the regular app on the same phone and register it with your virtual number. You get a fully separate work identity: its own profile, its own chats, its own number your clients see."
+    },
+    {
+      "q": "Will my contacts see that the number is virtual?",
+      "a": "No. It's a real mobile number on a real carrier network, and to everyone else the account looks entirely ordinary. What contacts do see is the number itself — that's how WhatsApp works — so the point of a virtual number is precisely that the number they see isn't your personal one."
+    },
+    {
+      "q": "Can my account get banned for using a virtual number?",
+      "a": "WhatsApp doesn't ban accounts for how the number was obtained — it bans behaviour: bulk messaging, spam, automation. A new account on any number that immediately mass-messages strangers is at risk. Use the account like a person, not a broadcast tool, and it's no different from one registered on a SIM."
+    }
+  ]
+}

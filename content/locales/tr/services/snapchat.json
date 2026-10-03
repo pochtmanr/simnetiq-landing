@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Snapchat için sanal numara",
+  "metaDescription": "Snapchat’ı 100+ ülkeden gerçek bir sanal numarayla doğrulayın. Kod genellikle saniyeler içinde gelir — SIM yok, abonelik yok, SMS yoksa ücretsiz iptal.",
+  "hero": {
+    "title": "Snapchat için sanal numara",
+    "intro": [
+      "Snapchat yalnızca bir e-posta ile hesap açar — telefon alanı kayıtta gerçekten atlanabilir. Uzun süre sessiz kalmaz: yeni bir cihazdan giriş yapın, bir güvenlik kontrolüne takılın veya unutulan parolayı kurtarmayı deneyin; Snapchat kod gönderebileceği bir numara istemeye başlar.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız, onu Snapchat’a yazarsınız ve doğrulama SMS’i uygulamada genellikle saniyeler içinde görünür. Tek seferlik bir jeton paketinden etkinleştirme başına ödersiniz — abonelik yok — ve SMS almayan her etkinleştirme ücretsiz iptal edilebilir."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Snapchat için neden sanal numara?",
+    "body": [
+      "Snapchat insanların en rahat olduğu yerdir — seriler, kaybolan snap’ler, Hızlı Ekle’den arkadaşların arkadaşları. Telefon numaranız bu karışıma ait değildir: hesaba bir kez girince onu kişilerinde kayıtlı tutan herkes sizi önerilen arkadaş olarak çıkarabilir; sınıf arkadaşlarının, iş arkadaşlarının ve bir kez karşılaştığınız yabancıların snap hayatınıza takılmasının yolu tam budur. Sanal numara hesabı doğrulanmış tutar, gerçek numaranız ise onu gerçekten verdiğiniz kişilerde kalır.",
+      "Snapchat’ın istediği numaranın da şu anda çalışması gerekir: doğrulama sorguları ve parola kurtarma o anda bir mesaj almaya bağlıdır. SMS Code uygulamasındaki kiralanan numara tam olarak bunu yapar — Snapchat’ın ihtiyaç duyduğu tek kodu yakalar, snap’leriniz ile SIM kartınız arasında kalıcı bir bağ olmadan."
+    ]
+  },
+  "howTo": {
+    "title": "Snapchat’ı sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara alın",
+        "body": "SMS Code uygulamasını açın, servis olarak Snapchat’ı seçin, bir ülke seçin ve bir kez dokunun. Etkinleştirme süresi boyunca yalnızca size ayrılmış gerçek bir mobil numara tutulur."
+      },
+      {
+        "title": "Onu Snapchat’a girin",
+        "body": "Snapchat telefon istediğinde kayıt ekranında ya da daha sonra Ayarlar → Cep Numarası bölümünde. Kiralanan numarayla eşleşen ülke kodunu seçin — uyuşmazlık kodun hiç görünmemesinin olağan nedenidir."
+      },
+      {
+        "title": "Kodu alın",
+        "body": "SMS, SMS Code uygulamasına genellikle saniyeler içinde, gönderen “Snapchat” olarak, “Snapchat code: 719402. Happy Snapping!” biçiminde gelir. Rakamları Snapchat’a yazın, numara onaylanır."
+      },
+      {
+        "title": "Gizlilik vidalarını sıkın",
+        "body": "Ayarlar → Cep Numarası bölümünde “Başkaları beni telefon numaramla bulabilsin” seçeneğini kapatın. Sonra sahip olduğunuz bir e-postayı doğrulayın ve kimlik doğrulayıcı ile iki adımlı doğrulamayı açın — kurtarma hiçbir SMS’e bağlı kalmaz."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Telefonla bulunmayı kapatın",
+      "body": "Hızlı Ekle kısmen eşitlenmiş kişilerle çalışır: bir numarayı kayıtlı tutan kişi, sahibine gösterilebilir. Telefon numarasıyla bulunma kapalıyken kiralanan numara hesabı doğrular ama sizi onun üzerinden bulunabilir yapmaz — her hesapta tutmaya değer bir alışkanlık."
+    },
+    {
+      "title": "Kurtarmaya ikinci bir yol verin",
+      "body": "Snapchat parola sıfırlamada telefona yaslanır; bir e-posta adresini de doğrulayın ve kimlik doğrulayıcı 2FA açın. O zaman unutulan bir parola, etkinleştirme penceresi çoktan bitmiş bir numarada mesaj almaya kalmaz."
+    },
+    {
+      "title": "Yeniden gönder düğmesine yüklenmeyin",
+      "body": "Snapchat kod isteklerini hız sınırına sokar: art arda çok isterseniz bir süre sessiz kalır. İlk koda gelmesi için bir an verin; numara boş kalırsa etkinleştirmeyi ücretsiz iptal edin ve boşluğa yeniden göndermek yerine taze bir tane alın."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Snapchat’ı hiç telefon numarası olmadan kullanabilir miyim?",
+      "a": "Yalnızca e-posta ile kaydolabilirsiniz, evet. Ama bir şey alışılmadık göründüğünde Snapchat telefon ister — yeni cihaz, güvenlik sorgusu, parola sıfırlama — ve o noktada hemen mesaj alabilen bir numara gerekir. Kiralanan bir numara tam o anı karşılar."
+    },
+    {
+      "q": "Numaranın süresi bitince Snapchat’ım çalışmaya devam eder mi?",
+      "a": "Evet. Numara doğrulama anında önemlidir, sonrasında değil. Oturum açık kalsın, bir e-posta doğrulayın ve kimlik doğrulayıcı 2FA açın; hesap o numaraya bir daha ihtiyaç duymaz."
+    },
+    {
+      "q": "Kullandığım numarayı arkadaşlarım görür mü?",
+      "a": "Hayır — Snapchat telefon numaranızı profilinizde hiç göstermez. Tek açıklık bulunabilirliktir: numarayı kişilerinde tutan kişiler sizi Hızlı Ekle’de görebilir. “Başkaları beni telefon numaramla bulabilsin” seçeneğini kapatın, o yol da kapanır."
+    },
+    {
+      "q": "Snapchat kodum neden gelmedi?",
+      "a": "Olağan şüpheliler: Snapchat’ta seçilen ülke kodu kiralanan numarayla uyuşmuyor ya da yeniden gönderme sınırına çarptınız ve Snapchat teslimatı duraklattı. SMS Code’da bekleyen etkinleştirmeyi iptal edin — hiçbir şey almayan numaralar için jetonlar geri gelir — ve taze bir numarayla baştan başlayın."
+    },
+    {
+      "q": "İkinci bir Snapchat hesabım olabilir mi?",
+      "a": "Snapchat kişi başına birden fazla hesaba izin verir — diyelim kişisel bir tane ve herkese açık ya da proje için bir tane — ve uygulama aralarında geçiş yapabilir. Her birinin kendi kullanıcı adı ve kendi iletişim bilgisi gerekir; ayrı bir sanal numara tam buraya oturur."
+    }
+  ]
+}

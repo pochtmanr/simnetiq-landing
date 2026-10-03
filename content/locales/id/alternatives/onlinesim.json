@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternatif OnlineSim — aplikasi SMS Code oleh SIMNETIQ",
+  "metaDescription": "Membandingkan OnlineSim dengan aplikasi SMS Code oleh SIMNETIQ: sewa nomor jangka panjang di web versus kesederhanaan per aktivasi di aplikasi iOS asli.",
+  "hero": {
+    "title": "Alternatif OnlineSim yang berfokus pada aktivasi sekali ketuk",
+    "intro": [
+      "OnlineSim adalah layanan web untuk menerima SMS di nomor virtual, dan ciri pembedanya adalah rentang: di samping aktivasi sekali, situs mereka menggambarkan sewa jangka lebih panjang di mana Anda menyimpan nomor berhari-hari atau berminggu-minggu dan menerima SMS tanpa batas dari layanan apa pun selama jendela itu. Jika suatu nomor perlu tetap milik Anda beberapa saat, itu wilayah asal mereka.",
+      "SMS Code oleh SIMNETIQ sengaja melakukan satu hal: verifikasi per aktivasi di aplikasi iOS asli. Pilih layanan dan negara, dapatkan nomor asli, dan kode muncul di aplikasi biasanya dalam hitungan detik. Anda membayar dengan paket koin sekali beli — tanpa langganan, tanpa jam sewa — dan aktivasi yang tidak menerima apa pun dibatalkan gratis."
+    ]
+  },
+  "whenThem": {
+    "title": "Kapan OnlineSim adalah pilihan yang lebih baik",
+    "body": "Pilih OnlineSim saat Anda membutuhkan nomor yang hidup lebih lama dari satu kode. Model sewa mereka — menyimpan nomor untuk periode yang dipilih dan menerima SMS tanpa batas di atasnya — cocok untuk akun yang akan meminta verifikasi ulang, layanan yang mengirim kode saat masuk, atau siapa pun yang ingin nomor yang sama dapat dihubungi berhari-hari atau berminggu-minggu. Aplikasi per aktivasi benar-benar tidak dapat mencakup skenario itu: setelah aktivasi selesai, nomor kembali ke kumpulan."
+  },
+  "whenUs": {
+    "title": "Kapan aplikasi SMS Code lebih cocok",
+    "body": "Pilih aplikasi saat yang benar-benar Anda butuhkan adalah kode, sekali, sekarang. Sebagian besar pendaftaran — akun pesan instan kedua, pendaftaran marketplace, uji coba — memverifikasi nomor sekali dan tidak pernah mengirim teks lagi, dan untuk kasus itu sewa berarti membayar hari yang tidak akan Anda pakai. Aplikasi menjaganya pada satu transaksi: beberapa ketukan, nomor asli di salah satu dari 100+ negara, SMS biasanya dalam hitungan detik, dan pembatalan gratis jika tidak ada yang masuk. Penagihan lewat App Store, jadi tidak ada saldo akun web yang dikelola."
+  },
+  "comparison": {
+    "title": "OnlineSim vs aplikasi SMS Code, berdampingan",
+    "rows": [
+      {
+        "label": "Platform",
+        "competitor": "Layanan web; situs mereka juga mendokumentasikan API",
+        "us": "Aplikasi iOS asli dari App Store"
+      },
+      {
+        "label": "Model harga",
+        "competitor": "Aktivasi sekali plus sewa nomor jangka lebih panjang menurut periode",
+        "us": "Paket koin sekali beli, bayar per aktivasi — tanpa sewa, tanpa langganan"
+      },
+      {
+        "label": "Pembayaran",
+        "competitor": "Isi saldo di web dengan metode yang tercantum di situs mereka",
+        "us": "Penagihan toko Apple — tidak ada detail kartu yang dibagikan kepada kami"
+      },
+      {
+        "label": "Cakupan",
+        "competitor": "Daftar negara yang luas, lebih lebar untuk aktivasi daripada untuk sewa",
+        "us": "100+ negara dan 100+ layanan populer, dikurasi untuk pendaftaran sehari-hari"
+      },
+      {
+        "label": "Pembatalan",
+        "competitor": "Diatur aturan pengembalian dana mereka sendiri — periksa ketentuan terkini",
+        "us": "Aktivasi yang tidak menerima SMS dibatalkan gratis, koin kembali"
+      },
+      {
+        "label": "Dukungan",
+        "competitor": "Kanal dukungan lewat situs mereka",
+        "us": "Formulir kontak di aplikasi dan situs"
+      },
+      {
+        "label": "Paling cocok untuk",
+        "competitor": "Menjaga satu nomor dapat dihubungi selama berhari-hari atau berminggu-minggu SMS",
+        "us": "Kode verifikasi sekali tanpa komitmen berkelanjutan"
+      }
+    ],
+    "note": "Detail pesaing mencerminkan situs publik mereka saat tulisan ini dibuat dan dapat berubah — selalu konfirmasi di onlinesim.io sebelum memutuskan."
+  },
+  "switchSteps": {
+    "title": "Mencoba aplikasi memakan tiga langkah",
+    "steps": [
+      {
+        "title": "Pasang aplikasinya",
+        "body": "Dapatkan SMS Code oleh SIMNETIQ dari App Store — tidak perlu akun web atau penyiapan dompet."
+      },
+      {
+        "title": "Ambil paket koin",
+        "body": "Beli paket sekali lewat akun toko Anda. Anda membayar per aktivasi; tidak ada periode sewa yang berdetak di latar."
+      },
+      {
+        "title": "Jalankan aktivasi pertama",
+        "body": "Pilih layanan dan negara, dapatkan nomor asli, dan lihat kode masuk ke aplikasi biasanya dalam hitungan detik. Jika tidak ada yang masuk, aktivasi dibatalkan gratis."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Apa perbedaan utama antara OnlineSim dan aplikasi SMS Code?",
+      "a": "Modelnya. Situs OnlineSim menekankan sewa nomor — memegang nomor berhari-hari atau berminggu-minggu dengan SMS masuk tanpa batas — di samping aktivasi sekali. Aplikasi SMS Code oleh SIMNETIQ hanya melakukan verifikasi per aktivasi, dibungkus aplikasi seluler asli dengan paket koin sekali beli."
+    },
+    {
+      "q": "Bisakah saya menyimpan nomor jangka panjang di aplikasi SMS Code?",
+      "a": "Tidak — setiap aktivasi mencakup menerima kode untuk satu layanan, lalu nomor kembali ke kumpulan. Jika Anda membutuhkan nomor yang sama dapat dihubungi untuk rentang panjang, layanan sewa seperti OnlineSim secara jujur lebih cocok."
+    },
+    {
+      "q": "Apakah akun saya berhenti berfungsi saat nomornya berakhir?",
+      "a": "Untuk sebagian besar layanan, tidak. Nomor hanya dibutuhkan pada langkah verifikasi; jika Anda mengaktifkan perlindungan tingkat aplikasi seperti kata sandi dua faktor, login berikutnya tidak bergantung pada menerima SMS lain ke nomor itu."
+    },
+    {
+      "q": "Apa yang terjadi jika kode saya tidak pernah masuk?",
+      "a": "Aktivasi dibatalkan dan koin Anda dikembalikan. Anda hanya membayar nomor yang benar-benar menerima SMS."
+    },
+    {
+      "q": "Apakah saya perlu membuat akun di situs untuk memakai aplikasi?",
+      "a": "Tidak ada dompet web atau dasbor yang terlibat. Anda memasang aplikasi dari App Store, membeli paket koin melalui penagihan toko, dan semuanya terjadi di aplikasi."
+    }
+  ]
+}

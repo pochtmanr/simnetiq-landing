@@ -1,0 +1,75 @@
+{
+  "metaTitle": "KakaoTalk için sanal numara",
+  "metaDescription": "KakaoTalk kodunu gerçek bir sanal numarada genellikle saniyeler içinde alın. Kore’nin ana mesajlaşma uygulamasını kişisel telefonunuzu vermeden kullanın.",
+  "hero": {
+    "title": "KakaoTalk için sanal numara",
+    "intro": [
+      "KakaoTalk Kore’nin konuşma biçimidir — grup sohbetleri, aile iplikleri, iş kişileri — ve her ciddi mesajlaşma uygulaması gibi bir telefon ekranıyla açılır. Kayıt “[KakaoTalk] 4829 is your verification code” gibi kısa bir kod gönderir ve etrafından dolaşan yalnızca e-posta yolu yoktur.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız ve kod uygulamada genellikle saniyeler içinde görünür. Sohbete girersiniz — ve orada bekleyen Koreli arkadaşlar, iş arkadaşları veya kayınlar size ulaşmak için kişisel numaranıza hiç ihtiyaç duymaz."
+    ]
+  },
+  "whyVirtual": {
+    "title": "KakaoTalk için neden sanal numara?",
+    "body": [
+      "Telefon numarası üzerine kurulu mesajlaşma uygulamalarının sessiz bir varsayılanı vardır: numaranızı kayıtlı tutan herkes profilinizi bulabilir ve sohbet ettiğiniz herkes bir ayar uzağındadır. Bir dil değişimi, bir iş kişisi veya Seul’e bir yolculuk için KakaoTalk’a katılmak, ömürlük numaranızın başka bir sosyal grafa girmesi demek olmamalıdır. Kiralanan numara doğrulamayı üstlenir, gerçek numaranız denklemin dışında kalır.",
+      "Dürüst ters yüzü: Koreli olmayan bir numara size tam bir sohbet hesabı verir ama Kakao’nun tamamını değil. Ekosistemin Kore’ye kapılı köşeleri — Kakao Pay, sertifika servisleri, Kore operatör kimlik kontrollerine bağlı özellikler — bir Kore telefon sözleşmesi ve çoğu zaman bir yerleşik kimliği bekler; hiçbir kiralanan numara bunların yerine geçmez. Amaç sohbetse sanal numara işi tamamen yapar; amaç Kore finansal hizmetleriyse hiçbir zaman yeterli olmayacaktı."
+    ]
+  },
+  "howTo": {
+    "title": "KakaoTalk’u sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "Servis olarak KakaoTalk’u seçin ve bir ülke seçin. Gerçekten yaşadığınız yerden bir numara hesabı sıradan tutar. Tek dokunuş size gerçek bir mobil numara ayırır."
+      },
+      {
+        "title": "Kayıt ekranına girin",
+        "body": "KakaoTalk numarayı kurulumdan hemen sonra ister. Eşleşen ülke kodunu seçin, numarayı yazın ve uygulamanın SMS göndermesine izin verin."
+      },
+      {
+        "title": "Kodu yazın",
+        "body": "Metin “[KakaoTalk] 4829 is your verification code” olarak gelir ve SMS Code’da genellikle saniyeler içinde görünür. Girin — SMS takılırsa KakaoTalk bir bekleyişten sonra kodu sesli aramayla da okuyabilir."
+      },
+      {
+        "title": "Hesabı uzun vadeye kurun",
+        "body": "Ayarlarda bir Kakao hesap e-postası ve parolası kaydedin ve onları güvenli bir yere not edin. Cihaz geçişleri ve yeniden kurulumlar o Kakao hesabına yaslanır — kiralanan numara gittikten sonra sohbetlerinizi sizde tutan odur."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Sohbetler cihazda, yedekler hesapta yaşar",
+      "body": "KakaoTalk geçmişi yerel saklar ve Kakao hesabınıza bağlı yedeklerle geri yükler. Hesap e-postasını ve parolasını hemen belirleyin ve telefon değiştirmeden önce yedek alın — telefon numarası tek başına geçmişinizi hiçbir yere taşımaz."
+    },
+    {
+      "title": "Bulunma ayarlarına dikkat edin",
+      "body": "KakaoTalk sizi numaranızı kayıtlı tutan herkesle eşleştirebilir, geri dönüştürülmüş bir numaranın geçmiş hayatı dahil. Ayarlarda telefon numarasıyla otomatik arkadaş eklemeyi kapatın ve bunun yerine KakaoTalk kimliğinizi paylaşın — yaşanacak daha temiz tutamaç odur."
+    },
+    {
+      "title": "Yalnızca Kore özellikleri kimlik kapılıdır, numara kapılı değil",
+      "body": "Kakao Pay, sertifikalar ve benzeri servisler yalnızca bir +82 önekine değil, Kore operatörlerine ve yerleşik kaydına karşı doğrular. Kiralanan bir Kore numarası onları açmaz — herhangi bir doğrulanmış numarada tam çalışan sohbet özelliklerinin etrafında plan yapın."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "KakaoTalk’a Koreli olmayan bir numarayla kaydolabilir miyim?",
+      "a": "Evet. KakaoTalk hesapları çoğu ülkeden numaralarla kaydeder — kayıt, sohbetler, gruplar ve aramalar çalışır. Üste katmanlanan Kore’ye özel servislerin, bir telefon numarasının tek başına karşılamadığı kendi kimlik kontrolleri vardır."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince KakaoTalk hesabım ayakta kalır mı?",
+      "a": "Evet, oturumunuz açık kaldığı ve bir Kakao hesap e-postası ile parolası belirlediğiniz sürece. Yeniden doğrulama esas olarak yeni bir cihaza geçtiğinizde çıkar — geçişi hâlâ onay alabilirken yapın veya Kakao hesap bilgilerine yaslanın."
+    },
+    {
+      "q": "KakaoTalk numaranın kullanılamayacağını neden söylüyor?",
+      "a": "Bazı aralıklar ve daha önce kaydedilmiş numaralar reddedilir. SMS Code’da etkinleştirmeyi ücretsiz iptal edin, taze bir numara alın — kalıp tekrarlanırsa başka bir ülke — ve doğrulamayı yeniden çalıştırın."
+    },
+    {
+      "q": "Arkadaşlar hangi numarayı kullandığımı görebilir mi?",
+      "a": "Numarayı zaten kayıtlı tutan kişiler, otomatik arkadaş ekleme açıksa onu profilinizle eşleştirebilir. Numarayla arkadaş eklemeyi kapatın, tanıtımlar için KakaoTalk kimliğinizi kullanın; numara herkese açık bir tutamaç değil, bir giriş ayrıntısı olarak kalır."
+    },
+    {
+      "q": "Sanal numara Kakao Pay veya Kore doğrulama servisleri için çalışır mı?",
+      "a": "Hayır. Onlar Kore operatör sözleşmelerini ve yerleşik kimliğini kontrol eder; kiralanan bir numara bunları taşımaz. Sanal numara mesajlaşma uygulamasının kendisi içindir — hesaplar, sohbetler ve aramalar — Kore’nin kimlik kapılı finansal katmanı için değil."
+    }
+  ]
+}

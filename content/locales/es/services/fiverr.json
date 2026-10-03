@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Fiverr",
+  "metaDescription": "Recibe el código SMS de Fiverr en un número virtual real, normalmente en segundos, y deja tu identidad freelance aparte de tu teléfono personal.",
+  "hero": {
+    "title": "Número virtual para Fiverr",
+    "intro": [
+      "Fiverr comprueba teléfonos más que la mayoría de marketplaces. Quien compra topa con la pantalla de verificación en el alta o en el pago, y quien abre un perfil de vendedor tiene que verificar un número antes de que el gig se publique: llega por SMS un código como «Your Fiverr verification code is: 517284» y el formulario no se mueve sin él.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países y el código aparece en la aplicación normalmente en segundos. Tu perfil queda verificado, y el número al que pueden llegar cada cliente, cada disputa y cada lista comercial se queda aparte del teléfono de tu bolsillo."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Fiverr?",
+    "body": [
+      "Hacer freelance en un marketplace significa que tu identidad de trabajo es pública por diseño: un nombre para mostrar, un portafolio, reseñas de desconocidos. Tu teléfono no debería formar parte de ese trato. Cuando tu número personal se sienta detrás de una cuenta de vendedor, está a un ticket de soporte, una filtración o un comprador demasiado entusiasta de tu bolsillo real, y, a diferencia de un nombre para mostrar, no puedes rebautizar un teléfono que llevas una década.",
+      "La otra cara, honesta: el teléfono es un control, no el cimiento de la cuenta. Fiverr ancla las cuentas al correo y a la contraseña, y los controles serios de vendedor — verificación de identidad, datos de cobro, formularios fiscales — son procesos aparte que un teléfono no ataja. Un número virtual hace bien un trabajo aquí: absorbe el paso del SMS para que tu número personal no entre nunca en la base del marketplace."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar Fiverr con un número virtual",
+    "steps": [
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Elige Fiverr como servicio y escoge un país, uno que coincida con dónde de verdad trabajas, para mantener coherentes los datos del perfil. Un toque reserva un número móvil real para ti."
+      },
+      {
+        "title": "Escríbelo cuando Fiverr lo pida",
+        "body": "El aviso aparece en Ajustes cuando verificas tu perfil, o durante el alta de vendedor, antes de que se publique tu primer gig. Selecciona el prefijo del número con cuidado y escríbelo."
+      },
+      {
+        "title": "Escribe el código",
+        "body": "Fiverr manda «Your Fiverr verification code is: 517284»: cae en la aplicación SMS Code normalmente en segundos. Escríbelo y la insignia pasa a verificado."
+      },
+      {
+        "title": "Ancla la cuenta como toca",
+        "body": "Confirma tu correo, pon una contraseña fuerte y activa la autenticación en dos factores con un autenticador, no por SMS, donde se ofrezca. La cuenta no debería depender nunca de un número que no piensas conservar."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "El alta de vendedor comprueba más que un teléfono",
+      "body": "Publicar gigs y retirar ganancias implican sus propias verificaciones: documentos de identidad, cuentas de cobro, datos fiscales en algunas regiones. Un número virtual cubre exactamente un paso, el SMS. Entra esperando que el resto exija tus credenciales reales."
+    },
+    {
+      "title": "Una cuenta es la norma",
+      "body": "Las condiciones de Fiverr permiten una cuenta activa por persona, y su cruce corre por mucho más que teléfonos. Un número virtual es para mantener privado tu teléfono personal en tu cuenta; usarlo para cultivar perfiles duplicados es el carril rápido para perderlos todos."
+    },
+    {
+      "title": "Pide el SMS enseguida",
+      "body": "El alquiler cubre una ventana limitada para que llegue el código. Llega primero a la pantalla de verificación y luego pide el SMS: no alquiles el número y lo dejes quieto mientras pulís las descripciones de los gigs."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Fiverr siempre exige verificación por teléfono?",
+      "a": "Quien compra puede mirar sin ella, pero la verificación aparece en el alta, en el pago o en la revisión del perfil, y quien vende tiene que verificar un número antes de que los gigs se publiquen. Cuando tu flujo lo pide, un número virtual recibe el código exactamente como lo haría una SIM."
+    },
+    {
+      "q": "¿Mi cuenta de Fiverr sigue funcionando cuando caduca el número alquilado?",
+      "a": "Sí. El número se comprueba cuando lo verificas, no de forma continua. Ancla la cuenta con un correo confirmado, una contraseña fuerte y doble factor en una aplicación, y los inicios de sesión del día a día no tocan el número viejo."
+    },
+    {
+      "q": "¿Puedo abrir una segunda cuenta de Fiverr con un número virtual?",
+      "a": "No: Fiverr permite una cuenta activa por persona, y las cuentas duplicadas se marcan con señales que van mucho más allá del teléfono. Usa un número virtual para dejar tu teléfono personal fuera de tu única cuenta legítima, no para multiplicar cuentas."
+    },
+    {
+      "q": "¿Un número virtual afecta la verificación de identidad o de cobro del vendedor?",
+      "a": "No. Esos son procesos aparte, con sus propios controles de documentos y de banco: el paso del teléfono ni los sustituye ni interfiere. El número virtual solo resuelve el código SMS."
+    },
+    {
+      "q": "¿Por qué no llegó el código de Fiverr?",
+      "a": "Comprueba que el prefijo del formulario coincide con el número alquilado: es el fallo más habitual. Si el SMS sigue sin llegar, cancela la activación en SMS Code sin cargo y toma un número nuevo."
+    }
+  ]
+}

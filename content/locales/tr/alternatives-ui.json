@@ -1,0 +1,21 @@
+{
+  "hub": {
+    "metaTitle": "SMS doğrulama alternatifleri — dürüst karşılaştırma",
+    "metaDescription": "SMS Code uygulamasını 5SIM, SMS-Activate.org, OnlineSim, SMS-Man ve TextVerified ile karşılaştırın — diğeri ne zaman daha uygun.",
+    "label": "Alternatifler",
+    "title": "Nasıl duruyoruz — geride kaldığımız yerler dahil",
+    "sub": "Bizi karşılaştırdığınız servislere karşı el yazısı karşılaştırmalar. Her birinde diğer platformun daha iyi seçim olduğu durumlar açıkça yazılır.",
+    "readMore": "Karşılaştırmayı okuyun"
+  },
+  "page": {
+    "breadcrumbHome": "Ana sayfa",
+    "breadcrumb": "Alternatifler",
+    "heroLabel": "Karşılaştırma",
+    "comparisonUsColumn": "SMS Code",
+    "switchLabel": "Geçiş",
+    "faqLabel": "Sorular",
+    "ctaTitle": "Bir sonraki etkinleştirmenizde deneyin",
+    "ctaSupport": "Sorunuz mu var? Desteğe yazın",
+    "disclaimer": "Rakip bilgileri yazıldığı tarihteki herkese açık malzemeleri yansıtır ve değişebilir — güncel koşullar için sitelerine bakın. Tüm ticari markalar sahiplerine aittir."
+  }
+}

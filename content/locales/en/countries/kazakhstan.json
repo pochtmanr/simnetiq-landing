@@ -1,0 +1,55 @@
+{
+  "name": "Kazakhstan",
+  "metaTitle": "Kazakhstan Virtual Number for SMS — Real +7 7XX Numbers",
+  "metaDescription": "Get a real Kazakhstani (+7 7XX) virtual number and receive SMS codes usually within seconds. Verify Telegram, VK, Viber, Steam and WhatsApp.",
+  "hero": {
+    "title": "A Kazakhstan virtual number for SMS verification",
+    "intro": [
+      "Kazakhstan shares the +7 dialing code with Russia, but its mobile numbers are easy to tell apart: they start with 7 after the country code — +7 7XX — where Russian mobiles start with 9. That makes a Kazakh number a distinct identity that still fits every form built for the +7 world.",
+      "SMS Code rents you a real Kazakhstani mobile number in one tap. Enter it at the verification step of Telegram, VK, Steam or another supported service, and the SMS with your code lands in the app usually within seconds."
+    ]
+  },
+  "whyCountry": {
+    "title": "Why choose a Kazakhstan number?",
+    "body": [
+      "Kazakh numbers are a staple across CIS-oriented services. Telegram, WhatsApp and Viber verify them routinely, VK treats them as part of its core audience, and Steam accounts registered in the region are commonly confirmed with a +7 7XX mobile. If your account lives in that ecosystem, a Kazakhstani number blends right in.",
+      "The structure mirrors the familiar +7 pattern: country code, a three-digit operator code beginning with 7, then seven digits grouped XXX XX XX. Any form that accepts +7 accepts it — you're getting the reach of the +7 zone with a number that is unambiguously Kazakh."
+    ]
+  },
+  "tips": [
+    {
+      "title": "7XX means Kazakhstan",
+      "body": "Within the shared +7 zone, mobiles beginning with 7 after the code belong to Kazakhstan while Russian mobiles begin with 9. If a service asks you to pick a country, choose Kazakhstan so its expectations match the number."
+    },
+    {
+      "title": "8 is only for domestic dialing",
+      "body": "Locally people dial 8 before the operator code, but that's a domestic habit. In any verification form use the international form — +7, then the ten digits — and it will parse cleanly."
+    },
+    {
+      "title": "Cancel free, take another",
+      "body": "If the code doesn't arrive within the activation window, cancel the activation in the app at no cost and pull a fresh Kazakhstani number. Your coins are only spent when an SMS actually comes through."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it a real Kazakhstani mobile number?",
+      "a": "Yes — a number on a real carrier network in Kazakhstan's 7XX mobile ranges. Services see a normal Kazakh phone number, not an online-only receiving address."
+    },
+    {
+      "q": "How is it different from a Russian +7 number?",
+      "a": "Both countries share +7, but the next digit tells them apart: Kazakh mobiles continue with 7 (+7 7XX…), Russian ones with 9. Services that care about the country read the operator code, so a 7XX number registers as Kazakhstan."
+    },
+    {
+      "q": "What are Kazakh numbers typically used for?",
+      "a": "CIS-favorite services above all: Telegram, VK, Viber, WhatsApp and regional Steam accounts. Any service that accepts +7 numbers will accept a Kazakhstani one."
+    },
+    {
+      "q": "Do I need to be in Kazakhstan to receive the code?",
+      "a": "No. The number exists inside the SMS Code app, so your location and your own SIM don't matter — the verification SMS reaches you anywhere in the world."
+    },
+    {
+      "q": "Does the number stay with me afterwards?",
+      "a": "The rental covers the activation window — enough time to receive the code. For accounts you plan to keep, add a recovery email and app-based 2FA right after signing up so the number is never needed again."
+    }
+  ]
+}

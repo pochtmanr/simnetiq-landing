@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for Discord — Verify Without Your Real Number",
+  "metaDescription": "Get a real mobile number for Discord phone verification usually within seconds. Clear the phone check on servers without linking your personal number.",
+  "hero": {
+    "title": "A virtual number for Discord",
+    "intro": [
+      "Discord only asks for an email at sign-up — until the day it doesn't. Try to post in a server with a high verification level, join several servers in quick succession, or connect through a VPN, and Discord's anti-abuse system demands a verified phone number before you can go any further.",
+      "With SMS Code you rent a real mobile number in one of 100+ countries, enter it in Discord, and the six-digit code from sender “Discord” appears in the app usually within seconds. Your personal number stays out of it — and out of Discord's database."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for Discord?",
+    "body": [
+      "Discord lets a phone number be verified on exactly one account at a time: verify it on a new account and it silently unlinks from the old one. That single rule is why people rent numbers for Discord. If you run a moderation account, a dev account for bot testing, or a separate identity for a community you help manage, each account needs its own number — and a virtual number gives every one a dedicated line without a drawer full of SIM cards.",
+      "The other half is that Discord is picky. It's known to reject numbers it classifies as VoIP, which is why the free “temp SMS” sites so often fail at this exact step. SMS Code issues real mobile numbers on real carrier networks, which Discord normally accepts — and on the honest occasions when a particular number is still refused, you cancel the pending activation without being charged and try a number from a different country."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify Discord with a virtual number",
+    "steps": [
+      {
+        "title": "Get a number in SMS Code",
+        "body": "Open the SMS Code app, choose Discord as the service, pick a country and tap once. The number is a real mobile line, reserved for you alone — which matters, because Discord ties each number to a single account."
+      },
+      {
+        "title": "Enter it in Discord",
+        "body": "Type the number into whichever prompt Discord is showing — the verification wall on a locked account, a phone-gated server's gate, or Settings → My Account → Add Phone. Select the matching country code; a mismatch is the most common reason a code never arrives."
+      },
+      {
+        "title": "Grab the six-digit code",
+        "body": "The SMS lands in the SMS Code app usually within seconds, from sender “Discord”: “Your Discord verification code is: 274918”. Enter it and the checkmark appears — the account is verified and any phone gate lifts."
+      },
+      {
+        "title": "Secure the account properly",
+        "body": "The number stays linked in Settings → My Account, and the account keeps working normally from here on. Add authenticator-app 2FA and save the backup codes right away — that, not the phone, is what actually protects the account long term."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "One number verifies one account — period",
+      "body": "If you verify the same number on a second Discord account, Discord moves it there and unlinks it from the first, which can push the first account straight back behind a verification wall. Rent a separate number for each account you want to keep verified."
+    },
+    {
+      "title": "If Discord rejects the number, don't fight it",
+      "body": "Discord filters out numbers it flags as VoIP, and occasionally a legitimate mobile range gets caught too. Cancel the pending activation in SMS Code — the coins for a number that received no code come back to your balance — and take a fresh number, ideally from a different country."
+    },
+    {
+      "title": "Phone-gated servers check the link, not the history",
+      "body": "Servers on the highest verification level require a phone that is currently linked to your account. You can remove the number in Settings once authenticator 2FA and backup codes are in place, but do it after you've joined the gated servers you care about — or keep it linked while you're active there."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why is Discord suddenly asking me for a phone number?",
+      "a": "Two main triggers. Servers with a high verification level require a verified phone before you can post in them at all. And Discord's anti-abuse system locks accounts pending phone verification when it sees signals it dislikes — a VPN connection, joining many servers rapidly, a fresh account acting too fast. In both cases entering a number and the six-digit code clears the block."
+    },
+    {
+      "q": "Can I verify two Discord accounts with one virtual number?",
+      "a": "No — and this isn't our limit, it's Discord's. A number can be verified on only one Discord account at a time; verifying it on a second unlinks it from the first. Rent a dedicated number per account instead, so a moderation profile or bot-testing account never knocks your main one out of verified status."
+    },
+    {
+      "q": "Will Discord accept a virtual number? I've heard it blocks them.",
+      "a": "Discord blocks numbers it classifies as VoIP, which is what most free “temp SMS” sites hand out. SMS Code numbers are real mobile numbers on carrier networks, and Discord normally accepts them. No service can promise every number passes — if one is refused, cancel the activation free of charge and try a different country."
+    },
+    {
+      "q": "What happens to my Discord account when the rented number expires?",
+      "a": "It keeps working normally. The verification is a one-time check; the number simply remains listed in Settings → My Account, and Discord doesn't re-verify it by SMS in day-to-day use. Add authenticator 2FA with backup codes and the account doesn't depend on that number at all — you can even remove it, unless you need it linked for phone-gated servers."
+    },
+    {
+      "q": "The code from Discord never arrived — what should I do?",
+      "a": "First check that the country code you selected in Discord matches the number — that mismatch causes most silent failures. If it's correct and nothing comes within a few minutes, Discord likely refused that number. Cancel the pending activation in SMS Code — the coins come back for numbers that received nothing — and request a new one from another country."
+    }
+  ]
+}

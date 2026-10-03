@@ -4,7 +4,7 @@ import { JsonLd } from "../JsonLd";
 import { RelatedServices } from "../RelatedServices";
 import { StoreBadges } from "../StoreBadges";
 import type { CountryEntry } from "../../lib/content/countries/types";
-import { SERVICES_UI } from "../../lib/content/servicesUi";
+import { servicesUi, ui } from "../../lib/content/ui";
 import { localePath, type Locale } from "../../lib/i18n";
 import { faqPage } from "../../lib/seo";
 
@@ -16,11 +16,11 @@ export function CountryPage({
   locale: Locale;
   entry: CountryEntry;
 }) {
-  const t = SERVICES_UI[locale];
-  const c = entry[locale];
+  const t = servicesUi(locale);
+  const c = entry.copy;
   return (
     <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
-      <JsonLd data={faqPage(c.faqs)} />
+      <JsonLd data={faqPage(locale, c.faqs)} />
       <div className="pt-[40px]">
         <Breadcrumbs
           locale={locale}
@@ -28,7 +28,7 @@ export function CountryPage({
             { name: t.breadcrumbHome, path: "/" },
             { name: t.breadcrumbHub, path: "/virtual-numbers" },
             {
-              name: entry.name[locale],
+              name: c.name,
               path: `/virtual-numbers/country/${entry.slug}`,
             },
           ]}
@@ -47,7 +47,7 @@ export function CountryPage({
         />
         <div>
           <span className="section-label">
-            {entry.flag} {t.heroLabel} · {entry.name[locale]}
+            {entry.flag} {t.heroLabel} · {c.name}
           </span>
           <h1 className="text-[clamp(32px,4.2vw,50px)] leading-[1.08] tracking-[-0.02em]">
             {c.hero.title}
@@ -69,7 +69,7 @@ export function CountryPage({
         <div className="card">
           <div className="flex items-center gap-[15px]">
             <span className="text-[44px] leading-none">{entry.flag}</span>
-            <span className="text-subheading">{entry.name[locale]}</span>
+            <span className="text-subheading">{c.name}</span>
           </div>
           <div className="mt-[22px] border-t border-border pt-[22px]">
             <span className="section-label">{t.country.dialingCode}</span>
@@ -116,7 +116,7 @@ export function CountryPage({
       {/* FAQ */}
       <section className="mx-auto max-w-3xl pt-[94px]">
         <span className="section-label">{t.faqLabel}</span>
-        <h2 className="text-heading">FAQ</h2>
+        <h2 className="text-heading">{ui(locale).faqHeading}</h2>
         <div className="mt-[34px]">
           {c.faqs.map((item, i) => (
             <details

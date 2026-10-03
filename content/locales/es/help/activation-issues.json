@@ -1,0 +1,35 @@
+{
+  "title": "Problemas de activación: SMS ausente o rechazado",
+  "metaDescription": "¿No llega el SMS o rechazan el código? Revisa el servicio y el número, usa la cancelación a los dos minutos y qué enviar a soporte de SMS Code.",
+  "sections": [
+    {
+      "title": "Revisa el servicio y el número",
+      "paragraphs": [
+        "Elige el servicio exacto que quieres verificar. Introduce el número asignado con su prefijo de país y comprueba que no hayas duplicado el prefijo. Pide la verificación por SMS en ese servicio: una llamada de voz o un código enviado a otro dispositivo no se pueden recibir aquí.",
+        "Deja la activación abierta y mira su estado en la aplicación. Las notificaciones ayudan, pero la pantalla de activación es donde hay que buscar el código. Evita pedir reenvíos una y otra vez: el servicio de destino puede imponer su propia espera."
+      ]
+    },
+    {
+      "title": "Cancelación a los dos minutos y ventana de activación",
+      "paragraphs": [
+        "Si no ha llegado ningún SMS, puedes cancelar dos minutos después de que se asigne el número. El temporizador empieza en la asignación, no cuando abres la aplicación o compras monedas. Usa la cuenta atrás de cancelación que muestra la aplicación.",
+        "Cancelar devuelve las monedas de la activación a tu saldo dentro de la aplicación. Probar otro número también devuelve las monedas de la activación anterior antes de comprar una nueva; revisa el precio nuevo. Son devoluciones de monedas, no reembolsos del pago.",
+        "La ventana de activación actual es de 15 minutos desde la asignación. Sigue la cuenta atrás de tu aplicación. Si la ventana termina sin un SMS, la activación se cierra y sus monedas se devuelven. Si la devolución sigue pendiente o el saldo no cuadra, escribe a soporte en lugar de comprar números una y otra vez.",
+        "La cancelación deja de estar disponible en cuanto se recibe un SMS, aunque el servicio de destino rechace el código. Un SMS que llegue durante la cancelación puede cambiar si procede o no."
+      ]
+    },
+    {
+      "title": "Código rechazado o número ya usado",
+      "paragraphs": [
+        "Usa el código más reciente, para la cuenta y el servicio correctos, sin espacios de más. El servicio de destino decide si el código vale, si acepta el número y si hay restricciones de cuenta. Que el SMS haya llegado no garantiza que el registro salga bien.",
+        "Si el número ya está registrado, no entres en la cuenta de otra persona. Si rechazan un código, deja de repetir intentos de pago y escribe a soporte para que lo revisen. No hay devolución automática de monedas después de que haya llegado un SMS; esto no limita los derechos de consumo que te correspondan."
+      ]
+    },
+    {
+      "title": "Qué enviar a soporte",
+      "paragraphs": [
+        "Incluye el ID de la activación, el servicio y el país elegidos, la hora aproximada y la zona horaria, el estado y el mensaje de error exacto. Una captura del error ayuda. No envíes contraseñas, códigos de verificación ni los datos completos de una tarjeta."
+      ]
+    }
+  ]
+}

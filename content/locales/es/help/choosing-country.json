@@ -1,0 +1,26 @@
+{
+  "title": "Elegir país y usar números temporales con seguridad",
+  "metaDescription": "Elige un país que tu servicio acepte, qué hacer si el SMS no llega y por qué un número temporal no sirve para banca ni para recuperar la cuenta.",
+  "sections": [
+    {
+      "title": "Elige pensando en el servicio de destino",
+      "paragraphs": [
+        "Selecciona primero tu servicio y luego un país que acepte para un uso legítimo. Si el servicio exige un número local, cumple ese requisito. Confirma que su formulario de registro acepta el prefijo del país antes de comprar.",
+        "Recomendado es una sugerencia de comodidad según la región que informa tu dispositivo, no una promesa de que el SMS llegue o de que acepten el número. Tu ubicación física y el país del número son cosas distintas. Ningún país garantiza la entrega. Compara la disponibilidad y el precio en monedas que se muestra antes de confirmar."
+      ]
+    },
+    {
+      "title": "Cuando la entrega falla",
+      "paragraphs": [
+        "Busca una opción de SMS y cualquier espera que imponga el servicio. Algunas plataformas rechazan números temporales o virtuales. Tras la espera de dos minutos, cancela un número que no haya recibido SMS; plantéate otro país admitido solo si el servicio lo permite. No uses la elección de país para saltarte restricciones legales, de identidad o de la plataforma."
+      ]
+    },
+    {
+      "title": "Protege tu cuenta",
+      "paragraphs": [
+        "Los números son temporales y pueden reasignarse. No eres dueño del número ni conservas el acceso cuando termina la activación. No confíes en él para banca, servicios de emergencia, autenticación de dos factores a largo plazo ni recuperación de la cuenta.",
+        "Donde la plataforma lo permita, añade un correo, una clave de acceso, una aplicación de autenticación o tu propio número permanente de recuperación antes de perder el acceso. Nunca uses un número reciclado para entrar en la cuenta de otra persona."
+      ]
+    }
+  ]
+}

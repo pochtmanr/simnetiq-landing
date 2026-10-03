@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternative à OnlineSim — SMS Code par SIMNETIQ",
+  "metaDescription": "Comparer OnlineSim et l’app SMS Code par SIMNETIQ\u00a0: locations de numéros de long terme sur le web, contre la simplicité par activation dans une app iOS native.",
+  "hero": {
+    "title": "Une alternative à OnlineSim, centrée sur l’activation en un toucher",
+    "intro": [
+      "OnlineSim est un service web pour recevoir des SMS sur des numéros virtuels, et son trait distinctif est l’étendue\u00a0: à côté des activations uniques, leur site décrit des locations plus longues où vous gardez un numéro pendant des jours ou des semaines et recevez des SMS illimités de n’importe quel service pendant cette fenêtre. Si un numéro doit rester le vôtre un moment, c’est leur terrain.",
+      "SMS Code par SIMNETIQ fait délibérément une seule chose à la place\u00a0: la vérification par activation dans une app iOS native. Choisissez un service et un pays, obtenez un vrai numéro, et le code apparaît dans l’app généralement en quelques secondes. Vous payez avec des packs de pièces en achat unique — pas d’abonnement, pas d’horloge de location — et les activations qui ne reçoivent rien s’annulent sans frais."
+    ]
+  },
+  "whenThem": {
+    "title": "Quand OnlineSim est le meilleur choix",
+    "body": "Choisissez OnlineSim quand vous avez besoin d’un numéro qui vit plus longtemps qu’un code. Leur modèle de location — garder un numéro pendant une période choisie et y recevoir des SMS illimités — convient aux comptes qui redemanderont une vérification, aux services qui envoient des codes à la connexion, ou à quiconque veut le même numéro joignable pendant des jours ou des semaines. Une app par activation ne peut vraiment pas couvrir ce scénario\u00a0: une fois l’activation terminée, le numéro retourne dans le pool."
+  },
+  "whenUs": {
+    "title": "Quand l’app SMS Code convient mieux",
+    "body": "Choisissez l’app quand ce qu’il vous faut vraiment est un code, une fois, tout de suite. La plupart des inscriptions — un second compte de messagerie, une inscription à une place de marché, un essai — vérifient un numéro une seule fois et ne le textent plus jamais, et dans ce cas une location paie des jours que vous n’utiliserez pas. L’app s’en tient à une transaction\u00a0: quelques touchers, un vrai numéro dans l’un de plus de 100 pays, le SMS généralement en quelques secondes, et l’annulation sans frais si rien n’arrive. La facturation passe par l’App Store, donc il n’y a pas de solde de compte web à gérer."
+  },
+  "comparison": {
+    "title": "OnlineSim face à l’app SMS Code, côte à côte",
+    "rows": [
+      {
+        "label": "Plateformes",
+        "competitor": "Service web\u00a0; leur site documente aussi une API",
+        "us": "App iOS native depuis l’App Store"
+      },
+      {
+        "label": "Modèle de prix",
+        "competitor": "Activations uniques plus locations de numéros de plus long terme par période",
+        "us": "Packs de pièces en achat unique, paiement par activation — pas de location, pas d’abonnement"
+      },
+      {
+        "label": "Paiement",
+        "competitor": "Recharge de solde sur le web avec les méthodes que leur site liste",
+        "us": "Facturation de l’App Store — aucune donnée de carte partagée avec nous"
+      },
+      {
+        "label": "Couverture",
+        "competitor": "Une large liste de pays, plus large pour les activations que pour les locations",
+        "us": "Plus de 100 pays et plus de 100 services courants, sélectionnés pour les inscriptions du quotidien"
+      },
+      {
+        "label": "Annulation",
+        "competitor": "Régie par leurs propres règles de remboursement — vérifiez leurs conditions en vigueur",
+        "us": "Les activations qui ne reçoivent aucun SMS s’annulent sans frais, les pièces reviennent"
+      },
+      {
+        "label": "Assistance",
+        "competitor": "Canaux d’assistance via leur site",
+        "us": "Dans l’app et formulaire de contact du site"
+      },
+      {
+        "label": "Le mieux pour",
+        "competitor": "Garder un numéro joignable pendant des jours ou des semaines de SMS",
+        "us": "Codes de vérification ponctuels, sans engagement continu"
+      }
+    ],
+    "note": "Les détails sur le concurrent reflètent leur site public au moment de la rédaction et peuvent changer — confirmez toujours sur onlinesim.io avant de décider."
+  },
+  "switchSteps": {
+    "title": "Essayer l’app prend trois étapes",
+    "steps": [
+      {
+        "title": "Installez l’app",
+        "body": "Obtenez SMS Code par SIMNETIQ sur l’App Store — pas de compte web ni de configuration de portefeuille."
+      },
+      {
+        "title": "Prenez un pack de pièces",
+        "body": "Achetez un pack unique via votre compte du store. Vous payez par activation\u00a0; il n’y a pas de période de location qui tourne en arrière-plan."
+      },
+      {
+        "title": "Lancez votre première activation",
+        "body": "Choisissez un service et un pays, obtenez un vrai numéro, et voyez le code arriver dans l’app généralement en quelques secondes. Si rien n’arrive, l’activation s’annule sans frais."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Quelle est la principale différence entre OnlineSim et l’app SMS Code\u00a0?",
+      "a": "Le modèle. Le site d’OnlineSim met l’accent sur les locations de numéros — détenir un numéro pendant des jours ou des semaines avec des SMS entrants illimités — à côté des activations uniques. L’app SMS Code par SIMNETIQ ne fait que la vérification par activation, dans une app mobile native avec des packs de pièces en achat unique."
+    },
+    {
+      "q": "Puis-je garder un numéro longtemps dans l’app SMS Code\u00a0?",
+      "a": "Non — chaque activation couvre la réception du code pour un service, puis le numéro retourne dans le pool. S’il vous faut le même numéro joignable sur une longue période, un service de location comme OnlineSim est honnêtement le meilleur choix."
+    },
+    {
+      "q": "Mon compte cessera-t-il de fonctionner quand le numéro expire\u00a0?",
+      "a": "Pour la plupart des services, non. Le numéro n’est nécessaire qu’à l’étape de vérification\u00a0; si vous activez des protections au niveau de l’app comme des mots de passe à deux facteurs, les futures connexions ne dépendent pas de la réception d’un autre SMS sur ce numéro."
+    },
+    {
+      "q": "Que se passe-t-il si mon code n’arrive jamais\u00a0?",
+      "a": "L’activation s’annule et vos pièces sont renvoyées. Vous ne payez que les numéros qui reçoivent vraiment un SMS."
+    },
+    {
+      "q": "Dois-je créer un compte sur un site pour utiliser l’app\u00a0?",
+      "a": "Aucun portefeuille web ni tableau de bord n’entre en jeu. Vous installez l’app depuis l’App Store, achetez un pack de pièces via la facturation du store, et tout se passe dans l’app."
+    }
+  ]
+}

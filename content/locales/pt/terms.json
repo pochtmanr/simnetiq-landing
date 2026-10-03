@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Termos de serviço",
+    "description": "Termos do aplicativo SMS Code e de simnetiq.xyz: moedas e compras, direito de cancelar, uso aceitável, números virtuais e limites de responsabilidade."
+  },
+  "prevailingNotice": "Esta tradução é oferecida por conveniência. Se divergir da versão em inglês, prevalece a versão em inglês.",
+  "label": "Jurídico",
+  "title": "Termos de serviço",
+  "updatedLabel": "Atualizado em:",
+  "sections": [
+    {
+      "title": "1. Acordo",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Estes Termos de serviço (“Termos”) são um acordo entre você e a SIMNETIQ LTD, empresa registrada na Inglaterra e no País de Gales (“nós”), e regem o uso do aplicativo móvel SMS Code (o “Aplicativo”) e do site simnetiq.xyz (o “Site”). Ao instalar ou usar o Aplicativo, você aceita estes Termos. Se não concordar, não use o Aplicativo."
+        },
+        {
+          "type": "p",
+          "text": "Número da empresa: {companyNumber}. Sede registrada: {registeredOffice}. Contato: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. O serviço",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "O Aplicativo fornece números de celular virtuais temporários para receber códigos de verificação por SMS de serviços online compatíveis. Os números são fornecidos por provedores de telefonia terceiros; a disponibilidade de um serviço, país ou número não é garantida e pode mudar sem aviso."
+        }
+      ]
+    },
+    {
+      "title": "3. Elegibilidade",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Você precisa ter pelo menos 18 anos e capacidade legal para firmar este acordo. Você só pode usar o Aplicativo de maneiras permitidas pelas leis que se aplicam a você."
+        }
+      ]
+    },
+    {
+      "title": "4. Moedas e compras",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "As moedas são compras avulsas dentro do aplicativo, processadas pela App Store da Apple conforme os termos de pagamento dela. Não há assinatura e nada se renova sozinho.",
+            "As moedas são gastas por ativação. O valor depende do serviço e do país, é definido sobretudo pelo serviço e é mostrado a você antes da confirmação.",
+            "As moedas não expiram, não são transferíveis e não têm valor em dinheiro."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Quando as moedas voltam para você.** As moedas são devolvidas ao seu saldo automaticamente em quatro situações:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "você cancela uma ativação pelo menos dois minutos depois da atribuição do número, antes de um código de verificação ter sido recebido;",
+            "você troca para outro número pelo menos dois minutos depois da atribuição, antes de um código ter sido recebido;",
+            "a janela da ativação termina sem um código chegar; ou",
+            "o nosso provedor não consegue fornecer um número utilizável para a ativação."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**A devolução de moedas não é reembolso em dinheiro.** Em todas as situações acima, o que volta para você são as moedas, creditadas de novo no saldo do aplicativo. Não devolvemos dinheiro por elas, e as moedas não têm valor em dinheiro. Se você quiser o dinheiro de volta de uma compra, isso é com a Apple: reembolsos do preço da compra são pedidos à Apple e decididos por ela, segundo a política de reembolso da App Store, e não temos como emitir, aprovar ou recusar um. A seção 5 descreve o seu direito legal separado de cancelar."
+        }
+      ]
+    },
+    {
+      "title": "5. O seu direito de cancelar (consumidores no Reino Unido e na UE)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Se você é consumidor no Reino Unido ou na União Europeia, em geral tem 14 dias a partir do dia em que um contrato de conteúdo digital é celebrado para cancelá-lo e receber reembolso, sem precisar dar um motivo. Esse direito vem do Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013, no Reino Unido, e da Diretiva dos Direitos do Consumidor, na UE."
+        },
+        {
+          "type": "p",
+          "text": "As moedas são creditadas no seu saldo depois de uma compra bem-sucedida. Qualquer exceção a um direito legal de cancelamento depende da lei aplicável e do consentimento, do reconhecimento e da confirmação de fato dados durante a compra. Aceitar estes Termos, sozinho, não renuncia aos seus direitos legais de cancelamento."
+        },
+        {
+          "type": "p",
+          "text": "Para uma compra cobrada pela Apple, peça o reembolso do pagamento em [reportaproblem.apple.com](https://reportaproblem.apple.com/). A Apple conduz o processo de reembolso do pagamento segundo os termos regionais dela e a lei aplicável. Fale conosco para análise de serviço ausente ou com defeito, moedas não usadas ou registros de compra e de saldo. Não garantimos a aprovação da Apple nem a conversão automática em dinheiro de um saldo não usado. Se uma compra for reembolsada, o crédito de moedas relacionado pode ser removido."
+        },
+        {
+          "type": "p",
+          "text": "Nada nesta seção afeta os seus outros direitos legais, inclusive os direitos se o serviço estiver com defeito, não corresponder à descrição ou não for prestado com cuidado e habilidade razoáveis."
+        }
+      ]
+    },
+    {
+      "title": "6. Uso aceitável",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Você concorda em não usar o Aplicativo para:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "violar qualquer lei ou regulamento, ou infringir direitos de alguém;",
+            "cometer fraude, spam, assédio ou se passar por outra pessoa;",
+            "violar os termos de serviço das plataformas em que você se cadastra — você é o único responsável por cumpri-los;",
+            "receber comunicações que a lei exija que você receba em um número pessoal verificado (por exemplo, governo, banco ou serviços de emergência, quando isso for proibido);",
+            "revender, extrair em massa ou abusar do serviço por meio de programas."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Podemos suspender ou encerrar uma conta que viole esta seção. Em casos graves — fraude ou abuso deliberado da mecânica de reembolso ou de ativação — também podemos perder as moedas restantes no saldo, na medida em que isso seja proporcional à violação. Não perderemos um saldo por uma violação menor ou isolada, e nada aqui remove direitos que você tem como consumidor e que não podem ser excluídos por contrato."
+        }
+      ]
+    },
+    {
+      "title": "7. Números virtuais",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Os números virtuais são temporários e podem ser entregues de novo a outros usuários depois que a sua ativação termina. Destinam-se a receber códigos de verificação de uso único, não a uso pessoal ou comercial contínuo, recuperação de conta ou autenticação de dois fatores da qual você dependa no longo prazo."
+        }
+      ]
+    },
+    {
+      "title": "8. Propriedade intelectual",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "O Aplicativo, o Site e toda a identidade visual relacionada pertencem à SIMNETIQ LTD ou aos seus licenciantes. Concedemos a você uma licença pessoal, não exclusiva e intransferível para usar o Aplicativo na finalidade prevista. Nomes de serviços de terceiros mostrados no Aplicativo pertencem aos respectivos donos e não implicam endosso."
+        }
+      ]
+    },
+    {
+      "title": "9. Avisos",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "O Aplicativo é fornecido “no estado em que se encontra” e “conforme a disponibilidade”. Na máxima extensão permitida por lei, afastamos todas as garantias, expressas ou implícitas, inclusive adequação a uma finalidade específica. Não garantimos que um código de verificação específico vá chegar, que os números sejam aceitos por uma plataforma determinada ou que o serviço será ininterrupto ou livre de erros."
+        },
+        {
+          "type": "p",
+          "text": "Esta seção não exclui nem limita nada que não possa, por lei, ser excluído ou limitado. Se você é consumidor, os seus direitos legais permanecem intactos — inclusive o direito, pelo Consumer Rights Act 2015 (ou o equivalente onde você mora), a um serviço digital prestado com cuidado e habilidade razoáveis, de qualidade satisfatória e conforme a descrição."
+        }
+      ]
+    },
+    {
+      "title": "10. Limitação de responsabilidade",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nada nestes Termos limita responsabilidade que não possa ser limitada por lei, inclusive por morte, lesão pessoal causada por negligência ou fraude. Fora isso, a nossa responsabilidade total decorrente do Aplicativo ou ligada a ele limita-se ao valor que você nos pagou nos 12 meses anteriores à reclamação, e não respondemos por perdas indiretas ou consequenciais, perda de lucros, de dados ou de fundo de comércio."
+        }
+      ]
+    },
+    {
+      "title": "11. Encerramento",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Você pode parar de usar o Aplicativo e excluir a sua conta a qualquer momento. Podemos suspender ou encerrar o acesso imediatamente se você violar estes Termos, se um provedor retirar uma capacidade da qual dependemos ou se descontinuarmos o serviço; quando a lei exigir, daremos um aviso razoável."
+        }
+      ]
+    },
+    {
+      "title": "12. Alterações destes Termos",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Podemos atualizar estes Termos de tempos em tempos — por exemplo quando a lei muda, quando um provedor do qual dependemos muda ou quando o Aplicativo ganha ou perde uma função. Mudanças que afetem de forma relevante os seus direitos serão anunciadas no Aplicativo ou no Site pelo menos 30 dias antes de entrarem em vigor. Se você não as aceitar, pode parar de usar o Aplicativo e encerrar a conta antes dessa data; escreva sobre quaisquer moedas não gastas e trataremos o pedido de boa-fé. Continuar usando o Aplicativo depois que as mudanças entrarem em vigor significa que você aceita os Termos atualizados. As mudanças nunca se aplicam de forma retroativa a uma compra que você já fez."
+        }
+      ]
+    },
+    {
+      "title": "13. Lei aplicável",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Estes Termos são regidos pelas leis da Inglaterra e do País de Gales, e os tribunais da Inglaterra e do País de Gales têm jurisdição exclusiva — salvo que, se você for consumidor, conserva as proteções obrigatórias e os direitos de foro do país onde mora."
+        }
+      ]
+    },
+    {
+      "title": "14. Contato",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dúvidas sobre estes Termos: {supportEmail}."
+        }
+      ]
+    }
+  ]
+}

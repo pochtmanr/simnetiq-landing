@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk PayPal — baca sebelum verifikasi",
+  "metaDescription": "PayPal mengirim kode keamanan saat mendaftar, dan nomor virtual dapat menerimanya. Tetapi di akun uang, nomor adalah jangkar keamanan — pertukaran yang jujur.",
+  "hero": {
+    "title": "Nomor virtual untuk PayPal",
+    "intro": [
+      "PayPal mengonfirmasi nomor telepon lebih awal: saat pendaftaran ia mengirim “Your PayPal security code is: 305174. It expires in 10 minutes.” dan tidak akan lanjut sampai kode dimasukkan. Sejak saat itu nomor bukan formalitas — ia menjadi bagian dari cara PayPal memutuskan apakah login, pembayaran, atau perubahan batas benar-benar Anda.",
+      "Nomor virtual dari SMS Code menerima kode itu biasanya dalam hitungan detik, seperti nomor seluler asli mana pun. Tetapi PayPal adalah akun uang, dan kami lebih suka jujur kepada Anda daripada menjual jalan pintas: baca pertukarannya di bawah sebelum verifikasi, dan putuskan di mana nomor seharusnya — dan tidak seharusnya — berada dalam keamanan akun Anda."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk PayPal?",
+    "body": [
+      "Kasus privasinya nyata. Basis data perusahaan pembayaran adalah magnet untuk daftar pemasaran dan, sesekali, kebocoran; nomor telepon adalah bagian yang menghubungkan profil pembayaran ke sisa hidup Anda. Menyewa nomor untuk SMS pendaftaran sekali menjaga nomor pribadi di luar catatan itu sambil tetap membuktikan kepada PayPal bahwa telepon nyata menjawab.",
+      "Sekarang bagian jujurnya. PayPal terus memakai nomor terverifikasi untuk pemeriksaan tambahan — login dari perangkat baru, tinjauan keamanan, pos pemeriksaan batas. Jika salah satu pemeriksaan terpicu setelah jendela aktivasi nomor sewaan tertutup, Anda terkunci dari akun yang berisi uang, dan pemulihan berarti tiket dukungan dan dokumen identitas, bukan satu ketukan. Jadi rekomendasi kami yang sebenarnya: pakai nomor virtual untuk kode pendaftaran, lalu pindahkan keamanan berkelanjutan ke kanal yang selalu Anda kendalikan — email, aplikasi autentikator, dan, jika Anda menyimpan saldo nyata di sana, nomor telepon yang ada di saku Anda."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi PayPal dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di negara yang tepat",
+        "body": "Di SMS Code pilih PayPal dan pilih negara tempat akun PayPal Anda terdaftar. Akun PayPal spesifik negara, dan nomor dari negara yang berbeda dengan akun adalah ketidakcocokan yang diperhatikan pemeriksaan risikonya."
+      },
+      {
+        "title": "Masukkan di langkah telepon",
+        "body": "Saat pendaftaran — atau di setelan, saat PayPal meminta konfirmasi telepon — pilih kode negara yang sesuai dan ketik nomor persis."
+      },
+      {
+        "title": "Ketik kodenya dengan cepat",
+        "body": "SMS berbunyi “Your PayPal security code is: 305174. It expires in 10 minutes.” Kode itu mencapai aplikasi SMS Code biasanya dalam hitungan detik — masukkan sebelum sepuluh menit habis."
+      },
+      {
+        "title": "Pindahkan keamanan ke kanal yang Anda kendalikan",
+        "body": "Segera, konfirmasi email, atur kata sandi yang kuat dan unik, dan tambahkan aplikasi autentikator di setelan keamanan PayPal. Jika Anda akan menyimpan uang nyata di akun, ganti nomor sewaan dengan nomor yang selalu dapat Anda jangkau — nomor keamanan yang tidak terjangkau pada akun uang adalah risiko, bukan kenyamanan."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Konsistensi negara bukan opsional",
+      "body": "PayPal mengikat akun ke suatu negara saat pendaftaran — alamat, bank, kartu, dan telepon diharapkan selaras. Nomor dari negara yang sama dengan akun menjaga pemeriksaan tenang; yang tidak cocok mengundang tinjauan. Pilih negara dengan sengaja."
+    },
+    {
+      "title": "Anggap nomor sebagai alat sekali pakai",
+      "body": "Nomor sewaan sangat baik pada satu tugas: menerima kode pendaftaran tanpa mengekspos nomor Anda sendiri. Ia adalah jangkar 2FA permanen yang buruk untuk akun yang menyimpan uang — jendela aktivasinya berakhir, permintaan keamanan PayPal tidak. Ganti segera setelah akun siap."
+    },
+    {
+      "title": "Tetap di dalam aturan PayPal",
+      "body": "Ketentuan PayPal mensyaratkan informasi akun yang akurat, dan pemeriksaannya semakin ketat saat uang bergerak. Pakai nomor virtual untuk menjaga telepon pribadi tetap privat — bukan untuk berpura-pura menjadi seseorang atau berada di tempat yang bukan Anda. Akun yang disamarkan adalah yang berakhir dibatasi."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah nomor virtual menerima SMS verifikasi PayPal?",
+      "a": "Ya — ini nomor seluler asli di jaringan nyata, dan kode pendaftaran PayPal tiba di aplikasi SMS Code biasanya dalam hitungan detik. Kode kedaluwarsa dalam sepuluh menit, jadi buka layar pendaftaran saat Anda memintanya."
+    },
+    {
+      "q": "Apakah aman membiarkan nomor sewaan di akun PayPal saya?",
+      "a": "Sebagai kontak keamanan permanen — tidak, dan kami tidak akan berpura-pura sebaliknya. PayPal mengirim SMS ke nomor itu saat meragukan login atau meninjau akun; jika jendela aktivasi nomor sudah berakhir, pemeriksaan itu gagal. Simpan untuk langkah pendaftaran, lalu ganti dengan email, aplikasi autentikator, dan nomor yang Anda kendalikan."
+    },
+    {
+      "q": "Bagaimana jika PayPal meminta SMS setelah nomor saya berakhir?",
+      "a": "Persis skenario yang harus direncanakan. Antisipasi jalur yang lebih lambat: membuktikan identitas Anda kepada dukungan PayPal dengan dokumen, yang dapat memakan waktu berhari-hari dan dapat membatasi akun sementara itu. Melakukan langkah empat di hari pertama — memindahkan keamanan ke kanal yang Anda miliki — berarti situasi ini tidak pernah muncul."
+    },
+    {
+      "q": "Apakah negara nomor harus cocok dengan negara PayPal saya?",
+      "a": "Ya, buat mereka cocok. Akun PayPal dibuka untuk negara tertentu, dan telepon adalah bagian dari gambar itu. Nomor dari negara yang sama menjaga verifikasi mulus; yang asing adalah tanda yang dapat memicu tinjauan tambahan bahkan saat segala sesuatu yang lain sudah beres."
+    },
+    {
+      "q": "Apakah mendaftar PayPal dengan nomor virtual diperbolehkan?",
+      "a": "PayPal memverifikasi bahwa Anda menguasai nomor yang berfungsi; menyewa satu untuk privasi pada langkah SMS melakukan itu dengan jujur. Yang dituntut ketentuan PayPal adalah informasi akun yang benar — nama asli Anda, negara asli Anda. Pakai nomor virtual untuk melindungi privasi, bukan untuk menyamarkan identitas, dan Anda memakainya sesuai tujuannya."
+    }
+  ]
+}

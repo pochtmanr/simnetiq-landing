@@ -1,0 +1,26 @@
+{
+  "title": "Memilih negara dan memakai nomor sementara dengan aman",
+  "metaDescription": "Pilih negara yang diterima layanan tujuan, tangani SMS yang gagal, dan pahami mengapa nomor sementara tidak untuk perbankan atau pemulihan akun.",
+  "sections": [
+    {
+      "title": "Pilih untuk layanan tujuan",
+      "paragraphs": [
+        "Pilih layanan Anda lebih dulu, lalu negara yang diterimanya untuk penggunaan yang sah. Jika layanan mensyaratkan nomor lokal, ikuti persyaratan itu. Pastikan formulir pendaftarannya menerima kode panggil negara tersebut sebelum membeli.",
+        "Direkomendasikan adalah saran kenyamanan berdasarkan setelan wilayah perangkat Anda, bukan janji pengiriman SMS atau penerimaan nomor. Lokasi fisik Anda dan negara nomor itu berbeda. Tidak ada negara yang menjamin pengiriman. Bandingkan ketersediaan dan harga koin yang ditampilkan sebelum mengonfirmasi."
+      ]
+    },
+    {
+      "title": "Saat pengiriman gagal",
+      "paragraphs": [
+        "Periksa opsi SMS dan jeda layanan jika ada. Beberapa platform menolak nomor sementara atau nomor virtual. Setelah menunggu dua menit, batalkan nomor yang belum menerima SMS; pertimbangkan negara lain yang didukung hanya jika layanan mengizinkannya. Jangan memakai pilihan negara untuk melewati pembatasan hukum, identitas, atau platform."
+      ]
+    },
+    {
+      "title": "Lindungi akun Anda",
+      "paragraphs": [
+        "Nomor bersifat sementara dan dapat diberikan ulang. Anda tidak memiliki nomor itu dan tidak mempertahankan akses setelah aktivasi berakhir. Jangan mengandalkannya untuk perbankan, layanan darurat, autentikasi dua faktor jangka panjang, atau pemulihan akun.",
+        "Jika platform mengizinkan, tambahkan email, kunci sandi, autentikator, atau nomor pemulihan permanen milik Anda sebelum kehilangan akses. Jangan pernah memakai nomor daur ulang untuk masuk ke akun orang lain."
+      ]
+    }
+  ]
+}

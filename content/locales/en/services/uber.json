@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for Uber — Sign Up and Ride Privately",
+  "metaDescription": "Uber logs you in with an SMS code. Rent a real virtual number, get the four-digit code usually within seconds and keep your own phone out of your ride history.",
+  "hero": {
+    "title": "A virtual number for Uber",
+    "intro": [
+      "Uber doesn’t treat the phone number as a detail — it is the account. You type a number, Uber texts “Your Uber code is 7204. Never share this code.”, and that’s the whole login: no username, and for many riders no password either. Whoever receives codes on that number effectively holds the account.",
+      "With SMS Code you rent a real mobile number in one of 100+ countries and Uber’s code shows up in the app usually within seconds. Your rides, receipts and pickup history get tied to a rented number instead of the one your friends and your bank use."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for Uber?",
+    "body": [
+      "A ride-hailing account quietly accumulates a map of your life — home, work, the airport at 6 a.m. Keeping your personal number off that record is plain privacy hygiene. Drivers already reach you through Uber’s masked relay and never see the real number; the copy that matters is the one stored in your account, and that’s exactly the one a virtual number replaces.",
+      "Because Uber signs you in by SMS, the number here isn’t a one-time prop — be honest with yourself about that. The app keeps you logged in for months, but a fresh install or a new phone will ask for a code again. The setup works fine with a rented number as long as you plan for it: stay signed in, add an email to the account, and if Uber becomes a daily tool, move the account to a number you’ll always control."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify Uber with a virtual number",
+    "steps": [
+      {
+        "title": "Rent a number in SMS Code",
+        "body": "Choose Uber as the service and pick a country. For everyday use take your own country — the account’s region shapes payment options and local features."
+      },
+      {
+        "title": "Enter it in the Uber app",
+        "body": "On the sign-up screen select the number’s country code and type it in. Uber may offer to send the code by WhatsApp or a voice call — pick SMS."
+      },
+      {
+        "title": "Type in the four digits",
+        "body": "“Your Uber code is 7204. Never share this code.” arrives in the SMS Code app usually within seconds. Enter it and you’re signed in."
+      },
+      {
+        "title": "Give the account a second channel",
+        "body": "Add your email in Uber’s settings and finish the profile. The email gives Uber a way to verify you that doesn’t depend on the rented number — and keeps receipts somewhere you’ll actually read them."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Uber will ask for SMS again — plan for it",
+      "body": "Logins on new devices and reinstalls are confirmed by a code to the account’s number. Don’t log out casually, add an email, and if you use Uber every week, change the account’s phone in settings to one you carry — you can do that anytime while signed in."
+    },
+    {
+      "title": "Drivers never see your number anyway",
+      "body": "Calls and messages between you and the driver go through Uber’s masked relay. The privacy question isn’t the driver — it’s the number sitting in your account record, your receipts and whatever that database feeds. That’s the copy a virtual number keeps clean."
+    },
+    {
+      "title": "Abroad, your account already travels",
+      "body": "An existing Uber account works in other countries — you don’t need a local number to hail a ride in Paris. Where a virtual number genuinely helps: your home SIM can’t receive roaming texts when a login check hits mid-trip, or you want a separate local account for a long stay."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will my Uber account keep working after the rented number expires?",
+      "a": "While you stay signed in — yes, everything works. The catch is the next fresh login: Uber confirms it with an SMS to the account’s number. So either keep the session alive, or — better — change the phone in account settings to one you control while you’re still logged in. That option is always available from inside the app."
+    },
+    {
+      "q": "Do drivers see my real phone number?",
+      "a": "No. Uber connects you and the driver through masked relay numbers, so neither side sees the other’s real one. A virtual number protects the other copy — the one stored in your account profile and attached to every receipt."
+    },
+    {
+      "q": "Can I use a virtual number for Uber while traveling?",
+      "a": "Yes, and it solves a real travel problem: login checks that arrive as SMS your roaming SIM can’t receive. Codes to a rented number land in the SMS Code app over the internet, wherever you are. Note that you don’t need a local number just to ride abroad — your normal account works internationally."
+    },
+    {
+      "q": "Why didn’t the Uber code arrive?",
+      "a": "First check that the country code matches the rented number. Then make sure the code is coming by SMS — Uber sometimes defaults to WhatsApp or a voice call. If nothing arrived, cancel the activation in SMS Code at no cost and take another number."
+    },
+    {
+      "q": "Is signing up for Uber with a virtual number allowed?",
+      "a": "Uber verifies that you control the number and expects one account per rider with truthful details — that’s its terms, and safety features depend on it. Using a rented number to keep your personal one private is fine; using numbers to farm sign-up promos or run duplicate accounts is what gets riders banned."
+    }
+  ]
+}

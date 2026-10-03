@@ -1,0 +1,35 @@
+{
+  "title": "Activation issues: missing or rejected SMS",
+  "metaDescription": "SMS not arriving or code rejected? Check the service and number, use the two-minute cancellation, and know exactly what to send SMS Code support.",
+  "sections": [
+    {
+      "title": "Check the service and number",
+      "paragraphs": [
+        "Choose the exact service you want to verify. Enter the assigned number with its country code and check for duplicated prefixes. Request SMS verification in that service; a voice call or a code sent to another device cannot be received here.",
+        "Keep the activation open and check its status in the app. Notifications can help, but the activation screen is the place to check for the code. Avoid repeated resend requests: the target service may impose its own cooldown."
+      ]
+    },
+    {
+      "title": "Two-minute cancellation and the activation window",
+      "paragraphs": [
+        "If no SMS has arrived, you can cancel two minutes after the number is assigned. The timer starts at assignment, not when you open the app or buy coins. Use the cancellation countdown shown in the app.",
+        "Cancel returns the activation’s coins to your in-app balance. Try another number also returns the old activation’s coins before buying a new activation; check the new price. These are coin returns, not payment refunds.",
+        "The current activation window is 15 minutes after assignment. Follow the countdown in your app. If the window ends without an SMS, the activation closes and its coins are returned. If the return remains pending or the balance is wrong, contact support rather than repeatedly buying numbers.",
+        "Cancellation is unavailable once an SMS is received, even if the target service rejects the code. An SMS arriving during cancellation can change eligibility."
+      ]
+    },
+    {
+      "title": "Rejected code or already-used number",
+      "paragraphs": [
+        "Use the latest code for the correct account and service, without extra spaces. The target service controls code validity, number acceptance and account restrictions. A delivered SMS does not guarantee successful registration.",
+        "If the number is already registered, do not access someone else’s account. If a code is rejected, stop repeated paid attempts and contact support for a review. There is no automatic coin return after an SMS has arrived; this does not limit any applicable consumer rights."
+      ]
+    },
+    {
+      "title": "What to send support",
+      "paragraphs": [
+        "Include the activation ID, selected service and country, approximate time and timezone, status, and the exact error message. A screenshot of the error helps. Do not send passwords, verification codes or full card details."
+      ]
+    }
+  ]
+}

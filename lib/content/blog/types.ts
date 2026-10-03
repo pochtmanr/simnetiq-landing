@@ -1,10 +1,10 @@
 /* Blog posts as typed content blocks — no MDX. The block model renders
- * through the site's own components and type scale, and keeps both locales
- * in one file so they can't drift structurally.
+ * through the site's own components and type scale. Each locale's file keeps
+ * the English block order, types, ids and srcs exactly (npm run i18n:check),
+ * so translations can't drift structurally.
  *
- * Editorial policy: posts are genuinely useful guides, hand-written in BOTH
- * locales (Russian hand-translated, never by API/script). A post only enters
- * ../blog/index.ts when complete in both languages. */
+ * Editorial policy: posts are genuinely useful guides. A post only enters
+ * meta.ts once its English copy is complete. */
 
 export type Block =
   | { type: "p"; text: string }
@@ -25,16 +25,20 @@ export interface BlogPostCopy {
   blocks: Block[];
 }
 
-export interface BlogPost {
-  /** URL slug, identical in both locales. */
+/** Locale-neutral facts, in meta.ts. Never translated. */
+export interface BlogPostMeta {
+  /** URL slug, identical in every locale. */
   slug: string;
   /** ISO dates — feed Article JSON-LD and the sitemap. */
   publishedAt: string;
   updatedAt: string;
-  /** Non-linked chips on cards; keep to 1–3. */
+  /** Keys into blog-ui.json "tags"; non-linked chips on cards, keep to 1–3. */
   tags: string[];
   cover?: string;
   relatedServiceSlugs?: string[];
-  en: BlogPostCopy;
-  ru: BlogPostCopy;
+}
+
+/** A post as published in one locale. */
+export interface BlogPost extends BlogPostMeta {
+  copy: BlogPostCopy;
 }

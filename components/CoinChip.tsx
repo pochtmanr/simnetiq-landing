@@ -9,9 +9,9 @@
 
 export type CoinTier = "bronze" | "silver" | "gold" | "platinum" | "diamond";
 
-function CoinIcon() {
+export function CoinIcon({ className = "coin-chip__coin h-[20px] w-[20px] shrink-0" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" className="coin-chip__coin h-[20px] w-[20px] shrink-0" aria-hidden>
+    <svg viewBox="0 0 24 24" className={className} aria-hidden>
       <circle cx="12" cy="12" r="11" style={{ fill: "var(--coin-base)" }} />
       <circle
         cx="12"

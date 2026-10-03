@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Uber — daftar dan pesan secara privat",
+  "metaDescription": "Uber memasukkan Anda dengan kode SMS. Sewa nomor virtual asli, dapatkan kode empat digit biasanya dalam hitungan detik, tanpa nomor di riwayat.",
+  "hero": {
+    "title": "Nomor virtual untuk Uber",
+    "intro": [
+      "Uber tidak memperlakukan nomor telepon sebagai detail — nomor itu adalah akunnya. Anda mengetik nomor, Uber mengirim “Your Uber code is 7204. Never share this code.”, dan itulah seluruh login: tanpa nama pengguna, dan bagi banyak penumpang tanpa kata sandi juga. Siapa pun yang menerima kode di nomor itu praktis memegang akun.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara dan kode Uber muncul di aplikasi biasanya dalam hitungan detik. Perjalanan, tanda terima, dan riwayat penjemputan Anda tertaut ke nomor sewaan, bukan nomor yang dipakai teman dan bank Anda."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Uber?",
+    "body": [
+      "Akun ojek daring diam-diam mengumpulkan peta hidup Anda — rumah, kantor, bandara pukul 6 pagi. Menjaga nomor pribadi di luar catatan itu adalah kebersihan privasi yang sederhana. Pengemudi sudah menghubungi Anda lewat relay bertopeng Uber dan tidak pernah melihat nomor asli; salinan yang penting adalah yang tersimpan di akun Anda, dan persis itulah yang diganti nomor virtual.",
+      "Karena Uber memasukkan Anda lewat SMS, nomor di sini bukan properti sekali pakai — jujurlah pada diri sendiri tentang itu. Aplikasi membuat Anda tetap masuk selama berbulan-bulan, tetapi pemasangan baru atau telepon baru akan meminta kode lagi. Penyiapan ini bekerja baik dengan nomor sewaan selama Anda merencanakannya: tetap masuk, tambahkan email ke akun, dan jika Uber menjadi alat harian, pindahkan akun ke nomor yang selalu Anda kendalikan."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Uber dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Pilih Uber sebagai layanan dan pilih negara. Untuk pemakaian sehari-hari ambil negara Anda sendiri — wilayah akun membentuk opsi pembayaran dan fitur lokal."
+      },
+      {
+        "title": "Masukkan di aplikasi Uber",
+        "body": "Di layar pendaftaran pilih kode negara nomor itu dan ketik. Uber dapat menawarkan mengirim kode lewat WhatsApp atau panggilan suara — pilih SMS."
+      },
+      {
+        "title": "Ketik empat digitnya",
+        "body": "“Your Uber code is 7204. Never share this code.” tiba di aplikasi SMS Code biasanya dalam hitungan detik. Masukkan, dan Anda masuk."
+      },
+      {
+        "title": "Beri akun kanal kedua",
+        "body": "Tambahkan email Anda di setelan Uber dan selesaikan profil. Email memberi Uber cara memverifikasi Anda yang tidak bergantung pada nomor sewaan — dan menyimpan tanda terima di tempat yang benar-benar Anda baca."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Uber akan meminta SMS lagi — rencanakan itu",
+      "body": "Login di perangkat baru dan pemasangan ulang dikonfirmasi dengan kode ke nomor akun. Jangan keluar sembarangan, tambahkan email, dan jika Anda memakai Uber setiap minggu, ubah telepon akun di setelan ke nomor yang Anda bawa — Anda dapat melakukannya kapan saja selagi masuk."
+    },
+    {
+      "title": "Pengemudi tidak pernah melihat nomor Anda",
+      "body": "Panggilan dan pesan antara Anda dan pengemudi melewati relay bertopeng Uber. Pertanyaan privasinya bukan pengemudinya — melainkan nomor yang ada di catatan akun, tanda terima, dan apa pun yang diberi makan basis data itu. Itulah salinan yang dijaga bersih oleh nomor virtual."
+    },
+    {
+      "title": "Di luar negeri, akun Anda sudah bepergian",
+      "body": "Akun Uber yang sudah ada berfungsi di negara lain — Anda tidak membutuhkan nomor lokal untuk memesan perjalanan di Paris. Di mana nomor virtual benar-benar membantu: SIM rumah tidak dapat menerima teks roaming saat pemeriksaan login datang di tengah perjalanan, atau Anda menginginkan akun lokal terpisah untuk tinggal lama."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah akun Uber saya tetap berfungsi setelah nomor sewaan berakhir?",
+      "a": "Selama Anda tetap masuk — ya, semuanya berfungsi. Jebakannya adalah login baru berikutnya: Uber mengonfirmasinya dengan SMS ke nomor akun. Jadi biarkan sesi tetap hidup, atau — lebih baik — ubah telepon di setelan akun ke nomor yang Anda kendalikan selagi masih masuk. Opsi itu selalu tersedia dari dalam aplikasi."
+    },
+    {
+      "q": "Apakah pengemudi melihat nomor telepon asli saya?",
+      "a": "Tidak. Uber menghubungkan Anda dan pengemudi lewat nomor relay bertopeng, jadi tidak ada pihak yang melihat nomor asli pihak lain. Nomor virtual melindungi salinan yang lain — yang tersimpan di profil akun Anda dan melekat pada setiap tanda terima."
+    },
+    {
+      "q": "Bisakah saya memakai nomor virtual untuk Uber saat bepergian?",
+      "a": "Ya, dan ini menyelesaikan masalah perjalanan yang nyata: pemeriksaan login yang datang sebagai SMS yang tidak dapat diterima SIM roaming Anda. Kode ke nomor sewaan masuk ke aplikasi SMS Code lewat internet, di mana pun Anda berada. Catatan: Anda tidak membutuhkan nomor lokal hanya untuk naik di luar negeri — akun biasa Anda berfungsi secara internasional."
+    },
+    {
+      "q": "Mengapa kode Uber tidak masuk?",
+      "a": "Periksa lebih dulu bahwa kode negara cocok dengan nomor sewaan. Lalu pastikan kode datang lewat SMS — Uber terkadang bawaan ke WhatsApp atau panggilan suara. Jika tidak ada yang masuk, batalkan aktivasi di SMS Code tanpa biaya dan ambil nomor lain."
+    },
+    {
+      "q": "Apakah mendaftar Uber dengan nomor virtual diperbolehkan?",
+      "a": "Uber memverifikasi bahwa Anda menguasai nomor dan mengharapkan satu akun per penumpang dengan detail yang benar — itu ketentuannya, dan fitur keselamatan bergantung padanya. Memakai nomor sewaan untuk menjaga nomor pribadi tetap privat tidak masalah; memakai nomor untuk memanen promo pendaftaran atau menjalankan akun duplikat adalah yang membuat penumpang diblokir."
+    }
+  ]
+}

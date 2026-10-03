@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour KakaoTalk",
+  "metaDescription": "Recevez le code KakaoTalk sur un vrai numéro virtuel, généralement en quelques secondes. La messagerie coréenne, sans remettre votre téléphone personnel.",
+  "hero": {
+    "title": "Numéro virtuel pour KakaoTalk",
+    "intro": [
+      "KakaoTalk est la façon dont la Corée parle — groupes, fils familiaux, contacts d’affaires — et comme toute messagerie sérieuse elle s’ouvre sur un écran téléphone. L’inscription envoie un code court tel que «\u00a0[KakaoTalk] 4829 is your verification code\u00a0», et il n’y a pas de parcours par e-mail seul pour contourner.",
+      "Avec SMS Code, vous louez un vrai numéro mobile dans l’un de plus de 100 pays et le code apparaît dans l’app généralement en quelques secondes. Vous entrez dans la conversation — et les amis, collègues ou beaux-parents coréens qui attendent n’ont jamais besoin de votre numéro personnel pour vous joindre."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour KakaoTalk\u00a0?",
+    "body": [
+      "Les messageries bâties sur les numéros de téléphone partagent un défaut discret\u00a0: quiconque a votre numéro enregistré peut trouver votre profil, et quiconque à qui vous parlez est à un réglage de le voir. Rejoindre KakaoTalk pour un échange linguistique, un contact d’affaires ou un voyage à Séoul ne devrait pas vouloir dire que votre numéro de toujours entre dans un autre graphe social. Un numéro loué prend la vérification, et le vôtre reste hors de l’équation.",
+      "Le revers honnête\u00a0: un numéro non coréen vous donne un compte de discussion complet, mais pas tout Kakao. Les recoins de l’écosystème verrouillés sur la Corée — Kakao Pay, services de certificats, fonctions liées aux contrôles d’identité des opérateurs coréens — attendent un contrat téléphonique coréen et souvent une carte de résident, et aucun numéro loué ne les remplace. Si discuter est le but, un numéro virtuel fait le travail entièrement\u00a0; si les services financiers coréens sont le but, cela n’allait jamais suffire."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier KakaoTalk avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Louez un numéro dans SMS Code",
+        "body": "Choisissez KakaoTalk comme service et un pays. Un numéro de là où vous vivez vraiment garde le compte banal. Un toucher réserve un vrai numéro mobile pour vous."
+      },
+      {
+        "title": "Saisissez-le sur l’écran d’inscription",
+        "body": "KakaoTalk demande le numéro juste après l’installation. Sélectionnez l’indicatif correspondant, tapez le numéro et laissez l’app envoyer le SMS."
+      },
+      {
+        "title": "Saisissez le code",
+        "body": "Le texto arrive sous la forme «\u00a0[KakaoTalk] 4829 is your verification code\u00a0» et apparaît dans SMS Code généralement en quelques secondes. Saisissez-le — si le SMS bloque, KakaoTalk peut aussi lire le code par appel vocal après une attente."
+      },
+      {
+        "title": "Configurez le compte pour la durée",
+        "body": "Enregistrez un e-mail et un mot de passe de compte Kakao dans les réglages et notez-les quelque part de sûr. Les migrations d’appareil et les réinstallations s’appuient sur ce compte Kakao — c’est ce qui garde vos discussions à vous après la disparition du numéro loué."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Les discussions vivent sur l’appareil, les sauvegardes sur le compte",
+      "body": "KakaoTalk stocke l’historique en local et le restaure via des sauvegardes liées à votre compte Kakao. Définissez l’e-mail et le mot de passe du compte tout de suite et faites une sauvegarde avant de changer de téléphone — le numéro de téléphone seul ne transportera votre historique nulle part."
+    },
+    {
+      "title": "Surveillez les réglages de découverte",
+      "body": "KakaoTalk peut vous rapprocher de quiconque a votre numéro enregistré, y compris la vie passée d’un numéro recyclé. Désactivez l’ajout automatique d’amis par numéro de téléphone dans les réglages et partagez votre identifiant KakaoTalk à la place — c’est le moyen plus propre de vivre."
+    },
+    {
+      "title": "Les fonctions réservées à la Corée sont verrouillées par l’identité, pas par le numéro",
+      "body": "Kakao Pay, les certificats et les services similaires vérifient contre les opérateurs coréens et l’enregistrement de résident, pas seulement un préfixe +82. Un numéro coréen loué ne les déverrouille pas — prévoyez autour des fonctions de discussion, qui fonctionnent pleinement sur n’importe quel numéro vérifié."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je m’inscrire à KakaoTalk avec un numéro non coréen\u00a0?",
+      "a": "Oui. KakaoTalk inscrit des comptes sur des numéros de la plupart des pays — inscription, discussions, groupes et appels fonctionnent. Les services propres à la Corée superposés ont leurs propres contrôles d’identité qu’un numéro de téléphone seul ne satisfait pas."
+    },
+    {
+      "q": "Mon compte KakaoTalk survivra-t-il après l’expiration du numéro loué\u00a0?",
+      "a": "Oui, tant que vous restez connecté et définissez un e-mail et un mot de passe de compte Kakao. La revérification arrive surtout quand vous passez à un nouvel appareil — faites le transfert tant que vous pouvez encore recevoir la confirmation, ou appuyez-vous sur les identifiants du compte Kakao."
+    },
+    {
+      "q": "Pourquoi KakaoTalk dit-il que le numéro ne peut pas être utilisé\u00a0?",
+      "a": "Certaines tranches et certains numéros déjà inscrits sont refusés. Annulez l’activation dans SMS Code sans frais, prenez un numéro neuf — un autre pays si le schéma se répète — et refaites la vérification."
+    },
+    {
+      "q": "Les amis peuvent-ils voir quel numéro j’ai utilisé\u00a0?",
+      "a": "Les contacts qui ont déjà le numéro enregistré peuvent le rapprocher de votre profil si l’ajout automatique d’amis est activé. Désactivez l’ajout d’amis par numéro, utilisez votre identifiant KakaoTalk pour les présentations, et le numéro reste un détail de connexion plutôt qu’un identifiant public."
+    },
+    {
+      "q": "Un numéro virtuel fonctionne-t-il pour Kakao Pay ou les services de vérification coréens\u00a0?",
+      "a": "Non. Ceux-ci contrôlent des contrats d’opérateurs coréens et l’identité de résident, qu’un numéro loué ne porte pas. Un numéro virtuel est pour la messagerie elle-même — comptes, discussions et appels — pas pour la couche financière coréenne verrouillée par l’identité."
+    }
+  ]
+}

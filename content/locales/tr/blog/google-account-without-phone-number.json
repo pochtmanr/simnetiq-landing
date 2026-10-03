@@ -1,0 +1,152 @@
+{
+  "title": "Google hesabı, kendi numaranız olmadan",
+  "description": "Google her zaman telefon numarası istemez — istediğinde de sizin olmak zorunda değildir. Atlayan akışlar, sanal numara yolu ve kurtarma tuzağı.",
+  "excerpt": "Google bazen hiç telefonsuz kaydolmanıza izin verir; bazen uyarı zorunludur. Buna neyin karar verdiği, gerçekten işe yarayan yollar ve hesabı sonra sizde tutan tek kurtarma ayarı burada.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Google hesabı internetin yarısının anahtarıdır — Gmail, YouTube, Drive, Play Store, her “Google ile giriş yap” düğmesi. Kişisel telefon numaranızı Google’a vermenin bir foruma vermekten daha ağır hissettirmesinin nedeni tam budur: bu numara aramalarınızı, konum geçmişinizi ve gelen kutunuzu zaten bilen hesaba bağlanır."
+    },
+    {
+      "type": "p",
+      "text": "Çoğu rehberin yanlış anladığı kısım şudur: Google her zaman telefon numarası istemez. Kayıt bazen yalnızca ad ve doğum günüyle geçer; aynı form bazen bir yere kod gönderilene kadar devam etmeyi reddeder. Hangisini aldığınız rastgele değildir — teraziyi neyin bozduğunu bildiğinizde uyan yolu seçebilirsiniz."
+    },
+    {
+      "type": "p",
+      "text": "Bu rehber uyarının gerçekten ne zaman çıktığını, numaranız olmadan gerçekten işe yarayan kayıt yollarını ve — burada başka her yerden daha önemli olduğu için — hesabın tutmadığınız bir numaraya hiç bağlı kalmaması için kurtarmayı nasıl kuracağınızı kapsar."
+    },
+    {
+      "type": "h2",
+      "id": "when-google-actually-asks",
+      "text": "Google numarayı gerçekten ne zaman ister"
+    },
+    {
+      "type": "p",
+      "text": "Google telefon doğrulamasının gerekip gerekmediğine kayıt başına, denemenin ne kadar riskli göründüğüne göre karar verir. Bunlardan birkaçı üst üste geldiğinde zorunlu bir uyarıyla karşılaşmanız olasıdır:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Kayıt bir masaüstü tarayıcıdan gelir — özellikle Google’ın sistemlerinin daha önce görmediği taze bir profil, gizli pencere veya VPN çıkışı.",
+        "Aynı cihaz, ağ veya tarayıcı parmak izinden yakın zamanda birkaç hesap oluşturulmuştur. Sayaç görünmez ama vardır — ikinci ve üçüncü hesap uyarıyla birinciden çok daha sık karşılaşır.",
+        "Denemede otomatik görünen bir şey vardır: alışılmadık yazma ritmi, işaretlenmiş bir IP aralığı, bir veri merkezi adresi."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bunları ters çevirin, daha dostane akışları alırsınız: gerçek bir telefondan, konut bağlantısında, acele etmeyen bir tempoyla kayıtlar telefon alanının isteğe bağlı işaretlendiği — veya hiç çıkmadığı — akışlardır. Dürüst nüans budur: Google’ı uyarıyı atlamaya zorlayamazsınız ama atlamanın en olası olduğu akışı seçebilirsiniz."
+    },
+    {
+      "type": "h2",
+      "id": "why-keep-your-number-out",
+      "text": "Numaranızı bunun dışında neden tutmalısınız"
+    },
+    {
+      "type": "p",
+      "text": "Genel ilkenin ötesinde — kalıcı tanımlayıcınızı tutan bir veritabanı daha az — Google doğrulanmış telefonu özellikle hesaplar arası bağlama için kullanır: numaralar “ayrı” hesaplarınızı birbirine bağlar, kayıtları reklam profilinize bağlar ve anonim veya işten ayrılmış hesapları öyle olmaktan çıkarır. Numara bir keşif kanalıdır da: onu kişilerinde tutan kişilere profiliniz gösterilebilir. İkinci hesabın bütün amacı ayrımsa onu aynı SIM’e bağlamak ilk günden bozar."
+    },
+    {
+      "type": "h2",
+      "id": "routes-that-work",
+      "text": "Gerçekten işe yarayan yollar"
+    },
+    {
+      "type": "list",
+      "items": [
+        "İsteğe bağlıyken atlayın. Telefon alanında “Atla” seçeneği varsa alın. Sonraki ekranda bir kurtarma e-postası ekleyin, hesap tamamdır. Sıfır maliyetli yoldur ve özellikle yukarıdaki akışlarda insanların beklediğinden daha sık işe yarar.",
+        "Bir Android cihaz üzerinden kaydolun. Android telefon veya tablette Ayarlar → Hesaplar üzerinden hesap eklemek, Google’ın en sık hiç numara istemediği akıştır — cihazın kendisi kayda kefil olur. Etrafınızda herhangi bir Android cihaz varsa önce bunu denemeye değer.",
+        "Uyarı zorunluyken sanal numara kullanın. Google kod olmadan devam etmeyi reddettiğinde bir SMS alabilen herhangi bir numara işe yarar — size hiç bağlanmayan kiralanmış bir sanal numara dahil. Aşağıdaki adımlar bunu kapsar."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-a-virtual-number",
+      "text": "Sanal numarayla doğrulamak, adım adım"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Google için bir numara kiralayın",
+          "body": "SMS Code uygulamasında servis olarak Google’ı seçin ve bir ülke seçin. Tek dokunuş gerçek bir mobil numarayı yalnızca size ayırır — tek seferlik bir paketten jetonla ödersiniz, abonelik yok."
+        },
+        {
+          "title": "Doğrulama ekranına girin",
+          "body": "Google kaydına dönün, kiralanan numarayla eşleşen ülkeyi seçin ve yazın. Google biçimler konusunda katıdır; öneki elle yazmak yerine ülke seçicinin işi yapmasına izin verin."
+        },
+        {
+          "title": "Kodu kopyalayın",
+          "body": "SMS — “G-482916 is your Google verification code” — SMS Code’da genellikle saniyeler içinde görünür. Girin, kayıt devam eder."
+        },
+        {
+          "title": "Numarayı hemen ayırın",
+          "body": "İçeri girdikten sonra myaccount.google.com → Güvenlik bölümünü açın, kontrol ettiğiniz bir kurtarma e-postası ekleyin, sonra telefon numarasını hem “Kurtarma telefonu” hem “Telefon” bölümlerinden kaldırın. Hesap artık yalnızca parolanız ve e-postanız üzerinde durur."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    },
+    {
+      "type": "h2",
+      "id": "the-recovery-trap",
+      "text": "Kurtarma tuzağı — sekmeyi kapatmadan önce okuyun"
+    },
+    {
+      "type": "p",
+      "text": "Google’da kurtarma ayarları sonradan akla gelen bir şey değildir; sahip olduğunuz bir hesap ile ödünç aldığınız bir hesap arasındaki farktır. Google şüpheli giriş kontrolleri için doğrulanmış telefona yaslanır: yeni bir yere gidin, çerezleri temizleyin veya yalnızca şanssız olun, giriş ekranı kodu yine isteyebilir — dosyadaki numaraya gönderilir."
+    },
+    {
+      "type": "callout",
+      "text": "Kayıt tamamlandığı anda iki şey yapın: kontrol ettiğiniz bir kurtarma e-postası ekleyin ve kiralanan numarayı hesabın telefon ayarlarından kaldırın. Numara kiralama bittikten sonra dosyada kalırsa gelecekteki bir doğrulama kontrolü sizi kendi hesabınızdan kilitleyebilir — bu sürecin tek gerçek riski budur ve tamamen önlenebilir."
+    },
+    {
+      "type": "h2",
+      "id": "honest-limits",
+      "text": "Dürüst sınırlar"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Google doğrulamayı sonra yeniden isteyebilir. Yeni bir cihaz, tuhaf bir konum veya temizlenmiş bir tarayıcı başka bir kontrol tetikleyebilir. Kurtarma e-postası ayarlı ve eski numara kaldırılmışsa e-posta ile doğrularsınız — ama ara sıra bir sorgu bekleyin; Google her hesap için böyle çalışır.",
+        "Bir numara sınırlı sayıda hesabı doğrular. Google her numaranın kaç hesabı onayladığını izler ve birkaçından sonra reddetmeye başlar. Bir kez kullandığınız kiralanmış bir numara o duvara çarpmaz — ama birçok kayıtta geri dönüştürülen aynı numara çarpar.",
+        "Bu bir toplu kayıt aracı değildir. Ayrım veya gizlilik için tek özel hesap olağan kullanımdır. Hesap tarlaları Google’ın koşullarını ihlal eder, yukarıda anlatılan aynı risk sistemlerince yakalanır ve genellikle bir askıya alma dalgasıyla biter."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sıkça sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Hiç telefon numarası olmadan gerçekten Google hesabı oluşturabilir miyim?",
+          "a": "Bazen evet. Telefon alanı isteğe bağlı işaretlendiğinde — en sık Android’in hesap ekleme akışında veya düşük riskli kayıtlarda — tamamen atlayabilir ve bunun yerine kurtarma e-postası kullanabilirsiniz. Google denemeniz için doğrulamanın zorunlu olduğuna karar verdiğinde bir numaranın bir kod alması gerekir; o numara sizin olmak zorunda değildir."
+        },
+        {
+          "q": "Gmail ve YouTube sonra normal çalışır mı?",
+          "a": "Evet. Sanal numarayla doğrulanmış bir hesap tam bir Google hesabıdır — Gmail, YouTube, Drive ve Play aynı davranır. Numaranın tek rolü kayıttaki tek seferlik koddu."
+        },
+        {
+          "q": "Kiralanan numaranın süresi bitince ne olur?",
+          "a": "Hiçbir şey — onu hesaptan kaldırdıysanız ve bir kurtarma e-postası belirlediyseniz. Hesap parolanız ve e-postanızla yürür. Ölü numarayı kurtarma telefonu olarak bırakırsanız gelecekteki bir güvenlik kontrolü kodları oraya gönderebilir; hemen ayırmanın önemli olmasının nedeni budur."
+        },
+        {
+          "q": "Google numaramın “doğrulama için kullanılamayacağını” neden söylüyor?",
+          "a": "Google kötüye kullanıldığını gördüğü aralıkları reddeder — çoğu ücretsiz herkese açık numara ve bazı sanal aralıklar. Kiralanan bir numara reddedilirse SMS Code’da etkinleştirmeyi ücretsiz iptal edin ve tercihen başka bir ülkeden farklı bir tane alın; sonraki numara genellikle geçer."
+        },
+        {
+          "q": "Bu yolla kaydolmak Google’ın koşullarına aykırı mı?",
+          "a": "Google’ın koşulları doğru kurtarma bilgisi ister ve kötüye kullanımı yasaklar — kayıt telefonunun sizin adınıza kayıtlı olmasını istemez. Kiralanan numarayla oluşturulmuş ve sonra kendi kurtarma e-postanızla düzgün güvenceye alınmış kişisel bir hesap olağan kullanımdır; toplu hesap oluşturma değildir."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    }
+  ]
+}

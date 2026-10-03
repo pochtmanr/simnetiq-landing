@@ -1,0 +1,55 @@
+{
+  "name": "Alemania",
+  "metaTitle": "Número virtual de Alemania +49",
+  "metaDescription": "Número virtual real de Alemania (+49) y códigos SMS normalmente en segundos. Verifica Google, Discord, Steam, Signal y PayPal con un número de la UE.",
+  "hero": {
+    "title": "Número virtual de Alemania para verificación por SMS",
+    "intro": [
+      "Alemania es el mayor mercado de Europa y uno de los más atentos a la privacidad, y un móvil +49 lleva esa reputación consigo. Los servicios ven un número de un país con una cultura estricta de protección de datos y una red de operadores madura: una opción sólida y, en el mejor sentido, que no llama la atención.",
+      "SMS Code te alquila un número móvil alemán real con un toque. Escríbelo en el paso de verificación de Google, Discord, Steam u otro servicio admitido, y el SMS con tu código cae en la aplicación normalmente en segundos."
+    ]
+  },
+  "whyCountry": {
+    "title": "¿Por qué elegir un número de Alemania?",
+    "body": [
+      "Un número alemán es una señal de confianza fuerte dentro de la UE. Las plataformas que operan bajo reglas europeas — pagos como PayPal, ecosistemas de juego como Steam, mensajeros que priorizan la privacidad como Signal — están más que acostumbradas a números +49, y los registros de toda la UE los tratan como un caso doméstico, no como algo exótico.",
+      "Los móviles alemanes viven en los rangos 15x, 16x y 17x; el 15x es el más habitual en números nuevos. La estructura — +49, luego el prefijo móvil y los dígitos del abonado — la leen bien los formularios internacionales, así que el paso de verificación rara vez es donde se tuerce."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Escríbelo en formato internacional",
+      "body": "Dentro del país el número se escribe 015X…, pero los formularios de verificación quieren +49 seguido del número sin el cero inicial. La mayoría de formularios con selector de país lo resuelven solos: solo asegúrate de que esté seleccionada Alemania."
+    },
+    {
+      "title": "Encaja con servicios regulados en la UE",
+      "body": "Si la cuenta va a moverse entre normas europeas de pago o de marketplaces, un número alemán mantiene todo el montaje dentro del marco de la UE. Sirve cuando un servicio trata distinto, en el registro, a usuarios de la UE y de fuera."
+    },
+    {
+      "title": "Un código parado no te cuesta",
+      "body": "Si no llega ningún SMS dentro de la ventana de activación, cancélala en la aplicación — es gratis cuando no se recibió nada — y toma otro número alemán para un reintento limpio."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Es un número móvil alemán de verdad?",
+      "a": "Sí: un número en un operador real, en los rangos móviles estándar de Alemania. El servicio con el que verificas ve un teléfono alemán corriente, no un receptor que solo existe en la web."
+    },
+    {
+      "q": "¿Qué servicios combinan bien con un número alemán?",
+      "a": "En general, las plataformas orientadas a la UE: Google, Discord, Steam, Signal y PayPal son elecciones habituales, y cualquier servicio con un registro europeo trata el +49 como algo de todos los días."
+    },
+    {
+      "q": "¿Tengo que estar en Alemania para usarlo?",
+      "a": "No. El número y el SMS que llega viven dentro de la aplicación SMS Code, así que puedes estar en cualquier parte del mundo: tu SIM y tu ubicación no intervienen."
+    },
+    {
+      "q": "¿Cómo se paga?",
+      "a": "Pagas por activación, con un paquete de monedas de un solo pago: sin suscripción. Si una activación no recibe su SMS, se cancela sin cargo y las monedas siguen siendo tuyas."
+    },
+    {
+      "q": "¿El número es mío para siempre?",
+      "a": "El alquiler cubre la ventana de activación: lo justo para recibir el código de verificación. Para una cuenta que vaya a durar, añade un correo de recuperación y 2FA con una aplicación de autenticación justo después de registrarte, para que la cuenta no vuelva a depender de ese número."
+    }
+  ]
+}

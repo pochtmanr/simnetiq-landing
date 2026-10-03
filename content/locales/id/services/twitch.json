@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Twitch — verifikasi chat dan 2FA privat",
+  "metaDescription": "Terima kode SMS Twitch di nomor virtual asli biasanya dalam hitungan detik. Lewati chat terverifikasi telepon dan siapkan 2FA tanpa nomor pribadi.",
+  "hero": {
+    "title": "Nomor virtual untuk Twitch",
+    "intro": [
+      "Twitch membiarkan Anda mendaftar hanya dengan email — lalu langkah telepon mulai mengikuti Anda. Streamer mengalihkan chat ke mode terverifikasi telepon untuk menahan bot, autentikasi dua faktor disyaratkan sebelum Anda dapat siaran langsung, dan begitu salah satunya terjadi, Twitch ingin mengirim kode seperti “Your Twitch verification code is 843921” ke nomor Anda.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara dan kodenya masuk ke aplikasi biasanya dalam hitungan detik. Pesan chat terkirim, 2FA aktif — dan nomor telepon yang duduk di samping nama kanal di basis data Twitch tidak pernah nomor pribadi Anda."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Twitch?",
+    "body": [
+      "Twitch adalah identitas yang menghadap publik dengan cara yang tidak dimiliki kebanyakan akun: nama pengguna Anda di layar, riwayat chat publik, dan jika Anda streaming, orang asing secara aktif meneliti Anda. Menautkan identitas itu ke nomor seluler pribadi berarti satu kebocoran data atau satu sengketa moderator yang ceroboh berdiri di antara audiens internet dan telepon di saku Anda. Nomor sewaan menyerap langkah verifikasi agar persona publik dan nomor pribadi tidak pernah bersentuhan.",
+      "Sisi jujurnya: telepon di akun Twitch bukan hiasan. Chat terverifikasi telepon memeriksanya, dan 2FA berbasis SMS bergantung padanya. Itulah mengapa pola yang masuk akal adalah memverifikasi dengan nomor sewaan, lalu segera memindahkan 2FA ke aplikasi autentikator di setelan keamanan — Twitch mendukungnya dan bahkan lebih menyukainya. Nomor melakukan satu tugasnya pada momen verifikasi; login jangka panjang Anda tidak pernah bergantung padanya."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Twitch dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Pilih Twitch sebagai layanan dan pilih negara — yang cocok dengan tempat Anda benar-benar menonton atau streaming menjaga semuanya konsisten. Satu ketukan mencadangkan nomor seluler asli untuk Anda."
+      },
+      {
+        "title": "Tambahkan di setelan keamanan Twitch",
+        "body": "Di Setelan → Keamanan dan Privasi, pilih menambah nomor telepon (atau ikuti permintaan saat chat terverifikasi telepon suatu kanal meminta). Pilih kode negara nomor dan masukkan persis."
+      },
+      {
+        "title": "Ketik kodenya",
+        "body": "SMS berbunyi “Your Twitch verification code is 843921” dan muncul di aplikasi SMS Code biasanya dalam hitungan detik. Masukkan di Twitch dan nomornya terverifikasi."
+      },
+      {
+        "title": "Alihkan 2FA ke aplikasi autentikator",
+        "body": "Jika Anda mengaktifkan dua faktor untuk streaming, pindahkan dari SMS ke aplikasi autentikator segera di layar setelan yang sama. Setelah itu nomor sewaan tidak punya peran berkelanjutan — login dan siaran Anda tidak bergantung padanya."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Satu nomor, satu akun",
+      "body": "Twitch menautkan akun yang berbagi nomor telepon — dan jika salah satunya mendapat penangguhan, yang lain tertaut ke nomor yang sama dapat ikut jatuh. Beri setiap akun aktivasinya sendiri daripada mendaur ulang satu nomor di beberapa akun."
+    },
+    {
+      "title": "Chat terverifikasi telepon per kanal",
+      "body": "Anda sering menjelajah Twitch berbulan-bulan tanpa permintaan telepon, lalu menemui kanal besar yang chat-nya menuntut satu. Verifikasi sekali dan itu dihitung di mana-mana — jadi lakukan sesuai jadwal Anda, bukan di tengah momen ramai saat chat yang ingin Anda ikuti sudah bergerak."
+    },
+    {
+      "title": "Nomor tidak akan membatalkan pemblokiran",
+      "body": "Pemblokiran kanal dan penangguhan seluruh situs ditegakkan melalui sinyal Twitch sendiri, bukan hanya telepon Anda. Nomor virtual menjaga nomor pribadi tetap privat — ia bukan alat penghindaran blokir, dan menghindari penangguhan melanggar ketentuan Twitch serta cenderung membuat setiap akun tertaut ditandai."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah Twitch mensyaratkan nomor telepon untuk mendaftar?",
+      "a": "Tidak — pendaftaran berfungsi dengan email saja. Telepon muncul kemudian: saat chat suatu kanal mensyaratkan verifikasi telepon, saat Anda mengaktifkan autentikasi dua faktor SMS, atau sebelum Anda mulai streaming. Saat salah satu momen itu tiba, nomor virtual menerima kode persis seperti SIM."
+    },
+    {
+      "q": "Apakah akun Twitch saya tetap berfungsi setelah nomor sewaan berakhir?",
+      "a": "Ya. Nomor diperiksa saat verifikasi, bukan terus-menerus. Biarkan email terkonfirmasi, pakai kata sandi yang kuat, dan pindahkan 2FA ke aplikasi autentikator — setelah itu, tidak ada pada login yang bergantung pada nomor sewaan."
+    },
+    {
+      "q": "Bisakah saya memverifikasi beberapa akun Twitch dengan satu nomor virtual?",
+      "a": "Anda bisa, tetapi sebaiknya tidak. Twitch memperlakukan nomor telepon bersama sebagai tautan antarakun, dan penegakan dapat merambat di antaranya. Sewa aktivasi terpisah untuk setiap akun yang ingin berdiri sendiri."
+    },
+    {
+      "q": "Apakah saya membutuhkan verifikasi telepon untuk streaming di Twitch?",
+      "a": "Anda membutuhkan autentikasi dua faktor aktif untuk streaming, dan penyiapannya dimulai dengan telepon. Verifikasi dengan nomor sewaan, lalu alihkan faktor kedua ke aplikasi autentikator agar login berikutnya tidak pernah menunggu SMS."
+    },
+    {
+      "q": "Mengapa kode Twitch tidak masuk?",
+      "a": "Periksa bahwa kode negara cocok dengan nomor sewaan, dan beri waktu sebentar — kode biasanya mendarat dalam hitungan detik. Jika tidak ada yang datang, batalkan aktivasi di SMS Code tanpa biaya dan ambil nomor baru; Anda hanya membayar aktivasi yang menyampaikan."
+    }
+  ]
+}

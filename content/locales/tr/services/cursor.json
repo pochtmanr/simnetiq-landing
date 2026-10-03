@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Cursor için sanal numara",
+  "metaDescription": "Cursor kaydınızı gerçek sanal numarayla doğrulayın. SMS kodu saniyeler içinde gelir — kişisel numaranızı geliştirici hesaplarının dışında tutun.",
+  "hero": {
+    "title": "Cursor için sanal numara",
+    "intro": [
+      "Cursor — yapay zekâ destekli kod editörü — işlem gücü dağıtan her geliştirici aracıyla aynı koşu bandındadır: ücretsiz katmanlar kötüye kullanımı çeker, bu yüzden kayıtlar kapılanır. E-posta onayının yanında Cursor, hesap veya deneme yayına girmeden önce SMS ile telefon numarası doğrulamanızı isteyebilir; çalışan bir mobil numara bir gelen kutusundan daha zor toplu üretilir.",
+      "SMS Code size 100+ ülkeden birinde gerçek bir numara kiralar. Cursor kaydı telefon istediğinde kiralananı girin — altı haneli kod SMS Code uygulamasında genellikle saniyeler içinde görünür ve kişisel numaranız bir SaaS veritabanının daha dışında kalır."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Cursor için neden sanal numara?",
+    "body": [
+      "Geliştiriciler hesap biriktirir, tezgâhların tornavida biriktirmesi gibi — editörler, bulutlar, API’ler, CI servisleri — ve her biri giderek bir telefon numarası ister. Kişisel numaranızı hepsine bağlamak, her satıcı sızıntısının, pazarlama listesinin ve hesap bağ grafiğinin onu içermesi demektir. Geliştirici aracı kimlikleriniz ile gerçek numaranız arasına kiralanan bir numara koymak, iş e-postası kullanmakla aynı içgüdüdür: varsayılan ayrım, gerçek numaranız platformlara değil insanlara ayrılmış.",
+      "Meşru teknik bir kullanım da vardır. Bir kayıt akışı kuruyor veya QA test ediyorsanız — kendi ürününüzün veya temiz bir kullanıcı için Cursor’ın karşılama akışının nasıl davrandığını değerlendiriyorsanız — gerçekten SMS alan bir numaraya ihtiyacınız vardır, test hesabında yakılmış kendi numaranıza değil. Kiralanan bir etkinleştirme tam bunu verir: bir kez kullanılan, gerçek bir alıcı numara, SIM çekmecesi gerekmez."
+    ]
+  },
+  "howTo": {
+    "title": "Cursor’ı sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "SMS Code uygulamasını açın, servis olarak Cursor’ı seçin ve bir ülke seçin — geliştirici araçları için ABD, Almanya veya Hollanda tipik tercihlerdir. Numara anında size ayrılır."
+      },
+      {
+        "title": "Kaydolun ve numarayı girin",
+        "body": "Cursor hesabınızı kontrol ettiğiniz bir e-posta ile oluşturun. Akış telefon numarası doğrulamanızı istediğinde kiralananı eşleşen ülke koduyla yazın."
+      },
+      {
+        "title": "Kodu SMS Code’dan girin",
+        "body": "SMS, SMS Code uygulamasına genellikle saniyeler içinde düşer — “Your Cursor verification code is 812750”. Altı haneyi Cursor’ın doğrulama alanına yapıştırın, geçtiniz."
+      },
+      {
+        "title": "Hesabın kendisini güvenceye alın",
+        "body": "Temellerle bitirin: güçlü ve benzersiz bir parola ve onaylı bir e-posta. Cursor’ın gündelik girişi SMS ile değil, bunlarla yürür — telefon kontrolü yinelenen değil, tek seferlik bir kapıydı."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kiralamadan önce kayıt ekranı açık olsun",
+      "body": "Doğrulama kodları kısa ömürlüdür ve etkinleştirme penceresi sonludur. Önce Cursor’ın telefon doğrulama ekranını önünüze alın, sonra numarayı kiralayın ve kodu isteyin — hazır olduğunuzda SMS genellikle saniyeler içinde gelir."
+    },
+    {
+      "title": "Hesap e-postadır; telefon kapıdır",
+      "body": "Cursor sizi e-posta girişinizle tanır ve lisans veya abonelik soruları onun üzerinden gider. Tutacağınız bir posta kutusu kullanın; hesap, kiralanan numaranın etkinleştirme penceresini aksamasız geride bırakır."
+    },
+    {
+      "title": "Kurallar içinde tek hesap",
+      "body": "Telefon kapıları vardır çünkü ücretsiz katmanlar tarla gibi ekilir. Sanal numarayı kişisel numaranızı gerçek hesabınızda gizli tutmak için kullanın — deneme hesaplarını yığmak için değil; bu Cursor’ın koşullarını ihlal eder ve yasaklı hesaplarla bitmeye eğilimlidir."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Cursor her zaman telefon numarası ister mi?",
+      "a": "İlla değil — birçok geliştirici aracı gibi Cursor telefon doğrulamasını seçici uygular, çoğu zaman kayıt sinyallerine ve kötüye kullanım baskısına bağlıdır. Uyarı çıktığında kiralanan bir sanal numara onu genellikle saniyeler içinde karşılar."
+    },
+    {
+      "q": "Numaranın süresi bitince Cursor hesabım çalışmaya devam eder mi?",
+      "a": "Evet. SMS kontrolü kayıtta olur; sonra e-posta ve parola ile giriş yaparsınız. Kiralanan numaranın etkinleştirme penceresinin bitmesi, zaten kullandığınız bir hesapta hiçbir şeyi değiştirmez."
+    },
+    {
+      "q": "Kendi ürünümün SMS kayıt akışını test etmek için sanal numara kullanabilir miyim?",
+      "a": "Evet — bu gerçekten yararlı bir geliştirici kalıbıdır. Kiralanan numara gerçek bir operatörde gerçek bir alıcı numaradır; kişisel numaranızı bir test hesabında yakmadan OTP akışını uçtan uca taze bir kullanıcı olarak yürüyebilirsiniz."
+    },
+    {
+      "q": "Cursor doğrulama kodum neden gelmedi?",
+      "a": "Çoğunlukla ülke kodu uyuşmazlığı ya da servisin o numara aralığını reddetmesidir. SMS Code’da etkinleştirmeyi iptal edin — SMS yoksa jetonlar bakiyenize döner — ve başka bir numara veya ülkeyle yeniden deneyin."
+    },
+    {
+      "q": "Cursor’ı sanal numarayla doğrulamak serbest mi?",
+      "a": "Kontrol, gerçek bir numarayı kontrol ettiğinizi onaylar ve kiralanan numara tam olarak budur. Önemli olan sonra ne yaptığınızdır: Cursor’ın koşulları içinde kullanılan tek gerçek hesap uygundur; birden fazla ücretsiz deneme tarlası ekmek değildir, sanal numara olsa da olmasa da."
+    }
+  ]
+}

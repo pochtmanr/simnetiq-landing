@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Discord için sanal numara",
+  "metaDescription": "Discord telefon doğrulaması için gerçek bir mobil numara alın; kod genellikle saniyeler içinde gelir. Sunucu kontrolünü kişisel numaranızı bağlamadan geçin.",
+  "hero": {
+    "title": "Discord için sanal numara",
+    "intro": [
+      "Discord kayıtta yalnızca e-posta ister — istemediği güne kadar. Yüksek doğrulama düzeyli bir sunucuda yazmayı deneyin, art arda birkaç sunucuya katılın veya bir VPN üzerinden bağlanın; Discord’un kötüye kullanım sistemi daha ileri gitmeden doğrulanmış bir telefon numarası ister.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız, onu Discord’a yazarsınız ve gönderen “Discord”dan gelen altı haneli kod uygulamada genellikle saniyeler içinde görünür. Kişisel numaranız bunun — ve Discord’un veritabanının — dışında kalır."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Discord için neden sanal numara?",
+    "body": [
+      "Discord bir telefon numarasının aynı anda tam olarak bir hesapta doğrulanmasına izin verir: yeni bir hesapta doğrularsanız eskisinden sessizce ayrılır. İnsanların Discord için numara kiralamasının nedeni bu tek kuraldır. Bir moderasyon hesabı, bot testi için bir geliştirici hesabı veya yönetmeye yardım ettiğiniz bir topluluk için ayrı bir kimlik çalıştırıyorsanız her hesabın kendi numarası gerekir — sanal numara her birine SIM çekmecesi olmadan ayrı bir hat verir.",
+      "Diğer yarısı Discord’un seçici olmasıdır. VoIP olarak sınıflandırdığı numaraları reddetmesiyle bilinir; ücretsiz “geçici SMS” sitelerinin tam bu adımda sık sık başarısız olmasının nedeni budur. SMS Code gerçek operatör ağlarında gerçek mobil numaralar verir, Discord bunları normalde kabul eder — ve belirli bir numara yine reddedilirse bekleyen etkinleştirmeyi ücret ödemeden iptal edip başka bir ülkeden numara denersiniz."
+    ]
+  },
+  "howTo": {
+    "title": "Discord’u sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara alın",
+        "body": "SMS Code uygulamasını açın, servis olarak Discord’u seçin, bir ülke seçin ve bir kez dokunun. Numara gerçek bir mobil hattır ve yalnızca size ayrılmıştır — bu önemlidir, çünkü Discord her numarayı tek bir hesaba bağlar."
+      },
+      {
+        "title": "Onu Discord’a girin",
+        "body": "Numarayı Discord’un gösterdiği uyarıya yazın — kilitli bir hesaptaki doğrulama duvarı, telefon kapılı bir sunucunun kapısı veya Ayarlar → Hesabım → Telefon ekle. Eşleşen ülke kodunu seçin; uyuşmazlık kodun hiç gelmemesinin en sık nedenidir."
+      },
+      {
+        "title": "Altı haneli kodu alın",
+        "body": "SMS, SMS Code uygulamasına genellikle saniyeler içinde, gönderen “Discord”dan düşer: “Your Discord verification code is: 274918”. Girin, onay işareti görünür — hesap doğrulanır ve telefon kapısı kalkar."
+      },
+      {
+        "title": "Hesabı düzgün güvenceye alın",
+        "body": "Numara Ayarlar → Hesabım bölümünde bağlı kalır ve hesap buradan sonra normal çalışır. Hemen kimlik doğrulayıcı 2FA ekleyin ve yedek kodları kaydedin — hesabı uzun vadede asıl koruyan telefon değil, budur."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Bir numara bir hesabı doğrular — nokta",
+      "body": "Aynı numarayı ikinci bir Discord hesabında doğrularsanız Discord onu oraya taşır ve birinciden ayırır; bu, ilk hesabı doğrulama duvarının arkasına geri itebilir. Doğrulanmış tutmak istediğiniz her hesap için ayrı bir numara kiralayın."
+    },
+    {
+      "title": "Discord numarayı reddederse zorlamayın",
+      "body": "Discord VoIP olarak işaretlediği numaraları eler ve ara sıra meşru bir mobil aralık da yakalanır. SMS Code’da bekleyen etkinleştirmeyi iptal edin — kod almayan numaranın jetonları bakiyenize döner — ve tercihen başka bir ülkeden taze bir numara alın."
+    },
+    {
+      "title": "Telefon kapılı sunucular geçmişe değil, bağa bakar",
+      "body": "En yüksek doğrulama düzeyindeki sunucular hesabınıza şu anda bağlı bir telefon ister. Kimlik doğrulayıcı 2FA ve yedek kodlar yerindeyken numarayı Ayarlar’dan kaldırabilirsiniz ama bunu önemsediğiniz kapılı sunuculara katıldıktan sonra yapın — ya da orada aktifken bağlı tutun."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Discord neden birden telefon numarası istiyor?",
+      "a": "İki ana tetikleyici. Yüksek doğrulama düzeyli sunucular, yazabilmeniz için doğrulanmış bir telefon ister. Ve Discord’un kötüye kullanım sistemi, sevmediği sinyaller görünce hesapları telefon doğrulaması beklerken kilitler — VPN bağlantısı, birçok sunucuya hızla katılmak, fazla hızlı davranan taze bir hesap. Her iki durumda da bir numara ve altı haneli kodu girmek engeli kaldırır."
+    },
+    {
+      "q": "Bir sanal numarayla iki Discord hesabını doğrulayabilir miyim?",
+      "a": "Hayır — bu bizim sınırımız değil, Discord’un. Bir numara aynı anda yalnızca bir Discord hesabında doğrulanabilir; ikincide doğrulamak onu birinciden ayırır. Bunun yerine hesap başına ayrı bir numara kiralayın; bir moderasyon profili veya bot test hesabı ana hesabınızı doğrulanmış durumdan düşürmesin."
+    },
+    {
+      "q": "Discord sanal numarayı kabul eder mi? Engellediğini duydum.",
+      "a": "Discord, VoIP olarak sınıflandırdığı numaraları engeller; ücretsiz “geçici SMS” sitelerinin çoğunun verdiği budur. SMS Code numaraları operatör ağlarında gerçek mobil numaralardır ve Discord bunları normalde kabul eder. Hiçbir servis her numaranın geçeceğini vaat edemez — biri reddedilirse etkinleştirmeyi ücretsiz iptal edin ve başka bir ülke deneyin."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince Discord hesabıma ne olur?",
+      "a": "Normal çalışmaya devam eder. Doğrulama tek seferlik bir kontroldür; numara yalnızca Ayarlar → Hesabım bölümünde listelenir ve Discord günlük kullanımda onu SMS ile yeniden doğrulamaz. Yedek kodlu kimlik doğrulayıcı 2FA ekleyin, hesap o numaraya hiç bağlı kalmaz — telefon kapılı sunucular için bağlı tutmanız gerekmiyorsa kaldırabilirsiniz bile."
+    },
+    {
+      "q": "Discord’dan kod hiç gelmedi — ne yapmalıyım?",
+      "a": "Önce Discord’da seçtiğiniz ülke kodunun numarayla eşleştiğini kontrol edin — sessiz hataların çoğuna bu uyuşmazlık yol açar. Doğruysa ve birkaç dakika içinde hiçbir şey gelmezse Discord o numarayı büyük olasılıkla reddetmiştir. SMS Code’da bekleyen etkinleştirmeyi iptal edin — hiçbir şey almayan numaralar için jetonlar geri gelir — ve başka bir ülkeden yeni bir tane isteyin."
+    }
+  ]
+}

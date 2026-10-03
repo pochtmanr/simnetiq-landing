@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternativa ao SMS-Man — SMS Code da SIMNETIQ",
+  "metaDescription": "O SMS-Man e o aplicativo SMS Code da SIMNETIQ: serviço web com várias recargas versus aplicativo iOS cobrado pela App Store.",
+  "hero": {
+    "title": "Uma alternativa ao SMS-Man cobrada pela loja de aplicativos",
+    "intro": [
+      "O SMS-Man é um serviço web de longa data para receber códigos de verificação por SMS em números virtuais. Você se registra no site deles, recarrega um saldo da conta — descrições públicas do serviço mencionam uma gama ampla de meios, de cartões bancários a sistemas de pagamento eletrônico e criptomoeda — e compra números por ativação, com uma API disponível para fluxos automatizados.",
+      "O SMS Code da SIMNETIQ troca essa flexibilidade por um modelo de confiança mais simples. É um aplicativo nativo para iOS em que o pagamento acontece inteiramente pela cobrança da Apple: você compra um pacote avulso de moedas do mesmo jeito que compraria qualquer compra dentro do aplicativo, e nenhum número de cartão, endereço de carteira ou credencial de pagamento é compartilhado conosco. Escolha serviço e país, e o código chega no aplicativo em geral em segundos."
+    ]
+  },
+  "whenThem": {
+    "title": "Quando o SMS-Man é a melhor escolha",
+    "body": "Escolha o SMS-Man se o modo de pagar importa tanto quanto o que você compra. Um serviço web que aceita muitas rotas de recarga — inclusive opções como criptomoeda, que a cobrança da loja simplesmente não oferece — serve a quem o meio de pagamento preferido cai fora dos trilhos da Apple e do Google. A API deles também atende desenvolvedores que automatizam verificação em volume, e o catálogo de países e serviços é apresentado para esse uso mais amplo e mais pesado."
+  },
+  "whenUs": {
+    "title": "Quando o aplicativo SMS Code encaixa melhor",
+    "body": "Escolha o aplicativo se você prefere não entregar dados de pagamento a um site de nicho. A cobrança da loja é o ponto inteiro: a Apple processa a cobrança, nós nunca vemos o seu cartão, e a compra fica no histórico normal da loja, com as proteções de sempre. Além disso você tem a experiência de aplicativo nativo — alguns toques do serviço ao código, 100+ países, 100+ serviços populares, pacotes avulsos de moedas sem assinatura e cancelamento sem custo sempre que uma ativação não recebe SMS."
+  },
+  "comparison": {
+    "title": "SMS-Man e o aplicativo SMS Code, lado a lado",
+    "rows": [
+      {
+        "label": "Plataformas",
+        "competitor": "Serviço web com uma API para automação",
+        "us": "Aplicativo nativo para iOS na App Store"
+      },
+      {
+        "label": "Modelo de preço",
+        "competitor": "Pague por ativação a partir de um saldo de conta recarregado",
+        "us": "Pacotes avulsos de moedas, pague por ativação — sem assinatura"
+      },
+      {
+        "label": "Pagamento",
+        "competitor": "Recarga de saldo com muitos meios; descrições públicas incluem cartões, pagamentos eletrônicos e cripto",
+        "us": "Só cobrança da loja da Apple — nenhum dado de pagamento compartilhado conosco"
+      },
+      {
+        "label": "Cobertura",
+        "competitor": "Um catálogo amplo de países e serviços, voltado a uso pesado",
+        "us": "100+ países e 100+ serviços populares, curados para cadastros do dia a dia"
+      },
+      {
+        "label": "Cancelamento",
+        "competitor": "Regido pelas regras de reembolso deles — confira os termos atuais",
+        "us": "Ativações que não recebem SMS cancelam sem custo, as moedas voltam"
+      },
+      {
+        "label": "Suporte",
+        "competitor": "Canais de suporte pelo site deles",
+        "us": "No aplicativo e no formulário de contato do site"
+      },
+      {
+        "label": "Melhor para",
+        "competitor": "Quem precisa de rotas de pagamento flexíveis ou de volume via API",
+        "us": "Quem quer a simplicidade da cobrança da loja e um aplicativo móvel nativo"
+      }
+    ],
+    "note": "Os dados do concorrente refletem descrições públicas do serviço deles na data da redação e podem mudar — confirme sempre em sms-man.com antes de decidir."
+  },
+  "switchSteps": {
+    "title": "Experimentar o aplicativo leva três passos",
+    "steps": [
+      {
+        "title": "Instale o aplicativo",
+        "body": "Baixe o SMS Code da SIMNETIQ na App Store — sem registro em site nem recarga de saldo."
+      },
+      {
+        "title": "Pegue um pacote de moedas",
+        "body": "Compre um pacote avulso pela sua conta da App Store. A Apple cuida do pagamento; nós nunca recebemos os dados do seu cartão."
+      },
+      {
+        "title": "Faça a primeira ativação",
+        "body": "Escolha um serviço e um país, receba um número real e veja o código chegar no aplicativo em geral em segundos. Se nada chegar, a ativação cancela sem custo."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "No que pagar no aplicativo SMS Code difere do SMS-Man?",
+      "a": "O SMS-Man funciona como a maioria dos serviços web: você recarrega um saldo do site com um dos meios que eles aceitam. No aplicativo, o pagamento passa exclusivamente pela cobrança da Apple — uma compra normal dentro do aplicativo — então nenhum número de cartão nem credencial de pagamento é compartilhado conosco."
+    },
+    {
+      "q": "Dá para pagar com criptomoeda no aplicativo?",
+      "a": "Não. A cobrança da loja não aceita cripto, e o aplicativo não aceita pagamento fora da App Store. Se cripto é uma exigência, um serviço web como o SMS-Man, que lista essas opções, encaixa melhor."
+    },
+    {
+      "q": "Há assinatura ou cobrança recorrente?",
+      "a": "Não. Os pacotes de moedas são compras avulsas; você gasta moedas por ativação e compra outro pacote só quando escolhe."
+    },
+    {
+      "q": "O que acontece se o meu código nunca chegar?",
+      "a": "A ativação cancela e as suas moedas são devolvidas. Você só paga por números que de fato recebem um SMS."
+    },
+    {
+      "q": "O aplicativo tem uma API como o SMS-Man?",
+      "a": "Não — o aplicativo é um produto de consumo para verificar contas à mão, não uma plataforma de cadastro por script. Se você precisa de acesso programático a números, a API do SMS-Man atende esse caso."
+    }
+  ]
+}

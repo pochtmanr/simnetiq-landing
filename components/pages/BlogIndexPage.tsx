@@ -1,20 +1,14 @@
 import Link from "next/link";
 import { Breadcrumbs } from "../Breadcrumbs";
-import { BLOG_POSTS } from "../../lib/content/blog";
-import { BLOG_UI } from "../../lib/content/blogUi";
-import { localePath, type Locale } from "../../lib/i18n";
-
-function formatDate(iso: string, locale: Locale): string {
-  return new Date(iso).toLocaleDateString(
-    locale === "ru" ? "ru-RU" : "en-GB",
-    { year: "numeric", month: "long", day: "numeric" },
-  );
-}
+import { getPosts } from "../../lib/content/blog";
+import { blogUi } from "../../lib/content/ui";
+import { formatDate, localePath, type Locale } from "../../lib/i18n";
+import { Arrow } from "../Arrow";
 
 /** /blog — card grid, newest first. Tags are non-linked chips (no thin
  *  tag-archive pages in v1). */
 export function BlogIndexPage({ locale }: { locale: Locale }) {
-  const t = BLOG_UI[locale];
+  const t = blogUi(locale);
   return (
     <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
       <div className="pt-[40px]">
@@ -38,8 +32,8 @@ export function BlogIndexPage({ locale }: { locale: Locale }) {
       </section>
 
       <section className="grid gap-[22px] pb-[94px] md:grid-cols-2 lg:grid-cols-3">
-        {BLOG_POSTS.map((post) => {
-          const c = post[locale];
+        {getPosts(locale).map((post) => {
+          const c = post.copy;
           return (
             <Link
               key={post.slug}
@@ -49,7 +43,7 @@ export function BlogIndexPage({ locale }: { locale: Locale }) {
               <div className="flex flex-wrap items-center gap-[10px]">
                 {post.tags.map((tag) => (
                   <span key={tag} className="tag-chip">
-                    {tag}
+                    {t.tags[tag as keyof typeof t.tags] ?? tag}
                   </span>
                 ))}
               </div>
@@ -61,7 +55,7 @@ export function BlogIndexPage({ locale }: { locale: Locale }) {
                 <span className="text-caption text-muted">
                   {formatDate(post.publishedAt, locale)}
                 </span>
-                <span className="blue-link text-label">{t.readMore} →</span>
+                <span className="blue-link text-label">{t.readMore} <Arrow /></span>
               </div>
             </Link>
           );

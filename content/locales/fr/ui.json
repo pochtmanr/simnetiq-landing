@@ -1,0 +1,69 @@
+{
+  "site": {
+    "name": "SMS Code par SIMNETIQ",
+    "titleTemplate": "%s — SMS Code par SIMNETIQ",
+    "appDescription": "Numéros virtuels dans plus de 100 pays pour recevoir des codes de vérification par SMS. Inscrivez-vous à Telegram, WhatsApp, Google et à plus de 100 services sans communiquer votre numéro personnel."
+  },
+  "a11y": {
+    "mainNav": "Principal",
+    "breadcrumb": "Fil d’Ariane"
+  },
+  "faqHeading": "FAQ",
+  "nav": {
+    "langLabel": "Langue",
+    "links": [
+      {
+        "path": "/#how-it-works",
+        "label": "Comment ça marche"
+      },
+      {
+        "path": "/virtual-numbers",
+        "label": "Numéros"
+      },
+      {
+        "path": "/#pricing",
+        "label": "Tarifs"
+      },
+      {
+        "path": "/#faq",
+        "label": "FAQ"
+      },
+      {
+        "path": "/support",
+        "label": "Assistance"
+      }
+    ],
+    "cta": "Obtenir l’app",
+    "home": "Accueil SMS Code",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "footer": {
+    "tagline": "Un numéro pour l’inscription. Pas pour la vie.",
+    "liveStatus": "Numéros en ligne dans plus de 100 pays",
+    "backToTop": "Haut de page",
+    "servicesLabel": "Services populaires",
+    "allServices": "Tous les services",
+    "resourcesLabel": "Ressources",
+    "hub": "Numéros virtuels",
+    "blog": "Blog",
+    "companyLabel": "Société",
+    "getApp": "Obtenir l’app",
+    "followLabel": "Suivre",
+    "support": "Assistance",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d’utilisation",
+    "rights": "Tous droits réservés.",
+    "registered": "Immatriculée en",
+    "companyNo": "n° de société",
+    "registeredOffice": "Siège social"
+  },
+  "badges": {
+    "appStore": "Télécharger dans l’App Store"
+  },
+  "notFound": {
+    "title": "Cette page n’existe pas",
+    "body": "L’adresse a peut-être changé. Tout ce qui concerne SMS Code se trouve sur la page d’accueil.",
+    "back": "Retour à l’accueil"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Binance için sanal numara",
+  "metaDescription": "Binance SMS kodunu gerçek bir sanal numarada genellikle saniyeler içinde alın — KYC kontrolü için ne yapıp ne yapamayacağına dürüst bir bakışla.",
+  "hero": {
+    "title": "Binance için sanal numara",
+    "intro": [
+      "Binance hesapları bir borsadan umduğunuz gibi korur: kayıt doğrulanmış bir iletişim ister, yeni cihazlarda güvenlik kontrolleri devreye girer ve “[Binance] SMS verification code: 592731” gibi SMS kodları telefon bağlamaktan çekim onaylamaya kadar her şeyi noktalar. Bu iyi güvenliktir — ve kişisel mobil numaranızı tutan bir şirket daha.",
+      "SMS Code ile 100+ ülkeden birinde gerçek bir mobil numara kiralarsınız ve kod uygulamaya genellikle saniyeler içinde düşer. Telefon adımı biter ve işlem hesabınızın yanında saklanan numara bankanızın, ailenizin ve diğer borsalarınızın zaten bildiği numara değildir."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Binance için neden sanal numara?",
+    "body": [
+      "Bir kripto borsasına bağlı telefon numarası çoğundan daha büyük bir ödüldür: SIM değiştirme saldırıları tam da çalınan bir numaranın para tutan hesaplara parola sıfırlama kanalı olabildiği için vardır. Günlük numaranızı borsa veritabanlarının dışında tutmak o saldırı yüzeyini küçültür — Binance kodlarınızı alan numara, bir saldırganın başka bir yerdeki sızmış müşteri listesinde bulabileceği numara değildir.",
+      "Şimdi dürüst kısım: telefon Binance’te yalnızca bir katmandır ve taşıyıcı olan değildir. Kimlik doğrulama — resmi kimlik ve yüz kontrolüyle KYC — işlem ve yatırma için zorunludur, SMS adımından tamamen ayrıdır ve sanal numara onu değiştirmek için hiçbir şey yapmaz. Bölgesel uygunluk da böyledir: Binance’in nerede çalıştığı ve sizi hangi kuruluşun hizmet verdiği kendi kurallarını ve doğrulanmış kimliğinizi izler, telefonunuzun ülke kodunu değil. Sanal numara SMS anı için bir gizlilik aracıdır — daha fazlası değil ve dürüst olmak gerekirse daha azı da değil."
+    ]
+  },
+  "howTo": {
+    "title": "Binance’i sanal numarayla nasıl doğrularsınız",
+    "steps": [
+      {
+        "title": "SMS Code’da bir numara kiralayın",
+        "body": "Servis olarak Binance’i seçin ve bir ülke seçin — ikamet ve belgelerinizin ülkesiyle eşleştirmek, KYC geldiğinde hesap ayrıntılarınızı tutarlı tutar. Tek dokunuş gerçek bir mobil numara ayırır."
+      },
+      {
+        "title": "Binance telefon istediğinde girin",
+        "body": "Kayıtta veya daha sonra bir tane bağlarken Güvenlik → Telefon Numarası altında. Numaranın ülke kodunu seçin ve tam yazın — uyuşmazlık kodların kaybolmasının en sık nedenidir."
+      },
+      {
+        "title": "Kodu yazın",
+        "body": "SMS “[Binance] SMS verification code: 592731” diye okunur ve SMS Code uygulamasında genellikle saniyeler içinde görünür. Girin, telefon adımı biter."
+      },
+      {
+        "title": "Güvenliği elinizde tuttuğunuz etkenlere taşıyın",
+        "body": "Güvenlik ayarlarında ana 2FA olarak bir kimlik doğrulayıcı veya geçiş anahtarı açın ve e-postanızın doğrulanmış kalsın. Binance çekimlerde ve yeni cihazlarda etkenleri yeniden kontrol eder — bu kontroller kiralama penceresinden sonra hâlâ kontrol edeceğiniz şeylere işaret etmeli, SMS’e değil."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "KYC ayrıdır — ve pazarlık konusu değildir",
+      "body": "Sanal numara sizi SMS ekranından geçirir, başka hiçbir şeyden değil. İşlem, yatırma ve çekme gerçek belgelerle tam kimlik doğrulama ister ve evrakı tutmayan bir hesap hangi telefonu kullandığından bağımsız kısıtlanır. Bölgenizde Binance için uygun değilseniz kiralanan bir numara bunu değiştirmez."
+    },
+    {
+      "title": "Çekimleri SMS’e asılı bırakmayın",
+      "body": "Binance kayıttan çok sonra da SMS kodu isteyebilir — yeni bir cihazda, büyük bir çekimde, bir güvenlik incelemesinde. Kiralama penceresi kapanmadan 2FA’yı kimlik doğrulayıcı veya geçiş anahtarına alın ve telefonu kaldırın veya değiştirin; gelecekteki hiçbir onay artık okumadığınız bir numarayı beklemesin."
+    },
+    {
+      "title": "Numarayı gerçek ülkenizle eşleştirin",
+      "body": "KYC belgeleriniz, kartınız veya bankanız ve telefonunuzun ülke kodu Binance’in risk sistemlerine aynı kişiyi anlatır. Gerçek ülkenizden bir numara seçmek o hikâyeyi tutarlı tutar; egzotik bir uyuşmazlık doğrulamadan kaçınmak yerine ek doğrulama davet eder."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Sanal numara Binance KYC’sini atlamamı sağlar mı?",
+      "a": "Hayır. KYC ayrı, zorunlu bir katmandır: resmi kimlik, yüz kontrolü, bazen adres kanıtı. Sanal numara yalnızca SMS kodunu alır. Telefona dayalı KYC çözümleri vaat eden herkes hesap bakiyesini kaybetmenin yolunu anlatıyordur."
+    },
+    {
+      "q": "Binance’in olmadığı bir ülkede hesap açabilir miyim?",
+      "a": "Hayır — ve bu sayfa aksini iddia etmez. Uygunluk Binance’in lisansını ve doğrulanmış kimliğinizi izler, telefon numaranızı değil. Sanal numara kişisel numaranızı Binance’in zaten hizmet verdiği bir bölgede gizli tutar; sizi taşımaz."
+    },
+    {
+      "q": "Kiralanan numaranın süresi bitince Binance hesabım çalışır mı?",
+      "a": "Hazırlandıysanız evet: e-postanızı doğrulayın, 2FA olarak kimlik doğrulayıcı veya geçiş anahtarı belirleyin ve telefonu Güvenlik ayarlarında güncelleyin veya kaldırın. Numara yalnızca Binance ona SMS gönderdiğinde önemlidir — bunun içeri girmenin tek yolunuz olmaktan çıktığından emin olun."
+    },
+    {
+      "q": "Binance neden telefonuma kod göndermeye devam ediyor?",
+      "a": "Bir telefon bağlı olduğu sürece SMS, girişler, çekimler ve güvenlik değişiklikleri için yedek bir onay kanalı olarak kalır. Yukarıdaki dördüncü adımın 2FA’nızı başka yere taşımasının nedeni tam budur — uyarılar biten bir kiralamaya değil, elinizde tuttuğunuz bir kimlik doğrulayıcıya işaret etsin."
+    },
+    {
+      "q": "Binance kodu hiç gelmedi — şimdi ne olacak?",
+      "a": "Ülke kodunun kiralanan numarayla eşleştiğini kontrol edin, sonra bir dakika verin — borsa SMS’i güvenlik kontrollerinin arkasında kuyruğa girebilir. Hiçbir şey düşmezse SMS Code’da etkinleştirmeyi ücretsiz iptal edin ve taze bir numara alın; yalnızca bir SMS teslim edildiğinde ödersiniz."
+    }
+  ]
+}

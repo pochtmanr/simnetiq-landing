@@ -1,5 +1,13 @@
 import type { Metadata } from "next";
-import { languageAlternates, localePath, type Locale } from "./i18n";
+import { ui } from "./content/ui";
+import {
+  LOCALES,
+  fill,
+  languageAlternates,
+  localeConfig,
+  localePath,
+  type Locale,
+} from "./i18n";
 import {
   APP_NAME,
   APP_STORE_URL,
@@ -9,53 +17,71 @@ import {
   SOCIALS,
 } from "./site";
 
-const SITE_NAME = "SMS Code by SIMNETIQ";
+/** Google shows roughly this many characters of a title before truncating. */
+export const TITLE_BUDGET = 60;
 
 /* ---------------------------------------------------------------------------
  * Metadata
  * ------------------------------------------------------------------------ */
 
-/** Build a page's Metadata from its bare (EN, un-prefixed) path.
- *  Canonical and OG url are locale-prefixed; hreflang covers en/ru/x-default. */
+/** Build a page's Metadata from its bare (default-locale, un-prefixed) path.
+ *  Canonical and og:url are locale-prefixed; hreflang lists every locale in
+ *  `available` (default: all registered) plus x-default.
+ *
+ *  The layout's "%s — SMS Code by SIMNETIQ" template is applied only when the
+ *  result fits TITLE_BUDGET; longer page titles go out bare rather than
+ *  truncated mid-brand in the results page. */
 export function makeMetadata(opts: {
   locale: Locale;
   /** Bare site-relative path, e.g. "/virtual-numbers/telegram". */
   path: string;
   title: string;
   description: string;
+  /** Locales that publish this page; defaults to every registered locale. */
+  available?: readonly Locale[];
+  /** Use the title as-is, never templated (the home page). */
+  absoluteTitle?: boolean;
+  ogTitle?: string;
+  ogDescription?: string;
+  twitterDescription?: string;
   ogType?: "website" | "article";
   ogImage?: string;
 }): Metadata {
+  const t = ui(opts.locale).site;
+  const available = opts.available ?? LOCALES;
   const canonical = localePath(opts.locale, opts.path);
+  const templated = fill(t.titleTemplate.replace("%s", "{title}"), { title: opts.title });
+  const title =
+    opts.absoluteTitle || templated.length > TITLE_BUDGET
+      ? { absolute: opts.title }
+      : opts.title;
+  const ogTitle = opts.ogTitle ?? opts.title;
+  const ogDescription = opts.ogDescription ?? opts.description;
+  const image = opts.ogImage ?? "/og";
   return {
-    title: opts.title,
+    title,
     description: opts.description,
     alternates: {
       canonical,
-      languages: languageAlternates(opts.path),
+      languages: languageAlternates(opts.path, available),
     },
     openGraph: {
-      title: opts.title,
-      description: opts.description,
-      url: `${SITE_URL}${canonical === "/" ? "" : canonical}`,
-      siteName: SITE_NAME,
+      title: ogTitle,
+      description: ogDescription,
+      url: absolute(opts.locale, opts.path),
+      siteName: t.name,
       type: opts.ogType ?? "website",
-      locale: opts.locale === "ru" ? "ru_RU" : "en_US",
-      alternateLocale: opts.locale === "ru" ? "en_US" : "ru_RU",
-      images: [
-        {
-          url: opts.ogImage ?? "/og",
-          width: 1200,
-          height: 630,
-          alt: SITE_NAME,
-        },
-      ],
+      locale: localeConfig(opts.locale).ogLocale,
+      alternateLocale: available
+        .filter((l) => l !== opts.locale)
+        .map((l) => localeConfig(l).ogLocale),
+      images: [{ url: image, width: 1200, height: 630, alt: t.name }],
     },
     twitter: {
       card: "summary_large_image",
-      title: opts.title,
-      description: opts.description,
-      images: [opts.ogImage ?? "/og"],
+      title: ogTitle,
+      description: opts.twitterDescription ?? ogDescription,
+      images: [image],
     },
   };
 }
@@ -65,11 +91,14 @@ export function makeMetadata(opts: {
  * ------------------------------------------------------------------------ */
 
 /** Absolute, locale-prefixed URL for a bare path. Matches the canonical exactly
- *  (bare origin for the EN home), so JSON-LD and the sitemap agree with it. */
+ *  (bare origin for the default-locale home), so JSON-LD and the sitemap agree
+ *  with it. */
 export function absolute(locale: Locale, path: string): string {
   const p = localePath(locale, path);
   return p === "/" ? SITE_URL : `${SITE_URL}${p}`;
 }
+
+const inLanguage = (locale: Locale) => localeConfig(locale).hreflang;
 
 export function organization() {
   return {
@@ -86,9 +115,9 @@ export function webSite(locale: Locale) {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: SITE_NAME,
+    name: ui(locale).site.name,
     url: absolute(locale, "/"),
-    inLanguage: locale,
+    inLanguage: inLanguage(locale),
   };
 }
 
@@ -104,17 +133,19 @@ export function softwareApplication(locale: Locale) {
     url: absolute(locale, "/"),
     installUrl: [APP_STORE_URL],
     author: { "@type": "Organization", name: COMPANY, url: SITE_URL },
-    description:
-      locale === "ru"
-        ? "Виртуальные номера в 100+ странах для приёма SMS-кодов подтверждения. Регистрируйтесь в Telegram, WhatsApp, Google и 100+ сервисах, не раскрывая личный номер."
-        : "Virtual numbers in 100+ countries for receiving SMS verification codes. Sign up for Telegram, WhatsApp, Google and 100+ services without giving out your personal number.",
+    inLanguage: inLanguage(locale),
+    description: ui(locale).site.appDescription,
   };
 }
 
-export function faqPage(items: ReadonlyArray<{ q: string; a: string }>) {
+export function faqPage(
+  locale: Locale,
+  items: ReadonlyArray<{ q: string; a: string }>,
+) {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    inLanguage: inLanguage(locale),
     mainEntity: items.map(({ q, a }) => ({
       "@type": "Question",
       name: q,
@@ -155,7 +186,7 @@ export function article(opts: {
     description: opts.description,
     datePublished: opts.datePublished,
     dateModified: opts.dateModified,
-    inLanguage: opts.locale,
+    inLanguage: inLanguage(opts.locale),
     mainEntityOfPage: absolute(opts.locale, opts.path),
     image: `${SITE_URL}${opts.image ?? "/og"}`,
     author: { "@type": "Organization", name: COMPANY, url: SITE_URL },

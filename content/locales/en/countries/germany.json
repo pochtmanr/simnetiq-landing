@@ -1,0 +1,55 @@
+{
+  "name": "Germany",
+  "metaTitle": "German Virtual Number for SMS — Real +49 Mobile Numbers",
+  "metaDescription": "Get a real German (+49) virtual number and receive SMS codes usually within seconds. Verify Google, Discord, Steam, Signal and PayPal with an EU number.",
+  "hero": {
+    "title": "A German virtual number for SMS verification",
+    "intro": [
+      "Germany is Europe's largest market and one of its most privacy-conscious, and a +49 mobile number carries that reputation with it. Services see a number from a country with strict data-protection culture and a mature carrier network — a solid, unremarkable choice in the best sense.",
+      "SMS Code rents you a real German mobile number in one tap. Enter it at the verification step of Google, Discord, Steam or another supported service, and the SMS with your code lands in the app usually within seconds."
+    ]
+  },
+  "whyCountry": {
+    "title": "Why choose a German number?",
+    "body": [
+      "A German number is a strong EU trust signal. Platforms that operate under European rules — payment services like PayPal, gaming ecosystems like Steam, privacy-first messengers like Signal — are thoroughly used to +49 numbers, and sign-up flows across the EU handle them as a domestic case rather than an exotic one.",
+      "German mobiles live in the 15x, 16x and 17x ranges, with 15x being the most common for newer numbers. The structure — +49, then the mobile prefix and the subscriber digits — is parsed cleanly by international forms, so the verification step is rarely where things go wrong."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Enter it in international form",
+      "body": "Domestically the number is written 015X…, but verification forms want +49 followed by the number without the leading zero. Most forms with a country selector handle this for you — just make sure Germany is selected."
+    },
+    {
+      "title": "A good match for EU-regulated services",
+      "body": "If the account will interact with European payment or marketplace rules, a German number keeps the whole setup inside the EU picture — useful when a service treats EU and non-EU users differently at registration."
+    },
+    {
+      "title": "Stalled code costs you nothing",
+      "body": "If no SMS arrives within the activation window, cancel the activation in the app — it's free when nothing was received — and take another German number for a clean retry."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it a real German mobile number?",
+      "a": "Yes — a number on a real carrier in Germany's standard mobile ranges. The service you verify with sees an ordinary German phone number, not a web-only receiving service."
+    },
+    {
+      "q": "Which services pair well with a German number?",
+      "a": "EU-facing platforms in general: Google, Discord, Steam, Signal and PayPal are common picks, and any service that runs a European sign-up flow treats +49 as fully routine."
+    },
+    {
+      "q": "Do I need to be in Germany to use it?",
+      "a": "No. The number and its incoming SMS live inside the SMS Code app, so you can be anywhere in the world — your own SIM card and location play no part."
+    },
+    {
+      "q": "How does payment work?",
+      "a": "You pay per activation from a one-time coin pack — no subscription. If an activation never receives its SMS, it cancels free and the coins stay with you."
+    },
+    {
+      "q": "Is the number mine permanently?",
+      "a": "The rental covers the activation window — enough to receive the verification code. For a long-lived account, add a recovery email and authenticator-app 2FA immediately after signing up so the account never depends on that number again."
+    }
+  ]
+}

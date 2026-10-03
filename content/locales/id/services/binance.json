@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Binance — verifikasi SMS",
+  "metaDescription": "Terima kode SMS Binance di nomor virtual asli biasanya dalam hitungan detik, plus penjelasan jujur soal batasnya untuk pemeriksaan KYC.",
+  "hero": {
+    "title": "Nomor virtual untuk Binance",
+    "intro": [
+      "Binance menjaga akun seperti yang Anda harapkan dari bursa: pendaftaran menginginkan kontak terverifikasi, pemeriksaan keamanan terpicu di perangkat baru, dan kode SMS seperti “[Binance] SMS verification code: 592731” menandai segalanya dari menautkan telepon hingga mengonfirmasi penarikan. Itu keamanan yang baik — dan satu perusahaan lagi yang memegang nomor seluler pribadi Anda.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara dan kodenya masuk ke aplikasi biasanya dalam hitungan detik. Langkah telepon selesai, dan nomor yang tersimpan di samping akun perdagangan Anda bukan nomor yang sudah dikenal bank, keluarga, dan bursa lain Anda."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Binance?",
+    "body": [
+      "Nomor telepon yang tertaut ke bursa kripto adalah hadiah yang lebih besar daripada kebanyakan: serangan SIM-swap ada persis karena nomor yang dicuri dapat menjadi kanal atur ulang kata sandi ke akun yang menyimpan uang. Menjaga nomor sehari-hari di luar basis data bursa mengecilkan permukaan serangan itu — nomor yang menerima kode Binance Anda bukan nomor yang dapat ditemukan penyerang di daftar pelanggan yang bocor dari tempat lain.",
+      "Sekarang bagian jujurnya: telepon hanya satu lapisan di Binance, dan bukan yang menahan beban. Verifikasi identitas — KYC dengan identitas pemerintah dan pemeriksaan wajah — wajib untuk perdagangan dan setoran, sepenuhnya terpisah dari langkah SMS, dan nomor virtual tidak mengubah apa pun tentang itu. Sama untuk ketersediaan regional: di mana Binance beroperasi dan entitas mana yang melayani Anda mengikuti aturannya sendiri dan identitas terverifikasi Anda, bukan kode negara telepon. Nomor virtual adalah alat privasi untuk momen SMS — tidak lebih, dan jujur saja, tidak kurang."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Binance dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Pilih Binance sebagai layanan dan pilih negara — mencocokkan negara tempat tinggal dan dokumen Anda menjaga detail akun konsisten saat KYC datang. Satu ketukan mencadangkan nomor seluler asli."
+      },
+      {
+        "title": "Masukkan saat Binance meminta telepon",
+        "body": "Saat mendaftar, atau nanti di Keamanan → Nomor Telepon saat Anda menautkannya. Pilih kode negara nomor itu dan ketik persis — ketidakcocokan adalah alasan paling umum kode hilang."
+      },
+      {
+        "title": "Ketik kodenya",
+        "body": "SMS berbunyi “[Binance] SMS verification code: 592731” dan muncul di aplikasi SMS Code biasanya dalam hitungan detik. Masukkan, dan langkah telepon selesai."
+      },
+      {
+        "title": "Pindahkan keamanan ke faktor yang Anda simpan",
+        "body": "Di setelan Keamanan, aktifkan aplikasi autentikator atau kunci sandi sebagai 2FA utama dan biarkan email tetap terverifikasi. Binance memeriksa ulang faktor pada penarikan dan perangkat baru — pemeriksaan itu harus menunjuk ke hal yang masih Anda kendalikan setelah jendela sewa, bukan ke SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "KYC terpisah — dan tidak dapat ditawar",
+      "body": "Nomor virtual membawa Anda melewati layar SMS, tidak lebih. Perdagangan, setoran, dan penarikan mensyaratkan verifikasi identitas penuh dengan dokumen asli, dan akun yang berkasnya tidak selaras dibatasi terlepas dari telepon yang dipakai. Jika Anda tidak memenuhi syarat untuk Binance di wilayah Anda, nomor sewaan tidak akan mengubah itu."
+    },
+    {
+      "title": "Jangan biarkan penarikan bergantung pada SMS",
+      "body": "Binance dapat meminta kode SMS lama setelah pendaftaran — di perangkat baru, penarikan besar, tinjauan keamanan. Sebelum jendela sewa tertutup, alihkan 2FA ke aplikasi autentikator atau kunci sandi dan hapus atau ganti telepon, agar tidak ada konfirmasi di masa depan yang menunggu nomor yang tidak lagi Anda baca."
+    },
+    {
+      "title": "Cocokkan nomor dengan negara Anda yang nyata",
+      "body": "Dokumen KYC, kartu atau bank, dan kode negara telepon semuanya menggambarkan orang yang sama bagi sistem risiko Binance. Memilih nomor dari negara Anda yang sebenarnya menjaga cerita itu konsisten; ketidakcocokan yang eksotis mengundang verifikasi tambahan, bukan menghindarinya."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah nomor virtual membiarkan saya melewati KYC Binance?",
+      "a": "Tidak. KYC adalah lapisan terpisah yang wajib: identitas pemerintah, pemeriksaan wajah, terkadang bukti alamat. Nomor virtual hanya menerima kode SMS. Siapa pun yang menjanjikan jalan memutar KYC berbasis telepon sedang menggambarkan cara kehilangan saldo akun."
+    },
+    {
+      "q": "Bisakah saya membuka akun Binance di negara tempat ia tidak tersedia?",
+      "a": "Tidak — dan halaman ini tidak akan berpura-pura sebaliknya. Ketersediaan mengikuti lisensi Binance dan identitas terverifikasi Anda, bukan nomor telepon. Nomor virtual menjaga nomor pribadi Anda tetap privat di wilayah yang sudah dilayani Binance; ia tidak memindahkan Anda."
+    },
+    {
+      "q": "Apakah akun Binance saya berfungsi setelah nomor sewaan berakhir?",
+      "a": "Ya, jika Anda bersiap: verifikasi email, atur aplikasi autentikator atau kunci sandi sebagai 2FA, dan perbarui atau hapus telepon di setelan Keamanan. Nomor hanya penting saat Binance mengirim SMS kepadanya — pastikan itu berhenti menjadi satu-satunya jalan masuk Anda."
+    },
+    {
+      "q": "Mengapa Binance terus mengirim kode ke telepon saya?",
+      "a": "SMS tetap kanal konfirmasi cadangan untuk login, penarikan, dan perubahan keamanan selama telepon tertaut. Persis itulah mengapa langkah empat di atas memindahkan 2FA Anda ke tempat lain — agar permintaan itu menunjuk ke autentikator yang Anda simpan, bukan sewa yang berakhir."
+    },
+    {
+      "q": "Kode Binance tidak pernah masuk — lalu apa?",
+      "a": "Periksa kode negara cocok dengan nomor sewaan, lalu beri waktu semenit — SMS bursa dapat mengantre di balik pemeriksaan keamanan. Jika tidak ada yang masuk, batalkan aktivasi di SMS Code tanpa biaya dan ambil nomor baru; Anda hanya membayar saat SMS terkirim."
+    }
+  ]
+}

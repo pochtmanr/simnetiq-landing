@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for VK — Register Without Your Real Number",
+  "metaDescription": "Get a real virtual number for VK verification. The SMS code arrives usually within seconds — create a VK account without exposing your personal number.",
+  "hero": {
+    "title": "A virtual number for VK",
+    "intro": [
+      "VK doesn't offer a way around the phone number: registration is built on it. Before you can browse communities, message anyone or list an item on the marketplace, VK sends an SMS code to the number you provide — and that number becomes the login and recovery anchor for the whole account.",
+      "With SMS Code you rent a real number from one of 100+ countries, enter it on VK's sign-up form, and the confirmation code lands in the SMS Code app usually within seconds. The account is fully verified — and your personal number never enters VK's database."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for VK?",
+    "body": [
+      "The most common reason is separation. Plenty of people want a VK account that isn't their main identity: one for running a community, one for selling on VK's marketplace, one for following niche groups without mixing that into a personal profile. VK ties each account to its own number, so each separate identity needs a separate number — and renting one beats keeping a drawer of spare SIM cards.",
+      "The number you give VK also carries more weight than on most platforms, because it becomes a VK ID — a single login that reaches across the whole Mail.ru/VK ecosystem of services. Registering with a virtual number means that widely-shared identifier is a rented one, not the number your bank and family use. If the account is ever compromised or scraped, your real number was never in the blast radius."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify VK with a virtual number",
+    "steps": [
+      {
+        "title": "Rent a number in SMS Code",
+        "body": "Open the SMS Code app, choose VK as the service and pick a country — Kazakhstan and other nearby countries are frequent choices. One tap reserves a real mobile number for you."
+      },
+      {
+        "title": "Enter it on VK's registration form",
+        "body": "Start VK sign-up and type the rented number with its correct country code. VK immediately sends a confirmation code by SMS to that number."
+      },
+      {
+        "title": "Confirm with the code",
+        "body": "The message shows up in the SMS Code app usually within seconds — “VK: 348715 — код подтверждения”. Enter the six digits on VK's screen and the account is created."
+      },
+      {
+        "title": "Add a strong password and backup access",
+        "body": "Set a solid unique password right away, and attach an email address in the VK ID settings. That way day-to-day logins and recovery lean on the password and email rather than on receiving another SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "One number, one VK account",
+      "body": "VK enforces a strict one-to-one link between number and account. If a number was ever registered on VK before, sign-up may turn into a login-or-recover flow instead. SMS Code issues numbers per activation, but if VK behaves oddly, cancel and take a fresh number."
+    },
+    {
+      "title": "VK ID reaches beyond VK",
+      "body": "The account you create doubles as a VK ID — the login for VK's wider ecosystem of services (mail, music, classifieds and more). Treat it accordingly: a strong password and an attached email matter more here than on a single-purpose app."
+    },
+    {
+      "title": "Tighten the privacy settings",
+      "body": "In VK's privacy settings, restrict who can find you by phone number and who sees your profile details. Combined with a virtual number, this keeps your community or marketplace activity cleanly walled off from your personal identity."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I register VK without any phone number at all?",
+      "a": "No — VK requires SMS confirmation at sign-up, with no email-only path. A virtual number is the way to satisfy that requirement without handing over your personal one."
+    },
+    {
+      "q": "Can I run a second VK account for my community or shop?",
+      "a": "Yes, that's a typical use. Each VK account needs its own number, so rent a fresh virtual number for the new account and keep community management or marketplace selling separate from your personal profile."
+    },
+    {
+      "q": "Will the account survive after the rented number expires?",
+      "a": "The number is needed for the sign-up SMS, not for daily use. Stay logged in, set a strong password and attach an email in VK ID settings — then routine logins and recovery don't depend on the old number. If VK later insists on SMS re-confirmation, you can change the number on the account to a new rented one."
+    },
+    {
+      "q": "Why didn't my VK confirmation code arrive?",
+      "a": "Usually the number was previously registered on VK, or the country code was entered incorrectly. Cancel the activation in SMS Code — you pay nothing for a number that received no SMS — and try again with another number."
+    },
+    {
+      "q": "Does the number's country matter for VK?",
+      "a": "VK accepts numbers from many countries; Kazakhstan, Poland, Germany and the Netherlands are popular picks in SMS Code. The interface language and your profile settings don't depend on the number's country — you choose those yourself."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "metaTitle": "OnlineSim alternatifi — SMS Code, SIMNETIQ",
+  "metaDescription": "OnlineSim ile SIMNETIQ’ten SMS Code uygulamasını karşılaştırın: web’de uzun süreli numara kiralaması, yerel iOS uygulamasında etkinleştirme başına sadelik.",
+  "hero": {
+    "title": "Tek dokunuşluk etkinleştirmelere odaklanan bir OnlineSim alternatifi",
+    "intro": [
+      "OnlineSim sanal numaralarda SMS almak için bir web hizmetidir ve ayırt edici özelliği aralıktır: tek seferlik etkinleştirmelerin yanında siteleri, bir numarayı günler veya haftalar tuttuğunuz ve o pencerede herhangi bir servisten sınırsız SMS aldığınız daha uzun kiralamaları anlatır. Bir numaranın bir süre sizde kalması gerekiyorsa onların sahası orasıdır.",
+      "SIMNETIQ’ten SMS Code bilinçli olarak tek bir şey yapar: yerel bir iOS uygulamasında etkinleştirme başına doğrulama. Servis ve ülke seçin, gerçek bir numara alın, kod uygulamada genellikle saniyeler içinde görünür. Tek seferlik jeton paketleriyle ödersiniz — abonelik yok, kiralama saati yok — ve hiçbir şey almayan etkinleştirmeler ücretsiz iptal olur."
+    ]
+  },
+  "whenThem": {
+    "title": "OnlineSim ne zaman daha iyi seçimdir",
+    "body": "Bir koddan daha uzun yaşayan bir numaraya ihtiyacınız olduğunda OnlineSim’i seçin. Kiralama modelleri — bir numarayı seçilen süre tutmak ve onda sınırsız SMS almak — yeniden doğrulama isteyecek hesaplara, girişte kod gönderen servislere veya aynı numaranın günler ya da haftalar ulaşılabilir olmasını isteyen herkese uyar. Etkinleştirme başına bir uygulama o senaryoyu gerçekten kapsayamaz: bir etkinleştirme tamamlanınca numara havuza döner."
+  },
+  "whenUs": {
+    "title": "SMS Code uygulaması ne zaman daha iyi uyar",
+    "body": "Gerçekten ihtiyacınız olan şey şu anda, bir kez, bir kodsa uygulamayı seçin. Çoğu kayıt — ikinci bir mesajlaşma hesabı, bir pazar yeri kaydı, bir deneme — numarayı tek sefer doğrular ve bir daha mesaj atmaz; o durumda kiralama kullanmayacağınız günler için ödemektir. Uygulama bunu tek işleme indirir: birkaç dokunuş, 100+ ülkeden birinde gerçek bir numara, genellikle saniyeler içinde SMS ve hiçbir şey gelmezse ücretsiz iptal. Faturalama App Store üzerinden gider, yönetilecek web hesap bakiyesi yoktur."
+  },
+  "comparison": {
+    "title": "OnlineSim ve SMS Code uygulaması, yan yana",
+    "rows": [
+      {
+        "label": "Platformlar",
+        "competitor": "Web hizmeti; siteleri bir API de belgeler",
+        "us": "App Store’dan yerel iOS uygulaması"
+      },
+      {
+        "label": "Fiyat modeli",
+        "competitor": "Tek seferlik etkinleştirmeler artı süreye göre daha uzun numara kiralamaları",
+        "us": "Tek seferlik jeton paketleri, etkinleştirme başına ödeme — kiralama yok, abonelik yok"
+      },
+      {
+        "label": "Ödeme",
+        "competitor": "Sitelerinin listelediği yöntemlerle web’de bakiye yükleme",
+        "us": "Apple mağaza faturalaması — kart ayrıntıları bizimle paylaşılmaz"
+      },
+      {
+        "label": "Kapsam",
+        "competitor": "Kiralamalardan çok etkinleştirmeler için daha geniş bir ülke listesi",
+        "us": "Gündelik kayıtlar için seçilmiş 100+ ülke ve 100+ popüler servis"
+      },
+      {
+        "label": "İptal",
+        "competitor": "Kendi iade kurallarına tabidir — güncel koşullarına bakın",
+        "us": "SMS almayan etkinleştirmeler ücretsiz iptal olur, jetonlar döner"
+      },
+      {
+        "label": "Destek",
+        "competitor": "Web siteleri üzerinden destek kanalları",
+        "us": "Uygulama içi ve site iletişim formu"
+      },
+      {
+        "label": "En uygun",
+        "competitor": "Bir numarayı günler veya haftalarca SMS için ulaşılabilir tutmak",
+        "us": "Süregelen taahhüt olmadan tek seferlik doğrulama kodları"
+      }
+    ],
+    "note": "Rakip ayrıntıları yazıldığı tarihteki herkese açık sitelerini yansıtır ve değişebilir — karar vermeden önce her zaman onlinesim.io üzerinde doğrulayın."
+  },
+  "switchSteps": {
+    "title": "Uygulamayı denemek üç adım sürer",
+    "steps": [
+      {
+        "title": "Uygulamayı kurun",
+        "body": "SMS Code’u SIMNETIQ’ten App Store’dan alın — web hesabı veya cüzdan kurulumu gerekmez."
+      },
+      {
+        "title": "Bir jeton paketi alın",
+        "body": "Mağaza hesabınız üzerinden tek seferlik bir paket alın. Etkinleştirme başına ödersiniz; arka planda işleyen bir kiralama süresi yoktur."
+      },
+      {
+        "title": "İlk etkinleştirmenizi çalıştırın",
+        "body": "Bir servis ve ülke seçin, gerçek bir numara alın ve kodun uygulamada genellikle saniyeler içinde geldiğini izleyin. Hiçbir şey gelmezse etkinleştirme ücretsiz iptal olur."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "OnlineSim ile SMS Code uygulaması arasındaki ana fark nedir?",
+      "a": "Model. OnlineSim’in sitesi numara kiralamalarını vurgular — günler veya haftalar bir numara tutmak, sınırsız gelen SMS — tek seferlik etkinleştirmelerin yanında. SIMNETIQ’ten SMS Code uygulaması yalnızca etkinleştirme başına doğrulama yapar, tek seferlik jeton paketleriyle yerel bir mobil uygulamaya sarılıdır."
+    },
+    {
+      "q": "SMS Code uygulamasında bir numarayı uzun vadede tutabilir miyim?",
+      "a": "Hayır — her etkinleştirme bir servis için kodu almayı kapsar, sonra numara havuza döner. Aynı numaranın uzun bir süre ulaşılabilir olması gerekiyorsa OnlineSim gibi bir kiralama hizmeti dürüstçe daha iyi eşleşmedir."
+    },
+    {
+      "q": "Numaranın süresi bitince hesabım çalışmayı bırakır mı?",
+      "a": "Çoğu servis için hayır. Numara yalnızca doğrulama adımında gerekir; iki adımlı parola gibi uygulama düzeyi korumalar açarsanız sonraki girişler o numaraya başka bir SMS almaya bağlı kalmaz."
+    },
+    {
+      "q": "Kodum hiç gelmezse ne olur?",
+      "a": "Etkinleştirme iptal olur ve jetonlarınız döner. Yalnızca gerçekten SMS alan numaralar için ödersiniz."
+    },
+    {
+      "q": "Uygulamayı kullanmak için bir sitede hesap oluşturmam gerekir mi?",
+      "a": "Web cüzdanı veya panel söz konusu değildir. Uygulamayı App Store’dan kurarsınız, mağaza faturalamasıyla bir jeton paketi alırsınız ve her şey uygulamada olur."
+    }
+  ]
+}

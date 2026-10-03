@@ -57,7 +57,7 @@
         "toEmail": "={{ $json.body.to }}",
         "subject": "={{ $json.body.subject }}",
         "emailFormat": "text",
-        "text": "={{ $json.body.locale === 'ru' ? 'Здравствуйте' : 'Hello' }}{{ $json.body.name ? ', ' + $json.body.name : '' }},\n\n{{ $json.body.body }}\n\n—\n{{ $json.body.locale === 'ru' ? 'Поддержка SMS Code' : 'SMS Code Support' }}\nhttps://simnetiq.xyz/support\n\n{{ $json.body.locale === 'ru' ? 'Ваше сообщение' : 'Your message' }}:\n> {{ ($json.body.original_message || '').split('\\n').join('\\n> ') }}",
+        "text": "={{ ({ ru: 'Здравствуйте', zh: '您好', hi: 'नमस्ते', es: 'Hola', pt: 'Olá', id: 'Halo', ar: 'مرحبًا', fr: 'Bonjour', tr: 'Merhaba' })[$json.body.locale] || 'Hello' }}{{ $json.body.name ? ', ' + $json.body.name : '' }},\n\n{{ $json.body.body }}\n\n—\n{{ ({ ru: 'Поддержка SMS Code', zh: 'SMS Code 客服', hi: 'SMS Code सहायता', es: 'Soporte de SMS Code', pt: 'Suporte SMS Code', id: 'Dukungan SMS Code', ar: 'دعم SMS Code', fr: 'Assistance SMS Code', tr: 'SMS Code Destek' })[$json.body.locale] || 'SMS Code Support' }}\nhttps://simnetiq.xyz/support\n\n{{ ({ ru: 'Ваше сообщение', zh: '您的留言', hi: 'आपका संदेश', es: 'Tu mensaje', pt: 'Sua mensagem', id: 'Pesan Anda', ar: 'رسالتك', fr: 'Votre message', tr: 'Mesajınız' })[$json.body.locale] || 'Your message' }}:\n> {{ ($json.body.original_message || '').split('\\n').join('\\n> ') }}",
         "options": {
           "replyTo": "support@simnetiq.com",
           "bccEmail": "support@simnetiq.com"

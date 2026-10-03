@@ -1,0 +1,44 @@
+{
+  "title": "Cobrança, moedas e reembolsos da Apple",
+  "metaDescription": "Como funcionam os pacotes de moedas do SMS Code, o que fazer se faltarem moedas ou surgir uma cobrança estranha, e como pedir reembolso à Apple.",
+  "sections": [
+    {
+      "title": "Como as moedas funcionam",
+      "paragraphs": [
+        "Os pacotes de moedas são compras avulsas na App Store, não assinaturas. Não há renovação automática. As moedas não expiram, não podem ser transferidas e não são uma carteira em dinheiro. O preço da ativação depende do serviço e do país e aparece antes da confirmação.",
+        "Um cancelamento elegível, a troca de número, o vencimento sem SMS ou uma falha na atribuição do número devolve as moedas da ativação. Depois que um SMS chegou, o cancelamento não devolve moedas automaticamente. Relate falhas de entrega ou de cobrança ao suporte para análise."
+      ]
+    },
+    {
+      "title": "Moedas que faltam ou uma cobrança desconhecida",
+      "paragraphs": [
+        "Confira se você entrou na mesma conta do SMS Code usada na compra. Deixe um pagamento pendente da Apple concluir e reabra o aplicativo. Evite comprar outro pacote só para corrigir um saldo que não apareceu.",
+        "Envie ao suporte o ID do pedido ou o recibo da Apple, o pacote, a data da compra e o identificador da sua conta no aplicativo, se tiver. Oculte compras sem relação e dados de pagamento. Para uma cobrança que você não reconhece, confira o histórico de compras da Apple e as compras do Compartilhamento Familiar e depois fale com a Apple."
+      ]
+    },
+    {
+      "title": "Moedas não usadas e reembolso do pagamento",
+      "paragraphs": [
+        "Devolver moedas ao aplicativo não estorna um pagamento da Apple. Para receber o dinheiro de volta de uma compra de moedas cobrada pela Apple, peça um reembolso à Apple dessa compra e explique com precisão se as moedas estão sem uso, usadas em parte, ausentes ou com defeito. Um saldo não usado não dá, por si, direito a reembolso nem a um saque parcial em dinheiro.",
+        "A Apple avalia a elegibilidade do reembolso pelos termos regionais dela e pela lei aplicável. Não podemos prometer a aprovação nem emitir um reembolso pelo sistema de pagamento da Apple. Fale conosco sobre defeitos do serviço ou moedas não usadas se você precisar dos registros da compra ou do saldo. Os seus direitos obrigatórios de consumidor permanecem intactos.",
+        "Se a Apple aprovar um reembolso, o crédito de moedas relacionado pode ser removido do seu saldo. Não continue gastando moedas de uma compra cujo reembolso você está pedindo. Excluir a conta ou desinstalar não envia um pedido de reembolso."
+      ]
+    },
+    {
+      "title": "Pedir um reembolso à Apple",
+      "paragraphs": [
+        "1. Abra reportaproblem.apple.com e entre com a Conta Apple que pagou o pacote.",
+        "2. No menu do pedido, selecione a opção de reembolso e escolha o motivo que descreve o que aconteceu.",
+        "3. Continue, selecione a compra de moedas do SMS Code e envie o pedido.",
+        "4. A Apple em geral informa uma atualização em 24–48 horas. Confira o status do pedido no mesmo site. Esse é um prazo de atualização; o pedido ainda pode estar pendente, e a devolução do dinheiro leva um tempo a mais."
+      ]
+    },
+    {
+      "title": "Se a compra não aparece ou o reembolso atrasa",
+      "paragraphs": [
+        "Cobranças pendentes não podem ser pedidas até a Apple emitir um recibo; pedidos não pagos precisam ser quitados antes. Confira a Conta Apple que aparece no recibo. Se a compra não estiver disponível ou você não conseguir enviar o pedido, fale com o Suporte Apple.",
+        "Depois da aprovação, a Apple informa que devoluções em crédito da loja podem levar até 48 horas, devoluções no cartão e na maioria dos outros meios até 30 dias, e faturamento pela operadora até 60 dias. A SIMNETIQ não consegue acelerar o processamento da Apple nem do banco."
+      ]
+    }
+  ]
+}

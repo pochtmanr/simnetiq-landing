@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Ketentuan layanan",
+    "description": "Ketentuan pemakaian aplikasi SMS Code dan simnetiq.xyz: koin dan pembelian, hak membatalkan, penggunaan yang wajar, nomor virtual, dan tanggung jawab."
+  },
+  "prevailingNotice": "Terjemahan ini disediakan untuk kemudahan. Jika berbeda dari versi bahasa Inggris, versi bahasa Inggris yang berlaku.",
+  "label": "Hukum",
+  "title": "Ketentuan layanan",
+  "updatedLabel": "Terakhir diperbarui:",
+  "sections": [
+    {
+      "title": "1. Perjanjian",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ketentuan Layanan ini (“Ketentuan”) adalah perjanjian antara Anda dan SIMNETIQ LTD, perusahaan yang terdaftar di Inggris dan Wales (“kami”), dan mengatur pemakaian Anda atas aplikasi seluler SMS Code (“Aplikasi”) dan situs simnetiq.xyz (“Situs”). Dengan memasang atau memakai Aplikasi, Anda menerima Ketentuan ini. Jika Anda tidak setuju, jangan memakai Aplikasi."
+        },
+        {
+          "type": "p",
+          "text": "Nomor perusahaan: {companyNumber}. Kantor terdaftar: {registeredOffice}. Kontak: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Layanan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikasi menyediakan nomor telepon virtual sementara untuk menerima kode verifikasi SMS dari layanan daring yang didukung. Nomor dipasok oleh penyedia telepon pihak ketiga; ketersediaan layanan, negara, atau nomor tertentu tidak dijamin dan dapat berubah tanpa pemberitahuan."
+        }
+      ]
+    },
+    {
+      "title": "3. Kelayakan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Anda harus berusia minimal 18 tahun dan secara hukum mampu mengadakan perjanjian ini. Anda hanya boleh memakai Aplikasi dengan cara yang diizinkan oleh hukum yang berlaku bagi Anda."
+        }
+      ]
+    },
+    {
+      "title": "4. Koin dan pembelian",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Koin adalah pembelian dalam aplikasi sekali yang diproses oleh Apple App Store menurut ketentuan pembayarannya. Tidak ada langganan dan tidak ada yang diperpanjang otomatis.",
+            "Koin dibelanjakan per aktivasi. Jumlahnya bergantung pada layanan dan negara, terutama ditentukan oleh layanan, dan ditampilkan kepada Anda sebelum Anda mengonfirmasi.",
+            "Koin tidak kedaluwarsa, tidak dapat dipindahtangankan, dan tidak memiliki nilai tunai."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Kapan koin kembali kepada Anda.** Koin dikembalikan ke saldo Anda secara otomatis dalam empat situasi:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Anda membatalkan aktivasi setidaknya dua menit setelah nomor ditetapkan, sebelum kode verifikasi diterima;",
+            "Anda menukar ke nomor lain setidaknya dua menit setelah penetapan, sebelum kode diterima;",
+            "jendela aktivasi berakhir tanpa kode yang masuk; atau",
+            "penyedia kami gagal menyediakan nomor yang dapat dipakai untuk aktivasi."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Pengembalian koin bukan pengembalian uang.** Dalam setiap situasi di atas, yang kembali kepada Anda adalah koin, dikreditkan kembali ke saldo di dalam aplikasi. Kami tidak mengembalikan uang untuk koin itu, dan koin tidak memiliki nilai tunai. Jika Anda ingin uang kembali untuk suatu pembelian, itu urusan Apple: pengembalian harga pembelian diminta kepada dan diputuskan oleh Apple menurut kebijakan pengembalian dana App Store, dan kami tidak memiliki kemampuan untuk menerbitkan, menyetujui, atau menolaknya. Bagian 5 mengatur hak pembatalan menurut undang-undang yang terpisah."
+        }
+      ]
+    },
+    {
+      "title": "5. Hak Anda untuk membatalkan (konsumen di Inggris dan UE)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jika Anda konsumen di Britania Raya atau Uni Eropa, Anda biasanya memiliki 14 hari sejak hari kontrak untuk konten digital dibuat untuk membatalkannya dan menerima pengembalian dana, tanpa memberi alasan. Hak ini berasal dari Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 di Inggris dan dari Consumer Rights Directive di UE."
+        },
+        {
+          "type": "p",
+          "text": "Koin dipasok ke saldo Anda setelah pembelian berhasil. Pengecualian apa pun terhadap hak pembatalan menurut undang-undang bergantung pada hukum yang berlaku serta persetujuan, pengakuan, dan konfirmasi yang benar-benar diberikan saat pembelian. Menerima Ketentuan ini saja tidak mengesampingkan hak pembatalan menurut undang-undang Anda."
+        },
+        {
+          "type": "p",
+          "text": "Untuk pembelian yang ditagih Apple, minta pengembalian pembayaran di [reportaproblem.apple.com](https://reportaproblem.apple.com/). Apple menangani proses pengembalian pembayaran menurut ketentuan regionalnya dan hukum yang berlaku. Hubungi kami untuk tinjauan layanan yang hilang atau bermasalah, koin yang belum terpakai, atau catatan pembelian dan saldo. Kami tidak menjamin persetujuan Apple atau penebusan tunai otomatis atas saldo yang belum terpakai. Jika suatu pembelian dikembalikan dananya, kredit koin terkait dapat dihapus."
+        },
+        {
+          "type": "p",
+          "text": "Tidak ada dalam bagian ini yang memengaruhi hak menurut undang-undang Anda yang lain, termasuk hak Anda jika layanan bermasalah, tidak sesuai deskripsi, atau tidak dipasok dengan kehati-hatian dan keterampilan yang wajar."
+        }
+      ]
+    },
+    {
+      "title": "6. Penggunaan yang wajar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Anda setuju untuk tidak memakai Aplikasi untuk:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "melanggar hukum atau peraturan apa pun, atau melanggar hak siapa pun;",
+            "melakukan penipuan, spam, pelecehan, atau penyamaran identitas;",
+            "melanggar ketentuan layanan platform yang Anda daftari — Anda sepenuhnya bertanggung jawab untuk mematuhinya;",
+            "menerima komunikasi yang menurut hukum wajib Anda terima di nomor pribadi yang terverifikasi (misalnya layanan pemerintah, perbankan, atau darurat jika dilarang);",
+            "menjual kembali, mengikis, atau menyalahgunakan layanan secara terprogram."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Kami dapat menangguhkan atau mengakhiri akun yang melanggar bagian ini. Dalam kasus serius — penipuan, atau penyalahgunaan yang disengaja atas mekanisme pengembalian dana atau aktivasi — kami juga dapat menyita koin yang tersisa di saldo, sejauh hal itu proporsional terhadap pelanggaran. Kami tidak akan menyita saldo untuk pelanggaran kecil atau sekali, dan tidak ada di sini yang menghapus hak Anda sebagai konsumen yang tidak dapat dikesampingkan oleh kontrak."
+        }
+      ]
+    },
+    {
+      "title": "7. Nomor virtual",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nomor virtual bersifat sementara dan dapat diberikan ulang kepada pengguna lain setelah aktivasi Anda berakhir. Nomor itu dimaksudkan untuk menerima kode verifikasi sekali pakai, bukan untuk pemakaian pribadi atau bisnis yang berkelanjutan, pemulihan akun, atau autentikasi dua faktor yang Anda andalkan dalam jangka panjang."
+        }
+      ]
+    },
+    {
+      "title": "8. Kekayaan intelektual",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikasi, Situs, dan semua merek terkait dimiliki oleh SIMNETIQ LTD atau pemberi lisensinya. Kami memberi Anda lisensi pribadi, non-eksklusif, dan tidak dapat dipindahtangankan untuk memakai Aplikasi sesuai tujuannya. Nama layanan pihak ketiga yang ditampilkan di Aplikasi milik pemiliknya masing-masing dan tidak menyiratkan dukungan."
+        }
+      ]
+    },
+    {
+      "title": "9. Penyangkalan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikasi disediakan “sebagaimana adanya” dan “sebagaimana tersedia”. Sejauh diizinkan hukum, kami menolak semua jaminan, tersurat atau tersirat, termasuk kesesuaian untuk tujuan tertentu. Kami tidak menjamin bahwa kode verifikasi tertentu akan masuk, bahwa nomor akan diterima oleh platform tertentu, atau bahwa layanan akan tanpa gangguan atau tanpa kesalahan."
+        },
+        {
+          "type": "p",
+          "text": "Bagian ini tidak mengecualikan atau membatasi apa pun yang secara hukum tidak dapat dikecualikan atau dibatasi. Jika Anda konsumen, hak menurut undang-undang Anda tidak terpengaruh — termasuk hak Anda menurut Consumer Rights Act 2015 (atau padanannya di tempat Anda tinggal) atas layanan digital yang dipasok dengan kehati-hatian dan keterampilan yang wajar, berkualitas memuaskan, dan sesuai deskripsi."
+        }
+      ]
+    },
+    {
+      "title": "10. Batasan tanggung jawab",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tidak ada dalam Ketentuan ini yang membatasi tanggung jawab yang tidak dapat dibatasi oleh hukum, termasuk atas kematian, cedera pribadi akibat kelalaian, atau penipuan. Selain itu, total tanggung jawab kami yang timbul dari atau sehubungan dengan Aplikasi dibatasi pada jumlah yang Anda bayarkan kepada kami dalam 12 bulan sebelum klaim, dan kami tidak bertanggung jawab atas kerugian tidak langsung atau konsekuensial, kehilangan laba, data, atau nama baik."
+        }
+      ]
+    },
+    {
+      "title": "11. Pengakhiran",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Anda dapat berhenti memakai Aplikasi dan menghapus akun kapan saja. Kami dapat menangguhkan atau mengakhiri akses segera jika Anda melanggar Ketentuan ini, jika penyedia menarik kemampuan yang kami andalkan, atau jika kami menghentikan layanan; jika hukum mensyaratkan, kami akan memberi pemberitahuan yang wajar."
+        }
+      ]
+    },
+    {
+      "title": "12. Perubahan Ketentuan ini",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kami dapat memperbarui Ketentuan ini dari waktu ke waktu — misalnya saat hukum berubah, saat penyedia yang kami andalkan berubah, atau saat Aplikasi memperoleh atau kehilangan suatu fitur. Perubahan yang secara material memengaruhi hak Anda akan diumumkan di Aplikasi atau di Situs setidaknya 30 hari sebelum berlaku. Jika Anda tidak menerimanya, Anda dapat berhenti memakai Aplikasi dan menutup akun sebelum tanggal itu; tulis kepada kami tentang koin yang belum terpakai dan kami akan menangani permintaan Anda dengan itikad baik. Terus memakai Aplikasi setelah perubahan berlaku berarti Anda menerima Ketentuan yang diperbarui. Perubahan tidak pernah berlaku surut terhadap pembelian yang sudah Anda lakukan."
+        }
+      ]
+    },
+    {
+      "title": "13. Hukum yang mengatur",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ketentuan ini diatur oleh hukum Inggris dan Wales, dan pengadilan Inggris dan Wales memiliki yurisdiksi eksklusif — kecuali jika Anda konsumen, Anda tetap memiliki perlindungan wajib dan hak tempat mengadu dari negara tempat Anda tinggal."
+        }
+      ]
+    },
+    {
+      "title": "14. Kontak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pertanyaan tentang Ketentuan ini: {supportEmail}."
+        }
+      ]
+    }
+  ]
+}

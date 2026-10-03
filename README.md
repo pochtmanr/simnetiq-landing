@@ -32,34 +32,39 @@ The public website for the **SMS Code** iOS app (SIMNETIQ LTD), plus the interna
   - `sitemap.ts` and `robots.ts` (which blocks `/api/`)
   - a dynamic Open Graph image at `/og`
   - JSON-LD (Organization, WebSite, MobileApplication, FAQPage, BreadcrumbList, Article)
-  - `public/llms.txt`
+  - `/llms.txt`, generated from the content registries
 - **Admin panel:** password + TOTP login. All data comes from `admin_*` Postgres RPCs; see [`docs/ADMIN.md`](docs/ADMIN.md).
 
 ## Project structure
 
 ```
 app/
-  (en)/                 English root layout + pages (thin wrappers)
-  (ru)/ru/              Russian root layout + pages
+  [locale]/             public site: root layout + pages for every locale (thin wrappers)
   (admin)/admin/        admin panel (own layout, noindex)
   api/support/          POST: support form → Supabase RPC → n8n
   api/admin/support/reply/   POST: admin reply → RPC → n8n → RPC
-  og/                   Open Graph image route
+  og/                   Open Graph image route (locale-neutral brand card)
+  llms.txt/             generated llms.txt
   sitemap.ts, robots.ts, global-not-found.tsx, globals.css
+proxy.ts                locale routing: unprefixed URLs serve the default locale
 components/
-  pages/                page bodies shared by both locales (HomePage, ServicePage, CountryPage, …)
+  pages/                page bodies shared by every locale (HomePage, ServicePage, CountryPage, …)
   blog/                 blog post renderer
   SiteNav, SiteFooter, SupportForm, StoreBadges, JsonLd, Breadcrumbs, …
+content/locales/<code>/ ALL site copy, one JSON file per page per language (see "Content model")
 lib/
-  content/              ALL site copy, as typed TypeScript (see "Content model")
+  locales.ts            the locale registry: the one list every route, sitemap and hreflang derives from
+  content/              locale-neutral data (meta.ts per collection), types and loaders
   admin/                admin Supabase client, session guard, typed RPC wrappers, formatters
-  i18n.ts               locales, localised paths, hreflang alternates
+  i18n.ts               localised paths, hreflang alternates, date formatting
+  fonts.ts              web fonts, including per-script faces (CJK, Devanagari, Arabic)
   seo.ts                metadata and JSON-LD builders
   site.ts               site constants: URLs, company details, App Store link, support email
-public/                 app screenshots, brand logo, service logos, llms.txt
-supabase/migrations/    the two support-form migrations (see "Database")
+public/                 app screenshots, brand logo, service logos
+scripts/                i18n:sync and i18n:check
+supabase/migrations/    support-form migrations (see "Database")
 n8n/                    importable n8n workflows for support email + setup guide
-docs/                   DESIGN.md (design system), ADMIN.md (admin panel)
+docs/                   DESIGN.md (design system), ADMIN.md (admin panel), i18n/ (translator brief + glossary)
 ```
 
 ## Getting started
@@ -75,9 +80,11 @@ npm run dev                    # http://localhost:3000
 Other commands:
 
 ```bash
-npm run build     # production build (prerenders every page)
-npm run start     # serve the build
-npm run lint      # ESLint (next config)
+npm run build       # production build (runs i18n:sync + i18n:check first, then prerenders every page)
+npm run start       # serve the build
+npm run lint        # ESLint (next config)
+npm run i18n:sync   # regenerate content/locales/index.generated.ts after adding/removing a JSON file
+npm run i18n:check  # validate every locale against en (structure, placeholders, script, SEO budgets)
 ```
 
 ## Environment variables
@@ -99,22 +106,25 @@ All variables are listed in [`.env.example`](.env.example). Set them in `.env.lo
 
 ## Content model
 
-All copy lives in `lib/content/` as typed TypeScript. Each entry holds both locales, and the **registry file is the publish switch**: an entry that isn't imported into its `index.ts` doesn't appear in any route, the sitemap, hub pages or the footer.
+Copy and data are split so a translator never touches code:
 
-| Content | Files | Add a new one |
-|---|---|---|
-| Services | `lib/content/services/<slug>.ts` | Copy an existing file, write EN + RU copy that is genuinely specific to that service, import it in `services/index.ts`, and add a logo at `public/services/<slug>.svg` |
-| Countries | `lib/content/countries/<slug>.ts` | Same pattern, registered in `countries/index.ts` |
-| Alternatives | `lib/content/alternatives/<slug>.ts` | Same pattern, registered in `alternatives/index.ts` |
-| Blog | `lib/content/blog/<slug>.ts` | Same pattern; keep `BLOG_POSTS` sorted newest first |
-| UI strings | `home.ts`, `support.ts`, `common.ts`, `*Ui.ts` | Edit the EN and RU values together |
+- **`lib/content/<collection>/meta.ts`** holds locale-neutral data (slug, brand name, logo, category, dates, related slugs, dialing codes). It is the **publish switch**: an entry that isn't listed there appears in no route, sitemap, hub page or footer.
+- **`content/locales/<code>/…json`** holds the copy, one file per page per language: `ui`, `home`, `support`, `privacy`, `terms`, `services-ui`, `alternatives-ui`, `blog-ui`, plus `services/`, `countries/`, `blog/`, `alternatives/` and `help/` `<slug>.json`. `en` is the source of truth; TypeScript types are inferred from the en files.
+- A page is published in a language **only if that language's file exists**. Availability drives routes, the sitemap, hreflang and internal links, so a partial translation never produces a half-English page.
 
-**Editorial policy:** pages are not doorway pages. Every page carries unique, hand-written copy in **both** languages. Russian is translated by hand, never by an API or a script. Don't put invented pricing, "unlimited" claims or subscription language on the site. The coin packs shown must match the app's five product IDs.
+| Content | Add a new one |
+|---|---|
+| Service / country / alternative / blog post / help article | Add the entry to the collection's `meta.ts`, write `content/locales/en/<collection>/<slug>.json` (copy a sibling for the shape), add a logo at `public/services/<slug>.svg` for services, then `npm run i18n:sync`. Keep `BLOG_META` sorted newest first. |
+| UI strings | Edit `content/locales/en/<file>.json`, then mirror the key in every other locale |
+
+**Editorial policy:** pages are not doorway pages — every page carries copy genuinely specific to it. Don't put invented pricing, "unlimited" claims or subscription language on the site. The coin packs shown must match the app's five product IDs. Translations are written by AI agents following [`docs/i18n/TRANSLATOR_BRIEF.md`](docs/i18n/TRANSLATOR_BRIEF.md) and must pass `npm run i18n:check`.
 
 ## Routing & i18n
 
-- `app/(en)` and `app/(ru)` are separate root layouts, so `<html lang>` is correct per locale. `next.config.ts` enables `experimental.globalNotFound`, because with two root layouts a single `app/not-found` can't exist.
-- `lib/i18n.ts` builds localised paths and the `hreflang` alternates used by every page's metadata.
+- `lib/locales.ts` is the locale registry. Every page lives under `app/[locale]`, which sets `<html lang dir>` and the script's web font per locale; `dynamicParams = false` everywhere, so only registered locales and published slugs exist.
+- `proxy.ts` serves the default locale (en) without a prefix by rewriting `/x` to `/en/x`, and 308-redirects `/en/x` back to `/x`. It never redirects on Accept-Language.
+- `next.config.ts` enables `experimental.globalNotFound`, because `app/[locale]` and `app/(admin)` are both root layouts.
+- Adding a language: follow [`docs/i18n/TRANSLATOR_BRIEF.md`](docs/i18n/TRANSLATOR_BRIEF.md) — translate into `content/locales/<code>/`, pass `i18n:check` and the build, then add the registry entry.
 
 ## Support pipeline
 

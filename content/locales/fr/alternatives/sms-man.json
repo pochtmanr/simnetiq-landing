@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternative à SMS-Man — SMS Code par SIMNETIQ",
+  "metaDescription": "Comparer SMS-Man et l’app SMS Code par SIMNETIQ\u00a0: un service web aux nombreuses recharges, contre une app iOS facturée via l’App Store.",
+  "hero": {
+    "title": "Une alternative à SMS-Man, facturée via votre store d’apps",
+    "intro": [
+      "SMS-Man est un service web de longue date pour recevoir des codes de vérification SMS sur des numéros virtuels. Vous vous inscrivez sur leur site, rechargez un solde de compte — les descriptions publiques du service mentionnent un large éventail de méthodes, des cartes bancaires aux systèmes de paiement électronique et aux cryptomonnaies — et achetez des numéros par activation, avec une API disponible pour les flux automatisés.",
+      "SMS Code par SIMNETIQ échange cette flexibilité contre un modèle de confiance plus simple. C’est une app iOS native où le paiement passe entièrement par la facturation Apple\u00a0: vous achetez un pack de pièces en achat unique comme n’importe quel achat intégré, et aucun numéro de carte, adresse de portefeuille ou identifiant de paiement n’est jamais partagé avec nous. Choisissez un service et un pays, et le code arrive dans l’app généralement en quelques secondes."
+    ]
+  },
+  "whenThem": {
+    "title": "Quand SMS-Man est le meilleur choix",
+    "body": "Choisissez SMS-Man si la façon de payer compte autant que ce que vous achetez. Un service web qui accepte beaucoup de voies de recharge — y compris des options comme la cryptomonnaie que la facturation du store n’offre simplement pas — convient aux utilisateurs dont le moyen de paiement préféré sort des rails d’Apple et de Google. Leur API sert aussi les développeurs qui automatisent la vérification en volume, et leur catalogue de pays et de services est visé à cet usage plus large et plus lourd."
+  },
+  "whenUs": {
+    "title": "Quand l’app SMS Code convient mieux",
+    "body": "Choisissez l’app si vous préférez ne pas remettre de données de paiement à un site de niche du tout. La facturation du store est tout le sens\u00a0: Apple traite le débit, nous ne voyons jamais votre carte, et l’achat siège dans votre historique de store habituel avec ses protections usuelles. Par-dessus, vous avez l’expérience d’app native — quelques touchers du service au code, plus de 100 pays, plus de 100 services courants, des packs de pièces en achat unique sans abonnement, et l’annulation sans frais chaque fois qu’une activation ne reçoit aucun SMS."
+  },
+  "comparison": {
+    "title": "SMS-Man face à l’app SMS Code, côte à côte",
+    "rows": [
+      {
+        "label": "Plateformes",
+        "competitor": "Service web avec une API pour l’automatisation",
+        "us": "App iOS native depuis l’App Store"
+      },
+      {
+        "label": "Modèle de prix",
+        "competitor": "Paiement par activation depuis un solde de compte rechargé",
+        "us": "Packs de pièces en achat unique, paiement par activation — sans abonnement"
+      },
+      {
+        "label": "Paiement",
+        "competitor": "Recharge de solde par de nombreuses méthodes, selon les descriptions publiques y compris cartes, paiements électroniques et crypto",
+        "us": "Facturation de l’App Store seulement — aucune donnée de paiement partagée avec nous"
+      },
+      {
+        "label": "Couverture",
+        "competitor": "Un large catalogue de pays et de services visé à un usage intensif",
+        "us": "Plus de 100 pays et plus de 100 services courants, sélectionnés pour les inscriptions du quotidien"
+      },
+      {
+        "label": "Annulation",
+        "competitor": "Régie par leurs propres règles de remboursement — vérifiez leurs conditions en vigueur",
+        "us": "Les activations qui ne reçoivent aucun SMS s’annulent sans frais, les pièces reviennent"
+      },
+      {
+        "label": "Assistance",
+        "competitor": "Canaux d’assistance via leur site",
+        "us": "Dans l’app et formulaire de contact du site"
+      },
+      {
+        "label": "Le mieux pour",
+        "competitor": "Utilisateurs qui ont besoin de voies de paiement flexibles ou d’un volume piloté par API",
+        "us": "Particuliers qui veulent la simplicité facturée par le store et une app mobile native"
+      }
+    ],
+    "note": "Les détails sur le concurrent reflètent les descriptions publiques de leur service au moment de la rédaction et peuvent changer — confirmez toujours sur sms-man.com avant de décider."
+  },
+  "switchSteps": {
+    "title": "Essayer l’app prend trois étapes",
+    "steps": [
+      {
+        "title": "Installez l’app",
+        "body": "Obtenez SMS Code par SIMNETIQ sur l’App Store — pas d’inscription sur un site ni de recharge de solde."
+      },
+      {
+        "title": "Prenez un pack de pièces",
+        "body": "Achetez un pack unique via votre compte App Store. Apple gère le paiement\u00a0; nous ne recevons jamais les données de votre carte."
+      },
+      {
+        "title": "Lancez votre première activation",
+        "body": "Choisissez un service et un pays, obtenez un vrai numéro, et voyez le code arriver dans l’app généralement en quelques secondes. Si rien n’arrive, l’activation s’annule sans frais."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "En quoi payer dans l’app SMS Code diffère-t-il de SMS-Man\u00a0?",
+      "a": "SMS-Man fonctionne comme la plupart des services web\u00a0: vous rechargez un solde du site avec l’une des méthodes qu’ils acceptent. Dans l’app, le paiement passe exclusivement par la facturation Apple — un achat intégré normal — donc aucun numéro de carte ni identifiant de paiement n’est jamais partagé avec nous."
+    },
+    {
+      "q": "Puis-je payer en cryptomonnaie dans l’app\u00a0?",
+      "a": "Non. La facturation du store ne prend pas en charge la crypto, et l’app n’accepte pas de paiement hors de l’App Store. Si la crypto est une exigence, un service web comme SMS-Man qui liste de telles options convient mieux."
+    },
+    {
+      "q": "Y a-t-il un abonnement ou un prélèvement récurrent\u00a0?",
+      "a": "Non. Les packs de pièces sont des achats uniques\u00a0; vous dépensez des pièces par activation et n’achetez un autre pack que quand vous le choisissez."
+    },
+    {
+      "q": "Que se passe-t-il si mon code n’arrive jamais\u00a0?",
+      "a": "L’activation s’annule et vos pièces sont renvoyées. Vous ne payez que les numéros qui reçoivent vraiment un SMS."
+    },
+    {
+      "q": "L’app a-t-elle une API comme SMS-Man\u00a0?",
+      "a": "Non — l’app est un produit grand public pour vérifier des comptes à la main, pas une plateforme d’inscription scriptée. S’il vous faut un accès programmatique aux numéros, l’API de SMS-Man sert cet usage."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para Apple",
+  "metaDescription": "Verifica una Apple Account nueva con un número virtual real. El código llega normalmente en segundos; luego pasa el doble factor a dispositivos que controlas.",
+  "hero": {
+    "title": "Número virtual para Apple",
+    "intro": [
+      "Una Apple Account nueva no se puede terminar sin un teléfono: en el alta Apple pide un número, manda un código de seis dígitos para demostrar que lo controlas y luego lo guarda como «número de teléfono de confianza», el canal que usará para la autenticación de dos factores a partir de ese día.",
+      "Con SMS Code alquilas un número móvil real en uno de 100+ países, recibes el código de Apple en la aplicación normalmente en segundos y terminas el alta. Tu número personal se queda fuera de la cuenta, y más adelante decides de qué números y dispositivos de confianza debe depender."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en Apple?",
+    "body": [
+      "Una Apple Account llega más lejos que la mayoría de registros: es la llave del App Store, de iCloud, de iMessage y de cada dispositivo Apple que tienes. Si inicias sesión con un número en un iPhone, quien lo tenga guardado puede encontrarte en iMessage y FaceTime. Si la cuenta debe ir aparte — un dispositivo de prueba, otra región del App Store, un perfil de trabajo —, verificarla con tu SIM personal vuelve a coser tu identidad dentro.",
+      "Apple también activa la autenticación de dos factores en cada cuenta nueva y exige al menos un teléfono de confianza. Un número virtual cumple el alta con limpieza; lo que importa es lo que haces después. Cuando ya has iniciado sesión en un dispositivo Apple, los códigos de verificación aparecen en ese dispositivo sin ningún SMS, y junto al número alquilado (o en su lugar) puedes añadir un número de confianza que sea de verdad tuyo."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar una Apple Account con un número virtual",
+    "steps": [
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Elige Apple como servicio, escoge un país y toca una vez para reservar un número móvil real. Si la cuenta va a una región concreta del App Store, toma un número de ese país: mantiene coherentes los datos de la cuenta."
+      },
+      {
+        "title": "Escríbelo durante el alta de Apple",
+        "body": "Crea la cuenta en account.apple.com o directamente en la pantalla de configuración de un iPhone. Cuando Apple pida un teléfono, elige la verificación por mensaje de texto y escribe el número alquilado con el país correcto seleccionado."
+      },
+      {
+        "title": "Escribe el código",
+        "body": "El SMS dice «Your Apple Account code is: 617402. Don't share it with anyone.» y cae en la aplicación SMS Code normalmente en segundos. Escribe los seis dígitos y la cuenta queda verificada."
+      },
+      {
+        "title": "Añade factores de confianza que controlas",
+        "body": "Inicia sesión en un dispositivo Apple que sea tuyo: a partir de ahí los códigos de dos factores aparecen en ese dispositivo, sin SMS. Luego abre los ajustes de Inicio de sesión y seguridad de la cuenta y añade un segundo teléfono de confianza que de verdad te pertenezca."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Los dispositivos de confianza ganan a los números",
+      "body": "Cuando has iniciado sesión en un iPhone, un iPad o un Mac, Apple muestra los códigos de dos factores directamente en el dispositivo: el SMS pasa a ser el recurso, no el canal principal. Mantén al menos un dispositivo de confianza con la sesión iniciada y el número alquilado se queda en lo que debe ser: una herramienta de alta de una sola vez."
+    },
+    {
+      "title": "Apple guarda el número como ancla de 2FA",
+      "body": "Toda Apple Account con dos factores tiene que conservar al menos un teléfono de confianza en el archivo. No dejes que el número alquilado sea el único: añade primero un número que controles y luego quita el alquilado en Inicio de sesión y seguridad."
+    },
+    {
+      "title": "Haz coincidir el país con la región de la cuenta",
+      "body": "El número por sí solo no fija tu región del App Store: eso sigue el país de la cuenta y el método de pago. Pero un número del mismo país mantiene los datos coherentes, así que elige uno de donde la cuenta deba vivir."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Apple exige un teléfono para crear una Apple Account?",
+      "a": "Sí: el alta pide un número al que pueda escribir o llamar, y las cuentas nuevas reciben autenticación de dos factores con ese número guardado como de confianza. Un número virtual pasa este paso igual que una SIM: el código llega a la aplicación SMS Code y la cuenta se crea."
+    },
+    {
+      "q": "¿La cuenta sigue funcionando cuando caduca el número alquilado?",
+      "a": "Sí. El número se comprueba cuando Apple manda el código por SMS; después la cuenta vive en tus dispositivos de confianza. Haz pronto el cuarto paso — inicia sesión en un dispositivo tuyo y añade un número de confianza que controles — y nada de la cuenta depende ya del número alquilado."
+    },
+    {
+      "q": "¿Puedo cambiar el teléfono de confianza más adelante?",
+      "a": "Sí, en Inicio de sesión y seguridad, en account.apple.com o en los ajustes de tu dispositivo. Apple insiste en que una cuenta de dos factores conserve al menos un número de confianza, así que añade el nuevo primero y luego quita el alquilado."
+    },
+    {
+      "q": "¿Puedo crear una Apple Account para el App Store de otro país?",
+      "a": "Puedes elegir un número de cualquiera de 100+ países, y hacerlo coincidir con la región de la cuenta mantiene las cosas ordenadas. Ten en cuenta que la tienda sigue el país de la cuenta y los ajustes de pago, no el teléfono: el número te verifica, no traslada la tienda."
+    },
+    {
+      "q": "¿Por qué no me llegó el código de Apple?",
+      "a": "Casi siempre el país elegido en el formulario de Apple no coincide con el número, o el flujo pasó a una llamada: elige «mensaje de texto» de forma explícita. Cancela la activación pendiente en SMS Code (los números que no recibieron nada son gratis) y prueba uno nuevo."
+    }
+  ]
+}

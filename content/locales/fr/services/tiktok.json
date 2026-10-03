@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour TikTok",
+  "metaDescription": "Un vrai numéro virtuel pour TikTok, généralement en quelques secondes. Comptes créateur en plus, sans mettre votre numéro personnel sur l’app.",
+  "hero": {
+    "title": "Numéro virtuel pour TikTok",
+    "intro": [
+      "TikTok vous laisse vous inscrire avec un numéro de téléphone ou un e-mail, mais la voie téléphone est celle vers laquelle il revient\u00a0: un code SMS de 4 à 6 chiffres confirme l’inscription, et le même numéro sert ensuite à la connexion par code et à la récupération du compte. Quel que soit le numéro saisi le premier jour, il devient discrètement une part de l’identité du compte.",
+      "Avec SMS Code, vous louez un vrai numéro dans l’un de plus de 100 pays, vous le saisissez sur l’écran d’inscription de TikTok, et le code de vérification arrive dans l’app généralement en quelques secondes. Votre numéro personnel en reste dehors — utile que vous protégiez votre vie privée ou que vous montiez une liste de comptes créateur."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour TikTok\u00a0?",
+    "body": [
+      "Pour les créateurs, le pays du numéro est plus qu’une formalité. TikTok localise le fil et certaines fonctions à l’aide de signaux de région — le numéro de téléphone parmi eux, avec votre IP et la langue de l’appareil. Un numéro du marché que vous voulez atteindre ne l’emporte pas seul sur les autres signaux, mais c’est un levier que vous contrôlez vraiment, et le moins cher à actionner quand vous montez un compte visé, par exemple, vers des audiences des États-Unis ou d’Indonésie.",
+      "L’autre raison est la séparation. Les créateurs tiennent couramment un compte par niche ou par marque, et chaque compte vérifié par téléphone a besoin de son propre numéro — TikTok ne laisse pas un seul numéro les ancrer tous. Les agences ont le même problème du côté client\u00a0: gérer le compte de marque de quelqu’un ne devrait pas vouloir dire le relier à votre SIM personnelle. Un numéro loué donne à chaque compte sa propre identité de contact, sans un tiroir plein de cartes SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier TikTok avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Obtenez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, choisissez TikTok comme service et un pays — idéalement le marché visé par votre contenu. Un toucher réserve un vrai numéro mobile rien que pour vous."
+      },
+      {
+        "title": "Saisissez-le sur l’écran d’inscription de TikTok",
+        "body": "Choisissez «\u00a0Utiliser un téléphone ou un e-mail\u00a0», restez sur l’onglet téléphone, sélectionnez l’indicatif pays correspondant et tapez le numéro. Un décalage d’indicatif est la raison la plus courante pour qu’un code n’apparaisse jamais."
+      },
+      {
+        "title": "Récupérez le code dans SMS Code",
+        "body": "TikTok envoie un code de 4 à 6 chiffres — quelque chose comme «\u00a0[TikTok] 604812 is your verification code, valid for 5 minutes.\u00a0» Il apparaît dans l’app SMS Code généralement en quelques secondes\u00a0; saisissez-le avant qu’il expire et finissez de créer le compte."
+      },
+      {
+        "title": "Liez un e-mail tout de suite",
+        "body": "Dans Paramètres et confidentialité → Compte, ajoutez une adresse e-mail et vérifiez-la, puis passez la validation en deux étapes sur l’e-mail ou un authentificateur lorsque c’est possible. Ainsi le compte ne dépend plus du numéro loué une fois sa fenêtre d’activation terminée."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "N’appuyez pas en rafale sur «\u00a0Renvoyer le code\u00a0»",
+      "body": "TikTok ralentit les demandes de SMS répétées depuis le même numéro. Si rien n’arrive en quelques minutes, attendez avant de redemander — ou annulez l’activation dans SMS Code (sans frais quand aucun SMS n’est passé) et prenez un numéro neuf au lieu de réessayer le même."
+    },
+    {
+      "title": "Alignez le numéro sur la région de l’app",
+      "body": "Le numéro est un signal de région parmi d’autres — TikTok regarde aussi votre IP et la langue de l’appareil. Si vous prenez un numéro pour viser un marché précis, gardez le reste cohérent\u00a0: un numéro brésilien avec tout le reste qui pointe ailleurs envoie à TikTok des signaux mêlés."
+    },
+    {
+      "title": "Un numéro par compte",
+      "body": "Chaque compte TikTok vérifié par téléphone a besoin de son propre numéro, et un numéro déjà lié à un compte ne peut pas en vérifier un nouveau. Plusieurs niches ou marques clients\u00a0? Louez une activation séparée pour chacune et notez quel numéro a ouvert quel compte."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mon compte TikTok continuera-t-il après l’expiration du numéro\u00a0?",
+      "a": "Oui. Le numéro est nécessaire à l’étape de vérification, pas pour l’usage quotidien. Liez et vérifiez un e-mail juste après l’inscription et sortez la validation en deux étapes du SMS — ensuite les connexions et la récupération passent par des canaux que vous contrôlez encore."
+    },
+    {
+      "q": "Le pays du numéro change-t-il ce que TikTok me montre\u00a0?",
+      "a": "C’est l’un des signaux. TikTok localise le contenu et certaines fonctions par région, en lisant le pays de votre numéro avec votre adresse IP et la langue de l’appareil. Un numéro de votre marché cible pousse le compte dans ce sens, mais il ne l’emporte pas seul sur les autres signaux."
+    },
+    {
+      "q": "Puis-je tenir plusieurs comptes TikTok avec des numéros virtuels\u00a0?",
+      "a": "Oui — c’est la configuration standard des créateurs avec un compte par niche et des agences qui gèrent des marques clientes. Chaque compte vérifié par téléphone a besoin de son propre numéro, donc louez une activation séparée par compte plutôt que d’en réutiliser un."
+    },
+    {
+      "q": "Pourquoi mon code TikTok n’est-il pas arrivé\u00a0?",
+      "a": "Vérifiez d’abord l’indicatif pays — un décalage est le coupable habituel. TikTok ralentit aussi les demandes de SMS répétées, donc des renvois rapides peuvent faire taire le code entièrement. Attendez quelques minutes, ou annulez l’activation en cours dans SMS Code — les pièces des numéros qui n’ont rien reçu reviennent sur votre solde — et prenez un numéro neuf."
+    },
+    {
+      "q": "Une agence peut-elle vérifier le compte TikTok d’un client de cette façon\u00a0?",
+      "a": "Oui, et c’est plus propre que l’alternative\u00a0: le compte a sa propre identité de contact au lieu d’être ancré sur la SIM personnelle d’un employé. Configurez la récupération par e-mail sur une adresse que le client contrôle, afin que le compte ne soit lié ni au numéro loué — ni à votre équipe — sur la durée."
+    }
+  ]
+}

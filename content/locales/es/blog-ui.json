@@ -1,0 +1,25 @@
+{
+  "breadcrumbHome": "Inicio",
+  "breadcrumb": "Blog",
+  "metaTitle": "Blog — números virtuales, privacidad y verificación SMS",
+  "metaDescription": "Guías prácticas sobre números virtuales, verificación por SMS y cómo dejar tu número personal fuera. Escritas por el equipo de SMS Code.",
+  "label": "Blog",
+  "title": "Guías para quien cuida su número",
+  "sub": "Textos prácticos y honestos: cómo funciona de verdad la verificación, servicio por servicio, y cómo dejar tu número personal fuera.",
+  "published": "Publicado",
+  "updated": "Actualizado",
+  "ctaTitle": "Ponlo en práctica en tu próximo registro",
+  "ctaBody": "Consigue un número y mira cómo llega el código, normalmente en segundos.",
+  "readMore": "Leer la guía",
+  "tags": {
+    "guide": "Guía",
+    "privacy": "Privacidad",
+    "esim": "eSIM",
+    "google": "Google",
+    "dating": "Citas",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "how-to": "Cómo hacerlo",
+    "basics": "Lo básico"
+  }
+}

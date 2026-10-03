@@ -1,0 +1,152 @@
+{
+  "title": "Crear una cuenta de Google sin tu teléfono",
+  "description": "Google no siempre exige un teléfono y, cuando lo hace, no tiene que ser el tuyo. Flujos que lo saltan, número virtual y la trampa de la recuperación.",
+  "excerpt": "A veces Google te deja registrarte sin ningún teléfono; a veces el aviso es obligatorio. Esto es lo que lo decide, las vías que de verdad funcionan y el ajuste de recuperación que deja la cuenta tuya después.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Una cuenta de Google es la llave de media internet: Gmail, YouTube, Drive, Play Store, cada botón de «Iniciar sesión con Google». Justo por eso entregar a Google tu teléfono personal pesa más que dárselo a un foro: ese número queda pegado a la cuenta que ya conoce tus búsquedas, tu historial de ubicación y tu bandeja."
+    },
+    {
+      "type": "p",
+      "text": "Esta es la parte que la mayoría de guías se equivoca: Google no siempre exige un teléfono. A veces el alta pasa solo con un nombre y una fecha de nacimiento; a veces el mismo formulario se niega a seguir hasta que se manda un código a algún sitio. Cuál te toca no es al azar, y cuando sabes qué inclina la balanza puedes elegir la vía que encaja."
+    },
+    {
+      "type": "p",
+      "text": "Esta guía cubre cuándo aparece de verdad el aviso, las formas de registrarte que funcionan de verdad sin tu número y — porque aquí importa más que en ningún sitio — cómo montar la recuperación para que la cuenta no dependa nunca de un número que no conservas."
+    },
+    {
+      "type": "h2",
+      "id": "when-google-actually-asks",
+      "text": "Cuándo Google exige de verdad un número"
+    },
+    {
+      "type": "p",
+      "text": "Google decide en cada alta si la verificación por teléfono es obligatoria, según lo arriesgado que parezca el intento. Es probable que te enfrentes a un aviso obligatorio cuando se alinean varias de estas:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "El alta viene de un navegador de escritorio, sobre todo un perfil nuevo, una ventana privada o una salida de VPN que los sistemas de Google no han visto.",
+        "Se crearon varias cuentas hace poco desde el mismo dispositivo, red o huella del navegador. El contador es invisible, pero existe: la segunda y la tercera cuenta se topan con el aviso mucho más a menudo que la primera.",
+        "Algo del intento parece automatizado: un ritmo de tecleo raro, un rango de IP marcado, una dirección de centro de datos."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Dale la vuelta y tienes los flujos más amables: las altas desde un teléfono real, en una conexión residencial, con un ritmo sin prisa, son aquellas en las que el campo del teléfono aparece marcado como opcional, o no aparece. Ese es el matiz honesto: no puedes obligar a Google a saltarse el aviso, pero puedes elegir el flujo en el que saltárselo es más probable."
+    },
+    {
+      "type": "h2",
+      "id": "why-keep-your-number-out",
+      "text": "Por qué dejar tu número fuera"
+    },
+    {
+      "type": "p",
+      "text": "Más allá del principio general — una base menos que guarda tu identificador permanente —, Google usa de forma específica un teléfono verificado para vincular cuentas entre sí: los números conectan tus cuentas «separadas», atan las altas a tu perfil publicitario y hacen que las cuentas anónimas o separadas del trabajo sean cualquier cosa menos eso. Un número también es un canal de descubrimiento: a quien lo tenga en sus contactos se le puede mostrar tu perfil. Si el sentido entero de una segunda cuenta es la separación, cablearla a la misma SIM lo deshace el primer día."
+    },
+    {
+      "type": "h2",
+      "id": "routes-that-work",
+      "text": "Las vías que de verdad funcionan"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sáltalo cuando sea opcional. Si el campo del teléfono muestra una opción de «Omitir», tómalo. Añade un correo de recuperación en la pantalla siguiente y la cuenta está completa. Es la vía de coste cero y funciona más a menudo de lo que la gente espera, sobre todo en los flujos de arriba.",
+        "Regístrate desde un dispositivo Android. Añadir una cuenta en Ajustes → Cuentas, en un teléfono o una tableta Android, es el flujo en el que Google más a menudo no pide ningún número: el propio dispositivo avala el alta. Si tienes algún dispositivo Android a mano, vale la pena probarlo primero.",
+        "Usa un número virtual cuando el aviso es obligatorio. Cuando Google se niega a seguir sin un código, sirve cualquier número que pueda recibir un SMS, incluido un número virtual alquilado que no apunta de vuelta a ti. Los pasos de abajo lo cubren."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-a-virtual-number",
+      "text": "Verificar con un número virtual, paso a paso"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Alquila un número para Google",
+          "body": "En la aplicación SMS Code, elige Google como servicio y escoge un país. Un toque reserva un número móvil real solo para ti: lo pagas en monedas de un paquete de un solo pago, sin suscripción."
+        },
+        {
+          "title": "Escríbelo en la pantalla de verificación",
+          "body": "De vuelta en el alta de Google, selecciona el país que coincide con el número alquilado y escríbelo. Google es estricto con los formatos, así que deja que el selector de país haga el trabajo, en lugar de escribir el prefijo a mano."
+        },
+        {
+          "title": "Copia el código",
+          "body": "El SMS — «G-482916 is your Google verification code» — aparece en SMS Code normalmente en segundos. Escríbelo y el alta sigue."
+        },
+        {
+          "title": "Despega el número enseguida",
+          "body": "Cuando ya estás dentro, abre myaccount.google.com → Seguridad, añade un correo de recuperación que controles y luego quita el teléfono de las secciones «Teléfono de recuperación» y «Teléfono». La cuenta se sostiene ya solo con tu contraseña y tu correo."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    },
+    {
+      "type": "h2",
+      "id": "the-recovery-trap",
+      "text": "La trampa de la recuperación: léelo antes de cerrar la pestaña"
+    },
+    {
+      "type": "p",
+      "text": "Con Google, los ajustes de recuperación no son un añadido: son la diferencia entre una cuenta que es tuya y una cuenta que tomaste prestada. Google se apoya en el teléfono verificado para los controles de inicio de sesión sospechoso: viaja a un sitio nuevo, borra las cookies o simplemente tienes mala suerte, y la pantalla de acceso puede volver a exigir el código, enviado al número que haya en el archivo."
+    },
+    {
+      "type": "callout",
+      "text": "En el momento en que termina el alta, haz dos cosas: añade un correo de recuperación que controles y quita el número alquilado de los ajustes de teléfono de la cuenta. Si el número se queda en el archivo cuando termina el alquiler, un control futuro puede dejarte fuera de tu propia cuenta: ese es el único riesgo real de todo este proceso, y se evita del todo."
+    },
+    {
+      "type": "h2",
+      "id": "honest-limits",
+      "text": "Los límites honestos"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Google puede volver a pedir verificación más adelante. Un dispositivo nuevo, una ubicación rara o un navegador limpio pueden disparar otro control. Con un correo de recuperación puesto y el número viejo quitado, verificarás por correo, pero espera el desafío ocasional: así funciona Google en toda cuenta.",
+        "Un número verifica un número limitado de cuentas. Google sigue cuántas cuentas ha confirmado cada número y empieza a rechazar después de unas cuantas. Un número alquilado que usas una vez no toca ese muro, pero el mismo número reciclado en muchas altas sí.",
+        "Esto no es una herramienta de registro masivo. Una cuenta privada para separación o privacidad es un uso normal. Las granjas de cuentas incumplen las condiciones de Google, las pillan los mismos sistemas de riesgo descritos arriba y suelen acabar en una ola de suspensiones."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Preguntas frecuentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "¿De verdad puedo crear una cuenta de Google sin ningún teléfono?",
+          "a": "A veces, sí. Cuando el campo del teléfono está marcado como opcional — casi siempre en el flujo de añadir cuenta de Android o en altas de bajo riesgo —, puedes saltártelo del todo y usar un correo de recuperación. Cuando Google decide que la verificación es obligatoria para tu intento, algún número tiene que recibir un código; simplemente no tiene que ser el tuyo."
+        },
+        {
+          "q": "¿Gmail y YouTube funcionan con normalidad después?",
+          "a": "Sí. Una cuenta verificada con un número virtual es una cuenta de Google completa: Gmail, YouTube, Drive y Play se comportan igual. El único papel del número fue el código de una sola vez en el alta."
+        },
+        {
+          "q": "¿Qué pasa cuando caduca el número alquilado?",
+          "a": "Nada, siempre que lo hayas quitado de la cuenta y hayas puesto un correo de recuperación. La cuenta corre con tu contraseña y tu correo. Si dejas el número muerto como teléfono de recuperación, un control de seguridad futuro puede mandar códigos ahí, y por eso importa despegarlo enseguida."
+        },
+        {
+          "q": "¿Por qué Google dice que mi número «no se puede usar para la verificación»?",
+          "a": "Google rechaza rangos que ha visto abusados: la mayoría de números públicos gratis y algunos rangos virtuales. Si rechazan un número alquilado, cancela la activación gratis en SMS Code y toma otro, a ser posible de otro país; el siguiente suele pasar."
+        },
+        {
+          "q": "¿Registrarse así va contra las condiciones de Google?",
+          "a": "Las condiciones de Google exigen información de recuperación exacta y prohíben el abuso: no exigen que el teléfono del alta esté a tu nombre. Una cuenta personal creada con un número alquilado y luego asegurada como toca con tu propio correo de recuperación es un uso normal; la creación masiva de cuentas no."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    }
+  ]
+}

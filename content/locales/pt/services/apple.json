@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para a Apple — conta sem o seu chip",
+  "metaDescription": "Verifique uma Conta Apple nova com um número virtual real. O código chega em geral em segundos e a 2FA fica em aparelhos que você controla.",
+  "hero": {
+    "title": "Número virtual para a Apple",
+    "intro": [
+      "Uma Conta Apple nova não se conclui sem um telefone: no cadastro a Apple pede um número, manda um código de seis dígitos para provar que você o controla e depois guarda esse número como “número de telefone confiável” — o canal que ela vai usar para a autenticação de dois fatores dali em diante.",
+      "Com o SMS Code você aluga um número de celular real em um de 100+ países, recebe o código da Apple no aplicativo em geral em segundos e termina o cadastro. O seu número pessoal fica fora da conta — e você decide depois em quais números confiáveis e aparelhos a conta deve se apoiar."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para a Apple?",
+    "body": [
+      "Uma Conta Apple alcança mais longe do que a maioria dos cadastros: é a chave da App Store, do iCloud, do iMessage e de todo aparelho Apple que você tem. Entre com um número num iPhone e quem tem esse número salvo pode encontrar você no iMessage e no FaceTime. Se a conta deve ser separada — para um aparelho de teste, outra região da App Store, um perfil de trabalho — verificar com o seu chip pessoal costura a sua identidade de volta nela.",
+      "A Apple também liga a autenticação de dois fatores em toda conta nova e exige pelo menos um número de telefone confiável. Um número virtual satisfaz o cadastro com limpeza; o que importa é o que você faz em seguida. Quando você entra num aparelho Apple, os códigos de verificação aparecem nesse aparelho sem SMS — e, ao lado do número alugado (ou no lugar dele), você pode adicionar um número confiável que é de fato seu."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar uma Conta Apple com número virtual",
+    "steps": [
+      {
+        "title": "Alugue um número no SMS Code",
+        "body": "Escolha Apple como serviço, escolha um país e toque uma vez para reservar um número de celular real. Se a conta é para uma região específica da App Store, pegue um número desse país — isso mantém os dados da conta consistentes."
+      },
+      {
+        "title": "Digite no cadastro da Apple",
+        "body": "Crie a conta em account.apple.com ou direto na tela de configuração de um iPhone. Quando a Apple pedir um número de telefone, escolha verificação por mensagem de texto e digite o número alugado com o país certo selecionado."
+      },
+      {
+        "title": "Digite o código",
+        "body": "O SMS diz “Your Apple Account code is: 617402. Don't share it with anyone.” e chega no aplicativo SMS Code em geral em segundos. Digite os seis dígitos e a conta fica verificada."
+      },
+      {
+        "title": "Adicione fatores confiáveis que você controla",
+        "body": "Entre num aparelho Apple seu — daí em diante os códigos de dois fatores aparecem nesse aparelho, sem SMS. Depois abra os ajustes de Início de sessão e segurança da conta e adicione um segundo número de telefone confiável que de fato pertence a você."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Aparelhos confiáveis vencem números confiáveis",
+      "body": "Quando você entra num iPhone, iPad ou Mac, a Apple mostra os códigos de dois fatores direto no aparelho — o SMS vira o plano B, não o canal principal. Mantenha pelo menos um aparelho confiável conectado e o número alugado continua o que deve ser: uma ferramenta de cadastro de uso único."
+    },
+    {
+      "title": "A Apple guarda o número como âncora de 2FA",
+      "body": "Toda Conta Apple com dois fatores precisa manter pelo menos um número de telefone confiável no arquivo. Não deixe o número alugado ser o único: adicione primeiro um número que você controla e depois remova o alugado em Início de sessão e segurança."
+    },
+    {
+      "title": "Combine o país com a região da conta",
+      "body": "O número sozinho não define a região da App Store — isso segue o país da conta e o meio de pagamento. Mas um número do mesmo país mantém os dados consistentes, então escolha um de onde a conta deve viver."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "A Apple exige um número de telefone para criar uma Conta Apple?",
+      "a": "Exige — o cadastro pede um número para o qual ela possa mandar texto ou ligar, e contas novas recebem autenticação de dois fatores com esse número salvo como confiável. Um número virtual passa nesse passo exatamente como um chip: o código chega no aplicativo SMS Code e a conta é criada."
+    },
+    {
+      "q": "A conta continua funcionando depois que o número alugado expira?",
+      "a": "Sim. O número é conferido quando a Apple manda o código por texto; depois disso a conta vive nos seus aparelhos confiáveis. Faça o quarto passo cedo — entre num aparelho seu e adicione um número confiável que você controla — e nada na conta depende mais do número alugado."
+    },
+    {
+      "q": "Dá para mudar o número de telefone confiável depois?",
+      "a": "Dá, em Início de sessão e segurança em account.apple.com ou nos ajustes do aparelho. A Apple insiste que uma conta de dois fatores mantenha pelo menos um número confiável, então adicione o novo primeiro e depois remova o alugado."
+    },
+    {
+      "q": "Dá para criar uma Conta Apple para a App Store de outro país?",
+      "a": "Você pode escolher um número de qualquer um de 100+ países, e combiná-lo com a região da conta deixa tudo mais arrumado. Só saiba que a loja segue o país da conta e os ajustes de pagamento, não o telefone — o número verifica você, não muda a loja de lugar."
+    },
+    {
+      "q": "Por que o código da Apple não chegou?",
+      "a": "Na maior parte das vezes o país selecionado no formulário da Apple não combina com o número, ou o fluxo mudou para uma ligação — escolha “mensagem de texto” de forma explícita. Cancele a ativação pendente no SMS Code (números que não receberam nada são sem custo) e tente um novo."
+    }
+  ]
+}

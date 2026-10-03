@@ -1,0 +1,142 @@
+{
+  "title": "How to Sign Up for Telegram Without a Phone Number",
+  "description": "Telegram always asks for a number — but it doesn’t have to be yours. Real options: virtual numbers, landlines, Fragment — and the privacy settings that matter.",
+  "excerpt": "Telegram won’t let you register without some phone number — but it doesn’t have to be yours. Here are the options that actually work, and the settings that keep your identity out of it.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "You’ve installed Telegram, tapped “Start Messaging” — and the very first screen demands a phone number. No email option, no “skip for now”. If you were hoping to keep your personal number out of yet another database, that screen feels like a wall."
+    },
+    {
+      "type": "p",
+      "text": "Here’s the honest answer up front: there is no way to create a Telegram account with no phone number at all. Verification by phone is baked into how Telegram identifies accounts, and every workaround you’ll find online still involves a number somewhere. What you can do — easily — is sign up without your number. The account works exactly the same; it just isn’t anchored to the SIM card in your pocket."
+    },
+    {
+      "type": "p",
+      "text": "This guide walks through the three routes that genuinely exist, then shows the full sign-up with a virtual number, the privacy settings that hide whatever number you used, and the one step — a cloud password — that keeps the account yours for good."
+    },
+    {
+      "type": "h2",
+      "id": "your-real-options",
+      "text": "Your real options (and what each one is for)"
+    },
+    {
+      "type": "p",
+      "text": "Strip away the myths — “register with email” hasn’t existed, “no-SIM APK mods” are a malware lottery — and three legitimate paths remain. They serve very different people."
+    },
+    {
+      "type": "list",
+      "items": [
+        "A virtual number. You rent a real mobile number for the length of the verification, receive the code, and sign up. For most people it is the quickest and least expensive route: your personal number never touches Telegram’s servers, and the account keeps working after the rental ends as long as you stay logged in.",
+        "A landline or fixed number. Telegram can deliver the login code by voice call instead of SMS, so a home or office landline can technically verify an account. The limits are real, though: the call option only appears after an SMS attempt times out, plenty of fixed-line and VoIP ranges are rejected outright, and you must keep long-term access to that line for any future re-verification.",
+        "An anonymous +888 number from Fragment. Telegram’s own blockchain marketplace auctions virtual +888 numbers that work only inside Telegram and require no SIM at all. It’s the most private option on paper — but it’s aimed at a different audience: you bid in Toncoin, prices float with the collectible market, and you need a TON wallet before you can even start. For “I just want an account without my number”, it’s overkill."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For most readers the practical choice is the first one. A virtual number is a real number on a real carrier network — Telegram treats it like any other mobile number, no special casing, no waiting on an auction. So let’s do the actual sign-up."
+    },
+    {
+      "type": "h2",
+      "id": "sign-up-with-a-virtual-number",
+      "text": "Signing up with a virtual number, step by step"
+    },
+    {
+      "type": "p",
+      "text": "The whole process takes a couple of minutes. You’ll need the Telegram app and the SMS Code app side by side — the code arrives in the latter and gets typed into the former."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Rent a number for Telegram",
+          "body": "In the SMS Code app, pick Telegram as the service and choose a country — there are real mobile numbers in 100+ countries. One tap reserves a number just for you. You pay per activation from a one-time coin pack; there’s no subscription, and if no code ever arrives, the activation cancels free."
+        },
+        {
+          "title": "Enter the number in Telegram",
+          "body": "On Telegram’s sign-up screen, select the country that matches your rented number, then type the number in. A mismatched country code is the single most common reason a code never shows up, so double-check it before tapping Next."
+        },
+        {
+          "title": "Wait for the code — it usually lands in seconds",
+          "body": "Switch back to SMS Code. The verification SMS appears right in the app, usually within seconds, looking like “Telegram code: 48329”. Copy the code into Telegram."
+        },
+        {
+          "title": "Finish the profile",
+          "body": "Pick a first name (it doesn’t have to be real) and you’re in. Before you join a single group, spend two minutes on the privacy settings below — they matter more than which number you used."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "privacy-settings-that-matter",
+      "text": "The privacy settings that actually hide you"
+    },
+    {
+      "type": "p",
+      "text": "Whichever route you took, the number you verified with is now attached to the account — and by default, Telegram shows it to your contacts and lets anyone who has it saved find you. Two settings and one habit close those gaps."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hide the number: Settings → Privacy and Security → Phone Number → “Who can see my phone number” → Nobody. From that moment, group members and message recipients see only your display name.",
+        "Control discovery: on the same screen, set “Who can find me by my number” to My Contacts. Otherwise anyone who ever had the number in their address book — including its previous holder’s contacts, if the number was recycled — can match it to your new account.",
+        "Live by username: set a @username in Settings and share that instead of a number. Usernames are how Telegram intends people to find each other; the phone number can stay a login credential and nothing more."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "lock-it-with-a-cloud-password",
+      "text": "Lock it in: the two-step verification password"
+    },
+    {
+      "type": "p",
+      "text": "This is the step people skip and later regret. In Settings → Privacy and Security → Two-Step Verification, set a cloud password. With it enabled, logging in from a new device requires both a code and the password — so control of the phone number alone is never enough to take the account."
+    },
+    {
+      "type": "callout",
+      "text": "If you signed up with a rented number, the cloud password is not optional — it’s what makes the account permanently yours. Set it immediately, add a recovery email, and don’t log out of your only active session. Telegram sends future login codes to active sessions rather than by SMS, so day-to-day use never depends on the old number."
+    },
+    {
+      "type": "p",
+      "text": "That’s the complete picture: an account that behaves like any other Telegram account, discoverable only by username, secured by a password, and pointing at a number that was never yours to begin with."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Frequently asked questions"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Can I use Telegram without any phone number at all?",
+          "a": "No. Telegram requires a number at sign-up with no email or username-only alternative. The realistic choices are a number that isn’t yours: a rented virtual number, a landline that can take a voice-call code, or an anonymous +888 number from Fragment."
+        },
+        {
+          "q": "Will my account stop working when the virtual number expires?",
+          "a": "No. The number is only checked at verification. Stay logged in and enable Two-Step Verification, and the account keeps working indefinitely — Telegram delivers future login codes to your active session, not by SMS."
+        },
+        {
+          "q": "Can I sign up for Telegram with a free online number?",
+          "a": "Usually not. Numbers on free SMS-reception sites are shared by thousands of people, so Telegram has almost always seen them before and refuses to deliver a code — or the number is already tied to someone else’s account. A rented number is reserved for you alone during the activation."
+        },
+        {
+          "q": "Is registering with a virtual number against Telegram’s rules?",
+          "a": "Telegram verifies that you control a number, not whose name it’s registered under. Signing up with a rented number for normal personal use is fine — what matters is following Telegram’s terms of service once you’re in, same as any account."
+        },
+        {
+          "q": "Can other people tell I used a virtual number?",
+          "a": "No. It’s a real mobile number on a real carrier network, indistinguishable from any other. And once you set “Who can see my phone number” to Nobody, other users see only your name and username anyway."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour Reddit",
+  "metaDescription": "Recevez le code Reddit sur un vrai numéro virtuel, généralement en quelques secondes. Passez le contrôle téléphone sans lier le compte à votre identité.",
+  "hero": {
+    "title": "Numéro virtuel pour Reddit",
+    "intro": [
+      "Reddit a bâti toute sa culture sur des noms d’utilisateur plutôt que des vrais noms — puis, de temps en temps, demande l’identifiant le plus réel que vous possédez. La plupart des inscriptions se font par e-mail seul, mais certains parcours, réseaux et contrôles d’«\u00a0activité suspecte\u00a0» mettent un écran téléphone, et un texto comme «\u00a0Your Reddit verification code is 617293\u00a0» se tient entre vous et la page d’accueil.",
+      "Avec SMS Code, vous louez un vrai numéro mobile dans l’un de plus de 100 pays et le code arrive dans l’app généralement en quelques secondes. Le contrôle est levé, le compte s’ouvre — et le pseudonyme sous lequel vous publiez reste non lié au numéro auquel votre nom est attaché partout ailleurs."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour Reddit\u00a0?",
+    "body": [
+      "Nulle part un numéro de téléphone ne sape autant le sens de la plateforme que sur Reddit. Les gens s’en servent pour poser des questions médicales, parler de leur employeur, publier dans des communautés de rétablissement — précisément les choses qu’un nom d’utilisateur existe pour tenir à distance d’une identité réelle. Remettre votre mobile personnel reconstruit discrètement le pont que le pseudonyme était censé brûler\u00a0: un identifiant, dans une base de plus, qui relie votre nom légal à votre historique de publications.",
+      "Le revers honnête\u00a0: la plupart du temps, Reddit ne demande rien. L’inscription par e-mail seul est encore la norme, et une invite téléphone apparaît de façon situationnelle — certaines apps et régions, trafic VPN et réseaux partagés, ou un examen de sécurité sur un compte existant. Ne louez donc pas un numéro par avance. Commencez l’inscription, et si l’écran téléphone apparaît, c’est le moment où un numéro loué gagne sa place\u00a0; une activation que vous annulez avant l’arrivée d’un SMS ne coûte rien."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier Reddit avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Commencez d’abord l’inscription",
+        "body": "Créez le compte avec un e-mail que vous contrôlez et voyez si Reddit demande même un téléphone. S’il ne le fait pas, vous avez fini et n’avez rien dépensé. Si l’écran téléphone apparaît, passez à l’étape deux."
+      },
+      {
+        "title": "Louez un numéro dans SMS Code",
+        "body": "Choisissez Reddit comme service et un pays. Un toucher réserve un vrai numéro mobile rien que pour vous — réservé veut dire que personne d’autre ne l’utilise pour Reddit en même temps."
+      },
+      {
+        "title": "Saisissez le numéro et tapez le code",
+        "body": "Sélectionnez l’indicatif pays correspondant sur l’écran de Reddit et saisissez le numéro. Le SMS se lit «\u00a0Your Reddit verification code is 617293\u00a0» et apparaît dans l’app SMS Code généralement en quelques secondes — copiez-le."
+      },
+      {
+        "title": "Détachez le numéro ensuite",
+        "body": "Dans Paramètres → Compte, vous pouvez voir et retirer le téléphone une fois la vérification faite. Gardez l’e-mail vérifié et le mot de passe fort — ce sont les vraies ancres du compte, et les parcours de récupération de Reddit s’appuient sur l’e-mail, pas sur le SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Louez en réaction, pas par avance",
+      "body": "L’invite téléphone de Reddit est situationnelle, pas universelle. Essayez d’abord l’inscription e-mail ordinaire\u00a0; prenez un numéro virtuel seulement quand l’écran en exige vraiment un. Cette page sera encore là."
+    },
+    {
+      "title": "Le pseudonyme fuit de côté, pas par le téléphone",
+      "body": "Une fois la question du numéro réglée, les risques restants sont comportementaux\u00a0: publier le même nom d’utilisateur qu’ailleurs, de vraies photos, des détails identifiables. Un numéro virtuel ferme le lien le plus fort — associez-le à un e-mail qui n’est pas prenom.nom@ et à un nom d’utilisateur que vous n’utilisez nulle part ailleurs."
+    },
+    {
+      "title": "Les communautés bannies le restent",
+      "body": "Reddit applique les suspensions via de nombreux signaux — appareils, comportement, réseaux — pas seulement les numéros de téléphone. Un numéro virtuel protège la vie privée d’un compte légitime\u00a0; ce n’est pas un kit pour échapper à un bannissement, et contourner des suspensions viole les règles de Reddit et tend à finir vite."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Reddit exige-t-il un numéro de téléphone pour s’inscrire\u00a0?",
+      "a": "En général non — l’e-mail seul est le parcours standard. La vérification téléphone apparaît de façon situationnelle\u00a0: certaines apps et régions, inscriptions via VPN ou réseaux partagés, ou contrôles de sécurité sur une activité inhabituelle. Quand elle apparaît, un numéro virtuel reçoit le code exactement comme une SIM le ferait."
+    },
+    {
+      "q": "Mon compte Reddit cessera-t-il de fonctionner quand le numéro loué expire\u00a0?",
+      "a": "Non. Le numéro est contrôlé à la vérification, et vous pouvez le retirer ensuite dans Paramètres → Compte. Gardez un e-mail vérifié et un mot de passe fort — c’est là-dessus que la récupération de Reddit repose vraiment."
+    },
+    {
+      "q": "Les utilisateurs ou modérateurs de Reddit peuvent-ils voir mon numéro\u00a0?",
+      "a": "Non. Le numéro de téléphone est de la plomberie de compte, jamais montré sur votre profil ni aux autres utilisateurs. Ce qui expose un pseudonyme sur Reddit, c’est le contenu — noms d’utilisateur réutilisés, photos, détails identifiants — pas le numéro de vérification."
+    },
+    {
+      "q": "Puis-je utiliser un numéro en ligne gratuit pour Reddit\u00a0?",
+      "a": "Rarement avec succès. Les numéros publics des sites de SMS gratuits sont passés par des milliers d’inscriptions, et les contrôles de Reddit tendent à les reconnaître et à les refuser. Un numéro loué vous est réservé seul pendant l’activation, ce qui est exactement la différence dont le contrôle se soucie."
+    },
+    {
+      "q": "Le code Reddit n’est jamais venu — et maintenant\u00a0?",
+      "a": "Confirmez que l’indicatif pays correspond au numéro loué et attendez un instant\u00a0; les codes arrivent en général en quelques secondes. Si rien n’arrive, annulez l’activation dans SMS Code sans frais et prenez un numéro neuf — vous ne payez que les activations qui livrent un SMS."
+    }
+  ]
+}

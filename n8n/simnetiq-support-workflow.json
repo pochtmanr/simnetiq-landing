@@ -57,7 +57,7 @@
         "toEmail": "support@simnetiq.com",
         "subject": "=[Support] {{ $json.body.topic || 'New request' }} — {{ $json.body.name }}",
         "emailFormat": "text",
-        "text": "=New support request from simnetiq.xyz\n\nName:     {{ $json.body.name }}\nEmail:    {{ $json.body.email }}\nTopic:    {{ $json.body.topic }}\nLanguage: {{ $json.body.locale === 'ru' ? 'Russian' : 'English' }}\nRequest:  {{ $json.body.id }}\nDate:     {{ $json.body.created_at }}\n\nMessage:\n{{ $json.body.message }}\n\n—\nStored in Supabase table support_requests, id {{ $json.body.id }}.\nReply directly to this email to answer the user.",
+        "text": "=New support request from simnetiq.xyz\n\nName:     {{ $json.body.name }}\nEmail:    {{ $json.body.email }}\nTopic:    {{ $json.body.topic }}\nLanguage: {{ $json.body.locale || 'en' }}\nRequest:  {{ $json.body.id }}\nDate:     {{ $json.body.created_at }}\n\nMessage:\n{{ $json.body.message }}\n\n—\nStored in Supabase table support_requests, id {{ $json.body.id }}.\nReply directly to this email to answer the user.",
         "options": {
           "replyTo": "={{ $json.body.email }}"
         }

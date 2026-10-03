@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour X (Twitter)",
+  "metaDescription": "Vérification de X (Twitter) avec un vrai numéro virtuel. Le code arrive généralement en quelques secondes, annulation sans frais si aucun SMS.",
+  "hero": {
+    "title": "Numéro virtuel pour X (Twitter)",
+    "intro": [
+      "Vous pouvez créer un compte X avec un simple e-mail — le formulaire d’inscription lui-même n’insiste pas sur un téléphone. Le piège arrive des minutes ou des jours plus tard\u00a0: les comptes neufs sont couramment verrouillés «\u00a0pour confirmer que vous n’êtes pas un robot\u00a0», et l’écran de déverrouillage veut un numéro de téléphone capable de recevoir un SMS tout de suite. Pour beaucoup, ce contrôle est la vraie étape d’inscription.",
+      "Avec SMS Code, vous louez un vrai numéro mobile dans l’un de plus de 100 pays, vous le donnez à X à ce moment précis, et le code de confirmation apparaît dans l’app généralement en quelques secondes. Vous payez par activation, à partir d’un pack de pièces en achat unique — sans abonnement — et un numéro qui n’a rien reçu s’annule sans frais."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour X (Twitter)\u00a0?",
+    "body": [
+      "X est l’une des rares grandes plateformes où le pseudonyme fait partie de la culture — mais un identifiant pseudonyme avec votre numéro personnel attaché n’est pseudonyme que jusqu’à la première fuite ou recherche. Le numéro est aussi un vecteur de découverte\u00a0: par défaut, les personnes qui l’ont dans leurs contacts peuvent être orientées vers votre compte. Un numéro virtuel garde intact l’anonymat pour lequel vous vous êtes inscrit, tout en passant chaque contrôle SMS que X vous lance.",
+      "Il y a aussi une raison structurelle\u00a0: X limite le nombre de comptes qu’un seul numéro de téléphone peut soutenir. Si vous tenez un compte personnel et en voulez un séparé pour un projet ou une marque, accrocher les deux à votre seul numéro personnel est fragile — un contrôle contre l’un ou l’autre tire sur le même fil. Donner à chaque compte son propre numéro loué les garde indépendants."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier X (Twitter) avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Obtenez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, choisissez X (Twitter) comme service, un pays, et touchez une fois. Un vrai numéro mobile vous est réservé pour la durée de l’activation."
+      },
+      {
+        "title": "Saisissez-le là où X le demande",
+        "body": "C’est en général le contrôle de déverrouillage d’un compte neuf, parfois le parcours d’inscription lui-même, ou Paramètres → Votre compte → Informations du compte → Téléphone. Faites correspondre l’indicatif pays au numéro loué."
+      },
+      {
+        "title": "Saisissez le code de confirmation",
+        "body": "Le SMS arrive dans l’app SMS Code généralement en quelques secondes, de l’expéditeur «\u00a0X\u00a0», sous une forme comme «\u00a0Your X confirmation code is 941507. Don't share this code with anyone.\u00a0» Saisissez les chiffres et le verrou se lève."
+      },
+      {
+        "title": "Sortez la sécurité du SMS",
+        "body": "Configurez l’authentification à deux facteurs avec une application d’authentification ou une clé d’accès — sur X, la 2FA par SMS est de toute façon réservée aux abonnés Premium. Vérifiez votre e-mail, et désactivez la découvrabilité par numéro de téléphone dans les réglages de confidentialité."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Le verrou est un passage obligé",
+      "body": "Un compte tout neuf verrouillé dans ses premières heures est le réflexe anti-bot standard de X, pas un jugement sur vous. Vérifiez le téléphone, puis comportez-vous comme une personne\u00a0: photo de profil, une bio, abonnements à un rythme humain. Les comptes qui publient comme des scripts sont contestés à nouveau, quel que soit le numéro."
+    },
+    {
+      "title": "Ne construisez jamais la 2FA sur le SMS ici",
+      "body": "Deux raisons\u00a0: X ne propose la 2FA par texto qu’aux abonnés Premium, et vous ne garderez de toute façon pas le numéro loué. Une application d’authentification ou une clé d’accès est sans frais, fonctionne pour tout le monde et ne dépend jamais d’un code qui arrive par SMS."
+    },
+    {
+      "title": "Fermez la porte de la découverte",
+      "body": "Dans Paramètres → Confidentialité et sécurité → Découvrabilité et contacts, décochez «\u00a0Autoriser les personnes qui ont votre numéro de téléphone à vous trouver sur X\u00a0». Le numéro n’existe plus alors que comme un enregistrement de vérification — personne ne peut aller de lui à votre identifiant."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Pourquoi mon nouveau compte X a-t-il été verrouillé juste après l’inscription\u00a0?",
+      "a": "Parce qu’il est neuf. X s’appuie fortement sur les contrôles téléphone pour filtrer les inscriptions de bots, et les comptes par e-mail seul sont les premiers interrogés. C’est routinier\u00a0: vérifiez avec un numéro capable de recevoir un SMS à ce moment — un numéro loué fait exactement cela — et le compte se déverrouille."
+    },
+    {
+      "q": "Plusieurs comptes X peuvent-ils partager un numéro de téléphone\u00a0?",
+      "a": "Seulement jusqu’à une limite — X plafonne le nombre de comptes auxquels un seul numéro peut être attaché, et des numéros emmêlés rendent les contrôles plus confus. Si vous montez un compte de projet ou de marque séparé, un numéro neuf par compte est l’architecture la plus propre."
+    },
+    {
+      "q": "Mon compte continuera-t-il après l’expiration du numéro loué\u00a0?",
+      "a": "Oui. Le numéro compte au moment du contrôle. Vérifiez votre e-mail, configurez la 2FA par authentificateur ou clé d’accès, et l’usage quotidien ne touche plus jamais le numéro. Vous pouvez même le retirer plus tard dans Paramètres → Informations du compte — assurez-vous simplement que les autres ancres sont en place d’abord."
+    },
+    {
+      "q": "Le numéro sera-t-il visible sur mon profil\u00a0?",
+      "a": "Non — X n’affiche jamais les numéros de téléphone publiquement. Le seul chemin du numéro au compte est la découvrabilité par contacts, et c’est un interrupteur que vous pouvez couper dans Confidentialité et sécurité. Coupé, le numéro est invisible dans toutes les directions."
+    },
+    {
+      "q": "Pourquoi mon code de confirmation X n’est-il pas arrivé\u00a0?",
+      "a": "Vérifiez d’abord que l’indicatif pays correspond au numéro loué\u00a0; ensuite, sachez que X refuse d’envoyer un texto à certains numéros auxquels il ne fait pas confiance. Annulez l’activation en cours dans SMS Code — les pièces reviennent pour les numéros qui n’ont rien reçu — et prenez un numéro neuf, idéalement d’un autre pays."
+    }
+  ]
+}

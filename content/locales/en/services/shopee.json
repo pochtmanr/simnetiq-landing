@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for Shopee — Verify Without Your Own Phone",
+  "metaDescription": "Receive Shopee’s SMS code on a real virtual number usually within seconds. Shop without wiring promo texts and order updates to your personal phone.",
+  "hero": {
+    "title": "A virtual number for Shopee",
+    "intro": [
+      "Shopee is phone-first in a way Western marketplaces aren’t: across Southeast Asia and Brazil, the number is effectively the account. Sign-up starts with a phone, an OTP like “382916 is your Shopee verification code” confirms it, and from then on that number is your login, your recovery route — and the address for a steady stream of flash-sale SMS.",
+      "With SMS Code you rent a real mobile number in one of 100+ countries and the code lands in the app usually within seconds. The account gets verified — and the marketing barrage points somewhere other than the phone that wakes you up at night."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for Shopee?",
+    "body": [
+      "Marketplaces are among the loudest services a phone number can meet. Order updates are useful; the vouchers, countdowns and “9.9 sale” blasts are not — and once your personal number is in a commerce database, it tends to stay there through every partner list and leak that follows. A separate number for shopping keeps the deal-hunting away from the number your family uses.",
+      "The honest flip side: precisely because Shopee is phone-first, the number matters more here than on email-anchored services. It isn’t just a checkpoint — it’s the login. That doesn’t rule out a virtual number; it changes how you use one. Verify with it, then immediately link an email and set a password in account settings, so signing in never depends on receiving another OTP on a number you rented for one afternoon."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify Shopee with a virtual number",
+    "steps": [
+      {
+        "title": "Rent a number in SMS Code",
+        "body": "Pick Shopee as the service and choose the country that matches the Shopee market you’re shopping on — the Indonesian app expects an Indonesian number, the Thai app a Thai one. One tap reserves a real mobile number."
+      },
+      {
+        "title": "Start the sign-up with that number",
+        "body": "Enter the number on Shopee’s registration screen with the right country code. Shopee sends the OTP straight away — this is the time-sensitive part, so have both apps open."
+      },
+      {
+        "title": "Type in the code",
+        "body": "The SMS reads “382916 is your Shopee verification code” and appears in SMS Code usually within seconds. Enter it and the account is live."
+      },
+      {
+        "title": "Give the account a second anchor",
+        "body": "Straight after sign-up, open account settings and link your email and set a login password. That way you can sign in with username and password rather than a fresh OTP — the rented number stops being the only key."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Match the number to the market",
+      "body": "Shopee runs country-specific apps and sites, and each expects a local number. A Vietnamese number won’t start an account on Shopee Indonesia. Decide which market you’re actually buying from, then rent the number to match."
+    },
+    {
+      "title": "The number is the login — plan for that",
+      "body": "Where email-first services treat the phone as a checkpoint, Shopee may ask for an SMS again at password resets or logins from new devices. Keep the login password set, stay signed in on your device, and treat a long-lived shop account as something worth a number you keep."
+    },
+    {
+      "title": "Selling is a different game",
+      "body": "Opening a shop brings seller verification — identity documents and bank details in most markets. A virtual number covers the SMS step of a buyer account; it doesn’t stand in for the checks Shopee runs on people who take payments."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I sign up for Shopee with a virtual number?",
+      "a": "Yes — it’s a real mobile number on a real carrier network, and Shopee verifies it with a standard OTP. Pick the country that matches the Shopee market you’re registering on, since each market expects local numbers."
+    },
+    {
+      "q": "What happens to my Shopee account when the rented number expires?",
+      "a": "The account keeps working as long as you can sign in. Because Shopee is phone-first, set a password and link an email right after registration — then everyday logins don’t need an OTP. If you plan to use the account for years, consider updating it to a number you keep."
+    },
+    {
+      "q": "Will promo SMS come to my personal phone?",
+      "a": "No — that’s half the point. Marketing texts chase the number on the account, and that number lives in the SMS Code app, not in your pocket. You can also trim notifications in Shopee’s settings."
+    },
+    {
+      "q": "Can I open a Shopee seller account this way?",
+      "a": "The SMS step works the same, but seller onboarding adds identity and banking verification that a phone number doesn’t replace. Expect to provide real documents if you want to sell and withdraw money."
+    },
+    {
+      "q": "Why didn’t the Shopee code arrive?",
+      "a": "Most often the number’s country doesn’t match the Shopee market, or the country code was mistyped. If the SMS genuinely never comes, cancel the activation in SMS Code free of charge and take another number."
+    }
+  ]
+}

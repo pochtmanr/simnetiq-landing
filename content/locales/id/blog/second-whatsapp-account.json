@@ -1,0 +1,148 @@
+{
+  "title": "Akun WhatsApp kedua tanpa SIM kedua: caranya",
+  "description": "Anda tidak butuh SIM kedua untuk WhatsApp kedua — cukup nomor kedua dan aplikasi untuk menjalankannya. WhatsApp Business, multiakun, dan nomor virtual.",
+  "excerpt": "WhatsApp mengikat setiap akun tepat ke satu nomor — tetapi nomor itu tidak membutuhkan slot SIM. Jalur aplikasi ganda resmi, panduan verifikasi, dan catatan jujur.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Anda menginginkan satu WhatsApp untuk teman dan keluarga dan yang lain untuk kerja, proyek sampingan, atau penjualan marketplace — tanpa membeli kartu SIM kedua atau membawa telepon kedua. Banyak panduan menjanjikan trik. Inilah versi jujurnya: tidak ada trik, karena masalahnya bukan yang Anda kira."
+    },
+    {
+      "type": "p",
+      "text": "Model WhatsApp ketat — satu nomor telepon, satu akun, dan nomor adalah identitas akun. Tetapi tidak ada dalam model itu yang mengatakan nomor harus hidup di slot SIM telepon Anda. Yang benar-benar Anda butuhkan dua hal: nomor kedua yang dapat menerima satu kode verifikasi, dan tempat di telepon untuk menjalankan akun kedua. WhatsApp sendiri menyediakan bagian kedua secara resmi; nomor virtual mencakup yang pertama. Panduan ini menelusuri keduanya, lalu verifikasi itu sendiri, PIN dua langkah, dan catatan yang biasanya dilewati panduan WhatsApp."
+    },
+    {
+      "type": "h2",
+      "id": "one-number-one-account",
+      "text": "Mengapa WhatsApp bersikeras satu nomor per akun"
+    },
+    {
+      "type": "p",
+      "text": "Tidak seperti layanan yang membiarkan Anda mendaftar dengan email, WhatsApp memakai nomor telepon sebagai kunci utama akun. Kontak menemukan Anda karena nomor Anda ada di buku alamat mereka; kunci enkripsi, cadangan obrolan, dan keanggotaan grup semuanya bergantung padanya. Daftarkan nomor yang sama di akun baru dan yang lama tergeser — itulah juga mengapa Anda tidak dapat “mengkloning” akun dan mengapa setiap akun kedua benar-benar membutuhkan nomor sendiri."
+    },
+    {
+      "type": "p",
+      "text": "Kabar baiknya, WhatsApp telah menerima bahwa orang secara sah membutuhkan lebih dari satu akun, dan kini menawarkan dua cara resmi menjalankannya di satu telepon."
+    },
+    {
+      "type": "h2",
+      "id": "official-ways-to-run-two-accounts",
+      "text": "Cara resmi menjalankan dua akun di satu telepon"
+    },
+    {
+      "type": "list",
+      "items": [
+        "WhatsApp Business — jalur aplikasi ganda resmi di iPhone dan Android. Ini aplikasi terpisah dari Meta yang terpasang di samping WhatsApp biasa, dirancang persis untuk pemisahan kerja/pribadi: obrolan dan panggilan yang sama, plus profil bisnis, katalog, dan balasan otomatis. Ia tetap membutuhkan nomor sendiri, dan ketentuannya mengharapkan pemakaian yang benar-benar bercita rasa bisnis.",
+        "Multiakun di Android — versi baru WhatsApp biasa di Android membiarkan Anda menambahkan akun kedua di dalam aplikasi yang sama dan beralih dari setelan, tanpa aplikasi kedua. Setiap akun tetap mensyaratkan nomor sendiri untuk verifikasi. iPhone tidak punya pengalih dalam aplikasi ini, itulah mengapa aplikasi Business adalah jalur iOS yang biasa.",
+        "Telepon kedua atau slot SIM ganda — disebut untuk kelengkapan: berfungsi, tetapi persis biaya perangkat keras yang artikel ini ada untuk dihindari."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Perhatikan kesamaan semua opsi: wadahnya terselesaikan, nomornya tidak. Jalur mana pun yang Anda pilih, pada suatu titik layar meminta nomor telepon yang belum tertaut ke akun utama Anda. Di situlah nomor virtual masuk."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-number-as-the-second-number",
+      "text": "Nomor virtual sebagai nomor kedua Anda"
+    },
+    {
+      "type": "p",
+      "text": "Nomor virtual adalah nomor seluler asli di jaringan operator nyata — Anda menyewanya untuk verifikasi, kode SMS muncul di aplikasi SMS Code biasanya dalam hitungan detik, dan WhatsApp kedua mendapat identitas sendiri. Tanpa kartu SIM, tanpa kontrak baru, tanpa jalur bulanan yang Anda lupa batalkan: Anda membayar per aktivasi dari paket koin sekali beli, dan jika kode tidak masuk, aktivasi dibatalkan gratis. Dengan nomor tersedia di 100+ negara, Anda bahkan dapat memberi akun kerja nomor lokal untuk pasar yang Anda layani."
+    },
+    {
+      "type": "h2",
+      "id": "verification-walkthrough",
+      "text": "Panduan verifikasi, langkah demi langkah"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Siapkan wadah lebih dulu",
+          "body": "Pasang WhatsApp Business (iPhone atau Android), atau di Android buka WhatsApp → Setelan → ketuk panah di samping nama Anda → “Tambah akun”. Capai layar yang meminta nomor telepon sebelum Anda menyewa satu — aktivasi punya jendela waktu, dan tidak ada gunanya menghabiskannya untuk penyiapan aplikasi."
+        },
+        {
+          "title": "Sewa nomor untuk WhatsApp",
+          "body": "Di aplikasi SMS Code, pilih WhatsApp sebagai layanan dan pilih negara. Satu ketukan mencadangkan nomor seluler asli hanya untuk Anda."
+        },
+        {
+          "title": "Masukkan nomor dan minta kode",
+          "body": "Ketik nomor ke WhatsApp dengan negara yang sesuai dipilih — kode negara yang tidak cocok adalah alasan paling umum kode tidak pernah masuk. Pilih pengiriman SMS saat ditanya."
+        },
+        {
+          "title": "Ambil kode dari SMS Code",
+          "body": "SMS verifikasi muncul di aplikasi SMS Code, biasanya dalam hitungan detik. Masukkan kode 6 digit di WhatsApp, atur nama profil, dan akun kedua aktif."
+        },
+        {
+          "title": "Atur PIN dua langkah segera",
+          "body": "Di akun baru: Setelan → Akun → Verifikasi dua langkah → aktifkan, pilih PIN, dan tambahkan email pemulihan. Lakukan ini sebelum yang lain — bagian di bawah menjelaskan mengapa ini lebih penting pada nomor sewaan."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    },
+    {
+      "type": "h2",
+      "id": "two-step-pin",
+      "text": "PIN dua langkah: setelan kecil, kerja berat"
+    },
+    {
+      "type": "p",
+      "text": "PIN verifikasi dua langkah WhatsApp ditanyakan setiap kali seseorang mencoba mendaftarkan nomor Anda di WhatsApp lagi. Pada nomor sewaan ini jaring pengaman Anda: bahkan jika nomor itu kemudian disewa orang lain untuk layanan berbeda, mereka tidak dapat mendaftarkan ulang akun WhatsApp Anda tanpa PIN. Dipadukan dengan sesi aktif di telepon Anda, itu menjaga akun dengan tegas milik Anda. Tambahkan email pemulihan juga — itu satu-satunya jalan kembali jika Anda lupa PIN."
+    },
+    {
+      "type": "h2",
+      "id": "honest-caveats",
+      "text": "Catatan yang jujur"
+    },
+    {
+      "type": "p",
+      "text": "Ini bagian yang dilewati kebanyakan panduan. WhatsApp terasa lebih ketat daripada Telegram soal pendaftaran baru, dan lebih baik mengetahui itu sejak awal."
+    },
+    {
+      "type": "callout",
+      "text": "WhatsApp secara aktif tidak menyukai nomor yang dicurigai sementara, dan akun baru yang segera berperilaku seperti bot spam dapat dibatasi dengan cepat. Beri akun baru pemanasan yang normal: isi nama dan foto profil, kirim pesan kepada beberapa orang yang mengenal Anda dan akan membalas, dan biarkan hidup tenang beberapa hari sebelum pemakaian yang lebih berat. Jangan mengirim pesan massal kepada orang asing atau bergabung ke puluhan grup di hari pertama — itu bukan tip jalan memutar, melainkan apa yang diharapkan ketentuan WhatsApp dari akun mana pun, dan nomor baru mendapat lebih sedikit manfaat keraguan."
+    },
+    {
+      "type": "p",
+      "text": "Dua hal lagi yang perlu diketahui. Pertama, verifikasi ulang: WhatsApp meminta kode baru saat Anda memasang ulang aplikasi atau pindah ke telepon baru, jadi anggap aplikasi yang terpasang dan masuk sebagai hal yang Anda jaga — jangan keluar atau menghapusnya sembarangan. Kedua, pilih wadah yang tepat untuk tugasnya: jika akun kedua benar-benar komersial, WhatsApp Business adalah alat resmi sekaligus kecocokan yang lebih aman bagi ketentuannya; jika hanya identitas pribadi kedua, multiakun Android menyelesaikan tugas."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Bisakah saya punya dua akun WhatsApp di satu telepon?",
+          "a": "Ya, secara resmi. Di Android, versi WhatsApp terbaru mendukung akun kedua di dalam aplikasi yang sama; di telepon mana pun Anda dapat menjalankan WhatsApp dan WhatsApp Business berdampingan. Setiap akun membutuhkan nomor telepon sendiri untuk verifikasi."
+        },
+        {
+          "q": "Apakah saya membutuhkan kartu SIM kedua untuk WhatsApp kedua?",
+          "a": "Tidak. WhatsApp membutuhkan nomor yang dapat menerima satu kode verifikasi — ia tidak peduli apakah nomor itu hidup di baki SIM Anda. Nomor virtual sewaan memverifikasi akun, dan kode tiba di aplikasi SMS Code biasanya dalam hitungan detik."
+        },
+        {
+          "q": "Apakah WhatsApp akan memblokir akun yang dibuat dengan nomor virtual?",
+          "a": "Nomor virtual adalah nomor seluler asli, dan memverifikasi dengannya bukan pelanggaran dengan sendirinya — WhatsApp memeriksa bahwa Anda menguasai nomor, bukan atas nama siapa. Yang membatasi akun adalah perilaku: pesan seperti spam, jangkauan massal ke orang asing, melanggar ketentuan WhatsApp. Pakai akun seperti orang normal dan panaskan dengan lembut."
+        },
+        {
+          "q": "Apa yang terjadi pada WhatsApp saya saat nomor virtual berakhir?",
+          "a": "Akun tetap berfungsi — nomor diperiksa saat pendaftaran, dan pemakaian sehari-hari bersandar pada aplikasi yang masuk. Catatan: memasang ulang atau berganti telepon memicu verifikasi ulang dengan kode baru. Biarkan aplikasi terpasang dan masuk, dan atur PIN dua langkah agar tidak ada orang lain yang dapat mendaftarkan ulang nomor."
+        },
+        {
+          "q": "Apakah saya sebaiknya memakai WhatsApp Business atau fitur multiakun?",
+          "a": "Jika akun kedua untuk bisnis yang nyata — klien, penjualan, dukungan — pakai WhatsApp Business: itu alat resmi, menambah fitur profil dan katalog, dan sesuai ketentuan pemakaiannya. Jika Anda hanya menginginkan akun pribadi kedua dan Anda di Android, pengalih multiakun dalam aplikasi adalah opsi yang lebih ringan. Di iPhone, Business adalah jalur aplikasi ganda yang praktis."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

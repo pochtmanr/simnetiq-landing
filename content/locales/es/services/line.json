@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para LINE",
+  "metaDescription": "Alquila un número virtual real para verificar LINE. Regístrate sin tu número personal: el código SMS llega a SMS Code normalmente en segundos.",
+  "hero": {
+    "title": "Número virtual para LINE",
+    "intro": [
+      "Si tus amigos, tu familia o tus colegas están en Japón, Taiwán, Tailandia o Indonesia, tarde o temprano alguien dirá «añádeme en LINE». La aplicación es el mensajero por defecto en buena parte de Asia, y no te deja entrar sin un teléfono, que verifica por SMS antes incluso de que puedas poner un nombre para mostrar.",
+      "SMS Code te da un número real de uno de 100+ países. Escríbelo en la pantalla de registro de LINE y el código de verificación de cuatro dígitos aparece en la aplicación SMS Code normalmente en segundos: tu propio número se queda del todo fuera."
+    ]
+  },
+  "whyVirtual": {
+    "title": "¿Para qué un número virtual en LINE?",
+    "body": [
+      "LINE trata el teléfono como tu identidad: es como te registras, cómo te pueden buscar los amigos y a qué recurre la cuenta. Si solo necesitas LINE para seguir en contacto con gente en Asia — o porque un juego o un servicio que usas cierra su acceso detrás de una cuenta de LINE —, entregar tu número personal es pedir mucho para lo que quizá sea una aplicación de uso ocasional. Un número virtual mantiene la cuenta del todo funcional mientras tu número real se queda en privado.",
+      "También resuelve un problema práctico: LINE ata una cuenta a un número, así que quien quiera un perfil aparte — por ejemplo, uno para una comunidad de afición o un juego asiático que exige entrar con LINE — necesita un segundo número. Alquilar uno para una sola activación es mucho más simple que mantener viva una SIM de reserva solo por un mensajero."
+    ]
+  },
+  "howTo": {
+    "title": "Cómo verificar LINE con un número virtual",
+    "steps": [
+      {
+        "title": "Alquila un número en SMS Code",
+        "body": "Abre la aplicación SMS Code, elige LINE como servicio y escoge un país: Indonesia y Filipinas son opciones habituales, porque LINE se usa mucho allí. Un toque reserva un número móvil real para ti."
+      },
+      {
+        "title": "Empieza el alta de LINE con ese número",
+        "body": "En LINE, elige «Registrarse», selecciona el mismo país que tu número alquilado y escríbelo. LINE ofrece verificar por SMS: acepta esa opción, no una llamada de voz."
+      },
+      {
+        "title": "Escribe el código de SMS Code",
+        "body": "El mensaje llega a la aplicación SMS Code, normalmente en segundos: «Your verification code is 4820. Enter it in LINE within the next 30 mins». Escribe los cuatro dígitos en LINE antes de que caduquen."
+      },
+      {
+        "title": "Configura un correo y una contraseña",
+        "body": "Cuando ya estás dentro, ve a Ajustes → Cuenta y registra un correo con una contraseña. Eso se convierte en tu acceso independiente para pasar LINE a un teléfono nuevo más adelante, y la cuenta no vuelve a depender de recibir otro SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "El código tiene un temporizador",
+      "body": "Los códigos SMS de LINE caducan: el propio mensaje dice en cuántos minutos. No alquiles el número y te vayas: ten abierta y lista la pantalla de registro de LINE antes de pedir el código, y escríbelo en cuanto caiga en SMS Code."
+    },
+    {
+      "title": "Registra un correo enseguida",
+      "body": "LINE ata el historial de chat y las transferencias de cuenta al correo y a la contraseña registrados, no solo al número. Añádelos justo después del alta en Ajustes → Cuenta: es el paso más importante para que la cuenta siga usable mucho después de que se cierre la ventana de activación del número alquilado."
+    },
+    {
+      "title": "Apaga «Permitir que otros me añadan por el número»",
+      "body": "En los ajustes de Amigos de LINE, desactiva la opción que deja que la gente te añada buscando el teléfono. Con un número virtual nadie va a encontrar tu identidad real de todas formas, pero apagarlo también frena a desconocidos que recorren números y acaban en tus solicitudes de amistad."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿LINE funciona fuera de Asia con un número virtual?",
+      "a": "Sí. LINE está disponible en todo el mundo; simplemente es más popular en Japón, Taiwán, Tailandia e Indonesia. Puedes registrarte con un número de cualquier país admitido y chatear con contactos en cualquier sitio: el país del número no limita con quién puedes hablar."
+    },
+    {
+      "q": "¿Puedo usar una cuenta de LINE creada así para entrar en juegos?",
+      "a": "Sí. Muchos juegos y servicios de Asia ofrecen «Iniciar sesión con LINE». Cuando tu cuenta de LINE está verificada y has registrado un correo y una contraseña, funciona como método de acceso igual que cualquier otra cuenta de LINE."
+    },
+    {
+      "q": "¿Mi cuenta de LINE sobrevive cuando caduca el número alquilado?",
+      "a": "El número se comprueba en el registro, no en cada apertura. Sigue con la sesión iniciada y — esto es clave — registra un correo y una contraseña en Ajustes → Cuenta. Con eso puesto, incluso puedes transferir la cuenta a un teléfono nuevo sin recibir otro SMS en el número viejo."
+    },
+    {
+      "q": "¿Por qué no me llegó el código de verificación de LINE?",
+      "a": "Casi siempre el país elegido en LINE no coincide con el número alquilado, o LINE pasó a la verificación por llamada de voz, que un número alquilado de SMS no puede contestar. Cancela la activación en SMS Code — no se cobra nada cuando no llega un SMS — y luego toma un número nuevo, asegurándote de que el método elegido sea SMS."
+    },
+    {
+      "q": "¿Puedo tener dos cuentas de LINE en un teléfono?",
+      "a": "La aplicación de LINE guarda una cuenta por dispositivo, así que una segunda cuenta necesita o un segundo dispositivo o las herramientas de negocio de LINE. Lo que resuelve un número virtual es el lado del número: cada cuenta tiene que ir atada a su propio número, y alquilar uno evita comprar una SIM extra."
+    }
+  ]
+}

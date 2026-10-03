@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtual Number for AliExpress — Shop Without Your Number",
+  "metaDescription": "Verify AliExpress with a real virtual number — the code arrives usually within seconds. Keep your personal phone away from sellers and marketplace databases.",
+  "hero": {
+    "title": "A virtual number for AliExpress",
+    "intro": [
+      "AliExpress asks for a phone number at sign-up in many regions and keeps texting after that: login checks, order confirmations, the occasional security prompt at checkout. The message is short — “AliExpress verification code: 902731” — but the number you give ends up woven into one of the world’s biggest marketplace ecosystems.",
+      "With SMS Code you rent a real mobile number in one of 100+ countries and the code appears in the app usually within seconds. You get the account verified; the marketplace, its sellers and its logistics partners get a number that isn’t the one in your pocket."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Why use a virtual number for AliExpress?",
+    "body": [
+      "A number attached to a marketplace travels further than most: sellers can message you about orders, logistics chains send status texts, and a profile’s contact details sit in more databases than anyone can count. If you’d rather your personal number didn’t circulate through that ecosystem — especially for a store you might order from twice a year — a virtual number is the clean cut: the account verifies normally, and the trail leads to a rented number.",
+      "A word to deal hunters, because AliExpress attracts them: welcome coupons and new-user prices are, by the platform’s own rules, one per customer. A virtual number is a privacy tool for your one account — it isn’t a coupon-multiplication scheme, and accounts registered in bulk for stacked discounts are exactly what AliExpress’s risk systems hunt. Orders from such accounts tend to get cancelled; keep it to one honest account and the number does its real job."
+    ]
+  },
+  "howTo": {
+    "title": "How to verify AliExpress with a virtual number",
+    "steps": [
+      {
+        "title": "Rent a number in SMS Code",
+        "body": "Pick AliExpress as the service and choose a country — take the one you actually shop and ship from, so the account’s details hang together."
+      },
+      {
+        "title": "Enter it at sign-up or binding",
+        "body": "AliExpress asks for the phone either at registration or the first time you order, when it prompts you to bind one. Select the country code and type the rented number."
+      },
+      {
+        "title": "Type in the code",
+        "body": "“AliExpress verification code: 902731” lands in the SMS Code app usually within seconds. Enter it and the number is confirmed."
+      },
+      {
+        "title": "Set the delivery contact separately",
+        "body": "The phone in your shipping address is what couriers and pickup points text — it doesn’t have to be the account’s verification number. Put a number you actually read into the address, and make sure email and password are set so the account never depends on SMS alone."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Account number ≠ shipping number",
+      "body": "Two different fields do two different jobs: the bound phone verifies the account, the address phone gets the “your parcel is at the locker” texts. Use the rented number for the first and a number you monitor for the second — otherwise delivery notifications go somewhere you’ve stopped looking."
+    },
+    {
+      "title": "One welcome deal per person — really",
+      "body": "New-user prices are tempting, and the temptation to re-register is obvious. Don’t. AliExpress’s rules make welcome offers one per customer, its systems cross-check accounts, and cancelled orders are the usual outcome. The virtual number is there to keep your phone private, not to reset your customer status."
+    },
+    {
+      "title": "Re-checks happen at checkout",
+      "body": "AliExpress sometimes re-verifies by SMS when you pay from a new device or change account details. If you shop there regularly, rebind the phone in profile settings to a number you control once the account is set up — do it while you’re logged in and it takes a minute."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does AliExpress require a phone number to register?",
+      "a": "It depends on the region and the flow: some sign-ups run on email, others ask for a phone immediately, and many prompt you to bind one at the first order. Whenever the phone screen appears, a virtual number receives the code just like a SIM."
+    },
+    {
+      "q": "Will couriers text the rented number about my parcels?",
+      "a": "Only if you put it into the shipping address. The address contact and the account’s bound phone are separate fields — set the address phone to one you actually answer, and delivery texts, locker codes and courier calls reach the right place."
+    },
+    {
+      "q": "Can I get the new-user coupons with a virtual number?",
+      "a": "On your first, genuine account — yes, the welcome offer applies to you like any new customer. What doesn’t work is registering account after account for repeat welcome prices: that’s against AliExpress’s rules, its checks are built for exactly that pattern, and such orders routinely get cancelled."
+    },
+    {
+      "q": "The number expired and AliExpress wants an SMS — what now?",
+      "a": "While you’re logged in you can rebind the phone in profile settings to a current number — do that early if you shop there often. If you’re already locked out, recovery goes through AliExpress support and takes patience; the lesson is to move the binding before it’s needed."
+    },
+    {
+      "q": "Which country should the number be from?",
+      "a": "Any of the 100+ works for receiving the code. Practically, pick the country you shop and ship from: consistent details mean fewer security re-checks, and the prices and sellers you see match the place your orders actually go."
+    }
+  ]
+}

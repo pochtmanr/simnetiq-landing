@@ -1,0 +1,152 @@
+{
+  "title": "Cara buat akun Google tanpa nomor telepon Anda",
+  "description": "Google tidak selalu menuntut nomor telepon — dan saat menuntut, tidak harus milik Anda. Alur yang melewatinya, jalur nomor virtual, dan jebakan pemulihan.",
+  "excerpt": "Kadang Google membiarkan Anda mendaftar tanpa telepon sama sekali; kadang permintaannya wajib. Inilah yang memutuskan, jalur yang benar-benar berfungsi, dan satu setelan pemulihan yang menjaga akun milik Anda setelahnya.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Akun Google adalah kunci separuh internet — Gmail, YouTube, Drive, Play Store, setiap tombol “Masuk dengan Google”. Persis itulah mengapa menyerahkan nomor telepon pribadi kepada Google terasa lebih berat daripada memberikannya ke suatu forum: nomor ini tertaut ke akun yang sudah mengetahui pencarian, riwayat lokasi, dan kotak masuk Anda."
+    },
+    {
+      "type": "p",
+      "text": "Inilah bagian yang salah dipahami kebanyakan panduan: Google tidak selalu mensyaratkan nomor telepon. Kadang pendaftaran meluncur hanya dengan nama dan tanggal lahir; kadang formulir yang sama menolak lanjut sampai kode dikirim ke suatu tempat. Yang Anda dapatkan bukan acak — dan begitu Anda tahu apa yang menggeser timbangan, Anda dapat memilih jalur yang cocok."
+    },
+    {
+      "type": "p",
+      "text": "Panduan ini mencakup kapan permintaan benar-benar muncul, cara mendaftar yang benar-benar berfungsi tanpa nomor Anda, dan — karena lebih penting di sini daripada di tempat lain — cara menyiapkan pemulihan agar akun tidak pernah bergantung pada nomor yang tidak Anda simpan."
+    },
+    {
+      "type": "h2",
+      "id": "when-google-actually-asks",
+      "text": "Kapan Google benar-benar menuntut nomor"
+    },
+    {
+      "type": "p",
+      "text": "Google memutuskan per pendaftaran apakah verifikasi telepon diperlukan, berdasarkan seberapa berisiko percobaan itu terlihat. Anda kemungkinan menghadapi permintaan wajib saat beberapa hal ini berbaris:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pendaftaran datang dari peramban desktop — terutama profil baru, jendela privat, atau pintu keluar VPN yang belum pernah dilihat sistem Google.",
+        "Beberapa akun baru-baru ini dibuat dari perangkat, jaringan, atau sidik peramban yang sama. Penghitungnya tidak terlihat, tetapi ada — akun kedua dan ketiga menghadapi permintaan jauh lebih sering daripada yang pertama.",
+        "Apa pun pada percobaan terlihat otomatis: irama ketikan yang tidak biasa, rentang IP yang ditandai, alamat pusat data."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Balikkan itu dan Anda mendapat alur yang lebih ramah: pendaftaran dari telepon nyata, di koneksi residensial, dengan tempo yang tidak terburu-buru adalah yang kolom teleponnya ditandai opsional — atau tidak ada sama sekali. Itu nuansa yang jujur: Anda tidak dapat memaksa Google melewati permintaan, tetapi Anda dapat memilih alur di mana melewati paling mungkin."
+    },
+    {
+      "type": "h2",
+      "id": "why-keep-your-number-out",
+      "text": "Mengapa menjaga nomor Anda di luarnya"
+    },
+    {
+      "type": "p",
+      "text": "Di luar prinsip umum — satu basis data lebih sedikit yang memegang pengenal permanen Anda — Google secara khusus memakai telepon terverifikasi untuk penautan lintas akun: nomor menghubungkan akun “terpisah” Anda satu sama lain, menautkan pendaftaran ke profil iklan Anda, dan membuat akun anonim atau yang dipisahkan untuk kerja sama sekali tidak begitu. Nomor juga kanal penemuan: orang yang menyimpannya di kontak dapat ditunjukkan profil Anda. Jika seluruh tujuan akun kedua adalah pemisahan, menghubungkannya ke SIM yang sama menggagalkannya di hari pertama."
+    },
+    {
+      "type": "h2",
+      "id": "routes-that-work",
+      "text": "Jalur yang benar-benar berfungsi"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Lewati saat opsional. Jika kolom telepon menampilkan opsi “Lewati” — ambil. Tambahkan email pemulihan di layar berikutnya dan akun lengkap. Ini jalur tanpa biaya dan berfungsi lebih sering daripada yang diharapkan orang, terutama pada alur di atas.",
+        "Daftar melalui perangkat Android. Menambahkan akun lewat Setelan → Akun di telepon atau tablet Android adalah alur di mana Google paling sering tidak meminta nomor sama sekali — perangkat itu sendiri yang menanggung pendaftaran. Jika Anda punya perangkat Android di sekitar, ini layak dicoba lebih dulu.",
+        "Pakai nomor virtual saat permintaan wajib. Saat Google menolak lanjut tanpa kode, nomor apa pun yang dapat menerima satu SMS akan cukup — termasuk nomor virtual sewaan yang tidak pernah menaut kembali kepada Anda. Langkah di bawah mencakupnya."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-a-virtual-number",
+      "text": "Verifikasi dengan nomor virtual, langkah demi langkah"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Sewa nomor untuk Google",
+          "body": "Di aplikasi SMS Code, pilih Google sebagai layanan dan pilih negara. Satu ketukan mencadangkan nomor seluler asli hanya untuk Anda — Anda membayarnya dalam koin dari paket sekali beli, tanpa langganan."
+        },
+        {
+          "title": "Masukkan di layar verifikasi",
+          "body": "Kembali ke pendaftaran Google, pilih negara yang cocok dengan nomor sewaan dan ketik. Google ketat soal format, jadi biarkan pemilih negara bekerja daripada mengetik awalan dengan tangan."
+        },
+        {
+          "title": "Salin kodenya",
+          "body": "SMS — “G-482916 is your Google verification code” — muncul di SMS Code biasanya dalam hitungan detik. Masukkan dan pendaftaran berlanjut."
+        },
+        {
+          "title": "Lepaskan nomor segera",
+          "body": "Setelah masuk, buka myaccount.google.com → Keamanan, tambahkan email pemulihan yang Anda kendalikan, lalu hapus nomor telepon dari bagian “Telepon pemulihan” dan “Telepon”. Akun kini berdiri di kata sandi dan email Anda saja."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    },
+    {
+      "type": "h2",
+      "id": "the-recovery-trap",
+      "text": "Jebakan pemulihan — baca ini sebelum menutup tab"
+    },
+    {
+      "type": "p",
+      "text": "Dengan Google, setelan pemulihan bukan renungan; itu perbedaan antara akun yang Anda miliki dan akun yang Anda pinjam. Google bersandar pada telepon terverifikasi untuk pemeriksaan login yang mencurigakan: bepergian ke tempat baru, bersihkan cookie, atau sekadar kurang beruntung, dan layar masuk dapat menuntut kode lagi — dikirim ke nomor apa pun yang ada di berkas."
+    },
+    {
+      "type": "callout",
+      "text": "Begitu pendaftaran selesai, lakukan dua hal: tambahkan email pemulihan yang Anda kendalikan, dan hapus nomor sewaan dari setelan telepon akun. Jika nomor tetap di berkas setelah sewa berakhir, pemeriksaan verifikasi di masa depan dapat mengunci Anda dari akun sendiri — itu satu risiko nyata dalam seluruh proses ini, dan sepenuhnya dapat dihindari."
+    },
+    {
+      "type": "h2",
+      "id": "honest-limits",
+      "text": "Batas yang jujur"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Google dapat meminta verifikasi lagi nanti. Perangkat baru, lokasi aneh, atau peramban yang dibersihkan dapat memicu pemeriksaan lain. Dengan email pemulihan terpasang dan nomor lama dihapus, Anda akan memverifikasi lewat email — tetapi antisipasi tantangan sesekali; begitulah cara Google bekerja untuk setiap akun.",
+        "Satu nomor memverifikasi jumlah akun yang terbatas. Google melacak berapa banyak akun yang dikonfirmasi setiap nomor dan mulai menolak setelah beberapa. Nomor sewaan yang Anda pakai sekali tidak menabrak dinding itu — tetapi nomor yang sama didaur ulang di banyak pendaftaran akan.",
+        "Ini bukan alat pendaftaran massal. Satu akun privat untuk pemisahan atau privasi adalah pemakaian normal. Ladang akun melanggar ketentuan Google, tertangkap sistem risiko yang sama yang dijelaskan di atas, dan biasanya berakhir dengan gelombang penangguhan."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Bisakah saya benar-benar membuat akun Google tanpa nomor telepon sama sekali?",
+          "a": "Kadang, ya. Saat kolom telepon ditandai opsional — paling sering pada alur tambah akun Android atau pendaftaran berisiko rendah — Anda dapat melewatinya sepenuhnya dan memakai email pemulihan sebagai gantinya. Saat Google memutuskan verifikasi wajib untuk percobaan Anda, suatu nomor harus menerima satu kode; hanya tidak harus milik Anda."
+        },
+        {
+          "q": "Apakah Gmail dan YouTube berfungsi normal setelahnya?",
+          "a": "Ya. Akun yang diverifikasi dengan nomor virtual adalah akun Google penuh — Gmail, YouTube, Drive, dan Play semuanya berperilaku sama. Satu-satunya peran nomor adalah kode sekali pada pendaftaran."
+        },
+        {
+          "q": "Apa yang terjadi saat nomor sewaan berakhir?",
+          "a": "Tidak ada — asalkan Anda menghapusnya dari akun dan mengatur email pemulihan. Akun berjalan di kata sandi dan email Anda. Jika Anda membiarkan nomor mati sebagai telepon pemulihan, pemeriksaan keamanan di masa depan dapat mengirim kode ke sana, itulah mengapa melepaskannya segera penting."
+        },
+        {
+          "q": "Mengapa Google mengatakan nomor saya “tidak dapat digunakan untuk verifikasi”?",
+          "a": "Google menolak rentang yang pernah disalahgunakan — sebagian besar nomor publik gratis dan sebagian rentang virtual. Jika nomor sewaan ditolak, batalkan aktivasi gratis di SMS Code dan ambil yang berbeda, idealnya dari negara lain; nomor berikutnya biasanya lolos."
+        },
+        {
+          "q": "Apakah mendaftar dengan cara ini melanggar ketentuan Google?",
+          "a": "Ketentuan Google mensyaratkan informasi pemulihan yang akurat dan melarang penyalahgunaan — mereka tidak mensyaratkan telepon pendaftaran terdaftar atas nama Anda. Akun pribadi yang dibuat dengan nomor sewaan lalu diamankan dengan benar memakai email pemulihan Anda sendiri adalah pemakaian normal; pembuatan akun massal bukan."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    }
+  ]
+}

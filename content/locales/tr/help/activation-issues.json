@@ -1,0 +1,35 @@
+{
+  "title": "Etkinleştirme: gelmeyen veya reddedilen SMS",
+  "metaDescription": "SMS gelmiyor veya kod reddediliyor mu? Servisi ve numarayı kontrol edin, iki dakikalık iptali kullanın ve SMS Code desteğe ne göndereceğinizi bilin.",
+  "sections": [
+    {
+      "title": "Servisi ve numarayı kontrol edin",
+      "paragraphs": [
+        "Doğrulamak istediğiniz servisi tam olarak seçin. Atanan numarayı ülke koduyla girin ve yinelenen ön ek olup olmadığına bakın. O serviste SMS doğrulaması isteyin; sesli arama veya başka bir cihaza giden kod buradan alınamaz.",
+        "Etkinleştirmeyi açık tutun ve durumunu uygulamada kontrol edin. Bildirimler yardımcı olabilir ama koda bakılacak yer etkinleştirme ekranıdır. Tekrar tekrar yeniden gönderme istemeyin: hedef servis kendi bekleme süresini koyabilir."
+      ]
+    },
+    {
+      "title": "İki dakikalık iptal ve etkinleştirme penceresi",
+      "paragraphs": [
+        "SMS gelmediyse numarayı atandıktan iki dakika sonra iptal edebilirsiniz. Sayaç atamada başlar, uygulamayı açtığınızda veya jeton aldığınızda değil. Uygulamada görünen iptal geri sayımını kullanın.",
+        "İptal, etkinleştirmenin jetonlarını uygulama içi bakiyenize döndürür. Başka bir numara denemek de yeni etkinleştirmeyi almadan önce eski etkinleştirmenin jetonlarını döndürür; yeni fiyata bakın. Bunlar jeton iadesidir, ödeme iadesi değil.",
+        "Güncel etkinleştirme penceresi atamadan sonra 15 dakikadır. Uygulamanızdaki geri sayımı izleyin. Pencere SMS olmadan biterse etkinleştirme kapanır ve jetonları döner. İade beklemede kalırsa veya bakiye yanlışsa, üst üste numara almak yerine desteğe yazın.",
+        "SMS alındıktan sonra iptal kullanılamaz; hedef servis kodu reddetse bile. İptal sırasında gelen bir SMS uygunluğu değiştirebilir."
+      ]
+    },
+    {
+      "title": "Reddedilen kod veya daha önce kullanılmış numara",
+      "paragraphs": [
+        "Doğru hesap ve servis için en son kodu, fazladan boşluk olmadan kullanın. Kodun geçerliliğini, numaranın kabulünü ve hesap kısıtlarını hedef servis belirler. Teslim edilmiş bir SMS, kaydın başarılı olacağını garanti etmez.",
+        "Numara zaten kayıtlıysa başkasının hesabına girmeyin. Kod reddedilirse ücretli denemeleri tekrarlamayı bırakın ve inceleme için desteğe yazın. SMS geldikten sonra otomatik jeton iadesi yoktur; bu, geçerli tüketici haklarınızı sınırlamaz."
+      ]
+    },
+    {
+      "title": "Desteğe ne göndermeli",
+      "paragraphs": [
+        "Etkinleştirme kimliğini, seçilen servisi ve ülkeyi, yaklaşık saati ve saat dilimini, durumu ve tam hata mesajını ekleyin. Hatanın ekran görüntüsü yardımcı olur. Parola, doğrulama kodu veya kartın tamamını göndermeyin."
+      ]
+    }
+  ]
+}

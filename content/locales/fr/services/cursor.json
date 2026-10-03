@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour Cursor",
+  "metaDescription": "Vérifiez votre inscription Cursor avec un vrai numéro virtuel. Le code SMS arrive généralement en quelques secondes, hors de vos comptes d’outils de dev.",
+  "hero": {
+    "title": "Numéro virtuel pour Cursor",
+    "intro": [
+      "Cursor — l’éditeur de code assisté par IA — est sur le même tapis roulant que chaque outil de dev qui donne du calcul\u00a0: les offres gratuites attirent l’abus, donc les inscriptions sont filtrées. À côté de la confirmation par e-mail, Cursor peut demander de vérifier un numéro de téléphone par SMS avant qu’un compte ou un essai soit actif, précisément parce qu’un mobile qui fonctionne est plus difficile à produire en masse qu’une boîte mail.",
+      "SMS Code vous loue un vrai numéro dans l’un de plus de 100 pays. Quand l’inscription de Cursor demande un téléphone, saisissez le numéro loué — le code à six chiffres apparaît dans l’app SMS Code généralement en quelques secondes, et votre numéro personnel reste hors d’une base SaaS de plus."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour Cursor\u00a0?",
+    "body": [
+      "Les développeurs accumulent les comptes comme les établis accumulent les tournevis — éditeurs, clouds, API, services de CI — et chacun veut de plus en plus un numéro de téléphone. Relier votre numéro personnel à tous signifie que chaque fuite de fournisseur, liste marketing et graphe de liaison de comptes l’inclut. Garder un numéro loué entre vos identités d’outils de dev et votre vrai numéro est le même instinct qu’utiliser un e-mail de travail\u00a0: la séparation par défaut, votre vrai numéro réservé aux personnes, pas aux plateformes.",
+      "Il y a aussi un usage technique tout à fait légitime. Si vous construisez ou testez un parcours d’inscription — celui de votre propre produit, ou pour évaluer comment l’accueil de Cursor se comporte pour un utilisateur propre — il vous faut un vrai numéro qui reçoit vraiment des SMS, pas votre propre numéro brûlé sur un compte de test. Une activation louée vous donne exactement cela\u00a0: un vrai numéro récepteur, utilisé une fois, sans tiroir de SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier Cursor avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Louez un numéro dans SMS Code",
+        "body": "Ouvrez l’app SMS Code, choisissez Cursor comme service et un pays — les États-Unis, l’Allemagne ou les Pays-Bas sont des choix typiques pour les outils de dev. Le numéro vous est réservé instantanément."
+      },
+      {
+        "title": "Inscrivez-vous et saisissez le numéro",
+        "body": "Créez votre compte Cursor avec un e-mail que vous contrôlez. Quand le parcours demande de vérifier un numéro de téléphone, tapez le numéro loué avec son indicatif pays correspondant."
+      },
+      {
+        "title": "Saisissez le code depuis SMS Code",
+        "body": "Le SMS arrive dans l’app SMS Code généralement en quelques secondes — «\u00a0Your Cursor verification code is 812750\u00a0». Collez les six chiffres dans le champ de vérification de Cursor et vous êtes passé."
+      },
+      {
+        "title": "Sécurisez le compte lui-même",
+        "body": "Terminez par les bases\u00a0: un mot de passe fort et unique et un e-mail confirmé. La connexion quotidienne de Cursor repose là-dessus, pas sur le SMS — le contrôle téléphone était une porte unique, pas une porte récurrente."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Ayez l’inscription ouverte avant de louer",
+      "body": "Les codes de vérification sont de courte durée et la fenêtre d’activation est finie. Mettez d’abord l’écran de vérification téléphone de Cursor devant vous, puis louez le numéro et demandez le code — le SMS arrive généralement en quelques secondes quand vous êtes prêt."
+    },
+    {
+      "title": "L’e-mail est le compte\u00a0; le téléphone est la porte",
+      "body": "Cursor vous identifie par votre connexion e-mail, et les questions de licence ou d’abonnement passent par là. Utilisez une boîte que vous garderez, et le compte survit à la fenêtre d’activation du numéro loué sans accroc."
+    },
+    {
+      "title": "Un compte, dans les règles",
+      "body": "Les portes téléphone existent parce que les offres gratuites sont cultivées. Utilisez un numéro virtuel pour garder votre numéro personnel privé sur votre vrai compte — pas pour empiler des comptes d’essai, ce qui viole les conditions de Cursor et tend à finir en comptes bannis."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Cursor demande-t-il toujours un numéro de téléphone\u00a0?",
+      "a": "Pas nécessairement — comme beaucoup d’outils de dev, Cursor applique la vérification téléphone de façon sélective, souvent selon les signaux d’inscription et la pression d’abus. Si et quand l’invite apparaît, un numéro virtuel loué la satisfait généralement en quelques secondes."
+    },
+    {
+      "q": "Mon compte Cursor continuera-t-il après l’expiration du numéro\u00a0?",
+      "a": "Oui. Le contrôle SMS a lieu à l’inscription\u00a0; ensuite vous vous connectez par e-mail et mot de passe. La fin de la fenêtre d’activation du numéro loué ne change rien à un compte que vous utilisez déjà."
+    },
+    {
+      "q": "Puis-je utiliser un numéro virtuel pour tester le parcours SMS de mon propre produit\u00a0?",
+      "a": "Oui — c’est un schéma de développement vraiment utile. Un numéro loué est un vrai numéro récepteur sur un vrai opérateur, donc vous pouvez parcourir un flux OTP de bout en bout comme un utilisateur neuf, sans brûler votre numéro personnel sur un compte de test."
+    },
+    {
+      "q": "Pourquoi mon code de vérification Cursor n’est-il pas arrivé\u00a0?",
+      "a": "Le plus souvent un décalage d’indicatif pays, ou le service a refusé cette tranche de numéros. Annulez l’activation dans SMS Code — pas de SMS signifie que les pièces reviennent sur votre solde — et réessayez avec un autre numéro ou un autre pays."
+    },
+    {
+      "q": "Est-il permis de vérifier Cursor avec un numéro virtuel\u00a0?",
+      "a": "Le contrôle confirme que vous contrôlez un vrai numéro, et un numéro loué est exactement cela. Ce qui compte, c’est ce que vous faites ensuite\u00a0: un vrai compte utilisé dans les conditions de Cursor est tout à fait normal\u00a0; cultiver plusieurs essais gratuits ne l’est pas, numéro virtuel ou non."
+    }
+  ]
+}

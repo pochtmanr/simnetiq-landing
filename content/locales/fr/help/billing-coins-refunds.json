@@ -1,0 +1,44 @@
+{
+  "title": "Facturation, pièces et remboursements Apple",
+  "metaDescription": "Comment fonctionnent les packs de pièces SMS Code, que faire en cas de pièces manquantes ou de débit inconnu, et comment demander un remboursement à Apple.",
+  "sections": [
+    {
+      "title": "Comment fonctionnent les pièces",
+      "paragraphs": [
+        "Les packs de pièces sont des achats uniques dans l’App Store, pas des abonnements. Il n’y a pas de renouvellement automatique. Les pièces n’expirent pas, ne peuvent pas être transférées et ne constituent pas un portefeuille d’argent. Le prix d’une activation dépend du service et du pays, et il est affiché avant la confirmation.",
+        "Une annulation éligible, un remplacement de numéro, une expiration sans SMS ou un échec d’attribution du numéro renvoie les pièces de l’activation. Une fois un SMS arrivé, l’annulation ne renvoie pas automatiquement les pièces. Signalez un défaut de livraison ou de facturation à l’assistance pour examen."
+      ]
+    },
+    {
+      "title": "Pièces manquantes ou débit inconnu",
+      "paragraphs": [
+        "Vérifiez que vous êtes connecté au même compte SMS Code que celui utilisé pour l’achat. Laissez un paiement Apple en attente se terminer et rouvrez l’app. N’achetez pas un autre pack seulement pour corriger un solde manquant.",
+        "Envoyez à l’assistance l’identifiant de commande ou le reçu Apple, le pack, la date d’achat et l’identifiant de votre compte dans l’app s’il est disponible. Masquez les achats sans rapport et les données de paiement. Pour un débit que vous ne reconnaissez pas, consultez l’historique d’achats Apple et les achats en partage familial, puis contactez Apple."
+      ]
+    },
+    {
+      "title": "Pièces non utilisées et remboursements de paiement",
+      "paragraphs": [
+        "Renvoyer des pièces dans l’app n’annule pas un paiement Apple. Pour récupérer de l’argent sur un achat de pièces facturé par Apple, demandez un remboursement à Apple pour cet achat et expliquez avec exactitude si les pièces sont inutilisées, en partie utilisées, manquantes ou défectueuses. Un solde inutilisé ne vous donne pas automatiquement droit à un remboursement ni à un retrait partiel en espèces.",
+        "Apple apprécie l’éligibilité au remboursement selon ses conditions régionales et le droit applicable. Nous ne pouvons pas promettre une approbation ni émettre nous-mêmes un remboursement via le système de paiement d’Apple. Contactez-nous au sujet d’un défaut du service ou de pièces inutilisées si vous avez besoin des enregistrements d’achat ou de solde. Vos droits impératifs de consommateur restent intacts.",
+        "Si Apple approuve un remboursement, le crédit de pièces correspondant peut être retiré de votre solde. Ne continuez pas à dépenser les pièces d’un achat dont vous demandez le remboursement. Supprimer votre compte ou désinstaller l’app n’envoie pas de demande de remboursement."
+      ]
+    },
+    {
+      "title": "Demander un remboursement à Apple",
+      "paragraphs": [
+        "1. Ouvrez reportaproblem.apple.com et connectez-vous avec le compte Apple qui a payé le pack.",
+        "2. Dans le menu de la demande, sélectionnez l’option de remboursement, puis choisissez le motif qui décrit ce qui s’est passé.",
+        "3. Continuez, sélectionnez l’achat de pièces SMS Code et envoyez la demande.",
+        "4. Apple fournit en général une mise à jour sous 24 à 48 heures. Consultez le statut de la demande sur le même site. Il s’agit d’un délai de mise à jour\u00a0: la demande peut encore être en attente, et le retour de l’argent prend un temps supplémentaire."
+      ]
+    },
+    {
+      "title": "Si l’achat est introuvable ou si le remboursement tarde",
+      "paragraphs": [
+        "Les débits en attente ne peuvent pas faire l’objet d’une demande tant qu’Apple n’a pas émis de reçu\u00a0; les commandes impayées doivent d’abord être réglées. Vérifiez le compte Apple indiqué sur votre reçu. Si l’achat n’est pas disponible ou si vous ne pouvez pas envoyer de demande, contactez l’assistance Apple.",
+        "Après approbation, Apple indique que les retours en crédit de magasin peuvent prendre jusqu’à 48 heures, les retours par carte et par la plupart des autres moyens de paiement jusqu’à 30 jours, et la facturation mobile jusqu’à 60 jours. SIMNETIQ ne peut pas accélérer le traitement par Apple ou par la banque."
+      ]
+    }
+  ]
+}

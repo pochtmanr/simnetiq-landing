@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk KakaoTalk — tanpa telepon sendiri",
+  "metaDescription": "Terima kode KakaoTalk di nomor virtual asli biasanya dalam hitungan detik. Pakai pesan instan utama Korea tanpa menyerahkan telepon pribadi Anda.",
+  "hero": {
+    "title": "Nomor virtual untuk KakaoTalk",
+    "intro": [
+      "KakaoTalk adalah cara Korea berbicara — obrolan grup, utas keluarga, kontak bisnis — dan seperti setiap pesan instan serius, ia membuka dengan layar telepon. Pendaftaran mengirim kode singkat seperti “[KakaoTalk] 4829 is your verification code”, dan tidak ada jalur hanya email untuk memutarinya.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara dan kodenya muncul di aplikasi biasanya dalam hitungan detik. Anda masuk ke percakapan — dan teman, rekan, atau mertua Korea yang menunggu di sana tidak pernah membutuhkan nomor pribadi Anda untuk menghubungi Anda."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk KakaoTalk?",
+    "body": [
+      "Pesan instan yang dibangun di atas nomor telepon berbagi bawaan yang sunyi: siapa pun yang menyimpan nomor Anda dapat menemukan profil, dan siapa pun yang Anda ajak obrolan tinggal satu setelan dari nomor itu. Bergabung ke KakaoTalk untuk satu pertukaran bahasa, satu kontak bisnis, atau satu perjalanan ke Seoul tidak seharusnya berarti nomor seumur hidup Anda masuk ke graf sosial lain. Nomor sewaan mengambil verifikasi, dan nomor asli Anda tetap di luar persamaan.",
+      "Sisi jujurnya: nomor non-Korea memberi Anda akun chat penuh, tetapi bukan seluruh Kakao. Sudut ekosistem yang terkunci Korea — Kakao Pay, layanan sertifikat, fitur yang tertaut ke pemeriksaan identitas operator Korea — mengharapkan kontrak telepon Korea dan sering KTP penduduk, dan tidak ada nomor sewaan yang menggantikannya. Jika tujuan Anda mengobrol, nomor virtual menyelesaikan tugas sepenuhnya; jika tujuan Anda layanan keuangan Korea, ia tidak pernah akan cukup."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi KakaoTalk dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Pilih KakaoTalk sebagai layanan dan pilih negara. Nomor dari tempat Anda benar-benar tinggal menjaga akun tidak mencolok. Satu ketukan mencadangkan nomor seluler asli untuk Anda."
+      },
+      {
+        "title": "Masukkan di layar pendaftaran",
+        "body": "KakaoTalk meminta nomor segera setelah pemasangan. Pilih kode negara yang sesuai, ketik nomornya, dan biarkan aplikasi mengirim SMS."
+      },
+      {
+        "title": "Ketik kodenya",
+        "body": "Teks tiba sebagai “[KakaoTalk] 4829 is your verification code” dan muncul di SMS Code biasanya dalam hitungan detik. Masukkan — jika SMS mandek, KakaoTalk juga dapat membacakan kode lewat panggilan suara setelah menunggu."
+      },
+      {
+        "title": "Siapkan akun untuk jangka panjang",
+        "body": "Daftarkan email dan kata sandi akun Kakao di setelan dan catat di tempat yang aman. Migrasi perangkat dan pemasangan ulang bersandar pada akun Kakao itu — itulah yang menjaga obrolan tetap milik Anda setelah nomor sewaan hilang."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Obrolan hidup di perangkat, cadangan hidup di akun",
+      "body": "KakaoTalk menyimpan riwayat secara lokal dan memulihkannya lewat cadangan yang tertaut ke akun Kakao Anda. Atur email dan kata sandi akun segera dan buat cadangan sebelum berganti telepon — nomor telepon saja tidak akan membawa riwayat Anda ke mana pun."
+    },
+    {
+      "title": "Perhatikan setelan penemuan",
+      "body": "KakaoTalk dapat mencocokkan Anda dengan siapa pun yang menyimpan nomor Anda, termasuk kehidupan lampau nomor daur ulang. Matikan penambahan teman otomatis lewat nomor telepon di setelan dan bagikan ID KakaoTalk sebagai gantinya — itu pegangan yang lebih bersih untuk dijalani."
+    },
+    {
+      "title": "Fitur khusus Korea terkunci identitas, bukan nomor",
+      "body": "Kakao Pay, sertifikat, dan layanan serupa memverifikasi terhadap operator Korea dan registrasi penduduk, bukan hanya awalan +82. Nomor Korea sewaan tidak membukanya — rencanakan di sekitar fitur chat, yang berfungsi penuh di nomor terverifikasi mana pun."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah saya mendaftar KakaoTalk dengan nomor non-Korea?",
+      "a": "Ya. KakaoTalk mendaftarkan akun pada nomor dari sebagian besar negara — pendaftaran, obrolan, grup, dan panggilan semuanya berfungsi. Layanan khusus Korea yang berlapis di atasnya punya pemeriksaan identitas sendiri yang tidak dipenuhi nomor telepon saja."
+    },
+    {
+      "q": "Apakah akun KakaoTalk saya bertahan setelah nomor sewaan berakhir?",
+      "a": "Ya, selama Anda tetap masuk dan mengatur email serta kata sandi akun Kakao. Verifikasi ulang muncul terutama saat Anda pindah ke perangkat baru — lakukan pindahan selagi Anda masih dapat menerima konfirmasi, atau bersandar pada kredensial akun Kakao."
+    },
+    {
+      "q": "Mengapa KakaoTalk mengatakan nomor tidak dapat dipakai?",
+      "a": "Sebagian rentang dan nomor yang pernah terdaftar ditolak. Batalkan aktivasi di SMS Code tanpa biaya, ambil nomor baru — negara lain jika polanya berulang — dan jalankan verifikasi lagi."
+    },
+    {
+      "q": "Bisakah teman melihat nomor mana yang saya pakai?",
+      "a": "Kontak yang sudah menyimpan nomor dapat mencocokkannya ke profil Anda jika pertemanan otomatis aktif. Nonaktifkan penambahan teman lewat nomor, pakai ID KakaoTalk untuk perkenalan, dan nomor tetap detail login, bukan pegangan publik."
+    },
+    {
+      "q": "Apakah nomor virtual berfungsi untuk Kakao Pay atau layanan verifikasi Korea?",
+      "a": "Tidak. Itu memeriksa kontrak operator Korea dan identitas penduduk, yang tidak dibawa nomor sewaan. Nomor virtual untuk pesan instan itu sendiri — akun, obrolan, dan panggilan — bukan untuk lapisan keuangan Korea yang terkunci identitas."
+    }
+  ]
+}

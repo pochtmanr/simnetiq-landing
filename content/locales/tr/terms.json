@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Kullanım Koşulları",
+    "description": "SMS Code uygulaması ve simnetiq.xyz kullanım koşulları: jetonlar, satın almalar, cayma hakkı, kabul edilebilir kullanım ve sorumluluk."
+  },
+  "prevailingNotice": "Bu çeviri kolaylık için sunulmuştur. İngilizce sürümle farklılık varsa İngilizce sürüm geçerlidir.",
+  "label": "Hukuki",
+  "title": "Kullanım Koşulları",
+  "updatedLabel": "Son güncelleme:",
+  "sections": [
+    {
+      "title": "1. Sözleşme",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu Kullanım Koşulları (“Koşullar”), sizinle İngiltere ve Galler’de kayıtlı SIMNETIQ LTD (“biz”) arasındaki bir sözleşmedir ve SMS Code mobil uygulamasını (“Uygulama”) ile simnetiq.xyz sitesini (“Site”) kullanımınızı düzenler. Uygulamayı yükleyerek veya kullanarak bu Koşulları kabul edersiniz. Kabul etmiyorsanız Uygulamayı kullanmayın."
+        },
+        {
+          "type": "p",
+          "text": "Şirket numarası: {companyNumber}. Kayıtlı ofis: {registeredOffice}. İletişim: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Hizmet",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Uygulama, desteklenen çevrimiçi servislerden SMS doğrulama kodu almak için geçici sanal telefon numaraları sağlar. Numaralar üçüncü taraf telefon sağlayıcılarından temin edilir; belirli bir servisin, ülkenin veya numaranın uygunluğu garanti edilmez ve haber verilmeksizin değişebilir."
+        }
+      ]
+    },
+    {
+      "title": "3. Uygunluk",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "En az 18 yaşında olmalı ve bu sözleşmeyi yasal olarak kurabilecek durumda olmalısınız. Uygulamayı yalnızca size uygulanan hukukun izin verdiği biçimlerde kullanabilirsiniz."
+        }
+      ]
+    },
+    {
+      "title": "4. Jetonlar ve satın almalar",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Jetonlar, Apple App Store tarafından kendi ödeme koşulları kapsamında işlenen tek seferlik uygulama içi satın almalardır. Abonelik yoktur ve hiçbir şey otomatik yenilenmez.",
+            "Jetonlar etkinleştirme başına harcanır. Tutar servise ve ülkeye bağlıdır, esas olarak servis belirler ve onaylamadan önce size gösterilir.",
+            "Jetonlar sona ermez, devredilemez ve nakit değeri yoktur."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Jetonlar size ne zaman geri gelir.** Jetonlar dört durumda bakiyenize otomatik döner:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "doğrulama kodu alınmadan önce, numara atamasından en az iki dakika sonra bir etkinleştirmeyi iptal ederseniz;",
+            "kod alınmadan önce, atamadan en az iki dakika sonra başka bir numaraya geçerseniz;",
+            "etkinleştirme penceresi kod gelmeden biterse; veya",
+            "sağlayıcımız etkinleştirme için kullanılabilir bir numara temin edemezse."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Jeton iadesi, para iadesi değildir.** Yukarıdaki her durumda size dönen şey jetonlardır; uygulama içi bakiyenize yeniden yazılır. Karşılığında para iade etmeyiz ve jetonların nakit değeri yoktur. Bir satın alma için paranızın geri gelmesini istiyorsanız bu Apple’ın konusudur: satın alma bedelinin iadesi App Store iade politikası kapsamında Apple’dan istenir ve Apple karar verir; bir iade çıkarma, onaylama veya reddetme yetkimiz yoktur. 5. bölüm, ayrı yasal cayma hakkınızı düzenler."
+        }
+      ]
+    },
+    {
+      "title": "5. Cayma hakkınız (Birleşik Krallık ve AB’deki tüketiciler)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Birleşik Krallık veya Avrupa Birliği’nde tüketiciyseniz, dijital içerik sözleşmesinin kurulduğu günden itibaren normalde 14 gün içinde, gerekçe göstermeden cayma ve iade alma hakkınız vardır. Bu hak Birleşik Krallık’ta Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013’ten, AB’de ise Consumer Rights Directive’den gelir."
+        },
+        {
+          "type": "p",
+          "text": "Jetonlar, başarılı bir satın almadan sonra bakiyenize verilir. Yasal bir cayma hakkına getirilecek her istisna, yürürlükteki hukuka ve satın alma sırasında fiilen verilen rıza, beyan ve onaya bağlıdır. Bu Koşulları kabul etmek tek başına yasal cayma haklarınızdan feragat ettirmez."
+        },
+        {
+          "type": "p",
+          "text": "Apple üzerinden faturalanan bir satın alma için ödeme iadesini [reportaproblem.apple.com](https://reportaproblem.apple.com/) adresinden isteyin. Apple, ödeme iadesi sürecini bölgesel koşulları ve yürürlükteki hukuk kapsamında yürütür. Eksik veya kusurlu hizmet, kullanılmayan jetonlar ya da satın alma ve bakiye kayıtlarının incelenmesi için bize yazın. Apple’ın onayını veya kullanılmayan bir bakiyenin otomatik nakde çevrilmesini garanti etmeyiz. Bir satın alma iade edilirse ilgili jeton kredisi düşülebilir."
+        },
+        {
+          "type": "p",
+          "text": "Bu bölümdeki hiçbir şey diğer yasal haklarınızı etkilemez; hizmet kusurluysa, anlatıldığı gibi değilse veya makul özen ve beceriyle sunulmadıysa sahip olduğunuz haklar dahil."
+        }
+      ]
+    },
+    {
+      "title": "6. Kabul edilebilir kullanım",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Uygulamayı şunlar için kullanmamayı kabul edersiniz:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "herhangi bir kanun veya düzenlemeyi çiğnemek ya da birinin haklarını ihlal etmek;",
+            "dolandırıcılık, istenmeyen ileti, taciz veya kimliği yanlış tanıtma;",
+            "kaydolduğunuz platformların kullanım koşullarını ihlal etmek — onlara uymak yalnızca sizin sorumluluğunuzdadır;",
+            "hukukun doğrulanmış kişisel bir numarada almanızı zorunlu kıldığı iletişimleri almak (örneğin yasak olduğu yerde devlet, bankacılık veya acil servisler);",
+            "hizmeti yeniden satmak, kazımak veya programatik olarak kötüye kullanmak."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu bölümü ihlal eden bir hesabı askıya alabilir veya sonlandırabiliriz. Ciddi durumlarda — dolandırıcılık veya iade ya da etkinleştirme mekaniğinin kasten kötüye kullanılması — ihlalle orantılı olduğu ölçüde bakiyede kalan jetonlara el koyabiliriz. Küçük veya tek seferlik bir ihlal için bakiyeye el koymayız ve buradaki hiçbir şey, sözleşmeyle dışlanamayan tüketici haklarınızı kaldırmaz."
+        }
+      ]
+    },
+    {
+      "title": "7. Sanal numaralar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sanal numaralar geçicidir ve etkinleştirmeniz bittikten sonra başka kullanıcılara yeniden verilebilir. Süregelen kişisel veya ticari kullanım, hesap kurtarma ya da uzun süre güvendiğiniz iki adımlı doğrulama için değil, tek seferlik doğrulama kodu almak içindir."
+        }
+      ]
+    },
+    {
+      "title": "8. Fikri mülkiyet",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Uygulama, Site ve ilgili tüm markalama SIMNETIQ LTD’ye veya lisans verenlerine aittir. Size, Uygulamayı amaçlanan kullanımı için kişisel, münhasır olmayan ve devredilemez bir lisans veririz. Uygulamada gösterilen üçüncü taraf servis adları ilgili sahiplerine aittir ve onay anlamına gelmez."
+        }
+      ]
+    },
+    {
+      "title": "9. Sorumluluk reddi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Uygulama “olduğu gibi” ve “sunulduğu gibi” sağlanır. Hukukun izin verdiği en geniş ölçüde, belirli bir amaca uygunluk dahil, açık veya zımni tüm garantileri reddederiz. Belirli bir doğrulama kodunun geleceğini, numaraların belirli bir platformca kabul edileceğini veya hizmetin kesintisiz ya da hatasız olacağını garanti etmeyiz."
+        },
+        {
+          "type": "p",
+          "text": "Bu bölüm, hukuken dışlanamayacak veya sınırlanamayacak hiçbir şeyi dışlamaz veya sınırlamaz. Tüketiciyseniz yasal haklarınız etkilenmez — dijital hizmetin makul özen ve beceriyle, tatmin edici nitelikte ve anlatıldığı gibi sunulmasına ilişkin Consumer Rights Act 2015 (veya yaşadığınız yerdeki karşılığı) kapsamındaki hakkınız dahil."
+        }
+      ]
+    },
+    {
+      "title": "10. Sorumluluğun sınırlanması",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu Koşullardaki hiçbir şey, hukukun sınırlayamayacağı sorumluluğu sınırlamaz; ihmalden kaynaklanan ölüm veya bedensel zarar ya da dolandırıcılık dahil. Bunun dışında, Uygulamadan doğan veya onunla bağlantılı toplam sorumluluğumuz, talepten önceki 12 ayda bize ödediğiniz tutarla sınırlıdır; dolaylı veya sonuç olarak doğan kayıplardan, kâr, veri veya itibar kaybından sorumlu değiliz."
+        }
+      ]
+    },
+    {
+      "title": "11. Sona erme",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Uygulamayı kullanmayı bırakabilir ve hesabınızı istediğiniz zaman silebilirsiniz. Bu Koşulları ihlal ederseniz, bağımlı olduğumuz bir sağlayıcı yeteneği geri çekerse veya hizmeti sonlandırırsak erişimi derhal askıya alabilir veya sonlandırabiliriz; hukuk gerektiriyorsa makul bir bildirimde bulunuruz."
+        }
+      ]
+    },
+    {
+      "title": "12. Bu Koşullardaki değişiklikler",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu Koşulları zaman zaman güncelleyebiliriz — örneğin hukuk değiştiğinde, bağımlı olduğumuz bir sağlayıcı değiştiğinde veya Uygulama bir özellik kazandığında ya da kaybettiğinde. Haklarınızı önemli ölçüde etkileyen değişiklikler, yürürlüğe girmeden en az 30 gün önce Uygulamada veya Sitede duyurulur. Kabul etmezseniz o tarihten önce Uygulamayı kullanmayı bırakıp hesabınızı kapatabilirsiniz; harcanmamış jetonlar için bize yazın, talebinizi iyi niyetle ele alırız. Değişiklikler yürürlüğe girdikten sonra Uygulamayı kullanmaya devam etmeniz, güncellenmiş Koşulları kabul ettiğiniz anlamına gelir. Değişiklikler, daha önce yaptığınız bir satın almaya geriye dönük uygulanmaz."
+        }
+      ]
+    },
+    {
+      "title": "13. Uygulanacak hukuk",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu Koşullar İngiltere ve Galler hukukuna tabidir ve münhasır yargı İngiltere ve Galler mahkemelerindedir — ancak tüketiciyseniz, yaşadığınız ülkenin zorunlu korumalarını ve yargı yeri haklarını korursunuz."
+        }
+      ]
+    },
+    {
+      "title": "14. İletişim",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu Koşullar hakkında sorular: {supportEmail}."
+        }
+      ]
+    }
+  ]
+}

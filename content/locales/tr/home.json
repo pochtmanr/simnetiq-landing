@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "SMS Code, SIMNETIQ'ten — sanal numaraya SMS kodu",
+    "description": "100+ ülkede gerçek bir sanal numara alın ve SMS doğrulama kodunu saniyeler içinde görün. Telegram, WhatsApp ve Google için kişisel numaranız gerekmez.",
+    "ogTitle": "SMS Code, SIMNETIQ'ten",
+    "ogDescription": "Kayıt için bir numara, ömür boyu değil. 100+ ülkede gerçek sanal numaralar, doğrulama kodları saniyeler içinde.",
+    "twitterDescription": "Kayıt için bir numara, ömür boyu değil. Doğrulama kodları saniyeler içinde."
+  },
+  "hero": {
+    "label": "Sanal numaralar · SMS doğrulama",
+    "titleTop": "Kayıt için bir numara.",
+    "titleAccent": "Ömür boyu değil.",
+    "body": "SMS Code size 100+ ülkede gerçek bir sanal numara verir ve doğrulama kodunu genellikle saniyeler içinde gösterir — Telegram, WhatsApp, Google ve 100+ servis kişisel numaranızı hiç öğrenmez.",
+    "note": "Tek seferlik jeton paketleri · abonelik yok"
+  },
+  "services": {
+    "label": "Kapsam",
+    "title": "Gerçekten yaptığınız kayıtlarla çalışır",
+    "caption": "Telegram, WhatsApp, Google, Instagram ve 100+ servis daha"
+  },
+  "how": {
+    "label": "Genel bakış",
+    "title": "Üç adım, işiniz biter",
+    "step": "Adım",
+    "steps": [
+      {
+        "title": "Servis ve ülke seçin",
+        "body": "Neye kaydolacağınızı seçin — Telegram, WhatsApp, Google, 100+ servis — ve numaranın hangi ülkeden olacağını belirtin."
+      },
+      {
+        "title": "Gerçek numarayı anında alın",
+        "body": "Uygulama size canlı bir sanal numara verir. Onu kayıt formuna herhangi bir telefon numarası gibi yapıştırın."
+      },
+      {
+        "title": "Kod uygulamaya düşer",
+        "body": "Doğrulama SMS’i genellikle saniyeler içinde ekranda görünür. Kodu kopyalamak için bir kez dokunun, kaydı bitirin, oldu."
+      }
+    ],
+    "inbox": {
+      "codeLabel": "Kodunuz",
+      "now": "şimdi",
+      "secondsAgo": "{n} sn önce"
+    },
+    "waiting": "SMS bekleniyor"
+  },
+  "features": {
+    "label": "Neden SMS Code",
+    "title": "Numarasını koruyanlar için",
+    "sub": "Kayıt akışını test eden geliştiriciler, hesap yöneten pazarlamacılar ve “devam etmek için telefon numaranızı girin” uyarısından bıkan herkes.",
+    "items": [
+      {
+        "title": "Gerçek numaranız sizde kalır",
+        "body": "Kişisel numaranızı bir veri tabanına, bültene veya sızıntıya daha vermeden istediğiniz yere kaydolun."
+      },
+      {
+        "title": "100+ servis, 100+ ülke",
+        "body": "Telegram ve WhatsApp’tan Steam ve Tinder’a — Avrupa, Asya, Amerika ve daha fazlasından numaralarla."
+      },
+      {
+        "title": "Genellikle dakikalar değil, saniyeler",
+        "body": "Numaralar size verildiği anda canlıdır. SMS doğrudan uygulamada görünür, kod tek dokunuşla kopyalanır."
+      },
+      {
+        "title": "Kod başına ödeyin, abonelik yok",
+        "body": "Jeton paketini bir kez alın, istediğiniz zaman harcayın. Aylık plan yok, otomatik yenileme yok, bakiyenizdeki hiçbir şey sona ermez."
+      },
+      {
+        "title": "SIM yok, eSIM yok, sözleşme yok",
+        "body": "Telefon ayarlarına kurulacak bir şey yok, kimliğinize bağlanan bir şey yok. Uygulamayı açmanız yeterli."
+      },
+      {
+        "title": "SMS gelmeden iptal",
+        "body": "Atamadan iki dakika sonra, SMS almamış bir numarayı iptal edip jetonlarını geri alabilirsiniz."
+      }
+    ]
+  },
+  "showcase": {
+    "label": "Uygulamanın içi",
+    "title": "Gerçekte nasıl görünür",
+    "body": "Maket yok — bunlar uygulamanın gerçek ekranları. Uygulama düzenli güncellenir, bu yüzden ekran görüntüsündeki küçük ayrıntılar bir sürüm geride olabilir.",
+    "shots": [
+      {
+        "src": "/app/shot-countries.png",
+        "caption": "Her ülkenin fiyatı seçmeden önce görünür"
+      },
+      {
+        "src": "/app/shot-waiting.png",
+        "caption": "Kod, etkinleştirme ekranına düşer"
+      },
+      {
+        "src": "/app/shot-activations.png",
+        "caption": "Aktif numaralar, tek dokunuşla kopyala"
+      },
+      {
+        "src": "/app/shot-languages.png",
+        "caption": "On dil, Ayarlar’dan değiştirilir"
+      }
+    ]
+  },
+  "faq": {
+    "label": "Sorular",
+    "title": "Soruların yanıtları",
+    "items": [
+      {
+        "q": "Sanal numara tam olarak nedir?",
+        "a": "Operatör ağında duran ama cebinizdeki bir SIM kartına bağlı olmayan gerçek bir telefon numarasıdır. Başka herhangi bir numara gibi SMS alabilir: siz onu doğrulama adımında kullanırsınız, kişisel numaranız hiç devreye girmez. Etkinleştirme tek kullanımlıktır: sürdüğü sürece numara yalnızca size ayrılır, bitince sağlayıcının havuzuna döner ve daha sonra başkasına verilebilir. Bu yüzden onu elinizde kalan bir numara değil, kayıt için bir numara olarak görün."
+      },
+      {
+        "q": "Numarayı yeniden kullanabilir miyim veya kodu tekrar gönderebilir miyim?",
+        "a": "Hayır. Bir etkinleştirme, bir numarada bir kodu kapsar. Bitince veya süresi dolunca numara sağlayıcının havuzuna döner: ona başka bir SMS gelemez ve daha sonra başka bir müşteriye verilebilir. Tekrar doğrulamanız mı gerekiyor? Yeni bir etkinleştirme başlatın, yeni bir numara alırsınız. Elinizde tutmayı düşündüğünüz her hesap için kayıttan hemen sonra kurtarma e-postası ve uygulama tabanlı iki adımlı doğrulama ekleyin; hesap, artık sizde olmayan bir numaraya bağlı kalmasın."
+      },
+      {
+        "q": "Kod ne kadar sürede gelir?",
+        "a": "Servis gönderdikten sonra genellikle saniyeler içinde. Etkinleştirme ekranı canlı güncellenir; SMS metnini ve kodu düştüğü anda görürsünüz."
+      },
+      {
+        "q": "Hangi servisleri doğrulayabilirim?",
+        "a": "Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal ve daha fazlası dahil 100+ popüler servis — her birinin kendi uygun ülke listesi vardır."
+      },
+      {
+        "q": "Kod hiç gelmezse ne olur?",
+        "a": "SMS gelmediyse iptal, numara atandıktan iki dakika sonra açılır. Jetonlar bakiyenize döner. Başka bir ülkeyi yalnızca hedef servis kabul ediyorsa seçin; bakiye yanlış görünüyorsa desteğe yazın."
+      },
+      {
+        "q": "Etkinleştirme ne kadar sürer, numarayı değiştirebilir miyim?",
+        "a": "Etkinleştirme penceresi 15 dakikadır. Hiçbir şey gelmezse aynı ekrandan başka bir numaraya geçebilirsiniz — iptal politikamız gereği uygulama mevcut numarayı önce iki dakika tutar ve bir etkinleştirme içinde en fazla üç kez değiştirebilirsiniz. Doğrudan iptal edip yeni bir etkinleştirme de başlatabilirsiniz. Her iki durumda da SMS almamış numaranın jetonları bakiyenize döner."
+      },
+      {
+        "q": "Aynı anda kaç numara tutabilirim?",
+        "a": "Aynı anda üç aktif numara. Bir hesabın harcayabileceği jeton için saatlik ve günlük tavanlar da vardır. Olağan kullanımın oldukça üzerine ayarlanmıştır: amaç otomatik kötüye kullanımı durdurmaktır, normal müşteriyi kısmak değil."
+      },
+      {
+        "q": "Jetonlarım sona erer mi?",
+        "a": "Hayır. Jeton paketleri abonelik değil, tek seferlik satın almadır: harcanmayan jetonlar siz harcayana kadar bakiyenizde kalır ve hesabınızla birlikte yeni cihaza geçer."
+      },
+      {
+        "q": "Bunu kullanmak yasal mı?",
+        "a": "İzin verilen kullanımlar ülkenize, hedef servise ve amacınıza bağlıdır. Yürürlükteki yasalara ve platform kurallarına uyun. Geçici numaraları dolandırıcılık, kimliği yanlış tanıtma veya kısıtlamaları aşmak için kullanmayın."
+      }
+    ]
+  },
+  "browse": {
+    "label": "Numaranızı bulun",
+    "title": "Servisi seçin. Numarayı biz hallederiz.",
+    "body": "Her servisin kendi rehberi vardır: gerçek doğrulama akışı, insanları en çok takılan noktalar ve en iyi çalışan ülkeler.",
+    "allLink": "Tüm servisler ve rehberler"
+  },
+  "personas": {
+    "label": "Kimler için",
+    "title": "Numarasını koruyanlar için",
+    "items": [
+      {
+        "title": "Geliştirici",
+        "body": "Kayıt akışlarını ve OTP işlemeyi gerçek bir alıcı numarayla test edin — ofiste SIM çekmecesine gerek yok.",
+        "slug": "cursor",
+        "linkLabel": "Geliştirici araçları için numaralar"
+      },
+      {
+        "title": "Sosyal medya yöneticisi",
+        "body": "Yönettiğiniz her marka hesabı için temiz bir iletişim kimliği; kişisel telefonunuza bağlamadan.",
+        "slug": "instagram",
+        "linkLabel": "Instagram için numaralar"
+      },
+      {
+        "title": "Gizliliğine önem veren",
+        "body": "Grup sohbetlerindeki yabancılar size doğrudan ulaşamasın. Gerçek numaranızı güvendiğiniz kişilere saklayın.",
+        "slug": "telegram",
+        "linkLabel": "Telegram için numaralar"
+      },
+      {
+        "title": "Akıllı alışverişçi",
+        "body": "Pazar yerleri ve kampanya kayıtları çalışan bir numara alır — pazarlama SMS’i cebinize hiç ulaşmaz.",
+        "slug": "aliexpress",
+        "linkLabel": "AliExpress için numaralar"
+      },
+      {
+        "title": "Çok hesaplı girişimci",
+        "body": "İş için ikinci bir WhatsApp, proje için ayrı bir Telegram — her birinin kendi numarası.",
+        "slug": "whatsapp",
+        "linkLabel": "WhatsApp için numaralar"
+      }
+    ]
+  },
+  "compare": {
+    "label": "Karşılaştır",
+    "title": "SMS Code nasıl duruyor",
+    "body": "Bizi SMS-Activate.org, 5SIM veya başka bir sağlayıcıyla mı tartıyorsunuz? Karşılaştırmaları kendimiz yazdık: her servisin iyi yaptığı şey ve tek seferlik jeton paketleri olan, mobil öncelikli bir uygulamanın ne zaman daha uygun olduğu.",
+    "vsLabel": "SMS Code karşısında"
+  },
+  "blog": {
+    "label": "Blogdan",
+    "title": "Bir sonraki kayıttan önce okumaya değer rehberler",
+    "readMore": "Rehberi okuyun",
+    "allLink": "Tüm yazılar"
+  },
+  "cta": {
+    "title": "Bir sonraki kaydınız gerçek numaranıza ihtiyaç duymaz",
+    "support": "İndirmeden önce sorunuz mu var? Desteğe yazın"
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "100+",
+        "label": "canlı operatör ağlarında gerçek mobil numarası olan ülke"
+      },
+      {
+        "value": "100+",
+        "label": "Telegram’dan Steam’e doğrulayabileceğiniz servis"
+      },
+      {
+        "value": "3",
+        "label": "servis seçmekten ekranda canlı numaraya dokunuş"
+      },
+      {
+        "value": "0",
+        "label": "abonelik — tek seferlik jeton paketleri, jetonlar sona ermez"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Fiyatlar",
+    "title": "Plan için değil, kod için ödeyin",
+    "sub": "Uygulama jetonla çalışır. Size uyan paketi bir kez alın, sonra doğrulama doğrulama harcayın — abonelik yok, otomatik yenileme yok, bakiyenizdeki hiçbir şey sona ermez.",
+    "packsLabel": "Jeton paketleri",
+    "coinsUnit": "jeton",
+    "facts": [
+      {
+        "title": "20 jetondan başlar — önce servise bakın",
+        "body": "Fiyatın büyük kısmını doğruladığınız servis belirler, ülke ise bunu ayarlar; tersi değil. 20 jeton tabandır, olağan ücret değil: yaygın bir mesajlaşma uygulaması yaklaşık 35 jetonla başlayabilir, talebi yüksek bir servis ise sunduğu her ülkede yüzlerce jetona çıkabilir. Uygulama her kombinasyonu anlık fiyatlar; paket seçmeden önce fiyata bakın."
+      },
+      {
+        "title": "Onaylamadan önce fiyat",
+        "body": "Listedeki her ülkenin yanında tam jeton fiyatı yazar. Numarayı görüp onaylamadan bakiyenizden hiçbir şey çıkmaz."
+      },
+      {
+        "title": "Kod yoksa jeton geri",
+        "body": "SMS gelmezse iki dakikalık bekleyişten sonra iptal edin veya etkinleştirmenin süresi dolsun; jetonlar geri gelir. Teslim edilmiş ama reddedilmiş bir kod için destek incelemesi gerekir."
+      }
+    ],
+    "note": "Paket fiyatları App Store’da belirlenir ve bölgeye göre değişir."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Cursor — verifikasi akun pengembang",
+  "metaDescription": "Verifikasi pendaftaran Cursor dengan nomor virtual asli. Kode SMS tiba biasanya dalam hitungan detik — jauhkan nomor pribadi dari akun alat pengembang.",
+  "hero": {
+    "title": "Nomor virtual untuk Cursor",
+    "intro": [
+      "Cursor — editor kode bertenaga AI — duduk di treadmill yang sama seperti setiap alat pengembang yang memberi komputasi: tingkat gratis menarik penyalahgunaan, jadi pendaftaran diberi gerbang. Di samping konfirmasi email, Cursor dapat meminta verifikasi nomor telepon lewat SMS sebelum akun atau uji coba aktif, persis karena nomor seluler yang berfungsi lebih sulit diproduksi massal daripada kotak masuk.",
+      "SMS Code menyewakan nomor asli di salah satu dari 100+ negara. Saat pendaftaran Cursor meminta telepon, masukkan yang sewaan — kode enam digit muncul di aplikasi SMS Code biasanya dalam hitungan detik, dan nomor pribadi Anda tetap di luar satu basis data SaaS lagi."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Cursor?",
+    "body": [
+      "Pengembang mengumpulkan akun seperti meja kerja mengumpulkan obeng — editor, cloud, API, layanan CI — dan masing-masing semakin menginginkan nomor telepon. Menghubungkan nomor pribadi ke semuanya berarti setiap kebocoran vendor, daftar pemasaran, dan graf tautan akun menyertakannya. Menjaga nomor sewaan di antara identitas alat pengembang dan nomor asli Anda adalah naluri yang sama seperti memakai email kerja: pemisahan secara bawaan, dengan nomor yang sebenarnya dicadangkan untuk orang, bukan platform.",
+      "Ada juga kasus pemakaian teknis yang sah. Jika Anda membangun atau menguji QA alur pendaftaran — produk Anda sendiri, atau menilai bagaimana onboarding Cursor berperilaku bagi pengguna bersih — Anda membutuhkan nomor asli yang benar-benar menerima SMS, bukan nomor Anda sendiri yang terbakar di akun uji. Aktivasi sewaan memberi persis itu: satu nomor penerima yang nyata, dipakai sekali, tanpa laci SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Cursor dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Buka aplikasi SMS Code, pilih Cursor sebagai layanan, dan pilih negara — AS, Jerman, atau Belanda adalah pilihan tipikal untuk alat pengembang. Nomor dicadangkan untuk Anda seketika."
+      },
+      {
+        "title": "Daftar dan masukkan nomor",
+        "body": "Buat akun Cursor dengan email yang Anda kendalikan. Saat alur meminta verifikasi nomor telepon, ketik yang sewaan beserta kode negara yang sesuai."
+      },
+      {
+        "title": "Masukkan kode dari SMS Code",
+        "body": "SMS masuk ke aplikasi SMS Code biasanya dalam hitungan detik — “Your Cursor verification code is 812750”. Tempel enam digit ke kolom verifikasi Cursor dan Anda lolos."
+      },
+      {
+        "title": "Amankan akun itu sendiri",
+        "body": "Selesaikan dengan dasar-dasar: kata sandi yang kuat dan unik serta email yang terkonfirmasi. Login sehari-hari Cursor berjalan di atas itu, bukan SMS — pemeriksaan telepon adalah gerbang sekali, bukan yang berulang."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Buka pendaftaran sebelum Anda sewa",
+      "body": "Kode verifikasi berumur pendek dan jendela aktivasi terbatas. Tampilkan layar verifikasi telepon Cursor di depan Anda lebih dulu, lalu sewa nomor dan minta kode — SMS tiba biasanya dalam hitungan detik saat Anda siap."
+    },
+    {
+      "title": "Email adalah akun; telepon adalah gerbang",
+      "body": "Cursor mengidentifikasi Anda lewat login email, dan pertanyaan lisensi atau langganan melewatinya. Pakai kotak surat yang akan Anda simpan, dan akun bertahan melewati jendela aktivasi nomor sewaan tanpa hambatan."
+    },
+    {
+      "title": "Satu akun, di dalam aturan",
+      "body": "Gerbang telepon ada karena tingkat gratis digarap. Pakai nomor virtual untuk menjaga nomor pribadi tetap privat pada akun tulus Anda — bukan untuk menumpuk akun uji coba, yang melanggar ketentuan Cursor dan cenderung berakhir dengan akun yang diblokir."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah Cursor selalu meminta nomor telepon?",
+      "a": "Tidak selalu — seperti banyak alat pengembang, Cursor menerapkan verifikasi telepon secara selektif, sering bergantung pada sinyal pendaftaran dan tekanan penyalahgunaan. Jika dan saat permintaan muncul, nomor virtual sewaan memenuhinya biasanya dalam hitungan detik."
+    },
+    {
+      "q": "Apakah akun Cursor saya tetap berfungsi setelah nomornya berakhir?",
+      "a": "Ya. Pemeriksaan SMS terjadi saat pendaftaran; setelahnya Anda masuk dengan email dan kata sandi. Berakhirnya jendela aktivasi nomor sewaan tidak mengubah apa pun pada akun yang sudah Anda pakai."
+    },
+    {
+      "q": "Bisakah saya memakai nomor virtual untuk menguji alur pendaftaran SMS produk saya sendiri?",
+      "a": "Ya — itu pola pengembang yang benar-benar berguna. Nomor sewaan adalah nomor penerima nyata di operator nyata, jadi Anda dapat menjalani alur OTP dari ujung ke ujung sebagai pengguna baru tanpa membakar nomor pribadi di akun uji."
+    },
+    {
+      "q": "Mengapa kode verifikasi Cursor saya tidak masuk?",
+      "a": "Paling sering ketidakcocokan kode negara, atau layanan menolak rentang nomor tertentu itu. Batalkan aktivasi di SMS Code — tidak ada SMS berarti koin kembali ke saldo Anda — dan coba lagi dengan nomor atau negara lain."
+    },
+    {
+      "q": "Apakah diperbolehkan memverifikasi Cursor dengan nomor virtual?",
+      "a": "Pemeriksaan mengonfirmasi Anda menguasai nomor nyata, dan nomor sewaan persis itu. Yang penting adalah apa yang Anda lakukan berikutnya: satu akun tulus yang dipakai dalam ketentuan Cursor tidak masalah; menggandakan banyak uji coba gratis tidak, dengan atau tanpa nomor virtual."
+    }
+  ]
+}

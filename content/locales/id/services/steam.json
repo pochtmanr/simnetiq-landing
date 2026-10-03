@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Nomor virtual untuk Steam — tambah telepon tanpa SIM",
+  "metaDescription": "Tautkan telepon ke Steam dengan nomor virtual asli; kode tiba biasanya dalam hitungan detik. Catatan jujur soal Steam Guard, penahanan, dan autentikator.",
+  "hero": {
+    "title": "Nomor virtual untuk Steam",
+    "intro": [
+      "Steam dengan senang hati membuat akun hanya dengan email — bagian itu sederhana dan jujur. Nomor telepon masuk ke cerita kemudian, di tempat yang berarti: kode Steam Guard lewat SMS, pemulihan akun, dan langkah verifikasi di sekitar jual-beli serta Community Market. Saat itulah “Your Steam verification code is J4K8P” muncul.",
+      "Dengan SMS Code Anda menyewa nomor seluler asli di salah satu dari 100+ negara dan kode Steam masuk ke aplikasi biasanya dalam hitungan detik. Pustaka game Anda — sering bertahun-tahun pembelian — mendapat telepon yang tertaut tanpa nomor pribadi masuk ke catatan Valve."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Mengapa memakai nomor virtual untuk Steam?",
+    "body": [
+      "Akun Steam yang matang adalah salah satu hal paling berharga yang dimiliki pemain, persis mengapa Anda mungkin tidak ingin nomor sehari-hari terhubung ke dalamnya. Phishing terhadap pengguna Steam adalah industri rumahan; semakin sedikit detail kontak akun tumpang tindih dengan nomor yang diketahui semua orang, semakin kecil permukaan serangannya. Nomor virtual membiarkan Anda melewati langkah telepon Steam sambil menjaga pemisahan itu.",
+      "Inilah arsitektur yang jujur: di Steam, SMS adalah penjaga yang lebih lemah. Perlindungan yang benar-benar penting untuk jual-beli dan Market adalah Steam Guard Mobile Authenticator di aplikasi Steam — Valve menahan jual-beli dan listing jauh lebih lama untuk akun tanpanya. Anggap nomor sewaan sebagai kunci yang membawa Anda melewati pintu verifikasi telepon, dan autentikator sebagai gembok yang Anda pasang setelah di dalam."
+    ]
+  },
+  "howTo": {
+    "title": "Cara verifikasi Steam dengan nomor virtual",
+    "steps": [
+      {
+        "title": "Sewa nomor di SMS Code",
+        "body": "Pilih Steam sebagai layanan dan pilih negara. Satu ketukan mencadangkan nomor seluler asli hanya untuk Anda."
+      },
+      {
+        "title": "Tambahkan ke akun Steam Anda",
+        "body": "Buka Detail Akun → Info Kontak — atau ikuti permintaan yang ditampilkan Steam saat jual-beli membutuhkan telepon — dan masukkan nomor beserta kode negaranya."
+      },
+      {
+        "title": "Masukkan kode — termasuk huruf",
+        "body": "Kode Steam tampil seperti “J4K8P”: huruf dan digit, bukan enam angka biasa. Kode itu tiba di aplikasi SMS Code biasanya dalam hitungan detik; ketik persis seperti tertulis."
+      },
+      {
+        "title": "Siapkan Mobile Authenticator",
+        "body": "Di aplikasi seluler Steam, aktifkan Steam Guard Mobile Authenticator selagi nomor masih aktif. Itu menjadi 2FA yang tahan lama — dan simpan kode pemulihan yang diberikannya di tempat yang aman."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kodenya bukan semua digit",
+      "body": "Tidak seperti kebanyakan layanan, Steam mengirim kode alfanumerik — J4K8P, bukan 123456. Jika suatu kode “tidak berfungsi”, periksa bahwa Anda tidak tertukar huruf dan digit (O dengan 0, I dengan 1) dan masukkan dalam huruf besar, persis seperti diterima."
+    },
+    {
+      "title": "Autentikator mengungguli SMS",
+      "body": "Steam Guard SMS adalah tingkat pemula; Mobile Authenticator adalah yang mempersingkat penahanan pada jual-beli dan listing Market — dan ia bertahan setelah nomor apa pun berakhir. Aktifkan segera setelah verifikasi: hanya beberapa menit, dan itu perbedaan antara akun yang terlindungi dan yang setengah terlindungi."
+    },
+    {
+      "title": "Mengubah telepon nanti punya efek samping",
+      "body": "Steam memperlakukan perubahan dan penghapusan telepon sebagai peristiwa keamanan dan dapat menerapkan penahanan sementara di sekitarnya. Jika Anda berencana menukar nomor sewaan dengan milik Anda atau menghapusnya sepenuhnya, lakukan dengan sengaja dari Detail Akun selagi Anda masih dapat menerima kode — bukan terburu-buru sebelum jual-beli."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah saya membutuhkan nomor telepon untuk membuat akun Steam?",
+      "a": "Tidak — pendaftaran berjalan dengan email saja, dan itu benar-benar semua yang dibutuhkan akun dasar. Telepon menjadi relevan untuk Steam Guard lewat SMS, pemulihan akun, dan verifikasi di sekitar jual-beli serta Community Market. Sewa nomor pada titik Steam benar-benar memintanya."
+    },
+    {
+      "q": "Apakah nomor virtual menghapus penahanan jual-beli dan Market?",
+      "a": "Tidak dengan sendirinya — kami tidak akan melebih-lebihkan ini. Penahanan Valve tertaut ke Steam Guard Mobile Authenticator, bukan pada adanya telepon di berkas. Nomor membawa Anda melewati langkah verifikasi telepon; mengaktifkan autentikator di aplikasi Steam adalah yang benar-benar mengubah cara penahanan bekerja bagi Anda."
+    },
+    {
+      "q": "Apa yang terjadi saat nomor sewaan berakhir?",
+      "a": "Akun Anda tetap berfungsi — Anda masuk dengan kata sandi dan Steam Guard seperti sebelumnya. Jika autentikator sudah disiapkan, keamanan sehari-hari tidak melibatkan SMS sama sekali. Jika Anda ingin SMS kembali sebagai opsi, perbarui telepon di Detail Akun ke nomor yang saat ini Anda kendalikan."
+    },
+    {
+      "q": "Mengapa kode Steam saya ditolak?",
+      "a": "Biasanya formatnya: kode Steam mencampur huruf dan digit, dan O dapat menyembunyikan 0. Masukkan kode persis seperti muncul di aplikasi SMS Code. Jika SMS tidak masuk sama sekali, periksa kode negara, batalkan aktivasi yang tertunda tanpa biaya, dan ambil nomor baru."
+    },
+    {
+      "q": "Apakah nomor mengubah wilayah toko Steam saya?",
+      "a": "Tidak. Wilayah toko mengikuti lokasi dan detail pembayaran Anda menurut aturan Valve sendiri — nomor telepon tidak punya suara. Pilih nomor dari negara tempat akun benar-benar hidup; memakai nomor untuk melompat wilayah bukan tujuannya dan bukan sesuatu yang dihargai pemeriksaan Steam."
+    }
+  ]
+}

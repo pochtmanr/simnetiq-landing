@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o Signal — cadastro sem chip",
+  "metaDescription": "Cadastre o Signal com um número virtual real de 100+ países. O código chega em geral em segundos — pague por ativação e cancele sem custo se não houver SMS.",
+  "hero": {
+    "title": "Número virtual para o Signal",
+    "intro": [
+      "Eis a ironia do Signal: o mensageiro que criptografa tudo, guarda quase nada e é recomendado por todo pesquisador de privacidade ainda pede um número de celular antes de você enviar a primeira mensagem. O cadastro se apoia no código de SMS — mesmo que os nomes de usuário agora façam com que ninguém precise ver esse número depois.",
+      "Com o SMS Code você fecha essa última fresta: aluga um número de celular real em um de 100+ países, cadastra o Signal com ele e o código aparece no aplicativo em geral em segundos. Você paga por ativação, com um pacote avulso de moedas — sem assinatura — e uma ativação que não recebeu SMS é cancelada sem cobrança."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o Signal?",
+    "body": [
+      "Se você escolheu o Signal, escolheu pelos metadados que ele não guarda — e o número de celular é o único identificador que o cadastro ainda exige. Cadastrar com o seu número pessoal enfraquece em silêncio o resto do desenho: o mensageiro não revela nada, mas o número no arquivo é o mesmo ligado ao banco, ao empregador e aos registros de todo corretor de dados. Um número alugado completa o quadro que o Signal começou.",
+      "Desde que os nomes de usuário chegaram, o único trabalho que resta ao número é o cadastro. Contatos encontram você pelo nome de usuário, e a privacidade deixa o número invisível e impossível de buscar: “Quem pode ver o meu número” — Ninguém, “Quem pode me encontrar pelo número” — Ninguém. Junte esses ajustes a um número virtual e a conta não é encontrável pelo seu número real, pelo simples motivo de que o seu número real nunca entrou."
+    ]
+  },
+  "howTo": {
+    "title": "Como cadastrar o Signal com um número virtual",
+    "steps": [
+      {
+        "title": "Receba um número no SMS Code",
+        "body": "Abra o aplicativo SMS Code, escolha Signal como serviço, escolha um país e toque uma vez. Um número de celular real fica reservado só para você pelo tempo da ativação."
+      },
+      {
+        "title": "Digite no Signal",
+        "body": "Na tela de cadastro, selecione o código do país correspondente e digite o número. O Signal às vezes mostra um captcha antes de enviar o código — é a checagem antiabuso dele; é só concluir."
+      },
+      {
+        "title": "Pegue o código",
+        "body": "O SMS chega no aplicativo SMS Code em geral em segundos, no formato “SIGNAL: Your code is: 613904”. Digite os dígitos e o cadastro termina."
+      },
+      {
+        "title": "Defina o PIN e reivindique um nome de usuário",
+        "body": "Crie o seu PIN do Signal e depois ative o Bloqueio de registro em Ajustes → Conta. Em seguida, defina um nome de usuário e mude “Quem pode ver o meu número” e “Quem pode me encontrar pelo número” para Ninguém. Agora o número fez o único trabalho dele e sai de vista."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "O Bloqueio de registro é a sua rede de segurança",
+      "body": "Com o Bloqueio de registro ligado, cadastrar o número de novo exige o PIN do Signal — então ninguém que depois tenha esse número consegue tomar a conta. Uma ressalva que vem direto do desenho do Signal: o bloqueio só permanece armado enquanto a conta está em uso, então abra o aplicativo pelo menos uma vez por semana."
+    },
+    {
+      "title": "Deixe o nome de usuário falar",
+      "body": "Compartilhe o nome de usuário, não o número — esse é o ponto do recurso. Você pode mudar o nome de usuário a qualquer momento e, com os interruptores de privacidade do telefone em Ninguém, mesmo quem de algum modo souber o número alugado não encontra a conta por ele."
+    },
+    {
+      "title": "A sua conta vive no aparelho",
+      "body": "Fiel à filosofia, o Signal não guarda cópia na nuvem das conversas — a conta e o histórico existem no seu celular. Mudar de celular funciona pela transferência interna enquanto o antigo ainda está vivo. Planeje em volta disso: com a janela do número alugado encerrada, o aparelho em si é a conta."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "O mensageiro mais privado exigir um celular não anula o propósito?",
+      "a": "É uma tensão real, e o Signal sabe — por isso existem nomes de usuário e os ajustes de privacidade do número. O número é exigido uma vez, no cadastro, como medida antispam. Um número virtual satisfaz essa exigência sem ligar a conta a você, o que é, se cabe dizer, o jeito mais alinhado ao espírito do Signal de se cadastrar."
+    },
+    {
+      "q": "Alguém vai ver o número com que eu me cadastrei?",
+      "a": "Não, se você virar os interruptores: defina “Quem pode ver o meu número” e “Quem pode me encontrar pelo número” como Ninguém e compartilhe o nome de usuário. Daí em diante o número não aparece em lugar nenhum — nem no perfil, nem na busca."
+    },
+    {
+      "q": "O que acontece com a conta do Signal quando o número alugado expira?",
+      "a": "A conta continua funcionando no seu aparelho — o número era necessário para o cadastro único. Ative o Bloqueio de registro para ninguém recadastrar o número sem o seu PIN, e continue usando o aplicativo para o bloqueio permanecer ativo."
+    },
+    {
+      "q": "E se eu perder o celular ou reinstalar o Signal?",
+      "a": "Esta é a limitação honesta: cadastrar de novo exige receber um código no número outra vez, e um aluguel expirado não faz isso. Transfira para um celular novo enquanto o antigo ainda funciona e trate o aparelho como a casa da conta. Num arranjo que põe a privacidade em primeiro lugar, essa troca em geral é aceitável — só faça sabendo disso."
+    },
+    {
+      "q": "Por que o código do Signal não chegou?",
+      "a": "O Signal é cuidadoso com cadastros que acha suspeitos: você pode receber um captcha primeiro, e alguns números são recusados de cara. Confira se o código do país combina, conclua qualquer captcha e, se o SMS ainda não vier, cancele a ativação no SMS Code — as moedas voltam para números que não receberam nada — e tente outro número ou país."
+    }
+  ]
+}

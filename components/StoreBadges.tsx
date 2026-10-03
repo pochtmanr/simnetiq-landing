@@ -1,9 +1,7 @@
-"use client";
-
-import { track } from "@vercel/analytics";
 import { APP_STORE_URL } from "../lib/site";
 import { AppleGlyph } from "./AppleGlyph";
-import { BADGES } from "../lib/content/common";
+import { TrackedLink } from "./TrackedLink";
+import { ui } from "../lib/content/ui";
 import type { Locale } from "../lib/i18n";
 
 /*
@@ -16,28 +14,28 @@ import type { Locale } from "../lib/i18n";
  * listing exists.
  */
 
-
 export function StoreBadges({
   dark = false,
-  locale = "en",
+  locale,
   placement = "hero",
 }: {
   dark?: boolean;
-  locale?: Locale;
+  locale: Locale;
   placement?: "hero" | "final_cta" | "service_cta" | "hub_cta" | "browse";
 }) {
   const cta = dark ? "cta cta--dark" : "cta";
-  const t = BADGES[locale];
+  const t = ui(locale).badges;
   return (
     <div className="flex flex-wrap items-center gap-[10px]">
-      <a
+      <TrackedLink
         href={APP_STORE_URL}
+        event="CTA Click iOS"
+        placement={placement}
         className={cta}
-        onClick={() => track("CTA Click iOS", { placement })}
       >
         <AppleGlyph />
         {t.appStore}
-      </a>
+      </TrackedLink>
     </div>
   );
 }

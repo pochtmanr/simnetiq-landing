@@ -1,0 +1,25 @@
+{
+  "breadcrumbHome": "Home",
+  "breadcrumb": "Blog",
+  "metaTitle": "Blog — Virtual Numbers, Privacy and SMS Verification",
+  "metaDescription": "Practical guides on virtual numbers, SMS verification and keeping your real phone number private — from the team behind SMS Code.",
+  "label": "Blog",
+  "title": "Guides for people who guard their number",
+  "sub": "Practical, honest write-ups: how verification actually works, service by service, and how to keep your personal number out of it.",
+  "published": "Published",
+  "updated": "Updated",
+  "ctaTitle": "Put it into practice on your next sign-up",
+  "ctaBody": "Get a number and see the code arrive usually within seconds.",
+  "readMore": "Read the guide",
+  "tags": {
+    "guide": "Guide",
+    "privacy": "Privacy",
+    "esim": "eSIM",
+    "google": "Google",
+    "dating": "Dating",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "how-to": "How-to",
+    "basics": "Basics"
+  }
+}

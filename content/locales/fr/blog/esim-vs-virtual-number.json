@@ -1,0 +1,154 @@
+{
+  "title": "eSIM ou numéro virtuel\u00a0: lequel vous faut-il\u00a0?",
+  "description": "L’eSIM et le numéro virtuel se ressemblent, mais ne résolvent pas le même problème. Un guide clair pour choisir\u00a0: data en voyage ou code SMS à l’inscription.",
+  "excerpt": "L’un est un forfait d’opérateur qui vit dans votre téléphone\u00a0; l’autre est un numéro que vous louez pour un code de vérification. Les confondre coûte de l’argent réel — voici comment savoir lequel votre problème demande.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "«\u00a0Ai-je besoin d’une eSIM ou d’un numéro virtuel\u00a0?\u00a0» est l’une de ces questions où la personne a en général un problème précis — un voyage la semaine prochaine, un formulaire d’inscription qui exige un numéro — et internet répond avec du marketing pour les deux. Les deux produits se ressemblent, vivent dans des catégories d’app store voisines, et sont régulièrement vendus par les mêmes sociétés. Ce n’est pas la même chose."
+    },
+    {
+      "type": "p",
+      "text": "Les mélanger n’est pas seulement un glissement de vocabulaire\u00a0; cela coûte de l’argent. Des gens achètent une eSIM de voyage en s’attendant à y recevoir des textos de vérification et découvrent — en plein voyage, au moment exact où une banque ou une messagerie veut un code — que leur eSIM ne peut pas recevoir de SMS du tout. D’autres louent des numéros virtuels mois après mois alors qu’ils voulaient seulement de la data mobile."
+    },
+    {
+      "type": "p",
+      "text": "Ce guide trace la ligne clairement\u00a0: ce que chacun est vraiment, une comparaison côte à côte, une règle de décision applicable en dix secondes, et les cas limites où les deux mondes se recoupent vraiment."
+    },
+    {
+      "type": "h2",
+      "id": "two-different-tools",
+      "text": "Deux outils différents qui partagent une étagère"
+    },
+    {
+      "type": "p",
+      "text": "Une eSIM est un vrai forfait d’opérateur intégré à votre appareil. C’est la même chose que la carte SIM en plastique dans votre tiroir, moins le plastique\u00a0: un profil téléchargé dans le matériel de votre téléphone qui le connecte à un réseau mobile. Avec lui viennent ce qu’une connexion réseau fournit — la data mobile d’abord, et selon le forfait, des appels et des textos. Vous l’installez dans les réglages du téléphone, et c’est votre téléphone qui la porte."
+    },
+    {
+      "type": "p",
+      "text": "Un numéro virtuel est un numéro que vous louez pour recevoir des SMS, et il ne touche jamais le matériel de votre appareil. Le numéro vit du côté du fournisseur\u00a0; les messages entrants apparaissent dans une app. Rien n’est installé dans vos réglages, aucun profil réseau ne change, votre SIM et votre forfait data existants n’entrent pas en jeu. Vous l’utilisez pour le moment où un service veut vous envoyer un code — et c’est tout le travail."
+    },
+    {
+      "type": "p",
+      "text": "En bref\u00a0: une eSIM connecte votre appareil à un réseau. Un numéro virtuel reçoit un message pour vous. L’un est une infrastructure, l’autre est une course."
+    },
+    {
+      "type": "h2",
+      "id": "side-by-side",
+      "text": "Côte à côte"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Modèle de coût — une eSIM est un forfait\u00a0: vous payez un paquet de data (et parfois des minutes/textos) qui court des jours ou des semaines. Un numéro virtuel est à l’usage\u00a0: une activation, un code reçu, payé depuis un pack de pièces. Pour un seul code de vérification, un forfait est excessif\u00a0; pour deux semaines de cartes et de messageries à l’étranger, un prix au SMS est entièrement la mauvaise forme.",
+        "Configuration — une eSIM est provisionnée dans le téléphone\u00a0: QR code ou app, une nouvelle ligne apparaît dans les réglages cellulaires, et votre appareil doit prendre en charge l’eSIM. Un numéro virtuel n’a besoin d’aucun provisionnement\u00a0: ouvrez l’app, choisissez un service et un pays, le numéro est à l’écran généralement en quelques secondes.",
+        "Ce que vous obtenez — une eSIM donne de la connectivité\u00a0: de la data, un indicateur de réseau, souvent une ligne téléphonique. Un numéro virtuel donne exactement une capacité\u00a0: recevoir le SMS qui lui est envoyé, affiché dans l’app.",
+        "Combien de temps vous le gardez — une eSIM dure autant que le forfait, et une locale peut être rechargée indéfiniment. Un numéro virtuel est loué pour une fenêtre d’activation — assez longtemps pour un code d’inscription, pas conçu pour être votre numéro pendant des années.",
+        "À quoi cela sert — eSIM\u00a0: être en ligne à l’étranger, une ligne data pour une tablette, un forfait local sans chercher un kiosque SIM. Numéro virtuel\u00a0: tenir votre numéro personnel hors des inscriptions, vérifier un second compte, recevoir un code sans acheter tout un forfait."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "which-one-do-you-need",
+      "text": "La règle de décision en dix secondes"
+    },
+    {
+      "type": "p",
+      "text": "Presque chaque situation réelle se résout avec trois questions\u00a0:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Avez-vous besoin d’internet sur votre appareil — data de voyage, une tablette connectée, une ligne de secours\u00a0? C’est de la connectivité. Prenez une eSIM\u00a0; un numéro virtuel ne peut pas mettre votre téléphone en ligne, point.",
+        "Avez-vous besoin de recevoir un code de vérification — pour Telegram, WhatsApp, Google, une place de marché — sans donner votre numéro personnel\u00a0? C’est un SMS qui fait un travail. Louez un numéro virtuel\u00a0; acheter un forfait d’opérateur pour recevoir un seul texto, c’est payer un camion pour livrer une enveloppe.",
+        "Avez-vous besoin d’une seconde ligne de long terme — un numéro que vous donnerez à des clients et sur lequel vous répondrez aux appels pendant des années\u00a0? Alors il vous faut vraiment un forfait téléphone (eSIM ou plastique). Un numéro virtuel loué n’est pas fait pour être votre identité permanente — et les fournisseurs honnêtes le disent."
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "the-data-only-esim-trap",
+      "text": "Le piège\u00a0: les eSIM data seule et les codes de vérification"
+    },
+    {
+      "type": "p",
+      "text": "Voici le cas limite qui attrape le plus de gens. La majorité des eSIM de voyage bon marché sont data seule\u00a0: elles vous connectent à internet mais ne viennent avec aucun numéro de téléphone — rien à quoi adresser un SMS. La page produit le dit clairement, mais c’est facile à manquer entre les comptes de gigaoctets."
+    },
+    {
+      "type": "p",
+      "text": "L’échec se joue sur la route\u00a0: vous atterrissez, votre eSIM de voyage fonctionne très bien, puis votre banque — ou Telegram sur une app réinstallée — veut envoyer un code pour confirmer que c’est vous. Le code part vers votre SIM d’origine, qui est soit hors du téléphone, soit en itinérance à des tarifs douloureux. L’eSIM data seule que vous utilisez vraiment ne peut pas le recevoir, parce qu’il n’y a pas de numéro pour le recevoir."
+    },
+    {
+      "type": "callout",
+      "text": "La combinaison qui fonctionne\u00a0: une eSIM data seule pour internet, plus votre SIM d’origine gardée active pour les services déjà liés à elle — et un numéro virtuel pour les nouvelles inscriptions que vous ne voulez de toute façon pas sur votre numéro personnel. Chaque outil fait la seule chose pour laquelle il est vraiment fait."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-number-step-by-step",
+      "text": "Si votre réponse est «\u00a0juste un code\u00a0»\u00a0: la voie du numéro virtuel"
+    },
+    {
+      "type": "p",
+      "text": "Pour le scénario du code de vérification, voici tout le processus — cela prend environ une minute\u00a0:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Choisissez le service et le pays",
+          "body": "Dans l’app SMS Code, choisissez ce que vous vérifiez — Telegram, WhatsApp, Google, plus de 100 services — et de quel pays le numéro doit venir. Un toucher réserve un vrai numéro mobile pour vous."
+        },
+        {
+          "title": "Utilisez le numéro dans l’inscription",
+          "body": "Tapez-le dans le formulaire de vérification comme n’importe quel numéro, avec l’indicatif pays correspondant. Le service envoie son SMS comme d’habitude — c’est un vrai numéro sur un vrai réseau d’opérateur."
+        },
+        {
+          "title": "Lisez le code dans l’app",
+          "body": "Le SMS apparaît sur l’écran d’activation généralement en quelques secondes. Copiez le code, terminez l’inscription. Si aucun code n’arrive jamais, annulez l’activation sans frais et prenez un autre numéro — vous ne payez que les codes livrés."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Aucun profil installé, aucun forfait commencé, rien à annuler ensuite. Cette asymétrie d’engagement est vraiment toute la comparaison en miniature\u00a0: une eSIM est quelque chose que vous configurez et avec quoi vous vivez\u00a0; un numéro virtuel est quelque chose que vous utilisez et dont vous avez fini."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Questions fréquentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Une eSIM de voyage peut-elle recevoir des SMS de vérification\u00a0?",
+          "a": "Seulement si elle vient avec un numéro de téléphone — et la plupart des eSIM de voyage bon marché sont data seule, c’est-à-dire aucun numéro et aucun SMS, jamais. Vérifiez la page produit pour «\u00a0voix et SMS\u00a0» avant de compter dessus pour des codes. Si elle est data seule, un numéro virtuel couvre le côté vérification."
+        },
+        {
+          "q": "Un numéro virtuel est-il une carte SIM\u00a0?",
+          "a": "Non. Rien n’est installé dans votre appareil — pas de plastique, pas de profil eSIM, pas de changement de vos réglages cellulaires. Le numéro existe sur le réseau du fournisseur, et les messages qu’il reçoit vous sont montrés dans l’app. Votre propre SIM n’y joue aucun rôle — le numéro ne dépend pas du tout de votre opérateur. Il vous faut une connexion internet sur votre téléphone, en Wi-Fi ou en data mobile, pour que l’app vous montre le code."
+        },
+        {
+          "q": "Puis-je garder un numéro virtuel pour toujours\u00a0?",
+          "a": "Les numéros d’activation loués ne sont pas conçus pour cela — vous détenez le numéro pour la fenêtre d’activation, assez longtemps pour recevoir le code. Les comptes que vous avez vérifiés continuent ensuite (restez connecté et configurez la récupération), mais si vous avez besoin d’un numéro à publier et auquel répondre pendant des années, c’est un problème de forfait téléphone, pas de numéro virtuel."
+        },
+        {
+          "q": "Qu’est-ce qui est moins cher pour recevoir un seul code\u00a0?",
+          "a": "Un numéro virtuel, de loin. C’est une activation à partir d’un pack de pièces en achat unique, tarifée exactement pour ce travail. Le forfait eSIM le moins cher vous vend encore des jours de service et des gigaoctets de data dont vous n’avez pas besoin pour un SMS."
+        },
+        {
+          "q": "Ai-je jamais besoin des deux en même temps\u00a0?",
+          "a": "Le voyage est le cas classique\u00a0: une eSIM data seule vous garde en ligne, et un numéro virtuel gère les nouvelles inscriptions en chemin — tandis que votre SIM d’origine reste réservée aux comptes déjà attachés à elle. Ils ne rivalisent pas\u00a0; ils couvrent des points de défaillance différents."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

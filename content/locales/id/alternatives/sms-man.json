@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternatif SMS-Man — aplikasi SMS Code oleh SIMNETIQ",
+    "metaDescription": "Bandingkan SMS-Man dengan SMS Code oleh SIMNETIQ: layanan web banyak metode isi saldo versus aplikasi iOS yang ditagih lewat App Store.",
+  "hero": {
+    "title": "Alternatif SMS-Man yang ditagih lewat toko aplikasi Anda",
+    "intro": [
+      "SMS-Man adalah layanan web yang sudah lama untuk menerima kode verifikasi SMS di nomor virtual. Anda mendaftar di situs mereka, mengisi saldo akun — deskripsi publik layanan menyebut sebaran metode yang luas, dari kartu bank hingga sistem pembayaran elektronik dan mata uang kripto — dan membeli nomor per aktivasi, dengan API tersedia untuk alur otomatis.",
+      "SMS Code oleh SIMNETIQ menukar fleksibilitas itu dengan model kepercayaan yang lebih sederhana. Ini aplikasi iOS asli di mana pembayaran terjadi sepenuhnya melalui penagihan Apple: Anda membeli paket koin sekali beli sama seperti pembelian dalam aplikasi lain, dan tidak ada nomor kartu, alamat dompet, atau kredensial pembayaran yang pernah dibagikan kepada kami. Pilih layanan dan negara, dan kode tiba di aplikasi biasanya dalam hitungan detik."
+    ]
+  },
+  "whenThem": {
+    "title": "Kapan SMS-Man adalah pilihan yang lebih baik",
+    "body": "Pilih SMS-Man jika cara Anda membayar sama pentingnya dengan apa yang Anda beli. Layanan web yang menerima banyak jalur isi saldo — termasuk opsi seperti mata uang kripto yang tidak ditawarkan penagihan toko — cocok bagi pengguna yang metode pembayaran pilihannya berada di luar rel Apple dan Google. API mereka juga melayani pengembang yang mengotomatisasi verifikasi dalam volume, dan katalog negara serta layanan mereka ditujukan pada pemakaian yang lebih luas dan lebih berat itu."
+  },
+  "whenUs": {
+    "title": "Kapan aplikasi SMS Code lebih cocok",
+    "body": "Pilih aplikasi jika Anda lebih suka tidak menyerahkan detail pembayaran ke situs niche sama sekali. Penagihan toko adalah intinya: Apple memproses tagihan, kami tidak pernah melihat kartu Anda, dan pembelian ada di riwayat toko biasa dengan perlindungan biasanya. Di atas itu Anda mendapat pengalaman aplikasi asli — beberapa ketukan dari layanan ke kode, 100+ negara, 100+ layanan populer, paket koin sekali beli tanpa langganan, dan pembatalan gratis setiap kali aktivasi tidak menerima SMS."
+  },
+  "comparison": {
+    "title": "SMS-Man vs aplikasi SMS Code, berdampingan",
+    "rows": [
+      {
+        "label": "Platform",
+        "competitor": "Layanan web dengan API untuk otomasi",
+        "us": "Aplikasi iOS asli dari App Store"
+      },
+      {
+        "label": "Model harga",
+        "competitor": "Bayar per aktivasi dari saldo akun yang diisi",
+        "us": "Paket koin sekali beli, bayar per aktivasi — tanpa langganan"
+      },
+      {
+        "label": "Pembayaran",
+        "competitor": "Isi saldo dengan banyak metode, menurut deskripsi publik termasuk kartu, pembayaran elektronik, dan kripto",
+        "us": "Hanya penagihan toko Apple — tidak ada detail pembayaran yang dibagikan kepada kami"
+      },
+      {
+        "label": "Cakupan",
+        "competitor": "Katalog negara dan layanan yang luas, ditujukan untuk pemakaian berat",
+        "us": "100+ negara dan 100+ layanan populer, dikurasi untuk pendaftaran sehari-hari"
+      },
+      {
+        "label": "Pembatalan",
+        "competitor": "Diatur aturan pengembalian dana mereka sendiri — periksa ketentuan terkini",
+        "us": "Aktivasi yang tidak menerima SMS dibatalkan gratis, koin kembali"
+      },
+      {
+        "label": "Dukungan",
+        "competitor": "Kanal dukungan lewat situs mereka",
+        "us": "Formulir kontak di aplikasi dan situs"
+      },
+      {
+        "label": "Paling cocok untuk",
+        "competitor": "Pengguna yang membutuhkan jalur pembayaran fleksibel atau volume yang digerakkan API",
+        "us": "Individu yang menginginkan kesederhanaan penagihan toko dan aplikasi seluler asli"
+      }
+    ],
+    "note": "Detail pesaing mencerminkan deskripsi publik layanan mereka saat tulisan ini dibuat dan dapat berubah — selalu konfirmasi di sms-man.com sebelum memutuskan."
+  },
+  "switchSteps": {
+    "title": "Mencoba aplikasi memakan tiga langkah",
+    "steps": [
+      {
+        "title": "Pasang aplikasinya",
+        "body": "Dapatkan SMS Code oleh SIMNETIQ dari App Store — tidak ada pendaftaran situs atau isi saldo yang terlibat."
+      },
+      {
+        "title": "Ambil paket koin",
+        "body": "Beli paket sekali lewat akun App Store Anda. Apple menangani pembayaran; kami tidak pernah menerima detail kartu Anda."
+      },
+      {
+        "title": "Jalankan aktivasi pertama",
+        "body": "Pilih layanan dan negara, dapatkan nomor asli, dan lihat kode masuk ke aplikasi biasanya dalam hitungan detik. Jika tidak ada yang masuk, aktivasi dibatalkan gratis."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Apa beda membayar di aplikasi SMS Code dengan SMS-Man?",
+      "a": "SMS-Man bekerja seperti kebanyakan layanan web: Anda mengisi saldo situs memakai salah satu metode yang mereka terima. Di aplikasi, pembayaran berjalan secara eksklusif melalui penagihan Apple — pembelian dalam aplikasi yang normal — jadi tidak ada nomor kartu atau kredensial pembayaran yang pernah dibagikan kepada kami."
+    },
+    {
+      "q": "Bisakah saya membayar dengan mata uang kripto di aplikasi?",
+      "a": "Tidak. Penagihan toko tidak mendukung kripto, dan aplikasi tidak menerima pembayaran di luar App Store. Jika kripto adalah syarat, layanan web seperti SMS-Man yang mencantumkan opsi itu lebih cocok."
+    },
+    {
+      "q": "Apakah ada langganan atau tagihan berulang?",
+      "a": "Tidak. Paket koin adalah pembelian sekali; Anda membelanjakan koin per aktivasi dan membeli paket lain hanya saat Anda memilih."
+    },
+    {
+      "q": "Apa yang terjadi jika kode saya tidak pernah masuk?",
+      "a": "Aktivasi dibatalkan dan koin Anda dikembalikan. Anda hanya membayar nomor yang benar-benar menerima SMS."
+    },
+    {
+      "q": "Apakah aplikasi punya API seperti SMS-Man?",
+      "a": "Tidak — aplikasi adalah produk konsumen untuk memverifikasi akun dengan tangan, bukan platform untuk pendaftaran terskrip. Jika Anda membutuhkan akses terprogram ke nomor, API SMS-Man melayani kasus itu."
+    }
+  ]
+}

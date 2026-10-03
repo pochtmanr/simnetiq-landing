@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "SMS Code par SIMNETIQ — numéro virtuel, codes SMS",
+    "description": "Un vrai numéro virtuel dans plus de 100 pays. Codes pour Telegram, WhatsApp et Google, généralement en quelques secondes, sans votre numéro.",
+    "ogTitle": "SMS Code par SIMNETIQ",
+    "ogDescription": "Un numéro pour l’inscription, pas pour la vie. De vrais numéros virtuels dans plus de 100 pays, codes en quelques secondes.",
+    "twitterDescription": "Un numéro pour l’inscription, pas pour la vie. Codes de vérification en quelques secondes."
+  },
+  "hero": {
+    "label": "Numéros virtuels · vérification SMS",
+    "titleTop": "Un numéro pour l’inscription.",
+    "titleAccent": "Pas pour la vie.",
+    "body": "SMS Code vous donne un vrai numéro virtuel dans plus de 100 pays et affiche le code de vérification généralement en quelques secondes — ainsi Telegram, WhatsApp, Google et plus de 100 autres services ne connaissent jamais votre numéro personnel.",
+    "note": "Packs de pièces en achat unique · sans abonnement"
+  },
+  "services": {
+    "label": "Couverture",
+    "title": "Ça marche pour les inscriptions que vous faites vraiment",
+    "caption": "Telegram, WhatsApp, Google, Instagram et plus de 100 autres services"
+  },
+  "how": {
+    "label": "Aperçu",
+    "title": "Trois étapes, et c’est fait",
+    "step": "Étape",
+    "steps": [
+      {
+        "title": "Choisissez un service et un pays",
+        "body": "Indiquez à quoi vous vous inscrivez — Telegram, WhatsApp, Google, plus de 100 services — et de quel pays le numéro doit venir."
+      },
+      {
+        "title": "Obtenez un vrai numéro tout de suite",
+        "body": "L’app vous remet un numéro virtuel actif. Collez-le dans le formulaire d’inscription comme n’importe quel autre numéro de téléphone."
+      },
+      {
+        "title": "Le code arrive dans l’app",
+        "body": "Le SMS de vérification s’affiche à l’écran généralement en quelques secondes. Un toucher pour copier le code, vous terminez l’inscription, c’est fait."
+      }
+    ],
+    "inbox": {
+      "codeLabel": "Votre code",
+      "now": "à l’instant",
+      "secondsAgo": "il y a {n} s"
+    },
+    "waiting": "En attente du SMS"
+  },
+  "features": {
+    "label": "Pourquoi SMS Code",
+    "title": "Conçu pour qui protège son numéro",
+    "sub": "Des développeurs qui testent des inscriptions, des marketeurs qui gèrent des comptes, et toute personne lassée du «\u00a0saisissez votre numéro de téléphone pour continuer\u00a0».",
+    "items": [
+      {
+        "title": "Votre vrai numéro reste le vôtre",
+        "body": "Inscrivez-vous où vous voulez sans remettre votre numéro personnel à une base de données, une liste d’envoi ou une fuite de plus."
+      },
+      {
+        "title": "Plus de 100 services, plus de 100 pays",
+        "body": "De Telegram et WhatsApp à Steam et Tinder — avec des numéros d’Europe, d’Asie, des Amériques et d’ailleurs."
+      },
+      {
+        "title": "Généralement des secondes, pas des minutes",
+        "body": "Les numéros sont actifs dès que vous les recevez. Le SMS apparaît dans l’app, et le code se copie d’un toucher."
+      },
+      {
+        "title": "Payez au code, sans abonnement",
+        "body": "Achetez un pack de pièces une fois et dépensez-les quand vous voulez. Pas de forfait mensuel, pas de renouvellement automatique, rien n’expire sur votre solde."
+      },
+      {
+        "title": "Sans SIM, sans eSIM, sans contrat",
+        "body": "Rien à installer dans les réglages du téléphone et rien de lié à votre identité. Ouvrez simplement l’app."
+      },
+      {
+        "title": "Annulez avant l’arrivée du SMS",
+        "body": "Deux minutes après l’attribution, vous pouvez annuler un numéro qui n’a pas reçu de SMS et récupérer ses pièces."
+      }
+    ]
+  },
+  "showcase": {
+    "label": "Dans l’application",
+    "title": "À quoi ça ressemble vraiment",
+    "body": "Pas de maquettes — ce sont de vrais écrans de l’app. L’app est mise à jour régulièrement, donc le détail d’une capture peut avoir une version de retard.",
+    "shots": [
+      {
+        "src": "/app/shot-countries.png",
+        "caption": "Le prix de chaque pays est visible avant de choisir"
+      },
+      {
+        "src": "/app/shot-waiting.png",
+        "caption": "Le code arrive sur l’écran d’activation"
+      },
+      {
+        "src": "/app/shot-activations.png",
+        "caption": "Numéros actifs, un toucher pour copier"
+      },
+      {
+        "src": "/app/shot-languages.png",
+        "caption": "Dix langues, à changer dans les Réglages"
+      }
+    ]
+  },
+  "faq": {
+    "label": "Questions",
+    "title": "Les questions, avec les réponses",
+    "items": [
+      {
+        "q": "Qu’est-ce qu’un numéro virtuel, au juste\u00a0?",
+        "a": "Un vrai numéro de téléphone qui existe sur le réseau d’un opérateur, mais qui n’est pas lié à une carte SIM dans votre poche. Il peut recevoir des SMS comme n’importe quel autre numéro\u00a0: vous l’utilisez pour l’étape de vérification, et votre numéro personnel n’entre jamais en jeu. Une activation est à usage unique\u00a0: le numéro vous est réservé seul pendant qu’elle se déroule, et à la fin il retourne dans le pool du fournisseur, où il pourra plus tard être attribué à quelqu’un d’autre. Traitez-le donc comme un numéro pour l’inscription, pas comme un numéro que vous gardez."
+      },
+      {
+        "q": "Puis-je réutiliser un numéro ou faire renvoyer le code\u00a0?",
+        "a": "Non. Une activation couvre un code sur un numéro. Une fois terminée ou expirée, le numéro retourne dans le pool du fournisseur — vous ne pouvez pas y faire livrer un autre SMS, et il pourra être réattribué plus tard à un autre client. Besoin de vérifier à nouveau\u00a0? Lancez une nouvelle activation et vous obtiendrez un numéro neuf. Pour tout compte que vous comptez garder, ajoutez un e-mail de récupération et une authentification à deux facteurs par application juste après l’inscription, afin que le compte ne dépende jamais d’un numéro que vous ne détenez plus."
+      },
+      {
+        "q": "En combien de temps le code arrive-t-il\u00a0?",
+        "a": "Généralement en quelques secondes après l’envoi par le service. L’écran d’activation se met à jour en direct, donc vous voyez le texte du SMS et le code dès qu’il arrive."
+      },
+      {
+        "q": "Quels services puis-je vérifier\u00a0?",
+        "a": "Plus de 100 services courants, dont Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal et d’autres — chacun avec sa propre liste de pays disponibles."
+      },
+      {
+        "q": "Que faire si le code n’arrive jamais\u00a0?",
+        "a": "Si aucun SMS n’est arrivé, l’annulation est possible deux minutes après l’attribution du numéro. Elle renvoie les pièces sur votre solde. Ne choisissez un autre pays que si le service visé l’accepte\u00a0; contactez l’assistance si le solde vous semble incorrect."
+      },
+      {
+        "q": "Combien de temps dure une activation, et puis-je changer de numéro\u00a0?",
+        "a": "La fenêtre d’activation est de 15 minutes. Si rien n’arrive, vous pouvez passer à un autre numéro depuis le même écran — l’app doit d’abord conserver le numéro actuel pendant deux minutes, selon notre politique d’annulation, et vous pouvez changer jusqu’à trois fois au sein d’une même activation. Vous pouvez aussi annuler franchement et lancer une nouvelle activation. Dans les deux cas, les pièces d’un numéro qui n’a jamais reçu de SMS reviennent sur votre solde."
+      },
+      {
+        "q": "Combien de numéros puis-je avoir en même temps\u00a0?",
+        "a": "Trois actifs à la fois. Il existe aussi des plafonds horaires et quotidiens sur le nombre de pièces qu’un compte peut dépenser. Ils sont fixés bien au-dessus de l’usage ordinaire — ils servent à arrêter les abus automatisés, pas à rationner les clients normaux."
+      },
+      {
+        "q": "Mes pièces expirent-elles\u00a0?",
+        "a": "Non. Les packs de pièces sont des achats uniques, pas des abonnements — les pièces non utilisées restent sur votre solde jusqu’à ce que vous les dépensiez, et suivent votre compte sur un nouvel appareil."
+      },
+      {
+        "q": "Est-ce légal\u00a0?",
+        "a": "Les usages permis dépendent de votre pays, du service visé et de votre but. Respectez les lois applicables et les règles des plateformes. N’utilisez pas de numéros temporaires pour la fraude, une usurpation d’identité ou le contournement de restrictions."
+      }
+    ]
+  },
+  "browse": {
+    "label": "Trouvez votre numéro",
+    "title": "Choisissez le service. Le numéro, c’est nous.",
+    "body": "Chaque service a son guide\u00a0: le vrai parcours de vérification, les particularités qui font trébucher, et les pays qui conviennent le mieux.",
+    "allLink": "Tous les services et guides"
+  },
+  "personas": {
+    "label": "Pour qui",
+    "title": "Conçu pour qui protège son numéro",
+    "items": [
+      {
+        "title": "Le développeur",
+        "body": "Testez les inscriptions et la réception des OTP avec un vrai numéro récepteur — sans tiroir de cartes SIM au bureau.",
+        "slug": "cursor",
+        "linkLabel": "Numéros pour les outils de dev"
+      },
+      {
+        "title": "Le social media manager",
+        "body": "Une identité de contact propre pour chaque compte de marque que vous gérez, sans les relier à votre téléphone personnel.",
+        "slug": "instagram",
+        "linkLabel": "Numéros pour Instagram"
+      },
+      {
+        "title": "La personne soucieuse de sa vie privée",
+        "body": "Des inconnus dans les groupes ne devraient pas avoir une ligne directe vers vous. Gardez votre vrai numéro pour les personnes de confiance.",
+        "slug": "telegram",
+        "linkLabel": "Numéros pour Telegram"
+      },
+      {
+        "title": "L’acheteur avisé",
+        "body": "Les places de marché et les inscriptions promo reçoivent un numéro qui fonctionne — les SMS marketing n’arrivent jamais dans votre poche.",
+        "slug": "aliexpress",
+        "linkLabel": "Numéros pour AliExpress"
+      },
+      {
+        "title": "L’entrepreneur multi-comptes",
+        "body": "Un second WhatsApp pour le travail, un Telegram à part pour le projet — chacun avec son numéro.",
+        "slug": "whatsapp",
+        "linkLabel": "Numéros pour WhatsApp"
+      }
+    ]
+  },
+  "compare": {
+    "label": "Comparer",
+    "title": "Où se situe SMS Code",
+    "body": "Vous nous comparez à SMS-Activate.org, 5SIM ou un autre fournisseur\u00a0? Nous avons rédigé nous-mêmes les comparatifs côte à côte — ce que chaque service fait bien, et où une app mobile avec des packs de pièces en achat unique convient mieux.",
+    "vsLabel": "SMS Code contre"
+  },
+  "blog": {
+    "label": "Depuis le blog",
+    "title": "Des guides à lire avant la prochaine inscription",
+    "readMore": "Lire le guide",
+    "allLink": "Tous les articles"
+  },
+  "cta": {
+    "title": "Votre prochaine inscription n’a pas besoin de votre vrai numéro",
+    "support": "Des questions avant de télécharger\u00a0? Contactez l’assistance"
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "100+",
+        "label": "pays avec de vrais numéros mobiles sur des réseaux d’opérateurs actifs"
+      },
+      {
+        "value": "100+",
+        "label": "services que vous pouvez vérifier, de Telegram à Steam"
+      },
+      {
+        "value": "3",
+        "label": "touchers entre le choix d’un service et un numéro actif à l’écran"
+      },
+      {
+        "value": "0",
+        "label": "abonnements — des packs de pièces en achat unique, et les pièces n’expirent pas"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Tarifs",
+    "title": "Payez les codes, pas un forfait",
+    "sub": "L’app fonctionne avec des pièces. Achetez-les une fois, dans le pack qui vous convient, puis dépensez-les une vérification à la fois — sans abonnement, sans renouvellement automatique, et rien n’expire sur votre solde.",
+    "packsLabel": "Packs de pièces",
+    "coinsUnit": "pièces",
+    "facts": [
+      {
+        "title": "À partir de 20 pièces — mais regardez d’abord le service",
+        "body": "C’est surtout le service que vous vérifiez qui fixe le prix, et le pays l’ajuste, pas l’inverse. 20 pièces, c’est le plancher, pas le tarif courant\u00a0: une messagerie courante peut commencer autour de 35 pièces, et un service très demandé peut monter à plusieurs centaines dans chaque pays où il est proposé. L’app affiche chaque combinaison en direct, donc regardez le prix avant de choisir un pack."
+      },
+      {
+        "title": "Le prix avant de confirmer",
+        "body": "Chaque pays de la liste porte son prix exact en pièces à côté. Rien ne quitte votre solde tant que vous n’avez pas vu le chiffre et validé."
+      },
+      {
+        "title": "Pas de code, les pièces reviennent",
+        "body": "Si aucun SMS n’arrive, annulez après l’attente de deux minutes ou laissez l’activation expirer pour en récupérer les pièces. Un code livré mais refusé doit être examiné par l’assistance."
+      }
+    ],
+    "note": "Les prix des packs sont fixés dans l’App Store et varient selon la région."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Numéro virtuel pour Apple",
+  "metaDescription": "Vérifiez un compte Apple avec un vrai numéro virtuel. Le code arrive généralement en quelques secondes, puis passez la 2FA sur vos appareils.",
+  "hero": {
+    "title": "Numéro virtuel pour Apple",
+    "intro": [
+      "Un nouveau compte Apple ne se termine pas sans téléphone\u00a0: pendant l’inscription, Apple demande un numéro, envoie un code à six chiffres pour prouver que vous le contrôlez, puis garde ce numéro comme «\u00a0numéro de téléphone de confiance\u00a0» — le canal qu’il utilisera pour l’authentification à deux facteurs à partir de ce jour.",
+      "Avec SMS Code, vous louez un vrai numéro mobile dans l’un de plus de 100 pays, vous recevez le code d’Apple dans l’app généralement en quelques secondes et vous terminez l’inscription. Votre numéro personnel reste hors du compte — et vous décidez ensuite sur quels numéros et appareils de confiance le compte doit s’appuyer."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Pourquoi un numéro virtuel pour Apple\u00a0?",
+    "body": [
+      "Un compte Apple va plus loin que la plupart des inscriptions\u00a0: c’est la clé de l’App Store, d’iCloud, d’iMessage et de chaque appareil Apple que vous possédez. Connectez-vous avec un numéro sur un iPhone et les personnes qui ont ce numéro enregistré peuvent vous trouver sur iMessage et FaceTime. Si le compte est censé être séparé — pour un appareil de test, une autre région de l’App Store, un profil de travail — le vérifier avec votre SIM personnelle recoud votre identité dedans.",
+      "Apple active aussi l’authentification à deux facteurs pour chaque nouveau compte et exige au moins un numéro de téléphone de confiance. Un numéro virtuel satisfait l’inscription proprement\u00a0; ce qui compte, c’est ce que vous faites ensuite. Une fois connecté sur un appareil Apple, les codes de vérification apparaissent sur cet appareil sans aucun SMS — et à côté du numéro loué (ou à sa place) vous pouvez ajouter un numéro de confiance qui est vraiment le vôtre."
+    ]
+  },
+  "howTo": {
+    "title": "Comment vérifier un compte Apple avec un numéro virtuel",
+    "steps": [
+      {
+        "title": "Louez un numéro dans SMS Code",
+        "body": "Choisissez Apple comme service, un pays, et touchez une fois pour réserver un vrai numéro mobile. Si le compte est destiné à une région précise de l’App Store, prenez un numéro de ce pays — cela garde les détails du compte cohérents."
+      },
+      {
+        "title": "Saisissez-le pendant l’inscription Apple",
+        "body": "Créez le compte sur account.apple.com ou directement depuis l’écran de configuration d’un iPhone. Quand Apple demande un numéro de téléphone, choisissez la vérification par texto et tapez le numéro loué avec le bon pays sélectionné."
+      },
+      {
+        "title": "Saisissez le code",
+        "body": "Le SMS se lit «\u00a0Your Apple Account code is\u00a0: 617402. Don't share it with anyone.\u00a0» et arrive dans l’app SMS Code généralement en quelques secondes. Saisissez les six chiffres et le compte est vérifié."
+      },
+      {
+        "title": "Ajoutez des facteurs de confiance que vous contrôlez",
+        "body": "Connectez-vous sur un appareil Apple que vous possédez — à partir de là, les codes à deux facteurs apparaissent directement sur cet appareil, sans SMS. Puis ouvrez les réglages Connexion et sécurité du compte et ajoutez un second numéro de téléphone de confiance qui vous appartient vraiment."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Les appareils de confiance valent mieux que les numéros de confiance",
+      "body": "Une fois connecté sur un iPhone, un iPad ou un Mac, Apple affiche les codes à deux facteurs directement sur l’appareil — le SMS devient le recours, pas le canal principal. Gardez au moins un appareil de confiance connecté et le numéro loué reste ce qu’il doit être\u00a0: un outil d’inscription à usage unique."
+    },
+    {
+      "title": "Apple garde le numéro comme ancre de 2FA",
+      "body": "Chaque compte Apple à deux facteurs doit garder au moins un numéro de téléphone de confiance au dossier. Ne laissez pas le numéro loué rester le seul\u00a0: ajoutez d’abord un numéro que vous contrôlez, puis retirez le numéro loué dans Connexion et sécurité."
+    },
+    {
+      "title": "Alignez le pays sur la région du compte",
+      "body": "Le numéro seul ne fixe pas votre région de l’App Store — cela suit les réglages de pays du compte et le moyen de paiement. Mais un numéro du même pays garde les détails cohérents, donc choisissez-en un là où le compte est censé vivre."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apple exige-t-il un numéro de téléphone pour créer un compte Apple\u00a0?",
+      "a": "Oui — l’inscription demande un numéro qu’elle peut texter ou appeler, et les nouveaux comptes reçoivent l’authentification à deux facteurs avec ce numéro enregistré comme de confiance. Un numéro virtuel passe cette étape exactement comme une SIM\u00a0: le code arrive dans l’app SMS Code et le compte est créé."
+    },
+    {
+      "q": "Le compte continuera-t-il après l’expiration du numéro loué\u00a0?",
+      "a": "Oui. Le numéro est contrôlé quand Apple envoie le code\u00a0; ensuite le compte vit sur vos appareils de confiance. Faites tôt la quatrième étape — connectez-vous sur un appareil que vous possédez et ajoutez un numéro de confiance que vous contrôlez — et plus rien dans le compte ne dépend du numéro loué."
+    },
+    {
+      "q": "Puis-je changer le numéro de téléphone de confiance plus tard\u00a0?",
+      "a": "Oui, dans Connexion et sécurité sur account.apple.com ou dans les réglages de votre appareil. Apple insiste pour qu’un compte à deux facteurs garde au moins un numéro de confiance, donc ajoutez le nouveau d’abord, puis retirez le numéro loué."
+    },
+    {
+      "q": "Puis-je créer un compte Apple pour l’App Store d’un autre pays\u00a0?",
+      "a": "Vous pouvez choisir un numéro parmi plus de 100 pays, et l’aligner sur la région du compte garde les choses nettes. Sachez simplement que la boutique suit le pays du compte et les réglages de paiement, pas le téléphone — le numéro vous vérifie, il ne déplace pas la boutique."
+    },
+    {
+      "q": "Pourquoi mon code Apple n’est-il pas arrivé\u00a0?",
+      "a": "Le plus souvent, le pays sélectionné sur le formulaire d’Apple ne correspond pas au numéro, ou le parcours est passé à un appel téléphonique — choisissez explicitement «\u00a0texto\u00a0». Annulez l’activation en cours dans SMS Code (les numéros qui n’ont rien reçu sont sans frais) et essayez-en un neuf."
+    }
+  ]
+}

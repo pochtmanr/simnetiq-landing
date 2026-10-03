@@ -1,0 +1,21 @@
+{
+  "hub": {
+    "metaTitle": "Alternativas de verificación SMS — comparaciones honestas",
+    "metaDescription": "Cómo se compara SMS Code con 5SIM, SMS-Activate.org, OnlineSim, SMS-Man y TextVerified, y cuándo te conviene más el otro servicio.",
+    "label": "Alternativas",
+    "title": "Cómo nos comparamos, también donde perdemos",
+    "sub": "Comparaciones escritas a mano frente a los servicios con los que nos suelen comparar. Cada una señala los casos en los que la otra plataforma es mejor opción.",
+    "readMore": "Leer la comparación"
+  },
+  "page": {
+    "breadcrumbHome": "Inicio",
+    "breadcrumb": "Alternativas",
+    "heroLabel": "Comparación",
+    "comparisonUsColumn": "SMS Code",
+    "switchLabel": "Si cambias",
+    "faqLabel": "Preguntas",
+    "ctaTitle": "Pruébalo en tu próxima activación",
+    "ctaSupport": "¿Dudas? Habla con soporte",
+    "disclaimer": "Los datos de la competencia reflejan su información pública en el momento de redactar esto y pueden cambiar: consulta siempre su sitio para las condiciones vigentes. Todas las marcas pertenecen a sus titulares."
+  }
+}

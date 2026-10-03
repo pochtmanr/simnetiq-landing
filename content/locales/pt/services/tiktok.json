@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Número virtual para o TikTok — cadastro sem chip",
+  "metaDescription": "Número virtual real para verificar o TikTok, em geral em segundos. Cadastre contas extras de criador e deixe o seu número pessoal fora do aplicativo.",
+  "hero": {
+    "title": "Número virtual para o TikTok",
+    "intro": [
+      "O TikTok deixa você se cadastrar com número de celular ou e-mail, mas o caminho do celular é o que ele sempre retoma: um código de SMS de 4–6 dígitos confirma o cadastro, e o mesmo número depois serve para entrar por código e recuperar a conta. O número que você digita no primeiro dia vira, em silêncio, parte da identidade da conta.",
+      "Com o SMS Code você aluga um número real em um de 100+ países, digita na tela de cadastro do TikTok e o código de verificação chega no aplicativo em geral em segundos. O seu número pessoal fica de fora — útil tanto para proteger a privacidade quanto para montar um elenco de contas de criador."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Por que usar um número virtual para o TikTok?",
+    "body": [
+      "Para quem cria, o país do número é mais do que formalidade. O TikTok localiza o feed e alguns recursos com sinais de região — o número de celular entre eles, junto com o seu IP e o idioma do aparelho. Um número do mercado que você quer alcançar não anula os outros sinais sozinho, mas é uma alavanca que você de fato controla, e é a mais barata de puxar ao montar uma conta voltada, por exemplo, ao público dos EUA ou da Indonésia.",
+      "O outro motivo é separação. Criadores costumam ter uma conta por nicho ou por marca, e cada conta verificada por celular precisa do próprio número — o TikTok não deixa um único número ancorar todas. Agências enfrentam o mesmo problema do lado do cliente: cuidar da conta de marca de alguém não deveria ligá-la ao seu chip pessoal. Um número alugado dá a cada conta a própria identidade de contato, sem uma gaveta cheia de chips."
+    ]
+  },
+  "howTo": {
+    "title": "Como verificar o TikTok com um número virtual",
+    "steps": [
+      {
+        "title": "Receba um número no SMS Code",
+        "body": "Abra o aplicativo SMS Code, escolha TikTok como serviço e escolha um país — de preferência o mercado a que o seu conteúdo se dirige. Um toque reserva um número de celular real só para você."
+      },
+      {
+        "title": "Digite na tela de cadastro do TikTok",
+        "body": "Escolha “Usar telefone ou e-mail”, fique na aba de telefone, selecione o código do país correspondente e digite o número. Um código de país que não combina é o motivo mais comum de o código nunca aparecer."
+      },
+      {
+        "title": "Pegue o código no SMS Code",
+        "body": "O TikTok envia um código de 4–6 dígitos — algo como “[TikTok] 604812 is your verification code, valid for 5 minutes.” Ele aparece no aplicativo SMS Code em geral em segundos; digite antes de expirar e termine de criar a conta."
+      },
+      {
+        "title": "Vincule um e-mail na hora",
+        "body": "Em Ajustes e privacidade → Conta, adicione um e-mail e verifique, depois passe a verificação em duas etapas para e-mail ou autenticador, onde for possível. Assim a conta não depende do número alugado quando a janela da ativação termina."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Não fique martelando “Reenviar código”",
+      "body": "O TikTok limita pedidos repetidos de SMS do mesmo número. Se nada chegar em alguns minutos, espere antes de pedir de novo — ou cancele a ativação no SMS Code (sem custo quando nenhum SMS chegou) e pegue um número novo em vez de insistir no mesmo."
+    },
+    {
+      "title": "Combine o número com a região do aplicativo",
+      "body": "O número é um sinal de região entre vários — o TikTok também olha o seu IP e o idioma do aparelho. Se você está pegando um número para mirar um mercado específico, mantenha o resto consistente: um número brasileiro com todo o resto apontando para outro lugar manda sinais mistos ao TikTok."
+    },
+    {
+      "title": "Um número por conta",
+      "body": "Cada conta do TikTok verificada por celular precisa do próprio número, e um número já ligado a uma conta não verifica uma nova. Tocando vários nichos ou marcas de cliente? Alugue uma ativação separada para cada uma e anote qual número abriu qual conta."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "A minha conta do TikTok continua depois que o número expira?",
+      "a": "Sim. O número é necessário no passo da verificação, não no uso do dia a dia. Vincule e verifique um e-mail logo depois do cadastro e tire a verificação em duas etapas do SMS — aí acessos e recuperação passam por canais que você ainda controla."
+    },
+    {
+      "q": "O país do número muda o que o TikTok me mostra?",
+      "a": "É um dos sinais. O TikTok localiza conteúdo e alguns recursos por região, lendo o país do número de celular junto com o endereço IP e o idioma do aparelho. Um número do mercado que você mira empurra a conta nessa direção, mas não anula os outros sinais sozinho."
+    },
+    {
+      "q": "Dá para ter várias contas do TikTok com números virtuais?",
+      "a": "Dá — é o arranjo padrão de criadores com uma conta por nicho e de agências que cuidam de marcas de cliente. Cada conta verificada por celular precisa do próprio número, então alugue uma ativação separada por conta, em vez de reutilizar uma."
+    },
+    {
+      "q": "Por que o código do TikTok não chegou?",
+      "a": "Confira o código do país primeiro — um desencontro é o culpado usual. O TikTok também limita pedidos repetidos de SMS, então reenvios rápidos podem silenciar o código por completo. Espere alguns minutos ou cancele a ativação pendente no SMS Code — as moedas de números que não receberam nada voltam para o seu saldo — e pegue um número novo."
+    },
+    {
+      "q": "Uma agência pode verificar a conta de TikTok de um cliente assim?",
+      "a": "Pode, e é mais limpo do que a alternativa: a conta ganha a própria identidade de contato, em vez de se ancorar no chip pessoal de um funcionário. Configure a recuperação por e-mail num endereço que o cliente controla, para a conta não ficar ligada ao número alugado — nem à sua equipe — no longo prazo."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "title": "eSIM vs nomor virtual: mana yang Anda butuhkan?",
+  "description": "Keduanya terdengar mirip dan dijual berdampingan, tetapi eSIM dan nomor virtual menyelesaikan masalah berbeda. Panduan sederhana untuk memilih yang tepat.",
+  "excerpt": "Satu adalah paket operator yang hidup di dalam telepon Anda; yang lain adalah nomor yang Anda sewa untuk kode verifikasi. Mencampurnya memakan uang nyata — begini cara membedakan yang dibutuhkan masalah Anda.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "“Apakah saya membutuhkan eSIM atau nomor virtual?” adalah salah satu pertanyaan di mana penanya biasanya punya masalah spesifik — perjalanan minggu depan, formulir pendaftaran yang menuntut nomor telepon — dan internet menjawab dengan pemasaran untuk keduanya. Kedua produk terdengar mirip, hidup di kategori toko aplikasi yang serupa, dan rutin dijual perusahaan yang sama. Mereka bukan hal yang sama."
+    },
+    {
+      "type": "p",
+      "text": "Mencampurnya bukan sekadar selip kosakata; itu memakan uang. Orang membeli eSIM perjalanan mengharapkan menerima teks verifikasi di atasnya dan menemukan — di tengah perjalanan, tepat saat bank atau pesan instan menginginkan kode — bahwa eSIM mereka tidak dapat menerima SMS sama sekali. Yang lain menyewa nomor virtual bulan demi bulan padahal yang mereka inginkan hanya data seluler."
+    },
+    {
+      "type": "p",
+      "text": "Panduan ini menarik garis dengan jelas: apa masing-masing sebenarnya, perbandingan berdampingan, aturan keputusan yang dapat Anda terapkan dalam sepuluh detik, dan kasus tepi di mana dua dunia benar-benar tumpang tindih."
+    },
+    {
+      "type": "h2",
+      "id": "two-different-tools",
+      "text": "Dua alat berbeda yang kebetulan berbagi rak"
+    },
+    {
+      "type": "p",
+      "text": "eSIM adalah paket operator nyata yang tertanam di perangkat Anda. Itu sama dengan kartu SIM plastik di baki Anda, minus plastiknya: profil yang diunduh ke perangkat keras telepon yang menghubungkannya ke jaringan seluler. Bersamanya datang hal yang disediakan koneksi jaringan — data seluler pertama-tama, dan bergantung pada paket, panggilan serta teks. Anda memasangnya di setelan telepon, dan telepon Anda yang membawanya."
+    },
+    {
+      "type": "p",
+      "text": "Nomor virtual adalah nomor yang Anda sewa untuk menerima SMS, dan ia tidak pernah menyentuh perangkat keras Anda. Nomor hidup di sisi penyedia; pesan masuk muncul di aplikasi. Tidak ada yang dipasang di setelan Anda, tidak ada profil jaringan yang berubah, SIM dan paket data yang ada tidak terlibat. Anda memakainya pada momen suatu layanan ingin mengirim kode — dan itu seluruh tugasnya."
+    },
+    {
+      "type": "p",
+      "text": "Singkatnya: eSIM menghubungkan perangkat Anda ke jaringan. Nomor virtual menerima pesan atas nama Anda. Satu adalah infrastruktur, yang lain adalah tugas singkat."
+    },
+    {
+      "type": "h2",
+      "id": "side-by-side",
+      "text": "Berdampingan"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Model biaya — eSIM adalah paket: Anda membayar bundel data (dan terkadang menit/teks) yang berjalan berhari-hari atau berminggu-minggu. Nomor virtual bayar per pakai: satu aktivasi, satu kode diterima, dibayar dari paket koin. Untuk satu kode verifikasi, paket berlebihan; untuk dua minggu peta dan pesan instan di luar negeri, harga per SMS bentuknya salah sama sekali.",
+        "Penyiapan — eSIM diprovisikan ke telepon: kode QR atau aplikasi, jalur baru muncul di setelan seluler, dan perangkat Anda harus mendukung eSIM. Nomor virtual tidak butuh provisi: buka aplikasi, pilih layanan dan negara, nomor ada di layar biasanya dalam hitungan detik.",
+        "Yang Anda dapatkan — eSIM memberi konektivitas: data, indikator jaringan, sering jalur telepon. Nomor virtual memberi tepat satu kemampuan: menerima SMS yang dikirim kepadanya, ditampilkan di aplikasi.",
+        "Berapa lama Anda menyimpannya — eSIM bertahan selama paket, dan yang lokal dapat diisi ulang tanpa batas. Nomor virtual disewa untuk jendela aktivasi — cukup lama untuk kode pendaftaran, tidak dimaksudkan menjadi nomor Anda selama bertahun-tahun.",
+        "Untuk apa — eSIM: daring di luar negeri, jalur data untuk tablet, paket lokal tanpa mencari kios SIM. Nomor virtual: menjaga nomor pribadi di luar pendaftaran, memverifikasi akun kedua, menerima satu kode tanpa membeli seluruh paket."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "which-one-do-you-need",
+      "text": "Aturan keputusan sepuluh detik"
+    },
+    {
+      "type": "p",
+      "text": "Hampir setiap situasi nyata terselesaikan dengan tiga pertanyaan:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Apakah Anda membutuhkan internet di perangkat — data perjalanan, tablet terhubung, jalur cadangan? Itu konektivitas. Dapatkan eSIM; nomor virtual tidak dapat membuat telepon Anda daring, titik.",
+        "Apakah Anda perlu menerima kode verifikasi — untuk Telegram, WhatsApp, Google, marketplace — tanpa memberikan nomor pribadi? Itu satu SMS yang melakukan satu tugas. Sewa nomor virtual; membeli paket operator untuk menerima satu teks adalah membayar truk untuk mengantar amplop.",
+        "Apakah Anda membutuhkan jalur kedua jangka panjang — nomor yang akan Anda berikan kepada klien dan dijawab panggilannya selama bertahun-tahun? Maka Anda benar-benar membutuhkan paket telepon (eSIM atau plastik). Nomor virtual sewaan tidak dibangun untuk menjadi identitas permanen Anda — dan penyedia yang jujur mengatakannya."
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "the-data-only-esim-trap",
+      "text": "Jebakan: eSIM hanya data dan kode verifikasi"
+    },
+    {
+      "type": "p",
+      "text": "Inilah kasus tepi yang paling sering menjebak orang. Mayoritas eSIM perjalanan murah hanya data: mereka menghubungkan Anda ke internet tetapi tidak membawa nomor telepon sama sekali — tidak ada yang dapat dituju SMS. Halaman produk mengatakannya dengan jelas, tetapi mudah terlewat di antara hitungan gigabita."
+    },
+    {
+      "type": "p",
+      "text": "Kegagalannya terjadi di jalan: Anda mendarat, eSIM perjalanan berfungsi indah, lalu bank Anda — atau Telegram di aplikasi yang dipasang ulang — ingin mengirim kode untuk mengonfirmasi itu Anda. Kode pergi ke SIM rumah, yang entah di luar telepon atau roaming dengan tarif menyakitkan. eSIM hanya data yang benar-benar Anda pakai tidak dapat menerimanya, karena tidak ada nomor untuk menerimanya."
+    },
+    {
+      "type": "callout",
+      "text": "Kombinasi yang berfungsi: eSIM hanya data untuk internet, plus SIM rumah tetap aktif untuk layanan yang sudah tertaut padanya — dan nomor virtual untuk pendaftaran baru yang memang tidak Anda inginkan di nomor pribadi. Setiap alat melakukan satu hal yang benar-benar dibangun untuknya."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-number-step-by-step",
+      "text": "Jika jawaban Anda “hanya satu kode”: jalur nomor virtual"
+    },
+    {
+      "type": "p",
+      "text": "Untuk skenario kode verifikasi, inilah seluruh prosesnya — memakan sekitar satu menit:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Pilih layanan dan negara",
+          "body": "Di aplikasi SMS Code, pilih apa yang Anda verifikasi — Telegram, WhatsApp, Google, 100+ layanan — dan dari negara mana nomornya. Satu ketukan mencadangkan nomor seluler asli untuk Anda."
+        },
+        {
+          "title": "Pakai nomor di pendaftaran",
+          "body": "Ketik ke formulir verifikasi seperti nomor telepon mana pun, dengan kode negara yang sesuai. Layanan mengirim SMS seperti biasa — ini nomor asli di jaringan operator nyata."
+        },
+        {
+          "title": "Baca kode di aplikasi",
+          "body": "SMS muncul di layar aktivasi biasanya dalam hitungan detik. Salin kode, selesaikan pendaftaran. Jika kode tidak pernah masuk, batalkan aktivasi gratis dan ambil nomor lain — Anda hanya membayar kode yang terkirim."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Tidak ada profil yang dipasang, tidak ada paket yang dimulai, tidak ada yang dibatalkan nanti. Asimetri komitmen itu benar-benar seluruh perbandingan dalam miniatur: eSIM adalah sesuatu yang Anda siapkan dan jalani; nomor virtual adalah sesuatu yang Anda pakai dan selesai."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Bisakah eSIM perjalanan menerima SMS verifikasi?",
+          "a": "Hanya jika ia datang dengan nomor telepon — dan sebagian besar eSIM perjalanan anggaran hanya data, artinya tanpa nomor dan tanpa SMS, selamanya. Periksa halaman produk untuk “suara dan SMS” sebelum mengandalkannya untuk kode. Jika hanya data, nomor virtual mencakup sisi verifikasi."
+        },
+        {
+          "q": "Apakah nomor virtual kartu SIM?",
+          "a": "Tidak. Tidak ada yang dipasang di perangkat Anda — tanpa plastik, tanpa profil eSIM, tanpa perubahan pada setelan seluler. Nomor ada di jaringan penyedia, dan pesan yang diterimanya ditampilkan kepada Anda di aplikasi. SIM Anda sendiri tidak berperan — nomor tidak bergantung pada operator Anda sama sekali. Anda memang membutuhkan koneksi internet di telepon, lewat Wi-Fi atau data seluler, agar aplikasi menampilkan kode."
+        },
+        {
+          "q": "Bisakah saya menyimpan nomor virtual selamanya?",
+          "a": "Nomor aktivasi sewaan tidak dirancang untuk itu — Anda memegang nomor selama jendela aktivasi, cukup lama untuk menerima kode. Akun yang Anda verifikasi tetap berfungsi setelahnya (tetap masuk dan siapkan pemulihan akun), tetapi jika Anda membutuhkan nomor untuk dipublikasikan dan dijawab selama bertahun-tahun, itu masalah paket telepon, bukan nomor virtual."
+        },
+        {
+          "q": "Mana yang lebih murah untuk menerima satu kode?",
+          "a": "Nomor virtual, dengan selisih lebar. Itu satu aktivasi dari paket koin sekali beli, berharga persis untuk tugas itu. Paket eSIM termurah tetap menjual Anda berhari-hari layanan dan gigabita data yang tidak Anda butuhkan untuk satu SMS."
+        },
+        {
+          "q": "Apakah saya pernah membutuhkan keduanya sekaligus?",
+          "a": "Perjalanan adalah kasus klasik: eSIM hanya data menjaga Anda daring, dan nomor virtual menangani pendaftaran baru di sepanjang jalan — sementara SIM rumah tetap dicadangkan untuk akun yang sudah tertaut padanya. Mereka tidak bersaing; mereka menutup titik kegagalan yang berbeda."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}
