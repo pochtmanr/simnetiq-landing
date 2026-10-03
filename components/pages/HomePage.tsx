@@ -276,8 +276,8 @@ export function HomePage({ locale }: { locale: Locale }) {
 
       {/* Inside the app — its own ink card, cut out of the page by a strip
           of the desk above and below, so the change of section is a change
-          of surface. The phones stand in a staggered row and run off the
-          card's bottom edge; on phones the row becomes a swipeable strip. */}
+          of surface. The phones stand whole in a staggered, centred row at
+          about real size; on phones the row becomes a swipeable strip. */}
       <section className="pt-[94px]" id="inside">
         <div className="sheet-cut">
           <div className="sheet-cut__card panel--ink">
@@ -303,7 +303,7 @@ export function HomePage({ locale }: { locale: Locale }) {
                       alt=""
                       width={503}
                       height={900}
-                      sizes="(max-width: 768px) 62vw, 270px"
+                      sizes="(max-width: 768px) 58vw, 220px"
                       className="h-auto w-full"
                     />
                   </figure>

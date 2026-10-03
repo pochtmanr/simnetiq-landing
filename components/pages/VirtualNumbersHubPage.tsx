@@ -1,6 +1,7 @@
+import type { CSSProperties } from "react";
 import Link from "next/link";
 import { Breadcrumbs } from "../Breadcrumbs";
-import { StoreBadges } from "../StoreBadges";
+import { PaintedCta } from "../PaintedCta";
 import { getCountries } from "../../lib/content/countries";
 import { getServices } from "../../lib/content/services";
 import type { ServiceCategory } from "../../lib/content/services/types";
@@ -17,6 +18,14 @@ const CATEGORY_ORDER: ServiceCategory[] = [
   "entertainment",
   "dev",
 ];
+
+function TileArrow() {
+  return (
+    <svg viewBox="0 0 16 16" className="svc-tile__arrow h-[16px] w-[16px] rtl:-scale-x-100" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden>
+      <path d="M3 8h10M9 4l4 4-4 4" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
 
 /** /virtual-numbers — the crawl hub: every service page one click away. */
 export function VirtualNumbersHubPage({ locale }: { locale: Locale }) {
@@ -40,28 +49,76 @@ export function VirtualNumbersHubPage({ locale }: { locale: Locale }) {
         />
       </div>
 
-      <section className="pb-[60px] pt-[10px]">
-        <span className="section-label">{t.hub.label}</span>
-        <h1 className="max-w-3xl text-[clamp(32px,4.2vw,50px)] leading-[1.08] tracking-[-0.02em]">
-          {t.hub.title}
-        </h1>
-        <p className="mt-[22px] max-w-xl text-subheading text-ink-muted">
-          {t.hub.sub}
-        </p>
+      {/* Hero — a full-width ink card: the promise, a jump-chip per
+          category, and every covered service drifting past underneath. */}
+      <section className="pt-[10px]">
+        <div className="panel panel--ink hero-rise overflow-hidden !px-0 !pb-[30px]">
+          <div className="px-[clamp(28px,4vw,42px)]">
+            <span className="section-label !text-accent">{t.hub.label}</span>
+            <h1 className="max-w-[18ch] text-heading-lg !text-white">{t.hub.title}</h1>
+            <p className="mt-[20px] max-w-[56ch] text-prose text-white/65">{t.hub.sub}</p>
+            <nav className="mt-[30px] flex flex-wrap gap-[8px]" aria-label={t.breadcrumbHub}>
+              {grouped.map(({ category, entries }) => (
+                <a key={category} href={`#cat-${category}`} className="jump-chip">
+                  {t.categories[category]}
+                  <span className="jump-chip__count">{entries.length}</span>
+                </a>
+              ))}
+              {countries.length > 0 && (
+                <a href="#countries" className="jump-chip">
+                  {t.country.hubLabel}
+                  <span className="jump-chip__count">{countries.length}</span>
+                </a>
+              )}
+            </nav>
+          </div>
+          <div className="logo-strip logo-strip--ink mt-[40px]" aria-hidden>
+            <div className="marquee-track flex items-center gap-[36px] px-4">
+              {[...services, ...services].map((s, i) => (
+                <span
+                  key={`${s.slug}-${i}`}
+                  className="logo-chip !h-[40px] !w-[40px]"
+                  style={{ "--logo": `url(${s.logo})` } as CSSProperties}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
       </section>
 
-      {grouped.map(({ category, entries }) => (
-        <section key={category} className="pb-[60px]">
-          <span className="section-label">{t.categories[category]}</span>
-          <div className="mt-[15px] grid grid-cols-2 gap-[15px] sm:grid-cols-3 lg:grid-cols-4">
+      {grouped.map(({ category, entries }, gi) => (
+        <section key={category} id={`cat-${category}`} className="scroll-mt-24 pt-[72px]">
+          <div className="flex items-center gap-[12px]">
+            <h2 className="text-heading-sm font-display font-medium text-ink">
+              {t.categories[category]}
+            </h2>
+            <span className="tag-chip">{entries.length}</span>
+          </div>
+          <div
+            className={`mt-[22px] grid gap-[12px] ${
+              gi === 0
+                ? "sm:grid-cols-2 lg:grid-cols-3"
+                : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4"
+            }`}
+          >
             {entries.map((entry) => (
               <Link
                 key={entry.slug}
                 href={localePath(locale, `/virtual-numbers/${entry.slug}`)}
-                className="group flex items-center gap-[15px] rounded-card border border-border bg-card px-[22px] py-[18px] transition-colors hover:border-accent"
+                className={`svc-tile${gi === 0 ? " svc-tile--lg" : ""}`}
               >
-                <img src={entry.logo} alt="" className="h-7 w-7" loading="lazy" />
-                <span className="text-body text-ink">{entry.name}</span>
+                <span className="svc-tile__logo">
+                  <img
+                    src={entry.logo}
+                    alt=""
+                    className={gi === 0 ? "h-8 w-8" : "h-6 w-6"}
+                    loading="lazy"
+                  />
+                </span>
+                <span className={gi === 0 ? "text-subheading" : "text-body font-medium"}>
+                  {entry.name}
+                </span>
+                <TileArrow />
               </Link>
             ))}
           </div>
@@ -70,40 +127,30 @@ export function VirtualNumbersHubPage({ locale }: { locale: Locale }) {
 
       {/* Countries */}
       {countries.length > 0 && (
-        <section className="pb-[60px]" id="countries">
-          <span className="section-label">{t.country.hubLabel}</span>
-          <h2 className="text-heading">{t.country.hubTitle}</h2>
-          <div className="mt-[22px] grid grid-cols-2 gap-[15px] sm:grid-cols-3 lg:grid-cols-4">
-            {countries.map((c) => (
-              <Link
-                key={c.slug}
-                href={localePath(
-                  locale,
-                  `/virtual-numbers/country/${c.slug}`,
-                )}
-                className="group flex items-center gap-[15px] rounded-card border border-border bg-card px-[22px] py-[18px] transition-colors hover:border-accent"
-              >
-                <span className="text-[22px] leading-none">{c.flag}</span>
-                <span className="text-body text-ink">
+        <section className="scroll-mt-24 pt-[94px]" id="countries">
+          <div className="panel">
+            <span className="section-label">{t.country.hubLabel}</span>
+            <h2 className="text-heading">{t.country.hubTitle}</h2>
+            <div className="mt-[28px] flex flex-wrap gap-[10px]">
+              {countries.map((c) => (
+                <Link
+                  key={c.slug}
+                  href={localePath(locale, `/virtual-numbers/country/${c.slug}`)}
+                  className="chip !py-[10px] !text-[14px]"
+                >
+                  <span className="text-[18px] leading-none">{c.flag}</span>
                   {c.copy.name}
-                </span>
-                <span className="ms-auto text-label text-muted">
-                  {c.dialingCode}
-                </span>
-              </Link>
-            ))}
+                  <span className="chip__meta" dir="ltr">{c.dialingCode}</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
       )}
 
-      <p className="text-caption text-muted">{t.hub.allNote}</p>
+      <p className="mt-[22px] text-caption text-muted">{t.hub.allNote}</p>
 
-      <section className="py-[94px]">
-        <div className="card flex flex-col items-center gap-[30px] text-center">
-          <h2 className="max-w-2xl text-heading">{t.ctaTitle}</h2>
-          <StoreBadges locale={locale} placement="hub_cta" />
-        </div>
-      </section>
+      <PaintedCta locale={locale} title={t.ctaTitle} placement="hub_cta" />
     </div>
   );
 }

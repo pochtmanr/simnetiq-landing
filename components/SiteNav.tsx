@@ -121,41 +121,56 @@ export function SiteNav({
               >
                 <LangFlag locale={locale} />
                 <span>{locale.toUpperCase()}</span>
+                <svg
+                  viewBox="0 0 12 12"
+                  className={`h-[10px] w-[10px] fill-none stroke-current text-muted transition-transform ${langOpen ? "rotate-180" : ""}`}
+                  strokeWidth="1.5"
+                  aria-hidden
+                >
+                  <path d="M2.5 4.5 6 8l3.5-3.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
               </button>
 
               {langOpen && (
                 <div
                   role="menu"
                   aria-label={t.langLabel}
-                  className="absolute end-0 top-full mt-[14px] min-w-[156px] rounded-card border border-border bg-card py-[6px]"
+                  className="absolute end-0 top-full mt-[14px] w-[248px] rounded-card border border-border bg-card p-[6px] shadow-[0_12px_32px_rgba(8,30,74,0.10)]"
                 >
-                  {LOCALE_REGISTRY.map((lang) => (
-                    <Link
-                      key={lang.code}
-                      role="menuitem"
-                      href={switchLocalePath(pathname, lang.code)}
-                      onClick={() => setLangOpen(false)}
-                      aria-current={lang.code === locale ? "true" : undefined}
-                      className={`flex items-center justify-between gap-4 px-[16px] py-[9px] text-label transition-colors hover:bg-black/[0.03] ${
-                        lang.code === locale ? "text-ink" : "text-ink-muted"
-                      }`}
-                    >
-                      <span className="flex items-center gap-[10px]">
+                  {LOCALE_REGISTRY.map((lang) => {
+                    const current = lang.code === locale;
+                    return (
+                      <Link
+                        key={lang.code}
+                        role="menuitem"
+                        href={switchLocalePath(pathname, lang.code)}
+                        onClick={() => setLangOpen(false)}
+                        aria-current={current ? "true" : undefined}
+                        className={`flex items-center gap-[12px] rounded-[10px] px-[12px] py-[10px] text-body transition-colors ${
+                          current
+                            ? "bg-panel-mid font-medium text-ink"
+                            : "text-ink-muted hover:bg-canvas hover:text-ink"
+                        }`}
+                      >
                         <LangFlag locale={lang.code} />
-                        {lang.nativeName}
-                      </span>
-                      {lang.code === locale && (
-                        <svg
-                          viewBox="0 0 12 12"
-                          className="h-3 w-3 fill-none stroke-accent-deep"
-                          strokeWidth="1"
-                          aria-hidden
-                        >
-                          <path d="M2 6.5l2.5 2.5L10 3.5" />
-                        </svg>
-                      )}
-                    </Link>
-                  ))}
+                        <span className="flex-1 truncate">{lang.nativeName}</span>
+                        {current ? (
+                          <svg
+                            viewBox="0 0 12 12"
+                            className="h-[13px] w-[13px] fill-none stroke-accent-deep"
+                            strokeWidth="1.6"
+                            aria-hidden
+                          >
+                            <path d="M2 6.5l2.5 2.5L10 3.5" strokeLinecap="round" strokeLinejoin="round" />
+                          </svg>
+                        ) : (
+                          <span className="text-caption font-medium tracking-[0.04em] text-muted">
+                            {lang.code.toUpperCase()}
+                          </span>
+                        )}
+                      </Link>
+                    );
+                  })}
                 </div>
               )}
             </div>

@@ -657,7 +657,7 @@
 }
 
 .showcase-shot {
-  flex: 0 0 62%;
+  flex: 0 0 min(58%, 230px);
   scroll-snap-align: center;
   display: flex;
   flex-direction: column;
@@ -671,17 +671,17 @@
 @media (min-width: 768px) {
   .showcase-row {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: clamp(18px, 2.4vw, 34px);
+    grid-template-columns: repeat(4, minmax(0, 220px));
+    justify-content: center;
+    gap: clamp(18px, 3vw, 44px);
     overflow: visible;
     margin-inline: 0;
-    padding: 0;
-    margin-bottom: calc(-1 * clamp(90px, 10vw, 150px));
+    padding: 0 0 clamp(48px, 6vw, 84px);
   }
 
   /* The stagger: every other phone stands a step lower. */
   .showcase-shot:nth-child(even) {
-    margin-top: clamp(32px, 4vw, 64px);
+    margin-top: clamp(20px, 2.5vw, 36px);
   }
 
   @media (hover: hover) {
@@ -1601,4 +1601,237 @@
   [class*="admin-fade-in"] {
     animation: none !important;
   }
+}
+
+/* --- Virtual-number pages (hub, service, country) ------------------------ */
+
+@layer components {
+  /* Full-width page header: the home hero's panel, holding copy on one side
+     and a picture of the thing on the other. */
+  .page-hero {
+    display: grid;
+    gap: clamp(28px, 4vw, 48px);
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .page-hero {
+      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+    }
+  }
+
+  /* White square holding a brand mark, on a panel. */
+  .logo-tile {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: var(--color-card);
+  }
+
+  /* Plain chip for facts and links: white pill, ink text. On a white
+     surface it takes the panel grey instead. */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: var(--radius-pill);
+    background: var(--color-card);
+    padding: 8px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--color-ink);
+    white-space: nowrap;
+    transition: background-color 160ms ease, color 160ms ease;
+  }
+
+  .chip--on-card {
+    background: var(--color-panel);
+  }
+
+  a.chip:hover {
+    background: var(--color-panel-strong);
+    color: var(--color-accent-deep);
+  }
+
+  .chip__meta {
+    color: var(--color-muted);
+    font-weight: 400;
+  }
+
+  /* Category jump links on the ink hero. */
+  .jump-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: var(--radius-pill);
+    background: rgba(255, 255, 255, 0.08);
+    padding: 8px 8px 8px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+    white-space: nowrap;
+    transition: background-color 160ms ease;
+  }
+
+  .jump-chip:hover {
+    background: rgba(255, 255, 255, 0.16);
+  }
+
+  .jump-chip__count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 22px;
+    height: 22px;
+    padding: 0 6px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  /* Service tile in the hub grid. */
+  .svc-tile {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-radius: var(--radius-card);
+    background: var(--color-card);
+    padding: 14px 18px 14px 14px;
+    color: var(--color-ink);
+    transition: background-color 180ms ease;
+  }
+
+  .svc-tile:hover {
+    background: var(--color-panel-mid);
+  }
+
+  .svc-tile__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--color-canvas);
+    transition: background-color 180ms ease;
+  }
+
+  .svc-tile:hover .svc-tile__logo {
+    background: var(--color-card);
+  }
+
+  .svc-tile__arrow {
+    margin-inline-start: auto;
+    color: var(--color-muted);
+    transition: transform 220ms cubic-bezier(0.2, 0.8, 0.25, 1), color 180ms ease;
+  }
+
+  .svc-tile:hover .svc-tile__arrow {
+    color: var(--color-accent-deep);
+    transform: translateX(4px);
+  }
+
+  [dir="rtl"] .svc-tile:hover .svc-tile__arrow {
+    transform: translateX(-4px);
+  }
+
+  /* Featured tiles: the first category, a size up. */
+  .svc-tile--lg {
+    padding: 22px 24px 22px 22px;
+    gap: 18px;
+  }
+
+  .svc-tile--lg .svc-tile__logo {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+  }
+
+  /* Service hero's picture: the code as it lands, a notification on a
+     soft-blue field with the service mark large and faint behind it. */
+  .sms-stage {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    min-height: 280px;
+    border-radius: var(--radius-card);
+    background: linear-gradient(160deg, var(--color-panel-mid), var(--color-panel-strong));
+    padding: clamp(24px, 3vw, 36px);
+  }
+
+  .sms-stage__mark {
+    position: absolute;
+    inset-inline-end: -40px;
+    bottom: -40px;
+    width: 220px;
+    height: 220px;
+    opacity: 0.12;
+    pointer-events: none;
+  }
+
+  .sms-preview {
+    position: relative;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.92);
+    padding: 14px 16px;
+    box-shadow: 0 10px 30px rgba(8, 30, 74, 0.14);
+  }
+
+  .sms-preview--ghost {
+    opacity: 0.55;
+    transform: scale(0.94);
+    box-shadow: none;
+  }
+
+  .sms-code {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--color-accent-deep);
+  }
+
+  /* Numbered badge for how-to steps. */
+  .step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 999px;
+    background: var(--color-panel-strong);
+    color: var(--color-accent-deep);
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .tip-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    background: var(--color-panel-strong);
+    color: var(--color-accent-deep);
+  }
+}
+
+/* Marquee on the ink hero: logos tinted light so they read on the dark. */
+.logo-strip--ink .logo-chip::before {
+  background: rgba(255, 255, 255, 0.42);
 }
