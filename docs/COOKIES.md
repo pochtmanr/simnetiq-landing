@@ -42,8 +42,8 @@ visitor can allow analytics and refuse ads.
 - **Never call `track()`, `gtag()` or `fbq()` directly.** Use
   `trackEvent(name, props)` from `lib/consent.ts`; it no-ops without consent and
   fans out to every tool the visitor allowed. GA receives the name snake_cased
-  (`CTA Click iOS` → `cta_click_ios`); Meta receives it as a custom event with
-  spaces removed (`CTAClickiOS`).
+  (`CTA Click iOS` → `cta_click_ios`); Meta gets what `META_EVENTS` maps it to
+  (see *Meta events* below).
 - **Any new script that sets cookies or identifies a browser** goes inside
   `ConsentedAnalytics` behind the right flag, never straight into a layout.
 - **Adding a category, or changing what a tool is used for:** bump
@@ -98,20 +98,36 @@ to override the ID, or to an empty string to switch the pixel off. The
 `<noscript>` image from Meta's snippet is deliberately left out: it would fire
 without consent.
 
-What it sends: `PageView` on load and on every client-side navigation, plus
-every `trackEvent()` call as a custom event (e.g. `CTAClickiOS` with
-`placement`).
+### Meta events (defined in code — no Event Setup Tool)
 
-1. **Verify the domain.** Meta Business Suite → Settings → Brand safety →
-   Domains → add `simnetiq.xyz` → DNS TXT record (add it at the DNS host) →
-   Verify. Needed to configure web events and for iOS 14+ measurement.
+All defined in `lib/consent.ts` (`META_EVENTS`, `trackView`). Sent only with
+marketing consent; anything fired before the pixel has loaded is queued and
+sent right after `init`.
+
+| When | Standard event | Custom event | Parameters |
+| --- | --- | --- | --- |
+| Every page load / client navigation | `PageView` | — | — |
+| Any App Store button click | `Lead` | `AppStoreClick` | `placement` (see table above) |
+| Service page viewed (`/virtual-numbers/<service>`) | `ViewContent` | `ViewService` | `content_type=service`, `content_name=<slug>` |
+| Country page viewed | `ViewContent` | `ViewCountry` | `content_type=country`, `content_name=<slug>` |
+| Alternative page viewed | `ViewContent` | `ViewAlternative` | `content_type=alternative`, `content_name=<slug>` |
+| Support form sent | `Contact` | `SupportSent` | — |
+
+Standard events can be picked directly as a campaign's conversion goal
+(`Lead` = went to the App Store). Custom events are for reporting and custom
+audiences (e.g. "ViewService where content_name = telegram, last 30 days").
+To add one: call `trackEvent("Name", props)` and, if it should map to a
+standard event, add it to `META_EVENTS`.
+
+1. **Verify the domain.** The meta-tag method is already in the site's
+   `<head>` (`app/[locale]/layout.tsx`, `facebook-domain-verification`).
+   Business Settings → Brand safety → Domains → `simnetiq.xyz` → Meta-tag
+   tab → Verify (after the deploy is live). Needed to configure web events and for iOS 14+ measurement.
 2. **Check it fires.** Install the *Meta Pixel Helper* Chrome extension →
    open the site → Accept → the helper shows `PageView`. Events Manager →
    the pixel → *Test events* → enter `https://simnetiq.xyz` → click around.
-3. **Make the App Store click a conversion.** Events Manager → the pixel →
-   Custom conversions → Create → event `CTAClickiOS` → category *Lead*
-   (or *Start trial*). Use that as the optimisation event for website-traffic
-   campaigns.
+3. **Optimise for App Store clicks.** In the campaign, pick the pixel's
+   standard event `Lead`. No custom conversion needed.
 4. **Withdrawal check.** Cookie settings → Marketing off → Save: `_fbp` is gone,
    and Pixel Helper shows no new events.
 5. *Later, optional:* Conversions API (server-side events) improves match rates
@@ -121,7 +137,7 @@ every `trackEvent()` call as a custom event (e.g. `CTAClickiOS` with
 
 Every link to the App Store fires one event, `CTA Click iOS`, with a
 `placement` parameter saying which button it was. In GA it arrives as
-`cta_click_ios`; in Meta as the custom event `CTAClickiOS`.
+`cta_click_ios`; in Meta as `Lead` + `AppStoreClick`.
 
 | placement | Button |
 | --- | --- |

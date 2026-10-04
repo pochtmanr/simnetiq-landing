@@ -9,6 +9,7 @@ import type { ServiceEntry } from "../../lib/content/services/types";
 import { servicesUi, ui } from "../../lib/content/ui";
 import { localePath, type Locale } from "../../lib/i18n";
 import { faqPage } from "../../lib/seo";
+import { TrackView } from "../TrackView";
 
 /* The sample SMS with its code picked out in the accent. */
 function SmsText({ message, code }: { message: string; code: string }) {
@@ -41,6 +42,7 @@ export function ServicePage({
   return (
     <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
       <JsonLd data={faqPage(locale, c.faqs)} />
+      <TrackView type="service" name={entry.slug} />
       <div className="pt-[40px]">
         <Breadcrumbs
           locale={locale}

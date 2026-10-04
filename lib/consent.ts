@@ -121,15 +121,54 @@ export function onOpenCookieSettings(cb: () => void) {
 /* --- Events ----------------------------------------------------------------- */
 
 type Tag = (...args: unknown[]) => void;
+type Params = Record<string, string>;
+
+/* How each product event reaches Meta, defined here rather than in Meta's
+   Event Setup Tool. `standard` is one of Meta's standard events, which ads can
+   optimise for directly; `custom` is our own name, for reporting. Events not
+   listed go to Meta as a custom event with the spaces removed. */
+const META_EVENTS: Record<string, { standard?: string; custom: string }> = {
+  "CTA Click iOS": { standard: "Lead", custom: "AppStoreClick" },
+  "Support Sent": { standard: "Contact", custom: "SupportSent" },
+};
 
 /** Records a product event in every tool the visitor agreed to: Vercel and
- *  GA with analytics consent, Meta Pixel (as a custom event, name unchanged)
- *  with marketing consent. Without either it does nothing. */
-export function trackEvent(name: string, props?: Record<string, string>) {
-  const w = window as Window & { gtag?: Tag; fbq?: Tag };
+ *  GA with analytics consent, Meta Pixel with marketing consent. Without
+ *  either it does nothing. */
+export function trackEvent(name: string, props?: Params) {
   if (hasAnalyticsConsent()) {
     track(name, props);
-    w.gtag?.("event", name.toLowerCase().replace(/\s+/g, "_"), props);
+    const gtag = (window as Window & { gtag?: Tag }).gtag;
+    gtag?.("event", name.toLowerCase().replace(/\s+/g, "_"), props);
   }
-  if (hasMarketingConsent()) w.fbq?.("trackCustom", name.replace(/\s+/g, ""), props);
+  const meta = META_EVENTS[name] ?? { custom: name.replace(/\s+/g, "") };
+  if (meta.standard) metaTrack("track", meta.standard, props);
+  metaTrack("trackCustom", meta.custom, props);
+}
+
+/** Meta's ViewContent for a landing page about one thing (a service, a
+ *  country, an alternative) — the event to build audiences from. Meta only. */
+export function trackView(contentType: string, contentName: string) {
+  metaTrack("track", "ViewContent", { content_type: contentType, content_name: contentName });
+  metaTrack("trackCustom", `View${contentType[0].toUpperCase()}${contentType.slice(1)}`, {
+    content_name: contentName,
+  });
+}
+
+/* Calls made before the pixel has loaded (a page's mount effect can run
+   before the loader's) wait here and are sent, in order, once it has. */
+const metaPending: unknown[][] = [];
+
+function metaTrack(method: "track" | "trackCustom", event: string, params?: Params) {
+  if (!hasMarketingConsent()) return;
+  const fbq = (window as Window & { fbq?: Tag }).fbq;
+  if (fbq) fbq(method, event, params);
+  else metaPending.push([method, event, params]);
+}
+
+/** Sends the calls queued before the pixel loaded. Called by the loader. */
+export function flushMetaQueue() {
+  const fbq = (window as Window & { fbq?: Tag }).fbq;
+  if (!fbq) return;
+  for (const args of metaPending.splice(0)) fbq(...args);
 }

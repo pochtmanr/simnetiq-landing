@@ -35,6 +35,8 @@ export async function generateMetadata({
     applicationName: APP_NAME,
     title: { default: t.name, template: t.titleTemplate },
     icons: { icon: "/icon.png", apple: "/apple-icon.png" },
+    /* Meta Business Manager domain verification for simnetiq.xyz. */
+    other: { "facebook-domain-verification": "nqvr2f6buk58351r01fls3iatjocl8" },
   };
 }
 

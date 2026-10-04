@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/next";
 import {
   getConsentSnapshot,
   getServerConsentSnapshot,
+  flushMetaQueue,
   hasAnalyticsConsent,
   subscribeConsent,
 } from "../lib/consent";
@@ -70,9 +71,28 @@ export function ConsentedAnalytics() {
 
 function MetaPixel({ id }: { id: string }) {
   const pathname = usePathname();
-  /* The loader script sends the first PageView itself; this only reports the
-     navigations that follow. */
+  /* The loader sends the first PageView itself; the effect below only
+     reports the navigations that follow. */
   const lastPath = useRef(pathname);
+
+  /* Meta's base code, run from an effect rather than a <Script> so that
+     events queued before it (lib/consent.ts) are sent straight after init.
+     An inline <script> element executes synchronously when appended. */
+  useEffect(() => {
+    if (!(window as TagWindow).fbq) {
+      const base = document.createElement("script");
+      base.text = `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('consent','grant');
+fbq('init',${JSON.stringify(id)});
+fbq('track','PageView');`;
+      document.head.appendChild(base);
+    }
+    flushMetaQueue();
+  }, [id]);
 
   useEffect(() => {
     if (pathname === lastPath.current) return;
@@ -80,18 +100,7 @@ function MetaPixel({ id }: { id: string }) {
     (window as TagWindow).fbq?.("track", "PageView");
   }, [pathname]);
 
-  return (
-    <Script id="meta-pixel" strategy="afterInteractive">
-      {`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('consent','grant');
-fbq('init',${JSON.stringify(id)});
-fbq('track','PageView');`}
-    </Script>
-  );
+  return null;
 }
 
 function GoogleAnalytics({ id }: { id: string }) {

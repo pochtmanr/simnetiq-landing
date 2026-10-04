@@ -6,6 +6,7 @@ import type { AlternativeEntry } from "../../lib/content/alternatives/types";
 import { alternativesUi, ui } from "../../lib/content/ui";
 import { localePath, type Locale } from "../../lib/i18n";
 import { faqPage } from "../../lib/seo";
+import { TrackView } from "../TrackView";
 
 /** Template for /alternatives/[competitor] — fair, factual comparison. */
 export function AlternativePage({
@@ -20,6 +21,7 @@ export function AlternativePage({
   return (
     <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
       <JsonLd data={faqPage(locale, c.faqs)} />
+      <TrackView type="alternative" name={entry.slug} />
       <div className="pt-[40px]">
         <Breadcrumbs
           locale={locale}

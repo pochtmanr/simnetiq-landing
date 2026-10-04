@@ -2,6 +2,7 @@
 
 import Script from "next/script";
 import { useState } from "react";
+import { trackEvent } from "../lib/consent";
 import type { SupportDict } from "../lib/content/ui";
 import type { Locale } from "../lib/i18n";
 
@@ -40,6 +41,7 @@ export function SupportForm({ locale, t }: { locale: Locale; t: SupportDict["for
         throw new Error(body?.error ?? t.genericError);
       }
       setStatus("sent");
+      trackEvent("Support Sent");
       form.reset();
     } catch (err) {
       setStatus("error");

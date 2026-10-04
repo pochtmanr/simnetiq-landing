@@ -7,6 +7,7 @@ import type { CountryEntry } from "../../lib/content/countries/types";
 import { servicesUi, ui } from "../../lib/content/ui";
 import type { Locale } from "../../lib/i18n";
 import { faqPage } from "../../lib/seo";
+import { TrackView } from "../TrackView";
 
 /** Template for /virtual-numbers/country/[country]. */
 export function CountryPage({
@@ -21,6 +22,7 @@ export function CountryPage({
   return (
     <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)]">
       <JsonLd data={faqPage(locale, c.faqs)} />
+      <TrackView type="country" name={entry.slug} />
       <div className="pt-[40px]">
         <Breadcrumbs
           locale={locale}
