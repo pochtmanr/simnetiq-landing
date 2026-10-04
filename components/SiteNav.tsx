@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { track } from "@vercel/analytics";
+import { trackEvent } from "../lib/consent";
 import { localePath, switchLocalePath, type Locale } from "../lib/i18n";
 import { LOCALE_REGISTRY } from "../lib/locales";
 import type { UiDict } from "../lib/content/ui";
@@ -179,7 +179,7 @@ export function SiteNav({
                 size down so it fits the bar. */}
             <a
               href={APP_STORE_URL}
-              onClick={() => track("CTA Click iOS", { placement: "nav" })}
+              onClick={() => trackEvent("CTA Click iOS", { placement: "nav" })}
               className="cta cta--sm max-sm:hidden"
             >
               <AppleGlyph className="h-[14px] w-[14px]" />
@@ -229,7 +229,7 @@ export function SiteNav({
                 href={APP_STORE_URL}
                 onClick={() => {
                   setOpen(false);
-                  track("CTA Click iOS", { placement: "nav" });
+                  trackEvent("CTA Click iOS", { placement: "nav" });
                 }}
                 className="cta cta--sm mb-[14px] mt-[8px] w-full justify-center sm:hidden"
               >

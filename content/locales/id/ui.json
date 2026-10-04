@@ -56,7 +56,31 @@
     "rights": "Hak cipta dilindungi.",
     "registered": "Terdaftar di",
     "companyNo": "no. perusahaan",
-    "registeredOffice": "Kantor terdaftar"
+    "registeredOffice": "Kantor terdaftar",
+    "cookies": "Kebijakan Cookie",
+    "cookieSettings": "Pengaturan cookie"
+  },
+  "cookies": {
+    "bannerLabel": "Persetujuan cookie",
+    "bannerTitle": "Cookie, Anda yang menentukan",
+    "bannerBody": "Dengan izin Anda, kami memakai analitik untuk melihat halaman mana yang benar-benar membantu, dan Meta Pixel untuk mengukur iklan kami. Tidak ada yang berjalan sampai Anda memilih.",
+    "policyLink": "Kebijakan Cookie",
+    "reject": "Tolak",
+    "accept": "Terima",
+    "customize": "Sesuaikan",
+    "dialogTitle": "Pengaturan cookie",
+    "dialogIntro": "Pilih apa yang boleh dipakai situs ini. Anda bisa mengubahnya kapan saja dari bagian bawah halaman.",
+    "necessaryTitle": "Benar-benar diperlukan",
+    "necessaryBody": "Satu cookie yang mengingat pilihan ini, agar kami tidak bertanya di setiap halaman.",
+    "alwaysOn": "Selalu aktif",
+    "analyticsTitle": "Analitik",
+    "analyticsBody": "Vercel Web Analytics dan Google Analytics menghitung kunjungan dan klik agar kami tahu halaman mana yang berguna. Google Analytics memasang cookie _ga. Tidak pernah dipakai untuk iklan.",
+    "marketingTitle": "Pemasaran",
+    "marketingBody": "Meta Pixel memberi tahu kami saat sebuah kunjungan berasal dari salah satu iklan kami di Facebook atau Instagram, agar kami tahu iklan mana yang berhasil. Memasang cookie _fbp, dan Meta juga dapat memakai data ini sesuai kebijakannya sendiri.",
+    "rejectAll": "Tolak semua",
+    "acceptAll": "Terima semua",
+    "save": "Simpan pilihan",
+    "close": "Tutup"
   },
   "badges": {
     "appStore": "Unduh di App Store"

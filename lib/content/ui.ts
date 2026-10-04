@@ -19,7 +19,7 @@ export const alternativesUi = (locale: Locale) =>
   requireLocaleFile<AlternativesUiDict>(locale, "alternatives-ui");
 export const blogUi = (locale: Locale) => requireLocaleFile<BlogUiDict>(locale, "blog-ui");
 export const supportUi = (locale: Locale) => requireLocaleFile<SupportDict>(locale, "support");
-export const legal = (locale: Locale, doc: "privacy" | "terms") =>
+export const legal = (locale: Locale, doc: "privacy" | "terms" | "cookies") =>
   requireLocaleFile<LegalDict>(locale, doc);
 
 /* Locale-neutral pieces of the home page. */

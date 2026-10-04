@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Cookie Policy",
+    "description": "Which cookies simnetiq.xyz uses, why, how long they last, and how to accept, reject or change your choice at any time, from any page."
+  },
+  "prevailingNotice": "This translation is provided for convenience. If it differs from the English version, the English version prevails.",
+  "label": "Legal",
+  "title": "Cookie Policy",
+  "updatedLabel": "Last updated:",
+  "sections": [
+    {
+      "title": "1. What this policy covers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "This policy explains how SIMNETIQ LTD (“we”, “us”) uses cookies and similar technologies on simnetiq.xyz (the “Site”). It supplements our Privacy Policy, which explains how we handle personal data more broadly. Questions: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. What cookies are",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cookies are small text files a website stores in your browser. “Similar technologies” means anything else that stores or reads information on your device, such as local storage or a script that measures a visit. The law treats them the same way: anything that is not strictly necessary needs your consent first."
+        }
+      ]
+    },
+    {
+      "title": "3. What we use",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Strictly necessary — sc_consent.** A first-party cookie we set when you make a choice in the cookie banner. It stores that choice and the date you made it, so we don’t ask again on every page. It expires after 12 months, and then we ask again. It needs no consent: without it we could not respect your choice.",
+            "**Analytics — Vercel Web Analytics.** Provided by Vercel Inc. Counts page views and clicks on the download buttons. It stores no cookies on your device; a visit is recognised for up to 24 hours using a hash of the request that cannot identify you. Loaded only if you accept analytics.",
+            "**Analytics — Google Analytics: _ga and _ga_<ID>.** Provided by Google Ireland Limited and Google LLC. First-party cookies that tell returning browsers apart and keep a visit together, so we can see which pages people find useful. Each lasts up to 2 years. Set only if you accept analytics, with advertising features switched off.",
+            "**Marketing — Meta Pixel: _fbp.** Provided by Meta Platforms Ireland Limited. A script and a first-party cookie that tell Meta when someone who saw or clicked one of our ads on Facebook or Instagram visits the Site, so we can measure which ads work. The cookie lasts up to 90 days. Meta receives the page address, browser information and your IP address, and may also use this data for its own purposes under its privacy policy. Set only if you accept marketing."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. What we don’t use",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No advertising cookies other than the Meta Pixel described above, which runs only if you accept marketing. No other social media trackers and no profiling across other websites on our part. We do not sell data from cookies."
+        }
+      ]
+    },
+    {
+      "title": "5. Your choice",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "On your first visit the banner offers **Accept** and **Reject**, side by side and equally easy. Until you choose, no analytics runs.",
+            "**Customize** lets you switch each category on or off. Strictly necessary cookies are always on.",
+            "You can change or withdraw your choice at any time with **Cookie settings** at the bottom of every page, or with the button below. Withdrawing stops analytics straight away and deletes the Google Analytics cookies from your browser.",
+            "Marketing works the same way: the Meta Pixel stays off until you accept it, and withdrawing stops it straight away and deletes its _fbp cookie from your browser.",
+            "You can also block or delete cookies in your browser settings. If you block sc_consent, the banner will ask again on each visit."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Where the data goes",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vercel and Google may process analytics data in the United States. Those transfers rely on the EU–US Data Privacy Framework and its UK Extension, or on standard contractual clauses. Section 6 of our Privacy Policy has more on international transfers."
+        },
+        {
+          "type": "p",
+          "text": "Meta may process marketing data in the United States, on the same transfer bases."
+        }
+      ]
+    },
+    {
+      "title": "7. The App",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The SMS Code app uses no cookies and contains no analytics, advertising or attribution SDK. This policy covers the Site only."
+        }
+      ]
+    },
+    {
+      "title": "8. Changes to this policy",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If we add a cookie or change what one is for, we update this policy and ask for your consent again. The “Last updated” date above always reflects the current version."
+        }
+      ]
+    }
+  ]
+}

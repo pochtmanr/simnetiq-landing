@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Çerez Politikası",
+    "description": "simnetiq.xyz hangi çerezleri, neden kullanıyor, ne kadar süre saklıyor ve seçiminizi istediğiniz zaman nasıl kabul edip reddedebilir ya da değiştirebilirsiniz."
+  },
+  "prevailingNotice": "Bu çeviri kolaylık için sunulmuştur. İngilizce sürümle farklılık varsa İngilizce sürüm geçerlidir.",
+  "label": "Hukuki",
+  "title": "Çerez Politikası",
+  "updatedLabel": "Son güncelleme:",
+  "sections": [
+    {
+      "title": "1. Bu politikanın kapsamı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu politika, SIMNETIQ LTD’nin (“biz”) simnetiq.xyz (“Site”) üzerinde çerezleri ve benzer teknolojileri nasıl kullandığını açıklar. Kişisel verileri genel olarak nasıl işlediğimizi anlatan Gizlilik Politikamızı tamamlar. Sorularınız için: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Çerez nedir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Çerezler, bir web sitesinin tarayıcınızda sakladığı küçük metin dosyalarıdır. “Benzer teknolojiler”, cihazınızda bilgi saklayan veya okuyan diğer her şeydir; örneğin yerel depolama ya da bir ziyareti ölçen bir betik. Yasa bunların hepsine aynı şekilde yaklaşır: kesinlikle gerekli olmayan her şey için önce onayınız gerekir."
+        }
+      ]
+    },
+    {
+      "title": "3. Kullandıklarımız",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Kesinlikle gerekli — sc_consent.** Çerez bandında bir seçim yaptığınızda yerleştirdiğimiz birinci taraf çerezi. Her sayfada yeniden sormamak için bu seçimi ve tarihini saklar. 12 ay sonra sona erer ve o zaman yeniden sorarız. Onay gerektirmez: o olmadan seçiminize uyamayız.",
+            "**Analitik — Vercel Web Analytics.** Vercel Inc. tarafından sağlanır. Sayfa görüntülemelerini ve indirme düğmelerine yapılan tıklamaları sayar. Cihazınızda çerez saklamaz; bir ziyaret, sizi tanımlayamayan bir istek özeti (hash) ile en fazla 24 saat boyunca tanınır. Yalnızca analitiği kabul ederseniz yüklenir.",
+            "**Analitik — Google Analytics: _ga ve _ga_<ID>.** Google Ireland Limited ve Google LLC tarafından sağlanır. Geri dönen tarayıcıları birbirinden ayıran ve bir ziyareti bir arada tutan birinci taraf çerezleri; böylece hangi sayfaların faydalı olduğunu görürüz. Her biri en fazla 2 yıl saklanır. Yalnızca analitiği kabul ederseniz ve reklam özellikleri kapalı olarak yerleştirilir.",
+            "**Pazarlama — Meta Pikseli: _fbp.** Meta Platforms Ireland Limited tarafından sağlanır. Facebook veya Instagram’daki reklamlarımızdan birini gören ya da tıklayan biri Siteyi ziyaret ettiğinde bunu Meta’ya bildiren bir betik ve birinci taraf çerezi; böylece hangi reklamların işe yaradığını ölçeriz. Çerez en fazla 90 gün saklanır. Meta sayfa adresini, tarayıcı bilgilerini ve IP adresinizi alır ve bu verileri gizlilik politikası kapsamında kendi amaçları için de kullanabilir. Yalnızca pazarlamayı kabul ederseniz yerleştirilir."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Kullanmadıklarımız",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yukarıda açıklanan ve yalnızca pazarlamayı kabul ederseniz çalışan Meta Pikseli dışında reklam çerezi yok. Başka sosyal medya izleyicisi yok ve bizim tarafımızdan diğer sitelerde profil oluşturma yok. Çerez verilerini satmayız."
+        }
+      ]
+    },
+    {
+      "title": "5. Seçiminiz",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "İlk ziyaretinizde bant **Kabul et** ve **Reddet** seçeneklerini yan yana ve aynı kolaylıkta sunar. Siz seçene kadar hiçbir analitik çalışmaz.",
+            "**Özelleştir** ile her kategoriyi açıp kapatabilirsiniz. Kesinlikle gerekli çerezler her zaman açıktır.",
+            "Seçiminizi istediğiniz zaman her sayfanın altındaki **Çerez ayarları** ile ya da aşağıdaki düğmeyle değiştirebilir veya geri çekebilirsiniz. Onayı geri çektiğinizde analitik hemen durur ve Google Analytics çerezleri tarayıcınızdan silinir.",
+            "Pazarlama da aynı şekilde çalışır: Meta Pikseli siz kabul edene kadar kapalı kalır; onayı geri çektiğinizde hemen durur ve _fbp çerezi tarayıcınızdan silinir.",
+            "Çerezleri tarayıcı ayarlarınızdan da engelleyebilir veya silebilirsiniz. sc_consent çerezini engellerseniz bant her ziyarette yeniden sorar."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Veriler nereye gider",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vercel ve Google analitik verilerini Amerika Birleşik Devletleri’nde işleyebilir. Bu aktarımlar AB–ABD Veri Gizliliği Çerçevesi (EU–US Data Privacy Framework) ve Birleşik Krallık uzantısına ya da standart sözleşme maddelerine dayanır. Uluslararası aktarımlarla ilgili ayrıntılar Gizlilik Politikamızın 6. bölümündedir."
+        },
+        {
+          "type": "p",
+          "text": "Meta pazarlama verilerini aynı aktarım dayanaklarıyla Amerika Birleşik Devletleri’nde işleyebilir."
+        }
+      ]
+    },
+    {
+      "title": "7. Uygulama",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SMS Code uygulaması çerez kullanmaz ve hiçbir analitik, reklam veya ilişkilendirme SDK’sı içermez. Bu politika yalnızca Site için geçerlidir."
+        }
+      ]
+    },
+    {
+      "title": "8. Bu politikadaki değişiklikler",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bir çerez eklersek veya bir çerezin amacını değiştirirsek bu politikayı günceller ve onayınızı yeniden isteriz. Yukarıdaki “Son güncelleme” tarihi her zaman geçerli sürümü gösterir."
+        }
+      ]
+    }
+  ]
+}

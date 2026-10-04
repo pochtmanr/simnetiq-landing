@@ -92,18 +92,21 @@ export function RichText({ text }: { text: string }) {
   );
 }
 
-/** A full legal document (privacy-policy.json / terms.json). */
+/** A full legal document (privacy.json / terms.json / cookies.json). */
 export function LegalDocument({
   doc,
   locale,
   updatedAt,
   translated,
+  children,
 }: {
   doc: LegalDict;
   locale: Locale;
   updatedAt: string;
   /** Show the "English version prevails" notice. */
   translated: boolean;
+  /** Rendered after the last section, inside the card. */
+  children?: React.ReactNode;
 }) {
   return (
     <LegalShell
@@ -134,6 +137,7 @@ export function LegalDocument({
           )}
         </LegalSection>
       ))}
+      {children}
     </LegalShell>
   );
 }

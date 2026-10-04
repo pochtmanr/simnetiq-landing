@@ -41,7 +41,8 @@
             "**Activation data.** The service, country, virtual number and the text of verification SMS messages received on that number, kept for the time needed to deliver the code to you and to resolve disputes.",
             "**Device data.** Two things, and only if they apply to you. If you allow notifications, the push token your device is issued, so we can tell you a code has arrived. And the two-letter region code your device reports (for example *GB*), sent with the country list so we can mark one country “Recommended” — this is a device setting, not your location, and no location permission is involved.",
             "**Support data.** When you contact support through the Site or by email, we collect your name, email address and the content of your message. Support requests submitted on the Site are stored in our database (hosted on Supabase) and processed through our email tooling in order to respond to you. We also store your browser’s user-agent string and a salted one-way hash of your IP address, to block automated abuse of the form.",
-            "**Website analytics.** The Site uses Vercel Web Analytics, which counts page views without cookies and without profiling you across other websites. The App contains no analytics, advertising or attribution SDK of any kind."
+            "**Website analytics.** Only if you accept analytics in the Site’s cookie banner, the Site uses Vercel Web Analytics, which counts page views without cookies, and Google Analytics, which sets first-party cookies (_ga) to recognise a returning browser. Neither is used for advertising or to profile you across other websites. Our Cookie Policy lists every cookie, and you can withdraw consent at any time under Cookie settings at the bottom of every page. The App contains no analytics, advertising or attribution SDK of any kind.",
+            "**Advertising measurement.** Only if you accept marketing in the Site’s cookie banner, the Site loads the Meta Pixel, which sets a first-party cookie (_fbp) and tells Meta when a visit came from one of our ads, so we can measure which ads work. The App does not use it."
           ]
         },
         {
@@ -60,12 +61,13 @@
             "To maintain your coin balance and restore purchases across devices (performance of a contract).",
             "To answer support requests (legitimate interests / performance of a contract).",
             "To detect and prevent fraud, abuse and violations of our Terms of Service (legitimate interests).",
-            "To keep the Site working and understand which pages people find useful, using aggregated, cookie-free website analytics (legitimate interests)."
+            "To understand which pages of the Site people find useful, using website analytics — only if you accept it in the cookie banner (consent, which you can withdraw at any time).",
+            "To measure how our ads on Facebook and Instagram perform, using the Meta Pixel — only if you accept marketing in the cookie banner (consent, which you can withdraw at any time)."
           ]
         },
         {
           "type": "p",
-          "text": "We do not sell your personal data and we do not use it for third-party advertising."
+          "text": "We do not sell your personal data. We share Site visit data with Meta only if you accept marketing cookies, to measure our own ads. App data is never shared with advertisers."
         }
       ]
     },
@@ -83,14 +85,16 @@
             "**Apple** — processes every in-app purchase, and handles Sign in with Apple if you use it. We never see your payment details.",
             "**RevenueCat** — validates purchase receipts and tells our backend which coin pack you bought. It receives your account identifier, purchase data and basic device information.",
             "**Expo** — delivers push notifications and App updates. It receives your push token and the text of the notification.",
-            "**Vercel** — hosts the Site and provides its analytics.",
+            "**Vercel** — hosts the Site and provides its cookieless page-view analytics.",
+            "**Google** — provides Google Analytics on the Site, only if you accept analytics. It receives page views, device and browser information and the identifier stored in the _ga cookie, with advertising features switched off.",
+            "**Meta** — provides the Meta Pixel on the Site, only if you accept marketing. It receives page views, browser information, your IP address and the identifier in the _fbp cookie, and may also use this data for its own purposes, as an independent controller under its own privacy policy.",
             "**Our email tooling** — carries support correspondence.",
             "**Our telephony provider** — supplies the virtual numbers. It is sent only the service and country you asked for; it receives no identifier of yours at all, and we do not send your app account identifier. The provider processes numbers and SMS content to deliver the service."
           ]
         },
         {
           "type": "p",
-          "text": "Providers acting as processors must be subject to appropriate data processing terms. We do not sell your data and we share nothing with advertisers. We may also disclose data where required by law."
+          "text": "Providers acting as processors must be subject to appropriate data processing terms. We do not sell your data, and apart from Meta (only with your marketing consent) we share nothing with advertisers. We may also disclose data where required by law."
         }
       ]
     },
@@ -99,7 +103,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Some providers are located outside the United Kingdom. Where data leaves the UK or the European Economic Area, applicable data protection law requires an appropriate transfer basis, such as an adequacy decision or contractual safeguards. Contact us for information about the safeguards for your data."
+          "text": "Some providers are located outside the United Kingdom. Where data leaves the UK or the European Economic Area, applicable data protection law requires an appropriate transfer basis, such as an adequacy decision or contractual safeguards. Vercel and Google may process website analytics data in the United States; those transfers rely on the EU–US Data Privacy Framework and its UK Extension, or on standard contractual clauses. Contact us for information about the safeguards for your data."
+        },
+        {
+          "type": "p",
+          "text": "Meta may process marketing data from the Site in the United States, on the same transfer bases."
         }
       ]
     },

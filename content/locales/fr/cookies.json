@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Politique relative aux cookies",
+    "description": "Quels cookies simnetiq.xyz utilise, pourquoi, combien de temps ils durent, et comment accepter, refuser ou modifier votre choix à tout moment."
+  },
+  "prevailingNotice": "Cette traduction est fournie à titre de commodité. En cas de différence avec la version anglaise, la version anglaise prévaut.",
+  "label": "Mentions légales",
+  "title": "Politique relative aux cookies",
+  "updatedLabel": "Dernière mise à jour :",
+  "sections": [
+    {
+      "title": "1. Objet de cette politique",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cette politique explique comment SIMNETIQ LTD (« nous ») utilise des cookies et technologies similaires sur simnetiq.xyz (le « Site »). Elle complète notre Politique de confidentialité, qui décrit plus largement la manière dont nous traitons les données personnelles. Questions : {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Ce que sont les cookies",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Les cookies sont de petits fichiers texte qu’un site enregistre dans votre navigateur. Les « technologies similaires » désignent tout autre moyen d’enregistrer ou de lire des informations sur votre appareil, comme le stockage local ou un script qui mesure une visite. La loi les traite de la même façon : tout ce qui n’est pas strictement nécessaire requiert d’abord votre consentement."
+        }
+      ]
+    },
+    {
+      "title": "3. Ce que nous utilisons",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Strictement nécessaire — sc_consent.** Un cookie propriétaire que nous déposons lorsque vous faites un choix dans le bandeau cookies. Il enregistre ce choix et sa date, pour ne pas vous le redemander à chaque page. Il expire au bout de 12 mois, et nous vous redemandons alors. Il ne requiert aucun consentement : sans lui, nous ne pourrions pas respecter votre choix.",
+            "**Mesure d’audience — Vercel Web Analytics.** Fourni par Vercel Inc. Compte les pages vues et les clics sur les boutons de téléchargement. Il n’enregistre aucun cookie sur votre appareil ; une visite est reconnue pendant 24 heures au plus grâce à une empreinte (hash) de la requête qui ne permet pas de vous identifier. Chargé uniquement si vous acceptez la mesure d’audience.",
+            "**Mesure d’audience — Google Analytics : _ga et _ga_<ID>.** Fourni par Google Ireland Limited et Google LLC. Des cookies propriétaires qui distinguent les navigateurs qui reviennent et relient les pages d’une même visite, pour que nous sachions quelles pages sont utiles. Chacun dure jusqu’à 2 ans. Déposés uniquement si vous acceptez la mesure d’audience, avec les fonctions publicitaires désactivées.",
+            "**Marketing — Pixel Meta : _fbp.** Fourni par Meta Platforms Ireland Limited. Un script et un cookie propriétaire qui signalent à Meta qu’une personne ayant vu ou cliqué l’une de nos publicités sur Facebook ou Instagram visite le Site, pour que nous puissions mesurer quelles publicités fonctionnent. Le cookie dure jusqu’à 90 jours. Meta reçoit l’adresse de la page, des informations sur le navigateur et votre adresse IP, et peut aussi utiliser ces données à ses propres fins selon sa politique de confidentialité. Déposé uniquement si vous acceptez le marketing."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Ce que nous n’utilisons pas",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aucun cookie publicitaire en dehors du pixel Meta décrit ci-dessus, qui ne fonctionne que si vous acceptez le marketing. Aucun autre traceur de réseau social et, de notre côté, aucun profilage sur d’autres sites. Nous ne vendons pas de données issues des cookies."
+        }
+      ]
+    },
+    {
+      "title": "5. Votre choix",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Lors de votre première visite, le bandeau propose **Accepter** et **Refuser**, côte à côte et tout aussi simples. Tant que vous n’avez pas choisi, aucune mesure d’audience ne fonctionne.",
+            "**Personnaliser** vous permet d’activer ou de désactiver chaque catégorie. Les cookies strictement nécessaires sont toujours actifs.",
+            "Vous pouvez modifier ou retirer votre choix à tout moment via **Paramètres des cookies** en bas de chaque page, ou avec le bouton ci-dessous. Le retrait arrête immédiatement la mesure d’audience et supprime les cookies Google Analytics de votre navigateur.",
+            "Le marketing fonctionne de la même façon : le pixel Meta reste désactivé tant que vous ne l’avez pas accepté, et le retrait l’arrête immédiatement et supprime son cookie _fbp de votre navigateur.",
+            "Vous pouvez aussi bloquer ou supprimer les cookies dans les réglages de votre navigateur. Si vous bloquez sc_consent, le bandeau vous redemandera à chaque visite."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Où vont les données",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vercel et Google peuvent traiter des données de mesure d’audience aux États-Unis. Ces transferts reposent sur le cadre de protection des données UE–États-Unis (EU–US Data Privacy Framework) et son extension au Royaume-Uni, ou sur des clauses contractuelles types. La section 6 de notre Politique de confidentialité détaille les transferts internationaux."
+        },
+        {
+          "type": "p",
+          "text": "Meta peut traiter des données marketing aux États-Unis, sur les mêmes fondements de transfert."
+        }
+      ]
+    },
+    {
+      "title": "7. L’App",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "L’app SMS Code n’utilise aucun cookie et ne contient aucun SDK d’analyse, de publicité ou d’attribution. Cette politique ne concerne que le Site."
+        }
+      ]
+    },
+    {
+      "title": "8. Modifications de cette politique",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Si nous ajoutons un cookie ou modifions sa finalité, nous mettrons à jour cette politique et vous redemanderons votre consentement. La date de « Dernière mise à jour » ci-dessus correspond toujours à la version en vigueur."
+        }
+      ]
+    }
+  ]
+}

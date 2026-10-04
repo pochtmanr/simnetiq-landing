@@ -1,6 +1,6 @@
 "use client";
 
-import { track } from "@vercel/analytics";
+import { trackEvent } from "../lib/consent";
 
 /** An outbound link that records a Vercel Analytics event on click. The only
  *  client-side piece of the store CTAs, so their copy stays server-rendered. */
@@ -18,7 +18,7 @@ export function TrackedLink({
   children: React.ReactNode;
 }) {
   return (
-    <a href={href} onClick={() => track(event, { placement })} className={className}>
+    <a href={href} onClick={() => trackEvent(event, { placement })} className={className}>
       {children}
     </a>
   );

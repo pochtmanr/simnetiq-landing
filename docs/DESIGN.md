@@ -157,6 +157,16 @@ the strip is a texture at rest and a set of recognisable marks when you reach
 for one. Under `hover: none` the real logos show by default, since a touch
 device would otherwise never see past the tint.
 
+### `.consent-banner` / `.consent-dialog`
+Cookie consent (logic in `docs/COOKIES.md`). The banner is a small ink card
+floating at the bottom inline-start corner, `--frame-r` radius, the only
+element on the site with a real shadow — it floats above the desk, it isn't
+part of it. Reject and Accept share one grid row at the same size: on ink, one
+white fill, one outline. The dialog is a white sheet over a dimmed, blurred
+backdrop; its two bulk choices are both outlined and only *Save choices* gets
+the `.cta` gradient, so the design never nudges toward accepting.
+`.consent-switch` is the only toggle in the system: grey off, brand gradient on.
+
 ## Motion
 
 Every animation is defined once in `globals.css` and every one is disabled under
@@ -202,6 +212,16 @@ centre (`lg` and up; a dropdown panel below that), language switcher and a
 The two full-bleed bands use `mx-[calc(50%-50vw)] w-screen` against
 `body { overflow-x: clip }` — that clip is what stops the 100vw width (which
 includes the scrollbar) from producing a horizontal scrollbar.
+
+### Desk texture (experimental)
+
+The desk carries a fixed film grain (an inline SVG `feTurbulence` tile,
+240px, ink-tinted at low alpha) and two soft washes — light from the top-left,
+a slightly deeper grey at the bottom-right. It sits in `.site-body::before`,
+fixed to the viewport, so cards scroll over a still surface. `.sheet-cut`
+strips repaint the same layers with `background-attachment: fixed` so the cut
+lines up with the desk around it. Cards never get grain. One switch to turn it
+off: `--desk-texture: none` on `.site-body`.
 
 ## Imagery
 

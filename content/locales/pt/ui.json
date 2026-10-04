@@ -56,7 +56,31 @@
     "rights": "Todos os direitos reservados.",
     "registered": "Registrada em",
     "companyNo": "n.º da empresa",
-    "registeredOffice": "Sede registrada"
+    "registeredOffice": "Sede registrada",
+    "cookies": "Política de Cookies",
+    "cookieSettings": "Configurações de cookies"
+  },
+  "cookies": {
+    "bannerLabel": "Consentimento de cookies",
+    "bannerTitle": "Cookies: você decide",
+    "bannerBody": "Com a sua permissão, usamos análises para ver quais páginas realmente ajudam e o pixel da Meta para medir os nossos anúncios. Nada é ativado até você escolher.",
+    "policyLink": "Política de Cookies",
+    "reject": "Recusar",
+    "accept": "Aceitar",
+    "customize": "Personalizar",
+    "dialogTitle": "Configurações de cookies",
+    "dialogIntro": "Escolha o que este site pode usar. Você pode mudar de ideia a qualquer momento pelo rodapé.",
+    "necessaryTitle": "Estritamente necessários",
+    "necessaryBody": "Um cookie que lembra esta escolha, para não perguntarmos em cada página.",
+    "alwaysOn": "Sempre ativos",
+    "analyticsTitle": "Análises",
+    "analyticsBody": "O Vercel Web Analytics e o Google Analytics contam visitas e cliques para vermos quais páginas são úteis. O Google Analytics define cookies _ga. Nunca usado para publicidade.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "O pixel da Meta nos diz quando uma visita veio de um dos nossos anúncios no Facebook ou no Instagram, para vermos quais anúncios funcionam. Ele define o cookie _fbp, e a Meta também pode usar esses dados conforme a política dela.",
+    "rejectAll": "Recusar todos",
+    "acceptAll": "Aceitar todos",
+    "save": "Salvar escolhas",
+    "close": "Fechar"
   },
   "badges": {
     "appStore": "Baixar na App Store"

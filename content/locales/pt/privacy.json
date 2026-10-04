@@ -41,7 +41,8 @@
             "**Dados da ativação.** O serviço, o país, o número virtual e o texto das mensagens de SMS de verificação recebidas nesse número, mantidos pelo tempo necessário para entregar o código a você e para resolver disputas.",
             "**Dados do aparelho.** Duas coisas, e só se se aplicarem a você. Se você permitir notificações, o token de push emitido para o seu aparelho, para avisarmos que um código chegou. E o código de região de duas letras que o aparelho informa (por exemplo *GB*), enviado com a lista de países para marcarmos um país como “Recomendado” — isso é um ajuste do aparelho, não a sua localização, e nenhuma permissão de localização entra nisso.",
             "**Dados de suporte.** Quando você fala com o suporte pelo Site ou por e-mail, coletamos o seu nome, o e-mail e o conteúdo da mensagem. Pedidos de suporte enviados no Site ficam no nosso banco de dados (hospedado na Supabase) e são processados pelas nossas ferramentas de e-mail para respondermos a você. Também guardamos a string de user-agent do navegador e um hash unidirecional com sal do seu endereço IP, para bloquear abuso automatizado do formulário.",
-            "**Análise do site.** O Site usa o Vercel Web Analytics, que conta visualizações de página sem cookies e sem traçar o seu perfil em outros sites. O Aplicativo não contém nenhum SDK de análise, publicidade ou atribuição de qualquer tipo."
+            "**Análise do site.** Somente se você aceitar as análises no banner de cookies, o Site usa o Vercel Web Analytics, que conta visualizações de página sem cookies, e o Google Analytics, que define cookies próprios (_ga) para reconhecer um navegador que retorna. Nenhum dos dois é usado para publicidade nem para traçar o seu perfil em outros sites. A nossa Política de Cookies lista todos os cookies, e você pode retirar o consentimento a qualquer momento em “Configurações de cookies”, no rodapé de cada página. O Aplicativo não contém nenhum SDK de análise, publicidade ou atribuição de qualquer tipo.",
+            "**Medição de anúncios.** Somente se você aceitar o marketing no banner de cookies, o Site carrega o pixel da Meta, que define um cookie próprio (_fbp) e avisa a Meta quando uma visita veio de um dos nossos anúncios, para medirmos quais anúncios funcionam. O App não o utiliza."
           ]
         },
         {
@@ -60,12 +61,13 @@
             "Para manter o seu saldo de moedas e restaurar compras entre aparelhos (execução de um contrato).",
             "Para responder a pedidos de suporte (interesses legítimos / execução de um contrato).",
             "Para detectar e impedir fraude, abuso e violações dos nossos Termos de serviço (interesses legítimos).",
-            "Para manter o Site funcionando e entender quais páginas as pessoas acham úteis, com análise agregada do site, sem cookies (interesses legítimos)."
+            "Para entender quais páginas do Site as pessoas acham úteis, com análise do site — somente se você aceitar no banner de cookies (consentimento, que você pode retirar a qualquer momento).",
+            "Para medir o desempenho dos nossos anúncios no Facebook e no Instagram, com o pixel da Meta — somente se você aceitar o marketing no banner de cookies (consentimento, que você pode retirar a qualquer momento)."
           ]
         },
         {
           "type": "p",
-          "text": "Não vendemos os seus dados pessoais e não os usamos para publicidade de terceiros."
+          "text": "Não vendemos os seus dados pessoais. Só compartilhamos dados de visitas ao Site com a Meta se você aceitar os cookies de marketing, para medir os nossos próprios anúncios. Os dados do App nunca são compartilhados com anunciantes."
         }
       ]
     },
@@ -83,14 +85,16 @@
             "**Apple** — processa toda compra dentro do aplicativo e cuida do Entrar com a Apple, se você usar. Nunca vemos os dados do seu pagamento.",
             "**RevenueCat** — valida recibos de compra e informa ao nosso backend qual pacote de moedas você comprou. Recebe o identificador da sua conta, os dados da compra e informações básicas do aparelho.",
             "**Expo** — entrega notificações push e atualizações do Aplicativo. Recebe o seu token de push e o texto da notificação.",
-            "**Vercel** — hospeda o Site e fornece a análise dele.",
+            "**Vercel** — hospeda o Site e fornece a análise de visualizações de página sem cookies.",
+            "**Google** — fornece o Google Analytics no Site, somente se você aceitar as análises. Recebe visualizações de página, informações do dispositivo e do navegador e o identificador guardado no cookie _ga, com os recursos de publicidade desativados.",
+            "**Meta** — fornece o pixel da Meta no Site, somente se você aceitar o marketing. Recebe visualizações de página, informações do navegador, o seu endereço IP e o identificador do cookie _fbp, e também pode usar esses dados para fins próprios, como controladora independente conforme a política de privacidade dela.",
             "**Nossas ferramentas de e-mail** — conduzem a correspondência de suporte.",
             "**O nosso provedor de telefonia** — fornece os números virtuais. Enviamos a ele apenas o serviço e o país que você pediu; ele não recebe nenhum identificador seu, e não enviamos o identificador da sua conta no aplicativo. O provedor processa números e o conteúdo do SMS para prestar o serviço."
           ]
         },
         {
           "type": "p",
-          "text": "Provedores que atuam como operadores devem estar sujeitos a termos adequados de tratamento de dados. Não vendemos os seus dados e não compartilhamos nada com anunciantes. Também podemos divulgar dados quando a lei exigir."
+          "text": "Provedores que atuam como operadores devem estar sujeitos a termos adequados de tratamento de dados. Não vendemos os seus dados e, exceto com a Meta (somente com o seu consentimento de marketing), não compartilhamos nada com anunciantes. Também podemos divulgar dados quando a lei exigir."
         }
       ]
     },
@@ -99,7 +103,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Alguns provedores estão fora do Reino Unido. Quando os dados saem do Reino Unido ou do Espaço Econômico Europeu, a lei de proteção de dados aplicável exige uma base adequada de transferência, como uma decisão de adequação ou salvaguardas contratuais. Fale conosco para informações sobre as salvaguardas dos seus dados."
+          "text": "Alguns provedores estão fora do Reino Unido. Quando os dados saem do Reino Unido ou do Espaço Econômico Europeu, a lei de proteção de dados aplicável exige uma base adequada de transferência, como uma decisão de adequação ou salvaguardas contratuais. A Vercel e a Google podem tratar dados de análise do site nos Estados Unidos; essas transferências se baseiam no EU–US Data Privacy Framework e na sua extensão para o Reino Unido, ou em cláusulas contratuais-padrão. Fale conosco para informações sobre as salvaguardas dos seus dados."
+        },
+        {
+          "type": "p",
+          "text": "A Meta pode tratar dados de marketing do Site nos Estados Unidos, com as mesmas bases de transferência."
         }
       ]
     },

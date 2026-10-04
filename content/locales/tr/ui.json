@@ -56,7 +56,31 @@
     "rights": "Tüm hakları saklıdır.",
     "registered": "Kayıtlı olduğu yer",
     "companyNo": "şirket no.",
-    "registeredOffice": "Kayıtlı ofis"
+    "registeredOffice": "Kayıtlı ofis",
+    "cookies": "Çerez Politikası",
+    "cookieSettings": "Çerez ayarları"
+  },
+  "cookies": {
+    "bannerLabel": "Çerez onayı",
+    "bannerTitle": "Çerezler, karar sizin",
+    "bannerBody": "İzninizle, hangi sayfaların gerçekten işe yaradığını görmek için analitik araçları, reklamlarımızı ölçmek için de Meta Pikseli’ni kullanıyoruz. Siz seçene kadar hiçbir şey çalışmaz.",
+    "policyLink": "Çerez Politikası",
+    "reject": "Reddet",
+    "accept": "Kabul et",
+    "customize": "Özelleştir",
+    "dialogTitle": "Çerez ayarları",
+    "dialogIntro": "Bu sitenin neleri kullanabileceğini seçin. Fikrinizi istediğiniz zaman sayfanın altından değiştirebilirsiniz.",
+    "necessaryTitle": "Kesinlikle gerekli",
+    "necessaryBody": "Bu seçimi hatırlayan tek bir çerez; böylece her sayfada yeniden sormayız.",
+    "alwaysOn": "Her zaman açık",
+    "analyticsTitle": "Analitik",
+    "analyticsBody": "Vercel Web Analytics ve Google Analytics, hangi sayfaların faydalı olduğunu görebilmemiz için ziyaretleri ve tıklamaları sayar. Google Analytics _ga çerezleri yerleştirir. Asla reklam için kullanılmaz.",
+    "marketingTitle": "Pazarlama",
+    "marketingBody": "Meta Pikseli, bir ziyaretin Facebook veya Instagram’daki reklamlarımızdan birinden geldiğini bize bildirir; böylece hangi reklamların işe yaradığını görürüz. _fbp çerezini yerleştirir ve Meta bu verileri kendi politikasına göre de kullanabilir.",
+    "rejectAll": "Tümünü reddet",
+    "acceptAll": "Tümünü kabul et",
+    "save": "Seçimleri kaydet",
+    "close": "Kapat"
   },
   "badges": {
     "appStore": "App Store'dan indirin"

@@ -3,6 +3,7 @@ import { localePath, type Locale } from "../lib/i18n";
 import { ui } from "../lib/content/ui";
 import { getService } from "../lib/content/services";
 import { Arrow } from "./Arrow";
+import { CookieSettingsButton } from "./CookieSettingsButton";
 import {
   APP_STORE_URL,
   COMPANY_DETAILS_READY,
@@ -146,6 +147,12 @@ export function SiteFooter({ locale }: { locale: Locale }) {
             <Link href={localePath(locale, "/terms-of-service")} className={link}>
               {t.terms}
             </Link>
+            <Link href={localePath(locale, "/cookie-policy")} className={link}>
+              {t.cookies}
+            </Link>
+            <CookieSettingsButton className={`${link} cursor-pointer text-start`}>
+              {t.cookieSettings}
+            </CookieSettingsButton>
           </nav>
         </div>
 

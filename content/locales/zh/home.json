@@ -77,7 +77,6 @@
   "showcase": {
     "label": "应用里面",
     "title": "实际长什么样",
-    "body": "不是效果图——这些是应用里的真实界面。应用会经常更新，所以截图里的细节可能落后一个版本。",
     "shots": [
       {
         "src": "/app/shot-countries.png",

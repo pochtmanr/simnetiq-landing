@@ -1,9 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
-import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 import { SiteNav } from "../../components/SiteNav";
 import { SiteFooter } from "../../components/SiteFooter";
+import { ConsentedAnalytics } from "../../components/ConsentedAnalytics";
+import { CookieConsent } from "../../components/CookieConsent";
 import { JsonLd } from "../../components/JsonLd";
 import { ui } from "../../lib/content/ui";
 import { fontProps } from "../../lib/fonts";
@@ -66,7 +67,8 @@ export default async function LocaleLayout({
           <main className="flex-1 pb-[94px]">{children}</main>
         </div>
         <SiteFooter locale={locale} />
-        <Analytics />
+        <CookieConsent locale={locale} t={t.cookies} />
+        <ConsentedAnalytics />
       </body>
     </html>
   );

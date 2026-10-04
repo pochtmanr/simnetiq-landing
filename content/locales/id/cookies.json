@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Kebijakan Cookie",
+    "description": "Cookie apa saja yang dipakai simnetiq.xyz, untuk apa, berapa lama disimpan, dan cara menerima, menolak, atau mengubah pilihan Anda kapan saja."
+  },
+  "prevailingNotice": "Terjemahan ini disediakan untuk kemudahan. Jika berbeda dari versi bahasa Inggris, versi bahasa Inggris yang berlaku.",
+  "label": "Hukum",
+  "title": "Kebijakan Cookie",
+  "updatedLabel": "Terakhir diperbarui:",
+  "sections": [
+    {
+      "title": "1. Cakupan kebijakan ini",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kebijakan ini menjelaskan cara SIMNETIQ LTD (“kami”) menggunakan cookie dan teknologi serupa di simnetiq.xyz (“Situs”). Kebijakan ini melengkapi Kebijakan Privasi kami, yang menjelaskan lebih luas cara kami menangani data pribadi. Pertanyaan: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Apa itu cookie",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cookie adalah file teks kecil yang disimpan situs web di browser Anda. “Teknologi serupa” berarti cara lain apa pun untuk menyimpan atau membaca informasi di perangkat Anda, seperti penyimpanan lokal atau skrip yang mengukur kunjungan. Hukum memperlakukan semuanya sama: apa pun yang tidak benar-benar diperlukan harus mendapat persetujuan Anda lebih dulu."
+        }
+      ]
+    },
+    {
+      "title": "3. Yang kami gunakan",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Benar-benar diperlukan — sc_consent.** Cookie pihak pertama yang kami pasang saat Anda memilih di banner cookie. Cookie ini menyimpan pilihan tersebut beserta tanggalnya, agar kami tidak bertanya di setiap halaman. Masa berlakunya 12 bulan, lalu kami akan bertanya lagi. Cookie ini tidak memerlukan persetujuan: tanpanya kami tidak bisa menghormati pilihan Anda.",
+            "**Analitik — Vercel Web Analytics.** Disediakan oleh Vercel Inc. Menghitung tampilan halaman dan klik pada tombol unduh. Tidak menyimpan cookie di perangkat Anda; sebuah kunjungan dikenali paling lama 24 jam melalui hash permintaan yang tidak dapat mengidentifikasi Anda. Hanya dimuat jika Anda menerima analitik.",
+            "**Analitik — Google Analytics: _ga dan _ga_<ID>.** Disediakan oleh Google Ireland Limited dan Google LLC. Cookie pihak pertama yang membedakan browser yang kembali dan menyatukan satu kunjungan, agar kami tahu halaman mana yang berguna. Masing-masing disimpan hingga 2 tahun. Hanya dipasang jika Anda menerima analitik, dengan fitur iklan dinonaktifkan.",
+            "**Pemasaran — Meta Pixel: _fbp.** Disediakan oleh Meta Platforms Ireland Limited. Skrip dan cookie pihak pertama yang memberi tahu Meta saat seseorang yang melihat atau mengeklik salah satu iklan kami di Facebook atau Instagram mengunjungi Situs, agar kami dapat mengukur iklan mana yang berhasil. Cookie disimpan hingga 90 hari. Meta menerima alamat halaman, informasi browser, dan alamat IP Anda, serta dapat memakai data ini untuk tujuannya sendiri sesuai kebijakan privasinya. Hanya dipasang jika Anda menerima pemasaran."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Yang tidak kami gunakan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tidak ada cookie iklan selain Meta Pixel yang dijelaskan di atas, yang hanya berjalan jika Anda menerima pemasaran. Tidak ada pelacak media sosial lain, dan dari pihak kami tidak ada pembuatan profil di situs lain. Kami tidak menjual data dari cookie."
+        }
+      ]
+    },
+    {
+      "title": "5. Pilihan Anda",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Pada kunjungan pertama, banner menampilkan **Terima** dan **Tolak** berdampingan dan sama mudahnya. Selama Anda belum memilih, tidak ada analitik yang berjalan.",
+            "**Sesuaikan** memungkinkan Anda menyalakan atau mematikan setiap kategori. Cookie yang benar-benar diperlukan selalu aktif.",
+            "Anda dapat mengubah atau menarik pilihan kapan saja melalui **Pengaturan cookie** di bagian bawah setiap halaman, atau dengan tombol di bawah. Setelah ditarik, analitik langsung berhenti dan cookie Google Analytics dihapus dari browser Anda.",
+            "Pemasaran bekerja dengan cara yang sama: Meta Pixel tetap nonaktif sampai Anda menerimanya, dan setelah ditarik, piksel langsung berhenti dan cookie _fbp dihapus dari browser Anda.",
+            "Anda juga dapat memblokir atau menghapus cookie di pengaturan browser. Jika Anda memblokir sc_consent, banner akan bertanya lagi di setiap kunjungan."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Ke mana data dikirim",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vercel dan Google dapat memproses data analitik di Amerika Serikat. Transfer tersebut didasarkan pada EU–US Data Privacy Framework beserta perluasannya untuk Inggris, atau pada klausul kontrak standar. Bagian 6 Kebijakan Privasi kami menjelaskan lebih lanjut tentang transfer internasional."
+        },
+        {
+          "type": "p",
+          "text": "Meta dapat memproses data pemasaran di Amerika Serikat, dengan dasar transfer yang sama."
+        }
+      ]
+    },
+    {
+      "title": "7. Aplikasi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikasi SMS Code tidak menggunakan cookie dan tidak berisi SDK analitik, iklan, atau atribusi apa pun. Kebijakan ini hanya berlaku untuk Situs."
+        }
+      ]
+    },
+    {
+      "title": "8. Perubahan kebijakan ini",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jika kami menambahkan cookie atau mengubah kegunaannya, kami akan memperbarui kebijakan ini dan meminta persetujuan Anda lagi. Tanggal “Terakhir diperbarui” di atas selalu menunjukkan versi yang berlaku."
+        }
+      ]
+    }
+  ]
+}

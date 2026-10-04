@@ -77,7 +77,6 @@
   "showcase": {
     "label": "Dentro de la aplicación",
     "title": "Así se ve de verdad",
-    "body": "No son maquetas: son pantallas reales de la aplicación. La aplicación se actualiza a menudo, así que el detalle fino de una captura puede ir una versión por detrás.",
     "shots": [
       {
         "src": "/app/shot-countries.png",

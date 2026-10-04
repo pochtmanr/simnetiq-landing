@@ -41,7 +41,8 @@
             "**Data aktivasi.** Layanan, negara, nomor virtual, dan teks pesan SMS verifikasi yang diterima di nomor itu, disimpan selama waktu yang dibutuhkan untuk menyampaikan kode kepada Anda dan menyelesaikan sengketa.",
             "**Data perangkat.** Dua hal, dan hanya jika berlaku bagi Anda. Jika Anda mengizinkan notifikasi, token push yang diterbitkan perangkat Anda, agar kami dapat memberi tahu bahwa kode telah masuk. Dan kode wilayah dua huruf yang dilaporkan perangkat Anda (misalnya *GB*), dikirim bersama daftar negara agar kami dapat menandai satu negara “Direkomendasikan” — ini setelan perangkat, bukan lokasi Anda, dan tidak ada izin lokasi yang terlibat.",
             "**Data dukungan.** Saat Anda menghubungi dukungan melalui Situs atau lewat email, kami mengumpulkan nama, alamat email, dan isi pesan Anda. Permintaan dukungan yang dikirim di Situs disimpan di basis data kami (dihosting di Supabase) dan diproses melalui perangkat email kami agar dapat membalas Anda. Kami juga menyimpan string user-agent peramban Anda dan hash satu arah yang diberi garam dari alamat IP Anda, untuk memblokir penyalahgunaan otomatis formulir.",
-            "**Analitik situs.** Situs memakai Vercel Web Analytics, yang menghitung tampilan halaman tanpa cookie dan tanpa memprofilkan Anda di situs lain. Aplikasi tidak berisi SDK analitik, iklan, atau atribusi dalam bentuk apa pun."
+            "**Analitik situs.** Hanya jika Anda menerima analitik di banner cookie, Situs memakai Vercel Web Analytics, yang menghitung tampilan halaman tanpa cookie, dan Google Analytics, yang memasang cookie pihak pertama (_ga) untuk mengenali browser yang kembali. Keduanya tidak dipakai untuk iklan atau untuk memprofilkan Anda di situs lain. Kebijakan Cookie kami mencantumkan setiap cookie, dan Anda dapat menarik persetujuan kapan saja melalui “Pengaturan cookie” di bagian bawah setiap halaman. Aplikasi tidak berisi SDK analitik, iklan, atau atribusi dalam bentuk apa pun.",
+            "**Pengukuran iklan.** Hanya jika Anda menerima pemasaran di banner cookie, Situs memuat Meta Pixel, yang memasang cookie pihak pertama (_fbp) dan memberi tahu Meta saat sebuah kunjungan berasal dari salah satu iklan kami, agar kami dapat mengukur iklan mana yang berhasil. Aplikasi tidak memakainya."
           ]
         },
         {
@@ -60,12 +61,13 @@
             "Untuk menjaga saldo koin Anda dan memulihkan pembelian di berbagai perangkat (pelaksanaan kontrak).",
             "Untuk menjawab permintaan dukungan (kepentingan yang sah / pelaksanaan kontrak).",
             "Untuk mendeteksi dan mencegah penipuan, penyalahgunaan, dan pelanggaran Ketentuan Layanan kami (kepentingan yang sah).",
-            "Untuk menjaga Situs tetap berjalan dan memahami halaman mana yang dianggap berguna orang, memakai analitik situs teragregasi tanpa cookie (kepentingan yang sah)."
+            "Untuk memahami halaman mana di Situs yang dianggap berguna orang, memakai analitik situs — hanya jika Anda menerimanya di banner cookie (persetujuan, yang dapat Anda tarik kapan saja).",
+            "Untuk mengukur kinerja iklan kami di Facebook dan Instagram, memakai Meta Pixel — hanya jika Anda menerima pemasaran di banner cookie (persetujuan, yang dapat Anda tarik kapan saja)."
           ]
         },
         {
           "type": "p",
-          "text": "Kami tidak menjual data pribadi Anda dan tidak memakainya untuk iklan pihak ketiga."
+          "text": "Kami tidak menjual data pribadi Anda. Kami membagikan data kunjungan Situs kepada Meta hanya jika Anda menerima cookie pemasaran, untuk mengukur iklan kami sendiri. Data Aplikasi tidak pernah dibagikan kepada pengiklan."
         }
       ]
     },
@@ -83,14 +85,16 @@
             "**Apple** — memproses setiap pembelian dalam aplikasi, dan menangani Masuk dengan Apple jika Anda memakainya. Kami tidak pernah melihat detail pembayaran Anda.",
             "**RevenueCat** — memvalidasi tanda terima pembelian dan memberi tahu backend kami paket koin mana yang Anda beli. Ia menerima pengenal akun Anda, data pembelian, dan informasi perangkat dasar.",
             "**Expo** — menyampaikan notifikasi push dan pembaruan Aplikasi. Ia menerima token push Anda dan teks notifikasi.",
-            "**Vercel** — menghosting Situs dan menyediakan analitiknya.",
+            "**Vercel** — menghosting Situs dan menyediakan analitik tampilan halaman tanpa cookie.",
+            "**Google** — menyediakan Google Analytics di Situs, hanya jika Anda menerima analitik. Menerima tampilan halaman, informasi perangkat dan browser, serta pengenal yang disimpan di cookie _ga, dengan fitur iklan dinonaktifkan.",
+            "**Meta** — menyediakan Meta Pixel di Situs, hanya jika Anda menerima pemasaran. Menerima tampilan halaman, informasi browser, alamat IP Anda, dan pengenal di cookie _fbp, serta dapat memakai data ini untuk tujuannya sendiri sebagai pengendali independen sesuai kebijakan privasinya sendiri.",
             "**Perangkat email kami** — membawa korespondensi dukungan.",
             "**Penyedia telepon kami** — menyediakan nomor virtual. Yang dikirim kepadanya hanya layanan dan negara yang Anda minta; ia tidak menerima pengenal Anda sama sekali, dan kami tidak mengirim pengenal akun aplikasi Anda. Penyedia memproses nomor dan isi SMS untuk menyampaikan layanan."
           ]
         },
         {
           "type": "p",
-          "text": "Penyedia yang bertindak sebagai pemroses harus tunduk pada ketentuan pemrosesan data yang sesuai. Kami tidak menjual data Anda dan tidak membagikan apa pun kepada pengiklan. Kami juga dapat mengungkapkan data jika diwajibkan oleh hukum."
+          "text": "Penyedia yang bertindak sebagai pemroses harus tunduk pada ketentuan pemrosesan data yang sesuai. Kami tidak menjual data Anda, dan selain kepada Meta (hanya dengan persetujuan pemasaran Anda) kami tidak membagikan apa pun kepada pengiklan. Kami juga dapat mengungkapkan data jika diwajibkan oleh hukum."
         }
       ]
     },
@@ -99,7 +103,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Sebagian penyedia berada di luar Britania Raya. Jika data meninggalkan Britania Raya atau Wilayah Ekonomi Eropa, hukum perlindungan data yang berlaku mensyaratkan dasar transfer yang sesuai, seperti keputusan kecukupan atau perlindungan kontraktual. Hubungi kami untuk informasi tentang perlindungan atas data Anda."
+          "text": "Sebagian penyedia berada di luar Britania Raya. Jika data meninggalkan Britania Raya atau Wilayah Ekonomi Eropa, hukum perlindungan data yang berlaku mensyaratkan dasar transfer yang sesuai, seperti keputusan kecukupan atau perlindungan kontraktual. Vercel dan Google dapat memproses data analitik situs di Amerika Serikat; transfer tersebut didasarkan pada EU–US Data Privacy Framework beserta perluasannya untuk Britania Raya, atau pada klausul kontrak standar. Hubungi kami untuk informasi tentang perlindungan atas data Anda."
+        },
+        {
+          "type": "p",
+          "text": "Meta dapat memproses data pemasaran dari Situs di Amerika Serikat, dengan dasar transfer yang sama."
         }
       ]
     },

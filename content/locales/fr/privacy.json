@@ -41,7 +41,8 @@
             "**Données d’activation.** Le service, le pays, le numéro virtuel et le texte des SMS de vérification reçus sur ce numéro, conservés le temps nécessaire pour vous remettre le code et pour résoudre les litiges.",
             "**Données d’appareil.** Deux choses, et seulement si elles vous concernent. Si vous autorisez les notifications, le jeton push délivré à votre appareil, afin que nous puissions vous signaler l’arrivée d’un code. Et le code de région à deux lettres que votre appareil transmet (par exemple *GB*), envoyé avec la liste des pays pour que nous puissions en marquer un «\u00a0Recommandé\u00a0» — il s’agit d’un réglage de l’appareil, pas de votre position, et aucune autorisation de localisation n’est en jeu.",
             "**Données d’assistance.** Lorsque vous contactez l’assistance via le Site ou par e-mail, nous collectons votre nom, votre adresse e-mail et le contenu de votre message. Les demandes d’assistance envoyées sur le Site sont stockées dans notre base de données (hébergée sur Supabase) et traitées par nos outils d’e-mail afin de vous répondre. Nous conservons aussi la chaîne user-agent de votre navigateur et un hachage salé à sens unique de votre adresse IP, pour bloquer les abus automatisés du formulaire.",
-            "**Mesure d’audience du site.** Le Site utilise Vercel Web Analytics, qui compte les pages vues sans cookies et sans vous profiler d’un site à l’autre. L’App ne contient aucun SDK d’analyse, de publicité ou d’attribution, d’aucune sorte."
+            "**Mesure d’audience du site.** Uniquement si vous acceptez la mesure d’audience dans le bandeau cookies, le Site utilise Vercel Web Analytics, qui compte les pages vues sans cookies, et Google Analytics, qui dépose des cookies propriétaires (_ga) pour reconnaître un navigateur qui revient. Aucun des deux n’est utilisé à des fins publicitaires ni pour vous profiler d’un site à l’autre. Notre Politique relative aux cookies liste chaque cookie, et vous pouvez retirer votre consentement à tout moment via «\u00a0Paramètres des cookies\u00a0» en bas de chaque page. L’App ne contient aucun SDK d’analyse, de publicité ou d’attribution, d’aucune sorte.",
+            "**Mesure publicitaire.** Uniquement si vous acceptez le marketing dans le bandeau cookies, le Site charge le pixel Meta, qui dépose un cookie propriétaire (_fbp) et signale à Meta qu’une visite provient de l’une de nos publicités, pour que nous puissions mesurer lesquelles fonctionnent. L’App ne l’utilise pas."
           ]
         },
         {
@@ -60,12 +61,13 @@
             "Pour tenir votre solde de pièces et restaurer les achats d’un appareil à l’autre (exécution d’un contrat).",
             "Pour répondre aux demandes d’assistance (intérêts légitimes / exécution d’un contrat).",
             "Pour détecter et prévenir la fraude, les abus et les violations de nos conditions d’utilisation (intérêts légitimes).",
-            "Pour faire fonctionner le Site et comprendre quelles pages sont utiles, au moyen d’une mesure d’audience agrégée et sans cookies (intérêts légitimes)."
+            "Pour comprendre quelles pages du Site sont utiles, au moyen d’une mesure d’audience, uniquement si vous l’acceptez dans le bandeau cookies (consentement, que vous pouvez retirer à tout moment).",
+            "Pour mesurer les performances de nos publicités sur Facebook et Instagram, au moyen du pixel Meta, uniquement si vous acceptez le marketing dans le bandeau cookies (consentement, que vous pouvez retirer à tout moment)."
           ]
         },
         {
           "type": "p",
-          "text": "Nous ne vendons pas vos données à caractère personnel et nous ne les utilisons pas pour de la publicité de tiers."
+          "text": "Nous ne vendons pas vos données à caractère personnel. Nous ne partageons des données de visite du Site avec Meta que si vous acceptez les cookies marketing, pour mesurer nos propres publicités. Les données de l’App ne sont jamais partagées avec des annonceurs."
         }
       ]
     },
@@ -83,14 +85,16 @@
             "**Apple** — traite chaque achat intégré et gère la Connexion avec Apple si vous l’utilisez. Nous ne voyons jamais vos données de paiement.",
             "**RevenueCat** — valide les reçus d’achat et indique à notre backend quel pack de pièces vous avez acheté. Il reçoit l’identifiant de votre compte, les données d’achat et des informations de base sur l’appareil.",
             "**Expo** — livre les notifications push et les mises à jour de l’App. Il reçoit votre jeton push et le texte de la notification.",
-            "**Vercel** — héberge le Site et fournit sa mesure d’audience.",
+            "**Vercel** — héberge le Site et fournit sa mesure des pages vues sans cookies.",
+            "**Google** — fournit Google Analytics sur le Site, uniquement si vous acceptez la mesure d’audience. Reçoit les pages vues, des informations sur l’appareil et le navigateur et l’identifiant enregistré dans le cookie _ga, avec les fonctions publicitaires désactivées.",
+            "**Meta** — fournit le pixel Meta sur le Site, uniquement si vous acceptez le marketing. Reçoit les pages vues, des informations sur le navigateur, votre adresse IP et l’identifiant du cookie _fbp, et peut aussi utiliser ces données à ses propres fins, en tant que responsable de traitement indépendant selon sa propre politique de confidentialité.",
             "**Nos outils d’e-mail** — acheminent la correspondance d’assistance.",
             "**Notre fournisseur de téléphonie** — fournit les numéros virtuels. On ne lui envoie que le service et le pays demandés\u00a0; il ne reçoit aucun identifiant vous concernant, et nous ne lui transmettons pas l’identifiant de votre compte dans l’app. Le fournisseur traite les numéros et le contenu des SMS pour rendre le service."
           ]
         },
         {
           "type": "p",
-          "text": "Les prestataires qui agissent comme sous-traitants doivent être soumis à des clauses de traitement des données appropriées. Nous ne vendons pas vos données et nous ne partageons rien avec des annonceurs. Nous pouvons aussi divulguer des données lorsque la loi l’exige."
+          "text": "Les prestataires qui agissent comme sous-traitants doivent être soumis à des clauses de traitement des données appropriées. Nous ne vendons pas vos données et, hormis Meta (uniquement avec votre consentement marketing), nous ne partageons rien avec des annonceurs. Nous pouvons aussi divulguer des données lorsque la loi l’exige."
         }
       ]
     },
@@ -99,7 +103,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Certains prestataires sont situés en dehors du Royaume-Uni. Lorsque des données quittent le Royaume-Uni ou l’Espace économique européen, le droit applicable en matière de protection des données exige une base de transfert appropriée, telle qu’une décision d’adéquation ou des garanties contractuelles. Contactez-nous pour obtenir des informations sur les garanties applicables à vos données."
+          "text": "Certains prestataires sont situés en dehors du Royaume-Uni. Lorsque des données quittent le Royaume-Uni ou l’Espace économique européen, le droit applicable en matière de protection des données exige une base de transfert appropriée, telle qu’une décision d’adéquation ou des garanties contractuelles. Vercel et Google peuvent traiter des données de mesure d’audience aux États-Unis\u00a0; ces transferts reposent sur l’EU–US Data Privacy Framework et son extension au Royaume-Uni, ou sur des clauses contractuelles types. Contactez-nous pour obtenir des informations sur les garanties applicables à vos données."
+        },
+        {
+          "type": "p",
+          "text": "Meta peut traiter des données marketing du Site aux États-Unis, sur les mêmes fondements de transfert."
         }
       ]
     },

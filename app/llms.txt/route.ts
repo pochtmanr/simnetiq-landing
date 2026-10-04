@@ -26,6 +26,7 @@ function localizedPages(locale: Locale): string {
     [supportUi(locale).meta.title, "/support"],
     [legal(locale, "privacy").meta.title, "/privacy-policy"],
     [legal(locale, "terms").meta.title, "/terms-of-service"],
+    [legal(locale, "cookies").meta.title, "/cookie-policy"],
   ];
   return rows.map(([label, path]) => `- [${label}](${absolute(locale, path)})`).join("\n");
 }
@@ -59,6 +60,7 @@ Key facts:
 - [Support](${absolute(en, "/support")}): contact form and self-help for activation, billing and restore-purchase issues
 - [Privacy Policy](${absolute(en, "/privacy-policy")}): what data is collected and how it is used (UK GDPR)
 - [Terms of Service](${absolute(en, "/terms-of-service")}): acceptable use, coins, disclaimers, governing law (England and Wales)
+- [Cookie Policy](${absolute(en, "/cookie-policy")}): the consent cookie, opt-in analytics, and how to change your choice
 ${
   others.length
     ? `

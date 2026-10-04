@@ -6,7 +6,7 @@ import { asLocale } from "../../../lib/routing";
 import { makeMetadata } from "../../../lib/seo";
 
 /** Last substantive change to the policy, in every locale. */
-const UPDATED_AT = "2026-09-30";
+const UPDATED_AT = "2026-10-04";
 
 export async function generateMetadata({
   params,

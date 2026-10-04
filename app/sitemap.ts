@@ -53,8 +53,9 @@ const STATIC_PATHS: Entry[] = [
     locales: LOCALES,
   },
   { path: "/support", lastModified: "2026-09-30", changeFrequency: "monthly", priority: 0.8, locales: LOCALES },
-  { path: "/privacy-policy", lastModified: "2026-07-06", changeFrequency: "yearly", priority: 0.3, locales: LOCALES },
+  { path: "/privacy-policy", lastModified: "2026-10-04", changeFrequency: "yearly", priority: 0.3, locales: LOCALES },
   { path: "/terms-of-service", lastModified: "2026-09-30", changeFrequency: "yearly", priority: 0.3, locales: LOCALES },
+  { path: "/cookie-policy", lastModified: "2026-10-04", changeFrequency: "yearly", priority: 0.3, locales: LOCALES },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

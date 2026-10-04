@@ -77,7 +77,6 @@
   "showcase": {
     "label": "Di dalam aplikasi",
     "title": "Tampilannya yang sebenarnya",
-    "body": "Bukan gambar rekaan — ini layar asli dari aplikasi. Aplikasi diperbarui secara berkala, jadi detail kecil di tangkapan layar mungkin tertinggal satu versi.",
     "shots": [
       {
         "src": "/app/shot-countries.png",

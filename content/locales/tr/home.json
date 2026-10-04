@@ -77,7 +77,6 @@
   "showcase": {
     "label": "Uygulamanın içi",
     "title": "Gerçekte nasıl görünür",
-    "body": "Maket yok — bunlar uygulamanın gerçek ekranları. Uygulama düzenli güncellenir, bu yüzden ekran görüntüsündeki küçük ayrıntılar bir sürüm geride olabilir.",
     "shots": [
       {
         "src": "/app/shot-countries.png",

@@ -41,7 +41,8 @@
             "**Datos de activación.** El servicio, el país, el número virtual y el texto de los SMS de verificación recibidos en ese número, conservados el tiempo necesario para entregarte el código y resolver disputas.",
             "**Datos del dispositivo.** Dos cosas, y solo si te aplican. Si permites las notificaciones, el token push que se asigna a tu dispositivo, para avisarte de que ha llegado un código. Y el código de región de dos letras que informa tu dispositivo (por ejemplo *GB*), enviado con la lista de países para marcar uno como «Recomendado»: es un ajuste del dispositivo, no tu ubicación, y no interviene ningún permiso de localización.",
             "**Datos de soporte.** Cuando contactas con soporte a través del Sitio o por correo, recogemos tu nombre, tu dirección de correo y el contenido de tu mensaje. Las solicitudes enviadas en el Sitio se guardan en nuestra base de datos (alojada en Supabase) y se procesan con nuestras herramientas de correo para poder responderte. También guardamos la cadena user-agent de tu navegador y un hash unidireccional con sal de tu dirección IP, para bloquear el abuso automatizado del formulario.",
-            "**Analítica del sitio web.** El Sitio usa Vercel Web Analytics, que cuenta las páginas vistas sin cookies y sin elaborarte un perfil en otros sitios. La Aplicación no incluye ningún SDK de analítica, publicidad o atribución."
+            "**Analítica del sitio web.** Solo si aceptas la analítica en el banner de cookies, el Sitio usa Vercel Web Analytics, que cuenta las páginas vistas sin cookies, y Google Analytics, que instala cookies propias (_ga) para reconocer un navegador que vuelve. Ninguno se usa para publicidad ni para elaborarte un perfil en otros sitios. Nuestra Política de cookies enumera todas las cookies, y puedes retirar tu consentimiento cuando quieras en «Configuración de cookies», al pie de cada página. La Aplicación no incluye ningún SDK de analítica, publicidad o atribución.",
+            "**Medición publicitaria.** Solo si aceptas el marketing en el banner de cookies, el Sitio carga el píxel de Meta, que instala una cookie propia (_fbp) y avisa a Meta cuando una visita llega desde uno de nuestros anuncios, para que podamos medir qué anuncios funcionan. La App no lo usa."
           ]
         },
         {
@@ -60,12 +61,13 @@
             "Para mantener tu saldo de monedas y restaurar compras entre dispositivos (ejecución de un contrato).",
             "Para responder solicitudes de soporte (intereses legítimos / ejecución de un contrato).",
             "Para detectar y prevenir fraude, abuso e incumplimientos de nuestros Términos del servicio (intereses legítimos).",
-            "Para mantener el Sitio en funcionamiento y entender qué páginas resultan útiles, con analítica web agregada y sin cookies (intereses legítimos)."
+            "Para entender qué páginas del Sitio resultan útiles, con analítica web, solo si la aceptas en el banner de cookies (consentimiento, que puedes retirar en cualquier momento).",
+            "Para medir el rendimiento de nuestros anuncios en Facebook e Instagram, con el píxel de Meta, solo si aceptas el marketing en el banner de cookies (consentimiento, que puedes retirar en cualquier momento)."
           ]
         },
         {
           "type": "p",
-          "text": "No vendemos tus datos personales ni los usamos para publicidad de terceros."
+          "text": "No vendemos tus datos personales. Solo compartimos datos de visitas al Sitio con Meta si aceptas las cookies de marketing, para medir nuestros propios anuncios. Los datos de la App nunca se comparten con anunciantes."
         }
       ]
     },
@@ -83,14 +85,16 @@
             "**Apple** — procesa cada compra dentro de la aplicación y gestiona Sign in with Apple si lo usas. Nunca vemos tus datos de pago.",
             "**RevenueCat** — valida los recibos de compra e informa a nuestro backend de qué paquete de monedas compraste. Recibe el identificador de tu cuenta, los datos de compra e información básica del dispositivo.",
             "**Expo** — entrega notificaciones push y actualizaciones de la Aplicación. Recibe tu token push y el texto de la notificación.",
-            "**Vercel** — aloja el Sitio y aporta su analítica.",
+            "**Vercel** — aloja el Sitio y aporta su analítica de páginas vistas sin cookies.",
+            "**Google** — proporciona Google Analytics en el Sitio, solo si aceptas la analítica. Recibe las páginas vistas, información del dispositivo y del navegador y el identificador guardado en la cookie _ga, con las funciones publicitarias desactivadas.",
+            "**Meta** — proporciona el píxel de Meta en el Sitio, solo si aceptas el marketing. Recibe las páginas vistas, información del navegador, tu dirección IP y el identificador de la cookie _fbp, y también puede usar estos datos para sus propios fines, como responsable independiente según su propia política de privacidad.",
             "**Nuestras herramientas de correo** — transportan la correspondencia de soporte.",
             "**Nuestro proveedor de telefonía** — suministra los números virtuales. Solo se le envían el servicio y el país que pediste; no recibe ningún identificador tuyo, y no le enviamos el identificador de tu cuenta en la aplicación. El proveedor trata números y el contenido de los SMS para prestar el servicio."
           ]
         },
         {
           "type": "p",
-          "text": "Los proveedores que actúan como encargados del tratamiento deben estar sujetos a condiciones adecuadas de tratamiento de datos. No vendemos tus datos y no compartimos nada con anunciantes. También podemos comunicar datos cuando la ley lo exija."
+          "text": "Los proveedores que actúan como encargados del tratamiento deben estar sujetos a condiciones adecuadas de tratamiento de datos. No vendemos tus datos y, salvo con Meta (solo con tu consentimiento de marketing), no compartimos nada con anunciantes. También podemos comunicar datos cuando la ley lo exija."
         }
       ]
     },
@@ -99,7 +103,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Algunos proveedores están fuera del Reino Unido. Cuando los datos salen del Reino Unido o del Espacio Económico Europeo, la normativa aplicable de protección de datos exige una base de transferencia adecuada, como una decisión de adecuación o garantías contractuales. Escríbenos si quieres información sobre las garantías aplicables a tus datos."
+          "text": "Algunos proveedores están fuera del Reino Unido. Cuando los datos salen del Reino Unido o del Espacio Económico Europeo, la normativa aplicable de protección de datos exige una base de transferencia adecuada, como una decisión de adecuación o garantías contractuales. Vercel y Google pueden tratar datos de analítica web en Estados Unidos; esas transferencias se basan en el EU–US Data Privacy Framework y su extensión para el Reino Unido, o en cláusulas contractuales tipo. Escríbenos si quieres información sobre las garantías aplicables a tus datos."
+        },
+        {
+          "type": "p",
+          "text": "Meta puede tratar datos de marketing del Sitio en Estados Unidos, sobre las mismas bases de transferencia."
         }
       ]
     },

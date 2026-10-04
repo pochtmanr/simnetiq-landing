@@ -41,7 +41,8 @@
             "**Etkinleştirme verisi.** Servis, ülke, sanal numara ve o numaraya gelen doğrulama SMS’lerinin metni; kodu size iletmek ve uyuşmazlıkları çözmek için gereken süre boyunca tutulur.",
             "**Cihaz verisi.** Yalnızca iki şey ve yalnızca sizi ilgilendiriyorsa. Bildirimlere izin verirseniz, kodun geldiğini söyleyebilmemiz için cihazınıza verilen anlık bildirim belirteci. Ve cihazınızın bildirdiği iki harfli bölge kodu (örneğin *GB*); ülke listesiyle birlikte gönderilir, böylece bir ülkeyi “Önerilen” olarak işaretleyebiliriz — bu bir cihaz ayarıdır, konumunuz değildir ve konum izni söz konusu değildir.",
             "**Destek verisi.** Site üzerinden veya e-posta ile desteğe yazdığınızda adınızı, e-posta adresinizi ve mesajınızın içeriğini toplarız. Siteden gönderilen destek talepleri veritabanımızda (Supabase üzerinde barındırılır) saklanır ve size yanıt vermek için e-posta araçlarımızdan geçer. Formun otomatik kötüye kullanımını engellemek için tarayıcınızın user-agent dizesini ve IP adresinizin tuzlanmış tek yönlü özetini de saklarız.",
-            "**Site analitiği.** Site, çerez kullanmadan ve sizi başka sitelerde profillemeden sayfa görüntülemelerini sayan Vercel Web Analytics kullanır. Uygulamada hiçbir analitik, reklam veya ilişkilendirme SDK’sı yoktur."
+            "**Site analitiği.** Yalnızca çerez bandında analitiği kabul ederseniz Site, sayfa görüntülemelerini çerez kullanmadan sayan Vercel Web Analytics’i ve geri dönen bir tarayıcıyı tanımak için birinci taraf çerezleri (_ga) yerleştiren Google Analytics’i kullanır. İkisi de reklam için ya da sizi başka sitelerde profillemek için kullanılmaz. Çerez Politikamız her çerezi listeler; onayınızı istediğiniz zaman her sayfanın altındaki “Çerez ayarları” üzerinden geri çekebilirsiniz. Uygulamada hiçbir analitik, reklam veya ilişkilendirme SDK’sı yoktur.",
+            "**Reklam ölçümü.** Yalnızca çerez bandında pazarlamayı kabul ederseniz Site, Meta Pikseli’ni yükler; piksel birinci taraf bir çerez (_fbp) yerleştirir ve bir ziyaretin reklamlarımızdan birinden geldiğini Meta’ya bildirir, böylece hangi reklamların işe yaradığını ölçeriz. Uygulama bunu kullanmaz."
           ]
         },
         {
@@ -60,12 +61,13 @@
             "Jeton bakiyenizi tutmak ve satın almaları cihazlar arasında geri yüklemek için (sözleşmenin ifası).",
             "Destek taleplerini yanıtlamak için (meşru menfaat / sözleşmenin ifası).",
             "Dolandırıcılığı, kötüye kullanımı ve Kullanım Koşullarımızın ihlalini tespit edip önlemek için (meşru menfaat).",
-            "Siteyi çalışır tutmak ve insanların hangi sayfaları yararlı bulduğunu anlamak için, toplu ve çerezsiz site analitiğiyle (meşru menfaat)."
+            "İnsanların Sitedeki hangi sayfaları yararlı bulduğunu anlamak için, site analitiğiyle — yalnızca çerez bandında kabul ederseniz (istediğiniz zaman geri çekebileceğiniz onay).",
+            "Facebook ve Instagram’daki reklamlarımızın performansını ölçmek için, Meta Pikseli’yle — yalnızca çerez bandında pazarlamayı kabul ederseniz (istediğiniz zaman geri çekebileceğiniz onay)."
           ]
         },
         {
           "type": "p",
-          "text": "Kişisel verilerinizi satmayız ve üçüncü taraf reklamı için kullanmayız."
+          "text": "Kişisel verilerinizi satmayız. Site ziyaret verilerini yalnızca pazarlama çerezlerini kabul ederseniz, kendi reklamlarımızı ölçmek için Meta ile paylaşırız. Uygulama verileri asla reklamverenlerle paylaşılmaz."
         }
       ]
     },
@@ -83,14 +85,16 @@
             "**Apple** — her uygulama içi satın almayı işler ve kullanırsanız Sign in with Apple işlemini yürütür. Ödeme ayrıntılarınızı hiç görmeyiz.",
             "**RevenueCat** — satın alma makbuzlarını doğrular ve arka ucumuza hangi jeton paketini aldığınızı söyler. Hesap kimliğinizi, satın alma verinizi ve temel cihaz bilgisini alır.",
             "**Expo** — anlık bildirimleri ve Uygulama güncellemelerini iletir. Anlık bildirim belirtecinizi ve bildirimin metnini alır.",
-            "**Vercel** — Siteyi barındırır ve analitiğini sağlar.",
+            "**Vercel** — Siteyi barındırır ve çerezsiz sayfa görüntüleme analitiğini sağlar.",
+            "**Google** — Sitede Google Analytics’i sağlar, yalnızca analitiği kabul ederseniz. Sayfa görüntülemelerini, cihaz ve tarayıcı bilgilerini ve _ga çerezinde saklanan tanımlayıcıyı alır; reklam özellikleri kapalıdır.",
+            "**Meta** — Sitede Meta Pikseli’ni sağlar, yalnızca pazarlamayı kabul ederseniz. Sayfa görüntülemelerini, tarayıcı bilgilerini, IP adresinizi ve _fbp çerezindeki tanımlayıcıyı alır; bu verileri kendi gizlilik politikası kapsamında bağımsız veri sorumlusu olarak kendi amaçları için de kullanabilir.",
             "**E-posta araçlarımız** — destek yazışmasını taşır.",
             "**Telefon sağlayıcımız** — sanal numaraları temin eder. Yalnızca istediğiniz servis ve ülke gönderilir; sizin hiçbir kimliğiniz ona ulaşmaz ve uygulama hesap kimliğinizi göndermeyiz. Sağlayıcı, hizmeti sunmak için numaraları ve SMS içeriğini işler."
           ]
         },
         {
           "type": "p",
-          "text": "İşleyen olarak hareket eden sağlayıcılar uygun veri işleme koşullarına tabi olmalıdır. Verinizi satmayız ve reklamverenlerle hiçbir şey paylaşmayız. Hukukun gerektirdiği yerde veriyi ayrıca açıklayabiliriz."
+          "text": "İşleyen olarak hareket eden sağlayıcılar uygun veri işleme koşullarına tabi olmalıdır. Verinizi satmayız ve Meta dışında (yalnızca pazarlama onayınızla) reklamverenlerle hiçbir şey paylaşmayız. Hukukun gerektirdiği yerde veriyi ayrıca açıklayabiliriz."
         }
       ]
     },
@@ -99,7 +103,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bazı sağlayıcılar Birleşik Krallık dışındadır. Veri Birleşik Krallık’tan veya Avrupa Ekonomik Alanı’ndan çıktığında, yürürlükteki veri koruma hukuku yeterlilik kararı veya sözleşmesel güvenceler gibi uygun bir aktarım dayanağı ister. Verilerinize ilişkin güvenceler hakkında bilgi için bize yazın."
+          "text": "Bazı sağlayıcılar Birleşik Krallık dışındadır. Veri Birleşik Krallık’tan veya Avrupa Ekonomik Alanı’ndan çıktığında, yürürlükteki veri koruma hukuku yeterlilik kararı veya sözleşmesel güvenceler gibi uygun bir aktarım dayanağı ister. Vercel ve Google site analitiği verilerini Amerika Birleşik Devletleri’nde işleyebilir; bu aktarımlar EU–US Data Privacy Framework ve Birleşik Krallık uzantısına ya da standart sözleşme maddelerine dayanır. Verilerinize ilişkin güvenceler hakkında bilgi için bize yazın."
+        },
+        {
+          "type": "p",
+          "text": "Meta, Siteden gelen pazarlama verilerini aynı aktarım dayanaklarıyla Amerika Birleşik Devletleri’nde işleyebilir."
         }
       ]
     },

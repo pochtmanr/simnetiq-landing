@@ -56,7 +56,31 @@
     "rights": "Todos los derechos reservados.",
     "registered": "Registrada en",
     "companyNo": "n.º de sociedad",
-    "registeredOffice": "Domicilio social"
+    "registeredOffice": "Domicilio social",
+    "cookies": "Política de cookies",
+    "cookieSettings": "Configuración de cookies"
+  },
+  "cookies": {
+    "bannerLabel": "Consentimiento de cookies",
+    "bannerTitle": "Cookies: tú decides",
+    "bannerBody": "Si nos das tu permiso, usamos analítica para ver qué páginas ayudan de verdad y el píxel de Meta para medir nuestros anuncios. Nada se activa hasta que elijas.",
+    "policyLink": "Política de cookies",
+    "reject": "Rechazar",
+    "accept": "Aceptar",
+    "customize": "Personalizar",
+    "dialogTitle": "Configuración de cookies",
+    "dialogIntro": "Elige qué puede usar este sitio. Puedes cambiar de opinión cuando quieras desde el pie de página.",
+    "necessaryTitle": "Estrictamente necesarias",
+    "necessaryBody": "Una cookie que recuerda esta elección para no preguntarte en cada página.",
+    "alwaysOn": "Siempre activas",
+    "analyticsTitle": "Analítica",
+    "analyticsBody": "Vercel Web Analytics y Google Analytics cuentan visitas y clics para que veamos qué páginas son útiles. Google Analytics instala cookies _ga. Nunca se usa para publicidad.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "El píxel de Meta nos indica cuándo una visita llega desde uno de nuestros anuncios en Facebook o Instagram, para ver qué anuncios funcionan. Instala la cookie _fbp, y Meta también puede usar estos datos según su propia política.",
+    "rejectAll": "Rechazar todo",
+    "acceptAll": "Aceptar todo",
+    "save": "Guardar selección",
+    "close": "Cerrar"
   },
   "badges": {
     "appStore": "Descargar en el App Store"

@@ -56,7 +56,31 @@
     "rights": "保留所有权利。",
     "registered": "注册于",
     "companyNo": "公司编号",
-    "registeredOffice": "注册地址"
+    "registeredOffice": "注册地址",
+    "cookies": "Cookie 政策",
+    "cookieSettings": "Cookie 设置"
+  },
+  "cookies": {
+    "bannerLabel": "Cookie 同意",
+    "bannerTitle": "Cookie，由你决定",
+    "bannerBody": "经你同意后，我们会使用分析工具了解哪些页面真正有帮助，并使用 Meta Pixel 衡量我们的广告效果。在你做出选择之前，什么都不会运行。",
+    "policyLink": "Cookie 政策",
+    "reject": "拒绝",
+    "accept": "接受",
+    "customize": "自定义",
+    "dialogTitle": "Cookie 设置",
+    "dialogIntro": "选择本网站可以使用的内容。你可以随时在页面底部更改。",
+    "necessaryTitle": "严格必要",
+    "necessaryBody": "一个用于记住此选择的 Cookie，这样我们就不会在每个页面都询问你。",
+    "alwaysOn": "始终开启",
+    "analyticsTitle": "分析",
+    "analyticsBody": "Vercel 和 Google 提供的分析工具会统计访问和点击，帮助我们了解哪些页面真正有用。其中 Google Analytics 会设置 _ga Cookie。这些数据绝不用于广告投放。",
+    "marketingTitle": "营销",
+    "marketingBody": "Meta Pixel 会告诉我们某次访问是否来自我们在 Facebook 或 Instagram 上投放的广告，帮助我们了解哪些广告有效。它会设置 _fbp Cookie，Meta 也可能依据其自身政策使用这些数据。",
+    "rejectAll": "全部拒绝",
+    "acceptAll": "全部接受",
+    "save": "保存选择",
+    "close": "关闭"
   },
   "badges": {
     "appStore": "在 App Store 下载"

@@ -276,36 +276,34 @@ export function HomePage({ locale }: { locale: Locale }) {
 
       {/* Inside the app — its own ink card, cut out of the page by a strip
           of the desk above and below, so the change of section is a change
-          of surface. The phones stand whole in a staggered, centred row at
-          about real size; on phones the row becomes a swipeable strip. */}
+          of surface. The phones rise out of the card's bottom edge, like the
+          Download card's: only the top of each screen shows, in a staggered,
+          centred row; on phones the row becomes a swipeable strip. */}
       <section className="pt-[94px]" id="inside">
         <div className="sheet-cut">
           <div className="sheet-cut__card panel--ink">
             <div className="mx-auto w-full max-w-[1200px] px-[clamp(20px,4vw,34px)] pt-[clamp(48px,6vw,84px)]">
-              <div className="grid gap-[21px] md:grid-cols-[1.2fr_1fr] md:items-end">
-                <SectionHeading
-                  label={t.showcase.label}
-                  title={t.showcase.title}
-                  onInk
-                />
-                <p className="max-w-[44ch] text-body text-white/65 md:justify-self-end">
-                  {t.showcase.body}
-                </p>
-              </div>
+              <SectionHeading
+                label={t.showcase.label}
+                title={t.showcase.title}
+                onInk
+              />
               <div className="showcase-row mt-[clamp(40px,5vw,64px)]">
                 {t.showcase.shots.map((shot) => (
                   <figure key={shot.src} className="showcase-shot">
                     <figcaption className="text-label text-white/60">
                       {shot.caption}
                     </figcaption>
-                    <Image
-                      src={shot.src}
-                      alt=""
-                      width={503}
-                      height={900}
-                      sizes="(max-width: 768px) 58vw, 220px"
-                      className="h-auto w-full"
-                    />
+                    <div className="showcase-shot__frame">
+                      <Image
+                        src={shot.src}
+                        alt=""
+                        width={503}
+                        height={900}
+                        sizes="(max-width: 768px) 90vw, 360px"
+                        className="h-auto"
+                      />
+                    </div>
                   </figure>
                 ))}
               </div>

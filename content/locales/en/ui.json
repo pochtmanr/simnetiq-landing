@@ -56,7 +56,31 @@
     "rights": "All rights reserved.",
     "registered": "Registered in",
     "companyNo": "company no.",
-    "registeredOffice": "Registered office"
+    "registeredOffice": "Registered office",
+    "cookies": "Cookie Policy",
+    "cookieSettings": "Cookie settings"
+  },
+  "cookies": {
+    "bannerLabel": "Cookie consent",
+    "bannerTitle": "Cookies, your call",
+    "bannerBody": "With your OK, we use analytics to see which pages actually help people, and the Meta Pixel to measure our ads. Nothing runs until you choose.",
+    "policyLink": "Cookie Policy",
+    "reject": "Reject",
+    "accept": "Accept",
+    "customize": "Customize",
+    "dialogTitle": "Cookie settings",
+    "dialogIntro": "Choose what this site may use. You can change your mind any time from the footer.",
+    "necessaryTitle": "Strictly necessary",
+    "necessaryBody": "One cookie that remembers this choice, so we don’t ask on every page.",
+    "alwaysOn": "Always on",
+    "analyticsTitle": "Analytics",
+    "analyticsBody": "Vercel Web Analytics and Google Analytics count visits and clicks so we can see which pages are useful. Google Analytics sets _ga cookies. Never used for advertising.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "The Meta Pixel tells us when a visit came from one of our ads on Facebook or Instagram, so we can see which ads work. It sets the _fbp cookie, and Meta may also use this data under its own policy.",
+    "rejectAll": "Reject all",
+    "acceptAll": "Accept all",
+    "save": "Save choices",
+    "close": "Close"
   },
   "badges": {
     "appStore": "Download on the App Store"
