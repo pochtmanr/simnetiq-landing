@@ -55,7 +55,7 @@ export function AlternativePage({
           </p>
         ))}
         <div className="mt-[30px]">
-          <StoreBadges locale={locale} />
+          <StoreBadges locale={locale} placement="alternative_hero" />
         </div>
       </section>
 

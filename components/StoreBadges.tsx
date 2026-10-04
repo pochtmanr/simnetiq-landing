@@ -21,7 +21,15 @@ export function StoreBadges({
 }: {
   dark?: boolean;
   locale: Locale;
-  placement?: "hero" | "final_cta" | "service_cta" | "hub_cta" | "browse";
+  placement?:
+    | "hero"
+    | "service_hero"
+    | "country_hero"
+    | "alternative_hero"
+    | "final_cta"
+    | "service_cta"
+    | "hub_cta"
+    | "browse";
 }) {
   const cta = dark ? "cta cta--dark" : "cta";
   const t = ui(locale).badges;

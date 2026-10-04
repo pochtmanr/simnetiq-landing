@@ -4,6 +4,7 @@ import { ui } from "../lib/content/ui";
 import { getService } from "../lib/content/services";
 import { Arrow } from "./Arrow";
 import { CookieSettingsButton } from "./CookieSettingsButton";
+import { TrackedLink } from "./TrackedLink";
 import {
   APP_STORE_URL,
   COMPANY_DETAILS_READY,
@@ -124,9 +125,14 @@ export function SiteFooter({ locale }: { locale: Locale }) {
               {t.blog}
             </Link>
             <span className={`${kicker} pt-[14px]`}>{t.getApp}</span>
-            <a href={APP_STORE_URL} className={link}>
+            <TrackedLink
+              href={APP_STORE_URL}
+              event="CTA Click iOS"
+              placement="footer"
+              className={link}
+            >
               App Store
-            </a>
+            </TrackedLink>
           </nav>
 
           {/* Company */}

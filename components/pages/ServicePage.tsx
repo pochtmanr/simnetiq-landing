@@ -76,7 +76,7 @@ export function ServicePage({
               </p>
             ))}
             <div className="mt-[30px]">
-              <StoreBadges locale={locale} />
+              <StoreBadges locale={locale} placement="service_hero" />
             </div>
           </div>
 

@@ -2,7 +2,7 @@
 
 import { trackEvent } from "../lib/consent";
 
-/** An outbound link that records a Vercel Analytics event on click. The only
+/** An outbound link that records an event (via trackEvent) on click. The only
  *  client-side piece of the store CTAs, so their copy stays server-rendered. */
 export function TrackedLink({
   href,

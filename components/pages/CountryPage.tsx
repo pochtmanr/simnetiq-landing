@@ -57,7 +57,7 @@ export function CountryPage({
               </p>
             ))}
             <div className="mt-[30px]">
-              <StoreBadges locale={locale} />
+              <StoreBadges locale={locale} placement="country_hero" />
             </div>
           </div>
 

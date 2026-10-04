@@ -117,6 +117,26 @@ every `trackEvent()` call as a custom event (e.g. `CTAClickiOS` with
 5. *Later, optional:* Conversions API (server-side events) improves match rates
    but needs its own consent handling — not needed to start.
 
+## Download event — every App Store button
+
+Every link to the App Store fires one event, `CTA Click iOS`, with a
+`placement` parameter saying which button it was. In GA it arrives as
+`cta_click_ios`; in Meta as the custom event `CTAClickiOS`.
+
+| placement | Button |
+| --- | --- |
+| `hero` | Home hero "Download on the App Store" card |
+| `nav` | "Get the app" in the top nav (desktop and mobile menu) |
+| `final_cta` | Home page last card (Download) and painted CTA cards |
+| `service_hero` / `country_hero` / `alternative_hero` | Badge at the top of service, country and alternative pages |
+| `service_cta` / `hub_cta` / `browse` | Lower-page badges (alternative pages, hub, blog posts) |
+| `footer` | "App Store" link in the footer |
+
+New App Store links must use `TrackedLink` (or `StoreBadges`) so they're
+counted. To see placements in GA reports, register `placement` as a custom
+dimension: Admin → Custom definitions → Create → scope *Event*, parameter
+`placement`.
+
 ## 3. Do we need AppsFlyer (or similar)?
 
 What the site trackers can and can't see: GA and the Pixel see a visitor
