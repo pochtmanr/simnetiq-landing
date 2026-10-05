@@ -90,7 +90,13 @@ curl -X POST https://n8n.dopplervpn.org/webhook/simnetiq-support \
 
 ---
 
-# n8n support-reply workflow
+# n8n support-reply workflow — superseded
+
+> **No longer used.** Since 2026-10-06 `/api/admin/support/reply` sends the
+> email itself over SMTP (`lib/admin/mail.ts`, env `SMTP_PASSWORD`). Nothing
+> calls this webhook; `simnetiq-reply-workflow.json` is kept for reference only
+> and does not need importing. The notes below describe the old setup.
+
 
 Answering a ticket from `/admin/support`: operator writes a reply → `POST
 /api/admin/support/reply` → `admin_support_reply()` records it (as that

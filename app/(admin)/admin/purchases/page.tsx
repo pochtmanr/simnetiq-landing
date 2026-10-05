@@ -3,12 +3,14 @@
 import Link from "next/link";
 import { useState } from "react";
 import AuthGate from "../AuthGate";
-import { formatCoins, formatUsd, formatWhen } from "../../../../lib/admin/format";
+import { formatCoins, formatUsd } from "../../../../lib/admin/format";
 import { rpc, type PurchaseRow, type PurchaseSummary } from "../../../../lib/admin/rpc";
 import {
   DataTable,
   EmptyState,
   EntityLink,
+  FetchLimit,
+  LimitNote,
   Loaded,
   PageHeader,
   RefreshButton,
@@ -21,6 +23,8 @@ import {
   StatusBadge,
   entityHref,
   useAdminData,
+  useFetchLimit,
+  When,
   WindowPicker,
   type Column,
 } from "../ui";
@@ -34,7 +38,8 @@ import {
  * purchases are counted separately and never summed into revenue.
  * ------------------------------------------------------------------------ */
 
-const FEED_LIMIT = 300;
+/** Rows to fetch; admin_purchases caps at 1000. */
+const LIMITS = [50, 100, 300, 1000] as const;
 
 /* rc_transaction_id arrives with the admin_money migration; until then the
    row has no purchase page to open and falls back to the customer. */
@@ -77,7 +82,7 @@ const FEED_COLUMNS: Column<PurchaseRow>[] = [
   {
     key: "when",
     header: "When",
-    cell: (r) => <span className="whitespace-nowrap tabular-nums text-ink-muted">{formatWhen(r.created_at)}</span>,
+    cell: (r) => <When iso={r.created_at} timeOnly className="text-ink-muted" />,
   },
   { key: "coins", header: "Coins", align: "right", cell: (r) => formatCoins(r.coins) },
   {
@@ -152,12 +157,13 @@ function Summary({ s }: { s: PurchaseSummary }) {
 
 function Purchases() {
   const [hours, setHours] = useState(168);
+  const [limit, setLimit] = useFetchLimit("purchases", LIMITS, 100);
   const { status, retry } = useAdminData(
     async () => {
-      const [summary, rows] = await Promise.all([rpc.purchaseSummary(hours), rpc.purchases(hours, FEED_LIMIT)]);
+      const [summary, rows] = await Promise.all([rpc.purchaseSummary(hours), rpc.purchases(hours, limit)]);
       return { summary, rows };
     },
-    String(hours),
+    `${hours}:${limit}`,
   );
 
   return (
@@ -205,7 +211,7 @@ function Purchases() {
               />
             </Section>
 
-            <Section title="Feed" note={`newest first · up to ${FEED_LIMIT}`}>
+            <Section title="Feed" actions={<FetchLimit value={limit} options={LIMITS} onChange={setLimit} />}>
               <DataTable
                 rows={data.rows}
                 columns={FEED_COLUMNS}
@@ -215,8 +221,10 @@ function Purchases() {
                   return txn ? entityHref("purchase", txn) : entityHref("user", r.user_id);
                 }}
                 rowTone={(r) => (r.event === "refund" ? "bad" : null)}
+                groupByDay={(r) => r.created_at}
                 empty={<EmptyState title="No purchases in this window" hint="Try a longer window." />}
               />
+              <LimitNote count={data.rows.length} limit={limit} noun="purchase events" />
             </Section>
           </>
         )}

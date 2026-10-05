@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { DEFAULT_LOCALE, isLocale } from "../../../../../lib/i18n";
 import { supportUi } from "../../../../../lib/content/ui";
+import { sendReplyEmail } from "../../../../../lib/admin/mail";
 
 /* ---------------------------------------------------------------------------
  * POST /api/admin/support/reply — answer a support ticket by email.
@@ -15,7 +16,8 @@ import { supportUi } from "../../../../../lib/content/ui";
  * Steps:
  *   1. admin_support_reply   records the reply, sets the ticket status and
  *                            returns the customer's address (audit-logged).
- *   2. n8n reply webhook     sends the email from support@simnetiq.com.
+ *   2. SMTP (lib/admin/mail)  sends the branded email from
+ *                            support@simnetiq.com, BCC to the same mailbox.
  *   3. admin_support_reply_result  records whether step 2 worked.
  *
  * The reply is stored even when the email fails, and the response says so,
@@ -91,37 +93,16 @@ export async function POST(request: NextRequest) {
   const target = ((await saved.json()) as ReplyTarget[])[0];
   if (!target) return fail("Ticket not found.", 404);
 
-  // 2. Send the email through n8n.
-  let sendError: string | null = null;
-  const webhookUrl = process.env.N8N_SUPPORT_REPLY_WEBHOOK_URL;
-  if (!webhookUrl) {
-    sendError = "N8N_SUPPORT_REPLY_WEBHOOK_URL is not configured";
-  } else {
-    try {
-      const res = await fetch(webhookUrl, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-webhook-secret": process.env.N8N_WEBHOOK_SECRET ?? "",
-        },
-        body: JSON.stringify({
-          type: "reply",
-          request_id: id,
-          reply_id: target.reply_id,
-          to: target.email,
-          name: target.name,
-          locale: target.locale,
-          subject: subject(target.locale, target.topic),
-          body: text,
-          original_message: target.message,
-        }),
-        signal: AbortSignal.timeout(10_000),
-      });
-      if (!res.ok) sendError = `n8n answered ${res.status}`;
-    } catch (err) {
-      sendError = err instanceof Error ? err.message : String(err);
-    }
-  }
+  // 2. Email the customer from the support mailbox.
+  const sent = await sendReplyEmail({
+    to: target.email,
+    subject: subject(target.locale, target.topic),
+    name: target.name,
+    locale: target.locale,
+    body: text,
+    originalMessage: target.message,
+  });
+  const sendError = sent.ok ? null : sent.error;
   if (sendError) console.error("Admin reply: email not sent:", sendError);
 
   // 3. Record the outcome. A failure here leaves the reply marked unsent,

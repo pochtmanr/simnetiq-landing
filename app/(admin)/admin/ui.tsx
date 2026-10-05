@@ -14,10 +14,11 @@ import { MigrationNotice, SkeletonRows } from "./components/States";
 export { Card, Facts, PageHeader, RefreshButton, Section } from "./components/Card";
 export { Stat, StatGrid, type Tone } from "./components/Stat";
 export { Badge, ProviderChip, RiskBadge, RoleBadge, SeverityDot, StatusBadge, type BadgeTone } from "./components/Badge";
-export { DataTable, type Column } from "./components/DataTable";
-export { CopyText, EntityLink, ShortId, comboHref, entityHref, isUuid, shortId } from "./components/EntityLink";
+export { DataTable, DaySeparator, type Column } from "./components/DataTable";
+export { CopyButton, CopyRow, CopyText, EntityLink, ShortId, comboHref, entityHref, isUuid, shortId } from "./components/EntityLink";
 export { EmptyState, MigrationNotice, PageSkeleton, Reveal, SkeletonRows, SkeletonStats } from "./components/States";
 export { Explained, SourceLine } from "./components/Help";
+export { When, useNow } from "./components/When";
 
 export const TH = "py-[7px] pr-[14px] text-left font-medium";
 export const TD = "py-[7px] pr-[14px]";
@@ -182,4 +183,78 @@ export function Loaded<T>({
     case "ready":
       return <div className="animate-[admin-fade-in_180ms_ease-out]">{children(status.data)}</div>;
   }
+}
+
+/* ---------------------------------------------------------------------------
+ * How many rows a list fetches. The chosen number is the RPC's p_limit, so a
+ * bigger number is a real refetch, not a client page; every fetched row is
+ * then shown and the list scrolls. Remembered per list on this device.
+ * ------------------------------------------------------------------------ */
+
+export function useFetchLimit(id: string, options: readonly number[], fallback: number = options[0]) {
+  const storeKey = `admin:limit:${id}`;
+  const [limit, setLimitState] = useState<number>(() => {
+    try {
+      const saved = Number(localStorage.getItem(storeKey));
+      return options.includes(saved) ? saved : fallback;
+    } catch {
+      return fallback;
+    }
+  });
+  const setLimit = useCallback(
+    (n: number) => {
+      setLimitState(n);
+      try {
+        localStorage.setItem(storeKey, String(n));
+      } catch {
+        /* private mode: the choice just isn't remembered */
+      }
+    },
+    [storeKey],
+  );
+  return [limit, setLimit] as const;
+}
+
+export function FetchLimit({
+  value,
+  options,
+  onChange,
+}: {
+  value: number;
+  options: readonly number[];
+  onChange: (n: number) => void;
+}) {
+  return (
+    <div className="flex items-center gap-[6px]" role="group" aria-label="Rows to load">
+      <span className="text-caption uppercase tracking-[0.07em] text-muted">Rows</span>
+      <div className="flex gap-[2px] rounded-pill border border-border bg-card p-[2px]">
+        {options.map((n) => {
+          const active = n === value;
+          return (
+            <button
+              key={n}
+              type="button"
+              aria-pressed={active}
+              onClick={() => onChange(n)}
+              className={`min-w-[38px] rounded-pill px-[8px] py-[5px] text-label tabular-nums transition-colors ${
+                active ? "bg-ink text-white" : "text-ink-muted hover:text-ink"
+              }`}
+            >
+              {n}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+/** Under a list: how many rows came back, and whether that was the cap. */
+export function LimitNote({ count, limit, noun = "rows" }: { count: number; limit: number; noun?: string }) {
+  if (!count) return null;
+  return (
+    <p className="mt-[10px] text-caption text-muted">
+      {count >= limit ? `Showing the newest ${count} — the limit. Pick a bigger number above to load more.` : `${count} ${noun}.`}
+    </p>
+  );
 }

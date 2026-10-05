@@ -383,7 +383,7 @@ function Detail({ d }: { d: ActivationDetail }) {
               { label: "Close reason", value: d.close_reason ?? NOTHING },
               { label: "First SMS", value: d.first_sms_seconds !== null ? `${d.first_sms_seconds}s` : NOTHING },
               { label: "Provider", value: d.provider ?? NOTHING },
-              { label: "tzid", value: <ShortId id={d.tzid} /> },
+              { label: "tzid", value: <ShortId id={d.tzid} />, wide: true },
               {
                 label: "Quote",
                 value:
@@ -394,7 +394,7 @@ function Detail({ d }: { d: ActivationDetail }) {
               { label: "Release", value: release, wide: true },
               ...(d.release_last_error ? [{ label: "Release error", value: d.release_last_error, wide: true }] : []),
               { label: "Hidden by user", value: d.hidden_by_user ? "yes" : "no" },
-              { label: "Activation id", value: <ShortId id={d.id} /> },
+              { label: "Activation id", value: <ShortId id={d.id} />, wide: true },
             ]}
           />
         </Card>

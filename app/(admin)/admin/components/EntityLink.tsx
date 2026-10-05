@@ -64,51 +64,96 @@ export function EntityLink({
   );
 }
 
-/** Copies a short string. Used for a failure reason the operator wants to paste. */
-export function CopyText({ text, label = "Copy" }: { text: string; label?: string }) {
-  const [copied, setCopied] = useState(false);
+/* Copy that works inside Telegram too: the iOS Telegram webview often has no
+   navigator.clipboard (or rejects it outside a "trusted" gesture), so fall
+   back to a hidden textarea and execCommand. */
+async function copyToClipboard(text: string): Promise<boolean> {
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch {
+    /* fall through to the textarea */
+  }
+  try {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.setAttribute("readonly", "");
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    ta.style.top = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    ta.setSelectionRange(0, text.length);
+    const ok = document.execCommand("copy");
+    document.body.removeChild(ta);
+    return ok;
+  } catch {
+    return false;
+  }
+}
+
+/** A real, thumb-sized copy button: 36px square, an icon, a check once done,
+ *  and a haptic tick inside Telegram. */
+export function CopyButton({ text, label = "Copy" }: { text: string; label?: string }) {
+  const [state, setState] = useState<"idle" | "done" | "failed">("idle");
   return (
     <button
       type="button"
       onClick={(e) => {
         e.stopPropagation();
         e.preventDefault();
-        void navigator.clipboard?.writeText(text).then(() => {
-          setCopied(true);
-          setTimeout(() => setCopied(false), 1200);
+        void copyToClipboard(text).then((ok) => {
+          setState(ok ? "done" : "failed");
+          window.Telegram?.WebApp?.HapticFeedback?.notificationOccurred(ok ? "success" : "error");
+          setTimeout(() => setState("idle"), 1200);
         });
       }}
-      className="shrink-0 rounded-[4px] px-[3px] text-caption text-muted hover:bg-panel hover:text-ink"
-      aria-label={label}
+      className={`inline-flex h-[36px] w-[36px] shrink-0 items-center justify-center rounded-button border border-border bg-card transition-colors hover:bg-panel active:bg-panel ${
+        state === "done" ? "text-good" : state === "failed" ? "text-bad" : "text-ink-muted hover:text-ink"
+      }`}
+      aria-label={state === "done" ? "Copied" : label}
+      title={label}
     >
-      {copied ? "✓" : "⧉"}
+      {state === "done" ? (
+        <svg viewBox="0 0 24 24" className="h-[16px] w-[16px]" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+          <path d="M5 12.5l4.5 4.5L19 7.5" />
+        </svg>
+      ) : (
+        <svg viewBox="0 0 24 24" className="h-[16px] w-[16px]" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+          <rect x="9" y="9" width="11" height="11" rx="2.5" />
+          <path d="M5 15V6.5A2.5 2.5 0 0 1 7.5 4H15" />
+        </svg>
+      )}
     </button>
+  );
+}
+
+/** Kept for the call sites that put a copy button next to something. */
+export function CopyText({ text, label = "Copy" }: { text: string; label?: string }) {
+  return <CopyButton text={text} label={label} />;
+}
+
+/** A value on the left, its copy button pinned to the right edge — so copy
+ *  buttons line up down a card instead of trailing each value. */
+export function CopyRow({ text, label, children }: { text: string; label?: string; children?: ReactNode }) {
+  return (
+    <span className="flex w-full min-w-0 items-center justify-between gap-[10px]">
+      <span className="min-w-0 break-all">{children ?? text}</span>
+      <CopyButton text={text} label={label} />
+    </span>
   );
 }
 
 /** A shortened id with a copy button — for ids that have no page of their own. */
 export function ShortId({ id }: { id: string | null | undefined }) {
-  const [copied, setCopied] = useState(false);
   if (!id) return <span>—</span>;
   return (
-    <span className="inline-flex items-center gap-[4px]">
+    <CopyRow text={id} label="Copy id">
       <span className="font-mono text-caption" title={id}>
         {shortId(id)}
       </span>
-      <button
-        type="button"
-        onClick={(e) => {
-          e.stopPropagation();
-          void navigator.clipboard?.writeText(id).then(() => {
-            setCopied(true);
-            setTimeout(() => setCopied(false), 1200);
-          });
-        }}
-        className="rounded-[4px] px-[3px] text-caption text-muted hover:bg-panel hover:text-ink"
-        aria-label="Copy id"
-      >
-        {copied ? "✓" : "⧉"}
-      </button>
-    </span>
+    </CopyRow>
   );
 }

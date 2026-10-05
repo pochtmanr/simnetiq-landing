@@ -1,7 +1,7 @@
 "use client";
 
 import AuthGate from "../AuthGate";
-import { formatCoins, formatWhen } from "../../../../lib/admin/format";
+import { formatCoins } from "../../../../lib/admin/format";
 import { jobLinks, workflows, type JobLinks } from "../../../../lib/admin/jobLinks";
 import { rpc, type JobRow, type OrphanRow } from "../../../../lib/admin/rpc";
 import {
@@ -15,6 +15,7 @@ import {
   SkeletonRows,
   StatusBadge,
   useAdminData,
+  When,
   type Column,
 } from "../ui";
 
@@ -75,8 +76,8 @@ function jobColumns(now: number): Column<JobRow>[] {
   return [
     { key: "job", header: "Job", mobile: "title", cell: (j) => <span className="font-medium">{j.job_name}</span> },
     { key: "state", header: "State", mobile: "aside", cell: (j) => <StatusBadge status={isStale(j, now) ? "stale" : "ok"} /> },
-    { key: "ok", header: "Last OK", cell: (j) => <span className="whitespace-nowrap tabular-nums text-ink-muted">{formatWhen(j.last_ok_at)}</span> },
-    { key: "run", header: "Last run", cell: (j) => <span className="whitespace-nowrap tabular-nums text-ink-muted">{formatWhen(j.last_run_at)}</span> },
+    { key: "ok", header: "Last OK", cell: (j) => <When iso={j.last_ok_at} className="text-ink-muted" /> },
+    { key: "run", header: "Last run", cell: (j) => <When iso={j.last_run_at} className="text-ink-muted" /> },
     { key: "every", header: "Every", cell: (j) => <span className="tabular-nums text-ink-muted">{every(j.expected_every_s)}</span> },
     {
       key: "runs",
@@ -103,7 +104,7 @@ const ORPHAN_COLUMNS: Column<OrphanRow>[] = [
   { key: "country", header: "Country", mobile: "title", cell: (o) => <span className="text-ink-muted">{o.country ?? "—"}</span> },
   { key: "attempts", header: "Close attempts", align: "right", mobile: "aside", cell: (o) => formatCoins(o.attempts) },
   { key: "tzid", header: "tzid", cell: (o) => <ShortId id={String(o.tzid)} /> },
-  { key: "seen", header: "First seen", cell: (o) => <span className="whitespace-nowrap tabular-nums text-ink-muted">{formatWhen(o.first_seen_at)}</span> },
+  { key: "seen", header: "First seen", cell: (o) => <When iso={o.first_seen_at} className="text-ink-muted" /> },
   {
     key: "error",
     header: "Last error",

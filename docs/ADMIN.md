@@ -40,7 +40,7 @@ Typed wrappers for all RPCs are in `lib/admin/rpc.ts`. The SQL definitions are i
 `POST /api/admin/support/reply` forwards the operator's own access token, so the RPC runs as the operator. The route then:
 
 1. calls `admin_support_reply`, which records the reply, sets the ticket status and returns the customer's address (audit-logged);
-2. calls the n8n reply webhook (`N8N_SUPPORT_REPLY_WEBHOOK_URL`), which sends the email from `support@simnetiq.com`;
+2. sends the email itself over SMTP from `support@simnetiq.com` (`lib/admin/mail.ts`, env `SMTP_PASSWORD`, optional `SMTP_USER`/`SMTP_HOST`/`SMTP_PORT`). The email is a branded HTML + plain-text template in the customer's language (`lib/admin/replyTemplate.ts`), BCC'd to the mailbox; the ticket page's "Preview email" renders the same template;
 3. calls `admin_support_reply_result`, which records whether step 2 succeeded.
 
 The reply is stored even if the email fails, so the operator can retry.

@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState, type MouseEvent, type ReactNode } from "react";
+import { Fragment, type MouseEvent, type ReactNode } from "react";
+import { formatDayLabel, localDayKey } from "../../../../lib/admin/format";
+import { useNow } from "./When";
 
 /* ---------------------------------------------------------------------------
  * One table, two shapes.
@@ -14,6 +16,11 @@ import { useState, type MouseEvent, type ReactNode } from "react";
  *
  * `rowHref` makes the whole row (or card) open a page. Links and buttons
  * inside cells keep working: a click that lands on one is left alone.
+ *
+ * `groupByDay` sorts the rows newest first and puts a separator at every day
+ * change — "Today", "Yesterday", "Monday, Oct 4" — sticky under the navbar on
+ * a phone. There is no client-side paging: the screen decides how many rows
+ * to fetch (see FetchLimit in ui.tsx) and every fetched row is shown.
  * ------------------------------------------------------------------------ */
 
 export type Column<T> = {
@@ -21,8 +28,11 @@ export type Column<T> = {
   header: ReactNode;
   cell: (row: T) => ReactNode;
   align?: "left" | "right";
-  /** Where the column goes on a phone. Default: a labelled field. */
-  mobile?: "title" | "aside" | "field" | "hide";
+  /** Where the column goes on a phone. Default: a labelled field.
+   *  `footer` is one full-width, unlabelled row at the bottom of the card. */
+  mobile?: "title" | "aside" | "field" | "footer" | "hide";
+  /** False for a column that only exists to shape the phone card. */
+  desktop?: boolean;
   /** Extra classes on the desktop cell (widths, truncation). */
   className?: string;
   /** The cell renders its own link, so a phone card must not wrap it in the
@@ -39,7 +49,7 @@ export function DataTable<T>({
   empty,
   footer,
   rowTone,
-  pageSizes,
+  groupByDay,
 }: {
   rows: T[];
   columns: Column<T>[];
@@ -49,21 +59,34 @@ export function DataTable<T>({
   footer?: ReactNode;
   /** Tint a row that needs attention. */
   rowTone?: (row: T) => "bad" | "warn" | null | undefined;
-  /** Page the rows client-side, e.g. [50, 100]; the first is the default. */
-  pageSizes?: number[];
+  /** The row's timestamp (ISO). Sorts newest first and adds day separators. */
+  groupByDay?: (row: T) => string | null | undefined;
 }) {
   const router = useRouter();
-  const [size, setSize] = useState(pageSizes?.[0] ?? 0);
-  const [page, setPage] = useState(0);
+  const now = useNow();
 
   if (rows.length === 0) {
     return <div>{empty ?? <p className="py-[18px] text-center text-label text-muted">Nothing here yet.</p>}</div>;
   }
 
-  const pages = size ? Math.max(1, Math.ceil(rows.length / size)) : 1;
-  const current = Math.min(page, pages - 1);
-  const all = rows;
-  rows = size ? all.slice(current * size, current * size + size) : all;
+  /* Day groups, in order. Without groupByDay it is one unlabeled group. */
+  const groups: { key: string; label: string | null; rows: T[] }[] = [];
+  if (groupByDay) {
+    const time = (r: T) => {
+      const t = new Date(groupByDay(r) ?? "").getTime();
+      return Number.isNaN(t) ? -Infinity : t;
+    };
+    const sorted = [...rows].sort((a, b) => time(b) - time(a));
+    for (const r of sorted) {
+      const iso = groupByDay(r);
+      const key = localDayKey(iso) ?? "none";
+      const last = groups[groups.length - 1];
+      if (last && last.key === key) last.rows.push(r);
+      else groups.push({ key, label: formatDayLabel(iso, now), rows: [r] });
+    }
+  } else {
+    groups.push({ key: "all", label: null, rows });
+  }
 
   function open(e: MouseEvent, href: string | null | undefined) {
     if (!href) return;
@@ -77,6 +100,8 @@ export function DataTable<T>({
   const titleCols = columns.filter((c) => c.mobile === "title");
   const asideCols = columns.filter((c) => c.mobile === "aside");
   const fieldCols = columns.filter((c) => !c.mobile || c.mobile === "field");
+  const footerCols = columns.filter((c) => c.mobile === "footer");
+  const tableCols = columns.filter((c) => c.desktop !== false);
 
   const toneBg = (row: T) => {
     const t = rowTone?.(row);
@@ -86,58 +111,70 @@ export function DataTable<T>({
   return (
     <div>
       {/* Phone: cards */}
-      <ul className="flex flex-col gap-[8px] md:hidden">
-        {rows.map((row, i) => {
-          const href = rowHref?.(row);
-          return (
-            <li
-              key={rowKey(row, i)}
-              onClick={(e) => open(e, href)}
-              className={`rounded-card border border-border bg-card p-[12px] ${href ? "cursor-pointer active:bg-panel" : ""} ${toneBg(row)}`}
-            >
-              <div className="flex items-start justify-between gap-[10px]">
-                <div className="min-w-0 flex-1 text-body">
-                  {titleCols.map((c, j) => (
-                    <div key={c.key} className={j === 0 ? "break-words font-medium" : "mt-[2px] break-words text-label text-ink-muted"}>
-                      {j === 0 && href && !c.linksItself ? (
-                        <Link href={href} className="hover:text-accent-deep">
-                          {c.cell(row)}
-                        </Link>
-                      ) : (
-                        c.cell(row)
-                      )}
+      <div className="md:hidden">
+        {groups.map((g) => (
+          <div key={g.key} className="mt-[14px] first:mt-0">
+            {g.label ? <DaySeparator label={g.label} count={g.rows.length} /> : null}
+            <ul className="flex flex-col gap-[8px]">
+              {g.rows.map((row, i) => {
+                const href = rowHref?.(row);
+                return (
+                  <li
+                    key={rowKey(row, i)}
+                    onClick={(e) => open(e, href)}
+                    className={`rounded-card border border-border bg-card p-[12px] ${href ? "cursor-pointer active:bg-panel" : ""} ${toneBg(row)}`}
+                  >
+                    <div className="flex items-start justify-between gap-[10px]">
+                      <div className="min-w-0 flex-1 text-body">
+                        {titleCols.map((c, j) => (
+                          <div key={c.key} className={j === 0 ? "break-words font-medium" : "mt-[2px] break-words text-label text-ink-muted"}>
+                            {j === 0 && href && !c.linksItself ? (
+                              <Link href={href} className="hover:text-accent-deep">
+                                {c.cell(row)}
+                              </Link>
+                            ) : (
+                              c.cell(row)
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                      {asideCols.length ? (
+                        <div className="flex shrink-0 flex-col items-end gap-[4px] text-right text-body tabular-nums">
+                          {asideCols.map((c) => (
+                            <div key={c.key}>{c.cell(row)}</div>
+                          ))}
+                        </div>
+                      ) : null}
                     </div>
-                  ))}
-                </div>
-                {asideCols.length ? (
-                  <div className="flex shrink-0 flex-col items-end gap-[4px] text-right text-body tabular-nums">
-                    {asideCols.map((c) => (
-                      <div key={c.key}>{c.cell(row)}</div>
+                    {fieldCols.length ? (
+                      <dl className="mt-[8px] grid grid-cols-2 gap-x-[12px] gap-y-[6px] border-t border-border pt-[8px]">
+                        {fieldCols.map((c) => (
+                          <div key={c.key} className="min-w-0">
+                            <dt className="text-caption uppercase tracking-[0.06em] text-muted">{c.header}</dt>
+                            <dd className="break-words text-label">{c.cell(row)}</dd>
+                          </div>
+                        ))}
+                      </dl>
+                    ) : null}
+                    {footerCols.map((c) => (
+                      <div key={c.key} className="mt-[8px] flex items-center border-t border-border pt-[8px] text-label">
+                        {c.cell(row)}
+                      </div>
                     ))}
-                  </div>
-                ) : null}
-              </div>
-              {fieldCols.length ? (
-                <dl className="mt-[8px] grid grid-cols-2 gap-x-[12px] gap-y-[6px] border-t border-border pt-[8px]">
-                  {fieldCols.map((c) => (
-                    <div key={c.key} className="min-w-0">
-                      <dt className="text-caption uppercase tracking-[0.06em] text-muted">{c.header}</dt>
-                      <dd className="break-words text-label">{c.cell(row)}</dd>
-                    </div>
-                  ))}
-                </dl>
-              ) : null}
-            </li>
-          );
-        })}
-      </ul>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))}
+      </div>
 
       {/* Tablet and up: table */}
       <div className="hidden overflow-x-auto rounded-card border border-border bg-card md:block">
         <table className="w-full border-collapse text-label">
           <thead>
             <tr className="border-b border-border bg-canvas/60 text-caption uppercase tracking-[0.07em] text-muted">
-              {columns.map((c) => (
+              {tableCols.map((c) => (
                 <th
                   key={c.key}
                   scope="col"
@@ -149,94 +186,54 @@ export function DataTable<T>({
             </tr>
           </thead>
           <tbody>
-            {rows.map((row, i) => {
-              const href = rowHref?.(row);
-              return (
-                <tr
-                  key={rowKey(row, i)}
-                  onClick={(e) => open(e, href)}
-                  className={`border-b border-border last:border-b-0 align-top ${href ? "cursor-pointer hover:bg-canvas" : ""} ${toneBg(row)}`}
-                >
-                  {columns.map((c) => (
-                    <td
-                      key={c.key}
-                      className={`px-[12px] py-[9px] ${c.align === "right" ? "text-right tabular-nums" : ""} ${c.className ?? ""}`}
+            {groups.map((g) => (
+              <Fragment key={g.key}>
+                {g.label ? (
+                  <tr className="border-b border-border bg-canvas/60">
+                    <th colSpan={tableCols.length} scope="colgroup" className="px-[12px] py-[7px] text-left text-caption font-semibold text-ink">
+                      {g.label}
+                      <span className="ml-[8px] font-normal text-muted">{g.rows.length}</span>
+                    </th>
+                  </tr>
+                ) : null}
+                {g.rows.map((row, i) => {
+                  const href = rowHref?.(row);
+                  return (
+                    <tr
+                      key={rowKey(row, i)}
+                      onClick={(e) => open(e, href)}
+                      className={`border-b border-border last:border-b-0 align-top ${href ? "cursor-pointer hover:bg-canvas" : ""} ${toneBg(row)}`}
                     >
-                      {c.cell(row)}
-                    </td>
-                  ))}
-                </tr>
-              );
-            })}
+                      {tableCols.map((c) => (
+                        <td
+                          key={c.key}
+                          className={`px-[12px] py-[9px] ${c.align === "right" ? "text-right tabular-nums" : ""} ${c.className ?? ""}`}
+                        >
+                          {c.cell(row)}
+                        </td>
+                      ))}
+                    </tr>
+                  );
+                })}
+              </Fragment>
+            ))}
           </tbody>
         </table>
       </div>
-      {pageSizes && all.length > Math.min(...pageSizes) ? (
-        <Pager
-          total={all.length}
-          size={size}
-          sizes={pageSizes}
-          page={current}
-          pages={pages}
-          onSize={(n) => {
-            setSize(n);
-            setPage(0);
-          }}
-          onPage={setPage}
-        />
-      ) : null}
       {footer ? <div className="mt-[10px]">{footer}</div> : null}
     </div>
   );
 }
 
-function Pager({
-  total,
-  size,
-  sizes,
-  page,
-  pages,
-  onSize,
-  onPage,
-}: {
-  total: number;
-  size: number;
-  sizes: number[];
-  page: number;
-  pages: number;
-  onSize: (n: number) => void;
-  onPage: (n: number) => void;
-}) {
-  const from = page * size + 1;
-  const to = Math.min(total, from + size - 1);
-  const btn = "rounded-button border border-border bg-card px-[12px] py-[6px] text-label disabled:opacity-40";
+/** A day heading between cards. Sticky just under the floating navbar while
+ *  its own day's cards scroll past; each day is its own block, so the next
+ *  day's heading pushes it away rather than stacking on it. */
+export function DaySeparator({ label, count }: { label: string; count: number }) {
   return (
-    <div className="mt-[10px] flex flex-wrap items-center justify-between gap-[10px] text-label text-ink-muted">
-      <div className="flex items-center gap-[6px]">
-        <span>Rows</span>
-        {sizes.map((n) => (
-          <button
-            key={n}
-            type="button"
-            aria-pressed={n === size}
-            onClick={() => onSize(n)}
-            className={`rounded-pill border px-[10px] py-[4px] ${n === size ? "border-transparent bg-ink text-white" : "border-border bg-card"}`}
-          >
-            {n}
-          </button>
-        ))}
-      </div>
-      <div className="flex items-center gap-[8px]">
-        <span className="tabular-nums">
-          {from}–{to} of {total}
-        </span>
-        <button type="button" className={btn} disabled={page === 0} onClick={() => onPage(page - 1)} aria-label="Previous page">
-          ‹
-        </button>
-        <button type="button" className={btn} disabled={page >= pages - 1} onClick={() => onPage(page + 1)} aria-label="Next page">
-          ›
-        </button>
-      </div>
+    <div className="sticky top-[66px] z-20 -mx-[4px] mb-[6px] flex items-center gap-[8px] bg-canvas/90 px-[4px] py-[6px] backdrop-blur">
+      <span className="font-display text-[14px] font-medium tracking-[-0.01em] text-ink">{label}</span>
+      <span className="rounded-pill bg-panel px-[7px] py-[1px] text-caption tabular-nums text-ink-muted">{count}</span>
+      <span className="h-px flex-1 bg-border" aria-hidden />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { formatWhen } from "../../../../lib/admin/format";
 import { rpc, type TeamMember, type TeamTgLinkRow } from "../../../../lib/admin/rpc";
 import { TG_BOT, openTelegramUrl } from "../../../../lib/admin/telegram";
-import { CopyText } from "../ui";
+import { CopyRow } from "../ui";
 
 /* ---------------------------------------------------------------------------
  * A main admin links a teammate's Telegram for them (admin_tg_link_for).
@@ -94,12 +94,15 @@ export function TelegramInvite({
 
       {url ? (
         <div className="mt-[12px]">
-          <p className="break-all rounded-[8px] bg-panel px-[10px] py-[8px] font-mono text-caption">{url}</p>
+          <div className="rounded-[8px] bg-panel py-[4px] pl-[10px] pr-[4px]">
+            <CopyRow text={url} label="Copy link">
+              <span className="font-mono text-caption">{url}</span>
+            </CopyRow>
+          </div>
           <div className="mt-[10px] flex flex-wrap items-center gap-[8px]">
             <button type="button" onClick={send} className="cta">
               Send in Telegram
             </button>
-            <CopyText text={url} label="Copy link" />
           </div>
           <p className="mt-[8px] text-caption text-muted">
             Send it only to {who}: whoever presses Start first gets their access. Works once, for 24 hours.

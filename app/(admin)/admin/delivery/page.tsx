@@ -11,7 +11,9 @@ import {
   DataTable,
   EmptyState,
   entityHref,
+  FetchLimit,
   isUuid,
+  LimitNote,
   LoadError,
   PageHeader,
   RefreshButton,
@@ -20,6 +22,8 @@ import {
   SkeletonStats,
   Stat,
   StatGrid,
+  useFetchLimit,
+  When,
   type Column,
 } from "../ui";
 import { LineChart } from "../components/Charts";
@@ -53,7 +57,8 @@ import { smsEventLabel } from "../../../../lib/admin/reasons";
 
 const WINDOW_HOURS = 168;
 const REFRESH_MS = 60_000;
-const WEEK_LOG_LIMIT = 2000;
+/** Rows of the week log to fetch (the newest N of the last 7 days). */
+const LOG_LIMITS = [50, 100, 200, 500, 2000] as const;
 
 type OutcomeFilter = "all" | "delivered" | "errors";
 
@@ -286,11 +291,13 @@ const FAILURE_COLUMNS: Column<OpsEventRow>[] = [
       const why = smsEventLabel(r.kind, r.close_reason);
       const copyWhy = r.kind !== "activation_received" && why !== "—";
       return (
-        <span className="inline-flex flex-wrap items-center gap-[6px]">
-          <OutcomeBadge kind={r.kind} />
-          {r.kind !== "activation_received" ? (
-            <span className={r.severity === "crit" ? "font-semibold text-bad" : "font-medium"}>{why}</span>
-          ) : null}
+        <span className="flex w-full items-center justify-between gap-[8px]">
+          <span className="inline-flex min-w-0 flex-wrap items-center gap-[6px]">
+            <OutcomeBadge kind={r.kind} />
+            {r.kind !== "activation_received" ? (
+              <span className={r.severity === "crit" ? "font-semibold text-bad" : "font-medium"}>{why}</span>
+            ) : null}
+          </span>
           {copyWhy ? <CopyText text={why} label="Copy why" /> : null}
         </span>
       );
@@ -316,7 +323,7 @@ const FAILURE_COLUMNS: Column<OpsEventRow>[] = [
     key: "when",
     header: "When",
     mobile: "aside",
-    cell: (r) => <span className="whitespace-nowrap text-caption tabular-nums text-ink-muted">{formatWhen(r.created_at)}</span>,
+    cell: (r) => <When iso={r.created_at} timeOnly className="text-caption text-ink-muted" />,
   },
   { key: "number", header: "Number", cell: (r) => <span className="font-mono text-caption text-ink-muted">{r.phone_masked ?? "—"}</span> },
   { key: "after", header: "After", align: "right", cell: (r) => <span className="text-ink-muted">{secs(r.seconds)}</span> },
@@ -327,14 +334,14 @@ const FAILURE_COLUMNS: Column<OpsEventRow>[] = [
  * The screen
  * ------------------------------------------------------------------------ */
 
-async function load(): Promise<Loaded | { denied: true } | { error: unknown }> {
+async function load(logLimit: number): Promise<Loaded | { denied: true } | { error: unknown }> {
   const results = await Promise.allSettled([
     rpc.opsDigest(24),
     rpc.opsDigest(WINDOW_HOURS),
     rpc.deliveryStats(WINDOW_HOURS),
     rpc.deliveryByCombo(WINDOW_HOURS),
     rpc.providerBalance(WINDOW_HOURS),
-    rpc.recentFailures(WEEK_LOG_LIMIT, WINDOW_HOURS),
+    rpc.recentFailures(logLimit, WINDOW_HOURS),
   ] as const);
   const reasons = results.flatMap((r) => (r.status === "rejected" ? [r.reason] : []));
   if (reasons.some(isAdminDenied)) return { denied: true };
@@ -357,13 +364,14 @@ function Delivery() {
   const [status, setStatus] = useState<Status>({ phase: "loading" });
   const [attempt, setAttempt] = useState(0);
   const [outcome, setOutcome] = useState<OutcomeFilter>("all");
+  const [logLimit, setLogLimit] = useFetchLimit("delivery-log", LOG_LIMITS, 100);
 
   const retry = useCallback(() => setAttempt((n) => n + 1), []);
 
   useEffect(() => {
     let cancelled = false;
     void (async () => {
-      const r = await load();
+      const r = await load(logLimit);
       if (cancelled) return;
       if ("denied" in r) {
         setStatus({ phase: "denied" });
@@ -382,7 +390,7 @@ function Delivery() {
     return () => {
       cancelled = true;
     };
-  }, [attempt]);
+  }, [attempt, logLimit]);
 
   /* Auto-refresh while visible; catch up at once when the tab comes back. */
   useEffect(() => {
@@ -482,13 +490,9 @@ function Delivery() {
 
       <Section
         title="This week"
-        note={
-          failures.length >= WEEK_LOG_LIMIT
-            ? "delivered and failed · newest 2000 of the last 7 days"
-            : "delivered and failed · last 7 days"
-        }
+        note="delivered and failed · last 7 days"
         actions={
-          <div className="flex flex-wrap gap-[6px]">
+          <div className="flex flex-wrap items-center gap-[6px]">
             {OUTCOME_FILTERS.map((f) => {
               const active = f.value === outcome;
               return (
@@ -510,6 +514,9 @@ function Delivery() {
           </div>
         }
       >
+        <div className="mb-[10px] flex justify-end">
+          <FetchLimit value={logLimit} options={LOG_LIMITS} onChange={setLogLimit} />
+        </div>
         <DataTable
           key={outcome}
           rows={failures.filter((r) =>
@@ -519,7 +526,7 @@ function Delivery() {
           rowKey={(r) => String(r.id)}
           rowHref={(r) => entityHref("activation", failureActivationId(r))}
           rowTone={(r) => (r.severity === "crit" ? "bad" : null)}
-          pageSizes={[50, 100]}
+          groupByDay={(r) => r.created_at}
           empty={
             <EmptyState
               title={
@@ -532,6 +539,7 @@ function Delivery() {
             />
           }
         />
+        <LimitNote count={failures.length} limit={logLimit} noun="events" />
       </Section>
     </>
   );

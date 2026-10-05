@@ -3,16 +3,20 @@
 import { useCallback, useEffect, useState, type FormEvent } from "react";
 import { AuthGate, DeniedBody } from "../AuthGate";
 import { RecentSignups } from "./RecentSignups";
-import { formatCoins, formatWhen } from "../../../../lib/admin/format";
+import { formatCoins } from "../../../../lib/admin/format";
 import { isAdminDenied, rpc, type UserSearchRow } from "../../../../lib/admin/rpc";
 import {
   Badge,
   DataTable,
   EmptyState,
   EntityLink,
+  FetchLimit,
+  LimitNote,
   PageHeader,
   RiskBadge,
   SkeletonRows,
+  useFetchLimit,
+  When,
   type Column,
 } from "../ui";
 
@@ -29,10 +33,10 @@ import {
  * already been sent, which is the failure this design exists to prevent.
  * ------------------------------------------------------------------------ */
 
-/** The RPC's ceiling (the SQL default is 25). Shown 50/100 per page; a
- *  truncated result the operator cannot see the edge of is worse than a long
- *  one, and the footer below says when the ceiling was reached. */
-const LIMIT = 200;
+/** Rows to fetch; 200 is the RPC's ceiling. The note under the results says
+ *  when the limit was reached, because a truncated result the operator cannot
+ *  see the edge of is worse than a long one. */
+const LIMITS = [25, 50, 100, 200] as const;
 
 /* ---------------------------------------------------------------------------
  * Cells
@@ -103,7 +107,7 @@ const COLUMNS: Column<UserSearchRow>[] = [
     key: "created",
     header: "Created",
     className: "whitespace-nowrap text-ink-muted",
-    cell: (row) => formatWhen(row.created_at),
+    cell: (row) => <When iso={row.created_at} timeOnly />,
   },
   {
     key: "id",
@@ -158,6 +162,7 @@ function UserSearch() {
      what actually failed rather than whatever is in the box by then — and the
      empty state names the query that found nothing, not the one being typed. */
   const [ran, setRan] = useState<string | null>(null);
+  const [limit, setLimit] = useFetchLimit("user-search", LIMITS, 50);
   const onDenied = useCallback(() => setDenied(true), []);
   /* Set by the Danger zone on a user page after a deletion: `?deleted=<audit
      id>`. Read once from the URL rather than with useSearchParams, which would
@@ -174,14 +179,14 @@ function UserSearch() {
     if (deletedAudit) window.history.replaceState(null, "", window.location.pathname);
   }, [deletedAudit]);
 
-  const run = useCallback(async (raw: string) => {
+  const run = useCallback(async (raw: string, max: number) => {
     const q = raw.trim();
     if (!q) return;
     setRan(q);
     setBusy(true);
     setError(null);
     try {
-      setRows(await rpc.userSearch(q, LIMIT));
+      setRows(await rpc.userSearch(q, max));
     } catch (err) {
       /* 42501 is the only thing the database will ever say about not being an
          admin — render the denied screen, see AuthGate. */
@@ -199,7 +204,7 @@ function UserSearch() {
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (busy) return;
-    void run(query);
+    void run(query, limit);
   }
 
   if (denied) return <DeniedBody />;
@@ -242,7 +247,7 @@ function UserSearch() {
           <ErrorNote
             message={error}
             onRetry={() => {
-              void run(ran ?? query);
+              void run(ran ?? query, limit);
             }}
           />
         ) : rows === null ? (
@@ -255,9 +260,19 @@ function UserSearch() {
           <SkeletonRows n={4} />
         ) : (
           <>
+            <div className="mb-[10px] flex justify-end">
+              <FetchLimit
+                value={limit}
+                options={LIMITS}
+                onChange={(n) => {
+                  setLimit(n);
+                  if (ran) void run(ran, n);
+                }}
+              />
+            </div>
             <DataTable
-              pageSizes={[50, 100]}
               rows={rows}
+              groupByDay={(row) => row.created_at}
               columns={COLUMNS}
               rowKey={(row) => row.user_id}
               rowHref={(row) => `/admin/users/${row.user_id}`}
@@ -269,14 +284,7 @@ function UserSearch() {
                 />
               }
             />
-            {rows.length ? (
-              <p className="mt-[8px] text-caption text-muted">
-                {rows.length} {rows.length === 1 ? "account" : "accounts"}
-                {rows.length === LIMIT
-                  ? ` — the limit. Narrow the query; there may be more.`
-                  : ""}
-              </p>
-            ) : null}
+            <LimitNote count={rows.length} limit={limit} noun={rows.length === 1 ? "account" : "accounts"} />
           </>
         )}
       </div>

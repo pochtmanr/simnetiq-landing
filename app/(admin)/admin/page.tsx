@@ -14,10 +14,11 @@ import {
   type AdminAuditRow,
   type MoneyHealthRow,
 } from "../../../lib/admin/rpc";
-import { formatCoins, formatPct, formatRelative, formatUsd, formatUsdSigned, formatWhen } from "../../../lib/admin/format";
+import { formatCoins, formatDayLabel, formatPct, formatRelative, formatUsd, formatUsdSigned, localDayKey } from "../../../lib/admin/format";
 import {
   Badge,
   CopyText,
+  DaySeparator,
   EmptyState,
   PageHeader,
   PageSkeleton,
@@ -31,6 +32,8 @@ import {
   entityHref,
   isUuid,
   useAdminData,
+  useNow,
+  When,
   type BadgeTone,
   type Loadable,
 } from "./ui";
@@ -209,13 +212,13 @@ function FeedItem({ r }: { r: ActivityRow }) {
           <span className="text-body font-medium">{r.title}</span>
         </span>
         {r.detail ? (
-          <span className="mt-[2px] flex items-start gap-[6px] break-words text-label text-ink-muted [overflow-wrap:anywhere]">
+          <span className="mt-[2px] flex items-start justify-between gap-[8px] break-words text-label text-ink-muted [overflow-wrap:anywhere]">
             <span className="min-w-0">{r.detail}</span>
             {r.kind === "failure" ? <CopyText text={r.detail} label="Copy why" /> : null}
           </span>
         ) : null}
-        <span className="mt-[2px] block text-caption text-muted" title={formatWhen(r.at)}>
-          {formatRelative(r.at)}
+        <span className="mt-[2px] block text-caption text-muted">
+          <When iso={r.at} />
         </span>
       </span>
       {r.amount_usd !== null ? (
@@ -278,6 +281,18 @@ function auditToActivity(a: AdminAuditRow): ActivityRow {
 
 const PAGE = 40;
 
+/** The feed arrives newest first; cut it into local days. */
+function byDay(rows: ActivityRow[]): { key: string; rows: ActivityRow[] }[] {
+  const out: { key: string; rows: ActivityRow[] }[] = [];
+  for (const r of rows) {
+    const key = localDayKey(r.at) ?? "none";
+    const last = out[out.length - 1];
+    if (last && last.key === key) last.rows.push(r);
+    else out.push({ key, rows: [r] });
+  }
+  return out;
+}
+
 function ActivityFeed({ tick, onSettled }: { tick: number; onSettled?: () => void }) {
   const [filter, setFilter] = useState("all");
   const [rows, setRows] = useState<ActivityRow[]>([]);
@@ -287,6 +302,7 @@ function ActivityFeed({ tick, onSettled }: { tick: number; onSettled?: () => voi
   const [loadingMore, setLoadingMore] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const kinds = FILTERS.find((f) => f.key === filter)?.kinds ?? null;
+  const now = useNow();
 
   function choose(key: string) {
     if (key === filter) return;
@@ -385,11 +401,16 @@ function ActivityFeed({ tick, onSettled }: { tick: number; onSettled?: () => voi
         <EmptyState title="Nothing happened here in the last 30 days" />
       ) : (
         <>
-          <ul className="overflow-hidden rounded-card border border-border bg-card">
-            {rows.map((r, i) => (
-              <FeedItem key={`${r.at}-${r.kind}-${r.entity_id}-${i}`} r={r} />
-            ))}
-          </ul>
+          {byDay(rows).map((g) => (
+            <div key={g.key} className="mt-[14px] first:mt-0">
+              <DaySeparator label={formatDayLabel(g.rows[0].at, now)} count={g.rows.length} />
+              <ul className="overflow-hidden rounded-card border border-border bg-card">
+                {g.rows.map((r, i) => (
+                  <FeedItem key={`${r.at}-${r.kind}-${r.entity_id}-${i}`} r={r} />
+                ))}
+              </ul>
+            </div>
+          ))}
           {more ? (
             <div className="mt-[10px] text-center">
               <button type="button" onClick={loadOlder} disabled={loadingMore} className="rounded-button border border-border bg-card px-[14px] py-[7px] text-label text-ink-muted">

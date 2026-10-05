@@ -1,12 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { formatCoins, formatWhen } from "../../../../lib/admin/format";
+import { formatCoins } from "../../../../lib/admin/format";
 import { rpc, type SignupRow } from "../../../../lib/admin/rpc";
 import {
   Badge,
   DataTable,
   EmptyState,
+  FetchLimit,
+  LimitNote,
   Loaded,
   ProviderChip,
   Section,
@@ -15,6 +17,8 @@ import {
   Stat,
   StatGrid,
   useAdminData,
+  useFetchLimit,
+  When,
   WindowPicker,
   type Column,
 } from "../ui";
@@ -25,12 +29,15 @@ import {
  * ops bot's /users posts. Emails are masked in SQL.
  * ------------------------------------------------------------------------ */
 
-/* The RPC's own ceiling. Paged 50/100 on screen, so fetching all of it once
-   keeps the pager instant. */
-const LIMIT = 500;
+/* ops_signup_rows caps at 500. */
+const LIMITS = [50, 100, 200, 500] as const;
 
-/* The account cell is plain text: the row (and, on a phone, the card title)
-   is already the link to the user, and an anchor inside it would nest. */
+const PaidBadge = ({ paid }: { paid: boolean }) => (paid ? <Badge tone="good">paid</Badge> : <Badge>not yet</Badge>);
+
+/* On a phone the card is: account on top, balance on the right, and one row
+   underneath with when they registered on the left and how they sign in +
+   whether they paid on the right. On desktop the same pieces are columns.
+   The account cell is plain text: the row is already the link to the user. */
 const COLUMNS: Column<SignupRow>[] = [
   {
     key: "account",
@@ -47,28 +54,40 @@ const COLUMNS: Column<SignupRow>[] = [
     cell: (r) => <span className="font-medium">{formatCoins(r.balance_coins)}</span>,
   },
   {
-    key: "paid",
-    header: "Paid",
-    mobile: "aside",
-    cell: (r) => (r.purchased ? <Badge tone="good">paid</Badge> : <span className="text-caption text-muted">not yet</span>),
+    key: "row",
+    header: "Registered",
+    mobile: "footer",
+    desktop: false,
+    cell: (r) => (
+      <span className="flex w-full items-center justify-between gap-[8px]">
+        <When iso={r.registered_at} timeOnly className="text-label text-ink-muted" />
+        <span className="flex items-center gap-[6px]">
+          <ProviderChip provider={r.provider} />
+          <PaidBadge paid={r.purchased} />
+        </span>
+      </span>
+    ),
   },
   {
     key: "registered",
     header: "Registered",
-    className: "whitespace-nowrap tabular-nums text-ink-muted",
-    cell: (r) => formatWhen(r.registered_at),
+    mobile: "hide",
+    className: "whitespace-nowrap text-ink-muted",
+    cell: (r) => <When iso={r.registered_at} timeOnly />,
   },
-  { key: "via", header: "Via", mobile: "aside", cell: (r) => <ProviderChip provider={r.provider} /> },
+  { key: "via", header: "Via", mobile: "hide", cell: (r) => <ProviderChip provider={r.provider} /> },
+  { key: "paid", header: "Paid", mobile: "hide", cell: (r) => <PaidBadge paid={r.purchased} /> },
 ];
 
 export function RecentSignups({ onDenied }: { onDenied: () => void }) {
   const [hours, setHours] = useState(168);
+  const [limit, setLimit] = useFetchLimit("signups", LIMITS, 100);
   const { status, retry } = useAdminData(
     async () => {
-      const [summary, rows] = await Promise.all([rpc.usersSummary(hours), rpc.recentSignups(hours, LIMIT)]);
+      const [summary, rows] = await Promise.all([rpc.usersSummary(hours), rpc.recentSignups(hours, limit)]);
       return { summary, rows };
     },
-    String(hours),
+    `${hours}:${limit}`,
   );
 
   /* A denial replaces the whole Users screen, not just this section. */
@@ -113,20 +132,19 @@ export function RecentSignups({ onDenied }: { onDenied: () => void }) {
                 source="ops_purchase_rows, is_first and not sandbox"
               />
             </StatGrid>
-            <div className="mt-[16px]">
+            <div className="mt-[16px] flex justify-end">
+              <FetchLimit value={limit} options={LIMITS} onChange={setLimit} />
+            </div>
+            <div className="mt-[10px]">
               <DataTable
                 rows={rows}
                 columns={COLUMNS}
                 rowKey={(r) => r.user_id}
                 rowHref={(r) => `/admin/users/${r.user_id}`}
-                pageSizes={[50, 100]}
+                groupByDay={(r) => r.registered_at}
                 empty={<EmptyState title="No sign-ups in this window." hint="Try a longer window above." />}
-                footer={
-                  rows.length === LIMIT ? (
-                    <p className="text-caption text-muted">Showing the newest {LIMIT}.</p>
-                  ) : null
-                }
               />
+              <LimitNote count={rows.length} limit={limit} noun="sign-ups" />
             </div>
           </>
         )}

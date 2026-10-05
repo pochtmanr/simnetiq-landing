@@ -24,6 +24,7 @@ import {
   StatGrid,
   StatusBadge,
   useAdminData,
+  When,
   type Column,
 } from "../../ui";
 import {
@@ -218,7 +219,7 @@ function ledgerActivation(r: PurchaseLedgerEntry): string | null {
 const LEDGER_COLUMNS: Column<PurchaseLedgerEntry>[] = [
   { key: "kind", header: "Kind", mobile: "title", cell: (r) => <StatusBadge status={r.kind} /> },
   { key: "delta", header: "Coins", align: "right", mobile: "aside", cell: (r) => <Signed coins={r.delta_coins} /> },
-  { key: "when", header: "When", cell: (r) => <span title={formatWhen(r.created_at)}>{formatWhen(r.created_at)}</span> },
+  { key: "when", header: "When", cell: (r) => <When iso={r.created_at} /> },
   { key: "balance", header: "Balance after", align: "right", cell: (r) => formatCoins(r.balance_after) },
   { key: "short", header: "Shortfall", align: "right", cell: (r) => (r.shortfall_coins ? <span className="text-bad">{formatCoins(r.shortfall_coins)}</span> : NOTHING) },
   { key: "usd", header: "Net $", align: "right", cell: (r) => formatUsd(r.usd_value) },
@@ -277,7 +278,7 @@ function Detail({ p }: { p: PurchaseDetail }) {
               { label: "Purchased", value: formatWhen(p.purchased_at), wide: true },
               { label: "Granted", value: formatWhen(p.granted_at), wide: true },
               { label: "Ledger row", value: formatWhen(p.ledger_at), wide: true },
-              { label: "Transaction", value: <ShortId id={p.transaction_id} /> },
+              { label: "Transaction", value: <ShortId id={p.transaction_id} />, wide: true },
             ]}
           />
         </Card>

@@ -13,7 +13,9 @@ import {
   EntityLink,
   entityHref,
   Facts,
+  FetchLimit,
   isUuid,
+  LimitNote,
   PageHeader,
   RefreshButton,
   RiskBadge,
@@ -22,6 +24,8 @@ import {
   SkeletonRows,
   SkeletonStats,
   StatusBadge,
+  useFetchLimit,
+  When,
   type Column,
 } from "../../ui";
 import {
@@ -57,8 +61,8 @@ import {
  * so there is no pretending the lookup was invisible.
  * ------------------------------------------------------------------------ */
 
-const LEDGER_LIMIT = 100;
-const ACTIVATIONS_LIMIT = 100;
+/** Rows to fetch for the ledger and activations; both RPCs cap at 1000. */
+const LIMITS = [50, 100, 300, 1000] as const;
 
 const NOTHING = "—";
 
@@ -200,7 +204,7 @@ function Overview({ overview }: { overview: UserOverviewRow }) {
               </span>
             ),
           },
-          { label: "Created", value: formatWhen(overview.created_at) },
+          { label: "Created", value: <When iso={overview.created_at} /> },
           /* Shown, not hidden: this page wrote that row by being opened. */
           { label: "Audit id for this lookup", value: <span className="font-mono tabular-nums">{overview.audit_id}</span> },
           { label: "User id", value: <ShortId id={overview.user_id} />, wide: true },
@@ -224,7 +228,7 @@ const LEDGER_COLUMNS: Column<UserLedgerRow>[] = [
     key: "when",
     header: "When",
     mobile: "title",
-    cell: (r) => <span className="whitespace-nowrap text-ink-muted">{formatWhen(r.created_at)}</span>,
+    cell: (r) => <When iso={r.created_at} timeOnly className="text-ink-muted" />,
   },
   {
     key: "delta",
@@ -307,7 +311,7 @@ const ACTIVATION_COLUMNS: Column<UserActivationsRow>[] = [
     key: "when",
     header: "When",
     mobile: "title",
-    cell: (r) => <span className="whitespace-nowrap text-ink-muted">{formatWhen(r.created_at)}</span>,
+    cell: (r) => <When iso={r.created_at} timeOnly className="text-ink-muted" />,
   },
   {
     key: "status",
@@ -367,7 +371,7 @@ const ACTIVATION_COLUMNS: Column<UserActivationsRow>[] = [
         </span>
       ),
   },
-  { key: "released", header: "Released", cell: (r) => <span className="text-ink-muted">{formatWhen(r.released_at)}</span> },
+  { key: "released", header: "Released", cell: (r) => <When iso={r.released_at} className="text-ink-muted" /> },
   { key: "id", header: "Activation", cell: (r) => <EntityLink type="activation" id={r.id} /> },
 ];
 
@@ -389,6 +393,8 @@ function UserDetail({ userId }: { userId: string }) {
      state synchronously in an effect body cascades renders, and the lint rule
      that says so is right. */
   const [nonce, setNonce] = useState(0);
+  const [ledgerLimit, setLedgerLimit] = useFetchLimit("user-ledger", LIMITS, 100);
+  const [activationsLimit, setActivationsLimit] = useFetchLimit("user-activations", LIMITS, 100);
 
   /** Re-read everything. The retry button and Task 8's `onChanged` share it,
    *  so the three tables can never disagree about which moment they describe. */
@@ -405,8 +411,8 @@ function UserDetail({ userId }: { userId: string }) {
       try {
         const [nextOverview, nextLedger, nextActivations] = await Promise.all([
           rpc.userOverview(userId),
-          rpc.userLedger(userId, LEDGER_LIMIT),
-          rpc.userActivations(userId, ACTIVATIONS_LIMIT),
+          rpc.userLedger(userId, ledgerLimit),
+          rpc.userActivations(userId, activationsLimit),
         ]);
         if (cancelled) return;
         setOverview(nextOverview);
@@ -429,7 +435,7 @@ function UserDetail({ userId }: { userId: string }) {
     return () => {
       cancelled = true;
     };
-  }, [userId, valid, nonce]);
+  }, [userId, valid, nonce, ledgerLimit, activationsLimit]);
 
   if (denied) return <DeniedBody />;
 
@@ -497,7 +503,7 @@ function UserDetail({ userId }: { userId: string }) {
 
           <Section
             title="Wallet ledger"
-            note={`Newest first, up to ${LEDGER_LIMIT} entries.`}
+            actions={<FetchLimit value={ledgerLimit} options={LIMITS} onChange={setLedgerLimit} />}
           >
             <DataTable
               rows={ledger}
@@ -505,21 +511,26 @@ function UserDetail({ userId }: { userId: string }) {
               rowKey={(r) => String(r.id)}
               rowHref={ledgerHref}
               rowTone={(r) => (r.shortfall_coins > 0 || r.kind === "clawback" ? "warn" : null)}
+              groupByDay={(r) => r.created_at}
               empty={<EmptyState title="No wallet entries" />}
             />
+            <LimitNote count={ledger.length} limit={ledgerLimit} noun="entries" />
           </Section>
 
           <Section
             title="Activations"
-            note={`Numbers are masked and message bodies are not returned at all — “SMS” only says one arrived. Up to ${ACTIVATIONS_LIMIT} entries.`}
+            note="Numbers are masked and message bodies are not returned at all — “SMS” only says one arrived."
+            actions={<FetchLimit value={activationsLimit} options={LIMITS} onChange={setActivationsLimit} />}
           >
             <DataTable
               rows={activations}
               columns={ACTIVATION_COLUMNS}
               rowKey={(r) => r.id}
               rowHref={(r) => entityHref("activation", r.id)}
+              groupByDay={(r) => r.created_at}
               empty={<EmptyState title="No activations" />}
             />
+            <LimitNote count={activations.length} limit={activationsLimit} noun="activations" />
           </Section>
 
           {/* Last on the page, and keyed by user for the same reason as

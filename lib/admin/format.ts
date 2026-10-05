@@ -138,3 +138,71 @@ export function formatDial(value: Numeric): string {
   const s = String(value).trim().replace(/^\+/, "");
   return s ? `+${s}` : NOTHING;
 }
+
+/* ---------------------------------------------------------------------------
+ * Local-time helpers for lists. These read the device's clock and time zone,
+ * so they are client-only: "today" means the operator's today. Exact values
+ * still go through formatWhen (UTC) so they match the SQL editor and logs.
+ * ------------------------------------------------------------------------ */
+
+const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+function startOfLocalDay(t: number): number {
+  const d = new Date(t);
+  d.setHours(0, 0, 0, 0);
+  return d.getTime();
+}
+
+/** Whole local calendar days between `iso` and `now` (0 = today). */
+function localDaysAgo(t: number, now: number): number {
+  return Math.round((startOfLocalDay(now) - startOfLocalDay(t)) / 86_400_000);
+}
+
+/** Local `HH:MM`. */
+export function formatLocalTime(iso: string | null | undefined): string {
+  if (!iso) return NOTHING;
+  const t = new Date(iso);
+  if (Number.isNaN(t.getTime())) return NOTHING;
+  return `${String(t.getHours()).padStart(2, "0")}:${String(t.getMinutes()).padStart(2, "0")}`;
+}
+
+/** A local day key, `2026-10-06`, for grouping rows by day. */
+export function localDayKey(iso: string | null | undefined): string | null {
+  if (!iso) return null;
+  const t = new Date(iso);
+  if (Number.isNaN(t.getTime())) return null;
+  return `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, "0")}-${String(t.getDate()).padStart(2, "0")}`;
+}
+
+/** A day separator: `Today`, `Yesterday`, `Monday, Oct 4`, or
+ *  `Sep 23, 2025` for another year. */
+export function formatDayLabel(iso: string | null | undefined, now: number = Date.now()): string {
+  if (!iso) return "No date";
+  const t = new Date(iso);
+  if (Number.isNaN(t.getTime())) return "No date";
+  const days = localDaysAgo(t.getTime(), now);
+  if (days === 0) return "Today";
+  if (days === 1) return "Yesterday";
+  const date = `${MONTHS[t.getMonth()]} ${t.getDate()}`;
+  if (t.getFullYear() !== new Date(now).getFullYear()) return `${date}, ${t.getFullYear()}`;
+  return `${WEEKDAYS[t.getDay()]}, ${date}`;
+}
+
+/** Live "when" for lists: `just now`, `5m ago`, `3h ago` today; then
+ *  `yesterday 14:05`, `Mon 14:05` within a week, `Sep 23` after. */
+export function formatAgo(iso: string | null | undefined, now: number = Date.now()): string {
+  if (!iso) return NOTHING;
+  const t = new Date(iso);
+  const ms = t.getTime();
+  if (Number.isNaN(ms)) return NOTHING;
+  const seconds = Math.floor((now - ms) / 1000);
+  if (seconds < 45) return "just now";
+  const minutes = Math.round(seconds / 60);
+  if (minutes < 60) return `${minutes}m ago`;
+  const days = localDaysAgo(ms, now);
+  if (days === 0) return `${Math.round(minutes / 60)}h ago`;
+  if (days === 1) return `yesterday ${formatLocalTime(iso)}`;
+  if (days < 7) return `${WEEKDAYS[t.getDay()].slice(0, 3)} ${formatLocalTime(iso)}`;
+  const date = `${MONTHS[t.getMonth()]} ${t.getDate()}`;
+  return t.getFullYear() === new Date(now).getFullYear() ? date : `${date}, ${t.getFullYear()}`;
+}

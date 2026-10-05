@@ -4,7 +4,6 @@ import { useState, type FormEvent } from "react";
 import AuthGate from "../AuthGate";
 import { AuditId, Confirm, describeFailure, Failure, Hint, INPUT, Label, MIN_REASON, Panel } from "../components/RevealSms";
 import { useMe } from "../components/Me";
-import { formatWhen } from "../../../../lib/admin/format";
 import { rpc, isAdminDenied, type TeamMember, type TeamRole } from "../../../../lib/admin/rpc";
 import { inviteMember, type InviteResult } from "../../../../lib/admin/teamFunction";
 import type { TeamTgLinkRow } from "../../../../lib/admin/rpc";
@@ -21,6 +20,7 @@ import {
   SkeletonRows,
   StatusBadge,
   useAdminData,
+  When,
   type Column,
 } from "../ui";
 
@@ -363,7 +363,7 @@ function columns(
       cell: (m) => <RoleBadge role={m.role} />,
     },
     { key: "status", header: "Status", mobile: "aside", cell: (m) => <StatusBadge status={m.status} /> },
-    { key: "added", header: "Added", cell: (m) => <span className="tabular-nums text-ink-muted md:whitespace-nowrap">{formatWhen(m.added_at)}</span> },
+    { key: "added", header: "Added", cell: (m) => <span className="tabular-nums text-ink-muted md:whitespace-nowrap"><When iso={m.added_at} /></span> },
     {
       key: "by",
       header: "Invited by",
@@ -372,7 +372,7 @@ function columns(
     {
       key: "seen",
       header: "Last seen",
-      cell: (m) => <span className="tabular-nums text-ink-muted md:whitespace-nowrap">{formatWhen(m.last_seen_at)}</span>,
+      cell: (m) => <span className="tabular-nums text-ink-muted md:whitespace-nowrap"><When iso={m.last_seen_at} /></span>,
     },
     ...(links
       ? [

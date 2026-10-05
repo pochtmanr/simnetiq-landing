@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { getAdminAccessToken } from "../../../../lib/admin/client";
 import { formatWhen } from "../../../../lib/admin/format";
+import { renderReplyHtml } from "../../../../lib/admin/replyTemplate";
 import {
   isAdminDenied,
   rpc,
@@ -15,7 +16,9 @@ import {
  *
  * Sending goes through /api/admin/support/reply, which forwards this
  * operator's own access token to `admin_support_reply` (so Postgres decides,
- * as for every other admin action) and then asks n8n to email the customer.
+ * as for every other admin action) and then emails the customer from
+ * support@simnetiq.com over SMTP, using lib/admin/replyTemplate — the same
+ * template "Preview email" renders here.
  * The reply is stored even if the email fails; the panel says so and offers
  * the operator's own mail client as the fallback.
  *
@@ -57,6 +60,7 @@ export function ReplyPanel({
   const [draft, setDraft] = useState("");
   const [send, setSend] = useState<SendState>({ phase: "idle" });
   const [nonce, setNonce] = useState(0);
+  const [preview, setPreview] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -168,6 +172,25 @@ export function ReplyPanel({
         aria-label="Reply"
         disabled={busy}
       />
+      {preview ? (
+        <div className="mt-[8px] overflow-hidden rounded-[10px] border border-border bg-canvas">
+          <div className="border-b border-border bg-card px-[10px] py-[6px] text-caption text-muted">
+            To {row.email} · from SMS Code Support &lt;support@simnetiq.com&gt;
+          </div>
+          {/* sandbox with no permissions: the preview can't run script or navigate this page. */}
+          <iframe
+            title="Email preview"
+            sandbox=""
+            className="block h-[460px] w-full bg-canvas"
+            srcDoc={renderReplyHtml({
+              name: row.name,
+              locale: row.locale,
+              body: draft.trim() || "…",
+              originalMessage: row.message,
+            })}
+          />
+        </div>
+      ) : null}
       <div className="mt-[8px] flex flex-wrap items-center gap-[8px]">
         <button
           type="button"
@@ -184,6 +207,14 @@ export function ReplyPanel({
           onClick={() => void submit("open")}
         >
           Send, keep open
+        </button>
+        <button
+          type="button"
+          aria-pressed={preview}
+          onClick={() => setPreview((v) => !v)}
+          className="rounded-button px-[10px] py-[6px] text-label text-ink-muted hover:text-ink"
+        >
+          {preview ? "Hide preview" : "Preview email"}
         </button>
         <a href={mailto(row)} className="ml-auto text-caption text-muted underline underline-offset-2">
           Reply from my mail app

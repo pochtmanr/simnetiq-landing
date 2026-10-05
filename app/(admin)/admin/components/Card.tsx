@@ -91,13 +91,14 @@ export function PageHeader({
           ))}
         </nav>
       ) : null}
-      <div className="flex flex-wrap items-end justify-between gap-x-[16px] gap-y-[10px]">
-        <div className="min-w-0">
-          <h1 className="break-words font-display text-heading-sm font-medium">{title}</h1>
-          {subtitle ? <p className="mt-[2px] text-label text-ink-muted">{subtitle}</p> : null}
-        </div>
+      {/* The title and its controls share a line; a short control (the refresh
+          icon) always fits beside the title, a wide one wraps under it. The
+          subtitle runs full width below either way. */}
+      <div className="flex flex-wrap items-center justify-between gap-x-[12px] gap-y-[10px]">
+        <h1 className="min-w-0 flex-[1_1_auto] break-words font-display text-heading-sm font-medium">{title}</h1>
         {actions ? <div className="flex flex-wrap items-center gap-[8px]">{actions}</div> : null}
       </div>
+      {subtitle ? <p className="mt-[2px] text-label text-ink-muted">{subtitle}</p> : null}
     </div>
   );
 }
@@ -116,15 +117,30 @@ export function Facts({ items }: { items: { label: string; value: ReactNode; wid
   );
 }
 
+/** A round icon button that stays on the title's line; spins while loading. */
 export function RefreshButton({ onClick, busy = false }: { onClick: () => void; busy?: boolean }) {
   return (
     <button
       type="button"
       onClick={onClick}
       disabled={busy}
-      className="rounded-button border border-border bg-card px-[14px] py-[6px] text-label text-ink-muted transition-colors hover:text-ink disabled:opacity-60"
+      aria-label={busy ? "Loading" : "Refresh"}
+      title="Refresh"
+      className="inline-flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-full border border-border bg-card text-ink-muted transition-colors hover:text-ink active:bg-panel disabled:opacity-70"
     >
-      {busy ? "Loading…" : "Refresh"}
+      <svg
+        viewBox="0 0 24 24"
+        className={`h-[17px] w-[17px] ${busy ? "animate-spin" : ""}`}
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden
+      >
+        <path d="M20 12a8 8 0 1 1-2.34-5.66" />
+        <path d="M20 4v5h-5" />
+      </svg>
     </button>
   );
 }

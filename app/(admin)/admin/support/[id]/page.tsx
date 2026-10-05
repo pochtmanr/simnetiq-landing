@@ -8,6 +8,7 @@ import { StatusSelect } from "../StatusSelect";
 import {
   Badge,
   Card,
+  CopyRow,
   CopyText,
   EmptyState,
   EntityLink,
@@ -21,8 +22,8 @@ import {
   SourceLine,
   StatusBadge,
   useAdminData,
+  When,
 } from "../../ui";
-import { formatRelative, formatWhen } from "../../../../../lib/admin/format";
 import { isMigrationMissing, rpc, type SupportRow } from "../../../../../lib/admin/rpc";
 
 /* ---------------------------------------------------------------------------
@@ -80,7 +81,11 @@ function Ticket({ found, onDenied }: { found: NonNullable<Found>; onDenied: () =
       <div className="grid grid-cols-1 gap-[14px] lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
         <Card
           title="Message"
-          note={`Sent ${formatWhen(row.created_at)}`}
+          note={
+            <>
+              Sent <When iso={row.created_at} />
+            </>
+          }
           actions={<CopyText text={row.message} label="Copy message" />}
         >
           <p className="whitespace-pre-wrap text-body text-ink [overflow-wrap:anywhere]">{row.message}</p>
@@ -89,15 +94,13 @@ function Ticket({ found, onDenied }: { found: NonNullable<Found>; onDenied: () =
           <div>
             <Badge tone="info">Website</Badge>
             <p className="mt-[8px] text-body font-medium">{row.name || "—"}</p>
-            <p className="mt-[2px] flex min-w-0 items-start gap-[4px]">
-              <a
-                href={`mailto:${encodeURIComponent(row.email)}`}
-                className="min-w-0 break-all text-accent-deep hover:underline"
-              >
-                {row.email}
-              </a>
-              <CopyText text={row.email} label="Copy email" />
-            </p>
+            <div className="mt-[4px]">
+              <CopyRow text={row.email} label="Copy email">
+                <a href={`mailto:${encodeURIComponent(row.email)}`} className="text-accent-deep hover:underline">
+                  {row.email}
+                </a>
+              </CopyRow>
+            </div>
           </div>
           <dl className="mt-[14px] grid grid-cols-1 gap-y-[10px] border-t border-border pt-[12px]">
             <TicketFact label="Topic">{row.topic || "—"}</TicketFact>
@@ -112,7 +115,7 @@ function Ticket({ found, onDenied }: { found: NonNullable<Found>; onDenied: () =
               )}
             </TicketFact>
             <TicketFact label="Replies">{String(row.reply_count ?? 0)}</TicketFact>
-            <TicketFact label="Last reply">{row.last_reply_at ? formatRelative(row.last_reply_at) : "—"}</TicketFact>
+            <TicketFact label="Last reply">{row.last_reply_at ? <When iso={row.last_reply_at} /> : "—"}</TicketFact>
             <TicketFact label="Ticket">
               <ShortId id={row.id} />
             </TicketFact>
@@ -129,7 +132,7 @@ function Ticket({ found, onDenied }: { found: NonNullable<Found>; onDenied: () =
         </Card>
       </div>
 
-      <Card title="Replies" note="Sent by email through n8n and stored on the ticket. Plain text only.">
+      <Card title="Replies" note="Emailed to the customer from support@simnetiq.com and stored on the ticket.">
         <ReplyPanel row={current} onSent={setStatus} onDenied={onDenied} />
       </Card>
 
@@ -161,7 +164,7 @@ function TicketScreen({ id }: { id: string }) {
             <span className="inline-flex flex-wrap items-center gap-[8px]">
               {found.row.stale ? <Badge tone="bad">waiting over 24h</Badge> : null}
               <span className="break-all">{found.row.name || found.row.email}</span>
-              <span className="text-muted">{formatRelative(found.row.created_at)}</span>
+              <When iso={found.row.created_at} className="text-muted" />
             </span>
           ) : (
             <span className="font-mono">{shortId(id)}</span>

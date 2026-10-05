@@ -3,7 +3,6 @@
 import { useCallback, useEffect, useState } from "react";
 import AuthGate, { DeniedBody } from "../AuthGate";
 import { StatusSelect } from "./StatusSelect";
-import { formatWhen } from "../../../../lib/admin/format";
 import {
   isAdminDenied,
   rpc,
@@ -14,10 +13,14 @@ import {
   Badge,
   DataTable,
   EmptyState,
+  FetchLimit,
+  LimitNote,
   PageHeader,
   RefreshButton,
   SkeletonRows,
   StatusBadge,
+  useFetchLimit,
+  When,
   type Column,
 } from "../ui";
 
@@ -49,6 +52,9 @@ import {
 
 /** `null` is "every status" — `admin_support_list(p_status => null)`. */
 type Filter = SupportStatus | null;
+
+/** Rows to fetch; admin_support_list caps at 500. */
+const LIMITS = [50, 100, 200, 500] as const;
 
 const FILTERS: readonly { value: Filter; label: string }[] = [
   { value: null, label: "All" },
@@ -122,7 +128,7 @@ function columns(
       key: "when",
       header: "When",
       className: "whitespace-nowrap tabular-nums text-ink-muted",
-      cell: (row) => formatWhen(row.created_at),
+      cell: (row) => <When iso={row.created_at} timeOnly />,
     },
     {
       key: "set",
@@ -149,10 +155,11 @@ function columns(
    the one being asked for. Without that, switching filter twice quickly can
    leave the slower first response painting rows that do not match the selected
    filter, which looks exactly like a broken filter. */
-type Query = { filter: Filter; nonce: number };
+type Query = { filter: Filter; limit: number; nonce: number };
 
 function Inbox() {
-  const [request, setRequest] = useState<Query>({ filter: null, nonce: 0 });
+  const [savedLimit, saveLimit] = useFetchLimit("support", LIMITS, 50);
+  const [request, setRequest] = useState<Query>({ filter: null, limit: savedLimit, nonce: 0 });
   const [rows, setRows] = useState<SupportRow[]>([]);
   /* The nonce whose rows are the ones in `rows`. */
   const [loadedNonce, setLoadedNonce] = useState<number | null>(null);
@@ -187,7 +194,7 @@ function Inbox() {
     let cancelled = false;
     void (async () => {
       try {
-        const data = await rpc.supportList(request.filter);
+        const data = await rpc.supportList(request.filter, request.limit);
         if (cancelled) return;
         setRows(data);
         setLoadedNonce(request.nonce);
@@ -223,27 +230,37 @@ function Inbox() {
         actions={<RefreshButton onClick={reload} busy={loading} />}
       />
 
-      <div className="flex flex-wrap gap-[6px]">
-        {FILTERS.map((f) => {
-          const active = f.value === filter;
-          return (
-            <button
-              key={f.label}
-              type="button"
-              onClick={() =>
-                setRequest((r) => ({ filter: f.value, nonce: r.nonce + 1 }))
-              }
-              aria-pressed={active}
-              className={`rounded-pill border px-[14px] py-[6px] text-label transition-colors ${
-                active
-                  ? "border-transparent bg-ink text-white"
-                  : "border-border bg-card text-ink-muted"
-              }`}
-            >
-              {f.label}
-            </button>
-          );
-        })}
+      <div className="flex flex-wrap items-center justify-between gap-[10px]">
+        <div className="flex flex-wrap gap-[6px]">
+          {FILTERS.map((f) => {
+            const active = f.value === filter;
+            return (
+              <button
+                key={f.label}
+                type="button"
+                onClick={() =>
+                  setRequest((r) => ({ ...r, filter: f.value, nonce: r.nonce + 1 }))
+                }
+                aria-pressed={active}
+                className={`rounded-pill border px-[14px] py-[6px] text-label transition-colors ${
+                  active
+                    ? "border-transparent bg-ink text-white"
+                    : "border-border bg-card text-ink-muted"
+                }`}
+              >
+                {f.label}
+              </button>
+            );
+          })}
+        </div>
+        <FetchLimit
+          value={request.limit}
+          options={LIMITS}
+          onChange={(n) => {
+            saveLimit(n);
+            setRequest((r) => ({ ...r, limit: n, nonce: r.nonce + 1 }));
+          }}
+        />
       </div>
 
       <div className="mt-[18px]">
@@ -276,6 +293,7 @@ function Inbox() {
             rowKey={(row) => row.id}
             rowHref={(row) => `/admin/support/${row.id}`}
             rowTone={(row) => (row.stale ? "warn" : null)}
+            groupByDay={(row) => row.created_at}
             /* The empty state says which query was empty, and says the query
                succeeded. An operator who cannot tell "nothing matched" from
                "this page is broken" will go looking for a bug that is not
@@ -300,6 +318,7 @@ function Inbox() {
             }
           />
         )}
+        {!loading && !failed ? <LimitNote count={rows.length} limit={request.limit} noun="requests" /> : null}
       </div>
     </section>
   );
