@@ -1427,6 +1427,30 @@ export const rpc = {
   tgUnlink(): Promise<unknown> {
     return callRaw("admin_tg_unlink", {});
   },
+
+  /** `admin_tg_link_for(p_user)` — owners: a 24h one-use link token for a teammate. */
+  tgLinkFor(userId: string): Promise<string> {
+    return callScalar<string>("admin_tg_link_for", { p_user: userId });
+  },
+
+  /** `admin_tg_unlink_for(p_user)` — owners: remove a teammate's Telegram link. */
+  tgUnlinkFor(userId: string): Promise<unknown> {
+    return callRaw("admin_tg_unlink_for", { p_user: userId });
+  },
+
+  /** `admin_tg_links()` — owners: every member's Telegram link and pending invite. */
+  tgLinks(): Promise<TeamTgLinkRow[]> {
+    return callRows<TeamTgLinkRow>("admin_tg_links");
+  },
+};
+
+export type TeamTgLinkRow = {
+  user_id: string;
+  telegram_user_id: number | null;
+  telegram_username: string | null;
+  linked_at: string | null;
+  last_auth_at: string | null;
+  pending_until: string | null;
 };
 
 export type TgLinkRow = {

@@ -34,6 +34,7 @@ export type TelegramWebApp = {
   BackButton: { show(): void; hide(): void; onClick(cb: () => void): void; offClick(cb: () => void): void };
   HapticFeedback?: { notificationOccurred(t: "success" | "warning" | "error"): void };
   openLink(url: string): void;
+  openTelegramLink?: (url: string) => void;
 };
 
 declare global {
@@ -43,6 +44,16 @@ declare global {
 }
 
 const STORE_KEY = "admin:tg-launch";
+
+/** The ops bot; Mini App links and deep links go through it. */
+export const TG_BOT = "smscodelogbot";
+
+/** Opens a t.me link: inside Telegram without leaving the Mini App, else a new tab. */
+export function openTelegramUrl(url: string): void {
+  const app = typeof window !== "undefined" ? window.Telegram?.WebApp : undefined;
+  if (app?.openTelegramLink && readTelegramLaunch()) app.openTelegramLink(url);
+  else window.open(url, "_blank", "noopener");
+}
 const SDK_SRC = "https://telegram.org/js/telegram-web-app.js?59";
 
 export type TelegramLaunch = { initData: string; startParam: string | null };

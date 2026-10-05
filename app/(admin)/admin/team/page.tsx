@@ -7,6 +7,8 @@ import { useMe } from "../components/Me";
 import { formatWhen } from "../../../../lib/admin/format";
 import { rpc, isAdminDenied, type TeamMember, type TeamRole } from "../../../../lib/admin/rpc";
 import { inviteMember, type InviteResult } from "../../../../lib/admin/teamFunction";
+import type { TeamTgLinkRow } from "../../../../lib/admin/rpc";
+import { TelegramInvite, telegramCell } from "./TelegramInvite";
 import {
   Card,
   DataTable,
@@ -336,7 +338,12 @@ function actionsFor(m: TeamMember): Action[] {
   return [m.role === "owner" ? { kind: "role", to: "worker" } : { kind: "role", to: "owner" }, { kind: "revoke" }];
 }
 
-function columns(me: string | null, pick: (m: TeamMember, a: Action) => void): Column<TeamMember>[] {
+function columns(
+  me: string | null,
+  pick: (m: TeamMember, a: Action) => void,
+  links: Map<string, TeamTgLinkRow> | null,
+  pickTelegram: (m: TeamMember) => void,
+): Column<TeamMember>[] {
   return [
     {
       key: "email",
@@ -367,11 +374,29 @@ function columns(me: string | null, pick: (m: TeamMember, a: Action) => void): C
       header: "Last seen",
       cell: (m) => <span className="tabular-nums text-ink-muted md:whitespace-nowrap">{formatWhen(m.last_seen_at)}</span>,
     },
+    ...(links
+      ? [
+          {
+            key: "telegram",
+            header: "Telegram",
+            cell: (m: TeamMember) => telegramCell(links.get(m.user_id)),
+          },
+        ]
+      : []),
     {
       key: "actions",
       header: "Change",
       cell: (m) => (
         <span className="flex flex-wrap gap-[6px]">
+          {links && m.status !== "revoked" ? (
+            <button
+              type="button"
+              onClick={() => pickTelegram(m)}
+              className="rounded-button border border-border bg-card px-[10px] py-[4px] text-caption text-ink-muted hover:text-ink"
+            >
+              Telegram
+            </button>
+          ) : null}
           {actionsFor(m).map((a) => (
             <button
               key={describe(a)}
@@ -397,6 +422,11 @@ function Team() {
      42501 there would render the full "no access" screen for someone who
      does have access — just not to this page. */
   const { status, retry } = useAdminData(async () => (isOwner ? rpc.teamList() : []), isOwner ? "owner" : "none");
+  /* Telegram links ride alongside the list; before migration 20261005000300
+     the column is simply absent. */
+  const [tgFor, setTgFor] = useState<TeamMember | null>(null);
+  const tg = useAdminData(async () => (isOwner ? rpc.tgLinks() : []), isOwner ? "owner" : "none");
+  const links = tg.status.phase === "ready" ? new Map(tg.status.data.map((l) => [l.user_id, l])) : null;
 
   if (meState.phase === "loading") return <SkeletonRows />;
   if (meState.phase === "missing") {
@@ -433,7 +463,18 @@ function Team() {
             <>
               <DataTable
                 rows={rows}
-                columns={columns(me, (member, action) => setSelected({ member, action }))}
+                columns={columns(
+                  me,
+                  (member, action) => {
+                    setTgFor(null);
+                    setSelected({ member, action });
+                  },
+                  links,
+                  (member) => {
+                    setSelected(null);
+                    setTgFor(member);
+                  },
+                )}
                 rowKey={(m) => m.user_id}
                 rowTone={(m) => (m.status === "revoked" ? "warn" : null)}
                 empty={<EmptyState title="Nobody on the team" hint="Which should be impossible while you are reading this." />}
@@ -451,6 +492,17 @@ function Team() {
                     owners={owners}
                     onDone={retry}
                     onClose={() => setSelected(null)}
+                  />
+                </div>
+              ) : null}
+              {tgFor ? (
+                <div className="mt-[12px]">
+                  <TelegramInvite
+                    key={tgFor.user_id}
+                    member={tgFor}
+                    link={links?.get(tgFor.user_id)}
+                    onDone={tg.retry}
+                    onClose={() => setTgFor(null)}
                   />
                 </div>
               ) : null}

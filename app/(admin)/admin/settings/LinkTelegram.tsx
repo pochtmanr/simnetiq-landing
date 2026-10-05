@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import { isTelegramSession } from "../../../../lib/admin/client";
 import { formatWhen } from "../../../../lib/admin/format";
 import { isMigrationMissing, rpc, type TgLinkRow } from "../../../../lib/admin/rpc";
+import { TG_BOT, openTelegramUrl } from "../../../../lib/admin/telegram";
 import { MigrationNotice } from "../ui";
 
 /* ---------------------------------------------------------------------------
@@ -15,8 +16,6 @@ import { MigrationNotice } from "../ui";
  * and puts a "Panel" button in that chat. From then on Telegram's signature
  * stands in for the code (see sms-expo functions/_shared/tgMiniApp.ts).
  * ------------------------------------------------------------------------ */
-
-const BOT = "smscodelogbot";
 
 type Phase =
   | { phase: "loading" }
@@ -61,7 +60,7 @@ export function LinkTelegram() {
     setBusy(true);
     try {
       const token = await rpc.tgLinkStart();
-      window.open(`https://t.me/${BOT}?start=link_${token}`, "_blank", "noopener");
+      openTelegramUrl(`https://t.me/${TG_BOT}?start=link_${token}`);
       setOpened(true);
     } catch (err) {
       setS({ phase: "error", message: err instanceof Error ? err.message : String(err) });
