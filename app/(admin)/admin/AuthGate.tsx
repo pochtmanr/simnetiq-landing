@@ -16,8 +16,15 @@ import {
   resolveAdminState,
   type AdminState,
 } from "../../../lib/admin/guard";
+import {
+  readTelegramLaunch,
+  startTelegramSession,
+  loadTelegramSdk,
+  type TelegramSignInError,
+} from "../../../lib/admin/telegram";
 import { MeProvider } from "./components/Me";
 import { BottomNav, TopNav } from "./components/Nav";
+import { TelegramBridge, closeTelegram } from "./components/TelegramBridge";
 import { SkeletonRows, SkeletonStats } from "./components/States";
 
 /* ---------------------------------------------------------------------------
@@ -797,6 +804,44 @@ function GateSkeleton() {
 }
 
 /* ---------------------------------------------------------------------------
+ * Telegram Mini App
+ * ------------------------------------------------------------------------ */
+
+type TgGate =
+  | { phase: "signing" }
+  | { phase: "ready"; startParam: string | null }
+  | { phase: "error"; code: TelegramSignInError; telegramId?: number };
+
+const TG_PROBLEM: Record<TelegramSignInError, { title: string; body: string }> = {
+  not_linked: {
+    title: "Link this Telegram account first",
+    body: "On a computer, open simnetiq.xyz/admin, go to Settings and press “Link Telegram”. Then reopen the panel here.",
+  },
+  initdata_expired: { title: "Session expired", body: "Close the panel and open it again from the bot." },
+  initdata_invalid: { title: "Could not verify Telegram", body: "Close the panel and open it again from the bot." },
+  initdata_missing: { title: "Open this from Telegram", body: "Use the Panel button in the bot chat." },
+  not_configured: {
+    title: "Telegram sign-in is not set up yet",
+    body: "The server is missing its Telegram settings. Use simnetiq.xyz/admin in a browser for now.",
+  },
+  network: { title: "No connection", body: "Check your connection, then close and reopen the panel." },
+};
+
+function TelegramProblem({ code, telegramId }: { code: TelegramSignInError; telegramId?: number }) {
+  const p = TG_PROBLEM[code];
+  return (
+    <Screen>
+      <h1 className="font-sans text-subheading">{p.title}</h1>
+      <p className="mt-[8px] text-body text-ink-muted">{p.body}</p>
+      {telegramId ? <p className="mt-[12px] text-caption text-muted">Telegram ID {telegramId}</p> : null}
+      <button type="button" onClick={closeTelegram} className="cta mt-[20px]">
+        Close
+      </button>
+    </Screen>
+  );
+}
+
+/* ---------------------------------------------------------------------------
  * The gate
  * ------------------------------------------------------------------------ */
 
@@ -823,6 +868,10 @@ export function AuthGate({ children }: { children: ReactNode }) {
   const [recovering, setRecovering] = useState<LinkMode | null>(null);
   /* A link that was used or expired, said once on the sign-in screen. */
   const [linkNotice, setLinkNotice] = useState<string | null>(null);
+  /* Set when Telegram opened the panel as a Mini App (see lib/admin/telegram.ts). */
+  /* Same skeleton either way on the server, so starting in "signing" on the
+     client does not change the first paint. */
+  const [tg, setTg] = useState<TgGate | null>(() => (readTelegramLaunch() ? { phase: "signing" } : null));
 
   const refresh = useCallback(async () => {
     setState(await currentState());
@@ -830,6 +879,25 @@ export function AuthGate({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     let cancelled = false;
+    /* Opened by Telegram: sign in with its signed launch data instead of the
+       password + code screens below, then render the same panel. */
+    const launch = readTelegramLaunch();
+    if (launch) {
+      void loadTelegramSdk();
+      void (async () => {
+        const r = await startTelegramSession(launch, (code) => setTg({ phase: "error", code }));
+        if (cancelled) return;
+        if ("error" in r) {
+          setTg({ phase: "error", code: r.error, telegramId: r.telegramId });
+          return;
+        }
+        setTg({ phase: "ready", startParam: launch.startParam });
+        setState("ready");
+      })();
+      return () => {
+        cancelled = true;
+      };
+    }
     /* A reset requested from the form comes back as ?code=… (PKCE); the
        client exchanges it on its own and announces PASSWORD_RECOVERY. */
     const { data: sub } = getAdminClient().auth.onAuthStateChange((event) => {
@@ -853,6 +921,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
   }, []);
 
   const signOut = useCallback(async () => {
+    if (readTelegramLaunch()) return closeTelegram();
     setRecovering(null);
     try {
       await getAdminClient().auth.signOut();
@@ -866,7 +935,8 @@ export function AuthGate({ children }: { children: ReactNode }) {
   /* While the session resolves, paint the panel's shape — header, cards, rows —
      rather than an empty page that then jumps into place. It shows no data and
      no nav links, so it tells a signed-out visitor nothing. */
-  if (state === null) return <GateSkeleton />;
+  if (tg?.phase === "error") return <TelegramProblem code={tg.code} telegramId={tg.telegramId} />;
+  if (state === null || tg?.phase === "signing") return <GateSkeleton />;
 
   /* With an authenticator already set up, Supabase refuses a password change
      on an aal1 session, so the code comes first (needsChallenge renders
@@ -909,6 +979,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
   return (
     <DeniedBoundary>
       <MeProvider>
+        {tg?.phase === "ready" ? <TelegramBridge startParam={tg.startParam} /> : null}
         <Chrome onSignOut={signOut}>{children}</Chrome>
       </MeProvider>
     </DeniedBoundary>

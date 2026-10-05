@@ -1412,4 +1412,26 @@ export const rpc = {
   teamRestore(userId: string, reason: string): Promise<number> {
     return callScalar<number>("admin_team_restore", { p_user: userId, p_reason: reason });
   },
+
+  /** `admin_tg_link_start()` — one-time token for t.me/<bot>?start=link_<token> (10 min). */
+  tgLinkStart(): Promise<string> {
+    return callScalar<string>("admin_tg_link_start", {});
+  },
+
+  /** `admin_tg_link_status()` — the caller's linked Telegram account, if any. */
+  tgLinkStatus(): Promise<TgLinkRow[]> {
+    return callRows<TgLinkRow>("admin_tg_link_status");
+  },
+
+  /** `admin_tg_unlink()` — removes the caller's Telegram link. */
+  tgUnlink(): Promise<unknown> {
+    return callRaw("admin_tg_unlink", {});
+  },
+};
+
+export type TgLinkRow = {
+  telegram_user_id: number;
+  telegram_username: string | null;
+  linked_at: string;
+  last_auth_at: string | null;
 };

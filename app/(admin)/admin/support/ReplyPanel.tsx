@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getAdminClient } from "../../../../lib/admin/client";
+import { getAdminAccessToken } from "../../../../lib/admin/client";
 import { formatWhen } from "../../../../lib/admin/format";
 import {
   isAdminDenied,
@@ -86,8 +86,7 @@ export function ReplyPanel({
     if (!body || send.phase === "sending") return;
     setSend({ phase: "sending" });
     try {
-      const { data } = await getAdminClient().auth.getSession();
-      const token = data.session?.access_token;
+      const token = await getAdminAccessToken();
       if (!token) {
         setSend({ phase: "failed", message: "Session expired. Reload and sign in again." });
         return;

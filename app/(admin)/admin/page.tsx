@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { LIVE_LABEL, useAdminLive, type LiveState } from "../../../lib/admin/live";
 import AuthGate, { DeniedBody } from "./AuthGate";
 import {
   isAdminDenied,
@@ -404,8 +405,42 @@ function ActivityFeed({ tick, onSettled }: { tick: number; onSettled?: () => voi
 
 /* -- Screen -------------------------------------------------------------- */
 
+/* How long to gather signals before refetching: a purchase writes several
+   rows at once, and one refresh should cover them all. */
+const LIVE_DEBOUNCE_MS = 1500;
+/* Without a live connection, poll like the Delivery page does. */
+const FALLBACK_POLL_MS = 60_000;
+
+function LivePill({ state }: { state: LiveState }) {
+  const dot = state === "live" ? "bg-good animate-pulse" : state === "offline" ? "bg-bad" : "bg-muted";
+  return (
+    <span className="inline-flex items-center gap-[6px] rounded-pill border border-border bg-card px-[10px] py-[5px] text-label text-ink-muted" title={state === "live" ? "Updates as things happen" : state === "offline" ? "Live updates unavailable; refreshing every minute" : undefined}>
+      <span className={`h-[7px] w-[7px] rounded-full ${dot}`} aria-hidden />
+      {LIVE_LABEL[state]}
+    </span>
+  );
+}
+
 function OverviewScreen() {
   const [tick, setTick] = useState(0);
+  const pending = useRef<number | null>(null);
+  const live = useAdminLive(() => {
+    if (pending.current !== null) return;
+    pending.current = window.setTimeout(() => {
+      pending.current = null;
+      setTick((n) => n + 1);
+    }, LIVE_DEBOUNCE_MS);
+  });
+  useEffect(() => () => {
+    if (pending.current !== null) window.clearTimeout(pending.current);
+  }, []);
+  useEffect(() => {
+    if (live === "live") return;
+    const id = window.setInterval(() => {
+      if (document.visibilityState === "visible") setTick((n) => n + 1);
+    }, FALLBACK_POLL_MS);
+    return () => window.clearInterval(id);
+  }, [live]);
   const [feedSettled, setFeedSettled] = useState(false);
   const onFeedSettled = useCallback(() => setFeedSettled(true), []);
   const key = String(tick);
@@ -450,7 +485,12 @@ function OverviewScreen() {
       <PageHeader
         title="Overview"
         subtitle="How the business is doing today, and everything that just happened."
-        actions={<RefreshButton onClick={() => setTick((n) => n + 1)} busy={today.status.phase === "loading"} />}
+        actions={
+          <span className="flex items-center gap-[8px]">
+            <LivePill state={live} />
+            <RefreshButton onClick={() => setTick((n) => n + 1)} busy={today.status.phase === "loading"} />
+          </span>
+        }
       />
 
       <Reveal ready={ready || tick > 0} skeleton={<PageSkeleton />}>

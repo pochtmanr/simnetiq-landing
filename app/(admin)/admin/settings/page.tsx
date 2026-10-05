@@ -5,7 +5,8 @@ import type { Factor } from "@supabase/supabase-js";
 import AuthGate from "../AuthGate";
 import { Failure, Hint, INPUT, Label } from "../components/RevealSms";
 import { useMe } from "../components/Me";
-import { getAdminClient } from "../../../../lib/admin/client";
+import { getAdminClient, isTelegramSession } from "../../../../lib/admin/client";
+import { LinkTelegram } from "./LinkTelegram";
 import { verifyPassword } from "../../../../lib/admin/account";
 import { formatWhen } from "../../../../lib/admin/format";
 import { Badge, Card, Facts, MigrationNotice, PageHeader, RoleBadge, SkeletonStats } from "../ui";
@@ -484,7 +485,12 @@ function Settings() {
   const [nonce, setNonce] = useState(0);
   const reload = useCallback(() => setNonce((n) => n + 1), []);
 
+  /* Inside the Telegram Mini App there is no browser session to inspect or
+     change: password, authenticator and sessions are managed on the web. */
+  const inTelegram = isTelegramSession();
+
   useEffect(() => {
+    if (inTelegram) return;
     let cancelled = false;
     void loadConnection()
       .then((c) => {
@@ -494,17 +500,18 @@ function Settings() {
     return () => {
       cancelled = true;
     };
-  }, [nonce]);
+  }, [nonce, inTelegram]);
 
   /* The address comes from admin_me when it is there, else from the session —
      so the password and reset forms still work before 20260846 is applied. */
   const [sessionEmail, setSessionEmail] = useState<string | null>(null);
   useEffect(() => {
+    if (inTelegram) return;
     void getAdminClient()
       .auth.getSession()
       .then(({ data }) => setSessionEmail(data.session?.user.email ?? null))
       .catch(() => undefined);
-  }, []);
+  }, [inTelegram]);
   const email = (state.phase === "ready" ? state.me.email : null) ?? sessionEmail;
 
   return (
@@ -514,10 +521,20 @@ function Settings() {
         <Card title="My account">
           <MyAccount />
         </Card>
-        <Card title="How I'm connected">
-          <Connected conn={conn} />
+        {inTelegram ? null : (
+          <Card title="How I'm connected">
+            <Connected conn={conn} />
+          </Card>
+        )}
+        <Card title="Telegram" note="Open this panel as a Telegram Mini App.">
+          <LinkTelegram />
         </Card>
       </div>
+      {inTelegram ? (
+        <p className="mt-[12px] text-label text-muted">
+          Password, authenticator and sign-out-everywhere are on simnetiq.xyz/admin/settings in a browser.
+        </p>
+      ) : (
       <div className="mt-[12px] grid grid-cols-1 gap-[12px]">
         <Card title="Change password" note={`At least ${MIN_PASSWORD} characters. Your current password is checked first.`}>
           <ChangePassword email={email} />
@@ -534,6 +551,7 @@ function Settings() {
           </Card>
         </div>
       </div>
+      )}
     </>
   );
 }

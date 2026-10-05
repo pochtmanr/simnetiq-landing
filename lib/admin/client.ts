@@ -45,8 +45,33 @@ import type { SupabaseClient } from "@supabase/supabase-js";
    persists the session in a cookie rather than localStorage. */
 let client: SupabaseClient | null = null;
 
+/* Inside the Telegram Mini App there is no cookie session: lib/admin/telegram.ts
+   signs in through the tg-auth edge function and installs a client whose
+   access token it refreshes itself. Same anon key, same RPCs, same is_admin();
+   only where the token comes from differs. Such a client throws on any
+   `.auth.*` call, so code that needs the bearer token uses
+   getAdminAccessToken() below rather than auth.getSession(). */
+let override: { client: SupabaseClient; token: () => Promise<string | null> } | null = null;
+
+export function setAdminClientOverride(next: typeof override): void {
+  override = next;
+}
+
+/** True when the panel runs inside the Telegram Mini App. */
+export function isTelegramSession(): boolean {
+  return override !== null;
+}
+
+/** The operator's current access token, from whichever session is active. */
+export async function getAdminAccessToken(): Promise<string | null> {
+  if (override) return override.token();
+  const { data } = await getAdminClient().auth.getSession();
+  return data.session?.access_token ?? null;
+}
+
 /** The panel's single browser client. Anon key only; see the note above. */
 export function getAdminClient(): SupabaseClient {
+  if (override) return override.client;
   if (client) return client;
 
   /* Both are inlined at build time by Next, so they must be written out as
