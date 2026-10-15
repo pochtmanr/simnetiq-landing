@@ -1,0 +1,26 @@
+{
+  "title": "Chọn quốc gia và dùng số tạm thời an toàn",
+  "metaDescription": "Chọn quốc gia mà dịch vụ đích chấp nhận, xử lý khi giao tin thất bại, và hiểu vì sao số tạm thời không bao giờ nên bảo vệ ngân hàng hay khôi phục tài khoản.",
+  "sections": [
+    {
+      "title": "Chọn theo dịch vụ đích",
+      "paragraphs": [
+        "Chọn dịch vụ trước, rồi một quốc gia mà dịch vụ đó chấp nhận cho mục đích hợp pháp của bạn. Nếu dịch vụ yêu cầu số địa phương, hãy làm theo yêu cầu đó. Xác nhận biểu mẫu đăng ký của nó chấp nhận mã quay số của quốc gia trước khi mua.",
+        "“Đề xuất” là gợi ý tiện lợi dựa trên cài đặt khu vực của thiết bị, không phải lời hứa về việc giao SMS hay chấp nhận số. Vị trí thực của bạn và quốc gia của số là hai thứ khác nhau. Không quốc gia nào đảm bảo giao tin. Hãy so sánh tính khả dụng và giá xu hiển thị trước khi xác nhận."
+      ]
+    },
+    {
+      "title": "Khi giao tin thất bại",
+      "paragraphs": [
+        "Kiểm tra có tùy chọn SMS không và dịch vụ có đang áp thời gian chờ không. Một số nền tảng từ chối số tạm thời hoặc số ảo. Sau hai phút chờ, hãy hủy số chưa nhận SMS; chỉ cân nhắc quốc gia được hỗ trợ khác nếu dịch vụ cho phép. Đừng dùng việc chọn quốc gia để lách các hạn chế pháp lý, danh tính hoặc của nền tảng."
+      ]
+    },
+    {
+      "title": "Bảo vệ tài khoản của bạn",
+      "paragraphs": [
+        "Số là tạm thời và có thể được cấp lại. Bạn không sở hữu số và không giữ quyền truy cập sau khi lần kích hoạt kết thúc. Đừng dựa vào nó cho ngân hàng, dịch vụ khẩn cấp, xác thực hai yếu tố dài hạn hay khôi phục tài khoản.",
+        "Nếu nền tảng cho phép, hãy thêm email, passkey, ứng dụng xác thực hoặc số khôi phục cố định của riêng bạn trước khi mất quyền truy cập. Không bao giờ dùng một số tái sử dụng để vào tài khoản của người khác."
+      ]
+    }
+  ]
+}

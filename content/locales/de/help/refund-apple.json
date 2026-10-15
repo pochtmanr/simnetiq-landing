@@ -1,0 +1,48 @@
+{
+  "title": "Erstattung für einen Kauf im App Store bekommen",
+  "metaDescription": "Münzpakete von SMS Code rechnet Apple ab, Erstattungen beantragst du also dort. Schritt für Schritt über reportaproblem.apple.com, mit Fristen und Ablauf.",
+  "sections": [
+    {
+      "title": "Rückerstattungen übernimmt Apple",
+      "paragraphs": [
+        "In der App SMS Code gekaufte Münzpakete sind Käufe im App Store. Apple rechnet sie ab und hält die Zahlung, daher kann nur Apple einen Kauf erstatten. So funktioniert jede App im App Store: Entwickler haben keine Möglichkeit, einen über Apple abgerechneten Kauf zu erstatten.",
+        "Apple prüft jeden Antrag und entscheidet, ob er genehmigt wird. Das Absenden dauert meist ein paar Minuten, und du musst uns vorher nicht kontaktieren."
+      ]
+    },
+    {
+      "title": "Rückerstattung in 6 Schritten beantragen",
+      "id": "steps",
+      "steps": [
+        "Geh auf [reportaproblem.apple.com](https://reportaproblem.apple.com/).",
+        "Melde dich mit dem Apple Account an, mit dem du den Kauf getätigt hast.",
+        "Wähle unter **Ich möchte …** die Option **Rückerstattung anfordern**.",
+        "Wähle den passenden Grund, zum Beispiel **Ich wollte das nicht kaufen** oder **In-App-Kauf nicht erhalten**.",
+        "Wähle den Münzkauf von SMS Code (zum Beispiel **20 Coins**) und klicke auf **Weiter**.",
+        "Sende den Antrag ab. Apple antwortet meist innerhalb von 24–48 Stunden."
+      ],
+      "image": {
+        "src": "/help/apple-refund-reasons.png",
+        "alt": "Die Seite „Problem melden“ von Apple mit ausgewählter Option „Rückerstattung anfordern“ und der Liste der Gründe: Kauf nicht beabsichtigt, ein Kind hat ohne Erlaubnis gekauft, In-App-Kauf nicht erhalten, Widerrufsrecht und Sonstiges.",
+        "width": 882,
+        "height": 417
+      },
+      "cta": {
+        "label": "reportaproblem.apple.com öffnen",
+        "href": "https://reportaproblem.apple.com/"
+      }
+    },
+    {
+      "title": "Nach dem Absenden",
+      "paragraphs": [
+        "Den Status des Antrags kannst du auf derselben Website prüfen. Sobald Apple ihn genehmigt, kommt Store-Guthaben meist innerhalb von 48 Stunden zurück, Karten und die meisten anderen Zahlungsmethoden innerhalb von 30 Tagen und Mobilfunkabrechnung innerhalb von 60 Tagen. Wir können Apple oder deine Bank nicht beschleunigen.",
+        "Genehmigt Apple eine Rückerstattung, werden die Münzen aus diesem Kauf von deinem SMS Code Guthaben entfernt. Gib keine Münzen aus einem Kauf aus, dessen Erstattung du beantragst."
+      ]
+    },
+    {
+      "title": "Wann du stattdessen uns schreiben solltest",
+      "paragraphs": [
+        "Schreib uns, wenn eine Aktivierung gescheitert ist und die Münzen nicht auf dein Guthaben zurückkamen, wenn du bezahlt hast, die Münzen aber nie erschienen sind ([fehlende Münzen](/support/missing-coins)), oder wenn Apple dich gebeten hat, den Entwickler zu kontaktieren. Wir können die Aktivierung prüfen und dir Kaufbelege senden. Deine Verbraucherrechte bleiben unberührt."
+      ]
+    }
+  ]
+}

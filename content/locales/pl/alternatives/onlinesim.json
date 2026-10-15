@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternatywa dla OnlineSim — aplikacja SMS Code od SIMNETIQ",
+  "metaDescription": "OnlineSim w porównaniu z aplikacją SMS Code od SIMNETIQ: długoterminowy wynajem numerów w sieci kontra prostota aktywacji w natywnej aplikacji iOS.",
+  "hero": {
+    "title": "Alternatywa dla OnlineSim skupiona na aktywacjach jednym stuknięciem",
+    "intro": [
+      "OnlineSim to usługa webowa do odbierania SMS-ów na numerach wirtualnych, a jej wyróżnikiem jest zakres: oprócz jednorazowych aktywacji ich strona opisuje dłuższy wynajem, w którym zatrzymujesz numer na dni lub tygodnie i odbierasz w tym czasie nieograniczoną liczbę SMS-ów z dowolnej usługi. Jeśli numer ma pozostać Twój przez jakiś czas, to ich teren.",
+      "SMS Code od SIMNETIQ celowo robi jedną rzecz: weryfikację za aktywację w natywnej aplikacji na iOS. Wybierz usługę i kraj, dostań prawdziwy numer, a kod pojawi się w aplikacji zwykle w ciągu kilku sekund. Płacisz jednorazowymi pakietami monet – bez abonamentu, bez zegara wynajmu – a aktywacje, które nic nie odbiorą, anulują się za darmo."
+    ]
+  },
+  "whenThem": {
+    "title": "Kiedy OnlineSim jest lepszym wyborem",
+    "body": "Wybierz OnlineSim, gdy potrzebujesz numeru, który żyje dłużej niż jeden kod. Ich model wynajmu – zatrzymanie numeru na wybrany okres i odbieranie na nim nieograniczonej liczby SMS-ów – pasuje do kont, które poproszą o ponowną weryfikację, usług wysyłających kody przy logowaniu albo każdego, kto chce, by ten sam numer był osiągalny przez dni lub tygodnie. Aplikacja z aktywacjami naprawdę nie obsłuży takiego scenariusza: po zakończeniu aktywacji numer wraca do puli."
+  },
+  "whenUs": {
+    "title": "Kiedy lepiej pasuje aplikacja SMS Code",
+    "body": "Wybierz aplikację, gdy tak naprawdę potrzebujesz kodu, raz, teraz. Większość rejestracji – drugie konto w komunikatorze, rejestracja na marketplace, okres próbny – weryfikuje numer jeden raz i nigdy więcej na niego nie pisze, a w takim przypadku wynajem to płacenie za dni, których nie wykorzystasz. Aplikacja ogranicza to do jednej transakcji: kilka stuknięć, prawdziwy numer w jednym z ponad 100 krajów, SMS zwykle w ciągu kilku sekund i darmowe anulowanie, jeśli nic nie przyjdzie. Rozliczenia idą przez App Store, więc nie ma salda konta w sieci do pilnowania."
+  },
+  "comparison": {
+    "title": "OnlineSim i aplikacja SMS Code obok siebie",
+    "rows": [
+      {
+        "label": "Platformy",
+        "competitor": "Usługa webowa; ich strona dokumentuje też API",
+        "us": "Natywna aplikacja na iOS z App Store"
+      },
+      {
+        "label": "Model cenowy",
+        "competitor": "Jednorazowe aktywacje plus dłuższy wynajem numerów na okres",
+        "us": "Jednorazowe pakiety monet, płatność za aktywację – bez wynajmu, bez abonamentu"
+      },
+      {
+        "label": "Płatność",
+        "competitor": "Doładowanie salda w sieci metodami wymienionymi na ich stronie",
+        "us": "Rozliczenia Apple – bez udostępniania nam danych karty"
+      },
+      {
+        "label": "Zasięg",
+        "competitor": "Szeroka lista krajów, większa dla aktywacji niż dla wynajmu",
+        "us": "Ponad 100 krajów i ponad 100 popularnych usług, wyselekcjonowanych pod codzienne rejestracje"
+      },
+      {
+        "label": "Anulowanie",
+        "competitor": "Według ich własnych zasad zwrotów – sprawdź aktualne warunki",
+        "us": "Aktywacje bez SMS-a anulują się za darmo, monety wracają"
+      },
+      {
+        "label": "Wsparcie",
+        "competitor": "Kanały wsparcia przez ich stronę",
+        "us": "Formularz kontaktowy w aplikacji i na stronie"
+      },
+      {
+        "label": "Najlepsze dla",
+        "competitor": "Utrzymania jednego numeru osiągalnego dla SMS-ów przez dni lub tygodnie",
+        "us": "Jednorazowych kodów weryfikacyjnych bez stałego zobowiązania"
+      }
+    ],
+    "note": "Informacje o konkurencji odzwierciedlają jej publiczną stronę w chwili pisania i mogą się zmienić – zawsze sprawdź na onlinesim.io przed decyzją."
+  },
+  "switchSteps": {
+    "title": "Wypróbowanie aplikacji to trzy kroki",
+    "steps": [
+      {
+        "title": "Zainstaluj aplikację",
+        "body": "Pobierz SMS Code od SIMNETIQ z App Store – bez zakładania konta w sieci ani konfiguracji portfela."
+      },
+      {
+        "title": "Weź pakiet monet",
+        "body": "Kup jednorazowy pakiet przez konto w sklepie. Płacisz za aktywację; w tle nie tyka żaden okres wynajmu."
+      },
+      {
+        "title": "Uruchom pierwszą aktywację",
+        "body": "Wybierz usługę i kraj, dostań prawdziwy numer i patrz, jak kod dociera do aplikacji zwykle w ciągu kilku sekund. Jeśli nic nie przyjdzie, aktywacja anuluje się za darmo."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Jaka jest główna różnica między OnlineSim a aplikacją SMS Code?",
+      "a": "Model. Strona OnlineSim podkreśla wynajem numerów – trzymanie numeru przez dni lub tygodnie z nieograniczoną liczbą przychodzących SMS-ów – obok jednorazowych aktywacji. Aplikacja SMS Code od SIMNETIQ robi tylko weryfikację za aktywację, opakowaną w natywną aplikację mobilną z jednorazowymi pakietami monet."
+    },
+    {
+      "q": "Czy w aplikacji SMS Code mogę zatrzymać numer na dłużej?",
+      "a": "Nie – każda aktywacja obejmuje odebranie kodu dla jednej usługi, potem numer wraca do puli. Jeśli potrzebujesz tego samego numeru osiągalnego przez dłuższy czas, usługa wynajmu jak OnlineSim to uczciwie lepsze dopasowanie."
+    },
+    {
+      "q": "Czy moje konto przestanie działać, gdy numer wygaśnie?",
+      "a": "W przypadku większości usług – nie. Numer jest potrzebny tylko na etapie weryfikacji; jeśli włączysz zabezpieczenia na poziomie aplikacji, jak hasła dwuskładnikowe, przyszłe logowania nie zależą od odebrania kolejnego SMS-a na ten numer."
+    },
+    {
+      "q": "Co się stanie, jeśli kod nigdy nie przyjdzie?",
+      "a": "Aktywacja się anuluje, a monety wracają. Płacisz tylko za numery, które faktycznie odbiorą SMS."
+    },
+    {
+      "q": "Czy muszę zakładać konto na stronie, żeby korzystać z aplikacji?",
+      "a": "Nie ma tu portfela w sieci ani panelu. Instalujesz aplikację z App Store, kupujesz pakiet monet przez rozliczenia sklepu i wszystko dzieje się w aplikacji."
+    }
+  ]
+}

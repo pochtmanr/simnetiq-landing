@@ -1,0 +1,129 @@
+{
+  "title": "Recycelte Telefonnummern: das stille SMS-Risiko",
+  "description": "Jedes Jahr wechseln Millionen Nummern den Besitzer. Laut einer Princeton-Studie öffneten die meisten recycelten Nummern noch alte Konten. Was es für dich heißt.",
+  "excerpt": "Wird eine Nummer abgeschaltet, verschwindet sie nicht – sie wird wieder verkauft. Forscher in Princeton fanden heraus, dass zwei von drei untersuchten recycelten Nummern noch an Konten von jemandem hingen. Was das Recycling von Nummern für die SMS-Bestätigung bedeutet und wie du auf keiner der beiden Seiten landest.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Telefonnummern fühlen sich dauerhaft an. Wir drucken sie auf Visitenkarten, geben sie Banken und melden uns damit fast überall an. Aber für den Netzbetreiber ist eine Nummer Lagerbestand. Hört ein Kunde auf zu zahlen, wechselt den Tarif ohne Rufnummernmitnahme oder lässt einfach eine Prepaid-Karte verfallen, wird die Nummer abgeschaltet, eine Weile ruhen gelassen und an jemand Neuen vergeben."
+    },
+    {
+      "type": "p",
+      "text": "Die US-Kommunikationsbehörde FCC schätzt, dass allein in den Vereinigten Staaten jedes Jahr rund 35 Millionen Nummern abgeschaltet und zur Neuvergabe freigegeben werden. Die meisten davon waren irgendwann Login, Wiederherstellungskanal oder zweiter Faktor für die Konten von irgendwem."
+    },
+    {
+      "type": "h2",
+      "id": "what-the-princeton-study-found",
+      "text": "Was die Forscher in Princeton herausfanden"
+    },
+    {
+      "type": "p",
+      "text": "2021 machten sich Kevin Lee und Arvind Narayanan vom Center for Information Technology Policy der Princeton University daran, das Problem direkt zu messen. Sie zogen eine Stichprobe von 259 Nummern, die zwei große US-Betreiber, T-Mobile und Verizon, neuen Kunden anboten, und prüften dann, was diese Nummern noch freischalten konnten."
+    },
+    {
+      "type": "list",
+      "items": [
+        "171 der 259 Nummern – etwa zwei von drei – hingen noch an bestehenden Konten bei beliebten Websites, darunter Amazon, AOL, Facebook, Google, PayPal und Yahoo. Ein neuer Inhaber, der Passwort-Reset-SMS empfängt, könnte diese Konten womöglich übernehmen.",
+        "100 der Nummern tauchten in öffentlichen Daten aus Datenlecks neben geleakten Zugangsdaten auf – die SMS war also das Einzige, was zwischen einem Angreifer und dem Konto stand.",
+        "Viele Nummern lieferten außerdem auf Personensuchseiten persönliche Informationen über frühere Inhaber."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Die Forscher stellten auch fest, dass die Online-Seiten der Betreiber zum Nummernwechsel jedem erlaubten, große Pools verfügbarer Nummern zu durchstöbern, was es einem Angreifer leicht machte, nach recycelten zu suchen. Beide Betreiber nahmen nach der Benachrichtigung Änderungen vor; die Autoren veröffentlichten die Antworten der Betreiber zusammen mit der Studie."
+    },
+    {
+      "type": "callout",
+      "text": "Das Kernproblem ist einfach: Dienste behandeln „kann auf dieser Nummer eine SMS empfangen“ als Identitätsnachweis, während Netzbetreiber Nummern als wiederverwendbar behandeln. Treffen diese beiden Annahmen aufeinander, erbt die Person, die die Nummer heute hat, jedes Vertrauen, das gestern daran hing."
+    },
+    {
+      "type": "h2",
+      "id": "what-regulators-did",
+      "text": "Was Regulierungsbehörden getan haben"
+    },
+    {
+      "type": "p",
+      "text": "Die Hauptantwort der FCC zielte auf ein anderes Problem – unerwünschte Anrufe bei Menschen, die eine Nummer geerbt haben. Im Dezember 2018 ordnete sie die Einrichtung der Reassigned Numbers Database an, die 2021 in Betrieb ging. Betreiber melden dauerhaft abgeschaltete Nummern, und Unternehmen können abfragen, ob eine Nummer seit einem bestimmten Datum abgeschaltet wurde, bevor sie sie anrufen oder anschreiben. Dieselbe Anordnung legte eine Mindest-„Ruhezeit“ von 45 Tagen fest, bevor eine abgeschaltete Nummer neu vergeben werden darf."
+    },
+    {
+      "type": "p",
+      "text": "Das hilft Unternehmen, keine Fremden mehr anzuschreiben. Für Konten, in denen noch die alte Nummer hinterlegt ist, tut es nichts. Sie aktuell zu halten, bleibt in der Praxis dem Kontoinhaber überlassen."
+    },
+    {
+      "type": "h2",
+      "id": "protecting-your-own-accounts",
+      "text": "So schützt du dich, wenn du die Nummer wechselst"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Aktualisieren, bevor du loslässt",
+          "body": "Bevor du eine Leitung kündigst oder eine Prepaid-SIM verfallen lässt, geh deine E-Mail-, Bank-, Social-Media- und Shopping-Konten durch und ersetze die Nummer. Die Liste gespeicherter Logins in deinem Passwortmanager ist die schnellste Checkliste."
+        },
+        {
+          "title": "Weg von SMS als zweitem Faktor",
+          "body": "Nutze überall, wo es angeboten wird, eine Authenticator-App, einen Passkey oder einen Hardwareschlüssel. Die US-Normungsbehörde NIST stuft SMS-Codes genau aus diesen Gründen inzwischen als „eingeschränkten“ Authentifikator ein."
+        },
+        {
+          "title": "Einen Wiederherstellungsweg behalten, der keine Telefonnummer ist",
+          "body": "Eine Wiederherstellungs-E-Mail, die du kontrollierst, und gespeicherte Backup-Codes machen aus einer verlorenen oder recycelten Nummer eine Unannehmlichkeit statt einer Aussperrung."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "what-it-means-for-virtual-numbers",
+      "text": "Was das für gemietete virtuelle Nummern bedeutet"
+    },
+    {
+      "type": "p",
+      "text": "Ein ehrlicher Artikel über das Recycling von Nummern muss dieselbe Logik auf gemietete Nummern anwenden, denn die werden bewusst recycelt. Eine Nummer, die du für eine Bestätigung mietest, ist während der Aktivierung für dich reserviert; danach kann sie wieder für andere Menschen und andere Dienste genutzt werden. Das macht eine gemietete Nummer günstig und wegwerfbar – und genau deshalb sollte sie nie zum langfristigen Wiederherstellungskanal eines Kontos werden, das dir wichtig ist."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Gute Anwendungen: eine Registrierung schaffen, ohne einem Dienst deine private Nummer zu geben; Messenger, soziale Netzwerke, Marktplätze, Testphasen und Testkonten, bei denen die Nummer im Moment der Bestätigung zählt.",
+        "Schlechte Anwendungen: Banking, Zahlungen, Behördendienste und jedes Konto, dessen einziger Wiederherstellungsweg eine SMS an diese Nummer ist. Die verdienen eine Nummer, die in fünf Jahren noch deine ist.",
+        "Direkt nach der Bestätigung: Füge eine Wiederherstellungs-E-Mail hinzu, aktiviere App-basierten Zwei-Faktor-Schutz und lass, wo der Dienst es erlaubt, die gemietete Nummer nicht als einzigen Weg zurück stehen."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So genutzt ist eine gemietete Nummer sogar ein Schutz gegen das Recycling-Problem statt ein Beispiel dafür. Deine echte Nummer – die eines Tages selbst abgeschaltet und weiterverkauft werden könnte – landet erst gar nicht in Dutzenden Datenbanken."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Häufige Fragen"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Wie lange dauert es, bis eine alte Telefonnummer an jemand anderen geht?",
+          "a": "In den USA verlangen die Regeln der FCC, dass eine abgeschaltete Nummer mindestens 45 Tage „ruht“, bevor sie neu vergeben wird, und Betreiber warten oft länger. Andere Länder legen eigene Fristen fest; manche Prepaid-Nummern werden innerhalb von Monaten neu ausgegeben."
+        },
+        {
+          "q": "Kann der neue Inhaber meiner alten Nummer in meine Konten gelangen?",
+          "a": "Nutzt ein Konto diese Nummer noch für Passwort-Resets oder Zwei-Faktor-Codes, möglicherweise ja. Die Studie aus Princeton fand, dass zwei Drittel der untersuchten recycelten Nummern noch mit Konten auf großen Websites verknüpft waren."
+        },
+        {
+          "q": "Wie finde ich heraus, welche Konten meine Telefonnummer nutzen?",
+          "a": "Fang mit deinem Passwortmanager und deinem E-Mail-Postfach an – such nach Nachrichten mit „Bestätigungscode“ und „Anmeldung“. Prüfe dann nacheinander die Sicherheitseinstellungen deiner E-Mail-, Bank-, Social-Media- und Shopping-Konten."
+        },
+        {
+          "q": "Werden gemietete virtuelle Nummern wiederverwendet?",
+          "a": "Ja, nach dem Ende deiner Aktivierung. Deshalb sind sie für den Moment der Bestätigung gedacht. Füge dem Konto direkt nach der Registrierung eine E-Mail und App-basierten Zwei-Faktor-Schutz hinzu."
+        },
+        {
+          "q": "Lohnt sich Zwei-Faktor-Authentifizierung per SMS noch?",
+          "a": "Sie ist besser als gar kein zweiter Faktor, aber eine Authenticator-App, ein Passkey oder ein Hardwareschlüssel ist stärker und hängt nicht davon ab, wer eine Telefonnummer hat."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

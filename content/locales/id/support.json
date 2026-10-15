@@ -7,21 +7,26 @@
     "label": "Dukungan",
     "title": "Ada yang bisa kami bantu?",
     "introBefore": "Kirim pesan di bawah atau email ",
-    "introAfter": " — sertakan detail di bawah agar kami dapat meninjau permintaan Anda dan membalas lewat email.",
+    "introAfter": " — pilih topik terlebih dahulu: sebagian besar jawaban hanya sekali ketuk, dan selebihnya akan sampai ke orang sungguhan.",
     "items": [
       {
-        "title": "Masalah aktivasi",
-        "body": "SMS belum masuk? Pembatalan tersedia dua menit setelah nomor ditetapkan, sebelum SMS tiba, dan mengembalikan koin ke saldo Anda. Baca panduan pemecahan masalah sebelum mencoba lagi.",
-        "slug": "activation-issues"
+        "title": "Pengembalian dana",
+        "body": "Pembelian di App Store ditagih oleh Apple, jadi pengembalian dana diminta ke Apple dan diputuskan oleh Apple. Panduan ini memandu Anda dalam waktu kurang dari dua menit.",
+        "slug": "refund-apple"
       },
       {
-        "title": "Penagihan & koin",
-        "body": "Pembelian lewat App Store. Sertakan tanda terima toko atau ID pesanan, dan kami akan menelusuri koin yang hilang.",
-        "slug": "billing-coins-refunds"
+        "title": "SMS tidak masuk",
+        "body": "Pengiriman bergantung pada layanan, negara, dan pemeriksaan milik layanan itu sendiri. Jika tidak ada yang masuk, koin kembali otomatis. Lihat negara mana yang paling baik saat ini.",
+        "slug": "sms-not-received"
+      },
+      {
+        "title": "Koin tidak masuk",
+        "body": "Sudah bayar tetapi koin tidak masuk? Biasanya ini karena pembayaran Apple masih tertunda atau akun SMS Code yang berbeda. Periksa langkah ini sebelum membeli lagi.",
+        "slug": "missing-coins"
       },
       {
         "title": "Menjaga saldo Anda",
-        "body": "Koin Anda ada di akun SMS Code, bukan di tanda terima App Store. Jika Anda hanya pernah memakai aplikasi secara anonim, memasang ulang membuat akun baru dan saldo tidak ikut — jadi masuk (Apple, Google, atau kode email) selagi Anda masih punya koin, dan koin itu akan ada di perangkat mana pun yang Anda masuki. Sudah memasang ulang dan saldo hilang? Tulis kepada kami dengan tanda terima App Store atau ID pesanan, dan kami akan mengurusnya.",
+        "body": "Koin Anda tersimpan di akun SMS Code, bukan di tanda terima App Store. Masuk (Apple, Google, atau kode email) selagi Anda masih punya koin, dan koin akan ikut ke perangkat mana pun.",
         "slug": "account-balance"
       }
     ],
@@ -35,18 +40,78 @@
     "namePlaceholder": "Andi",
     "email": "Email",
     "emailPlaceholder": "anda@example.com",
-    "topic": "Topik",
-    "topicPlaceholder": "Pilih topik",
-    "topics": [
-      "Aktivasi tidak masuk",
-      "Penagihan & koin",
-      "Akun & pulihkan pembelian",
-      "Laporan bug",
-      "Permintaan fitur",
-      "Lainnya"
-    ],
+    "stepTopic": "Apa yang bisa kami bantu?",
+    "topics": {
+      "refund": "Pengembalian dana pembelian",
+      "sms": "SMS tidak masuk",
+      "code": "Kode ditolak atau nomor diblokir",
+      "coins": "Koin tidak masuk setelah membeli",
+      "account": "Akun, pemulihan, atau penghapusan",
+      "bug": "Ada yang tidak berfungsi",
+      "feature": "Usulkan fitur",
+      "other": "Hal lain"
+    },
+    "selfServe": {
+      "sms": {
+        "title": "Sebelum menulis: sebagian besar SMS yang tidak masuk selesai dengan sendirinya",
+        "points": [
+          "Jika tidak ada SMS masuk dalam jangka waktu aktivasi, aktivasi ditutup dan koin otomatis kembali ke saldo Anda.",
+          "Pengiriman bergantung pada layanan dan negara. Beberapa layanan memblokir nomor virtual di negara tertentu, jadi coba negara lain dengan tingkat pengiriman yang lebih baik.",
+          "Pastikan layanan mengirim kode lewat SMS, bukan lewat panggilan suara atau ke aplikasi tempat Anda sudah masuk."
+        ]
+      },
+      "code": {
+        "title": "Sebelum menulis: mengapa kode ditolak",
+        "points": [
+          "Layananlah yang memutuskan apakah nomor diterima. Nomor yang pernah dipakai, atau negara yang dibatasi layanan, bisa ditolak meskipun SMS sudah masuk.",
+          "Gunakan kode terbaru, untuk akun dan layanan yang sama, tanpa spasi.",
+          "Jangan ulangi percobaan berbayar di layanan dan negara yang sama. Ganti negara, atau tulis kepada kami untuk ditinjau."
+        ]
+      },
+      "coins": {
+        "title": "Sebelum menulis: di mana koin biasanya berada",
+        "points": [
+          "Pembayaran Apple yang tertunda bisa memakan waktu beberapa menit. Buka ulang aplikasi sebelum membeli lagi.",
+          "Koin dimiliki oleh akun SMS Code yang membelinya. Masuk dengan login Apple, Google, atau email yang sama.",
+          "Masih belum ada? Kirimkan ID pesanan Apple kepada kami (dari email tanda terima Apple), dan kami akan melacaknya."
+        ]
+      },
+      "account": {
+        "title": "Sebelum menulis: jawaban seputar akun",
+        "points": [
+          "Masuk dengan Apple, Google, atau kode email agar saldo Anda tetap ada di perangkat mana pun.",
+          "Anda bisa menghapus akun di aplikasi: Setelan → Hapus akun. Menghapus akun tidak mengembalikan pembayaran Apple.",
+          "Saldo hilang setelah memasang ulang aplikasi? Tulis kepada kami dengan ID pesanan Apple Anda."
+        ]
+      }
+    },
+    "readGuide": "Baca panduan lengkap",
+    "solved": "Masalah saya selesai",
+    "stillNeed": "Saya masih butuh bantuan",
+    "solvedTitle": "Senang bisa membantu",
+    "solvedBody": "Jika ada yang berubah, kembali ke halaman ini kapan saja.",
+    "changeTopic": "Ganti topik",
+    "refundNote": "Kami tidak dapat mengembalikan dana pembelian App Store. Hanya Apple yang dapat menyetujuinya, di reportaproblem.apple.com. Tulis kepada kami jika Apple meminta Anda menghubungi pengembang, atau jika Anda membutuhkan catatan pembelian.",
+    "orderId": "ID pesanan Apple (opsional)",
+    "orderIdPlaceholder": "mis. MXXXXXXXXX",
+    "service": "Layanan",
+    "servicePlaceholder": "mis. Telegram",
+    "country": "Negara",
+    "countryPlaceholder": "mis. Indonesia",
+    "when": "Kira-kira kapan?",
+    "whenPlaceholder": "mis. hari ini sekitar pukul 14.00 (UTC+7)",
+    "accountAttached": "ID akun SMS Code dan versi aplikasi Anda dilampirkan otomatis, jadi Anda tidak perlu mencarinya.",
+    "messagePlaceholders": {
+      "refund": "Apa yang terjadi, dan apakah Apple meminta Anda menghubungi kami?",
+      "sms": "Nomor apa yang Anda dapatkan, dan apa kata layanan?",
+      "code": "Apa kata layanan saat menolak kode?",
+      "coins": "Paket apa yang Anda beli, dan kapan?",
+      "account": "Apa yang perlu kami bantu?",
+      "bug": "Apa yang Anda ketuk, apa yang Anda harapkan, dan apa yang terjadi?",
+      "feature": "Apa yang ingin Anda lakukan dengan SMS Code?",
+      "other": "Ceritakan apa yang terjadi."
+    },
     "message": "Pesan",
-    "messagePlaceholder": "Ceritakan apa yang terjadi — layanan, negara, dan perkiraan waktu aktivasi membantu kami menemukannya dengan cepat.",
     "honeypot": "Biarkan kolom ini kosong",
     "send": "Kirim pesan",
     "sending": "Mengirim…",
@@ -71,7 +136,21 @@
     "appleNote": "Panduan diperiksa terhadap materi dukungan resmi Apple pada 30 September 2026. Kelayakan pengembalian dana bergantung pada wilayah Anda dan hukum yang berlaku.",
     "related": "Bantuan terkait",
     "terms": "Ketentuan layanan",
-    "privacy": "Kebijakan privasi"
+    "privacy": "Kebijakan privasi",
+    "stillNeedTitle": "Masih butuh bantuan?",
+    "stillNeedBody": "Jika halaman ini belum menyelesaikan masalah Anda, kirimkan permintaan kepada kami. Permintaan akan dibaca orang sungguhan, dan detail di atas membantu kami menjawab lebih cepat.",
+    "submitAnyway": "Tetap kirim permintaan",
+    "tiers": {
+      "title": "Ke mana SMS sedang masuk saat ini",
+      "intro": "Pilih layanan untuk melihat seberapa andal SMS masuk ke nomor kami di setiap negara selama 30 hari terakhir. Jika negara Anda rendah, beralihlah ke negara yang tinggi.",
+      "service": "Layanan",
+      "pick": "Pilih layanan",
+      "high": "Tinggi",
+      "medium": "Sedang",
+      "low": "Rendah",
+      "unavailable": "tidak ada nomor saat ini",
+      "note": "Berdasarkan aktivasi SMS Code terbaru dan diperbarui setiap jam. Hanya pasangan layanan dan negara dengan cukup banyak pesanan terbaru yang ditampilkan. Pengiriman di masa lalu tidak menjamin SMS berikutnya, dan layanan tetap yang memutuskan apakah nomor diterima."
+    }
   },
   "api": {
     "invalidBody": "Isi permintaan tidak valid.",
@@ -79,7 +158,7 @@
     "name": "Silakan masukkan nama Anda.",
     "email": "Silakan masukkan alamat email yang valid.",
     "topic": "Topik terlalu panjang.",
-    "message": "Jelaskan masalah Anda dalam minimal 10 karakter.",
+    "message": "Jelaskan masalah Anda dengan kata-kata sendiri (minimal 10 karakter).",
     "unavailable": "Formulir dukungan untuk sementara tidak tersedia. Silakan kirim email kepada kami.",
     "saveFailed": "Kami tidak dapat menyimpan pesan Anda. Silakan coba lagi atau kirim email kepada kami.",
     "forbidden": "Permintaan ini tidak berasal dari halaman dukungan. Muat ulang dan coba lagi.",

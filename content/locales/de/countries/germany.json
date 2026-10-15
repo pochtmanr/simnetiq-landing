@@ -1,0 +1,55 @@
+{
+  "name": "Deutschland",
+  "metaTitle": "Virtuelle Nummer Deutschland für SMS — echte +49",
+  "metaDescription": "Hol dir eine echte deutsche virtuelle Nummer (+49) und empfange SMS-Codes meist in Sekunden. Google, Discord, Steam, Signal und PayPal mit EU-Nummer.",
+  "hero": {
+    "title": "Eine deutsche virtuelle Nummer für die SMS-Bestätigung",
+    "intro": [
+      "Deutschland ist der größte Markt Europas und einer seiner datenschutzbewusstesten, und eine +49-Mobilnummer trägt diesen Ruf mit sich. Dienste sehen eine Nummer aus einem Land mit strenger Datenschutzkultur und einem ausgereiften Mobilfunknetz – eine solide, im besten Sinne unauffällige Wahl.",
+      "SMS Code vermietet dir mit einem Tippen eine echte deutsche Mobilnummer. Gib sie beim Bestätigungsschritt von Google, Discord, Steam oder einem anderen unterstützten Dienst ein, und die SMS mit deinem Code landet meist innerhalb von Sekunden in der App."
+    ]
+  },
+  "whyCountry": {
+    "title": "Warum eine deutsche Nummer?",
+    "body": [
+      "Eine deutsche Nummer ist ein starkes EU-Vertrauenssignal. Plattformen, die unter europäischen Regeln arbeiten – Zahlungsdienste wie PayPal, Gaming-Ökosysteme wie Steam, Messenger mit Datenschutz an erster Stelle wie Signal –, sind an +49-Nummern bestens gewöhnt, und Registrierungsabläufe in der ganzen EU behandeln sie als Inlandsfall statt als exotischen.",
+      "Deutsche Mobilnummern liegen in den Bereichen 15x, 16x und 17x, wobei 15x bei neueren Nummern am häufigsten ist. Die Struktur – +49, dann die Mobilfunkvorwahl und die Teilnehmerziffern – wird von internationalen Formularen sauber gelesen, der Bestätigungsschritt ist also selten das, woran es scheitert."
+    ]
+  },
+  "tips": [
+    {
+      "title": "In internationaler Form eingeben",
+      "body": "Im Inland wird die Nummer als 015X… geschrieben, Bestätigungsformulare wollen aber +49 gefolgt von der Nummer ohne führende Null. Die meisten Formulare mit Länderauswahl erledigen das für dich – achte nur darauf, dass Deutschland ausgewählt ist."
+    },
+    {
+      "title": "Passt gut zu EU-regulierten Diensten",
+      "body": "Wird das Konto mit europäischen Zahlungs- oder Marktplatzregeln zu tun haben, hält eine deutsche Nummer das ganze Setup im EU-Bild – nützlich, wenn ein Dienst EU- und Nicht-EU-Nutzer bei der Registrierung unterschiedlich behandelt."
+    },
+    {
+      "title": "Ein hängender Code kostet dich nichts",
+      "body": "Kommt innerhalb des Aktivierungsfensters keine SMS an, brich die Aktivierung in der App ab – das ist kostenlos, wenn nichts empfangen wurde – und nimm für einen sauberen neuen Versuch eine andere deutsche Nummer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ist es eine echte deutsche Mobilnummer?",
+      "a": "Ja – eine Nummer bei einem echten Netzbetreiber in den üblichen deutschen Mobilfunkbereichen. Der Dienst, bei dem du dich bestätigst, sieht eine gewöhnliche deutsche Telefonnummer, keinen reinen Web-Empfangsdienst."
+    },
+    {
+      "q": "Welche Dienste passen gut zu einer deutschen Nummer?",
+      "a": "Generell Plattformen mit EU-Ausrichtung: Google, Discord, Steam, Signal und PayPal sind häufige Wahlen, und jeder Dienst mit europäischem Registrierungsablauf behandelt +49 als völlig normal."
+    },
+    {
+      "q": "Muss ich in Deutschland sein, um sie zu nutzen?",
+      "a": "Nein. Die Nummer und ihre eingehenden SMS leben in der App SMS Code, du kannst also überall auf der Welt sein – deine eigene SIM-Karte und dein Standort spielen keine Rolle."
+    },
+    {
+      "q": "Wie funktioniert die Bezahlung?",
+      "a": "Du zahlst pro Aktivierung aus einem einmaligen Münzpaket – kein Abo. Empfängt eine Aktivierung nie ihre SMS, wird sie kostenlos abgebrochen, und die Münzen bleiben bei dir."
+    },
+    {
+      "q": "Gehört die Nummer dauerhaft mir?",
+      "a": "Die Miete deckt das Aktivierungsfenster ab – genug, um den Bestätigungscode zu empfangen. Für ein langlebiges Konto füge direkt nach der Registrierung eine Wiederherstellungs-E-Mail und 2FA per Authenticator-App hinzu, damit das Konto nie wieder von dieser Nummer abhängt."
+    }
+  ]
+}

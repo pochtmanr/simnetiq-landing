@@ -1,0 +1,152 @@
+{
+  "title": "Jak założyć konto Google bez swojego numeru telefonu",
+  "description": "Google nie zawsze żąda numeru telefonu – a gdy żąda, nie musi to być Twój. Ścieżki bez numeru, droga przez numer wirtualny i pułapka odzyskiwania.",
+  "excerpt": "Czasem Google pozwala zarejestrować się w ogóle bez telefonu; czasem prośba jest obowiązkowa. Co o tym decyduje, które ścieżki naprawdę działają i jedno ustawienie odzyskiwania, dzięki któremu konto pozostaje potem Twoje.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Konto Google to klucz do połowy internetu – Gmail, YouTube, Dysk, Sklep Play, każdy przycisk „Zaloguj się przez Google”. Właśnie dlatego oddanie Google prywatnego numeru telefonu wydaje się cięższe niż podanie go jakiemuś forum: ten numer zostaje przypięty do konta, które już zna Twoje wyszukiwania, historię lokalizacji i skrzynkę odbiorczą."
+    },
+    {
+      "type": "p",
+      "text": "Oto, w czym myli się większość poradników: Google nie zawsze wymaga numeru telefonu. Czasem rejestracja przechodzi z samym imieniem i datą urodzenia; czasem ten sam formularz odmawia dalszej drogi, dopóki kod nie zostanie gdzieś wysłany SMS-em. To, co dostaniesz, nie jest przypadkowe – a gdy wiesz, co przechyla szalę, możesz wybrać pasującą ścieżkę."
+    },
+    {
+      "type": "p",
+      "text": "Ten poradnik opisuje, kiedy prośba faktycznie się pojawia, sposoby rejestracji, które naprawdę działają bez Twojego numeru, i – bo tu ma to większe znaczenie niż gdziekolwiek indziej – jak ustawić odzyskiwanie, żeby konto nigdy nie zależało od numeru, którego nie zatrzymasz."
+    },
+    {
+      "type": "h2",
+      "id": "when-google-actually-asks",
+      "text": "Kiedy Google naprawdę żąda numeru"
+    },
+    {
+      "type": "p",
+      "text": "Google przy każdej rejestracji decyduje, czy weryfikacja telefonu jest wymagana, na podstawie tego, jak ryzykowna wydaje się próba. Obowiązkowej prośby możesz się spodziewać, gdy zbiegnie się kilka z tych czynników:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Rejestracja pochodzi z przeglądarki na komputerze – zwłaszcza ze świeżego profilu, okna prywatnego lub wyjścia VPN, którego systemy Google wcześniej nie widziały.",
+        "Z tego samego urządzenia, sieci lub odcisku przeglądarki niedawno założono kilka kont. Licznik jest niewidoczny, ale istnieje – drugie i trzecie konto dostają prośbę znacznie częściej niż pierwsze.",
+        "Cokolwiek w próbie wygląda na automatyzację: nietypowy rytm pisania, oznaczony zakres IP, adres z centrum danych."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Odwróć to, a dostaniesz przyjaźniejsze ścieżki: rejestracje z prawdziwego telefonu, przez domowe łącze, w spokojnym tempie to te, w których pole telefonu jest oznaczone jako opcjonalne – albo w ogóle się nie pojawia. To uczciwy niuans: nie zmusisz Google do pominięcia prośby, ale możesz wybrać ścieżkę, w której pominięcie jest najbardziej prawdopodobne."
+    },
+    {
+      "type": "h2",
+      "id": "why-keep-your-number-out",
+      "text": "Dlaczego trzymać swój numer z dala od tego"
+    },
+    {
+      "type": "p",
+      "text": "Poza ogólną zasadą – jedna baza mniej z Twoim stałym identyfikatorem – Google używa zweryfikowanego telefonu konkretnie do łączenia kont: numery łączą Twoje „osobne” konta ze sobą, wiążą rejestracje z profilem reklamowym i sprawiają, że konta anonimowe lub oddzielone od pracy przestają takie być. Numer to też kanał odnajdywania: osobom, które mają go w kontaktach, może zostać pokazany Twój profil. Jeśli cały sens drugiego konta to rozdzielenie, podpięcie go pod tę samą kartę SIM niweczy je pierwszego dnia."
+    },
+    {
+      "type": "h2",
+      "id": "routes-that-work",
+      "text": "Ścieżki, które naprawdę działają"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pomiń, gdy jest opcjonalne. Jeśli pole telefonu ma opcję „Pomiń” – skorzystaj z niej. Na następnym ekranie dodaj e-mail do odzyskiwania i konto jest gotowe. To ścieżka za zero złotych i działa częściej, niż ludzie myślą, zwłaszcza w opisanych wyżej przypadkach.",
+        "Zarejestruj się przez urządzenie z Androidem. Dodanie konta przez Ustawienia → Konta na telefonie lub tablecie z Androidem to ścieżka, w której Google najczęściej w ogóle nie prosi o numer – samo urządzenie poręcza za rejestrację. Jeśli masz pod ręką jakiekolwiek urządzenie z Androidem, warto spróbować tego najpierw.",
+        "Użyj numeru wirtualnego, gdy prośba jest obowiązkowa. Gdy Google odmawia dalszej drogi bez kodu, wystarczy każdy numer, który odbierze jeden SMS – w tym wynajęty numer wirtualny, który nigdy nie prowadzi z powrotem do Ciebie. Opisują to kroki poniżej."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-a-virtual-number",
+      "text": "Weryfikacja numerem wirtualnym krok po kroku"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Wynajmij numer do Google",
+          "body": "W aplikacji SMS Code wybierz Google jako usługę i kraj. Jedno stuknięcie rezerwuje prawdziwy numer komórkowy tylko dla Ciebie – płacisz monetami z jednorazowego pakietu, bez abonamentu."
+        },
+        {
+          "title": "Wpisz go na ekranie weryfikacji",
+          "body": "Wróć do rejestracji w Google, wybierz kraj pasujący do wynajętego numeru i wpisz go. Google jest surowe wobec formatów, więc pozwól wyborowi kraju wykonać pracę, zamiast wpisywać prefiks ręcznie."
+        },
+        {
+          "title": "Skopiuj kod",
+          "body": "SMS – „G-482916 is your Google verification code” – pojawia się w SMS Code zwykle w ciągu kilku sekund. Wpisz go, a rejestracja przejdzie dalej."
+        },
+        {
+          "title": "Od razu odepnij numer",
+          "body": "Gdy już wejdziesz, otwórz myaccount.google.com → Bezpieczeństwo, dodaj kontrolowany przez siebie e-mail do odzyskiwania, a potem usuń numer telefonu z sekcji „Telefon do odzyskiwania” i „Telefon”. Konto opiera się teraz wyłącznie na Twoim haśle i e-mailu."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    },
+    {
+      "type": "h2",
+      "id": "the-recovery-trap",
+      "text": "Pułapka odzyskiwania – przeczytaj, zanim zamkniesz kartę"
+    },
+    {
+      "type": "p",
+      "text": "W Google ustawienia odzyskiwania to nie dodatek; to różnica między kontem, które posiadasz, a kontem, które pożyczyłeś. Google opiera się na zweryfikowanym telefonie przy kontrolach podejrzanych logowań: pojedź gdzieś, gdzie Cię nie było, wyczyść ciasteczka albo po prostu miej pecha, a ekran logowania może znów zażądać kodu – wysłanego na numer zapisany w koncie."
+    },
+    {
+      "type": "callout",
+      "text": "W chwili zakończenia rejestracji zrób dwie rzeczy: dodaj kontrolowany przez siebie e-mail do odzyskiwania i usuń wynajęty numer z ustawień telefonu konta. Jeśli numer zostanie zapisany po zakończeniu wynajmu, przyszła kontrola weryfikacyjna może zablokować Ci dostęp do własnego konta – to jedyne prawdziwe ryzyko w całym procesie i całkowicie da się go uniknąć."
+    },
+    {
+      "type": "h2",
+      "id": "honest-limits",
+      "text": "Uczciwe ograniczenia"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Google może później ponownie poprosić o weryfikację. Nowe urządzenie, dziwna lokalizacja albo wyczyszczona przeglądarka mogą uruchomić kolejną kontrolę. Z ustawionym e-mailem do odzyskiwania i usuniętym starym numerem zweryfikujesz się e-mailem – ale spodziewaj się okazjonalnych wyzwań; tak Google działa przy każdym koncie.",
+        "Jeden numer weryfikuje ograniczoną liczbę kont. Google śledzi, ile kont potwierdził każdy numer, i po kilku zaczyna odmawiać. Wynajęty numer użyty raz nie uderzy w tę ścianę – ale ten sam numer powtarzany w wielu rejestracjach już tak.",
+        "To nie jest narzędzie do masowych rejestracji. Jedno prywatne konto dla rozdzielenia lub prywatności to normalne użycie. Farmy kont naruszają warunki Google, wpadają w te same systemy ryzyka opisane wyżej i zwykle kończą się falą zawieszeń."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Najczęstsze pytania"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Czy naprawdę mogę założyć konto Google w ogóle bez numeru telefonu?",
+          "a": "Czasem tak. Gdy pole telefonu jest oznaczone jako opcjonalne – najczęściej w androidowym dodawaniu konta lub przy rejestracjach o niskim ryzyku – możesz je całkiem pominąć i użyć e-maila do odzyskiwania. Gdy Google uzna weryfikację za obowiązkową dla Twojej próby, jakiś numer musi odebrać jeden kod; po prostu nie musi to być Twój."
+        },
+        {
+          "q": "Czy Gmail i YouTube będą potem działać normalnie?",
+          "a": "Tak. Konto zweryfikowane numerem wirtualnym to pełne konto Google – Gmail, YouTube, Dysk i Play zachowują się identycznie. Jedyną rolą numeru był jednorazowy kod przy rejestracji."
+        },
+        {
+          "q": "Co się stanie, gdy wynajęty numer wygaśnie?",
+          "a": "Nic – pod warunkiem, że usunąłeś go z konta i ustawiłeś e-mail do odzyskiwania. Konto działa na Twoim haśle i e-mailu. Jeśli zostawisz martwy numer jako telefon do odzyskiwania, przyszła kontrola bezpieczeństwa może wysyłać tam kody, dlatego natychmiastowe odpięcie ma znaczenie."
+        },
+        {
+          "q": "Dlaczego Google mówi, że mojego numeru „nie można użyć do weryfikacji”?",
+          "a": "Google odrzuca zakresy, które widziało nadużywane – większość darmowych publicznych numerów i niektóre zakresy wirtualne. Jeśli wynajęty numer zostanie odrzucony, anuluj aktywację za darmo w SMS Code i weź inny, najlepiej z innego kraju; kolejny numer zwykle przechodzi."
+        },
+        {
+          "q": "Czy taka rejestracja narusza warunki Google?",
+          "a": "Warunki Google wymagają dokładnych danych do odzyskiwania i zakazują nadużyć – nie wymagają, by telefon przy rejestracji był zarejestrowany na Twoje nazwisko. Prywatne konto założone wynajętym numerem, a potem porządnie zabezpieczone własnym e-mailem do odzyskiwania, to normalne użycie; masowe zakładanie kont – nie."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    }
+  ]
+}

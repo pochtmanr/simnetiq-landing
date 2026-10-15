@@ -24,7 +24,7 @@ export function SupportPageContent({ locale }: { locale: Locale }) {
       </section>
 
       <section className="grid items-start gap-[22px] pb-[34px] md:grid-cols-3">
-        <div className="relative md:order-last md:col-span-2">
+        <div id="contact" className="relative scroll-mt-[100px] md:order-last md:col-span-2">
           <SupportForm locale={locale} t={form} />
         </div>
         <div className="flex flex-col gap-[22px] md:order-first">

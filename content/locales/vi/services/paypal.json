@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho PayPal — Đọc kỹ trước khi xác minh",
+  "metaDescription": "PayPal gửi mã bảo mật khi đăng ký, và số ảo có thể nhận được. Nhưng với tài khoản giữ tiền, số là điểm tựa bảo mật — đây là sự đánh đổi thẳng thắn.",
+  "hero": {
+    "title": "Số ảo cho PayPal",
+    "intro": [
+      "PayPal xác nhận số điện thoại từ sớm: khi đăng ký, nó gửi “Your PayPal security code is: 305174. It expires in 10 minutes.” và không đi tiếp cho đến khi mã được nhập. Từ lúc đó, số không còn là thủ tục — nó trở thành một phần cách PayPal quyết định một lần đăng nhập, một khoản thanh toán hay một thay đổi hạn mức có thực sự là của bạn hay không.",
+      "Số ảo từ SMS Code nhận mã đó thường chỉ trong vài giây, như mọi số di động thật. Nhưng PayPal là tài khoản giữ tiền, và chúng tôi muốn thẳng thắn với bạn hơn là bán cho bạn một lối tắt: hãy đọc phần đánh đổi bên dưới trước khi xác minh, và quyết định số nên — và không nên — nằm ở đâu trong bảo mật tài khoản."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho PayPal?",
+    "body": [
+      "Lý do quyền riêng tư là có thật. Cơ sở dữ liệu của một công ty thanh toán là nam châm hút danh sách tiếp thị và, thỉnh thoảng, các vụ rò rỉ; số điện thoại là mảnh nối hồ sơ thanh toán với phần còn lại của cuộc sống bạn. Thuê số cho SMS đăng ký một lần giữ số cá nhân ngoài hồ sơ đó trong khi vẫn chứng minh với PayPal rằng một chiếc điện thoại thật đã trả lời.",
+      "Giờ là phần thẳng thắn. PayPal tiếp tục dùng số đã xác minh cho các bước kiểm tra tăng cường — đăng nhập từ thiết bị mới, rà soát bảo mật, trạm kiểm tra hạn mức. Nếu một trong số đó kích hoạt sau khi thời hạn kích hoạt của số thuê đã đóng, bạn bị khóa khỏi một tài khoản có tiền, và khôi phục nghĩa là phiếu hỗ trợ và giấy tờ tùy thân chứ không phải một cú chạm. Vì vậy khuyến nghị thực sự của chúng tôi: dùng số ảo cho mã đăng ký, rồi chuyển bảo mật lâu dài sang các kênh bạn luôn kiểm soát — email, ứng dụng xác thực, và nếu bạn giữ số dư thật ở đó, một số điện thoại nằm trong túi bạn."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh PayPal bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số đúng quốc gia",
+        "body": "Trong SMS Code, chọn PayPal và chọn quốc gia nơi tài khoản PayPal của bạn được đăng ký. Tài khoản PayPal gắn với quốc gia, và số từ quốc gia khác với tài khoản là sự sai lệch mà các bước kiểm tra rủi ro sẽ nhận ra."
+      },
+      {
+        "title": "Nhập số ở bước điện thoại",
+        "body": "Khi đăng ký — hoặc trong cài đặt, khi PayPal yêu cầu xác nhận điện thoại — chọn mã quốc gia tương ứng và nhập số chính xác."
+      },
+      {
+        "title": "Nhập mã nhanh",
+        "body": "SMS ghi “Your PayPal security code is: 305174. It expires in 10 minutes.” Tin đến ứng dụng SMS Code thường chỉ trong vài giây — hãy nhập trước khi hết mười phút."
+      },
+      {
+        "title": "Chuyển bảo mật sang kênh bạn kiểm soát",
+        "body": "Ngay lập tức, xác nhận email, đặt mật khẩu mạnh và duy nhất, và thêm ứng dụng xác thực trong cài đặt bảo mật của PayPal. Nếu bạn sẽ giữ tiền thật trong tài khoản, hãy thay số thuê bằng số bạn luôn liên lạc được — một số bảo mật không liên lạc được trên tài khoản giữ tiền là rủi ro, không phải sự tiện lợi."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Nhất quán quốc gia không phải tùy chọn",
+      "body": "PayPal gắn tài khoản với một quốc gia khi đăng ký — địa chỉ, ngân hàng, thẻ và điện thoại được kỳ vọng khớp nhau. Số cùng quốc gia với tài khoản giữ các bước kiểm tra êm ả; số lệch sẽ mời rà soát. Hãy chọn quốc gia có chủ đích."
+    },
+    {
+      "title": "Coi số là công cụ dùng một lần",
+      "body": "Số thuê rất giỏi một việc: nhận mã đăng ký mà không lộ số của bạn. Nó là điểm tựa 2FA lâu dài kém cho một tài khoản giữ tiền — thời hạn kích hoạt của nó kết thúc, còn lời nhắc bảo mật của PayPal thì không. Hãy thay nó ngay khi tài khoản được thiết lập."
+    },
+    {
+      "title": "Ở trong khuôn khổ quy định của PayPal",
+      "body": "Điều khoản của PayPal yêu cầu thông tin tài khoản chính xác, và các bước kiểm tra ngày càng chặt khi tiền di chuyển. Hãy dùng số ảo để giữ kín điện thoại cá nhân — không phải để giả làm ai đó hay ở nơi nào đó mà bạn không phải. Tài khoản khai báo sai mới là những tài khoản cuối cùng bị giới hạn."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Số ảo có nhận được SMS xác minh của PayPal không?",
+      "a": "Có — đó là số di động thật trên mạng thật, và mã đăng ký của PayPal đến ứng dụng SMS Code thường chỉ trong vài giây. Mã hết hạn sau mười phút, nên hãy mở sẵn màn hình đăng ký khi bạn yêu cầu."
+    },
+    {
+      "q": "Để số thuê trên tài khoản PayPal có an toàn không?",
+      "a": "Làm liên hệ bảo mật lâu dài — không, và chúng tôi sẽ không giả vờ khác đi. PayPal nhắn tới số đó khi nghi ngờ một lần đăng nhập hoặc rà soát tài khoản; nếu thời hạn kích hoạt của số đã hết, các bước kiểm tra đó thất bại. Hãy giữ nó cho bước đăng ký, rồi thay bằng email, ứng dụng xác thực và một số bạn kiểm soát."
+    },
+    {
+      "q": "Nếu PayPal yêu cầu SMS sau khi số của tôi đã hết hạn thì sao?",
+      "a": "Đó chính là kịch bản cần lên kế hoạch. Hãy chuẩn bị cho con đường chậm hơn: chứng minh danh tính với bộ phận hỗ trợ PayPal bằng giấy tờ, có thể mất vài ngày và có thể giới hạn tài khoản trong lúc đó. Làm bước bốn ngay ngày đầu — chuyển bảo mật sang kênh bạn sở hữu — nghĩa là tình huống này đơn giản sẽ không bao giờ xảy ra."
+    },
+    {
+      "q": "Quốc gia của số có phải khớp với quốc gia PayPal của tôi không?",
+      "a": "Có, hãy cho chúng khớp nhau. Tài khoản PayPal được mở cho một quốc gia cụ thể, và điện thoại là một phần của bức tranh đó. Số cùng quốc gia giữ việc xác minh suôn sẻ; số nước ngoài là một dấu hiệu có thể kích hoạt rà soát thêm ngay cả khi mọi thứ khác đều ổn."
+    },
+    {
+      "q": "Đăng ký PayPal bằng số ảo có được phép không?",
+      "a": "PayPal xác minh rằng bạn kiểm soát một số đang hoạt động; thuê số vì quyền riêng tư ở bước SMS làm điều đó một cách trung thực. Điều khoản PayPal thực sự đòi hỏi là thông tin tài khoản trung thực — tên thật, quốc gia thật của bạn. Hãy dùng số ảo để bảo vệ quyền riêng tư, không phải để che giấu danh tính, và bạn đang dùng nó đúng cách."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "SMS tidak masuk: penyebab dan solusinya",
+  "metaDescription": "Mengapa SMS verifikasi kadang tidak sampai ke nomor virtual, bagaimana koin kembali otomatis, dan negara mana yang pengirimannya paling baik untuk tiap layanan.",
+  "sections": [
+    {
+      "title": "Koin tidak hilang jika SMS tidak masuk",
+      "paragraphs": [
+        "Jika tidak ada SMS yang masuk, Anda bisa membatalkan dua menit setelah nomor diberikan, dan koin kembali ke saldo Anda. Jika Anda menunggu, aktivasi ditutup di akhir jangka waktu 15 menit dan koin kembali otomatis. Dalam kedua kasus, Anda tidak perlu menghubungi kami."
+      ]
+    },
+    {
+      "title": "Mengapa SMS tidak masuk",
+      "paragraphs": [
+        "**Layanan yang memutuskan.** Setiap layanan punya pemeriksaan antipenipuan sendiri. Sebagian menolak atau diam-diam tidak mengirim SMS ke nomor virtual dari negara tertentu, atau membatasi jumlah akun per rentang nomor.",
+        "**Negara dan operator berpengaruh.** Layanan yang sama bisa mengirim dengan andal di satu negara dan buruk di negara lain. Hal ini juga berubah seiring waktu ketika layanan memperbarui filternya.",
+        "**Kode mungkin tidak dikirim lewat SMS.** Beberapa layanan mengirim kode pertama lewat panggilan suara, email, atau ke aplikasi tempat Anda sudah masuk. Cari opsi “kirim lewat SMS”.",
+        "**Batas kirim ulang.** Meminta kode berkali-kali bisa memicu jeda dari pihak layanan. Tunggu satu menit sebelum memintanya lagi."
+      ]
+    },
+    {
+      "title": "Yang perlu dilakukan",
+      "steps": [
+        "Pastikan Anda memasukkan nomor dengan kode negara yang benar dan memilih layanan yang tepat di aplikasi.",
+        "Tunggu hingga dua menit, lalu batalkan. Koin kembali ke saldo Anda.",
+        "Coba negara lain untuk layanan yang sama. Gunakan pencarian di bawah untuk memilih negara yang SMS-nya sedang masuk dengan baik.",
+        "Jika beberapa negara gagal untuk layanan yang sama, kemungkinan layanan itu sedang memblokir nomor virtual. Coba lagi nanti."
+      ]
+    }
+  ]
+}

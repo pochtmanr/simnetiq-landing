@@ -1,0 +1,129 @@
+{
+  "title": "Recycled Phone Numbers: The Quiet Risk in SMS Verification",
+  "description": "Millions of phone numbers change hands every year. A Princeton study found most recycled numbers still opened doors to old accounts. What that means for you.",
+  "excerpt": "When a number is disconnected, it doesn’t disappear — it goes back on sale. Researchers at Princeton found that two in three recycled numbers they sampled were still tied to someone’s accounts. What number recycling means for SMS verification, and how to avoid being on either end of it.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Phone numbers feel permanent. We print them on business cards, give them to banks and use them to log in to almost everything. But for the carrier, a number is inventory. When a customer stops paying, switches plans without porting or simply lets a prepaid card lapse, the number is disconnected, rested for a while and handed to someone new."
+    },
+    {
+      "type": "p",
+      "text": "The US Federal Communications Commission estimates that around 35 million numbers are disconnected and made available for reassignment every year in the United States alone. Most of them were, at some point, the login, recovery channel or second factor for somebody’s accounts."
+    },
+    {
+      "type": "h2",
+      "id": "what-the-princeton-study-found",
+      "text": "What the Princeton researchers found"
+    },
+    {
+      "type": "p",
+      "text": "In 2021, Kevin Lee and Arvind Narayanan of Princeton University’s Center for Information Technology Policy set out to measure the problem directly. They sampled 259 numbers that two major US carriers, T-Mobile and Verizon, were offering to new subscribers, then checked what those numbers could still unlock."
+    },
+    {
+      "type": "list",
+      "items": [
+        "171 of the 259 numbers — about two in three — were still tied to existing accounts at popular websites, including Amazon, AOL, Facebook, Google, PayPal and Yahoo. A new owner receiving password-reset texts could potentially take those accounts over.",
+        "100 of the numbers appeared alongside leaked login credentials in public breach data, meaning SMS was the only thing standing between an attacker and the account.",
+        "Many numbers also returned personal information about previous owners on people-search websites."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The researchers also found that carriers’ online number-change pages let anyone browse large pools of available numbers, making it easy for an attacker to hunt for recycled ones. Both carriers made changes after being notified; the authors published the carriers’ responses alongside the study."
+    },
+    {
+      "type": "callout",
+      "text": "The core problem is simple: services treat “can receive a text on this number” as proof of identity, while carriers treat numbers as reusable. When those two assumptions meet, the person holding the number today inherits whatever trust was attached to it yesterday."
+    },
+    {
+      "type": "h2",
+      "id": "what-regulators-did",
+      "text": "What regulators have done"
+    },
+    {
+      "type": "p",
+      "text": "The FCC’s main response has been aimed at a different problem — unwanted calls to people who inherited a number. In December 2018 it ordered the creation of the Reassigned Numbers Database, which went live in 2021. Carriers report permanently disconnected numbers, and businesses can query whether a number has been disconnected since a given date before calling or texting it. The same order set a minimum “aging” period of 45 days before a disconnected number can be reassigned."
+    },
+    {
+      "type": "p",
+      "text": "That helps companies stop texting strangers. It does nothing for accounts that still have the old number on file. Keeping that up to date is, in practice, left to the account holder."
+    },
+    {
+      "type": "h2",
+      "id": "protecting-your-own-accounts",
+      "text": "Protecting yourself when you change numbers"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Update before you let go",
+          "body": "Before cancelling a line or letting a prepaid SIM lapse, go through your email, bank, social and shopping accounts and replace the number. Your password manager’s list of saved logins is the fastest checklist."
+        },
+        {
+          "title": "Move off SMS as the second factor",
+          "body": "Use an authenticator app, a passkey or a hardware key wherever offered. NIST, the US standards body, now classes SMS codes as a “restricted” authenticator for exactly these reasons."
+        },
+        {
+          "title": "Keep a recovery route that isn’t a phone number",
+          "body": "A recovery email you control and saved backup codes mean a lost or recycled number is an inconvenience, not a lockout."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "what-it-means-for-virtual-numbers",
+      "text": "What this means for rented virtual numbers"
+    },
+    {
+      "type": "p",
+      "text": "An honest article on number recycling has to apply the same logic to rented numbers, because they are recycled by design. A number you rent for one verification is reserved for you during the activation; afterwards, it can be used again for other people and other services. That is what makes a rented number cheap and disposable — and it is why it should never become the long-term recovery channel for an account you care about."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Good uses: getting through a sign-up without giving a service your personal number; messengers, social networks, marketplaces, trials and test accounts where the number matters at the verification moment.",
+        "Bad uses: banking, payments, government services and any account whose only recovery route is an SMS to that number. Those deserve a number that will still be yours in five years.",
+        "Right after verifying: add a recovery email, turn on app-based two-factor protection and, where the service allows it, don’t leave the rented number as the only way back in."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Used that way, a rented number is actually a defence against the recycling problem rather than an example of it. Your real number — the one that might itself be disconnected and resold one day — never ends up in dozens of databases in the first place."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Frequently asked questions"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How long before an old phone number is given to someone else?",
+          "a": "In the US, FCC rules require a disconnected number to “age” for at least 45 days before reassignment, and carriers often wait longer. Other countries set their own periods; some prepaid numbers are reissued within months."
+        },
+        {
+          "q": "Can the new owner of my old number get into my accounts?",
+          "a": "If an account still uses that number for password resets or two-factor codes, potentially yes. The Princeton study found two-thirds of sampled recycled numbers were still linked to accounts on major sites."
+        },
+        {
+          "q": "How do I find which accounts use my phone number?",
+          "a": "Start with your password manager and email inbox — search for “verification code” and “sign-in” messages. Then check the security settings of your email, bank, social and shopping accounts one by one."
+        },
+        {
+          "q": "Are rented virtual numbers reused?",
+          "a": "Yes, after your activation ends. That is why they are meant for the verification moment. Add an email and app-based two-factor protection to the account straight after signing up."
+        },
+        {
+          "q": "Is SMS two-factor authentication still worth using?",
+          "a": "It is better than no second factor, but an authenticator app, passkey or hardware key is stronger and doesn’t depend on who holds a phone number."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

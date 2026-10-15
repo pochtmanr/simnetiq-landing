@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Telegram — Đăng ký không cần số của bạn",
+  "metaDescription": "Nhận số ảo thật để xác minh Telegram thường chỉ trong vài giây. Đăng ký tài khoản mới hoặc thứ hai không cần SIM và giữ số của bạn riêng tư.",
+  "hero": {
+    "title": "Số ảo cho Telegram",
+    "intro": [
+      "Telegram hỏi số điện thoại ngay ở màn hình đầu tiên — trước khi bạn kịp chọn tên người dùng, tham gia nhóm hay gửi một tin nhắn nào. Số đó trở thành điểm tựa vĩnh viễn của tài khoản, và theo mặc định, người liên hệ của bạn có thể thấy nó.",
+      "Với SMS Code, bạn thuê một số thật tại một trong hơn 100 quốc gia, nhập vào Telegram, và mã xác minh hiện trong ứng dụng thường chỉ trong vài giây. Số cá nhân của bạn không bao giờ chạm tới máy chủ của Telegram."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Telegram?",
+    "body": [
+      "Telegram được xây dựng quanh số điện thoại: đó là cách đăng nhập, phương thức khôi phục và — trừ khi bạn đổi cài đặt quyền riêng tư — thứ người lạ trong nhóm chat có thể dùng để tìm bạn. Dùng số ảo cắt đứt hoàn toàn liên kết đó, nên tài khoản hoạt động y hệt nhưng trỏ về một số không phải của bạn.",
+      "Đó cũng là cách thực tế để có tài khoản thứ hai. Telegram chính thức hỗ trợ nhiều tài khoản trong một ứng dụng, nhưng mỗi tài khoản cần số riêng. Số ảo cho hồ sơ công việc, kênh dự án hay tài khoản thử nghiệm một danh tính riêng mà không cần mua SIM thứ hai."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Telegram bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Telegram làm dịch vụ, chọn quốc gia và chạm một lần. Bạn nhận một số di động thật được giữ riêng cho bạn."
+      },
+      {
+        "title": "Nhập số vào Telegram",
+        "body": "Trên màn hình đăng ký của Telegram, chọn mã quốc gia tương ứng và nhập số. Kiểm tra lại quốc gia — sai lệch là lý do phổ biến nhất khiến mã không bao giờ đến."
+      },
+      {
+        "title": "Lấy mã từ SMS Code",
+        "body": "SMS đến ứng dụng SMS Code, thường chỉ trong vài giây. Nó có dạng “Telegram code: 48329”. Nhập vào Telegram và bạn đã vào."
+      },
+      {
+        "title": "Khóa chặt tài khoản",
+        "body": "Ngay sau khi đăng nhập, đặt mật khẩu đám mây trong Cài đặt → Quyền riêng tư và bảo mật → Xác minh hai bước. Khi bật 2FA, những lần đăng nhập sau không phụ thuộc vào việc nhận thêm SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Mã có thể gửi tới phiên đang có",
+      "body": "Nếu một số từng được dùng cho Telegram, Telegram gửi mã đăng nhập tới phiên hiện có thay vì SMS. SMS Code cấp cho bạn số mới, nhưng nếu sau này bạn xác minh lại, hãy nhớ mã có thể xuất hiện ngay trong Telegram."
+    },
+    {
+      "title": "Giữ phiên đăng nhập",
+      "body": "Telegram hiếm khi yêu cầu xác minh lại khi phiên còn hoạt động. Đừng đăng xuất khỏi thiết bị duy nhất của bạn, và thêm mật khẩu đám mây — khi đó tài khoản vẫn tồn tại ngay cả sau khi thời hạn kích hoạt của số thuê kết thúc."
+    },
+    {
+      "title": "Dù sao cũng nên ẩn số",
+      "body": "Trong Cài đặt → Quyền riêng tư và bảo mật → Số điện thoại, đặt “Ai có thể thấy số của tôi” thành Không ai. Ngay cả với số ảo, đó là thói quen tốt — thành viên nhóm chỉ thấy tên người dùng của bạn."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tài khoản Telegram có còn hoạt động sau khi số hết hạn không?",
+      "a": "Có. Số chỉ cần ở bước xác minh. Miễn là bạn giữ đăng nhập và bật Xác minh hai bước (mật khẩu đám mây), tài khoản hoạt động bình thường — Telegram gửi mã đăng nhập sau này tới phiên đang hoạt động, không qua SMS."
+    },
+    {
+      "q": "Tôi có thể tạo tài khoản Telegram thứ hai bằng số ảo không?",
+      "a": "Có — đó là một trong những cách dùng phổ biến nhất. Telegram hỗ trợ nhiều tài khoản trong một ứng dụng; thêm số ảo làm tài khoản thứ hai và chuyển đổi giữa các hồ sơ bằng một chạm."
+    },
+    {
+      "q": "Vì sao mã Telegram không đến?",
+      "a": "Nguyên nhân thường gặp: mã quốc gia nhập trong Telegram không khớp với số, hoặc Telegram quyết định gửi mã tới một phiên trước đó. Hãy hủy lần kích hoạt đang chờ trong SMS Code — xu của số không nhận được gì được hoàn vào số dư — và thử số mới."
+    },
+    {
+      "q": "Mọi người có thấy tôi đang dùng số ảo không?",
+      "a": "Không. Đó là số di động thật trên mạng nhà mạng thật. Với người dùng khác, nó trông như mọi tài khoản khác — và nếu bạn ẩn số trong cài đặt quyền riêng tư, họ chỉ thấy tên người dùng của bạn."
+    },
+    {
+      "q": "Đăng ký Telegram bằng số ảo có được phép không?",
+      "a": "Telegram xác minh rằng bạn kiểm soát một số, không phải số đăng ký tên ai. Thuê số để đăng ký là ổn với mục đích cá nhân bình thường; điều quan trọng là bạn tuân theo điều khoản dịch vụ của chính Telegram khi đã vào."
+    }
+  ]
+}

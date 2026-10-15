@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer WhatsApp — weryfikacja bez karty SIM",
+  "metaDescription": "Zweryfikuj WhatsApp prawdziwym numerem wirtualnym z ponad 100 krajów. Kod przychodzi zwykle w kilka sekund. Bez SIM, bez abonamentu, darmowe anulowanie bez SMS.",
+  "hero": {
+    "title": "Numer wirtualny do WhatsAppa",
+    "intro": [
+      "W WhatsAppie numer telefonu to nie tylko login – to jest konto. Każdy kontakt, który ma Twój numer zapisany, widzi Twój profil, a przejście na inny numer oznacza przejście przez oficjalną ścieżkę Zmiany numeru. Jakimkolwiek numerem się zarejestrujesz, nosisz go publicznie.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, wpisujesz go na ekranie rejestracji WhatsAppa, a sześciocyfrowy kod weryfikacyjny pojawia się w aplikacji zwykle w ciągu kilku sekund. Płacisz za aktywację z jednorazowego pakietu monet – a jeśli numer nic nie odbierze, anulujesz go bez opłat."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do WhatsAppa?",
+    "body": [
+      "Ponieważ numer jest Twoją tożsamością w WhatsAppie, podanie go to większa decyzja niż w większości aplikacji: sprzedawcy z marketplace’ów, czaty grupowe pełne obcych i jednorazowe kontakty biznesowe dostają bezpośrednią linię do Ciebie. Numer wirtualny daje tej publicznej tożsamości zaporę – konto zachowuje się dokładnie jak każde inne, ale numer za nim nie jest tym, którego używają Twój bank i rodzina.",
+      "To także czysty sposób na drugi, osobny WhatsApp. Profil służbowy przez WhatsApp Business może żyć na tym samym telefonie co prywatna aplikacja, ale potrzebuje własnego numeru. To samo dotyczy rejestracji za granicą, gdy karta SIM z domu jest poza zasięgiem albo roaming sprawia, że odbiór SMS-ów jest zawodny – wynajęty lokalny numer pozwala się zweryfikować bez zmiany kart."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować WhatsApp numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Weź numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz WhatsApp jako usługę, wybierz kraj i stuknij raz. Prawdziwy numer komórkowy jest zarezerwowany tylko dla Ciebie na czas aktywacji."
+      },
+      {
+        "title": "Wpisz go w WhatsAppie",
+        "body": "Na ekranie rejestracji WhatsAppa wybierz pasujący kraj i wpisz numer dokładnie tak, jak został wydany. WhatsApp odczytuje kraj z wybranego numeru kierunkowego, więc niezgodność to klasyczny powód, dla którego kod się nie pojawia."
+      },
+      {
+        "title": "Odbierz sześciocyfrowy kod",
+        "body": "SMS trafia do aplikacji SMS Code zwykle w ciągu kilku sekund, od nadawcy „WhatsApp”, w formacie „WhatsApp code 305-921”. Wpisz sześć cyfr w WhatsAppie – myślnik to tylko formatowanie."
+      },
+      {
+        "title": "Ustaw PIN weryfikacji dwuetapowej",
+        "body": "Zaraz po rejestracji przejdź do Ustawienia → Konto → Weryfikacja dwuetapowa i ustaw PIN. WhatsApp ponownie weryfikuje numer przy reinstalacji lub zmianie telefonu, a PIN jest tym, co w tej chwili udowadnia, że konto jest Twoje."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "WhatsApp jest wybredny wobec numerów – zaplanuj ponowną próbę",
+      "body": "WhatsApp sprawdza przychodzące rejestracje surowiej niż większość usług i może odmówić wysłania kodu na numer, który uznaje za tymczasowy. To normalne: anuluj oczekującą aktywację w SMS Code – monety za numery, które nic nie odebrały, wracają na saldo – i spróbuj ponownie, najlepiej z innym krajem."
+    },
+    {
+      "title": "Dokończ konfigurację konta",
+      "body": "Ustaw imię i zdjęcie i napisz do ludzi, którzy Cię znają – tak wygląda normalne nowe konto i to wszystko, co możemy uczciwie polecić. Masowe pisanie do obcych z nowego konta to dokładnie to, czemu mają zapobiegać systemy antyspamowe WhatsAppa, i żaden wynajęty numer tego nie zmienia: numer wirtualny przeprowadza Cię przez zwykłą kontrolę rejestracji, nie jest sposobem na obejście blokady."
+    },
+    {
+      "title": "Pozostań zalogowany, a konto pozostanie Twoje",
+      "body": "WhatsApp prosi o numer ponownie tylko przy ponownej rejestracji – reinstalacji aplikacji lub przeprowadzce na nowy telefon. Dopóki jesteś zalogowany na urządzeniu, konto działa po zakończeniu okna aktywacji wynajętego numeru. PIN dwuetapowy to Twoja siatka bezpieczeństwa na przyszłą ponowną weryfikację."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy mój WhatsApp będzie działać po wygaśnięciu numeru?",
+      "a": "Tak. Numer jest sprawdzany przy rejestracji, a nie na bieżąco. Pozostań zalogowany na telefonie, a konto działa normalnie. Ponowna weryfikacja następuje tylko przy reinstalacji WhatsAppa lub zmianie urządzenia – dlatego ustawienie PIN-u weryfikacji dwuetapowej zaraz po rejestracji ma znaczenie."
+    },
+    {
+      "q": "Dlaczego kod z WhatsAppa nie dotarł?",
+      "a": "Dwie częste przyczyny: kraj wybrany w WhatsAppie nie pasuje do numeru albo WhatsApp odmówił wysłania kodu na ten konkretny numer – jest surowszy niż większość usług wobec numerów, które uznaje za tymczasowe. Anuluj oczekującą aktywację w SMS Code bez opłat i weź świeży numer, najlepiej z innego kraju. WhatsApp może też zaproponować połączenie z kodem albo przy ponownej rejestracji wysłać go do istniejącej sesji WhatsAppa zamiast SMS-em."
+    },
+    {
+      "q": "Czy w ten sposób mogę prowadzić drugie konto WhatsApp?",
+      "a": "Tak – to jedno z najczęstszych zastosowań. Zainstaluj WhatsApp Business obok zwykłej aplikacji na tym samym telefonie i zarejestruj go numerem wirtualnym. Dostajesz w pełni osobną tożsamość służbową: własny profil, własne czaty, własny numer, który widzą Twoi klienci."
+    },
+    {
+      "q": "Czy moje kontakty zobaczą, że numer jest wirtualny?",
+      "a": "Nie. To prawdziwy numer komórkowy w prawdziwej sieci operatora, a dla wszystkich innych konto wygląda zupełnie zwyczajnie. Kontakty widzą sam numer – tak działa WhatsApp – więc sensem numeru wirtualnego jest właśnie to, że numer, który widzą, nie jest Twoim prywatnym."
+    },
+    {
+      "q": "Czy moje konto może zostać zbanowane za używanie numeru wirtualnego?",
+      "a": "WhatsApp nie banuje kont za to, skąd pochodzi numer – banuje zachowanie: masowe wiadomości, spam, automatyzację. Nowe konto na jakimkolwiek numerze, które od razu masowo pisze do obcych, jest zagrożone. Używaj konta jak człowiek, a nie jak narzędzia do rozsyłki, a nie będzie się różnić od zarejestrowanego na karcie SIM."
+    }
+  ]
+}

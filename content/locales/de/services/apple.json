@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Apple — Apple Account ohne SIM",
+  "metaDescription": "Bestätige einen neuen Apple Account mit einer echten virtuellen Nummer. Der Code kommt meist in Sekunden – danach Zwei-Faktor-Codes auf eigene Geräte umstellen.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Apple",
+    "intro": [
+      "Ein neuer Apple Account lässt sich ohne Telefon nicht abschließen: Bei der Registrierung fragt Apple nach einer Nummer, sendet einen sechsstelligen Code, um zu prüfen, dass du sie kontrollierst, und behält diese Nummer dann als „vertrauenswürdige Telefonnummer“ – den Kanal, über den von da an die Zwei-Faktor-Authentifizierung läuft.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, empfängst den Code von Apple meist innerhalb von Sekunden in der App und schließt die Registrierung ab. Deine private Nummer bleibt aus dem Konto heraus – und du entscheidest später, auf welche vertrauenswürdigen Nummern und Geräte sich das Konto stützen soll."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Apple?",
+    "body": [
+      "Ein Apple Account reicht weiter als die meisten Anmeldungen: Er ist der Schlüssel zum App Store, zu iCloud, iMessage und jedem Apple Gerät, das du besitzt. Meldest du dich auf einem iPhone mit einer Nummer an, können Leute, die diese Nummer gespeichert haben, dich bei iMessage und FaceTime finden. Soll das Konto getrennt bleiben – für ein Testgerät, eine andere App-Store-Region, ein Arbeitsprofil –, verknüpft die Bestätigung mit deiner privaten SIM deine Identität direkt wieder damit.",
+      "Apple aktiviert außerdem bei jedem neuen Konto die Zwei-Faktor-Authentifizierung und verlangt mindestens eine vertrauenswürdige Telefonnummer. Eine virtuelle Nummer erfüllt die Registrierung sauber; entscheidend ist, was du danach tust. Sobald du auf einem Apple Gerät angemeldet bist, erscheinen Bestätigungscodes ohne SMS auf diesem Gerät – und zusätzlich zur gemieteten Nummer (oder statt ihrer) kannst du eine vertrauenswürdige Nummer hinzufügen, die wirklich dir gehört."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du einen Apple Account mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code mieten",
+        "body": "Wähle Apple als Dienst, such dir ein Land aus und tippe einmal, um eine echte Mobilnummer zu reservieren. Ist das Konto für eine bestimmte Region im App Store gedacht, nimm eine Nummer aus diesem Land – so bleiben die Kontodaten stimmig."
+      },
+      {
+        "title": "Bei der Registrierung bei Apple eingeben",
+        "body": "Erstelle das Konto auf account.apple.com oder direkt im Einrichtungsbildschirm eines iPhone. Wenn Apple nach einer Telefonnummer fragt, wähle die Bestätigung per SMS und tippe die gemietete Nummer mit dem richtigen Land ein."
+      },
+      {
+        "title": "Code eintippen",
+        "body": "Die SMS lautet „Your Apple Account code is: 617402. Don't share it with anyone.“ und landet meist innerhalb von Sekunden in der App SMS Code. Gib die sechs Ziffern ein, und das Konto ist bestätigt."
+      },
+      {
+        "title": "Vertrauenswürdige Faktoren hinzufügen, die du kontrollierst",
+        "body": "Melde dich auf einem Apple Gerät an, das dir gehört – ab dann erscheinen Zwei-Faktor-Codes direkt auf diesem Gerät, ganz ohne SMS. Öffne anschließend die Einstellungen „Anmeldung und Sicherheit“ des Kontos und füge eine zweite vertrauenswürdige Telefonnummer hinzu, die wirklich dir gehört."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Vertrauenswürdige Geräte schlagen vertrauenswürdige Nummern",
+      "body": "Sobald du auf einem iPhone, iPad oder Mac angemeldet bist, zeigt Apple Zwei-Faktor-Codes direkt auf dem Gerät an – SMS wird zur Reserve, nicht zum Hauptkanal. Halte mindestens ein vertrauenswürdiges Gerät angemeldet, und die gemietete Nummer bleibt, was sie sein soll: ein einmaliges Werkzeug für die Registrierung."
+    },
+    {
+      "title": "Apple behält die Nummer als 2FA-Anker",
+      "body": "Jeder Apple Account mit Zwei-Faktor-Authentifizierung muss mindestens eine vertrauenswürdige Telefonnummer hinterlegt haben. Lass die gemietete Nummer nicht die einzige bleiben: Füge zuerst eine Nummer hinzu, die du kontrollierst, und entferne dann die gemietete unter „Anmeldung und Sicherheit“."
+    },
+    {
+      "title": "Land an die Region des Kontos anpassen",
+      "body": "Die Nummer allein legt deine Region im App Store nicht fest – die richtet sich nach den Ländereinstellungen und der Zahlungsmethode des Kontos. Eine Nummer aus demselben Land hält die Angaben aber stimmig, nimm also eine aus dem Land, in dem das Konto zu Hause sein soll."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Braucht Apple eine Telefonnummer, um einen Apple Account zu erstellen?",
+      "a": "Ja – die Registrierung fragt nach einer Nummer, an die Apple eine SMS senden oder die es anrufen kann, und neue Konten bekommen Zwei-Faktor-Authentifizierung mit dieser Nummer als vertrauenswürdig gespeichert. Eine virtuelle Nummer besteht diesen Schritt genau wie eine SIM: Der Code kommt in der App SMS Code an, und das Konto wird erstellt."
+    },
+    {
+      "q": "Funktioniert das Konto weiter, wenn die gemietete Nummer abläuft?",
+      "a": "Ja. Die Nummer wird geprüft, wenn Apple den Code sendet; danach lebt das Konto auf deinen vertrauenswürdigen Geräten. Erledige Schritt vier früh – melde dich auf einem eigenen Gerät an und füge eine vertrauenswürdige Nummer hinzu, die du kontrollierst –, dann hängt nichts am Konto mehr von der gemieteten Nummer ab."
+    },
+    {
+      "q": "Kann ich die vertrauenswürdige Telefonnummer später ändern?",
+      "a": "Ja, unter „Anmeldung und Sicherheit“ auf account.apple.com oder in deinen Geräteeinstellungen. Apple besteht darauf, dass ein Konto mit Zwei-Faktor-Authentifizierung mindestens eine vertrauenswürdige Nummer behält, füge also zuerst die neue hinzu und entferne dann die gemietete."
+    },
+    {
+      "q": "Kann ich einen Apple Account für den App Store eines anderen Landes erstellen?",
+      "a": "Du kannst eine Nummer aus jedem von über 100 Ländern wählen, und wenn sie zur Region des Kontos passt, bleibt alles ordentlich. Wisse nur, dass sich der Store nach den Länder- und Zahlungseinstellungen des Kontos richtet, nicht nach dem Telefon – die Nummer bestätigt dich, sie verlegt den Store nicht."
+    },
+    {
+      "q": "Warum ist mein Apple Code nicht angekommen?",
+      "a": "Meist passt das im Formular von Apple gewählte Land nicht zur Nummer, oder der Ablauf ist auf einen Anruf umgesprungen – wähle ausdrücklich „SMS“. Brich die offene Aktivierung in SMS Code ab (Nummern, die nichts empfangen haben, kosten nichts) und versuche es mit einer neuen."
+    }
+  ]
+}

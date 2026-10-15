@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Thay thế SMS-Man — Ứng dụng SMS Code của SIMNETIQ",
+  "metaDescription": "So sánh SMS-Man với ứng dụng SMS Code của SIMNETIQ: dịch vụ web nhiều cách nạp tiền so với ứng dụng iOS gốc thanh toán an toàn qua App Store.",
+  "hero": {
+    "title": "Lựa chọn thay thế SMS-Man thanh toán qua cửa hàng ứng dụng",
+    "intro": [
+      "SMS-Man là dịch vụ web lâu năm để nhận mã xác minh SMS trên số ảo. Bạn đăng ký trên trang của họ, nạp số dư tài khoản — các mô tả công khai về dịch vụ nhắc đến nhiều phương thức, từ thẻ ngân hàng đến hệ thống thanh toán điện tử và tiền mã hóa — và mua số theo lần kích hoạt, có API cho quy trình tự động.",
+      "SMS Code của SIMNETIQ đổi sự linh hoạt đó lấy một mô hình tin cậy đơn giản hơn. Đó là ứng dụng iOS gốc nơi thanh toán diễn ra hoàn toàn qua Apple: bạn mua gói xu một lần giống như mua bất kỳ vật phẩm trong ứng dụng nào, và không số thẻ, địa chỉ ví hay thông tin thanh toán nào được chia sẻ với chúng tôi. Chọn dịch vụ và quốc gia, và mã đến ứng dụng thường chỉ trong vài giây."
+    ]
+  },
+  "whenThem": {
+    "title": "Khi nào SMS-Man là lựa chọn tốt hơn",
+    "body": "Hãy chọn SMS-Man nếu cách bạn trả tiền quan trọng ngang với thứ bạn mua. Một dịch vụ web chấp nhận nhiều cách nạp — bao gồm các lựa chọn như tiền mã hóa mà thanh toán qua cửa hàng đơn giản là không có — hợp với người dùng có phương thức ưa thích nằm ngoài hệ thống của Apple và Google. API của họ cũng phục vụ lập trình viên tự động hóa xác minh với khối lượng lớn, và danh mục quốc gia cùng dịch vụ của họ nhắm tới việc sử dụng rộng hơn, nặng hơn."
+  },
+  "whenUs": {
+    "title": "Khi nào ứng dụng SMS Code phù hợp hơn",
+    "body": "Hãy chọn ứng dụng nếu bạn hoàn toàn không muốn giao thông tin thanh toán cho một trang web ngách. Thanh toán qua cửa hàng chính là trọng tâm: Apple xử lý khoản phí, chúng tôi không bao giờ thấy thẻ của bạn, và giao dịch nằm trong lịch sử cửa hàng bình thường với các bảo vệ thông thường. Thêm vào đó là trải nghiệm ứng dụng gốc — vài chạm từ dịch vụ đến mã, hơn 100 quốc gia, hơn 100 dịch vụ phổ biến, gói xu mua một lần không thuê bao, và hủy miễn phí mỗi khi lần kích hoạt không nhận được SMS."
+  },
+  "comparison": {
+    "title": "SMS-Man và ứng dụng SMS Code, đặt cạnh nhau",
+    "rows": [
+      {
+        "label": "Nền tảng",
+        "competitor": "Dịch vụ web có API để tự động hóa",
+        "us": "Ứng dụng iOS gốc từ App Store"
+      },
+      {
+        "label": "Mô hình giá",
+        "competitor": "Trả theo lần kích hoạt từ số dư tài khoản đã nạp",
+        "us": "Gói xu mua một lần, trả theo lần kích hoạt — không thuê bao"
+      },
+      {
+        "label": "Thanh toán",
+        "competitor": "Nạp số dư bằng nhiều phương thức, theo mô tả công khai gồm thẻ, thanh toán điện tử và tiền mã hóa",
+        "us": "Chỉ thanh toán qua cửa hàng Apple — không chia sẻ thông tin thanh toán với chúng tôi"
+      },
+      {
+        "label": "Phạm vi",
+        "competitor": "Danh mục quốc gia và dịch vụ rộng, hướng tới dùng nhiều",
+        "us": "Hơn 100 quốc gia và hơn 100 dịch vụ phổ biến, chọn lọc cho đăng ký hằng ngày"
+      },
+      {
+        "label": "Hủy",
+        "competitor": "Theo quy tắc hoàn tiền riêng của họ — hãy xem điều khoản hiện hành",
+        "us": "Lần kích hoạt không nhận SMS hủy miễn phí, xu được hoàn"
+      },
+      {
+        "label": "Hỗ trợ",
+        "competitor": "Kênh hỗ trợ qua trang web của họ",
+        "us": "Biểu mẫu liên hệ trong ứng dụng và trên trang web"
+      },
+      {
+        "label": "Phù hợp nhất cho",
+        "competitor": "Người dùng cần phương thức thanh toán linh hoạt hoặc khối lượng qua API",
+        "us": "Cá nhân muốn sự đơn giản thanh toán qua cửa hàng và ứng dụng di động gốc"
+      }
+    ],
+    "note": "Thông tin về đối thủ phản ánh các mô tả công khai về dịch vụ của họ tại thời điểm viết và có thể thay đổi — hãy luôn kiểm tra trên sms-man.com trước khi quyết định."
+  },
+  "switchSteps": {
+    "title": "Thử ứng dụng chỉ mất ba bước",
+    "steps": [
+      {
+        "title": "Cài ứng dụng",
+        "body": "Tải SMS Code của SIMNETIQ từ App Store — không cần đăng ký trang web hay nạp số dư."
+      },
+      {
+        "title": "Mua một gói xu",
+        "body": "Mua gói một lần qua tài khoản App Store. Apple xử lý thanh toán; chúng tôi không bao giờ nhận thông tin thẻ của bạn."
+      },
+      {
+        "title": "Chạy lần kích hoạt đầu tiên",
+        "body": "Chọn dịch vụ và quốc gia, nhận số thật, và xem mã đến trong ứng dụng thường chỉ trong vài giây. Nếu không có gì đến, lần kích hoạt hủy miễn phí."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Thanh toán trong ứng dụng SMS Code khác SMS-Man thế nào?",
+      "a": "SMS-Man hoạt động như hầu hết dịch vụ web: bạn nạp số dư trên trang bằng một trong các phương thức họ chấp nhận. Trong ứng dụng, thanh toán chỉ đi qua Apple — một giao dịch mua trong ứng dụng bình thường — nên không số thẻ hay thông tin thanh toán nào được chia sẻ với chúng tôi."
+    },
+    {
+      "q": "Tôi có thể trả bằng tiền mã hóa trong ứng dụng không?",
+      "a": "Không. Thanh toán qua cửa hàng không hỗ trợ tiền mã hóa, và ứng dụng không chấp nhận thanh toán ngoài App Store. Nếu tiền mã hóa là bắt buộc, một dịch vụ web như SMS-Man có liệt kê lựa chọn đó sẽ phù hợp hơn."
+    },
+    {
+      "q": "Có thuê bao hay khoản phí định kỳ nào không?",
+      "a": "Không. Gói xu là giao dịch mua một lần; bạn tiêu xu theo từng lần kích hoạt và chỉ mua gói khác khi bạn muốn."
+    },
+    {
+      "q": "Điều gì xảy ra nếu mã không bao giờ đến?",
+      "a": "Lần kích hoạt bị hủy và xu được hoàn. Bạn chỉ trả cho những số thực sự nhận được SMS."
+    },
+    {
+      "q": "Ứng dụng có API như SMS-Man không?",
+      "a": "Không — ứng dụng là sản phẩm tiêu dùng để xác minh tài khoản thủ công, không phải nền tảng đăng ký bằng kịch bản. Nếu bạn cần truy cập số bằng chương trình, API của SMS-Man phục vụ đúng nhu cầu đó."
+    }
+  ]
+}

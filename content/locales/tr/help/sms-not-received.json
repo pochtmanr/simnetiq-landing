@@ -1,0 +1,30 @@
+{
+  "title": "SMS gelmedi: neden olur ve ne yapmalı",
+  "metaDescription": "Doğrulama SMS’i neden bazen sanal numaraya ulaşmaz, jetonlar nasıl otomatik iade edilir ve her hizmet için hangi ülkeler en iyi teslimatı yapıyor.",
+  "sections": [
+    {
+      "title": "SMS gelmezse jeton kaybetmezsiniz",
+      "paragraphs": [
+        "SMS gelmezse numara atandıktan iki dakika sonra iptal edebilirsiniz ve jetonlar bakiyenize döner. Beklerseniz etkinleştirme 15 dakikalık sürenin sonunda kapanır ve jetonlar otomatik olarak iade edilir. İki durumda da bize yazmanız gerekmez."
+      ]
+    },
+    {
+      "title": "SMS neden gelmez",
+      "paragraphs": [
+        "**Karar hizmetindir.** Her hizmetin kendi dolandırıcılık kontrolleri vardır. Bazıları belirli ülkelerdeki sanal numaralara giden SMS’leri reddeder veya sessizce iletmez ya da bir numara aralığıyla açılabilecek hesap sayısını sınırlar.",
+        "**Ülke ve operatör önemlidir.** Aynı hizmet bir ülkede güvenilir şekilde teslim ederken başka bir ülkede zayıf kalabilir. Hizmetler filtrelerini güncelledikçe bu durum zamanla değişir.",
+        "**Kod SMS ile gönderilmiyor olabilir.** Bazı hizmetler ilk kodu sesli aramayla, e-postayla veya zaten giriş yaptığınız bir uygulamaya gönderir. “SMS ile gönder” seçeneğini arayın.",
+        "**Yeniden gönderme sınırları.** Kodu çok kez istemek hizmet tarafında bekleme süresi başlatabilir. Tekrar istemeden önce bir dakika bekleyin."
+      ]
+    },
+    {
+      "title": "Ne yapmalı",
+      "steps": [
+        "Numarayı doğru ülke koduyla girdiğinizi ve uygulamada tam olarak doğru hizmeti seçtiğinizi kontrol edin.",
+        "İki dakikaya kadar bekleyin, sonra iptal edin. Jetonlar bakiyenize döner.",
+        "Aynı hizmet için başka bir ülke deneyin. Şu anda SMS’lerin iyi ulaştığı bir ülke seçmek için aşağıdaki aracı kullanın.",
+        "Aynı hizmet için birkaç ülke başarısız olursa hizmet büyük olasılıkla şimdilik sanal numaraları engelliyordur. Daha sonra tekrar deneyin."
+      ]
+    }
+  ]
+}

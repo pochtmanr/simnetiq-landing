@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "title": "SMS Code của SIMNETIQ — nhận mã SMS trên số riêng tư",
+    "description": "Nhận số ảo thật tại hơn 100 quốc gia và mã xác minh SMS trong vài giây. Đăng ký Telegram, WhatsApp, Google và nhiều dịch vụ khác mà không dùng số của bạn.",
+    "ogTitle": "SMS Code của SIMNETIQ",
+    "ogDescription": "Một số điện thoại cho lần đăng ký, không phải cho cả đời. Số ảo thật tại hơn 100 quốc gia, mã xác minh trong vài giây.",
+    "twitterDescription": "Một số điện thoại cho lần đăng ký, không phải cho cả đời. Mã xác minh trong vài giây."
+  },
+  "hero": {
+    "label": "Số ảo · Xác minh SMS",
+    "titleTop": "Một số cho lần đăng ký.",
+    "titleAccent": "Không phải cho cả đời.",
+    "body": "SMS Code cung cấp cho bạn số ảo thật tại hơn 100 quốc gia và hiển thị mã xác minh thường chỉ trong vài giây — để Telegram, WhatsApp, Google và hơn 100 dịch vụ khác không bao giờ biết số cá nhân của bạn.",
+    "note": "Gói xu mua một lần · không thuê bao"
+  },
+  "services": {
+    "label": "Phạm vi",
+    "title": "Hoạt động với những lần đăng ký bạn thực sự làm",
+    "caption": "Telegram, WhatsApp, Google, Instagram và hơn 100 dịch vụ khác"
+  },
+  "how": {
+    "label": "Tổng quan",
+    "title": "Ba bước là xong",
+    "step": "Bước",
+    "steps": [
+      {
+        "title": "Chọn dịch vụ và quốc gia",
+        "body": "Chọn dịch vụ bạn đang đăng ký — Telegram, WhatsApp, Google, hơn 100 dịch vụ — và quốc gia của số."
+      },
+      {
+        "title": "Nhận ngay một số thật",
+        "body": "Ứng dụng cấp cho bạn một số ảo đang hoạt động. Dán vào biểu mẫu đăng ký như bất kỳ số điện thoại nào khác."
+      },
+      {
+        "title": "Mã hiện ngay trong ứng dụng",
+        "body": "SMS xác minh hiện lên màn hình thường chỉ trong vài giây. Chạm một lần để sao chép mã, hoàn tất đăng ký, xong."
+      }
+    ],
+    "inbox": {
+      "codeLabel": "Mã của bạn",
+      "now": "vừa xong",
+      "secondsAgo": "{n} giây trước"
+    },
+    "waiting": "Đang chờ SMS"
+  },
+  "features": {
+    "label": "Vì sao chọn SMS Code",
+    "title": "Dành cho những người giữ gìn số của mình",
+    "sub": "Lập trình viên kiểm thử quy trình đăng ký, người làm marketing quản lý tài khoản, và bất kỳ ai đã chán câu “nhập số điện thoại để tiếp tục”.",
+    "items": [
+      {
+        "title": "Số thật của bạn vẫn là của bạn",
+        "body": "Đăng ký bất cứ thứ gì mà không trao số cá nhân cho thêm một cơ sở dữ liệu, danh sách email hay vụ rò rỉ dữ liệu nào nữa."
+      },
+      {
+        "title": "Hơn 100 dịch vụ, hơn 100 quốc gia",
+        "body": "Từ Telegram và WhatsApp đến Steam và Tinder — với số từ châu Âu, châu Á, châu Mỹ và nhiều nơi khác."
+      },
+      {
+        "title": "Thường tính bằng giây, không phải phút",
+        "body": "Số hoạt động ngay khi bạn nhận được. SMS hiện ngay trong ứng dụng, sao chép bằng một chạm."
+      },
+      {
+        "title": "Trả theo mã, không thuê bao",
+        "body": "Mua gói xu một lần và dùng bất cứ khi nào. Không gói tháng, không tự gia hạn, số dư không bao giờ hết hạn."
+      },
+      {
+        "title": "Không SIM, không eSIM, không hợp đồng",
+        "body": "Không cần cài gì trong cài đặt điện thoại và không gì gắn với danh tính của bạn. Chỉ cần mở ứng dụng."
+      },
+      {
+        "title": "Hủy trước khi SMS đến",
+        "body": "Hai phút sau khi được cấp số, bạn có thể hủy số chưa nhận SMS và nhận lại xu."
+      }
+    ]
+  },
+  "showcase": {
+    "label": "Bên trong ứng dụng",
+    "title": "Trông thực tế ra sao",
+    "shots": [
+      {
+        "src": "/app/shot-countries.png",
+        "caption": "Mọi quốc gia đều có giá trước khi bạn chọn"
+      },
+      {
+        "src": "/app/shot-waiting.png",
+        "caption": "Mã hiện trên màn hình kích hoạt"
+      },
+      {
+        "src": "/app/shot-activations.png",
+        "caption": "Số đang hoạt động, sao chép bằng một chạm"
+      },
+      {
+        "src": "/app/shot-languages.png",
+        "caption": "Mười ngôn ngữ, đổi trong Cài đặt"
+      }
+    ]
+  },
+  "faq": {
+    "label": "Câu hỏi",
+    "title": "Giải đáp thắc mắc",
+    "items": [
+      {
+        "q": "Số ảo chính xác là gì?",
+        "a": "Một số điện thoại thật tồn tại trên mạng nhà mạng nhưng không gắn với SIM trong túi bạn. Nó nhận SMS như mọi số khác — bạn dùng nó cho bước xác minh, và số cá nhân của bạn không bao giờ xuất hiện. Mỗi lần kích hoạt chỉ dùng một lần: số được giữ riêng cho bạn trong lúc kích hoạt, và khi kết thúc, số quay về kho của nhà cung cấp, nơi sau này có thể được cấp cho người khác. Vì vậy hãy coi đó là số cho lần đăng ký, không phải số để giữ."
+      },
+      {
+        "q": "Tôi có thể dùng lại số hoặc yêu cầu gửi lại mã không?",
+        "a": "Không. Một lần kích hoạt bao gồm một mã trên một số. Khi kết thúc hoặc hết hạn, số quay về kho của nhà cung cấp — không thể nhận thêm SMS trên số đó, và sau này nó có thể được cấp cho khách hàng khác. Cần xác minh lại? Hãy bắt đầu một lần kích hoạt mới và bạn sẽ nhận số mới. Với tài khoản bạn định giữ, hãy thêm email khôi phục và xác thực hai yếu tố bằng ứng dụng ngay sau khi đăng ký, để tài khoản không bao giờ phụ thuộc vào số bạn không còn giữ."
+      },
+      {
+        "q": "Mã đến nhanh đến mức nào?",
+        "a": "Thường chỉ trong vài giây sau khi dịch vụ gửi. Màn hình kích hoạt cập nhật trực tiếp, nên bạn sẽ thấy nội dung SMS và mã ngay khi nó đến."
+      },
+      {
+        "q": "Tôi có thể xác minh những dịch vụ nào?",
+        "a": "Hơn 100 dịch vụ phổ biến gồm Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal và nhiều hơn nữa — mỗi dịch vụ có danh sách quốc gia khả dụng riêng."
+      },
+      {
+        "q": "Nếu mã không bao giờ đến thì sao?",
+        "a": "Nếu chưa có SMS nào đến, bạn có thể hủy sau hai phút kể từ khi được cấp số. Xu sẽ được hoàn vào số dư. Chỉ chọn quốc gia khác nếu dịch vụ đích chấp nhận; liên hệ hỗ trợ nếu số dư có vẻ không đúng."
+      },
+      {
+        "q": "Một lần kích hoạt kéo dài bao lâu, và tôi có thể đổi số không?",
+        "a": "Thời hạn kích hoạt là 15 phút. Nếu không có gì đến, bạn có thể đổi sang số khác ngay trên cùng màn hình — theo chính sách hủy của chúng tôi, ứng dụng phải giữ số hiện tại hai phút trước, và bạn có thể đổi tối đa ba lần trong một lần kích hoạt. Bạn cũng có thể hủy hẳn và bắt đầu kích hoạt mới. Dù cách nào, xu của số chưa nhận SMS đều được hoàn vào số dư."
+      },
+      {
+        "q": "Tôi có thể có bao nhiêu số cùng lúc?",
+        "a": "Ba số hoạt động cùng lúc. Ngoài ra còn có giới hạn theo giờ và theo ngày về số xu một tài khoản có thể tiêu. Các giới hạn này cao hơn nhiều so với mức sử dụng thông thường — chúng tồn tại để ngăn lạm dụng tự động, không phải để hạn chế khách hàng bình thường."
+      },
+      {
+        "q": "Xu của tôi có hết hạn không?",
+        "a": "Không. Gói xu là giao dịch mua một lần, không phải thuê bao — xu chưa dùng vẫn ở trong số dư cho đến khi bạn tiêu, và theo tài khoản của bạn sang thiết bị mới."
+      },
+      {
+        "q": "Sử dụng có hợp pháp không?",
+        "a": "Việc sử dụng được phép tùy thuộc vào quốc gia của bạn, dịch vụ đích và mục đích của bạn. Hãy tuân thủ pháp luật hiện hành và quy định của nền tảng. Không dùng số tạm thời để lừa đảo, giả mạo danh tính hay lách các hạn chế."
+      }
+    ]
+  },
+  "browse": {
+    "label": "Tìm số của bạn",
+    "title": "Chọn dịch vụ. Số để chúng tôi lo.",
+    "body": "Mỗi dịch vụ có hướng dẫn riêng: quy trình xác minh thực tế, những điểm khiến người ta vấp, và các quốc gia hoạt động tốt nhất cho nó.",
+    "allLink": "Tất cả dịch vụ và hướng dẫn"
+  },
+  "personas": {
+    "label": "Dành cho ai",
+    "title": "Dành cho những người giữ gìn số của mình",
+    "items": [
+      {
+        "title": "Lập trình viên",
+        "body": "Kiểm thử quy trình đăng ký và xử lý OTP với số nhận thật — không cần ngăn kéo SIM ở văn phòng.",
+        "slug": "cursor",
+        "linkLabel": "Số cho công cụ lập trình"
+      },
+      {
+        "title": "Người quản lý mạng xã hội",
+        "body": "Một danh tính liên hệ sạch cho mỗi tài khoản thương hiệu bạn quản lý, không gắn chúng với điện thoại cá nhân.",
+        "slug": "instagram",
+        "linkLabel": "Số cho Instagram"
+      },
+      {
+        "title": "Người coi trọng quyền riêng tư",
+        "body": "Người lạ trong nhóm chat không nên có đường dây trực tiếp tới bạn. Hãy giữ số thật cho những người bạn tin tưởng.",
+        "slug": "telegram",
+        "linkLabel": "Số cho Telegram"
+      },
+      {
+        "title": "Người mua sắm thông minh",
+        "body": "Sàn thương mại và đăng ký khuyến mãi có số hoạt động — còn SMS quảng cáo không bao giờ đến túi bạn.",
+        "slug": "aliexpress",
+        "linkLabel": "Số cho AliExpress"
+      },
+      {
+        "title": "Doanh nhân nhiều tài khoản",
+        "body": "WhatsApp thứ hai cho công việc, Telegram riêng cho dự án — mỗi cái có số riêng.",
+        "slug": "whatsapp",
+        "linkLabel": "Số cho WhatsApp"
+      }
+    ]
+  },
+  "compare": {
+    "label": "So sánh",
+    "title": "SMS Code so với các dịch vụ khác",
+    "body": "Đang cân nhắc chúng tôi với SMS-Activate.org, 5SIM hay nhà cung cấp khác? Chúng tôi tự viết các bài so sánh song song — mỗi dịch vụ làm tốt điều gì, và khi nào một ứng dụng ưu tiên di động với gói xu mua một lần là lựa chọn phù hợp hơn.",
+    "vsLabel": "SMS Code so với"
+  },
+  "blog": {
+    "label": "Từ blog",
+    "title": "Hướng dẫn nên đọc trước lần đăng ký tiếp theo",
+    "readMore": "Đọc hướng dẫn",
+    "allLink": "Tất cả bài viết"
+  },
+  "cta": {
+    "title": "Lần đăng ký tiếp theo không cần số thật của bạn",
+    "support": "Có câu hỏi trước khi tải? Liên hệ hỗ trợ"
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "100+",
+        "label": "quốc gia có số di động thật trên mạng nhà mạng đang hoạt động"
+      },
+      {
+        "value": "100+",
+        "label": "dịch vụ bạn có thể xác minh, từ Telegram đến Steam"
+      },
+      {
+        "value": "3",
+        "label": "lần chạm từ chọn dịch vụ đến số hoạt động trên màn hình"
+      },
+      {
+        "value": "0",
+        "label": "thuê bao — gói xu mua một lần, và xu không bao giờ hết hạn"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Bảng giá",
+    "title": "Trả tiền cho mã, không phải cho gói cước",
+    "sub": "Ứng dụng hoạt động bằng xu. Mua một lần với gói có kích thước phù hợp, rồi tiêu dần cho từng lần xác minh — không thuê bao, không tự gia hạn, và số dư không bao giờ hết hạn.",
+    "packsLabel": "Gói xu",
+    "coinsUnit": "xu",
+    "facts": [
+      {
+        "title": "Từ 20 xu — nhưng hãy xem dịch vụ trước",
+        "body": "Dịch vụ bạn xác minh quyết định phần lớn giá, còn quốc gia điều chỉnh nó, chứ không phải ngược lại. 20 xu là mức sàn, không phải giá thông thường: một ứng dụng nhắn tin phổ biến có thể bắt đầu khoảng 35 xu, còn dịch vụ có nhu cầu cao có thể lên đến hàng trăm xu ở mọi quốc gia mà nó có. Ứng dụng báo giá trực tiếp cho từng tổ hợp, nên hãy xem giá trước khi chọn gói."
+      },
+      {
+        "title": "Giá trước khi bạn xác nhận",
+        "body": "Mỗi quốc gia trong danh sách đều kèm giá xu chính xác bên cạnh. Không gì bị trừ khỏi số dư cho đến khi bạn thấy số và chạm xác nhận."
+      },
+      {
+        "title": "Không có mã, hoàn xu",
+        "body": "Nếu không có SMS nào đến, hãy hủy sau hai phút chờ hoặc để lần kích hoạt hết hạn để nhận lại xu. Mã đã được giao nhưng bị từ chối cần bộ phận hỗ trợ xem xét."
+      }
+    ],
+    "note": "Giá gói được đặt trong App Store và khác nhau theo khu vực."
+  }
+}

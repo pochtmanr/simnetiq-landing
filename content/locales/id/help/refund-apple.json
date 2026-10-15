@@ -1,0 +1,48 @@
+{
+  "title": "Cara mendapatkan pengembalian dana pembelian App Store",
+  "metaDescription": "Paket koin SMS Code ditagih oleh Apple, jadi pengembalian dana diminta ke Apple. Panduan langkah demi langkah reportaproblem.apple.com, beserta waktunya.",
+  "sections": [
+    {
+      "title": "Pengembalian dana ditangani oleh Apple",
+      "paragraphs": [
+        "Paket koin yang dibeli di aplikasi SMS Code adalah pembelian App Store. Apple menagihnya dan Apple yang memegang pembayarannya, jadi hanya Apple yang dapat mengembalikan dananya. Begitulah cara kerja semua aplikasi di App Store: pengembang tidak punya cara untuk mengembalikan dana pembelian yang ditagih oleh Apple.",
+        "Apple meninjau setiap permintaan dan memutuskan apakah akan menyetujuinya. Mengirim permintaan biasanya hanya butuh beberapa menit, dan Anda tidak perlu menghubungi kami terlebih dahulu."
+      ]
+    },
+    {
+      "title": "Minta pengembalian dana dalam 6 langkah",
+      "id": "steps",
+      "steps": [
+        "Buka [reportaproblem.apple.com](https://reportaproblem.apple.com/).",
+        "Masuk dengan Akun Apple yang Anda gunakan untuk pembelian.",
+        "Di bagian **Saya ingin…**, pilih **Minta pengembalian dana**.",
+        "Pilih alasan yang sesuai, misalnya **Saya tidak bermaksud membeli ini** atau **Pembelian dalam aplikasi tidak diterima**.",
+        "Pilih pembelian koin SMS Code (misalnya **20 Coins**), lalu klik **Berikutnya**.",
+        "Kirim permintaan. Apple biasanya membalas dalam 24–48 jam."
+      ],
+      "image": {
+        "src": "/help/apple-refund-reasons.png",
+        "alt": "Halaman Laporkan Masalah Apple dengan “Minta pengembalian dana” dipilih dan daftar alasan: tidak bermaksud membeli, anak membeli tanpa izin, pembelian dalam aplikasi tidak diterima, hak penarikan, dan lainnya.",
+        "width": 882,
+        "height": 417
+      },
+      "cta": {
+        "label": "Buka reportaproblem.apple.com",
+        "href": "https://reportaproblem.apple.com/"
+      }
+    },
+    {
+      "title": "Setelah Anda mengirim",
+      "paragraphs": [
+        "Anda bisa memeriksa status permintaan di situs yang sama. Setelah Apple menyetujuinya, kredit toko biasanya kembali dalam 48 jam, kartu dan sebagian besar metode pembayaran lain dalam 30 hari, dan tagihan operator seluler dalam 60 hari. Kami tidak dapat mempercepat proses Apple atau bank Anda.",
+        "Jika Apple menyetujui pengembalian dana, koin dari pembelian itu akan dikurangi dari saldo SMS Code Anda. Jangan memakai koin dari pembelian yang sedang Anda minta pengembalian dananya."
+      ]
+    },
+    {
+      "title": "Kapan sebaiknya menulis kepada kami",
+      "paragraphs": [
+        "Tulis kepada kami jika aktivasi gagal dan koin tidak kembali ke saldo Anda, jika Anda sudah membayar tetapi koin tidak pernah muncul ([koin tidak masuk](/support/missing-coins)), atau jika Apple meminta Anda menghubungi pengembang. Kami dapat meninjau aktivasi dan mengirimkan catatan pembelian kepada Anda. Hak Anda sebagai konsumen tidak terpengaruh."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "title": "Apakah memakai nomor virtual legal? Ini kata aturannya",
+  "description": "Nomor virtual adalah layanan telekomunikasi biasa. Di mana batas sebenarnya: hukum, ketentuan platform, aturan registrasi SIM — dan apa yang melanggarnya.",
+  "excerpt": "Banyak orang ragu sebelum memakai nomor virtual, seolah menerima SMS di nomor itu adalah wilayah abu-abu. Kebanyakan tidak. Inilah perbedaan antara hukum, ketentuan sebuah platform, dan hal-hal yang ilegal dengan nomor apa pun.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "«Memangnya ini legal?» adalah salah satu pertanyaan paling umum sebelum orang memakai nomor virtual untuk pertama kali. Keraguan itu wajar. Nomor telepon terikat pada identitas di hampir seluruh dunia, kartu SIM makin sering mensyaratkan KTP atau paspor, dan kata «virtual» terdengar seperti jalan pintas."
+    },
+    {
+      "type": "p",
+      "text": "Jawaban singkatnya: memakai nomor virtual legal di sebagian besar negara — ini layanan telekomunikasi biasa yang dipakai setiap hari oleh perusahaan, pengembang, dan orang yang menjaga privasinya. Jawaban panjangnya lebih berguna, karena memisahkan tiga hal yang sering tercampur: apa kata hukum, apa kata aturan platform, dan apa yang ilegal nomor apa pun yang dipakai. Artikel ini penjelasan umum, bukan nasihat hukum untuk negara tertentu."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-numbers-are-ordinary-telecom",
+      "text": "Nomor virtual adalah produk telekomunikasi biasa"
+    },
+    {
+      "type": "p",
+      "text": "Istilah «nomor virtual» menggambarkan cara Anda mengakses nomor, bukan apa nomor itu. Nomor seluler virtual adalah nomor nyata di jaringan operator nyata; kartu SIM yang menjawabnya ada di penyedia, dan Anda melihat pesan masuk di aplikasi alih-alih di SIM ponsel Anda. Nomor seperti ini dipakai terus-menerus dan secara terbuka:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Perusahaan memakainya untuk layanan pelanggan, notifikasi pengiriman, dan kode verifikasi dua langkah.",
+        "Pengembang dan tim QA memakainya untuk menguji alur pendaftaran dan login di negara lain.",
+        "Pelancong dan perantau memakainya untuk tetap terhubung dengan negara yang tidak lagi mereka tinggali.",
+        "Perorangan memakainya agar nomor pribadi tidak diberikan ke aplikasi, toko, dan situs yang tidak membutuhkannya."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Kami tidak mengetahui satu negara pun yang punya kewajiban hukum umum untuk mendaftar layanan daring dengan kartu SIM di ponsel Anda sendiri."
+    },
+    {
+      "type": "h2",
+      "id": "privacy-is-a-legitimate-reason",
+      "text": "Privasi adalah alasan yang sah, dan hukum setuju"
+    },
+    {
+      "type": "p",
+      "text": "Ingin menjaga nomor asli tetap pribadi bukan hal mencurigakan; itu praktik baik yang justru didorong oleh hukum perlindungan data. GDPR di Uni Eropa, misalnya, berdiri di atas prinsip minimisasi data: perusahaan hanya boleh mengumpulkan data pribadi yang benar-benar dibutuhkan. Nomor yang diberikan ke forum atau toko menjadi pengenal permanen yang bisa menautkan akun-akun Anda, bocor dalam pelanggaran data, atau dijual ke pemasar. Menyimpannya untuk diri sendiri adalah versi konsumen dari prinsip yang sama."
+    },
+    {
+      "type": "h2",
+      "id": "law-versus-terms-of-service",
+      "text": "Hukum versus ketentuan layanan platform"
+    },
+    {
+      "type": "p",
+      "text": "Di sinilah sebagian besar kebingungan berada. Setiap platform menulis aturannya sendiri — berapa akun yang boleh dimiliki, nomor apa yang diterima, apakah otomatisasi diizinkan. Aturan itu adalah kontrak antara Anda dan platform, bukan hukum pidana."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Melanggar ketentuan platform biasanya berakibat di dalam platform: akun ditangguhkan, nomor ditolak, fitur dibatasi.",
+        "Sebagian layanan secara tegas menolak nomor VoIP atau virtual dan menerapkannya secara teknis. Itu hak mereka, dan tidak membuat penggunaan nomor tersebut di tempat lain menjadi ilegal.",
+        "Ketentuan SMS Code sendiri menyatakannya dengan jelas: Anda bertanggung jawab mematuhi ketentuan platform tempat Anda mendaftar. Bacalah untuk setiap akun yang penting bagi Anda."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Tes yang berguna: jika membuka akun dengan SIM sendiri tidak masalah, membukanya dengan nomor sewaan demi privasi adalah tindakan yang sama dengan lebih sedikit data pribadi yang terbuka. Jika akun itu bermasalah dengan SIM sendiri, nomor lain tidak akan memperbaikinya."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-laws",
+      "text": "Bagaimana dengan aturan registrasi SIM?"
+    },
+    {
+      "type": "p",
+      "text": "Menurut GSMA, asosiasi industri seluler, lebih dari 150 negara mewajibkan kartu SIM prabayar didaftarkan atas nama orang yang teridentifikasi — termasuk Indonesia dengan registrasi NIK. Aturan ini mengatur cara operator menjual dan mengaktifkan SIM: operator wajib tahu siapa pemilik setiap nomor. Secara umum aturan ini tidak mengatur nomor mana yang Anda ketik di formulir pendaftaran sebuah situs."
+    },
+    {
+      "type": "p",
+      "text": "Ada pengecualian yang perlu diketahui. Di beberapa negara, kategori layanan tertentu — perbankan, pembayaran, layanan pemerintah elektronik, kadang layanan pesan lokal — diwajibkan hukum memverifikasi Anda melalui nomor yang terdaftar atas nama Anda. Memakai nomor lain di sana bukan hanya melanggar aturan; itu tidak akan berhasil dan bisa melanggar regulasi setempat. Jika Anda tinggal di negara dengan aturan telekomunikasi yang ketat, periksa dulu sebelum mengandalkan nomor asing atau virtual."
+    },
+    {
+      "type": "h2",
+      "id": "what-is-illegal-with-any-number",
+      "text": "Yang ilegal dengan nomor apa pun"
+    },
+    {
+      "type": "p",
+      "text": "Nomor adalah alat. Legal tidaknya sesuatu bergantung pada perbuatannya, dan hal-hal berikut ilegal atau sangat salah, baik Anda memakai nomor virtual, SIM sekali pakai, maupun nomor sendiri:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Penipuan: modus penipuan, iklan palsu, penyalahgunaan chargeback, atau skema apa pun untuk mendapatkan uang dengan dalih palsu.",
+        "Peniruan identitas dan pencurian identitas: berpura-pura menjadi orang atau organisasi yang nyata.",
+        "Pelecehan, ancaman, dan penguntitan, termasuk menghubungi orang yang telah memblokir Anda.",
+        "Menghindari pemeriksaan identitas yang diwajibkan hukum: memakai nomor lain untuk mengakali aturan «kenali nasabah Anda» di bank, bursa, atau layanan pembayaran.",
+        "Spam dan pembuatan akun massal untuk manipulasi, ulasan palsu, atau penyalahgunaan."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Tidak satu pun dari perbuatan ini menjadi legal karena nomornya milik Anda, dan tidak satu pun menjadi ilegal hanya karena nomornya virtual. Ketentuan SMS Code melarang semuanya, dan akun yang dipakai dengan cara itu akan ditutup."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Apakah menerima SMS di nomor virtual legal?",
+          "a": "Di sebagian besar negara, ya. Menyewa nomor dan menerima pesan di nomor itu adalah layanan telekomunikasi biasa. Yang penting secara hukum adalah apa yang Anda lakukan dengan akun yang Anda buat."
+        },
+        {
+          "q": "Apakah legal memakai nomor virtual untuk WhatsApp atau Telegram?",
+          "a": "Memakai nomor lain untuk aplikasi pesan bukan tindak pidana di sebagian besar tempat. Namun setiap aplikasi punya ketentuannya sendiri dan bisa membatasi atau menangguhkan akun yang melanggarnya — bacalah untuk akun yang penting bagi Anda."
+        },
+        {
+          "q": "Bisakah saya memakai nomor virtual untuk bank?",
+          "a": "Sebaiknya jangan. Bank dan layanan pembayaran sering diwajibkan hukum untuk mengikat rekening Anda ke nomor yang terdaftar atas nama Anda, dan memverifikasinya ulang secara rutin."
+        },
+        {
+          "q": "Apakah nomor virtual anonim?",
+          "a": "Nomor virtual menjauhkan nomor pribadi Anda dari layanan tempat Anda mendaftar. Nomor itu tidak membuat aktivitas ilegal tak terlacak, dan tidak mengubah hukum yang berlaku atas perbuatan Anda."
+        },
+        {
+          "q": "Apakah memakai nomor virtual melanggar ketentuan aplikasi tempat saya mendaftar?",
+          "a": "Tergantung aplikasinya. Banyak yang tidak peduli nomor apa yang Anda pakai selama kodenya diterima; sebagian menolak nomor virtual atau VoIP. Periksa ketentuan setiap layanan tempat Anda berencana mempertahankan akun."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

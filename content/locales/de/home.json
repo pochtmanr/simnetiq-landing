@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "title": "SMS Code von SIMNETIQ — SMS online empfangen, privat",
+    "description": "Echte virtuelle Nummer in über 100 Ländern: SMS-Codes in Sekunden empfangen. Bei Telegram, WhatsApp, Google und mehr anmelden – ohne deine eigene Nummer.",
+    "ogTitle": "SMS Code von SIMNETIQ",
+    "ogDescription": "Eine Telefonnummer für die Anmeldung, nicht fürs Leben. Echte virtuelle Nummern in über 100 Ländern, Bestätigungscodes in Sekunden.",
+    "twitterDescription": "Eine Telefonnummer für die Anmeldung, nicht fürs Leben. Bestätigungscodes in Sekunden."
+  },
+  "hero": {
+    "label": "Virtuelle Nummern · SMS-Verifizierung",
+    "titleTop": "Eine Nummer für die Anmeldung.",
+    "titleAccent": "Nicht fürs Leben.",
+    "body": "SMS Code gibt dir eine echte virtuelle Nummer in über 100 Ländern und zeigt den Bestätigungscode meist innerhalb von Sekunden – so erfahren Telegram, WhatsApp, Google und über 100 weitere Dienste nie deine private Nummer.",
+    "note": "Einmalige Münzpakete · kein Abo"
+  },
+  "services": {
+    "label": "Abdeckung",
+    "title": "Funktioniert bei den Anmeldungen, die du wirklich machst",
+    "caption": "Telegram, WhatsApp, Google, Instagram und über 100 weitere Dienste"
+  },
+  "how": {
+    "label": "Überblick",
+    "title": "Drei Schritte, und fertig",
+    "step": "Schritt",
+    "steps": [
+      {
+        "title": "Dienst und Land wählen",
+        "body": "Wähle, wofür du dich anmeldest – Telegram, WhatsApp, Google, über 100 Dienste – und aus welchem Land die Nummer kommen soll."
+      },
+      {
+        "title": "Sofort eine echte Nummer",
+        "body": "Die App gibt dir eine aktive virtuelle Nummer. Füge sie wie jede andere Telefonnummer ins Anmeldeformular ein."
+      },
+      {
+        "title": "Der Code landet in der App",
+        "body": "Die Bestätigungs-SMS erscheint meist innerhalb von Sekunden auf dem Bildschirm. Einmal tippen, Code kopieren, Anmeldung abschließen, fertig."
+      }
+    ],
+    "inbox": {
+      "codeLabel": "Dein Code",
+      "now": "jetzt",
+      "secondsAgo": "vor {n} s"
+    },
+    "waiting": "Warte auf die SMS"
+  },
+  "features": {
+    "label": "Warum SMS Code",
+    "title": "Für Menschen, die ihre Nummer schützen",
+    "sub": "Entwickler, die Anmeldeprozesse testen, Marketer, die Konten betreuen, und alle, die „Gib deine Telefonnummer ein, um fortzufahren“ satthaben.",
+    "items": [
+      {
+        "title": "Deine echte Nummer bleibt deine",
+        "body": "Melde dich überall an, ohne deine private Nummer noch einer Datenbank, noch einer Mailingliste oder noch einem Datenleck zu überlassen."
+      },
+      {
+        "title": "Über 100 Dienste, über 100 Länder",
+        "body": "Von Telegram und WhatsApp bis Steam und Tinder – mit Nummern aus Europa, Asien, Amerika und mehr."
+      },
+      {
+        "title": "Meist Sekunden, nicht Minuten",
+        "body": "Nummern sind in dem Moment aktiv, in dem du sie bekommst. Die SMS erscheint direkt in der App und lässt sich mit einem Tippen kopieren."
+      },
+      {
+        "title": "Pro Code zahlen, kein Abo",
+        "body": "Kauf einmal ein Münzpaket und gib die Münzen aus, wann du willst. Kein Monatstarif, keine automatische Verlängerung, nichts auf deinem Guthaben verfällt."
+      },
+      {
+        "title": "Keine SIM, keine eSIM, kein Vertrag",
+        "body": "Nichts in den Handy-Einstellungen zu installieren und nichts an deine Identität gebunden. Einfach die App öffnen."
+      },
+      {
+        "title": "Abbrechen, bevor die SMS kommt",
+        "body": "Zwei Minuten nach der Zuteilung kannst du eine Nummer, die noch keine SMS erhalten hat, abbrechen und ihre Münzen zurückbekommen."
+      }
+    ]
+  },
+  "showcase": {
+    "label": "Ein Blick in die App",
+    "title": "So sieht es wirklich aus",
+    "shots": [
+      {
+        "src": "/app/shot-countries.png",
+        "caption": "Jedes Land mit Preis, bevor du wählst"
+      },
+      {
+        "src": "/app/shot-waiting.png",
+        "caption": "Der Code landet auf dem Aktivierungsbildschirm"
+      },
+      {
+        "src": "/app/shot-activations.png",
+        "caption": "Aktive Nummern, mit einem Tippen kopieren"
+      },
+      {
+        "src": "/app/shot-languages.png",
+        "caption": "Zehn Sprachen, umschaltbar in den Einstellungen"
+      }
+    ]
+  },
+  "faq": {
+    "label": "Fragen",
+    "title": "Fragen und Antworten",
+    "items": [
+      {
+        "q": "Was genau ist eine virtuelle Nummer?",
+        "a": "Eine echte Telefonnummer, die in einem Mobilfunknetz existiert, aber nicht an eine SIM-Karte in deiner Tasche gebunden ist. Sie kann SMS empfangen wie jede andere Nummer – du nutzt sie für den Bestätigungsschritt, und deine private Nummer kommt gar nicht ins Spiel. Eine Aktivierung ist einmalig: Solange sie läuft, ist die Nummer nur für dich reserviert, und wenn sie endet, geht die Nummer zurück in den Pool des Anbieters, wo sie später jemand anderem zugeteilt werden kann. Sieh sie also als Nummer für die Anmeldung, nicht als Nummer, die du behältst."
+      },
+      {
+        "q": "Kann ich eine Nummer wiederverwenden oder den Code erneut senden lassen?",
+        "a": "Nein. Eine Aktivierung umfasst einen Code auf einer Nummer. Sobald sie abgeschlossen oder abgelaufen ist, geht die Nummer zurück in den Pool des Anbieters – du kannst keine weitere SMS darauf empfangen, und sie kann später an einen anderen Kunden vergeben werden. Musst du dich erneut bestätigen? Starte eine neue Aktivierung, und du bekommst eine frische Nummer. Für jedes Konto, das du behalten willst, füge direkt nach der Anmeldung eine Wiederherstellungs-E-Mail und eine App-basierte Zwei-Faktor-Authentifizierung hinzu, damit das Konto nie von einer Nummer abhängt, die du nicht mehr hast."
+      },
+      {
+        "q": "Wie schnell kommt der Code an?",
+        "a": "Meist innerhalb von Sekunden, nachdem der Dienst ihn gesendet hat. Der Aktivierungsbildschirm aktualisiert sich live, du siehst den SMS-Text und den Code also in dem Moment, in dem er ankommt."
+      },
+      {
+        "q": "Welche Dienste kann ich bestätigen?",
+        "a": "Über 100 beliebte Dienste, darunter Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal und mehr – jeder mit seiner eigenen Liste verfügbarer Länder."
+      },
+      {
+        "q": "Was, wenn der Code nie ankommt?",
+        "a": "Ist keine SMS angekommen, kannst du zwei Minuten nach der Zuteilung der Nummer abbrechen. Die Münzen gehen dann zurück auf dein Guthaben. Wähle ein anderes Land nur, wenn der Zieldienst es akzeptiert; kontaktiere den Support, wenn dein Guthaben falsch aussieht."
+      },
+      {
+        "q": "Wie lange dauert eine Aktivierung, und kann ich die Nummer tauschen?",
+        "a": "Das Aktivierungsfenster beträgt 15 Minuten. Kommt nichts an, kannst du direkt auf demselben Bildschirm zu einer anderen Nummer wechseln – die App muss die aktuelle Nummer laut unserer Stornierungsrichtlinie zuerst zwei Minuten halten, und du kannst innerhalb einer Aktivierung bis zu dreimal tauschen. Du kannst auch ganz abbrechen und stattdessen eine neue Aktivierung starten. So oder so gehen die Münzen für eine Nummer, die nie eine SMS erhalten hat, zurück auf dein Guthaben."
+      },
+      {
+        "q": "Wie viele Nummern kann ich gleichzeitig haben?",
+        "a": "Drei aktive gleichzeitig. Außerdem gibt es stündliche und tägliche Obergrenzen dafür, wie viele Münzen ein Konto ausgeben kann. Sie liegen deutlich über normaler Nutzung – sie sollen automatisierten Missbrauch stoppen, nicht normale Kunden rationieren."
+      },
+      {
+        "q": "Verfallen meine Münzen?",
+        "a": "Nein. Münzpakete sind Einmalkäufe, keine Abos – unverbrauchte Münzen bleiben auf deinem Guthaben, bis du sie ausgibst, und ziehen mit deinem Konto auf ein neues Gerät um."
+      },
+      {
+        "q": "Ist die Nutzung legal?",
+        "a": "Was erlaubt ist, hängt von deinem Land, dem Zieldienst und deinem Zweck ab. Halte dich an geltende Gesetze und die Regeln der Plattformen. Nutze temporäre Nummern nicht für Betrug, falsche Identitätsangaben oder das Umgehen von Beschränkungen."
+      }
+    ]
+  },
+  "browse": {
+    "label": "Finde deine Nummer",
+    "title": "Wähle den Dienst. Um die Nummer kümmern wir uns.",
+    "body": "Jeder Dienst bekommt seinen eigenen Leitfaden: den echten Bestätigungsablauf, die Stolperfallen, über die Leute fallen, und die Länder, die dafür am besten funktionieren.",
+    "allLink": "Alle Dienste und Leitfäden"
+  },
+  "personas": {
+    "label": "Für wen",
+    "title": "Für Menschen, die ihre Nummer schützen",
+    "items": [
+      {
+        "title": "Die Entwicklerin",
+        "body": "Teste Anmeldeprozesse und OTP-Verarbeitung mit einer echten Empfangsnummer – ohne Schublade voller Büro-SIMs.",
+        "slug": "cursor",
+        "linkLabel": "Nummern für Dev-Tools"
+      },
+      {
+        "title": "Der Social-Media-Manager",
+        "body": "Eine saubere Kontaktidentität für jedes Markenkonto, das du betreust, ohne sie mit deinem privaten Handy zu verknüpfen.",
+        "slug": "instagram",
+        "linkLabel": "Nummern für Instagram"
+      },
+      {
+        "title": "Die Datenschutzbewusste",
+        "body": "Fremde in Gruppenchats sollten keinen direkten Draht zu dir haben. Behalte deine echte Nummer für Menschen, denen du vertraust.",
+        "slug": "telegram",
+        "linkLabel": "Nummern für Telegram"
+      },
+      {
+        "title": "Der clevere Shopper",
+        "body": "Marktplätze und Aktionsanmeldungen bekommen eine funktionierende Nummer – die Werbe-SMS erreicht nie deine Tasche.",
+        "slug": "aliexpress",
+        "linkLabel": "Nummern für AliExpress"
+      },
+      {
+        "title": "Die Unternehmerin mit mehreren Konten",
+        "body": "Ein zweites WhatsApp für die Arbeit, ein separates Telegram fürs Projekt – jedes mit eigener Nummer.",
+        "slug": "whatsapp",
+        "linkLabel": "Nummern für WhatsApp"
+      }
+    ]
+  },
+  "compare": {
+    "label": "Vergleich",
+    "title": "Wie sich SMS Code schlägt",
+    "body": "Du vergleichst uns mit SMS-Activate.org, 5SIM oder einem anderen Anbieter? Wir haben die Gegenüberstellungen selbst geschrieben – was jeder Dienst gut macht und wo eine Mobile-first-App mit einmaligen Münzpaketen besser passt.",
+    "vsLabel": "SMS Code vs."
+  },
+  "blog": {
+    "label": "Aus dem Blog",
+    "title": "Leitfäden, die sich vor deiner nächsten Anmeldung lohnen",
+    "readMore": "Zum Leitfaden",
+    "allLink": "Alle Artikel"
+  },
+  "cta": {
+    "title": "Deine nächste Anmeldung braucht deine echte Nummer nicht",
+    "support": "Fragen vor dem Download? Sprich mit dem Support"
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "100+",
+        "label": "Länder mit echten Mobilnummern in aktiven Mobilfunknetzen"
+      },
+      {
+        "value": "100+",
+        "label": "Dienste, die du bestätigen kannst, von Telegram bis Steam"
+      },
+      {
+        "value": "3",
+        "label": "Tipps von der Dienstauswahl bis zur aktiven Nummer auf dem Bildschirm"
+      },
+      {
+        "value": "0",
+        "label": "Abos – einmalige Münzpakete, und Münzen verfallen nie"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Preise",
+    "title": "Zahle für Codes, nicht für einen Tarif",
+    "sub": "Die App läuft mit Münzen. Kauf sie einmal in der Paketgröße, die zu dir passt, und gib sie dann Bestätigung für Bestätigung aus – kein Abo, keine automatische Verlängerung, und nichts auf deinem Guthaben verfällt.",
+    "packsLabel": "Münzpakete",
+    "coinsUnit": "Münzen",
+    "facts": [
+      {
+        "title": "Ab 20 Münzen – aber prüf zuerst den Dienst",
+        "body": "Der Dienst, den du bestätigst, bestimmt den Großteil des Preises, und das Land passt ihn an – nicht umgekehrt. 20 Münzen sind die Untergrenze, nicht der übliche Preis: Ein gängiger Messenger kann bei etwa 35 Münzen beginnen, und ein stark gefragter Dienst kann in jedem Land, in dem er angeboten wird, in die Hunderte gehen. Die App nennt jede Kombination live, sieh dir also den Preis an, bevor du ein Paket wählst."
+      },
+      {
+        "title": "Der Preis, bevor du bestätigst",
+        "body": "Jedes Land in der Liste zeigt seinen genauen Münzpreis direkt daneben. Nichts verlässt dein Guthaben, bevor du die Nummer gesehen und bestätigt hast."
+      },
+      {
+        "title": "Kein Code, Münzen zurück",
+        "body": "Kommt keine SMS an, brich nach der Wartezeit von zwei Minuten ab oder lass die Aktivierung ablaufen, um ihre Münzen zurückzubekommen. Ein zugestellter, aber abgelehnter Code braucht eine Prüfung durch den Support."
+      }
+    ],
+    "note": "Paketpreise werden im App Store festgelegt und variieren je nach Region."
+  }
+}

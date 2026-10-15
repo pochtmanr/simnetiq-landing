@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Thay thế SMS-Activate.org — SMS Code của SIMNETIQ",
+  "metaDescription": "So sánh SMS-Activate.org với ứng dụng SMS Code của SIMNETIQ: bảng điều khiển web và API so với ứng dụng iOS gốc dùng gói xu mua một lần.",
+  "hero": {
+    "title": "Lựa chọn thay thế SMS-Activate.org nằm ngay trên điện thoại",
+    "intro": [
+      "SMS-Activate.org là dịch vụ web lâu năm để nhận mã xác minh. SMS Code của SIMNETIQ đảm nhận cùng công việc từ một góc khác — ứng dụng iOS gốc thay vì bảng điều khiển web. Nếu bạn muốn ý tưởng cốt lõi — một số thuê và một mã nhanh — mà không phải đăng nhập vào trang web, bài so sánh này dành cho bạn.",
+      "Nhiệm vụ cốt lõi ở cả hai là như nhau: chọn dịch vụ, chọn quốc gia, nhận số thật, nhận mã SMS. Khác biệt nằm ở cách bạn đến đó. SMS-Activate.org xoay quanh bảng điều khiển web và API có tài liệu; SMS Code đặt toàn bộ quy trình trong một ứng dụng di động bạn cài từ App Store, trả bằng gói xu mua một lần, và dùng chỉ với vài chạm."
+    ]
+  },
+  "whenThem": {
+    "title": "Khi nào SMS-Activate.org là lựa chọn tốt hơn",
+    "body": "Nếu bạn cần số ở quy mô lớn, SMS-Activate.org được xây dựng cho bạn. Trang của họ có tài liệu API đầy đủ để mua số, chờ SMS đến và quản lý đơn hàng bằng chương trình, cùng danh mục dịch vụ và quốc gia rất lớn và các tùy chọn thuê để dùng lâu hơn. Lập trình viên đưa xác minh vào kịch bản, nhóm đăng ký tài khoản hàng loạt và bất kỳ ai thích làm việc từ bảng điều khiển trên máy tính sẽ thấy quen thuộc ở đó — lớp tự động hóa đó là thứ một ứng dụng di động tiêu dùng có chủ đích không cố tái tạo."
+  },
+  "whenUs": {
+    "title": "Khi nào SMS Code phù hợp hơn",
+    "body": "Nếu bạn là một người thỉnh thoảng cần mã xác minh — tài khoản Telegram thứ hai, đăng ký WhatsApp, một bản dùng thử đòi số điện thoại — SMS Code là đường ngắn hơn. Không ví web phải nạp, không bảng điều khiển phải học: bạn mua gói xu một lần qua thanh toán Apple, chọn dịch vụ và quốc gia, và mã hiện trong ứng dụng thường chỉ trong vài giây. Lần kích hoạt không bao giờ nhận được SMS hủy miễn phí, phạm vi hơn 100 quốc gia và hơn 100 dịch vụ, và toàn bộ hoạt động như một ứng dụng tiêu dùng bình thường chứ không phải công cụ lập trình."
+  },
+  "comparison": {
+    "title": "SMS-Activate.org và SMS Code, đặt cạnh nhau",
+    "rows": [
+      {
+        "label": "Nền tảng",
+        "competitor": "Bảng điều khiển web cùng API có tài liệu để tự động hóa",
+        "us": "Ứng dụng iOS gốc từ App Store"
+      },
+      {
+        "label": "Mô hình giá",
+        "competitor": "Trả theo số từ số dư tài khoản; tùy chọn thuê cho thời gian dài hơn",
+        "us": "Gói xu mua một lần, trả theo lần kích hoạt — không thuê bao"
+      },
+      {
+        "label": "Thanh toán",
+        "competitor": "Nạp số dư trên web bằng các phương thức thanh toán trang của họ liệt kê",
+        "us": "Thanh toán qua cửa hàng Apple — không chia sẻ thông tin thẻ với chúng tôi"
+      },
+      {
+        "label": "Phạm vi",
+        "competitor": "Danh mục quốc gia và dịch vụ rất rộng, hướng tới dùng số lượng lớn",
+        "us": "Hơn 100 quốc gia và hơn 100 dịch vụ phổ biến, chọn lọc cho đăng ký hằng ngày"
+      },
+      {
+        "label": "Hủy",
+        "competitor": "Theo quy tắc hoàn tiền riêng của họ — hãy xem điều khoản hiện hành",
+        "us": "Lần kích hoạt không nhận SMS hủy miễn phí, xu được hoàn"
+      },
+      {
+        "label": "Hỗ trợ",
+        "competitor": "Kênh hỗ trợ qua trang web của họ",
+        "us": "Biểu mẫu liên hệ trong ứng dụng và trên trang web"
+      },
+      {
+        "label": "Phù hợp nhất cho",
+        "competitor": "Lập trình viên và người dùng số lượng lớn cần hàng trăm số qua API",
+        "us": "Cá nhân muốn một ứng dụng di động gọn gàng cho những lần xác minh thỉnh thoảng"
+      }
+    ],
+    "note": "Thông tin về đối thủ phản ánh trang công khai của họ tại thời điểm viết và có thể thay đổi — hãy luôn kiểm tra trên sms-activate.org trước khi quyết định."
+  },
+  "switchSteps": {
+    "title": "Thử ứng dụng chỉ mất ba bước",
+    "steps": [
+      {
+        "title": "Cài ứng dụng",
+        "body": "Tải SMS Code của SIMNETIQ từ App Store — không cần tạo tài khoản web hay thiết lập ví."
+      },
+      {
+        "title": "Mua một gói xu",
+        "body": "Mua gói một lần qua tài khoản cửa hàng. Xu không biến thành thuê bao; bạn chỉ trả khi kích hoạt một số."
+      },
+      {
+        "title": "Chạy lần kích hoạt đầu tiên",
+        "body": "Chọn dịch vụ và quốc gia, nhận số thật, và xem mã đến trong ứng dụng thường chỉ trong vài giây. Nếu không có gì đến, lần kích hoạt hủy miễn phí."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "SMS Code có liên kết với SMS-Activate.org không?",
+      "a": "Không. SMS Code là sản phẩm độc lập của SIMNETIQ, không liên kết với SMS-Activate.org — hai bên là các công ty riêng biệt giải quyết cùng một vấn đề theo những cách khác nhau."
+    },
+    {
+      "q": "SMS Code có API như SMS-Activate.org không?",
+      "a": "Không — và đó là khác biệt có chủ đích. Ứng dụng được xây dựng cho con người, không phải kịch bản: một quy trình di động gốc cho những lần xác minh thỉnh thoảng. Nếu truy cập số bằng chương trình là yêu cầu bắt buộc, API có tài liệu của SMS-Activate.org phù hợp hơn."
+    },
+    {
+      "q": "Tôi có cần nạp ví để dùng ứng dụng không?",
+      "a": "Bạn mua gói xu một lần qua thanh toán Apple và tiêu xu theo từng lần kích hoạt. Không có ví web riêng, không thuê bao và không khoản phí định kỳ."
+    },
+    {
+      "q": "Điều gì xảy ra nếu mã không bao giờ đến?",
+      "a": "Lần kích hoạt bị hủy và xu được hoàn. Bạn chỉ trả cho những số thực sự nhận được SMS."
+    },
+    {
+      "q": "Các số có phải số di động thật không?",
+      "a": "Có — ứng dụng thuê số thật trên mạng nhà mạng thật tại hơn 100 quốc gia. Với dịch vụ bạn xác minh, số trông như mọi số điện thoại bình thường."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Shopee — Xác minh không cần điện thoại riêng",
+  "metaDescription": "Nhận mã SMS của Shopee trên số ảo thật thường chỉ trong vài giây. Mua sắm mà không để SMS khuyến mãi và cập nhật đơn hàng đổ về điện thoại cá nhân.",
+  "hero": {
+    "title": "Số ảo cho Shopee",
+    "intro": [
+      "Shopee lấy điện thoại làm trung tâm theo cách các sàn phương Tây không làm: khắp Đông Nam Á và Brazil, số điện thoại thực chất chính là tài khoản. Đăng ký bắt đầu bằng điện thoại, một OTP như “382916 is your Shopee verification code” xác nhận nó, và từ đó số đó là cách bạn đăng nhập, đường khôi phục — và địa chỉ cho dòng SMS flash sale không ngớt.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia và mã đến ứng dụng thường chỉ trong vài giây. Tài khoản được xác minh — và cơn mưa tiếp thị đổ về nơi khác, không phải chiếc điện thoại đánh thức bạn lúc nửa đêm."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Shopee?",
+    "body": [
+      "Sàn thương mại là một trong những dịch vụ ồn ào nhất mà một số điện thoại có thể gặp. Cập nhật đơn hàng thì hữu ích; voucher, đồng hồ đếm ngược và tin “sale 9.9” thì không — và khi số cá nhân đã vào một cơ sở dữ liệu thương mại, nó có xu hướng ở lại đó qua mọi danh sách đối tác và vụ rò rỉ sau này. Một số riêng cho mua sắm giữ việc săn deal tránh xa số mà gia đình bạn dùng.",
+      "Mặt trái thẳng thắn: chính vì Shopee lấy điện thoại làm trung tâm, số ở đây quan trọng hơn ở các dịch vụ dựa vào email. Nó không chỉ là trạm kiểm tra — nó là cách đăng nhập. Điều đó không loại trừ số ảo; nó thay đổi cách bạn dùng. Hãy xác minh bằng nó, rồi ngay lập tức liên kết email và đặt mật khẩu trong cài đặt tài khoản, để việc đăng nhập không bao giờ phụ thuộc vào việc nhận thêm OTP trên một số bạn thuê cho một buổi chiều."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Shopee bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Chọn Shopee làm dịch vụ và chọn quốc gia khớp với thị trường Shopee bạn mua sắm — ứng dụng Indonesia mong đợi số Indonesia, ứng dụng Thái mong đợi số Thái. Một chạm giữ một số di động thật."
+      },
+      {
+        "title": "Bắt đầu đăng ký với số đó",
+        "body": "Nhập số trên màn hình đăng ký của Shopee với đúng mã quốc gia. Shopee gửi OTP ngay — đây là phần nhạy cảm về thời gian, nên hãy mở sẵn cả hai ứng dụng."
+      },
+      {
+        "title": "Nhập mã",
+        "body": "SMS ghi “382916 is your Shopee verification code” và hiện trong SMS Code thường chỉ trong vài giây. Nhập mã và tài khoản đã hoạt động."
+      },
+      {
+        "title": "Cho tài khoản điểm tựa thứ hai",
+        "body": "Ngay sau khi đăng ký, mở cài đặt tài khoản, liên kết email và đặt mật khẩu đăng nhập. Như vậy bạn có thể đăng nhập bằng tên người dùng và mật khẩu thay vì OTP mới — số thuê không còn là chìa khóa duy nhất."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Chọn số khớp với thị trường",
+      "body": "Shopee vận hành ứng dụng và trang riêng cho từng quốc gia, và mỗi nơi mong đợi số địa phương. Số Việt Nam sẽ không mở tài khoản trên Shopee Indonesia. Hãy quyết định bạn thực sự mua ở thị trường nào, rồi thuê số tương ứng."
+    },
+    {
+      "title": "Số là cách đăng nhập — hãy tính đến điều đó",
+      "body": "Trong khi các dịch vụ lấy email làm trọng tâm coi điện thoại là trạm kiểm tra, Shopee có thể hỏi lại SMS khi đặt lại mật khẩu hoặc đăng nhập từ thiết bị mới. Hãy đặt sẵn mật khẩu đăng nhập, giữ trạng thái đăng nhập trên thiết bị, và coi một tài khoản mua sắm dùng lâu dài là thứ xứng đáng có một số bạn giữ."
+    },
+    {
+      "title": "Bán hàng là chuyện khác",
+      "body": "Mở cửa hàng kéo theo xác minh người bán — giấy tờ tùy thân và thông tin ngân hàng ở hầu hết thị trường. Số ảo bao phủ bước SMS của tài khoản người mua; nó không thay thế các bước kiểm tra Shopee áp dụng với người nhận thanh toán."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tôi có thể đăng ký Shopee bằng số ảo không?",
+      "a": "Có — đó là số di động thật trên mạng nhà mạng thật, và Shopee xác minh nó bằng OTP tiêu chuẩn. Hãy chọn quốc gia khớp với thị trường Shopee bạn đăng ký, vì mỗi thị trường mong đợi số địa phương."
+    },
+    {
+      "q": "Điều gì xảy ra với tài khoản Shopee khi số đã thuê hết hạn?",
+      "a": "Tài khoản vẫn hoạt động miễn là bạn đăng nhập được. Vì Shopee lấy điện thoại làm trung tâm, hãy đặt mật khẩu và liên kết email ngay sau khi đăng ký — khi đó đăng nhập hằng ngày không cần OTP. Nếu định dùng tài khoản nhiều năm, hãy cân nhắc cập nhật sang một số bạn giữ."
+    },
+    {
+      "q": "SMS khuyến mãi có đến điện thoại cá nhân của tôi không?",
+      "a": "Không — đó là một nửa lý do. Tin tiếp thị đuổi theo số trên tài khoản, và số đó nằm trong ứng dụng SMS Code, không phải trong túi bạn. Bạn cũng có thể giảm bớt thông báo trong cài đặt của Shopee."
+    },
+    {
+      "q": "Tôi có thể mở tài khoản người bán Shopee theo cách này không?",
+      "a": "Bước SMS hoạt động như nhau, nhưng onboarding người bán có thêm xác minh danh tính và ngân hàng mà số điện thoại không thay thế được. Hãy chuẩn bị giấy tờ thật nếu bạn muốn bán hàng và rút tiền."
+    },
+    {
+      "q": "Vì sao mã Shopee không đến?",
+      "a": "Thường gặp nhất là quốc gia của số không khớp với thị trường Shopee, hoặc gõ sai mã quốc gia. Nếu SMS thực sự không bao giờ đến, hãy hủy lần kích hoạt miễn phí trong SMS Code và lấy số khác."
+    }
+  ]
+}

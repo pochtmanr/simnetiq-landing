@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Tinder — Đăng ký không cần số của bạn",
+  "metaDescription": "Tinder không khởi động nếu thiếu số điện thoại. Xác minh bằng số ảo thật — mã thường đến chỉ trong vài giây, hủy miễn phí nếu không có mã.",
+  "hero": {
+    "title": "Số ảo cho Tinder",
+    "intro": [
+      "Không có cách nào vòng qua: Tinder yêu cầu số điện thoại để tạo tài khoản. Màn hình đầu tiên hỏi số, gửi mã SMS và không cho bạn thấy một hồ sơ nào cho đến khi mã được nhập. Đăng nhập bằng email, Apple hoặc Google có thể gắn sau — nhưng số mới là thứ tài khoản bám vào.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia, nhập vào Tinder, và mã hiện trong ứng dụng thường chỉ trong vài giây. Bạn trả tiền theo lần kích hoạt từ gói xu mua một lần — không thuê bao — và nếu một số không nhận được gì, bạn hủy mà không bị trừ phí."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Tinder?",
+    "body": [
+      "Ứng dụng hẹn hò, theo thiết kế, là nơi bạn trò chuyện với người lạ — và số điện thoại là thông tin liên hệ duy nhất bạn không thể lấy lại khi nó đã lộ. Tinder không bao giờ hiển thị số của bạn cho người tương hợp, nhưng nó vẫn nằm trên tài khoản: trong trường hợp rò rỉ, hoặc đơn giản như sợi dây nối hồ sơ hẹn hò với phần còn lại của đời sống số của bạn. Số ảo cắt sợi dây đó — việc tán tỉnh diễn ra trong ứng dụng, và số đằng sau hồ sơ không phải số mà gia đình và ngân hàng của bạn dùng.",
+      "Đó cũng là cách trung thực để bắt đầu lại. Nếu bạn đã xóa hồ sơ cũ và muốn một trang trắng thực sự — ảnh mới, tiểu sử mới, không còn lịch sử cũ — Tinder ghi nhớ các số, nên đăng ký bằng số cũ sẽ lặng lẽ nối bạn với quá khứ. Một số mới cho một khởi đầu mới. Điều đó dành cho tài khoản bạn tự đóng, không phải để lách lệnh cấm."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Tinder bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Tinder làm dịch vụ, chọn quốc gia và chạm một lần. Một số di động thật được giữ riêng cho bạn trong suốt thời gian kích hoạt."
+      },
+      {
+        "title": "Nhập số trên màn hình đầu tiên của Tinder",
+        "body": "Chọn “Đăng nhập bằng số điện thoại”, chọn mã quốc gia khớp với số đã thuê và nhập vào. Sai quốc gia là lý do kinh điển khiến mã không bao giờ đến."
+      },
+      {
+        "title": "Nhập mã — chỉ các chữ số",
+        "body": "SMS đến ứng dụng SMS Code thường chỉ trong vài giây và có dạng “Your Tinder code is 402318 dwEzWOx6XSV”. Các chữ cái ở cuối là mã băm kỹ thuật của ứng dụng — hãy bỏ qua, mã chỉ là sáu chữ số."
+      },
+      {
+        "title": "Gắn phương án dự phòng và giữ đăng nhập",
+        "body": "Trong Cài đặt, liên kết một địa chỉ email với tài khoản. Tinder xác minh lại qua SMS dễ dàng hơn hầu hết ứng dụng — email đã liên kết cộng với phiên đăng nhập không gián đoạn là thứ giữ tài khoản vững vàng là của bạn."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Coi việc đăng xuất là một quyết định thật sự",
+      "body": "Tinder nhanh chóng đòi SMS mới khi bạn đăng nhập lại trên thiết bị mới hoặc sau khi đăng xuất. Khi bạn giữ đăng nhập, nó hiếm khi làm phiền. Vì vậy đừng đăng xuất tùy tiện — trên Tinder, một phiên đang hoạt động đáng giá hơn gần như mọi ứng dụng khác."
+    },
+    {
+      "title": "Quốc gia của số không dịch chuyển người tương hợp",
+      "body": "Chồng thẻ của bạn đến từ nơi bạn thực sự ở — GPS và cài đặt khoảng cách — không phải mã vùng của số. Một số từ quốc gia khác xác minh tài khoản bình thường và không ảnh hưởng đến ai bạn thấy hay ai thấy bạn."
+    },
+    {
+      "title": "Số mới dành cho khởi đầu mới",
+      "body": "Nếu bạn đã xóa tài khoản cũ, một số mới là thứ khiến hồ sơ mới thực sự mới. Nếu tài khoản cũ bị cấm, số mới không phải cách lách — quy định của Tinder về việc quay lại sau lệnh cấm vẫn áp dụng, và nền tảng có nhiều tín hiệu hơn chỉ số điện thoại."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Người tương hợp có thấy số điện thoại của tôi không?",
+      "a": "Không, không bao giờ. Tinder cho người tương hợp thấy tên, ảnh và tiểu sử của bạn — số điện thoại luôn vô hình và mọi cuộc trò chuyện diễn ra trong ứng dụng. Việc của số là xác minh, và số ảo làm việc đó trong khi giữ số thật của bạn hoàn toàn ngoài hệ thống."
+    },
+    {
+      "q": "Quốc gia của số có thay đổi ai được hiển thị cho tôi không?",
+      "a": "Không. Tinder xây dựng chồng thẻ từ vị trí thực của bạn, không phải mã vùng — một số nước ngoài ở Madrid vẫn cho bạn Madrid. Hãy chọn quốc gia nào có số sẵn và rẻ; đó thuần túy là chi tiết xác minh."
+    },
+    {
+      "q": "Điều gì xảy ra với tài khoản khi số đã thuê hết hạn?",
+      "a": "Không có gì, miễn là bạn giữ đăng nhập — số cần cho mã, không phải cho sử dụng hằng ngày. Lưu ý thẳng thắn: Tinder đôi khi yêu cầu xác minh lại qua SMS khi đăng nhập mới, nên hãy liên kết email trong Cài đặt và đừng đăng xuất khi không có lý do."
+    },
+    {
+      "q": "Tôi có thể tạo tài khoản Tinder mà không cần số điện thoại nào không?",
+      "a": "Không. Xác minh điện thoại là bắt buộc khi đăng ký — Apple, Google và email có thể bổ sung cho tài khoản, nhưng không cái nào thay thế bước SMS. Đó chính là tình huống mà số thuê sinh ra để giải quyết."
+    },
+    {
+      "q": "Vì sao mã Tinder không đến?",
+      "a": "Thường gặp nhất là mã quốc gia chọn trong Tinder không khớp với số, hoặc Tinder từ chối nhắn tới số cụ thể đó. Hãy hủy lần kích hoạt đang chờ trong SMS Code — xu được hoàn cho số không nhận được gì — và lấy số mới, tốt nhất từ quốc gia khác."
+    }
+  ]
+}

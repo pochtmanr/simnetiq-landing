@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Snapchat — ohne deine Nummer",
+  "metaDescription": "Bestätige Snapchat mit einer echten virtuellen Nummer aus über 100 Ländern. Code meist in Sekunden – keine SIM, kein Abo, Abbruch gratis ohne SMS.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Snapchat",
+    "intro": [
+      "Snapchat erstellt ein Konto auch nur mit einer E-Mail – das Telefonfeld lässt sich bei der Registrierung tatsächlich überspringen. Lange bleibt es aber nicht ruhig: Melde dich von einem neuen Gerät an, lös eine Sicherheitsprüfung aus oder versuche, ein vergessenes Passwort wiederherzustellen, und Snapchat fragt nach einer Nummer, an die es einen Code senden kann.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, gibst sie bei Snapchat ein, und die Bestätigungs-SMS erscheint meist innerhalb von Sekunden in der App. Du zahlst pro Aktivierung aus einem einmaligen Münzpaket – kein Abo –, und jede Aktivierung ohne empfangene SMS lässt sich kostenlos abbrechen."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Snapchat?",
+    "body": [
+      "Auf Snapchat sind Menschen am lockersten – Streaks, Snaps, die verschwinden, Freunde von Freunden über Quick Add. Deine Telefonnummer gehört nicht in diese Mischung: Sobald sie im Konto steht, kann jeder, der sie in seinen Kontakten gespeichert hat, dich als vorgeschlagenen Freund angezeigt bekommen – genau so stolpern Mitschüler, Kollegen und einmal getroffene Fremde in dein Snap-Leben. Eine virtuelle Nummer hält das Konto bestätigt, während deine echte Nummer bei den Menschen bleibt, denen du sie tatsächlich gegeben hast.",
+      "Die Nummer, die Snapchat will, muss außerdem genau jetzt funktionieren: Bestätigungsabfragen und Passwortwiederherstellung hängen beide davon ab, in diesem Moment eine SMS zu empfangen. Eine gemietete Nummer in der App SMS Code tut genau das – sie fängt den einen Code ab, den Snapchat braucht, ohne zum dauerhaften Faden zwischen deinen Snaps und deiner SIM-Karte zu werden."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du Snapchat mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code holen",
+        "body": "Öffne die App SMS Code, wähle Snapchat als Dienst, such dir ein Land aus und tippe einmal. Eine echte Mobilnummer ist für die Dauer der Aktivierung nur für dich reserviert."
+      },
+      {
+        "title": "Bei Snapchat eingeben",
+        "body": "Entweder im Registrierungsbildschirm, wenn Snapchat nach einem Telefon fragt, oder später unter Einstellungen → Handynummer. Wähle die Ländervorwahl, die zur gemieteten Nummer passt – eine Abweichung ist der übliche Grund, warum ein Code nie auftaucht."
+      },
+      {
+        "title": "Code holen",
+        "body": "Die SMS kommt meist innerhalb von Sekunden in der App SMS Code an, vom Absender „Snapchat“, im Format „Snapchat code: 719402. Happy Snapping!“. Tippe die Ziffern in Snapchat ein, und die Nummer ist bestätigt."
+      },
+      {
+        "title": "Die Datenschutzschrauben anziehen",
+        "body": "Schalte unter Einstellungen → Handynummer die Option „Andere dürfen mich über meine Handynummer finden“ aus. Bestätige dann eine eigene E-Mail und aktiviere die Zwei-Faktor-Authentifizierung per Authenticator-App – die Wiederherstellung hängt dann überhaupt nicht mehr von einer SMS ab."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Schalte die Auffindbarkeit per Telefon aus",
+      "body": "Quick Add funktioniert teilweise über synchronisierte Kontakte: Wer eine Nummer gespeichert hat, bekommt deren Inhaber angezeigt. Mit ausgeschalteter Auffindbarkeit über die Telefonnummer bestätigt die gemietete Nummer das Konto, ohne dich darüber auffindbar zu machen – eine Gewohnheit, die sich bei jedem Konto lohnt."
+    },
+    {
+      "title": "Gib der Wiederherstellung einen zweiten Weg",
+      "body": "Snapchat stützt sich beim Zurücksetzen des Passworts auf das Telefon, bestätige also zusätzlich eine E-Mail-Adresse und schalte 2FA per Authenticator-App ein. Dann hängt ein vergessenes Passwort nie davon ab, eine SMS auf einer Nummer zu empfangen, deren Aktivierungsfenster längst geschlossen ist."
+    },
+    {
+      "title": "Hämmere nicht auf „erneut senden“",
+      "body": "Snapchat begrenzt Code-Anfragen: Fragst du zu oft hintereinander, verstummt es eine Weile. Gib dem ersten Code einen Moment; bleibt die Nummer leer, brich die Aktivierung kostenlos ab und nimm eine neue, statt ins Leere erneut zu senden."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kann ich Snapchat ganz ohne Telefonnummer nutzen?",
+      "a": "Registrieren kannst du dich nur mit einer E-Mail, ja. Aber Snapchat fragt nach einem Telefon, wenn etwas ungewöhnlich wirkt – ein neues Gerät, eine Sicherheitsabfrage, ein Passwort-Reset –, und dann brauchst du eine Nummer, die genau in diesem Moment eine SMS empfangen kann. Eine gemietete Nummer deckt genau diesen Moment ab."
+    },
+    {
+      "q": "Funktioniert mein Snapchat weiter, wenn die Nummer abläuft?",
+      "a": "Ja. Die Nummer zählt im Moment der Bestätigung, nicht danach. Bleib angemeldet, bestätige eine E-Mail und aktiviere 2FA per Authenticator-App, dann braucht das Konto diese Nummer nie wieder."
+    },
+    {
+      "q": "Sehen meine Freunde die Nummer, die ich verwendet habe?",
+      "a": "Nein – Snapchat zeigt deine Telefonnummer nie in deinem Profil an. Das einzige Risiko ist die Auffindbarkeit: Leute, die die Nummer in ihren Kontakten haben, könnten dich in Quick Add sehen. Schalte „Andere dürfen mich über meine Handynummer finden“ aus, und auch dieser Weg ist zu."
+    },
+    {
+      "q": "Warum ist mein Snapchat Code nicht angekommen?",
+      "a": "Die üblichen Verdächtigen: Die in Snapchat gewählte Ländervorwahl passt nicht zur gemieteten Nummer, oder du hast das Limit für erneutes Senden erreicht und Snapchat hat die Zustellung pausiert. Brich die offene Aktivierung in SMS Code ab – für Nummern, die nichts empfangen haben, gibt es die Münzen zurück – und fang mit einer neuen Nummer von vorn an."
+    },
+    {
+      "q": "Kann ich ein zweites Snapchat Konto haben?",
+      "a": "Snapchat erlaubt mehr als ein Konto pro Person – zum Beispiel ein privates und eines für die Öffentlichkeit oder ein Projekt –, und die App kann zwischen ihnen wechseln. Jedes braucht seinen eigenen Benutzernamen und eigene Kontaktdaten, und genau dort passt eine separate virtuelle Nummer."
+    }
+  ]
+}

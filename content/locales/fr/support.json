@@ -7,21 +7,26 @@
     "label": "Assistance",
     "title": "Comment pouvons-nous vous aider\u00a0?",
     "introBefore": "Envoyez-nous un message ci-dessous ou écrivez à ",
-    "introAfter": " — indiquez les détails ci-dessous afin que nous puissions examiner votre demande et vous répondre par e-mail.",
+    "introAfter": " — choisissez d’abord un sujet\u00a0: la plupart des réponses sont à portée de clic, et le reste parvient à une vraie personne.",
     "items": [
       {
-        "title": "Problèmes d’activation",
-        "body": "Toujours pas de SMS\u00a0? L’annulation est possible deux minutes après l’attribution, avant l’arrivée d’un SMS, et renvoie les pièces sur votre solde. Lisez le guide de dépannage avant de réessayer.",
-        "slug": "activation-issues"
+        "title": "Remboursements",
+        "body": "Les achats sur l’App Store sont facturés par Apple\u00a0: le remboursement se demande donc à Apple, qui décide. Le guide vous accompagne en moins de deux minutes.",
+        "slug": "refund-apple"
       },
       {
-        "title": "Facturation et pièces",
-        "body": "Les achats passent par l’App Store. Indiquez votre reçu ou l’identifiant de commande et nous retracerons les pièces manquantes.",
-        "slug": "billing-coins-refunds"
+        "title": "SMS non reçu",
+        "body": "La livraison dépend du service, du pays et des contrôles propres au service. Si rien n’arrive, les pièces reviennent automatiquement. Voyez quels pays fonctionnent le mieux en ce moment.",
+        "slug": "sms-not-received"
+      },
+      {
+        "title": "Pièces manquantes",
+        "body": "Vous avez payé mais vous n’avez pas reçu les pièces\u00a0? C’est souvent un paiement Apple en attente ou un autre compte SMS Code. Vérifiez ces étapes avant de racheter.",
+        "slug": "missing-coins"
       },
       {
         "title": "Conserver votre solde",
-        "body": "Vos pièces sont liées à votre compte SMS Code, pas au reçu de l’App Store. Si vous n’avez utilisé l’app qu’en anonyme, une réinstallation crée un nouveau compte et le solde ne suit pas — connectez-vous donc (Apple, Google ou un code par e-mail) tant que vous avez des pièces\u00a0: elles seront là sur tout appareil où vous vous connectez. Déjà réinstallé et un solde perdu\u00a0? Écrivez-nous avec votre reçu App Store ou l’identifiant de commande et nous réglerons cela.",
+        "body": "Vos pièces sont liées à votre compte SMS Code, pas au reçu de l’App Store. Connectez-vous (Apple, Google ou code par e-mail) tant que vous avez des pièces et elles vous suivront sur tous vos appareils.",
         "slug": "account-balance"
       }
     ],
@@ -35,18 +40,78 @@
     "namePlaceholder": "Camille",
     "email": "E-mail",
     "emailPlaceholder": "vous@example.com",
-    "topic": "Sujet",
-    "topicPlaceholder": "Choisissez un sujet",
-    "topics": [
-      "L’activation n’est pas arrivée",
-      "Facturation et pièces",
-      "Compte et restauration des achats",
-      "Signaler un bug",
-      "Suggestion de fonctionnalité",
-      "Autre chose"
-    ],
+    "stepTopic": "Comment pouvons-nous vous aider\u00a0?",
+    "topics": {
+      "refund": "Rembourser un achat",
+      "sms": "SMS non reçu",
+      "code": "Code refusé ou numéro bloqué",
+      "coins": "Pièces manquantes après un achat",
+      "account": "Compte, restauration ou suppression",
+      "bug": "Quelque chose ne fonctionne pas",
+      "feature": "Suggérer une fonctionnalité",
+      "other": "Autre chose"
+    },
+    "selfServe": {
+      "sms": {
+        "title": "Avant d’écrire\u00a0: la plupart des SMS manquants se règlent d’eux-mêmes",
+        "points": [
+          "Si aucun SMS n’arrive pendant la durée de l’activation, celle-ci se ferme et les pièces reviennent automatiquement sur votre solde.",
+          "La livraison dépend du service et du pays. Certains services bloquent les numéros virtuels dans certains pays\u00a0: essayez un autre pays avec un meilleur niveau de livraison.",
+          "Vérifiez que le service envoie bien le code par SMS, et non par appel vocal ou dans une app où vous êtes déjà connecté."
+        ]
+      },
+      "code": {
+        "title": "Avant d’écrire\u00a0: pourquoi un code est refusé",
+        "points": [
+          "C’est le service qui décide d’accepter un numéro. Un numéro déjà utilisé, ou un pays que le service restreint, peut être refusé même après l’arrivée du SMS.",
+          "Utilisez le code le plus récent, pour le même compte et le même service, sans espaces.",
+          "Ne répétez pas les tentatives payantes sur le même service et le même pays. Changez de pays ou écrivez-nous pour que nous examinions le cas."
+        ]
+      },
+      "coins": {
+        "title": "Avant d’écrire\u00a0: où se trouvent généralement les pièces",
+        "points": [
+          "Un paiement Apple en attente peut prendre quelques minutes. Rouvrez l’app avant de racheter.",
+          "Les pièces appartiennent au compte SMS Code qui les a achetées. Connectez-vous avec le même identifiant Apple, Google ou e-mail.",
+          "Toujours rien\u00a0? Envoyez-nous le numéro de commande Apple (dans l’e-mail de reçu d’Apple) et nous le retrouverons."
+        ]
+      },
+      "account": {
+        "title": "Avant d’écrire\u00a0: réponses sur le compte",
+        "points": [
+          "Connectez-vous avec Apple, Google ou un code par e-mail pour garder votre solde sur tous vos appareils.",
+          "Vous pouvez supprimer votre compte dans l’app\u00a0: Réglages → Supprimer le compte. La suppression ne rembourse pas un paiement Apple.",
+          "Solde perdu après une réinstallation\u00a0? Écrivez-nous avec votre numéro de commande Apple."
+        ]
+      }
+    },
+    "readGuide": "Lire le guide complet",
+    "solved": "C’est réglé",
+    "stillNeed": "J’ai encore besoin d’aide",
+    "solvedTitle": "Ravi que cela ait aidé",
+    "solvedBody": "Si quelque chose change, revenez sur cette page quand vous voulez.",
+    "changeTopic": "Changer de sujet",
+    "refundNote": "Nous ne pouvons pas rembourser les achats faits sur l’App Store. Seul Apple peut les approuver, sur reportaproblem.apple.com. Écrivez-nous si Apple vous a demandé de contacter le développeur ou si vous avez besoin de justificatifs d’achat.",
+    "orderId": "Numéro de commande Apple (facultatif)",
+    "orderIdPlaceholder": "ex. MXXXXXXXXX",
+    "service": "Service",
+    "servicePlaceholder": "ex. Telegram",
+    "country": "Pays",
+    "countryPlaceholder": "ex. Indonésie",
+    "when": "Vers quelle heure\u00a0?",
+    "whenPlaceholder": "ex. aujourd’hui vers 14:00 (UTC+3)",
+    "accountAttached": "L’identifiant de votre compte SMS Code et la version de l’app sont joints automatiquement\u00a0: inutile de les chercher.",
+    "messagePlaceholders": {
+      "refund": "Que s’est-il passé\u00a0? Apple vous a-t-il demandé de nous contacter\u00a0?",
+      "sms": "Quel numéro avez-vous reçu et qu’a indiqué le service\u00a0?",
+      "code": "Qu’a indiqué le service en refusant le code\u00a0?",
+      "coins": "Quel pack avez-vous acheté, et quand\u00a0?",
+      "account": "De quoi avez-vous besoin\u00a0?",
+      "bug": "Sur quoi avez-vous appuyé, à quoi vous attendiez-vous et que s’est-il passé\u00a0?",
+      "feature": "Qu’aimeriez-vous que SMS Code fasse\u00a0?",
+      "other": "Dites-nous ce qui s’est passé."
+    },
     "message": "Message",
-    "messagePlaceholder": "Dites-nous ce qui s’est passé — le service, le pays et l’heure approximative de l’activation nous aident à la retrouver vite.",
     "honeypot": "Laissez ce champ vide",
     "send": "Envoyer le message",
     "sending": "Envoi…",
@@ -71,7 +136,21 @@
     "appleNote": "Indications vérifiées d’après les documents officiels d’assistance Apple au 30 septembre 2026. L’éligibilité au remboursement dépend de votre région et du droit applicable.",
     "related": "Aide associée",
     "terms": "Conditions d’utilisation",
-    "privacy": "Politique de confidentialité"
+    "privacy": "Politique de confidentialité",
+    "stillNeedTitle": "Encore besoin d’aide\u00a0?",
+    "stillNeedBody": "Si cette page n’a pas réglé le problème, envoyez-nous une demande. Elle parvient à une vraie personne, et les détails ci-dessus nous aident à répondre plus vite.",
+    "submitAnyway": "Envoyer une demande quand même",
+    "tiers": {
+      "title": "Où les SMS arrivent en ce moment",
+      "intro": "Choisissez un service pour voir avec quelle fiabilité les SMS sont arrivés sur nos numéros dans chaque pays au cours des 30 derniers jours. Si votre pays est au niveau bas, passez à un pays au niveau élevé.",
+      "service": "Service",
+      "pick": "Choisissez un service",
+      "high": "Élevé",
+      "medium": "Moyen",
+      "low": "Bas",
+      "unavailable": "aucun numéro pour l’instant",
+      "note": "Basé sur les activations SMS Code récentes et actualisé toutes les heures. Seules les combinaisons service et pays avec suffisamment de commandes récentes sont affichées. Une bonne livraison passée ne garantit pas le prochain SMS, et c’est toujours le service qui décide d’accepter le numéro."
+    }
   },
   "api": {
     "invalidBody": "Corps de requête invalide.",
@@ -79,7 +158,7 @@
     "name": "Veuillez indiquer votre nom.",
     "email": "Veuillez indiquer une adresse e-mail valide.",
     "topic": "Le sujet est trop long.",
-    "message": "Décrivez votre demande en au moins 10 caractères.",
+    "message": "Décrivez votre problème avec vos propres mots (au moins 10 caractères).",
     "unavailable": "Le formulaire d’assistance est momentanément indisponible. Écrivez-nous plutôt par e-mail.",
     "saveFailed": "Nous n’avons pas pu enregistrer votre message. Réessayez ou écrivez-nous par e-mail.",
     "forbidden": "Cette demande ne provient pas de la page d’assistance. Rechargez la page et réessayez.",

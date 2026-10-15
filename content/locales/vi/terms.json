@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Điều khoản dịch vụ",
+    "description": "Điều khoản sử dụng ứng dụng SMS Code và simnetiq.xyz: xu và giao dịch mua, quyền hủy của bạn, sử dụng được chấp nhận, số ảo và trách nhiệm pháp lý."
+  },
+  "prevailingNotice": "Bản dịch này được cung cấp để thuận tiện. Nếu có khác biệt so với bản tiếng Anh, bản tiếng Anh sẽ được ưu tiên áp dụng.",
+  "label": "Pháp lý",
+  "title": "Điều khoản dịch vụ",
+  "updatedLabel": "Cập nhật lần cuối:",
+  "sections": [
+    {
+      "title": "1. Thỏa thuận",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Các Điều khoản dịch vụ này (“Điều khoản”) là thỏa thuận giữa bạn và SIMNETIQ LTD, một công ty đăng ký tại Anh và xứ Wales (“chúng tôi”), và điều chỉnh việc bạn sử dụng ứng dụng di động SMS Code (“Ứng dụng”) và trang web simnetiq.xyz (“Trang web”). Bằng việc cài đặt hoặc sử dụng Ứng dụng, bạn chấp nhận các Điều khoản này. Nếu không đồng ý, đừng sử dụng Ứng dụng."
+        },
+        {
+          "type": "p",
+          "text": "Mã số công ty: {companyNumber}. Văn phòng đăng ký: {registeredOffice}. Liên hệ: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Dịch vụ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ứng dụng cung cấp số điện thoại ảo tạm thời để nhận mã xác minh qua SMS từ các dịch vụ trực tuyến được hỗ trợ. Số do các nhà cung cấp dịch vụ điện thoại bên thứ ba cung cấp; tính khả dụng của một dịch vụ, quốc gia hay số cụ thể không được đảm bảo và có thể thay đổi mà không cần báo trước."
+        }
+      ]
+    },
+    {
+      "title": "3. Điều kiện sử dụng",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bạn phải từ 18 tuổi trở lên và có năng lực pháp lý để tham gia thỏa thuận này. Bạn chỉ được sử dụng Ứng dụng theo những cách mà pháp luật áp dụng với bạn cho phép."
+        }
+      ]
+    },
+    {
+      "title": "4. Xu và giao dịch mua",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Xu là giao dịch mua trong ứng dụng một lần, do Apple App Store xử lý theo điều khoản thanh toán của họ. Không có thuê bao và không có gì tự gia hạn.",
+            "Xu được tiêu cho từng lần kích hoạt. Số xu phụ thuộc vào dịch vụ và quốc gia, chủ yếu do dịch vụ quyết định, và được hiển thị cho bạn trước khi bạn xác nhận.",
+            "Xu không hết hạn, không thể chuyển nhượng và không có giá trị tiền mặt."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Khi nào xu được hoàn lại cho bạn.** Xu được tự động hoàn vào số dư của bạn trong bốn trường hợp:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "bạn hủy lần kích hoạt ít nhất hai phút sau khi được cấp số, trước khi nhận được mã xác minh;",
+            "bạn đổi sang số khác ít nhất hai phút sau khi được cấp số, trước khi nhận được mã;",
+            "thời hạn kích hoạt kết thúc mà không có mã nào đến; hoặc",
+            "nhà cung cấp của chúng tôi không cung cấp được số dùng được cho lần kích hoạt."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Hoàn xu không phải là hoàn tiền.** Trong mọi trường hợp ở trên, thứ được trả lại cho bạn là xu, được ghi có lại vào số dư trong ứng dụng. Chúng tôi không hoàn tiền cho chúng, và xu không có giá trị tiền mặt. Nếu bạn muốn lấy lại tiền cho một giao dịch mua, đó là việc của Apple: yêu cầu hoàn lại giá mua được gửi tới và do Apple quyết định theo chính sách hoàn tiền của App Store, và chúng tôi không có khả năng thực hiện, chấp thuận hay từ chối việc đó. Mục 5 nêu quyền hủy theo luật định riêng biệt của bạn."
+        }
+      ]
+    },
+    {
+      "title": "5. Quyền hủy của bạn (người tiêu dùng tại Vương quốc Anh và EU)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nếu bạn là người tiêu dùng tại Vương quốc Anh hoặc Liên minh châu Âu, thông thường bạn có 14 ngày kể từ ngày hợp đồng về nội dung số được giao kết để hủy hợp đồng và nhận hoàn tiền, mà không cần nêu lý do. Quyền này xuất phát từ Quy định về Hợp đồng tiêu dùng (Thông tin, Hủy bỏ và Phí bổ sung) năm 2013 tại Vương quốc Anh và từ Chỉ thị về Quyền người tiêu dùng tại EU."
+        },
+        {
+          "type": "p",
+          "text": "Xu được cung cấp vào số dư của bạn sau khi mua thành công. Mọi ngoại lệ đối với quyền hủy theo luật định phụ thuộc vào pháp luật hiện hành và sự đồng ý, xác nhận và xác thực thực tế được đưa ra trong quá trình mua. Chỉ việc chấp nhận các Điều khoản này không có nghĩa là bạn từ bỏ quyền hủy theo luật định."
+        },
+        {
+          "type": "p",
+          "text": "Với giao dịch mua do Apple thanh toán, hãy yêu cầu hoàn tiền tại [reportaproblem.apple.com](https://reportaproblem.apple.com/). Apple xử lý quy trình hoàn tiền thanh toán theo điều khoản khu vực của họ và pháp luật hiện hành. Hãy liên hệ chúng tôi để được xem xét về dịch vụ bị thiếu hoặc lỗi, xu chưa dùng hoặc hồ sơ giao dịch mua và số dư. Chúng tôi không đảm bảo Apple sẽ chấp thuận hay tự động quy đổi số dư chưa dùng thành tiền mặt. Nếu một giao dịch mua được hoàn tiền, khoản ghi có xu liên quan có thể bị xóa."
+        },
+        {
+          "type": "p",
+          "text": "Không điều gì trong mục này ảnh hưởng đến các quyền theo luật định khác của bạn, bao gồm quyền của bạn nếu dịch vụ bị lỗi, không đúng như mô tả, hoặc không được cung cấp với sự cẩn trọng và kỹ năng hợp lý."
+        }
+      ]
+    },
+    {
+      "title": "6. Sử dụng được chấp nhận",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bạn đồng ý không sử dụng Ứng dụng để:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "vi phạm bất kỳ luật hay quy định nào, hoặc xâm phạm quyền của bất kỳ ai;",
+            "gian lận, gửi thư rác, quấy rối hoặc giả mạo danh tính;",
+            "vi phạm điều khoản dịch vụ của các nền tảng bạn đăng ký — bạn hoàn toàn chịu trách nhiệm tuân thủ chúng;",
+            "nhận các thông tin liên lạc mà pháp luật yêu cầu bạn phải nhận trên số cá nhân đã xác minh (ví dụ: dịch vụ chính phủ, ngân hàng hoặc khẩn cấp nơi bị cấm);",
+            "bán lại, thu thập dữ liệu tự động hoặc lạm dụng dịch vụ bằng chương trình."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi có thể tạm ngừng hoặc chấm dứt tài khoản vi phạm mục này. Trong các trường hợp nghiêm trọng — gian lận, hoặc cố ý lạm dụng cơ chế hoàn xu hay kích hoạt — chúng tôi cũng có thể tịch thu số xu còn lại trong số dư, trong phạm vi tương xứng với vi phạm. Chúng tôi sẽ không tịch thu số dư vì vi phạm nhỏ hoặc một lần, và không điều gì ở đây loại bỏ các quyền người tiêu dùng của bạn mà hợp đồng không thể loại trừ."
+        }
+      ]
+    },
+    {
+      "title": "7. Số ảo",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Số ảo là tạm thời và có thể được cấp lại cho người dùng khác sau khi lần kích hoạt của bạn kết thúc. Chúng nhằm để nhận mã xác minh một lần, không dành cho việc sử dụng cá nhân hay kinh doanh lâu dài, khôi phục tài khoản, hay xác thực hai yếu tố mà bạn dựa vào lâu dài."
+        }
+      ]
+    },
+    {
+      "title": "8. Sở hữu trí tuệ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ứng dụng, Trang web và mọi thương hiệu liên quan thuộc sở hữu của SIMNETIQ LTD hoặc các bên cấp phép. Chúng tôi cấp cho bạn giấy phép cá nhân, không độc quyền, không thể chuyển nhượng để sử dụng Ứng dụng cho mục đích đã định. Tên các dịch vụ bên thứ ba hiển thị trong Ứng dụng thuộc về chủ sở hữu tương ứng và không hàm ý sự chứng thực."
+        }
+      ]
+    },
+    {
+      "title": "9. Tuyên bố miễn trừ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ứng dụng được cung cấp “nguyên trạng” và “tùy theo khả dụng”. Trong phạm vi tối đa pháp luật cho phép, chúng tôi từ chối mọi bảo đảm, rõ ràng hay ngụ ý, bao gồm sự phù hợp cho một mục đích cụ thể. Chúng tôi không bảo đảm rằng bất kỳ mã xác minh cụ thể nào sẽ đến, rằng số sẽ được một nền tảng nhất định chấp nhận, hay rằng dịch vụ sẽ không bị gián đoạn hoặc không có lỗi."
+        },
+        {
+          "type": "p",
+          "text": "Mục này không loại trừ hay giới hạn bất cứ điều gì không thể bị loại trừ hay giới hạn một cách hợp pháp. Nếu bạn là người tiêu dùng, các quyền theo luật định của bạn không bị ảnh hưởng — bao gồm quyền của bạn theo Đạo luật Quyền người tiêu dùng 2015 (hoặc luật tương đương nơi bạn sống) được nhận một dịch vụ số được cung cấp với sự cẩn trọng và kỹ năng hợp lý, có chất lượng đạt yêu cầu và đúng như mô tả."
+        }
+      ]
+    },
+    {
+      "title": "10. Giới hạn trách nhiệm",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Không điều gì trong các Điều khoản này giới hạn trách nhiệm mà pháp luật không cho phép giới hạn, bao gồm đối với tử vong, thương tích cá nhân do sơ suất, hoặc gian lận. Ngoài ra, tổng trách nhiệm của chúng tôi phát sinh từ hoặc liên quan đến Ứng dụng được giới hạn ở số tiền bạn đã trả cho chúng tôi trong 12 tháng trước khi khiếu nại, và chúng tôi không chịu trách nhiệm về tổn thất gián tiếp hoặc hệ quả, mất lợi nhuận, dữ liệu hoặc uy tín."
+        }
+      ]
+    },
+    {
+      "title": "11. Chấm dứt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bạn có thể ngừng sử dụng Ứng dụng và xóa tài khoản bất cứ lúc nào. Chúng tôi có thể tạm ngừng hoặc chấm dứt quyền truy cập ngay lập tức nếu bạn vi phạm các Điều khoản này, nếu một nhà cung cấp rút lại khả năng mà chúng tôi phụ thuộc, hoặc nếu chúng tôi ngừng dịch vụ; khi pháp luật yêu cầu, chúng tôi sẽ thông báo trước một cách hợp lý."
+        }
+      ]
+    },
+    {
+      "title": "12. Thay đổi các Điều khoản này",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Chúng tôi có thể cập nhật các Điều khoản này theo thời gian — chẳng hạn khi pháp luật thay đổi, khi một nhà cung cấp mà chúng tôi phụ thuộc thay đổi, hoặc khi Ứng dụng có thêm hay mất đi một tính năng. Những thay đổi ảnh hưởng đáng kể đến quyền của bạn sẽ được thông báo trong Ứng dụng hoặc trên Trang web ít nhất 30 ngày trước khi có hiệu lực. Nếu không chấp nhận, bạn có thể ngừng sử dụng Ứng dụng và đóng tài khoản trước ngày đó; hãy viết cho chúng tôi về số xu chưa tiêu và chúng tôi sẽ xử lý yêu cầu của bạn một cách thiện chí. Việc tiếp tục sử dụng Ứng dụng sau khi thay đổi có hiệu lực đồng nghĩa với việc bạn chấp nhận các Điều khoản đã cập nhật. Thay đổi không bao giờ áp dụng hồi tố cho giao dịch mua bạn đã thực hiện."
+        }
+      ]
+    },
+    {
+      "title": "13. Luật điều chỉnh",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Các Điều khoản này được điều chỉnh bởi pháp luật của Anh và xứ Wales, và tòa án Anh và xứ Wales có thẩm quyền riêng — ngoại trừ việc nếu bạn là người tiêu dùng, bạn vẫn giữ mọi biện pháp bảo vệ bắt buộc và quyền về nơi xét xử của quốc gia nơi bạn sống."
+        }
+      ]
+    },
+    {
+      "title": "14. Liên hệ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Câu hỏi về các Điều khoản này: {supportEmail}."
+        }
+      ]
+    }
+  ]
+}

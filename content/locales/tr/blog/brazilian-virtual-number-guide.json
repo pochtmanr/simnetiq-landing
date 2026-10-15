@@ -1,0 +1,134 @@
+{
+  "title": "Brezilya sanal numara (+55): dokuzuncu hane ve kayıt",
+  "description": "Brezilya cep numaraları nasıl çalışır — alan kodları, eklenen 9, CPF'ye bağlı ön ödemeli hatlar — ve +55 numaraya doğrulama SMS'i nasıl alınır?",
+  "excerpt": "Brezilya her cep numarasına bir hane ekledi, ön ödemeli hatları CPF'ye bağladı ve WhatsApp'ı ülkenin santrali hâline getirdi. Kayıt için +55 numaraya ihtiyaç duyan herkes için bunun anlamı.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Brezilya'da telefon numarası, aramaktan çok insanlara WhatsApp'tan ulaşmak için kullanılır. Dükkânlar siparişleri orada alır, klinikler randevuları orada onaylar ve «me chama no zap» — «bana WhatsApp'tan yaz» — on yıldır gündelik dilin parçası. Mobile Time ve Opinion Box'ın 2024 anketinde Brezilyalı akıllı telefon sahiplerinin neredeyse yarısı, tek bir uygulama tutabilseler bunun WhatsApp olacağını söyledi."
+    },
+    {
+      "type": "p",
+      "text": "Bu da +55 numarayı dijital kimlik olarak alışılmadık ölçüde değerli kılıyor. Brezilya pazarı için yapılmış pazaryerleri, teslimat uygulamaları, fintech'ler ve sosyal ağlar kayıtta bir tane istiyor. Brezilya numaralandırma sisteminin de yabancıları ve form doğrulayıcıları aynı ölçüde şaşırtan tuhaflıkları var. İşte nasıl çalıştığı ve sanal Brezilya numarasının nerede işe yaradığı."
+    },
+    {
+      "type": "h2",
+      "id": "how-brazilian-numbers-work",
+      "text": "Bir Brezilya cep numarasının anatomisi"
+    },
+    {
+      "type": "p",
+      "text": "Tam yazılmış bir Brezilya cep numarası şöyle görünür: +55, ardından iki haneli alan kodu, ardından her zaman 9 ile başlayan dokuz hane. Yerel yazımda São Paulo için (11) 9XXXX-XXXX, Rio de Janeiro için (21) 9XXXX-XXXX."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Alan kodu (DDD) isteğe bağlı değildir. Brezilya'da São Paulo'daki 11'den Maranhão'daki 99'a kadar 67 DDD kodu vardır ve cep numaraları bunları korur. DDD'siz numara eksiktir; form onu reddeder ya da kodu hiçbir yere göndermez.",
+        "Baştaki 9 cep telefonu işaretidir. Her Brezilya cep numarasında artık alan kodundan sonra 9 ile başlayan dokuz hane bulunur; sabit hatlarda sekiz.",
+        "Operatör kodları aramalar içindir, formlar için değil. Brezilyalılar şehirlerarası aramalarda DDD'den önce iki haneli bir operatör kodu (15, 21, 31, 41…) ekler. Bu kodun bir +55 alanında yeri yoktur."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "the-ninth-digit",
+      "text": "Dokuzuncu hane: dört yıl süren ulusal yeniden numaralandırma"
+    },
+    {
+      "type": "p",
+      "text": "2012'ye kadar Brezilya cep numaraları sabit hatlar gibi sekiz haneliydi ve São Paulo'da numaralar tükeniyordu. Telekom düzenleyicisi Anatel, kulağa basit gelen ama hiç de basit olmayan bir değişiklik emretti: ülkedeki her cep numarasının önüne bir 9 koymak."
+    },
+    {
+      "type": "p",
+      "text": "Geçiş 29 Temmuz 2012'de São Paulo'nun 11 alan kodunda başladı ve bölge bölge yayıldı; her aşamada eski sekiz haneli numaralara yapılan aramaların kayıtlı bir anonsla karşılandığı bir geçiş süresi vardı. Güneydeki Paraná, Santa Catarina ve Rio Grande do Sul eyaletlerini kapsayan son büyük aşama Kasım 2016'dan Şubat 2017'ye kadar sürdü. Anatel'e göre ek hane, kapasiteyi alan kodu başına 90 milyon cep numarasına kadar çıkardı."
+    },
+    {
+      "type": "callout",
+      "text": "Eski rehberler, eski web siteleri ve bazı eski form doğrulayıcılar hâlâ sekiz haneli cep numaraları taşıyor. Bir Brezilya cep numarasını (11) 8765-4321 olarak görürseniz güncel değildir; çalışan numara (11) 98765-4321'dir."
+    },
+    {
+      "type": "h2",
+      "id": "cpf-and-prepaid-lines",
+      "text": "Brezilya SIM kartları neden CPF'ye bağlı"
+    },
+    {
+      "type": "p",
+      "text": "Brezilyalıların çoğu ön ödemeli hat kullanır ve yıllarca bir hattı etkinleştirmek, ulusal vergi numarası olan CPF'yi yazmaktan fazlasını gerektirmiyordu. Bu dolandırıcılığı kolaylaştırıyordu: bir yabancının CPF'si, onun adına hat açmaya yetiyordu. 2017'den itibaren Anatel, dönemin dört büyük operatörü Vivo, Claro, TIM ve Oi'yi eyalet eyalet bir yeniden kayıt kampanyasına soktu; ön ödemeli müşteriler CPF'lerini, tam adlarını ve posta kodlarını doğrulamak zorundaydı, yoksa hatlarını kaybediyorlardı. Basın, 17 eyaleti kapsayan turda bu eyaletlerdeki 91 milyon ön ödemeli hattın yüzde 1'inden azında kayıt sorunu çıktığını bildirdi."
+    },
+    {
+      "type": "p",
+      "text": "Brezilya dışındakiler için sonuç şu: yerel SIM almak genellikle CPF sahibi olmayı gerektirir. Yabancılar da CPF alabilir ama bu bir bürokrasidir — Receita Federal'e ya da bir konsolosluğa gitmek — tek bir doğrulama kodu için fazla emek."
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-55-number-makes-sense",
+      "text": "Sanal +55 numara ne zaman mantıklı, ne zaman değil"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tek seferlik doğrulamalar için mantıklıdır: Brezilya kimliğiyle bir WhatsApp ya da Telegram hesabı, Brezilyalı müşterilere yönelik bir mağaza ya da pazaryeri profili, Brezilya'yı hedefleyen bir Instagram ya da TikTok içerik üreticisi hesabı veya o pazar için geliştirdiğiniz bir uygulamanın test hesabı.",
+        "Pix, Brezilya bankaları ya da gov.br için mantıklı değildir. Bu hizmetler hesabınızı CPF'nize ve adınıza kayıtlı bir numaraya bağlar ve yeniden doğrular. Kendi hattınızı kullanın."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "SMS Code'dan kiralanan Brezilya numarası, Brezilya operatör ağında alan kodlu, gerçek, dokuz haneli bir cep numarasıdır. Hizmetler sıradan bir +55 abonesi görür. Etkinleştirme boyunca yalnızca size ayrılır; büyük hizmetlerin çoktan engellediği paylaşımlı «ücretsiz Brezilya numarası» sitelerinden farkı da budur."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-55-number",
+      "text": "+55 numaraya kod almak"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Hizmeti ve Brezilya'yı seçin",
+          "body": "SMS Code'u açın, hizmeti — WhatsApp, Instagram, TikTok ya da 100'den fazla hizmetten herhangi birini — seçin ve Brezilya'yı belirleyin. Etkinleştirmenin jeton cinsinden fiyatı onaydan önce görünür."
+        },
+        {
+          "title": "Numarayı alan koduyla girin",
+          "body": "Formu Brezilya (+55) olarak ayarlayın ve alan kodunu, ardından dokuz haneli numarayı uygulamada göründüğü gibi girin — toplam on bir hane, operatör kodu ve baştaki 0 olmadan."
+        },
+        {
+          "title": "Kodu kopyalayın",
+          "body": "SMS uygulamaya genellikle saniyeler içinde gelir. Hiçbir şey gelmezse iki dakika dolduktan sonra iptal edin — SMS gelmediyse jetonlar bakiyenize döner — ve başka bir Brezilya numarası deneyin."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sık sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Brezilya cep numarası kaç hanelidir?",
+          "a": "+55'ten sonra on bir hane: iki haneli alan kodu (DDD) ve 9 ile başlayan dokuz haneli numara. Yerel yazımda: (21) 98765-4321."
+        },
+        {
+          "q": "Yurt dışından Brezilya WhatsApp hesabı açabilir miyim?",
+          "a": "Evet. WhatsApp yalnızca numaraya gönderilen kodu alabildiğinizi kontrol eder. Sanal +55 numara bu kodu her Brezilya cep numarası gibi alır. İleride numaraya bağımlı kalmamak için WhatsApp PIN'ini hemen açın ve bir e-posta ekleyin."
+        },
+        {
+          "q": "Sanal Brezilya numarası kullanmak için CPF gerekir mi?",
+          "a": "Hayır. CPF şartı, Brezilyalı bir operatörden SIM alıp kaydettirmek için geçerlidir. SMS Code'da doğrulama için numara kiralamak hiçbir Brezilya belgesi gerektirmez."
+        },
+        {
+          "q": "Pix ya da bir Brezilya bankası için kullanabilir miyim?",
+          "a": "Hayır. Finansal hizmetler ve gov.br hesapları CPF'nize ve adınıza kayıtlı bir numaraya bağlar ve yeniden kontrol eder. Geçici numara orada yanlış araçtır."
+        },
+        {
+          "q": "Kodum neden hiç gelmedi?",
+          "a": "Çoğu zaman alan kodu unutulmuş ya da fazladan bir hane eklenmiştir. Biçimi kontrol edin, bir dakika bekleyin; hâlâ bir şey yoksa iptal edip yeni numara alın — jetonlar geri döner."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

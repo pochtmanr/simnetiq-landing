@@ -1,0 +1,48 @@
+{
+  "title": "App Store satın alımı için nasıl iade alınır",
+  "metaDescription": "SMS Code jeton paketlerini Apple tahsil eder, bu yüzden iade Apple’dan istenir. reportaproblem.apple.com için adım adım rehber, süreler ve sonraki adımlar.",
+  "sections": [
+    {
+      "title": "İadeleri Apple yönetir",
+      "paragraphs": [
+        "SMS Code uygulamasında satın alınan jeton paketleri App Store satın alımlarıdır. Bunları Apple tahsil eder ve ödeme Apple’da durur; bu nedenle iadeyi yalnızca Apple yapabilir. App Store’daki tüm uygulamalar böyle çalışır: geliştiricilerin Apple tarafından tahsil edilen bir satın alımı iade etme imkânı yoktur.",
+        "Apple her talebi inceler ve onaylayıp onaylamayacağına karar verir. Talebi göndermek genellikle birkaç dakika sürer ve önce bize yazmanız gerekmez."
+      ]
+    },
+    {
+      "title": "6 adımda iade talebi",
+      "id": "steps",
+      "steps": [
+        "[reportaproblem.apple.com](https://reportaproblem.apple.com/) adresine gidin.",
+        "Satın alımda kullandığınız Apple Hesabı ile giriş yapın.",
+        "**Şunu yapmak istiyorum…** bölümünde **İade talep et** seçeneğini seçin.",
+        "Uygun nedeni seçin; örneğin **Bunu satın almak istemedim** veya **Uygulama içi satın alım alınmadı**.",
+        "SMS Code jeton satın alımını (örneğin **20 Coins**) seçin ve **İleri**’ye tıklayın.",
+        "Talebi gönderin. Apple genellikle 24–48 saat içinde yanıt verir."
+      ],
+      "image": {
+        "src": "/help/apple-refund-reasons.png",
+        "alt": "Apple’ın Sorun Bildir sayfasında “İade talep et” seçili ve neden listesi görünüyor: satın almak istemedim, bir çocuk izinsiz satın aldı, uygulama içi satın alım alınmadı, cayma hakkı ve diğer.",
+        "width": 882,
+        "height": 417
+      },
+      "cta": {
+        "label": "reportaproblem.apple.com’u açın",
+        "href": "https://reportaproblem.apple.com/"
+      }
+    },
+    {
+      "title": "Gönderdikten sonra",
+      "paragraphs": [
+        "Talebin durumunu aynı sitede kontrol edebilirsiniz. Apple onayladıktan sonra Apple hesap bakiyesine iadeler genellikle 48 saat, kartlara ve diğer çoğu ödeme yöntemine 30 gün, operatör faturasıyla yapılan ödemelere ise 60 gün içinde döner. Apple’ı veya bankanızı hızlandıramayız.",
+        "Apple iadeyi onaylarsa o satın alımdan gelen jetonlar SMS Code bakiyenizden düşülür. İadesini istediğiniz bir satın alımın jetonlarını harcamayın."
+      ]
+    },
+    {
+      "title": "Ne zaman bize yazmalısınız",
+      "paragraphs": [
+        "Bir etkinleştirme başarısız olduysa ve jetonlar bakiyenize dönmediyse, ödeme yaptığınız hâlde jetonlar hiç görünmediyse ([eksik jetonlar](/support/missing-coins)) ya da Apple sizden geliştiriciyle iletişime geçmenizi istediyse bize yazın. Etkinleştirmeyi inceleyebilir ve size satın alım kayıtlarını gönderebiliriz. Tüketici haklarınız etkilenmez."
+      ]
+    }
+  ]
+}

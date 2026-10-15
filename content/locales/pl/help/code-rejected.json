@@ -1,0 +1,30 @@
+{
+  "title": "Kod odrzucony lub numer już użyty",
+  "metaDescription": "SMS dotarł, ale usługa odrzuciła kod lub numer? Dlaczego usługi odmawiają numerów wirtualnych, czego spróbować dalej i kiedy pomoc może to sprawdzić.",
+  "sections": [
+    {
+      "title": "Dlaczego usługa odrzuca kod lub numer",
+      "paragraphs": [
+        "Odebranie SMS-a to nasza część. To, czy usługa zaakceptuje numer, zależy od usługi. Numer wirtualny może zostać odrzucony nawet po dotarciu kodu.",
+        "**Numer był już używany.** Numery wracają do obiegu. Jeśli numer był już powiązany z kontem w tej usłudze, może go ona odrzucić albo pokazać konto innej osoby.",
+        "**Usługa ogranicza kraj.** Niektóre usługi akceptują tylko numery z Twojego regionu albo blokują zakresy numerów, które uznają za wirtualne.",
+        "**Kod wygasł lub nie pasuje.** Kody żyją krótko i są powiązane z jedną próbą rejestracji. Nowa prośba unieważnia stary kod."
+      ]
+    },
+    {
+      "title": "Czego spróbować",
+      "steps": [
+        "Wpisz najnowszy kod, dla tej samej usługi i konta, bez spacji.",
+        "Jeśli usługa mówi, że numer jest już zarejestrowany, nie loguj się na konto, które nie jest Twoje. Zamiast tego rozpocznij nową aktywację.",
+        "Spróbuj innego kraju. Kraje, w których SMS-y dla tej usługi dobrze docierają, są wymienione na stronie [SMS nie dotarł](/support/sms-not-received).",
+        "Przestań powtarzać płatne próby w tej samej usłudze i kraju, jeśli wciąż się nie udają."
+      ]
+    },
+    {
+      "title": "O monetach",
+      "paragraphs": [
+        "Gdy SMS już dotarł, aktywacji nie można anulować, a jej monety nie wracają automatycznie, bo numer wykonał swoje zadanie. Jeśli uważasz, że SMS lub kod był wadliwy, napisz do nas z usługą, krajem i czasem, a my to sprawdzimy. Twoje prawa konsumenta pozostają nienaruszone."
+      ]
+    }
+  ]
+}

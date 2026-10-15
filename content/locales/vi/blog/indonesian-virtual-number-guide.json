@@ -1,0 +1,132 @@
+{
+  "title": "Số ảo Indonesia (+62): định dạng, quy định, đăng ký",
+  "description": "Số di động Indonesia hoạt động thế nào, vì sao SIM ở đó gắn với NIK, và cách nhận SMS xác minh trên số +62 khi đang ở nước ngoài.",
+  "excerpt": "Indonesia gắn mọi SIM trả trước với một mã số định danh quốc gia và giới hạn số lượng mỗi người được đăng ký. Đây là cách số +62 hoạt động, vì sao điều đó quan trọng với việc đăng ký, và cách nhận mã trên số đó mà không cần SIM địa phương.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Indonesia là quốc gia đông dân thứ tư thế giới và là một trong những nơi lấy điện thoại làm trung tâm nhất. Nền kinh tế số của họ lớn lên trên smartphone thay vì máy tính: mọi người đặt xe và đồ ăn trên Gojek và Grab, mua sắm trên Shopee và Tokopedia, và điều hành doanh nghiệp nhỏ hoàn toàn qua WhatsApp. Gần như mọi dịch vụ đó đều bắt đầu như nhau — nhập số +62 và chờ mã."
+    },
+    {
+      "type": "p",
+      "text": "Đó là lý do các tìm kiếm “số Indonesia” xuất hiện bằng tiếng Ả Rập, tiếng Anh và các ngôn ngữ khác từ những người ở rất xa quần đảo. Một số là lao động Indonesia ở nước ngoài — tại Ả Rập Xê Út, Malaysia, Đài Loan hay Hồng Kông — giữ chỗ đứng trong các dịch vụ ở quê nhà. Số khác là người bán hàng, người làm marketing hay lập trình viên cần một tài khoản thuộc về thị trường Indonesia. Đây là cách các số hoạt động, và vì sao có SIM địa phương khó hơn vẻ ngoài."
+    },
+    {
+      "type": "h2",
+      "id": "how-indonesian-numbers-work",
+      "text": "Một số di động Indonesia được viết thế nào"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Trong nước, số di động bắt đầu bằng 08 — ví dụ 0812, 0857 hay 0878 — và dài tổng cộng từ mười đến mười ba chữ số.",
+        "Ở dạng quốc tế, số 0 đầu bị bỏ và thay bằng +62. Vì vậy 0812-3456-7890 trở thành +62 812-3456-7890.",
+        "Các chữ số sau 08 ban đầu xác định nhà mạng — Telkomsel, Indosat và XL thuộc nhóm lớn nhất — nhưng sau nhiều năm sáp nhập và tiền tố mới, chúng là gợi ý chứ không phải quy tắc.",
+        "Trong biểu mẫu đăng ký đã chọn Indonesia, bạn nhập số bắt đầu từ 8, không bao giờ bằng 0 hay 62."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Lỗi phổ biến nhất với số Indonesia là số 0 đầu. “+62 0812…” không phải số hợp lệ. Nếu bộ chọn quốc gia đã hiện +62, hãy bắt đầu gõ từ số 8."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-and-the-nik",
+      "text": "Vì sao mọi SIM Indonesia gắn với mã định danh quốc gia"
+    },
+    {
+      "type": "p",
+      "text": "Cuối năm 2017, chính phủ Indonesia ra lệnh mọi thuê bao trả trước đăng ký SIM bằng hai giấy tờ: NIK, mã định danh quốc gia mười sáu chữ số in trên thẻ căn cước KTP, và số KK, thẻ gia đình liệt kê mọi người trong một hộ. Thuê bao nhắn cả hai số tới một mã ngắn. Hạn chót là ngày 28 tháng 2 năm 2018, sau đó các thẻ chưa đăng ký dần bị cắt."
+    },
+    {
+      "type": "p",
+      "text": "Quy định tồn tại lâu hơn chiến dịch. Một quy chế cấp bộ năm 2021 hiện điều chỉnh việc đăng ký, và chính trang trợ giúp của Telkomsel vẫn ghi rằng một NIK chỉ được tự đăng ký tối đa ba số trả trước cho mỗi nhà mạng; thẻ thêm phải đến điểm giao dịch của nhà mạng. Mục tiêu là khiến lừa đảo qua điện thoại và cuộc gọi lừa đảo ẩn danh có thể truy vết, một phần của xu hướng toàn cầu: theo GSMA, hơn 150 quốc gia hiện yêu cầu đăng ký SIM."
+    },
+    {
+      "type": "p",
+      "text": "Với người nước ngoài, hệ quả rất thực tế. Du khách có thể mua SIM đã đăng ký bằng hộ chiếu, thường ở sân bay, nhưng thẻ gắn với hộ chiếu và thường có thời hạn. Bất kỳ ai ở ngoài Indonesia chỉ muốn một số +62 cho tài khoản thì hoàn toàn không có cách đơn giản để có SIM."
+    },
+    {
+      "type": "h2",
+      "id": "who-needs-a-62-number",
+      "text": "Ai cần số +62, và để làm gì"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Người bán hàng và làm marketing xây dựng sự hiện diện cho khách hàng Indonesia — hồ sơ WhatsApp Business, tài khoản TikTok hay Instagram nhắm khán giả địa phương.",
+        "Lập trình viên và nhóm QA kiểm thử ứng dụng hoạt động khác đi với người dùng Indonesia.",
+        "Người Indonesia ở nước ngoài muốn đăng ký một dịch vụ của thị trường quê nhà mà không phải duy trì SIM từ xa.",
+        "Bất kỳ ai muốn tài khoản nhắn tin hay mạng xã hội tách biệt khỏi số cá nhân."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Không dành cho: ngân hàng Indonesia, ví điện tử đã xác minh đầy đủ, và dịch vụ chính phủ. Những nơi đó liên kết tài khoản với NIK của bạn, và số trong hồ sơ phải là số đăng ký đứng tên bạn."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-62-number",
+      "text": "Nhận mã trên số Indonesia"
+    },
+    {
+      "type": "p",
+      "text": "Một số Indonesia thuê trong SMS Code là số di động thật trên mạng nhà mạng Indonesia. Với dịch vụ bạn đăng ký, nó trông như mọi thuê bao +62 khác, và được giữ riêng cho bạn trong lúc bạn chờ mã."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Chọn dịch vụ và Indonesia",
+          "body": "Trong SMS Code, chọn dịch vụ — WhatsApp, Telegram, TikTok, Grab hay bất kỳ dịch vụ nào trong hơn 100 dịch vụ khác — và chọn Indonesia. Giá kích hoạt bằng xu hiện ra trước khi bạn xác nhận."
+        },
+        {
+          "title": "Gõ số từ số 8",
+          "body": "Với +62 đã chọn trong biểu mẫu đăng ký, nhập số hiển thị trong ứng dụng bắt đầu từ số 8 — không số 0 đầu."
+        },
+        {
+          "title": "Dán mã",
+          "body": "SMS đến ứng dụng thường chỉ trong vài giây. Nếu không có gì đến, hãy hủy sau hai phút; xu được hoàn vào số dư khi không có SMS, và bạn có thể lấy số mới."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Sau đó bảo vệ tài khoản: mật khẩu mạnh, email khôi phục bạn kiểm soát và lớp bảo vệ hai yếu tố riêng của dịch vụ. Số tạm thời lo phần đăng ký, không phải tương lai của tài khoản."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Câu hỏi thường gặp"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Người nước ngoài có thể có số điện thoại Indonesia không?",
+          "a": "Ở Indonesia thì có — SIM du lịch có thể đăng ký bằng hộ chiếu. Từ nước ngoài, mua SIM là không thực tế, đó là lý do mọi người dùng số ảo +62 cho các lần xác minh một lần."
+        },
+        {
+          "q": "Tôi có cần NIK hay KK để dùng số ảo Indonesia không?",
+          "a": "Không. Đăng ký NIK áp dụng cho thẻ SIM mua từ nhà mạng Indonesia. Thuê số để xác minh trong SMS Code không cần giấy tờ Indonesia nào."
+        },
+        {
+          "q": "Tôi nên nhập 08 hay +62 8?",
+          "a": "Ở dạng quốc tế, +62 rồi số bắt đầu bằng 8. Không bao giờ kết hợp mã quốc gia với số 0 đầu nội địa."
+        },
+        {
+          "q": "Nó có dùng được cho Grab, Shopee hay Gojek không?",
+          "a": "SMS Code cung cấp kích hoạt cho nhiều dịch vụ khu vực, bao gồm Grab và Shopee, và ứng dụng cho thấy dịch vụ và quốc gia nào khả dụng trước khi bạn thanh toán. Dịch vụ có kiểm tra danh tính đầy đủ — tính năng ngân hàng, nâng cấp ví điện tử — vẫn sẽ yêu cầu giấy tờ của chính bạn."
+        },
+        {
+          "q": "Nếu không có SMS nào đến thì sao?",
+          "a": "Kiểm tra bạn không gõ số 0 đầu, rồi chờ trọn một phút. Nếu không có gì đến, hãy hủy lần kích hoạt sau hai phút — xu được hoàn vào số dư — và thử số khác."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

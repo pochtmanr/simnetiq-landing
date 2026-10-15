@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Uber — rejestracja i przejazdy prywatnie",
+  "metaDescription": "Uber loguje kodem SMS. Wynajmij prawdziwy numer wirtualny, odbierz czterocyfrowy kod zwykle w kilka sekund i trzymaj swój telefon z dala od historii przejazdów.",
+  "hero": {
+    "title": "Numer wirtualny do Ubera",
+    "intro": [
+      "Uber nie traktuje numeru telefonu jako szczegółu – to jest konto. Wpisujesz numer, Uber wysyła „Your Uber code is 7204. Never share this code.” i to całe logowanie: bez nazwy użytkownika, a dla wielu pasażerów także bez hasła. Kto odbiera kody na ten numer, w praktyce trzyma konto.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, a kod Ubera pojawia się w aplikacji zwykle w ciągu kilku sekund. Twoje przejazdy, rachunki i historia odbiorów zostają przypisane do wynajętego numeru zamiast tego, którego używają Twoi znajomi i bank."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Ubera?",
+    "body": [
+      "Konto przewozowe po cichu gromadzi mapę Twojego życia – dom, praca, lotnisko o szóstej rano. Trzymanie prywatnego numeru z dala od tego zapisu to zwykła higiena prywatności. Kierowcy i tak kontaktują się przez maskowany przekaźnik Ubera i nigdy nie widzą prawdziwego numeru; liczy się kopia przechowywana na Twoim koncie, i to właśnie ją zastępuje numer wirtualny.",
+      "Ponieważ Uber loguje Cię SMS-em, numer nie jest tu jednorazowym rekwizytem – bądź wobec siebie uczciwy. Aplikacja trzyma Cię zalogowanym miesiącami, ale świeża instalacja czy nowy telefon znów poproszą o kod. Konfiguracja z wynajętym numerem działa dobrze, o ile to zaplanujesz: nie wylogowuj się, dodaj e-mail do konta, a jeśli Uber stanie się codziennym narzędziem, przenieś konto na numer, który zawsze będziesz kontrolować."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Ubera numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Wybierz Uber jako usługę i kraj. Na co dzień weź własny kraj – region konta wpływa na opcje płatności i lokalne funkcje."
+      },
+      {
+        "title": "Wpisz go w aplikacji Uber",
+        "body": "Na ekranie rejestracji wybierz numer kierunkowy numeru i wpisz go. Uber może zaproponować wysłanie kodu przez WhatsApp lub połączenie głosowe – wybierz SMS."
+      },
+      {
+        "title": "Wpisz cztery cyfry",
+        "body": "„Your Uber code is 7204. Never share this code.” trafia do aplikacji SMS Code zwykle w ciągu kilku sekund. Wpisz go i jesteś zalogowany."
+      },
+      {
+        "title": "Daj kontu drugi kanał",
+        "body": "Dodaj swój e-mail w ustawieniach Ubera i uzupełnij profil. E-mail daje Uberowi sposób na weryfikację niezależny od wynajętego numeru – i trzyma rachunki tam, gdzie je naprawdę przeczytasz."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Uber znów poprosi o SMS – zaplanuj to",
+      "body": "Logowania na nowych urządzeniach i po ponownej instalacji są potwierdzane kodem na numer konta. Nie wylogowuj się bez potrzeby, dodaj e-mail, a jeśli używasz Ubera co tydzień, zmień w ustawieniach telefon konta na taki, który nosisz przy sobie – możesz to zrobić w każdej chwili, gdy jesteś zalogowany."
+    },
+    {
+      "title": "Kierowcy i tak nie widzą Twojego numeru",
+      "body": "Połączenia i wiadomości między Tobą a kierowcą idą przez maskowany przekaźnik Ubera. Pytanie o prywatność nie dotyczy kierowcy – dotyczy numeru w rekordzie Twojego konta, na rachunkach i we wszystkim, co zasila ta baza. To tę kopię numer wirtualny utrzymuje w czystości."
+    },
+    {
+      "title": "Za granicą Twoje konto już podróżuje",
+      "body": "Istniejące konto Uber działa w innych krajach – nie potrzebujesz lokalnego numeru, by zamówić przejazd w Paryżu. Gdzie numer wirtualny naprawdę pomaga: Twoja karta SIM z domu nie odbiera SMS-ów w roamingu, gdy w środku podróży przychodzi kontrola logowania, albo chcesz osobnego lokalnego konta na dłuższy pobyt."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy moje konto Uber będzie działać po wygaśnięciu wynajętego numeru?",
+      "a": "Dopóki jesteś zalogowany – tak, wszystko działa. Haczyk to następne świeże logowanie: Uber potwierdza je SMS-em na numer konta. Albo utrzymuj sesję, albo – lepiej – zmień telefon w ustawieniach konta na taki, który kontrolujesz, póki jeszcze jesteś zalogowany. Ta opcja jest zawsze dostępna w aplikacji."
+    },
+    {
+      "q": "Czy kierowcy widzą mój prawdziwy numer telefonu?",
+      "a": "Nie. Uber łączy Cię z kierowcą przez maskowane numery pośredniczące, więc żadna strona nie widzi prawdziwego numeru drugiej. Numer wirtualny chroni drugą kopię – tę zapisaną w profilu konta i dołączoną do każdego rachunku."
+    },
+    {
+      "q": "Czy mogę używać numeru wirtualnego do Ubera w podróży?",
+      "a": "Tak, i rozwiązuje to prawdziwy problem podróżny: kontrole logowania przychodzące jako SMS, których karta SIM w roamingu nie odbierze. Kody na wynajęty numer trafiają do aplikacji SMS Code przez internet, gdziekolwiek jesteś. Pamiętaj, że nie potrzebujesz lokalnego numeru tylko po to, by jeździć za granicą – Twoje zwykłe konto działa międzynarodowo."
+    },
+    {
+      "q": "Dlaczego kod z Ubera nie dotarł?",
+      "a": "Najpierw sprawdź, czy numer kierunkowy pasuje do wynajętego numeru. Potem upewnij się, że kod przychodzi SMS-em – Uber czasem domyślnie wybiera WhatsApp lub połączenie głosowe. Jeśli nic nie dotarło, anuluj aktywację w SMS Code bez kosztów i weź inny numer."
+    },
+    {
+      "q": "Czy rejestracja w Uberze numerem wirtualnym jest dozwolona?",
+      "a": "Uber sprawdza, czy kontrolujesz numer, i oczekuje jednego konta na pasażera z prawdziwymi danymi – to jego warunki, a od nich zależą funkcje bezpieczeństwa. Używanie wynajętego numeru, by zachować prywatność własnego, jest w porządku; używanie numerów do zbierania promocji rejestracyjnych lub prowadzenia zduplikowanych kont to to, za co pasażerowie dostają bany."
+    }
+  ]
+}

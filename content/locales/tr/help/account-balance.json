@@ -11,6 +11,7 @@
     },
     {
       "title": "Hesabı silmeden önce",
+      "id": "delete",
       "paragraphs": [
         "Hesap silme ile ödeme iadesi ayrı işlemlerdir. Gerekli satın alma ayrıntılarını kaydedin, bekleyen etkinleştirmeyi sonuçlandırın ve silmeden önce kalan jetonlar için desteğe yazın. Apple ödeme iadesini ayrıca talep edin.",
         "Uygulamanın Ayarlar bölümündeki hesap silme seçeneğini kullanın. Erişemiyorsanız desteğe yazın. Silme bir Apple ödemesini iptal etmez; yasal yükümlülükler veya uyuşmazlık için gereken kayıtlar Gizlilik Politikamızda anlatıldığı gibi saklanabilir."

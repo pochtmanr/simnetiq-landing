@@ -1,0 +1,30 @@
+{
+  "title": "Code abgelehnt oder Nummer bereits genutzt",
+  "metaDescription": "SMS angekommen, aber Code oder Nummer abgelehnt? Warum Dienste virtuelle Nummern verweigern, was du als Nächstes tust und wann der Support prüft.",
+  "sections": [
+    {
+      "title": "Warum ein Dienst einen Code oder eine Nummer ablehnt",
+      "paragraphs": [
+        "Die SMS zu empfangen, ist unser Teil. Ob der Dienst die Nummer akzeptiert, entscheidet der Dienst. Eine virtuelle Nummer kann auch dann abgelehnt werden, wenn der Code angekommen ist.",
+        "**Die Nummer wurde schon einmal genutzt.** Nummern werden wiederverwendet. War die Nummer bei diesem Dienst bereits mit einem Konto verknüpft, kann er sie ablehnen oder das Konto einer anderen Person anzeigen.",
+        "**Der Dienst schränkt das Land ein.** Manche Dienste akzeptieren nur Nummern aus deiner eigenen Region oder sperren Nummernbereiche, die sie für virtuell halten.",
+        "**Der Code ist abgelaufen oder passt nicht.** Codes sind kurzlebig und an einen Registrierungsversuch gebunden. Eine neue Anfrage macht den alten Code ungültig."
+      ]
+    },
+    {
+      "title": "Was du versuchen kannst",
+      "steps": [
+        "Gib den neuesten Code ein, für denselben Dienst und dasselbe Konto, ohne Leerzeichen.",
+        "Sagt der Dienst, dass die Nummer bereits registriert ist, melde dich nicht in einem Konto an, das nicht deins ist. Starte stattdessen eine neue Aktivierung.",
+        "Versuche ein anderes Land. Länder, in denen SMS für diesen Dienst gut ankommen, stehen auf der Seite [SMS nicht erhalten](/support/sms-not-received).",
+        "Hör auf, bezahlte Versuche beim selben Dienst und Land zu wiederholen, wenn sie immer wieder scheitern."
+      ]
+    },
+    {
+      "title": "Zu den Münzen",
+      "paragraphs": [
+        "Sobald eine SMS angekommen ist, kann die Aktivierung nicht abgebrochen werden, und ihre Münzen kommen nicht automatisch zurück, weil die Nummer ihre Aufgabe erfüllt hat. Glaubst du, dass die SMS oder der Code fehlerhaft war, schreib uns mit Dienst, Land und Uhrzeit, und wir prüfen es. Deine Verbraucherrechte bleiben unberührt."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Discord — Xác minh không cần số thật",
+  "metaDescription": "Nhận số di động thật để xác minh điện thoại trên Discord thường chỉ trong vài giây. Vượt qua bước kiểm tra trên máy chủ mà không liên kết số cá nhân.",
+  "hero": {
+    "title": "Số ảo cho Discord",
+    "intro": [
+      "Discord chỉ hỏi email khi đăng ký — cho đến ngày nó không chỉ hỏi vậy nữa. Thử nhắn trong máy chủ có mức xác minh cao, tham gia nhiều máy chủ liên tiếp, hoặc kết nối qua VPN, và hệ thống chống lạm dụng của Discord sẽ đòi số điện thoại đã xác minh trước khi bạn đi tiếp.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia, nhập vào Discord, và mã sáu chữ số từ người gửi “Discord” hiện trong ứng dụng thường chỉ trong vài giây. Số cá nhân của bạn đứng ngoài — và nằm ngoài cơ sở dữ liệu của Discord."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Discord?",
+    "body": [
+      "Discord chỉ cho phép một số điện thoại được xác minh trên đúng một tài khoản tại một thời điểm: xác minh nó trên tài khoản mới và nó sẽ lặng lẽ bị gỡ khỏi tài khoản cũ. Chính quy tắc đó là lý do mọi người thuê số cho Discord. Nếu bạn quản lý một tài khoản kiểm duyệt, một tài khoản lập trình để thử bot, hoặc một danh tính riêng cho cộng đồng bạn giúp điều hành, mỗi tài khoản cần số riêng — và số ảo cho mỗi tài khoản một đường dây riêng mà không cần ngăn kéo đầy SIM.",
+      "Nửa còn lại là Discord khá khó tính. Nó được biết là từ chối những số nó xếp vào loại VoIP, đó là lý do các trang “SMS tạm thời” miễn phí thường thất bại đúng ở bước này. SMS Code cấp số di động thật trên mạng nhà mạng thật, mà Discord thường chấp nhận — và trong những trường hợp thật sự hiếm khi một số cụ thể vẫn bị từ chối, bạn hủy lần kích hoạt đang chờ mà không bị trừ phí và thử số từ quốc gia khác."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Discord bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Discord làm dịch vụ, chọn quốc gia và chạm một lần. Số là một đường dây di động thật, chỉ dành riêng cho bạn — điều này quan trọng, vì Discord gắn mỗi số với một tài khoản."
+      },
+      {
+        "title": "Nhập số vào Discord",
+        "body": "Nhập số vào lời nhắc mà Discord đang hiển thị — bức tường xác minh trên tài khoản bị khóa, cổng của máy chủ yêu cầu điện thoại, hoặc Cài đặt → Tài khoản của tôi → Thêm điện thoại. Chọn mã quốc gia tương ứng; sai lệch là lý do phổ biến nhất khiến mã không bao giờ đến."
+      },
+      {
+        "title": "Lấy mã sáu chữ số",
+        "body": "SMS đến ứng dụng SMS Code thường chỉ trong vài giây, từ người gửi “Discord”: “Your Discord verification code is: 274918”. Nhập mã và dấu tích hiện ra — tài khoản đã được xác minh và mọi cổng điện thoại đều được mở."
+      },
+      {
+        "title": "Bảo vệ tài khoản đúng cách",
+        "body": "Số vẫn được liên kết trong Cài đặt → Tài khoản của tôi, và tài khoản hoạt động bình thường từ đây. Hãy thêm 2FA bằng ứng dụng xác thực và lưu mã dự phòng ngay — đó, chứ không phải điện thoại, mới là thứ thực sự bảo vệ tài khoản lâu dài."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Một số xác minh một tài khoản — chấm hết",
+      "body": "Nếu bạn xác minh cùng một số trên tài khoản Discord thứ hai, Discord sẽ chuyển nó sang đó và gỡ khỏi tài khoản đầu, có thể đẩy tài khoản đầu quay lại sau bức tường xác minh. Hãy thuê số riêng cho mỗi tài khoản bạn muốn giữ trạng thái đã xác minh."
+    },
+    {
+      "title": "Nếu Discord từ chối số, đừng cố chấp",
+      "body": "Discord lọc những số nó gắn cờ là VoIP, và thỉnh thoảng một dải số di động hợp lệ cũng bị vướng. Hãy hủy lần kích hoạt đang chờ trong SMS Code — xu của số không nhận được mã sẽ được hoàn vào số dư — và lấy số mới, tốt nhất từ quốc gia khác."
+    },
+    {
+      "title": "Máy chủ yêu cầu điện thoại kiểm tra liên kết, không phải lịch sử",
+      "body": "Máy chủ ở mức xác minh cao nhất yêu cầu một điện thoại đang được liên kết với tài khoản của bạn. Bạn có thể xóa số trong Cài đặt khi đã có 2FA bằng ứng dụng xác thực và mã dự phòng, nhưng hãy làm sau khi đã tham gia những máy chủ yêu cầu điện thoại mà bạn quan tâm — hoặc giữ liên kết khi bạn còn hoạt động ở đó."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Vì sao Discord đột nhiên hỏi số điện thoại?",
+      "a": "Có hai nguyên nhân chính. Máy chủ có mức xác minh cao yêu cầu điện thoại đã xác minh trước khi bạn có thể nhắn tin ở đó. Và hệ thống chống lạm dụng của Discord khóa tài khoản chờ xác minh điện thoại khi thấy tín hiệu nó không thích — kết nối VPN, tham gia nhiều máy chủ nhanh chóng, tài khoản mới hoạt động quá nhanh. Trong cả hai trường hợp, nhập một số và mã sáu chữ số là gỡ được khóa."
+    },
+    {
+      "q": "Tôi có thể xác minh hai tài khoản Discord bằng một số ảo không?",
+      "a": "Không — và đây không phải giới hạn của chúng tôi, mà của Discord. Một số chỉ có thể được xác minh trên một tài khoản Discord tại một thời điểm; xác minh trên tài khoản thứ hai sẽ gỡ nó khỏi tài khoản đầu. Hãy thuê số riêng cho mỗi tài khoản, để hồ sơ kiểm duyệt hay tài khoản thử bot không bao giờ đẩy tài khoản chính ra khỏi trạng thái đã xác minh."
+    },
+    {
+      "q": "Discord có chấp nhận số ảo không? Tôi nghe nói nó chặn chúng.",
+      "a": "Discord chặn những số nó xếp vào loại VoIP, chính là loại mà hầu hết các trang “SMS tạm thời” miễn phí cung cấp. Số của SMS Code là số di động thật trên mạng nhà mạng, và Discord thường chấp nhận chúng. Không dịch vụ nào có thể hứa mọi số đều qua — nếu một số bị từ chối, hãy hủy lần kích hoạt miễn phí và thử quốc gia khác."
+    },
+    {
+      "q": "Điều gì xảy ra với tài khoản Discord khi số đã thuê hết hạn?",
+      "a": "Nó vẫn hoạt động bình thường. Xác minh là bước kiểm tra một lần; số chỉ đơn giản vẫn hiện trong Cài đặt → Tài khoản của tôi, và Discord không xác minh lại qua SMS trong sử dụng hằng ngày. Thêm 2FA bằng ứng dụng xác thực cùng mã dự phòng và tài khoản hoàn toàn không phụ thuộc vào số đó — bạn thậm chí có thể xóa nó, trừ khi cần liên kết cho các máy chủ yêu cầu điện thoại."
+    },
+    {
+      "q": "Mã từ Discord không bao giờ đến — tôi nên làm gì?",
+      "a": "Trước tiên hãy kiểm tra mã quốc gia bạn chọn trong Discord có khớp với số không — sai lệch đó gây ra phần lớn các lỗi im lặng. Nếu đúng mà vài phút không có gì, có lẽ Discord đã từ chối số đó. Hãy hủy lần kích hoạt đang chờ trong SMS Code — xu được hoàn cho số không nhận được gì — và yêu cầu số mới từ quốc gia khác."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Niederlande",
+  "metaTitle": "Niederlande virtuelle Nummer für SMS — echte +31",
+  "metaDescription": "Miete eine echte niederländische Mobilnummer (+31) und empfange SMS-Codes meist in Sekunden. Für Telegram, WhatsApp, Google, Discord und Signal.",
+  "hero": {
+    "title": "Eine niederländische virtuelle Nummer für die SMS-Bestätigung",
+    "intro": [
+      "Wenn du je eine Produktdemo zur Telefonbestätigung gesehen hast, stand dort mit hoher Wahrscheinlichkeit eine +31-6-Nummer auf dem Bildschirm – niederländische Mobilnummern sind in der Branche so etwas wie ein Standardbeispiel. Diese Vertrautheit spielt dir in die Hände: Formulare überall wissen genau, wie eine niederländische Mobilnummer aussieht.",
+      "SMS Code gibt dir mit einem Tippen eine echte niederländische Mobilnummer. Gib sie ein, wenn Telegram, WhatsApp, Google oder ein anderer unterstützter Dienst nach einem Telefon fragt, und die SMS mit deinem Code erscheint meist innerhalb von Sekunden in der App."
+    ]
+  },
+  "whyCountry": {
+    "title": "Warum eine niederländische Nummer?",
+    "body": [
+      "Die Niederlande sind ein kompakter, stark vernetzter EU-Markt, und eine +31-Nummer ist ein verlässlicher europäischer Standard – akzeptiert von Messengern wie Telegram, WhatsApp und Signal, von Community-Plattformen wie Discord und ebenso von Google. Brauchst du kein bestimmtes Land, brauchst du ein Land, das nie Probleme macht, und niederländische Nummern tun das selten.",
+      "Jede niederländische Mobilnummer folgt einem Muster: +31, dann 6, dann acht Ziffern. Keine konkurrierenden Präfixe, keine regionalen Varianten – ein einziges eindeutiges Format, das internationale Formulare beim ersten Versuch lesen, was den Bestätigungsschritt so langweilig hält, wie er sein sollte."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Mobilfunk heißt immer 6",
+      "body": "In den Niederlanden kennzeichnet die 6 nach +31 eine Mobilnummer – andere führende Ziffern sind Festnetz und empfangen keine SMS. Nummern von SMS Code sind per Definition Mobilnummern, die 6 ist also schon an ihrem Platz."
+    },
+    {
+      "title": "Null raus, Plus rein",
+      "body": "Im Inland beginnt die Nummer mit 06; international fällt die Null weg und +31 nimmt ihren Platz ein. Meckert ein Formular, prüf, ob du nicht die inländische 06-Form in ein internationales Feld eingefügt hast."
+    },
+    {
+      "title": "Der zweite Versuch ist kostenlos, wenn der erste scheitert",
+      "body": "Kommt ein Code nicht innerhalb des Aktivierungsfensters an, brich ihn in der App ab – für Aktivierungen ohne Empfang wird nichts berechnet – und nimm für den neuen Versuch eine neue niederländische Nummer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ist es eine echte niederländische Mobilnummer?",
+      "a": "Ja – eine Nummer in einem echten Mobilfunknetz im üblichen Mobilfunkbereich +31 6. Für den Dienst, der dich bestätigt, ist sie vom Telefon eines Einwohners nicht zu unterscheiden."
+    },
+    {
+      "q": "Wofür passen niederländische Nummern gut?",
+      "a": "Vor allem für Messenger und Alltagskonten – Telegram, WhatsApp, Signal, Discord und Google sind häufige Kombinationen – sowie für jeden Dienst, der einfach eine solide EU-Mobilnummer will."
+    },
+    {
+      "q": "Kann ich die SMS empfangen, ohne in den Niederlanden zu sein?",
+      "a": "Ja. Die Nummer lebt in der App SMS Code, dein physischer Standort und deine eigene SIM-Karte sind also nebensächlich – der Code erscheint in der App, wo immer du bist."
+    },
+    {
+      "q": "Wie bezahle ich eine Aktivierung?",
+      "a": "Aus einem einmaligen Münzpaket, pro Aktivierung – kein Abo, das im Hintergrund läuft. Aktivierungen, die nie eine SMS empfangen, werden kostenlos abgebrochen, gescheiterte Versuche zehren also nicht an deinem Guthaben."
+    },
+    {
+      "q": "Sollte ich langfristig etwas an diese Nummer binden?",
+      "a": "Nein – betrachte sie als Schlüssel, der die Tür öffnet. Sobald das Konto existiert, hinterlege eine Wiederherstellungs-E-Mail und 2FA per Authenticator-App, damit künftige Logins und Wiederherstellungen nie von der gemieteten Nummer abhängen."
+    }
+  ]
+}

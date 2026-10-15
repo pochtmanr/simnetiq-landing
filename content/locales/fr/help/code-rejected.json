@@ -1,0 +1,30 @@
+{
+  "title": "Code refusé ou numéro déjà utilisé",
+  "metaDescription": "SMS reçu mais code ou numéro refusé par le service\u00a0? Pourquoi les services refusent les numéros virtuels, quoi essayer et quand le support peut vérifier.",
+  "sections": [
+    {
+      "title": "Pourquoi un service refuse un code ou un numéro",
+      "paragraphs": [
+        "Recevoir le SMS, c’est notre rôle. Accepter le numéro, c’est le choix du service. Un numéro virtuel peut être refusé même après l’arrivée du code.",
+        "**Le numéro a déjà servi.** Les numéros sont recyclés. Si le numéro était déjà lié à un compte sur ce service, celui-ci peut le refuser ou afficher le compte de quelqu’un d’autre.",
+        "**Le service restreint le pays.** Certains services n’acceptent que des numéros de votre propre région, ou bloquent des plages qu’ils considèrent comme virtuelles.",
+        "**Le code a expiré ou ne correspond pas.** Les codes sont valables peu de temps et liés à une seule tentative d’inscription. Une nouvelle demande rend l’ancien code invalide."
+      ]
+    },
+    {
+      "title": "Quoi essayer",
+      "steps": [
+        "Saisissez le code le plus récent, pour le même service et le même compte, sans espaces.",
+        "Si le service indique que le numéro est déjà enregistré, ne vous connectez pas à un compte qui n’est pas le vôtre. Lancez une nouvelle activation.",
+        "Essayez un autre pays. Les pays où les SMS de ce service arrivent bien sont listés sur la page [SMS non reçu](/support/sms-not-received).",
+        "Arrêtez de répéter les tentatives payantes sur le même service et le même pays si elles échouent encore."
+      ]
+    },
+    {
+      "title": "À propos des pièces",
+      "paragraphs": [
+        "Une fois le SMS arrivé, l’activation ne peut plus être annulée et ses pièces ne reviennent pas automatiquement, car le numéro a rempli son rôle. Si vous pensez que le SMS ou le code était défectueux, écrivez-nous avec le service, le pays et l’heure, et nous examinerons le cas. Vos droits de consommateur ne sont pas affectés."
+      ]
+    }
+  ]
+}

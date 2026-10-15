@@ -1,0 +1,26 @@
+{
+  "title": "Wybór kraju i bezpieczne korzystanie z numerów tymczasowych",
+  "metaDescription": "Wybierz kraj akceptowany przez usługę, reaguj na brak dostarczenia i sprawdź, czemu numer tymczasowy nie nadaje się do bankowości ani odzyskiwania.",
+  "sections": [
+    {
+      "title": "Wybieraj pod docelową usługę",
+      "paragraphs": [
+        "Najpierw wybierz usługę, a potem kraj, który akceptuje ona przy Twoim legalnym użyciu. Jeśli usługa wymaga lokalnego numeru, stosuj się do tego wymogu. Przed zakupem sprawdź, czy jej formularz rejestracji przyjmuje numer kierunkowy tego kraju.",
+        "„Polecany” to wygodna sugestia oparta na ustawieniu regionu urządzenia, a nie obietnica dostarczenia SMS-a ani akceptacji numeru. Twoja fizyczna lokalizacja i kraj numeru to dwie różne rzeczy. Żaden kraj nie gwarantuje dostarczenia. Porównaj dostępność i pokazaną cenę w monetach przed potwierdzeniem."
+      ]
+    },
+    {
+      "title": "Gdy dostarczenie się nie uda",
+      "paragraphs": [
+        "Sprawdź, czy jest opcja SMS i czy usługa nie narzuca czasu oczekiwania. Niektóre platformy odrzucają numery tymczasowe lub wirtualne. Po dwóch minutach oczekiwania anuluj numer, który nie odebrał SMS-a; rozważ inny obsługiwany kraj tylko wtedy, gdy usługa na to pozwala. Nie używaj wyboru kraju do obchodzenia ograniczeń prawnych, tożsamościowych ani platformowych."
+      ]
+    },
+    {
+      "title": "Chroń swoje konto",
+      "paragraphs": [
+        "Numery są tymczasowe i mogą zostać przydzielone ponownie. Nie jesteś właścicielem numeru i po zakończeniu aktywacji nie zachowujesz do niego dostępu. Nie polegaj na nim w bankowości, usługach ratunkowych, długoterminowym uwierzytelnianiu dwuskładnikowym ani odzyskiwaniu konta.",
+        "Tam, gdzie platforma na to pozwala, dodaj e-mail, klucz dostępu, uwierzytelniacz albo własny stały numer do odzyskiwania, zanim stracisz dostęp. Nigdy nie używaj numeru z odzysku, by wejść na konto innej osoby."
+      ]
+    }
+  ]
+}

@@ -7,21 +7,26 @@
     "label": "Suporte",
     "title": "Como podemos ajudar?",
     "introBefore": "Envie uma mensagem abaixo ou escreva para ",
-    "introAfter": " — inclua os dados abaixo para analisarmos o seu pedido e respondermos por e-mail.",
+    "introAfter": " — escolha primeiro um tema: a maioria das respostas está a um toque, e todo o resto chega a uma pessoa.",
     "items": [
       {
-        "title": "Problemas de ativação",
-        "body": "O SMS ainda não chegou? O cancelamento fica disponível dois minutos depois da atribuição, antes de um SMS chegar, e devolve as moedas ao seu saldo. Leia o guia antes de tentar de novo.",
-        "slug": "activation-issues"
+        "title": "Reembolsos",
+        "body": "As compras na App Store são cobradas pela Apple, por isso o reembolso é pedido à Apple e decidido pela Apple. O guia mostra como fazer em menos de dois minutos.",
+        "slug": "refund-apple"
       },
       {
-        "title": "Cobrança e moedas",
-        "body": "As compras passam pela App Store. Inclua o recibo da loja ou o ID do pedido e rastreamos qualquer moeda que não apareceu.",
-        "slug": "billing-coins-refunds"
+        "title": "O SMS não chegou",
+        "body": "A entrega depende do serviço, do país e das verificações do próprio serviço. Se nada chegar, as moedas voltam automaticamente. Veja quais países estão funcionando melhor agora.",
+        "slug": "sms-not-received"
       },
       {
-        "title": "Como manter o seu saldo",
-        "body": "As suas moedas ficam na conta do SMS Code, não no recibo da App Store. Se você só usou o aplicativo de forma anônima, reinstalar cria uma conta nova e o saldo não acompanha — então entre (Apple, Google ou um código por e-mail) enquanto ainda tiver moedas, e elas estarão em qualquer aparelho em que você entrar. Já reinstalou e perdeu o saldo? Escreva com o recibo da App Store ou o ID do pedido e nós resolvemos.",
+        "title": "Moedas em falta",
+        "body": "Pagou e não recebeu as moedas? Normalmente é um pagamento da Apple pendente ou outra conta SMS Code. Verifique estes passos antes de comprar de novo.",
+        "slug": "missing-coins"
+      },
+      {
+        "title": "Manter o seu saldo",
+        "body": "As suas moedas ficam na sua conta SMS Code, não no recibo da App Store. Entre na conta (Apple, Google ou código por e-mail) enquanto tiver moedas e elas vão com você para qualquer dispositivo.",
         "slug": "account-balance"
       }
     ],
@@ -35,18 +40,78 @@
     "namePlaceholder": "Ana",
     "email": "E-mail",
     "emailPlaceholder": "voce@example.com",
-    "topic": "Assunto",
-    "topicPlaceholder": "Escolha um assunto",
-    "topics": [
-      "A ativação não chegou",
-      "Cobrança e moedas",
-      "Conta e restaurar compras",
-      "Relato de erro",
-      "Pedido de funcionalidade",
-      "Outra coisa"
-    ],
+    "stepTopic": "Em que podemos ajudar?",
+    "topics": {
+      "refund": "Reembolso de uma compra",
+      "sms": "O SMS não chegou",
+      "code": "Código recusado ou número bloqueado",
+      "coins": "Moedas em falta após a compra",
+      "account": "Conta, restauração ou exclusão",
+      "bug": "Algo não está funcionando",
+      "feature": "Sugerir uma funcionalidade",
+      "other": "Outro assunto"
+    },
+    "selfServe": {
+      "sms": {
+        "title": "Antes de escrever: a maioria dos SMS que não chegam se resolve sozinha",
+        "points": [
+          "Se nenhum SMS chegar dentro do prazo da ativação, a ativação fecha e as moedas voltam automaticamente ao seu saldo.",
+          "A entrega depende do serviço e do país. Alguns serviços bloqueiam números virtuais em certos países, por isso tente outro país com melhor nível de entrega.",
+          "Confirme que o serviço envia o código por SMS e não por chamada ou para um app em que você já entrou."
+        ]
+      },
+      "code": {
+        "title": "Antes de escrever: por que um código é recusado",
+        "points": [
+          "É o serviço que decide se aceita um número. Um número já usado, ou um país que o serviço restringe, pode ser recusado mesmo depois de o SMS chegar.",
+          "Use o código mais recente, para a mesma conta e o mesmo serviço, sem espaços.",
+          "Não repita tentativas pagas no mesmo serviço e país. Mude de país ou escreva para nós para analisarmos."
+        ]
+      },
+      "coins": {
+        "title": "Antes de escrever: onde costumam estar as moedas",
+        "points": [
+          "Um pagamento da Apple pendente pode demorar alguns minutos. Abra o app de novo antes de comprar outra vez.",
+          "As moedas pertencem à conta SMS Code que as comprou. Entre com o mesmo login da Apple, do Google ou de e-mail.",
+          "Ainda faltam? Envie para nós o ID do pedido da Apple (do e-mail com o recibo da Apple) e vamos rastreá-lo."
+        ]
+      },
+      "account": {
+        "title": "Antes de escrever: respostas sobre a conta",
+        "points": [
+          "Entre com a Apple, o Google ou um código por e-mail para manter o saldo em qualquer dispositivo.",
+          "Você pode excluir a conta no app: Ajustes → Eliminar conta. Excluir a conta não reembolsa um pagamento da Apple.",
+          "Perdeu o saldo depois de reinstalar? Escreva para nós com o ID do pedido da Apple."
+        ]
+      }
+    },
+    "readGuide": "Ler o guia completo",
+    "solved": "Isto resolveu",
+    "stillNeed": "Ainda preciso de ajuda",
+    "solvedTitle": "Que bom que ajudou",
+    "solvedBody": "Se algo mudar, volte a esta página quando quiser.",
+    "changeTopic": "Mudar de tema",
+    "refundNote": "Não podemos fazer reembolsos de compras da App Store. Só a Apple os pode aprovar, em reportaproblem.apple.com. Escreva para nós se a Apple pediu que você entrasse em contato com o desenvolvedor ou se precisar de registros da compra.",
+    "orderId": "ID do pedido da Apple (opcional)",
+    "orderIdPlaceholder": "ex.: MXXXXXXXXX",
+    "service": "Serviço",
+    "servicePlaceholder": "ex.: Telegram",
+    "country": "País",
+    "countryPlaceholder": "ex.: Indonésia",
+    "when": "Mais ou menos quando?",
+    "whenPlaceholder": "ex.: hoje por volta das 14:00 (UTC+3)",
+    "accountAttached": "O ID da sua conta SMS Code e a versão do app são anexados automaticamente, você não precisa procurá-los.",
+    "messagePlaceholders": {
+      "refund": "O que aconteceu? A Apple pediu que você entrasse em contato com a gente?",
+      "sms": "Qual número você recebeu e o que o serviço disse?",
+      "code": "O que disse o serviço quando recusou o código?",
+      "coins": "Qual pacote você comprou e quando?",
+      "account": "Com o que você precisa de ajuda?",
+      "bug": "O que você tocou, o que esperava e o que aconteceu?",
+      "feature": "O que gostaria que o SMS Code fizesse?",
+      "other": "Conte o que aconteceu."
+    },
     "message": "Mensagem",
-    "messagePlaceholder": "Conte o que aconteceu — o serviço, o país e o horário aproximado da ativação ajudam a localizar rápido.",
     "honeypot": "Deixe este campo vazio",
     "send": "Enviar mensagem",
     "sending": "Enviando…",
@@ -71,7 +136,21 @@
     "appleNote": "Orientação conferida com os materiais oficiais de suporte da Apple em 30 de setembro de 2026. A elegibilidade do reembolso depende da sua região e da lei aplicável.",
     "related": "Ajuda relacionada",
     "terms": "Termos de serviço",
-    "privacy": "Política de privacidade"
+    "privacy": "Política de privacidade",
+    "stillNeedTitle": "Ainda precisa de ajuda?",
+    "stillNeedBody": "Se esta página não resolveu, envie uma solicitação. Ela chega a uma pessoa, e os detalhes acima nos ajudam a responder mais rápido.",
+    "submitAnyway": "Enviar uma solicitação mesmo assim",
+    "tiers": {
+      "title": "Onde os SMS estão chegando agora",
+      "intro": "Escolha um serviço para ver com que fiabilidade os SMS chegaram aos nossos números em cada país nos últimos 30 dias. Se o seu país estiver em nível baixo, mude para um de nível alto.",
+      "service": "Serviço",
+      "pick": "Escolha um serviço",
+      "high": "Alto",
+      "medium": "Médio",
+      "low": "Baixo",
+      "unavailable": "sem números neste momento",
+      "note": "Com base em ativações recentes do SMS Code e atualizado a cada hora. Só aparecem as combinações de serviço e país com pedidos recentes suficientes. Uma boa entrega no passado não garante o próximo SMS, e continua a ser o serviço a decidir se aceita o número."
+    }
   },
   "api": {
     "invalidBody": "Corpo da solicitação inválido.",
@@ -79,7 +158,7 @@
     "name": "Informe o seu nome.",
     "email": "Informe um e-mail válido.",
     "topic": "O assunto é longo demais.",
-    "message": "Descreva o problema com pelo menos 10 caracteres.",
+    "message": "Descreva o problema com suas próprias palavras (pelo menos 10 caracteres).",
     "unavailable": "O formulário de suporte está temporariamente indisponível. Envie um e-mail.",
     "saveFailed": "Não foi possível salvar a sua mensagem. Tente novamente ou envie um e-mail.",
     "forbidden": "Esta solicitação não veio da página de suporte. Recarregue e tente novamente.",

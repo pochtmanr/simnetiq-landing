@@ -1,0 +1,149 @@
+{
+  "title": "Hindistan sanal numara (+91): nasıl çalışır, neden gecikir",
+  "description": "Hindistan dışındaki pek çok kişi neden +91 numara istiyor, Hint cep numaraları nasıl yapılandırılır ve doğrulama SMS'leri oraya neden bazen geç ulaşır?",
+  "excerpt": "Yalnızca Körfez ülkelerinde yaklaşık on milyon Hintli yaşıyor ve yurt dışındaki milyonlarcası, memleketteki hizmetlere giriş için hâlâ +91 numaraya ihtiyaç duyuyor. Hint numaraları nasıl çalışır, DLT kuralları kod teslimatını nasıl etkiledi ve SIM kart olmadan Hint numarasına nasıl kod alınır?",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Kerala'dan Dubai'ye ya da Haydarabad'dan Riyad'a taşınmış birine memleketten neyi sakladığını sorun; Hint SIM kartı şaşırtıcı sıklıkta karşınıza çıkar. Aramalar için değil — onlar çoktan WhatsApp'a taşındı — altı haneli kodlar için. Banka uygulamaları, ödeme cüzdanları, devlet portalları ve uzun bir Hint hizmetleri listesi kayıtta +91 numara ister ve sonrasında da o numaraya SMS göndermeye devam eder."
+    },
+    {
+      "type": "p",
+      "text": "Ölçek küçük değil. Hindistan Dışişleri Bakanlığı, altı Körfez ülkesinde yaşayan Hint vatandaşı sayısını yaklaşık on milyon olarak tahmin ediyor; bunların dört milyondan fazlası Birleşik Arap Emirlikleri'nde. Buna Avrupa'daki öğrencileri, Kuzey Amerika'daki mühendisleri ve Birleşmiş Milletler'in dünyanın en büyükleri arasında saydığı diasporayı ekleyin: başka bir ülkede yaşarken Hint numarasına ihtiyaç duyan çok büyük bir kitle ortaya çıkar."
+    },
+    {
+      "type": "p",
+      "text": "Bir de ikinci grup var: Hindistan'la hiçbir bağı olmayan, yeni bir hesap için dünyanın en hareketli mobil pazarlarından birinden numara isteyen insanlar. Arapça, Fransızca ve bir düzine başka dilde yapılan «WhatsApp için Hint numarası» aramalarının arkasında bu var. Bu rehber iki grubu da kapsıyor: Hint numaraları nasıl kurulur, onlara giden SMS'ler neden farklı davranır ve sanal +91 numara nerede işe yarar."
+    },
+    {
+      "type": "h2",
+      "id": "how-indian-mobile-numbers-work",
+      "text": "Hint cep numarası nasıl kurulur"
+    },
+    {
+      "type": "p",
+      "text": "Hint cep numaraları dünyanın en kolay okunan numaraları arasındadır. +91 ülke kodundan sonra tam on hane gelir ve ilki her zaman 6, 7, 8 ya da 9'dur. Cep numaralarında alan kodu yoktur: Chennai'de alınan bir numara, Delhi'de alınanla tıpatıp aynı görünür."
+    },
+    {
+      "type": "list",
+      "items": [
+        "İlk hane cep telefonu olduğunu gösterir. Yıllarca Hint cep numaralarının neredeyse tamamı 9 ile başladı; abone sayısı bir milyarı aşınca Telekomünikasyon Bakanlığı 8, 7 ve ardından 6 serilerini açtı.",
+        "Ön ek artık operatörü göstermiyor. Numara taşıma geldiğinden beri bir ağda doğmuş numara, rakamlarını koruyarak Jio, Airtel ya da Vi'ye geçebiliyor; ilk dört hane olsa olsa tarihî bir ipucu.",
+        "Plan on hanede kalıyor. Hindistan telekom düzenleyicisi TRAI, 2019'da on bir haneli numaralara geçişi tartışmaya açtı ve 2020'de bundan vazgeçti. Hint numarasını doğrulayan her form, +91'den sonra tam on hane bekler.",
+        "Hindistan içinde başa 0 ya da tam +91 yazmak yaygındır. Ülke seçicisi olan bir kayıt alanında ikisinin de yeri yoktur: yalnızca on haneyi yazın."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bu son nokta, kodların gelmemesinin en yaygın nedeni. «+91» önceden seçilmiş ve «09876543210» yazılmış bir form var olmayan bir numara üretir; hizmet de kodunu sessizce boşluğa gönderir."
+    },
+    {
+      "type": "h2",
+      "id": "why-otps-to-india-lag",
+      "text": "Hindistan'a giden doğrulama SMS'leri neden bazen gecikir"
+    },
+    {
+      "type": "p",
+      "text": "Hindistan'daki SMS'in çoğu kullanıcının görmediği bir özelliği var: dünyanın en sıkı düzenlenen mesaj pazarlarından biri. TRAI, 2021'den beri yurt içi hatlar üzerinden ticari SMS gönderen her şirketin DLT adlı, dağıtık defter teknolojisine dayalı bir sisteme kaydolmasını şart koşuyor. Şirketin, gönderici adının ve her mesajın tam şablonunun önceden kaydedilmesi gerekiyor. Mesaj kayıtlı bir şablonla eşleşmezse ağ onu düşürüyor."
+    },
+    {
+      "type": "p",
+      "text": "Amaç spam ve kimlik avını boğmaktı ve büyük ölçüde işe yaradı. Ama başlangıç, sistemin ne kadar kırılgan olduğunu gösterdi. Operatörler Mart 2021'de şablon filtrelemeyi açtığında o kadar çok meşru mesaj kontrolden geçemedi ki banka ve ödeme uygulaması müşterileri kodlarını alamaz oldu; sektör basını o gün ticari SMS trafiğinin yaklaşık yüzde 40'ının aksadığını yazdı ve TRAI, şirketler şablonlarını düzeltene kadar kuralları bir haftalığına askıya aldı."
+    },
+    {
+      "type": "p",
+      "text": "Bugün sistem büyük göndericiler için sorunsuz işliyor, ama iki yan etki kaldı:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Yabancı hizmetler Hindistan'a çoğu zaman yurt içi değil uluslararası hatlar üzerinden gönderir. Bu mesajlar DLT şablon kaydından geçmez ama farklı fiyatlandırılır ve filtrelenir; tanıdık gönderici adı da çoğu zaman rastgele bir numara ya da kısa kodla değiştirilir. «GOOGLE»dan mesaj beklerken kod bir rakam dizisinden geliyorsa nedeni budur.",
+        "Gönderici, kayıtlı şablonu güncellemeden mesaj metnini değiştirirse teslimat, güncelleme yapılana kadar takılabilir. Bu, hiç gelmeyen ve ertesi gün yeniden çalışan bir kod olarak görünür."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Hint numarasına kod gelmiyorsa sorun genellikle numarada değil, biçimde ya da göndericinin hattındadır. Formda +91 ve ardından tam on hane olduğunu kontrol edin, bir dakika bekleyin, sonra yalnızca bir kez yeni kod isteyin. Art arda yapılan talepler hizmetin kendi sınırlarını tetikleyebilir."
+    },
+    {
+      "type": "h2",
+      "id": "who-uses-a-virtual-indian-number",
+      "text": "Sanal +91 numarayı gerçekte kimler kullanıyor"
+    },
+    {
+      "type": "p",
+      "text": "Burada iki farklı ihtiyaç var ve her biri farklı bir araç gerektiriyor. Bu ayrım konusunda dürüst olmak zaman kazandırır, bazen de bir hesabı kurtarır."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hindistan'la uzun vadeli bağı süren gurbetçi. Banka hesapları, UPI cüzdanları, Aadhaar'a bağlı hizmetler ve vergi portalları, kimlik belgelerinizle adınıza kayıtlı bir numaraya bağlıdır ve onu yıllarca yeniden doğrular. Burada sanal numara yanlış araçtır. Hint SIM'inizi aktif tutun — çoğu operatör ucuz geçerlilik paketleri sunar — ya da operatörünüz destekliyorsa uzun vadeli bir eSIM kullanın.",
+        "Tek seferlik kayıt. Hint kimliğiyle bir mesajlaşma hesabı, Hint kataloğunu yalnızca +91 numaralara açan bir uygulama, bir geliştirici için test hesabı, gerçek numaranızdan ayrı tutmak istediğiniz ikinci bir profil. Burada numara tek bir an için önemlidir: doğrulama. Kiralık sanal numara tam olarak bunun için var."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "İkinci grup için sanal Hint numarası, doğrulama adımında bir SIM'in yapacağını yapar — Hint operatör ağında gerçek, on haneli bir cep numarasıdır ve kod yoldayken yalnızca size ayrılır — mağazaya gitmeden, kimlik evrakı olmadan ve canlı tutulması gereken bir tarife olmadan."
+    },
+    {
+      "type": "h2",
+      "id": "getting-a-code-on-a-91-number",
+      "text": "SMS Code ile +91 numaraya kod almak"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Hizmeti ve Hindistan'ı seçin",
+          "body": "SMS Code'da doğrulayacağınız hizmeti — WhatsApp, Telegram, Google ya da 100'den fazla hizmetten herhangi birini — seçin ve ülke olarak Hindistan'ı belirleyin. Etkinleştirmenin jeton cinsinden fiyatı onaydan önce görünür."
+        },
+        {
+          "title": "On haneyi girin",
+          "body": "Formdaki ülke seçicisini Hindistan (+91) yapın ve uygulamada görünen on haneli numarayı yazın — başta 0 olmadan, ülke kodunu tekrarlamadan."
+        },
+        {
+          "title": "Kodu uygulamadan kopyalayın",
+          "body": "SMS, SMS Code'a genellikle saniyeler içinde düşer. Kodu forma kopyalayın. Hiçbir şey gelmezse numara atandıktan iki dakika sonra iptal edip başka bir numara alabilirsiniz; kullanılmayan etkinleştirmenin jetonları bakiyenize döner."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Hesap doğrulandıktan sonra bir kurtarma e-postası ekleyin ve hizmetin kendi iki adımlı korumasını açın — mümkünse bir doğrulayıcı uygulama ya da geçiş anahtarı. Kiralık numara doğrulama anı içindir; bir yıl sonra hesaba geri dönmenin tek yolu olmamalı."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sık sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Hindistan'da yaşamadan WhatsApp için Hint numarası alabilir miyim?",
+          "a": "Evet. WhatsApp girdiğiniz numaraya kod alabildiğinizi kontrol eder; nerede olduğunuzu kontrol etmez. Sanal +91 numara bu kodu her Hint cep numarası gibi alır. Hesabı yeni bir telefona taşıdığınızda WhatsApp'ın yeniden doğrulama isteyebileceğini unutmayın; hesaba hemen bir PIN ve e-posta ekleyin."
+        },
+        {
+          "q": "Kod neden şirket adıyla değil de rastgele bir numaradan geliyor?",
+          "a": "Yabancı göndericilerin mesajları Hindistan'a çoğunlukla uluslararası hatlarla ulaşır ve bu hatlarda kayıtlı gönderici adları her zaman korunmaz. Kod gerçektir; yolda değişen yalnızca gönderici etiketidir."
+        },
+        {
+          "q": "Sanal Hint numarası UPI ya da banka hesabı için uygun mu?",
+          "a": "Hayır. Bankalar ve UPI uygulamaları hesabı kimliğinize kayıtlı bir numaraya bağlar ve düzenli olarak yeniden kontrol eder. Finansal ya da resmî her şey için adınıza kayıtlı bir SIM kullanın."
+        },
+        {
+          "q": "+91'den sonra kaç hane yazmalıyım?",
+          "a": "Tam on hane; 6, 7, 8 ya da 9 ile başlar. Baştaki 0'ı silin ve form ülke kodunu zaten gösteriyorsa 91'i tekrar yazmayın."
+        },
+        {
+          "q": "Kod hiç gelmezse ne yapmalıyım?",
+          "a": "Önce numara biçimini kontrol edin, sonra bir dakika bekleyin. Hâlâ bir şey yoksa iki dakika dolduktan sonra SMS Code'da etkinleştirmeyi iptal edin — jetonlar bakiyenize döner — ve yeni bir numara deneyin."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

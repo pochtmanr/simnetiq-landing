@@ -1,0 +1,30 @@
+{
+  "title": "Código rechazado o número ya usado",
+  "metaDescription": "¿Llegó el SMS pero el servicio rechazó el código o el número? Por qué los servicios rechazan números virtuales, qué probar y cuándo puede revisarlo el soporte.",
+  "sections": [
+    {
+      "title": "Por qué un servicio rechaza un código o un número",
+      "paragraphs": [
+        "Recibir el SMS es nuestra parte. Aceptar el número depende del servicio. Un número virtual puede rechazarse incluso después de que llegue el código.",
+        "**El número ya se usó.** Los números se reutilizan. Si el número ya estaba vinculado a una cuenta en ese servicio, puede rechazarlo o mostrarte la cuenta de otra persona.",
+        "**El servicio restringe el país.** Algunos servicios solo aceptan números de tu propia región o bloquean rangos que consideran virtuales.",
+        "**El código caducó o no coincide.** Los códigos duran poco y van ligados a un intento de registro. Una nueva solicitud invalida el código anterior."
+      ]
+    },
+    {
+      "title": "Qué probar",
+      "steps": [
+        "Escribe el código más reciente, para el mismo servicio y la misma cuenta, sin espacios.",
+        "Si el servicio dice que el número ya está registrado, no entres en una cuenta que no es tuya. Empieza una activación nueva.",
+        "Prueba otro país. Los países donde los SMS de ese servicio llegan bien aparecen en la página [No llegó el SMS](/support/sms-not-received).",
+        "Deja de repetir intentos pagados con el mismo servicio y país si siguen fallando."
+      ]
+    },
+    {
+      "title": "Sobre las monedas",
+      "paragraphs": [
+        "Cuando el SMS ya ha llegado, la activación no se puede cancelar y sus monedas no vuelven automáticamente, porque el número cumplió su función. Si crees que el SMS o el código eran defectuosos, escríbenos con el servicio, el país y la hora, y lo revisaremos. Tus derechos como consumidor no se ven afectados."
+      ]
+    }
+  ]
+}

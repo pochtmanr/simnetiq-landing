@@ -1,0 +1,35 @@
+{
+  "title": "Sự cố kích hoạt: SMS không đến hoặc bị từ chối",
+  "metaDescription": "SMS không đến hoặc mã bị từ chối? Kiểm tra dịch vụ và số, dùng tính năng hủy sau hai phút, và biết chính xác cần gửi gì cho bộ phận hỗ trợ SMS Code.",
+  "sections": [
+    {
+      "title": "Kiểm tra dịch vụ và số",
+      "paragraphs": [
+        "Chọn đúng dịch vụ bạn muốn xác minh. Nhập số được cấp kèm mã quốc gia và kiểm tra xem có tiền tố bị lặp không. Yêu cầu xác minh qua SMS trong dịch vụ đó; cuộc gọi thoại hoặc mã gửi tới thiết bị khác không thể nhận ở đây.",
+        "Giữ lần kích hoạt mở và kiểm tra trạng thái trong ứng dụng. Thông báo có thể giúp, nhưng màn hình kích hoạt mới là nơi để xem mã. Tránh yêu cầu gửi lại nhiều lần: dịch vụ đích có thể áp dụng thời gian chờ riêng."
+      ]
+    },
+    {
+      "title": "Hủy sau hai phút và thời hạn kích hoạt",
+      "paragraphs": [
+        "Nếu chưa có SMS nào đến, bạn có thể hủy hai phút sau khi được cấp số. Đồng hồ bắt đầu từ lúc cấp số, không phải khi bạn mở ứng dụng hay mua xu. Hãy dùng bộ đếm ngược hủy hiển thị trong ứng dụng.",
+        "Hủy sẽ hoàn xu của lần kích hoạt vào số dư trong ứng dụng. “Thử số khác” cũng hoàn xu của lần kích hoạt cũ trước khi mua lần kích hoạt mới; hãy kiểm tra giá mới. Đây là hoàn xu, không phải hoàn tiền thanh toán.",
+        "Thời hạn kích hoạt hiện tại là 15 phút sau khi cấp số. Hãy theo dõi bộ đếm ngược trong ứng dụng. Nếu thời hạn kết thúc mà không có SMS, lần kích hoạt đóng lại và xu được hoàn. Nếu việc hoàn xu vẫn đang chờ hoặc số dư sai, hãy liên hệ hỗ trợ thay vì mua số liên tục.",
+        "Không thể hủy khi SMS đã đến, ngay cả khi dịch vụ đích từ chối mã. Một SMS đến trong lúc đang hủy có thể thay đổi việc đủ điều kiện hủy."
+      ]
+    },
+    {
+      "title": "Mã bị từ chối hoặc số đã được dùng",
+      "paragraphs": [
+        "Dùng mã mới nhất cho đúng tài khoản và dịch vụ, không có khoảng trắng thừa. Dịch vụ đích kiểm soát hiệu lực của mã, việc chấp nhận số và các hạn chế tài khoản. SMS đã được giao không đảm bảo đăng ký thành công.",
+        "Nếu số đã được đăng ký, đừng truy cập tài khoản của người khác. Nếu mã bị từ chối, hãy ngừng các lần thử trả phí lặp lại và liên hệ hỗ trợ để được xem xét. Không có hoàn xu tự động sau khi SMS đã đến; điều này không giới hạn bất kỳ quyền người tiêu dùng hiện hành nào."
+      ]
+    },
+    {
+      "title": "Cần gửi gì cho bộ phận hỗ trợ",
+      "paragraphs": [
+        "Hãy kèm mã kích hoạt, dịch vụ và quốc gia đã chọn, thời gian và múi giờ ước chừng, trạng thái, và thông báo lỗi chính xác. Ảnh chụp màn hình lỗi sẽ giúp ích. Không gửi mật khẩu, mã xác minh hay đầy đủ thông tin thẻ."
+      ]
+    }
+  ]
+}

@@ -5,780 +5,1229 @@ import f2 from "./ar/alternatives/sms-activate-org.json";
 import f3 from "./ar/alternatives/sms-man.json";
 import f4 from "./ar/alternatives/textverified.json";
 import f5 from "./ar/alternatives-ui.json";
-import f6 from "./ar/blog/esim-vs-virtual-number.json";
-import f7 from "./ar/blog/google-account-without-phone-number.json";
-import f8 from "./ar/blog/how-to-receive-sms-online.json";
-import f9 from "./ar/blog/second-whatsapp-account.json";
-import f10 from "./ar/blog/telegram-without-phone-number.json";
-import f11 from "./ar/blog/virtual-number-for-dating-apps.json";
-import f12 from "./ar/blog/what-is-a-virtual-phone-number.json";
-import f13 from "./ar/blog-ui.json";
-import f14 from "./ar/cookies.json";
-import f15 from "./ar/countries/brazil.json";
-import f16 from "./ar/countries/canada.json";
-import f17 from "./ar/countries/france.json";
-import f18 from "./ar/countries/germany.json";
-import f19 from "./ar/countries/india.json";
-import f20 from "./ar/countries/indonesia.json";
-import f21 from "./ar/countries/italy.json";
-import f22 from "./ar/countries/kazakhstan.json";
-import f23 from "./ar/countries/mexico.json";
-import f24 from "./ar/countries/netherlands.json";
-import f25 from "./ar/countries/philippines.json";
-import f26 from "./ar/countries/poland.json";
-import f27 from "./ar/countries/portugal.json";
-import f28 from "./ar/countries/spain.json";
-import f29 from "./ar/countries/thailand.json";
-import f30 from "./ar/countries/turkey.json";
-import f31 from "./ar/countries/ukraine.json";
-import f32 from "./ar/countries/united-kingdom.json";
-import f33 from "./ar/countries/united-states.json";
-import f34 from "./ar/countries/vietnam.json";
-import f35 from "./ar/help/account-balance.json";
-import f36 from "./ar/help/activation-issues.json";
-import f37 from "./ar/help/billing-coins-refunds.json";
-import f38 from "./ar/help/choosing-country.json";
-import f39 from "./ar/home.json";
-import f40 from "./ar/privacy.json";
-import f41 from "./ar/services/adidas.json";
-import f42 from "./ar/services/airbnb.json";
-import f43 from "./ar/services/aliexpress.json";
-import f44 from "./ar/services/apple.json";
-import f45 from "./ar/services/binance.json";
-import f46 from "./ar/services/cursor.json";
-import f47 from "./ar/services/discord.json";
-import f48 from "./ar/services/ebay.json";
-import f49 from "./ar/services/facebook.json";
-import f50 from "./ar/services/fiverr.json";
-import f51 from "./ar/services/google.json";
-import f52 from "./ar/services/grab.json";
-import f53 from "./ar/services/instagram.json";
-import f54 from "./ar/services/kakaotalk.json";
-import f55 from "./ar/services/line.json";
-import f56 from "./ar/services/netflix.json";
-import f57 from "./ar/services/paypal.json";
-import f58 from "./ar/services/reddit.json";
-import f59 from "./ar/services/shopee.json";
-import f60 from "./ar/services/signal.json";
-import f61 from "./ar/services/snapchat.json";
-import f62 from "./ar/services/steam.json";
-import f63 from "./ar/services/telegram.json";
-import f64 from "./ar/services/tiktok.json";
-import f65 from "./ar/services/tinder.json";
-import f66 from "./ar/services/twitch.json";
-import f67 from "./ar/services/twitter.json";
-import f68 from "./ar/services/uber.json";
-import f69 from "./ar/services/viber.json";
-import f70 from "./ar/services/vkcom.json";
-import f71 from "./ar/services/wechat.json";
-import f72 from "./ar/services/whatsapp.json";
-import f73 from "./ar/services/zalo.json";
-import f74 from "./ar/services-ui.json";
-import f75 from "./ar/support.json";
-import f76 from "./ar/terms.json";
-import f77 from "./ar/ui.json";
-import f78 from "./en/alternatives/5sim.json";
-import f79 from "./en/alternatives/onlinesim.json";
-import f80 from "./en/alternatives/sms-activate-org.json";
-import f81 from "./en/alternatives/sms-man.json";
-import f82 from "./en/alternatives/textverified.json";
-import f83 from "./en/alternatives-ui.json";
-import f84 from "./en/blog/esim-vs-virtual-number.json";
-import f85 from "./en/blog/google-account-without-phone-number.json";
-import f86 from "./en/blog/how-to-receive-sms-online.json";
-import f87 from "./en/blog/second-whatsapp-account.json";
-import f88 from "./en/blog/telegram-without-phone-number.json";
-import f89 from "./en/blog/virtual-number-for-dating-apps.json";
-import f90 from "./en/blog/what-is-a-virtual-phone-number.json";
-import f91 from "./en/blog-ui.json";
-import f92 from "./en/cookies.json";
-import f93 from "./en/countries/brazil.json";
-import f94 from "./en/countries/canada.json";
-import f95 from "./en/countries/france.json";
-import f96 from "./en/countries/germany.json";
-import f97 from "./en/countries/india.json";
-import f98 from "./en/countries/indonesia.json";
-import f99 from "./en/countries/italy.json";
-import f100 from "./en/countries/kazakhstan.json";
-import f101 from "./en/countries/mexico.json";
-import f102 from "./en/countries/netherlands.json";
-import f103 from "./en/countries/philippines.json";
-import f104 from "./en/countries/poland.json";
-import f105 from "./en/countries/portugal.json";
-import f106 from "./en/countries/spain.json";
-import f107 from "./en/countries/thailand.json";
-import f108 from "./en/countries/turkey.json";
-import f109 from "./en/countries/ukraine.json";
-import f110 from "./en/countries/united-kingdom.json";
-import f111 from "./en/countries/united-states.json";
-import f112 from "./en/countries/vietnam.json";
-import f113 from "./en/help/account-balance.json";
-import f114 from "./en/help/activation-issues.json";
-import f115 from "./en/help/billing-coins-refunds.json";
-import f116 from "./en/help/choosing-country.json";
-import f117 from "./en/home.json";
-import f118 from "./en/privacy.json";
-import f119 from "./en/services/adidas.json";
-import f120 from "./en/services/airbnb.json";
-import f121 from "./en/services/aliexpress.json";
-import f122 from "./en/services/apple.json";
-import f123 from "./en/services/binance.json";
-import f124 from "./en/services/cursor.json";
-import f125 from "./en/services/discord.json";
-import f126 from "./en/services/ebay.json";
-import f127 from "./en/services/facebook.json";
-import f128 from "./en/services/fiverr.json";
-import f129 from "./en/services/google.json";
-import f130 from "./en/services/grab.json";
-import f131 from "./en/services/instagram.json";
-import f132 from "./en/services/kakaotalk.json";
-import f133 from "./en/services/line.json";
-import f134 from "./en/services/netflix.json";
-import f135 from "./en/services/paypal.json";
-import f136 from "./en/services/reddit.json";
-import f137 from "./en/services/shopee.json";
-import f138 from "./en/services/signal.json";
-import f139 from "./en/services/snapchat.json";
-import f140 from "./en/services/steam.json";
-import f141 from "./en/services/telegram.json";
-import f142 from "./en/services/tiktok.json";
-import f143 from "./en/services/tinder.json";
-import f144 from "./en/services/twitch.json";
-import f145 from "./en/services/twitter.json";
-import f146 from "./en/services/uber.json";
-import f147 from "./en/services/viber.json";
-import f148 from "./en/services/vkcom.json";
-import f149 from "./en/services/wechat.json";
-import f150 from "./en/services/whatsapp.json";
-import f151 from "./en/services/zalo.json";
-import f152 from "./en/services-ui.json";
-import f153 from "./en/support.json";
-import f154 from "./en/terms.json";
-import f155 from "./en/ui.json";
-import f156 from "./es/alternatives/5sim.json";
-import f157 from "./es/alternatives/onlinesim.json";
-import f158 from "./es/alternatives/sms-activate-org.json";
-import f159 from "./es/alternatives/sms-man.json";
-import f160 from "./es/alternatives/textverified.json";
-import f161 from "./es/alternatives-ui.json";
-import f162 from "./es/blog/esim-vs-virtual-number.json";
-import f163 from "./es/blog/google-account-without-phone-number.json";
-import f164 from "./es/blog/how-to-receive-sms-online.json";
-import f165 from "./es/blog/second-whatsapp-account.json";
-import f166 from "./es/blog/telegram-without-phone-number.json";
-import f167 from "./es/blog/virtual-number-for-dating-apps.json";
-import f168 from "./es/blog/what-is-a-virtual-phone-number.json";
-import f169 from "./es/blog-ui.json";
-import f170 from "./es/cookies.json";
-import f171 from "./es/countries/brazil.json";
-import f172 from "./es/countries/canada.json";
-import f173 from "./es/countries/france.json";
-import f174 from "./es/countries/germany.json";
-import f175 from "./es/countries/india.json";
-import f176 from "./es/countries/indonesia.json";
-import f177 from "./es/countries/italy.json";
-import f178 from "./es/countries/kazakhstan.json";
-import f179 from "./es/countries/mexico.json";
-import f180 from "./es/countries/netherlands.json";
-import f181 from "./es/countries/philippines.json";
-import f182 from "./es/countries/poland.json";
-import f183 from "./es/countries/portugal.json";
-import f184 from "./es/countries/spain.json";
-import f185 from "./es/countries/thailand.json";
-import f186 from "./es/countries/turkey.json";
-import f187 from "./es/countries/ukraine.json";
-import f188 from "./es/countries/united-kingdom.json";
-import f189 from "./es/countries/united-states.json";
-import f190 from "./es/countries/vietnam.json";
-import f191 from "./es/help/account-balance.json";
-import f192 from "./es/help/activation-issues.json";
-import f193 from "./es/help/billing-coins-refunds.json";
-import f194 from "./es/help/choosing-country.json";
-import f195 from "./es/home.json";
-import f196 from "./es/privacy.json";
-import f197 from "./es/services/adidas.json";
-import f198 from "./es/services/airbnb.json";
-import f199 from "./es/services/aliexpress.json";
-import f200 from "./es/services/apple.json";
-import f201 from "./es/services/binance.json";
-import f202 from "./es/services/cursor.json";
-import f203 from "./es/services/discord.json";
-import f204 from "./es/services/ebay.json";
-import f205 from "./es/services/facebook.json";
-import f206 from "./es/services/fiverr.json";
-import f207 from "./es/services/google.json";
-import f208 from "./es/services/grab.json";
-import f209 from "./es/services/instagram.json";
-import f210 from "./es/services/kakaotalk.json";
-import f211 from "./es/services/line.json";
-import f212 from "./es/services/netflix.json";
-import f213 from "./es/services/paypal.json";
-import f214 from "./es/services/reddit.json";
-import f215 from "./es/services/shopee.json";
-import f216 from "./es/services/signal.json";
-import f217 from "./es/services/snapchat.json";
-import f218 from "./es/services/steam.json";
-import f219 from "./es/services/telegram.json";
-import f220 from "./es/services/tiktok.json";
-import f221 from "./es/services/tinder.json";
-import f222 from "./es/services/twitch.json";
-import f223 from "./es/services/twitter.json";
-import f224 from "./es/services/uber.json";
-import f225 from "./es/services/viber.json";
-import f226 from "./es/services/vkcom.json";
-import f227 from "./es/services/wechat.json";
-import f228 from "./es/services/whatsapp.json";
-import f229 from "./es/services/zalo.json";
-import f230 from "./es/services-ui.json";
-import f231 from "./es/support.json";
-import f232 from "./es/terms.json";
-import f233 from "./es/ui.json";
-import f234 from "./fr/alternatives/5sim.json";
-import f235 from "./fr/alternatives/onlinesim.json";
-import f236 from "./fr/alternatives/sms-activate-org.json";
-import f237 from "./fr/alternatives/sms-man.json";
-import f238 from "./fr/alternatives/textverified.json";
-import f239 from "./fr/alternatives-ui.json";
-import f240 from "./fr/blog/esim-vs-virtual-number.json";
-import f241 from "./fr/blog/google-account-without-phone-number.json";
-import f242 from "./fr/blog/how-to-receive-sms-online.json";
-import f243 from "./fr/blog/second-whatsapp-account.json";
-import f244 from "./fr/blog/telegram-without-phone-number.json";
-import f245 from "./fr/blog/virtual-number-for-dating-apps.json";
-import f246 from "./fr/blog/what-is-a-virtual-phone-number.json";
-import f247 from "./fr/blog-ui.json";
-import f248 from "./fr/cookies.json";
-import f249 from "./fr/countries/brazil.json";
-import f250 from "./fr/countries/canada.json";
-import f251 from "./fr/countries/france.json";
-import f252 from "./fr/countries/germany.json";
-import f253 from "./fr/countries/india.json";
-import f254 from "./fr/countries/indonesia.json";
-import f255 from "./fr/countries/italy.json";
-import f256 from "./fr/countries/kazakhstan.json";
-import f257 from "./fr/countries/mexico.json";
-import f258 from "./fr/countries/netherlands.json";
-import f259 from "./fr/countries/philippines.json";
-import f260 from "./fr/countries/poland.json";
-import f261 from "./fr/countries/portugal.json";
-import f262 from "./fr/countries/spain.json";
-import f263 from "./fr/countries/thailand.json";
-import f264 from "./fr/countries/turkey.json";
-import f265 from "./fr/countries/ukraine.json";
-import f266 from "./fr/countries/united-kingdom.json";
-import f267 from "./fr/countries/united-states.json";
-import f268 from "./fr/countries/vietnam.json";
-import f269 from "./fr/help/account-balance.json";
-import f270 from "./fr/help/activation-issues.json";
-import f271 from "./fr/help/billing-coins-refunds.json";
-import f272 from "./fr/help/choosing-country.json";
-import f273 from "./fr/home.json";
-import f274 from "./fr/privacy.json";
-import f275 from "./fr/services/adidas.json";
-import f276 from "./fr/services/airbnb.json";
-import f277 from "./fr/services/aliexpress.json";
-import f278 from "./fr/services/apple.json";
-import f279 from "./fr/services/binance.json";
-import f280 from "./fr/services/cursor.json";
-import f281 from "./fr/services/discord.json";
-import f282 from "./fr/services/ebay.json";
-import f283 from "./fr/services/facebook.json";
-import f284 from "./fr/services/fiverr.json";
-import f285 from "./fr/services/google.json";
-import f286 from "./fr/services/grab.json";
-import f287 from "./fr/services/instagram.json";
-import f288 from "./fr/services/kakaotalk.json";
-import f289 from "./fr/services/line.json";
-import f290 from "./fr/services/netflix.json";
-import f291 from "./fr/services/paypal.json";
-import f292 from "./fr/services/reddit.json";
-import f293 from "./fr/services/shopee.json";
-import f294 from "./fr/services/signal.json";
-import f295 from "./fr/services/snapchat.json";
-import f296 from "./fr/services/steam.json";
-import f297 from "./fr/services/telegram.json";
-import f298 from "./fr/services/tiktok.json";
-import f299 from "./fr/services/tinder.json";
-import f300 from "./fr/services/twitch.json";
-import f301 from "./fr/services/twitter.json";
-import f302 from "./fr/services/uber.json";
-import f303 from "./fr/services/viber.json";
-import f304 from "./fr/services/vkcom.json";
-import f305 from "./fr/services/wechat.json";
-import f306 from "./fr/services/whatsapp.json";
-import f307 from "./fr/services/zalo.json";
-import f308 from "./fr/services-ui.json";
-import f309 from "./fr/support.json";
-import f310 from "./fr/terms.json";
-import f311 from "./fr/ui.json";
-import f312 from "./hi/alternatives/5sim.json";
-import f313 from "./hi/alternatives/onlinesim.json";
-import f314 from "./hi/alternatives/sms-activate-org.json";
-import f315 from "./hi/alternatives/sms-man.json";
-import f316 from "./hi/alternatives/textverified.json";
-import f317 from "./hi/alternatives-ui.json";
-import f318 from "./hi/blog/esim-vs-virtual-number.json";
-import f319 from "./hi/blog/google-account-without-phone-number.json";
-import f320 from "./hi/blog/how-to-receive-sms-online.json";
-import f321 from "./hi/blog/second-whatsapp-account.json";
-import f322 from "./hi/blog/telegram-without-phone-number.json";
-import f323 from "./hi/blog/virtual-number-for-dating-apps.json";
-import f324 from "./hi/blog/what-is-a-virtual-phone-number.json";
-import f325 from "./hi/blog-ui.json";
-import f326 from "./hi/cookies.json";
-import f327 from "./hi/countries/brazil.json";
-import f328 from "./hi/countries/canada.json";
-import f329 from "./hi/countries/france.json";
-import f330 from "./hi/countries/germany.json";
-import f331 from "./hi/countries/india.json";
-import f332 from "./hi/countries/indonesia.json";
-import f333 from "./hi/countries/italy.json";
-import f334 from "./hi/countries/kazakhstan.json";
-import f335 from "./hi/countries/mexico.json";
-import f336 from "./hi/countries/netherlands.json";
-import f337 from "./hi/countries/philippines.json";
-import f338 from "./hi/countries/poland.json";
-import f339 from "./hi/countries/portugal.json";
-import f340 from "./hi/countries/spain.json";
-import f341 from "./hi/countries/thailand.json";
-import f342 from "./hi/countries/turkey.json";
-import f343 from "./hi/countries/ukraine.json";
-import f344 from "./hi/countries/united-kingdom.json";
-import f345 from "./hi/countries/united-states.json";
-import f346 from "./hi/countries/vietnam.json";
-import f347 from "./hi/help/account-balance.json";
-import f348 from "./hi/help/activation-issues.json";
-import f349 from "./hi/help/billing-coins-refunds.json";
-import f350 from "./hi/help/choosing-country.json";
-import f351 from "./hi/home.json";
-import f352 from "./hi/privacy.json";
-import f353 from "./hi/services/adidas.json";
-import f354 from "./hi/services/airbnb.json";
-import f355 from "./hi/services/aliexpress.json";
-import f356 from "./hi/services/apple.json";
-import f357 from "./hi/services/binance.json";
-import f358 from "./hi/services/cursor.json";
-import f359 from "./hi/services/discord.json";
-import f360 from "./hi/services/ebay.json";
-import f361 from "./hi/services/facebook.json";
-import f362 from "./hi/services/fiverr.json";
-import f363 from "./hi/services/google.json";
-import f364 from "./hi/services/grab.json";
-import f365 from "./hi/services/instagram.json";
-import f366 from "./hi/services/kakaotalk.json";
-import f367 from "./hi/services/line.json";
-import f368 from "./hi/services/netflix.json";
-import f369 from "./hi/services/paypal.json";
-import f370 from "./hi/services/reddit.json";
-import f371 from "./hi/services/shopee.json";
-import f372 from "./hi/services/signal.json";
-import f373 from "./hi/services/snapchat.json";
-import f374 from "./hi/services/steam.json";
-import f375 from "./hi/services/telegram.json";
-import f376 from "./hi/services/tiktok.json";
-import f377 from "./hi/services/tinder.json";
-import f378 from "./hi/services/twitch.json";
-import f379 from "./hi/services/twitter.json";
-import f380 from "./hi/services/uber.json";
-import f381 from "./hi/services/viber.json";
-import f382 from "./hi/services/vkcom.json";
-import f383 from "./hi/services/wechat.json";
-import f384 from "./hi/services/whatsapp.json";
-import f385 from "./hi/services/zalo.json";
-import f386 from "./hi/services-ui.json";
-import f387 from "./hi/support.json";
-import f388 from "./hi/terms.json";
-import f389 from "./hi/ui.json";
-import f390 from "./id/alternatives/5sim.json";
-import f391 from "./id/alternatives/onlinesim.json";
-import f392 from "./id/alternatives/sms-activate-org.json";
-import f393 from "./id/alternatives/sms-man.json";
-import f394 from "./id/alternatives/textverified.json";
-import f395 from "./id/alternatives-ui.json";
-import f396 from "./id/blog/esim-vs-virtual-number.json";
-import f397 from "./id/blog/google-account-without-phone-number.json";
-import f398 from "./id/blog/how-to-receive-sms-online.json";
-import f399 from "./id/blog/second-whatsapp-account.json";
-import f400 from "./id/blog/telegram-without-phone-number.json";
-import f401 from "./id/blog/virtual-number-for-dating-apps.json";
-import f402 from "./id/blog/what-is-a-virtual-phone-number.json";
-import f403 from "./id/blog-ui.json";
-import f404 from "./id/cookies.json";
-import f405 from "./id/countries/brazil.json";
-import f406 from "./id/countries/canada.json";
-import f407 from "./id/countries/france.json";
-import f408 from "./id/countries/germany.json";
-import f409 from "./id/countries/india.json";
-import f410 from "./id/countries/indonesia.json";
-import f411 from "./id/countries/italy.json";
-import f412 from "./id/countries/kazakhstan.json";
-import f413 from "./id/countries/mexico.json";
-import f414 from "./id/countries/netherlands.json";
-import f415 from "./id/countries/philippines.json";
-import f416 from "./id/countries/poland.json";
-import f417 from "./id/countries/portugal.json";
-import f418 from "./id/countries/spain.json";
-import f419 from "./id/countries/thailand.json";
-import f420 from "./id/countries/turkey.json";
-import f421 from "./id/countries/ukraine.json";
-import f422 from "./id/countries/united-kingdom.json";
-import f423 from "./id/countries/united-states.json";
-import f424 from "./id/countries/vietnam.json";
-import f425 from "./id/help/account-balance.json";
-import f426 from "./id/help/activation-issues.json";
-import f427 from "./id/help/billing-coins-refunds.json";
-import f428 from "./id/help/choosing-country.json";
-import f429 from "./id/home.json";
-import f430 from "./id/privacy.json";
-import f431 from "./id/services/adidas.json";
-import f432 from "./id/services/airbnb.json";
-import f433 from "./id/services/aliexpress.json";
-import f434 from "./id/services/apple.json";
-import f435 from "./id/services/binance.json";
-import f436 from "./id/services/cursor.json";
-import f437 from "./id/services/discord.json";
-import f438 from "./id/services/ebay.json";
-import f439 from "./id/services/facebook.json";
-import f440 from "./id/services/fiverr.json";
-import f441 from "./id/services/google.json";
-import f442 from "./id/services/grab.json";
-import f443 from "./id/services/instagram.json";
-import f444 from "./id/services/kakaotalk.json";
-import f445 from "./id/services/line.json";
-import f446 from "./id/services/netflix.json";
-import f447 from "./id/services/paypal.json";
-import f448 from "./id/services/reddit.json";
-import f449 from "./id/services/shopee.json";
-import f450 from "./id/services/signal.json";
-import f451 from "./id/services/snapchat.json";
-import f452 from "./id/services/steam.json";
-import f453 from "./id/services/telegram.json";
-import f454 from "./id/services/tiktok.json";
-import f455 from "./id/services/tinder.json";
-import f456 from "./id/services/twitch.json";
-import f457 from "./id/services/twitter.json";
-import f458 from "./id/services/uber.json";
-import f459 from "./id/services/viber.json";
-import f460 from "./id/services/vkcom.json";
-import f461 from "./id/services/wechat.json";
-import f462 from "./id/services/whatsapp.json";
-import f463 from "./id/services/zalo.json";
-import f464 from "./id/services-ui.json";
-import f465 from "./id/support.json";
-import f466 from "./id/terms.json";
-import f467 from "./id/ui.json";
-import f468 from "./pt/alternatives/5sim.json";
-import f469 from "./pt/alternatives/onlinesim.json";
-import f470 from "./pt/alternatives/sms-activate-org.json";
-import f471 from "./pt/alternatives/sms-man.json";
-import f472 from "./pt/alternatives/textverified.json";
-import f473 from "./pt/alternatives-ui.json";
-import f474 from "./pt/blog/esim-vs-virtual-number.json";
-import f475 from "./pt/blog/google-account-without-phone-number.json";
-import f476 from "./pt/blog/how-to-receive-sms-online.json";
-import f477 from "./pt/blog/second-whatsapp-account.json";
-import f478 from "./pt/blog/telegram-without-phone-number.json";
-import f479 from "./pt/blog/virtual-number-for-dating-apps.json";
-import f480 from "./pt/blog/what-is-a-virtual-phone-number.json";
-import f481 from "./pt/blog-ui.json";
-import f482 from "./pt/cookies.json";
-import f483 from "./pt/countries/brazil.json";
-import f484 from "./pt/countries/canada.json";
-import f485 from "./pt/countries/france.json";
-import f486 from "./pt/countries/germany.json";
-import f487 from "./pt/countries/india.json";
-import f488 from "./pt/countries/indonesia.json";
-import f489 from "./pt/countries/italy.json";
-import f490 from "./pt/countries/kazakhstan.json";
-import f491 from "./pt/countries/mexico.json";
-import f492 from "./pt/countries/netherlands.json";
-import f493 from "./pt/countries/philippines.json";
-import f494 from "./pt/countries/poland.json";
-import f495 from "./pt/countries/portugal.json";
-import f496 from "./pt/countries/spain.json";
-import f497 from "./pt/countries/thailand.json";
-import f498 from "./pt/countries/turkey.json";
-import f499 from "./pt/countries/ukraine.json";
-import f500 from "./pt/countries/united-kingdom.json";
-import f501 from "./pt/countries/united-states.json";
-import f502 from "./pt/countries/vietnam.json";
-import f503 from "./pt/help/account-balance.json";
-import f504 from "./pt/help/activation-issues.json";
-import f505 from "./pt/help/billing-coins-refunds.json";
-import f506 from "./pt/help/choosing-country.json";
-import f507 from "./pt/home.json";
-import f508 from "./pt/privacy.json";
-import f509 from "./pt/services/adidas.json";
-import f510 from "./pt/services/airbnb.json";
-import f511 from "./pt/services/aliexpress.json";
-import f512 from "./pt/services/apple.json";
-import f513 from "./pt/services/binance.json";
-import f514 from "./pt/services/cursor.json";
-import f515 from "./pt/services/discord.json";
-import f516 from "./pt/services/ebay.json";
-import f517 from "./pt/services/facebook.json";
-import f518 from "./pt/services/fiverr.json";
-import f519 from "./pt/services/google.json";
-import f520 from "./pt/services/grab.json";
-import f521 from "./pt/services/instagram.json";
-import f522 from "./pt/services/kakaotalk.json";
-import f523 from "./pt/services/line.json";
-import f524 from "./pt/services/netflix.json";
-import f525 from "./pt/services/paypal.json";
-import f526 from "./pt/services/reddit.json";
-import f527 from "./pt/services/shopee.json";
-import f528 from "./pt/services/signal.json";
-import f529 from "./pt/services/snapchat.json";
-import f530 from "./pt/services/steam.json";
-import f531 from "./pt/services/telegram.json";
-import f532 from "./pt/services/tiktok.json";
-import f533 from "./pt/services/tinder.json";
-import f534 from "./pt/services/twitch.json";
-import f535 from "./pt/services/twitter.json";
-import f536 from "./pt/services/uber.json";
-import f537 from "./pt/services/viber.json";
-import f538 from "./pt/services/vkcom.json";
-import f539 from "./pt/services/wechat.json";
-import f540 from "./pt/services/whatsapp.json";
-import f541 from "./pt/services/zalo.json";
-import f542 from "./pt/services-ui.json";
-import f543 from "./pt/support.json";
-import f544 from "./pt/terms.json";
-import f545 from "./pt/ui.json";
-import f546 from "./ru/alternatives/5sim.json";
-import f547 from "./ru/alternatives/onlinesim.json";
-import f548 from "./ru/alternatives/sms-activate-org.json";
-import f549 from "./ru/alternatives/sms-man.json";
-import f550 from "./ru/alternatives/textverified.json";
-import f551 from "./ru/alternatives-ui.json";
-import f552 from "./ru/blog/esim-vs-virtual-number.json";
-import f553 from "./ru/blog/google-account-without-phone-number.json";
-import f554 from "./ru/blog/how-to-receive-sms-online.json";
-import f555 from "./ru/blog/second-whatsapp-account.json";
-import f556 from "./ru/blog/telegram-without-phone-number.json";
-import f557 from "./ru/blog/virtual-number-for-dating-apps.json";
-import f558 from "./ru/blog/what-is-a-virtual-phone-number.json";
-import f559 from "./ru/blog-ui.json";
-import f560 from "./ru/cookies.json";
-import f561 from "./ru/countries/brazil.json";
-import f562 from "./ru/countries/canada.json";
-import f563 from "./ru/countries/france.json";
-import f564 from "./ru/countries/germany.json";
-import f565 from "./ru/countries/india.json";
-import f566 from "./ru/countries/indonesia.json";
-import f567 from "./ru/countries/italy.json";
-import f568 from "./ru/countries/kazakhstan.json";
-import f569 from "./ru/countries/mexico.json";
-import f570 from "./ru/countries/netherlands.json";
-import f571 from "./ru/countries/philippines.json";
-import f572 from "./ru/countries/poland.json";
-import f573 from "./ru/countries/portugal.json";
-import f574 from "./ru/countries/spain.json";
-import f575 from "./ru/countries/thailand.json";
-import f576 from "./ru/countries/turkey.json";
-import f577 from "./ru/countries/ukraine.json";
-import f578 from "./ru/countries/united-kingdom.json";
-import f579 from "./ru/countries/united-states.json";
-import f580 from "./ru/countries/vietnam.json";
-import f581 from "./ru/help/account-balance.json";
-import f582 from "./ru/help/activation-issues.json";
-import f583 from "./ru/help/billing-coins-refunds.json";
-import f584 from "./ru/help/choosing-country.json";
-import f585 from "./ru/home.json";
-import f586 from "./ru/privacy.json";
-import f587 from "./ru/services/adidas.json";
-import f588 from "./ru/services/airbnb.json";
-import f589 from "./ru/services/aliexpress.json";
-import f590 from "./ru/services/apple.json";
-import f591 from "./ru/services/binance.json";
-import f592 from "./ru/services/cursor.json";
-import f593 from "./ru/services/discord.json";
-import f594 from "./ru/services/ebay.json";
-import f595 from "./ru/services/facebook.json";
-import f596 from "./ru/services/fiverr.json";
-import f597 from "./ru/services/google.json";
-import f598 from "./ru/services/grab.json";
-import f599 from "./ru/services/instagram.json";
-import f600 from "./ru/services/kakaotalk.json";
-import f601 from "./ru/services/line.json";
-import f602 from "./ru/services/netflix.json";
-import f603 from "./ru/services/paypal.json";
-import f604 from "./ru/services/reddit.json";
-import f605 from "./ru/services/shopee.json";
-import f606 from "./ru/services/signal.json";
-import f607 from "./ru/services/snapchat.json";
-import f608 from "./ru/services/steam.json";
-import f609 from "./ru/services/telegram.json";
-import f610 from "./ru/services/tiktok.json";
-import f611 from "./ru/services/tinder.json";
-import f612 from "./ru/services/twitch.json";
-import f613 from "./ru/services/twitter.json";
-import f614 from "./ru/services/uber.json";
-import f615 from "./ru/services/viber.json";
-import f616 from "./ru/services/vkcom.json";
-import f617 from "./ru/services/wechat.json";
-import f618 from "./ru/services/whatsapp.json";
-import f619 from "./ru/services/zalo.json";
-import f620 from "./ru/services-ui.json";
-import f621 from "./ru/support.json";
-import f622 from "./ru/terms.json";
-import f623 from "./ru/ui.json";
-import f624 from "./tr/alternatives/5sim.json";
-import f625 from "./tr/alternatives/onlinesim.json";
-import f626 from "./tr/alternatives/sms-activate-org.json";
-import f627 from "./tr/alternatives/sms-man.json";
-import f628 from "./tr/alternatives/textverified.json";
-import f629 from "./tr/alternatives-ui.json";
-import f630 from "./tr/blog/esim-vs-virtual-number.json";
-import f631 from "./tr/blog/google-account-without-phone-number.json";
-import f632 from "./tr/blog/how-to-receive-sms-online.json";
-import f633 from "./tr/blog/second-whatsapp-account.json";
-import f634 from "./tr/blog/telegram-without-phone-number.json";
-import f635 from "./tr/blog/virtual-number-for-dating-apps.json";
-import f636 from "./tr/blog/what-is-a-virtual-phone-number.json";
-import f637 from "./tr/blog-ui.json";
-import f638 from "./tr/cookies.json";
-import f639 from "./tr/countries/brazil.json";
-import f640 from "./tr/countries/canada.json";
-import f641 from "./tr/countries/france.json";
-import f642 from "./tr/countries/germany.json";
-import f643 from "./tr/countries/india.json";
-import f644 from "./tr/countries/indonesia.json";
-import f645 from "./tr/countries/italy.json";
-import f646 from "./tr/countries/kazakhstan.json";
-import f647 from "./tr/countries/mexico.json";
-import f648 from "./tr/countries/netherlands.json";
-import f649 from "./tr/countries/philippines.json";
-import f650 from "./tr/countries/poland.json";
-import f651 from "./tr/countries/portugal.json";
-import f652 from "./tr/countries/spain.json";
-import f653 from "./tr/countries/thailand.json";
-import f654 from "./tr/countries/turkey.json";
-import f655 from "./tr/countries/ukraine.json";
-import f656 from "./tr/countries/united-kingdom.json";
-import f657 from "./tr/countries/united-states.json";
-import f658 from "./tr/countries/vietnam.json";
-import f659 from "./tr/help/account-balance.json";
-import f660 from "./tr/help/activation-issues.json";
-import f661 from "./tr/help/billing-coins-refunds.json";
-import f662 from "./tr/help/choosing-country.json";
-import f663 from "./tr/home.json";
-import f664 from "./tr/privacy.json";
-import f665 from "./tr/services/adidas.json";
-import f666 from "./tr/services/airbnb.json";
-import f667 from "./tr/services/aliexpress.json";
-import f668 from "./tr/services/apple.json";
-import f669 from "./tr/services/binance.json";
-import f670 from "./tr/services/cursor.json";
-import f671 from "./tr/services/discord.json";
-import f672 from "./tr/services/ebay.json";
-import f673 from "./tr/services/facebook.json";
-import f674 from "./tr/services/fiverr.json";
-import f675 from "./tr/services/google.json";
-import f676 from "./tr/services/grab.json";
-import f677 from "./tr/services/instagram.json";
-import f678 from "./tr/services/kakaotalk.json";
-import f679 from "./tr/services/line.json";
-import f680 from "./tr/services/netflix.json";
-import f681 from "./tr/services/paypal.json";
-import f682 from "./tr/services/reddit.json";
-import f683 from "./tr/services/shopee.json";
-import f684 from "./tr/services/signal.json";
-import f685 from "./tr/services/snapchat.json";
-import f686 from "./tr/services/steam.json";
-import f687 from "./tr/services/telegram.json";
-import f688 from "./tr/services/tiktok.json";
-import f689 from "./tr/services/tinder.json";
-import f690 from "./tr/services/twitch.json";
-import f691 from "./tr/services/twitter.json";
-import f692 from "./tr/services/uber.json";
-import f693 from "./tr/services/viber.json";
-import f694 from "./tr/services/vkcom.json";
-import f695 from "./tr/services/wechat.json";
-import f696 from "./tr/services/whatsapp.json";
-import f697 from "./tr/services/zalo.json";
-import f698 from "./tr/services-ui.json";
-import f699 from "./tr/support.json";
-import f700 from "./tr/terms.json";
-import f701 from "./tr/ui.json";
-import f702 from "./zh/alternatives/5sim.json";
-import f703 from "./zh/alternatives/onlinesim.json";
-import f704 from "./zh/alternatives/sms-activate-org.json";
-import f705 from "./zh/alternatives/sms-man.json";
-import f706 from "./zh/alternatives/textverified.json";
-import f707 from "./zh/alternatives-ui.json";
-import f708 from "./zh/blog/esim-vs-virtual-number.json";
-import f709 from "./zh/blog/google-account-without-phone-number.json";
-import f710 from "./zh/blog/how-to-receive-sms-online.json";
-import f711 from "./zh/blog/second-whatsapp-account.json";
-import f712 from "./zh/blog/telegram-without-phone-number.json";
-import f713 from "./zh/blog/virtual-number-for-dating-apps.json";
-import f714 from "./zh/blog/what-is-a-virtual-phone-number.json";
-import f715 from "./zh/blog-ui.json";
-import f716 from "./zh/cookies.json";
-import f717 from "./zh/countries/brazil.json";
-import f718 from "./zh/countries/canada.json";
-import f719 from "./zh/countries/france.json";
-import f720 from "./zh/countries/germany.json";
-import f721 from "./zh/countries/india.json";
-import f722 from "./zh/countries/indonesia.json";
-import f723 from "./zh/countries/italy.json";
-import f724 from "./zh/countries/kazakhstan.json";
-import f725 from "./zh/countries/mexico.json";
-import f726 from "./zh/countries/netherlands.json";
-import f727 from "./zh/countries/philippines.json";
-import f728 from "./zh/countries/poland.json";
-import f729 from "./zh/countries/portugal.json";
-import f730 from "./zh/countries/spain.json";
-import f731 from "./zh/countries/thailand.json";
-import f732 from "./zh/countries/turkey.json";
-import f733 from "./zh/countries/ukraine.json";
-import f734 from "./zh/countries/united-kingdom.json";
-import f735 from "./zh/countries/united-states.json";
-import f736 from "./zh/countries/vietnam.json";
-import f737 from "./zh/help/account-balance.json";
-import f738 from "./zh/help/activation-issues.json";
-import f739 from "./zh/help/billing-coins-refunds.json";
-import f740 from "./zh/help/choosing-country.json";
-import f741 from "./zh/home.json";
-import f742 from "./zh/privacy.json";
-import f743 from "./zh/services/adidas.json";
-import f744 from "./zh/services/airbnb.json";
-import f745 from "./zh/services/aliexpress.json";
-import f746 from "./zh/services/apple.json";
-import f747 from "./zh/services/binance.json";
-import f748 from "./zh/services/cursor.json";
-import f749 from "./zh/services/discord.json";
-import f750 from "./zh/services/ebay.json";
-import f751 from "./zh/services/facebook.json";
-import f752 from "./zh/services/fiverr.json";
-import f753 from "./zh/services/google.json";
-import f754 from "./zh/services/grab.json";
-import f755 from "./zh/services/instagram.json";
-import f756 from "./zh/services/kakaotalk.json";
-import f757 from "./zh/services/line.json";
-import f758 from "./zh/services/netflix.json";
-import f759 from "./zh/services/paypal.json";
-import f760 from "./zh/services/reddit.json";
-import f761 from "./zh/services/shopee.json";
-import f762 from "./zh/services/signal.json";
-import f763 from "./zh/services/snapchat.json";
-import f764 from "./zh/services/steam.json";
-import f765 from "./zh/services/telegram.json";
-import f766 from "./zh/services/tiktok.json";
-import f767 from "./zh/services/tinder.json";
-import f768 from "./zh/services/twitch.json";
-import f769 from "./zh/services/twitter.json";
-import f770 from "./zh/services/uber.json";
-import f771 from "./zh/services/viber.json";
-import f772 from "./zh/services/vkcom.json";
-import f773 from "./zh/services/wechat.json";
-import f774 from "./zh/services/whatsapp.json";
-import f775 from "./zh/services/zalo.json";
-import f776 from "./zh/services-ui.json";
-import f777 from "./zh/support.json";
-import f778 from "./zh/terms.json";
-import f779 from "./zh/ui.json";
+import f6 from "./ar/blog/brazilian-virtual-number-guide.json";
+import f7 from "./ar/blog/esim-vs-virtual-number.json";
+import f8 from "./ar/blog/google-account-without-phone-number.json";
+import f9 from "./ar/blog/how-to-receive-sms-online.json";
+import f10 from "./ar/blog/indian-virtual-number-guide.json";
+import f11 from "./ar/blog/indonesian-virtual-number-guide.json";
+import f12 from "./ar/blog/is-a-virtual-number-legal.json";
+import f13 from "./ar/blog/recycled-phone-numbers-risk.json";
+import f14 from "./ar/blog/second-whatsapp-account.json";
+import f15 from "./ar/blog/telegram-without-phone-number.json";
+import f16 from "./ar/blog/virtual-number-for-dating-apps.json";
+import f17 from "./ar/blog/what-is-a-virtual-phone-number.json";
+import f18 from "./ar/blog/why-apps-reject-voip-numbers.json";
+import f19 from "./ar/blog-ui.json";
+import f20 from "./ar/cookies.json";
+import f21 from "./ar/countries/brazil.json";
+import f22 from "./ar/countries/canada.json";
+import f23 from "./ar/countries/france.json";
+import f24 from "./ar/countries/germany.json";
+import f25 from "./ar/countries/india.json";
+import f26 from "./ar/countries/indonesia.json";
+import f27 from "./ar/countries/italy.json";
+import f28 from "./ar/countries/kazakhstan.json";
+import f29 from "./ar/countries/mexico.json";
+import f30 from "./ar/countries/netherlands.json";
+import f31 from "./ar/countries/philippines.json";
+import f32 from "./ar/countries/poland.json";
+import f33 from "./ar/countries/portugal.json";
+import f34 from "./ar/countries/spain.json";
+import f35 from "./ar/countries/thailand.json";
+import f36 from "./ar/countries/turkey.json";
+import f37 from "./ar/countries/ukraine.json";
+import f38 from "./ar/countries/united-kingdom.json";
+import f39 from "./ar/countries/united-states.json";
+import f40 from "./ar/countries/vietnam.json";
+import f41 from "./ar/help/account-balance.json";
+import f42 from "./ar/help/activation-issues.json";
+import f43 from "./ar/help/billing-coins-refunds.json";
+import f44 from "./ar/help/choosing-country.json";
+import f45 from "./ar/help/code-rejected.json";
+import f46 from "./ar/help/missing-coins.json";
+import f47 from "./ar/help/refund-apple.json";
+import f48 from "./ar/help/sms-not-received.json";
+import f49 from "./ar/home.json";
+import f50 from "./ar/privacy.json";
+import f51 from "./ar/services/adidas.json";
+import f52 from "./ar/services/airbnb.json";
+import f53 from "./ar/services/aliexpress.json";
+import f54 from "./ar/services/apple.json";
+import f55 from "./ar/services/binance.json";
+import f56 from "./ar/services/cursor.json";
+import f57 from "./ar/services/discord.json";
+import f58 from "./ar/services/ebay.json";
+import f59 from "./ar/services/facebook.json";
+import f60 from "./ar/services/fiverr.json";
+import f61 from "./ar/services/google.json";
+import f62 from "./ar/services/grab.json";
+import f63 from "./ar/services/instagram.json";
+import f64 from "./ar/services/kakaotalk.json";
+import f65 from "./ar/services/line.json";
+import f66 from "./ar/services/netflix.json";
+import f67 from "./ar/services/paypal.json";
+import f68 from "./ar/services/reddit.json";
+import f69 from "./ar/services/shopee.json";
+import f70 from "./ar/services/signal.json";
+import f71 from "./ar/services/snapchat.json";
+import f72 from "./ar/services/steam.json";
+import f73 from "./ar/services/telegram.json";
+import f74 from "./ar/services/tiktok.json";
+import f75 from "./ar/services/tinder.json";
+import f76 from "./ar/services/twitch.json";
+import f77 from "./ar/services/twitter.json";
+import f78 from "./ar/services/uber.json";
+import f79 from "./ar/services/viber.json";
+import f80 from "./ar/services/vkcom.json";
+import f81 from "./ar/services/wechat.json";
+import f82 from "./ar/services/whatsapp.json";
+import f83 from "./ar/services/zalo.json";
+import f84 from "./ar/services-ui.json";
+import f85 from "./ar/support.json";
+import f86 from "./ar/terms.json";
+import f87 from "./ar/ui.json";
+import f88 from "./de/alternatives/5sim.json";
+import f89 from "./de/alternatives/onlinesim.json";
+import f90 from "./de/alternatives/sms-activate-org.json";
+import f91 from "./de/alternatives/sms-man.json";
+import f92 from "./de/alternatives/textverified.json";
+import f93 from "./de/alternatives-ui.json";
+import f94 from "./de/blog/brazilian-virtual-number-guide.json";
+import f95 from "./de/blog/esim-vs-virtual-number.json";
+import f96 from "./de/blog/google-account-without-phone-number.json";
+import f97 from "./de/blog/how-to-receive-sms-online.json";
+import f98 from "./de/blog/indian-virtual-number-guide.json";
+import f99 from "./de/blog/indonesian-virtual-number-guide.json";
+import f100 from "./de/blog/is-a-virtual-number-legal.json";
+import f101 from "./de/blog/recycled-phone-numbers-risk.json";
+import f102 from "./de/blog/second-whatsapp-account.json";
+import f103 from "./de/blog/telegram-without-phone-number.json";
+import f104 from "./de/blog/virtual-number-for-dating-apps.json";
+import f105 from "./de/blog/what-is-a-virtual-phone-number.json";
+import f106 from "./de/blog/why-apps-reject-voip-numbers.json";
+import f107 from "./de/blog-ui.json";
+import f108 from "./de/cookies.json";
+import f109 from "./de/countries/brazil.json";
+import f110 from "./de/countries/canada.json";
+import f111 from "./de/countries/france.json";
+import f112 from "./de/countries/germany.json";
+import f113 from "./de/countries/india.json";
+import f114 from "./de/countries/indonesia.json";
+import f115 from "./de/countries/italy.json";
+import f116 from "./de/countries/kazakhstan.json";
+import f117 from "./de/countries/mexico.json";
+import f118 from "./de/countries/netherlands.json";
+import f119 from "./de/countries/philippines.json";
+import f120 from "./de/countries/poland.json";
+import f121 from "./de/countries/portugal.json";
+import f122 from "./de/countries/spain.json";
+import f123 from "./de/countries/thailand.json";
+import f124 from "./de/countries/turkey.json";
+import f125 from "./de/countries/ukraine.json";
+import f126 from "./de/countries/united-kingdom.json";
+import f127 from "./de/countries/united-states.json";
+import f128 from "./de/countries/vietnam.json";
+import f129 from "./de/help/account-balance.json";
+import f130 from "./de/help/activation-issues.json";
+import f131 from "./de/help/billing-coins-refunds.json";
+import f132 from "./de/help/choosing-country.json";
+import f133 from "./de/help/code-rejected.json";
+import f134 from "./de/help/missing-coins.json";
+import f135 from "./de/help/refund-apple.json";
+import f136 from "./de/help/sms-not-received.json";
+import f137 from "./de/home.json";
+import f138 from "./de/privacy.json";
+import f139 from "./de/services/adidas.json";
+import f140 from "./de/services/airbnb.json";
+import f141 from "./de/services/aliexpress.json";
+import f142 from "./de/services/apple.json";
+import f143 from "./de/services/binance.json";
+import f144 from "./de/services/cursor.json";
+import f145 from "./de/services/discord.json";
+import f146 from "./de/services/ebay.json";
+import f147 from "./de/services/facebook.json";
+import f148 from "./de/services/fiverr.json";
+import f149 from "./de/services/google.json";
+import f150 from "./de/services/grab.json";
+import f151 from "./de/services/instagram.json";
+import f152 from "./de/services/kakaotalk.json";
+import f153 from "./de/services/line.json";
+import f154 from "./de/services/netflix.json";
+import f155 from "./de/services/paypal.json";
+import f156 from "./de/services/reddit.json";
+import f157 from "./de/services/shopee.json";
+import f158 from "./de/services/signal.json";
+import f159 from "./de/services/snapchat.json";
+import f160 from "./de/services/steam.json";
+import f161 from "./de/services/telegram.json";
+import f162 from "./de/services/tiktok.json";
+import f163 from "./de/services/tinder.json";
+import f164 from "./de/services/twitch.json";
+import f165 from "./de/services/twitter.json";
+import f166 from "./de/services/uber.json";
+import f167 from "./de/services/viber.json";
+import f168 from "./de/services/vkcom.json";
+import f169 from "./de/services/wechat.json";
+import f170 from "./de/services/whatsapp.json";
+import f171 from "./de/services/zalo.json";
+import f172 from "./de/services-ui.json";
+import f173 from "./de/support.json";
+import f174 from "./de/terms.json";
+import f175 from "./de/ui.json";
+import f176 from "./en/alternatives/5sim.json";
+import f177 from "./en/alternatives/onlinesim.json";
+import f178 from "./en/alternatives/sms-activate-org.json";
+import f179 from "./en/alternatives/sms-man.json";
+import f180 from "./en/alternatives/textverified.json";
+import f181 from "./en/alternatives-ui.json";
+import f182 from "./en/blog/brazilian-virtual-number-guide.json";
+import f183 from "./en/blog/esim-vs-virtual-number.json";
+import f184 from "./en/blog/google-account-without-phone-number.json";
+import f185 from "./en/blog/how-to-receive-sms-online.json";
+import f186 from "./en/blog/indian-virtual-number-guide.json";
+import f187 from "./en/blog/indonesian-virtual-number-guide.json";
+import f188 from "./en/blog/is-a-virtual-number-legal.json";
+import f189 from "./en/blog/recycled-phone-numbers-risk.json";
+import f190 from "./en/blog/second-whatsapp-account.json";
+import f191 from "./en/blog/telegram-without-phone-number.json";
+import f192 from "./en/blog/virtual-number-for-dating-apps.json";
+import f193 from "./en/blog/what-is-a-virtual-phone-number.json";
+import f194 from "./en/blog/why-apps-reject-voip-numbers.json";
+import f195 from "./en/blog-ui.json";
+import f196 from "./en/cookies.json";
+import f197 from "./en/countries/brazil.json";
+import f198 from "./en/countries/canada.json";
+import f199 from "./en/countries/france.json";
+import f200 from "./en/countries/germany.json";
+import f201 from "./en/countries/india.json";
+import f202 from "./en/countries/indonesia.json";
+import f203 from "./en/countries/italy.json";
+import f204 from "./en/countries/kazakhstan.json";
+import f205 from "./en/countries/mexico.json";
+import f206 from "./en/countries/netherlands.json";
+import f207 from "./en/countries/philippines.json";
+import f208 from "./en/countries/poland.json";
+import f209 from "./en/countries/portugal.json";
+import f210 from "./en/countries/spain.json";
+import f211 from "./en/countries/thailand.json";
+import f212 from "./en/countries/turkey.json";
+import f213 from "./en/countries/ukraine.json";
+import f214 from "./en/countries/united-kingdom.json";
+import f215 from "./en/countries/united-states.json";
+import f216 from "./en/countries/vietnam.json";
+import f217 from "./en/help/account-balance.json";
+import f218 from "./en/help/activation-issues.json";
+import f219 from "./en/help/billing-coins-refunds.json";
+import f220 from "./en/help/choosing-country.json";
+import f221 from "./en/help/code-rejected.json";
+import f222 from "./en/help/missing-coins.json";
+import f223 from "./en/help/refund-apple.json";
+import f224 from "./en/help/sms-not-received.json";
+import f225 from "./en/home.json";
+import f226 from "./en/privacy.json";
+import f227 from "./en/services/adidas.json";
+import f228 from "./en/services/airbnb.json";
+import f229 from "./en/services/aliexpress.json";
+import f230 from "./en/services/apple.json";
+import f231 from "./en/services/binance.json";
+import f232 from "./en/services/cursor.json";
+import f233 from "./en/services/discord.json";
+import f234 from "./en/services/ebay.json";
+import f235 from "./en/services/facebook.json";
+import f236 from "./en/services/fiverr.json";
+import f237 from "./en/services/google.json";
+import f238 from "./en/services/grab.json";
+import f239 from "./en/services/instagram.json";
+import f240 from "./en/services/kakaotalk.json";
+import f241 from "./en/services/line.json";
+import f242 from "./en/services/netflix.json";
+import f243 from "./en/services/paypal.json";
+import f244 from "./en/services/reddit.json";
+import f245 from "./en/services/shopee.json";
+import f246 from "./en/services/signal.json";
+import f247 from "./en/services/snapchat.json";
+import f248 from "./en/services/steam.json";
+import f249 from "./en/services/telegram.json";
+import f250 from "./en/services/tiktok.json";
+import f251 from "./en/services/tinder.json";
+import f252 from "./en/services/twitch.json";
+import f253 from "./en/services/twitter.json";
+import f254 from "./en/services/uber.json";
+import f255 from "./en/services/viber.json";
+import f256 from "./en/services/vkcom.json";
+import f257 from "./en/services/wechat.json";
+import f258 from "./en/services/whatsapp.json";
+import f259 from "./en/services/zalo.json";
+import f260 from "./en/services-ui.json";
+import f261 from "./en/support.json";
+import f262 from "./en/terms.json";
+import f263 from "./en/ui.json";
+import f264 from "./es/alternatives/5sim.json";
+import f265 from "./es/alternatives/onlinesim.json";
+import f266 from "./es/alternatives/sms-activate-org.json";
+import f267 from "./es/alternatives/sms-man.json";
+import f268 from "./es/alternatives/textverified.json";
+import f269 from "./es/alternatives-ui.json";
+import f270 from "./es/blog/brazilian-virtual-number-guide.json";
+import f271 from "./es/blog/esim-vs-virtual-number.json";
+import f272 from "./es/blog/google-account-without-phone-number.json";
+import f273 from "./es/blog/how-to-receive-sms-online.json";
+import f274 from "./es/blog/indian-virtual-number-guide.json";
+import f275 from "./es/blog/indonesian-virtual-number-guide.json";
+import f276 from "./es/blog/is-a-virtual-number-legal.json";
+import f277 from "./es/blog/recycled-phone-numbers-risk.json";
+import f278 from "./es/blog/second-whatsapp-account.json";
+import f279 from "./es/blog/telegram-without-phone-number.json";
+import f280 from "./es/blog/virtual-number-for-dating-apps.json";
+import f281 from "./es/blog/what-is-a-virtual-phone-number.json";
+import f282 from "./es/blog/why-apps-reject-voip-numbers.json";
+import f283 from "./es/blog-ui.json";
+import f284 from "./es/cookies.json";
+import f285 from "./es/countries/brazil.json";
+import f286 from "./es/countries/canada.json";
+import f287 from "./es/countries/france.json";
+import f288 from "./es/countries/germany.json";
+import f289 from "./es/countries/india.json";
+import f290 from "./es/countries/indonesia.json";
+import f291 from "./es/countries/italy.json";
+import f292 from "./es/countries/kazakhstan.json";
+import f293 from "./es/countries/mexico.json";
+import f294 from "./es/countries/netherlands.json";
+import f295 from "./es/countries/philippines.json";
+import f296 from "./es/countries/poland.json";
+import f297 from "./es/countries/portugal.json";
+import f298 from "./es/countries/spain.json";
+import f299 from "./es/countries/thailand.json";
+import f300 from "./es/countries/turkey.json";
+import f301 from "./es/countries/ukraine.json";
+import f302 from "./es/countries/united-kingdom.json";
+import f303 from "./es/countries/united-states.json";
+import f304 from "./es/countries/vietnam.json";
+import f305 from "./es/help/account-balance.json";
+import f306 from "./es/help/activation-issues.json";
+import f307 from "./es/help/billing-coins-refunds.json";
+import f308 from "./es/help/choosing-country.json";
+import f309 from "./es/help/code-rejected.json";
+import f310 from "./es/help/missing-coins.json";
+import f311 from "./es/help/refund-apple.json";
+import f312 from "./es/help/sms-not-received.json";
+import f313 from "./es/home.json";
+import f314 from "./es/privacy.json";
+import f315 from "./es/services/adidas.json";
+import f316 from "./es/services/airbnb.json";
+import f317 from "./es/services/aliexpress.json";
+import f318 from "./es/services/apple.json";
+import f319 from "./es/services/binance.json";
+import f320 from "./es/services/cursor.json";
+import f321 from "./es/services/discord.json";
+import f322 from "./es/services/ebay.json";
+import f323 from "./es/services/facebook.json";
+import f324 from "./es/services/fiverr.json";
+import f325 from "./es/services/google.json";
+import f326 from "./es/services/grab.json";
+import f327 from "./es/services/instagram.json";
+import f328 from "./es/services/kakaotalk.json";
+import f329 from "./es/services/line.json";
+import f330 from "./es/services/netflix.json";
+import f331 from "./es/services/paypal.json";
+import f332 from "./es/services/reddit.json";
+import f333 from "./es/services/shopee.json";
+import f334 from "./es/services/signal.json";
+import f335 from "./es/services/snapchat.json";
+import f336 from "./es/services/steam.json";
+import f337 from "./es/services/telegram.json";
+import f338 from "./es/services/tiktok.json";
+import f339 from "./es/services/tinder.json";
+import f340 from "./es/services/twitch.json";
+import f341 from "./es/services/twitter.json";
+import f342 from "./es/services/uber.json";
+import f343 from "./es/services/viber.json";
+import f344 from "./es/services/vkcom.json";
+import f345 from "./es/services/wechat.json";
+import f346 from "./es/services/whatsapp.json";
+import f347 from "./es/services/zalo.json";
+import f348 from "./es/services-ui.json";
+import f349 from "./es/support.json";
+import f350 from "./es/terms.json";
+import f351 from "./es/ui.json";
+import f352 from "./fr/alternatives/5sim.json";
+import f353 from "./fr/alternatives/onlinesim.json";
+import f354 from "./fr/alternatives/sms-activate-org.json";
+import f355 from "./fr/alternatives/sms-man.json";
+import f356 from "./fr/alternatives/textverified.json";
+import f357 from "./fr/alternatives-ui.json";
+import f358 from "./fr/blog/brazilian-virtual-number-guide.json";
+import f359 from "./fr/blog/esim-vs-virtual-number.json";
+import f360 from "./fr/blog/google-account-without-phone-number.json";
+import f361 from "./fr/blog/how-to-receive-sms-online.json";
+import f362 from "./fr/blog/indian-virtual-number-guide.json";
+import f363 from "./fr/blog/indonesian-virtual-number-guide.json";
+import f364 from "./fr/blog/is-a-virtual-number-legal.json";
+import f365 from "./fr/blog/recycled-phone-numbers-risk.json";
+import f366 from "./fr/blog/second-whatsapp-account.json";
+import f367 from "./fr/blog/telegram-without-phone-number.json";
+import f368 from "./fr/blog/virtual-number-for-dating-apps.json";
+import f369 from "./fr/blog/what-is-a-virtual-phone-number.json";
+import f370 from "./fr/blog/why-apps-reject-voip-numbers.json";
+import f371 from "./fr/blog-ui.json";
+import f372 from "./fr/cookies.json";
+import f373 from "./fr/countries/brazil.json";
+import f374 from "./fr/countries/canada.json";
+import f375 from "./fr/countries/france.json";
+import f376 from "./fr/countries/germany.json";
+import f377 from "./fr/countries/india.json";
+import f378 from "./fr/countries/indonesia.json";
+import f379 from "./fr/countries/italy.json";
+import f380 from "./fr/countries/kazakhstan.json";
+import f381 from "./fr/countries/mexico.json";
+import f382 from "./fr/countries/netherlands.json";
+import f383 from "./fr/countries/philippines.json";
+import f384 from "./fr/countries/poland.json";
+import f385 from "./fr/countries/portugal.json";
+import f386 from "./fr/countries/spain.json";
+import f387 from "./fr/countries/thailand.json";
+import f388 from "./fr/countries/turkey.json";
+import f389 from "./fr/countries/ukraine.json";
+import f390 from "./fr/countries/united-kingdom.json";
+import f391 from "./fr/countries/united-states.json";
+import f392 from "./fr/countries/vietnam.json";
+import f393 from "./fr/help/account-balance.json";
+import f394 from "./fr/help/activation-issues.json";
+import f395 from "./fr/help/billing-coins-refunds.json";
+import f396 from "./fr/help/choosing-country.json";
+import f397 from "./fr/help/code-rejected.json";
+import f398 from "./fr/help/missing-coins.json";
+import f399 from "./fr/help/refund-apple.json";
+import f400 from "./fr/help/sms-not-received.json";
+import f401 from "./fr/home.json";
+import f402 from "./fr/privacy.json";
+import f403 from "./fr/services/adidas.json";
+import f404 from "./fr/services/airbnb.json";
+import f405 from "./fr/services/aliexpress.json";
+import f406 from "./fr/services/apple.json";
+import f407 from "./fr/services/binance.json";
+import f408 from "./fr/services/cursor.json";
+import f409 from "./fr/services/discord.json";
+import f410 from "./fr/services/ebay.json";
+import f411 from "./fr/services/facebook.json";
+import f412 from "./fr/services/fiverr.json";
+import f413 from "./fr/services/google.json";
+import f414 from "./fr/services/grab.json";
+import f415 from "./fr/services/instagram.json";
+import f416 from "./fr/services/kakaotalk.json";
+import f417 from "./fr/services/line.json";
+import f418 from "./fr/services/netflix.json";
+import f419 from "./fr/services/paypal.json";
+import f420 from "./fr/services/reddit.json";
+import f421 from "./fr/services/shopee.json";
+import f422 from "./fr/services/signal.json";
+import f423 from "./fr/services/snapchat.json";
+import f424 from "./fr/services/steam.json";
+import f425 from "./fr/services/telegram.json";
+import f426 from "./fr/services/tiktok.json";
+import f427 from "./fr/services/tinder.json";
+import f428 from "./fr/services/twitch.json";
+import f429 from "./fr/services/twitter.json";
+import f430 from "./fr/services/uber.json";
+import f431 from "./fr/services/viber.json";
+import f432 from "./fr/services/vkcom.json";
+import f433 from "./fr/services/wechat.json";
+import f434 from "./fr/services/whatsapp.json";
+import f435 from "./fr/services/zalo.json";
+import f436 from "./fr/services-ui.json";
+import f437 from "./fr/support.json";
+import f438 from "./fr/terms.json";
+import f439 from "./fr/ui.json";
+import f440 from "./hi/alternatives/5sim.json";
+import f441 from "./hi/alternatives/onlinesim.json";
+import f442 from "./hi/alternatives/sms-activate-org.json";
+import f443 from "./hi/alternatives/sms-man.json";
+import f444 from "./hi/alternatives/textverified.json";
+import f445 from "./hi/alternatives-ui.json";
+import f446 from "./hi/blog/brazilian-virtual-number-guide.json";
+import f447 from "./hi/blog/esim-vs-virtual-number.json";
+import f448 from "./hi/blog/google-account-without-phone-number.json";
+import f449 from "./hi/blog/how-to-receive-sms-online.json";
+import f450 from "./hi/blog/indian-virtual-number-guide.json";
+import f451 from "./hi/blog/indonesian-virtual-number-guide.json";
+import f452 from "./hi/blog/is-a-virtual-number-legal.json";
+import f453 from "./hi/blog/recycled-phone-numbers-risk.json";
+import f454 from "./hi/blog/second-whatsapp-account.json";
+import f455 from "./hi/blog/telegram-without-phone-number.json";
+import f456 from "./hi/blog/virtual-number-for-dating-apps.json";
+import f457 from "./hi/blog/what-is-a-virtual-phone-number.json";
+import f458 from "./hi/blog/why-apps-reject-voip-numbers.json";
+import f459 from "./hi/blog-ui.json";
+import f460 from "./hi/cookies.json";
+import f461 from "./hi/countries/brazil.json";
+import f462 from "./hi/countries/canada.json";
+import f463 from "./hi/countries/france.json";
+import f464 from "./hi/countries/germany.json";
+import f465 from "./hi/countries/india.json";
+import f466 from "./hi/countries/indonesia.json";
+import f467 from "./hi/countries/italy.json";
+import f468 from "./hi/countries/kazakhstan.json";
+import f469 from "./hi/countries/mexico.json";
+import f470 from "./hi/countries/netherlands.json";
+import f471 from "./hi/countries/philippines.json";
+import f472 from "./hi/countries/poland.json";
+import f473 from "./hi/countries/portugal.json";
+import f474 from "./hi/countries/spain.json";
+import f475 from "./hi/countries/thailand.json";
+import f476 from "./hi/countries/turkey.json";
+import f477 from "./hi/countries/ukraine.json";
+import f478 from "./hi/countries/united-kingdom.json";
+import f479 from "./hi/countries/united-states.json";
+import f480 from "./hi/countries/vietnam.json";
+import f481 from "./hi/help/account-balance.json";
+import f482 from "./hi/help/activation-issues.json";
+import f483 from "./hi/help/billing-coins-refunds.json";
+import f484 from "./hi/help/choosing-country.json";
+import f485 from "./hi/help/code-rejected.json";
+import f486 from "./hi/help/missing-coins.json";
+import f487 from "./hi/help/refund-apple.json";
+import f488 from "./hi/help/sms-not-received.json";
+import f489 from "./hi/home.json";
+import f490 from "./hi/privacy.json";
+import f491 from "./hi/services/adidas.json";
+import f492 from "./hi/services/airbnb.json";
+import f493 from "./hi/services/aliexpress.json";
+import f494 from "./hi/services/apple.json";
+import f495 from "./hi/services/binance.json";
+import f496 from "./hi/services/cursor.json";
+import f497 from "./hi/services/discord.json";
+import f498 from "./hi/services/ebay.json";
+import f499 from "./hi/services/facebook.json";
+import f500 from "./hi/services/fiverr.json";
+import f501 from "./hi/services/google.json";
+import f502 from "./hi/services/grab.json";
+import f503 from "./hi/services/instagram.json";
+import f504 from "./hi/services/kakaotalk.json";
+import f505 from "./hi/services/line.json";
+import f506 from "./hi/services/netflix.json";
+import f507 from "./hi/services/paypal.json";
+import f508 from "./hi/services/reddit.json";
+import f509 from "./hi/services/shopee.json";
+import f510 from "./hi/services/signal.json";
+import f511 from "./hi/services/snapchat.json";
+import f512 from "./hi/services/steam.json";
+import f513 from "./hi/services/telegram.json";
+import f514 from "./hi/services/tiktok.json";
+import f515 from "./hi/services/tinder.json";
+import f516 from "./hi/services/twitch.json";
+import f517 from "./hi/services/twitter.json";
+import f518 from "./hi/services/uber.json";
+import f519 from "./hi/services/viber.json";
+import f520 from "./hi/services/vkcom.json";
+import f521 from "./hi/services/wechat.json";
+import f522 from "./hi/services/whatsapp.json";
+import f523 from "./hi/services/zalo.json";
+import f524 from "./hi/services-ui.json";
+import f525 from "./hi/support.json";
+import f526 from "./hi/terms.json";
+import f527 from "./hi/ui.json";
+import f528 from "./id/alternatives/5sim.json";
+import f529 from "./id/alternatives/onlinesim.json";
+import f530 from "./id/alternatives/sms-activate-org.json";
+import f531 from "./id/alternatives/sms-man.json";
+import f532 from "./id/alternatives/textverified.json";
+import f533 from "./id/alternatives-ui.json";
+import f534 from "./id/blog/brazilian-virtual-number-guide.json";
+import f535 from "./id/blog/esim-vs-virtual-number.json";
+import f536 from "./id/blog/google-account-without-phone-number.json";
+import f537 from "./id/blog/how-to-receive-sms-online.json";
+import f538 from "./id/blog/indian-virtual-number-guide.json";
+import f539 from "./id/blog/indonesian-virtual-number-guide.json";
+import f540 from "./id/blog/is-a-virtual-number-legal.json";
+import f541 from "./id/blog/recycled-phone-numbers-risk.json";
+import f542 from "./id/blog/second-whatsapp-account.json";
+import f543 from "./id/blog/telegram-without-phone-number.json";
+import f544 from "./id/blog/virtual-number-for-dating-apps.json";
+import f545 from "./id/blog/what-is-a-virtual-phone-number.json";
+import f546 from "./id/blog/why-apps-reject-voip-numbers.json";
+import f547 from "./id/blog-ui.json";
+import f548 from "./id/cookies.json";
+import f549 from "./id/countries/brazil.json";
+import f550 from "./id/countries/canada.json";
+import f551 from "./id/countries/france.json";
+import f552 from "./id/countries/germany.json";
+import f553 from "./id/countries/india.json";
+import f554 from "./id/countries/indonesia.json";
+import f555 from "./id/countries/italy.json";
+import f556 from "./id/countries/kazakhstan.json";
+import f557 from "./id/countries/mexico.json";
+import f558 from "./id/countries/netherlands.json";
+import f559 from "./id/countries/philippines.json";
+import f560 from "./id/countries/poland.json";
+import f561 from "./id/countries/portugal.json";
+import f562 from "./id/countries/spain.json";
+import f563 from "./id/countries/thailand.json";
+import f564 from "./id/countries/turkey.json";
+import f565 from "./id/countries/ukraine.json";
+import f566 from "./id/countries/united-kingdom.json";
+import f567 from "./id/countries/united-states.json";
+import f568 from "./id/countries/vietnam.json";
+import f569 from "./id/help/account-balance.json";
+import f570 from "./id/help/activation-issues.json";
+import f571 from "./id/help/billing-coins-refunds.json";
+import f572 from "./id/help/choosing-country.json";
+import f573 from "./id/help/code-rejected.json";
+import f574 from "./id/help/missing-coins.json";
+import f575 from "./id/help/refund-apple.json";
+import f576 from "./id/help/sms-not-received.json";
+import f577 from "./id/home.json";
+import f578 from "./id/privacy.json";
+import f579 from "./id/services/adidas.json";
+import f580 from "./id/services/airbnb.json";
+import f581 from "./id/services/aliexpress.json";
+import f582 from "./id/services/apple.json";
+import f583 from "./id/services/binance.json";
+import f584 from "./id/services/cursor.json";
+import f585 from "./id/services/discord.json";
+import f586 from "./id/services/ebay.json";
+import f587 from "./id/services/facebook.json";
+import f588 from "./id/services/fiverr.json";
+import f589 from "./id/services/google.json";
+import f590 from "./id/services/grab.json";
+import f591 from "./id/services/instagram.json";
+import f592 from "./id/services/kakaotalk.json";
+import f593 from "./id/services/line.json";
+import f594 from "./id/services/netflix.json";
+import f595 from "./id/services/paypal.json";
+import f596 from "./id/services/reddit.json";
+import f597 from "./id/services/shopee.json";
+import f598 from "./id/services/signal.json";
+import f599 from "./id/services/snapchat.json";
+import f600 from "./id/services/steam.json";
+import f601 from "./id/services/telegram.json";
+import f602 from "./id/services/tiktok.json";
+import f603 from "./id/services/tinder.json";
+import f604 from "./id/services/twitch.json";
+import f605 from "./id/services/twitter.json";
+import f606 from "./id/services/uber.json";
+import f607 from "./id/services/viber.json";
+import f608 from "./id/services/vkcom.json";
+import f609 from "./id/services/wechat.json";
+import f610 from "./id/services/whatsapp.json";
+import f611 from "./id/services/zalo.json";
+import f612 from "./id/services-ui.json";
+import f613 from "./id/support.json";
+import f614 from "./id/terms.json";
+import f615 from "./id/ui.json";
+import f616 from "./pl/alternatives/5sim.json";
+import f617 from "./pl/alternatives/onlinesim.json";
+import f618 from "./pl/alternatives/sms-activate-org.json";
+import f619 from "./pl/alternatives/sms-man.json";
+import f620 from "./pl/alternatives/textverified.json";
+import f621 from "./pl/alternatives-ui.json";
+import f622 from "./pl/blog/brazilian-virtual-number-guide.json";
+import f623 from "./pl/blog/esim-vs-virtual-number.json";
+import f624 from "./pl/blog/google-account-without-phone-number.json";
+import f625 from "./pl/blog/how-to-receive-sms-online.json";
+import f626 from "./pl/blog/indian-virtual-number-guide.json";
+import f627 from "./pl/blog/indonesian-virtual-number-guide.json";
+import f628 from "./pl/blog/is-a-virtual-number-legal.json";
+import f629 from "./pl/blog/recycled-phone-numbers-risk.json";
+import f630 from "./pl/blog/second-whatsapp-account.json";
+import f631 from "./pl/blog/telegram-without-phone-number.json";
+import f632 from "./pl/blog/virtual-number-for-dating-apps.json";
+import f633 from "./pl/blog/what-is-a-virtual-phone-number.json";
+import f634 from "./pl/blog/why-apps-reject-voip-numbers.json";
+import f635 from "./pl/blog-ui.json";
+import f636 from "./pl/cookies.json";
+import f637 from "./pl/countries/brazil.json";
+import f638 from "./pl/countries/canada.json";
+import f639 from "./pl/countries/france.json";
+import f640 from "./pl/countries/germany.json";
+import f641 from "./pl/countries/india.json";
+import f642 from "./pl/countries/indonesia.json";
+import f643 from "./pl/countries/italy.json";
+import f644 from "./pl/countries/kazakhstan.json";
+import f645 from "./pl/countries/mexico.json";
+import f646 from "./pl/countries/netherlands.json";
+import f647 from "./pl/countries/philippines.json";
+import f648 from "./pl/countries/poland.json";
+import f649 from "./pl/countries/portugal.json";
+import f650 from "./pl/countries/spain.json";
+import f651 from "./pl/countries/thailand.json";
+import f652 from "./pl/countries/turkey.json";
+import f653 from "./pl/countries/ukraine.json";
+import f654 from "./pl/countries/united-kingdom.json";
+import f655 from "./pl/countries/united-states.json";
+import f656 from "./pl/countries/vietnam.json";
+import f657 from "./pl/help/account-balance.json";
+import f658 from "./pl/help/activation-issues.json";
+import f659 from "./pl/help/billing-coins-refunds.json";
+import f660 from "./pl/help/choosing-country.json";
+import f661 from "./pl/help/code-rejected.json";
+import f662 from "./pl/help/missing-coins.json";
+import f663 from "./pl/help/refund-apple.json";
+import f664 from "./pl/help/sms-not-received.json";
+import f665 from "./pl/home.json";
+import f666 from "./pl/privacy.json";
+import f667 from "./pl/services/adidas.json";
+import f668 from "./pl/services/airbnb.json";
+import f669 from "./pl/services/aliexpress.json";
+import f670 from "./pl/services/apple.json";
+import f671 from "./pl/services/binance.json";
+import f672 from "./pl/services/cursor.json";
+import f673 from "./pl/services/discord.json";
+import f674 from "./pl/services/ebay.json";
+import f675 from "./pl/services/facebook.json";
+import f676 from "./pl/services/fiverr.json";
+import f677 from "./pl/services/google.json";
+import f678 from "./pl/services/grab.json";
+import f679 from "./pl/services/instagram.json";
+import f680 from "./pl/services/kakaotalk.json";
+import f681 from "./pl/services/line.json";
+import f682 from "./pl/services/netflix.json";
+import f683 from "./pl/services/paypal.json";
+import f684 from "./pl/services/reddit.json";
+import f685 from "./pl/services/shopee.json";
+import f686 from "./pl/services/signal.json";
+import f687 from "./pl/services/snapchat.json";
+import f688 from "./pl/services/steam.json";
+import f689 from "./pl/services/telegram.json";
+import f690 from "./pl/services/tiktok.json";
+import f691 from "./pl/services/tinder.json";
+import f692 from "./pl/services/twitch.json";
+import f693 from "./pl/services/twitter.json";
+import f694 from "./pl/services/uber.json";
+import f695 from "./pl/services/viber.json";
+import f696 from "./pl/services/vkcom.json";
+import f697 from "./pl/services/wechat.json";
+import f698 from "./pl/services/whatsapp.json";
+import f699 from "./pl/services/zalo.json";
+import f700 from "./pl/services-ui.json";
+import f701 from "./pl/support.json";
+import f702 from "./pl/terms.json";
+import f703 from "./pl/ui.json";
+import f704 from "./pt/alternatives/5sim.json";
+import f705 from "./pt/alternatives/onlinesim.json";
+import f706 from "./pt/alternatives/sms-activate-org.json";
+import f707 from "./pt/alternatives/sms-man.json";
+import f708 from "./pt/alternatives/textverified.json";
+import f709 from "./pt/alternatives-ui.json";
+import f710 from "./pt/blog/brazilian-virtual-number-guide.json";
+import f711 from "./pt/blog/esim-vs-virtual-number.json";
+import f712 from "./pt/blog/google-account-without-phone-number.json";
+import f713 from "./pt/blog/how-to-receive-sms-online.json";
+import f714 from "./pt/blog/indian-virtual-number-guide.json";
+import f715 from "./pt/blog/indonesian-virtual-number-guide.json";
+import f716 from "./pt/blog/is-a-virtual-number-legal.json";
+import f717 from "./pt/blog/recycled-phone-numbers-risk.json";
+import f718 from "./pt/blog/second-whatsapp-account.json";
+import f719 from "./pt/blog/telegram-without-phone-number.json";
+import f720 from "./pt/blog/virtual-number-for-dating-apps.json";
+import f721 from "./pt/blog/what-is-a-virtual-phone-number.json";
+import f722 from "./pt/blog/why-apps-reject-voip-numbers.json";
+import f723 from "./pt/blog-ui.json";
+import f724 from "./pt/cookies.json";
+import f725 from "./pt/countries/brazil.json";
+import f726 from "./pt/countries/canada.json";
+import f727 from "./pt/countries/france.json";
+import f728 from "./pt/countries/germany.json";
+import f729 from "./pt/countries/india.json";
+import f730 from "./pt/countries/indonesia.json";
+import f731 from "./pt/countries/italy.json";
+import f732 from "./pt/countries/kazakhstan.json";
+import f733 from "./pt/countries/mexico.json";
+import f734 from "./pt/countries/netherlands.json";
+import f735 from "./pt/countries/philippines.json";
+import f736 from "./pt/countries/poland.json";
+import f737 from "./pt/countries/portugal.json";
+import f738 from "./pt/countries/spain.json";
+import f739 from "./pt/countries/thailand.json";
+import f740 from "./pt/countries/turkey.json";
+import f741 from "./pt/countries/ukraine.json";
+import f742 from "./pt/countries/united-kingdom.json";
+import f743 from "./pt/countries/united-states.json";
+import f744 from "./pt/countries/vietnam.json";
+import f745 from "./pt/help/account-balance.json";
+import f746 from "./pt/help/activation-issues.json";
+import f747 from "./pt/help/billing-coins-refunds.json";
+import f748 from "./pt/help/choosing-country.json";
+import f749 from "./pt/help/code-rejected.json";
+import f750 from "./pt/help/missing-coins.json";
+import f751 from "./pt/help/refund-apple.json";
+import f752 from "./pt/help/sms-not-received.json";
+import f753 from "./pt/home.json";
+import f754 from "./pt/privacy.json";
+import f755 from "./pt/services/adidas.json";
+import f756 from "./pt/services/airbnb.json";
+import f757 from "./pt/services/aliexpress.json";
+import f758 from "./pt/services/apple.json";
+import f759 from "./pt/services/binance.json";
+import f760 from "./pt/services/cursor.json";
+import f761 from "./pt/services/discord.json";
+import f762 from "./pt/services/ebay.json";
+import f763 from "./pt/services/facebook.json";
+import f764 from "./pt/services/fiverr.json";
+import f765 from "./pt/services/google.json";
+import f766 from "./pt/services/grab.json";
+import f767 from "./pt/services/instagram.json";
+import f768 from "./pt/services/kakaotalk.json";
+import f769 from "./pt/services/line.json";
+import f770 from "./pt/services/netflix.json";
+import f771 from "./pt/services/paypal.json";
+import f772 from "./pt/services/reddit.json";
+import f773 from "./pt/services/shopee.json";
+import f774 from "./pt/services/signal.json";
+import f775 from "./pt/services/snapchat.json";
+import f776 from "./pt/services/steam.json";
+import f777 from "./pt/services/telegram.json";
+import f778 from "./pt/services/tiktok.json";
+import f779 from "./pt/services/tinder.json";
+import f780 from "./pt/services/twitch.json";
+import f781 from "./pt/services/twitter.json";
+import f782 from "./pt/services/uber.json";
+import f783 from "./pt/services/viber.json";
+import f784 from "./pt/services/vkcom.json";
+import f785 from "./pt/services/wechat.json";
+import f786 from "./pt/services/whatsapp.json";
+import f787 from "./pt/services/zalo.json";
+import f788 from "./pt/services-ui.json";
+import f789 from "./pt/support.json";
+import f790 from "./pt/terms.json";
+import f791 from "./pt/ui.json";
+import f792 from "./ru/alternatives/5sim.json";
+import f793 from "./ru/alternatives/onlinesim.json";
+import f794 from "./ru/alternatives/sms-activate-org.json";
+import f795 from "./ru/alternatives/sms-man.json";
+import f796 from "./ru/alternatives/textverified.json";
+import f797 from "./ru/alternatives-ui.json";
+import f798 from "./ru/blog/brazilian-virtual-number-guide.json";
+import f799 from "./ru/blog/esim-vs-virtual-number.json";
+import f800 from "./ru/blog/google-account-without-phone-number.json";
+import f801 from "./ru/blog/how-to-receive-sms-online.json";
+import f802 from "./ru/blog/indian-virtual-number-guide.json";
+import f803 from "./ru/blog/indonesian-virtual-number-guide.json";
+import f804 from "./ru/blog/is-a-virtual-number-legal.json";
+import f805 from "./ru/blog/recycled-phone-numbers-risk.json";
+import f806 from "./ru/blog/second-whatsapp-account.json";
+import f807 from "./ru/blog/telegram-without-phone-number.json";
+import f808 from "./ru/blog/virtual-number-for-dating-apps.json";
+import f809 from "./ru/blog/what-is-a-virtual-phone-number.json";
+import f810 from "./ru/blog/why-apps-reject-voip-numbers.json";
+import f811 from "./ru/blog-ui.json";
+import f812 from "./ru/cookies.json";
+import f813 from "./ru/countries/brazil.json";
+import f814 from "./ru/countries/canada.json";
+import f815 from "./ru/countries/france.json";
+import f816 from "./ru/countries/germany.json";
+import f817 from "./ru/countries/india.json";
+import f818 from "./ru/countries/indonesia.json";
+import f819 from "./ru/countries/italy.json";
+import f820 from "./ru/countries/kazakhstan.json";
+import f821 from "./ru/countries/mexico.json";
+import f822 from "./ru/countries/netherlands.json";
+import f823 from "./ru/countries/philippines.json";
+import f824 from "./ru/countries/poland.json";
+import f825 from "./ru/countries/portugal.json";
+import f826 from "./ru/countries/spain.json";
+import f827 from "./ru/countries/thailand.json";
+import f828 from "./ru/countries/turkey.json";
+import f829 from "./ru/countries/ukraine.json";
+import f830 from "./ru/countries/united-kingdom.json";
+import f831 from "./ru/countries/united-states.json";
+import f832 from "./ru/countries/vietnam.json";
+import f833 from "./ru/help/account-balance.json";
+import f834 from "./ru/help/activation-issues.json";
+import f835 from "./ru/help/billing-coins-refunds.json";
+import f836 from "./ru/help/choosing-country.json";
+import f837 from "./ru/help/code-rejected.json";
+import f838 from "./ru/help/missing-coins.json";
+import f839 from "./ru/help/refund-apple.json";
+import f840 from "./ru/help/sms-not-received.json";
+import f841 from "./ru/home.json";
+import f842 from "./ru/privacy.json";
+import f843 from "./ru/services/adidas.json";
+import f844 from "./ru/services/airbnb.json";
+import f845 from "./ru/services/aliexpress.json";
+import f846 from "./ru/services/apple.json";
+import f847 from "./ru/services/binance.json";
+import f848 from "./ru/services/cursor.json";
+import f849 from "./ru/services/discord.json";
+import f850 from "./ru/services/ebay.json";
+import f851 from "./ru/services/facebook.json";
+import f852 from "./ru/services/fiverr.json";
+import f853 from "./ru/services/google.json";
+import f854 from "./ru/services/grab.json";
+import f855 from "./ru/services/instagram.json";
+import f856 from "./ru/services/kakaotalk.json";
+import f857 from "./ru/services/line.json";
+import f858 from "./ru/services/netflix.json";
+import f859 from "./ru/services/paypal.json";
+import f860 from "./ru/services/reddit.json";
+import f861 from "./ru/services/shopee.json";
+import f862 from "./ru/services/signal.json";
+import f863 from "./ru/services/snapchat.json";
+import f864 from "./ru/services/steam.json";
+import f865 from "./ru/services/telegram.json";
+import f866 from "./ru/services/tiktok.json";
+import f867 from "./ru/services/tinder.json";
+import f868 from "./ru/services/twitch.json";
+import f869 from "./ru/services/twitter.json";
+import f870 from "./ru/services/uber.json";
+import f871 from "./ru/services/viber.json";
+import f872 from "./ru/services/vkcom.json";
+import f873 from "./ru/services/wechat.json";
+import f874 from "./ru/services/whatsapp.json";
+import f875 from "./ru/services/zalo.json";
+import f876 from "./ru/services-ui.json";
+import f877 from "./ru/support.json";
+import f878 from "./ru/terms.json";
+import f879 from "./ru/ui.json";
+import f880 from "./tr/alternatives/5sim.json";
+import f881 from "./tr/alternatives/onlinesim.json";
+import f882 from "./tr/alternatives/sms-activate-org.json";
+import f883 from "./tr/alternatives/sms-man.json";
+import f884 from "./tr/alternatives/textverified.json";
+import f885 from "./tr/alternatives-ui.json";
+import f886 from "./tr/blog/brazilian-virtual-number-guide.json";
+import f887 from "./tr/blog/esim-vs-virtual-number.json";
+import f888 from "./tr/blog/google-account-without-phone-number.json";
+import f889 from "./tr/blog/how-to-receive-sms-online.json";
+import f890 from "./tr/blog/indian-virtual-number-guide.json";
+import f891 from "./tr/blog/indonesian-virtual-number-guide.json";
+import f892 from "./tr/blog/is-a-virtual-number-legal.json";
+import f893 from "./tr/blog/recycled-phone-numbers-risk.json";
+import f894 from "./tr/blog/second-whatsapp-account.json";
+import f895 from "./tr/blog/telegram-without-phone-number.json";
+import f896 from "./tr/blog/virtual-number-for-dating-apps.json";
+import f897 from "./tr/blog/what-is-a-virtual-phone-number.json";
+import f898 from "./tr/blog/why-apps-reject-voip-numbers.json";
+import f899 from "./tr/blog-ui.json";
+import f900 from "./tr/cookies.json";
+import f901 from "./tr/countries/brazil.json";
+import f902 from "./tr/countries/canada.json";
+import f903 from "./tr/countries/france.json";
+import f904 from "./tr/countries/germany.json";
+import f905 from "./tr/countries/india.json";
+import f906 from "./tr/countries/indonesia.json";
+import f907 from "./tr/countries/italy.json";
+import f908 from "./tr/countries/kazakhstan.json";
+import f909 from "./tr/countries/mexico.json";
+import f910 from "./tr/countries/netherlands.json";
+import f911 from "./tr/countries/philippines.json";
+import f912 from "./tr/countries/poland.json";
+import f913 from "./tr/countries/portugal.json";
+import f914 from "./tr/countries/spain.json";
+import f915 from "./tr/countries/thailand.json";
+import f916 from "./tr/countries/turkey.json";
+import f917 from "./tr/countries/ukraine.json";
+import f918 from "./tr/countries/united-kingdom.json";
+import f919 from "./tr/countries/united-states.json";
+import f920 from "./tr/countries/vietnam.json";
+import f921 from "./tr/help/account-balance.json";
+import f922 from "./tr/help/activation-issues.json";
+import f923 from "./tr/help/billing-coins-refunds.json";
+import f924 from "./tr/help/choosing-country.json";
+import f925 from "./tr/help/code-rejected.json";
+import f926 from "./tr/help/missing-coins.json";
+import f927 from "./tr/help/refund-apple.json";
+import f928 from "./tr/help/sms-not-received.json";
+import f929 from "./tr/home.json";
+import f930 from "./tr/privacy.json";
+import f931 from "./tr/services/adidas.json";
+import f932 from "./tr/services/airbnb.json";
+import f933 from "./tr/services/aliexpress.json";
+import f934 from "./tr/services/apple.json";
+import f935 from "./tr/services/binance.json";
+import f936 from "./tr/services/cursor.json";
+import f937 from "./tr/services/discord.json";
+import f938 from "./tr/services/ebay.json";
+import f939 from "./tr/services/facebook.json";
+import f940 from "./tr/services/fiverr.json";
+import f941 from "./tr/services/google.json";
+import f942 from "./tr/services/grab.json";
+import f943 from "./tr/services/instagram.json";
+import f944 from "./tr/services/kakaotalk.json";
+import f945 from "./tr/services/line.json";
+import f946 from "./tr/services/netflix.json";
+import f947 from "./tr/services/paypal.json";
+import f948 from "./tr/services/reddit.json";
+import f949 from "./tr/services/shopee.json";
+import f950 from "./tr/services/signal.json";
+import f951 from "./tr/services/snapchat.json";
+import f952 from "./tr/services/steam.json";
+import f953 from "./tr/services/telegram.json";
+import f954 from "./tr/services/tiktok.json";
+import f955 from "./tr/services/tinder.json";
+import f956 from "./tr/services/twitch.json";
+import f957 from "./tr/services/twitter.json";
+import f958 from "./tr/services/uber.json";
+import f959 from "./tr/services/viber.json";
+import f960 from "./tr/services/vkcom.json";
+import f961 from "./tr/services/wechat.json";
+import f962 from "./tr/services/whatsapp.json";
+import f963 from "./tr/services/zalo.json";
+import f964 from "./tr/services-ui.json";
+import f965 from "./tr/support.json";
+import f966 from "./tr/terms.json";
+import f967 from "./tr/ui.json";
+import f968 from "./uk/alternatives/5sim.json";
+import f969 from "./uk/alternatives/onlinesim.json";
+import f970 from "./uk/alternatives/sms-activate-org.json";
+import f971 from "./uk/alternatives/sms-man.json";
+import f972 from "./uk/alternatives/textverified.json";
+import f973 from "./uk/alternatives-ui.json";
+import f974 from "./uk/blog/brazilian-virtual-number-guide.json";
+import f975 from "./uk/blog/esim-vs-virtual-number.json";
+import f976 from "./uk/blog/google-account-without-phone-number.json";
+import f977 from "./uk/blog/how-to-receive-sms-online.json";
+import f978 from "./uk/blog/indian-virtual-number-guide.json";
+import f979 from "./uk/blog/indonesian-virtual-number-guide.json";
+import f980 from "./uk/blog/is-a-virtual-number-legal.json";
+import f981 from "./uk/blog/recycled-phone-numbers-risk.json";
+import f982 from "./uk/blog/second-whatsapp-account.json";
+import f983 from "./uk/blog/telegram-without-phone-number.json";
+import f984 from "./uk/blog/virtual-number-for-dating-apps.json";
+import f985 from "./uk/blog/what-is-a-virtual-phone-number.json";
+import f986 from "./uk/blog/why-apps-reject-voip-numbers.json";
+import f987 from "./uk/blog-ui.json";
+import f988 from "./uk/cookies.json";
+import f989 from "./uk/countries/brazil.json";
+import f990 from "./uk/countries/canada.json";
+import f991 from "./uk/countries/france.json";
+import f992 from "./uk/countries/germany.json";
+import f993 from "./uk/countries/india.json";
+import f994 from "./uk/countries/indonesia.json";
+import f995 from "./uk/countries/italy.json";
+import f996 from "./uk/countries/kazakhstan.json";
+import f997 from "./uk/countries/mexico.json";
+import f998 from "./uk/countries/netherlands.json";
+import f999 from "./uk/countries/philippines.json";
+import f1000 from "./uk/countries/poland.json";
+import f1001 from "./uk/countries/portugal.json";
+import f1002 from "./uk/countries/spain.json";
+import f1003 from "./uk/countries/thailand.json";
+import f1004 from "./uk/countries/turkey.json";
+import f1005 from "./uk/countries/ukraine.json";
+import f1006 from "./uk/countries/united-kingdom.json";
+import f1007 from "./uk/countries/united-states.json";
+import f1008 from "./uk/countries/vietnam.json";
+import f1009 from "./uk/help/account-balance.json";
+import f1010 from "./uk/help/activation-issues.json";
+import f1011 from "./uk/help/billing-coins-refunds.json";
+import f1012 from "./uk/help/choosing-country.json";
+import f1013 from "./uk/help/code-rejected.json";
+import f1014 from "./uk/help/missing-coins.json";
+import f1015 from "./uk/help/refund-apple.json";
+import f1016 from "./uk/help/sms-not-received.json";
+import f1017 from "./uk/home.json";
+import f1018 from "./uk/privacy.json";
+import f1019 from "./uk/services/adidas.json";
+import f1020 from "./uk/services/airbnb.json";
+import f1021 from "./uk/services/aliexpress.json";
+import f1022 from "./uk/services/apple.json";
+import f1023 from "./uk/services/binance.json";
+import f1024 from "./uk/services/cursor.json";
+import f1025 from "./uk/services/discord.json";
+import f1026 from "./uk/services/ebay.json";
+import f1027 from "./uk/services/facebook.json";
+import f1028 from "./uk/services/fiverr.json";
+import f1029 from "./uk/services/google.json";
+import f1030 from "./uk/services/grab.json";
+import f1031 from "./uk/services/instagram.json";
+import f1032 from "./uk/services/kakaotalk.json";
+import f1033 from "./uk/services/line.json";
+import f1034 from "./uk/services/netflix.json";
+import f1035 from "./uk/services/paypal.json";
+import f1036 from "./uk/services/reddit.json";
+import f1037 from "./uk/services/shopee.json";
+import f1038 from "./uk/services/signal.json";
+import f1039 from "./uk/services/snapchat.json";
+import f1040 from "./uk/services/steam.json";
+import f1041 from "./uk/services/telegram.json";
+import f1042 from "./uk/services/tiktok.json";
+import f1043 from "./uk/services/tinder.json";
+import f1044 from "./uk/services/twitch.json";
+import f1045 from "./uk/services/twitter.json";
+import f1046 from "./uk/services/uber.json";
+import f1047 from "./uk/services/viber.json";
+import f1048 from "./uk/services/vkcom.json";
+import f1049 from "./uk/services/wechat.json";
+import f1050 from "./uk/services/whatsapp.json";
+import f1051 from "./uk/services/zalo.json";
+import f1052 from "./uk/services-ui.json";
+import f1053 from "./uk/support.json";
+import f1054 from "./uk/terms.json";
+import f1055 from "./uk/ui.json";
+import f1056 from "./vi/alternatives/5sim.json";
+import f1057 from "./vi/alternatives/onlinesim.json";
+import f1058 from "./vi/alternatives/sms-activate-org.json";
+import f1059 from "./vi/alternatives/sms-man.json";
+import f1060 from "./vi/alternatives/textverified.json";
+import f1061 from "./vi/alternatives-ui.json";
+import f1062 from "./vi/blog/brazilian-virtual-number-guide.json";
+import f1063 from "./vi/blog/esim-vs-virtual-number.json";
+import f1064 from "./vi/blog/google-account-without-phone-number.json";
+import f1065 from "./vi/blog/how-to-receive-sms-online.json";
+import f1066 from "./vi/blog/indian-virtual-number-guide.json";
+import f1067 from "./vi/blog/indonesian-virtual-number-guide.json";
+import f1068 from "./vi/blog/is-a-virtual-number-legal.json";
+import f1069 from "./vi/blog/recycled-phone-numbers-risk.json";
+import f1070 from "./vi/blog/second-whatsapp-account.json";
+import f1071 from "./vi/blog/telegram-without-phone-number.json";
+import f1072 from "./vi/blog-ui.json";
+import f1073 from "./vi/cookies.json";
+import f1074 from "./vi/countries/brazil.json";
+import f1075 from "./vi/countries/canada.json";
+import f1076 from "./vi/countries/france.json";
+import f1077 from "./vi/countries/germany.json";
+import f1078 from "./vi/countries/india.json";
+import f1079 from "./vi/countries/indonesia.json";
+import f1080 from "./vi/countries/italy.json";
+import f1081 from "./vi/countries/kazakhstan.json";
+import f1082 from "./vi/countries/mexico.json";
+import f1083 from "./vi/countries/netherlands.json";
+import f1084 from "./vi/countries/philippines.json";
+import f1085 from "./vi/countries/poland.json";
+import f1086 from "./vi/countries/portugal.json";
+import f1087 from "./vi/countries/spain.json";
+import f1088 from "./vi/countries/thailand.json";
+import f1089 from "./vi/countries/turkey.json";
+import f1090 from "./vi/countries/ukraine.json";
+import f1091 from "./vi/countries/united-kingdom.json";
+import f1092 from "./vi/countries/united-states.json";
+import f1093 from "./vi/countries/vietnam.json";
+import f1094 from "./vi/help/account-balance.json";
+import f1095 from "./vi/help/activation-issues.json";
+import f1096 from "./vi/help/billing-coins-refunds.json";
+import f1097 from "./vi/help/choosing-country.json";
+import f1098 from "./vi/help/code-rejected.json";
+import f1099 from "./vi/help/missing-coins.json";
+import f1100 from "./vi/help/refund-apple.json";
+import f1101 from "./vi/help/sms-not-received.json";
+import f1102 from "./vi/home.json";
+import f1103 from "./vi/privacy.json";
+import f1104 from "./vi/services/adidas.json";
+import f1105 from "./vi/services/airbnb.json";
+import f1106 from "./vi/services/aliexpress.json";
+import f1107 from "./vi/services/apple.json";
+import f1108 from "./vi/services/binance.json";
+import f1109 from "./vi/services/cursor.json";
+import f1110 from "./vi/services/discord.json";
+import f1111 from "./vi/services/ebay.json";
+import f1112 from "./vi/services/facebook.json";
+import f1113 from "./vi/services/fiverr.json";
+import f1114 from "./vi/services/google.json";
+import f1115 from "./vi/services/grab.json";
+import f1116 from "./vi/services/instagram.json";
+import f1117 from "./vi/services/kakaotalk.json";
+import f1118 from "./vi/services/line.json";
+import f1119 from "./vi/services/netflix.json";
+import f1120 from "./vi/services/paypal.json";
+import f1121 from "./vi/services/reddit.json";
+import f1122 from "./vi/services/shopee.json";
+import f1123 from "./vi/services/signal.json";
+import f1124 from "./vi/services/snapchat.json";
+import f1125 from "./vi/services/steam.json";
+import f1126 from "./vi/services/telegram.json";
+import f1127 from "./vi/services/tiktok.json";
+import f1128 from "./vi/services/tinder.json";
+import f1129 from "./vi/services/twitch.json";
+import f1130 from "./vi/services/twitter.json";
+import f1131 from "./vi/services/uber.json";
+import f1132 from "./vi/services/viber.json";
+import f1133 from "./vi/services/vkcom.json";
+import f1134 from "./vi/services/wechat.json";
+import f1135 from "./vi/services/whatsapp.json";
+import f1136 from "./vi/services/zalo.json";
+import f1137 from "./vi/services-ui.json";
+import f1138 from "./vi/support.json";
+import f1139 from "./vi/terms.json";
+import f1140 from "./vi/ui.json";
+import f1141 from "./zh/alternatives/5sim.json";
+import f1142 from "./zh/alternatives/onlinesim.json";
+import f1143 from "./zh/alternatives/sms-activate-org.json";
+import f1144 from "./zh/alternatives/sms-man.json";
+import f1145 from "./zh/alternatives/textverified.json";
+import f1146 from "./zh/alternatives-ui.json";
+import f1147 from "./zh/blog/brazilian-virtual-number-guide.json";
+import f1148 from "./zh/blog/esim-vs-virtual-number.json";
+import f1149 from "./zh/blog/google-account-without-phone-number.json";
+import f1150 from "./zh/blog/how-to-receive-sms-online.json";
+import f1151 from "./zh/blog/indian-virtual-number-guide.json";
+import f1152 from "./zh/blog/indonesian-virtual-number-guide.json";
+import f1153 from "./zh/blog/is-a-virtual-number-legal.json";
+import f1154 from "./zh/blog/recycled-phone-numbers-risk.json";
+import f1155 from "./zh/blog/second-whatsapp-account.json";
+import f1156 from "./zh/blog/telegram-without-phone-number.json";
+import f1157 from "./zh/blog/virtual-number-for-dating-apps.json";
+import f1158 from "./zh/blog/what-is-a-virtual-phone-number.json";
+import f1159 from "./zh/blog/why-apps-reject-voip-numbers.json";
+import f1160 from "./zh/blog-ui.json";
+import f1161 from "./zh/cookies.json";
+import f1162 from "./zh/countries/brazil.json";
+import f1163 from "./zh/countries/canada.json";
+import f1164 from "./zh/countries/france.json";
+import f1165 from "./zh/countries/germany.json";
+import f1166 from "./zh/countries/india.json";
+import f1167 from "./zh/countries/indonesia.json";
+import f1168 from "./zh/countries/italy.json";
+import f1169 from "./zh/countries/kazakhstan.json";
+import f1170 from "./zh/countries/mexico.json";
+import f1171 from "./zh/countries/netherlands.json";
+import f1172 from "./zh/countries/philippines.json";
+import f1173 from "./zh/countries/poland.json";
+import f1174 from "./zh/countries/portugal.json";
+import f1175 from "./zh/countries/spain.json";
+import f1176 from "./zh/countries/thailand.json";
+import f1177 from "./zh/countries/turkey.json";
+import f1178 from "./zh/countries/ukraine.json";
+import f1179 from "./zh/countries/united-kingdom.json";
+import f1180 from "./zh/countries/united-states.json";
+import f1181 from "./zh/countries/vietnam.json";
+import f1182 from "./zh/help/account-balance.json";
+import f1183 from "./zh/help/activation-issues.json";
+import f1184 from "./zh/help/billing-coins-refunds.json";
+import f1185 from "./zh/help/choosing-country.json";
+import f1186 from "./zh/help/code-rejected.json";
+import f1187 from "./zh/help/missing-coins.json";
+import f1188 from "./zh/help/refund-apple.json";
+import f1189 from "./zh/help/sms-not-received.json";
+import f1190 from "./zh/home.json";
+import f1191 from "./zh/privacy.json";
+import f1192 from "./zh/services/adidas.json";
+import f1193 from "./zh/services/airbnb.json";
+import f1194 from "./zh/services/aliexpress.json";
+import f1195 from "./zh/services/apple.json";
+import f1196 from "./zh/services/binance.json";
+import f1197 from "./zh/services/cursor.json";
+import f1198 from "./zh/services/discord.json";
+import f1199 from "./zh/services/ebay.json";
+import f1200 from "./zh/services/facebook.json";
+import f1201 from "./zh/services/fiverr.json";
+import f1202 from "./zh/services/google.json";
+import f1203 from "./zh/services/grab.json";
+import f1204 from "./zh/services/instagram.json";
+import f1205 from "./zh/services/kakaotalk.json";
+import f1206 from "./zh/services/line.json";
+import f1207 from "./zh/services/netflix.json";
+import f1208 from "./zh/services/paypal.json";
+import f1209 from "./zh/services/reddit.json";
+import f1210 from "./zh/services/shopee.json";
+import f1211 from "./zh/services/signal.json";
+import f1212 from "./zh/services/snapchat.json";
+import f1213 from "./zh/services/steam.json";
+import f1214 from "./zh/services/telegram.json";
+import f1215 from "./zh/services/tiktok.json";
+import f1216 from "./zh/services/tinder.json";
+import f1217 from "./zh/services/twitch.json";
+import f1218 from "./zh/services/twitter.json";
+import f1219 from "./zh/services/uber.json";
+import f1220 from "./zh/services/viber.json";
+import f1221 from "./zh/services/vkcom.json";
+import f1222 from "./zh/services/wechat.json";
+import f1223 from "./zh/services/whatsapp.json";
+import f1224 from "./zh/services/zalo.json";
+import f1225 from "./zh/services-ui.json";
+import f1226 from "./zh/support.json";
+import f1227 from "./zh/terms.json";
+import f1228 from "./zh/ui.json";
 
 export const LOCALE_FILES: Record<string, Record<string, unknown>> = {
   "ar": {
@@ -788,797 +1237,1254 @@ export const LOCALE_FILES: Record<string, Record<string, unknown>> = {
     "alternatives/sms-man": f3,
     "alternatives/textverified": f4,
     "alternatives-ui": f5,
-    "blog/esim-vs-virtual-number": f6,
-    "blog/google-account-without-phone-number": f7,
-    "blog/how-to-receive-sms-online": f8,
-    "blog/second-whatsapp-account": f9,
-    "blog/telegram-without-phone-number": f10,
-    "blog/virtual-number-for-dating-apps": f11,
-    "blog/what-is-a-virtual-phone-number": f12,
-    "blog-ui": f13,
-    "cookies": f14,
-    "countries/brazil": f15,
-    "countries/canada": f16,
-    "countries/france": f17,
-    "countries/germany": f18,
-    "countries/india": f19,
-    "countries/indonesia": f20,
-    "countries/italy": f21,
-    "countries/kazakhstan": f22,
-    "countries/mexico": f23,
-    "countries/netherlands": f24,
-    "countries/philippines": f25,
-    "countries/poland": f26,
-    "countries/portugal": f27,
-    "countries/spain": f28,
-    "countries/thailand": f29,
-    "countries/turkey": f30,
-    "countries/ukraine": f31,
-    "countries/united-kingdom": f32,
-    "countries/united-states": f33,
-    "countries/vietnam": f34,
-    "help/account-balance": f35,
-    "help/activation-issues": f36,
-    "help/billing-coins-refunds": f37,
-    "help/choosing-country": f38,
-    "home": f39,
-    "privacy": f40,
-    "services/adidas": f41,
-    "services/airbnb": f42,
-    "services/aliexpress": f43,
-    "services/apple": f44,
-    "services/binance": f45,
-    "services/cursor": f46,
-    "services/discord": f47,
-    "services/ebay": f48,
-    "services/facebook": f49,
-    "services/fiverr": f50,
-    "services/google": f51,
-    "services/grab": f52,
-    "services/instagram": f53,
-    "services/kakaotalk": f54,
-    "services/line": f55,
-    "services/netflix": f56,
-    "services/paypal": f57,
-    "services/reddit": f58,
-    "services/shopee": f59,
-    "services/signal": f60,
-    "services/snapchat": f61,
-    "services/steam": f62,
-    "services/telegram": f63,
-    "services/tiktok": f64,
-    "services/tinder": f65,
-    "services/twitch": f66,
-    "services/twitter": f67,
-    "services/uber": f68,
-    "services/viber": f69,
-    "services/vkcom": f70,
-    "services/wechat": f71,
-    "services/whatsapp": f72,
-    "services/zalo": f73,
-    "services-ui": f74,
-    "support": f75,
-    "terms": f76,
-    "ui": f77,
+    "blog/brazilian-virtual-number-guide": f6,
+    "blog/esim-vs-virtual-number": f7,
+    "blog/google-account-without-phone-number": f8,
+    "blog/how-to-receive-sms-online": f9,
+    "blog/indian-virtual-number-guide": f10,
+    "blog/indonesian-virtual-number-guide": f11,
+    "blog/is-a-virtual-number-legal": f12,
+    "blog/recycled-phone-numbers-risk": f13,
+    "blog/second-whatsapp-account": f14,
+    "blog/telegram-without-phone-number": f15,
+    "blog/virtual-number-for-dating-apps": f16,
+    "blog/what-is-a-virtual-phone-number": f17,
+    "blog/why-apps-reject-voip-numbers": f18,
+    "blog-ui": f19,
+    "cookies": f20,
+    "countries/brazil": f21,
+    "countries/canada": f22,
+    "countries/france": f23,
+    "countries/germany": f24,
+    "countries/india": f25,
+    "countries/indonesia": f26,
+    "countries/italy": f27,
+    "countries/kazakhstan": f28,
+    "countries/mexico": f29,
+    "countries/netherlands": f30,
+    "countries/philippines": f31,
+    "countries/poland": f32,
+    "countries/portugal": f33,
+    "countries/spain": f34,
+    "countries/thailand": f35,
+    "countries/turkey": f36,
+    "countries/ukraine": f37,
+    "countries/united-kingdom": f38,
+    "countries/united-states": f39,
+    "countries/vietnam": f40,
+    "help/account-balance": f41,
+    "help/activation-issues": f42,
+    "help/billing-coins-refunds": f43,
+    "help/choosing-country": f44,
+    "help/code-rejected": f45,
+    "help/missing-coins": f46,
+    "help/refund-apple": f47,
+    "help/sms-not-received": f48,
+    "home": f49,
+    "privacy": f50,
+    "services/adidas": f51,
+    "services/airbnb": f52,
+    "services/aliexpress": f53,
+    "services/apple": f54,
+    "services/binance": f55,
+    "services/cursor": f56,
+    "services/discord": f57,
+    "services/ebay": f58,
+    "services/facebook": f59,
+    "services/fiverr": f60,
+    "services/google": f61,
+    "services/grab": f62,
+    "services/instagram": f63,
+    "services/kakaotalk": f64,
+    "services/line": f65,
+    "services/netflix": f66,
+    "services/paypal": f67,
+    "services/reddit": f68,
+    "services/shopee": f69,
+    "services/signal": f70,
+    "services/snapchat": f71,
+    "services/steam": f72,
+    "services/telegram": f73,
+    "services/tiktok": f74,
+    "services/tinder": f75,
+    "services/twitch": f76,
+    "services/twitter": f77,
+    "services/uber": f78,
+    "services/viber": f79,
+    "services/vkcom": f80,
+    "services/wechat": f81,
+    "services/whatsapp": f82,
+    "services/zalo": f83,
+    "services-ui": f84,
+    "support": f85,
+    "terms": f86,
+    "ui": f87,
+  },
+  "de": {
+    "alternatives/5sim": f88,
+    "alternatives/onlinesim": f89,
+    "alternatives/sms-activate-org": f90,
+    "alternatives/sms-man": f91,
+    "alternatives/textverified": f92,
+    "alternatives-ui": f93,
+    "blog/brazilian-virtual-number-guide": f94,
+    "blog/esim-vs-virtual-number": f95,
+    "blog/google-account-without-phone-number": f96,
+    "blog/how-to-receive-sms-online": f97,
+    "blog/indian-virtual-number-guide": f98,
+    "blog/indonesian-virtual-number-guide": f99,
+    "blog/is-a-virtual-number-legal": f100,
+    "blog/recycled-phone-numbers-risk": f101,
+    "blog/second-whatsapp-account": f102,
+    "blog/telegram-without-phone-number": f103,
+    "blog/virtual-number-for-dating-apps": f104,
+    "blog/what-is-a-virtual-phone-number": f105,
+    "blog/why-apps-reject-voip-numbers": f106,
+    "blog-ui": f107,
+    "cookies": f108,
+    "countries/brazil": f109,
+    "countries/canada": f110,
+    "countries/france": f111,
+    "countries/germany": f112,
+    "countries/india": f113,
+    "countries/indonesia": f114,
+    "countries/italy": f115,
+    "countries/kazakhstan": f116,
+    "countries/mexico": f117,
+    "countries/netherlands": f118,
+    "countries/philippines": f119,
+    "countries/poland": f120,
+    "countries/portugal": f121,
+    "countries/spain": f122,
+    "countries/thailand": f123,
+    "countries/turkey": f124,
+    "countries/ukraine": f125,
+    "countries/united-kingdom": f126,
+    "countries/united-states": f127,
+    "countries/vietnam": f128,
+    "help/account-balance": f129,
+    "help/activation-issues": f130,
+    "help/billing-coins-refunds": f131,
+    "help/choosing-country": f132,
+    "help/code-rejected": f133,
+    "help/missing-coins": f134,
+    "help/refund-apple": f135,
+    "help/sms-not-received": f136,
+    "home": f137,
+    "privacy": f138,
+    "services/adidas": f139,
+    "services/airbnb": f140,
+    "services/aliexpress": f141,
+    "services/apple": f142,
+    "services/binance": f143,
+    "services/cursor": f144,
+    "services/discord": f145,
+    "services/ebay": f146,
+    "services/facebook": f147,
+    "services/fiverr": f148,
+    "services/google": f149,
+    "services/grab": f150,
+    "services/instagram": f151,
+    "services/kakaotalk": f152,
+    "services/line": f153,
+    "services/netflix": f154,
+    "services/paypal": f155,
+    "services/reddit": f156,
+    "services/shopee": f157,
+    "services/signal": f158,
+    "services/snapchat": f159,
+    "services/steam": f160,
+    "services/telegram": f161,
+    "services/tiktok": f162,
+    "services/tinder": f163,
+    "services/twitch": f164,
+    "services/twitter": f165,
+    "services/uber": f166,
+    "services/viber": f167,
+    "services/vkcom": f168,
+    "services/wechat": f169,
+    "services/whatsapp": f170,
+    "services/zalo": f171,
+    "services-ui": f172,
+    "support": f173,
+    "terms": f174,
+    "ui": f175,
   },
   "en": {
-    "alternatives/5sim": f78,
-    "alternatives/onlinesim": f79,
-    "alternatives/sms-activate-org": f80,
-    "alternatives/sms-man": f81,
-    "alternatives/textverified": f82,
-    "alternatives-ui": f83,
-    "blog/esim-vs-virtual-number": f84,
-    "blog/google-account-without-phone-number": f85,
-    "blog/how-to-receive-sms-online": f86,
-    "blog/second-whatsapp-account": f87,
-    "blog/telegram-without-phone-number": f88,
-    "blog/virtual-number-for-dating-apps": f89,
-    "blog/what-is-a-virtual-phone-number": f90,
-    "blog-ui": f91,
-    "cookies": f92,
-    "countries/brazil": f93,
-    "countries/canada": f94,
-    "countries/france": f95,
-    "countries/germany": f96,
-    "countries/india": f97,
-    "countries/indonesia": f98,
-    "countries/italy": f99,
-    "countries/kazakhstan": f100,
-    "countries/mexico": f101,
-    "countries/netherlands": f102,
-    "countries/philippines": f103,
-    "countries/poland": f104,
-    "countries/portugal": f105,
-    "countries/spain": f106,
-    "countries/thailand": f107,
-    "countries/turkey": f108,
-    "countries/ukraine": f109,
-    "countries/united-kingdom": f110,
-    "countries/united-states": f111,
-    "countries/vietnam": f112,
-    "help/account-balance": f113,
-    "help/activation-issues": f114,
-    "help/billing-coins-refunds": f115,
-    "help/choosing-country": f116,
-    "home": f117,
-    "privacy": f118,
-    "services/adidas": f119,
-    "services/airbnb": f120,
-    "services/aliexpress": f121,
-    "services/apple": f122,
-    "services/binance": f123,
-    "services/cursor": f124,
-    "services/discord": f125,
-    "services/ebay": f126,
-    "services/facebook": f127,
-    "services/fiverr": f128,
-    "services/google": f129,
-    "services/grab": f130,
-    "services/instagram": f131,
-    "services/kakaotalk": f132,
-    "services/line": f133,
-    "services/netflix": f134,
-    "services/paypal": f135,
-    "services/reddit": f136,
-    "services/shopee": f137,
-    "services/signal": f138,
-    "services/snapchat": f139,
-    "services/steam": f140,
-    "services/telegram": f141,
-    "services/tiktok": f142,
-    "services/tinder": f143,
-    "services/twitch": f144,
-    "services/twitter": f145,
-    "services/uber": f146,
-    "services/viber": f147,
-    "services/vkcom": f148,
-    "services/wechat": f149,
-    "services/whatsapp": f150,
-    "services/zalo": f151,
-    "services-ui": f152,
-    "support": f153,
-    "terms": f154,
-    "ui": f155,
+    "alternatives/5sim": f176,
+    "alternatives/onlinesim": f177,
+    "alternatives/sms-activate-org": f178,
+    "alternatives/sms-man": f179,
+    "alternatives/textverified": f180,
+    "alternatives-ui": f181,
+    "blog/brazilian-virtual-number-guide": f182,
+    "blog/esim-vs-virtual-number": f183,
+    "blog/google-account-without-phone-number": f184,
+    "blog/how-to-receive-sms-online": f185,
+    "blog/indian-virtual-number-guide": f186,
+    "blog/indonesian-virtual-number-guide": f187,
+    "blog/is-a-virtual-number-legal": f188,
+    "blog/recycled-phone-numbers-risk": f189,
+    "blog/second-whatsapp-account": f190,
+    "blog/telegram-without-phone-number": f191,
+    "blog/virtual-number-for-dating-apps": f192,
+    "blog/what-is-a-virtual-phone-number": f193,
+    "blog/why-apps-reject-voip-numbers": f194,
+    "blog-ui": f195,
+    "cookies": f196,
+    "countries/brazil": f197,
+    "countries/canada": f198,
+    "countries/france": f199,
+    "countries/germany": f200,
+    "countries/india": f201,
+    "countries/indonesia": f202,
+    "countries/italy": f203,
+    "countries/kazakhstan": f204,
+    "countries/mexico": f205,
+    "countries/netherlands": f206,
+    "countries/philippines": f207,
+    "countries/poland": f208,
+    "countries/portugal": f209,
+    "countries/spain": f210,
+    "countries/thailand": f211,
+    "countries/turkey": f212,
+    "countries/ukraine": f213,
+    "countries/united-kingdom": f214,
+    "countries/united-states": f215,
+    "countries/vietnam": f216,
+    "help/account-balance": f217,
+    "help/activation-issues": f218,
+    "help/billing-coins-refunds": f219,
+    "help/choosing-country": f220,
+    "help/code-rejected": f221,
+    "help/missing-coins": f222,
+    "help/refund-apple": f223,
+    "help/sms-not-received": f224,
+    "home": f225,
+    "privacy": f226,
+    "services/adidas": f227,
+    "services/airbnb": f228,
+    "services/aliexpress": f229,
+    "services/apple": f230,
+    "services/binance": f231,
+    "services/cursor": f232,
+    "services/discord": f233,
+    "services/ebay": f234,
+    "services/facebook": f235,
+    "services/fiverr": f236,
+    "services/google": f237,
+    "services/grab": f238,
+    "services/instagram": f239,
+    "services/kakaotalk": f240,
+    "services/line": f241,
+    "services/netflix": f242,
+    "services/paypal": f243,
+    "services/reddit": f244,
+    "services/shopee": f245,
+    "services/signal": f246,
+    "services/snapchat": f247,
+    "services/steam": f248,
+    "services/telegram": f249,
+    "services/tiktok": f250,
+    "services/tinder": f251,
+    "services/twitch": f252,
+    "services/twitter": f253,
+    "services/uber": f254,
+    "services/viber": f255,
+    "services/vkcom": f256,
+    "services/wechat": f257,
+    "services/whatsapp": f258,
+    "services/zalo": f259,
+    "services-ui": f260,
+    "support": f261,
+    "terms": f262,
+    "ui": f263,
   },
   "es": {
-    "alternatives/5sim": f156,
-    "alternatives/onlinesim": f157,
-    "alternatives/sms-activate-org": f158,
-    "alternatives/sms-man": f159,
-    "alternatives/textverified": f160,
-    "alternatives-ui": f161,
-    "blog/esim-vs-virtual-number": f162,
-    "blog/google-account-without-phone-number": f163,
-    "blog/how-to-receive-sms-online": f164,
-    "blog/second-whatsapp-account": f165,
-    "blog/telegram-without-phone-number": f166,
-    "blog/virtual-number-for-dating-apps": f167,
-    "blog/what-is-a-virtual-phone-number": f168,
-    "blog-ui": f169,
-    "cookies": f170,
-    "countries/brazil": f171,
-    "countries/canada": f172,
-    "countries/france": f173,
-    "countries/germany": f174,
-    "countries/india": f175,
-    "countries/indonesia": f176,
-    "countries/italy": f177,
-    "countries/kazakhstan": f178,
-    "countries/mexico": f179,
-    "countries/netherlands": f180,
-    "countries/philippines": f181,
-    "countries/poland": f182,
-    "countries/portugal": f183,
-    "countries/spain": f184,
-    "countries/thailand": f185,
-    "countries/turkey": f186,
-    "countries/ukraine": f187,
-    "countries/united-kingdom": f188,
-    "countries/united-states": f189,
-    "countries/vietnam": f190,
-    "help/account-balance": f191,
-    "help/activation-issues": f192,
-    "help/billing-coins-refunds": f193,
-    "help/choosing-country": f194,
-    "home": f195,
-    "privacy": f196,
-    "services/adidas": f197,
-    "services/airbnb": f198,
-    "services/aliexpress": f199,
-    "services/apple": f200,
-    "services/binance": f201,
-    "services/cursor": f202,
-    "services/discord": f203,
-    "services/ebay": f204,
-    "services/facebook": f205,
-    "services/fiverr": f206,
-    "services/google": f207,
-    "services/grab": f208,
-    "services/instagram": f209,
-    "services/kakaotalk": f210,
-    "services/line": f211,
-    "services/netflix": f212,
-    "services/paypal": f213,
-    "services/reddit": f214,
-    "services/shopee": f215,
-    "services/signal": f216,
-    "services/snapchat": f217,
-    "services/steam": f218,
-    "services/telegram": f219,
-    "services/tiktok": f220,
-    "services/tinder": f221,
-    "services/twitch": f222,
-    "services/twitter": f223,
-    "services/uber": f224,
-    "services/viber": f225,
-    "services/vkcom": f226,
-    "services/wechat": f227,
-    "services/whatsapp": f228,
-    "services/zalo": f229,
-    "services-ui": f230,
-    "support": f231,
-    "terms": f232,
-    "ui": f233,
+    "alternatives/5sim": f264,
+    "alternatives/onlinesim": f265,
+    "alternatives/sms-activate-org": f266,
+    "alternatives/sms-man": f267,
+    "alternatives/textverified": f268,
+    "alternatives-ui": f269,
+    "blog/brazilian-virtual-number-guide": f270,
+    "blog/esim-vs-virtual-number": f271,
+    "blog/google-account-without-phone-number": f272,
+    "blog/how-to-receive-sms-online": f273,
+    "blog/indian-virtual-number-guide": f274,
+    "blog/indonesian-virtual-number-guide": f275,
+    "blog/is-a-virtual-number-legal": f276,
+    "blog/recycled-phone-numbers-risk": f277,
+    "blog/second-whatsapp-account": f278,
+    "blog/telegram-without-phone-number": f279,
+    "blog/virtual-number-for-dating-apps": f280,
+    "blog/what-is-a-virtual-phone-number": f281,
+    "blog/why-apps-reject-voip-numbers": f282,
+    "blog-ui": f283,
+    "cookies": f284,
+    "countries/brazil": f285,
+    "countries/canada": f286,
+    "countries/france": f287,
+    "countries/germany": f288,
+    "countries/india": f289,
+    "countries/indonesia": f290,
+    "countries/italy": f291,
+    "countries/kazakhstan": f292,
+    "countries/mexico": f293,
+    "countries/netherlands": f294,
+    "countries/philippines": f295,
+    "countries/poland": f296,
+    "countries/portugal": f297,
+    "countries/spain": f298,
+    "countries/thailand": f299,
+    "countries/turkey": f300,
+    "countries/ukraine": f301,
+    "countries/united-kingdom": f302,
+    "countries/united-states": f303,
+    "countries/vietnam": f304,
+    "help/account-balance": f305,
+    "help/activation-issues": f306,
+    "help/billing-coins-refunds": f307,
+    "help/choosing-country": f308,
+    "help/code-rejected": f309,
+    "help/missing-coins": f310,
+    "help/refund-apple": f311,
+    "help/sms-not-received": f312,
+    "home": f313,
+    "privacy": f314,
+    "services/adidas": f315,
+    "services/airbnb": f316,
+    "services/aliexpress": f317,
+    "services/apple": f318,
+    "services/binance": f319,
+    "services/cursor": f320,
+    "services/discord": f321,
+    "services/ebay": f322,
+    "services/facebook": f323,
+    "services/fiverr": f324,
+    "services/google": f325,
+    "services/grab": f326,
+    "services/instagram": f327,
+    "services/kakaotalk": f328,
+    "services/line": f329,
+    "services/netflix": f330,
+    "services/paypal": f331,
+    "services/reddit": f332,
+    "services/shopee": f333,
+    "services/signal": f334,
+    "services/snapchat": f335,
+    "services/steam": f336,
+    "services/telegram": f337,
+    "services/tiktok": f338,
+    "services/tinder": f339,
+    "services/twitch": f340,
+    "services/twitter": f341,
+    "services/uber": f342,
+    "services/viber": f343,
+    "services/vkcom": f344,
+    "services/wechat": f345,
+    "services/whatsapp": f346,
+    "services/zalo": f347,
+    "services-ui": f348,
+    "support": f349,
+    "terms": f350,
+    "ui": f351,
   },
   "fr": {
-    "alternatives/5sim": f234,
-    "alternatives/onlinesim": f235,
-    "alternatives/sms-activate-org": f236,
-    "alternatives/sms-man": f237,
-    "alternatives/textverified": f238,
-    "alternatives-ui": f239,
-    "blog/esim-vs-virtual-number": f240,
-    "blog/google-account-without-phone-number": f241,
-    "blog/how-to-receive-sms-online": f242,
-    "blog/second-whatsapp-account": f243,
-    "blog/telegram-without-phone-number": f244,
-    "blog/virtual-number-for-dating-apps": f245,
-    "blog/what-is-a-virtual-phone-number": f246,
-    "blog-ui": f247,
-    "cookies": f248,
-    "countries/brazil": f249,
-    "countries/canada": f250,
-    "countries/france": f251,
-    "countries/germany": f252,
-    "countries/india": f253,
-    "countries/indonesia": f254,
-    "countries/italy": f255,
-    "countries/kazakhstan": f256,
-    "countries/mexico": f257,
-    "countries/netherlands": f258,
-    "countries/philippines": f259,
-    "countries/poland": f260,
-    "countries/portugal": f261,
-    "countries/spain": f262,
-    "countries/thailand": f263,
-    "countries/turkey": f264,
-    "countries/ukraine": f265,
-    "countries/united-kingdom": f266,
-    "countries/united-states": f267,
-    "countries/vietnam": f268,
-    "help/account-balance": f269,
-    "help/activation-issues": f270,
-    "help/billing-coins-refunds": f271,
-    "help/choosing-country": f272,
-    "home": f273,
-    "privacy": f274,
-    "services/adidas": f275,
-    "services/airbnb": f276,
-    "services/aliexpress": f277,
-    "services/apple": f278,
-    "services/binance": f279,
-    "services/cursor": f280,
-    "services/discord": f281,
-    "services/ebay": f282,
-    "services/facebook": f283,
-    "services/fiverr": f284,
-    "services/google": f285,
-    "services/grab": f286,
-    "services/instagram": f287,
-    "services/kakaotalk": f288,
-    "services/line": f289,
-    "services/netflix": f290,
-    "services/paypal": f291,
-    "services/reddit": f292,
-    "services/shopee": f293,
-    "services/signal": f294,
-    "services/snapchat": f295,
-    "services/steam": f296,
-    "services/telegram": f297,
-    "services/tiktok": f298,
-    "services/tinder": f299,
-    "services/twitch": f300,
-    "services/twitter": f301,
-    "services/uber": f302,
-    "services/viber": f303,
-    "services/vkcom": f304,
-    "services/wechat": f305,
-    "services/whatsapp": f306,
-    "services/zalo": f307,
-    "services-ui": f308,
-    "support": f309,
-    "terms": f310,
-    "ui": f311,
+    "alternatives/5sim": f352,
+    "alternatives/onlinesim": f353,
+    "alternatives/sms-activate-org": f354,
+    "alternatives/sms-man": f355,
+    "alternatives/textverified": f356,
+    "alternatives-ui": f357,
+    "blog/brazilian-virtual-number-guide": f358,
+    "blog/esim-vs-virtual-number": f359,
+    "blog/google-account-without-phone-number": f360,
+    "blog/how-to-receive-sms-online": f361,
+    "blog/indian-virtual-number-guide": f362,
+    "blog/indonesian-virtual-number-guide": f363,
+    "blog/is-a-virtual-number-legal": f364,
+    "blog/recycled-phone-numbers-risk": f365,
+    "blog/second-whatsapp-account": f366,
+    "blog/telegram-without-phone-number": f367,
+    "blog/virtual-number-for-dating-apps": f368,
+    "blog/what-is-a-virtual-phone-number": f369,
+    "blog/why-apps-reject-voip-numbers": f370,
+    "blog-ui": f371,
+    "cookies": f372,
+    "countries/brazil": f373,
+    "countries/canada": f374,
+    "countries/france": f375,
+    "countries/germany": f376,
+    "countries/india": f377,
+    "countries/indonesia": f378,
+    "countries/italy": f379,
+    "countries/kazakhstan": f380,
+    "countries/mexico": f381,
+    "countries/netherlands": f382,
+    "countries/philippines": f383,
+    "countries/poland": f384,
+    "countries/portugal": f385,
+    "countries/spain": f386,
+    "countries/thailand": f387,
+    "countries/turkey": f388,
+    "countries/ukraine": f389,
+    "countries/united-kingdom": f390,
+    "countries/united-states": f391,
+    "countries/vietnam": f392,
+    "help/account-balance": f393,
+    "help/activation-issues": f394,
+    "help/billing-coins-refunds": f395,
+    "help/choosing-country": f396,
+    "help/code-rejected": f397,
+    "help/missing-coins": f398,
+    "help/refund-apple": f399,
+    "help/sms-not-received": f400,
+    "home": f401,
+    "privacy": f402,
+    "services/adidas": f403,
+    "services/airbnb": f404,
+    "services/aliexpress": f405,
+    "services/apple": f406,
+    "services/binance": f407,
+    "services/cursor": f408,
+    "services/discord": f409,
+    "services/ebay": f410,
+    "services/facebook": f411,
+    "services/fiverr": f412,
+    "services/google": f413,
+    "services/grab": f414,
+    "services/instagram": f415,
+    "services/kakaotalk": f416,
+    "services/line": f417,
+    "services/netflix": f418,
+    "services/paypal": f419,
+    "services/reddit": f420,
+    "services/shopee": f421,
+    "services/signal": f422,
+    "services/snapchat": f423,
+    "services/steam": f424,
+    "services/telegram": f425,
+    "services/tiktok": f426,
+    "services/tinder": f427,
+    "services/twitch": f428,
+    "services/twitter": f429,
+    "services/uber": f430,
+    "services/viber": f431,
+    "services/vkcom": f432,
+    "services/wechat": f433,
+    "services/whatsapp": f434,
+    "services/zalo": f435,
+    "services-ui": f436,
+    "support": f437,
+    "terms": f438,
+    "ui": f439,
   },
   "hi": {
-    "alternatives/5sim": f312,
-    "alternatives/onlinesim": f313,
-    "alternatives/sms-activate-org": f314,
-    "alternatives/sms-man": f315,
-    "alternatives/textverified": f316,
-    "alternatives-ui": f317,
-    "blog/esim-vs-virtual-number": f318,
-    "blog/google-account-without-phone-number": f319,
-    "blog/how-to-receive-sms-online": f320,
-    "blog/second-whatsapp-account": f321,
-    "blog/telegram-without-phone-number": f322,
-    "blog/virtual-number-for-dating-apps": f323,
-    "blog/what-is-a-virtual-phone-number": f324,
-    "blog-ui": f325,
-    "cookies": f326,
-    "countries/brazil": f327,
-    "countries/canada": f328,
-    "countries/france": f329,
-    "countries/germany": f330,
-    "countries/india": f331,
-    "countries/indonesia": f332,
-    "countries/italy": f333,
-    "countries/kazakhstan": f334,
-    "countries/mexico": f335,
-    "countries/netherlands": f336,
-    "countries/philippines": f337,
-    "countries/poland": f338,
-    "countries/portugal": f339,
-    "countries/spain": f340,
-    "countries/thailand": f341,
-    "countries/turkey": f342,
-    "countries/ukraine": f343,
-    "countries/united-kingdom": f344,
-    "countries/united-states": f345,
-    "countries/vietnam": f346,
-    "help/account-balance": f347,
-    "help/activation-issues": f348,
-    "help/billing-coins-refunds": f349,
-    "help/choosing-country": f350,
-    "home": f351,
-    "privacy": f352,
-    "services/adidas": f353,
-    "services/airbnb": f354,
-    "services/aliexpress": f355,
-    "services/apple": f356,
-    "services/binance": f357,
-    "services/cursor": f358,
-    "services/discord": f359,
-    "services/ebay": f360,
-    "services/facebook": f361,
-    "services/fiverr": f362,
-    "services/google": f363,
-    "services/grab": f364,
-    "services/instagram": f365,
-    "services/kakaotalk": f366,
-    "services/line": f367,
-    "services/netflix": f368,
-    "services/paypal": f369,
-    "services/reddit": f370,
-    "services/shopee": f371,
-    "services/signal": f372,
-    "services/snapchat": f373,
-    "services/steam": f374,
-    "services/telegram": f375,
-    "services/tiktok": f376,
-    "services/tinder": f377,
-    "services/twitch": f378,
-    "services/twitter": f379,
-    "services/uber": f380,
-    "services/viber": f381,
-    "services/vkcom": f382,
-    "services/wechat": f383,
-    "services/whatsapp": f384,
-    "services/zalo": f385,
-    "services-ui": f386,
-    "support": f387,
-    "terms": f388,
-    "ui": f389,
+    "alternatives/5sim": f440,
+    "alternatives/onlinesim": f441,
+    "alternatives/sms-activate-org": f442,
+    "alternatives/sms-man": f443,
+    "alternatives/textverified": f444,
+    "alternatives-ui": f445,
+    "blog/brazilian-virtual-number-guide": f446,
+    "blog/esim-vs-virtual-number": f447,
+    "blog/google-account-without-phone-number": f448,
+    "blog/how-to-receive-sms-online": f449,
+    "blog/indian-virtual-number-guide": f450,
+    "blog/indonesian-virtual-number-guide": f451,
+    "blog/is-a-virtual-number-legal": f452,
+    "blog/recycled-phone-numbers-risk": f453,
+    "blog/second-whatsapp-account": f454,
+    "blog/telegram-without-phone-number": f455,
+    "blog/virtual-number-for-dating-apps": f456,
+    "blog/what-is-a-virtual-phone-number": f457,
+    "blog/why-apps-reject-voip-numbers": f458,
+    "blog-ui": f459,
+    "cookies": f460,
+    "countries/brazil": f461,
+    "countries/canada": f462,
+    "countries/france": f463,
+    "countries/germany": f464,
+    "countries/india": f465,
+    "countries/indonesia": f466,
+    "countries/italy": f467,
+    "countries/kazakhstan": f468,
+    "countries/mexico": f469,
+    "countries/netherlands": f470,
+    "countries/philippines": f471,
+    "countries/poland": f472,
+    "countries/portugal": f473,
+    "countries/spain": f474,
+    "countries/thailand": f475,
+    "countries/turkey": f476,
+    "countries/ukraine": f477,
+    "countries/united-kingdom": f478,
+    "countries/united-states": f479,
+    "countries/vietnam": f480,
+    "help/account-balance": f481,
+    "help/activation-issues": f482,
+    "help/billing-coins-refunds": f483,
+    "help/choosing-country": f484,
+    "help/code-rejected": f485,
+    "help/missing-coins": f486,
+    "help/refund-apple": f487,
+    "help/sms-not-received": f488,
+    "home": f489,
+    "privacy": f490,
+    "services/adidas": f491,
+    "services/airbnb": f492,
+    "services/aliexpress": f493,
+    "services/apple": f494,
+    "services/binance": f495,
+    "services/cursor": f496,
+    "services/discord": f497,
+    "services/ebay": f498,
+    "services/facebook": f499,
+    "services/fiverr": f500,
+    "services/google": f501,
+    "services/grab": f502,
+    "services/instagram": f503,
+    "services/kakaotalk": f504,
+    "services/line": f505,
+    "services/netflix": f506,
+    "services/paypal": f507,
+    "services/reddit": f508,
+    "services/shopee": f509,
+    "services/signal": f510,
+    "services/snapchat": f511,
+    "services/steam": f512,
+    "services/telegram": f513,
+    "services/tiktok": f514,
+    "services/tinder": f515,
+    "services/twitch": f516,
+    "services/twitter": f517,
+    "services/uber": f518,
+    "services/viber": f519,
+    "services/vkcom": f520,
+    "services/wechat": f521,
+    "services/whatsapp": f522,
+    "services/zalo": f523,
+    "services-ui": f524,
+    "support": f525,
+    "terms": f526,
+    "ui": f527,
   },
   "id": {
-    "alternatives/5sim": f390,
-    "alternatives/onlinesim": f391,
-    "alternatives/sms-activate-org": f392,
-    "alternatives/sms-man": f393,
-    "alternatives/textverified": f394,
-    "alternatives-ui": f395,
-    "blog/esim-vs-virtual-number": f396,
-    "blog/google-account-without-phone-number": f397,
-    "blog/how-to-receive-sms-online": f398,
-    "blog/second-whatsapp-account": f399,
-    "blog/telegram-without-phone-number": f400,
-    "blog/virtual-number-for-dating-apps": f401,
-    "blog/what-is-a-virtual-phone-number": f402,
-    "blog-ui": f403,
-    "cookies": f404,
-    "countries/brazil": f405,
-    "countries/canada": f406,
-    "countries/france": f407,
-    "countries/germany": f408,
-    "countries/india": f409,
-    "countries/indonesia": f410,
-    "countries/italy": f411,
-    "countries/kazakhstan": f412,
-    "countries/mexico": f413,
-    "countries/netherlands": f414,
-    "countries/philippines": f415,
-    "countries/poland": f416,
-    "countries/portugal": f417,
-    "countries/spain": f418,
-    "countries/thailand": f419,
-    "countries/turkey": f420,
-    "countries/ukraine": f421,
-    "countries/united-kingdom": f422,
-    "countries/united-states": f423,
-    "countries/vietnam": f424,
-    "help/account-balance": f425,
-    "help/activation-issues": f426,
-    "help/billing-coins-refunds": f427,
-    "help/choosing-country": f428,
-    "home": f429,
-    "privacy": f430,
-    "services/adidas": f431,
-    "services/airbnb": f432,
-    "services/aliexpress": f433,
-    "services/apple": f434,
-    "services/binance": f435,
-    "services/cursor": f436,
-    "services/discord": f437,
-    "services/ebay": f438,
-    "services/facebook": f439,
-    "services/fiverr": f440,
-    "services/google": f441,
-    "services/grab": f442,
-    "services/instagram": f443,
-    "services/kakaotalk": f444,
-    "services/line": f445,
-    "services/netflix": f446,
-    "services/paypal": f447,
-    "services/reddit": f448,
-    "services/shopee": f449,
-    "services/signal": f450,
-    "services/snapchat": f451,
-    "services/steam": f452,
-    "services/telegram": f453,
-    "services/tiktok": f454,
-    "services/tinder": f455,
-    "services/twitch": f456,
-    "services/twitter": f457,
-    "services/uber": f458,
-    "services/viber": f459,
-    "services/vkcom": f460,
-    "services/wechat": f461,
-    "services/whatsapp": f462,
-    "services/zalo": f463,
-    "services-ui": f464,
-    "support": f465,
-    "terms": f466,
-    "ui": f467,
+    "alternatives/5sim": f528,
+    "alternatives/onlinesim": f529,
+    "alternatives/sms-activate-org": f530,
+    "alternatives/sms-man": f531,
+    "alternatives/textverified": f532,
+    "alternatives-ui": f533,
+    "blog/brazilian-virtual-number-guide": f534,
+    "blog/esim-vs-virtual-number": f535,
+    "blog/google-account-without-phone-number": f536,
+    "blog/how-to-receive-sms-online": f537,
+    "blog/indian-virtual-number-guide": f538,
+    "blog/indonesian-virtual-number-guide": f539,
+    "blog/is-a-virtual-number-legal": f540,
+    "blog/recycled-phone-numbers-risk": f541,
+    "blog/second-whatsapp-account": f542,
+    "blog/telegram-without-phone-number": f543,
+    "blog/virtual-number-for-dating-apps": f544,
+    "blog/what-is-a-virtual-phone-number": f545,
+    "blog/why-apps-reject-voip-numbers": f546,
+    "blog-ui": f547,
+    "cookies": f548,
+    "countries/brazil": f549,
+    "countries/canada": f550,
+    "countries/france": f551,
+    "countries/germany": f552,
+    "countries/india": f553,
+    "countries/indonesia": f554,
+    "countries/italy": f555,
+    "countries/kazakhstan": f556,
+    "countries/mexico": f557,
+    "countries/netherlands": f558,
+    "countries/philippines": f559,
+    "countries/poland": f560,
+    "countries/portugal": f561,
+    "countries/spain": f562,
+    "countries/thailand": f563,
+    "countries/turkey": f564,
+    "countries/ukraine": f565,
+    "countries/united-kingdom": f566,
+    "countries/united-states": f567,
+    "countries/vietnam": f568,
+    "help/account-balance": f569,
+    "help/activation-issues": f570,
+    "help/billing-coins-refunds": f571,
+    "help/choosing-country": f572,
+    "help/code-rejected": f573,
+    "help/missing-coins": f574,
+    "help/refund-apple": f575,
+    "help/sms-not-received": f576,
+    "home": f577,
+    "privacy": f578,
+    "services/adidas": f579,
+    "services/airbnb": f580,
+    "services/aliexpress": f581,
+    "services/apple": f582,
+    "services/binance": f583,
+    "services/cursor": f584,
+    "services/discord": f585,
+    "services/ebay": f586,
+    "services/facebook": f587,
+    "services/fiverr": f588,
+    "services/google": f589,
+    "services/grab": f590,
+    "services/instagram": f591,
+    "services/kakaotalk": f592,
+    "services/line": f593,
+    "services/netflix": f594,
+    "services/paypal": f595,
+    "services/reddit": f596,
+    "services/shopee": f597,
+    "services/signal": f598,
+    "services/snapchat": f599,
+    "services/steam": f600,
+    "services/telegram": f601,
+    "services/tiktok": f602,
+    "services/tinder": f603,
+    "services/twitch": f604,
+    "services/twitter": f605,
+    "services/uber": f606,
+    "services/viber": f607,
+    "services/vkcom": f608,
+    "services/wechat": f609,
+    "services/whatsapp": f610,
+    "services/zalo": f611,
+    "services-ui": f612,
+    "support": f613,
+    "terms": f614,
+    "ui": f615,
+  },
+  "pl": {
+    "alternatives/5sim": f616,
+    "alternatives/onlinesim": f617,
+    "alternatives/sms-activate-org": f618,
+    "alternatives/sms-man": f619,
+    "alternatives/textverified": f620,
+    "alternatives-ui": f621,
+    "blog/brazilian-virtual-number-guide": f622,
+    "blog/esim-vs-virtual-number": f623,
+    "blog/google-account-without-phone-number": f624,
+    "blog/how-to-receive-sms-online": f625,
+    "blog/indian-virtual-number-guide": f626,
+    "blog/indonesian-virtual-number-guide": f627,
+    "blog/is-a-virtual-number-legal": f628,
+    "blog/recycled-phone-numbers-risk": f629,
+    "blog/second-whatsapp-account": f630,
+    "blog/telegram-without-phone-number": f631,
+    "blog/virtual-number-for-dating-apps": f632,
+    "blog/what-is-a-virtual-phone-number": f633,
+    "blog/why-apps-reject-voip-numbers": f634,
+    "blog-ui": f635,
+    "cookies": f636,
+    "countries/brazil": f637,
+    "countries/canada": f638,
+    "countries/france": f639,
+    "countries/germany": f640,
+    "countries/india": f641,
+    "countries/indonesia": f642,
+    "countries/italy": f643,
+    "countries/kazakhstan": f644,
+    "countries/mexico": f645,
+    "countries/netherlands": f646,
+    "countries/philippines": f647,
+    "countries/poland": f648,
+    "countries/portugal": f649,
+    "countries/spain": f650,
+    "countries/thailand": f651,
+    "countries/turkey": f652,
+    "countries/ukraine": f653,
+    "countries/united-kingdom": f654,
+    "countries/united-states": f655,
+    "countries/vietnam": f656,
+    "help/account-balance": f657,
+    "help/activation-issues": f658,
+    "help/billing-coins-refunds": f659,
+    "help/choosing-country": f660,
+    "help/code-rejected": f661,
+    "help/missing-coins": f662,
+    "help/refund-apple": f663,
+    "help/sms-not-received": f664,
+    "home": f665,
+    "privacy": f666,
+    "services/adidas": f667,
+    "services/airbnb": f668,
+    "services/aliexpress": f669,
+    "services/apple": f670,
+    "services/binance": f671,
+    "services/cursor": f672,
+    "services/discord": f673,
+    "services/ebay": f674,
+    "services/facebook": f675,
+    "services/fiverr": f676,
+    "services/google": f677,
+    "services/grab": f678,
+    "services/instagram": f679,
+    "services/kakaotalk": f680,
+    "services/line": f681,
+    "services/netflix": f682,
+    "services/paypal": f683,
+    "services/reddit": f684,
+    "services/shopee": f685,
+    "services/signal": f686,
+    "services/snapchat": f687,
+    "services/steam": f688,
+    "services/telegram": f689,
+    "services/tiktok": f690,
+    "services/tinder": f691,
+    "services/twitch": f692,
+    "services/twitter": f693,
+    "services/uber": f694,
+    "services/viber": f695,
+    "services/vkcom": f696,
+    "services/wechat": f697,
+    "services/whatsapp": f698,
+    "services/zalo": f699,
+    "services-ui": f700,
+    "support": f701,
+    "terms": f702,
+    "ui": f703,
   },
   "pt": {
-    "alternatives/5sim": f468,
-    "alternatives/onlinesim": f469,
-    "alternatives/sms-activate-org": f470,
-    "alternatives/sms-man": f471,
-    "alternatives/textverified": f472,
-    "alternatives-ui": f473,
-    "blog/esim-vs-virtual-number": f474,
-    "blog/google-account-without-phone-number": f475,
-    "blog/how-to-receive-sms-online": f476,
-    "blog/second-whatsapp-account": f477,
-    "blog/telegram-without-phone-number": f478,
-    "blog/virtual-number-for-dating-apps": f479,
-    "blog/what-is-a-virtual-phone-number": f480,
-    "blog-ui": f481,
-    "cookies": f482,
-    "countries/brazil": f483,
-    "countries/canada": f484,
-    "countries/france": f485,
-    "countries/germany": f486,
-    "countries/india": f487,
-    "countries/indonesia": f488,
-    "countries/italy": f489,
-    "countries/kazakhstan": f490,
-    "countries/mexico": f491,
-    "countries/netherlands": f492,
-    "countries/philippines": f493,
-    "countries/poland": f494,
-    "countries/portugal": f495,
-    "countries/spain": f496,
-    "countries/thailand": f497,
-    "countries/turkey": f498,
-    "countries/ukraine": f499,
-    "countries/united-kingdom": f500,
-    "countries/united-states": f501,
-    "countries/vietnam": f502,
-    "help/account-balance": f503,
-    "help/activation-issues": f504,
-    "help/billing-coins-refunds": f505,
-    "help/choosing-country": f506,
-    "home": f507,
-    "privacy": f508,
-    "services/adidas": f509,
-    "services/airbnb": f510,
-    "services/aliexpress": f511,
-    "services/apple": f512,
-    "services/binance": f513,
-    "services/cursor": f514,
-    "services/discord": f515,
-    "services/ebay": f516,
-    "services/facebook": f517,
-    "services/fiverr": f518,
-    "services/google": f519,
-    "services/grab": f520,
-    "services/instagram": f521,
-    "services/kakaotalk": f522,
-    "services/line": f523,
-    "services/netflix": f524,
-    "services/paypal": f525,
-    "services/reddit": f526,
-    "services/shopee": f527,
-    "services/signal": f528,
-    "services/snapchat": f529,
-    "services/steam": f530,
-    "services/telegram": f531,
-    "services/tiktok": f532,
-    "services/tinder": f533,
-    "services/twitch": f534,
-    "services/twitter": f535,
-    "services/uber": f536,
-    "services/viber": f537,
-    "services/vkcom": f538,
-    "services/wechat": f539,
-    "services/whatsapp": f540,
-    "services/zalo": f541,
-    "services-ui": f542,
-    "support": f543,
-    "terms": f544,
-    "ui": f545,
+    "alternatives/5sim": f704,
+    "alternatives/onlinesim": f705,
+    "alternatives/sms-activate-org": f706,
+    "alternatives/sms-man": f707,
+    "alternatives/textverified": f708,
+    "alternatives-ui": f709,
+    "blog/brazilian-virtual-number-guide": f710,
+    "blog/esim-vs-virtual-number": f711,
+    "blog/google-account-without-phone-number": f712,
+    "blog/how-to-receive-sms-online": f713,
+    "blog/indian-virtual-number-guide": f714,
+    "blog/indonesian-virtual-number-guide": f715,
+    "blog/is-a-virtual-number-legal": f716,
+    "blog/recycled-phone-numbers-risk": f717,
+    "blog/second-whatsapp-account": f718,
+    "blog/telegram-without-phone-number": f719,
+    "blog/virtual-number-for-dating-apps": f720,
+    "blog/what-is-a-virtual-phone-number": f721,
+    "blog/why-apps-reject-voip-numbers": f722,
+    "blog-ui": f723,
+    "cookies": f724,
+    "countries/brazil": f725,
+    "countries/canada": f726,
+    "countries/france": f727,
+    "countries/germany": f728,
+    "countries/india": f729,
+    "countries/indonesia": f730,
+    "countries/italy": f731,
+    "countries/kazakhstan": f732,
+    "countries/mexico": f733,
+    "countries/netherlands": f734,
+    "countries/philippines": f735,
+    "countries/poland": f736,
+    "countries/portugal": f737,
+    "countries/spain": f738,
+    "countries/thailand": f739,
+    "countries/turkey": f740,
+    "countries/ukraine": f741,
+    "countries/united-kingdom": f742,
+    "countries/united-states": f743,
+    "countries/vietnam": f744,
+    "help/account-balance": f745,
+    "help/activation-issues": f746,
+    "help/billing-coins-refunds": f747,
+    "help/choosing-country": f748,
+    "help/code-rejected": f749,
+    "help/missing-coins": f750,
+    "help/refund-apple": f751,
+    "help/sms-not-received": f752,
+    "home": f753,
+    "privacy": f754,
+    "services/adidas": f755,
+    "services/airbnb": f756,
+    "services/aliexpress": f757,
+    "services/apple": f758,
+    "services/binance": f759,
+    "services/cursor": f760,
+    "services/discord": f761,
+    "services/ebay": f762,
+    "services/facebook": f763,
+    "services/fiverr": f764,
+    "services/google": f765,
+    "services/grab": f766,
+    "services/instagram": f767,
+    "services/kakaotalk": f768,
+    "services/line": f769,
+    "services/netflix": f770,
+    "services/paypal": f771,
+    "services/reddit": f772,
+    "services/shopee": f773,
+    "services/signal": f774,
+    "services/snapchat": f775,
+    "services/steam": f776,
+    "services/telegram": f777,
+    "services/tiktok": f778,
+    "services/tinder": f779,
+    "services/twitch": f780,
+    "services/twitter": f781,
+    "services/uber": f782,
+    "services/viber": f783,
+    "services/vkcom": f784,
+    "services/wechat": f785,
+    "services/whatsapp": f786,
+    "services/zalo": f787,
+    "services-ui": f788,
+    "support": f789,
+    "terms": f790,
+    "ui": f791,
   },
   "ru": {
-    "alternatives/5sim": f546,
-    "alternatives/onlinesim": f547,
-    "alternatives/sms-activate-org": f548,
-    "alternatives/sms-man": f549,
-    "alternatives/textverified": f550,
-    "alternatives-ui": f551,
-    "blog/esim-vs-virtual-number": f552,
-    "blog/google-account-without-phone-number": f553,
-    "blog/how-to-receive-sms-online": f554,
-    "blog/second-whatsapp-account": f555,
-    "blog/telegram-without-phone-number": f556,
-    "blog/virtual-number-for-dating-apps": f557,
-    "blog/what-is-a-virtual-phone-number": f558,
-    "blog-ui": f559,
-    "cookies": f560,
-    "countries/brazil": f561,
-    "countries/canada": f562,
-    "countries/france": f563,
-    "countries/germany": f564,
-    "countries/india": f565,
-    "countries/indonesia": f566,
-    "countries/italy": f567,
-    "countries/kazakhstan": f568,
-    "countries/mexico": f569,
-    "countries/netherlands": f570,
-    "countries/philippines": f571,
-    "countries/poland": f572,
-    "countries/portugal": f573,
-    "countries/spain": f574,
-    "countries/thailand": f575,
-    "countries/turkey": f576,
-    "countries/ukraine": f577,
-    "countries/united-kingdom": f578,
-    "countries/united-states": f579,
-    "countries/vietnam": f580,
-    "help/account-balance": f581,
-    "help/activation-issues": f582,
-    "help/billing-coins-refunds": f583,
-    "help/choosing-country": f584,
-    "home": f585,
-    "privacy": f586,
-    "services/adidas": f587,
-    "services/airbnb": f588,
-    "services/aliexpress": f589,
-    "services/apple": f590,
-    "services/binance": f591,
-    "services/cursor": f592,
-    "services/discord": f593,
-    "services/ebay": f594,
-    "services/facebook": f595,
-    "services/fiverr": f596,
-    "services/google": f597,
-    "services/grab": f598,
-    "services/instagram": f599,
-    "services/kakaotalk": f600,
-    "services/line": f601,
-    "services/netflix": f602,
-    "services/paypal": f603,
-    "services/reddit": f604,
-    "services/shopee": f605,
-    "services/signal": f606,
-    "services/snapchat": f607,
-    "services/steam": f608,
-    "services/telegram": f609,
-    "services/tiktok": f610,
-    "services/tinder": f611,
-    "services/twitch": f612,
-    "services/twitter": f613,
-    "services/uber": f614,
-    "services/viber": f615,
-    "services/vkcom": f616,
-    "services/wechat": f617,
-    "services/whatsapp": f618,
-    "services/zalo": f619,
-    "services-ui": f620,
-    "support": f621,
-    "terms": f622,
-    "ui": f623,
+    "alternatives/5sim": f792,
+    "alternatives/onlinesim": f793,
+    "alternatives/sms-activate-org": f794,
+    "alternatives/sms-man": f795,
+    "alternatives/textverified": f796,
+    "alternatives-ui": f797,
+    "blog/brazilian-virtual-number-guide": f798,
+    "blog/esim-vs-virtual-number": f799,
+    "blog/google-account-without-phone-number": f800,
+    "blog/how-to-receive-sms-online": f801,
+    "blog/indian-virtual-number-guide": f802,
+    "blog/indonesian-virtual-number-guide": f803,
+    "blog/is-a-virtual-number-legal": f804,
+    "blog/recycled-phone-numbers-risk": f805,
+    "blog/second-whatsapp-account": f806,
+    "blog/telegram-without-phone-number": f807,
+    "blog/virtual-number-for-dating-apps": f808,
+    "blog/what-is-a-virtual-phone-number": f809,
+    "blog/why-apps-reject-voip-numbers": f810,
+    "blog-ui": f811,
+    "cookies": f812,
+    "countries/brazil": f813,
+    "countries/canada": f814,
+    "countries/france": f815,
+    "countries/germany": f816,
+    "countries/india": f817,
+    "countries/indonesia": f818,
+    "countries/italy": f819,
+    "countries/kazakhstan": f820,
+    "countries/mexico": f821,
+    "countries/netherlands": f822,
+    "countries/philippines": f823,
+    "countries/poland": f824,
+    "countries/portugal": f825,
+    "countries/spain": f826,
+    "countries/thailand": f827,
+    "countries/turkey": f828,
+    "countries/ukraine": f829,
+    "countries/united-kingdom": f830,
+    "countries/united-states": f831,
+    "countries/vietnam": f832,
+    "help/account-balance": f833,
+    "help/activation-issues": f834,
+    "help/billing-coins-refunds": f835,
+    "help/choosing-country": f836,
+    "help/code-rejected": f837,
+    "help/missing-coins": f838,
+    "help/refund-apple": f839,
+    "help/sms-not-received": f840,
+    "home": f841,
+    "privacy": f842,
+    "services/adidas": f843,
+    "services/airbnb": f844,
+    "services/aliexpress": f845,
+    "services/apple": f846,
+    "services/binance": f847,
+    "services/cursor": f848,
+    "services/discord": f849,
+    "services/ebay": f850,
+    "services/facebook": f851,
+    "services/fiverr": f852,
+    "services/google": f853,
+    "services/grab": f854,
+    "services/instagram": f855,
+    "services/kakaotalk": f856,
+    "services/line": f857,
+    "services/netflix": f858,
+    "services/paypal": f859,
+    "services/reddit": f860,
+    "services/shopee": f861,
+    "services/signal": f862,
+    "services/snapchat": f863,
+    "services/steam": f864,
+    "services/telegram": f865,
+    "services/tiktok": f866,
+    "services/tinder": f867,
+    "services/twitch": f868,
+    "services/twitter": f869,
+    "services/uber": f870,
+    "services/viber": f871,
+    "services/vkcom": f872,
+    "services/wechat": f873,
+    "services/whatsapp": f874,
+    "services/zalo": f875,
+    "services-ui": f876,
+    "support": f877,
+    "terms": f878,
+    "ui": f879,
   },
   "tr": {
-    "alternatives/5sim": f624,
-    "alternatives/onlinesim": f625,
-    "alternatives/sms-activate-org": f626,
-    "alternatives/sms-man": f627,
-    "alternatives/textverified": f628,
-    "alternatives-ui": f629,
-    "blog/esim-vs-virtual-number": f630,
-    "blog/google-account-without-phone-number": f631,
-    "blog/how-to-receive-sms-online": f632,
-    "blog/second-whatsapp-account": f633,
-    "blog/telegram-without-phone-number": f634,
-    "blog/virtual-number-for-dating-apps": f635,
-    "blog/what-is-a-virtual-phone-number": f636,
-    "blog-ui": f637,
-    "cookies": f638,
-    "countries/brazil": f639,
-    "countries/canada": f640,
-    "countries/france": f641,
-    "countries/germany": f642,
-    "countries/india": f643,
-    "countries/indonesia": f644,
-    "countries/italy": f645,
-    "countries/kazakhstan": f646,
-    "countries/mexico": f647,
-    "countries/netherlands": f648,
-    "countries/philippines": f649,
-    "countries/poland": f650,
-    "countries/portugal": f651,
-    "countries/spain": f652,
-    "countries/thailand": f653,
-    "countries/turkey": f654,
-    "countries/ukraine": f655,
-    "countries/united-kingdom": f656,
-    "countries/united-states": f657,
-    "countries/vietnam": f658,
-    "help/account-balance": f659,
-    "help/activation-issues": f660,
-    "help/billing-coins-refunds": f661,
-    "help/choosing-country": f662,
-    "home": f663,
-    "privacy": f664,
-    "services/adidas": f665,
-    "services/airbnb": f666,
-    "services/aliexpress": f667,
-    "services/apple": f668,
-    "services/binance": f669,
-    "services/cursor": f670,
-    "services/discord": f671,
-    "services/ebay": f672,
-    "services/facebook": f673,
-    "services/fiverr": f674,
-    "services/google": f675,
-    "services/grab": f676,
-    "services/instagram": f677,
-    "services/kakaotalk": f678,
-    "services/line": f679,
-    "services/netflix": f680,
-    "services/paypal": f681,
-    "services/reddit": f682,
-    "services/shopee": f683,
-    "services/signal": f684,
-    "services/snapchat": f685,
-    "services/steam": f686,
-    "services/telegram": f687,
-    "services/tiktok": f688,
-    "services/tinder": f689,
-    "services/twitch": f690,
-    "services/twitter": f691,
-    "services/uber": f692,
-    "services/viber": f693,
-    "services/vkcom": f694,
-    "services/wechat": f695,
-    "services/whatsapp": f696,
-    "services/zalo": f697,
-    "services-ui": f698,
-    "support": f699,
-    "terms": f700,
-    "ui": f701,
+    "alternatives/5sim": f880,
+    "alternatives/onlinesim": f881,
+    "alternatives/sms-activate-org": f882,
+    "alternatives/sms-man": f883,
+    "alternatives/textverified": f884,
+    "alternatives-ui": f885,
+    "blog/brazilian-virtual-number-guide": f886,
+    "blog/esim-vs-virtual-number": f887,
+    "blog/google-account-without-phone-number": f888,
+    "blog/how-to-receive-sms-online": f889,
+    "blog/indian-virtual-number-guide": f890,
+    "blog/indonesian-virtual-number-guide": f891,
+    "blog/is-a-virtual-number-legal": f892,
+    "blog/recycled-phone-numbers-risk": f893,
+    "blog/second-whatsapp-account": f894,
+    "blog/telegram-without-phone-number": f895,
+    "blog/virtual-number-for-dating-apps": f896,
+    "blog/what-is-a-virtual-phone-number": f897,
+    "blog/why-apps-reject-voip-numbers": f898,
+    "blog-ui": f899,
+    "cookies": f900,
+    "countries/brazil": f901,
+    "countries/canada": f902,
+    "countries/france": f903,
+    "countries/germany": f904,
+    "countries/india": f905,
+    "countries/indonesia": f906,
+    "countries/italy": f907,
+    "countries/kazakhstan": f908,
+    "countries/mexico": f909,
+    "countries/netherlands": f910,
+    "countries/philippines": f911,
+    "countries/poland": f912,
+    "countries/portugal": f913,
+    "countries/spain": f914,
+    "countries/thailand": f915,
+    "countries/turkey": f916,
+    "countries/ukraine": f917,
+    "countries/united-kingdom": f918,
+    "countries/united-states": f919,
+    "countries/vietnam": f920,
+    "help/account-balance": f921,
+    "help/activation-issues": f922,
+    "help/billing-coins-refunds": f923,
+    "help/choosing-country": f924,
+    "help/code-rejected": f925,
+    "help/missing-coins": f926,
+    "help/refund-apple": f927,
+    "help/sms-not-received": f928,
+    "home": f929,
+    "privacy": f930,
+    "services/adidas": f931,
+    "services/airbnb": f932,
+    "services/aliexpress": f933,
+    "services/apple": f934,
+    "services/binance": f935,
+    "services/cursor": f936,
+    "services/discord": f937,
+    "services/ebay": f938,
+    "services/facebook": f939,
+    "services/fiverr": f940,
+    "services/google": f941,
+    "services/grab": f942,
+    "services/instagram": f943,
+    "services/kakaotalk": f944,
+    "services/line": f945,
+    "services/netflix": f946,
+    "services/paypal": f947,
+    "services/reddit": f948,
+    "services/shopee": f949,
+    "services/signal": f950,
+    "services/snapchat": f951,
+    "services/steam": f952,
+    "services/telegram": f953,
+    "services/tiktok": f954,
+    "services/tinder": f955,
+    "services/twitch": f956,
+    "services/twitter": f957,
+    "services/uber": f958,
+    "services/viber": f959,
+    "services/vkcom": f960,
+    "services/wechat": f961,
+    "services/whatsapp": f962,
+    "services/zalo": f963,
+    "services-ui": f964,
+    "support": f965,
+    "terms": f966,
+    "ui": f967,
+  },
+  "uk": {
+    "alternatives/5sim": f968,
+    "alternatives/onlinesim": f969,
+    "alternatives/sms-activate-org": f970,
+    "alternatives/sms-man": f971,
+    "alternatives/textverified": f972,
+    "alternatives-ui": f973,
+    "blog/brazilian-virtual-number-guide": f974,
+    "blog/esim-vs-virtual-number": f975,
+    "blog/google-account-without-phone-number": f976,
+    "blog/how-to-receive-sms-online": f977,
+    "blog/indian-virtual-number-guide": f978,
+    "blog/indonesian-virtual-number-guide": f979,
+    "blog/is-a-virtual-number-legal": f980,
+    "blog/recycled-phone-numbers-risk": f981,
+    "blog/second-whatsapp-account": f982,
+    "blog/telegram-without-phone-number": f983,
+    "blog/virtual-number-for-dating-apps": f984,
+    "blog/what-is-a-virtual-phone-number": f985,
+    "blog/why-apps-reject-voip-numbers": f986,
+    "blog-ui": f987,
+    "cookies": f988,
+    "countries/brazil": f989,
+    "countries/canada": f990,
+    "countries/france": f991,
+    "countries/germany": f992,
+    "countries/india": f993,
+    "countries/indonesia": f994,
+    "countries/italy": f995,
+    "countries/kazakhstan": f996,
+    "countries/mexico": f997,
+    "countries/netherlands": f998,
+    "countries/philippines": f999,
+    "countries/poland": f1000,
+    "countries/portugal": f1001,
+    "countries/spain": f1002,
+    "countries/thailand": f1003,
+    "countries/turkey": f1004,
+    "countries/ukraine": f1005,
+    "countries/united-kingdom": f1006,
+    "countries/united-states": f1007,
+    "countries/vietnam": f1008,
+    "help/account-balance": f1009,
+    "help/activation-issues": f1010,
+    "help/billing-coins-refunds": f1011,
+    "help/choosing-country": f1012,
+    "help/code-rejected": f1013,
+    "help/missing-coins": f1014,
+    "help/refund-apple": f1015,
+    "help/sms-not-received": f1016,
+    "home": f1017,
+    "privacy": f1018,
+    "services/adidas": f1019,
+    "services/airbnb": f1020,
+    "services/aliexpress": f1021,
+    "services/apple": f1022,
+    "services/binance": f1023,
+    "services/cursor": f1024,
+    "services/discord": f1025,
+    "services/ebay": f1026,
+    "services/facebook": f1027,
+    "services/fiverr": f1028,
+    "services/google": f1029,
+    "services/grab": f1030,
+    "services/instagram": f1031,
+    "services/kakaotalk": f1032,
+    "services/line": f1033,
+    "services/netflix": f1034,
+    "services/paypal": f1035,
+    "services/reddit": f1036,
+    "services/shopee": f1037,
+    "services/signal": f1038,
+    "services/snapchat": f1039,
+    "services/steam": f1040,
+    "services/telegram": f1041,
+    "services/tiktok": f1042,
+    "services/tinder": f1043,
+    "services/twitch": f1044,
+    "services/twitter": f1045,
+    "services/uber": f1046,
+    "services/viber": f1047,
+    "services/vkcom": f1048,
+    "services/wechat": f1049,
+    "services/whatsapp": f1050,
+    "services/zalo": f1051,
+    "services-ui": f1052,
+    "support": f1053,
+    "terms": f1054,
+    "ui": f1055,
+  },
+  "vi": {
+    "alternatives/5sim": f1056,
+    "alternatives/onlinesim": f1057,
+    "alternatives/sms-activate-org": f1058,
+    "alternatives/sms-man": f1059,
+    "alternatives/textverified": f1060,
+    "alternatives-ui": f1061,
+    "blog/brazilian-virtual-number-guide": f1062,
+    "blog/esim-vs-virtual-number": f1063,
+    "blog/google-account-without-phone-number": f1064,
+    "blog/how-to-receive-sms-online": f1065,
+    "blog/indian-virtual-number-guide": f1066,
+    "blog/indonesian-virtual-number-guide": f1067,
+    "blog/is-a-virtual-number-legal": f1068,
+    "blog/recycled-phone-numbers-risk": f1069,
+    "blog/second-whatsapp-account": f1070,
+    "blog/telegram-without-phone-number": f1071,
+    "blog-ui": f1072,
+    "cookies": f1073,
+    "countries/brazil": f1074,
+    "countries/canada": f1075,
+    "countries/france": f1076,
+    "countries/germany": f1077,
+    "countries/india": f1078,
+    "countries/indonesia": f1079,
+    "countries/italy": f1080,
+    "countries/kazakhstan": f1081,
+    "countries/mexico": f1082,
+    "countries/netherlands": f1083,
+    "countries/philippines": f1084,
+    "countries/poland": f1085,
+    "countries/portugal": f1086,
+    "countries/spain": f1087,
+    "countries/thailand": f1088,
+    "countries/turkey": f1089,
+    "countries/ukraine": f1090,
+    "countries/united-kingdom": f1091,
+    "countries/united-states": f1092,
+    "countries/vietnam": f1093,
+    "help/account-balance": f1094,
+    "help/activation-issues": f1095,
+    "help/billing-coins-refunds": f1096,
+    "help/choosing-country": f1097,
+    "help/code-rejected": f1098,
+    "help/missing-coins": f1099,
+    "help/refund-apple": f1100,
+    "help/sms-not-received": f1101,
+    "home": f1102,
+    "privacy": f1103,
+    "services/adidas": f1104,
+    "services/airbnb": f1105,
+    "services/aliexpress": f1106,
+    "services/apple": f1107,
+    "services/binance": f1108,
+    "services/cursor": f1109,
+    "services/discord": f1110,
+    "services/ebay": f1111,
+    "services/facebook": f1112,
+    "services/fiverr": f1113,
+    "services/google": f1114,
+    "services/grab": f1115,
+    "services/instagram": f1116,
+    "services/kakaotalk": f1117,
+    "services/line": f1118,
+    "services/netflix": f1119,
+    "services/paypal": f1120,
+    "services/reddit": f1121,
+    "services/shopee": f1122,
+    "services/signal": f1123,
+    "services/snapchat": f1124,
+    "services/steam": f1125,
+    "services/telegram": f1126,
+    "services/tiktok": f1127,
+    "services/tinder": f1128,
+    "services/twitch": f1129,
+    "services/twitter": f1130,
+    "services/uber": f1131,
+    "services/viber": f1132,
+    "services/vkcom": f1133,
+    "services/wechat": f1134,
+    "services/whatsapp": f1135,
+    "services/zalo": f1136,
+    "services-ui": f1137,
+    "support": f1138,
+    "terms": f1139,
+    "ui": f1140,
   },
   "zh": {
-    "alternatives/5sim": f702,
-    "alternatives/onlinesim": f703,
-    "alternatives/sms-activate-org": f704,
-    "alternatives/sms-man": f705,
-    "alternatives/textverified": f706,
-    "alternatives-ui": f707,
-    "blog/esim-vs-virtual-number": f708,
-    "blog/google-account-without-phone-number": f709,
-    "blog/how-to-receive-sms-online": f710,
-    "blog/second-whatsapp-account": f711,
-    "blog/telegram-without-phone-number": f712,
-    "blog/virtual-number-for-dating-apps": f713,
-    "blog/what-is-a-virtual-phone-number": f714,
-    "blog-ui": f715,
-    "cookies": f716,
-    "countries/brazil": f717,
-    "countries/canada": f718,
-    "countries/france": f719,
-    "countries/germany": f720,
-    "countries/india": f721,
-    "countries/indonesia": f722,
-    "countries/italy": f723,
-    "countries/kazakhstan": f724,
-    "countries/mexico": f725,
-    "countries/netherlands": f726,
-    "countries/philippines": f727,
-    "countries/poland": f728,
-    "countries/portugal": f729,
-    "countries/spain": f730,
-    "countries/thailand": f731,
-    "countries/turkey": f732,
-    "countries/ukraine": f733,
-    "countries/united-kingdom": f734,
-    "countries/united-states": f735,
-    "countries/vietnam": f736,
-    "help/account-balance": f737,
-    "help/activation-issues": f738,
-    "help/billing-coins-refunds": f739,
-    "help/choosing-country": f740,
-    "home": f741,
-    "privacy": f742,
-    "services/adidas": f743,
-    "services/airbnb": f744,
-    "services/aliexpress": f745,
-    "services/apple": f746,
-    "services/binance": f747,
-    "services/cursor": f748,
-    "services/discord": f749,
-    "services/ebay": f750,
-    "services/facebook": f751,
-    "services/fiverr": f752,
-    "services/google": f753,
-    "services/grab": f754,
-    "services/instagram": f755,
-    "services/kakaotalk": f756,
-    "services/line": f757,
-    "services/netflix": f758,
-    "services/paypal": f759,
-    "services/reddit": f760,
-    "services/shopee": f761,
-    "services/signal": f762,
-    "services/snapchat": f763,
-    "services/steam": f764,
-    "services/telegram": f765,
-    "services/tiktok": f766,
-    "services/tinder": f767,
-    "services/twitch": f768,
-    "services/twitter": f769,
-    "services/uber": f770,
-    "services/viber": f771,
-    "services/vkcom": f772,
-    "services/wechat": f773,
-    "services/whatsapp": f774,
-    "services/zalo": f775,
-    "services-ui": f776,
-    "support": f777,
-    "terms": f778,
-    "ui": f779,
+    "alternatives/5sim": f1141,
+    "alternatives/onlinesim": f1142,
+    "alternatives/sms-activate-org": f1143,
+    "alternatives/sms-man": f1144,
+    "alternatives/textverified": f1145,
+    "alternatives-ui": f1146,
+    "blog/brazilian-virtual-number-guide": f1147,
+    "blog/esim-vs-virtual-number": f1148,
+    "blog/google-account-without-phone-number": f1149,
+    "blog/how-to-receive-sms-online": f1150,
+    "blog/indian-virtual-number-guide": f1151,
+    "blog/indonesian-virtual-number-guide": f1152,
+    "blog/is-a-virtual-number-legal": f1153,
+    "blog/recycled-phone-numbers-risk": f1154,
+    "blog/second-whatsapp-account": f1155,
+    "blog/telegram-without-phone-number": f1156,
+    "blog/virtual-number-for-dating-apps": f1157,
+    "blog/what-is-a-virtual-phone-number": f1158,
+    "blog/why-apps-reject-voip-numbers": f1159,
+    "blog-ui": f1160,
+    "cookies": f1161,
+    "countries/brazil": f1162,
+    "countries/canada": f1163,
+    "countries/france": f1164,
+    "countries/germany": f1165,
+    "countries/india": f1166,
+    "countries/indonesia": f1167,
+    "countries/italy": f1168,
+    "countries/kazakhstan": f1169,
+    "countries/mexico": f1170,
+    "countries/netherlands": f1171,
+    "countries/philippines": f1172,
+    "countries/poland": f1173,
+    "countries/portugal": f1174,
+    "countries/spain": f1175,
+    "countries/thailand": f1176,
+    "countries/turkey": f1177,
+    "countries/ukraine": f1178,
+    "countries/united-kingdom": f1179,
+    "countries/united-states": f1180,
+    "countries/vietnam": f1181,
+    "help/account-balance": f1182,
+    "help/activation-issues": f1183,
+    "help/billing-coins-refunds": f1184,
+    "help/choosing-country": f1185,
+    "help/code-rejected": f1186,
+    "help/missing-coins": f1187,
+    "help/refund-apple": f1188,
+    "help/sms-not-received": f1189,
+    "home": f1190,
+    "privacy": f1191,
+    "services/adidas": f1192,
+    "services/airbnb": f1193,
+    "services/aliexpress": f1194,
+    "services/apple": f1195,
+    "services/binance": f1196,
+    "services/cursor": f1197,
+    "services/discord": f1198,
+    "services/ebay": f1199,
+    "services/facebook": f1200,
+    "services/fiverr": f1201,
+    "services/google": f1202,
+    "services/grab": f1203,
+    "services/instagram": f1204,
+    "services/kakaotalk": f1205,
+    "services/line": f1206,
+    "services/netflix": f1207,
+    "services/paypal": f1208,
+    "services/reddit": f1209,
+    "services/shopee": f1210,
+    "services/signal": f1211,
+    "services/snapchat": f1212,
+    "services/steam": f1213,
+    "services/telegram": f1214,
+    "services/tiktok": f1215,
+    "services/tinder": f1216,
+    "services/twitch": f1217,
+    "services/twitter": f1218,
+    "services/uber": f1219,
+    "services/viber": f1220,
+    "services/vkcom": f1221,
+    "services/wechat": f1222,
+    "services/whatsapp": f1223,
+    "services/zalo": f1224,
+    "services-ui": f1225,
+    "support": f1226,
+    "terms": f1227,
+    "ui": f1228,
   },
 };

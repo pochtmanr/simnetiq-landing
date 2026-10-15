@@ -1,0 +1,127 @@
+{
+  "title": "Warum Apps VoIP-Nummern bei der Anmeldung ablehnen",
+  "description": "„Diese Nummer kann nicht verwendet werden“ heißt oft: Die App hat den Leitungstyp abgefragt und VoIP gesehen. So funktioniert die Prüfung, und das kommt durch.",
+  "excerpt": "Tipp eine Nummer von Google Voice oder TextNow in WhatsApp oder eine Banking-App, und sie prallt oft sofort ab. Der Grund ist eine Abfrage, von der die meisten nie hören – so unterscheiden Apps eine VoIP-Nummer von einer Mobilnummer, und das bedeutet es für deine Wahl der Nummer.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Es passiert in weniger als einer Sekunde. Du tippst eine völlig gültige Telefonnummer in ein Registrierungsformular, drückst auf Weiter und bekommst eine glatte Absage: „Diese Telefonnummer kann nicht zur Bestätigung verwendet werden“ oder das vagere „Bitte gib eine gültige Mobilnummer ein“. Die Nummer funktioniert. Sie empfängt SMS von Freunden. Die App hat einfach entschieden, dass es die falsche Art von Nummer ist."
+    },
+    {
+      "type": "p",
+      "text": "Was in dieser Sekunde passiert ist, ist eine Abfrage des Leitungstyps – eine der unsichtbarsten und folgenreichsten Prüfungen in modernen Registrierungsabläufen. Sie zu verstehen, erklärt, warum manche virtuellen Nummern glatt durch die Bestätigung gehen und andere nie über den ersten Bildschirm hinauskommen."
+    },
+    {
+      "type": "h2",
+      "id": "what-a-line-type-lookup-is",
+      "text": "Was eine Abfrage des Leitungstyps tatsächlich prüft"
+    },
+    {
+      "type": "p",
+      "text": "Jede Telefonnummer wird in Blöcken einem Netzbetreiber zugeteilt, und jeder Netzbetreiber ist für eine Art von Dienst registriert. Nummernbehörden und Betreiber veröffentlichen, wer welche Blöcke hält; Portierungsdatenbanken verzeichnen Nummern, die seitdem den Betreiber gewechselt haben. Kommerzielle Datenanbieter fassen diese Quellen zu einer API zusammen, die zu jeder Nummer eine einfache Frage beantwortet: Wer bedient sie, und welche Art von Leitung ist es?"
+    },
+    {
+      "type": "p",
+      "text": "Twilio, einer der größten dieser Anbieter, verkauft die Prüfung als „Line Type Intelligence“ und dokumentiert die Kategorien, die sie zurückgibt. Die drei wichtigsten für Registrierungen sind:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mobil – eine Nummer in einem Mobilfunknetz, an eine SIM gebunden, die in der Regel SMS empfangen kann.",
+        "Festes VoIP – eine über das Internet bereitgestellte Nummer, die an eine physische Dienstadresse gebunden ist, etwa der Festnetzanschluss eines Kabelanbieters.",
+        "Nicht festes VoIP – eine online bezogene Nummer ohne physisches Gerät oder Adresse dahinter. Twilios eigene Dokumentation nennt Google Voice als Beispiel."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Es gibt weitere Kategorien – Festnetz, gebührenfrei, Pager, persönliche Nummer –, aber für eine App, die entscheidet, ob sie einen Bestätigungscode sendet, zählt die Grenze zwischen mobil und nicht festem VoIP."
+    },
+    {
+      "type": "h2",
+      "id": "why-apps-block-non-fixed-voip",
+      "text": "Warum Apps nicht festes VoIP sperren"
+    },
+    {
+      "type": "p",
+      "text": "Die Telefonbestätigung existiert, um Fake-Konten teuer zu machen. Eine Mobilnummer kostet Geld, braucht meist eine SIM und in mehr als 150 Ländern eine registrierte Identität. Diese Reibung ist der ganze Sinn."
+    },
+    {
+      "type": "p",
+      "text": "Nicht feste VoIP-Nummern beseitigen den Großteil davon. Viele lassen sich in Minuten erstellen, manche kostenlos, in großen Mengen, mit einer E-Mail-Adresse. Für ein Betrugsteam bietet ein auf einer solchen Nummer bestätigtes Konto kaum mehr Sicherheit als ein per E-Mail bestätigtes. Deshalb lehnen Plattformen, denen Missbrauch am meisten zu schaffen macht – Messenger, Zahlungsdienste, Marktplätze, Dating-Apps, Kryptobörsen –, sie routinemäßig ab, bevor sie eine einzige SMS senden."
+    },
+    {
+      "type": "callout",
+      "text": "Die Ablehnung kommt meist, bevor überhaupt eine Nachricht gesendet wird. Weist ein Formular deine Nummer sofort ab, bringt dir kein Warten einen Code: Die App hat bereits entschieden, keinen zu senden."
+    },
+    {
+      "type": "h2",
+      "id": "the-cost-for-real-users",
+      "text": "Der Preis für echte Nutzer"
+    },
+    {
+      "type": "p",
+      "text": "Die Regel ist grob, und sie trifft Leute, auf die sie nie zielte. Amerikaner, die Google Voice als Hauptleitung nutzen, sind plötzlich aus Banking-Apps ausgesperrt. Kleine Unternehmen, die ihre Telefone zu einem VoIP-Anbieter umgezogen haben, stellen fest, dass ihre Firmennummer die nötigen Konten nicht eröffnen kann. Reisenden, die eine VoIP-Nummer nutzen, um Roaminggebühren zu vermeiden, wird gesagt, sie werde „nicht unterstützt“."
+    },
+    {
+      "type": "p",
+      "text": "Es gibt auch ein Sicherheitsargument in die andere Richtung. SMS-Codes sind selbst ein schwacher zweiter Faktor – die US-Normungsbehörde NIST stuft Einmalcodes per SMS und Sprache inzwischen wegen SIM-Swapping und Abfangen als „eingeschränkten“ Authentifikator ein. Manche Sicherheitsteams argumentieren, eine Plattform sollte eigentlich prüfen, ob der Nutzer die Kontrolle über das Konto dauerhaft nachweisen kann, nicht, welche Art von Nummer er hat. Vorerst aber ist das Filtern nach Leitungstyp der Branchenstandard, und es verschwindet nicht."
+    },
+    {
+      "type": "h2",
+      "id": "which-numbers-get-through",
+      "text": "Welche Nummern durchkommen"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Deine eigene Mobilnummer – kommt immer durch und legt dem Dienst immer deine persönliche Identität offen.",
+        "Eine zweite SIM oder eSIM – kommt durch, um den Preis eines Tarifs, oft einer Ausweisprüfung und einer Nummer, die du am Leben halten musst.",
+        "Kostenlose „SMS online empfangen“-Nummern – häufig nicht festes VoIP oder längst auf Sperrlisten; selbst wenn sie durchkommen, ist der Posteingang öffentlich.",
+        "Kostenlose Nummern aus VoIP-Apps – genau die Kategorie, für deren Erkennung Abfragen des Leitungstyps gebaut wurden.",
+        "Eine gemietete Mobilnummer – in einem Mobilfunknetz als mobil registriert, sie besteht die Prüfung des Leitungstyps also wie jeder Teilnehmer und ist während der Aktivierung für dich reserviert."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Diese letzte Kategorie liefert SMS Code. Die Nummern sind Mobilnummern in Mobilfunknetzen in über 100 Ländern, keine von Apps erzeugten VoIP-Leitungen. Eine Abfrage sieht einen gewöhnlichen Teilnehmer; der Code wird wie jeder andere per SMS zugestellt; und er erscheint meist innerhalb von Sekunden in der App."
+    },
+    {
+      "type": "p",
+      "text": "Keine Nummer besteht jede Prüfung jedes Mal. Dienste schauen auch darauf, ob eine Nummer schon auf ihrer Plattform genutzt wurde, auf Gerätesignale und auf Registrierungsmuster. Wird eine gemietete Nummer abgelehnt oder kommt kein Code an, kannst du nach zwei Minuten abbrechen – die Münzen gehen auf dein Guthaben zurück, wenn keine SMS kam – und eine andere Nummer oder ein anderes Land versuchen."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Häufige Fragen"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Woher weiß eine App, dass meine Nummer VoIP ist?",
+          "a": "Sie fragt einen Anbieter von Telefondaten ab, der Nummernblöcke und portierte Nummern Betreibern und Leitungstypen zuordnet. Die Antwort – mobil, Festnetz, festes VoIP, nicht festes VoIP – kommt in Millisekunden zurück, bevor eine SMS gesendet wird."
+        },
+        {
+          "q": "Warum sagt WhatsApp, meine Nummer sei ungültig, obwohl sie für SMS funktioniert?",
+          "a": "Viele Messenger und Zahlungs-Apps lehnen nicht feste VoIP-Nummern direkt ab. Die Nummer kann SMS empfangen; die Plattform akzeptiert diesen Leitungstyp nur nicht zur Bestätigung."
+        },
+        {
+          "q": "Ist eine virtuelle Nummer dasselbe wie eine VoIP-Nummer?",
+          "a": "Nicht unbedingt. „Virtuell“ beschreibt, wie du auf die Nummer zugreifst – über eine App statt über eine SIM in deinem Handy. Die virtuellen Nummern von SMS Code sind Mobilnummern in Mobilfunknetzen, sie werden also als mobil eingestuft, nicht als VoIP."
+        },
+        {
+          "q": "Kann eine gemietete Mobilnummer trotzdem abgelehnt werden?",
+          "a": "Gelegentlich. Plattformen prüfen auch, ob eine Nummer schon in ihrem Dienst genutzt wurde, und schauen auf andere Risikosignale. Passiert das, brich die Aktivierung nach zwei Minuten ab und nimm eine neue Nummer."
+        },
+        {
+          "q": "Sollte ich für meine Bank eine VoIP-Nummer nutzen?",
+          "a": "Banken lehnen VoIP-Nummern häufig ab und bestätigen jahrelang per SMS neu. Nutze für Banking eine Mobilnummer, die auf deinen eigenen Namen registriert ist."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

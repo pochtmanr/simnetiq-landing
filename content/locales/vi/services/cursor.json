@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Cursor — Xác minh tài khoản lập trình",
+  "metaDescription": "Xác minh đăng ký Cursor bằng số ảo thật. Mã SMS thường đến chỉ trong vài giây — giữ số cá nhân của bạn ngoài các tài khoản công cụ lập trình.",
+  "hero": {
+    "title": "Số ảo cho Cursor",
+    "intro": [
+      "Cursor — trình soạn thảo mã dùng AI — chạy trên cùng vòng quay với mọi công cụ lập trình phát tài nguyên tính toán miễn phí: gói miễn phí thu hút lạm dụng, nên việc đăng ký bị kiểm soát. Ngoài xác nhận email, Cursor có thể yêu cầu xác minh số điện thoại qua SMS trước khi tài khoản hoặc bản dùng thử hoạt động — chính vì một số di động đang hoạt động khó sản xuất hàng loạt hơn một hộp thư.",
+      "SMS Code cho bạn thuê một số thật tại một trong hơn 100 quốc gia. Khi bước đăng ký Cursor hỏi điện thoại, hãy nhập số đã thuê — mã sáu chữ số hiện trong ứng dụng SMS Code thường chỉ trong vài giây, và số cá nhân của bạn không lọt vào thêm một cơ sở dữ liệu SaaS nào."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Cursor?",
+    "body": [
+      "Lập trình viên tích lũy tài khoản như bàn làm việc tích tua vít — trình soạn thảo, đám mây, API, dịch vụ CI — và mỗi cái ngày càng đòi số điện thoại. Gắn số cá nhân vào tất cả đồng nghĩa với mọi vụ rò rỉ của nhà cung cấp, danh sách tiếp thị và đồ thị liên kết tài khoản đều chứa nó. Đặt một số thuê giữa danh tính công cụ lập trình và danh tính thật của bạn là cùng bản năng với việc dùng email công việc: tách biệt theo mặc định, còn số thật để dành cho con người, không phải nền tảng.",
+      "Cũng có một lý do kỹ thuật chính đáng. Nếu bạn đang xây dựng hoặc kiểm thử một quy trình đăng ký — của sản phẩm của bạn, hoặc đánh giá cách onboarding của Cursor hoạt động với một người dùng mới tinh — bạn cần một số thật thực sự nhận được SMS, không phải số của chính mình bị đốt cho tài khoản thử nghiệm. Một lần kích hoạt thuê cho bạn đúng điều đó: một số nhận thật, dùng một lần, không cần ngăn kéo SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Cursor bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Cursor làm dịch vụ và chọn quốc gia — Mỹ, Đức hoặc Hà Lan là lựa chọn điển hình cho công cụ lập trình. Số được giữ cho bạn ngay lập tức."
+      },
+      {
+        "title": "Đăng ký và nhập số",
+        "body": "Tạo tài khoản Cursor bằng email bạn kiểm soát. Khi quy trình yêu cầu xác minh số điện thoại, hãy nhập số đã thuê với mã quốc gia tương ứng."
+      },
+      {
+        "title": "Nhập mã từ SMS Code",
+        "body": "SMS đến ứng dụng SMS Code thường chỉ trong vài giây — “Your Cursor verification code is 812750”. Dán sáu chữ số vào ô xác minh của Cursor là xong."
+      },
+      {
+        "title": "Bảo vệ chính tài khoản",
+        "body": "Kết thúc bằng những điều cơ bản: mật khẩu mạnh, duy nhất và email đã xác nhận. Đăng nhập hằng ngày vào Cursor dựa vào chúng, không phải SMS — bước kiểm tra điện thoại là cửa một lần, không lặp lại."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Mở trang đăng ký trước khi thuê",
+      "body": "Mã xác minh có thời hạn ngắn và thời hạn kích hoạt có giới hạn. Hãy mở màn hình xác minh điện thoại của Cursor trước, rồi mới thuê số và yêu cầu mã — SMS thường đến chỉ trong vài giây khi bạn đã sẵn sàng."
+    },
+    {
+      "title": "Email là tài khoản; điện thoại là cửa",
+      "body": "Cursor nhận diện bạn qua đăng nhập bằng email, và các câu hỏi về giấy phép hay gói thuê bao đều đi qua đó. Hãy dùng hộp thư bạn sẽ giữ, và tài khoản sẽ vượt qua thời hạn kích hoạt của số thuê mà không gặp trục trặc."
+    },
+    {
+      "title": "Một tài khoản, trong khuôn khổ quy định",
+      "body": "Cửa điện thoại tồn tại vì gói miễn phí bị khai thác. Hãy dùng số ảo để giữ kín số cá nhân trên tài khoản thật của bạn — không phải để chồng chất tài khoản dùng thử, việc vi phạm điều khoản của Cursor và thường kết thúc bằng tài khoản bị khóa."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Cursor có luôn hỏi số điện thoại không?",
+      "a": "Không nhất thiết — như nhiều công cụ lập trình, Cursor áp dụng xác minh điện thoại có chọn lọc, thường tùy vào tín hiệu đăng ký và áp lực lạm dụng. Khi lời nhắc xuất hiện, số ảo đã thuê đáp ứng nó thường chỉ trong vài giây."
+    },
+    {
+      "q": "Tài khoản Cursor có còn hoạt động sau khi số hết hạn không?",
+      "a": "Có. Bước kiểm tra SMS diễn ra khi đăng ký; sau đó bạn đăng nhập bằng email và mật khẩu. Việc thời hạn kích hoạt của số thuê kết thúc không thay đổi gì với tài khoản bạn đang dùng."
+    },
+    {
+      "q": "Tôi có thể dùng số ảo để kiểm thử quy trình đăng ký SMS của sản phẩm mình không?",
+      "a": "Có — đó là một cách làm thực sự hữu ích trong phát triển. Số thuê là số nhận thật trên nhà mạng thật, nên bạn có thể đi trọn quy trình OTP như một người dùng mới mà không đốt số cá nhân cho tài khoản thử nghiệm."
+    },
+    {
+      "q": "Vì sao mã xác minh Cursor không đến?",
+      "a": "Thường gặp nhất là sai mã quốc gia, hoặc dịch vụ từ chối dải số cụ thể đó. Hãy hủy lần kích hoạt trong SMS Code — không có SMS nghĩa là xu được hoàn vào số dư — và thử lại với số hoặc quốc gia khác."
+    },
+    {
+      "q": "Xác minh Cursor bằng số ảo có được phép không?",
+      "a": "Bước kiểm tra xác nhận bạn kiểm soát một số thật, và số thuê đúng là như vậy. Điều quan trọng là bạn làm gì tiếp theo: một tài khoản thật dùng trong khuôn khổ điều khoản của Cursor là ổn; khai thác nhiều bản dùng thử miễn phí thì không, dù có số ảo hay không."
+    }
+  ]
+}

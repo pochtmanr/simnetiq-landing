@@ -1,0 +1,48 @@
+{
+  "title": "Jak uzyskać zwrot za zakup w App Store",
+  "metaDescription": "Pakiety monet SMS Code rozlicza Apple, więc o zwrot prosisz Apple. Instrukcja krok po kroku dla reportaproblem.apple.com, z terminami i dalszymi krokami.",
+  "sections": [
+    {
+      "title": "Zwrotami zajmuje się Apple",
+      "paragraphs": [
+        "Pakiety monet kupione w aplikacji SMS Code to zakupy w App Store. Rozlicza je Apple i to Apple trzyma płatność, więc tylko Apple może ją zwrócić. Tak działa każda aplikacja w App Store: deweloperzy nie mają możliwości zwrotu zakupu rozliczonego przez Apple.",
+        "Apple rozpatruje każdy wniosek i decyduje, czy go zatwierdzić. Złożenie zwykle zajmuje kilka minut i nie musisz wcześniej kontaktować się z nami."
+      ]
+    },
+    {
+      "title": "Poproś o zwrot w 6 krokach",
+      "id": "steps",
+      "steps": [
+        "Wejdź na [reportaproblem.apple.com](https://reportaproblem.apple.com/).",
+        "Zaloguj się na Apple Account użyte do zakupu.",
+        "W sekcji **Chcę…** wybierz **Poproś o zwrot pieniędzy**.",
+        "Wybierz pasującą przyczynę, na przykład **Nie zamierzałem tego kupić** albo **Nie otrzymano zakupu w aplikacji**.",
+        "Wybierz zakup monet SMS Code (na przykład **20 Coins**) i kliknij **Dalej**.",
+        "Wyślij wniosek. Apple zwykle odpowiada w ciągu 24–48 godzin."
+      ],
+      "image": {
+        "src": "/help/apple-refund-reasons.png",
+        "alt": "Strona Apple „Zgłoś problem” z wybraną opcją „Poproś o zwrot pieniędzy” i listą przyczyn: nie zamierzałem tego kupić, dziecko dokonało zakupu bez zgody, nie otrzymano zakupu w aplikacji, prawo odstąpienia i inne.",
+        "width": 882,
+        "height": 417
+      },
+      "cta": {
+        "label": "Otwórz reportaproblem.apple.com",
+        "href": "https://reportaproblem.apple.com/"
+      }
+    },
+    {
+      "title": "Po wysłaniu",
+      "paragraphs": [
+        "Status wniosku sprawdzisz na tej samej stronie. Po zatwierdzeniu przez Apple środki w sklepie wracają zwykle w ciągu 48 godzin, na karty i większość innych metod płatności w ciągu 30 dni, a przy płatnościach przez operatora w ciągu 60 dni. Nie możemy przyspieszyć Apple ani Twojego banku.",
+        "Jeśli Apple zatwierdzi zwrot, monety z tego zakupu zostaną usunięte z Twojego salda SMS Code. Nie wydawaj monet z zakupu, za który prosisz o zwrot."
+      ]
+    },
+    {
+      "title": "Kiedy zamiast tego napisać do nas",
+      "paragraphs": [
+        "Napisz do nas, jeśli aktywacja się nie udała, a monety nie wróciły na saldo, jeśli zapłaciłeś, a monety nigdy się nie pojawiły ([brakujące monety](/support/missing-coins)), albo jeśli Apple poprosiło Cię o kontakt z deweloperem. Możemy sprawdzić aktywację i wysłać Ci potwierdzenia zakupu. Twoje prawa konsumenta pozostają nienaruszone."
+      ]
+    }
+  ]
+}

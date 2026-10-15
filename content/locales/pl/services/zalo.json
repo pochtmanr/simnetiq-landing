@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Zalo — weryfikacja bez własnego telefonu",
+  "metaDescription": "Odbierz kod aktywacyjny Zalo na prawdziwy numer wirtualny zwykle w kilka sekund. Kontaktuj się z Wietnamczykami bez odsłaniania prywatnego telefonu.",
+  "hero": {
+    "title": "Numer wirtualny do Zalo",
+    "intro": [
+      "Zalo to wietnamski komunikator do wszystkiego – tu czatują rodziny, sprzedawcy przyjmują zamówienia, a biura się koordynują – a konto to numer telefonu, kropka. Rejestracja zaczyna się od numeru, SMS w rodzaju „793145 is your Zalo activation code” go potwierdza, a ten numer staje się sposobem, w jaki ludzie Cię znajdują.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, a kod trafia do aplikacji zwykle w ciągu kilku sekund. Dostajesz działające konto Zalo – a dostawcy, wynajmujący czy teściowie, z którymi tam piszesz, nigdy nie potrzebują numeru, którego używa Twój bank."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Zalo?",
+    "body": [
+      "Ludzie dołączają do Zalo dla kawałka życia w Wietnamie: dostawcy, który odpowiada tylko tam, ogłoszenia mieszkania, czatu rodziny partnera. Nic z tego nie wymaga wpinania numeru na całe życie w nowy graf społecznościowy – w Zalo każdy, kto ma Twój numer zapisany, może wyświetlić Twój profil, a kontakty biznesowe mają zwyczaj przechowywać numery na zawsze. Wynajęty numer przejmuje aktywację, a prywatny zostaje poza tym.",
+      "Uczciwa druga strona: Zalo chroni swoją sieć i jest w samym rdzeniu oparty na telefonie. Zagraniczne i nieznane zakresy są sprawdzane surowiej niż lokalne wietnamskie numery, aktywacje mogą wymagać ponownej próby, a ponowne logowanie na nowym urządzeniu może znów poprosić o numer. Numer wirtualny absolutnie tu działa – ale nagradza porządną konfigurację: zweryfikuj, nie wylogowuj się i traktuj sesję urządzenia jako to, co chronisz."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Zalo numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Wybierz Zalo jako usługę i kraj. Wietnamski numer najnaturalniej pasuje do sieci Zalo; numer z Twojego kraju też działa i uczciwie pokazuje w profilu, gdzie jesteś."
+      },
+      {
+        "title": "Wpisz go na ekranie rejestracji Zalo",
+        "body": "Wybierz pasujący numer kierunkowy i starannie wpisz numer. Zalo od razu wysyła SMS aktywacyjny – trzymaj SMS Code otwarty obok."
+      },
+      {
+        "title": "Wpisz kod",
+        "body": "SMS brzmi „793145 is your Zalo activation code” i pojawia się w aplikacji zwykle w ciągu kilku sekund. Wpisz go, ustaw nazwę wyświetlaną, a konto działa."
+      },
+      {
+        "title": "Chroń sesję",
+        "body": "Zalo opiera ponowną weryfikację na numerze telefonu, więc nie wylogowuj się bez powodu. Pozostań zalogowany na głównym urządzeniu, uzupełnij profil, a jeśli Zalo oferuje w ustawieniach dodatkową ochronę konta, włącz ją."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Wietnamskie numery mają najłatwiej",
+      "body": "Zalo wyrosło na numerach +84 i traktuje je jak ruch domowy. Jeśli pierwsza próba z innym krajem utknie, anuluj za darmo w SMS Code i spróbuj ponownie z numerem wietnamskim – to przetarta ścieżka."
+    },
+    {
+      "title": "Nie wylogowuj się pod wpływem impulsu",
+      "body": "Świeże logowanie na nowym urządzeniu może uruchomić ponowną weryfikację SMS, a to moment, w którym wygasły wynajem boli. Utrzymuj sesję na urządzeniu; jeśli planujesz zmianę telefonu, przeprowadź się, póki jeszcze możesz odebrać kod."
+    },
+    {
+      "title": "Uważaj, kto może Cię znaleźć",
+      "body": "Zalo może sugerować Twój profil osobom, które mają Twój numer zapisany, i użytkownikom w pobliżu, jeśli na to pozwolisz. Po rejestracji sprawdź ustawienia prywatności – wyłącz wyszukiwanie po numerze telefonu i „znajdź znajomych w pobliżu”, chyba że naprawdę ich chcesz."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy Zalo działa z niewietnamskim numerem?",
+      "a": "Tak – Zalo rejestruje konta na numerach międzynarodowych, a czaty, połączenia i grupy działają tak samo. Wietnamskie numery napotykają najmniej tarcia, więc to pierwszy wybór, gdy numer innego kraju wolno się aktywuje."
+    },
+    {
+      "q": "Czy moje konto Zalo będzie działać po wygaśnięciu wynajętego numeru?",
+      "a": "Tak, dopóki jesteś zalogowany. Numer znów ma znaczenie przy ponownej weryfikacji – zwykle na nowym urządzeniu lub po świeżej instalacji – więc utrzymuj sesję i przeprowadzaj zmiany urządzeń, póki możesz odebrać kod."
+    },
+    {
+      "q": "Dlaczego Zalo odrzuca numer albo nie wysyła kodu?",
+      "a": "Zalo sprawdza nieznane zakresy agresywniej niż większość komunikatorów. Najpierw sprawdź numer kierunkowy; jeśli SMS nadal nie przychodzi, anuluj aktywację bez opłat i weź świeży numer – przejście na wietnamski zwykle to załatwia."
+    },
+    {
+      "q": "Czy ludzie zobaczą, że zarejestrowałem się wynajętym numerem?",
+      "a": "Nie. To prawdziwy numer komórkowy w prawdziwej sieci operatora, nie do odróżnienia od żadnego innego. Inni widzą Twoją nazwę wyświetlaną – a jeszcze mniej, jeśli wyłączysz wyszukiwanie po numerze telefonu w ustawieniach prywatności."
+    },
+    {
+      "q": "Czy numer wirtualny wystarczy do funkcji biznesowych Zalo?",
+      "a": "Do zwykłego konta – tak, łącznie z czatowaniem ze sklepami i dostawcami. Oficjalne konta biznesowe Zalo i usługi specyficzne dla Wietnamu mają własne kontrole rejestracji i tożsamości, których sam numer telefonu nie spełnia."
+    }
+  ]
+}

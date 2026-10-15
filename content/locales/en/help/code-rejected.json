@@ -1,0 +1,30 @@
+{
+  "title": "Code rejected or number already used",
+  "metaDescription": "The SMS arrived but the service rejected the code or the number? Why services refuse virtual numbers, what to try next, and when support can review it.",
+  "sections": [
+    {
+      "title": "Why a service rejects a code or a number",
+      "paragraphs": [
+        "Receiving the SMS is our part. Whether the service accepts the number is up to the service. A virtual number can be refused even after the code arrives.",
+        "**The number was used before.** Numbers are recycled. If the number was already linked to an account on that service, it may refuse it or show someone else's account.",
+        "**The service restricts the country.** Some services only accept numbers from your own region, or block number ranges they consider virtual.",
+        "**The code expired or doesn't match.** Codes are short-lived and tied to one sign-up attempt. A new request makes the old code invalid."
+      ]
+    },
+    {
+      "title": "What to try",
+      "steps": [
+        "Enter the newest code, for the same service and account, without spaces.",
+        "If the service says the number is already registered, do not sign into an account that isn't yours. Start a new activation instead.",
+        "Try a different country. Countries where SMS for that service arrives well are listed on the [SMS not received](/support/sms-not-received) page.",
+        "Stop repeating paid attempts on the same service and country if they keep failing."
+      ]
+    },
+    {
+      "title": "About coins",
+      "paragraphs": [
+        "Once an SMS has arrived, the activation can't be cancelled and its coins don't return automatically, because the number did its job. If you think the SMS or the code was faulty, write to us with the service, country and time and we will review it. Your consumer rights are not affected."
+      ]
+    }
+  ]
+}

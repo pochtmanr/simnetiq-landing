@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Thay thế 5SIM — Ứng dụng SMS Code của SIMNETIQ",
+  "metaDescription": "So sánh 5SIM với ứng dụng SMS Code của SIMNETIQ: nền tảng web và API nạp ví so với ứng dụng di động dùng gói xu mua một lần và hủy miễn phí.",
+  "hero": {
+    "title": "Một lựa chọn thay thế 5SIM dưới dạng ứng dụng di động gốc",
+    "intro": [
+      "5SIM là một nền tảng web lâu năm để nhận mã xác minh SMS: bạn nạp số dư, mua số cho dịch vụ cần dùng, và đọc mã trong bảng điều khiển. Trang chủ của họ quảng bá cả dùng sỉ lẫn lẻ, với API để tự động hóa và danh mục mà trang của họ mô tả là trải rộng hơn 180 quốc gia và hơn một nghìn dịch vụ.",
+      "SMS Code của SIMNETIQ tiếp cận cùng công việc từ phía người tiêu dùng. Đó là ứng dụng iOS gốc: chọn dịch vụ và quốc gia, nhận số thật, và mã hiện trong ứng dụng thường chỉ trong vài giây. Bạn trả bằng gói xu mua một lần qua thanh toán của Apple — không ví web, không thuê bao — và các lần kích hoạt không bao giờ nhận được SMS sẽ hủy miễn phí."
+    ]
+  },
+  "whenThem": {
+    "title": "Khi nào 5SIM là lựa chọn tốt hơn",
+    "body": "Hãy chọn 5SIM nếu khối lượng hay tự động hóa là mục đích. Nền tảng của họ hướng đến webmaster, chuyên gia SMM và doanh nhân mua số với số lượng lớn, và API cho phép bạn viết kịch bản toàn bộ chu trình — mua, chờ SMS, đi tiếp. Danh mục cũng đơn giản là lớn hơn: nếu bạn cần một dịch vụ hiếm hay một tổ hợp quốc gia bất thường, một nền tảng rộng như vậy có nhiều khả năng có sẵn hơn một ứng dụng tiêu dùng được chọn lọc."
+  },
+  "whenUs": {
+    "title": "Khi nào ứng dụng SMS Code phù hợp hơn",
+    "body": "Hãy chọn ứng dụng nếu bạn xác minh tài khoản cho chính mình, không phải hàng trăm cái. Không có số dư phải nạp trước và không có bảng điều khiển phải lần mò trên màn hình điện thoại: toàn bộ quy trình — dịch vụ, quốc gia, số, mã — là trải nghiệm di động gốc cài từ App Store. Gói xu mua một lần nghĩa là bạn trả theo lần kích hoạt bằng thanh toán của cửa hàng (thông tin thẻ của bạn không bao giờ đến chỗ chúng tôi), phạm vi hơn 100 quốc gia và hơn 100 dịch vụ phổ biến, và lần kích hoạt không nhận được sẽ tự động hủy miễn phí."
+  },
+  "comparison": {
+    "title": "5SIM và ứng dụng SMS Code, đặt cạnh nhau",
+    "rows": [
+      {
+        "label": "Nền tảng",
+        "competitor": "Nền tảng web có API để mua tự động",
+        "us": "Ứng dụng iOS gốc từ App Store"
+      },
+      {
+        "label": "Mô hình giá",
+        "competitor": "Trả theo số từ số dư ví đã nạp",
+        "us": "Gói xu mua một lần, trả theo lần kích hoạt — không thuê bao"
+      },
+      {
+        "label": "Thanh toán",
+        "competitor": "Nạp ví trên web bằng các phương thức trang của họ liệt kê",
+        "us": "Thanh toán qua cửa hàng Apple — không chia sẻ thông tin thẻ với chúng tôi"
+      },
+      {
+        "label": "Phạm vi",
+        "competitor": "Trang của họ ghi hơn 180 quốc gia và danh mục hơn 1.000 dịch vụ",
+        "us": "Hơn 100 quốc gia và hơn 100 dịch vụ phổ biến, chọn lọc cho đăng ký hằng ngày"
+      },
+      {
+        "label": "Hủy",
+        "competitor": "Theo quy tắc hoàn tiền riêng của họ — hãy xem điều khoản hiện hành",
+        "us": "Lần kích hoạt không nhận SMS hủy miễn phí, xu được hoàn"
+      },
+      {
+        "label": "Hỗ trợ",
+        "competitor": "Trang của họ quảng cáo hỗ trợ 24/7",
+        "us": "Biểu mẫu liên hệ trong ứng dụng và trên trang web"
+      },
+      {
+        "label": "Phù hợp nhất cho",
+        "competitor": "Người mua số lượng lớn và lập trình viên viết kịch bản xác minh qua API",
+        "us": "Cá nhân muốn một ứng dụng di động gọn gàng cho những lần xác minh thỉnh thoảng"
+      }
+    ],
+    "note": "Thông tin về đối thủ phản ánh trang công khai của họ tại thời điểm viết và có thể thay đổi — hãy luôn kiểm tra trên 5sim.net trước khi quyết định."
+  },
+  "switchSteps": {
+    "title": "Thử ứng dụng chỉ mất ba bước",
+    "steps": [
+      {
+        "title": "Cài ứng dụng",
+        "body": "Tải SMS Code của SIMNETIQ từ App Store — không cần tạo tài khoản web hay thiết lập ví."
+      },
+      {
+        "title": "Mua một gói xu",
+        "body": "Mua gói một lần qua tài khoản cửa hàng. Không có số dư trả trước nằm trên trang web nào; bạn chỉ tiêu xu khi kích hoạt một số."
+      },
+      {
+        "title": "Chạy lần kích hoạt đầu tiên",
+        "body": "Chọn dịch vụ và quốc gia, nhận số thật, và xem mã đến trong ứng dụng thường chỉ trong vài giây. Nếu không có gì đến, lần kích hoạt hủy miễn phí."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Ứng dụng SMS Code khác 5SIM thế nào?",
+      "a": "5SIM là nền tảng web có số dư ví và API, hướng tới người mua số lượng lớn. Ứng dụng SMS Code của SIMNETIQ là ứng dụng di động gốc cho cá nhân: gói xu mua một lần qua thanh toán cửa hàng, vài chạm cho mỗi lần kích hoạt, và hủy miễn phí khi không có SMS."
+    },
+    {
+      "q": "Ứng dụng có API như 5SIM không?",
+      "a": "Không. Ứng dụng có chủ đích là sản phẩm tiêu dùng — nếu bạn cần mua số bằng chương trình, API của 5SIM là công cụ tốt hơn. Nếu bạn thỉnh thoảng cần một mã, ứng dụng là đường ngắn hơn."
+    },
+    {
+      "q": "Tôi có phải nạp số dư trước không?",
+      "a": "Bạn mua gói xu một lần qua thanh toán Apple và tiêu chúng theo từng lần kích hoạt. Không có ví web phải giữ tiền và không có thuê bao."
+    },
+    {
+      "q": "Nếu mã xác minh không bao giờ đến thì sao?",
+      "a": "Lần kích hoạt bị hủy và xu tự động được hoàn. Bạn chỉ trả cho những số thực sự nhận được SMS."
+    },
+    {
+      "q": "Danh sách quốc gia của 5SIM có lớn hơn của ứng dụng không?",
+      "a": "Theo chính trang chủ của họ, có — trang của họ ghi hơn 180 quốc gia so với hơn 100 của ứng dụng. Danh sách của ứng dụng được chọn lọc quanh các quốc gia hoạt động ổn định với dịch vụ phổ biến; nếu bạn cần thứ gì đó hiếm, một danh mục lớn hơn có thể phục vụ bạn tốt hơn."
+    }
+  ]
+}

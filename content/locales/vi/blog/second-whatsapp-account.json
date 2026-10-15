@@ -1,0 +1,148 @@
+{
+  "title": "Tài khoản WhatsApp thứ hai không cần SIM thứ hai",
+  "description": "Bạn không cần SIM thứ hai cho WhatsApp thứ hai — chỉ cần số thứ hai và ứng dụng để chạy nó. WhatsApp Business, nhiều tài khoản và số ảo.",
+  "excerpt": "WhatsApp gắn mỗi tài khoản với đúng một số — nhưng số đó không cần khe SIM. Các cách chạy hai ứng dụng chính thức, hướng dẫn xác minh, và những lưu ý thẳng thắn.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Bạn muốn một WhatsApp cho bạn bè, gia đình và một cái khác cho công việc, dự án phụ hay bán hàng trên sàn — mà không mua thêm SIM hay mang thêm điện thoại. Rất nhiều hướng dẫn hứa hẹn một mẹo. Đây là phiên bản trung thực: không có mẹo nào, vì vấn đề không phải như bạn nghĩ."
+    },
+    {
+      "type": "p",
+      "text": "Mô hình của WhatsApp rất chặt — một số điện thoại, một tài khoản, và số là danh tính của tài khoản. Nhưng không gì trong mô hình đó nói số phải nằm trong khe SIM của điện thoại bạn. Thứ bạn thực sự cần là hai điều: một số thứ hai nhận được một mã xác minh, và một chỗ trên điện thoại để chạy tài khoản thứ hai. WhatsApp chính thức cung cấp phần thứ hai; số ảo lo phần thứ nhất. Hướng dẫn này đi qua cả hai, rồi đến việc xác minh, PIN hai bước, và những lưu ý mà hướng dẫn WhatsApp thường bỏ qua."
+    },
+    {
+      "type": "h2",
+      "id": "one-number-one-account",
+      "text": "Vì sao WhatsApp đòi mỗi tài khoản một số"
+    },
+    {
+      "type": "p",
+      "text": "Khác với dịch vụ cho đăng ký bằng email, WhatsApp dùng số điện thoại làm khóa chính của tài khoản. Người liên hệ tìm thấy bạn vì số bạn nằm trong danh bạ của họ; khóa mã hóa, bản sao lưu chat và tư cách thành viên nhóm đều treo vào nó. Đăng ký cùng số cho tài khoản mới và tài khoản cũ bị thay thế — đó cũng là lý do bạn không thể “nhân bản” tài khoản và vì sao mỗi tài khoản thứ hai thực sự cần số riêng."
+    },
+    {
+      "type": "p",
+      "text": "Tin tốt là WhatsApp đã chấp nhận rằng mọi người có lý do chính đáng để cần nhiều hơn một tài khoản, và hiện có hai cách chính thức để chạy chúng trên một điện thoại."
+    },
+    {
+      "type": "h2",
+      "id": "official-ways-to-run-two-accounts",
+      "text": "Các cách chính thức chạy hai tài khoản trên một điện thoại"
+    },
+    {
+      "type": "list",
+      "items": [
+        "WhatsApp Business — con đường hai ứng dụng chính thức trên cả iPhone lẫn Android. Đó là ứng dụng riêng của Meta, cài cạnh WhatsApp thường, được thiết kế đúng cho việc tách công việc và cá nhân: cùng chat và cuộc gọi, thêm hồ sơ doanh nghiệp, danh mục và trả lời tự động. Nó vẫn cần số riêng, và điều khoản của nó mong đợi việc sử dụng mang tính kinh doanh thật sự.",
+        "Nhiều tài khoản trên Android — các phiên bản mới của WhatsApp thường trên Android cho phép thêm tài khoản thứ hai ngay trong cùng ứng dụng và chuyển đổi trong cài đặt, không cần ứng dụng thứ hai. Mỗi tài khoản vẫn cần số riêng để xác minh. iPhone không có bộ chuyển trong ứng dụng này, đó là lý do ứng dụng Business là con đường thường dùng trên iOS.",
+        "Điện thoại thứ hai hoặc khe hai SIM — nhắc cho đủ: nó hoạt động, nhưng đó chính là chi phí phần cứng mà bài viết này giúp bạn tránh."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Hãy để ý điểm chung của mọi lựa chọn: chỗ chạy đã có, còn số thì chưa. Dù chọn đường nào, đến một lúc sẽ có màn hình hỏi số điện thoại chưa gắn với tài khoản chính của bạn. Đó là lúc số ảo vào cuộc."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-number-as-the-second-number",
+      "text": "Số ảo làm số thứ hai của bạn"
+    },
+    {
+      "type": "p",
+      "text": "Số ảo là số di động thật trên mạng nhà mạng thật — bạn thuê nó để xác minh, mã SMS hiện trong ứng dụng SMS Code thường chỉ trong vài giây, và WhatsApp thứ hai có danh tính riêng. Không thẻ SIM, không hợp đồng mới, không đường dây hằng tháng bạn sẽ quên hủy: bạn trả theo lần kích hoạt từ gói xu mua một lần, và nếu không có mã nào đến, lần kích hoạt hủy miễn phí. Với số tại hơn 100 quốc gia, bạn còn có thể cho tài khoản công việc một số địa phương của thị trường bạn phục vụ."
+    },
+    {
+      "type": "h2",
+      "id": "verification-walkthrough",
+      "text": "Hướng dẫn xác minh từng bước"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Chuẩn bị chỗ chạy trước",
+          "body": "Cài WhatsApp Business (iPhone hoặc Android), hoặc trên Android mở WhatsApp → Cài đặt → chạm mũi tên cạnh tên bạn → “Thêm tài khoản”. Đi đến màn hình hỏi số điện thoại trước khi thuê số — lần kích hoạt có thời hạn, và không nên tiêu nó vào việc thiết lập ứng dụng."
+        },
+        {
+          "title": "Thuê số cho WhatsApp",
+          "body": "Trong ứng dụng SMS Code, chọn WhatsApp làm dịch vụ và chọn quốc gia. Một chạm giữ một số di động thật chỉ cho bạn."
+        },
+        {
+          "title": "Nhập số và yêu cầu mã",
+          "body": "Gõ số vào WhatsApp với quốc gia tương ứng đã chọn — sai mã quốc gia là lý do phổ biến nhất khiến mã không bao giờ đến. Chọn gửi qua SMS khi được hỏi."
+        },
+        {
+          "title": "Lấy mã từ SMS Code",
+          "body": "SMS xác minh hiện trong ứng dụng SMS Code, thường chỉ trong vài giây. Nhập mã 6 chữ số vào WhatsApp, đặt tên hồ sơ, và tài khoản thứ hai đã hoạt động."
+        },
+        {
+          "title": "Đặt PIN hai bước ngay",
+          "body": "Trong tài khoản mới: Cài đặt → Tài khoản → Xác minh hai bước → bật, chọn PIN và thêm email khôi phục. Hãy làm việc này trước mọi thứ khác — phần dưới giải thích vì sao nó càng quan trọng với số thuê."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    },
+    {
+      "type": "h2",
+      "id": "two-step-pin",
+      "text": "PIN hai bước: cài đặt nhỏ, gánh việc lớn"
+    },
+    {
+      "type": "p",
+      "text": "PIN xác minh hai bước của WhatsApp được hỏi mỗi khi ai đó cố đăng ký lại số của bạn trên WhatsApp. Với số thuê, đây là lưới an toàn: ngay cả khi số đó sau này được người khác thuê cho dịch vụ khác, họ không thể đăng ký lại tài khoản WhatsApp của bạn nếu không có PIN. Cùng với phiên đang hoạt động trên điện thoại, nó giữ tài khoản vững chắc là của bạn. Hãy thêm cả email khôi phục — đó là đường duy nhất quay lại nếu bạn quên PIN."
+    },
+    {
+      "type": "h2",
+      "id": "honest-caveats",
+      "text": "Những lưu ý thẳng thắn"
+    },
+    {
+      "type": "p",
+      "text": "Đây là phần hầu hết hướng dẫn bỏ qua. WhatsApp khắt khe hơn Telegram rõ rệt với đăng ký mới, và tốt hơn là biết điều đó từ đầu."
+    },
+    {
+      "type": "callout",
+      "text": "WhatsApp chủ động không ưa những số nó nghi là tạm thời, và một tài khoản mới tinh lập tức hành xử như bot spam có thể bị hạn chế nhanh chóng. Hãy cho tài khoản mới một giai đoạn làm quen bình thường: điền tên và ảnh hồ sơ, nhắn cho vài người biết bạn và sẽ trả lời, và để nó sống yên vài ngày trước khi dùng nhiều hơn. Đừng nhắn hàng loạt cho người lạ hay tham gia hàng chục nhóm ngay ngày đầu — đó không phải mẹo lách, mà đơn giản là điều điều khoản WhatsApp mong đợi từ mọi tài khoản, và một số mới ít được tin tưởng hơn."
+    },
+    {
+      "type": "p",
+      "text": "Hai điều nữa cần biết. Thứ nhất, xác minh lại: WhatsApp đòi mã mới khi bạn cài lại ứng dụng hoặc chuyển sang điện thoại mới, nên hãy coi ứng dụng đã cài và đã đăng nhập là thứ cần giữ — đừng đăng xuất hay xóa nó tùy tiện. Thứ hai, chọn đúng chỗ chạy cho công việc: nếu tài khoản thứ hai thực sự mang tính thương mại, WhatsApp Business vừa là công cụ chính thức vừa an toàn hơn với điều khoản của nó; nếu chỉ là danh tính cá nhân thứ hai, tính năng nhiều tài khoản của Android là đủ."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Câu hỏi thường gặp"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Tôi có thể có hai tài khoản WhatsApp trên một điện thoại không?",
+          "a": "Có, một cách chính thức. Trên Android, các phiên bản WhatsApp gần đây hỗ trợ tài khoản thứ hai trong cùng ứng dụng; trên mọi điện thoại, bạn có thể chạy WhatsApp và WhatsApp Business song song. Mỗi tài khoản cần số điện thoại riêng để xác minh."
+        },
+        {
+          "q": "Tôi có cần thẻ SIM thứ hai cho WhatsApp thứ hai không?",
+          "a": "Không. WhatsApp cần một số nhận được một mã xác minh — nó không quan tâm số đó có nằm trong khay SIM hay không. Số ảo thuê xác minh tài khoản, và mã đến ứng dụng SMS Code thường chỉ trong vài giây."
+        },
+        {
+          "q": "WhatsApp có cấm tài khoản tạo bằng số ảo không?",
+          "a": "Số ảo là số di động thật, và xác minh bằng nó tự thân không phải vi phạm — WhatsApp kiểm tra bạn kiểm soát số, không phải số đứng tên ai. Thứ khiến tài khoản bị hạn chế là hành vi: nhắn tin kiểu spam, tiếp cận hàng loạt người lạ, vi phạm điều khoản WhatsApp. Hãy dùng tài khoản như người bình thường và cho nó làm quen nhẹ nhàng."
+        },
+        {
+          "q": "Điều gì xảy ra với WhatsApp khi số ảo hết hạn?",
+          "a": "Tài khoản vẫn hoạt động — số được kiểm tra khi đăng ký, và việc dùng hằng ngày dựa vào ứng dụng đã đăng nhập. Lưu ý: cài lại hoặc đổi điện thoại sẽ kích hoạt xác minh lại với mã mới. Hãy giữ ứng dụng đã cài và đăng nhập, và đặt PIN hai bước để không ai khác đăng ký lại được số."
+        },
+        {
+          "q": "Tôi nên dùng WhatsApp Business hay tính năng nhiều tài khoản?",
+          "a": "Nếu tài khoản thứ hai dành cho kinh doanh thật — khách hàng, bán hàng, hỗ trợ — hãy dùng WhatsApp Business: đó là công cụ chính thức, có thêm hồ sơ và danh mục, và khớp điều khoản sử dụng. Nếu bạn chỉ muốn tài khoản cá nhân thứ hai và dùng Android, chuyển đổi nhiều tài khoản trong ứng dụng là lựa chọn nhẹ hơn. Trên iPhone, Business là con đường hai ứng dụng thực tế."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

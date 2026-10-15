@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Polityka prywatności",
+    "description": "Jak SIMNETIQ LTD zbiera, wykorzystuje, przechowuje i chroni Twoje dane w aplikacji SMS Code i na simnetiq.xyz oraz Twoje prawa według RODO (UK i UE)."
+  },
+  "prevailingNotice": "To tłumaczenie ma charakter wyłącznie pomocniczy. W razie rozbieżności rozstrzygająca jest wersja angielska.",
+  "label": "Informacje prawne",
+  "title": "Polityka prywatności",
+  "updatedLabel": "Ostatnia aktualizacja:",
+  "sections": [
+    {
+      "title": "1. Kim jesteśmy",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SMS Code („Aplikacja”) i serwis simnetiq.xyz („Serwis”) prowadzi SIMNETIQ LTD („my”, „nas”, „nasz”), spółka zarejestrowana w Anglii i Walii. Jesteśmy administratorem danych osobowych opisanych w tej polityce. Możesz się z nami skontaktować pod adresem {supportEmail}."
+        },
+        {
+          "type": "p",
+          "text": "Numer spółki: {companyNumber}. Siedziba: {registeredOffice}. Kontakt: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Co robi Aplikacja",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikacja udostępnia tymczasowe wirtualne numery telefonów, które mogą odbierać kody weryfikacyjne SMS, dzięki czemu możesz rejestrować się w usługach online bez podawania prywatnego numeru telefonu."
+        }
+      ]
+    },
+    {
+      "title": "3. Jakie dane zbieramy",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Dane konta.** Anonimowy identyfikator konta tworzony przy pierwszym otwarciu Aplikacji oraz Twój adres e-mail, jeśli zdecydujesz się go podać.",
+            "**Dane zakupów.** Zapisy kupowanych pakietów monet. Samą płatność obsługuje Apple App Store – nigdy nie widzimy danych Twojej karty.",
+            "**Dane aktywacji.** Usługa, kraj, numer wirtualny i treść SMS-ów weryfikacyjnych odebranych na tym numerze, przechowywane przez czas potrzebny do dostarczenia Ci kodu i rozstrzygnięcia sporów.",
+            "**Dane urządzenia.** Dwie rzeczy i tylko wtedy, gdy Cię dotyczą. Jeśli zezwolisz na powiadomienia – token push przypisany Twojemu urządzeniu, żebyśmy mogli poinformować Cię o nadejściu kodu. Oraz dwuliterowy kod regionu zgłaszany przez Twoje urządzenie (na przykład *GB*), wysyłany wraz z listą krajów, żebyśmy mogli oznaczyć jeden kraj jako „Polecany” – to ustawienie urządzenia, a nie Twoja lokalizacja, i nie jest potrzebne żadne uprawnienie do lokalizacji.",
+            "**Dane pomocy.** Gdy kontaktujesz się z pomocą przez Serwis lub e-mail, zbieramy Twoje imię, adres e-mail i treść wiadomości. Zgłoszenia wysłane przez Serwis są przechowywane w naszej bazie danych (hostowanej w Supabase) i przetwarzane przez nasze narzędzia e-mail, abyśmy mogli Ci odpowiedzieć. Przechowujemy też ciąg user-agent Twojej przeglądarki i solony, jednokierunkowy skrót Twojego adresu IP, aby blokować zautomatyzowane nadużycia formularza.",
+            "**Analityka serwisu.** Tylko jeśli zaakceptujesz analitykę w banerze cookies Serwisu, Serwis używa Vercel Web Analytics, które liczy odsłony bez cookies, oraz Google Analytics, które ustawia własne cookies (_ga), aby rozpoznać powracającą przeglądarkę. Żadne z nich nie służy do reklam ani do profilowania Cię na innych stronach. Nasza Polityka cookies wymienia każde cookie, a zgodę możesz w każdej chwili wycofać w Ustawieniach cookies na dole każdej strony. Aplikacja nie zawiera żadnego SDK analitycznego, reklamowego ani atrybucyjnego.",
+            "**Pomiar reklam.** Tylko jeśli zaakceptujesz marketing w banerze cookies Serwisu, Serwis ładuje Meta Pixel, który ustawia własne cookie (_fbp) i informuje Meta, gdy wizyta pochodziła z jednej z naszych reklam, żebyśmy mogli mierzyć skuteczność reklam. Aplikacja go nie używa."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Czego celowo nie zbieramy: Twojego własnego numeru telefonu, kontaktów, lokalizacji, identyfikatorów reklamowych ani jakiejkolwiek telemetrii użycia, awarii czy diagnostyki z wnętrza Aplikacji. W Aplikacji nie ma SDK do analityki ani raportowania awarii, więc nie ma czego takiego wysyłać. Jest to zgodne z etykietą prywatności SMS Code w App Store."
+        }
+      ]
+    },
+    {
+      "title": "4. Jak wykorzystujemy Twoje dane",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Aby udostępniać numery wirtualne i dostarczać Ci kody weryfikacyjne (wykonanie umowy).",
+            "Aby prowadzić Twoje saldo monet i przywracać zakupy na różnych urządzeniach (wykonanie umowy).",
+            "Aby odpowiadać na zgłoszenia do pomocy (prawnie uzasadniony interes / wykonanie umowy).",
+            "Aby wykrywać i zapobiegać oszustwom, nadużyciom i naruszeniom naszych Warunków korzystania (prawnie uzasadniony interes).",
+            "Aby za pomocą analityki serwisu rozumieć, które strony Serwisu ludzie uważają za przydatne – tylko jeśli zaakceptujesz ją w banerze cookies (zgoda, którą możesz w każdej chwili wycofać).",
+            "Aby za pomocą Meta Pixel mierzyć skuteczność naszych reklam na Facebooku i Instagramie – tylko jeśli zaakceptujesz marketing w banerze cookies (zgoda, którą możesz w każdej chwili wycofać)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Nie sprzedajemy Twoich danych osobowych. Dane o wizytach w Serwisie udostępniamy Meta tylko wtedy, gdy zaakceptujesz marketingowe cookies, w celu mierzenia naszych własnych reklam. Danych z Aplikacji nigdy nie udostępniamy reklamodawcom."
+        }
+      ]
+    },
+    {
+      "title": "5. Udostępnianie i podmioty przetwarzające",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Do prowadzenia usługi korzystamy z następujących dostawców. Ich rola zależy od świadczonej usługi:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Supabase** — baza danych i backend Aplikacji. Przechowuje wszystko z sekcji 3, co w ogóle jest przechowywane.",
+            "**Apple** — obsługuje każdy zakup w aplikacji oraz logowanie przez Apple, jeśli z niego korzystasz. Nigdy nie widzimy Twoich danych płatniczych.",
+            "**RevenueCat** — weryfikuje potwierdzenia zakupów i informuje nasz backend, jaki pakiet monet kupiłeś. Otrzymuje identyfikator Twojego konta, dane zakupu i podstawowe informacje o urządzeniu.",
+            "**Expo** — dostarcza powiadomienia push i aktualizacje Aplikacji. Otrzymuje Twój token push i treść powiadomienia.",
+            "**Vercel** — hostuje Serwis i zapewnia jego analitykę odsłon bez cookies.",
+            "**Google** — zapewnia Google Analytics w Serwisie, tylko jeśli zaakceptujesz analitykę. Otrzymuje odsłony, informacje o urządzeniu i przeglądarce oraz identyfikator zapisany w cookie _ga, z wyłączonymi funkcjami reklamowymi.",
+            "**Meta** — zapewnia Meta Pixel w Serwisie, tylko jeśli zaakceptujesz marketing. Otrzymuje odsłony, informacje o przeglądarce, Twój adres IP i identyfikator z cookie _fbp i może też wykorzystywać te dane do własnych celów jako niezależny administrator zgodnie z własną polityką prywatności.",
+            "**Nasze narzędzia e-mail** — przenoszą korespondencję z pomocą.",
+            "**Nasz dostawca telefonii** — dostarcza numery wirtualne. Otrzymuje wyłącznie usługę i kraj, o które prosisz; nie otrzymuje żadnego Twojego identyfikatora, a my nie wysyłamy identyfikatora Twojego konta w aplikacji. Dostawca przetwarza numery i treść SMS-ów, aby świadczyć usługę."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Dostawcy działający jako podmioty przetwarzające muszą podlegać odpowiednim warunkom przetwarzania danych. Nie sprzedajemy Twoich danych, a poza Meta (tylko za Twoją zgodą na marketing) niczego nie udostępniamy reklamodawcom. Możemy również ujawnić dane, jeśli wymaga tego prawo."
+        }
+      ]
+    },
+    {
+      "title": "6. Przekazywanie danych za granicę",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Niektórzy dostawcy mają siedzibę poza Zjednoczonym Królestwem. Gdy dane opuszczają Zjednoczone Królestwo lub Europejski Obszar Gospodarczy, obowiązujące prawo ochrony danych wymaga odpowiedniej podstawy przekazania, takiej jak decyzja stwierdzająca odpowiedni stopień ochrony lub zabezpieczenia umowne. Vercel i Google mogą przetwarzać dane analityczne serwisu w Stanach Zjednoczonych; te przekazania opierają się na EU–US Data Privacy Framework i jego rozszerzeniu dla Wielkiej Brytanii lub na standardowych klauzulach umownych. Skontaktuj się z nami, aby uzyskać informacje o zabezpieczeniach Twoich danych."
+        },
+        {
+          "type": "p",
+          "text": "Meta może przetwarzać dane marketingowe z Serwisu w Stanach Zjednoczonych na tych samych podstawach przekazania."
+        }
+      ]
+    },
+    {
+      "title": "7. Okres przechowywania",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Dane aktywacji — 90 dni.** Wynajęty numer i treść każdego odebranego na nim SMS-a są usuwane w ramach codziennego zaplanowanego czyszczenia po 90 dniach od utworzenia aktywacji. Później zostaje zapis bez numeru i bez treści wiadomości: usługa, kraj, data, wynik i użyte monety. Zachowujemy go, ponieważ jest to zapis księgowy wydanych przez Ciebie monet i dowód, którego potrzebujemy, gdy płatność zostanie zakwestionowana.",
+            "**Dane konta — do czasu usunięcia konta.** Usunięcie konta usuwa Twoje aktywne konto, adres e-mail i historię aktywacji. Ograniczone zapisy finansowe i służące zapobieganiu oszustwom pozostają, jak opisano poniżej i w sekcji 9.",
+            "**Zapisy zakupów — zgodnie z prawem.** Spseudonimizowany zapis finansowy każdego zakupu – numer transakcji, pakiet, kwota, data i informacja, czy później go zwrócono – jest przechowywany przez okres wymagany przepisami podatkowymi i rachunkowymi i pozostaje po usunięciu konta. Nie zawiera numeru telefonu, treści wiadomości ani adresu e-mail.",
+            "**Korespondencja z pomocą — do 24 miesięcy** od zamknięcia zgłoszenia."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8. Twoje prawa",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Na mocy brytyjskiego RODO (UK GDPR) i RODO UE masz prawo dostępu do swoich danych osobowych, ich sprostowania, usunięcia lub otrzymania ich kopii, ograniczenia przetwarzania lub wniesienia sprzeciwu oraz wycofania zgody w dowolnym momencie, jeśli przetwarzanie opiera się na zgodzie. Aby skorzystać z tych praw, napisz na {supportEmail}. Możesz też złożyć skargę do brytyjskiego Information Commissioner’s Office (ico.org.uk) lub do lokalnego organu nadzorczego."
+        }
+      ]
+    },
+    {
+      "title": "9. Usunięcie konta i danych",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Możesz usunąć konto bezpośrednio w Aplikacji (Ustawienia → Usuń konto) lub pisząc do nas e-mail. Usunięcie kasuje identyfikator Twojego konta, adres e-mail, saldo monet i historię aktywacji, w tym każdy wynajęty numer i każdą przechowywaną jeszcze treść SMS-a. Nie wymaga kontaktu z pomocą i jest nieodwracalne. Ograniczone zapisy finansowe i służące zapobieganiu oszustwom pozostają: numery transakcji zakupu, dawny identyfikator konta, zagregowane dane o aktywności i liczbie monet, niedobory po zwrotach, znaczniki czasu i zahaszowane powiązania tokenów urządzeń. Służą księgowości, sporom i zapobieganiu wielokrotnym nadużyciom zwrotów. Nie zawierają przechowywanych numerów z aktywacji, treści SMS-ów ani adresu e-mail konta, ale są spseudonimizowane, nie są gwarantowanie anonimowe i mogą zostać powiązane z zapisami zakupów lub innymi kontami korzystającymi z tego samego tokenu urządzenia."
+        }
+      ]
+    },
+    {
+      "title": "10. Dzieci",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikacja nie jest skierowana do dzieci i jest przeznaczona dla użytkowników w wieku 18 lat lub starszych. Nie zbieramy świadomie danych dzieci; jeśli uważasz, że dziecko korzystało z Aplikacji, skontaktuj się z nami, a usuniemy dane."
+        }
+      ]
+    },
+    {
+      "title": "11. Bezpieczeństwo",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dane są szyfrowane podczas przesyłania, dostęp jest ograniczony do osób, które go potrzebują, a nasze bazy danych egzekwują kontrolę dostępu na poziomie wierszy. Żaden system nie jest w pełni bezpieczny, dlatego ograniczamy też ilość przechowywanych danych do minimum."
+        }
+      ]
+    },
+    {
+      "title": "12. Zmiany tej polityki",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Możemy od czasu do czasu aktualizować tę politykę. Istotne zmiany ogłosimy w Aplikacji lub w Serwisie, a data „Ostatnia aktualizacja” powyżej zawsze odpowiada aktualnej wersji."
+        }
+      ]
+    }
+  ]
+}

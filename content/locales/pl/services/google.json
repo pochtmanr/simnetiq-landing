@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Google — załóż Gmail bez swojej karty SIM",
+  "metaDescription": "Zweryfikuj nowe konto Google prawdziwym numerem wirtualnym. Odbierz kod G- zwykle w kilka sekund i załóż Gmail bez swojego prywatnego numeru.",
+  "hero": {
+    "title": "Numer wirtualny do Google",
+    "intro": [
+      "Założenie konta Google ma trwać minutę – dopóki formularz rejestracji nie poprosi o numer telefonu. Google dynamicznie decyduje, czy wymagać weryfikacji, a gdy już to zrobi, nie da się przejść dalej bez odebrania prawdziwego SMS-a. Kod przychodzi od „Google” i wygląda jak „G-482915”.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, wpisujesz go na ekranie weryfikacji Google, a kod G- pojawia się w aplikacji zwykle w ciągu kilku sekund. Twój nowy Gmail zostaje założony – a prywatny numer zostaje poza nim."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Google?",
+    "body": [
+      "Numer, którym się weryfikujesz, nie tylko odblokowuje rejestrację – domyślnie Google zapisuje go też jako metodę odzyskiwania i kanał 2FA, po cichu wiążąc nowe konto z Twoim prywatnym telefonem. Jeśli cały sens konta to rozdzielenie – Gmail do jednego projektu, konto testowe dewelopera, adres do newsletterów – weryfikacja własną kartą SIM niweczy go, zanim wyślesz pierwszy e-mail. Numer wirtualny utrzymuje nową tożsamość naprawdę osobno.",
+      "Jest też praktyczny limit: Google ogranicza, ile kont może zweryfikować jeden numer telefonu. Jeśli Twój własny numer poręczył już za jednego czy dwa Gmaile, może po prostu przestać działać przy nowych. Świeży numer wirtualny przychodzi bez tej historii, więc weryfikacja przechodzi za pierwszym razem."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować konto Google numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Weź numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz Google jako usługę i kraj – popularne wybory to USA, Wielka Brytania lub Niemcy. Jedno stuknięcie rezerwuje prawdziwy numer komórkowy tylko dla Ciebie."
+      },
+      {
+        "title": "Wpisz go na ekranie weryfikacji Google",
+        "body": "Rozpocznij rejestrację na accounts.google.com i wypełnij podstawowe dane. Gdy Google poprosi o weryfikację numeru telefonu, wybierz kraj numeru i wpisz go dokładnie – zły numer kierunkowy to najczęstszy powód, dla którego SMS nigdy nie przychodzi."
+      },
+      {
+        "title": "Wpisz kod G-",
+        "body": "SMS trafia do aplikacji SMS Code zwykle w ciągu kilku sekund i brzmi „G-482915 is your Google verification code.” Wpisz sześć cyfr (bez prefiksu „G-”, jeśli pole Google przyjmuje tylko cyfry), a konto zostanie utworzone."
+      },
+      {
+        "title": "Odepnij konto od wynajętego numeru",
+        "body": "Zaraz po zalogowaniu otwórz Konto Google → Bezpieczeństwo. Usuń lub zmień numer telefonu w opcjach odzyskiwania, dodaj aplikację uwierzytelniającą, pobierz kody zapasowe i ustaw e-mail do odzyskiwania. Jeśli zrobisz to dobrze, konto nigdy więcej nie będzie zależeć od wynajętego numeru."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "„Tego numeru telefonu nie można użyć do weryfikacji”",
+      "body": "Google aktywnie odsiewa numery, które uważa za VoIP lub nadużywane, i odrzuca je dokładnie tym komunikatem. Zdarza się to; nie walcz z tym. Anuluj oczekującą aktywację w SMS Code – numery, które nic nie odebrały, nic nie kosztują – i spróbuj z nowym numerem, najlepiej z innego kraju."
+    },
+    {
+      "title": "Nie zostawiaj numeru jako metody odzyskiwania",
+      "body": "Google automatycznie zapisuje zweryfikowany numer jako metodę odzyskiwania konta i kanał 2FA. To w porządku dla karty SIM w Twojej kieszeni, ale nie dla wynajętego numeru. Wymień go zaraz po rejestracji w Konto Google → Bezpieczeństwo: aplikacja uwierzytelniająca z kodami zapasowymi i e-mail do odzyskiwania obejmują każdą sytuację, którą obsłużyłby SMS."
+    },
+    {
+      "title": "Jeden numer, ograniczona liczba kont",
+      "body": "Google ogranicza, ile kont jeden numer może zweryfikować przez cały swój żywot – i liczy każdego, kto używał tego numeru przed Tobą. Jeśli kod przychodzi, a Google i tak odrzuca numer, prawdopodobnie osiągnął ten limit. Świeży numer z SMS Code zaczyna liczenie od Twojej aktywacji."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy Google zawsze prosi o numer telefonu przy rejestracji?",
+      "a": "Nie – Google decyduje w każdym przypadku osobno, na podstawie sygnałów takich jak Twój adres IP, urządzenie i to, jak rejestracja wygląda dla jego systemów ryzyka. Wiele rejestracji całkowicie pomija krok z telefonem; wiele innych nie przejdzie bez niego. Jeśli Twój formularz wymaga numeru, wirtualny spełni to tak samo jak SIM."
+    },
+    {
+      "q": "Czy mój Gmail będzie działać po wygaśnięciu wynajętego numeru?",
+      "a": "Tak. Google sprawdza numer raz, przy weryfikacji. Konto nie wymaga, by numer pozostał aktywny – zwłaszcza jeśli wykonasz nasz krok czwarty i zastąpisz go aplikacją uwierzytelniającą, kodami zapasowymi i e-mailem do odzyskiwania. Potem nic w koncie nie zależy od wynajętego numeru."
+    },
+    {
+      "q": "Google mówi, że numeru nie można użyć do weryfikacji. Co teraz?",
+      "a": "To filtr Google dla numerów, które podejrzewa o VoIP lub powiązanie ze zbyt wieloma kontami. Anuluj aktywację w SMS Code – monety za numer, który nic nie odebrał, wracają na saldo – i weź nowy. Zmiana kraju często daje czystszy zakres numerów."
+    },
+    {
+      "q": "Czy mogę w ten sposób utworzyć więcej niż jedno konto Google?",
+      "a": "Każde konto potrzebuje własnej weryfikacji, a Google ogranicza, za ile kont może poręczyć jeden numer – więc używaj świeżego numeru na każde konto zamiast jednego ponownie. Trzymaj się warunków korzystania z Google: osobne konta do projektu, wspólnej skrzynki zespołu czy testów to normalne użycie."
+    },
+    {
+      "q": "Co, jeśli Google później poprosi o ponowną weryfikację numeru?",
+      "a": "Prośby o ponowną weryfikację zwykle pojawiają się, gdy Google ma wątpliwości co do logowania – nowe urządzenie, nietypowa lokalizacja. Jeśli wynajęty numer został już zastąpiony aplikacją uwierzytelniającą, kodami zapasowymi i e-mailem do odzyskiwania, przejdziesz te kontrole bez żadnego SMS-a. Właśnie dlatego zalecamy zrobić to pierwszego dnia."
+    }
+  ]
+}

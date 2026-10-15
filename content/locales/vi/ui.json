@@ -1,0 +1,93 @@
+{
+  "site": {
+    "name": "SMS Code của SIMNETIQ",
+    "titleTemplate": "%s — SMS Code của SIMNETIQ",
+    "appDescription": "Số ảo tại hơn 100 quốc gia để nhận mã xác minh qua SMS. Đăng ký Telegram, WhatsApp, Google và hơn 100 dịch vụ mà không cần cung cấp số điện thoại cá nhân."
+  },
+  "a11y": {
+    "mainNav": "Chính",
+    "breadcrumb": "Đường dẫn"
+  },
+  "faqHeading": "Câu hỏi thường gặp",
+  "nav": {
+    "langLabel": "Ngôn ngữ",
+    "links": [
+      {
+        "path": "/#how-it-works",
+        "label": "Cách hoạt động"
+      },
+      {
+        "path": "/virtual-numbers",
+        "label": "Số ảo"
+      },
+      {
+        "path": "/#pricing",
+        "label": "Bảng giá"
+      },
+      {
+        "path": "/#faq",
+        "label": "Hỏi đáp"
+      },
+      {
+        "path": "/support",
+        "label": "Hỗ trợ"
+      }
+    ],
+    "cta": "Tải ứng dụng",
+    "home": "Trang chủ SMS Code",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu"
+  },
+  "footer": {
+    "tagline": "Một số điện thoại cho lần đăng ký. Không phải cho cả đời.",
+    "liveStatus": "Số trực tuyến tại hơn 100 quốc gia",
+    "backToTop": "Lên đầu trang",
+    "servicesLabel": "Dịch vụ phổ biến",
+    "allServices": "Tất cả dịch vụ",
+    "resourcesLabel": "Tài nguyên",
+    "hub": "Số ảo",
+    "blog": "Blog",
+    "companyLabel": "Công ty",
+    "getApp": "Tải ứng dụng",
+    "followLabel": "Theo dõi",
+    "support": "Hỗ trợ",
+    "privacy": "Chính sách quyền riêng tư",
+    "terms": "Điều khoản dịch vụ",
+    "rights": "Bảo lưu mọi quyền.",
+    "registered": "Đăng ký tại",
+    "companyNo": "mã số công ty",
+    "registeredOffice": "Văn phòng đăng ký",
+    "cookies": "Chính sách cookie",
+    "cookieSettings": "Cài đặt cookie"
+  },
+  "cookies": {
+    "bannerLabel": "Đồng ý sử dụng cookie",
+    "bannerTitle": "Cookie, bạn quyết định",
+    "bannerBody": "Nếu bạn đồng ý, chúng tôi dùng công cụ phân tích để xem trang nào thực sự hữu ích, và Meta Pixel để đo lường quảng cáo. Không có gì chạy cho đến khi bạn chọn.",
+    "policyLink": "Chính sách cookie",
+    "reject": "Từ chối",
+    "accept": "Chấp nhận",
+    "customize": "Tùy chỉnh",
+    "dialogTitle": "Cài đặt cookie",
+    "dialogIntro": "Chọn những gì trang web này được phép sử dụng. Bạn có thể đổi ý bất cứ lúc nào ở chân trang.",
+    "necessaryTitle": "Thực sự cần thiết",
+    "necessaryBody": "Một cookie ghi nhớ lựa chọn này để chúng tôi không phải hỏi lại trên mỗi trang.",
+    "alwaysOn": "Luôn bật",
+    "analyticsTitle": "Phân tích",
+    "analyticsBody": "Vercel Web Analytics và Google Analytics đếm lượt truy cập và lượt nhấp để chúng tôi biết trang nào hữu ích. Google Analytics đặt cookie _ga. Không bao giờ dùng cho quảng cáo.",
+    "marketingTitle": "Tiếp thị",
+    "marketingBody": "Meta Pixel cho chúng tôi biết khi một lượt truy cập đến từ quảng cáo của chúng tôi trên Facebook hoặc Instagram, để xem quảng cáo nào hiệu quả. Nó đặt cookie _fbp, và Meta cũng có thể dùng dữ liệu này theo chính sách riêng của họ.",
+    "rejectAll": "Từ chối tất cả",
+    "acceptAll": "Chấp nhận tất cả",
+    "save": "Lưu lựa chọn",
+    "close": "Đóng"
+  },
+  "badges": {
+    "appStore": "Tải về trên App Store"
+  },
+  "notFound": {
+    "title": "Trang này không tồn tại",
+    "body": "Địa chỉ có thể đã thay đổi. Mọi thông tin về SMS Code đều có trên trang chủ.",
+    "back": "Về trang chủ"
+  }
+}

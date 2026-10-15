@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für VK — ohne echte Nummer registrieren",
+  "metaDescription": "Echte virtuelle Nummer für die Bestätigung bei VK. Der SMS-Code kommt meist in Sekunden – ein VK Konto erstellen, ohne deine private Nummer preiszugeben.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für VK",
+    "intro": [
+      "VK bietet keinen Weg an der Telefonnummer vorbei: Die Registrierung baut darauf auf. Bevor du Communitys durchstöbern, jemandem schreiben oder etwas auf dem Marktplatz einstellen kannst, sendet VK einen SMS-Code an die angegebene Nummer – und diese Nummer wird zum Login- und Wiederherstellungsanker des ganzen Kontos.",
+      "Mit SMS Code mietest du eine echte Nummer aus einem von über 100 Ländern, gibst sie im Registrierungsformular von VK ein, und der Bestätigungscode landet meist innerhalb von Sekunden in der App SMS Code. Das Konto ist vollständig bestätigt – und deine private Nummer gelangt nie in die Datenbank von VK."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für VK?",
+    "body": [
+      "Der häufigste Grund ist Trennung. Viele wollen ein VK Konto, das nicht ihre Hauptidentität ist: eines für die Leitung einer Community, eines zum Verkaufen auf dem Marktplatz von VK, eines, um Nischengruppen zu folgen, ohne das mit einem privaten Profil zu vermischen. VK bindet jedes Konto an eine eigene Nummer, jede separate Identität braucht also eine separate Nummer – und eine zu mieten schlägt eine Schublade voller Ersatz-SIM-Karten.",
+      "Die Nummer, die du VK gibst, hat außerdem mehr Gewicht als auf den meisten Plattformen, denn sie wird zur VK ID – einem einzigen Login, der über das ganze Ökosystem von Mail.ru/VK reicht. Registrierst du dich mit einer virtuellen Nummer, ist diese breit geteilte Kennung eine gemietete, nicht die Nummer, die deine Bank und deine Familie nutzen. Wird das Konto je kompromittiert oder ausgelesen, war deine echte Nummer nie im Wirkungsbereich."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du VK mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code mieten",
+        "body": "Öffne die App SMS Code, wähle VK als Dienst und such dir ein Land aus – Kasachstan und andere Nachbarländer sind häufige Wahlen. Ein Tippen reserviert eine echte Mobilnummer für dich."
+      },
+      {
+        "title": "Im Registrierungsformular von VK eingeben",
+        "body": "Starte die Registrierung bei VK und tippe die gemietete Nummer mit der richtigen Ländervorwahl ein. VK sendet sofort einen Bestätigungscode per SMS an diese Nummer."
+      },
+      {
+        "title": "Mit dem Code bestätigen",
+        "body": "Die Nachricht erscheint meist innerhalb von Sekunden in der App SMS Code – „VK: 348715 — код подтверждения“. Gib die sechs Ziffern auf dem Bildschirm von VK ein, und das Konto ist erstellt."
+      },
+      {
+        "title": "Starkes Passwort und Ersatzzugang hinzufügen",
+        "body": "Lege sofort ein solides, einzigartiges Passwort fest und hinterlege in den Einstellungen der VK ID eine E-Mail-Adresse. So stützen sich alltägliche Logins und die Wiederherstellung auf Passwort und E-Mail statt darauf, eine weitere SMS zu empfangen."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Eine Nummer, ein VK Konto",
+      "body": "VK setzt eine strikte Eins-zu-eins-Verbindung zwischen Nummer und Konto durch. Wurde eine Nummer schon einmal bei VK registriert, kann die Registrierung in einen Ablauf zum Anmelden oder Wiederherstellen umschlagen. SMS Code vergibt Nummern pro Aktivierung, aber wenn VK sich seltsam verhält, brich ab und nimm eine neue Nummer."
+    },
+    {
+      "title": "Die VK ID reicht über VK hinaus",
+      "body": "Das erstellte Konto dient zugleich als VK ID – der Login für das breitere Ökosystem von VK (Mail, Musik, Kleinanzeigen und mehr). Behandle es entsprechend: Ein starkes Passwort und eine hinterlegte E-Mail zählen hier mehr als bei einer App mit nur einem Zweck."
+    },
+    {
+      "title": "Zieh die Datenschutzeinstellungen an",
+      "body": "Beschränke in den Datenschutzeinstellungen von VK, wer dich über die Telefonnummer finden kann und wer deine Profildetails sieht. Zusammen mit einer virtuellen Nummer hält das deine Community- oder Marktplatzaktivität sauber von deiner privaten Identität getrennt."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kann ich mich bei VK ganz ohne Telefonnummer registrieren?",
+      "a": "Nein – VK verlangt bei der Registrierung eine SMS-Bestätigung, einen Weg nur per E-Mail gibt es nicht. Eine virtuelle Nummer ist der Weg, diese Anforderung zu erfüllen, ohne deine private herzugeben."
+    },
+    {
+      "q": "Kann ich ein zweites VK Konto für meine Community oder meinen Shop betreiben?",
+      "a": "Ja, das ist ein typischer Anwendungsfall. Jedes VK Konto braucht seine eigene Nummer, miete also für das neue Konto eine frische virtuelle Nummer und halte Community-Verwaltung oder Marktplatzverkauf von deinem privaten Profil getrennt."
+    },
+    {
+      "q": "Überlebt das Konto den Ablauf der gemieteten Nummer?",
+      "a": "Die Nummer wird für die Registrierungs-SMS gebraucht, nicht für den Alltag. Bleib angemeldet, setz ein starkes Passwort und hinterlege in den Einstellungen der VK ID eine E-Mail – dann hängen normale Logins und Wiederherstellung nicht von der alten Nummer ab. Besteht VK später auf einer erneuten SMS-Bestätigung, kannst du die Nummer im Konto auf eine neu gemietete ändern."
+    },
+    {
+      "q": "Warum ist mein VK Bestätigungscode nicht angekommen?",
+      "a": "Meist war die Nummer schon einmal bei VK registriert, oder die Ländervorwahl wurde falsch eingegeben. Brich die Aktivierung in SMS Code ab – für eine Nummer ohne empfangene SMS zahlst du nichts – und versuche es mit einer anderen Nummer erneut."
+    },
+    {
+      "q": "Spielt das Land der Nummer für VK eine Rolle?",
+      "a": "VK akzeptiert Nummern aus vielen Ländern; Kasachstan, Polen, Deutschland und die Niederlande sind in SMS Code beliebte Wahlen. Die Sprache der Oberfläche und deine Profileinstellungen hängen nicht vom Land der Nummer ab – die wählst du selbst."
+    }
+  ]
+}

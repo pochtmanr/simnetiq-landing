@@ -1,0 +1,27 @@
+{
+  "title": "Paid but coins are missing",
+  "metaDescription": "Bought a coin pack but the balance didn't change? Check the Apple payment, your SMS Code account and restore purchases, then send us the Apple order ID.",
+  "sections": [
+    {
+      "title": "Check these first",
+      "steps": [
+        "**Wait a few minutes and reopen the app.** A pending Apple payment can take a moment to complete. Don't buy another pack to fix it.",
+        "**Check the account.** Coins belong to the SMS Code account that bought them. If you signed in with Apple, Google or email on another device, use the same login here.",
+        "**Restore purchases.** Open the coin store in the app and tap **Restore purchases**. This credits purchases Apple confirmed but the app missed."
+      ]
+    },
+    {
+      "title": "Reinstalled the app?",
+      "paragraphs": [
+        "If you used the app without signing in, reinstalling creates a new account and the old balance doesn't follow automatically. Write to us with your Apple order ID and we will help recover it. [Keeping your balance](/support/account-balance) explains how to avoid this in future."
+      ]
+    },
+    {
+      "title": "What to send us",
+      "paragraphs": [
+        "The Apple order ID from your Apple receipt email (it starts with M), the pack, and the purchase date. Hide unrelated purchases and payment details. If you contact us from the app, your account ID is attached automatically.",
+        "If you want your money back instead of the coins, see [how to request a refund from Apple](/support/refund-apple)."
+      ]
+    }
+  ]
+}

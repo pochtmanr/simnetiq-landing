@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Google — Gmail ohne eigene SIM",
+  "metaDescription": "Bestätige ein neues Google Konto mit einer echten virtuellen Nummer. G-Code meist in Sekunden – Gmail erstellen, ohne deine private Nummer.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Google",
+    "intro": [
+      "Ein Google Konto zu erstellen, soll eine Minute dauern – bis das Registrierungsformular nach einer Telefonnummer fragt. Google entscheidet dynamisch, ob eine Bestätigung nötig ist, und wenn ja, gibt es keinen Weg an diesem Bildschirm vorbei, ohne eine echte SMS zu empfangen. Der Code kommt von „Google“ und sieht aus wie „G-482915“.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, gibst sie auf dem Bestätigungsbildschirm von Google ein, und der G-Code erscheint meist innerhalb von Sekunden in der App. Deine neue Gmail-Adresse wird erstellt – und deine private Nummer bleibt außen vor."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Google?",
+    "body": [
+      "Die Nummer, mit der du bestätigst, schaltet nicht nur die Registrierung frei – standardmäßig speichert Google sie auch als Wiederherstellungsmethode und 2FA-Kanal und verknüpft dein neues Konto so still mit deinem privaten Telefon. Wenn der ganze Sinn des Kontos die Trennung ist – eine Gmail für ein Projekt, ein Testkonto für Entwickler, eine Adresse für Newsletter –, machst du das mit deiner eigenen SIM zunichte, bevor du eine einzige E-Mail gesendet hast. Eine virtuelle Nummer hält die neue Identität wirklich getrennt.",
+      "Es gibt auch eine praktische Obergrenze: Google begrenzt, wie viele Konten eine einzelne Telefonnummer bestätigen kann. Hat deine eigene Nummer schon für ein oder zwei Gmail-Konten gebürgt, funktioniert sie für neue womöglich einfach nicht mehr. Eine frische virtuelle Nummer kommt ohne diese Vorgeschichte, die Bestätigung klappt also beim ersten Versuch."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du ein Google Konto mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code holen",
+        "body": "Öffne die App SMS Code, wähle Google als Dienst und such dir ein Land aus – die USA, Großbritannien oder Deutschland sind beliebte Wahlen. Ein Tippen reserviert eine echte Mobilnummer nur für dich."
+      },
+      {
+        "title": "Auf dem Bestätigungsbildschirm von Google eingeben",
+        "body": "Starte die Registrierung auf accounts.google.com und fülle die Grunddaten aus. Wenn Google deine Telefonnummer bestätigen will, wähle das Land der Nummer und tippe sie exakt ein – eine falsche Ländervorwahl ist der häufigste Grund, warum die SMS nie ankommt."
+      },
+      {
+        "title": "G-Code eintippen",
+        "body": "Die SMS landet meist innerhalb von Sekunden in der App SMS Code und lautet „G-482915 is your Google verification code.“ Gib die sechs Ziffern ein (ohne das Präfix „G-“, wenn das Feld von Google nur Ziffern verlangt), und das Konto ist erstellt."
+      },
+      {
+        "title": "Das Konto von der gemieteten Nummer lösen",
+        "body": "Öffne direkt nach der Anmeldung Google Konto → Sicherheit. Entferne oder ersetze die Telefonnummer unter den Wiederherstellungsoptionen, füge eine Authenticator-App hinzu, lade Backup-Codes herunter und lege eine Wiederherstellungs-E-Mail fest. Richtig gemacht, hängt das Konto nie wieder von der gemieteten Nummer ab."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "„Diese Telefonnummer kann nicht zur Bestätigung verwendet werden“",
+      "body": "Google filtert aktiv Nummern heraus, die es für VoIP oder bereits übernutzt hält, und lehnt sie mit genau dieser Meldung ab. Das kommt vor; kämpf nicht dagegen an. Brich die offene Aktivierung in SMS Code ab – Nummern, die nichts empfangen haben, kosten nichts – und versuche eine neue Nummer, am besten aus einem anderen Land."
+    },
+    {
+      "title": "Lass die Nummer nicht als Wiederherstellungsmethode stehen",
+      "body": "Google speichert die bestätigte Nummer automatisch für die Kontowiederherstellung und als 2FA-Kanal. Für eine SIM in deiner Tasche ist das in Ordnung, für eine gemietete Nummer nicht. Tausche sie direkt nach der Registrierung unter Google Konto → Sicherheit aus: Eine Authenticator-App plus Backup-Codes und eine Wiederherstellungs-E-Mail decken jede Situation ab, für die sonst eine SMS da wäre."
+    },
+    {
+      "title": "Eine Nummer, begrenzte Konten",
+      "body": "Google begrenzt, wie viele Konten eine einzelne Nummer im Laufe ihres Lebens bestätigen kann – und zählt dabei alle mit, die diese Nummer vor dir genutzt haben. Kommt ein Code an, Google lehnt die Nummer aber trotzdem ab, hat sie diese Grenze wahrscheinlich erreicht. Eine frische Nummer von SMS Code beginnt die Zählung mit deiner Aktivierung."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Fragt Google bei der Registrierung immer nach einer Telefonnummer?",
+      "a": "Nein – Google entscheidet von Fall zu Fall, anhand von Signalen wie deiner IP, deinem Gerät und davon, wie die Registrierung auf seine Risikosysteme wirkt. Viele Registrierungen überspringen den Telefonschritt ganz; viele andere kommen ohne ihn nicht weiter. Verlangt dein Formular eine Nummer, erfüllt eine virtuelle die Abfrage genauso wie eine SIM."
+    },
+    {
+      "q": "Funktioniert meine Gmail-Adresse weiter, wenn die gemietete Nummer abläuft?",
+      "a": "Ja. Google prüft die Nummer einmal, bei der Bestätigung. Das Konto hängt nicht davon ab, dass die Nummer aktiv bleibt – erst recht nicht, wenn du unseren Schritt vier befolgst und sie durch eine Authenticator-App, Backup-Codes und eine Wiederherstellungs-E-Mail ersetzt. Danach hängt nichts am Konto mehr von der gemieteten Nummer ab."
+    },
+    {
+      "q": "Google sagt, die Nummer kann nicht zur Bestätigung verwendet werden. Was jetzt?",
+      "a": "Das ist der Filter von Google für Nummern, die es für VoIP hält oder die schon mit zu vielen Konten verknüpft sind. Brich die Aktivierung in SMS Code ab – die Münzen für eine Nummer, die nichts empfangen hat, gehen auf dein Guthaben zurück – und nimm eine neue. Ein Wechsel in ein anderes Land bringt oft einen saubereren Nummernbereich."
+    },
+    {
+      "q": "Kann ich auf diesem Weg mehr als ein Google Konto erstellen?",
+      "a": "Jedes Konto braucht seine eigene Bestätigung, und Google begrenzt, für wie viele Konten eine Nummer bürgen kann – nutze also pro Konto eine frische Nummer, statt eine wiederzuverwenden. Bleib dabei im Rahmen der Nutzungsbedingungen von Google: Getrennte Konten für ein Projekt, ein Team-Postfach oder Tests sind normale Nutzung."
+    },
+    {
+      "q": "Was passiert, wenn Google später eine erneute Bestätigung der Nummer verlangt?",
+      "a": "Abfragen zur erneuten Bestätigung erscheinen meist, wenn Google an einem Login zweifelt – neues Gerät, ungewöhnlicher Ort. Hast du die gemietete Nummer bereits durch eine Authenticator-App, Backup-Codes und eine Wiederherstellungs-E-Mail ersetzt, bestehst du diese Prüfungen ganz ohne SMS. Genau deshalb empfehlen wir, das am ersten Tag zu erledigen."
+    }
+  ]
+}

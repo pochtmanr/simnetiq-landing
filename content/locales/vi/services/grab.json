@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Grab — Đăng ký siêu ứng dụng Đông Nam Á",
+  "metaDescription": "Xác minh Grab bằng số ảo thật. Mã kích hoạt thường đến chỉ trong vài giây — thiết lập gọi xe, đồ ăn và nhiều hơn nữa mà không cần số cá nhân.",
+  "hero": {
+    "title": "Số ảo cho Grab",
+    "intro": [
+      "Đặt chân xuống bất kỳ đâu ở Đông Nam Á và Grab là ứng dụng đầu tiên bạn cần: xe từ sân bay, đồ ăn về khách sạn, thanh toán ở quầy hàng rong. Đây là siêu ứng dụng của khu vực — và nó lấy điện thoại làm trung tâm. Khi đăng ký không có đăng nhập bằng email để dựa vào; Grab bắt đầu bằng việc hỏi số di động và nhắn mã kích hoạt tới đó.",
+      "SMS Code cung cấp cho bạn một số thật từ một trong hơn 100 quốc gia. Nhập nó trên màn hình chào của Grab, và mã sáu chữ số hiện trong ứng dụng SMS Code thường chỉ trong vài giây — tài khoản của bạn hoạt động trước cả khi hành lý ra băng chuyền, và số cá nhân chưa bao giờ là một phần của thỏa thuận."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Grab?",
+    "body": [
+      "Grab được xây dựng quanh số địa phương. Quy trình đăng ký của nó mong đợi một số từ quốc gia nơi nó hoạt động, và du khách đến với SIM châu Âu hay Mỹ thường thấy điều đó bất tiện — SMS chuyển vùng có thể chậm hoặc bị chặn, và một số nhà mạng còn tính phí cả việc nhận mã. Một số ảo từ Indonesia hoặc Philippines khớp ngay với điều Grab mong đợi, không cần đi tìm quầy bán SIM vào ngày đầu tiên.",
+      "Cũng có khía cạnh quyền riêng tư. Vì Grab lấy điện thoại làm trung tâm, số của bạn trở thành chìa khóa cho mọi thứ bên trong — lịch sử chuyến đi, đơn đồ ăn, ví. Giữ chìa khóa đó tách biệt khỏi số mà ngân hàng, gia đình và nơi làm việc của bạn dùng là cách phân vùng hợp lý: nếu bạn ngừng dùng Grab sau chuyến đi, không có gì về số hằng ngày của bạn đi theo nó."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Grab bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Grab làm dịch vụ và chọn quốc gia — một quốc gia Đông Nam Á như Indonesia hoặc Philippines hợp nhất với sân nhà của Grab. Số được giữ ngay lập tức."
+      },
+      {
+        "title": "Nhập số trên màn hình đăng ký Grab",
+        "body": "Grab hỏi số di động ngay ở màn hình đầu tiên. Chọn mã quốc gia khớp với số đã thuê và nhập vào — Grab gửi mã kích hoạt qua SMS ngay lập tức."
+      },
+      {
+        "title": "Nhập mã kích hoạt",
+        "body": "Theo dõi ứng dụng SMS Code: tin nhắn thường đến chỉ trong vài giây với nội dung “702415 is your Grab activation code. For your account safety, do not share this code.” Nhập sáu chữ số vào Grab."
+      },
+      {
+        "title": "Thêm email và thông tin thanh toán",
+        "body": "Khi đã vào, hãy gắn địa chỉ email trong hồ sơ và thiết lập cách thanh toán — thẻ hoặc ví trong ứng dụng. Email cho tài khoản thêm một điểm tựa ngoài số điện thoại."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Chọn quốc gia nơi Grab thực sự hoạt động",
+      "body": "Grab phục vụ Đông Nam Á — Singapore, Indonesia, Malaysia, Thái Lan, Việt Nam, Philippines và các nước lân cận. Số từ một trong các thị trường đó khớp với điều quy trình đăng ký mong đợi; đó là lý do số Indonesia và Philippines là lựa chọn phổ biến cho kích hoạt Grab."
+    },
+    {
+      "title": "Đăng ký trước chuyến đi",
+      "body": "Hãy xác minh tài khoản khi bạn còn dùng Wi-Fi thoải mái, không phải ở sảnh đến. Bước kiểm tra điện thoại chỉ diễn ra một lần khi đăng ký — sau đó bạn đăng nhập trên cùng thiết bị mà không cần SMS nữa, nên tài khoản sẵn sàng ngay khi bạn hạ cánh."
+    },
+    {
+      "title": "Tài xế gọi qua ứng dụng",
+      "body": "Khi tài xế cần liên lạc, Grab chuyển qua chat và cuộc gọi internet trong ứng dụng thay vì gọi thẳng số của bạn. Hãy bật thông báo cho ứng dụng Grab để không bỏ lỡ tin “tôi đang ở ngoài” dù không có SMS nào liên quan."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tôi có thể dùng Grab khi là du khách với số ảo không?",
+      "a": "Có — đó là trường hợp điển hình. Xác minh tài khoản bằng số từ quốc gia Grab hoạt động, thêm phương thức thanh toán, rồi đặt xe và đồ ăn trong chuyến đi như mọi người dùng địa phương. Tài khoản không gắn với SIM trong điện thoại của bạn."
+    },
+    {
+      "q": "Tôi nên chọn quốc gia nào cho số Grab?",
+      "a": "Một trong các thị trường sân nhà của Grab. Indonesia và Philippines là lựa chọn phổ biến nhất trong SMS Code cho Grab, vì quy trình đăng ký được xây dựng quanh số từ các quốc gia nơi dịch vụ hoạt động."
+    },
+    {
+      "q": "Tài khoản Grab có còn hoạt động sau khi thời hạn thuê số kết thúc không?",
+      "a": "Mã kích hoạt là bước kiểm tra một lần khi đăng ký. Miễn là bạn vẫn đăng nhập trên thiết bị, tài khoản hoạt động bình thường. Nếu sau này bạn đăng xuất và Grab yêu cầu xác minh lại, bạn có thể thuê số mới và cập nhật số trong hồ sơ."
+    },
+    {
+      "q": "Vì sao mã kích hoạt Grab không đến?",
+      "a": "Kiểm tra mã quốc gia chọn trong Grab có khớp với số đã thuê — sai lệch đó là nguyên nhân thường gặp nhất. Nếu không có gì đến, hủy lần kích hoạt trong SMS Code (số không nhận SMS thì miễn phí) và thử số khác."
+    },
+    {
+      "q": "Tôi có cần số địa phương để thanh toán bằng GrabPay không?",
+      "a": "Ví nằm trong tài khoản đã xác minh của bạn, không phải trong SIM. Khi tài khoản đã kích hoạt, tính năng thanh toán tuân theo quy định của quốc gia mà tài khoản được đặt — cách nạp tiền và hỗ trợ thẻ khác nhau theo thị trường, đó là chính sách của Grab, không phải vấn đề của số."
+    }
+  ]
+}

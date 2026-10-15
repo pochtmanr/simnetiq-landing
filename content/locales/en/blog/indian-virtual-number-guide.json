@@ -1,0 +1,149 @@
+{
+  "title": "Indian Virtual Number (+91): How It Works and Why OTPs Lag",
+  "description": "Why so many people outside India want a +91 number, how Indian mobile numbers are built, and why OTP texts to India sometimes arrive late — explained.",
+  "excerpt": "Close to ten million Indians live in the Gulf alone, and millions more abroad still need a +91 number to sign in at home. How Indian numbers work, what the DLT rules did to OTP delivery, and how to get a code on one without a SIM.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ask anyone who has moved from Kerala to Dubai, or from Hyderabad to Riyadh, what they kept from home, and the Indian SIM card comes up surprisingly often. Not for calls — those moved to WhatsApp long ago — but for the six-digit codes. Bank apps, payment wallets, government portals and a long tail of Indian services expect a +91 number at sign-up and keep texting it afterwards."
+    },
+    {
+      "type": "p",
+      "text": "The scale is not small. India’s Ministry of External Affairs puts the number of Indian nationals living in the six Gulf states at close to ten million, more than four million of them in the UAE. Add students in Europe, engineers in North America and a global diaspora the United Nations counts among the largest in the world, and you get a very large group of people who need an Indian number while living somewhere else."
+    },
+    {
+      "type": "p",
+      "text": "There is a second group, too: people with no connection to India at all who simply want a number from one of the world’s busiest mobile markets for a new account. That is the search behind queries like “Indian number for WhatsApp” in Arabic, French and a dozen other languages. This guide covers both — how Indian numbers are built, why texts to them behave differently from texts elsewhere, and where a virtual +91 number fits."
+    },
+    {
+      "type": "h2",
+      "id": "how-indian-mobile-numbers-work",
+      "text": "How an Indian mobile number is built"
+    },
+    {
+      "type": "p",
+      "text": "Indian mobile numbers are among the simplest in the world to read. After the country code +91 come exactly ten digits, and the first of them is always a 6, 7, 8 or 9. There are no area codes for mobiles: a number bought in Chennai looks exactly like one bought in Delhi."
+    },
+    {
+      "type": "list",
+      "items": [
+        "The leading digit tells you it is a mobile. For years almost every Indian mobile number started with 9; as subscriptions passed the billion mark, the Department of Telecommunications opened the 8, 7 and later 6 series.",
+        "The prefix no longer tells you the carrier. Since mobile number portability arrived, a number that began life on one network can move to Jio, Airtel or Vi and keep its digits, so the first four digits are a historical hint at best.",
+        "The plan is staying at ten digits. India’s telecom regulator, TRAI, consulted in 2019 on moving to eleven-digit mobile numbers and in 2020 decided against it. Any sign-up form that validates Indian numbers expects exactly ten digits after +91.",
+        "Domestically, Indians often write a leading 0 or the full +91. Neither belongs in a sign-up field that already has a country selector — type the ten digits only."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last point is the most common reason codes fail to arrive. A form with “+91” preselected and “09876543210” typed into it produces a number that does not exist, and the service will happily send its code into the void."
+    },
+    {
+      "type": "h2",
+      "id": "why-otps-to-india-lag",
+      "text": "Why OTP texts to India sometimes arrive late"
+    },
+    {
+      "type": "p",
+      "text": "Indian SMS is unusual for a reason most users never see: it is one of the most tightly regulated message markets in the world. Since 2021, TRAI has required every business that sends commercial SMS over domestic routes to register on a blockchain-based system known as DLT — distributed ledger technology. The company, its sender name and the exact template of each message all have to be registered in advance. When a message does not match a registered template, the network drops it."
+    },
+    {
+      "type": "p",
+      "text": "The point was to choke off spam and phishing, and it has largely worked. But the rollout showed how fragile the system can be. When operators switched on template scrubbing in March 2021, so many legitimate messages failed the check that customers of banks and payment apps stopped receiving their codes; trade press reported that around 40 percent of the day’s commercial SMS traffic was disrupted, and TRAI suspended the rules for a week while companies fixed their templates."
+    },
+    {
+      "type": "p",
+      "text": "Today the system runs smoothly for large senders, but two side effects remain:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Foreign services often send to India over international routes rather than domestic ones. Those messages bypass DLT template registration but are priced and filtered differently, and the familiar sender name is often replaced with a random number or short code. If you are waiting for “GOOGLE” and the code arrives from a string of digits, that is why.",
+        "When a sender changes its message wording without updating the registered template, delivery can stall until it does. That shows up as an OTP that simply never arrives, then works again a day later."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "If a code to an Indian number doesn’t arrive, the problem is usually the format or the sender’s route — not the number. Check that the form shows +91 followed by exactly ten digits, wait a full minute, then request a new code once. Repeated requests in quick succession can trigger the service’s own rate limits."
+    },
+    {
+      "type": "h2",
+      "id": "who-uses-a-virtual-indian-number",
+      "text": "Who actually uses a virtual +91 number"
+    },
+    {
+      "type": "p",
+      "text": "There are two different needs here, and they call for different tools. Being honest about the difference saves people time and, occasionally, an account."
+    },
+    {
+      "type": "list",
+      "items": [
+        "The expatriate with a long-term Indian life. Bank accounts, UPI wallets, Aadhaar-linked services and tax logins are tied to a number registered in your name with your identity documents, and they will re-verify it for years. A virtual number is the wrong tool here. Keep your own Indian SIM active — most carriers offer cheap validity packs — or use a long-term eSIM if your carrier supports it.",
+        "The one-off sign-up. A messenger account with an Indian identity, an app that only opens its Indian catalogue to +91 numbers, a test account for a developer, a second profile you want kept apart from your real number. Here the number matters for one moment: the verification. That is exactly what a rented virtual number is for."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For the second group, a virtual Indian number does what a SIM would do at the verification step — it is a real ten-digit mobile number on an Indian carrier network, reserved for you alone while the code is in flight — without the shop visit, the identity paperwork or a phone plan to keep alive."
+    },
+    {
+      "type": "h2",
+      "id": "getting-a-code-on-a-91-number",
+      "text": "Getting a code on a +91 number with SMS Code"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Choose the service and India",
+          "body": "In SMS Code, pick the service you are verifying — WhatsApp, Telegram, Google or any of 100+ others — and select India as the country. The price of that activation, in coins, is shown before you confirm."
+        },
+        {
+          "title": "Enter the ten digits",
+          "body": "Set the sign-up form’s country selector to India (+91) and type the ten-digit number shown in the app — no leading 0, no repeated country code."
+        },
+        {
+          "title": "Copy the code from the app",
+          "body": "The SMS appears in SMS Code usually within seconds. Copy the code into the form. If nothing arrives, you can cancel and take another number two minutes after assignment; the unused activation’s coins return to your balance."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Once the account is verified, add a recovery email and turn on the service’s own two-factor protection — an authenticator app or passkey where available. A rented number is for the verification moment; it should not be the only way back into the account a year from now."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Frequently asked questions"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Can I get an Indian WhatsApp number without living in India?",
+          "a": "Yes. WhatsApp checks that you can receive a code on the number you enter; it does not check where you are. A virtual +91 number receives that code like any Indian mobile. Keep in mind that WhatsApp may ask to re-verify the number when you move the account to a new phone, so add a PIN and email to the account right away."
+        },
+        {
+          "q": "Why does my code come from a random number instead of the company name?",
+          "a": "Messages from foreign senders often reach India over international routes, where registered sender names are not always preserved. The code is still genuine; only the sender label changes on the way."
+        },
+        {
+          "q": "Is a virtual Indian number good for UPI or a bank account?",
+          "a": "No. Banks and UPI apps bind the account to a number registered with your identity and re-check it regularly. Use a SIM in your own name for anything financial or government-linked."
+        },
+        {
+          "q": "How many digits should I enter after +91?",
+          "a": "Exactly ten, starting with 6, 7, 8 or 9. Drop any leading 0 and don’t type 91 again if the form already shows the country code."
+        },
+        {
+          "q": "What if the code never arrives?",
+          "a": "Check the number format first, then wait a full minute. If there is still nothing, cancel the activation in SMS Code after the two-minute mark — the coins go back to your balance — and try a fresh number."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

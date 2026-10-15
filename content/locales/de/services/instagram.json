@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Instagram — ohne eigene SIM bestätigen",
+  "metaDescription": "Echte virtuelle Nummer für die Instagram Bestätigung, meist in Sekunden. Neues, Marken- oder Zweitkonto bestätigen, ohne deine Nummer herauszugeben.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Instagram",
+    "intro": [
+      "Instagram lässt dich mit einer E-Mail-Adresse registrieren – aber der Telefonschritt bleibt selten lange optional. Ein neues Gerät, ein unbekanntes Netzwerk oder ein paar schnelle Aktionen direkt nach der Registrierung, und Instagram bittet dich, eine Telefonnummer zu bestätigen, bevor es weitergeht. Diese Nummer wird dann mit dem Konto verknüpft.",
+      "Mit SMS Code mietest du eine echte Nummer in einem von über 100 Ländern, gibst sie Instagram, und der sechsstellige Code landet meist innerhalb von Sekunden in der App. Deine private Nummer bleibt aus dem Kontaktgraphen von Meta heraus – und aus den darauf aufbauenden „Personen, die du kennen könntest“-Vorschlägen."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Instagram?",
+    "body": [
+      "Eine Telefonnummer auf Instagram bestätigt dich nicht nur einmal: Sie verknüpft das Konto mit deiner Identität bei Meta und kann dein Profil jedem zeigen, der deine Nummer in seinen Kontakten gespeichert hat. Wenn du eine Markenseite, einen Shop oder ein Creator-Profil startest, das du lieber von deinem Privatleben trennst, hält eine virtuelle Nummer diese Mauer intakt – das Konto wird normal bestätigt, verweist aber nicht auf dich zurück.",
+      "Es ist auch der saubere Weg, mehrere Konten zu betreiben. Instagram unterstützt offiziell bis zu fünf in einer App, aber wenn seine Systeme eines davon prüfen, braucht jedes Konto unter Umständen seinen eigenen Kontaktpunkt zur Bestätigung. Eine virtuelle Nummer gibt jedem Projekt seinen eigenen – ohne SIM-Karten zu sammeln."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du Instagram mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code holen",
+        "body": "Öffne die App SMS Code, wähle Instagram als Dienst, such dir ein Land aus und tippe einmal. Eine echte Mobilnummer ist nur für dich reserviert – du zahlst pro Aktivierung, kein Abo."
+      },
+      {
+        "title": "Bei Instagram eingeben",
+        "body": "Egal ob du auf dem Registrierungsbildschirm bist oder ein bestehendes Konto dich bittet, deine Telefonnummer zu bestätigen: Wähle die passende Ländervorwahl und tippe die Nummer genau so ein, wie sie ausgegeben wurde."
+      },
+      {
+        "title": "Code aus SMS Code holen",
+        "body": "Instagram sendet eine sechsstellige SMS – etwa „391 504 is your Instagram code. Don't share it.“ Sie erscheint meist innerhalb von Sekunden in der App SMS Code; tippe den Code ein, und die Prüfung ist erledigt."
+      },
+      {
+        "title": "Das Konto von der gemieteten Nummer lösen",
+        "body": "Füge eine E-Mail-Adresse hinzu, die du kontrollierst, und aktiviere die Zwei-Faktor-Authentifizierung per Authenticator-App: Einstellungen → Kontenübersicht → Passwort und Sicherheit. Danach hängen Login und Wiederherstellung nie wieder von der virtuellen Nummer ab."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Richte das Konto vollständig ein, bevor du es nutzt",
+      "body": "Ein Profil mit Foto, Bio und einem ersten Beitrag ist schlicht ein fertiges Konto, und ein fertiges Konto wird weit seltener gebeten, sein Telefon erneut zu bestätigen, als ein leeres. Wenn Instagram dich immer wieder prüft, macht sein Anti-Missbrauchssystem seine Arbeit – eine virtuelle Nummer bringt dich durch die normale Telefonprüfung, sie ist kein Weg um eine Einschränkung oder Sperre herum."
+    },
+    {
+      "title": "Registrierung per E-Mail heißt nicht: kein Telefonschritt",
+      "body": "Auch Konten, die mit einer E-Mail registriert wurden, werden nach einer Telefonnummer gefragt, wann immer Instagram zusätzliche Bestätigung will – neues Gerät, ungewöhnliches Netzwerk, ein Schub an Aktivität. Behalte das im Hinterkopf: Die virtuelle Nummer ist nicht nur für die Registrierung da, sondern für den Checkpoint, der später kommen kann."
+    },
+    {
+      "title": "Kommt der Code nicht, wechsle die Nummer",
+      "body": "Instagram begrenzt manchmal SMS an eine Nummer, die kürzlich Codes angefordert hat. Tippe nicht ständig auf „erneut senden“ – brich die offene Aktivierung in SMS Code ab (Nummern, die nichts empfangen haben, sind kostenlos) und nimm eine neue Nummer oder versuche ein anderes Land."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Funktioniert mein Instagram Konto weiter, wenn die Nummer abläuft?",
+      "a": "Ja. Die Nummer wird nur gebraucht, solange der Bestätigungscode zugestellt wird. Sobald du drin bist, füge eine E-Mail hinzu, die du kontrollierst, und aktiviere in der Kontenübersicht die Zwei-Faktor-Authentifizierung per Authenticator-App – dann muss das Konto auf dieser Nummer nie wieder eine SMS empfangen."
+    },
+    {
+      "q": "Kann ich mit einer virtuellen Nummer ein zweites Instagram Konto erstellen?",
+      "a": "Ja. Meta erlaubt mehrere Konten, und Instagram unterstützt bis zu fünf in einer App. Jedes Konto kann gebeten werden, seine eigene Telefonnummer zu bestätigen, wenn die Systeme von Instagram es prüfen – gib also jedem eine eigene virtuelle Nummer, statt einen einzigen Kontaktpunkt wiederzuverwenden."
+    },
+    {
+      "q": "Warum bittet mich Instagram ständig, eine Telefonnummer zu bestätigen?",
+      "a": "Das ist der Checkpoint-Ablauf. Er greift meist, wenn ein Konto automatisiert wirkt: gerade erst erstellt und schon Dutzenden Leuten folgend, oder mit einem Login aus einem Netzwerk, das Instagram nicht kennt. Mach langsamer, vervollständige das Profil und bestätige einmal mit einer Nummer, auf der du den Code empfangen kannst."
+    },
+    {
+      "q": "Warum ist mein Instagram Code nicht angekommen?",
+      "a": "Die häufigste Ursache ist eine falsche Ländervorwahl; die zweite, dass Instagram SMS an eine Nummer begrenzt, die kürzlich Codes angefordert hat. Brich die offene Aktivierung in SMS Code ab – die Münzen für eine Nummer, die nichts empfangen hat, gehen auf dein Guthaben zurück – und versuche eine neue Nummer oder ein anderes Land."
+    },
+    {
+      "q": "Ist es erlaubt, sich mit einer virtuellen Nummer bei Instagram zu registrieren?",
+      "a": "Die Bestätigung von Instagram prüft, dass du auf der Nummer einen Code empfangen kannst, nicht, auf wessen Namen die SIM registriert ist. Eine Nummer für den Bestätigungsschritt zu mieten, ist bei normaler Nutzung in Ordnung – für eine private Seite, eine Marke oder einen Shop. Entscheidend ist, dass du dich danach an die Gemeinschaftsrichtlinien von Instagram hältst."
+    }
+  ]
+}

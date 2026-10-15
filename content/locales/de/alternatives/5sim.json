@@ -1,0 +1,99 @@
+{
+  "metaTitle": "5SIM Alternative — die App SMS Code von SIMNETIQ",
+  "metaDescription": "5SIM im Vergleich zur App SMS Code von SIMNETIQ: eine Web- und API-Plattform mit Guthaben gegen eine mobile App mit einmaligen Münzpaketen und Gratis-Abbruch.",
+  "hero": {
+    "title": "Eine 5SIM Alternative als native mobile App",
+    "intro": [
+      "5SIM ist eine etablierte Webplattform zum Empfang von SMS-Bestätigungscodes: Du lädst ein Guthaben auf, kaufst eine Nummer für den gewünschten Dienst und liest den Code in deinem Dashboard. Die Startseite richtet sich gleichermaßen an Groß- und Einzelkunden, mit einer API für Automatisierung und einem Katalog, der laut ihrer Website über 180 Länder und mehr als tausend Dienste umfasst.",
+      "SMS Code von SIMNETIQ geht dieselbe Aufgabe von der Verbraucherseite an. Es ist eine native iOS-App: Dienst und Land wählen, eine echte Nummer bekommen, und der Code landet meist innerhalb von Sekunden in der App. Du zahlst mit einmaligen Münzpaketen über die Abrechnung von Apple – keine Web-Wallet, kein Abo –, und Aktivierungen, die nie eine SMS empfangen, werden kostenlos abgebrochen."
+    ]
+  },
+  "whenThem": {
+    "title": "Wann 5SIM die bessere Wahl ist",
+    "body": "Wähle 5SIM, wenn es um Menge oder Automatisierung geht. Die Plattform richtet sich an Webmaster, SMM-Spezialisten und Unternehmer, die Nummern in großer Zahl kaufen, und mit der API lässt sich der ganze Zyklus skripten – kaufen, auf die SMS warten, weitermachen. Der Katalog ist außerdem schlicht größer: Brauchst du einen exotischen Dienst oder eine ungewöhnliche Länderkombination, hat eine Plattform dieser Breite sie eher vorrätig als eine kuratierte Verbraucher-App."
+  },
+  "whenUs": {
+    "title": "Wann die App SMS Code besser passt",
+    "body": "Wähle die App, wenn du Konten für dich selbst bestätigst, nicht zu Hunderten. Es gibt kein Guthaben vorzufinanzieren und kein Dashboard, durch das du dich auf einem Handybildschirm navigieren musst: Der ganze Ablauf – Dienst, Land, Nummer, Code – ist ein natives mobiles Erlebnis, installiert aus dem App Store. Einmalige Münzpakete heißen, dass du pro Aktivierung über die Store-Abrechnung zahlst (deine Kartendaten erreichen uns nie), die Abdeckung reicht über 100 Länder und über 100 beliebte Dienste, und Aktivierungen ohne Empfang werden automatisch kostenlos abgebrochen."
+  },
+  "comparison": {
+    "title": "5SIM und die App SMS Code im direkten Vergleich",
+    "rows": [
+      {
+        "label": "Plattformen",
+        "competitor": "Webplattform mit API für automatisierte Käufe",
+        "us": "Native iOS-App aus dem App Store"
+      },
+      {
+        "label": "Preismodell",
+        "competitor": "Bezahlung pro Nummer aus einem aufgeladenen Wallet-Guthaben",
+        "us": "Einmalige Münzpakete, Bezahlung pro Aktivierung – kein Abo"
+      },
+      {
+        "label": "Bezahlung",
+        "competitor": "Aufladen der Wallet im Web mit den auf ihrer Website genannten Methoden",
+        "us": "Abrechnung über Apple – keine Kartendaten an uns"
+      },
+      {
+        "label": "Abdeckung",
+        "competitor": "Ihre Website nennt über 180 Länder und einen Katalog von über 1.000 Diensten",
+        "us": "Über 100 Länder und über 100 beliebte Dienste, kuratiert für alltägliche Registrierungen"
+      },
+      {
+        "label": "Abbruch",
+        "competitor": "Richtet sich nach ihren eigenen Erstattungsregeln – prüfe die aktuellen Bedingungen",
+        "us": "Aktivierungen ohne SMS werden kostenlos abgebrochen, Münzen kommen zurück"
+      },
+      {
+        "label": "Support",
+        "competitor": "Ihre Website wirbt mit Support rund um die Uhr",
+        "us": "Kontaktformular in der App und auf der Website"
+      },
+      {
+        "label": "Am besten für",
+        "competitor": "Großkäufer und Entwickler, die Bestätigungen per API skripten",
+        "us": "Einzelpersonen, die eine saubere mobile App für gelegentliche Bestätigungen wollen"
+      }
+    ],
+    "note": "Angaben zum Wettbewerber geben seine öffentliche Website zum Zeitpunkt des Schreibens wieder und können sich ändern – prüfe immer auf 5sim.net, bevor du entscheidest."
+  },
+  "switchSteps": {
+    "title": "Die App auszuprobieren dauert drei Schritte",
+    "steps": [
+      {
+        "title": "App installieren",
+        "body": "Hol dir SMS Code von SIMNETIQ aus dem App Store – kein Webkonto und keine Wallet-Einrichtung nötig."
+      },
+      {
+        "title": "Ein Münzpaket holen",
+        "body": "Kaufe ein einmaliges Paket über dein Store-Konto. Kein vorfinanziertes Guthaben, das auf einer Website liegt; Münzen gibst du nur aus, wenn du eine Nummer aktivierst."
+      },
+      {
+        "title": "Deine erste Aktivierung starten",
+        "body": "Wähle Dienst und Land, bekomm eine echte Nummer und sieh zu, wie der Code meist innerhalb von Sekunden in der App ankommt. Kommt nichts an, wird die Aktivierung kostenlos abgebrochen."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Wie unterscheidet sich die App SMS Code von 5SIM?",
+      "a": "5SIM ist eine Webplattform mit Wallet-Guthaben und API, ausgerichtet auf Großkäufer. Die App SMS Code von SIMNETIQ ist eine native mobile App für Einzelpersonen: einmalige Münzpakete über die Store-Abrechnung, ein paar Tipps pro Aktivierung und kostenloser Abbruch, wenn keine SMS ankommt."
+    },
+    {
+      "q": "Hat die App eine API wie 5SIM?",
+      "a": "Nein. Die App ist bewusst ein Verbraucherprodukt – musst du Nummern programmatisch kaufen, ist die API von 5SIM das bessere Werkzeug. Brauchst du ab und zu einen Code, ist die App der kürzere Weg."
+    },
+    {
+      "q": "Muss ich vorab ein Guthaben aufladen?",
+      "a": "Du kaufst einmalige Münzpakete über die Abrechnung von Apple und gibst sie pro Aktivierung aus. Es gibt keine Web-Wallet, die gefüllt bleiben muss, und kein Abo."
+    },
+    {
+      "q": "Was, wenn der Bestätigungscode nie ankommt?",
+      "a": "Die Aktivierung wird abgebrochen, und deine Münzen werden automatisch zurückgegeben. Du zahlst nur für Nummern, die tatsächlich eine SMS empfangen."
+    },
+    {
+      "q": "Ist die Länderliste von 5SIM größer als die der App?",
+      "a": "Laut ihrer eigenen Startseite ja – ihre Website nennt über 180 Länder gegenüber den über 100 der App. Die Liste der App ist um die Länder herum kuratiert, die für beliebte Dienste zuverlässig funktionieren; brauchst du etwas Exotisches, ist ein größerer Katalog für dich womöglich besser."
+    }
+  ]
+}

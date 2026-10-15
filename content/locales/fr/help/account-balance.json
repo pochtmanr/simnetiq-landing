@@ -11,6 +11,7 @@
     },
     {
       "title": "Avant de supprimer un compte",
+      "id": "delete",
       "paragraphs": [
         "La suppression du compte et le remboursement d’un paiement sont deux actions distinctes. Conservez les détails d’achat dont vous avez besoin, terminez toute activation en cours et contactez l’assistance au sujet des pièces restantes avant de supprimer. Demandez séparément tout remboursement de paiement Apple.",
         "Utilisez l’option de suppression du compte dans les réglages de l’app. Si vous ne pouvez pas y accéder, contactez l’assistance. La suppression n’annule pas un paiement Apple, et les enregistrements nécessaires aux obligations légales ou au traitement des litiges peuvent être conservés comme l’indique notre politique de confidentialité."

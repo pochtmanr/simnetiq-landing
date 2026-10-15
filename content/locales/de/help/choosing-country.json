@@ -1,0 +1,26 @@
+{
+  "title": "Land wählen und temporäre Nummern sicher nutzen",
+  "metaDescription": "Wähle ein Land, das dein Dienst akzeptiert, löse Zustellprobleme und erfahre, warum temporäre Nummern nie Banking oder Wiederherstellung schützen.",
+  "sections": [
+    {
+      "title": "Für den Zieldienst wählen",
+      "paragraphs": [
+        "Wähle zuerst deinen Dienst, dann ein Land, das er für deine legitime Nutzung akzeptiert. Verlangt der Dienst eine lokale Nummer, halte dich daran. Prüfe vor dem Kauf, ob sein Registrierungsformular die Vorwahl des Landes akzeptiert.",
+        "„Empfohlen“ ist ein bequemer Vorschlag auf Basis der Regionseinstellung deines Geräts, kein Versprechen für SMS-Zustellung oder die Annahme der Nummer. Dein physischer Standort und das Land der Nummer sind zwei verschiedene Dinge. Kein Land garantiert die Zustellung. Vergleiche Verfügbarkeit und den angezeigten Münzpreis, bevor du bestätigst."
+      ]
+    },
+    {
+      "title": "Wenn die Zustellung scheitert",
+      "paragraphs": [
+        "Prüfe, ob es eine SMS-Option und eine Wartezeit des Dienstes gibt. Manche Plattformen lehnen temporäre oder virtuelle Nummern ab. Brich nach der Wartezeit von zwei Minuten eine Nummer ohne empfangene SMS ab; zieh ein anderes unterstütztes Land nur in Betracht, wenn der Dienst es erlaubt. Nutze die Länderwahl nicht, um rechtliche, Identitäts- oder Plattformbeschränkungen zu umgehen."
+      ]
+    },
+    {
+      "title": "Schütze dein Konto",
+      "paragraphs": [
+        "Nummern sind temporär und können neu vergeben werden. Die Nummer gehört dir nicht, und nach dem Ende der Aktivierung behältst du keinen Zugriff darauf. Verlass dich bei Banking, Notdiensten, langfristiger Zwei-Faktor-Authentifizierung oder Kontowiederherstellung nicht auf sie.",
+        "Füge, wo die Plattform es erlaubt, eine E-Mail, einen Passkey, einen Authenticator oder deine eigene dauerhafte Wiederherstellungsnummer hinzu, bevor du den Zugriff verlierst. Nutze nie eine wiederverwendete Nummer, um in das Konto einer anderen Person zu gelangen."
+      ]
+    }
+  ]
+}

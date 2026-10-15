@@ -1,0 +1,134 @@
+{
+  "title": "Numéro virtuel brésilien (+55) : le 9e chiffre expliqué",
+  "description": "Indicatifs régionaux, 9 ajouté, lignes prépayées liées au CPF : comment fonctionnent les numéros mobiles brésiliens et comment recevoir un SMS sur un +55.",
+  "excerpt": "Le Brésil a ajouté un chiffre à chaque numéro mobile, lié les lignes prépayées au CPF et fait de WhatsApp le standard téléphonique national. Ce que cela implique pour quiconque a besoin d’un numéro +55 pour une inscription.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Au Brésil, le numéro de téléphone sert moins à appeler qu’à joindre les gens sur WhatsApp. Les commerces y prennent les commandes, les cliniques y confirment les rendez-vous, et « me chama no zap » — « écris-moi sur WhatsApp » — fait partie du langage courant depuis une décennie. Dans une enquête Mobile Time et Opinion Box de 2024, près de la moitié des possesseurs brésiliens de smartphone déclaraient que, s’ils ne pouvaient garder qu’une seule application, ce serait WhatsApp."
+    },
+    {
+      "type": "p",
+      "text": "Cela donne au numéro +55 une valeur inhabituelle comme identité numérique. Places de marché, applications de livraison, fintechs et réseaux sociaux pensés pour le marché brésilien en demandent un à l’inscription. Et la numérotation brésilienne a des particularités qui piègent aussi bien les étrangers que les validateurs de formulaires. Voici comment elle fonctionne, et où se situe le numéro virtuel brésilien."
+    },
+    {
+      "type": "h2",
+      "id": "how-brazilian-numbers-work",
+      "text": "Anatomie d’un numéro mobile brésilien"
+    },
+    {
+      "type": "p",
+      "text": "Écrit en entier, un numéro mobile brésilien se présente ainsi : +55, puis un indicatif régional à deux chiffres, puis neuf chiffres qui commencent toujours par 9. En notation locale, cela donne (11) 9XXXX-XXXX pour São Paulo ou (21) 9XXXX-XXXX pour Rio de Janeiro."
+    },
+    {
+      "type": "list",
+      "items": [
+        "L’indicatif régional (DDD) n’est pas facultatif. Le Brésil compte 67 codes DDD, du 11 à São Paulo au 99 dans le Maranhão, et les mobiles les conservent. Un numéro sans son DDD est incomplet, et le formulaire le refusera ou enverra le code nulle part.",
+        "Le 9 initial marque le mobile. Tout numéro mobile brésilien compte désormais neuf chiffres après l’indicatif régional, en commençant par 9 ; les fixes en ont huit.",
+        "Les codes d’opérateur, c’est pour les appels, pas pour les formulaires. Pour appeler longue distance, les Brésiliens insèrent un code d’opérateur à deux chiffres (15, 21, 31, 41…) avant le DDD. Ce code n’a jamais sa place dans un champ +55."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "the-ninth-digit",
+      "text": "Le neuvième chiffre : une renumérotation nationale sur quatre ans"
+    },
+    {
+      "type": "p",
+      "text": "Jusqu’en 2012, les numéros mobiles brésiliens avaient huit chiffres, comme les fixes. São Paulo arrivait à saturation. Le régulateur des télécoms, l’Anatel, a ordonné un changement qui semble simple et ne l’était pas : placer un 9 devant chaque numéro mobile du pays."
+    },
+    {
+      "type": "p",
+      "text": "La bascule a commencé dans l’indicatif 11 de São Paulo le 29 juillet 2012, puis s’est étendue région par région, chaque phase bénéficiant d’une période de grâce pendant laquelle les appels vers les anciens numéros à huit chiffres étaient interceptés par un message enregistré. La dernière grande phase, couvrant les États du Sud — Paraná, Santa Catarina et Rio Grande do Sul — s’est déroulée de novembre 2016 à février 2017. Selon l’Anatel, le chiffre supplémentaire a porté la capacité jusqu’à 90 millions de numéros mobiles par indicatif régional."
+    },
+    {
+      "type": "callout",
+      "text": "De vieux carnets d’adresses, de vieux sites et certains validateurs de formulaires anciens conservent encore des numéros mobiles à huit chiffres. Si vous voyez un mobile brésilien écrit (11) 8765-4321, il est périmé : le numéro valide est (11) 98765-4321."
+    },
+    {
+      "type": "h2",
+      "id": "cpf-and-prepaid-lines",
+      "text": "Pourquoi les SIM brésiliennes sont liées au CPF"
+    },
+    {
+      "type": "p",
+      "text": "La plupart des Brésiliens utilisent des lignes prépayées et, pendant des années, en activer une ne demandait guère plus que de taper un CPF — le numéro fiscal national. La fraude en était facilitée : le CPF d’un inconnu suffisait à ouvrir une ligne à son nom. À partir de 2017, l’Anatel a imposé aux quatre grands opérateurs de l’époque — Vivo, Claro, TIM et Oi — une campagne de réenregistrement État par État, au cours de laquelle les clients prépayés devaient confirmer leur CPF, leur nom complet et leur code postal sous peine de perdre leur ligne. La presse a rapporté, pour la vague couvrant 17 États, que moins de 1 % des 91 millions de lignes prépayées concernées présentaient un problème d’enregistrement."
+    },
+    {
+      "type": "p",
+      "text": "Conséquence pour qui vit hors du Brésil : acheter une SIM locale suppose en général d’avoir un CPF. Les étrangers peuvent en obtenir un, mais c’est une démarche — un passage à la Receita Federal ou au consulat — et beaucoup d’efforts pour un seul code de vérification."
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-55-number-makes-sense",
+      "text": "Quand un numéro virtuel +55 a du sens — et quand il n’en a pas"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Il a du sens pour les vérifications ponctuelles : un compte WhatsApp ou Telegram avec une identité brésilienne, un profil de boutique ou de place de marché tourné vers la clientèle brésilienne, un compte de créateur sur Instagram ou TikTok ciblant le Brésil, ou un compte de test pour une application destinée à ce marché.",
+        "Il n’a pas de sens pour Pix, les banques brésiliennes ou gov.br. Ces services lient votre compte à votre CPF et à un numéro enregistré à votre nom, et ils le revérifient. Utilisez une ligne à vous."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Un numéro brésilien loué dans SMS Code est un vrai mobile à neuf chiffres avec indicatif régional, sur un réseau d’opérateur brésilien. Les services voient un abonné +55 ordinaire. Il vous reste réservé pendant toute l’activation — c’est la différence avec les sites de « numéro brésilien gratuit » partagés, que les grands services ont bloqués depuis longtemps."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-55-number",
+      "text": "Recevoir un code sur un numéro +55"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Choisissez le service et le Brésil",
+          "body": "Ouvrez SMS Code, choisissez le service — WhatsApp, Instagram, TikTok ou l’un des 100+ autres — et sélectionnez le Brésil. Le prix de l’activation en pièces s’affiche avant la confirmation."
+        },
+        {
+          "title": "Saisissez le numéro avec son indicatif régional",
+          "body": "Réglez le formulaire sur Brésil (+55) et saisissez l’indicatif régional suivi du numéro à neuf chiffres, exactement comme l’affiche l’application — onze chiffres au total, sans code d’opérateur ni 0 initial."
+        },
+        {
+          "title": "Copiez le code",
+          "body": "Le SMS arrive dans l’application généralement en quelques secondes. Si rien ne vient, annulez passé deux minutes — les pièces reviennent sur votre solde quand aucun SMS n’est arrivé — et essayez un autre numéro brésilien."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Questions fréquentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Combien de chiffres compte un numéro mobile brésilien ?",
+          "a": "Onze après +55 : un indicatif régional (DDD) à deux chiffres et un numéro à neuf chiffres commençant par 9. En écriture locale : (21) 98765-4321."
+        },
+        {
+          "q": "Peut-on créer un compte WhatsApp brésilien depuis l’étranger ?",
+          "a": "Oui. WhatsApp vérifie seulement que vous recevez le code envoyé au numéro. Un numéro virtuel +55 le reçoit comme n’importe quel mobile brésilien. Activez tout de suite un code PIN WhatsApp et ajoutez un e-mail, pour ne pas dépendre du numéro plus tard."
+        },
+        {
+          "q": "Faut-il un CPF pour utiliser un numéro virtuel brésilien ?",
+          "a": "Non. L’exigence du CPF concerne l’achat et l’enregistrement d’une SIM auprès d’un opérateur brésilien. Louer un numéro pour une vérification dans SMS Code ne demande aucun document brésilien."
+        },
+        {
+          "q": "Peut-on l’utiliser pour Pix ou une banque brésilienne ?",
+          "a": "Non. Les services financiers et gov.br lient les comptes à votre CPF et à un numéro enregistré à votre nom, et le revérifient. Un numéro temporaire n’est pas le bon outil."
+        },
+        {
+          "q": "Pourquoi mon code n’a-t-il jamais été livré ?",
+          "a": "Le plus souvent, l’indicatif régional a été oublié ou un chiffre a été ajouté. Vérifiez le format, attendez une minute, et si rien ne vient, annulez et prenez un nouveau numéro — les pièces reviennent."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

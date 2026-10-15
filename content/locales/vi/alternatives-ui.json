@@ -1,0 +1,21 @@
+{
+  "hub": {
+    "metaTitle": "Các lựa chọn thay thế xác minh SMS — So sánh trung thực",
+    "metaDescription": "Ứng dụng SMS Code so với 5SIM, SMS-Activate.org, OnlineSim, SMS-Man và TextVerified ra sao — bao gồm cả khi dịch vụ kia phù hợp với bạn hơn.",
+    "label": "Lựa chọn thay thế",
+    "title": "Chúng tôi so sánh thế nào — kể cả chỗ chúng tôi thua",
+    "sub": "Các bài so sánh viết tay với những dịch vụ mà mọi người hay cân nhắc cùng chúng tôi. Bài nào cũng nêu rõ những trường hợp nền tảng kia là lựa chọn tốt hơn.",
+    "readMore": "Đọc bài so sánh"
+  },
+  "page": {
+    "breadcrumbHome": "Trang chủ",
+    "breadcrumb": "Lựa chọn thay thế",
+    "heroLabel": "So sánh",
+    "comparisonUsColumn": "SMS Code",
+    "switchLabel": "Chuyển đổi",
+    "faqLabel": "Câu hỏi",
+    "ctaTitle": "Thử ngay ở lần kích hoạt tiếp theo",
+    "ctaSupport": "Có câu hỏi? Liên hệ hỗ trợ",
+    "disclaimer": "Thông tin về đối thủ phản ánh tài liệu công khai của họ tại thời điểm viết và có thể thay đổi — hãy luôn kiểm tra trang của họ để biết điều khoản hiện hành. Mọi nhãn hiệu thuộc về chủ sở hữu tương ứng."
+  }
+}

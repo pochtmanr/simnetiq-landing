@@ -1,0 +1,129 @@
+{
+  "title": "Số điện thoại tái sử dụng: rủi ro thầm lặng của xác minh SMS",
+  "description": "Hàng triệu số điện thoại đổi chủ mỗi năm. Nghiên cứu của Princeton cho thấy phần lớn số tái sử dụng vẫn mở cửa vào tài khoản cũ. Điều đó có ý nghĩa gì với bạn.",
+  "excerpt": "Khi một số bị cắt, nó không biến mất — nó được bán lại. Các nhà nghiên cứu ở Princeton phát hiện hai trong ba số tái sử dụng họ khảo sát vẫn gắn với tài khoản của ai đó. Việc tái sử dụng số có ý nghĩa gì với xác minh SMS, và cách tránh đứng ở bất kỳ đầu nào của nó.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Số điện thoại có cảm giác vĩnh viễn. Chúng ta in chúng lên danh thiếp, đưa cho ngân hàng và dùng chúng để đăng nhập gần như mọi thứ. Nhưng với nhà mạng, một số là hàng tồn kho. Khi khách hàng ngừng trả tiền, đổi gói mà không chuyển số hoặc đơn giản để thẻ trả trước hết hạn, số bị cắt, nghỉ một thời gian và được giao cho người mới."
+    },
+    {
+      "type": "p",
+      "text": "Ủy ban Truyền thông Liên bang Hoa Kỳ ước tính khoảng 35 triệu số bị cắt và đưa vào cấp lại mỗi năm chỉ riêng ở Hoa Kỳ. Phần lớn chúng, vào một lúc nào đó, từng là thông tin đăng nhập, kênh khôi phục hoặc yếu tố thứ hai cho tài khoản của ai đó."
+    },
+    {
+      "type": "h2",
+      "id": "what-the-princeton-study-found",
+      "text": "Các nhà nghiên cứu Princeton phát hiện gì"
+    },
+    {
+      "type": "p",
+      "text": "Năm 2021, Kevin Lee và Arvind Narayanan thuộc Trung tâm Chính sách Công nghệ Thông tin của Đại học Princeton bắt tay đo lường trực tiếp vấn đề. Họ lấy mẫu 259 số mà hai nhà mạng lớn của Mỹ, T-Mobile và Verizon, đang chào cho thuê bao mới, rồi kiểm tra xem những số đó còn mở khóa được gì."
+    },
+    {
+      "type": "list",
+      "items": [
+        "171 trong 259 số — khoảng hai phần ba — vẫn gắn với tài khoản hiện có trên các trang web phổ biến, bao gồm Amazon, AOL, Facebook, Google, PayPal và Yahoo. Chủ mới nhận tin nhắn đặt lại mật khẩu có thể chiếm những tài khoản đó.",
+        "100 số xuất hiện cùng thông tin đăng nhập bị rò rỉ trong dữ liệu vi phạm công khai, nghĩa là SMS là thứ duy nhất đứng giữa kẻ tấn công và tài khoản.",
+        "Nhiều số còn trả về thông tin cá nhân về chủ cũ trên các trang tìm kiếm người."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Các nhà nghiên cứu cũng phát hiện trang đổi số trực tuyến của nhà mạng cho phép bất kỳ ai duyệt qua kho lớn số khả dụng, giúp kẻ tấn công dễ dàng săn tìm số tái sử dụng. Cả hai nhà mạng đã thay đổi sau khi được thông báo; các tác giả công bố phản hồi của nhà mạng cùng nghiên cứu."
+    },
+    {
+      "type": "callout",
+      "text": "Vấn đề cốt lõi rất đơn giản: các dịch vụ coi “nhận được tin nhắn trên số này” là bằng chứng danh tính, trong khi nhà mạng coi số là thứ tái sử dụng được. Khi hai giả định đó gặp nhau, người đang giữ số hôm nay thừa hưởng mọi sự tin tưởng từng gắn với nó hôm qua."
+    },
+    {
+      "type": "h2",
+      "id": "what-regulators-did",
+      "text": "Cơ quan quản lý đã làm gì"
+    },
+    {
+      "type": "p",
+      "text": "Phản ứng chính của FCC nhắm vào một vấn đề khác — cuộc gọi không mong muốn tới người thừa hưởng một số. Tháng 12 năm 2018, cơ quan này ra lệnh tạo Cơ sở dữ liệu số đã cấp lại, đi vào hoạt động năm 2021. Nhà mạng báo cáo các số bị cắt vĩnh viễn, và doanh nghiệp có thể tra xem một số đã bị cắt kể từ một ngày nhất định chưa trước khi gọi hay nhắn. Cùng lệnh đó đặt thời gian “ủ” tối thiểu 45 ngày trước khi số bị cắt được cấp lại."
+    },
+    {
+      "type": "p",
+      "text": "Điều đó giúp các công ty ngừng nhắn tin cho người lạ. Nó không làm gì cho những tài khoản vẫn lưu số cũ. Việc cập nhật, trên thực tế, được để lại cho chủ tài khoản."
+    },
+    {
+      "type": "h2",
+      "id": "protecting-your-own-accounts",
+      "text": "Tự bảo vệ khi bạn đổi số"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Cập nhật trước khi buông",
+          "body": "Trước khi hủy một đường dây hay để SIM trả trước hết hạn, hãy đi qua các tài khoản email, ngân hàng, mạng xã hội và mua sắm và thay số. Danh sách đăng nhập đã lưu trong trình quản lý mật khẩu là danh mục kiểm tra nhanh nhất."
+        },
+        {
+          "title": "Bỏ SMS làm yếu tố thứ hai",
+          "body": "Dùng ứng dụng xác thực, passkey hoặc khóa phần cứng ở bất cứ đâu có. NIST, cơ quan tiêu chuẩn Hoa Kỳ, hiện xếp mã SMS vào loại xác thực “hạn chế” chính vì những lý do này."
+        },
+        {
+          "title": "Giữ một đường khôi phục không phải số điện thoại",
+          "body": "Email khôi phục bạn kiểm soát và mã dự phòng đã lưu nghĩa là một số bị mất hay bị tái sử dụng chỉ là bất tiện, không phải bị khóa ngoài."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "what-it-means-for-virtual-numbers",
+      "text": "Điều này có ý nghĩa gì với số ảo thuê"
+    },
+    {
+      "type": "p",
+      "text": "Một bài viết trung thực về tái sử dụng số phải áp dụng cùng logic cho số thuê, vì chúng được tái sử dụng theo thiết kế. Một số bạn thuê cho một lần xác minh được giữ cho bạn trong lúc kích hoạt; sau đó, nó có thể được dùng lại cho người khác và dịch vụ khác. Đó là điều khiến số thuê rẻ và dùng một lần — và là lý do nó không bao giờ nên trở thành kênh khôi phục lâu dài cho tài khoản bạn quan tâm."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cách dùng tốt: vượt qua bước đăng ký mà không đưa số cá nhân cho dịch vụ; ứng dụng nhắn tin, mạng xã hội, sàn thương mại, bản dùng thử và tài khoản thử nghiệm nơi số chỉ quan trọng lúc xác minh.",
+        "Cách dùng xấu: ngân hàng, thanh toán, dịch vụ chính phủ và bất kỳ tài khoản nào có đường khôi phục duy nhất là SMS tới số đó. Những thứ đó xứng đáng có một số vẫn là của bạn sau năm năm.",
+        "Ngay sau khi xác minh: thêm email khôi phục, bật bảo vệ hai yếu tố bằng ứng dụng và, nếu dịch vụ cho phép, đừng để số thuê là đường duy nhất quay lại."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Dùng theo cách đó, số thuê thực ra là lá chắn chống lại vấn đề tái sử dụng chứ không phải ví dụ của nó. Số thật của bạn — số mà chính nó một ngày có thể bị cắt và bán lại — ngay từ đầu không nằm trong hàng chục cơ sở dữ liệu."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Câu hỏi thường gặp"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Bao lâu thì số điện thoại cũ được giao cho người khác?",
+          "a": "Ở Mỹ, quy định FCC yêu cầu số bị cắt phải “ủ” ít nhất 45 ngày trước khi cấp lại, và nhà mạng thường chờ lâu hơn. Các nước khác đặt thời gian riêng; một số số trả trước được cấp lại trong vòng vài tháng."
+        },
+        {
+          "q": "Chủ mới của số cũ có thể vào tài khoản của tôi không?",
+          "a": "Nếu một tài khoản vẫn dùng số đó để đặt lại mật khẩu hoặc mã hai yếu tố, thì có thể. Nghiên cứu Princeton phát hiện hai phần ba số tái sử dụng trong mẫu vẫn liên kết với tài khoản trên các trang lớn."
+        },
+        {
+          "q": "Làm sao tìm những tài khoản đang dùng số điện thoại của tôi?",
+          "a": "Bắt đầu với trình quản lý mật khẩu và hộp thư email — tìm các tin “verification code” và “sign-in”. Sau đó kiểm tra lần lượt cài đặt bảo mật của tài khoản email, ngân hàng, mạng xã hội và mua sắm."
+        },
+        {
+          "q": "Số ảo thuê có được tái sử dụng không?",
+          "a": "Có, sau khi lần kích hoạt của bạn kết thúc. Đó là lý do chúng dành cho thời điểm xác minh. Hãy thêm email và bảo vệ hai yếu tố bằng ứng dụng vào tài khoản ngay sau khi đăng ký."
+        },
+        {
+          "q": "Xác thực hai yếu tố qua SMS có còn đáng dùng không?",
+          "a": "Còn hơn không có yếu tố thứ hai, nhưng ứng dụng xác thực, passkey hay khóa phần cứng mạnh hơn và không phụ thuộc vào việc ai đang giữ số điện thoại."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

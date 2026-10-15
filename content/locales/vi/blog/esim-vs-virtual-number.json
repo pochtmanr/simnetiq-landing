@@ -1,0 +1,154 @@
+{
+  "title": "eSIM hay số ảo: bạn thực sự cần cái nào?",
+  "description": "Nghe giống nhau và được bán cạnh nhau, nhưng eSIM và số ảo giải quyết những vấn đề khác nhau. Hướng dẫn dễ hiểu để chọn đúng thứ bạn cần.",
+  "excerpt": "Một bên là gói cước nhà mạng nằm trong điện thoại; bên kia là số bạn thuê để nhận mã xác minh. Nhầm lẫn chúng tốn tiền thật — đây là cách nhận biết vấn đề của bạn cần cái nào.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "“Tôi cần eSIM hay số ảo?” là một trong những câu hỏi mà người hỏi thường có một vấn đề cụ thể — chuyến đi tuần sau, một biểu mẫu đăng ký đòi số điện thoại — và internet trả lời bằng quảng cáo cho cả hai. Hai sản phẩm nghe giống nhau, nằm ở các mục cửa hàng ứng dụng tương tự, và thường được chính các công ty giống nhau bán. Nhưng chúng không phải là một."
+    },
+    {
+      "type": "p",
+      "text": "Nhầm lẫn chúng không chỉ là lỡ lời; nó tốn tiền. Người ta mua eSIM du lịch mong nhận tin nhắn xác minh trên đó và phát hiện — giữa chuyến đi, đúng lúc ngân hàng hay ứng dụng nhắn tin cần mã — rằng eSIM của họ hoàn toàn không nhận được SMS. Người khác thuê số ảo tháng này qua tháng khác trong khi tất cả những gì họ cần là dữ liệu di động."
+    },
+    {
+      "type": "p",
+      "text": "Hướng dẫn này vạch rõ ranh giới: mỗi thứ thực sự là gì, bảng so sánh song song, một quy tắc chọn bạn áp dụng được trong mười giây, và những trường hợp biên nơi hai thế giới thực sự giao nhau."
+    },
+    {
+      "type": "h2",
+      "id": "two-different-tools",
+      "text": "Hai công cụ khác nhau tình cờ nằm cùng một kệ"
+    },
+    {
+      "type": "p",
+      "text": "eSIM là một gói cước nhà mạng thật được nhúng vào thiết bị của bạn. Nó giống hệt thẻ SIM nhựa trong khay, chỉ thiếu phần nhựa: một hồ sơ tải vào phần cứng điện thoại để kết nối nó với mạng di động. Đi kèm là những thứ mà kết nối mạng mang lại — trước hết là dữ liệu di động, và tùy gói, cả cuộc gọi lẫn tin nhắn. Bạn cài nó trong cài đặt điện thoại, và điện thoại là thứ mang nó."
+    },
+    {
+      "type": "p",
+      "text": "Số ảo là một số bạn thuê để nhận SMS, và nó không bao giờ chạm vào phần cứng thiết bị. Số nằm ở phía nhà cung cấp; tin nhắn đến hiện trong một ứng dụng. Không gì được cài trong cài đặt, không hồ sơ mạng nào thay đổi, SIM và gói dữ liệu hiện có của bạn không liên quan. Bạn dùng nó vào lúc một dịch vụ muốn nhắn mã cho bạn — và đó là toàn bộ công việc."
+    },
+    {
+      "type": "p",
+      "text": "Nói ngắn gọn: eSIM kết nối thiết bị của bạn với mạng. Số ảo nhận tin nhắn thay bạn. Một bên là hạ tầng, bên kia là một việc vặt."
+    },
+    {
+      "type": "h2",
+      "id": "side-by-side",
+      "text": "Đặt cạnh nhau"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mô hình chi phí — eSIM là một gói cước: bạn trả cho một gói dữ liệu (đôi khi cả phút gọi/tin nhắn) kéo dài vài ngày hay vài tuần. Số ảo là trả theo lần dùng: một lần kích hoạt, nhận một mã, trả từ gói xu. Cho một mã xác minh, gói cước là thừa; cho hai tuần dùng bản đồ và ứng dụng nhắn tin ở nước ngoài, giá theo SMS hoàn toàn không đúng dạng.",
+        "Thiết lập — eSIM được cài vào điện thoại: mã QR hoặc ứng dụng, một đường dây mới xuất hiện trong cài đặt di động, và thiết bị của bạn phải hỗ trợ eSIM. Số ảo không cần cài đặt: mở ứng dụng, chọn dịch vụ và quốc gia, số hiện trên màn hình thường chỉ trong vài giây.",
+        "Bạn nhận được gì — eSIM cho kết nối: dữ liệu, chỉ báo mạng, thường kèm một đường dây điện thoại. Số ảo cho đúng một khả năng: nhận SMS gửi tới nó, hiển thị trong ứng dụng.",
+        "Giữ bao lâu — eSIM tồn tại chừng nào gói cước còn, và eSIM địa phương có thể nạp tiền mãi mãi. Số ảo được thuê trong một thời hạn kích hoạt — đủ lâu cho mã đăng ký, không nhằm làm số của bạn trong nhiều năm.",
+        "Dùng để làm gì — eSIM: có mạng khi ở nước ngoài, đường dữ liệu cho máy tính bảng, gói cước địa phương mà không phải tìm quầy SIM. Số ảo: giữ số cá nhân ngoài các lần đăng ký, xác minh tài khoản thứ hai, nhận một mã mà không phải mua cả gói cước."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "which-one-do-you-need",
+      "text": "Quy tắc chọn trong mười giây"
+    },
+    {
+      "type": "p",
+      "text": "Gần như mọi tình huống thực tế được giải quyết bằng ba câu hỏi:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Bạn có cần internet trên thiết bị không — dữ liệu khi du lịch, máy tính bảng có kết nối, đường dự phòng? Đó là kết nối. Hãy lấy eSIM; số ảo không thể đưa điện thoại của bạn lên mạng, chấm hết.",
+        "Bạn có cần nhận mã xác minh — cho Telegram, WhatsApp, Google, một sàn thương mại — mà không đưa số cá nhân không? Đó là một SMS làm một việc. Hãy thuê số ảo; mua gói cước nhà mạng để nhận một tin nhắn là thuê xe tải để giao một phong bì.",
+        "Bạn có cần một đường dây thứ hai lâu dài — một số bạn đưa cho khách hàng và nghe máy trong nhiều năm? Khi đó bạn thực sự cần gói điện thoại (eSIM hoặc thẻ nhựa). Số ảo thuê không được xây dựng để làm danh tính vĩnh viễn của bạn — và nhà cung cấp trung thực sẽ nói vậy."
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "the-data-only-esim-trap",
+      "text": "Cái bẫy: eSIM chỉ có dữ liệu và mã xác minh"
+    },
+    {
+      "type": "p",
+      "text": "Đây là trường hợp biên khiến nhiều người mắc nhất. Phần lớn eSIM du lịch giá rẻ chỉ có dữ liệu: chúng kết nối bạn với internet nhưng hoàn toàn không đi kèm số điện thoại — không có gì để SMS gửi đến. Trang sản phẩm ghi rõ điều đó, nhưng rất dễ bỏ qua giữa các con số gigabyte."
+    },
+    {
+      "type": "p",
+      "text": "Sự cố diễn ra trên đường: bạn hạ cánh, eSIM du lịch chạy hoàn hảo, rồi ngân hàng — hay Telegram trên ứng dụng vừa cài lại — muốn nhắn mã để xác nhận đúng là bạn. Mã đi tới SIM ở nhà, vốn hoặc đã rút khỏi điện thoại hoặc đang chuyển vùng với cước đau ví. eSIM chỉ có dữ liệu mà bạn đang dùng không nhận được nó, vì không có số nào để nhận."
+    },
+    {
+      "type": "callout",
+      "text": "Sự kết hợp hiệu quả: eSIM chỉ có dữ liệu để có internet, cộng SIM ở nhà vẫn hoạt động cho các dịch vụ đã gắn với nó — và một số ảo cho những lần đăng ký mới mà dù sao bạn cũng không muốn dùng số cá nhân. Mỗi công cụ làm đúng một việc mà nó thực sự được xây dựng cho."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-number-step-by-step",
+      "text": "Nếu câu trả lời là “chỉ một mã”: con đường số ảo"
+    },
+    {
+      "type": "p",
+      "text": "Với kịch bản mã xác minh, đây là toàn bộ quy trình — mất khoảng một phút:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Chọn dịch vụ và quốc gia",
+          "body": "Trong ứng dụng SMS Code, chọn thứ bạn đang xác minh — Telegram, WhatsApp, Google, hơn 100 dịch vụ — và quốc gia của số. Một chạm giữ một số di động thật cho bạn."
+        },
+        {
+          "title": "Dùng số khi đăng ký",
+          "body": "Nhập nó vào biểu mẫu xác minh như mọi số điện thoại, với mã quốc gia tương ứng. Dịch vụ gửi SMS như thường lệ — đó là số thật trên mạng nhà mạng thật."
+        },
+        {
+          "title": "Đọc mã trong ứng dụng",
+          "body": "SMS hiện trên màn hình kích hoạt thường chỉ trong vài giây. Sao chép mã, hoàn tất đăng ký. Nếu mã không bao giờ đến, hãy hủy lần kích hoạt miễn phí và lấy số khác — bạn chỉ trả cho mã đã được giao."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Không hồ sơ nào được cài, không gói cước nào bắt đầu, không gì phải hủy về sau. Sự chênh lệch về cam kết đó chính là toàn bộ bài so sánh thu nhỏ: eSIM là thứ bạn thiết lập và sống cùng; số ảo là thứ bạn dùng rồi thôi."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Câu hỏi thường gặp"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "eSIM du lịch có nhận được SMS xác minh không?",
+          "a": "Chỉ khi nó đi kèm số điện thoại — mà hầu hết eSIM du lịch giá rẻ chỉ có dữ liệu, nghĩa là không số và không bao giờ có SMS. Hãy tìm “thoại và SMS” trên trang sản phẩm trước khi dựa vào nó để nhận mã. Nếu nó chỉ có dữ liệu, số ảo sẽ lo phần xác minh."
+        },
+        {
+          "q": "Số ảo có phải là thẻ SIM không?",
+          "a": "Không. Không gì được cài vào thiết bị của bạn — không nhựa, không hồ sơ eSIM, không thay đổi cài đặt di động. Số tồn tại trên mạng của nhà cung cấp, và tin nhắn nó nhận được hiển thị cho bạn trong ứng dụng. SIM của bạn không tham gia — số hoàn toàn không phụ thuộc vào nhà mạng của bạn. Bạn chỉ cần điện thoại có kết nối internet, qua Wi-Fi hoặc dữ liệu di động, để ứng dụng hiển thị mã."
+        },
+        {
+          "q": "Tôi có thể giữ số ảo mãi mãi không?",
+          "a": "Số kích hoạt thuê không được thiết kế cho việc đó — bạn giữ số trong thời hạn kích hoạt, đủ lâu để nhận mã. Tài khoản bạn đã xác minh vẫn hoạt động sau đó (giữ đăng nhập và thiết lập khôi phục tài khoản), nhưng nếu bạn cần một số để công bố và nghe máy trong nhiều năm, đó là bài toán gói điện thoại, không phải số ảo."
+        },
+        {
+          "q": "Cái nào rẻ hơn để nhận một mã?",
+          "a": "Số ảo, cách biệt rất xa. Đó là một lần kích hoạt từ gói xu mua một lần, được định giá đúng cho công việc đó. Gói eSIM rẻ nhất vẫn bán cho bạn nhiều ngày dịch vụ và gigabyte dữ liệu mà bạn không cần cho một SMS."
+        },
+        {
+          "q": "Có khi nào tôi cần cả hai cùng lúc không?",
+          "a": "Du lịch là trường hợp kinh điển: eSIM chỉ có dữ liệu giữ bạn trực tuyến, và số ảo lo mọi lần đăng ký mới dọc đường — trong khi SIM ở nhà được dành cho các tài khoản đã gắn với nó. Chúng không cạnh tranh; chúng che các điểm hỏng khác nhau."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

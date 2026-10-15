@@ -1,0 +1,146 @@
+{
+  "title": "Jak odbierać SMS online: kody bez własnego numeru",
+  "description": "Każda rejestracja chce numeru. Trzy prawdziwe sposoby odbierania SMS online – darmowe strony, druga SIM, wynajęty numer wirtualny – i kiedy który działa.",
+  "excerpt": "Darmowe strony z kodami, druga karta SIM czy wynajęty numer wirtualny – trzy drogi do odbierania SMS-ów weryfikacyjnych online, uczciwie porównane: ile kosztują, gdzie zawodzą i jak naprawdę działa ta niezawodna.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Gdzieś między „utwórz hasło” a „zaakceptuj regulamin” prawie każda rejestracja wstawia dziś to samo żądanie: podaj numer telefonu. Komunikatory go wymagają, marketplace’y go chcą, nawet forum, które odwiedzisz dwa razy, nalega, by wysłać Ci sześciocyfrowy kod, zanim Cię wpuści."
+    },
+    {
+      "type": "p",
+      "text": "Sam kod jest nieszkodliwy. Ludzi niepokoi numer za nim – stały, osobisty identyfikator, który przeżywa konto, łączy Twoje profile i nie da się go zmienić jak hasła, gdy wycieknie. Praktyczne pytanie nie brzmi więc, jak uniknąć weryfikacji; usługi w tej kwestii nie ustąpią. Brzmi: jak odebrać SMS gdzieś indziej niż na własnej karcie SIM."
+    },
+    {
+      "type": "p",
+      "text": "Są na to dokładnie trzy sposoby. Ten poradnik omawia wszystkie – łącznie z dwoma, które głównie marnują czas – a potem pokazuje pełny proces z tym, który niezawodnie działa."
+    },
+    {
+      "type": "h2",
+      "id": "why-services-want-your-number",
+      "text": "Dlaczego usługi w ogóle żądają numeru"
+    },
+    {
+      "type": "p",
+      "text": "Warto zrozumieć, z czym masz do czynienia, bo to wyjaśnia, dlaczego niektóre drogi zawodzą. Usługi weryfikują numery telefonów z trzech powodów i prywatność do nich nie należy."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Kontrola spamu. Numer telefonu to najtańszy rzadki zasób, jakiego usługa może zażądać. Adresy e-mail są darmowe i nieskończone; numery komórkowe kosztują pieniądze i formalności, więc wymóg numeru podnosi cenę każdego fałszywego konta.",
+        "Odzyskiwanie konta i 2FA. Po weryfikacji numer staje się zapasowym kanałem logowania – co oznacza też, że ten, kto kontroluje numer, często może zresetować hasło. To działa w obie strony i jeszcze do tego wrócimy.",
+        "Łączenie tożsamości. Numer łączy Twoje konto z innymi kontami, kontaktami, a przez operatora – z Twoją tożsamością prawną. Dla systemów reklamowych to klucz łączący, który przetrwa wyczyszczone ciasteczka i nowe urządzenia."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nic z tego nie wymaga, by numer był Twój. Usługa sprawdza tylko jedno: czy potrafisz odczytać kod wysłany na wpisany numer. Gdzie ten numer żyje – w karcie SIM w kieszeni czy w aplikacji na ekranie – jest po jej stronie niewidoczne."
+    },
+    {
+      "type": "h2",
+      "id": "three-ways-to-receive-sms-online",
+      "text": "Trzy sposoby odbierania SMS online"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Darmowe numery publiczne. Dziesiątki stron publikują numery, których skrzynki każdy może przeczytać. Nic nie kosztują i czasem działają – ale każdy numer dzielą tysiące obcych, więc popularne usługi dawno większość z nich zobaczyły, oznaczyły i zablokowały. Gdy któraś jednak przyjmie numer, często słyszysz, że jest już zarejestrowany – bo ktoś był szybszy. A ponieważ skrzynka jest publiczna, wszystko wysłane na ten numer, łącznie z kodem resetu hasła do konta, które właśnie założyłeś, może przeczytać każdy.",
+        "Druga karta SIM lub eSIM. Naprawdę prywatna i stała – to prawdziwy numer tylko Twój. Ceną są koszty i tarcie: taryfa miesięczna lub obowiązek doładowań, by numer żył, wymóg dokumentu w wielu krajach i absurd utrzymywania taryfy telefonicznej, bo jakaś strona w 2026 roku chciała kodu. Ma sens, jeśli potrzebujesz długoterminowej drugiej linii; do rejestracji to przesada.",
+        "Wynajęty numer wirtualny. Prawdziwy numer komórkowy w prawdziwej sieci operatora, zarezerwowany tylko dla Ciebie na czas jednej weryfikacji. Płacisz za odebrany kod, SMS pojawia się w aplikacji i nie ma taryfy, umowy ani wspólnej skrzynki. To złoty środek: prywatny jak karta SIM, jednorazowy, jak powinien być."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Przy jednorazowej weryfikacji wynajęty numer to droga, która naprawdę się sprawdza. Oto cały proces od początku do końca."
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-sms-code",
+      "text": "Odbieranie kodu z SMS Code krok po kroku"
+    },
+    {
+      "type": "p",
+      "text": "Będziesz potrzebować aplikacji SMS Code i formularza rejestracji obok siebie. Proces jest taki sam, czy to Telegram, marketplace, czy cokolwiek innego z listy – kilka minut od początku do końca."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Wybierz usługę i kraj",
+          "body": "W SMS Code wybierz, co weryfikujesz – Telegram, WhatsApp, Google, ponad 100 usług – i z jakiego kraju ma być numer. Numery są dostępne w ponad 100 krajach; jedno stuknięcie rezerwuje numer tylko dla Ciebie."
+        },
+        {
+          "title": "Wpisz numer w formularzu rejestracji",
+          "body": "Wpisz wynajęty numer na ekranie weryfikacji usługi, upewniając się, że numer kierunkowy się zgadza. Źle ustawiony wybór kraju to najczęstszy powód, dla którego kod nigdy nie przychodzi."
+        },
+        {
+          "title": "Odczytaj kod w aplikacji",
+          "body": "SMS trafia do SMS Code zwykle w ciągu kilku sekund, a ekran aktywacji aktualizuje się na żywo. Stuknij raz, by skopiować kod, wklej go do formularza i weryfikacja zakończona."
+        },
+        {
+          "title": "Porządnie zabezpiecz konto",
+          "body": "Ustaw silne hasło, dodaj kontrolowany przez siebie e-mail do odzyskiwania i włącz uwierzytelnianie dwuskładnikowe, które nie opiera się na SMS-ach. Potem konto stoi na własnych nogach – wynajęty numer spełnił swoje zadanie."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-number-is-the-wrong-tool",
+      "text": "Kiedy numer wirtualny to złe narzędzie"
+    },
+    {
+      "type": "p",
+      "text": "Uczciwy poradnik musi postawić tę granicę, bo ta sama cecha, która czyni wynajęty numer świetnym do rejestracji – jest tymczasowy – czyni go złym do wszystkiego, co latami sprawdza numer."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Banki, brokerzy i usługi płatnicze. Konta finansowe ciągle ponownie weryfikują SMS-em – przy każdym nowym urządzeniu, każdym dużym przelewie. Porównują też numery z Twoją zarejestrowaną tożsamością. Używaj numeru, który zatrzymasz na długo, kropka.",
+        "Portale rządowe i wszystko powiązane z Twoją tożsamością prawną. Urzędy skarbowe, systemy ochrony zdrowia i logowania e-administracji zakładają, że numer pozostaje Twój przez cały okres istnienia konta.",
+        "Każde konto, w którym numer telefonu to jedyna droga odzyskiwania. Jeśli zgubisz hasło, a jedyną ścieżką resetu jest SMS, numer, którego już nie wynajmujesz, oznacza konto, którego już nie masz. Albo od razu dodaj odzyskiwanie przez e-mail, albo nie używaj tam numeru tymczasowego."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Reguła kciuka: numer wirtualny jest na moment weryfikacji, a nie na całe życie konta. Jeśli usługa będzie musiała dotrzeć do tego numeru za rok, daj jej numer, który za rok nadal będzie Twój. Przy wszystkim innym – komunikatorach, sieciach społecznościowych, sklepach, okresach próbnych – liczy się tylko ten moment."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Najczęstsze pytania"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Czy odbieranie SMS-ów na numer wirtualny jest legalne?",
+          "a": "Tak. Wynajęcie numeru i odbieranie na nim wiadomości to zwykła usługa telekomunikacyjna, rutynowo używana dla prywatności, testów i rozwoju oprogramowania. Prawnie liczy się to, co później robisz z kontem – regulamin usługi, w której się rejestrujesz, obowiązuje jak zwykle."
+        },
+        {
+          "q": "Dlaczego darmowe numery online są ciągle odrzucane?",
+          "a": "Bo są współdzielone. Tysiące ludzi użyło tego samego numeru przed Tobą, więc usługi albo wprost go blokują, albo zgłaszają, że jest już zarejestrowany. Wynajęty numer jest zarezerwowany tylko dla Ciebie podczas aktywacji – i to właśnie różnica, którą bada filtr antyspamowy usługi."
+        },
+        {
+          "q": "Czy moje konto będzie działać po zakończeniu wynajmu?",
+          "a": "Tak, o ile konto nie zależy od tego numeru przy odzyskiwaniu. Numer jest sprawdzany przy weryfikacji; potem konto żyje na haśle, e-mailu i aktywnych sesjach. Ustaw je porządnie, a nic w codziennym użyciu nie dotknie starego numeru."
+        },
+        {
+          "q": "Czy mogę też odbierać połączenia na tym numerze?",
+          "a": "Nie – numery SMS Code odbierają tylko wiadomości tekstowe. Jeśli usługa upiera się przy połączeniu głosowym jako jedynej metodzie weryfikacji, wirtualny numer SMS nie zakończy tego procesu."
+        },
+        {
+          "q": "Ile to kosztuje?",
+          "a": "Kupujesz w aplikacji jednorazowy pakiet monet i wydajesz monety na aktywacje – od 20, zależnie od usługi i kraju, z dokładną ceną pokazaną przed potwierdzeniem. Nie ma abonamentu, monety nie wygasają, a jeśli kod nigdy nie przyjdzie, aktywacja anuluje się za darmo i monety wracają."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "metaTitle": "SMS-Activate.org Alternative — SMS Code von SIMNETIQ",
+  "metaDescription": "SMS-Activate.org im Vergleich zur App SMS Code von SIMNETIQ: Web-Dashboard und API gegen eine native iOS-App mit einmaligen Münzpaketen und Gratis-Abbruch.",
+  "hero": {
+    "title": "Eine SMS-Activate.org Alternative, die auf deinem Handy lebt",
+    "intro": [
+      "SMS-Activate.org ist ein langjähriger Webdienst zum Empfang von Bestätigungscodes. SMS Code von SIMNETIQ übernimmt dieselbe Aufgabe aus einem anderen Blickwinkel – eine native iOS-App statt eines Web-Dashboards. Willst du die Grundidee, eine gemietete Nummer und einen schnellen Code, ohne dich auf einer Website anzumelden, ist dieser Vergleich für dich.",
+      "Die Kernaufgabe ist bei beiden identisch: Dienst wählen, Land wählen, eine echte Nummer bekommen, den SMS-Code empfangen. Der Unterschied ist der Weg dorthin. SMS-Activate.org setzt auf ein Web-Dashboard und eine dokumentierte API; SMS Code packt den ganzen Ablauf in eine mobile App, die du aus dem App Store installierst, mit einmaligen Münzpaketen bezahlst und mit ein paar Tipps nutzt."
+    ]
+  },
+  "whenThem": {
+    "title": "Wann SMS-Activate.org die bessere Wahl ist",
+    "body": "Brauchst du Nummern in großem Umfang, ist SMS-Activate.org für dich gebaut. Ihre Website dokumentiert eine vollständige API, um Nummern zu kaufen, eingehende SMS abzufragen und Bestellungen programmatisch zu verwalten, dazu einen sehr großen Katalog an Diensten und Ländern sowie Mietoptionen für längere Nutzung. Entwickler, die Bestätigungen in Skripte einbauen, Teams, die Konten in großer Zahl registrieren, und alle, die lieber an einem Desktop-Dashboard arbeiten, fühlen sich dort zu Hause – diese Automatisierungsebene versucht eine mobile Verbraucher-App bewusst nicht nachzubauen."
+  },
+  "whenUs": {
+    "title": "Wann SMS Code besser passt",
+    "body": "Bist du eine einzelne Person, die gelegentlich einen Bestätigungscode braucht – ein zweites Telegram Konto, eine WhatsApp Registrierung, eine Testphase, die eine Telefonnummer will –, ist SMS Code der kürzere Weg. Keine Web-Wallet zum Aufladen, kein Dashboard zum Einarbeiten: Du kaufst ein einmaliges Münzpaket über die Abrechnung von Apple, wählst Dienst und Land, und der Code erscheint meist innerhalb von Sekunden in der App. Aktivierungen, die nie eine SMS empfangen, werden kostenlos abgebrochen, die Abdeckung reicht über 100 Länder und über 100 Dienste, und das Ganze verhält sich wie eine normale Verbraucher-App statt wie ein Entwicklerwerkzeug."
+  },
+  "comparison": {
+    "title": "SMS-Activate.org und SMS Code im direkten Vergleich",
+    "rows": [
+      {
+        "label": "Plattformen",
+        "competitor": "Web-Dashboard plus dokumentierte API für Automatisierung",
+        "us": "Native iOS-App aus dem App Store"
+      },
+      {
+        "label": "Preismodell",
+        "competitor": "Bezahlung pro Nummer aus einem Kontoguthaben; Mietoptionen für längere Zeiträume",
+        "us": "Einmalige Münzpakete, Bezahlung pro Aktivierung – kein Abo"
+      },
+      {
+        "label": "Bezahlung",
+        "competitor": "Aufladen des Guthabens im Web mit den auf ihrer Website genannten Zahlungsmethoden",
+        "us": "Abrechnung über Apple – keine Kartendaten an uns"
+      },
+      {
+        "label": "Abdeckung",
+        "competitor": "Ein sehr breiter Katalog an Ländern und Diensten, ausgerichtet auf Massennutzung",
+        "us": "Über 100 Länder und über 100 beliebte Dienste, kuratiert für alltägliche Registrierungen"
+      },
+      {
+        "label": "Abbruch",
+        "competitor": "Richtet sich nach ihren eigenen Erstattungsregeln – prüfe die aktuellen Bedingungen",
+        "us": "Aktivierungen ohne SMS werden kostenlos abgebrochen, Münzen kommen zurück"
+      },
+      {
+        "label": "Support",
+        "competitor": "Supportkanäle über ihre Website",
+        "us": "Kontaktformular in der App und auf der Website"
+      },
+      {
+        "label": "Am besten für",
+        "competitor": "Entwickler und Großnutzer, die Hunderte Nummern per API brauchen",
+        "us": "Einzelpersonen, die eine saubere mobile App für gelegentliche Bestätigungen wollen"
+      }
+    ],
+    "note": "Angaben zum Wettbewerber geben seine öffentliche Website zum Zeitpunkt des Schreibens wieder und können sich ändern – prüfe immer auf sms-activate.org, bevor du entscheidest."
+  },
+  "switchSteps": {
+    "title": "Die App auszuprobieren dauert drei Schritte",
+    "steps": [
+      {
+        "title": "App installieren",
+        "body": "Hol dir SMS Code von SIMNETIQ aus dem App Store – kein Webkonto und keine Wallet-Einrichtung nötig."
+      },
+      {
+        "title": "Ein Münzpaket holen",
+        "body": "Kaufe ein einmaliges Paket über dein Store-Konto. Münzen werden nicht zu einem Abo; du zahlst nur, wenn du eine Nummer aktivierst."
+      },
+      {
+        "title": "Deine erste Aktivierung starten",
+        "body": "Wähle Dienst und Land, bekomm eine echte Nummer und sieh zu, wie der Code meist innerhalb von Sekunden in der App ankommt. Kommt nichts an, wird die Aktivierung kostenlos abgebrochen."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Ist SMS Code mit SMS-Activate.org verbunden?",
+      "a": "Nein. SMS Code ist ein unabhängiges Produkt von SIMNETIQ ohne Verbindung zu SMS-Activate.org – es sind zwei getrennte Unternehmen, die dasselbe Problem auf verschiedene Weise lösen."
+    },
+    {
+      "q": "Hat SMS Code eine API wie SMS-Activate.org?",
+      "a": "Nein – und das ist ein bewusster Unterschied. Die App ist für Menschen gebaut, nicht für Skripte: ein nativer mobiler Ablauf für gelegentliche Bestätigungen. Ist programmatischer Zugriff auf Nummern eine harte Anforderung, passt die dokumentierte API von SMS-Activate.org besser."
+    },
+    {
+      "q": "Muss ich eine Wallet aufladen, um die App zu nutzen?",
+      "a": "Du kaufst einmalige Münzpakete über die Abrechnung von Apple und gibst Münzen pro Aktivierung aus. Es gibt keine separate Web-Wallet, kein Abo und keine wiederkehrende Abbuchung."
+    },
+    {
+      "q": "Was passiert, wenn mein Code nie ankommt?",
+      "a": "Die Aktivierung wird abgebrochen, und deine Münzen werden zurückgegeben. Du zahlst nur für Nummern, die tatsächlich eine SMS empfangen."
+    },
+    {
+      "q": "Sind die Nummern echte Mobilnummern?",
+      "a": "Ja – die App vermietet echte Nummern in echten Mobilfunknetzen in über 100 Ländern. Für den Dienst, bei dem du dich bestätigst, sieht die Nummer aus wie jede gewöhnliche Telefonnummer."
+    }
+  ]
+}

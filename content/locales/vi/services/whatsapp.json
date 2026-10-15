@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho WhatsApp — Xác minh không cần thẻ SIM",
+  "metaDescription": "Xác minh WhatsApp bằng số ảo thật từ hơn 100 quốc gia. Mã 6 chữ số thường đến chỉ trong vài giây. Không SIM, không thuê bao, hủy miễn phí nếu không có SMS.",
+  "hero": {
+    "title": "Số ảo cho WhatsApp",
+    "intro": [
+      "Trong WhatsApp, số điện thoại không chỉ là cách đăng nhập — nó chính là tài khoản. Mọi người liên hệ đã lưu số bạn đều thấy hồ sơ của bạn, và chuyển sang số khác nghĩa là phải đi qua quy trình Đổi số chính thức. Bạn đăng ký bằng số nào, bạn đang khoác nó ra công chúng.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia, nhập trên màn hình đăng ký WhatsApp, và mã xác minh 6 chữ số hiện trong ứng dụng thường chỉ trong vài giây. Bạn trả tiền theo lần kích hoạt từ gói xu mua một lần — và nếu một số không nhận được gì, bạn hủy mà không bị trừ phí."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho WhatsApp?",
+    "body": [
+      "Vì số là danh tính WhatsApp của bạn, đưa nó ra là quyết định lớn hơn ở hầu hết ứng dụng: người bán trên sàn, nhóm chat đầy người lạ và đối tác một lần đều có đường dây trực tiếp tới bạn. Số ảo cho danh tính công khai đó một bức tường lửa — tài khoản hoạt động y như mọi tài khoản khác, nhưng số đằng sau không phải số mà ngân hàng và gia đình bạn dùng.",
+      "Đó cũng là cách gọn gàng để vận hành một WhatsApp thứ hai, tách biệt. Hồ sơ công việc qua WhatsApp Business có thể nằm trên cùng điện thoại với ứng dụng cá nhân, nhưng cần số riêng. Tương tự khi đăng ký lúc ở nước ngoài, khi SIM ở nhà ngoài tầm với hoặc chuyển vùng khiến việc nhận SMS không ổn định — một số địa phương thuê giúp bạn xác minh mà không phải thay thẻ."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh WhatsApp bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn WhatsApp làm dịch vụ, chọn quốc gia và chạm một lần. Một số di động thật được giữ riêng cho bạn trong suốt thời gian kích hoạt."
+      },
+      {
+        "title": "Nhập số vào WhatsApp",
+        "body": "Trên màn hình đăng ký WhatsApp, chọn quốc gia tương ứng và nhập số đúng như được cấp. WhatsApp đọc quốc gia từ mã bạn chọn, nên sai lệch ở đây là lý do kinh điển khiến mã không bao giờ xuất hiện."
+      },
+      {
+        "title": "Lấy mã 6 chữ số",
+        "body": "SMS đến ứng dụng SMS Code, thường chỉ trong vài giây, từ người gửi “WhatsApp” và có dạng “WhatsApp code 305-921”. Nhập sáu chữ số vào WhatsApp — dấu gạch chỉ để định dạng."
+      },
+      {
+        "title": "Đặt PIN xác minh hai bước",
+        "body": "Ngay sau khi đăng ký, vào Cài đặt → Tài khoản → Xác minh hai bước và đặt PIN. WhatsApp xác minh lại số khi bạn cài lại hoặc đổi điện thoại, và PIN là thứ chứng minh tài khoản là của bạn vào lúc đó."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "WhatsApp kén số — hãy tính đến việc thử lại",
+      "body": "WhatsApp sàng lọc đăng ký mới gắt hơn hầu hết dịch vụ và có thể từ chối gửi mã tới số nó nghi là tạm thời. Điều đó bình thường: hãy hủy lần kích hoạt đang chờ trong SMS Code — xu của số không nhận được gì được hoàn vào số dư — và thử lại, tốt nhất với quốc gia khác."
+    },
+    {
+      "title": "Hoàn tất thiết lập tài khoản",
+      "body": "Đặt tên và ảnh, nhắn tin cho người quen biết bạn — đó là dáng vẻ của một tài khoản mới bình thường, và là tất cả những gì chúng tôi có thể khuyên một cách trung thực. Nhắn tin hàng loạt cho người lạ từ tài khoản mới là thứ mà hệ thống chống spam của WhatsApp tồn tại để chặn, và không số thuê nào thay đổi được điều đó: số ảo đưa bạn qua bước kiểm tra đăng ký thông thường, không phải cách vượt qua lệnh chặn."
+    },
+    {
+      "title": "Giữ đăng nhập thì tài khoản vẫn là của bạn",
+      "body": "WhatsApp chỉ hỏi lại số khi bạn đăng ký lại — cài lại ứng dụng hoặc chuyển sang điện thoại mới. Miễn là bạn vẫn đăng nhập trên thiết bị, tài khoản tiếp tục hoạt động sau khi thời hạn kích hoạt của số thuê kết thúc. PIN hai bước là lưới an toàn cho lần xác minh lại trong tương lai đó."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "WhatsApp có còn hoạt động sau khi số hết hạn không?",
+      "a": "Có. Số được kiểm tra khi đăng ký, không phải liên tục. Giữ đăng nhập trên điện thoại và tài khoản hoạt động bình thường. Xác minh lại chỉ xảy ra khi bạn cài lại WhatsApp hoặc đổi thiết bị — đó là lý do việc đặt PIN xác minh hai bước ngay sau khi đăng ký rất quan trọng."
+    },
+    {
+      "q": "Vì sao mã WhatsApp không đến?",
+      "a": "Hai nguyên nhân thường gặp: quốc gia chọn trong WhatsApp không khớp với số, hoặc WhatsApp từ chối gửi mã tới số cụ thể đó — nó nghiêm hơn hầu hết dịch vụ với những số nó nghi là tạm thời. Hãy hủy lần kích hoạt đang chờ miễn phí trong SMS Code và lấy số mới, tốt nhất ở quốc gia khác. WhatsApp cũng có thể đề nghị gọi tới số để đọc mã, hoặc khi đăng ký lại thì gửi mã tới một phiên WhatsApp hiện có thay vì qua SMS."
+    },
+    {
+      "q": "Tôi có thể vận hành tài khoản WhatsApp thứ hai theo cách này không?",
+      "a": "Có — đó là một trong những cách dùng phổ biến nhất. Cài WhatsApp Business bên cạnh ứng dụng thường trên cùng điện thoại và đăng ký nó bằng số ảo. Bạn có một danh tính công việc hoàn toàn riêng: hồ sơ riêng, cuộc trò chuyện riêng, số riêng mà khách hàng thấy."
+    },
+    {
+      "q": "Người liên hệ có thấy số là số ảo không?",
+      "a": "Không. Đó là số di động thật trên mạng nhà mạng thật, và với mọi người khác tài khoản trông hoàn toàn bình thường. Người liên hệ thấy chính con số — đó là cách WhatsApp hoạt động — nên ý nghĩa của số ảo chính là số họ thấy không phải số cá nhân của bạn."
+    },
+    {
+      "q": "Tài khoản có thể bị cấm vì dùng số ảo không?",
+      "a": "WhatsApp không cấm tài khoản vì cách số được lấy — nó cấm hành vi: nhắn tin hàng loạt, spam, tự động hóa. Một tài khoản mới trên bất kỳ số nào mà lập tức nhắn hàng loạt cho người lạ đều có rủi ro. Hãy dùng tài khoản như một con người, không phải công cụ phát tán, và nó chẳng khác gì tài khoản đăng ký trên SIM."
+    }
+  ]
+}

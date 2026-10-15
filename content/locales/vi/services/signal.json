@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Signal — Đăng ký riêng tư không cần SIM",
+  "metaDescription": "Đăng ký Signal bằng số ảo thật từ hơn 100 quốc gia. Mã thường đến chỉ trong vài giây — trả tiền theo lần kích hoạt, hủy miễn phí nếu không có SMS.",
+  "hero": {
+    "title": "Số ảo cho Signal",
+    "intro": [
+      "Đây là điều trớ trêu của Signal: ứng dụng nhắn tin mã hóa mọi thứ, gần như không lưu gì và được mọi nhà nghiên cứu quyền riêng tư khuyên dùng vẫn hỏi số điện thoại trước khi bạn gửi tin nhắn đầu tiên. Đăng ký được xây dựng trên mã SMS — dù giờ đây nhờ tên người dùng, không ai phải thấy số đó nữa.",
+      "Với SMS Code, bạn lấp nốt khoảng trống cuối cùng đó: thuê một số di động thật tại một trong hơn 100 quốc gia, đăng ký Signal với nó, và mã hiện trong ứng dụng thường chỉ trong vài giây. Bạn trả tiền theo lần kích hoạt từ gói xu mua một lần — không thuê bao — và lần kích hoạt không nhận được SMS sẽ được hủy mà không bị trừ phí."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Signal?",
+    "body": [
+      "Nếu bạn chọn Signal, bạn chọn nó vì những siêu dữ liệu nó không giữ — và số điện thoại là định danh duy nhất mà việc đăng ký vẫn đòi. Đăng ký bằng số cá nhân lặng lẽ làm suy yếu phần còn lại của thiết kế: ứng dụng không tiết lộ gì, nhưng số trong hồ sơ lại chính là số gắn với ngân hàng, nơi làm việc và hồ sơ của mọi công ty môi giới dữ liệu. Một số thuê hoàn thiện bức tranh mà Signal đã bắt đầu.",
+      "Từ khi có tên người dùng, việc duy nhất còn lại của số là đăng ký. Người liên hệ có thể tìm bạn qua tên người dùng, và cài đặt quyền riêng tư cho phép làm số trở nên vô hình và không thể tìm kiếm: “Ai có thể thấy số của tôi” — Không ai, “Ai có thể tìm tôi bằng số” — Không ai. Kết hợp các cài đặt đó với số ảo, và tài khoản không thể bị tìm qua số thật của bạn vì lý do đơn giản là số thật chưa bao giờ được dùng đến."
+    ]
+  },
+  "howTo": {
+    "title": "Cách đăng ký Signal bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Signal làm dịch vụ, chọn quốc gia và chạm một lần. Một số di động thật được giữ riêng cho bạn trong suốt thời gian kích hoạt."
+      },
+      {
+        "title": "Nhập số vào Signal",
+        "body": "Trên màn hình đăng ký, chọn mã quốc gia tương ứng và nhập số. Signal đôi khi hiện captcha trước khi gửi mã — đó là bước chống lạm dụng của nó, chỉ cần hoàn thành."
+      },
+      {
+        "title": "Lấy mã",
+        "body": "SMS đến ứng dụng SMS Code thường chỉ trong vài giây, có dạng “SIGNAL: Your code is: 613904”. Nhập các chữ số và việc đăng ký hoàn tất."
+      },
+      {
+        "title": "Đặt PIN và giữ tên người dùng",
+        "body": "Tạo Signal PIN, rồi bật Khóa đăng ký trong Cài đặt → Tài khoản. Tiếp theo, đặt tên người dùng và chuyển “Ai có thể thấy số của tôi” và “Ai có thể tìm tôi bằng số” sang Không ai. Giờ số đã làm xong việc duy nhất của nó và biến khỏi tầm nhìn."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Khóa đăng ký là lưới an toàn của bạn",
+      "body": "Khi bật Khóa đăng ký, việc đăng ký lại số của bạn đòi hỏi Signal PIN — nên không ai sau này nắm số đó có thể chiếm tài khoản. Một lưu ý đến thẳng từ thiết kế của Signal: khóa chỉ duy trì khi tài khoản còn được dùng, nên hãy mở ứng dụng ít nhất mỗi tuần một lần."
+    },
+    {
+      "title": "Để tên người dùng lên tiếng",
+      "body": "Hãy chia sẻ tên người dùng, không phải số — đó là toàn bộ ý nghĩa của tính năng. Bạn có thể đổi tên người dùng bất cứ lúc nào, và với các công tắc quyền riêng tư về số điện thoại đặt ở Không ai, ngay cả người bằng cách nào đó biết số thuê cũng không tìm được tài khoản qua nó."
+    },
+    {
+      "title": "Tài khoản của bạn nằm trên thiết bị",
+      "body": "Đúng với triết lý của mình, Signal không giữ bản sao đám mây của cuộc trò chuyện — tài khoản và lịch sử tồn tại trên điện thoại của bạn. Chuyển sang điện thoại mới qua tính năng chuyển tích hợp khi máy cũ còn hoạt động. Hãy tính đến điều đó: khi thời hạn của số thuê đã đóng, chính thiết bị là tài khoản."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ứng dụng nhắn tin riêng tư nhất mà đòi số điện thoại chẳng phải mâu thuẫn sao?",
+      "a": "Đó là một mâu thuẫn có thật, và Signal biết điều đó — vì vậy mới có tên người dùng và cài đặt quyền riêng tư cho số điện thoại. Số chỉ cần một lần, khi đăng ký, như biện pháp chống spam. Số ảo đáp ứng yêu cầu đó mà không liên kết tài khoản với bạn, có lẽ là cách đăng ký đúng tinh thần Signal nhất."
+    },
+    {
+      "q": "Có ai thấy số tôi dùng để đăng ký không?",
+      "a": "Không, nếu bạn bật đúng công tắc: đặt “Ai có thể thấy số của tôi” và “Ai có thể tìm tôi bằng số” thành Không ai, và chia sẻ tên người dùng thay vào đó. Từ đó số không xuất hiện ở đâu — không trên hồ sơ, không trong tìm kiếm."
+    },
+    {
+      "q": "Điều gì xảy ra với tài khoản Signal khi số đã thuê hết hạn?",
+      "a": "Tài khoản vẫn hoạt động trên thiết bị — số chỉ cần cho lần đăng ký. Hãy bật Khóa đăng ký để không ai đăng ký lại số đó mà không có PIN của bạn, và tiếp tục dùng ứng dụng để khóa luôn hoạt động."
+    },
+    {
+      "q": "Nếu tôi mất điện thoại hoặc cài lại Signal thì sao?",
+      "a": "Đây là giới hạn thẳng thắn: đăng ký lại đòi nhận mã trên số đó lần nữa, và một số thuê đã hết hạn không làm được. Hãy chuyển sang điện thoại mới khi máy cũ còn hoạt động, và coi thiết bị là nhà của tài khoản. Với thiết lập ưu tiên quyền riêng tư, sự đánh đổi đó thường chấp nhận được — chỉ cần chấp nhận một cách có ý thức."
+    },
+    {
+      "q": "Vì sao mã Signal không đến?",
+      "a": "Signal cẩn trọng với những lần đăng ký nó thấy đáng ngờ: bạn có thể gặp captcha trước, và một số số bị từ chối thẳng. Kiểm tra mã quốc gia khớp, hoàn thành captcha nếu có, và nếu SMS vẫn không đến, hãy hủy lần kích hoạt trong SMS Code — xu được hoàn cho số không nhận được gì — và thử số hoặc quốc gia khác."
+    }
+  ]
+}

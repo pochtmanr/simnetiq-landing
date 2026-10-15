@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Instagram — weryfikacja bez karty SIM",
+  "metaDescription": "Prawdziwy numer wirtualny do weryfikacji Instagram, zwykle w kilka sekund. Potwierdź nowe, firmowe lub drugie konto bez podawania swojego numeru.",
+  "hero": {
+    "title": "Numer wirtualny do Instagrama",
+    "intro": [
+      "Instagram pozwala zarejestrować się adresem e-mail – ale krok z telefonem rzadko długo pozostaje opcjonalny. Nowe urządzenie, nieznana sieć albo kilka szybkich działań zaraz po rejestracji, a Instagram poprosi o potwierdzenie numeru telefonu, zanim pozwoli Ci kontynuować. Ten numer zostaje potem powiązany z kontem.",
+      "Z SMS Code wynajmujesz prawdziwy numer w jednym z ponad 100 krajów, podajesz go Instagramowi, a sześciocyfrowy kod trafia do aplikacji zwykle w ciągu kilku sekund. Twój prywatny numer zostaje poza grafem kontaktów Meta – i poza zbudowanymi na nim sugestiami „osoby, które możesz znać”."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Instagrama?",
+    "body": [
+      "Numer telefonu na Instagramie robi więcej niż jednorazową weryfikację: łączy konto z Twoją tożsamością w całym Meta i może pokazać Twój profil każdemu, kto ma Twój numer w kontaktach. Jeśli zakładasz stronę marki, sklep albo profil twórcy, który wolisz oddzielić od życia prywatnego, numer wirtualny utrzymuje ten mur – konto weryfikuje się normalnie, ale nie prowadzi z powrotem do Ciebie.",
+      "To także czysty sposób na prowadzenie kilku kont. Instagram oficjalnie obsługuje do pięciu w jednej aplikacji, ale gdy jego systemy sprawdzą jedno z nich, każde konto może potrzebować własnego punktu kontaktu do potwierdzenia. Numer wirtualny daje każdemu projektowi własny – bez kolekcjonowania kart SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Instagram numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Weź numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz Instagram jako usługę, wybierz kraj i stuknij raz. Prawdziwy numer komórkowy jest zarezerwowany tylko dla Ciebie – płacisz za aktywację, bez abonamentu."
+      },
+      {
+        "title": "Wpisz go w Instagramie",
+        "body": "Niezależnie od tego, czy jesteś na ekranie rejestracji, czy istniejące konto prosi o „potwierdzenie numeru telefonu”, wybierz pasujący numer kierunkowy i wpisz numer dokładnie tak, jak został wydany."
+      },
+      {
+        "title": "Odbierz kod z SMS Code",
+        "body": "Instagram wysyła sześciocyfrowy SMS – coś w rodzaju „391 504 is your Instagram code. Don't share it.” Pojawia się w aplikacji SMS Code zwykle w ciągu kilku sekund; wpisz go, a kontrola zostanie zaliczona."
+      },
+      {
+        "title": "Odepnij konto od wynajętego numeru",
+        "body": "Dodaj adres e-mail, który kontrolujesz, i włącz uwierzytelnianie dwuskładnikowe przez aplikację: Ustawienia → Centrum kont → Hasło i zabezpieczenia. Potem logowanie i odzyskiwanie nigdy więcej nie zależą od numeru wirtualnego."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Skonfiguruj konto porządnie, zanim zaczniesz go używać",
+      "body": "Profil ze zdjęciem, opisem i jakimś postem to po prostu skończone konto, a skończone konto znacznie rzadziej jest proszone o ponowne potwierdzenie telefonu niż puste. Jeśli Instagram wciąż Cię sprawdza, to jego system antynadużyciowy robi swoje – numer wirtualny przeprowadzi Cię przez zwykłą kontrolę telefonu, ale nie jest sposobem na obejście ograniczenia czy blokady."
+    },
+    {
+      "title": "Rejestracja e-mailem nie oznacza braku kroku z telefonem",
+      "body": "Nawet konta zarejestrowane e-mailem są proszone o numer telefonu, gdy tylko Instagram chce dodatkowego potwierdzenia – nowe urządzenie, nietypowa sieć, nagły wzrost aktywności. Pamiętaj o tym: numer wirtualny jest nie tylko do rejestracji, ale i do punktu kontroli, który może przyjść później."
+    },
+    {
+      "title": "Jeśli kod nie dociera, zmień numer",
+      "body": "Instagram czasem ogranicza SMS-y do numeru, który niedawno prosił o kody. Nie stukaj w kółko „wyślij ponownie” – anuluj oczekującą aktywację w SMS Code (numery, które nic nie odebrały, są darmowe) i weź nowy numer albo spróbuj innego kraju."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy moje konto na Instagramie będzie działać po wygaśnięciu numeru?",
+      "a": "Tak. Numer jest potrzebny tylko podczas dostarczania kodu weryfikacyjnego. Gdy już wejdziesz, dodaj e-mail, który kontrolujesz, i włącz uwierzytelnianie dwuskładnikowe przez aplikację w Centrum kont – wtedy konto nigdy nie będzie musiało odbierać kolejnego SMS-a na ten numer."
+    },
+    {
+      "q": "Czy mogę założyć drugie konto na Instagramie z numerem wirtualnym?",
+      "a": "Tak. Meta pozwala na wiele kont, a Instagram obsługuje do pięciu w jednej aplikacji. Każde konto może zostać poproszone o potwierdzenie własnego numeru telefonu, gdy systemy Instagrama je sprawdzą, więc daj każdemu osobny numer wirtualny zamiast używać jednego punktu kontaktu."
+    },
+    {
+      "q": "Dlaczego Instagram wciąż prosi mnie o potwierdzenie numeru telefonu?",
+      "a": "To proces punktu kontroli. Zwykle uruchamia się, gdy konto wygląda na zautomatyzowane: założone przed chwilą i już obserwujące dziesiątki osób albo logujące się z sieci, której Instagram nie zna. Zwolnij, uzupełnij profil i zweryfikuj się raz numerem, na który możesz odebrać kod."
+    },
+    {
+      "q": "Dlaczego kod z Instagrama nie dotarł?",
+      "a": "Najczęstsza przyczyna to niezgodny numer kierunkowy; druga – Instagram ogranicza SMS-y do numeru, który niedawno prosił o kody. Anuluj oczekującą aktywację w SMS Code – monety za numer, który nic nie odebrał, wracają na saldo – i spróbuj z nowym numerem lub innym krajem."
+    },
+    {
+      "q": "Czy rejestracja na Instagramie numerem wirtualnym jest dozwolona?",
+      "a": "Weryfikacja Instagrama sprawdza, czy możesz odebrać kod na numer, a nie na kogo zarejestrowana jest karta SIM. Wynajęcie numeru do kroku potwierdzenia jest w porządku przy normalnym użyciu – prywatna strona, marka czy sklep. Liczy się przestrzeganie zasad społeczności Instagrama, gdy już jesteś w środku."
+    }
+  ]
+}

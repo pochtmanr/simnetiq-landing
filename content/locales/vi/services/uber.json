@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Uber — Đăng ký và đi xe riêng tư",
+  "metaDescription": "Uber đăng nhập bằng mã SMS. Thuê số ảo thật, nhận mã bốn chữ số thường chỉ trong vài giây và giữ điện thoại của bạn ngoài lịch sử chuyến đi.",
+  "hero": {
+    "title": "Số ảo cho Uber",
+    "intro": [
+      "Uber không coi số điện thoại là chi tiết — nó chính là tài khoản. Bạn nhập một số, Uber nhắn “Your Uber code is 7204. Never share this code.”, và đó là toàn bộ việc đăng nhập: không tên người dùng, và với nhiều hành khách cũng chẳng có mật khẩu. Ai nhận được mã trên số đó, người đó thực chất nắm tài khoản.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia và mã của Uber hiện trong ứng dụng thường chỉ trong vài giây. Chuyến đi, biên lai và lịch sử điểm đón của bạn gắn với một số thuê thay vì số mà bạn bè và ngân hàng bạn dùng."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Uber?",
+    "body": [
+      "Một tài khoản gọi xe lặng lẽ tích lũy bản đồ cuộc sống của bạn — nhà, nơi làm việc, sân bay lúc 6 giờ sáng. Giữ số cá nhân ngoài hồ sơ đó là vệ sinh quyền riêng tư cơ bản. Tài xế vốn đã liên lạc với bạn qua kênh chuyển tiếp ẩn của Uber và không bao giờ thấy số thật; bản sao quan trọng là bản lưu trong tài khoản của bạn, và đó chính là bản mà số ảo thay thế.",
+      "Vì Uber đăng nhập bằng SMS, số ở đây không phải đạo cụ dùng một lần — hãy thành thật với bản thân về điều đó. Ứng dụng giữ bạn đăng nhập hàng tháng, nhưng một lần cài lại hay điện thoại mới sẽ hỏi mã lần nữa. Thiết lập này vẫn ổn với số thuê miễn là bạn tính trước: giữ đăng nhập, thêm email vào tài khoản, và nếu Uber trở thành công cụ hằng ngày, hãy chuyển tài khoản sang một số bạn luôn kiểm soát."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Uber bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Chọn Uber làm dịch vụ và chọn quốc gia. Để dùng hằng ngày, hãy lấy quốc gia của bạn — khu vực của tài khoản định hình các tùy chọn thanh toán và tính năng địa phương."
+      },
+      {
+        "title": "Nhập số vào ứng dụng Uber",
+        "body": "Trên màn hình đăng ký, chọn mã quốc gia của số và nhập vào. Uber có thể đề nghị gửi mã qua WhatsApp hoặc cuộc gọi thoại — hãy chọn SMS."
+      },
+      {
+        "title": "Nhập bốn chữ số",
+        "body": "“Your Uber code is 7204. Never share this code.” đến ứng dụng SMS Code thường chỉ trong vài giây. Nhập mã và bạn đã đăng nhập."
+      },
+      {
+        "title": "Cho tài khoản kênh thứ hai",
+        "body": "Thêm email trong cài đặt Uber và hoàn thiện hồ sơ. Email cho Uber một cách xác minh bạn không phụ thuộc vào số thuê — và giữ biên lai ở nơi bạn thực sự đọc."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Uber sẽ hỏi SMS lần nữa — hãy tính trước",
+      "body": "Đăng nhập trên thiết bị mới và cài lại được xác nhận bằng mã gửi tới số của tài khoản. Đừng đăng xuất tùy tiện, hãy thêm email, và nếu bạn dùng Uber hằng tuần, hãy đổi điện thoại của tài khoản trong cài đặt sang số bạn mang theo — bạn có thể làm bất cứ lúc nào khi đang đăng nhập."
+    },
+    {
+      "title": "Tài xế vốn không bao giờ thấy số của bạn",
+      "body": "Cuộc gọi và tin nhắn giữa bạn với tài xế đi qua kênh chuyển tiếp ẩn của Uber. Vấn đề quyền riêng tư không phải tài xế — mà là số nằm trong hồ sơ tài khoản, biên lai và bất cứ thứ gì cơ sở dữ liệu đó cung cấp. Đó là bản sao mà số ảo giữ sạch sẽ."
+    },
+    {
+      "title": "Ra nước ngoài, tài khoản của bạn đã đi theo",
+      "body": "Một tài khoản Uber hiện có hoạt động ở các quốc gia khác — bạn không cần số địa phương để gọi xe ở Paris. Nơi số ảo thực sự giúp ích: SIM ở nhà không nhận được tin nhắn chuyển vùng khi bước kiểm tra đăng nhập xảy ra giữa chuyến đi, hoặc bạn muốn một tài khoản địa phương riêng cho thời gian lưu trú dài."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tài khoản Uber có còn hoạt động sau khi số đã thuê hết hạn không?",
+      "a": "Khi bạn vẫn đăng nhập — có, mọi thứ hoạt động. Cái bẫy là lần đăng nhập mới tiếp theo: Uber xác nhận nó bằng SMS tới số của tài khoản. Vì vậy hãy giữ phiên hoạt động, hoặc — tốt hơn — đổi điện thoại trong cài đặt tài khoản sang số bạn kiểm soát khi vẫn đang đăng nhập. Tùy chọn đó luôn có trong ứng dụng."
+    },
+    {
+      "q": "Tài xế có thấy số điện thoại thật của tôi không?",
+      "a": "Không. Uber kết nối bạn và tài xế qua số chuyển tiếp ẩn, nên không bên nào thấy số thật của bên kia. Số ảo bảo vệ bản sao còn lại — bản lưu trong hồ sơ tài khoản và gắn với mọi biên lai."
+    },
+    {
+      "q": "Tôi có thể dùng số ảo cho Uber khi đi du lịch không?",
+      "a": "Có, và nó giải quyết một vấn đề du lịch thực tế: bước kiểm tra đăng nhập đến dưới dạng SMS mà SIM chuyển vùng không nhận được. Mã gửi tới số thuê đến ứng dụng SMS Code qua internet, dù bạn ở đâu. Lưu ý bạn không cần số địa phương chỉ để đi xe ở nước ngoài — tài khoản bình thường của bạn hoạt động quốc tế."
+    },
+    {
+      "q": "Vì sao mã Uber không đến?",
+      "a": "Trước tiên kiểm tra mã quốc gia khớp với số đã thuê. Sau đó đảm bảo mã được gửi qua SMS — Uber đôi khi mặc định chọn WhatsApp hoặc cuộc gọi thoại. Nếu không có gì đến, hủy lần kích hoạt miễn phí trong SMS Code và lấy số khác."
+    },
+    {
+      "q": "Đăng ký Uber bằng số ảo có được phép không?",
+      "a": "Uber xác minh rằng bạn kiểm soát số và mong đợi mỗi hành khách một tài khoản với thông tin trung thực — đó là điều khoản của họ, và các tính năng an toàn phụ thuộc vào nó. Dùng số thuê để giữ kín số cá nhân là ổn; dùng số để khai thác ưu đãi đăng ký hay vận hành tài khoản trùng là điều khiến hành khách bị cấm."
+    }
+  ]
+}

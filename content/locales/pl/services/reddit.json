@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Reddit — zachowaj pseudonim w prywatności",
+  "metaDescription": "Odbierz kod Reddit na prawdziwy numer wirtualny zwykle w kilka sekund. Przejdź kontrolę telefonu bez łączenia konta z Twoją prawdziwą tożsamością.",
+  "hero": {
+    "title": "Numer wirtualny do Reddita",
+    "intro": [
+      "Reddit zbudował całą swoją kulturę na nazwach użytkowników zamiast prawdziwych nazwisk – a potem od czasu do czasu prosi o najprawdziwszy identyfikator, jaki masz. Większość rejestracji działa na samym e-mailu, ale niektóre ścieżki, sieci i kontrole „podejrzanej aktywności” wystawiają ekran z telefonem, a SMS w rodzaju „Your Reddit verification code is 617293” stoi między Tobą a stroną główną.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, a kod trafia do aplikacji zwykle w ciągu kilku sekund. Kontrola zaliczona, konto się otwiera – a pseudonim, pod którym piszesz, pozostaje niepowiązany z numerem, do którego wszędzie indziej przypięte jest Twoje nazwisko."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Reddita?",
+    "body": [
+      "Nigdzie numer telefonu nie podważa sensu platformy tak bardzo jak na Reddicie. Ludzie zadają tam pytania medyczne, rozmawiają o swoim pracodawcy, piszą w społecznościach wsparcia – czyli robią dokładnie to, co nazwa użytkownika ma trzymać na dystans od prawdziwej tożsamości. Oddanie prywatnego numeru komórkowego po cichu odbudowuje most, który pseudonim miał spalić: jeden identyfikator, w jeszcze jednej bazie, łączący Twoje nazwisko z historią wpisów.",
+      "Uczciwa druga strona: przez większość czasu Reddit w ogóle nie pyta. Rejestracja tylko e-mailem to wciąż norma, a monit o telefon pojawia się sytuacyjnie – niektóre aplikacje i regiony, ruch przez VPN i współdzielone sieci albo przegląd bezpieczeństwa istniejącego konta. Nie wynajmuj więc numeru na zapas. Zacznij rejestrację, a jeśli pojawi się ekran z telefonem, to jest moment, w którym wynajęty numer się opłaca; aktywacja anulowana przed nadejściem SMS-a nic nie kosztuje."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Reddita numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Najpierw zacznij rejestrację",
+        "body": "Utwórz konto z e-mailem, który kontrolujesz, i zobacz, czy Reddit w ogóle prosi o telefon. Jeśli nie – gotowe i nic nie wydałeś. Jeśli pojawi się ekran z telefonem, przejdź do kroku drugiego."
+      },
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Wybierz Reddit jako usługę i kraj. Jedno stuknięcie rezerwuje prawdziwy numer komórkowy tylko dla Ciebie – zarezerwowany oznacza, że nikt inny nie używa go w tym samym czasie do Reddita."
+      },
+      {
+        "title": "Wpisz numer i kod",
+        "body": "Wybierz pasujący numer kierunkowy na ekranie Reddita i wpisz numer. SMS brzmi „Your Reddit verification code is 617293” i pojawia się w aplikacji SMS Code zwykle w ciągu kilku sekund – przepisz go."
+      },
+      {
+        "title": "Potem odepnij numer",
+        "body": "W Ustawienia → Konto możesz po weryfikacji zobaczyć i usunąć telefon. Dbaj o zweryfikowany e-mail i silne hasło – to prawdziwe kotwice konta, a odzyskiwanie w Reddicie opiera się na e-mailu, nie na SMS-ach."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Wynajmuj, gdy trzeba, a nie na zapas",
+      "body": "Monit o telefon w Reddicie jest sytuacyjny, a nie powszechny. Najpierw spróbuj zwykłej rejestracji e-mailem; sięgnij po numer wirtualny dopiero wtedy, gdy ekran rzeczywiście go wymaga. Ta strona będzie tu dalej."
+    },
+    {
+      "title": "Pseudonim przecieka bokiem, nie przez telefon",
+      "body": "Gdy sprawa numeru jest załatwiona, pozostałe ryzyka to zachowanie: ta sama nazwa użytkownika co gdzie indziej, prawdziwe zdjęcia, identyfikujące szczegóły. Numer wirtualny zamyka najmocniejsze ogniwo – połącz go z e-mailem, który nie brzmi imie.nazwisko@, i nazwą użytkownika, której nie używasz nigdzie indziej."
+    },
+    {
+      "title": "Zbanowane społeczności pozostają zbanowane",
+      "body": "Reddit egzekwuje zawieszenia przez wiele sygnałów – urządzenia, zachowanie, sieci – a nie tylko numery telefonów. Numer wirtualny chroni prywatność legalnego konta; to nie zestaw do omijania banów, a omijanie zawieszeń łamie zasady Reddita i zwykle szybko się kończy."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy Reddit wymaga numeru telefonu do rejestracji?",
+      "a": "Zwykle nie – standardem jest sam e-mail. Weryfikacja telefonu pojawia się sytuacyjnie: w niektórych aplikacjach i regionach, przy rejestracjach przez VPN lub współdzielone sieci albo przy kontrolach bezpieczeństwa nietypowej aktywności. Gdy się pojawi, numer wirtualny odbierze kod dokładnie jak SIM."
+    },
+    {
+      "q": "Czy moje konto Reddit przestanie działać po wygaśnięciu wynajętego numeru?",
+      "a": "Nie. Numer jest sprawdzany przy weryfikacji, a potem możesz usunąć go w Ustawienia → Konto. Utrzymuj zweryfikowany e-mail i silne hasło – na nich naprawdę opiera się odzyskiwanie w Reddicie."
+    },
+    {
+      "q": "Czy użytkownicy lub moderatorzy Reddita zobaczą mój numer?",
+      "a": "Nie. Numer telefonu to techniczna część konta, nigdy niepokazywana w profilu ani innym użytkownikom. Pseudonim na Reddicie zdradzają treści – powtarzane nazwy użytkownika, zdjęcia, identyfikujące szczegóły – a nie numer weryfikacyjny."
+    },
+    {
+      "q": "Czy mogę użyć do Reddita darmowego numeru online?",
+      "a": "Rzadko z sukcesem. Publiczne numery na darmowych stronach z SMS-ami przeszły tysiące rejestracji, a kontrole Reddita zwykle je rozpoznają i odrzucają. Wynajęty numer jest podczas aktywacji zarezerwowany tylko dla Ciebie – i to właśnie różnica, na której zależy kontroli."
+    },
+    {
+      "q": "Kod z Reddita nie przyszedł – co teraz?",
+      "a": "Potwierdź, że numer kierunkowy pasuje do wynajętego numeru, i odczekaj chwilę; kody zwykle docierają w ciągu kilku sekund. Jeśli nic nie przyjdzie, anuluj aktywację w SMS Code bez opłat i weź nowy numer – płacisz tylko za aktywacje, które dostarczą SMS."
+    }
+  ]
+}

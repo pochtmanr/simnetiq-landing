@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Facebook — Đăng ký không cần SIM",
+  "metaDescription": "Xác minh Facebook bằng số ảo thật từ hơn 100 quốc gia. Mã thường đến chỉ trong vài giây — trả tiền theo lần kích hoạt, hủy miễn phí nếu không có SMS.",
+  "hero": {
+    "title": "Số ảo cho Facebook",
+    "intro": [
+      "Trên lý thuyết, Facebook cho phép đăng ký chỉ bằng email. Trên thực tế, số điện thoại hiếm khi đứng ngoài cuộc: biểu mẫu đăng ký thường hỏi số, và tài khoản mới thường xuyên rơi vào trạm kiểm tra bảo mật trong vài ngày đầu — nơi mã gửi qua SMS là cách nhanh nhất để chứng minh có người thật đứng sau hồ sơ.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia, đưa nó cho Facebook, và mã xác nhận hiện trong ứng dụng thường chỉ trong vài giây. Bạn trả tiền theo lần kích hoạt từ gói xu mua một lần — không thuê bao — và nếu một số không nhận được gì, bạn hủy mà không bị trừ phí."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Facebook?",
+    "body": [
+      "Hồ sơ Facebook đã mang tên, khuôn mặt và danh sách bạn bè của bạn. Thêm số điện thoại cá nhân vào đó là gắn nó với mọi thứ khác trong cuộc sống của bạn — và các số gắn với tài khoản Facebook từng bị thu thập và rò rỉ ở quy mô khổng lồ. Một số bị rò rỉ hoạt động như chìa khóa tìm kiếm: nó nối hồ sơ của bạn với ứng dụng nhắn tin, sàn thương mại và hồ sơ của các công ty môi giới dữ liệu. Số ảo cho Facebook một số thật, hoạt động được, nhưng đơn giản không phải chiếc chìa khóa đó.",
+      "Cũng có những lý do thường ngày: bạn đăng ký khi đang ở nước ngoài và SIM ở nhà không nhận được SMS, hoặc bạn bán hàng trên Marketplace và không muốn người lạ có số đổ chuông trong túi bạn. Một điều số ảo không dành cho — điều khoản của Facebook cho phép mỗi người một tài khoản cá nhân, nên hãy coi đây là quyền riêng tư cho tài khoản của bạn, không phải cách để vận hành nhiều tài khoản."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Facebook bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Facebook làm dịch vụ, chọn quốc gia và chạm một lần. Một số di động thật được giữ riêng cho bạn trong suốt thời gian kích hoạt."
+      },
+      {
+        "title": "Nhập số khi Facebook yêu cầu",
+        "body": "Có thể là ngay trên biểu mẫu đăng ký hoặc ở một trạm kiểm tra ngay sau đó. Chọn mã quốc gia khớp với số đã thuê — sai lệch là lý do phổ biến nhất khiến mã không bao giờ đến."
+      },
+      {
+        "title": "Nhập mã xác nhận",
+        "body": "SMS đến ứng dụng SMS Code thường chỉ trong vài giây, từ người gửi “Facebook”, có dạng “285103 is your Facebook confirmation code”. Nhập các chữ số và bước kiểm tra được thông qua."
+      },
+      {
+        "title": "Neo tài khoản vào những thứ bạn kiểm soát",
+        "body": "Ngay lập tức, hãy thêm email của bạn và bật xác thực hai yếu tố bằng ứng dụng xác thực trong Trung tâm tài khoản → Mật khẩu và bảo mật. Từ đó, đăng nhập và khôi phục không bao giờ phụ thuộc vào số đã thuê."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Hãy chờ trạm kiểm tra — đó là chuyện thường",
+      "body": "Facebook kiểm tra tài khoản mới gắt gao hơn hầu hết mạng xã hội khác. Ảnh đại diện, vài thông tin thật và nhịp độ của con người giúp ích rất nhiều; một tài khoản nửa trống thêm năm mươi bạn trong một giờ chính là thứ làm bộ lọc kích hoạt."
+    },
+    {
+      "title": "Chuyển khôi phục khỏi số ngay ngày đầu",
+      "body": "Số đã thuê dành cho thời điểm xác minh, không phải cho cả đời. Khi đã vào, hãy xác nhận địa chỉ email và thiết lập ứng dụng xác thực — khi đó không lần đăng nhập hay khôi phục nào sau này đi qua SMS."
+    },
+    {
+      "title": "Một người, một tài khoản",
+      "body": "Điều khoản của Facebook rất rõ: mỗi người một tài khoản cá nhân. Số ảo giữ kín số thật của bạn trên tài khoản bạn có — dùng nó để nhân bản tài khoản sẽ đặt tất cả vào rủi ro."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tài khoản Facebook có còn hoạt động sau khi số hết hạn không?",
+      "a": "Có. Số được kiểm tra ở thời điểm xác minh, không phải liên tục. Hãy thêm email và 2FA bằng ứng dụng xác thực ngay sau khi đăng ký, và không gì trong tài khoản còn phụ thuộc vào số đó nữa."
+    },
+    {
+      "q": "Tôi có thể đăng ký Facebook mà không cần số điện thoại nào không?",
+      "a": "Đôi khi — đăng ký chỉ bằng email có tồn tại. Nhưng nhiều tài khoản mới bị hỏi điện thoại khi đăng ký hoặc ngay sau đó, tại một trạm kiểm tra. Cách thực tế là thuê số đúng lúc Facebook thực sự đòi."
+    },
+    {
+      "q": "Vì sao Facebook khóa tài khoản vừa tạo của tôi?",
+      "a": "Trạm kiểm tra với tài khoản mới là bình thường, không phải dấu hiệu bạn làm sai. Facebook định kỳ yêu cầu hồ sơ mới xác nhận số điện thoại, đôi khi cả ảnh. Hoàn tất bước SMS, tiếp tục điền hồ sơ với nhịp độ của con người, và tài khoản sẽ ổn định."
+    },
+    {
+      "q": "Vì sao mã Facebook không đến?",
+      "a": "Thường là một trong hai: mã quốc gia nhập trên Facebook không khớp với số đã thuê, hoặc Facebook từ chối gửi tin tới số cụ thể đó. Hãy hủy lần kích hoạt đang chờ trong SMS Code — xu được hoàn cho số không nhận được gì — và thử số mới, tốt nhất từ quốc gia khác."
+    },
+    {
+      "q": "Xác minh Facebook bằng số thuê có trái quy định không?",
+      "a": "Các bước kiểm tra của Facebook tồn tại để xác nhận một người có thể liên lạc được, và số ảo là một số thật, liên lạc được. Điều nền tảng thực sự thực thi là hành vi và tính xác thực: một tài khoản thật, không mạo danh, không spam. Giữ đúng điều đó thì nguồn gốc của số không thành vấn đề."
+    }
+  ]
+}

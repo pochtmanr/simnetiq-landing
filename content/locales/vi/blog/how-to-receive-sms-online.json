@@ -1,0 +1,146 @@
+{
+  "title": "Cách nhận SMS trực tuyến: mã không cần số của bạn",
+  "description": "Mọi lần đăng ký đều đòi số điện thoại. Ba cách thật để nhận SMS trực tuyến — trang miễn phí, SIM thứ hai, số ảo thuê — và khi nào mỗi cách hiệu quả.",
+  "excerpt": "Trang nhận mã miễn phí, SIM thứ hai hay số ảo thuê — ba con đường nhận SMS xác minh trực tuyến, được so sánh trung thực: mỗi cách tốn bao nhiêu, hỏng ở đâu, và cách đáng tin cậy thực sự hoạt động ra sao.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ở đâu đó giữa “tạo mật khẩu” và “chấp nhận điều khoản”, gần như mọi lần đăng ký giờ đều chèn cùng một yêu cầu: nhập số điện thoại của bạn. Ứng dụng nhắn tin bắt buộc, sàn thương mại muốn có, thậm chí một diễn đàn bạn ghé hai lần cũng nhất định nhắn cho bạn mã sáu chữ số trước khi cho vào."
+    },
+    {
+      "type": "p",
+      "text": "Bản thân mã vô hại. Điều làm mọi người băn khoăn là con số đứng sau — một định danh cá nhân, vĩnh viễn, tồn tại lâu hơn tài khoản, nối các hồ sơ của bạn lại với nhau và không thể thay như mật khẩu khi bị lộ. Vì vậy câu hỏi thực tế không phải là làm sao tránh xác minh; các dịch vụ sẽ không nhượng bộ chuyện đó. Mà là làm sao nhận SMS ở nơi khác ngoài SIM của chính bạn."
+    },
+    {
+      "type": "p",
+      "text": "Có đúng ba cách để làm điều đó. Hướng dẫn này đi qua cả ba — kể cả hai cách phần lớn làm mất thời gian — rồi chỉ ra toàn bộ quy trình với cách thực sự đáng tin."
+    },
+    {
+      "type": "h2",
+      "id": "why-services-want-your-number",
+      "text": "Vì sao các dịch vụ đòi số ngay từ đầu"
+    },
+    {
+      "type": "p",
+      "text": "Đáng để hiểu bạn đang đối mặt với điều gì, vì nó giải thích vì sao một số con đường thất bại. Các dịch vụ xác minh số điện thoại vì ba lý do, và quyền riêng tư không phải một trong số đó."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Kiểm soát spam. Số điện thoại là tài nguyên khan hiếm rẻ nhất mà một dịch vụ có thể đòi. Địa chỉ email miễn phí và vô hạn; số di động tốn tiền và giấy tờ, nên yêu cầu một số sẽ nâng giá của mọi tài khoản giả.",
+        "Khôi phục tài khoản và 2FA. Khi đã xác minh, số trở thành kênh đăng nhập dự phòng — cũng có nghĩa ai kiểm soát số thường có thể đặt lại mật khẩu. Điều đó có hai mặt, và chúng ta sẽ quay lại.",
+        "Liên kết danh tính. Một số nối tài khoản của bạn với các tài khoản khác, danh bạ và, qua nhà mạng, danh tính pháp lý của bạn. Với hệ thống quảng cáo, đó là khóa nối tồn tại qua việc xóa cookie và đổi thiết bị."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Không điều gì trong đó đòi hỏi số phải là của bạn. Dịch vụ chỉ kiểm tra một điều: bạn có đọc được mã gửi tới số bạn đã nhập hay không. Số đó nằm ở đâu — SIM trong túi hay một ứng dụng trên màn hình — là vô hình với họ."
+    },
+    {
+      "type": "h2",
+      "id": "three-ways-to-receive-sms-online",
+      "text": "Ba cách nhận SMS trực tuyến"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Số công khai miễn phí. Hàng chục trang công bố các số mà hộp thư ai cũng đọc được. Chúng không tốn gì và đôi khi dùng được — nhưng mỗi số được chia sẻ với hàng nghìn người lạ, nên các dịch vụ phổ biến từ lâu đã thấy, gắn cờ và chặn phần lớn. Khi một số được chấp nhận, bạn thường được báo nó đã được đăng ký — vì ai đó đã đến trước. Và vì hộp thư công khai, mọi thứ gửi tới số đó, kể cả mã đặt lại mật khẩu cho tài khoản bạn vừa tạo, đều ai cũng đọc được.",
+        "SIM hay eSIM thứ hai. Riêng tư và lâu dài thật sự — đó là một số thật chỉ của bạn. Cái giá là chi phí và phiền phức: gói cước tháng hoặc nghĩa vụ nạp tiền để giữ số sống, yêu cầu giấy tờ ở nhiều quốc gia, và sự phi lý khi duy trì một gói điện thoại chỉ vì một trang web muốn một mã vào năm 2026. Nó hợp lý nếu bạn cần đường dây thứ hai dài hạn; với đăng ký thì quá mức.",
+        "Số ảo thuê. Một số di động thật trên mạng nhà mạng thật, giữ riêng cho bạn trong suốt một lần xác minh. Bạn trả theo mã nhận được, SMS hiện trong ứng dụng, và không có gói cước, không hợp đồng, không hộp thư dùng chung. Đây là con đường ở giữa: riêng tư như SIM, dùng một lần như nó nên vậy."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Với xác minh một lần, số thuê là con đường thực sự đứng vững. Đây là toàn bộ quy trình, từ đầu đến cuối."
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-sms-code",
+      "text": "Nhận mã với SMS Code, từng bước"
+    },
+    {
+      "type": "p",
+      "text": "Bạn cần ứng dụng SMS Code và biểu mẫu đăng ký đặt cạnh nhau. Quy trình như nhau dù dịch vụ là Telegram, một sàn thương mại hay bất cứ thứ gì trong danh sách — vài phút từ đầu đến cuối."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Chọn dịch vụ và quốc gia",
+          "body": "Trong SMS Code, chọn thứ bạn đang xác minh — Telegram, WhatsApp, Google, hơn 100 dịch vụ — và quốc gia của số. Số có sẵn tại hơn 100 quốc gia; một chạm giữ một số chỉ cho bạn."
+        },
+        {
+          "title": "Nhập số vào biểu mẫu đăng ký",
+          "body": "Nhập số đã thuê vào màn hình xác minh của dịch vụ, đảm bảo mã quốc gia khớp. Bộ chọn quốc gia sai là lý do phổ biến nhất khiến mã không bao giờ đến."
+        },
+        {
+          "title": "Đọc mã trong ứng dụng",
+          "body": "SMS đến SMS Code thường chỉ trong vài giây và màn hình kích hoạt cập nhật trực tiếp. Chạm một lần để sao chép mã, dán vào biểu mẫu, và việc xác minh hoàn tất."
+        },
+        {
+          "title": "Bảo vệ tài khoản đúng cách",
+          "body": "Đặt mật khẩu mạnh, thêm email khôi phục bạn kiểm soát, và bật xác thực hai yếu tố không dựa vào SMS. Khi xong, tài khoản tự đứng vững — số thuê đã hoàn thành nhiệm vụ."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-number-is-the-wrong-tool",
+      "text": "Khi nào số ảo là công cụ sai"
+    },
+    {
+      "type": "p",
+      "text": "Một hướng dẫn trung thực phải vạch ranh giới này, vì chính đặc tính khiến số thuê tuyệt vời cho đăng ký — nó tạm thời — lại khiến nó sai với bất cứ thứ gì kiểm tra số trong nhiều năm."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ngân hàng, công ty môi giới và dịch vụ thanh toán. Tài khoản tài chính xác minh lại qua SMS liên tục — mỗi thiết bị mới, mỗi giao dịch lớn. Chúng còn đối chiếu số với danh tính đã đăng ký của bạn. Hãy dùng một số bạn sẽ giữ lâu dài, chấm hết.",
+        "Cổng chính phủ và mọi thứ gắn với danh tính pháp lý của bạn. Cơ quan thuế, hệ thống y tế và đăng nhập chính phủ điện tử giả định số là của bạn suốt vòng đời tài khoản.",
+        "Bất kỳ tài khoản nào mà số điện thoại là đường khôi phục duy nhất. Nếu bạn mất mật khẩu và cách đặt lại duy nhất của dịch vụ là SMS, một số bạn không còn thuê nghĩa là một tài khoản bạn không còn sở hữu. Hoặc thêm đường khôi phục qua email ngay, hoặc đừng dùng số tạm thời ở đó."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Quy tắc ngón tay cái: số ảo dành cho thời điểm xác minh, không cho cả vòng đời tài khoản. Nếu một dịch vụ cần liên lạc số đó lần nữa sau một năm, hãy cho nó một số vẫn là của bạn sau một năm. Với mọi thứ khác — ứng dụng nhắn tin, mạng xã hội, cửa hàng, bản dùng thử — thời điểm đó là tất cả."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Câu hỏi thường gặp"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Nhận SMS trên số ảo có hợp pháp không?",
+          "a": "Có. Thuê một số và nhận tin nhắn trên đó là một dịch vụ viễn thông bình thường, được dùng thường xuyên cho quyền riêng tư, kiểm thử và phát triển. Về mặt pháp lý, điều quan trọng là bạn làm gì với tài khoản sau đó — điều khoản của dịch vụ bạn đăng ký vẫn áp dụng như thường."
+        },
+        {
+          "q": "Vì sao số trực tuyến miễn phí cứ bị từ chối?",
+          "a": "Vì chúng được dùng chung. Hàng nghìn người đã dùng cùng một số trước bạn, nên các dịch vụ hoặc chặn thẳng hoặc báo đã được đăng ký. Số thuê được giữ riêng cho bạn trong lúc kích hoạt, đó chính là khác biệt mà bộ lọc spam của dịch vụ dò tìm."
+        },
+        {
+          "q": "Tài khoản có còn hoạt động sau khi hết thời gian thuê không?",
+          "a": "Có, miễn là tài khoản không phụ thuộc vào số đó để khôi phục. Số được kiểm tra lúc xác minh; sau đó, tài khoản sống nhờ mật khẩu, email và các phiên đang hoạt động. Thiết lập chúng đúng cách và không gì trong sử dụng hằng ngày chạm đến số cũ."
+        },
+        {
+          "q": "Tôi có nhận cuộc gọi trên số không?",
+          "a": "Không — số SMS Code chỉ nhận tin nhắn văn bản. Nếu một dịch vụ khăng khăng dùng cuộc gọi thoại làm phương thức xác minh duy nhất, số SMS ảo sẽ không hoàn tất được quy trình đó."
+        },
+        {
+          "q": "Chi phí bao nhiêu?",
+          "a": "Bạn mua gói xu một lần trong ứng dụng và tiêu xu cho mỗi lần kích hoạt — từ 20 xu, tùy dịch vụ và quốc gia, với giá chính xác hiển thị trước khi bạn xác nhận. Không có thuê bao và xu không hết hạn, và nếu mã không bao giờ đến, lần kích hoạt hủy miễn phí và xu được hoàn."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

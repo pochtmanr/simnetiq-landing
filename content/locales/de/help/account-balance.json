@@ -1,0 +1,27 @@
+{
+  "title": "Guthaben behalten, Zugang wiederherstellen, Konto löschen",
+  "metaDescription": "Behalte dein Münzguthaben bei SMS Code geräteübergreifend, stell den Zugang wieder her und lösche das Konto sicher, ohne Münzen oder Erstattungen zu verlieren.",
+  "sections": [
+    {
+      "title": "Vor einer Neuinstallation anmelden",
+      "paragraphs": [
+        "Münzen gehören zu deinem SMS Code Konto. Melde dich mit Apple, Google oder einem E-Mail-Code an, solange du noch Zugriff auf das Guthaben hast, und nutze dann denselben Login auf einem anderen Gerät. Dein Apple Kaufkonto und dein SMS Code Login sind getrennt.",
+        "Eine Neuinstallation mit einem anonymen Konto kann ein anderes Konto erzeugen. Das Wiederherstellen von Käufen im App Store stellt ein anonymes Münzguthaben nicht von selbst wieder her. Hast du den Zugang verloren, kontaktiere den Support mit deiner Apple-Bestellnummer und den Kontodaten, die du noch hast; die Wiederherstellung erfordert eine Prüfung."
+      ]
+    },
+    {
+      "title": "Bevor du ein Konto löschst",
+      "id": "delete",
+      "paragraphs": [
+        "Kontolöschung und Rückerstattung von Zahlungen sind getrennte Vorgänge. Speichere die Kaufdaten, die du brauchst, schließe offene Aktivierungen ab und kontaktiere vor dem Löschen den Support wegen verbleibender Münzen. Beantrage eine Rückerstattung bei Apple separat.",
+        "Nutze die Option zur Kontolöschung in den Einstellungen der App. Kommst du nicht heran, kontaktiere den Support. Das Löschen storniert keine Apple-Zahlung, und Aufzeichnungen, die für rechtliche Pflichten oder die Klärung von Streitfällen nötig sind, können wie in unserer Datenschutzerklärung beschrieben aufbewahrt werden."
+      ]
+    },
+    {
+      "title": "Sicher Kontakt aufnehmen",
+      "paragraphs": [
+        "Nutze das Supportformular oder support@simnetiq.com. Sende Dienst, Land, Zeitpunkt und Aktivierungs- oder Bestellkennungen, aber niemals ein Passwort, einen Bestätigungscode oder vollständige Kartendaten. Prüfe Screenshots vor dem Teilen auf sensible Informationen."
+      ]
+    }
+  ]
+}

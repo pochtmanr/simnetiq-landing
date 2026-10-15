@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Snapchat — weryfikacja bez Twojego numeru",
+  "metaDescription": "Zweryfikuj Snapchat prawdziwym numerem wirtualnym z ponad 100 krajów. Kod zwykle w kilka sekund – bez SIM, bez abonamentu, darmowe anulowanie bez SMS.",
+  "hero": {
+    "title": "Numer wirtualny do Snapchata",
+    "intro": [
+      "Snapchat utworzy konto z samym e-mailem – pole telefonu przy rejestracji naprawdę można pominąć. Długo jednak nie pozostaje cicho: zaloguj się z nowego urządzenia, uruchom kontrolę bezpieczeństwa albo spróbuj odzyskać zapomniane hasło, a Snapchat zacznie prosić o numer, na który może wysłać kod.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, wpisujesz go w Snapchacie, a SMS weryfikacyjny pojawia się w aplikacji zwykle w ciągu kilku sekund. Płacisz za aktywację z jednorazowego pakietu monet – bez abonamentu – a każdą aktywację, która nie odebrała SMS-a, możesz anulować bez opłat."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Snapchata?",
+    "body": [
+      "Snapchat to miejsce, gdzie ludzie są najbardziej na luzie – streaki, znikające snapy, znajomi znajomych z Szybkiego dodawania. Twój numer telefonu nie pasuje do tej mieszanki: gdy jest na koncie, każdy, kto ma go w kontaktach, może zobaczyć Cię jako sugerowanego znajomego – i właśnie tak koledzy z klasy, współpracownicy i raz spotkani nieznajomi wpadają do Twojego snapowego życia. Numer wirtualny utrzymuje konto zweryfikowane, a prawdziwy numer zostaje u ludzi, którym go faktycznie dałeś.",
+      "Numer, którego chce Snapchat, musi też działać właśnie teraz: wyzwania weryfikacyjne i odzyskiwanie hasła zależą od odebrania SMS-a w danej chwili. Wynajęty numer w aplikacji SMS Code robi dokładnie to – łapie jeden kod, którego potrzebuje Snapchat, nie stając się stałą nicią między Twoimi snapami a kartą SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Snapchata numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Weź numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz Snapchat jako usługę, wybierz kraj i stuknij raz. Prawdziwy numer komórkowy jest zarezerwowany tylko dla Ciebie na czas aktywacji."
+      },
+      {
+        "title": "Wpisz go w Snapchacie",
+        "body": "Albo na ekranie rejestracji, gdy Snapchat poprosi o telefon, albo później w Ustawienia → Numer telefonu. Wybierz numer kierunkowy pasujący do wynajętego numeru – niezgodność to typowy powód, dla którego kod się nie pojawia."
+      },
+      {
+        "title": "Odbierz kod",
+        "body": "SMS dociera do aplikacji SMS Code zwykle w ciągu kilku sekund, od nadawcy „Snapchat”, w formacie „Snapchat code: 719402. Happy Snapping!”. Wpisz cyfry w Snapchacie, a numer zostanie potwierdzony."
+      },
+      {
+        "title": "Dokręć śruby prywatności",
+        "body": "W Ustawienia → Numer telefonu wyłącz „Pozwól innym znaleźć mnie po numerze telefonu”. Następnie zweryfikuj własny e-mail i włącz uwierzytelnianie dwuskładnikowe przez aplikację – odzyskiwanie przestanie w ogóle zależeć od SMS-ów."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Wyłącz wyszukiwanie po telefonie",
+      "body": "Szybkie dodawanie działa częściowo przez zsynchronizowane kontakty: kto ma zapisany numer, może zobaczyć jego właściciela. Przy wyłączonym wyszukiwaniu po numerze wynajęty numer weryfikuje konto, nie czyniąc Cię przez niego znajdowalnym – ten nawyk warto mieć na każdym koncie."
+    },
+    {
+      "title": "Daj odzyskiwaniu drugą drogę",
+      "body": "Snapchat opiera resety hasła na telefonie, więc zweryfikuj też adres e-mail i włącz 2FA przez aplikację. Wtedy zapomniane hasło nigdy nie sprowadzi się do odebrania SMS-a na numer, którego okno aktywacji dawno się skończyło."
+    },
+    {
+      "title": "Nie wal w przycisk „wyślij ponownie”",
+      "body": "Snapchat ogranicza prośby o kod: poproś zbyt wiele razy z rzędu, a na jakiś czas zamilknie. Daj pierwszemu kodowi chwilę; jeśli numer pozostaje pusty, anuluj aktywację bez opłat i weź nowy, zamiast wysyłać ponownie w próżnię."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy mogę korzystać ze Snapchata w ogóle bez numeru telefonu?",
+      "a": "Zarejestrować się samym e-mailem – tak. Ale Snapchat prosi o telefon, gdy coś wygląda nietypowo – nowe urządzenie, wyzwanie bezpieczeństwa, reset hasła – i wtedy potrzebujesz numeru, który odbierze SMS właśnie w tej chwili. Wynajęty numer obejmuje dokładnie ten moment."
+    },
+    {
+      "q": "Czy mój Snapchat będzie działać po wygaśnięciu numeru?",
+      "a": "Tak. Numer ma znaczenie w chwili weryfikacji, a nie później. Pozostań zalogowany, zweryfikuj e-mail i włącz 2FA przez aplikację, a konto nigdy więcej nie będzie potrzebować tego numeru."
+    },
+    {
+      "q": "Czy znajomi zobaczą numer, którego użyłem?",
+      "a": "Nie – Snapchat nigdy nie pokazuje numeru telefonu w profilu. Jedyne ryzyko to wyszukiwanie: osoby, które mają numer w kontaktach, mogą zobaczyć Cię w Szybkim dodawaniu. Wyłącz „Pozwól innym znaleźć mnie po numerze telefonu”, a i ta droga zostanie zamknięta."
+    },
+    {
+      "q": "Dlaczego kod ze Snapchata nie dotarł?",
+      "a": "Zwykli podejrzani: numer kierunkowy wybrany w Snapchacie nie pasuje do wynajętego numeru albo trafiłeś na limit ponownego wysyłania i Snapchat wstrzymał dostarczanie. Anuluj oczekującą aktywację w SMS Code – monety wracają za numery, które nic nie odebrały – i zacznij od nowa ze świeżym numerem."
+    },
+    {
+      "q": "Czy mogę mieć drugie konto na Snapchacie?",
+      "a": "Snapchat pozwala na więcej niż jedno konto na osobę – na przykład prywatne oraz publiczne lub projektowe – a aplikacja potrafi się między nimi przełączać. Każde potrzebuje własnej nazwy użytkownika i własnych danych kontaktowych, i tu właśnie pasuje osobny numer wirtualny."
+    }
+  ]
+}

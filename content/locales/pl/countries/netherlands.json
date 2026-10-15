@@ -1,0 +1,55 @@
+{
+  "name": "Holandia",
+  "metaTitle": "Holenderski numer wirtualny do SMS — prawdziwy +31",
+  "metaDescription": "Wynajmij prawdziwy holenderski numer komórkowy (+31) i odbieraj kody SMS zwykle w kilka sekund. Weryfikuj Telegram, WhatsApp, Google, Discord i Signal.",
+  "hero": {
+    "title": "Holenderski numer wirtualny do weryfikacji SMS",
+    "intro": [
+      "Jeśli kiedykolwiek oglądałeś demo weryfikacji telefonu, duża szansa, że na ekranie był numer +31 6 – holenderskie komórki to w branży coś w rodzaju standardowego przykładu. Ta znajomość działa na Twoją korzyść: formularze wszędzie dokładnie wiedzą, jak wygląda holenderska komórka.",
+      "SMS Code daje Ci prawdziwy holenderski numer komórkowy jednym stuknięciem. Wpisz go, gdy Telegram, WhatsApp, Google czy inna obsługiwana usługa poprosi o telefon, a SMS z kodem pojawi się w aplikacji zwykle w ciągu kilku sekund."
+    ]
+  },
+  "whyCountry": {
+    "title": "Dlaczego holenderski numer?",
+    "body": [
+      "Holandia to kompaktowy, mocno usieciowiony rynek UE, a numer +31 to niezawodny europejski wybór domyślny – akceptowany przez komunikatory jak Telegram, WhatsApp i Signal, przez platformy społecznościowe jak Discord i przez Google. Gdy nie potrzebujesz konkretnego kraju, potrzebujesz kraju, który nigdy nie sprawia problemów, a holenderskie numery rzadko je sprawiają.",
+      "Każda holenderska komórka ma jeden wzorzec: +31, potem 6, potem osiem cyfr. Żadnych konkurencyjnych prefiksów, żadnych wariantów regionalnych – jeden jednoznaczny format, który międzynarodowe formularze odczytują za pierwszym razem, dzięki czemu krok weryfikacji jest tak nudny, jak powinien być."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Komórka zawsze oznacza 6",
+      "body": "W Holandii 6 po +31 oznacza komórkę – inne wiodące cyfry to numery stacjonarne, które nie odbiorą SMS-ów. Numery z SMS Code są z definicji komórkowe, więc 6 jest już na miejscu."
+    },
+    {
+      "title": "Zero wylatuje, plus wchodzi",
+      "body": "W zapisie krajowym numer zaczyna się od 06; międzynarodowo zero znika, a jego miejsce zajmuje +31. Jeśli formularz protestuje, sprawdź, czy nie wkleiłeś krajowej formy 06 do pola międzynarodowego."
+    },
+    {
+      "title": "Druga próba jest darmowa, jeśli pierwsza zawiedzie",
+      "body": "Gdy kod nie dotrze w oknie aktywacji, anuluj ją w aplikacji – za nieodebrane aktywacje nic nie jest pobierane – i weź nowy holenderski numer do ponownej próby."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy to prawdziwy holenderski numer komórkowy?",
+      "a": "Tak – numer w prawdziwej sieci operatora w standardowym zakresie komórkowym +31 6. Dla usługi, która Cię weryfikuje, jest nie do odróżnienia od telefonu każdego mieszkańca."
+    },
+    {
+      "q": "Do czego dobrze pasują holenderskie numery?",
+      "a": "Przede wszystkim do komunikatorów i codziennych kont – Telegram, WhatsApp, Signal, Discord i Google to częste połączenia – a także do każdej usługi, która po prostu chce solidnej komórki z UE."
+    },
+    {
+      "q": "Czy mogę odebrać SMS, nie będąc w Holandii?",
+      "a": "Tak. Numer żyje w aplikacji SMS Code, więc Twoja fizyczna lokalizacja i własna karta SIM nie mają znaczenia – kod pojawia się w aplikacji, gdziekolwiek jesteś."
+    },
+    {
+      "q": "Jak zapłacić za aktywację?",
+      "a": "Z jednorazowego pakietu monet, za aktywację – bez abonamentu działającego w tle. Aktywacje, które nigdy nie odbiorą SMS-a, anulują się za darmo, więc nieudane próby nie uszczuplają salda."
+    },
+    {
+      "q": "Czy powinienem wiązać coś z tym numerem na dłużej?",
+      "a": "Nie – traktuj go jak klucz, który otwiera drzwi. Gdy konto już istnieje, dodaj e-mail do odzyskiwania i 2FA przez aplikację uwierzytelniającą, żeby przyszłe logowania i odzyskiwanie nigdy nie zależały od wynajętego numeru."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "O SMS não chegou: por que acontece e o que fazer",
+  "metaDescription": "Por que um SMS de verificação às vezes não chega a um número virtual, como as moedas voltam sozinhas e quais países entregam melhor para cada serviço.",
+  "sections": [
+    {
+      "title": "Você não perde moedas quando o SMS não chega",
+      "paragraphs": [
+        "Se nenhum SMS chegar, você pode cancelar dois minutos depois de o número ser atribuído e as moedas voltam ao seu saldo. Se esperar, a ativação fecha no fim da janela de 15 minutos e as moedas voltam automaticamente. Em nenhum dos casos você precisa falar com a gente."
+      ]
+    },
+    {
+      "title": "Por que um SMS não chega",
+      "paragraphs": [
+        "**Quem decide é o serviço.** Cada serviço tem suas próprias verificações antifraude. Alguns recusam ou descartam sem aviso SMS para números virtuais de certos países, ou limitam quantas contas uma faixa de números pode abrir.",
+        "**O país e o operador contam.** O mesmo serviço pode entregar bem em um país e mal em outro. E isso muda com o tempo, conforme os serviços atualizam os filtros.",
+        "**O código pode não ser enviado por SMS.** Alguns serviços enviam o primeiro código por chamada, por e-mail ou para um app em que você já entrou. Procure a opção «enviar por SMS».",
+        "**Limites de reenvio.** Pedir o código muitas vezes pode ativar uma pausa no serviço. Espere um minuto antes de pedir de novo."
+      ]
+    },
+    {
+      "title": "O que fazer",
+      "steps": [
+        "Confirme que você digitou o número com o código de país correto e escolheu o serviço exato no app.",
+        "Espere até dois minutos e depois cancele. As moedas voltam ao seu saldo.",
+        "Tente outro país para o mesmo serviço. Use a consulta abaixo para escolher um onde os SMS estejam chegando bem agora.",
+        "Se vários países falharem para o mesmo serviço, é provável que o serviço esteja a bloquear números virtuais por agora. Tente mais tarde."
+      ]
+    }
+  ]
+}

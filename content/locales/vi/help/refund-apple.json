@@ -1,0 +1,48 @@
+{
+  "title": "Cách được hoàn tiền giao dịch mua trên App Store",
+  "metaDescription": "Gói xu SMS Code do Apple thanh toán, nên hoàn tiền được yêu cầu từ Apple. Hướng dẫn từng bước trên reportaproblem.apple.com, kèm thời gian xử lý.",
+  "sections": [
+    {
+      "title": "Hoàn tiền do Apple xử lý",
+      "paragraphs": [
+        "Gói xu mua trong ứng dụng SMS Code là giao dịch mua trên App Store. Apple thu tiền và giữ khoản thanh toán, nên chỉ Apple mới có thể hoàn tiền. Mọi ứng dụng trên App Store đều như vậy: nhà phát triển không có cách nào hoàn tiền cho giao dịch do Apple thanh toán.",
+        "Apple xem xét từng yêu cầu và quyết định có chấp thuận hay không. Việc gửi thường mất vài phút, và bạn không cần liên hệ chúng tôi trước."
+      ]
+    },
+    {
+      "title": "Yêu cầu hoàn tiền trong 6 bước",
+      "id": "steps",
+      "steps": [
+        "Truy cập [reportaproblem.apple.com](https://reportaproblem.apple.com/).",
+        "Đăng nhập bằng Apple Account bạn đã dùng để mua.",
+        "Trong mục **Tôi muốn…**, chọn **Yêu cầu hoàn tiền**.",
+        "Chọn lý do phù hợp, ví dụ **Tôi không định mua mục này** hoặc **Không nhận được mục mua trong ứng dụng**.",
+        "Chọn giao dịch mua xu SMS Code (ví dụ **20 Coins**) và nhấp **Tiếp**.",
+        "Gửi yêu cầu. Apple thường trả lời trong vòng 24–48 giờ."
+      ],
+      "image": {
+        "src": "/help/apple-refund-reasons.png",
+        "alt": "Trang Báo cáo sự cố của Apple với mục “Yêu cầu hoàn tiền” được chọn và danh sách lý do: tôi không định mua mục này, trẻ em đã mua khi chưa được phép, không nhận được mục mua trong ứng dụng, quyền rút lại và lý do khác.",
+        "width": 882,
+        "height": 417
+      },
+      "cta": {
+        "label": "Mở reportaproblem.apple.com",
+        "href": "https://reportaproblem.apple.com/"
+      }
+    },
+    {
+      "title": "Sau khi bạn gửi",
+      "paragraphs": [
+        "Bạn có thể kiểm tra trạng thái yêu cầu trên cùng trang. Khi Apple chấp thuận, tín dụng cửa hàng thường được hoàn trong 48 giờ, thẻ và hầu hết phương thức thanh toán khác trong 30 ngày, và thanh toán qua nhà mạng trong 60 ngày. Chúng tôi không thể đẩy nhanh Apple hay ngân hàng của bạn.",
+        "Nếu Apple chấp thuận hoàn tiền, số xu từ giao dịch đó sẽ bị xóa khỏi số dư SMS Code của bạn. Đừng tiêu xu từ giao dịch bạn đang yêu cầu hoàn tiền."
+      ]
+    },
+    {
+      "title": "Khi nào nên viết cho chúng tôi",
+      "paragraphs": [
+        "Hãy viết cho chúng tôi nếu một lần kích hoạt thất bại mà xu không được hoàn vào số dư, nếu bạn đã thanh toán nhưng xu không bao giờ xuất hiện ([thiếu xu](/support/missing-coins)), hoặc nếu Apple yêu cầu bạn liên hệ nhà phát triển. Chúng tôi có thể xem xét lần kích hoạt và gửi cho bạn hồ sơ giao dịch. Quyền người tiêu dùng của bạn không bị ảnh hưởng."
+      ]
+    }
+  ]
+}

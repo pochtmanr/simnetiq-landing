@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho X (Twitter) — Xác minh không cần số của bạn",
+  "metaDescription": "Vượt qua xác minh điện thoại của X (Twitter) bằng số ảo thật từ hơn 100 quốc gia. Mã thường đến chỉ trong vài giây; hủy miễn phí nếu không có SMS.",
+  "hero": {
+    "title": "Số ảo cho X (Twitter)",
+    "intro": [
+      "Bạn có thể tạo tài khoản X chỉ với email — bản thân biểu mẫu đăng ký không đòi điện thoại. Cái bẫy đến vài phút hoặc vài ngày sau: tài khoản mới thường xuyên bị khóa “để xác nhận bạn không phải robot”, và màn hình mở khóa đòi một số điện thoại nhận được SMS ngay lúc đó. Với nhiều người, thử thách đó mới là bước đăng ký thực sự.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia, đưa nó cho X đúng lúc đó, và mã xác nhận hiện trong ứng dụng thường chỉ trong vài giây. Bạn trả tiền theo lần kích hoạt từ gói xu mua một lần — không thuê bao — và số không nhận được gì sẽ được hủy mà không bị trừ phí."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho X (Twitter)?",
+    "body": [
+      "X là một trong số ít nền tảng lớn mà bút danh là một phần văn hóa — nhưng một tài khoản bút danh gắn số điện thoại cá nhân chỉ còn là bút danh cho đến lần rò rỉ hay tra cứu đầu tiên. Số cũng là kênh để bị tìm thấy: theo mặc định, những người có số trong danh bạ có thể được dẫn tới tài khoản của bạn. Số ảo giữ nguyên sự ẩn danh mà bạn đăng ký để có, trong khi vẫn vượt qua mọi bước kiểm tra SMS mà X đưa ra.",
+      "Cũng có một lý do cấu trúc: X giới hạn số tài khoản một số điện thoại có thể làm điểm tựa. Nếu bạn có tài khoản cá nhân và muốn một tài khoản riêng cho dự án hay thương hiệu, treo cả hai trên một số cá nhân là mong manh — một thử thách với bất kỳ tài khoản nào cũng kéo cùng một sợi dây. Cho mỗi tài khoản một số thuê riêng giữ chúng độc lập."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh X (Twitter) bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn X (Twitter) làm dịch vụ, chọn quốc gia và chạm một lần. Một số di động thật được giữ riêng cho bạn trong suốt thời gian kích hoạt."
+      },
+      {
+        "title": "Nhập số nơi X yêu cầu",
+        "body": "Thường là thử thách mở khóa trên tài khoản mới, đôi khi chính quy trình đăng ký, hoặc Cài đặt → Tài khoản của bạn → Thông tin tài khoản → Điện thoại. Cho mã quốc gia khớp với số đã thuê."
+      },
+      {
+        "title": "Nhập mã xác nhận",
+        "body": "SMS đến ứng dụng SMS Code thường chỉ trong vài giây, từ người gửi “X”, có dạng “Your X confirmation code is 941507. Don't share this code with anyone.” Nhập các chữ số và khóa được gỡ."
+      },
+      {
+        "title": "Chuyển bảo mật khỏi SMS",
+        "body": "Thiết lập xác thực hai yếu tố bằng ứng dụng xác thực hoặc passkey — trên X, 2FA qua SMS dù sao cũng chỉ dành cho người đăng ký Premium. Xác minh email và tắt khả năng bị tìm bằng số điện thoại trong cài đặt quyền riêng tư."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Bị khóa là nghi thức nhập môn",
+      "body": "Tài khoản mới tinh bị khóa trong vài giờ đầu là phản xạ chống bot tiêu chuẩn của X, không phải phán xét về bạn. Xác minh điện thoại, rồi cư xử như một con người: ảnh đại diện, tiểu sử, theo dõi với nhịp độ tự nhiên. Tài khoản đăng bài như kịch bản sẽ bị thử thách lại bất kể số nào."
+    },
+    {
+      "title": "Đừng bao giờ xây 2FA trên SMS ở đây",
+      "body": "Hai lý do: X chỉ cung cấp 2FA qua tin nhắn cho người đăng ký Premium, và dù sao bạn cũng sẽ không giữ số thuê. Ứng dụng xác thực hoặc passkey miễn phí, dùng được cho mọi người và không bao giờ phụ thuộc vào việc mã có đến qua SMS hay không."
+    },
+    {
+      "title": "Đóng cửa tìm kiếm",
+      "body": "Trong Cài đặt → Quyền riêng tư và an toàn → Khả năng khám phá và danh bạ, bỏ chọn “Cho phép người có số điện thoại của bạn tìm thấy bạn trên X”. Khi đó số chỉ tồn tại như một bản ghi xác minh — không ai có thể đi từ nó đến tài khoản của bạn."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Vì sao tài khoản X mới của tôi bị khóa ngay sau khi đăng ký?",
+      "a": "Vì nó mới. X dựa nhiều vào thử thách điện thoại để lọc đăng ký của bot, và tài khoản chỉ có email là những tài khoản bị hỏi đầu tiên. Đó là chuyện thường: xác minh bằng một số nhận được SMS ngay lúc đó — số thuê làm đúng điều này — và tài khoản được mở khóa."
+    },
+    {
+      "q": "Nhiều tài khoản X có thể dùng chung một số điện thoại không?",
+      "a": "Chỉ đến một giới hạn — X giới hạn số tài khoản có thể gắn với một số điện thoại, và số bị dùng chéo khiến thử thách rắc rối hơn. Nếu bạn thiết lập tài khoản riêng cho dự án hay thương hiệu, một số mới cho mỗi tài khoản là cấu trúc gọn gàng hơn."
+    },
+    {
+      "q": "Tài khoản có còn hoạt động sau khi số đã thuê hết hạn không?",
+      "a": "Có. Số quan trọng ở thời điểm kiểm tra. Xác minh email, thiết lập 2FA bằng ứng dụng xác thực hoặc passkey, và sử dụng hằng ngày không bao giờ chạm đến số nữa. Bạn thậm chí có thể xóa nó sau trong Cài đặt → Thông tin tài khoản — chỉ cần đảm bảo các điểm tựa khác đã có trước."
+    },
+    {
+      "q": "Số có hiển thị trên hồ sơ của tôi không?",
+      "a": "Không — X không bao giờ hiển thị số điện thoại công khai. Con đường duy nhất từ số đến tài khoản là khả năng bị tìm qua danh bạ, và đó là một công tắc bạn có thể tắt trong Quyền riêng tư và an toàn. Khi tắt, số vô hình theo mọi hướng."
+    },
+    {
+      "q": "Vì sao mã xác nhận X không đến?",
+      "a": "Trước tiên kiểm tra mã quốc gia khớp với số đã thuê; sau đó, hãy biết rằng X từ chối nhắn tới một số số mà nó không tin tưởng. Hãy hủy lần kích hoạt đang chờ trong SMS Code — xu được hoàn cho số không nhận được gì — và lấy số mới, tốt nhất từ quốc gia khác."
+    }
+  ]
+}

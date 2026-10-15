@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Tinder — rejestracja bez Twojego numeru",
+  "metaDescription": "Tinder nie wystartuje bez numeru telefonu. Zweryfikuj go prawdziwym numerem wirtualnym – kod zwykle w kilka sekund, darmowe anulowanie, jeśli nie dotrze.",
+  "hero": {
+    "title": "Numer wirtualny do Tindera",
+    "intro": [
+      "Nie da się tego obejść: Tinder wymaga numeru telefonu, by utworzyć konto. Już pierwszy ekran o niego prosi, wysyła kod SMS i nie pokaże Ci ani jednego profilu, dopóki go nie wpiszesz. E-mail, logowanie przez Apple czy Google można dodać później – to na numerze wisi konto.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, wpisujesz go w Tinderze, a kod pojawia się w aplikacji zwykle w ciągu kilku sekund. Płacisz za aktywację z jednorazowego pakietu monet – bez abonamentu – a jeśli numer nic nie odbierze, anulujesz go bez opłat."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Tindera?",
+    "body": [
+      "Aplikacje randkowe to z założenia miejsca, gdzie rozmawiasz z obcymi – a numer telefonu to jedyna dana kontaktowa, której nie da się cofnąć, gdy już wyjdzie. Tinder nigdy nie pokazuje Twojego numeru dopasowaniom, ale i tak siedzi on na koncie: na wypadek wycieku albo po prostu jako nić łącząca Twój profil randkowy z resztą Twojego cyfrowego życia. Numer wirtualny przecina tę nić – flirt dzieje się w aplikacji, a numer za profilem nie jest tym, którego używają Twoja rodzina i bank.",
+      "To też uczciwy sposób, by zacząć od nowa. Jeśli usunąłeś stary profil i chcesz naprawdę czystej karty – nowe zdjęcia, nowy opis, nic ze starej historii – Tinder pamięta numery, więc rejestracja tym samym numerem po cichu wiąże Cię z przeszłością. Świeży numer daje świeży start. Dotyczy to kont, które sam zamknąłeś, a nie prześlizgiwania się obok bana."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Tindera numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Weź numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz Tinder jako usługę, wybierz kraj i stuknij raz. Prawdziwy numer komórkowy jest zarezerwowany tylko dla Ciebie na czas aktywacji."
+      },
+      {
+        "title": "Wpisz go na pierwszym ekranie Tindera",
+        "body": "Wybierz „Zaloguj się numerem telefonu”, ustaw numer kierunkowy pasujący do wynajętego numeru i wpisz go. Niezgodność kraju to klasyczny powód, dla którego kod się nie pojawia."
+      },
+      {
+        "title": "Wpisz kod – tylko cyfry",
+        "body": "SMS trafia do aplikacji SMS Code zwykle w ciągu kilku sekund i wygląda jak „Your Tinder code is 402318 dwEzWOx6XSV”. Litery na końcu to techniczny hash aplikacji – zignoruj je, kod to tylko sześć cyfr."
+      },
+      {
+        "title": "Dodaj zapasowe logowanie i nie wylogowuj się",
+        "body": "W Ustawieniach podłącz do konta adres e-mail. Tinder chętniej niż większość aplikacji ponownie weryfikuje SMS-em – podłączony e-mail i nieprzerwana sesja sprawiają, że konto pewnie pozostaje Twoje."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Wylogowanie to prawdziwa decyzja",
+      "body": "Tinder szybko prosi o nowy SMS, gdy logujesz się ponownie na nowym urządzeniu lub po wylogowaniu. Dopóki jesteś zalogowany, rzadko Cię niepokoi. Nie wylogowuj się więc bez powodu – na Tinderze aktywna sesja jest warta więcej niż w niemal każdej innej aplikacji."
+    },
+    {
+      "title": "Kraj numeru nie przesuwa Twoich dopasowań",
+      "body": "Twoja talia kart wynika z tego, gdzie naprawdę jesteś – GPS i ustawienia odległości – a nie z numeru kierunkowego. Numer z innego kraju bez problemu weryfikuje konto i nie ma wpływu na to, kogo widzisz ani kto widzi Ciebie."
+    },
+    {
+      "title": "Świeży numer jest na świeży start",
+      "body": "Jeśli usunąłeś stare konto, nowy numer sprawia, że nowy profil jest naprawdę nowy. Jeśli stare konto zostało zbanowane, nowy numer nie jest obejściem – zasady Tindera dotyczące powrotu po banie nadal obowiązują, a platforma ma więcej sygnałów niż sam numer telefonu."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy moje dopasowania zobaczą mój numer telefonu?",
+      "a": "Nie, nigdy. Tinder pokazuje dopasowaniom Twoje imię, zdjęcia i opis – numer telefonu pozostaje niewidoczny, a cały czat odbywa się w aplikacji. Zadaniem numeru jest weryfikacja, a numer wirtualny wykonuje je, trzymając prawdziwy całkowicie poza systemem."
+    },
+    {
+      "q": "Czy kraj numeru zmienia to, kogo mi pokazuje?",
+      "a": "Nie. Tinder buduje Twoją talię na podstawie faktycznej lokalizacji, a nie numeru kierunkowego – z zagranicznym numerem w Madrycie nadal dostajesz Madryt. Wybierz kraj, którego numery są dostępne i tanie; to czysto techniczny szczegół weryfikacji."
+    },
+    {
+      "q": "Co stanie się z moim kontem, gdy wynajęty numer wygaśnie?",
+      "a": "Nic, dopóki jesteś zalogowany – numer był potrzebny do kodu, a nie do codziennego użycia. Uczciwe zastrzeżenie: Tinder czasem prosi o ponowną weryfikację SMS-em przy nowym logowaniu, więc podłącz e-mail w Ustawieniach i nie wylogowuj się bez powodu."
+    },
+    {
+      "q": "Czy mogę założyć konto na Tinderze w ogóle bez numeru telefonu?",
+      "a": "Nie. Weryfikacja telefonu jest obowiązkowa przy rejestracji – Apple, Google i e-mail mogą uzupełnić konto, ale żadne z nich nie zastępuje kroku SMS. Właśnie do takiej sytuacji służy wynajęty numer."
+    },
+    {
+      "q": "Dlaczego kod z Tindera nie dotarł?",
+      "a": "Najczęściej numer kierunkowy wybrany w Tinderze nie pasuje do numeru albo Tinder odmówił wysłania SMS-a na ten konkretny numer. Anuluj oczekującą aktywację w SMS Code – monety wracają za numery, które nic nie odebrały – i weź nowy, najlepiej z innego kraju."
+    }
+  ]
+}

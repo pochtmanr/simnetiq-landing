@@ -1,0 +1,152 @@
+{
+  "title": "Google Konto ohne eigene Telefonnummer erstellen",
+  "description": "Google verlangt nicht immer eine Telefonnummer – und wenn doch, muss es nicht deine sein. Abläufe ohne Nummer, der Weg über eine virtuelle Nummer und die Falle.",
+  "excerpt": "Manchmal lässt Google dich ganz ohne Telefon registrieren, manchmal ist die Abfrage Pflicht. Was darüber entscheidet, welche Wege wirklich funktionieren und die eine Einstellung zur Wiederherstellung, mit der das Konto danach deins bleibt.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ein Google Konto ist der Schlüssel zum halben Internet – Gmail, YouTube, Drive, Play Store, jeder „Mit Google anmelden“-Button. Genau deshalb fühlt es sich schwerer an, Google deine private Telefonnummer zu geben, als irgendeinem Forum: Diese Nummer hängt an dem Konto, das schon deine Suchen, deinen Standortverlauf und deinen Posteingang kennt."
+    },
+    {
+      "type": "p",
+      "text": "Hier liegen die meisten Anleitungen falsch: Google verlangt nicht immer eine Telefonnummer. Manchmal geht die Registrierung nur mit Name und Geburtsdatum durch; manchmal weigert sich dasselbe Formular weiterzumachen, bis irgendwohin ein Code gesendet wurde. Was du bekommst, ist kein Zufall – und wenn du weißt, was den Ausschlag gibt, kannst du den passenden Weg wählen."
+    },
+    {
+      "type": "p",
+      "text": "Dieser Leitfaden zeigt, wann die Abfrage tatsächlich erscheint, welche Wege zur Registrierung wirklich ohne deine Nummer funktionieren und – weil es hier wichtiger ist als irgendwo sonst – wie du die Wiederherstellung so einrichtest, dass das Konto nie von einer Nummer abhängt, die du nicht behältst."
+    },
+    {
+      "type": "h2",
+      "id": "when-google-actually-asks",
+      "text": "Wann Google tatsächlich eine Nummer verlangt"
+    },
+    {
+      "type": "p",
+      "text": "Google entscheidet bei jeder Registrierung, ob eine Telefonbestätigung nötig ist, je nachdem, wie riskant der Versuch wirkt. Mit einer Pflichtabfrage musst du wahrscheinlich rechnen, wenn mehreres davon zusammenkommt:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Die Registrierung kommt aus einem Desktop-Browser – besonders aus einem frischen Profil, einem privaten Fenster oder einem VPN-Ausgang, den die Systeme von Google noch nicht gesehen haben.",
+        "Vom selben Gerät, Netzwerk oder Browser-Fingerabdruck wurden kürzlich mehrere Konten erstellt. Der Zähler ist unsichtbar, aber es gibt ihn – das zweite und dritte Konto bekommen die Abfrage weit öfter als das erste.",
+        "Irgendetwas am Versuch wirkt automatisiert: ungewöhnlicher Tipprhythmus, ein markierter IP-Bereich, eine Rechenzentrumsadresse."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Dreh das um, und du bekommst die freundlicheren Abläufe: Registrierungen von einem echten Handy, über einen privaten Anschluss, in gemächlichem Tempo sind die, bei denen das Telefonfeld als optional erscheint – oder gar nicht. Das ist die ehrliche Nuance: Du kannst Google nicht zwingen, die Abfrage zu überspringen, aber du kannst den Ablauf wählen, bei dem das am wahrscheinlichsten ist."
+    },
+    {
+      "type": "h2",
+      "id": "why-keep-your-number-out",
+      "text": "Warum du deine Nummer heraushalten solltest"
+    },
+    {
+      "type": "p",
+      "text": "Über das allgemeine Prinzip hinaus – eine Datenbank weniger mit deiner dauerhaften Kennung – nutzt Google ein bestätigtes Telefon gezielt zur Verknüpfung von Konten: Nummern verbinden deine „getrennten“ Konten miteinander, binden Registrierungen an dein Werbeprofil und machen anonyme oder beruflich getrennte Konten zu allem anderen als das. Eine Nummer ist außerdem ein Weg, gefunden zu werden: Leute, die sie in ihren Kontakten haben, können dein Profil angezeigt bekommen. Ist der ganze Sinn eines zweiten Kontos die Trennung, macht die Verknüpfung mit derselben SIM sie am ersten Tag zunichte."
+    },
+    {
+      "type": "h2",
+      "id": "routes-that-work",
+      "text": "Die Wege, die wirklich funktionieren"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Überspringen, wenn es optional ist. Zeigt das Telefonfeld eine Option „Überspringen“ – nimm sie. Füge auf dem nächsten Bildschirm eine Wiederherstellungs-E-Mail hinzu, und das Konto ist vollständig. Das ist der kostenlose Weg, und er funktioniert öfter, als man denkt, besonders bei den Abläufen oben.",
+        "Über ein Android-Gerät registrieren. Ein Konto über Einstellungen → Konten auf einem Android-Handy oder -Tablet hinzuzufügen, ist der Ablauf, bei dem Google am häufigsten gar keine Nummer verlangt – das Gerät selbst bürgt für die Registrierung. Hast du irgendein Android-Gerät zur Hand, lohnt sich dieser Versuch zuerst.",
+        "Eine virtuelle Nummer nutzen, wenn die Abfrage Pflicht ist. Weigert sich Google ohne Code weiterzumachen, reicht jede Nummer, die eine SMS empfangen kann – auch eine gemietete virtuelle Nummer, die nie auf dich zurückführt. Die Schritte unten erklären es."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-a-virtual-number",
+      "text": "Bestätigung mit einer virtuellen Nummer, Schritt für Schritt"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Eine Nummer für Google mieten",
+          "body": "Wähle in der App SMS Code Google als Dienst und such dir ein Land aus. Ein Tippen reserviert eine echte Mobilnummer nur für dich – du bezahlst sie mit Münzen aus einem einmaligen Paket, kein Abo."
+        },
+        {
+          "title": "Im Bestätigungsbildschirm eingeben",
+          "body": "Wähle in der Registrierung bei Google das Land der gemieteten Nummer und tippe sie ein. Google ist bei Formaten streng, lass also die Länderauswahl die Arbeit machen, statt die Vorwahl von Hand zu tippen."
+        },
+        {
+          "title": "Den Code kopieren",
+          "body": "Die SMS – „G-482916 is your Google verification code“ – erscheint meist innerhalb von Sekunden in SMS Code. Gib sie ein, und die Registrierung geht weiter."
+        },
+        {
+          "title": "Die Nummer sofort lösen",
+          "body": "Sobald du drin bist, öffne myaccount.google.com → Sicherheit, füge eine Wiederherstellungs-E-Mail hinzu, die du kontrollierst, und entferne die Telefonnummer sowohl unter „Telefonnummer zur Wiederherstellung“ als auch unter „Telefon“. Das Konto steht jetzt allein auf deinem Passwort und deiner E-Mail."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    },
+    {
+      "type": "h2",
+      "id": "the-recovery-trap",
+      "text": "Die Wiederherstellungsfalle – lies das, bevor du den Tab schließt"
+    },
+    {
+      "type": "p",
+      "text": "Bei Google sind die Einstellungen zur Wiederherstellung kein Nachgedanke; sie machen den Unterschied zwischen einem Konto, das dir gehört, und einem, das du dir geliehen hast. Google stützt sich bei Prüfungen verdächtiger Logins auf das bestätigte Telefon: Reise an einen neuen Ort, lösch deine Cookies oder hab einfach Pech, und der Anmeldebildschirm verlangt den Code womöglich erneut – gesendet an die hinterlegte Nummer."
+    },
+    {
+      "type": "callout",
+      "text": "Sobald die Registrierung abgeschlossen ist, tu zwei Dinge: Füge eine Wiederherstellungs-E-Mail hinzu, die du kontrollierst, und entferne die gemietete Nummer aus den Telefoneinstellungen des Kontos. Bleibt die Nummer nach Ende der Miete hinterlegt, kann dich eine künftige Bestätigungsprüfung aus deinem eigenen Konto aussperren – das ist das eine echte Risiko in diesem ganzen Ablauf, und es lässt sich vollständig vermeiden."
+    },
+    {
+      "type": "h2",
+      "id": "honest-limits",
+      "text": "Die ehrlichen Grenzen"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Google kann später erneut eine Bestätigung verlangen. Ein neues Gerät, ein ungewöhnlicher Ort oder ein geleerter Browser können eine weitere Prüfung auslösen. Mit hinterlegter Wiederherstellungs-E-Mail und entfernter alter Nummer bestätigst du per E-Mail – rechne aber mit gelegentlichen Abfragen; so funktioniert Google bei jedem Konto.",
+        "Eine Nummer bestätigt nur eine begrenzte Zahl von Konten. Google zählt, wie viele Konten jede Nummer bestätigt hat, und lehnt nach einigen ab. Eine gemietete Nummer, die du einmal nutzt, stößt nicht an diese Wand – dieselbe Nummer, wiederverwendet für viele Registrierungen, schon.",
+        "Das ist kein Werkzeug für Massenregistrierungen. Ein privates Konto für Trennung oder Datenschutz ist normale Nutzung. Konto-Farmen verstoßen gegen die Bedingungen von Google, werden von denselben Risikosystemen erwischt, die oben beschrieben sind, und enden meist in einer Welle von Sperren."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Häufige Fragen"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Kann ich wirklich ein Google Konto ganz ohne Telefonnummer erstellen?",
+          "a": "Manchmal, ja. Ist das Telefonfeld als optional markiert – am häufigsten beim Hinzufügen eines Kontos unter Android oder bei Registrierungen mit geringem Risiko –, kannst du es ganz überspringen und stattdessen eine Wiederherstellungs-E-Mail nutzen. Entscheidet Google, dass für deinen Versuch eine Bestätigung Pflicht ist, muss irgendeine Nummer einen Code empfangen; es muss nur nicht deine sein."
+        },
+        {
+          "q": "Funktionieren Gmail und YouTube danach normal?",
+          "a": "Ja. Ein mit einer virtuellen Nummer bestätigtes Konto ist ein vollwertiges Google Konto – Gmail, YouTube, Drive und Play verhalten sich identisch. Die einzige Rolle der Nummer war der einmalige Code bei der Registrierung."
+        },
+        {
+          "q": "Was passiert, wenn die gemietete Nummer abläuft?",
+          "a": "Nichts – vorausgesetzt, du hast sie aus dem Konto entfernt und eine Wiederherstellungs-E-Mail festgelegt. Das Konto läuft über dein Passwort und deine E-Mail. Lässt du die tote Nummer als Wiederherstellungstelefon stehen, kann eine künftige Sicherheitsprüfung Codes dorthin senden – deshalb ist es wichtig, sie sofort zu lösen."
+        },
+        {
+          "q": "Warum sagt Google, meine Nummer „kann nicht zur Bestätigung verwendet werden“?",
+          "a": "Google lehnt Bereiche ab, die es missbraucht gesehen hat – die meisten kostenlosen öffentlichen Nummern und manche virtuellen Bereiche. Wird eine gemietete Nummer abgelehnt, brich die Aktivierung in SMS Code kostenlos ab und nimm eine andere, am besten aus einem anderen Land; die nächste Nummer geht meist durch."
+        },
+        {
+          "q": "Verstößt diese Art der Registrierung gegen die Bedingungen von Google?",
+          "a": "Die Bedingungen von Google verlangen korrekte Wiederherstellungsdaten und verbieten Missbrauch – sie verlangen nicht, dass das Telefon bei der Registrierung auf deinen Namen läuft. Ein privates Konto, das mit einer gemieteten Nummer erstellt und dann ordentlich mit deiner eigenen Wiederherstellungs-E-Mail gesichert wird, ist normale Nutzung; massenhafte Kontoerstellung nicht."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Reddit — Giữ kín bút danh của bạn",
+  "metaDescription": "Nhận mã Reddit trên số ảo thật thường chỉ trong vài giây. Vượt qua bước kiểm tra điện thoại mà không gắn tài khoản với danh tính thật của bạn.",
+  "hero": {
+    "title": "Số ảo cho Reddit",
+    "intro": [
+      "Reddit xây dựng cả văn hóa của mình trên tên người dùng thay vì tên thật — rồi thỉnh thoảng lại hỏi định danh thật nhất mà bạn có. Hầu hết lần đăng ký chỉ cần email, nhưng một số quy trình, mạng và bước kiểm tra “hoạt động đáng ngờ” sẽ dựng lên màn hình điện thoại, và một tin như “Your Reddit verification code is 617293” đứng giữa bạn và trang chủ.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia và mã đến ứng dụng thường chỉ trong vài giây. Bước kiểm tra được thông qua, tài khoản mở ra — và bút danh bạn đăng bài vẫn không liên kết với số mà tên bạn gắn vào ở mọi nơi khác."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Reddit?",
+    "body": [
+      "Không nơi nào số điện thoại làm mất ý nghĩa của nền tảng như ở Reddit. Người ta dùng nó để hỏi về sức khỏe, bàn về nơi làm việc, đăng trong cộng đồng hồi phục — chính những thứ mà tên người dùng tồn tại để giữ khoảng cách với danh tính thật. Trao số di động cá nhân là lặng lẽ xây lại cây cầu mà bút danh lẽ ra đã đốt: một định danh, nằm trong thêm một cơ sở dữ liệu, nối tên pháp lý của bạn với lịch sử đăng bài.",
+      "Mặt trái thẳng thắn: phần lớn thời gian, Reddit chẳng bao giờ hỏi. Đăng ký chỉ bằng email vẫn là chuẩn, còn lời nhắc điện thoại xuất hiện tùy tình huống — một số ứng dụng và khu vực, lưu lượng qua VPN và mạng dùng chung, hoặc rà soát bảo mật trên tài khoản hiện có. Vì vậy đừng thuê số trước. Hãy bắt đầu đăng ký, và nếu màn hình điện thoại xuất hiện, đó là lúc số thuê phát huy giá trị; một lần kích hoạt bị hủy trước khi có SMS không tốn gì."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Reddit bằng số ảo",
+    "steps": [
+      {
+        "title": "Bắt đầu đăng ký trước",
+        "body": "Tạo tài khoản bằng email bạn kiểm soát và xem Reddit có hỏi điện thoại không. Nếu không, bạn đã xong mà không tốn gì. Nếu màn hình điện thoại xuất hiện, chuyển sang bước hai."
+      },
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Chọn Reddit làm dịch vụ và chọn quốc gia. Một chạm giữ một số di động thật chỉ cho bạn — được giữ nghĩa là không ai khác dùng nó cho Reddit cùng lúc."
+      },
+      {
+        "title": "Nhập số và mã",
+        "body": "Chọn mã quốc gia tương ứng trên màn hình Reddit và nhập số. SMS ghi “Your Reddit verification code is 617293” và hiện trong ứng dụng SMS Code thường chỉ trong vài giây — chép sang."
+      },
+      {
+        "title": "Gỡ số sau đó",
+        "body": "Trong Cài đặt → Tài khoản, bạn có thể xem và xóa điện thoại sau khi xác minh xong. Giữ email đã xác minh và mật khẩu mạnh — đó mới là điểm tựa thực sự của tài khoản, và quy trình khôi phục của Reddit dựa vào email, không phải SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Thuê khi cần, không thuê trước",
+      "body": "Lời nhắc điện thoại của Reddit tùy tình huống, không phải lúc nào cũng có. Hãy thử đăng ký bằng email bình thường trước; chỉ dùng số ảo khi màn hình thực sự đòi. Trang này vẫn sẽ ở đây."
+    },
+    {
+      "title": "Bút danh rò rỉ theo đường vòng, không qua điện thoại",
+      "body": "Khi câu chuyện số đã xử lý xong, rủi ro còn lại là hành vi: dùng cùng tên người dùng ở nơi khác, ảnh thật, chi tiết nhận diện được. Số ảo cắt đứt liên kết mạnh nhất — hãy kết hợp với email không có dạng ten.ho@ và một tên người dùng bạn không dùng ở đâu khác."
+    },
+    {
+      "title": "Bị cấm vẫn là bị cấm",
+      "body": "Reddit thực thi lệnh đình chỉ qua nhiều tín hiệu — thiết bị, hành vi, mạng — không chỉ số điện thoại. Số ảo bảo vệ quyền riêng tư của một tài khoản hợp lệ; nó không phải bộ công cụ né lệnh cấm, và né lệnh đình chỉ vi phạm quy định của Reddit, thường kết thúc rất nhanh."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Reddit có yêu cầu số điện thoại khi đăng ký không?",
+      "a": "Thường là không — chỉ email là quy trình chuẩn. Xác minh điện thoại xuất hiện tùy tình huống: một số ứng dụng và khu vực, đăng ký qua VPN hoặc mạng dùng chung, hoặc kiểm tra bảo mật khi có hoạt động bất thường. Khi nó xuất hiện, số ảo nhận mã đúng như một chiếc SIM."
+    },
+    {
+      "q": "Tài khoản Reddit có ngừng hoạt động khi số đã thuê hết hạn không?",
+      "a": "Không. Số được kiểm tra lúc xác minh, và bạn có thể xóa nó trong Cài đặt → Tài khoản sau đó. Hãy giữ email đã xác minh và mật khẩu mạnh — đó là thứ quy trình khôi phục của Reddit thực sự dựa vào."
+    },
+    {
+      "q": "Người dùng hay quản trị viên Reddit có thấy số của tôi không?",
+      "a": "Không. Số điện thoại là phần kỹ thuật của tài khoản, không bao giờ hiển thị trên hồ sơ hay cho người dùng khác. Thứ làm lộ bút danh trên Reddit là nội dung — tên người dùng dùng lại, ảnh, chi tiết nhận diện — không phải số xác minh."
+    },
+    {
+      "q": "Tôi có thể dùng số trực tuyến miễn phí cho Reddit không?",
+      "a": "Hiếm khi thành công. Số công khai trên các trang SMS miễn phí đã qua hàng nghìn lần đăng ký, và các bước kiểm tra của Reddit thường nhận ra và từ chối chúng. Số thuê được giữ riêng cho bạn trong lúc kích hoạt, và đó chính là khác biệt mà bước kiểm tra quan tâm."
+    },
+    {
+      "q": "Mã Reddit không bao giờ đến — làm gì bây giờ?",
+      "a": "Xác nhận mã quốc gia khớp với số đã thuê và chờ một chút; mã thường đến chỉ trong vài giây. Nếu không có gì đến, hủy lần kích hoạt miễn phí trong SMS Code và lấy số mới — bạn chỉ trả tiền cho những lần kích hoạt có SMS."
+    }
+  ]
+}

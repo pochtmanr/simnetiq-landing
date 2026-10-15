@@ -7,21 +7,26 @@
     "label": "Destek",
     "title": "Nasıl yardımcı olabiliriz?",
     "introBefore": "Aşağıdan mesaj gönderin veya e-posta yazın: ",
-    "introAfter": " — talebinizi inceleyip e-posta ile yanıtlayabilmemiz için aşağıdaki bilgileri ekleyin.",
+    "introAfter": " — önce bir konu seçin: yanıtların çoğu tek dokunuş uzağınızda, geri kalan her şey ise gerçek bir kişiye ulaşır.",
     "items": [
       {
-        "title": "Etkinleştirme sorunları",
-        "body": "SMS hâlâ yok mu? İptal, atamadan iki dakika sonra, SMS gelmeden önce açılır ve jetonları bakiyenize döndürür. Tekrar denemeden önce sorun giderme rehberini okuyun.",
-        "slug": "activation-issues"
+        "title": "İadeler",
+        "body": "App Store satın alımlarını Apple tahsil eder; bu nedenle iade Apple’dan istenir ve kararı Apple verir. Rehber, işlemi iki dakikadan kısa sürede adım adım anlatır.",
+        "slug": "refund-apple"
       },
       {
-        "title": "Faturalama ve jetonlar",
-        "body": "Satın almalar App Store üzerinden geçer. Mağaza makbuzunuzu veya sipariş kimliğinizi ekleyin, eksik jetonların izini sürelim.",
-        "slug": "billing-coins-refunds"
+        "title": "SMS gelmedi",
+        "body": "Teslimat; hizmete, ülkeye ve hizmetin kendi kontrollerine bağlıdır. Hiçbir şey gelmezse jetonlar otomatik olarak iade edilir. Şu anda hangi ülkelerin en iyi çalıştığına bakın.",
+        "slug": "sms-not-received"
       },
       {
-        "title": "Bakiyenizi korumak",
-        "body": "Jetonlarınız App Store makbuzuyla değil, SMS Code hesabınızla durur. Uygulamayı yalnızca anonim kullandıysanız yeniden yüklemek yeni bir hesap açar ve bakiye onu izlemez — jetonlarınız dururken giriş yapın (Apple, Google veya e-posta kodu); giriş yaptığınız her cihazda orada olurlar. Yeniden yüklediniz ve bakiyeyi mi kaybettiniz? App Store makbuzunuz veya sipariş kimliğinizle yazın, çözelim.",
+        "title": "Eksik jetonlar",
+        "body": "Ödeme yaptınız ama jeton gelmedi mi? Genellikle bekleyen bir Apple ödemesi ya da farklı bir SMS Code hesabıdır. Tekrar satın almadan önce bu adımlara bakın.",
+        "slug": "missing-coins"
+      },
+      {
+        "title": "Bakiyenizi koruyun",
+        "body": "Jetonlarınız App Store makbuzunda değil, SMS Code hesabınızda durur. Jetonlarınız varken giriş yapın (Apple, Google veya e-posta kodu); jetonlarınız her cihazda sizinle olur.",
         "slug": "account-balance"
       }
     ],
@@ -35,18 +40,78 @@
     "namePlaceholder": "Ali",
     "email": "E-posta",
     "emailPlaceholder": "siz@ornek.com",
-    "topic": "Konu",
-    "topicPlaceholder": "Bir konu seçin",
-    "topics": [
-      "Etkinleştirme gelmedi",
-      "Faturalama ve jetonlar",
-      "Hesap ve satın alımları geri yükleme",
-      "Hata bildirimi",
-      "Özellik isteği",
-      "Başka bir konu"
-    ],
+    "stepTopic": "Size nasıl yardımcı olabiliriz?",
+    "topics": {
+      "refund": "Satın alım iadesi",
+      "sms": "SMS gelmedi",
+      "code": "Kod reddedildi veya numara engellendi",
+      "coins": "Ödemeden sonra jetonlar eksik",
+      "account": "Hesap, geri yükleme veya silme",
+      "bug": "Bir şey çalışmıyor",
+      "feature": "Özellik öner",
+      "other": "Başka bir konu"
+    },
+    "selfServe": {
+      "sms": {
+        "title": "Yazmadan önce: gelmeyen SMS’lerin çoğu kendiliğinden çözülür",
+        "points": [
+          "Etkinleştirme süresi içinde SMS gelmezse etkinleştirme kapanır ve jetonlar otomatik olarak bakiyenize döner.",
+          "Teslimat hizmete ve ülkeye bağlıdır. Bazı hizmetler belirli ülkelerde sanal numaraları engeller; bu yüzden teslimat seviyesi daha yüksek başka bir ülke deneyin.",
+          "Hizmetin kodu sesli arama ya da zaten giriş yaptığınız bir uygulama yerine SMS ile gönderdiğinden emin olun."
+        ]
+      },
+      "code": {
+        "title": "Yazmadan önce: kod neden reddedilir",
+        "points": [
+          "Numarayı kabul edip etmemeye hizmet karar verir. Daha önce kullanılmış bir numara veya hizmetin kısıtladığı bir ülke, SMS geldikten sonra bile reddedilebilir.",
+          "Aynı hesap ve hizmet için en yeni kodu boşluksuz girin.",
+          "Aynı hizmet ve ülkede ücretli denemeleri tekrarlamayın. Ülke değiştirin veya incelememiz için bize yazın."
+        ]
+      },
+      "coins": {
+        "title": "Yazmadan önce: jetonlar genellikle nerededir",
+        "points": [
+          "Bekleyen bir Apple ödemesi birkaç dakika sürebilir. Tekrar satın almadan önce uygulamayı yeniden açın.",
+          "Jetonlar, onları satın alan SMS Code hesabına aittir. Aynı Apple, Google veya e-posta girişiyle giriş yapın.",
+          "Hâlâ yok mu? Bize Apple sipariş numarasını (Apple makbuz e-postasından) gönderin, takip edelim."
+        ]
+      },
+      "account": {
+        "title": "Yazmadan önce: hesapla ilgili yanıtlar",
+        "points": [
+          "Bakiyenizi her cihazda korumak için Apple, Google veya e-posta koduyla giriş yapın.",
+          "Hesabınızı uygulamadan silebilirsiniz: Ayarlar → Hesabı sil. Silmek, Apple ödemesini iade etmez.",
+          "Yeniden yükledikten sonra bakiyeniz mi kayboldu? Apple sipariş numaranızla bize yazın."
+        ]
+      }
+    },
+    "readGuide": "Rehberin tamamını okuyun",
+    "solved": "Sorunum çözüldü",
+    "stillNeed": "Hâlâ yardıma ihtiyacım var",
+    "solvedTitle": "Yardımcı olabildiğimize sevindik",
+    "solvedBody": "Bir şey değişirse bu sayfaya istediğiniz zaman geri dönün.",
+    "changeTopic": "Konuyu değiştir",
+    "refundNote": "App Store satın alımları için iade yapamıyoruz. İadeyi yalnızca Apple, reportaproblem.apple.com üzerinden onaylayabilir. Apple sizden geliştiriciyle iletişime geçmenizi istediyse veya satın alım kayıtlarına ihtiyacınız varsa bize yazın.",
+    "orderId": "Apple sipariş numarası (isteğe bağlı)",
+    "orderIdPlaceholder": "örn. MXXXXXXXXX",
+    "service": "Hizmet",
+    "servicePlaceholder": "örn. Telegram",
+    "country": "Ülke",
+    "countryPlaceholder": "örn. Endonezya",
+    "when": "Yaklaşık ne zaman?",
+    "whenPlaceholder": "örn. bugün 14:00 civarı (UTC+3)",
+    "accountAttached": "SMS Code hesap kimliğiniz ve uygulama sürümünüz otomatik olarak eklenir; bunları aramanıza gerek yok.",
+    "messagePlaceholders": {
+      "refund": "Ne oldu? Apple bizimle iletişime geçmenizi istedi mi?",
+      "sms": "Hangi numarayı aldınız ve hizmet ne dedi?",
+      "code": "Hizmet kodu reddederken ne dedi?",
+      "coins": "Hangi paketi ne zaman satın aldınız?",
+      "account": "Hangi konuda yardıma ihtiyacınız var?",
+      "bug": "Neye dokundunuz, ne bekliyordunuz ve ne oldu?",
+      "feature": "SMS Code’un ne yapmasını istersiniz?",
+      "other": "Ne olduğunu anlatın."
+    },
     "message": "Mesaj",
-    "messagePlaceholder": "Ne olduğunu anlatın — servis, ülke ve etkinleştirmenin yaklaşık saati kaydı hızlı bulmamıza yardım eder.",
     "honeypot": "Bu alanı boş bırakın",
     "send": "Mesajı gönder",
     "sending": "Gönderiliyor…",
@@ -71,7 +136,21 @@
     "appleNote": "Rehber, Apple’ın resmi destek malzemeleriyle 30 Eylül 2026 tarihinde karşılaştırıldı. İade uygunluğu bölgenize ve yürürlükteki hukuka bağlıdır.",
     "related": "İlgili yardım",
     "terms": "Kullanım Koşulları",
-    "privacy": "Gizlilik Politikası"
+    "privacy": "Gizlilik Politikası",
+    "stillNeedTitle": "Hâlâ yardıma mı ihtiyacınız var?",
+    "stillNeedBody": "Bu sayfa sorununuzu çözmediyse bize bir talep gönderin. Talebiniz gerçek bir kişiye ulaşır ve yukarıdaki ayrıntılar daha hızlı yanıt vermemize yardımcı olur.",
+    "submitAnyway": "Yine de talep gönder",
+    "tiers": {
+      "title": "SMS’ler şu anda nereye ulaşıyor",
+      "intro": "Son 30 günde SMS’lerin her ülkedeki numaralarımıza ne kadar güvenilir ulaştığını görmek için bir hizmet seçin. Ülkenizin seviyesi düşükse yüksek seviyeli bir ülkeye geçin.",
+      "service": "Hizmet",
+      "pick": "Bir hizmet seçin",
+      "high": "Yüksek",
+      "medium": "Orta",
+      "low": "Düşük",
+      "unavailable": "şu anda numara yok",
+      "note": "Son SMS Code etkinleştirmelerine dayanır ve saatte bir güncellenir. Yalnızca yeterli sayıda yakın tarihli siparişi olan hizmet ve ülke çiftleri gösterilir. Geçmişteki teslimat bir sonraki SMS’i garanti etmez ve numarayı kabul edip etmemeye yine hizmet karar verir."
+    }
   },
   "api": {
     "invalidBody": "Geçersiz istek gövdesi.",
@@ -79,7 +158,7 @@
     "name": "Lütfen adınızı girin.",
     "email": "Lütfen geçerli bir e-posta adresi girin.",
     "topic": "Konu çok uzun.",
-    "message": "Lütfen sorununuzu en az 10 karakterle anlatın.",
+    "message": "Lütfen sorununuzu kendi cümlelerinizle anlatın (en az 10 karakter).",
     "unavailable": "Destek formu geçici olarak kullanılamıyor. Lütfen bize e-posta yazın.",
     "saveFailed": "Mesajınızı kaydedemedik. Lütfen tekrar deneyin veya bize e-posta yazın.",
     "forbidden": "Bu istek destek sayfasından gelmedi. Lütfen sayfayı yenileyip tekrar deneyin.",

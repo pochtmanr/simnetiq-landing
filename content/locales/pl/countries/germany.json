@@ -1,0 +1,55 @@
+{
+  "name": "Niemcy",
+  "metaTitle": "Niemiecki numer wirtualny do SMS — prawdziwy +49",
+  "metaDescription": "Prawdziwy niemiecki numer wirtualny (+49) i kody SMS zwykle w kilka sekund. Weryfikuj Google, Discord, Steam, Signal i PayPal numerem z UE.",
+  "hero": {
+    "title": "Niemiecki numer wirtualny do weryfikacji SMS",
+    "intro": [
+      "Niemcy to największy rynek Europy i jeden z najbardziej dbających o prywatność, a numer komórkowy +49 niesie tę reputację ze sobą. Usługi widzą numer z kraju o surowej kulturze ochrony danych i dojrzałej sieci operatorów – solidny, w najlepszym sensie niczym niewyróżniający się wybór.",
+      "SMS Code wynajmuje Ci prawdziwy niemiecki numer komórkowy jednym stuknięciem. Wpisz go przy weryfikacji w Google, Discordzie, Steamie czy innej obsługiwanej usłudze, a SMS z kodem trafi do aplikacji zwykle w ciągu kilku sekund."
+    ]
+  },
+  "whyCountry": {
+    "title": "Dlaczego niemiecki numer?",
+    "body": [
+      "Niemiecki numer to mocny sygnał zaufania w UE. Platformy działające według europejskich zasad – usługi płatnicze jak PayPal, ekosystemy gamingowe jak Steam, komunikatory stawiające na prywatność jak Signal – są w pełni przyzwyczajone do numerów +49, a procesy rejestracji w całej UE traktują je jako przypadek krajowy, a nie egzotyczny.",
+      "Niemieckie komórki mieszczą się w zakresach 15x, 16x i 17x, przy czym 15x jest najczęstszy w nowszych numerach. Struktura – +49, potem prefiks komórkowy i cyfry abonenta – jest czysto odczytywana przez międzynarodowe formularze, więc krok weryfikacji rzadko jest miejscem, gdzie coś idzie nie tak."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Wpisz go w formie międzynarodowej",
+      "body": "W kraju numer zapisuje się jako 015X…, ale formularze weryfikacji chcą +49, a po nim numeru bez wiodącego zera. Większość formularzy z wyborem kraju robi to za Ciebie – upewnij się tylko, że wybrane są Niemcy."
+    },
+    {
+      "title": "Dobre dopasowanie do usług regulowanych w UE",
+      "body": "Jeśli konto będzie działać według europejskich zasad płatności czy marketplace’ów, niemiecki numer utrzymuje całą konfigurację w obrazie UE – przydatne, gdy usługa inaczej traktuje użytkowników z UE i spoza niej przy rejestracji."
+    },
+    {
+      "title": "Utknięty kod nic Cię nie kosztuje",
+      "body": "Jeśli w oknie aktywacji nie przyjdzie żaden SMS, anuluj aktywację w aplikacji – to darmowe, gdy nic nie odebrano – i weź inny niemiecki numer do czystej ponownej próby."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy to prawdziwy niemiecki numer komórkowy?",
+      "a": "Tak – numer u prawdziwego operatora w standardowych niemieckich zakresach komórkowych. Usługa, w której się weryfikujesz, widzi zwykły niemiecki numer telefonu, a nie usługę odbiorczą działającą tylko w sieci."
+    },
+    {
+      "q": "Jakie usługi dobrze pasują do niemieckiego numeru?",
+      "a": "Ogólnie platformy zwrócone ku UE: Google, Discord, Steam, Signal i PayPal to częste wybory, a każda usługa z europejskim procesem rejestracji traktuje +49 jako pełną rutynę."
+    },
+    {
+      "q": "Czy muszę być w Niemczech, żeby go używać?",
+      "a": "Nie. Numer i przychodzące SMS-y żyją w aplikacji SMS Code, więc możesz być gdziekolwiek na świecie – Twoja karta SIM i lokalizacja nie grają roli."
+    },
+    {
+      "q": "Jak działa płatność?",
+      "a": "Płacisz za aktywację z jednorazowego pakietu monet – bez abonamentu. Jeśli aktywacja nigdy nie odbierze SMS-a, anuluje się za darmo, a monety zostają u Ciebie."
+    },
+    {
+      "q": "Czy numer jest mój na stałe?",
+      "a": "Wynajem obejmuje okno aktywacji – wystarczająco, by odebrać kod weryfikacyjny. Przy długowiecznym koncie zaraz po rejestracji dodaj e-mail do odzyskiwania i 2FA przez aplikację uwierzytelniającą, żeby konto nigdy więcej nie zależało od tego numeru."
+    }
+  ]
+}

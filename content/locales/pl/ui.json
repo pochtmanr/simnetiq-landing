@@ -1,0 +1,93 @@
+{
+  "site": {
+    "name": "SMS Code od SIMNETIQ",
+    "titleTemplate": "%s — SMS Code od SIMNETIQ",
+    "appDescription": "Wirtualne numery w ponad 100 krajach do odbierania kodów weryfikacyjnych SMS. Zarejestruj się w Telegramie, WhatsAppie, Google i ponad 100 innych usługach bez podawania prywatnego numeru."
+  },
+  "a11y": {
+    "mainNav": "Główna nawigacja",
+    "breadcrumb": "Ścieżka nawigacji"
+  },
+  "faqHeading": "FAQ",
+  "nav": {
+    "langLabel": "Język",
+    "links": [
+      {
+        "path": "/#how-it-works",
+        "label": "Jak to działa"
+      },
+      {
+        "path": "/virtual-numbers",
+        "label": "Numery"
+      },
+      {
+        "path": "/#pricing",
+        "label": "Cennik"
+      },
+      {
+        "path": "/#faq",
+        "label": "FAQ"
+      },
+      {
+        "path": "/support",
+        "label": "Pomoc"
+      }
+    ],
+    "cta": "Pobierz aplikację",
+    "home": "Strona główna SMS Code",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu"
+  },
+  "footer": {
+    "tagline": "Numer telefonu do rejestracji. Nie na całe życie.",
+    "liveStatus": "Numery online w ponad 100 krajach",
+    "backToTop": "Do góry",
+    "servicesLabel": "Popularne usługi",
+    "allServices": "Wszystkie usługi",
+    "resourcesLabel": "Zasoby",
+    "hub": "Numery wirtualne",
+    "blog": "Blog",
+    "companyLabel": "Firma",
+    "getApp": "Pobierz aplikację",
+    "followLabel": "Obserwuj",
+    "support": "Pomoc",
+    "privacy": "Polityka prywatności",
+    "terms": "Warunki korzystania",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "registered": "Zarejestrowana w",
+    "companyNo": "nr spółki",
+    "registeredOffice": "Siedziba",
+    "cookies": "Polityka cookies",
+    "cookieSettings": "Ustawienia cookies"
+  },
+  "cookies": {
+    "bannerLabel": "Zgoda na cookies",
+    "bannerTitle": "Cookies – Ty decydujesz",
+    "bannerBody": "Za Twoją zgodą używamy analityki, by widzieć, które strony naprawdę pomagają, oraz Meta Pixel do mierzenia naszych reklam. Nic nie działa, dopóki nie wybierzesz.",
+    "policyLink": "Polityka cookies",
+    "reject": "Odrzuć",
+    "accept": "Akceptuj",
+    "customize": "Dostosuj",
+    "dialogTitle": "Ustawienia cookies",
+    "dialogIntro": "Wybierz, czego ta strona może używać. Możesz zmienić zdanie w każdej chwili w stopce.",
+    "necessaryTitle": "Niezbędne",
+    "necessaryBody": "Jedno cookie, które zapamiętuje ten wybór, żebyśmy nie pytali na każdej stronie.",
+    "alwaysOn": "Zawsze włączone",
+    "analyticsTitle": "Analityka",
+    "analyticsBody": "Vercel Web Analytics i Google Analytics liczą wizyty i kliknięcia, żebyśmy widzieli, które strony są przydatne. Google Analytics ustawia cookies _ga. Nigdy nie służą do reklam.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "Meta Pixel informuje nas, gdy wizyta pochodzi z jednej z naszych reklam na Facebooku lub Instagramie, żebyśmy widzieli, które reklamy działają. Ustawia cookie _fbp, a Meta może też wykorzystywać te dane zgodnie z własną polityką.",
+    "rejectAll": "Odrzuć wszystkie",
+    "acceptAll": "Akceptuj wszystkie",
+    "save": "Zapisz wybór",
+    "close": "Zamknij"
+  },
+  "badges": {
+    "appStore": "Pobierz z App Store"
+  },
+  "notFound": {
+    "title": "Ta strona nie istnieje",
+    "body": "Adres mógł się zmienić. Wszystko o SMS Code znajdziesz na stronie głównej.",
+    "back": "Wróć na stronę główną"
+  }
+}

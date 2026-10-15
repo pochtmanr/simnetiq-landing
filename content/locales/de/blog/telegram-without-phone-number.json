@@ -1,0 +1,142 @@
+{
+  "title": "Telegram ohne eigene Telefonnummer registrieren",
+  "description": "Telegram fragt immer nach einer Nummer – aber es muss nicht deine sein. Echte Optionen: virtuelle Nummern, Festnetz, Fragment – und die wichtigen Einstellungen.",
+  "excerpt": "Telegram lässt dich nicht ohne irgendeine Telefonnummer registrieren – aber es muss nicht deine sein. Hier sind die Optionen, die wirklich funktionieren, und die Einstellungen, die deine Identität heraushalten.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Du hast Telegram installiert, auf „Nachrichten senden“ getippt – und schon der allererste Bildschirm verlangt eine Telefonnummer. Keine E-Mail-Option, kein „später“. Wenn du gehofft hattest, deine private Nummer aus noch einer Datenbank herauszuhalten, fühlt sich dieser Bildschirm wie eine Mauer an."
+    },
+    {
+      "type": "p",
+      "text": "Hier gleich die ehrliche Antwort: Es gibt keinen Weg, ein Telegram Konto ganz ohne Telefonnummer zu erstellen. Die Bestätigung per Telefon steckt fest darin, wie Telegram Konten identifiziert, und jeder Umweg, den du online findest, braucht trotzdem irgendwo eine Nummer. Was du – ganz einfach – tun kannst, ist dich ohne deine Nummer zu registrieren. Das Konto funktioniert genauso; es ist nur nicht an die SIM-Karte in deiner Tasche gebunden."
+    },
+    {
+      "type": "p",
+      "text": "Dieser Leitfaden geht die drei Wege durch, die es wirklich gibt, zeigt dann die vollständige Registrierung mit einer virtuellen Nummer, die Datenschutzeinstellungen, die jede verwendete Nummer verbergen, und den einen Schritt – ein Cloud-Passwort –, der das Konto dauerhaft zu deinem macht."
+    },
+    {
+      "type": "h2",
+      "id": "your-real-options",
+      "text": "Deine echten Optionen (und wofür jede gedacht ist)"
+    },
+    {
+      "type": "p",
+      "text": "Lass die Mythen weg – „Registrierung per E-Mail“ gab es nie, „APK-Mods ohne SIM“ sind eine Malware-Lotterie –, und es bleiben drei legitime Wege. Sie dienen sehr unterschiedlichen Menschen."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Eine virtuelle Nummer. Du mietest eine echte Mobilnummer für die Dauer der Bestätigung, empfängst den Code und registrierst dich. Für die meisten ist das der schnellste und günstigste Weg: Deine private Nummer berührt die Server von Telegram nie, und das Konto funktioniert nach Ende der Miete weiter, solange du angemeldet bleibst.",
+        "Ein Festnetz oder eine feste Nummer. Telegram kann den Login-Code per Sprachanruf statt per SMS zustellen, ein Festnetzanschluss zu Hause oder im Büro kann ein Konto also technisch bestätigen. Die Grenzen sind aber real: Die Anrufoption erscheint erst, nachdem ein SMS-Versuch abgelaufen ist, viele Festnetz- und VoIP-Bereiche werden direkt abgelehnt, und du musst langfristig Zugriff auf diese Leitung behalten, für jede künftige erneute Bestätigung.",
+        "Eine anonyme +888-Nummer von Fragment. Telegrams eigener Blockchain-Marktplatz versteigert virtuelle +888-Nummern, die nur innerhalb von Telegram funktionieren und gar keine SIM brauchen. Auf dem Papier ist das die privateste Option – aber sie zielt auf ein anderes Publikum: Du bietest in Toncoin, die Preise schwanken mit dem Sammlermarkt, und du brauchst eine TON-Wallet, bevor du überhaupt anfangen kannst. Für „Ich will nur ein Konto ohne meine Nummer“ ist das übertrieben."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Für die meisten Leser ist die erste die praktische Wahl. Eine virtuelle Nummer ist eine echte Nummer in einem echten Mobilfunknetz – Telegram behandelt sie wie jede andere Mobilnummer, ohne Sonderbehandlung, ohne Warten auf eine Auktion. Machen wir also die eigentliche Registrierung."
+    },
+    {
+      "type": "h2",
+      "id": "sign-up-with-a-virtual-number",
+      "text": "Registrierung mit einer virtuellen Nummer, Schritt für Schritt"
+    },
+    {
+      "type": "p",
+      "text": "Der ganze Vorgang dauert ein paar Minuten. Du brauchst die Telegram App und die App SMS Code nebeneinander – der Code kommt in der zweiten an und wird in die erste getippt."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Eine Nummer für Telegram mieten",
+          "body": "Wähle in der App SMS Code Telegram als Dienst und such dir ein Land aus – es gibt echte Mobilnummern in über 100 Ländern. Ein Tippen reserviert eine Nummer nur für dich. Du zahlst pro Aktivierung aus einem einmaligen Münzpaket; es gibt kein Abo, und kommt nie ein Code an, wird die Aktivierung kostenlos abgebrochen."
+        },
+        {
+          "title": "Die Nummer bei Telegram eingeben",
+          "body": "Wähle im Registrierungsbildschirm von Telegram das Land, das zu deiner gemieteten Nummer passt, und tippe dann die Nummer ein. Eine falsche Ländervorwahl ist der häufigste einzelne Grund, warum ein Code nie auftaucht, prüf sie also noch einmal, bevor du auf Weiter tippst."
+        },
+        {
+          "title": "Auf den Code warten – er landet meist in Sekunden",
+          "body": "Wechsle zurück zu SMS Code. Die Bestätigungs-SMS erscheint direkt in der App, meist innerhalb von Sekunden, und sieht aus wie „Telegram code: 48329“. Übertrag den Code in Telegram."
+        },
+        {
+          "title": "Das Profil fertigstellen",
+          "body": "Wähle einen Vornamen (er muss nicht echt sein), und du bist drin. Bevor du einer einzigen Gruppe beitrittst, nimm dir zwei Minuten für die Datenschutzeinstellungen unten – sie zählen mehr als die Nummer, die du verwendet hast."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "privacy-settings-that-matter",
+      "text": "Die Datenschutzeinstellungen, die dich wirklich verbergen"
+    },
+    {
+      "type": "p",
+      "text": "Welchen Weg du auch genommen hast, die Nummer, mit der du bestätigt hast, hängt jetzt am Konto – und standardmäßig zeigt Telegram sie deinen Kontakten und lässt jeden, der sie gespeichert hat, dich finden. Zwei Einstellungen und eine Gewohnheit schließen diese Lücken."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nummer verbergen: Einstellungen → Privatsphäre und Sicherheit → Telefonnummer → „Wer kann meine Nummer sehen“ → Niemand. Ab diesem Moment sehen Gruppenmitglieder und Empfänger von Nachrichten nur deinen Anzeigenamen.",
+        "Auffindbarkeit steuern: Stelle auf demselben Bildschirm „Wer kann mich über meine Nummer finden“ auf Meine Kontakte. Sonst kann jeder, der die Nummer je in seinem Adressbuch hatte – einschließlich der Kontakte ihres früheren Inhabers, falls die Nummer wiederverwendet wurde –, sie deinem neuen Konto zuordnen.",
+        "Mit Benutzernamen leben: Lege in den Einstellungen einen @Benutzernamen fest und teile diesen statt einer Nummer. Über Benutzernamen sollen sich Menschen auf Telegram finden; die Telefonnummer kann eine Zugangsinformation bleiben und nicht mehr."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "lock-it-with-a-cloud-password",
+      "text": "Absichern: das Passwort für die zweistufige Bestätigung"
+    },
+    {
+      "type": "p",
+      "text": "Das ist der Schritt, den Leute überspringen und später bereuen. Lege unter Einstellungen → Privatsphäre und Sicherheit → Zweistufige Bestätigung ein Cloud-Passwort fest. Ist es aktiv, braucht ein Login von einem neuen Gerät sowohl einen Code als auch das Passwort – die Kontrolle über die Telefonnummer allein reicht also nie, um das Konto zu übernehmen."
+    },
+    {
+      "type": "callout",
+      "text": "Hast du dich mit einer gemieteten Nummer registriert, ist das Cloud-Passwort nicht optional – es macht das Konto dauerhaft zu deinem. Lege es sofort fest, füge eine Wiederherstellungs-E-Mail hinzu und melde dich nicht von deiner einzigen aktiven Sitzung ab. Telegram sendet künftige Login-Codes an aktive Sitzungen statt per SMS, die alltägliche Nutzung hängt also nie von der alten Nummer ab."
+    },
+    {
+      "type": "p",
+      "text": "Das ist das vollständige Bild: ein Konto, das sich wie jedes andere Telegram Konto verhält, nur über den Benutzernamen auffindbar, durch ein Passwort gesichert und auf eine Nummer verweisend, die von Anfang an nie deine war."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Häufige Fragen"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Kann ich Telegram ganz ohne Telefonnummer nutzen?",
+          "a": "Nein. Telegram verlangt bei der Registrierung eine Nummer, ohne Alternative per E-Mail oder nur mit Benutzernamen. Die realistischen Optionen sind eine Nummer, die nicht deine ist: eine gemietete virtuelle Nummer, ein Festnetz, das einen Code per Sprachanruf annehmen kann, oder eine anonyme +888-Nummer von Fragment."
+        },
+        {
+          "q": "Funktioniert mein Konto nicht mehr, wenn die virtuelle Nummer abläuft?",
+          "a": "Doch. Die Nummer wird nur bei der Bestätigung geprüft. Bleib angemeldet und aktiviere die zweistufige Bestätigung, und das Konto funktioniert unbegrenzt weiter – Telegram stellt künftige Login-Codes an deine aktive Sitzung zu, nicht per SMS."
+        },
+        {
+          "q": "Kann ich mich mit einer kostenlosen Online-Nummer bei Telegram registrieren?",
+          "a": "Meist nicht. Nummern auf kostenlosen SMS-Empfangsseiten werden von Tausenden geteilt, Telegram hat sie also fast immer schon gesehen und weigert sich, einen Code zuzustellen – oder die Nummer hängt bereits am Konto eines anderen. Eine gemietete Nummer ist während der Aktivierung nur für dich reserviert."
+        },
+        {
+          "q": "Verstößt die Registrierung mit einer virtuellen Nummer gegen die Regeln von Telegram?",
+          "a": "Telegram prüft, dass du eine Nummer kontrollierst, nicht, auf wessen Namen sie registriert ist. Dich mit einer gemieteten Nummer für normale private Nutzung zu registrieren, ist in Ordnung – entscheidend ist, dass du dich danach an die Nutzungsbedingungen von Telegram hältst, wie bei jedem Konto."
+        },
+        {
+          "q": "Können andere erkennen, dass ich eine virtuelle Nummer verwendet habe?",
+          "a": "Nein. Es ist eine echte Mobilnummer in einem echten Mobilfunknetz, von jeder anderen nicht zu unterscheiden. Und sobald du „Wer kann meine Nummer sehen“ auf Niemand stellst, sehen andere Nutzer ohnehin nur deinen Namen und Benutzernamen."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    }
+  ]
+}

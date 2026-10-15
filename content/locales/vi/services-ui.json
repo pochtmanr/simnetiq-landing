@@ -1,0 +1,41 @@
+{
+  "breadcrumbHome": "Trang chủ",
+  "breadcrumbHub": "Số ảo",
+  "heroLabel": "Số ảo",
+  "step": "Bước",
+  "tipsLabel": "Nên biết",
+  "tipsTitle": "Trước khi xác minh",
+  "faqLabel": "Câu hỏi",
+  "countriesLabel": "Quốc gia phổ biến cho dịch vụ này",
+  "relatedLabel": "Dịch vụ liên quan",
+  "relatedTitle": "Mọi người cũng xác minh",
+  "ctaTitle": "Nhận số và mã trong chưa đầy một phút",
+  "ctaSupport": "Có câu hỏi? Liên hệ hỗ trợ",
+  "hub": {
+    "metaTitle": "Số ảo để xác minh SMS — Tất cả dịch vụ",
+    "metaDescription": "Thuê số ảo thật cho Telegram, WhatsApp, Google, Instagram và nhiều dịch vụ khác. Nhận mã xác minh SMS thường chỉ trong vài giây — không cần SIM, không thuê bao.",
+    "label": "Phạm vi",
+    "title": "Chỉ cần một số cho mọi lần đăng ký",
+    "sub": "Chọn dịch vụ bạn đang đăng ký — mỗi hướng dẫn mô tả quy trình xác minh thực tế, những điểm dễ vấp và các câu hỏi mọi người thực sự hay hỏi.",
+    "allNote": "Dịch vụ mới được bổ sung thường xuyên — bản thân ứng dụng hỗ trợ hơn 100 dịch vụ tại hơn 100 quốc gia."
+  },
+  "categories": {
+    "messaging": "Nhắn tin",
+    "social": "Mạng xã hội",
+    "finance": "Tài chính",
+    "shopping": "Mua sắm",
+    "travel": "Du lịch & di chuyển",
+    "entertainment": "Giải trí",
+    "dev": "Công cụ lập trình",
+    "other": "Tài khoản & nền tảng"
+  },
+  "country": {
+    "hubLabel": "Theo quốc gia",
+    "hubTitle": "Số theo quốc gia",
+    "dialingCode": "Mã quay số",
+    "numberFormat": "Định dạng số",
+    "servicesLabel": "Thường được xác minh với quốc gia này",
+    "allCountries": "Tất cả quốc gia",
+    "breadcrumb": "Quốc gia"
+  }
+}

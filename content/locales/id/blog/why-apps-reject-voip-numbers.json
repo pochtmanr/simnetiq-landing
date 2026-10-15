@@ -1,0 +1,127 @@
+{
+  "title": "Mengapa aplikasi menolak nomor VoIP saat pendaftaran",
+  "description": "«Nomor ini tidak dapat digunakan» sering berarti aplikasi memeriksa jenis saluran dan menemukan VoIP. Cara kerja pemeriksaan itu, dan nomor mana yang lolos.",
+  "excerpt": "Masukkan nomor Google Voice atau TextNow ke WhatsApp atau aplikasi bank, dan sering kali langsung ditolak. Penyebabnya adalah pemeriksaan yang jarang diketahui orang — begini cara aplikasi membedakan nomor VoIP dari nomor seluler, dan apa artinya bagi pilihan nomor Anda.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Semuanya terjadi dalam kurang dari satu detik. Anda mengetik nomor telepon yang sepenuhnya valid di formulir pendaftaran, mengetuk «Lanjut», lalu mendapat penolakan datar: «Nomor telepon ini tidak dapat digunakan untuk verifikasi», atau yang lebih samar, «Masukkan nomor ponsel yang valid». Nomornya berfungsi. Pesan dari teman-teman masuk. Aplikasi hanya memutuskan bahwa itu jenis nomor yang salah."
+    },
+    {
+      "type": "p",
+      "text": "Yang terjadi dalam satu detik itu adalah pemeriksaan jenis saluran — salah satu pemeriksaan paling tak terlihat sekaligus paling menentukan dalam proses pendaftaran modern. Memahaminya menjelaskan mengapa sebagian nomor virtual lolos verifikasi dengan mulus, sementara yang lain tidak pernah melewati layar pertama."
+    },
+    {
+      "type": "h2",
+      "id": "what-a-line-type-lookup-is",
+      "text": "Apa yang sebenarnya diperiksa pencarian jenis saluran"
+    },
+    {
+      "type": "p",
+      "text": "Setiap nomor telepon dialokasikan dalam blok kepada satu operator, dan setiap operator terdaftar untuk jenis layanan tertentu. Otoritas penomoran dan operator mempublikasikan siapa memegang blok mana; basis data portabilitas mencatat nomor yang pindah operator. Penyedia data komersial menggabungkan sumber-sumber itu menjadi API yang menjawab pertanyaan sederhana tentang nomor mana pun: siapa yang melayaninya, dan saluran jenis apa itu?"
+    },
+    {
+      "type": "p",
+      "text": "Twilio, salah satu penyedia terbesar, menjual pemeriksaan ini dengan nama «Line Type Intelligence» dan mendokumentasikan kategori yang dikembalikannya. Tiga yang paling penting untuk pendaftaran adalah:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Seluler — nomor di jaringan operator seluler, terhubung ke kartu SIM, yang umumnya bisa menerima SMS.",
+        "VoIP tetap — nomor yang dikirim lewat internet dan terikat ke alamat layanan fisik, seperti saluran telepon rumah dari perusahaan TV kabel.",
+        "VoIP tidak tetap — nomor yang didapat secara daring tanpa perangkat atau alamat fisik di baliknya. Dokumentasi Twilio sendiri menyebut Google Voice sebagai contohnya."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ada kategori lain — telepon rumah, nomor bebas pulsa, pager, nomor pribadi — tetapi bagi aplikasi yang memutuskan apakah akan mengirim kode verifikasi, garis yang penting adalah antara seluler dan VoIP tidak tetap."
+    },
+    {
+      "type": "h2",
+      "id": "why-apps-block-non-fixed-voip",
+      "text": "Mengapa aplikasi memblokir VoIP tidak tetap"
+    },
+    {
+      "type": "p",
+      "text": "Verifikasi telepon ada untuk membuat akun palsu jadi mahal. Nomor seluler perlu biaya, biasanya butuh SIM, dan di lebih dari 150 negara butuh identitas terdaftar. Hambatan itulah intinya."
+    },
+    {
+      "type": "p",
+      "text": "Nomor VoIP tidak tetap menghilangkan sebagian besar hambatan itu. Banyak yang bisa dibuat dalam hitungan menit, sebagian gratis, dalam jumlah besar, hanya dengan alamat email. Bagi tim antipenipuan, akun yang diverifikasi dengan nomor semacam itu tidak memberi jaminan jauh lebih besar daripada akun yang diverifikasi lewat email. Karena itu platform yang paling rawan penyalahgunaan — aplikasi pesan, layanan pembayaran, marketplace, aplikasi kencan, bursa kripto — rutin menolaknya bahkan sebelum mengirim satu SMS pun."
+    },
+    {
+      "type": "callout",
+      "text": "Penolakan biasanya terjadi sebelum ada pesan yang dikirim. Jika formulir langsung menolak nomor Anda, menunggu tidak akan menghasilkan kode: aplikasi sudah memutuskan untuk tidak mengirimnya."
+    },
+    {
+      "type": "h2",
+      "id": "the-cost-for-real-users",
+      "text": "Harga yang dibayar pengguna sungguhan"
+    },
+    {
+      "type": "p",
+      "text": "Kebijakan ini kasar dan ikut menjaring orang yang bukan sasarannya. Warga Amerika yang memakai Google Voice sebagai nomor utama terkunci dari aplikasi bank. Usaha kecil yang memindahkan telepon ke penyedia VoIP mendapati nomor kantor mereka tidak bisa dipakai membuka akun yang dibutuhkan. Pelancong yang memakai nomor VoIP untuk menghindari biaya roaming diberi tahu nomornya «tidak didukung»."
+    },
+    {
+      "type": "p",
+      "text": "Ada juga argumen keamanan dari arah sebaliknya. Kode SMS sendiri adalah faktor kedua yang lemah — lembaga standar AS, NIST, kini menggolongkan kode sekali pakai lewat SMS dan suara sebagai autentikator «terbatas» karena risiko penukaran SIM dan penyadapan. Sebagian tim keamanan berpendapat bahwa yang seharusnya diperiksa platform adalah apakah pengguna bisa membuktikan kendali atas akun dari waktu ke waktu, bukan jenis nomornya. Namun untuk saat ini, penyaringan jenis saluran tetap menjadi standar industri dan tidak akan hilang."
+    },
+    {
+      "type": "h2",
+      "id": "which-numbers-get-through",
+      "text": "Nomor mana yang lolos"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nomor ponsel Anda sendiri — selalu lolos, dan selalu membuka identitas pribadi Anda kepada layanan.",
+        "SIM kedua atau eSIM — lolos, dengan biaya paket, sering kali pemeriksaan identitas, dan nomor yang harus terus diaktifkan.",
+        "Nomor dari situs «terima SMS online gratis» — sering kali VoIP tidak tetap atau sudah lama masuk daftar hitam; kalaupun lolos, kotak masuknya terbuka untuk publik.",
+        "Nomor dari aplikasi VoIP gratis — persis kategori yang ingin ditangkap oleh pemeriksaan jenis saluran.",
+        "Nomor seluler sewaan — terdaftar sebagai seluler di jaringan operator, sehingga lolos pemeriksaan seperti pelanggan biasa dan khusus untuk Anda selama aktivasi."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Kategori terakhir itulah yang disediakan SMS Code. Nomornya adalah nomor seluler di jaringan operator di lebih dari 100 negara, bukan saluran VoIP buatan aplikasi. Pemeriksaan melihat pelanggan biasa; kode dikirim lewat SMS seperti pesan lainnya; dan muncul di aplikasi biasanya dalam hitungan detik."
+    },
+    {
+      "type": "p",
+      "text": "Tidak ada nomor yang selalu lolos semua pemeriksaan. Layanan juga melihat apakah sebuah nomor pernah dipakai di platform mereka, ditambah sinyal perangkat dan pola pendaftaran. Jika nomor sewaan ditolak atau kode tidak datang, Anda bisa membatalkan setelah dua menit — koin kembali ke saldo jika tidak ada SMS — lalu mencoba nomor atau negara lain."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Bagaimana aplikasi tahu nomor saya VoIP?",
+          "a": "Aplikasi menanyakan ke penyedia data telepon yang memetakan blok nomor dan nomor yang dipindahkan ke operator dan jenis saluran. Jawabannya — seluler, telepon rumah, VoIP tetap, VoIP tidak tetap — datang dalam milidetik, sebelum SMS apa pun dikirim."
+        },
+        {
+          "q": "Mengapa WhatsApp bilang nomor saya tidak valid padahal bisa menerima SMS?",
+          "a": "Banyak aplikasi pesan dan pembayaran langsung menolak nomor VoIP tidak tetap. Nomornya bisa menerima SMS; platform hanya tidak menerima jenis saluran itu untuk verifikasi."
+        },
+        {
+          "q": "Apakah nomor virtual sama dengan nomor VoIP?",
+          "a": "Belum tentu. «Virtual» menggambarkan cara Anda mengakses nomor — lewat aplikasi, bukan SIM di ponsel. Nomor virtual SMS Code adalah nomor seluler di jaringan operator, jadi digolongkan sebagai seluler, bukan VoIP."
+        },
+        {
+          "q": "Apakah nomor seluler sewaan tetap bisa ditolak?",
+          "a": "Kadang-kadang. Platform juga memeriksa apakah nomor pernah dipakai di layanan mereka dan melihat sinyal risiko lain. Jika itu terjadi, batalkan aktivasi setelah dua menit dan ambil nomor baru."
+        },
+        {
+          "q": "Sebaiknya pakai nomor VoIP untuk bank?",
+          "a": "Bank sering menolak nomor VoIP dan melakukan verifikasi ulang lewat SMS selama bertahun-tahun. Untuk perbankan, gunakan nomor seluler atas nama Anda sendiri."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

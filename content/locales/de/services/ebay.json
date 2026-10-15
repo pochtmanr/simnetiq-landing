@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für eBay — privat kaufen und verkaufen",
+  "metaDescription": "Empfange den Sicherheitscode von eBay meist in Sekunden auf einer echten virtuellen Nummer. Registrieren, verkaufen, anmelden – ohne dein privates Handy.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für eBay",
+    "intro": [
+      "eBay will früh eine Telefonnummer und prüft sie oft. Die Registrierung fragt nach einer, die Eröffnung eines Verkäuferkontos besteht darauf, und der Anmeldeschutz hält einen Login gern an, bis eine SMS wie „Your eBay security code is 271846“ zurückgetippt wurde. Für einen Marktplatz, auf dem du eigentlich nur ein Kameraobjektiv kaufen wolltest, ist das ganz schön viel Verbindung zu deinem privaten Telefon.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, und der Code erscheint meist innerhalb von Sekunden in der App. Das Konto wird bestätigt, das Angebot geht online – und die Nummer in den Kontaktdaten von eBay ist nicht die in deiner Tasche."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für eBay?",
+    "body": [
+      "Ein Marktplatzkonto sammelt ungewöhnlich viel von dir an einem Ort: deinen Kaufverlauf, deine Adresse, deine Karte und – wenn es dein Telefon ist – einen direkten Draht, der jede Transaktion überdauert. eBay hat Jahrzehnte an Kundendaten angesammelt und eine lange Geschichte als Phishing-Ziel; „Mit deinem eBay Konto gibt es ein Problem, klick hier“ ist ein eigenes Genre von Betrugs-SMS. Eine gemietete Nummer übernimmt den Bestätigungsschritt, sodass dieses Genre auf einer Nummer abläuft, die nie wirklich deine war.",
+      "Die ehrliche Kehrseite: eBay nutzt das Telefon für mehr als die Registrierung. Sicherheitscodes beim Login, Identitätsprüfungen für Verkäufer und Kontaktfunktionen zwischen Käufer und Verkäufer können später alle darauf zugreifen. Deshalb funktioniert dieses Muster: Mit der gemieteten Nummer bestätigen, dann die E-Mail als Anker des Kontos behalten und das Telefon in den Kontoeinstellungen ändern, wenn du die Nummer nicht weiter mietest. Ein eBay Konto, das seine eigenen Sicherheitscodes nicht empfangen kann, sperrt seinen Inhaber im ungünstigsten Moment aus – lass diese Nummer nicht unbemerkt veralten."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du eBay mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code mieten",
+        "body": "Wähle eBay als Dienst und das Land der eBay Website, die du tatsächlich nutzt – ebay.com, ebay.co.uk, ebay.de und die anderen teilen sich ein Konto, aber eine passende Nummer hält deine Registrierungsdaten stimmig."
+      },
+      {
+        "title": "Dort eingeben, wo eBay fragt",
+        "body": "Bei der Registrierung, bei der Einrichtung des Verkäuferkontos oder wenn der Anmeldeschutz dich bittet, ein Telefon zu bestätigen. Wähle die Ländervorwahl der Nummer und tippe sie sorgfältig ein."
+      },
+      {
+        "title": "Code eintippen",
+        "body": "Die SMS lautet „Your eBay security code is 271846“ und erscheint meist innerhalb von Sekunden in der App SMS Code. Gib sie bei eBay ein, und die Nummer ist bestätigt."
+      },
+      {
+        "title": "Konto an der E-Mail verankern",
+        "body": "Bestätige deine E-Mail-Adresse, setz ein starkes Passwort und betrachte das Telefon als Kontrollpunkt, nicht als Fundament. Behältst du die gemietete Nummer nicht, ersetze sie nach der Einrichtung unter Kontoeinstellungen → Persönliche Daten, damit künftige Sicherheitscodes dort ankommen, wo du wirklich liest."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Verkaufen legt die Latte höher",
+      "body": "Ein Käuferkonto kommt vielleicht mit minimalen Prüfungen durch, aber die Registrierung als Verkäufer löst eine echte Identitäts- und Auszahlungsprüfung aus – Bankdaten, manchmal Dokumente. Die virtuelle Nummer erledigt den SMS-Schritt dieses Prozesses; der Rest ist Sache zwischen dir und dem Verkäufer-Onboarding von eBay, und er ist nicht optional."
+    },
+    {
+      "title": "Anmeldeprüfungen kommen wieder",
+      "body": "Der Login-Schutz von eBay schickt auf neuen Geräten und bei ungewöhnlicher Aktivität erneut eine SMS an das Telefon, manchmal Monate später. Ist die gemietete Nummer abgelaufen und das hinterlegte Telefon tot, wird die Kontowiederherstellung zum Support-Ticket. Aktualisiere die Nummer in den Einstellungen, bevor das passiert, nicht danach."
+    },
+    {
+      "title": "Ein Konto ist die richtige Anzahl an Konten",
+      "body": "eBay verknüpft Konten über weit mehr als Telefonnummern – Adressen, Zahlungsmethoden, Geräte. Eine virtuelle Nummer erweckt kein gesperrtes Konto wieder zum Leben und stapelt keine Aktionsgutscheine, und der Versuch endet meist damit, dass alle verknüpften Konten auf einmal gesperrt werden. Nutze sie für den Datenschutz auf dem Konto, das du behältst."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Akzeptiert eBay virtuelle Nummern?",
+      "a": "eBay prüft, ob eine Nummer seine SMS empfangen kann – und eine gemietete Nummer von SMS Code ist eine echte Mobilnummer in einem Mobilfunknetz, der Code kommt also wie jede andere SMS an. Nummern von kostenlosen SMS-Seiten dagegen werden meist erkannt und abgelehnt."
+    },
+    {
+      "q": "Kann ich mit einer virtuellen Nummer auf eBay verkaufen?",
+      "a": "Den Schritt der Telefonbestätigung, ja – die Registrierung als Verkäufer sendet einen Code, und die gemietete Nummer empfängt ihn. Verkaufen umfasst aber auch eine Auszahlungs- und Identitätsprüfung über den eigenen Prozess von eBay, auf den eine Telefonnummer keinen Einfluss hat. Rechne damit, sie mit echten Angaben abzuschließen."
+    },
+    {
+      "q": "Überlebt mein eBay Konto den Ablauf der gemieteten Nummer?",
+      "a": "Ja – das Konto ist an deiner E-Mail und deinem Passwort verankert. Lass nur keine tote Nummer als Sicherheitskontakt stehen: Ersetze oder aktualisiere das Telefon in den Kontoeinstellungen, damit Anmeldebestätigungen und Warnungen eine Nummer erreichen, die du noch liest."
+    },
+    {
+      "q": "Aus welchem Land sollte die Nummer sein?",
+      "a": "Aus dem Land, in dem du tatsächlich kaufst oder verkaufst. Deine Adresse, deine Zahlungsmethode und dein Telefon erzählen eBay eine stimmige Geschichte; eine Nummer von einem anderen Kontinent als deine Lieferadresse führt eher zu mehr Prüfungen als zu weniger."
+    },
+    {
+      "q": "Der eBay Code ist nicht angekommen – was nun?",
+      "a": "Prüfe noch einmal, ob die Ländervorwahl zur gemieteten Nummer passt, und gib ihm eine Minute; eBay bietet manchmal einen Sprachanruf als Alternative an, der eine gemietete SMS-Nummer nicht erreicht – fordere stattdessen erneut die SMS an. Kommt nichts, brich die Aktivierung in SMS Code kostenlos ab und nimm eine neue Nummer."
+    }
+  ]
+}

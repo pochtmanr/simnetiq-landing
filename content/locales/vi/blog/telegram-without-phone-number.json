@@ -1,0 +1,142 @@
+{
+  "title": "Cách đăng ký Telegram không cần số điện thoại của bạn",
+  "description": "Telegram luôn hỏi số — nhưng số đó không nhất thiết là của bạn. Các lựa chọn thật: số ảo, số cố định, Fragment — và các cài đặt quyền riêng tư quan trọng.",
+  "excerpt": "Telegram không cho đăng ký nếu thiếu một số điện thoại nào đó — nhưng số đó không cần là của bạn. Đây là các lựa chọn thực sự hiệu quả, và những cài đặt giữ danh tính của bạn ngoài cuộc.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Bạn đã cài Telegram, chạm “Bắt đầu nhắn tin” — và ngay màn hình đầu tiên đòi số điện thoại. Không có lựa chọn email, không có “bỏ qua lúc này”. Nếu bạn hy vọng giữ số cá nhân ngoài thêm một cơ sở dữ liệu nữa, màn hình đó như một bức tường."
+    },
+    {
+      "type": "p",
+      "text": "Đây là câu trả lời thẳng thắn ngay từ đầu: không có cách nào tạo tài khoản Telegram mà hoàn toàn không có số điện thoại. Xác minh bằng điện thoại gắn liền với cách Telegram nhận diện tài khoản, và mọi cách lách bạn tìm thấy trên mạng vẫn dính đến một số ở đâu đó. Điều bạn có thể làm — một cách dễ dàng — là đăng ký mà không dùng số của bạn. Tài khoản hoạt động y hệt; chỉ là nó không neo vào thẻ SIM trong túi bạn."
+    },
+    {
+      "type": "p",
+      "text": "Hướng dẫn này đi qua ba con đường thực sự tồn tại, rồi chỉ ra toàn bộ quá trình đăng ký bằng số ảo, các cài đặt quyền riêng tư ẩn bất kỳ số nào bạn đã dùng, và một bước — mật khẩu đám mây — giữ tài khoản là của bạn mãi mãi."
+    },
+    {
+      "type": "h2",
+      "id": "your-real-options",
+      "text": "Các lựa chọn thực sự của bạn (và mỗi cái dành cho ai)"
+    },
+    {
+      "type": "p",
+      "text": "Gạt bỏ những lời đồn — “đăng ký bằng email” chưa từng tồn tại, “bản APK chỉnh sửa không cần SIM” là trò xổ số mã độc — thì còn lại ba con đường hợp lệ. Chúng phục vụ những người rất khác nhau."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Số ảo. Bạn thuê một số di động thật trong thời gian xác minh, nhận mã và đăng ký. Với hầu hết mọi người, đó là con đường nhanh và rẻ nhất: số cá nhân của bạn không bao giờ chạm máy chủ Telegram, và tài khoản vẫn hoạt động sau khi hết thời gian thuê miễn là bạn giữ đăng nhập.",
+        "Số cố định. Telegram có thể giao mã đăng nhập bằng cuộc gọi thoại thay vì SMS, nên về kỹ thuật một số cố định ở nhà hay văn phòng có thể xác minh tài khoản. Tuy nhiên giới hạn là có thật: tùy chọn gọi chỉ hiện sau khi lần thử SMS hết thời gian, nhiều dải cố định và VoIP bị từ chối thẳng, và bạn phải giữ quyền truy cập lâu dài vào đường dây đó cho mọi lần xác minh lại sau này.",
+        "Số ẩn danh +888 từ Fragment. Chợ blockchain của chính Telegram đấu giá các số ảo +888 chỉ hoạt động trong Telegram và hoàn toàn không cần SIM. Trên giấy đây là lựa chọn riêng tư nhất — nhưng nó nhắm đến đối tượng khác: bạn đặt giá bằng Toncoin, giá dao động theo thị trường sưu tầm, và bạn cần ví TON trước khi có thể bắt đầu. Với nhu cầu “tôi chỉ muốn một tài khoản không dùng số của mình”, nó là quá mức."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Với hầu hết độc giả, lựa chọn thực tế là cái đầu tiên. Số ảo là số thật trên mạng nhà mạng thật — Telegram xử lý nó như mọi số di động khác, không ngoại lệ, không phải chờ đấu giá. Vậy hãy làm việc đăng ký thực sự."
+    },
+    {
+      "type": "h2",
+      "id": "sign-up-with-a-virtual-number",
+      "text": "Đăng ký bằng số ảo, từng bước"
+    },
+    {
+      "type": "p",
+      "text": "Toàn bộ quá trình mất vài phút. Bạn cần ứng dụng Telegram và ứng dụng SMS Code đặt cạnh nhau — mã đến ứng dụng sau và được gõ vào ứng dụng trước."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Thuê số cho Telegram",
+          "body": "Trong ứng dụng SMS Code, chọn Telegram làm dịch vụ và chọn quốc gia — có số di động thật tại hơn 100 quốc gia. Một chạm giữ một số chỉ cho bạn. Bạn trả theo lần kích hoạt từ gói xu mua một lần; không có thuê bao, và nếu mã không bao giờ đến, lần kích hoạt hủy miễn phí."
+        },
+        {
+          "title": "Nhập số vào Telegram",
+          "body": "Trên màn hình đăng ký của Telegram, chọn quốc gia khớp với số đã thuê, rồi gõ số vào. Sai mã quốc gia là lý do phổ biến nhất khiến mã không xuất hiện, nên hãy kiểm tra lại trước khi chạm Tiếp."
+        },
+        {
+          "title": "Chờ mã — thường đến trong vài giây",
+          "body": "Chuyển sang SMS Code. SMS xác minh hiện ngay trong ứng dụng, thường chỉ trong vài giây, có dạng “Telegram code: 48329”. Sao chép mã vào Telegram."
+        },
+        {
+          "title": "Hoàn thiện hồ sơ",
+          "body": "Chọn một tên (không cần là tên thật) và bạn đã vào. Trước khi tham gia bất kỳ nhóm nào, hãy dành hai phút cho các cài đặt quyền riêng tư bên dưới — chúng quan trọng hơn việc bạn đã dùng số nào."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "privacy-settings-that-matter",
+      "text": "Những cài đặt quyền riêng tư thực sự ẩn bạn"
+    },
+    {
+      "type": "p",
+      "text": "Dù bạn đi đường nào, số bạn dùng để xác minh giờ gắn với tài khoản — và theo mặc định, Telegram hiển thị nó cho người liên hệ và cho phép bất kỳ ai đã lưu nó tìm thấy bạn. Hai cài đặt và một thói quen sẽ bịt những lỗ hổng đó."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ẩn số: Cài đặt → Quyền riêng tư và bảo mật → Số điện thoại → “Ai có thể thấy số điện thoại của tôi” → Không ai. Từ lúc đó, thành viên nhóm và người nhận tin chỉ thấy tên hiển thị của bạn.",
+        "Kiểm soát việc bị tìm thấy: trên cùng màn hình, đặt “Ai có thể tìm tôi bằng số” thành Danh bạ của tôi. Nếu không, bất kỳ ai từng có số trong danh bạ — kể cả danh bạ của chủ cũ, nếu số đã được tái sử dụng — đều có thể ghép nó với tài khoản mới của bạn.",
+        "Sống bằng tên người dùng: đặt @username trong Cài đặt và chia sẻ nó thay vì số. Tên người dùng là cách Telegram muốn mọi người tìm nhau; số điện thoại có thể chỉ còn là thông tin đăng nhập và không gì hơn."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "lock-it-with-a-cloud-password",
+      "text": "Khóa lại: mật khẩu xác minh hai bước"
+    },
+    {
+      "type": "p",
+      "text": "Đây là bước mọi người bỏ qua rồi hối tiếc. Trong Cài đặt → Quyền riêng tư và bảo mật → Xác minh hai bước, hãy đặt mật khẩu đám mây. Khi bật, đăng nhập từ thiết bị mới đòi cả mã lẫn mật khẩu — nên chỉ kiểm soát số điện thoại không bao giờ đủ để chiếm tài khoản."
+    },
+    {
+      "type": "callout",
+      "text": "Nếu bạn đăng ký bằng số thuê, mật khẩu đám mây không phải tùy chọn — nó là thứ khiến tài khoản vĩnh viễn là của bạn. Hãy đặt ngay, thêm email khôi phục, và đừng đăng xuất khỏi phiên duy nhất đang hoạt động. Telegram gửi mã đăng nhập sau này tới các phiên đang hoạt động thay vì qua SMS, nên việc dùng hằng ngày không bao giờ phụ thuộc vào số cũ."
+    },
+    {
+      "type": "p",
+      "text": "Đó là bức tranh đầy đủ: một tài khoản hoạt động như mọi tài khoản Telegram khác, chỉ tìm được qua tên người dùng, được bảo vệ bằng mật khẩu, và trỏ về một số vốn chưa bao giờ là của bạn."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Câu hỏi thường gặp"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Tôi có thể dùng Telegram mà hoàn toàn không có số điện thoại không?",
+          "a": "Không. Telegram yêu cầu số khi đăng ký, không có lựa chọn email hay chỉ tên người dùng. Lựa chọn thực tế là một số không phải của bạn: số ảo thuê, số cố định nhận được mã qua cuộc gọi, hoặc số ẩn danh +888 từ Fragment."
+        },
+        {
+          "q": "Tài khoản có ngừng hoạt động khi số ảo hết hạn không?",
+          "a": "Không. Số chỉ được kiểm tra lúc xác minh. Giữ đăng nhập và bật Xác minh hai bước, và tài khoản tiếp tục hoạt động vô thời hạn — Telegram giao mã đăng nhập sau này tới phiên đang hoạt động, không qua SMS."
+        },
+        {
+          "q": "Tôi có thể đăng ký Telegram bằng số trực tuyến miễn phí không?",
+          "a": "Thường là không. Số trên các trang nhận SMS miễn phí được hàng nghìn người dùng chung, nên Telegram gần như luôn đã thấy chúng và từ chối gửi mã — hoặc số đã gắn với tài khoản của người khác. Số thuê được giữ riêng cho bạn trong lúc kích hoạt."
+        },
+        {
+          "q": "Đăng ký bằng số ảo có trái quy định của Telegram không?",
+          "a": "Telegram xác minh rằng bạn kiểm soát một số, không phải số đứng tên ai. Đăng ký bằng số thuê cho sử dụng cá nhân bình thường là ổn — điều quan trọng là tuân theo điều khoản dịch vụ của Telegram khi đã vào, như mọi tài khoản."
+        },
+        {
+          "q": "Người khác có biết tôi dùng số ảo không?",
+          "a": "Không. Đó là số di động thật trên mạng nhà mạng thật, không phân biệt được với số khác. Và khi bạn đặt “Ai có thể thấy số điện thoại của tôi” thành Không ai, người dùng khác dù sao cũng chỉ thấy tên và tên người dùng của bạn."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    }
+  ]
+}

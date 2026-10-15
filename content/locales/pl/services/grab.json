@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Grab — aplikacja Azji Południowo-Wschodniej",
+  "metaDescription": "Zweryfikuj Grab prawdziwym numerem wirtualnym. Kod aktywacyjny przychodzi zwykle w kilka sekund – przejazdy, jedzenie i więcej bez Twojego prywatnego numeru.",
+  "hero": {
+    "title": "Numer wirtualny do Grab",
+    "intro": [
+      "Wyląduj gdziekolwiek w Azji Południowo-Wschodniej, a Grab będzie pierwszą aplikacją, której potrzebujesz: przejazd z lotniska, jedzenie do hotelu, płatność przy ulicznym straganie. To superaplikacja regionu – i stawia na telefon. Przy rejestracji nie ma logowania e-mailem jako wyjścia awaryjnego; Grab zaczyna od prośby o numer komórkowy i wysyła na niego kod aktywacyjny.",
+      "SMS Code daje Ci prawdziwy numer z jednego z ponad 100 krajów. Wpisz go na ekranie powitalnym Grab, a sześciocyfrowy kod pojawi się w aplikacji SMS Code zwykle w ciągu kilku sekund – Twoje konto działa, zanim bagaż pojawi się na taśmie, a prywatny numer nigdy nie był częścią umowy."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Grab?",
+    "body": [
+      "Grab jest zbudowany wokół lokalnych numerów. Jego rejestracja oczekuje numeru z kraju, w którym działa, a podróżni przyjeżdżający z europejską lub amerykańską kartą SIM często uważają to za kłopotliwe – SMS-y w roamingu bywają wolne lub blokowane, a niektórzy operatorzy pobierają opłaty za samo odebranie kodu. Numer wirtualny z Indonezji czy Filipin pasuje dokładnie do tego, czego oczekuje Grab, bez szukania kiosku z kartami SIM pierwszego dnia.",
+      "Jest też kwestia prywatności. Ponieważ Grab stawia na telefon, Twój numer staje się kluczem do wszystkiego w nim – historii przejazdów, zamówień jedzenia, portfela. Oddzielenie tego klucza od numeru, którego używają Twój bank, rodzina i pracodawca, to po prostu rozsądne odseparowanie: jeśli po podróży przestaniesz korzystać z Grab, nic z Twojego codziennego numeru nie poszło razem z nim."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Grab numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz Grab jako usługę i kraj – kraj Azji Południowo-Wschodniej, jak Indonezja czy Filipiny, najlepiej pasuje do macierzystego terenu Grab. Numer zostaje od razu zarezerwowany."
+      },
+      {
+        "title": "Wpisz go na ekranie rejestracji Grab",
+        "body": "Grab prosi o numer komórkowy na samym pierwszym ekranie. Wybierz numer kierunkowy pasujący do wynajętego numeru i wpisz go – Grab od razu wyśle kod aktywacyjny SMS-em."
+      },
+      {
+        "title": "Wpisz kod aktywacyjny",
+        "body": "Obserwuj aplikację SMS Code: wiadomość przychodzi zwykle w ciągu kilku sekund i brzmi „702415 is your Grab activation code. For your account safety, do not share this code.” Wpisz sześć cyfr w Grab."
+      },
+      {
+        "title": "Dodaj e-mail i dane płatnicze",
+        "body": "Po wejściu dodaj adres e-mail w profilu i ustaw sposób płatności – kartę lub portfel w aplikacji. E-mail daje kontu drugą kotwicę poza numerem telefonu."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Wybierz kraj, w którym Grab naprawdę działa",
+      "body": "Grab obsługuje Azję Południowo-Wschodnią – Singapur, Indonezję, Malezję, Tajlandię, Wietnam, Filipiny i sąsiednie kraje. Numer z jednego z tych rynków pasuje do tego, czego oczekuje rejestracja; dlatego numery indonezyjskie i filipińskie to popularny wybór przy aktywacjach Grab."
+    },
+    {
+      "title": "Zarejestruj się przed podróżą",
+      "body": "Zweryfikuj konto, gdy jesteś jeszcze na wygodnym Wi-Fi, a nie w hali przylotów. Kontrola telefonu odbywa się raz przy rejestracji – potem logujesz się na tym samym urządzeniu bez kolejnego SMS-a, więc konto jest gotowe w chwili lądowania."
+    },
+    {
+      "title": "Kierowcy dzwonią przez aplikację",
+      "body": "Gdy kierowca musi się z Tobą skontaktować, Grab kieruje kontakt przez czat w aplikacji i połączenia internetowe, zamiast wybierać Twój numer. Zostaw włączone powiadomienia aplikacji Grab, żeby nie przegapić wiadomości „czekam na zewnątrz”, mimo że nie ma tu żadnego SMS-a."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy jako turysta mogę korzystać z Grab z numerem wirtualnym?",
+      "a": "Tak – to klasyczny przypadek. Zweryfikuj konto numerem z kraju, w którym działa Grab, dodaj metodę płatności i zamawiaj przejazdy oraz jedzenie podczas podróży jak każdy lokalny użytkownik. Konto nie jest powiązane z kartą SIM w Twoim telefonie."
+    },
+    {
+      "q": "Jaki kraj wybrać dla numeru do Grab?",
+      "a": "Jeden z macierzystych rynków Grab. Indonezja i Filipiny to najpopularniejsze wybory w SMS Code dla Grab, bo rejestracja jest zbudowana wokół numerów z krajów, w których usługa działa."
+    },
+    {
+      "q": "Czy konto Grab będzie działać po zakończeniu okna wynajmu numeru?",
+      "a": "Kod aktywacyjny to jednorazowa kontrola przy rejestracji. Dopóki jesteś zalogowany na swoim urządzeniu, konto działa normalnie. Jeśli później się wylogujesz, a Grab poprosi o ponowną weryfikację, możesz wynająć nowy numer i zmienić ten w profilu."
+    },
+    {
+      "q": "Dlaczego kod aktywacyjny Grab nie dotarł?",
+      "a": "Sprawdź, czy numer kierunkowy wybrany w Grab pasuje do wynajętego numeru – ta niezgodność to najczęstsza przyczyna. Jeśli nic nie przyjdzie, anuluj aktywację w SMS Code (numery bez odebranego SMS-a są darmowe) i spróbuj innego numeru."
+    },
+    {
+      "q": "Czy potrzebuję lokalnego numeru, by płacić przez GrabPay?",
+      "a": "Portfel żyje w Twoim zweryfikowanym koncie, a nie w karcie SIM. Po aktywacji konta funkcje płatności podlegają zasadom kraju, na który konto jest ustawione – opcje doładowania i obsługa kart różnią się w zależności od rynku, co jest polityką Grab, a nie kwestią numeru."
+    }
+  ]
+}

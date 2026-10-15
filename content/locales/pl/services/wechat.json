@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer WeChat — co działa, a co nie",
+  "metaDescription": "Numer wirtualny odbiera SMS z WeChat zwykle w kilka sekund, ale nowe konta WeChat często potrzebują też pomocy istniejącego użytkownika. Uczciwy poradnik.",
+  "hero": {
+    "title": "Numer wirtualny do WeChat",
+    "intro": [
+      "Powiedzmy to wprost: WeChat to najtrudniejsza rejestracja wśród popularnych aplikacji. Krok SMS działa jak wszędzie indziej – wpisujesz numer, przychodzi „Use the code (582074) on WeChat to log in to your account.”, wpisujesz go. Ale przy wielu nowych rejestracjach WeChat dodaje potem drugą bramkę: potwierdzenie przez istniejącego użytkownika WeChat, którego konto spełnia jego kryteria. Żaden numer, wirtualny czy nie, tego nie zastąpi.",
+      "Z SMS Code sam krok z telefonem jest łatwy – prawdziwy numer w jednym z ponad 100 krajów, kod w aplikacji zwykle w ciągu kilku sekund. Ta strona uczciwie mówi, co numer obejmuje, czego nie, i jak przygotować się na część, która zależy od człowieka."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do WeChat?",
+    "body": [
+      "WeChat jest zbudowany wokół numeru telefonu ciaśniej niż prawie każda aplikacja – to login, tożsamość i ścieżka odzyskiwania w jednym. Właśnie dlatego ludzie sięgają po numer wirtualny: jeśli potrzebujesz WeChata do rozmów z rodziną, współpracownikami czy dostawcą w Chinach, nie ma powodu, by Twój codzienny numer stał się Twoją tożsamością w tak rozbudowanym ekosystemie. Tę rolę przejmuje wynajęty numer.",
+      "Uczciwy obraz ma jednak drugą połowę. WeChat agresywnie pilnuje nowych rejestracji, a krok z pomocą znajomego – gdy ugruntowany użytkownik potwierdza Cię ze swojej aplikacji – pojawia się często, zwłaszcza przy numerach międzynarodowych. Jeśli nikt, kogo znasz, nie używa WeChata, rejestracja może po prostu utknąć po SMS-ie, i to nie jest problem numeru. Zorganizuj pomocnika, zanim cokolwiek wynajmiesz: współpracownika, krewnego, znajomego z kontem w dobrej kondycji, który potwierdzi Cię, gdy tylko WeChat poprosi."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować WeChat numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Najpierw zorganizuj pomocnika",
+        "body": "Zapytaj kogoś, kogo osobiście znasz i kto ma ugruntowane konto WeChat, czy może pomóc przy nowej rejestracji. Ten krok to prawdziwe wąskie gardło – załatw go, zanim wydasz cokolwiek na numer."
+      },
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Wybierz WeChat jako usługę i kraj. Jedno stuknięcie rezerwuje dla Ciebie prawdziwy numer komórkowy."
+      },
+      {
+        "title": "Zarejestruj się i wpisz kod",
+        "body": "Zacznij rejestrację w WeChacie wynajętym numerem. „Use the code (582074) on WeChat to log in to your account.” trafia do aplikacji SMS Code zwykle w ciągu kilku sekund – wpisz go, a potem przejdź weryfikację bezpieczeństwa, którą pokaże WeChat, przekazując część z pomocą znajomego swojemu pomocnikowi."
+      },
+      {
+        "title": "Zakotwicz konto poza SMS-em",
+        "body": "Gdy już wejdziesz, ustaw identyfikator WeChat i hasło oraz powiąż e-mail w ustawieniach. Codzienne logowanie przestaje zależeć od SMS-ów – choć WeChat może nadal sprawdzać urządzenia, więc nie wylogowuj się bez potrzeby z jedynego zalogowanego urządzenia."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Pomoc znajomego to prawdziwa bramka",
+      "body": "Pomocnik WeChata musi spełniać kryteria ustalone przez sam WeChat – ugruntowane, aktywne konto – a WeChat nie publikuje dokładnej listy. Nigdy nie kupuj „pomocy w weryfikacji” od obcych: to rynek oszustw, a konta zweryfikowane w ten sposób mają zwyczaj przepadać na rzecz obcego, który pomógł."
+    },
+    {
+      "title": "Wiedz, za co płacisz",
+      "body": "Płacisz tylko za aktywację, która odebrała SMS – tę, która nic nie dostała, można anulować za darmo. Ale bądź realistą: jeśli WeChat wyśle kod, a potem zatrzyma Cię na pomocy znajomego, ta aktywacja została wykorzystana. Sposobem na uniknięcie straty nie jest lepszy numer, tylko gotowy pomocnik, zanim zaczniesz."
+    },
+    {
+      "title": "Chroń sesję, jakby była kontem",
+      "body": "WeChat agresywnie ponownie weryfikuje na nowych urządzeniach, a te kontrole mogą dotyczyć powiązanego numeru. Pozostań zalogowany, od razu ustaw hasło i identyfikator WeChat, a jeśli konto stanie się ważne, powiąż w ustawieniach telefon z numerem, który kontrolujesz, póki wszystko jeszcze działa."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy sam numer wirtualny wystarczy, by założyć konto WeChat?",
+      "a": "Szczerze: często nie. Numer doskonale obsługuje krok SMS, ale wiele nowych rejestracji – zwłaszcza międzynarodowych – wymaga potem potwierdzenia przez istniejącego użytkownika WeChata. Jeśli ta bramka się pojawi, nie przejdzie przez nią żaden numer; przejdzie człowiek."
+    },
+    {
+      "q": "Czym dokładnie jest weryfikacja z pomocą znajomego?",
+      "a": "WeChat prosi istniejącego użytkownika, którego konto spełnia jego wewnętrzne kryteria, o potwierdzenie Twojej rejestracji z jego aplikacji – zwykle przez zeskanowanie kodu QR lub wykonanie poleceń po jego stronie. To antynadużyciowa bramka WeChata dla nowych kont. Załatw to z kimś, kogo naprawdę znasz; jego konto musi być ugruntowane i w dobrej kondycji."
+    },
+    {
+      "q": "Nikt, kogo znam, nie używa WeChata. Czy mimo to mogę się zarejestrować?",
+      "a": "Wolimy powiedzieć wprost: być może nie. Jeśli WeChat zażąda pomocy znajomego, a nie masz kogo poprosić, rejestracja utknie – a kupowanie pomocy od obcych w sieci to rynek oszustw i kradzieży kont, od którego warto trzymać się z daleka. Jeśli WeChat jest niezbędny, realistyczną drogą jest znalezienie prawdziwego kontaktu, który go używa."
+    },
+    {
+      "q": "Czy konto będzie działać po wygaśnięciu numeru?",
+      "a": "Na co dzień tak – z ustawionym hasłem i identyfikatorem WeChat logujesz się bez SMS-ów. Zastrzeżeniem są kontrole bezpieczeństwa WeChata na nowych urządzeniach, które mogą odwoływać się do powiązanego telefonu. Jeśli konto jest ważne długoterminowo, powiąż je w ustawieniach z numerem, który kontrolujesz, póki masz pełny dostęp."
+    },
+    {
+      "q": "Dlaczego kod z WeChata nie dotarł?",
+      "a": "Najpierw sprawdź numer kierunkowy. Poza tym WeChat naprawdę wybrednie podchodzi do tego, które numery obsługuje – bardziej niż większość aplikacji. Aktywację, która nic nie odebrała, możesz anulować w SMS Code bez kosztów; weź świeży numer, najlepiej z innego kraju, i spróbuj ponownie."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "title": "Why Apps Reject VoIP Numbers at Sign-up",
+  "description": "“This number can’t be used” often means the app ran a line-type lookup and saw VoIP. How that check works, and which numbers get through.",
+  "excerpt": "Type a Google Voice or TextNow number into WhatsApp or a bank app and it often bounces instantly. The reason is a lookup most people never hear of — here is how apps tell a VoIP number from a mobile one, and what that means for your choice of number.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "It happens in under a second. You type a perfectly valid phone number into a sign-up form, press continue, and get a flat refusal: “This phone number cannot be used for verification,” or the vaguer “Please enter a valid mobile number.” The number works. It receives texts from friends. The app simply decided it was the wrong kind of number."
+    },
+    {
+      "type": "p",
+      "text": "What happened in that second is a line-type lookup — one of the least visible and most consequential checks in modern sign-up flows. Understanding it explains why some virtual numbers sail through verification and others never get past the first screen."
+    },
+    {
+      "type": "h2",
+      "id": "what-a-line-type-lookup-is",
+      "text": "What a line-type lookup actually checks"
+    },
+    {
+      "type": "p",
+      "text": "Every phone number is assigned, in blocks, to a carrier, and every carrier is registered for a type of service. Numbering authorities and carriers publish who holds which blocks; porting databases record numbers that have moved between carriers since. Commercial data providers combine those sources into an API that answers a simple question about any number: who serves it, and what kind of line is it?"
+    },
+    {
+      "type": "p",
+      "text": "Twilio, one of the largest of these providers, sells the check as “Line Type Intelligence” and documents the categories it returns. The three that matter most for sign-ups are:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mobile — a number on a mobile carrier network, attached to a SIM, that can generally receive SMS.",
+        "Fixed VoIP — an internet-delivered number tied to a physical service address, such as a cable company’s home phone line.",
+        "Non-fixed VoIP — a number obtained online with no physical device or address behind it. Twilio’s own documentation cites Google Voice as the example."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "There are other categories — landline, toll-free, pager, personal number — but for an app deciding whether to send a verification code, the line that matters is the one between mobile and non-fixed VoIP."
+    },
+    {
+      "type": "h2",
+      "id": "why-apps-block-non-fixed-voip",
+      "text": "Why apps block non-fixed VoIP"
+    },
+    {
+      "type": "p",
+      "text": "Phone verification exists to make fake accounts expensive. A mobile number costs money, usually requires a SIM and, in more than 150 countries, a registered identity. That friction is the whole point."
+    },
+    {
+      "type": "p",
+      "text": "Non-fixed VoIP numbers remove most of it. Many can be created in minutes, some for free, in bulk, with an email address. To a fraud team, an account verified on one of them carries little more assurance than an account verified by email. So platforms that care most about abuse — messengers, payment services, marketplaces, dating apps, crypto exchanges — routinely refuse them before sending a single SMS."
+    },
+    {
+      "type": "callout",
+      "text": "The refusal usually comes before any message is sent. If a form rejects your number instantly, no amount of waiting will produce a code: the app has already decided not to send one."
+    },
+    {
+      "type": "h2",
+      "id": "the-cost-for-real-users",
+      "text": "The cost for real users"
+    },
+    {
+      "type": "p",
+      "text": "The policy is blunt, and it catches people it was never aimed at. Americans who use Google Voice as their main line find themselves locked out of bank apps. Small businesses that moved their phones to a VoIP provider discover their company number cannot open the accounts they need. Travellers using a VoIP number to avoid roaming charges are told it is “not supported”."
+    },
+    {
+      "type": "p",
+      "text": "There is also a security argument running the other way. SMS codes are themselves a weak second factor — the US standards body NIST now classes SMS and voice one-time codes as a “restricted” authenticator because of SIM swapping and interception. Some security teams argue that what a platform should really check is whether the user can prove control of the account over time, not what kind of number they have. For now, though, line-type filtering is the industry default, and it is not going away."
+    },
+    {
+      "type": "h2",
+      "id": "which-numbers-get-through",
+      "text": "Which numbers get through"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Your own mobile number — always passes, and always exposes your personal identity to the service.",
+        "A second SIM or eSIM — passes, at the cost of a plan, often an ID check, and a number to keep alive.",
+        "Free “receive SMS online” numbers — frequently non-fixed VoIP or long since blocklisted; even when they pass, the inbox is public.",
+        "Free VoIP app numbers — the category line-type lookups were designed to catch.",
+        "A rented mobile number — registered as mobile on a carrier network, so it passes the line-type check like any subscriber, and is reserved for you during the activation."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last category is what SMS Code provides. The numbers are mobile numbers on carrier networks in 100+ countries, not app-generated VoIP lines. A lookup sees an ordinary subscriber; the code is delivered by SMS like any other; and it appears in the app usually within seconds."
+    },
+    {
+      "type": "p",
+      "text": "No number passes every check every time. Services also look at whether a number has been used on their platform before, at device signals and at sign-up patterns. If a rented number is refused or no code arrives, you can cancel after two minutes — the coins return to your balance when no SMS came — and try another number or another country."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Frequently asked questions"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How does an app know my number is VoIP?",
+          "a": "It queries a phone-data provider that maps number blocks and ported numbers to carriers and line types. The answer — mobile, landline, fixed VoIP, non-fixed VoIP — comes back in milliseconds, before any SMS is sent."
+        },
+        {
+          "q": "Why does WhatsApp say my number is not valid when it works for texts?",
+          "a": "Many messengers and payment apps refuse non-fixed VoIP numbers outright. The number can receive SMS; the platform simply won’t accept that line type for verification."
+        },
+        {
+          "q": "Is a virtual number the same as a VoIP number?",
+          "a": "Not necessarily. “Virtual” describes how you access the number — through an app rather than a SIM in your phone. SMS Code’s virtual numbers are mobile numbers on carrier networks, so they are classified as mobile, not VoIP."
+        },
+        {
+          "q": "Can a rented mobile number still be rejected?",
+          "a": "Occasionally. Platforms also check whether a number was used on their service before and look at other risk signals. If that happens, cancel the activation after two minutes and take a fresh number."
+        },
+        {
+          "q": "Should I use a VoIP number for my bank?",
+          "a": "Banks frequently refuse VoIP numbers and re-verify by SMS for years. For banking, use a mobile number registered in your own name."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

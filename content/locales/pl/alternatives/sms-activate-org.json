@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternatywa dla SMS-Activate.org — SMS Code od SIMNETIQ",
+  "metaDescription": "SMS-Activate.org w porównaniu z aplikacją SMS Code od SIMNETIQ: panel webowy i API kontra natywna aplikacja iOS z pakietami monet i darmowym anulowaniem.",
+  "hero": {
+    "title": "Alternatywa dla SMS-Activate.org, która żyje w Twoim telefonie",
+    "intro": [
+      "SMS-Activate.org to od dawna działająca usługa webowa do odbierania kodów weryfikacyjnych. SMS Code od SIMNETIQ wykonuje to samo zadanie z innej strony – natywna aplikacja na iOS zamiast panelu w sieci. Jeśli chcesz sedna – wynajętego numeru i szybkiego kodu – bez logowania się na stronę, to porównanie jest dla Ciebie.",
+      "Podstawowe zadanie jest identyczne: wybierz usługę, wybierz kraj, dostań prawdziwy numer, odbierz kod SMS. Różnica tkwi w drodze. SMS-Activate.org opiera się na panelu webowym i udokumentowanym API; SMS Code umieszcza cały proces w aplikacji mobilnej, którą instalujesz z App Store, opłacasz jednorazowymi pakietami monet i obsługujesz kilkoma stuknięciami."
+    ]
+  },
+  "whenThem": {
+    "title": "Kiedy SMS-Activate.org jest lepszym wyborem",
+    "body": "Jeśli potrzebujesz numerów na skalę, SMS-Activate.org jest zbudowany dla Ciebie. Ich strona dokumentuje pełne API do kupowania numerów, odpytywania o przychodzące SMS-y i programowego zarządzania zamówieniami, a do tego bardzo duży katalog usług i krajów oraz opcje wynajmu na dłużej. Deweloperzy wpinający weryfikację w skrypty, zespoły rejestrujące konta hurtowo i każdy, kto woli pracę w panelu na komputerze, poczują się tam jak w domu – tej warstwy automatyzacji konsumencka aplikacja mobilna celowo nie próbuje odtwarzać."
+  },
+  "whenUs": {
+    "title": "Kiedy lepiej pasuje SMS Code",
+    "body": "Jeśli jesteś jedną osobą, która od czasu do czasu potrzebuje kodu weryfikacyjnego – drugie konto na Telegramie, rejestracja w WhatsAppie, okres próbny wymagający numeru – SMS Code to krótsza droga. Bez portfela w sieci do doładowania, bez panelu do nauki: kupujesz jednorazowy pakiet monet przez rozliczenia Apple, wybierasz usługę i kraj, a kod pojawia się w aplikacji zwykle w ciągu kilku sekund. Aktywacje, które nigdy nie odbiorą SMS-a, anulują się za darmo, zasięg obejmuje ponad 100 krajów i ponad 100 usług, a całość zachowuje się jak zwykła aplikacja konsumencka, a nie narzędzie deweloperskie."
+  },
+  "comparison": {
+    "title": "SMS-Activate.org i SMS Code obok siebie",
+    "rows": [
+      {
+        "label": "Platformy",
+        "competitor": "Panel webowy plus udokumentowane API do automatyzacji",
+        "us": "Natywna aplikacja na iOS z App Store"
+      },
+      {
+        "label": "Model cenowy",
+        "competitor": "Płatność za numer z salda konta; opcje wynajmu na dłuższe okresy",
+        "us": "Jednorazowe pakiety monet, płatność za aktywację – bez abonamentu"
+      },
+      {
+        "label": "Płatność",
+        "competitor": "Doładowanie salda w sieci metodami płatności wymienionymi na ich stronie",
+        "us": "Rozliczenia Apple – bez udostępniania nam danych karty"
+      },
+      {
+        "label": "Zasięg",
+        "competitor": "Bardzo szeroki katalog krajów i usług nastawiony na użycie hurtowe",
+        "us": "Ponad 100 krajów i ponad 100 popularnych usług, wyselekcjonowanych pod codzienne rejestracje"
+      },
+      {
+        "label": "Anulowanie",
+        "competitor": "Według ich własnych zasad zwrotów – sprawdź aktualne warunki",
+        "us": "Aktywacje bez SMS-a anulują się za darmo, monety wracają"
+      },
+      {
+        "label": "Wsparcie",
+        "competitor": "Kanały wsparcia przez ich stronę",
+        "us": "Formularz kontaktowy w aplikacji i na stronie"
+      },
+      {
+        "label": "Najlepsze dla",
+        "competitor": "Deweloperów i użytkowników hurtowych potrzebujących setek numerów przez API",
+        "us": "Osób chcących czystej aplikacji mobilnej do okazjonalnych weryfikacji"
+      }
+    ],
+    "note": "Informacje o konkurencji odzwierciedlają jej publiczną stronę w chwili pisania i mogą się zmienić – zawsze sprawdź na sms-activate.org przed decyzją."
+  },
+  "switchSteps": {
+    "title": "Wypróbowanie aplikacji to trzy kroki",
+    "steps": [
+      {
+        "title": "Zainstaluj aplikację",
+        "body": "Pobierz SMS Code od SIMNETIQ z App Store – bez zakładania konta w sieci ani konfiguracji portfela."
+      },
+      {
+        "title": "Weź pakiet monet",
+        "body": "Kup jednorazowy pakiet przez konto w sklepie. Monety nie zamieniają się w abonament; płacisz tylko przy aktywacji numeru."
+      },
+      {
+        "title": "Uruchom pierwszą aktywację",
+        "body": "Wybierz usługę i kraj, dostań prawdziwy numer i patrz, jak kod dociera do aplikacji zwykle w ciągu kilku sekund. Jeśli nic nie przyjdzie, aktywacja anuluje się za darmo."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Czy SMS Code jest powiązany z SMS-Activate.org?",
+      "a": "Nie. SMS Code to niezależny produkt SIMNETIQ bez powiązań z SMS-Activate.org – to dwie osobne firmy rozwiązujące ten sam problem na różne sposoby."
+    },
+    {
+      "q": "Czy SMS Code ma API jak SMS-Activate.org?",
+      "a": "Nie – i to celowa różnica. Aplikacja jest zbudowana dla ludzi, nie dla skryptów: natywny proces mobilny do okazjonalnych weryfikacji. Jeśli programowy dostęp do numerów to twardy wymóg, udokumentowane API SMS-Activate.org pasuje lepiej."
+    },
+    {
+      "q": "Czy muszę doładowywać portfel, żeby korzystać z aplikacji?",
+      "a": "Kupujesz jednorazowe pakiety monet przez rozliczenia Apple i wydajesz monety na aktywacje. Nie ma osobnego portfela w sieci, abonamentu ani cyklicznych obciążeń."
+    },
+    {
+      "q": "Co się stanie, jeśli kod nigdy nie przyjdzie?",
+      "a": "Aktywacja się anuluje, a monety wracają. Płacisz tylko za numery, które faktycznie odbiorą SMS."
+    },
+    {
+      "q": "Czy numery to prawdziwe numery komórkowe?",
+      "a": "Tak – aplikacja wynajmuje prawdziwe numery w prawdziwych sieciach operatorów w ponad 100 krajach. Dla usługi, w której się weryfikujesz, numer wygląda jak każdy zwykły numer telefonu."
+    }
+  ]
+}

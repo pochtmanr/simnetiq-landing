@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Snapchat — Xác minh không cần số của bạn",
+  "metaDescription": "Xác minh Snapchat bằng số ảo thật từ hơn 100 quốc gia. Mã thường đến chỉ trong vài giây — không SIM, không thuê bao, hủy miễn phí nếu không có SMS.",
+  "hero": {
+    "title": "Số ảo cho Snapchat",
+    "intro": [
+      "Snapchat sẽ tạo tài khoản chỉ với email — ô điện thoại thực sự có thể bỏ qua khi đăng ký. Nhưng nó không im lặng được lâu: đăng nhập từ thiết bị mới, vướng một bước kiểm tra bảo mật hay cố khôi phục mật khẩu đã quên, và Snapchat bắt đầu đòi một số nó có thể nhắn mã tới.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia, nhập vào Snapchat, và SMS xác minh hiện trong ứng dụng thường chỉ trong vài giây. Bạn trả tiền theo lần kích hoạt từ gói xu mua một lần — không thuê bao — và mọi lần kích hoạt không nhận được SMS đều có thể hủy mà không bị trừ phí."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Snapchat?",
+    "body": [
+      "Snapchat là nơi mọi người thoải mái nhất — chuỗi snap, ảnh biến mất, bạn của bạn từ Quick Add. Số điện thoại của bạn không thuộc về chỗ đó: khi nó đã nằm trên tài khoản, bất kỳ ai lưu nó trong danh bạ đều có thể thấy bạn trong gợi ý kết bạn, chính là cách bạn học, đồng nghiệp và người lạ từng gặp lạc vào thế giới snap của bạn. Số ảo giữ tài khoản đã xác minh trong khi số thật vẫn ở với những người bạn thực sự trao nó.",
+      "Số mà Snapchat muốn cũng phải hoạt động ngay lúc đó: thử thách xác minh và khôi phục mật khẩu đều dựa vào việc nhận tin nhắn đúng thời điểm. Số thuê trong ứng dụng SMS Code làm đúng điều đó — nó bắt lấy chiếc mã Snapchat cần, mà không trở thành sợi dây thường trực giữa snap của bạn và SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Snapchat bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Snapchat làm dịch vụ, chọn quốc gia và chạm một lần. Một số di động thật được giữ riêng cho bạn trong suốt thời gian kích hoạt."
+      },
+      {
+        "title": "Nhập số vào Snapchat",
+        "body": "Hoặc trên màn hình đăng ký khi Snapchat hỏi điện thoại, hoặc sau này trong Cài đặt → Số điện thoại di động. Chọn mã quốc gia khớp với số đã thuê — sai lệch là lý do thường gặp khiến mã không xuất hiện."
+      },
+      {
+        "title": "Lấy mã",
+        "body": "SMS đến ứng dụng SMS Code thường chỉ trong vài giây, từ người gửi “Snapchat”, có dạng “Snapchat code: 719402. Happy Snapping!”. Nhập các chữ số vào Snapchat và số đã được xác nhận."
+      },
+      {
+        "title": "Siết chặt quyền riêng tư",
+        "body": "Trong Cài đặt → Số điện thoại di động, tắt “Cho phép người khác tìm tôi bằng số điện thoại”. Sau đó xác minh một email của bạn và bật xác thực hai yếu tố bằng ứng dụng xác thực — khôi phục không còn phụ thuộc vào SMS nào nữa."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Tắt tìm kiếm qua số điện thoại",
+      "body": "Quick Add hoạt động một phần qua danh bạ đồng bộ: ai lưu một số có thể được giới thiệu chủ của số đó. Khi tắt tìm kiếm bằng số điện thoại, số thuê xác minh tài khoản mà không khiến bạn bị tìm thấy qua nó — một thói quen đáng giữ trên mọi tài khoản."
+    },
+    {
+      "title": "Cho khôi phục một con đường thứ hai",
+      "body": "Snapchat dựa vào điện thoại để đặt lại mật khẩu, nên hãy xác minh thêm địa chỉ email và bật 2FA bằng ứng dụng xác thực. Khi đó, việc quên mật khẩu không bao giờ quy về chuyện nhận tin nhắn trên một số mà thời hạn kích hoạt đã kết thúc từ lâu."
+    },
+    {
+      "title": "Đừng bấm nút gửi lại liên tục",
+      "body": "Snapchat giới hạn tần suất yêu cầu mã: hỏi quá nhiều lần liên tiếp và nó sẽ im lặng một lúc. Hãy cho mã đầu tiên chút thời gian; nếu số vẫn trống, hủy lần kích hoạt miễn phí và lấy số mới thay vì gửi lại vào khoảng không."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tôi có thể dùng Snapchat mà không có số điện thoại nào không?",
+      "a": "Bạn có thể đăng ký chỉ với email, đúng vậy. Nhưng Snapchat hỏi điện thoại khi có gì đó bất thường — thiết bị mới, thử thách bảo mật, đặt lại mật khẩu — và lúc đó bạn cần một số nhận được tin nhắn ngay. Số thuê bao phủ đúng khoảnh khắc đó."
+    },
+    {
+      "q": "Snapchat có còn hoạt động sau khi số hết hạn không?",
+      "a": "Có. Số quan trọng ở thời điểm xác minh, không phải sau đó. Giữ trạng thái đăng nhập, xác minh email và bật 2FA bằng ứng dụng xác thực, và tài khoản không bao giờ cần số đó nữa."
+    },
+    {
+      "q": "Bạn bè có thấy số tôi đã dùng không?",
+      "a": "Không — Snapchat không bao giờ hiển thị số điện thoại trên hồ sơ. Rủi ro duy nhất là khả năng bị tìm thấy: người có số trong danh bạ có thể thấy bạn trong Quick Add. Tắt “Cho phép người khác tìm tôi bằng số điện thoại” và con đường đó cũng đóng lại."
+    },
+    {
+      "q": "Vì sao mã Snapchat không đến?",
+      "a": "Nghi phạm quen thuộc: mã quốc gia chọn trong Snapchat không khớp với số đã thuê, hoặc bạn đã chạm giới hạn gửi lại và Snapchat tạm dừng gửi. Hãy hủy lần kích hoạt đang chờ trong SMS Code — xu được hoàn cho số không nhận được gì — và bắt đầu lại với số mới."
+    },
+    {
+      "q": "Tôi có thể có tài khoản Snapchat thứ hai không?",
+      "a": "Snapchat cho phép mỗi người hơn một tài khoản — chẳng hạn một tài khoản cá nhân và một tài khoản công khai hay cho dự án — và ứng dụng có thể chuyển đổi giữa chúng. Mỗi tài khoản cần tên người dùng và thông tin liên hệ riêng, đúng là chỗ một số ảo riêng phát huy tác dụng."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "title": "Usar número virtual é legal? O que dizem as regras",
+  "description": "Número virtual é um serviço de telecom comum. Onde ficam os limites reais: a lei, os termos de uso das plataformas, o cadastro de chips — e o que os ultrapassa.",
+  "excerpt": "Muita gente hesita antes de usar um número virtual, como se receber um SMS nele fosse zona cinzenta. Quase nunca é. Veja a diferença entre a lei, os termos de uma plataforma e o que é ilegal com qualquer número.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "«Mas isso é legal?» é uma das perguntas mais comuns antes de usar um número virtual pela primeira vez. A hesitação é compreensível. Números de telefone estão ligados à identidade em quase todo o mundo, os chips pedem documento cada vez mais e a palavra «virtual» soa como atalho."
+    },
+    {
+      "type": "p",
+      "text": "A resposta curta é que usar um número virtual é legal na maioria dos países — é um serviço de telecomunicações comum, usado todos os dias por empresas, desenvolvedores e pessoas que protegem a própria privacidade. A resposta longa é mais útil, porque separa três coisas que costumam se misturar: o que diz a lei, o que dizem as regras de uma plataforma e o que é ilegal seja qual for o número. Este artigo é uma explicação geral, não aconselhamento jurídico para nenhum país específico."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-numbers-are-ordinary-telecom",
+      "text": "Número virtual é um produto de telecom comum"
+    },
+    {
+      "type": "p",
+      "text": "A expressão «número virtual» descreve como você acessa o número, não o que ele é. Um número de celular virtual é um número real numa rede de operadora real; o chip que responde por ele fica com o provedor, e você vê as mensagens recebidas num app em vez de no chip do seu celular. Números assim são usados o tempo todo, abertamente:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empresas os usam em centrais de atendimento, avisos de entrega e códigos de verificação em duas etapas.",
+        "Desenvolvedores e equipes de QA os usam para testar fluxos de cadastro e login em outros países.",
+        "Viajantes e expatriados os usam para manter um pé num país onde não moram mais.",
+        "Pessoas comuns os usam para manter o número pessoal longe de apps, lojas e sites que não precisam dele."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Não conhecemos nenhum país com uma exigência legal geral de que você se cadastre em serviços on-line com o chip do seu próprio celular."
+    },
+    {
+      "type": "h2",
+      "id": "privacy-is-a-legitimate-reason",
+      "text": "Privacidade é um motivo legítimo, e a lei concorda"
+    },
+    {
+      "type": "p",
+      "text": "Querer manter seu número real em sigilo não tem nada de suspeito; é uma boa prática que as leis de proteção de dados incentivam ativamente. O GDPR europeu — e, no mesmo espírito, a LGPD brasileira — se baseia no princípio da minimização: as empresas só devem coletar os dados pessoais de que realmente precisam. Um número entregue a um fórum ou a uma loja vira um identificador permanente que pode ligar suas contas, aparecer num vazamento ou ser vendido a anunciantes. Guardá-lo para si é a versão do consumidor do mesmo princípio."
+    },
+    {
+      "type": "h2",
+      "id": "law-versus-terms-of-service",
+      "text": "A lei versus os termos de uso de uma plataforma"
+    },
+    {
+      "type": "p",
+      "text": "É aqui que mora a maior parte da confusão. Cada plataforma escreve as próprias regras — quantas contas você pode ter, quais números aceita, se é permitido automatizar algo. Essas regras são um contrato entre você e a plataforma, não lei penal."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Descumprir os termos de uma plataforma costuma ter consequências dentro da plataforma: conta suspensa, número recusado, recurso limitado.",
+        "Alguns serviços recusam explicitamente números VoIP ou virtuais e aplicam isso tecnicamente. É direito deles, e isso não torna ilegal usar esse número em outro lugar.",
+        "Os próprios termos do SMS Code dizem isso com todas as letras: você é responsável por cumprir os termos das plataformas em que se cadastra. Leia-os para qualquer conta que importe para você."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Um teste útil: se abrir a conta com o seu próprio chip não seria problema, abri-la com um número alugado por privacidade é o mesmo ato com menos dados pessoais expostos. Se a conta seria um problema com o seu próprio chip, outro número não resolve."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-laws",
+      "text": "E as leis de cadastro de chips?"
+    },
+    {
+      "type": "p",
+      "text": "Segundo a GSMA, a associação da indústria móvel, mais de 150 países exigem que chips pré-pagos sejam registrados em nome de uma pessoa identificada. Essas leis tratam de como as operadoras vendem e ativam chips — obrigam a operadora a saber quem é o titular de cada linha. Em geral, não regulam qual número você digita no formulário de cadastro de um site."
+    },
+    {
+      "type": "p",
+      "text": "Há exceções que vale conhecer. Em alguns países, certas categorias de serviço — bancos, pagamentos, governo digital e às vezes mensageiros locais — são obrigadas por lei a verificar você por um número registrado em seu nome. Usar outro número ali não é só contra as regras: não vai funcionar e pode violar a regulamentação local. Se você mora num país com regras de telecom rígidas, informe-se antes de depender de um número estrangeiro ou virtual."
+    },
+    {
+      "type": "h2",
+      "id": "what-is-illegal-with-any-number",
+      "text": "O que é ilegal com qualquer número"
+    },
+    {
+      "type": "p",
+      "text": "O número é uma ferramenta. A legalidade do que você faz depende do ato, e o que vem a seguir é ilegal ou gravemente errado quer você use um número virtual, um chip descartável ou o seu próprio:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fraude: golpes, anúncios falsos, abuso de chargeback ou qualquer esquema para obter dinheiro com mentiras.",
+        "Falsidade ideológica e roubo de identidade: fingir ser uma pessoa ou organização real.",
+        "Assédio, ameaças e perseguição, inclusive contatar alguém que bloqueou você.",
+        "Driblar verificações de identidade exigidas por lei: usar outro número para contornar regras de «conheça seu cliente» de bancos, corretoras ou serviços de pagamento.",
+        "Spam e criação de contas em massa para manipulação, avaliações falsas ou abuso."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nenhum desses atos fica legal porque o número é seu, e nenhum vira ilegal só porque o número é virtual. Os termos do SMS Code proíbem todos eles, e contas usadas assim são encerradas."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Perguntas frequentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Receber SMS num número virtual é legal?",
+          "a": "Na maioria dos países, sim. Alugar um número e receber mensagens nele é um serviço de telecom comum. O que importa juridicamente é o que você faz com as contas que cria."
+        },
+        {
+          "q": "É legal usar número virtual no WhatsApp ou no Telegram?",
+          "a": "Usar outro número num mensageiro não é crime na maioria dos lugares. Mas cada app tem os próprios termos e pode limitar ou suspender contas que os descumprem — leia-os para as contas que importam para você."
+        },
+        {
+          "q": "Posso usar número virtual no meu banco?",
+          "a": "Não deveria. Bancos e serviços de pagamento muitas vezes são obrigados por lei a vincular sua conta a um número registrado em seu nome, e o reverificam com frequência."
+        },
+        {
+          "q": "Número virtual é anônimo?",
+          "a": "Ele mantém seu número pessoal longe do serviço em que você se cadastra. Não torna atividade ilegal impossível de rastrear e não muda a lei que se aplica ao que você faz."
+        },
+        {
+          "q": "Usar número virtual viola os termos do app em que me cadastro?",
+          "a": "Depende do app. Muitos não se importam com o número que você usa, desde que receba o código; alguns recusam números virtuais ou VoIP. Confira os termos de qualquer serviço em que pretende manter a conta."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

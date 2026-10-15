@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Warunki korzystania",
+    "description": "Warunki korzystania z aplikacji SMS Code i simnetiq.xyz: monety i zakupy, Twoje prawo do odstąpienia, dozwolone użycie, numery wirtualne i odpowiedzialność."
+  },
+  "prevailingNotice": "To tłumaczenie ma charakter wyłącznie pomocniczy. W razie rozbieżności rozstrzygająca jest wersja angielska.",
+  "label": "Informacje prawne",
+  "title": "Warunki korzystania",
+  "updatedLabel": "Ostatnia aktualizacja:",
+  "sections": [
+    {
+      "title": "1. Umowa",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Niniejsze Warunki korzystania („Warunki”) stanowią umowę między Tobą a SIMNETIQ LTD, spółką zarejestrowaną w Anglii i Walii („my”, „nas”), i regulują korzystanie z aplikacji mobilnej SMS Code („Aplikacja”) oraz serwisu simnetiq.xyz („Serwis”). Instalując lub używając Aplikacji, akceptujesz te Warunki. Jeśli się z nimi nie zgadzasz, nie korzystaj z Aplikacji."
+        },
+        {
+          "type": "p",
+          "text": "Numer spółki: {companyNumber}. Siedziba: {registeredOffice}. Kontakt: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Usługa",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikacja udostępnia tymczasowe wirtualne numery telefonów do odbierania kodów weryfikacyjnych SMS z obsługiwanych usług online. Numery dostarczają zewnętrzni operatorzy telefonii; dostępność danej usługi, kraju lub numeru nie jest gwarantowana i może się zmienić bez uprzedzenia."
+        }
+      ]
+    },
+    {
+      "title": "3. Kto może korzystać",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Musisz mieć ukończone 18 lat i pełną zdolność do zawarcia tej umowy. Z Aplikacji możesz korzystać wyłącznie w sposób dozwolony przez przepisy, które Cię obowiązują."
+        }
+      ]
+    },
+    {
+      "title": "4. Monety i zakupy",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Monety to jednorazowe zakupy w aplikacji obsługiwane przez Apple App Store zgodnie z jego warunkami płatności. Nie ma abonamentu i nic nie odnawia się automatycznie.",
+            "Monety wydaje się na aktywację. Kwota zależy od usługi i kraju, wynika głównie z usługi i jest pokazywana przed potwierdzeniem.",
+            "Monety nie wygasają, nie można ich przenosić i nie mają wartości pieniężnej."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Kiedy monety do Ciebie wracają.** Monety są automatycznie zwracane na Twoje saldo w czterech sytuacjach:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "anulujesz aktywację co najmniej dwie minuty po przydzieleniu numeru, zanim odebrano kod weryfikacyjny;",
+            "przechodzisz na inny numer co najmniej dwie minuty po przydzieleniu, zanim odebrano kod;",
+            "okno aktywacji kończy się bez otrzymania kodu; lub",
+            "nasz dostawca nie zapewni działającego numeru dla aktywacji."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Zwrot monet nie jest zwrotem pieniędzy.** W każdej z powyższych sytuacji wracają do Ciebie monety, zapisane z powrotem na saldo w aplikacji. Nie zwracamy za nie pieniędzy, a monety nie mają wartości pieniężnej. Jeśli chcesz odzyskać pieniądze za zakup, to sprawa Apple: o zwrot ceny zakupu prosi się Apple, które decyduje o nim zgodnie z zasadami zwrotów App Store, a my nie mamy możliwości jego udzielenia, zatwierdzenia ani odmowy. Sekcja 5 opisuje Twoje odrębne ustawowe prawo do odstąpienia od umowy."
+        }
+      ]
+    },
+    {
+      "title": "5. Twoje prawo do odstąpienia (konsumenci w Wielkiej Brytanii i UE)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jeśli jesteś konsumentem w Zjednoczonym Królestwie lub Unii Europejskiej, zazwyczaj masz 14 dni od dnia zawarcia umowy o dostarczanie treści cyfrowych na odstąpienie od niej i otrzymanie zwrotu bez podania przyczyny. Prawo to wynika w Wielkiej Brytanii z Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013, a w UE z dyrektywy w sprawie praw konsumentów."
+        },
+        {
+          "type": "p",
+          "text": "Monety są udostępniane na Twoim saldzie po udanym zakupie. Każdy wyjątek od ustawowego prawa do odstąpienia zależy od obowiązujących przepisów oraz od zgody, przyjęcia do wiadomości i potwierdzenia faktycznie udzielonych podczas zakupu. Sama akceptacja tych Warunków nie oznacza rezygnacji z ustawowych praw do odstąpienia."
+        },
+        {
+          "type": "p",
+          "text": "W przypadku zakupu rozliczanego przez Apple o zwrot płatności poproś na stronie [reportaproblem.apple.com](https://reportaproblem.apple.com/). Apple obsługuje proces zwrotu płatności zgodnie ze swoimi regionalnymi warunkami i obowiązującym prawem. Skontaktuj się z nami w sprawie brakującej lub wadliwej usługi, niewykorzystanych monet lub zapisów zakupów i salda. Nie gwarantujemy zgody Apple ani automatycznej wypłaty niewykorzystanego salda. Jeśli zakup zostanie zwrócony, powiązane z nim monety mogą zostać usunięte."
+        },
+        {
+          "type": "p",
+          "text": "Nic w tej sekcji nie wpływa na Twoje inne prawa ustawowe, w tym prawa w przypadku, gdy usługa jest wadliwa, niezgodna z opisem lub nie została wykonana z należytą starannością i umiejętnościami."
+        }
+      ]
+    },
+    {
+      "title": "6. Dozwolone użycie",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Zobowiązujesz się nie używać Aplikacji, aby:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "łamać jakiekolwiek prawo lub przepisy albo naruszać czyjekolwiek prawa;",
+            "dopuszczać się oszustw, spamu, nękania lub podszywania się;",
+            "naruszać warunki korzystania z platform, w których się rejestrujesz – wyłącznie Ty odpowiadasz za ich przestrzeganie;",
+            "odbierać komunikaty, które zgodnie z prawem musisz odbierać na zweryfikowanym numerze osobistym (na przykład od urzędów, banków lub służb ratunkowych, tam gdzie jest to zabronione);",
+            "odsprzedawać usługę, automatycznie z niej pobierać dane lub programowo jej nadużywać."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Możemy zawiesić lub zamknąć konto, które narusza tę sekcję. W poważnych przypadkach – oszustwa lub celowego nadużywania mechanizmów zwrotów lub aktywacji – możemy także przepadkiem objąć monety pozostałe na saldzie, w zakresie proporcjonalnym do naruszenia. Nie odbierzemy salda za drobne lub jednorazowe naruszenie, a nic tutaj nie odbiera Ci praw konsumenckich, których nie można wyłączyć umową."
+        }
+      ]
+    },
+    {
+      "title": "7. Numery wirtualne",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Numery wirtualne są tymczasowe i po zakończeniu Twojej aktywacji mogą zostać przydzielone innym użytkownikom. Są przeznaczone do odbierania jednorazowych kodów weryfikacyjnych, a nie do stałego użytku prywatnego lub firmowego, odzyskiwania kont ani uwierzytelniania dwuskładnikowego, na którym polegasz długoterminowo."
+        }
+      ]
+    },
+    {
+      "title": "8. Własność intelektualna",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikacja, Serwis i cały związany z nimi branding należą do SIMNETIQ LTD lub jej licencjodawców. Udzielamy Ci osobistej, niewyłącznej i niezbywalnej licencji na korzystanie z Aplikacji zgodnie z jej przeznaczeniem. Nazwy usług firm trzecich pokazane w Aplikacji należą do ich właścicieli i nie oznaczają rekomendacji."
+        }
+      ]
+    },
+    {
+      "title": "9. Wyłączenia",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikacja jest udostępniana „w stanie, w jakim jest” i „w miarę dostępności”. W najszerszym zakresie dozwolonym przez prawo wyłączamy wszelkie gwarancje, wyraźne lub dorozumiane, w tym przydatności do określonego celu. Nie gwarantujemy, że dany kod weryfikacyjny dotrze, że numery zostaną zaakceptowane przez daną platformę ani że usługa będzie działać bez przerw i błędów."
+        },
+        {
+          "type": "p",
+          "text": "Ta sekcja nie wyłącza ani nie ogranicza niczego, czego nie można zgodnie z prawem wyłączyć lub ograniczyć. Jeśli jesteś konsumentem, Twoje prawa ustawowe pozostają nienaruszone – w tym prawo wynikające z Consumer Rights Act 2015 (lub jego odpowiednika w miejscu Twojego zamieszkania) do usługi cyfrowej świadczonej z należytą starannością i umiejętnościami, o zadowalającej jakości i zgodnie z opisem."
+        }
+      ]
+    },
+    {
+      "title": "10. Ograniczenie odpowiedzialności",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nic w tych Warunkach nie ogranicza odpowiedzialności, której nie można ograniczyć z mocy prawa, w tym za śmierć, uszkodzenie ciała spowodowane zaniedbaniem lub oszustwo. W pozostałym zakresie nasza całkowita odpowiedzialność wynikająca z Aplikacji lub z nią związana jest ograniczona do kwoty, którą zapłaciłeś nam w ciągu 12 miesięcy przed zgłoszeniem roszczenia, i nie odpowiadamy za szkody pośrednie lub wtórne, utratę zysków, danych lub renomy."
+        }
+      ]
+    },
+    {
+      "title": "11. Zakończenie",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "W każdej chwili możesz przestać korzystać z Aplikacji i usunąć konto. Możemy natychmiast zawiesić lub zakończyć dostęp, jeśli naruszysz te Warunki, jeśli dostawca wycofa funkcję, od której zależymy, lub jeśli zakończymy świadczenie usługi; tam, gdzie wymaga tego prawo, zrobimy to z odpowiednim wyprzedzeniem."
+        }
+      ]
+    },
+    {
+      "title": "12. Zmiany Warunków",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Możemy od czasu do czasu aktualizować te Warunki – na przykład gdy zmienia się prawo, gdy zmienia się dostawca, od którego zależymy, lub gdy Aplikacja zyskuje lub traci funkcję. Zmiany istotnie wpływające na Twoje prawa ogłosimy w Aplikacji lub w Serwisie co najmniej 30 dni przed ich wejściem w życie. Jeśli ich nie akceptujesz, możesz przed tą datą przestać korzystać z Aplikacji i zamknąć konto; napisz do nas w sprawie niewydanych monet, a rozpatrzymy Twoją prośbę w dobrej wierze. Dalsze korzystanie z Aplikacji po wejściu zmian w życie oznacza akceptację zaktualizowanych Warunków. Zmiany nigdy nie działają wstecz wobec zakupu, którego już dokonałeś."
+        }
+      ]
+    },
+    {
+      "title": "13. Prawo właściwe",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Niniejsze Warunki podlegają prawu Anglii i Walii, a wyłączną jurysdykcję mają sądy Anglii i Walii – z tym że jeśli jesteś konsumentem, zachowujesz wszelkie bezwzględnie obowiązujące zabezpieczenia i prawa co do właściwości sądu w kraju, w którym mieszkasz."
+        }
+      ]
+    },
+    {
+      "title": "14. Kontakt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pytania dotyczące tych Warunków: {supportEmail}."
+        }
+      ]
+    }
+  ]
+}

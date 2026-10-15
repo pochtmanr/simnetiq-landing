@@ -1,0 +1,149 @@
+{
+  "title": "Virtuelle Nummer Indien (+91): Aufbau und verspätete OTPs",
+  "description": "Warum so viele Menschen außerhalb Indiens eine +91-Nummer wollen, wie indische Mobilnummern aufgebaut sind und warum OTP-SMS nach Indien manchmal spät kommen.",
+  "excerpt": "Fast zehn Millionen Inder leben allein in den Golfstaaten, und Millionen weitere im Ausland brauchen trotzdem eine +91-Nummer, um sich zu Hause anzumelden. Wie indische Nummern funktionieren, was die DLT-Regeln mit der OTP-Zustellung gemacht haben und wie du ohne SIM einen Code darauf bekommst.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Frag jemanden, der von Kerala nach Dubai oder von Hyderabad nach Riad gezogen ist, was er von zu Hause behalten hat, und die indische SIM-Karte kommt überraschend oft vor. Nicht für Anrufe – die sind längst zu WhatsApp gewandert –, sondern für die sechsstelligen Codes. Banking-Apps, Zahlungs-Wallets, Behördenportale und eine lange Reihe indischer Dienste erwarten bei der Registrierung eine +91-Nummer und schreiben sie auch danach immer wieder an."
+    },
+    {
+      "type": "p",
+      "text": "Die Größenordnung ist nicht klein. Das indische Außenministerium beziffert die Zahl der indischen Staatsangehörigen in den sechs Golfstaaten auf fast zehn Millionen, mehr als vier Millionen davon in den VAE. Rechnet man Studierende in Europa, Ingenieure in Nordamerika und eine globale Diaspora hinzu, die die Vereinten Nationen zu den größten der Welt zählen, ergibt sich eine sehr große Gruppe von Menschen, die eine indische Nummer brauchen, während sie anderswo leben."
+    },
+    {
+      "type": "p",
+      "text": "Es gibt auch eine zweite Gruppe: Menschen ohne jede Verbindung zu Indien, die für ein neues Konto einfach eine Nummer aus einem der geschäftigsten Mobilfunkmärkte der Welt wollen. Das steckt hinter Suchen wie „indische Nummer für WhatsApp“ auf Arabisch, Französisch und einem Dutzend anderer Sprachen. Dieser Leitfaden deckt beides ab – wie indische Nummern aufgebaut sind, warum SMS an sie sich anders verhalten als anderswo und wo eine virtuelle +91-Nummer hineinpasst."
+    },
+    {
+      "type": "h2",
+      "id": "how-indian-mobile-numbers-work",
+      "text": "Wie eine indische Mobilnummer aufgebaut ist"
+    },
+    {
+      "type": "p",
+      "text": "Indische Mobilnummern gehören zu den am einfachsten zu lesenden der Welt. Nach der Ländervorwahl +91 kommen genau zehn Ziffern, und die erste ist immer eine 6, 7, 8 oder 9. Für Mobilnummern gibt es keine Ortsvorwahlen: Eine in Chennai gekaufte Nummer sieht genauso aus wie eine aus Delhi."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Die führende Ziffer zeigt, dass es eine Mobilnummer ist. Jahrelang begann fast jede indische Mobilnummer mit 9; als die Anschlüsse die Milliardengrenze überschritten, öffnete das Department of Telecommunications die Serien 8, 7 und später 6.",
+        "Das Präfix verrät nicht mehr den Betreiber. Seit es die Rufnummernmitnahme gibt, kann eine Nummer, die in einem Netz begonnen hat, zu Jio, Airtel oder Vi wechseln und ihre Ziffern behalten, die ersten vier Ziffern sind also bestenfalls ein historischer Hinweis.",
+        "Der Plan bleibt bei zehn Ziffern. Indiens Telekom-Regulierer TRAI hat 2019 über elfstellige Mobilnummern beraten und sich 2020 dagegen entschieden. Jedes Registrierungsformular, das indische Nummern prüft, erwartet genau zehn Ziffern nach +91.",
+        "Im Inland schreiben Inder oft eine führende 0 oder die vollständige +91. Keines davon gehört in ein Registrierungsfeld, das schon eine Länderauswahl hat – tippe nur die zehn Ziffern."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Dieser letzte Punkt ist der häufigste Grund, warum Codes nicht ankommen. Ein Formular mit vorausgewähltem „+91“ und eingetipptem „09876543210“ ergibt eine Nummer, die es nicht gibt, und der Dienst schickt seinen Code fröhlich ins Leere."
+    },
+    {
+      "type": "h2",
+      "id": "why-otps-to-india-lag",
+      "text": "Warum OTP-SMS nach Indien manchmal spät ankommen"
+    },
+    {
+      "type": "p",
+      "text": "Indische SMS sind aus einem Grund ungewöhnlich, den die meisten Nutzer nie sehen: Es ist einer der am strengsten regulierten Nachrichtenmärkte der Welt. Seit 2021 verlangt TRAI, dass sich jedes Unternehmen, das kommerzielle SMS über inländische Wege sendet, in einem blockchainbasierten System namens DLT – Distributed-Ledger-Technologie – registriert. Das Unternehmen, sein Absendername und die genaue Vorlage jeder Nachricht müssen vorab registriert sein. Passt eine Nachricht zu keiner registrierten Vorlage, verwirft das Netz sie."
+    },
+    {
+      "type": "p",
+      "text": "Ziel war es, Spam und Phishing abzuwürgen, und das hat weitgehend funktioniert. Aber die Einführung zeigte, wie fragil das System sein kann. Als die Betreiber im März 2021 die Vorlagenprüfung einschalteten, scheiterten so viele legitime Nachrichten daran, dass Kunden von Banken und Zahlungs-Apps keine Codes mehr bekamen; die Fachpresse berichtete, dass rund 40 Prozent des kommerziellen SMS-Verkehrs des Tages gestört waren, und TRAI setzte die Regeln für eine Woche aus, während die Unternehmen ihre Vorlagen reparierten."
+    },
+    {
+      "type": "p",
+      "text": "Heute läuft das System für große Absender reibungslos, aber zwei Nebenwirkungen bleiben:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ausländische Dienste senden nach Indien oft über internationale statt inländische Wege. Diese Nachrichten umgehen die DLT-Vorlagenregistrierung, werden aber anders bepreist und gefiltert, und der vertraute Absendername wird oft durch eine zufällige Nummer oder Kurzwahl ersetzt. Wartest du auf „GOOGLE“ und der Code kommt von einer Ziffernfolge, ist das der Grund.",
+        "Ändert ein Absender den Wortlaut seiner Nachricht, ohne die registrierte Vorlage zu aktualisieren, kann die Zustellung stocken, bis er es tut. Das zeigt sich als OTP, das einfach nie ankommt und einen Tag später wieder funktioniert."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Kommt ein Code an eine indische Nummer nicht an, liegt das Problem meist am Format oder am Weg des Absenders – nicht an der Nummer. Prüfe, ob das Formular +91 gefolgt von genau zehn Ziffern zeigt, warte eine volle Minute und fordere dann einmal einen neuen Code an. Wiederholte Anfragen kurz hintereinander können die eigenen Limits des Dienstes auslösen."
+    },
+    {
+      "type": "h2",
+      "id": "who-uses-a-virtual-indian-number",
+      "text": "Wer tatsächlich eine virtuelle +91-Nummer nutzt"
+    },
+    {
+      "type": "p",
+      "text": "Hier gibt es zwei verschiedene Bedürfnisse, und sie verlangen verschiedene Werkzeuge. Ehrlich über den Unterschied zu sein, spart Leuten Zeit und gelegentlich ein Konto."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Der Auswanderer mit einem langfristigen Leben in Indien. Bankkonten, UPI-Wallets, mit Aadhaar verknüpfte Dienste und Steuer-Logins hängen an einer Nummer, die mit deinen Ausweisdokumenten auf deinen Namen registriert ist, und sie werden sie jahrelang erneut prüfen. Eine virtuelle Nummer ist hier das falsche Werkzeug. Halte deine eigene indische SIM aktiv – die meisten Betreiber bieten günstige Gültigkeitspakete an – oder nutze eine langfristige eSIM, wenn dein Betreiber das unterstützt.",
+        "Die einmalige Registrierung. Ein Messenger-Konto mit indischer Identität, eine App, die ihren indischen Katalog nur für +91-Nummern öffnet, ein Testkonto für einen Entwickler, ein zweites Profil, das du von deiner echten Nummer getrennt halten willst. Hier zählt die Nummer für einen Moment: die Bestätigung. Genau dafür ist eine gemietete virtuelle Nummer da."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Für die zweite Gruppe tut eine virtuelle indische Nummer beim Bestätigungsschritt, was eine SIM tun würde – sie ist eine echte zehnstellige Mobilnummer in einem indischen Mobilfunknetz, nur für dich reserviert, solange der Code unterwegs ist –, ohne Ladenbesuch, ohne Ausweispapiere und ohne Handytarif, den du am Leben halten musst."
+    },
+    {
+      "type": "h2",
+      "id": "getting-a-code-on-a-91-number",
+      "text": "Einen Code auf einer +91-Nummer mit SMS Code bekommen"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Dienst und Indien wählen",
+          "body": "Wähle in SMS Code den Dienst, den du bestätigst – WhatsApp, Telegram, Google oder einen von über 100 anderen –, und Indien als Land. Der Preis dieser Aktivierung in Münzen wird angezeigt, bevor du bestätigst."
+        },
+        {
+          "title": "Die zehn Ziffern eingeben",
+          "body": "Stelle die Länderauswahl des Registrierungsformulars auf Indien (+91) und tippe die in der App angezeigte zehnstellige Nummer ein – keine führende 0, keine wiederholte Ländervorwahl."
+        },
+        {
+          "title": "Den Code aus der App kopieren",
+          "body": "Die SMS erscheint meist innerhalb von Sekunden in SMS Code. Kopiere den Code ins Formular. Kommt nichts an, kannst du zwei Minuten nach der Zuteilung abbrechen und eine andere Nummer nehmen; die Münzen der ungenutzten Aktivierung gehen auf dein Guthaben zurück."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Sobald das Konto bestätigt ist, füge eine Wiederherstellungs-E-Mail hinzu und aktiviere den eigenen Zwei-Faktor-Schutz des Dienstes – eine Authenticator-App oder einen Passkey, wo verfügbar. Eine gemietete Nummer ist für den Moment der Bestätigung da; sie sollte nicht in einem Jahr der einzige Weg zurück ins Konto sein."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Häufige Fragen"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Kann ich eine indische WhatsApp Nummer bekommen, ohne in Indien zu leben?",
+          "a": "Ja. WhatsApp prüft, dass du auf der eingegebenen Nummer einen Code empfangen kannst; es prüft nicht, wo du bist. Eine virtuelle +91-Nummer empfängt diesen Code wie jede indische Mobilnummer. Denk daran, dass WhatsApp die Nummer erneut bestätigen lassen kann, wenn du das Konto auf ein neues Handy umziehst, füge dem Konto also sofort eine PIN und eine E-Mail hinzu."
+        },
+        {
+          "q": "Warum kommt mein Code von einer zufälligen Nummer statt vom Firmennamen?",
+          "a": "Nachrichten ausländischer Absender erreichen Indien oft über internationale Wege, auf denen registrierte Absendernamen nicht immer erhalten bleiben. Der Code ist trotzdem echt; nur die Absenderkennung ändert sich unterwegs."
+        },
+        {
+          "q": "Taugt eine virtuelle indische Nummer für UPI oder ein Bankkonto?",
+          "a": "Nein. Banken und UPI-Apps binden das Konto an eine mit deiner Identität registrierte Nummer und prüfen sie regelmäßig erneut. Nutze für alles Finanzielle oder Behördliche eine SIM auf deinen eigenen Namen."
+        },
+        {
+          "q": "Wie viele Ziffern gebe ich nach +91 ein?",
+          "a": "Genau zehn, beginnend mit 6, 7, 8 oder 9. Lass eine führende 0 weg und tippe die 91 nicht erneut, wenn das Formular die Ländervorwahl schon zeigt."
+        },
+        {
+          "q": "Was, wenn der Code nie ankommt?",
+          "a": "Prüfe zuerst das Nummernformat und warte dann eine volle Minute. Kommt immer noch nichts, brich die Aktivierung in SMS Code nach Ablauf von zwei Minuten ab – die Münzen gehen auf dein Guthaben zurück – und versuche eine neue Nummer."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

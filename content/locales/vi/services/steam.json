@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Steam — Thêm điện thoại không cần SIM",
+  "metaDescription": "Gắn điện thoại vào Steam bằng số ảo thật; mã thường đến chỉ trong vài giây. Ghi chú thẳng thắn về Steam Guard, thời gian giữ giao dịch và trình xác thực.",
+  "hero": {
+    "title": "Số ảo cho Steam",
+    "intro": [
+      "Steam sẵn sàng tạo tài khoản chỉ với email — phần đó đơn giản và trung thực. Số điện thoại bước vào câu chuyện sau này, ở chỗ quan trọng: mã Steam Guard qua SMS, khôi phục tài khoản, và các bước xác minh quanh việc giao dịch và Chợ cộng đồng. Đó là lúc “Your Steam verification code is J4K8P” xuất hiện.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia và mã của Steam đến ứng dụng thường chỉ trong vài giây. Thư viện game của bạn — thường là nhiều năm mua sắm — được gắn điện thoại mà số cá nhân không lọt vào hồ sơ của Valve."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Steam?",
+    "body": [
+      "Một tài khoản Steam lâu năm là một trong những thứ giá trị nhất mà game thủ sở hữu, và đó chính là lý do bạn có thể không muốn số hằng ngày gắn vào nó. Lừa đảo nhắm vào người dùng Steam là cả một ngành; thông tin liên hệ của tài khoản càng ít trùng với số ai cũng biết, bề mặt tấn công càng nhỏ. Số ảo cho bạn vượt qua các bước điện thoại của Steam mà vẫn giữ sự tách biệt đó.",
+      "Nhưng đây là kiến trúc thực tế: trên Steam, SMS là lớp bảo vệ yếu hơn. Lớp bảo vệ thực sự quan trọng cho giao dịch và Chợ là Steam Guard Mobile Authenticator trong ứng dụng Steam — Valve giữ giao dịch và tin đăng lâu hơn nhiều với tài khoản không có nó. Hãy coi số thuê là chìa khóa đưa bạn qua cửa xác minh điện thoại, còn trình xác thực là ổ khóa bạn lắp khi đã vào trong."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Steam bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Chọn Steam làm dịch vụ và chọn quốc gia. Một chạm giữ một số di động thật chỉ cho bạn."
+      },
+      {
+        "title": "Thêm số vào tài khoản Steam",
+        "body": "Vào Chi tiết tài khoản → Thông tin liên hệ — hoặc làm theo lời nhắc Steam hiển thị khi giao dịch cần điện thoại — và nhập số kèm mã quốc gia."
+      },
+      {
+        "title": "Nhập mã — có cả chữ cái",
+        "body": "Mã của Steam có dạng “J4K8P”: chữ và số, không phải sáu chữ số thông thường. Nó đến ứng dụng SMS Code thường chỉ trong vài giây; hãy nhập đúng như được viết."
+      },
+      {
+        "title": "Thiết lập Mobile Authenticator",
+        "body": "Trong ứng dụng Steam trên điện thoại, bật Steam Guard Mobile Authenticator khi số vẫn còn hoạt động. Đó trở thành 2FA bền vững của bạn — và hãy cất mã khôi phục nó cấp ở nơi an toàn."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Mã không chỉ toàn chữ số",
+      "body": "Khác với hầu hết dịch vụ, Steam gửi mã gồm chữ và số — J4K8P, không phải 123456. Nếu mã “không hoạt động”, hãy kiểm tra bạn không nhầm chữ với số (O với 0, I với 1) và nhập in hoa, đúng như nhận được."
+    },
+    {
+      "title": "Trình xác thực vượt trội hơn SMS",
+      "body": "Steam Guard qua SMS là mức khởi đầu; Mobile Authenticator mới là thứ rút ngắn thời gian giữ giao dịch và tin đăng trên Chợ — và nó tồn tại qua mọi lần số hết hạn. Hãy bật ngay sau khi xác minh: chỉ mất vài phút và đó là khác biệt giữa tài khoản được bảo vệ và tài khoản được bảo vệ một nửa."
+    },
+    {
+      "title": "Đổi điện thoại sau này có tác dụng phụ",
+      "body": "Steam coi việc thay đổi và xóa điện thoại là sự kiện bảo mật và có thể áp dụng thời gian giữ tạm thời quanh chúng. Nếu định thay số thuê bằng số của bạn hoặc bỏ hẳn, hãy làm có chủ đích trong Chi tiết tài khoản khi bạn vẫn nhận được mã — không vội vàng ngay trước một giao dịch."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tôi có cần số điện thoại để tạo tài khoản Steam không?",
+      "a": "Không — đăng ký chỉ cần email, và đó thực sự là tất cả một tài khoản cơ bản cần. Điện thoại trở nên quan trọng với Steam Guard qua SMS, khôi phục tài khoản và xác minh quanh giao dịch cùng Chợ cộng đồng. Hãy thuê số vào lúc Steam thực sự yêu cầu."
+    },
+    {
+      "q": "Số ảo có xóa thời gian giữ giao dịch và Chợ không?",
+      "a": "Tự nó thì không — chúng tôi sẽ không nói quá. Thời gian giữ của Valve gắn với Steam Guard Mobile Authenticator, không phải việc có điện thoại trong hồ sơ. Số đưa bạn qua các bước xác minh điện thoại; bật trình xác thực trong ứng dụng Steam mới thực sự thay đổi cách thời gian giữ áp dụng với bạn."
+    },
+    {
+      "q": "Điều gì xảy ra khi số đã thuê hết hạn?",
+      "a": "Tài khoản vẫn hoạt động — bạn đăng nhập bằng mật khẩu và Steam Guard như trước. Nếu đã thiết lập trình xác thực, bảo mật hằng ngày hoàn toàn không liên quan đến SMS. Nếu có lúc bạn muốn SMS làm tùy chọn trở lại, hãy cập nhật điện thoại trong Chi tiết tài khoản sang số bạn đang kiểm soát."
+    },
+    {
+      "q": "Vì sao mã Steam của tôi bị từ chối?",
+      "a": "Thường là do định dạng: mã Steam trộn chữ và số, và chữ O có thể giấu số 0. Hãy nhập mã đúng như hiển thị trong ứng dụng SMS Code. Nếu không có SMS nào đến, kiểm tra mã quốc gia, hủy lần kích hoạt đang chờ miễn phí và lấy số mới."
+    },
+    {
+      "q": "Số có thay đổi khu vực cửa hàng Steam của tôi không?",
+      "a": "Không. Khu vực cửa hàng tuân theo vị trí và thông tin thanh toán của bạn theo quy định riêng của Valve — số điện thoại không có tiếng nói. Hãy chọn số từ quốc gia nơi tài khoản thực sự “sống”; dùng số để nhảy khu vực không phải mục đích của chúng và cũng không được các bước kiểm tra của Steam ủng hộ."
+    }
+  ]
+}

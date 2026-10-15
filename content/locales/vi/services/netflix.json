@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Netflix — Xác minh không cần điện thoại riêng",
+  "metaDescription": "Nhận mã xác minh của Netflix trên số ảo thật thường chỉ trong vài giây và giữ bản dùng thử, gói đăng ký tách biệt khỏi điện thoại cá nhân của bạn.",
+  "hero": {
+    "title": "Số ảo cho Netflix",
+    "intro": [
+      "Netflix là dịch vụ lấy email làm trọng tâm — nhưng bước điện thoại cứ len vào. Một số khu vực và quy trình đăng ký xác minh số ngay lập tức, các gói di động ở vài quốc gia được xây dựng quanh nó, và ứng dụng gửi mã như “Your Netflix verification code is 428916” mỗi khi muốn kiểm tra lại có phải đúng bạn.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia và mã đến ứng dụng thường chỉ trong vài giây. Gói đăng ký được xác minh — và số cá nhân của bạn nằm ngoài thêm một cơ sở dữ liệu khách hàng nữa."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Netflix?",
+    "body": [
+      "Tài khoản xem phim là thứ cá nhân đến lạ: nó biết bạn xem gì, khi nào bạn ngủ quên và ai ngồi cùng ghế với bạn. Thêm số cá nhân làm liên hệ khôi phục, và bạn đã gắn hồ sơ đó với danh tính ngoài đời — đồng thời trao cho thêm một công ty một số có thể bị nhắm bởi tin nhắn đặt lại mật khẩu. Nếu tài khoản dùng chung cả nhà, hoặc là bản dùng thử bạn có thể không giữ, không có lý do gì SIM của bạn phải là điểm tựa của nó.",
+      "Mặt trái thẳng thắn: vì Netflix dựa vào email, điện thoại ở đây hiếm khi là nền móng của tài khoản — nó là một trạm kiểm tra. Đó chính là điều khiến số ảo phù hợp. Nó đảm nhận thời điểm xác minh (đăng ký, kiểm tra thiết bị mới, lời nhắc khôi phục), còn email bạn kiểm soát vẫn là thứ tài khoản thực sự dựa vào."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Netflix bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Chọn Netflix làm dịch vụ và chọn quốc gia — tốt nhất là nơi bạn đăng ký và thanh toán. Một chạm giữ cho bạn một số di động thật."
+      },
+      {
+        "title": "Nhập số khi Netflix yêu cầu",
+        "body": "Lời nhắc điện thoại xuất hiện khi đăng ký ở một số quy trình, hoặc sau này trong cài đặt tài khoản khi bạn thêm điện thoại. Chọn mã quốc gia của số và nhập cẩn thận."
+      },
+      {
+        "title": "Nhập mã",
+        "body": "SMS có dạng “Your Netflix verification code is 428916” và hiện trong ứng dụng SMS Code thường chỉ trong vài giây. Nhập mã và số đã được xác nhận."
+      },
+      {
+        "title": "Giữ email làm điểm tựa",
+        "body": "Đảm bảo email của tài khoản là email bạn kiểm soát và mật khẩu đủ mạnh. Nếu bạn không định giữ số thuê, hãy xóa hoặc thay điện thoại trong cài đặt tài khoản sau đó — Netflix không bao giờ nên có lý do nhắn tới một số bạn không còn đọc."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Có thể bạn hoàn toàn không cần số",
+      "body": "Rất nhiều lần đăng ký Netflix không bao giờ hỏi điện thoại — email và thanh toán là đủ. Hãy kiểm tra quy trình của bạn trước và chỉ thuê số khi màn hình điện thoại thực sự xuất hiện. Một lần kích hoạt bị hủy trước khi có SMS sẽ không tốn gì."
+    },
+    {
+      "title": "Đừng để số đã chết làm phương thức khôi phục",
+      "body": "Nếu điện thoại vẫn nằm trên tài khoản, Netflix có thể gửi mã đăng nhập hoặc liên kết đặt lại tới đó. Sau khi xác minh, hãy thay bằng số bạn kiểm soát hoặc xóa hẳn, để lúc quên mật khẩu không bao giờ phụ thuộc vào một số đã mất."
+    },
+    {
+      "title": "Một số không bẻ cong được quy định",
+      "body": "Kiểm tra hộ gia đình, danh mục theo khu vực và ưu đãi mỗi khách một lần được Netflix thực thi qua tín hiệu riêng, không qua điện thoại của bạn. Số ảo là công cụ quyền riêng tư cho bước SMS — nó không đổi khu vực hay nhân ưu đãi, và cố làm vậy phần lớn chỉ khiến tài khoản bị gắn cờ."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Netflix có luôn hỏi số điện thoại không?",
+      "a": "Không. Hầu hết lần đăng ký chỉ cần email và thanh toán. Điện thoại xuất hiện ở một số khu vực và quy trình — gói dành cho di động, bước kiểm tra bảo mật thêm, thiết lập khôi phục. Khi quy trình của bạn thực sự hỏi, số ảo nhận mã đúng như một chiếc SIM."
+    },
+    {
+      "q": "Tài khoản Netflix có còn hoạt động sau khi số đã thuê hết hạn không?",
+      "a": "Có. Tài khoản Netflix dựa vào email và mật khẩu; điện thoại là trạm kiểm tra, không phải nền móng. Xác nhận email, đặt mật khẩu mạnh và xóa hoặc thay số thuê trong cài đặt tài khoản — sau đó không gì phụ thuộc vào nó."
+    },
+    {
+      "q": "Tôi có thể bắt đầu bản dùng thử hay ưu đãi Netflix bằng số ảo không?",
+      "a": "Nơi Netflix có bản dùng thử hoặc ưu đãi giới thiệu, điều khoản quy định mỗi khách hàng một lần. Số ảo giữ điện thoại cá nhân của bạn ngoài lần đăng ký — nó không phải cách nhận cùng một ưu đãi hai lần, và mánh tài khoản trùng thường kết thúc bằng ưu đãi bị hủy."
+    },
+    {
+      "q": "Việc này có đổi khu vực hay danh mục Netflix của tôi không?",
+      "a": "Không. Nội dung bạn xem được phụ thuộc vào nơi bạn ở và cách tài khoản được thanh toán, theo quy định riêng của Netflix — số điện thoại không đóng vai trò gì. Hãy chọn số từ quốc gia của bạn để thông tin tài khoản nhất quán."
+    },
+    {
+      "q": "Vì sao mã Netflix không đến?",
+      "a": "Kiểm tra mã quốc gia bạn chọn có khớp với số đã thuê, và xem email của tài khoản — Netflix đôi khi xác minh qua đó. Nếu SMS không bao giờ đến, hãy hủy lần kích hoạt miễn phí trong SMS Code và lấy số mới."
+    }
+  ]
+}

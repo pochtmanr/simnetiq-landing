@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho KakaoTalk — Xác minh không cần điện thoại riêng",
+  "metaDescription": "Nhận mã KakaoTalk trên số ảo thật thường chỉ trong vài giây. Dùng ứng dụng nhắn tin chính của Hàn Quốc mà không phải đưa ra điện thoại cá nhân của bạn.",
+  "hero": {
+    "title": "Số ảo cho KakaoTalk",
+    "intro": [
+      "KakaoTalk là cách Hàn Quốc trò chuyện — nhóm chat, chuỗi tin gia đình, liên hệ công việc — và như mọi ứng dụng nhắn tin nghiêm túc, nó mở đầu bằng màn hình điện thoại. Đăng ký gửi một mã ngắn như “[KakaoTalk] 4829 is your verification code”, và không có đường chỉ dùng email để vòng qua.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia và mã hiện trong ứng dụng thường chỉ trong vài giây. Bạn vào được cuộc trò chuyện — và bạn bè, đồng nghiệp hay họ hàng Hàn Quốc đang chờ ở đó không bao giờ cần số cá nhân của bạn để liên lạc."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho KakaoTalk?",
+    "body": [
+      "Các ứng dụng nhắn tin dựa trên số điện thoại có chung một mặc định lặng lẽ: ai lưu số bạn có thể tìm thấy hồ sơ của bạn, và ai trò chuyện với bạn chỉ cách nó một cài đặt. Tham gia KakaoTalk vì một buổi trao đổi ngôn ngữ, một liên hệ công việc hay một chuyến đi Seoul không nên đồng nghĩa với việc số cả đời của bạn đi vào một đồ thị xã hội mới. Số thuê đảm nhận việc xác minh, còn số thật của bạn đứng ngoài phương trình.",
+      "Mặt trái thẳng thắn: số không phải Hàn Quốc cho bạn một tài khoản chat đầy đủ, nhưng không phải toàn bộ Kakao. Những góc chỉ dành cho Hàn Quốc của hệ sinh thái — Kakao Pay, dịch vụ chứng thư, các tính năng gắn với kiểm tra danh tính của nhà mạng Hàn Quốc — mong đợi hợp đồng điện thoại Hàn Quốc và thường cả mã số cư trú, và không số thuê nào thay thế được. Nếu mục tiêu là trò chuyện, số ảo làm trọn vẹn; nếu mục tiêu là dịch vụ tài chính Hàn Quốc, nó vốn không bao giờ đủ."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh KakaoTalk bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Chọn KakaoTalk làm dịch vụ và chọn quốc gia. Số từ nơi bạn thực sự sống giúp tài khoản không có gì đáng chú ý. Một chạm giữ cho bạn một số di động thật."
+      },
+      {
+        "title": "Nhập số trên màn hình đăng ký",
+        "body": "KakaoTalk hỏi số ngay sau khi cài đặt. Chọn mã quốc gia tương ứng, nhập số và để ứng dụng gửi SMS."
+      },
+      {
+        "title": "Nhập mã",
+        "body": "Tin nhắn đến dưới dạng “[KakaoTalk] 4829 is your verification code” và hiện trong SMS Code thường chỉ trong vài giây. Nhập mã — nếu SMS chậm, KakaoTalk cũng có thể đọc mã qua cuộc gọi thoại sau một lúc chờ."
+      },
+      {
+        "title": "Thiết lập tài khoản lâu dài",
+        "body": "Đăng ký email và mật khẩu tài khoản Kakao trong cài đặt và ghi lại ở nơi an toàn. Chuyển thiết bị và cài lại đều dựa vào tài khoản Kakao đó — chính nó giữ các cuộc trò chuyện là của bạn sau khi số thuê không còn."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Chat nằm trên thiết bị, bản sao lưu nằm trong tài khoản",
+      "body": "KakaoTalk lưu lịch sử trên máy và khôi phục qua bản sao lưu gắn với tài khoản Kakao. Hãy đặt email và mật khẩu tài khoản ngay và sao lưu trước khi đổi điện thoại — chỉ riêng số điện thoại sẽ không mang lịch sử của bạn đi đâu cả."
+    },
+    {
+      "title": "Chú ý cài đặt tìm kiếm",
+      "body": "KakaoTalk có thể ghép bạn với bất kỳ ai đã lưu số bạn, kể cả quá khứ của một số được tái sử dụng. Hãy tắt tự động thêm bạn bằng số điện thoại trong cài đặt và chia sẻ KakaoTalk ID thay vào đó — đó là danh tính gọn gàng hơn để dùng."
+    },
+    {
+      "title": "Tính năng chỉ dành cho Hàn Quốc bị giới hạn theo danh tính, không theo số",
+      "body": "Kakao Pay, chứng thư và các dịch vụ tương tự xác minh với nhà mạng Hàn Quốc và đăng ký cư trú, không chỉ tiền tố +82. Số Hàn Quốc thuê không mở khóa được chúng — hãy lên kế hoạch quanh các tính năng chat, vốn hoạt động đầy đủ trên mọi số đã xác minh."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tôi có thể đăng ký KakaoTalk bằng số không phải Hàn Quốc không?",
+      "a": "Có. KakaoTalk đăng ký tài khoản bằng số từ hầu hết các quốc gia — đăng ký, chat, nhóm và cuộc gọi đều hoạt động. Các dịch vụ riêng của Hàn Quốc chồng lên trên có bước kiểm tra danh tính riêng mà chỉ số điện thoại không đáp ứng được."
+    },
+    {
+      "q": "Tài khoản KakaoTalk có tồn tại sau khi số đã thuê hết hạn không?",
+      "a": "Có, miễn là bạn vẫn đăng nhập và đã đặt email cùng mật khẩu tài khoản Kakao. Xác minh lại chủ yếu xuất hiện khi bạn chuyển sang thiết bị mới — hãy chuyển khi còn nhận được xác nhận, hoặc dựa vào thông tin tài khoản Kakao."
+    },
+    {
+      "q": "Vì sao KakaoTalk báo không thể dùng số này?",
+      "a": "Một số dải số và số đã từng đăng ký bị từ chối. Hãy hủy lần kích hoạt miễn phí trong SMS Code, lấy số mới — từ quốc gia khác nếu tình trạng lặp lại — và xác minh lại."
+    },
+    {
+      "q": "Bạn bè có thấy tôi đã dùng số nào không?",
+      "a": "Những liên hệ đã lưu số đó có thể ghép nó với hồ sơ của bạn nếu tính năng tự động kết bạn đang bật. Hãy tắt thêm bạn bằng số, dùng KakaoTalk ID để giới thiệu, và số chỉ còn là chi tiết đăng nhập thay vì danh tính công khai."
+    },
+    {
+      "q": "Số ảo có dùng được cho Kakao Pay hay dịch vụ xác minh của Hàn Quốc không?",
+      "a": "Không. Chúng kiểm tra hợp đồng nhà mạng Hàn Quốc và danh tính cư trú, những thứ số thuê không có. Số ảo dành cho chính ứng dụng nhắn tin — tài khoản, chat và cuộc gọi — không dành cho lớp tài chính yêu cầu danh tính của Hàn Quốc."
+    }
+  ]
+}

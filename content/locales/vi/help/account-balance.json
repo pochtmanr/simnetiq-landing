@@ -1,0 +1,27 @@
+{
+  "title": "Giữ số dư, khôi phục truy cập và xóa tài khoản",
+  "metaDescription": "Giữ số dư xu SMS Code trên mọi thiết bị, khôi phục quyền truy cập tài khoản và xóa tài khoản an toàn mà không mất xu hay quyền yêu cầu hoàn tiền.",
+  "sections": [
+    {
+      "title": "Đăng nhập trước khi cài lại",
+      "paragraphs": [
+        "Xu thuộc về tài khoản SMS Code của bạn. Hãy đăng nhập bằng Apple, Google hoặc mã qua email khi bạn vẫn còn truy cập được số dư, rồi dùng cùng cách đăng nhập đó trên thiết bị khác. Tài khoản mua hàng Apple và đăng nhập SMS Code của bạn là hai thứ riêng biệt.",
+        "Cài lại khi đang dùng tài khoản ẩn danh có thể tạo ra một tài khoản khác. Tự việc khôi phục giao dịch mua trên App Store không tái tạo số dư xu ẩn danh. Nếu bạn mất quyền truy cập, hãy liên hệ hỗ trợ kèm mã đơn hàng Apple và các thông tin tài khoản bạn còn có; việc khôi phục cần xác minh."
+      ]
+    },
+    {
+      "title": "Trước khi xóa tài khoản",
+      "id": "delete",
+      "paragraphs": [
+        "Xóa tài khoản và hoàn tiền thanh toán là hai hành động riêng. Hãy lưu thông tin giao dịch bạn cần, giải quyết mọi lần kích hoạt đang chờ và liên hệ hỗ trợ về số xu còn lại trước khi xóa. Yêu cầu hoàn tiền thanh toán Apple một cách riêng biệt.",
+        "Dùng tùy chọn xóa tài khoản trong cài đặt ứng dụng. Nếu không truy cập được, hãy liên hệ hỗ trợ. Việc xóa không hủy khoản thanh toán Apple, và các hồ sơ cần cho nghĩa vụ pháp lý hoặc xử lý tranh chấp có thể được giữ lại như mô tả trong Chính sách quyền riêng tư của chúng tôi."
+      ]
+    },
+    {
+      "title": "Liên hệ với chúng tôi một cách an toàn",
+      "paragraphs": [
+        "Dùng biểu mẫu hỗ trợ hoặc support@simnetiq.com. Hãy gửi dịch vụ, quốc gia, thời gian và mã kích hoạt hoặc mã đơn hàng, nhưng không bao giờ gửi mật khẩu, mã xác minh hay đầy đủ thông tin thẻ thanh toán. Hãy kiểm tra ảnh chụp màn hình xem có thông tin nhạy cảm không trước khi chia sẻ."
+      ]
+    }
+  ]
+}

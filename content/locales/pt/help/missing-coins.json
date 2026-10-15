@@ -1,0 +1,27 @@
+{
+  "title": "Paguei mas as moedas não apareceram",
+  "metaDescription": "Comprou um pacote de moedas e o saldo não mudou? Verifique o pagamento da Apple, sua conta SMS Code e a restauração de compras, e envie o ID do pedido.",
+  "sections": [
+    {
+      "title": "Verifique isto primeiro",
+      "steps": [
+        "**Espere alguns minutos e abra o app de novo.** Um pagamento da Apple pendente pode demorar um pouco. Não compre outro pacote para resolver.",
+        "**Verifique a conta.** As moedas pertencem à conta SMS Code que as comprou. Se você entrou com Apple, Google ou e-mail em outro dispositivo, use o mesmo login aqui.",
+        "**Restaure as compras.** Abra a loja de moedas no app e toque em **Restaurar compras**. Isso credita compras que a Apple confirmou, mas o app não registrou."
+      ]
+    },
+    {
+      "title": "Reinstalou o app?",
+      "paragraphs": [
+        "Se você usava o app sem entrar na conta, reinstalar cria uma conta nova e o saldo antigo não é transferido automaticamente. Escreva para nós com o ID do pedido da Apple e vamos ajudar a recuperá-lo. [Manter o seu saldo](/support/account-balance) explica como evitar isto no futuro."
+      ]
+    },
+    {
+      "title": "O que enviar para nós",
+      "paragraphs": [
+        "O ID do pedido da Apple, que está no e-mail com o recibo da Apple (começa por M), o pacote e a data da compra. Oculte outras compras e dados de pagamento. Se você escrever pelo app, o ID da sua conta é anexado automaticamente.",
+        "Se preferir o dinheiro de volta em vez das moedas, veja [como pedir um reembolso à Apple](/support/refund-apple)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Signal — prywatna rejestracja bez karty SIM",
+  "metaDescription": "Zarejestruj Signal prawdziwym numerem wirtualnym z ponad 100 krajów. Kod przychodzi zwykle w kilka sekund – płatność za aktywację, darmowe anulowanie bez SMS.",
+  "hero": {
+    "title": "Numer wirtualny do Signala",
+    "intro": [
+      "Oto ironia Signala: komunikator, który wszystko szyfruje, prawie nic nie przechowuje i jest polecany przez każdego badacza prywatności, i tak prosi o numer telefonu, zanim wyślesz pierwszą wiadomość. Rejestracja opiera się na kodzie SMS – mimo że dzięki nazwom użytkowników nikt nie musi już potem tego numeru widzieć.",
+      "Z SMS Code zamykasz tę ostatnią lukę: wynajmij prawdziwy numer komórkowy w jednym z ponad 100 krajów, zarejestruj nim Signala, a kod pojawi się w aplikacji zwykle w ciągu kilku sekund. Płacisz za aktywację z jednorazowego pakietu monet – bez abonamentu – a aktywacja, która nie odebrała SMS-a, jest anulowana bez opłat."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Signala?",
+    "body": [
+      "Jeśli wybrałeś Signala, to ze względu na metadane, których nie przechowuje – a numer telefonu to jedyny identyfikator, którego rejestracja wciąż wymaga. Rejestracja prywatnym numerem po cichu podważa resztę projektu: komunikator nic nie zdradza, ale zapisany numer to ten sam, który łączy się z Twoim bankiem, pracodawcą i rekordami każdego brokera danych. Wynajęty numer dopełnia obraz, który Signal zaczął.",
+      "Odkąd pojawiły się nazwy użytkowników, jedynym pozostałym zadaniem numeru jest rejestracja. Kontakty mogą znaleźć Cię po nazwie użytkownika, a ustawienia prywatności pozwalają uczynić numer niewidocznym i niewyszukiwalnym: „Kto może widzieć mój numer” – Nikt, „Kto może mnie znaleźć po numerze” – Nikt. Połącz te ustawienia z numerem wirtualnym, a konta nie da się odnaleźć przez Twój prawdziwy numer z prostego powodu: prawdziwy numer nigdy nie brał w tym udziału."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zarejestrować Signala numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Weź numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz Signal jako usługę, wybierz kraj i stuknij raz. Prawdziwy numer komórkowy jest zarezerwowany tylko dla Ciebie na czas aktywacji."
+      },
+      {
+        "title": "Wpisz go w Signalu",
+        "body": "Na ekranie rejestracji wybierz pasujący numer kierunkowy i wpisz numer. Signal czasem pokazuje captchę przed wysłaniem kodu – to jego kontrola antynadużyciowa, po prostu ją rozwiąż."
+      },
+      {
+        "title": "Odbierz kod",
+        "body": "SMS trafia do aplikacji SMS Code zwykle w ciągu kilku sekund, w formacie „SIGNAL: Your code is: 613904”. Wpisz cyfry, a rejestracja się zakończy."
+      },
+      {
+        "title": "Ustaw PIN i zajmij nazwę użytkownika",
+        "body": "Utwórz PIN Signala, potem włącz Blokadę rejestracji w Ustawienia → Konto. Następnie ustaw nazwę użytkownika i przełącz „Kto może widzieć mój numer” oraz „Kto może mnie znaleźć po numerze” na Nikt. Teraz numer wykonał swoje jedyne zadanie i znika z widoku."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Blokada rejestracji to Twoja siatka bezpieczeństwa",
+      "body": "Przy włączonej Blokadzie rejestracji ponowna rejestracja Twojego numeru wymaga PIN-u Signala – więc nikt, kto później będzie miał ten numer, nie przejmie konta. Jedno zastrzeżenie prosto z projektu Signala: blokada pozostaje uzbrojona tylko wtedy, gdy konto jest używane, więc otwieraj aplikację przynajmniej raz w tygodniu."
+    },
+    {
+      "title": "Niech mówi nazwa użytkownika",
+      "body": "Udostępniaj nazwę użytkownika, a nie numer – o to chodzi w tej funkcji. Nazwę możesz zmienić w każdej chwili, a z przełącznikami prywatności numeru ustawionymi na Nikt nawet osoby, które jakoś poznają wynajęty numer, nie znajdą przez niego konta."
+    },
+    {
+      "title": "Twoje konto żyje na Twoim urządzeniu",
+      "body": "Zgodnie ze swoją filozofią Signal nie przechowuje kopii czatów w chmurze – konto i historia istnieją na Twoim telefonie. Przeprowadzka na nowy telefon działa przez wbudowany transfer, póki stary jeszcze działa. Zaplanuj to: gdy okno wynajętego numeru jest zamknięte, samo urządzenie jest kontem."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy to, że najbardziej prywatny komunikator wymaga numeru telefonu, nie przekreśla sensu?",
+      "a": "To prawdziwe napięcie i Signal o tym wie – dlatego istnieją nazwy użytkowników i ustawienia prywatności numeru. Numer jest wymagany raz, przy rejestracji, jako środek antyspamowy. Numer wirtualny spełnia ten wymóg bez wiązania konta z Tobą, co jest chyba najbardziej zgodnym z duchem Signala sposobem rejestracji."
+    },
+    {
+      "q": "Czy ktoś zobaczy numer, którym się zarejestrowałem?",
+      "a": "Nie, jeśli przestawisz przełączniki: ustaw „Kto może widzieć mój numer” i „Kto może mnie znaleźć po numerze” na Nikt i udostępniaj zamiast tego nazwę użytkownika. Od tej chwili numer nigdzie się nie pojawia – ani w profilu, ani w wyszukiwaniu."
+    },
+    {
+      "q": "Co stanie się z moim kontem Signal, gdy wynajęty numer wygaśnie?",
+      "a": "Konto działa dalej na Twoim urządzeniu – numer był potrzebny do jednorazowej rejestracji. Włącz Blokadę rejestracji, żeby nikt nie mógł ponownie zarejestrować numeru bez Twojego PIN-u, i dalej używaj aplikacji, żeby blokada pozostała aktywna."
+    },
+    {
+      "q": "Co, jeśli zgubię telefon albo przeinstaluję Signala?",
+      "a": "To uczciwe ograniczenie: ponowna rejestracja wymaga odebrania kodu na numer, a wygasły wynajem tego nie zrobi. Przenieś konto na nowy telefon, póki stary jeszcze działa, i traktuj urządzenie jako dom konta. Przy ustawieniu nastawionym na prywatność ten kompromis jest zwykle akceptowalny – po prostu podejmij go świadomie."
+    },
+    {
+      "q": "Dlaczego kod z Signala nie dotarł?",
+      "a": "Signal ostrożnie podchodzi do rejestracji, które uznaje za podejrzane: możesz najpierw dostać captchę, a niektóre numery są od razu odrzucane. Sprawdź, czy numer kierunkowy pasuje, rozwiąż ewentualną captchę, a jeśli SMS nadal nie przychodzi, anuluj aktywację w SMS Code – monety wracają za numery, które nic nie odebrały – i spróbuj innego numeru lub kraju."
+    }
+  ]
+}

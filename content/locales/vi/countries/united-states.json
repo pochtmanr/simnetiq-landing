@@ -1,0 +1,55 @@
+{
+  "name": "Hoa Kỳ",
+  "metaTitle": "Số ảo Mỹ để xác minh SMS — Số +1 thật",
+  "metaDescription": "Nhận số ảo Mỹ (+1) thật và mã xác minh SMS thường chỉ trong vài giây. Xác minh Google, Instagram, TikTok, Discord và nhiều dịch vụ khác.",
+  "hero": {
+    "title": "Số ảo Mỹ để xác minh SMS",
+    "intro": [
+      "Số +1 là thứ gần nhất với mặc định mà internet có: các dịch vụ Mỹ mong đợi nó, biểu mẫu đăng ký chọn sẵn nó, và quy trình hỗ trợ được xây quanh nó. Khi một dịch vụ khó tính với số nước ngoài, số Mỹ thường là số cứ thế hoạt động.",
+      "SMS Code cho bạn một số di động Mỹ thật chỉ bằng một chạm. Nhập nó ở bước xác minh, và SMS — với mã từ Google, Instagram, TikTok hay hơn 100 dịch vụ khác — hiện trong ứng dụng thường chỉ trong vài giây."
+    ]
+  },
+  "whyCountry": {
+    "title": "Vì sao chọn số Mỹ?",
+    "body": [
+      "Các nền tảng có trụ sở tại Mỹ coi số +1 là sân nhà. Một số tính năng và lối đăng ký đơn giản là suôn sẻ hơn với số Mỹ — phiên bản ứng dụng chỉ có ở Mỹ, dịch vụ khóa đăng ký theo khu vực, hay tài khoản bạn muốn gắn với thị trường Mỹ thay vì quốc gia của mình.",
+      "Định dạng quen thuộc ở khắp nơi: +1, rồi mã vùng ba chữ số và số bảy chữ số. Các dịch vụ hiếm khi phân tích sai nó, và nó không thu hút sự soi xét thêm mà một số mã quốc gia hiếm gặp phải lúc xác minh."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Khớp khu vực tài khoản",
+      "body": "Nếu bạn xây dựng một tài khoản mang hơi hướng Mỹ — hồ sơ App Store Mỹ, TikTok cho thị trường Mỹ — hãy dùng số Mỹ cùng khu vực cửa hàng và ngôn ngữ ứng dụng tương ứng để bức tranh nhất quán."
+    },
+    {
+      "title": "Mã vùng không quan trọng",
+      "body": "Các dịch vụ kiểm tra số, không phải thành phố sau mã vùng. Số của bạn bắt đầu bằng ba chữ số nào thì mã xác minh vẫn đến như nhau."
+    },
+    {
+      "title": "Nếu mã bị kẹt, hãy đổi số",
+      "body": "Nhu cầu cao nghĩa là một số số Mỹ đã từng qua đăng ký, và một dịch vụ có thể giới hạn chúng. Hãy hủy lần kích hoạt đang chờ — xu được hoàn nếu không có gì đến — và lấy số mới."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Đây có phải số di động Mỹ thật không?",
+      "a": "Có — một số trên mạng nhà mạng thật theo định dạng +1 tiêu chuẩn. Các dịch vụ thấy một số di động Mỹ bình thường, không phải bộ nhận số ngắn chỉ có trên internet."
+    },
+    {
+      "q": "Dịch vụ nào hoạt động tốt nhất với số Mỹ?",
+      "a": "Số Mỹ là lựa chọn mặc định an toàn nhất cho các nền tảng Mỹ — Google, Discord, Tinder, TikTok, Instagram — và cho mọi dịch vụ có quy trình đăng ký giả định số nội địa."
+    },
+    {
+      "q": "Tôi có thể dùng số Mỹ từ ngoài Hoa Kỳ không?",
+      "a": "Có. Số nằm trong ứng dụng SMS Code, nên vị trí và SIM của bạn không quan trọng — bạn nhận mã ở bất cứ đâu."
+    },
+    {
+      "q": "Tôi có giữ số sau khi xác minh không?",
+      "a": "Số được thuê trong thời hạn kích hoạt — đủ lâu để nhận mã xác minh. Với tài khoản bạn định giữ, hãy thêm email khôi phục và 2FA qua ứng dụng ngay sau khi đăng ký."
+    },
+    {
+      "q": "SMS xác minh từ Mỹ trông thế nào?",
+      "a": "Như mọi tin nhắn nội địa Mỹ: tên dịch vụ hoặc số ngắn làm người gửi và mã 4–8 chữ số trong nội dung. Toàn bộ nội dung hiện trong ứng dụng ngay khi nó đến."
+    }
+  ]
+}

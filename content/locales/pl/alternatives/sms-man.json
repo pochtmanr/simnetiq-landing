@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternatywa dla SMS-Man — aplikacja SMS Code od SIMNETIQ",
+  "metaDescription": "SMS-Man w porównaniu z aplikacją SMS Code od SIMNETIQ: usługa webowa z wieloma metodami doładowania kontra natywna aplikacja iOS rozliczana przez App Store.",
+  "hero": {
+    "title": "Alternatywa dla SMS-Man rozliczana przez Twój sklep z aplikacjami",
+    "intro": [
+      "SMS-Man to od dawna działająca usługa webowa do odbierania kodów weryfikacyjnych SMS na numerach wirtualnych. Rejestrujesz się na ich stronie, doładowujesz saldo konta – publiczne opisy usługi wspominają szeroki wachlarz metod, od kart bankowych po systemy e-płatności i kryptowaluty – i kupujesz numery za aktywację, z API dostępnym do automatyzacji.",
+      "SMS Code od SIMNETIQ wymienia tę elastyczność na prostszy model zaufania. To natywna aplikacja na iOS, w której płatność odbywa się wyłącznie przez rozliczenia Apple: kupujesz jednorazowy pakiet monet tak jak każdy zakup w aplikacji, a żaden numer karty, adres portfela ani dane płatnicze nigdy do nas nie trafiają. Wybierz usługę i kraj, a kod dotrze do aplikacji zwykle w ciągu kilku sekund."
+    ]
+  },
+  "whenThem": {
+    "title": "Kiedy SMS-Man jest lepszym wyborem",
+    "body": "Wybierz SMS-Man, jeśli sposób płatności liczy się tak samo jak to, co kupujesz. Usługa webowa przyjmująca wiele ścieżek doładowania – w tym opcje jak kryptowaluty, których rozliczenia sklepu po prostu nie oferują – pasuje do użytkowników, których preferowana metoda płatności leży poza torami Apple i Google. Ich API obsługuje też deweloperów automatyzujących weryfikację na dużą skalę, a katalog krajów i usług jest nastawiony na takie szersze, intensywniejsze użycie."
+  },
+  "whenUs": {
+    "title": "Kiedy lepiej pasuje aplikacja SMS Code",
+    "body": "Wybierz aplikację, jeśli wolisz w ogóle nie oddawać danych płatniczych niszowej stronie. Rozliczenia sklepu to cały sens: Apple przetwarza płatność, my nigdy nie widzimy Twojej karty, a zakup trafia do zwykłej historii sklepu z typową ochroną. Do tego dostajesz doświadczenie natywnej aplikacji – kilka stuknięć od usługi do kodu, ponad 100 krajów, ponad 100 popularnych usług, jednorazowe pakiety monet bez abonamentu i darmowe anulowanie, gdy aktywacja nie odbierze SMS-a."
+  },
+  "comparison": {
+    "title": "SMS-Man i aplikacja SMS Code obok siebie",
+    "rows": [
+      {
+        "label": "Platformy",
+        "competitor": "Usługa webowa z API do automatyzacji",
+        "us": "Natywna aplikacja na iOS z App Store"
+      },
+      {
+        "label": "Model cenowy",
+        "competitor": "Płatność za aktywację z doładowanego salda konta",
+        "us": "Jednorazowe pakiety monet, płatność za aktywację – bez abonamentu"
+      },
+      {
+        "label": "Płatność",
+        "competitor": "Doładowanie salda wieloma metodami, według publicznych opisów w tym kartami, e-płatnościami i kryptowalutami",
+        "us": "Tylko rozliczenia Apple – bez udostępniania nam danych płatniczych"
+      },
+      {
+        "label": "Zasięg",
+        "competitor": "Szeroki katalog krajów i usług nastawiony na intensywne użycie",
+        "us": "Ponad 100 krajów i ponad 100 popularnych usług, wyselekcjonowanych pod codzienne rejestracje"
+      },
+      {
+        "label": "Anulowanie",
+        "competitor": "Według ich własnych zasad zwrotów – sprawdź aktualne warunki",
+        "us": "Aktywacje bez SMS-a anulują się za darmo, monety wracają"
+      },
+      {
+        "label": "Wsparcie",
+        "competitor": "Kanały wsparcia przez ich stronę",
+        "us": "Formularz kontaktowy w aplikacji i na stronie"
+      },
+      {
+        "label": "Najlepsze dla",
+        "competitor": "Użytkowników potrzebujących elastycznych płatności lub skali przez API",
+        "us": "Osób chcących prostoty rozliczeń przez sklep i natywnej aplikacji mobilnej"
+      }
+    ],
+    "note": "Informacje o konkurencji odzwierciedlają publiczne opisy jej usługi w chwili pisania i mogą się zmienić – zawsze sprawdź na sms-man.com przed decyzją."
+  },
+  "switchSteps": {
+    "title": "Wypróbowanie aplikacji to trzy kroki",
+    "steps": [
+      {
+        "title": "Zainstaluj aplikację",
+        "body": "Pobierz SMS Code od SIMNETIQ z App Store – bez rejestracji na stronie i doładowywania salda."
+      },
+      {
+        "title": "Weź pakiet monet",
+        "body": "Kup jednorazowy pakiet przez konto App Store. Płatność obsługuje Apple; nigdy nie otrzymujemy danych Twojej karty."
+      },
+      {
+        "title": "Uruchom pierwszą aktywację",
+        "body": "Wybierz usługę i kraj, dostań prawdziwy numer i patrz, jak kod dociera do aplikacji zwykle w ciągu kilku sekund. Jeśli nic nie przyjdzie, aktywacja anuluje się za darmo."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Czym płacenie w aplikacji SMS Code różni się od SMS-Man?",
+      "a": "SMS-Man działa jak większość usług webowych: doładowujesz saldo na stronie jedną z akceptowanych metod. W aplikacji płatność idzie wyłącznie przez rozliczenia Apple – zwykły zakup w aplikacji – więc żaden numer karty ani dane płatnicze nigdy do nas nie trafiają."
+    },
+    {
+      "q": "Czy mogę zapłacić w aplikacji kryptowalutą?",
+      "a": "Nie. Rozliczenia sklepu nie obsługują kryptowalut, a aplikacja nie przyjmuje płatności poza App Store. Jeśli kryptowaluty są wymogiem, lepiej pasuje usługa webowa jak SMS-Man, która wymienia takie opcje."
+    },
+    {
+      "q": "Czy jest abonament lub cykliczne obciążenie?",
+      "a": "Nie. Pakiety monet to jednorazowe zakupy; wydajesz monety na aktywacje i kupujesz kolejny pakiet tylko wtedy, gdy zechcesz."
+    },
+    {
+      "q": "Co się stanie, jeśli kod nigdy nie przyjdzie?",
+      "a": "Aktywacja się anuluje, a monety wracają. Płacisz tylko za numery, które faktycznie odbiorą SMS."
+    },
+    {
+      "q": "Czy aplikacja ma API jak SMS-Man?",
+      "a": "Nie – aplikacja to produkt konsumencki do ręcznej weryfikacji kont, a nie platforma do skryptowanych rejestracji. Jeśli potrzebujesz programowego dostępu do numerów, ten przypadek obsługuje API SMS-Man."
+    }
+  ]
+}

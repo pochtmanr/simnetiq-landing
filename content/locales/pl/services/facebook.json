@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Facebook — rejestracja bez karty SIM",
+  "metaDescription": "Zweryfikuj Facebook prawdziwym numerem wirtualnym z ponad 100 krajów. Kod przychodzi zwykle w kilka sekund – płatność za aktywację, darmowe anulowanie bez SMS.",
+  "hero": {
+    "title": "Numer wirtualny do Facebooka",
+    "intro": [
+      "Na papierze Facebook pozwala zarejestrować się samym e-mailem. W praktyce numer telefonu rzadko zostaje poza grą: formularz rejestracji często o niego prosi, a nowe konta w pierwszych dniach regularnie trafiają na punkt kontroli bezpieczeństwa – gdzie kod wysłany SMS-em to najszybszy sposób, by udowodnić, że za profilem stoi prawdziwy człowiek.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, podajesz go Facebookowi, a kod potwierdzający pojawia się w aplikacji zwykle w ciągu kilku sekund. Płacisz za aktywację z jednorazowego pakietu monet – bez abonamentu – a jeśli numer nic nie odbierze, anulujesz go bez opłat."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Facebooka?",
+    "body": [
+      "Profil na Facebooku już zawiera Twoje imię, twarz i listę znajomych. Dodanie prywatnego numeru telefonu do tego zestawu łączy go z całą resztą Twojego życia – a numery przypięte do kont na Facebooku były w przeszłości masowo wykradane i publikowane. Wyciekły numer działa jak klucz wyszukiwania: łączy Twój profil z komunikatorami, marketplace’ami i rekordami brokerów danych. Numer wirtualny daje Facebookowi prawdziwy, działający numer, który po prostu nie jest tym kluczem.",
+      "Są też powody codzienne: rejestrujesz się za granicą, a karta SIM z domu nie odbiera SMS-ów, albo sprzedajesz na Marketplace i wolisz, żeby obcy nie mieli numeru, który dzwoni w Twojej kieszeni. Do czego numer wirtualny nie służy – regulamin Facebooka pozwala na jedno konto osobiste na osobę, więc traktuj to jako prywatność dla Twojego konta, a nie sposób na prowadzenie kilku."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Facebooka numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Weź numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz Facebook jako usługę, wybierz kraj i stuknij raz. Prawdziwy numer komórkowy jest zarezerwowany tylko dla Ciebie na czas aktywacji."
+      },
+      {
+        "title": "Wpisz go, gdy Facebook poprosi",
+        "body": "Może to być sam formularz rejestracji albo punkt kontroli chwilę później. Wybierz numer kierunkowy pasujący do wynajętego numeru – niezgodność to najczęstszy powód, dla którego kod nigdy nie przychodzi."
+      },
+      {
+        "title": "Wpisz kod potwierdzający",
+        "body": "SMS trafia do aplikacji SMS Code zwykle w ciągu kilku sekund, od nadawcy „Facebook”, w formacie „285103 is your Facebook confirmation code”. Wpisz cyfry, a kontrola zostanie zaliczona."
+      },
+      {
+        "title": "Zakotwicz konto w rzeczach, które kontrolujesz",
+        "body": "Od razu dodaj własny e-mail i włącz uwierzytelnianie dwuskładnikowe przez aplikację uwierzytelniającą w Centrum kont → Hasło i zabezpieczenia. Od tej chwili logowanie i odzyskiwanie nigdy nie zależą od wynajętego numeru."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Spodziewaj się punktu kontroli – to rutyna",
+      "body": "Facebook sprawdza nowe konta agresywniej niż niemal każda inna sieć społecznościowa. Zdjęcie profilowe, kilka prawdziwych danych i ludzkie tempo bardzo pomagają; na wpół puste konto, które w godzinę dodaje pięćdziesięciu znajomych, to dokładnie to, co uruchamia filtry."
+    },
+    {
+      "title": "Przenieś odzyskiwanie z numeru już pierwszego dnia",
+      "body": "Wynajęty numer jest na moment weryfikacji, nie na całe życie. Gdy już wejdziesz, potwierdź adres e-mail i skonfiguruj aplikację uwierzytelniającą – wtedy żadne przyszłe logowanie ani odzyskiwanie nie przejdzie przez SMS."
+    },
+    {
+      "title": "Jedna osoba, jedno konto",
+      "body": "Regulamin Facebooka jest jednoznaczny: jedno konto osobiste na osobę. Numer wirtualny chroni prywatność Twojego prawdziwego numeru na koncie, które masz – używanie go do mnożenia kont naraża je wszystkie."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy moje konto na Facebooku będzie działać po wygaśnięciu numeru?",
+      "a": "Tak. Numer jest sprawdzany w chwili weryfikacji, a nie na bieżąco. Dodaj e-mail i 2FA przez aplikację zaraz po rejestracji, a nic w koncie nigdy więcej nie będzie zależeć od tego numeru."
+    },
+    {
+      "q": "Czy mogę zarejestrować się na Facebooku w ogóle bez numeru telefonu?",
+      "a": "Czasem – rejestracja tylko e-mailem istnieje. Ale wiele nowych kont jest proszonych o telefon podczas rejestracji albo krótko po niej, na punkcie kontroli. Praktyczne podejście to wynająć numer w chwili, gdy Facebook rzeczywiście go wymaga."
+    },
+    {
+      "q": "Dlaczego Facebook zablokował moje zupełnie nowe konto?",
+      "a": "Punkty kontroli przy nowych kontach są normalne i nie oznaczają, że zrobiłeś coś źle. Facebook co jakiś czas prosi nowe profile o potwierdzenie numeru telefonu, a czasem o zdjęcie. Wykonaj krok SMS, uzupełniaj profil w ludzkim tempie, a konto się uspokoi."
+    },
+    {
+      "q": "Dlaczego kod z Facebooka nie dotarł?",
+      "a": "Zwykle z jednego z dwóch powodów: numer kierunkowy wpisany na Facebooku nie pasuje do wynajętego numeru albo Facebook odmówił wysłania SMS-a na ten konkretny numer. Anuluj oczekującą aktywację w SMS Code – monety wracają za numery, które nic nie odebrały – i spróbuj z nowym, najlepiej z innego kraju."
+    },
+    {
+      "q": "Czy weryfikacja Facebooka wynajętym numerem łamie zasady?",
+      "a": "Kontrole Facebooka mają potwierdzić osiągalną osobę, a numer wirtualny to prawdziwy, osiągalny numer. Platforma faktycznie egzekwuje zachowanie i autentyczność: jedno prawdziwe konto, bez podszywania się, bez spamu. Trzymaj się tego, a pochodzenie numeru nie ma znaczenia."
+    }
+  ]
+}

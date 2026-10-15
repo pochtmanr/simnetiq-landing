@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer PayPal — przeczytaj, zanim zweryfikujesz",
+  "metaDescription": "PayPal wysyła kod przy rejestracji, a numer wirtualny może go odebrać. Na koncie z pieniędzmi numer jest jednak kotwicą bezpieczeństwa – uczciwie o kompromisie.",
+  "hero": {
+    "title": "Numer wirtualny do PayPal",
+    "intro": [
+      "PayPal wcześnie potwierdza numer telefonu: podczas rejestracji wysyła „Your PayPal security code is: 305174. It expires in 10 minutes.” i nie pójdzie dalej, dopóki kod nie zostanie wpisany. Od tej chwili numer nie jest formalnością – staje się częścią tego, jak PayPal decyduje, czy logowanie, płatność lub zmiana limitu to naprawdę Ty.",
+      "Numer wirtualny z SMS Code odbiera ten kod zwykle w ciągu kilku sekund, jak każdy prawdziwy numer komórkowy. Ale PayPal to konto z pieniędzmi i wolimy być z Tobą szczerzy, niż sprzedawać skrót: przeczytaj kompromisy poniżej, zanim zweryfikujesz, i zdecyduj, gdzie numer powinien – a gdzie nie powinien – znaleźć się w zabezpieczeniach Twojego konta."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do PayPal?",
+    "body": [
+      "Argument prywatności jest prawdziwy. Baza danych firmy płatniczej przyciąga listy marketingowe i czasem wycieki; Twój numer telefonu to element łączący profil płatniczy z resztą Twojego życia. Wynajęcie numeru do jednorazowego SMS-a przy rejestracji trzyma prywatny numer poza tym rekordem, a jednocześnie udowadnia PayPalowi, że odpowiedział prawdziwy telefon.",
+      "Teraz uczciwa część. PayPal dalej używa zweryfikowanego numeru do dodatkowych kontroli – logowania z nowego urządzenia, przeglądu bezpieczeństwa, punktu kontroli limitu. Jeśli któraś z nich uruchomi się po zamknięciu okna aktywacji wynajętego numeru, tracisz dostęp do konta z pieniędzmi, a odzyskiwanie oznacza zgłoszenia do pomocy i dokumenty tożsamości zamiast stuknięcia. Nasza faktyczna rekomendacja: użyj numeru wirtualnego do kodu przy rejestracji, a potem przenieś bieżące bezpieczeństwo na kanały, które zawsze będziesz kontrolować – Twój e-mail, aplikację uwierzytelniającą i, jeśli trzymasz tam prawdziwe środki, numer telefonu, który nosisz w kieszeni."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować PayPal numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Wynajmij numer we właściwym kraju",
+        "body": "W SMS Code wybierz PayPal i kraj, w którym zarejestrowane jest Twoje konto PayPal. Konta PayPal są przypisane do kraju, a numer z innego kraju niż konto to niezgodność, którą zauważą jego kontrole ryzyka."
+      },
+      {
+        "title": "Wpisz go na kroku z telefonem",
+        "body": "Podczas rejestracji – albo w ustawieniach, gdy PayPal poprosi o potwierdzenie telefonu – wybierz pasujący numer kierunkowy i wpisz numer dokładnie."
+      },
+      {
+        "title": "Szybko wpisz kod",
+        "body": "SMS brzmi „Your PayPal security code is: 305174. It expires in 10 minutes.” Dociera do aplikacji SMS Code zwykle w ciągu kilku sekund – wpisz go, zanim minie dziesięć minut."
+      },
+      {
+        "title": "Przenieś bezpieczeństwo na kanały, które kontrolujesz",
+        "body": "Od razu potwierdź e-mail, ustaw silne, unikalne hasło i dodaj aplikację uwierzytelniającą w ustawieniach bezpieczeństwa PayPal. Jeśli będziesz trzymać na koncie prawdziwe pieniądze, zastąp wynajęty numer takim, z którym zawsze się skontaktujesz – nieosiągalny numer bezpieczeństwa na koncie z pieniędzmi to ryzyko, a nie wygoda."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Spójność kraju nie jest opcjonalna",
+      "body": "PayPal przypisuje konto do kraju przy rejestracji – adres, bank, karty i telefon mają się zgadzać. Numer z tego samego kraju co konto utrzymuje kontrole w spokoju; niezgodny zaprasza przeglądy. Wybierz kraj świadomie."
+    },
+    {
+      "title": "Traktuj numer jako narzędzie jednorazowe",
+      "body": "Wynajęty numer świetnie wykonuje jedno zadanie: odbiera kod przy rejestracji bez odsłaniania Twojego. Jako stała kotwica 2FA dla konta z pieniędzmi jest słaby – jego okno aktywacji się kończy, monity bezpieczeństwa PayPal nie. Wymień go, gdy tylko konto zostanie skonfigurowane."
+    },
+    {
+      "title": "Trzymaj się zasad PayPal",
+      "body": "Warunki PayPal wymagają dokładnych danych konta, a jego kontrole zaostrzają się w miarę przepływu pieniędzy. Używaj numeru wirtualnego, by chronić prywatność telefonu – nie po to, by udawać kogoś lub bycie gdzie indziej. To konta z fałszywymi danymi kończą z ograniczeniami."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy numer wirtualny może odebrać SMS weryfikacyjny z PayPal?",
+      "a": "Tak – to prawdziwy numer komórkowy w prawdziwej sieci, a kod z rejestracji PayPal trafia do aplikacji SMS Code zwykle w ciągu kilku sekund. Kod wygasa po dziesięciu minutach, więc miej ekran rejestracji otwarty, gdy o niego prosisz."
+    },
+    {
+      "q": "Czy bezpiecznie jest zostawić wynajęty numer na koncie PayPal?",
+      "a": "Jako stały kontakt bezpieczeństwa – nie, i nie będziemy udawać, że jest inaczej. PayPal pisze na ten numer, gdy ma wątpliwości co do logowania lub przegląda konto; jeśli okno aktywacji numeru się skończyło, te kontrole zawiodą. Zostaw go na krok rejestracji, a potem zastąp e-mailem, aplikacją uwierzytelniającą i numerem, który kontrolujesz."
+    },
+    {
+      "q": "Co, jeśli PayPal poprosi o SMS po wygaśnięciu mojego numeru?",
+      "a": "To dokładnie scenariusz, na który trzeba się przygotować. Spodziewaj się wolniejszej ścieżki: potwierdzania tożsamości w pomocy PayPal dokumentami, co może potrwać dni i w międzyczasie ograniczyć konto. Wykonanie kroku czwartego pierwszego dnia – przeniesienie bezpieczeństwa na Twoje kanały – sprawia, że ta sytuacja po prostu nigdy nie nastąpi."
+    },
+    {
+      "q": "Czy kraj numeru musi pasować do kraju mojego konta PayPal?",
+      "a": "Tak, niech się zgadzają. Konta PayPal otwiera się dla konkretnego kraju, a telefon jest częścią tego obrazu. Numer z tego samego kraju sprawia, że weryfikacja przebiega gładko; zagraniczny to sygnał, który może wywołać dodatkowy przegląd, nawet gdy wszystko inne jest w porządku."
+    },
+    {
+      "q": "Czy rejestracja w PayPal z numerem wirtualnym jest dozwolona?",
+      "a": "PayPal sprawdza, czy kontrolujesz działający numer; wynajęcie go dla prywatności na kroku SMS robi to uczciwie. Warunki PayPal wymagają natomiast prawdziwych danych konta – Twojego prawdziwego imienia i nazwiska, Twojego prawdziwego kraju. Używaj numeru wirtualnego, by chronić prywatność, a nie maskować tożsamość, a używasz go tak, jak należy."
+    }
+  ]
+}

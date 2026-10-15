@@ -1,0 +1,99 @@
+{
+  "metaTitle": "TextVerified Alternative — die App SMS Code von SIMNETIQ",
+  "metaDescription": "TextVerified im Vergleich zur App SMS Code von SIMNETIQ: nur US-Nummern mit Miete im Web gegen über 100 Länder in einer nativen iOS-App.",
+  "hero": {
+    "title": "Eine TextVerified Alternative mit Nummern in über 100 Ländern",
+    "intro": [
+      "TextVerified ist ein US-Spezialist. Ihre Website sagt es ausdrücklich: Alle ihre Nummern sind amerikanisch, beschrieben als echte US-Mobilnummern mit physischen SIMs dahinter, angeboten als einmalige Bestätigungen oder als kurzfristige und verlängerbare Mieten über eine Web-App, eine API und eine Browsererweiterung. Verlangt eine Registrierung ausdrücklich eine +1-Nummer, ist dieser Fokus genau das, was du willst.",
+      "SMS Code von SIMNETIQ geht von der entgegengesetzten Annahme aus: Bestätigungsbedarf ist international. Es ist eine native iOS-App mit echten Nummern in über 100 Ländern – die USA darunter, aber auch Europa, Asien und darüber hinaus –, die über 100 beliebte Dienste abdeckt. Wähle Dienst und Land, bekomm eine Nummer, und der Code kommt meist innerhalb von Sekunden in der App an, bezahlt mit einmaligen Münzpaketen und kostenlos abgebrochen, wenn keine SMS auftaucht."
+    ]
+  },
+  "whenThem": {
+    "title": "Wann TextVerified die bessere Wahl ist",
+    "body": "Wähle TextVerified, wenn die Aufgabe strikt amerikanisch ist. Tiefe in einem einzigen Markt hat echte Vorteile: Ihre Website beschreibt US-Nummern ohne VoIP mit physischen SIMs, die Abdeckung Hunderter Dienste und Mietstufen – einschließlich verlängerbarer Monatsmieten –, um eine US-Nummer über längere Zeit erreichbar zu halten. Bestätigst du Plattformen nur für die USA, brauchst du eine +1-Nummer, die Prüfungen der Netzbetreiber bestehen muss, oder willst du eine langlebige amerikanische Nummer, ist ein spezialisierter US-Dienst das stärkere Werkzeug."
+  },
+  "whenUs": {
+    "title": "Wann die App SMS Code besser passt",
+    "body": "Wähle die App, wenn ein Land nicht genug ist – oder wenn die USA gar nicht das Land sind, das du brauchst. Viele Dienste lassen sich mit einer europäischen oder asiatischen Nummer günstiger oder reibungsloser bestätigen, und manche stehen +1-Nummern gar nicht offen; mit über 100 Ländern in einer App wählst du einfach, was für jede Registrierung am besten funktioniert. Das Erlebnis ist mobil und nativ aus dem App Store, die Abrechnung läuft über einmalige Münzpakete bei Apple ohne Abo, und Aktivierungen ohne Empfang werden kostenlos abgebrochen."
+  },
+  "comparison": {
+    "title": "TextVerified und die App SMS Code im direkten Vergleich",
+    "rows": [
+      {
+        "label": "Plattformen",
+        "competitor": "Web-App mit API und Browsererweiterung",
+        "us": "Native iOS-App aus dem App Store"
+      },
+      {
+        "label": "Preismodell",
+        "competitor": "Preise pro Bestätigung plus kurzfristige und verlängerbare Nummernmiete",
+        "us": "Einmalige Münzpakete, Bezahlung pro Aktivierung – kein Abo"
+      },
+      {
+        "label": "Bezahlung",
+        "competitor": "Ihre Website nennt Karten und eine Reihe von Kryptowährungen",
+        "us": "Abrechnung über Apple – keine Kartendaten an uns"
+      },
+      {
+        "label": "Abdeckung",
+        "competitor": "Bewusst nur US-Nummern – ihre Website sagt, dass alle Nummern aus den USA stammen",
+        "us": "Echte Nummern in über 100 Ländern für über 100 beliebte Dienste"
+      },
+      {
+        "label": "Abbruch",
+        "competitor": "Richtet sich nach ihren eigenen Erstattungsregeln – prüfe die aktuellen Bedingungen",
+        "us": "Aktivierungen ohne SMS werden kostenlos abgebrochen, Münzen kommen zurück"
+      },
+      {
+        "label": "Support",
+        "competitor": "Supportkanäle über ihre Website",
+        "us": "Kontaktformular in der App und auf der Website"
+      },
+      {
+        "label": "Am besten für",
+        "competitor": "Bestätigungen nur für die USA und langlebige amerikanische Nummern",
+        "us": "Internationale Registrierungen vom Handy, ein Land pro Tippen"
+      }
+    ],
+    "note": "Angaben zum Wettbewerber geben seine öffentliche Website zum Zeitpunkt des Schreibens wieder und können sich ändern – prüfe immer auf textverified.com, bevor du entscheidest."
+  },
+  "switchSteps": {
+    "title": "Die App auszuprobieren dauert drei Schritte",
+    "steps": [
+      {
+        "title": "App installieren",
+        "body": "Hol dir SMS Code von SIMNETIQ aus dem App Store – kein Webkonto und keine Wallet-Einrichtung nötig."
+      },
+      {
+        "title": "Ein Münzpaket holen",
+        "body": "Kaufe ein einmaliges Paket über dein Store-Konto. Kein Abo und kein Verlängerungsdatum – Münzen werden pro Aktivierung ausgegeben."
+      },
+      {
+        "title": "Deine erste Aktivierung starten",
+        "body": "Wähle einen Dienst, dann eines von über 100 Ländern – die USA eingeschlossen. Der Code kommt meist innerhalb von Sekunden in der App an; kommt nichts an, wird die Aktivierung kostenlos abgebrochen."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Was ist der größte Unterschied zwischen TextVerified und der App SMS Code?",
+      "a": "Die Geografie. Die Website von TextVerified sagt, dass alle ihre Nummern US-Nummern sind – Tiefe in einem Markt. Die App SMS Code von SIMNETIQ bietet echte Nummern in über 100 Ländern über eine native mobile App, du wählst das Land also pro Registrierung."
+    },
+    {
+      "q": "Hat die App SMS Code auch US-Nummern?",
+      "a": "Ja – die USA sind eines der über 100 verfügbaren Länder. Der Unterschied ist, dass sie eine Option unter vielen sind statt des ganzen Katalogs."
+    },
+    {
+      "q": "Kann ich eine Nummer langfristig mieten wie bei den verlängerbaren Mieten von TextVerified?",
+      "a": "Nein. Die App arbeitet pro Aktivierung: eine Nummer, ein Dienst, ein Code. Brauchst du eine US-Nummer, die wochen- oder monatelang erreichbar bleibt, sind die Mietstufen von TextVerified ehrlicherweise die bessere Wahl."
+    },
+    {
+      "q": "Was passiert, wenn mein Code nie ankommt?",
+      "a": "Die Aktivierung wird abgebrochen, und deine Münzen werden zurückgegeben. Du zahlst nur für Nummern, die tatsächlich eine SMS empfangen."
+    },
+    {
+      "q": "Gibt es in der App SMS Code ein Abo?",
+      "a": "Nein. Du kaufst einmalige Münzpakete über die Abrechnung von Apple und gibst sie pro Aktivierung aus – nichts verlängert sich, und keine Kartendaten werden mit uns geteilt."
+    }
+  ]
+}

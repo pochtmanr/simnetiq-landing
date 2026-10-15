@@ -1,0 +1,55 @@
+{
+  "name": "Wielka Brytania",
+  "metaTitle": "Brytyjski numer wirtualny do SMS — prawdziwy +44",
+  "metaDescription": "Wynajmij prawdziwy brytyjski numer komórkowy (+44) i odbieraj kody SMS zwykle w kilka sekund. Weryfikuj WhatsApp, Google, Telegram, Airbnb i PayPal.",
+  "hero": {
+    "title": "Brytyjski numer wirtualny do weryfikacji SMS",
+    "intro": [
+      "Brytyjski numer komórkowy zaczynający się od 07 – w formie międzynarodowej +44 7 – to jeden z najbardziej rozpoznawalnych formatów w sieci. Usługi europejskie i globalne traktują go jako popularny, zaufany wybór, a anglojęzyczne procesy rejestracji obsługują go bez zająknięcia.",
+      "SMS Code daje Ci prawdziwy brytyjski numer komórkowy jednym stuknięciem. Wklej go w pole weryfikacji WhatsAppa, Google, Telegrama czy dziesiątek innych usług, a SMS z kodem pojawi się w aplikacji zwykle w ciągu kilku sekund."
+    ]
+  },
+  "whyCountry": {
+    "title": "Dlaczego brytyjski numer?",
+    "body": [
+      "Wielka Brytania leży na skrzyżowaniu amerykańskich i europejskich usług internetowych, więc numer +44 jest akceptowany niemal wszędzie, gdzie działają obie strony. Jeśli chcesz konta, które domyślnie wygląda na anglojęzyczne – dla marketplace’ów, platform podróżniczych jak Airbnb czy usług płatniczych jak PayPal – brytyjski numer naturalnie pasuje.",
+      "Format jest prosty i trudno go pomylić: +44, potem dziesięciocyfrowy numer komórkowy, który zawsze zaczyna się od 7. Formularze rejestracji w całej Europie rozpoznają go natychmiast i nie niesie żadnego tarcia, jakie czasem wywołują niszowe numery kierunkowe przy weryfikacji."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Usuń wiodące zero",
+      "body": "W kraju brytyjską komórkę zapisuje się 07XXX XXXXXX, ale w polach międzynarodowych wpisujesz +44, a po nim numer bez zera. Jeśli formularz odrzuca numer, to pierwsza rzecz do sprawdzenia."
+    },
+    {
+      "title": "Połącz go z brytyjskim regionem konta",
+      "body": "Przy usługach, które blokują funkcje według rynku – brytyjski profil App Store, brytyjska konfiguracja Airbnb czy PayPal – użycie numeru +44 razem z pasującym regionem utrzymuje spójny obraz konta."
+    },
+    {
+      "title": "Brak kodu? Anuluj i weź nowy",
+      "body": "Brytyjskie numery są stale poszukiwane, a usługa może ograniczyć numer, który widział już rejestracje. Anuluj aktywację – nic nie płacisz, jeśli SMS nie dotarł – i wybierz świeży numer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy to prawdziwy brytyjski numer komórkowy?",
+      "a": "Tak – numer w prawdziwej brytyjskiej sieci operatora w standardowym zakresie komórkowym +44 7. Dla weryfikowanej usługi wygląda jak zwykły brytyjski telefon, a nie wirtualna skrzynka z krótkim numerem."
+    },
+    {
+      "q": "Jakie usługi dobrze akceptują brytyjskie numery?",
+      "a": "Praktycznie wszystko z obecnością w Europie: WhatsApp, Google, Telegram, Airbnb, PayPal i większość globalnych platform traktuje +44 jako pierwszorzędny, znajomy numer."
+    },
+    {
+      "q": "Czy mogę mieć brytyjski numer, nie będąc w Wielkiej Brytanii?",
+      "a": "Tak. Numer istnieje w aplikacji SMS Code, więc Twoja fizyczna lokalizacja i własna karta SIM nie mają znaczenia – kod weryfikacyjny dotrze do Ciebie wszędzie."
+    },
+    {
+      "q": "Jak szybko przychodzi SMS?",
+      "a": "Zwykle w ciągu kilku sekund od wysłania przez usługę. Pełna treść wiadomości pojawia się w aplikacji w chwili dotarcia, więc możesz od razu skopiować kod do formularza rejestracji."
+    },
+    {
+      "q": "Co, jeśli kod nigdy nie przyjdzie?",
+      "a": "Nieodebrane aktywacje anulują się, a monety wracają. Anuluj oczekującą w aplikacji, weź inny brytyjski numer i poproś o kod ponownie – monety wydajesz tylko na aktywacje, które faktycznie dostarczą SMS."
+    }
+  ]
+}

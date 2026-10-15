@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Cookie-Richtlinie",
+    "description": "Welche Cookies simnetiq.xyz nutzt, warum, wie lange sie bestehen und wie du deine Wahl jederzeit und auf jeder Seite annimmst, ablehnst oder änderst."
+  },
+  "prevailingNotice": "Diese Übersetzung dient nur der Orientierung. Weicht sie von der englischen Fassung ab, ist die englische Fassung maßgeblich.",
+  "label": "Rechtliches",
+  "title": "Cookie-Richtlinie",
+  "updatedLabel": "Zuletzt aktualisiert:",
+  "sections": [
+    {
+      "title": "1. Was diese Richtlinie abdeckt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Diese Richtlinie erklärt, wie die SIMNETIQ LTD („wir“, „uns“) Cookies und ähnliche Technologien auf simnetiq.xyz (die „Website“) einsetzt. Sie ergänzt unsere Datenschutzerklärung, die allgemeiner beschreibt, wie wir mit personenbezogenen Daten umgehen. Fragen: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Was Cookies sind",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cookies sind kleine Textdateien, die eine Website in deinem Browser speichert. „Ähnliche Technologien“ meint alles andere, was Informationen auf deinem Gerät speichert oder ausliest, etwa den lokalen Speicher oder ein Skript, das einen Besuch misst. Das Gesetz behandelt sie gleich: Alles, was nicht unbedingt erforderlich ist, braucht zuerst deine Einwilligung."
+        }
+      ]
+    },
+    {
+      "title": "3. Was wir verwenden",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Unbedingt erforderlich — sc_consent.** Ein Erstanbieter-Cookie, das wir setzen, wenn du im Cookie-Banner eine Wahl triffst. Es speichert diese Wahl und das Datum, an dem du sie getroffen hast, damit wir nicht auf jeder Seite erneut fragen. Es läuft nach 12 Monaten ab, dann fragen wir noch einmal. Es braucht keine Einwilligung: Ohne es könnten wir deine Wahl nicht respektieren.",
+            "**Analyse — Vercel Web Analytics.** Bereitgestellt von Vercel Inc. Zählt Seitenaufrufe und Klicks auf die Download-Buttons. Es speichert keine Cookies auf deinem Gerät; ein Besuch wird bis zu 24 Stunden lang anhand eines Hashwerts der Anfrage wiedererkannt, der dich nicht identifizieren kann. Wird nur geladen, wenn du Analysen akzeptierst.",
+            "**Analyse — Google Analytics: _ga und _ga_<ID>.** Bereitgestellt von Google Ireland Limited und Google LLC. Erstanbieter-Cookies, die wiederkehrende Browser unterscheiden und einen Besuch zusammenhalten, damit wir sehen, welche Seiten Menschen nützlich finden. Jedes besteht bis zu 2 Jahre. Wird nur gesetzt, wenn du Analysen akzeptierst, mit abgeschalteten Werbefunktionen.",
+            "**Marketing — Meta Pixel: _fbp.** Bereitgestellt von Meta Platforms Ireland Limited. Ein Skript und ein Erstanbieter-Cookie, die Meta mitteilen, wenn jemand, der eine unserer Anzeigen auf Facebook oder Instagram gesehen oder angeklickt hat, die Website besucht, damit wir messen können, welche Anzeigen funktionieren. Das Cookie besteht bis zu 90 Tage. Meta erhält die Seitenadresse, Browserinformationen und deine IP-Adresse und kann diese Daten nach seiner Datenschutzrichtlinie auch für eigene Zwecke nutzen. Wird nur gesetzt, wenn du Marketing akzeptierst."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Was wir nicht verwenden",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keine Werbe-Cookies außer dem oben beschriebenen Meta Pixel, das nur läuft, wenn du Marketing akzeptierst. Keine anderen Social-Media-Tracker und kein Profiling über andere Websites hinweg durch uns. Wir verkaufen keine Daten aus Cookies."
+        }
+      ]
+    },
+    {
+      "title": "5. Deine Wahl",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Bei deinem ersten Besuch bietet das Banner **Akzeptieren** und **Ablehnen** an, nebeneinander und gleich einfach. Bis du wählst, läuft keine Analyse.",
+            "Mit **Anpassen** kannst du jede Kategorie einzeln ein- oder ausschalten. Unbedingt erforderliche Cookies sind immer aktiv.",
+            "Du kannst deine Wahl jederzeit über **Cookie-Einstellungen** unten auf jeder Seite oder über den Button unten ändern oder widerrufen. Ein Widerruf stoppt die Analyse sofort und löscht die Google-Analytics-Cookies aus deinem Browser.",
+            "Marketing funktioniert genauso: Das Meta Pixel bleibt aus, bis du es akzeptierst, und ein Widerruf stoppt es sofort und löscht sein _fbp-Cookie aus deinem Browser.",
+            "Du kannst Cookies auch in deinen Browsereinstellungen blockieren oder löschen. Wenn du sc_consent blockierst, fragt das Banner bei jedem Besuch erneut."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Wohin die Daten gehen",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vercel und Google können Analysedaten in den Vereinigten Staaten verarbeiten. Diese Übermittlungen stützen sich auf das EU-US Data Privacy Framework und seine UK-Erweiterung oder auf Standardvertragsklauseln. Abschnitt 6 unserer Datenschutzerklärung enthält mehr zu internationalen Übermittlungen."
+        },
+        {
+          "type": "p",
+          "text": "Meta kann Marketingdaten in den Vereinigten Staaten verarbeiten, auf denselben Übermittlungsgrundlagen."
+        }
+      ]
+    },
+    {
+      "title": "7. Die App",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Die App SMS Code verwendet keine Cookies und enthält kein Analyse-, Werbe- oder Attributions-SDK. Diese Richtlinie gilt nur für die Website."
+        }
+      ]
+    },
+    {
+      "title": "8. Änderungen dieser Richtlinie",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wenn wir ein Cookie hinzufügen oder ändern, wofür eines dient, aktualisieren wir diese Richtlinie und bitten erneut um deine Einwilligung. Das Datum „Zuletzt aktualisiert“ oben entspricht immer der aktuellen Fassung."
+        }
+      ]
+    }
+  ]
+}

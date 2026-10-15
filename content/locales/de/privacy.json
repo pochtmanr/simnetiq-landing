@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Datenschutzerklärung",
+    "description": "Wie SIMNETIQ LTD deine Daten in der App SMS Code und auf simnetiq.xyz erhebt, nutzt, speichert und schützt – und deine Rechte nach UK- und EU-DSGVO."
+  },
+  "prevailingNotice": "Diese Übersetzung dient nur der Orientierung. Weicht sie von der englischen Fassung ab, ist die englische Fassung maßgeblich.",
+  "label": "Rechtliches",
+  "title": "Datenschutzerklärung",
+  "updatedLabel": "Zuletzt aktualisiert:",
+  "sections": [
+    {
+      "title": "1. Wer wir sind",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SMS Code (die „App“) und die Website simnetiq.xyz (die „Website“) werden von der SIMNETIQ LTD („wir“, „uns“, „unser“) betrieben, einem in England und Wales eingetragenen Unternehmen. Wir sind der Verantwortliche für die in dieser Erklärung beschriebenen personenbezogenen Daten. Du erreichst uns unter {supportEmail}."
+        },
+        {
+          "type": "p",
+          "text": "Handelsregisternummer: {companyNumber}. Eingetragener Sitz: {registeredOffice}. Kontakt: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Was die App tut",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Die App stellt temporäre virtuelle Telefonnummern bereit, die SMS-Bestätigungscodes empfangen können, damit du dich bei Onlinediensten anmelden kannst, ohne deine private Telefonnummer weiterzugeben."
+        }
+      ]
+    },
+    {
+      "title": "3. Welche Daten wir erheben",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Kontodaten.** Eine anonyme Konto-Kennung, die beim ersten Öffnen der App erstellt wird, und deine E-Mail-Adresse, falls du sie angibst.",
+            "**Kaufdaten.** Aufzeichnungen über die Münzpakete, die du kaufst. Die Zahlung selbst wird vom Apple App Store abgewickelt – deine Kartendaten sehen wir nie.",
+            "**Aktivierungsdaten.** Der Dienst, das Land, die virtuelle Nummer und der Text der auf dieser Nummer empfangenen Bestätigungs-SMS, aufbewahrt für die Zeit, die nötig ist, um dir den Code zuzustellen und Streitfälle zu klären.",
+            "**Gerätedaten.** Zwei Dinge, und nur, wenn sie auf dich zutreffen. Wenn du Mitteilungen erlaubst, das Push-Token, das deinem Gerät zugewiesen wird, damit wir dir sagen können, dass ein Code angekommen ist. Und der zweistellige Regionscode, den dein Gerät meldet (zum Beispiel *GB*), der mit der Länderliste gesendet wird, damit wir ein Land als „Empfohlen“ markieren können – das ist eine Geräteeinstellung, nicht dein Standort, und es ist keine Standortberechtigung beteiligt.",
+            "**Supportdaten.** Wenn du den Support über die Website oder per E-Mail kontaktierst, erheben wir deinen Namen, deine E-Mail-Adresse und den Inhalt deiner Nachricht. Über die Website gesendete Supportanfragen werden in unserer Datenbank (gehostet bei Supabase) gespeichert und über unsere E-Mail-Werkzeuge verarbeitet, um dir zu antworten. Außerdem speichern wir den User-Agent-String deines Browsers und einen gesalzenen Einweg-Hash deiner IP-Adresse, um automatisierten Missbrauch des Formulars zu blockieren.",
+            "**Website-Analyse.** Nur wenn du im Cookie-Banner der Website Analysen akzeptierst, nutzt die Website Vercel Web Analytics, das Seitenaufrufe ohne Cookies zählt, und Google Analytics, das Erstanbieter-Cookies (_ga) setzt, um einen wiederkehrenden Browser zu erkennen. Keines davon wird für Werbung oder für Profiling über andere Websites hinweg genutzt. Unsere Cookie-Richtlinie listet jedes Cookie auf, und du kannst deine Einwilligung jederzeit unter Cookie-Einstellungen unten auf jeder Seite widerrufen. Die App enthält keinerlei Analyse-, Werbe- oder Attributions-SDK.",
+            "**Werbemessung.** Nur wenn du im Cookie-Banner der Website Marketing akzeptierst, lädt die Website das Meta Pixel, das ein Erstanbieter-Cookie (_fbp) setzt und Meta mitteilt, wenn ein Besuch von einer unserer Anzeigen kam, damit wir messen können, welche Anzeigen funktionieren. Die App nutzt es nicht."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Was wir bewusst nicht erheben: deine eigene Telefonnummer, deine Kontakte, deinen Standort, Werbe-IDs und jegliche Nutzungs-, Absturz- oder Diagnosetelemetrie aus der App. In der App gibt es kein Analyse- oder Absturzberichts-SDK, es gibt also nichts dieser Art zu senden. Das entspricht dem Datenschutzlabel von SMS Code im App Store."
+        }
+      ]
+    },
+    {
+      "title": "4. Wie wir deine Daten nutzen",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Um virtuelle Nummern bereitzustellen und dir Bestätigungscodes zuzustellen (Vertragserfüllung).",
+            "Um dein Münzguthaben zu führen und Käufe geräteübergreifend wiederherzustellen (Vertragserfüllung).",
+            "Um Supportanfragen zu beantworten (berechtigte Interessen / Vertragserfüllung).",
+            "Um Betrug, Missbrauch und Verstöße gegen unsere Servicebedingungen zu erkennen und zu verhindern (berechtigte Interessen).",
+            "Um mithilfe von Website-Analysen zu verstehen, welche Seiten der Website Menschen nützlich finden – nur wenn du es im Cookie-Banner akzeptierst (Einwilligung, die du jederzeit widerrufen kannst).",
+            "Um mithilfe des Meta Pixel zu messen, wie unsere Anzeigen auf Facebook und Instagram abschneiden – nur wenn du im Cookie-Banner Marketing akzeptierst (Einwilligung, die du jederzeit widerrufen kannst)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Wir verkaufen deine personenbezogenen Daten nicht. Daten über Website-Besuche teilen wir nur dann mit Meta, wenn du Marketing-Cookies akzeptierst, um unsere eigenen Anzeigen zu messen. App-Daten werden nie mit Werbetreibenden geteilt."
+        }
+      ]
+    },
+    {
+      "title": "5. Weitergabe und Auftragsverarbeiter",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wir nutzen die folgenden Anbieter, um den Dienst zu betreiben. Ihre Rolle hängt von der Leistung ab, die sie erbringen:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Supabase** — die Datenbank und das Backend hinter der App. Sie enthält alles aus Abschnitt 3, was überhaupt gespeichert wird.",
+            "**Apple** — wickelt jeden In-App-Kauf ab und übernimmt „Mit Apple anmelden“, wenn du es nutzt. Deine Zahlungsdaten sehen wir nie.",
+            "**RevenueCat** — prüft Kaufbelege und teilt unserem Backend mit, welches Münzpaket du gekauft hast. Es erhält deine Konto-Kennung, Kaufdaten und grundlegende Geräteinformationen.",
+            "**Expo** — stellt Push-Mitteilungen und App-Updates zu. Es erhält dein Push-Token und den Text der Mitteilung.",
+            "**Vercel** — hostet die Website und stellt ihre cookielose Seitenaufrufanalyse bereit.",
+            "**Google** — stellt Google Analytics auf der Website bereit, nur wenn du Analysen akzeptierst. Es erhält Seitenaufrufe, Geräte- und Browserinformationen und die im _ga-Cookie gespeicherte Kennung, mit abgeschalteten Werbefunktionen.",
+            "**Meta** — stellt das Meta Pixel auf der Website bereit, nur wenn du Marketing akzeptierst. Es erhält Seitenaufrufe, Browserinformationen, deine IP-Adresse und die Kennung im _fbp-Cookie und kann diese Daten als eigenständiger Verantwortlicher nach seiner eigenen Datenschutzrichtlinie auch für eigene Zwecke nutzen.",
+            "**Unsere E-Mail-Werkzeuge** — übermitteln die Supportkorrespondenz.",
+            "**Unser Telefonieanbieter** — liefert die virtuellen Nummern. Ihm werden nur der Dienst und das Land übermittelt, die du angefragt hast; er erhält überhaupt keine Kennung von dir, und wir senden deine App-Konto-Kennung nicht. Der Anbieter verarbeitet Nummern und SMS-Inhalte, um den Dienst zu erbringen."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Anbieter, die als Auftragsverarbeiter tätig sind, müssen angemessenen Bedingungen zur Datenverarbeitung unterliegen. Wir verkaufen deine Daten nicht, und außer mit Meta (nur mit deiner Marketing-Einwilligung) teilen wir nichts mit Werbetreibenden. Wir können Daten außerdem offenlegen, wenn das Gesetz es verlangt."
+        }
+      ]
+    },
+    {
+      "title": "6. Internationale Übermittlungen",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Einige Anbieter haben ihren Sitz außerhalb des Vereinigten Königreichs. Wenn Daten das Vereinigte Königreich oder den Europäischen Wirtschaftsraum verlassen, verlangt das geltende Datenschutzrecht eine geeignete Übermittlungsgrundlage, etwa einen Angemessenheitsbeschluss oder vertragliche Garantien. Vercel und Google können Website-Analysedaten in den Vereinigten Staaten verarbeiten; diese Übermittlungen stützen sich auf das EU-US Data Privacy Framework und seine UK-Erweiterung oder auf Standardvertragsklauseln. Kontaktiere uns für Informationen über die Garantien für deine Daten."
+        },
+        {
+          "type": "p",
+          "text": "Meta kann Marketingdaten der Website in den Vereinigten Staaten verarbeiten, auf denselben Übermittlungsgrundlagen."
+        }
+      ]
+    },
+    {
+      "title": "7. Aufbewahrung",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Aktivierungsdaten — 90 Tage.** Die gemietete Nummer und der Text jeder darauf empfangenen SMS werden bei einer planmäßigen täglichen Bereinigung 90 Tage nach Erstellung der Aktivierung gelöscht. Danach bleibt ein Datensatz ohne Nummer und ohne Nachrichtentext: der Dienst, das Land, das Datum, das Ergebnis und die betroffenen Münzen. Diesen behalten wir, weil er der Buchungsnachweis für die von dir ausgegebenen Münzen ist und der Beleg, den wir brauchen, wenn eine Zahlung angefochten wird.",
+            "**Kontodaten — bis du dein Konto löschst.** Das Löschen deines Kontos entfernt dein aktives Konto, deine E-Mail-Adresse und deinen Aktivierungsverlauf. Begrenzte Finanz- und Betrugspräventionsaufzeichnungen bleiben wie unten und in Abschnitt 9 beschrieben bestehen.",
+            "**Kaufaufzeichnungen — wie gesetzlich vorgeschrieben.** Ein pseudonymisierter Finanzdatensatz jedes Kaufs – Transaktionsreferenz, Paket, Betrag, Datum und ob er später erstattet wurde – wird für den Zeitraum aufbewahrt, den Steuer- und Buchführungsrecht verlangen, und bleibt auch nach Löschung des Kontos bestehen. Er enthält keine Telefonnummer, keinen Nachrichtentext und keine E-Mail-Adresse.",
+            "**Supportkorrespondenz — bis zu 24 Monate** nach Abschluss der Anfrage."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8. Deine Rechte",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nach der UK-DSGVO und der EU-DSGVO hast du das Recht auf Auskunft, Berichtigung, Löschung oder Erhalt einer Kopie deiner personenbezogenen Daten, auf Einschränkung ihrer Verarbeitung oder Widerspruch dagegen sowie das Recht, eine Einwilligung jederzeit zu widerrufen, wenn die Verarbeitung auf einer Einwilligung beruht. Um eines dieser Rechte auszuüben, schreib an {supportEmail}. Du kannst dich auch beim britischen Information Commissioner’s Office (ico.org.uk) oder bei deiner örtlichen Aufsichtsbehörde beschweren."
+        }
+      ]
+    },
+    {
+      "title": "9. Löschung von Konto und Daten",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Du kannst dein Konto direkt in der App löschen (Einstellungen → Konto löschen) oder uns per E-Mail schreiben. Die Löschung entfernt deine Konto-Kennung, deine E-Mail-Adresse, dein Münzguthaben und deinen Aktivierungsverlauf, einschließlich jeder gemieteten Nummer und jedes noch gespeicherten SMS-Texts. Sie erfordert keinen Kontakt zum Support und ist nicht umkehrbar. Begrenzte Finanz- und Betrugspräventionsaufzeichnungen bleiben bestehen: Transaktionsreferenzen von Käufen, die frühere Konto-Kennung, aggregierte Aktivitäts- und Münzzahlen, Erstattungsfehlbeträge, Zeitstempel und gehashte Verknüpfungen von Geräte-Tokens. Sie dienen der Buchführung, Streitfällen und der Verhinderung wiederholten Erstattungsmissbrauchs. Sie enthalten keine aufbewahrten Aktivierungsnummern, SMS-Texte oder Konto-E-Mail-Adressen, sind aber pseudonymisiert, nicht garantiert anonym, und können mit Kaufaufzeichnungen oder anderen Konten verknüpft werden, die dasselbe Geräte-Token nutzen."
+        }
+      ]
+    },
+    {
+      "title": "10. Kinder",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Die App richtet sich nicht an Kinder und ist für Nutzer ab 18 Jahren bestimmt. Wir erheben wissentlich keine Daten von Kindern; wenn du glaubst, dass ein Kind die App genutzt hat, kontaktiere uns, und wir löschen die Daten."
+        }
+      ]
+    },
+    {
+      "title": "11. Sicherheit",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Daten werden bei der Übertragung verschlüsselt, der Zugriff ist auf Mitarbeitende beschränkt, die ihn brauchen, und unsere Datenbanken setzen Zugriffskontrollen auf Zeilenebene durch. Kein System ist vollkommen sicher, daher halten wir die Menge der gespeicherten Daten außerdem so gering wie möglich."
+        }
+      ]
+    },
+    {
+      "title": "12. Änderungen dieser Erklärung",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wir können diese Erklärung von Zeit zu Zeit aktualisieren. Wesentliche Änderungen werden in der App oder auf der Website angekündigt, und das Datum „Zuletzt aktualisiert“ oben entspricht immer der aktuellen Fassung."
+        }
+      ]
+    }
+  ]
+}

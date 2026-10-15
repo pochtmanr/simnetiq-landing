@@ -1,0 +1,48 @@
+{
+  "title": "Se faire rembourser un achat sur l’App Store",
+  "metaDescription": "Les packs de pièces SMS Code sont facturés par Apple\u00a0: le remboursement se demande à Apple. Guide pas à pas de reportaproblem.apple.com, délais et suite.",
+  "sections": [
+    {
+      "title": "Les remboursements sont gérés par Apple",
+      "paragraphs": [
+        "Les packs de pièces achetés dans l’app SMS Code sont des achats App Store. Apple les facture et détient le paiement\u00a0: seul Apple peut donc les rembourser. C’est le cas pour toutes les apps de l’App Store\u00a0: les développeurs n’ont aucun moyen de rembourser un achat facturé par Apple.",
+        "Apple examine chaque demande et décide de l’accepter ou non. L’envoi prend en général deux minutes, et vous n’avez pas besoin de nous contacter avant."
+      ]
+    },
+    {
+      "title": "Demander un remboursement en 6 étapes",
+      "id": "steps",
+      "steps": [
+        "Rendez-vous sur [reportaproblem.apple.com](https://reportaproblem.apple.com/).",
+        "Connectez-vous avec le compte Apple utilisé pour l’achat.",
+        "Sous **Je souhaite…**, choisissez **Demander un remboursement**.",
+        "Choisissez le motif qui correspond, par exemple **Je ne voulais pas acheter cet article** ou **Achat intégré non reçu**.",
+        "Sélectionnez l’achat de pièces SMS Code (par exemple **20 Coins**) et cliquez sur **Suivant**.",
+        "Envoyez la demande. Apple répond généralement sous 24 à 48 heures."
+      ],
+      "image": {
+        "src": "/help/apple-refund-reasons.png",
+        "alt": "Page «\u00a0Signaler un problème\u00a0» d’Apple avec «\u00a0Demander un remboursement\u00a0» sélectionné et la liste des motifs\u00a0: je ne voulais pas acheter, un enfant a acheté sans autorisation, achat intégré non reçu, droit de rétractation et autre.",
+        "width": 882,
+        "height": 417
+      },
+      "cta": {
+        "label": "Ouvrir reportaproblem.apple.com",
+        "href": "https://reportaproblem.apple.com/"
+      }
+    },
+    {
+      "title": "Après l’envoi",
+      "paragraphs": [
+        "Vous pouvez suivre l’état de la demande sur le même site. Une fois la demande approuvée par Apple, le crédit sur le compte Apple revient généralement sous 48 heures, les cartes et la plupart des autres moyens de paiement sous 30 jours, et la facturation par l’opérateur mobile sous 60 jours. Nous ne pouvons pas accélérer Apple ni votre banque.",
+        "Si Apple accepte le remboursement, les pièces de cet achat sont retirées de votre solde SMS Code. Ne dépensez pas les pièces d’un achat dont vous demandez le remboursement."
+      ]
+    },
+    {
+      "title": "Quand nous écrire plutôt",
+      "paragraphs": [
+        "Écrivez-nous si une activation a échoué et que les pièces ne sont pas revenues sur votre solde, si vous avez payé mais que les pièces ne sont jamais apparues ([pièces manquantes](/support/missing-coins)), ou si Apple vous a demandé de contacter le développeur. Nous pouvons examiner l’activation et vous envoyer les justificatifs d’achat. Vos droits de consommateur ne sont pas affectés."
+      ]
+    }
+  ]
+}

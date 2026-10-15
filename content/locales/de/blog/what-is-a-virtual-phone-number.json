@@ -1,0 +1,161 @@
+{
+  "title": "Virtuelle Telefonnummer: Was sie ist, wie sie funktioniert",
+  "description": "Verständlich erklärt: wie virtuelle Nummern funktionieren, was sie von VoIP, eSIM und Wegwerfhandys trennt, wie SMS-Bestätigung läuft und was Anbieter taugen.",
+  "excerpt": "Eine virtuelle Nummer ist eine echte Mobilnummer, die dich über eine App erreicht statt über eine SIM-Karte in deiner Tasche. So funktioniert das wirklich – und wann sie das richtige Werkzeug ist.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Eine virtuelle Telefonnummer ist eine echte Nummer in einem echten Mobilfunknetz – sie kann Anrufe oder SMS empfangen wie jede andere –, nur steckt keine physische SIM-Karte in deinem Handy, die für sie antwortet. Stattdessen wird alles, was bei der Nummer ankommt, über das Internet an dich weitergeleitet: in eine App, ein Dashboard oder eine API. Für die Person (oder den Dienst) am anderen Ende ist sie von jeder gewöhnlichen Mobilnummer nicht zu unterscheiden."
+    },
+    {
+      "type": "p",
+      "text": "Diese Ein-Satz-Definition wirft die Fragen auf, die dieser Leitfaden beantwortet: Wo leben diese Nummern physisch, wenn nicht auf einer SIM? Wie unterscheidet sich eine virtuelle Nummer von VoIP, einer eSIM oder einem Wegwerfhandy? Warum kommen Registrierungscodes problemlos bei ihr an? Ist das alles legal? Und wenn du dich entscheidest, eine zu brauchen: Was unterscheidet einen guten Anbieter von einer geteilten Gratis-Seite, die nie einen Code zustellt?"
+    },
+    {
+      "type": "h2",
+      "id": "how-phone-numbers-actually-work",
+      "text": "Wie Telefonnummern wirklich funktionieren"
+    },
+    {
+      "type": "p",
+      "text": "Die entscheidende Erkenntnis: Eine Telefonnummer hat nie „in“ deiner SIM-Karte gelebt. Nummern gehören zu Mobilfunknetzen: Nationale Regulierungsbehörden vergeben Nummernbereiche an Mobilfunkbetreiber, und das Kernnetz des Betreibers führt ein Register, das jede Nummer einem Teilnehmer zuordnet. Deine SIM ist nur eine kryptografische Schlüsselkarte, die dem Netz beweist, dass dein Gerät dieser Teilnehmer ist, damit an die Nummer adressierte Anrufe und SMS dorthin zugestellt werden."
+    },
+    {
+      "type": "p",
+      "text": "Eine virtuelle Nummer ändert einfach den letzten Abschnitt. Die Nummer wird weiterhin von einem Netzbetreiber vergeben und lebt weiterhin in einem echten Mobilfunknetz – aber die SIM, die für sie antwortet, sitzt in der Infrastruktur eines Anbieters statt in deiner Tasche. Kommt eine SMS an, liest das System des Anbieters sie und leitet sie über das Internet an dich weiter, typischerweise in eine App, meist innerhalb von Sekunden. Auf der Senderseite ändert sich nichts, und genau deshalb behandeln Bestätigungssysteme diese Nummern als gewöhnliche Mobilnummern: Aus Sicht des Netzes sind sie das."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-vs-voip-esim-burner",
+      "text": "Virtuelle Nummer, VoIP, eSIM und Wegwerfhandy im Vergleich"
+    },
+    {
+      "type": "p",
+      "text": "Diese vier Begriffe werden ständig verwechselt, und die Unterschiede zählen – besonders bei der SMS-Bestätigung, wo einige davon regelmäßig scheitern."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Virtuelle Mobilnummer: eine echte Mobilnummer in einem Mobilfunknetz, deren Nachrichten online an dich weitergeleitet werden. Am besten geeignet, um SMS-Bestätigungscodes zu empfangen, weil Dienste eine normale Mobilnummer sehen.",
+        "VoIP-Nummer (Google Voice, Skype und Ähnliche): eine Nummer, die in einem Internettelefoniedienst existiert statt in einem Mobilfunknetz. Großartig für Anrufe, aber viele Dienste erkennen VoIP-Nummernbereiche und weigern sich, Bestätigungscodes daran zu senden – VoIP-Nummern lassen sich billig massenhaft registrieren, also misstrauen Registrierungssysteme ihnen.",
+        "eSIM: überhaupt keine andere Art von Nummer, nur eine SIM ohne Plastik – ein Betreiberprofil, das auf dein Gerät geladen wird. Die Nummer gehört ganz dir und ist ganz mobil, aber du kaufst eine echte Leitung mit echtem Vertrag oder Tarif, was übertrieben ist, wenn du nur einen Bestätigungscode empfangen musst.",
+        "Wegwerfhandy: ein günstiges Prepaid-Handy plus SIM, gekauft für die vorübergehende Nutzung. Es funktioniert, ist aber die teuerste und langsamste Option – Hardware, ein Gang in den Laden, Ausweispflicht für die SIM-Registrierung in vielen Ländern –, um zu erreichen, was eine virtuelle Nummer meist innerhalb von Sekunden erledigt."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Faustregel: Ist dein Ziel, einen SMS-Code zu empfangen, ohne deine private Nummer einzubeziehen, willst du eine virtuelle Mobilnummer. Ist dein Ziel eine dauerhafte zweite Leitung für Anrufe, willst du eine eSIM oder einen VoIP-Tarif."
+    },
+    {
+      "type": "h2",
+      "id": "how-sms-verification-works",
+      "text": "Wie SMS-Bestätigung tatsächlich abläuft"
+    },
+    {
+      "type": "p",
+      "text": "Den Ablauf zu verstehen, erklärt sowohl, warum virtuelle Nummern funktionieren, als auch, warum Codes gelegentlich nicht ankommen – bei jeder Nummer, ob virtuell oder nicht."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Der Dienst erzeugt ein Einmalpasswort (OTP)",
+          "body": "Wenn du eine Nummer in ein Registrierungsformular tippst, erstellt der Dienst einen kurzlebigen Code – meist vier bis acht Ziffern, ein paar Minuten gültig – und speichert ihn zu deiner offenen Registrierung."
+        },
+        {
+          "title": "Die Nachricht gelangt ins SMS-Netz",
+          "body": "Der Dienst übergibt den Code an ein SMS-Gateway, oft mit einer alphanumerischen Absenderkennung („Telegram“, „Google“) statt einer Telefonnummer. Das Gateway leitet ihn über Mobilfunknetze zum Betreiber der Zielnummer."
+        },
+        {
+          "title": "Der Betreiber stellt an den Inhaber der Nummer zu",
+          "body": "Der Zielbetreiber stellt die SMS dem für diese Nummer registrierten Teilnehmer zu. Bei einer virtuellen Nummer ist das die SIM-Infrastruktur des Anbieters – die die Nachricht liest und an deine App schickt, typischerweise meist innerhalb von Sekunden."
+        },
+        {
+          "title": "Du tippst den Code zurück und schließt den Kreis",
+          "body": "Der Dienst vergleicht, was du eingegeben hast, mit dem, was er erzeugt hat. Stimmt es überein, vertraut er jetzt darauf, dass du diese Nummer kontrollierst. Mehr beweist eine SMS-Bestätigung nie: die Kontrolle über eine Nummer zu einem bestimmten Zeitpunkt."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    },
+    {
+      "type": "h2",
+      "id": "is-it-legal",
+      "text": "Ist die Nutzung einer virtuellen Nummer legal?"
+    },
+    {
+      "type": "p",
+      "text": "Ja – virtuelle Nummern zu mieten und zu nutzen, ist in der überwältigenden Mehrheit der Rechtsordnungen legal; es ist dieselbe regulierte Nummerninfrastruktur, die Unternehmen seit Jahrzehnten für Hotlines und Lieferbenachrichtigungen nutzen. Was das Gesetz (und die Bedingungen jedes Dienstes) interessiert, ist, was du danach mit dem Konto tust: Betrug ist von jeder Nummer aus illegal, und die Regeln jeder Plattform gelten für jedes Konto gleich. Eine virtuelle Nummer ist ein Datenschutzwerkzeug, kein Freibrief."
+    },
+    {
+      "type": "p",
+      "text": "Die legitimen Anwendungen sind breiter, als die meisten erwarten:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Datenschutz: sich bei Apps und Websites registrieren, ohne deine echte Nummer in noch eine Datenbank zu speisen, die geleakt, verkauft oder für Spam-Anrufe ausgelesen werden kann.",
+        "Trennung: ein zweites Messenger-Konto für die Arbeit, ein Projekt oder Verkäufe auf Marktplätzen – erreichbar, ohne deine private Leitung preiszugeben.",
+        "Qualitätssicherung und Entwicklung: Ingenieure, die Registrierungsabläufe, SMS-Zustellung und Lokalisierung in vielen Ländern testen, ohne eine Schublade voller SIM-Karten zu pflegen.",
+        "Reisen und Geografie: sich bei einem Dienst registrieren, der eine lokale Nummer in einem Land erwartet, in dem du keine SIM hast.",
+        "Schadensbegrenzung: Wenn ein Dienst, dem du grundsätzlich nicht traust, eine Nummer verlangt, begrenzt eine gemietete das Risiko."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "choosing-a-provider",
+      "text": "Worauf du bei einem Anbieter achten solltest"
+    },
+    {
+      "type": "p",
+      "text": "Anbieter unterscheiden sich weit mehr, als ihre Startseiten vermuten lassen, und die Unterschiede zeigen sich genau in dem Moment, in dem du auf einen Code wartest. Vier Dinge lohnt es sich zu prüfen, bevor du irgendwen bezahlst:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Echte, eigene Mobilnummern – nicht die geteilten Nummern auf kostenlosen „SMS online empfangen“-Seiten. Die werden von Tausenden genutzt, Dienste setzen sie also auf Sperrlisten oder finden sie schon registriert; und jeder, der dieselbe Seite ansieht, kann deinen Code lesen.",
+        "Eine faire Stornoregel: Kommt keine SMS an, solltest du nicht zahlen. Bei SMS Code wird eine Aktivierung, die nichts empfangen hat, kostenlos abgebrochen.",
+        "Eine Länderabdeckung, die zu deinem Bedarf passt – SMS Code bietet Nummern in über 100 Ländern, was dir auch Alternativen gibt, wenn ein Weg langsam ist.",
+        "Preise, die du nachvollziehen kannst: Bezahlung pro Aktivierung aus einem einmaligen Münzpaket schlägt ein Abo, wenn dein Bedarf gelegentlich ist – du solltest keine monatliche Leitung mieten, um einen Code zu empfangen."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Der schnellste Qualitätstest für jeden Anbieter: Was passiert, wenn ein Code nicht ankommt? Lautet die Antwort „Du hast trotzdem bezahlt“, such weiter. Bestätigung ist an den Rändern eine Frage der Wahrscheinlichkeit – ein seriöser Anbieter preist das ein, statt es an dich weiterzugeben."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Häufige Fragen"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Ist eine virtuelle Telefonnummer eine echte Nummer?",
+          "a": "Ja. Sie wird von einem echten Netzbetreiber vergeben und lebt in einem echten Mobilfunknetz – der einzige Unterschied zur Nummer in deiner Tasche ist, dass eingehende Nachrichten über das Internet an dich weitergeleitet werden, statt eine SIM in deinem eigenen Gerät klingeln zu lassen."
+        },
+        {
+          "q": "Kann eine virtuelle Nummer SMS-Bestätigungscodes empfangen?",
+          "a": "Ja – das ist der Hauptzweck. Weil sie eine echte Mobilnummer ist, stellen Dienste ihr OTP-Codes ganz normal zu, und ein guter Anbieter zeigt dir die Nachricht meist innerhalb von Sekunden. VoIP-Nummern dagegen werden von Registrierungssystemen oft abgelehnt."
+        },
+        {
+          "q": "Brauche ich für eine virtuelle Nummer eine SIM-Karte oder neue Hardware?",
+          "a": "Nein. Die SIM, die für die Nummer antwortet, sitzt in der Infrastruktur des Anbieters. Du siehst eingehende Nachrichten einfach in einer App – nichts wird ins SIM-Fach deines Handys gesteckt, und kein eSIM-Profil wird hinzugefügt."
+        },
+        {
+          "q": "Was ist der Unterschied zwischen einer virtuellen Nummer und einem Wegwerfhandy?",
+          "a": "Ein Wegwerfhandy ist physisch: ein günstiges Prepaid-Handy und eine SIM, die du kaufst, mit dir trägst und irgendwann wegwirfst. Eine virtuelle Nummer erreicht dieselbe Trennung ohne Hardware, ohne Gang in den Laden und ohne Papierkram für die SIM-Registrierung – du mietest die Nummer für die Bestätigung und empfängst den Code in einer App."
+        },
+        {
+          "q": "Reichen kostenlose „SMS online empfangen“-Seiten aus?",
+          "a": "Für alles, was dir wichtig ist, nein. Ihre Nummern sind geteilt und öffentlich sichtbar: Dienste setzen sie auf Sperrlisten, die Nummer ist oft schon registriert, und jeder auf derselben Seite kann die Codes lesen, die du empfängst – einschließlich eines Codes, mit dem sich das Konto zurücksetzen ließe, das du gerade erstellt hast."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

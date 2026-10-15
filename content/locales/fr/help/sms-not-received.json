@@ -1,0 +1,30 @@
+{
+  "title": "SMS non reçu\u00a0: pourquoi et que faire",
+  "metaDescription": "Pourquoi un SMS de vérification n’arrive parfois pas sur un numéro virtuel, comment vos pièces reviennent seules et quels pays livrent le mieux.",
+  "sections": [
+    {
+      "title": "Vous ne perdez pas de pièces si aucun SMS n’arrive",
+      "paragraphs": [
+        "Si aucun SMS n’arrive, vous pouvez annuler deux minutes après l’attribution du numéro, et les pièces reviennent sur votre solde. Si vous attendez, l’activation se ferme à la fin de sa fenêtre de 15 minutes et les pièces reviennent automatiquement. Dans les deux cas, inutile de nous contacter."
+      ]
+    },
+    {
+      "title": "Pourquoi un SMS n’arrive pas",
+      "paragraphs": [
+        "**C’est le service qui décide.** Chaque service a ses propres contrôles anti-fraude. Certains refusent ou ignorent sans prévenir les SMS vers des numéros virtuels de certains pays, ou limitent le nombre de comptes par plage de numéros.",
+        "**Le pays et l’opérateur comptent.** Un même service peut bien livrer dans un pays et mal dans un autre. Cela évolue aussi dans le temps, au fil des mises à jour des filtres des services.",
+        "**Le code n’est peut-être pas envoyé par SMS.** Certains services envoient le premier code par appel vocal, par e-mail ou dans une app où vous êtes déjà connecté. Cherchez une option «\u00a0envoyer par SMS\u00a0».",
+        "**Limites de renvoi.** Redemander le code trop souvent peut déclencher un délai d’attente côté service. Attendez une minute avant de le redemander."
+      ]
+    },
+    {
+      "title": "Que faire",
+      "steps": [
+        "Vérifiez que le numéro est saisi avec le bon indicatif pays et que vous avez choisi le service exact dans l’app.",
+        "Attendez jusqu’à deux minutes, puis annulez. Les pièces reviennent sur votre solde.",
+        "Essayez un autre pays pour le même service. Utilisez la recherche ci-dessous pour en choisir un où les SMS arrivent bien en ce moment.",
+        "Si plusieurs pays échouent pour le même service, celui-ci bloque probablement les numéros virtuels pour le moment. Réessayez plus tard."
+      ]
+    }
+  ]
+}

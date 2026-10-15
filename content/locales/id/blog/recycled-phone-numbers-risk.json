@@ -1,0 +1,129 @@
+{
+  "title": "Nomor daur ulang: risiko tersembunyi verifikasi SMS",
+  "description": "Jutaan nomor telepon berpindah tangan setiap tahun. Studi Princeton menemukan sebagian besar nomor daur ulang masih membuka akun milik pemilik lama.",
+  "excerpt": "Nomor yang diputus tidak hilang — nomor itu dijual lagi. Peneliti Princeton menemukan dua dari tiga nomor daur ulang dalam sampel mereka masih terhubung ke akun milik orang lain. Apa arti daur ulang nomor bagi verifikasi SMS, dan cara agar tidak berada di sisi mana pun dari masalah ini.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Nomor telepon terasa permanen. Kita mencetaknya di kartu nama, memberikannya ke bank, dan memakainya untuk masuk ke hampir semua hal. Tetapi bagi operator, nomor adalah stok barang. Ketika pelanggan berhenti membayar, ganti paket tanpa memindahkan nomor, atau membiarkan kartu prabayar hangus, nomornya diputus, didiamkan beberapa waktu, lalu diberikan kepada orang lain."
+    },
+    {
+      "type": "p",
+      "text": "Komisi Komunikasi Federal AS (FCC) memperkirakan sekitar 35 juta nomor diputus dan tersedia untuk dialokasikan ulang setiap tahun di Amerika Serikat saja. Sebagian besar dari nomor itu pernah menjadi login, jalur pemulihan, atau faktor kedua untuk akun seseorang."
+    },
+    {
+      "type": "h2",
+      "id": "what-the-princeton-study-found",
+      "text": "Apa yang ditemukan peneliti Princeton"
+    },
+    {
+      "type": "p",
+      "text": "Pada 2021, Kevin Lee dan Arvind Narayanan dari Center for Information Technology Policy, Universitas Princeton, mengukur masalah ini secara langsung. Mereka mengambil sampel 259 nomor yang ditawarkan dua operator besar AS, T-Mobile dan Verizon, kepada pelanggan baru, lalu memeriksa apa saja yang masih bisa dibuka oleh nomor-nomor itu."
+    },
+    {
+      "type": "list",
+      "items": [
+        "171 dari 259 nomor — sekitar dua dari tiga — masih terhubung ke akun yang ada di situs populer, termasuk Amazon, AOL, Facebook, Google, PayPal, dan Yahoo. Pemilik baru yang menerima SMS reset kata sandi berpotensi mengambil alih akun-akun itu.",
+        "100 nomor muncul bersama kredensial login yang bocor di data pelanggaran yang tersebar publik, artinya SMS adalah satu-satunya penghalang antara penyerang dan akun.",
+        "Banyak nomor juga menampilkan informasi pribadi pemilik lamanya di situs pencarian orang."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Para peneliti juga menemukan bahwa halaman ganti nomor daring milik operator memungkinkan siapa saja menelusuri kumpulan besar nomor yang tersedia, sehingga penyerang mudah memburu nomor daur ulang. Kedua operator melakukan perubahan setelah diberi tahu; penulis menerbitkan tanggapan operator bersama studinya."
+    },
+    {
+      "type": "callout",
+      "text": "Inti masalahnya sederhana: layanan menganggap «bisa menerima SMS di nomor ini» sebagai bukti identitas, sementara operator menganggap nomor bisa dipakai ulang. Ketika dua asumsi itu bertemu, orang yang memegang nomor hari ini mewarisi seluruh kepercayaan yang melekat padanya kemarin."
+    },
+    {
+      "type": "h2",
+      "id": "what-regulators-did",
+      "text": "Apa yang dilakukan regulator"
+    },
+    {
+      "type": "p",
+      "text": "Respons utama FCC menyasar masalah lain: panggilan tak diinginkan kepada orang yang mewarisi nomor. Pada Desember 2018, FCC memerintahkan pembuatan Reassigned Numbers Database, yang mulai beroperasi pada 2021. Operator melaporkan nomor yang diputus permanen, dan perusahaan bisa memeriksa apakah sebuah nomor telah diputus sejak tanggal tertentu sebelum menelepon atau mengirim pesan. Keputusan yang sama menetapkan masa «pengendapan» minimal 45 hari sebelum nomor yang diputus boleh dialokasikan ulang."
+    },
+    {
+      "type": "p",
+      "text": "Itu membantu perusahaan berhenti mengirim pesan ke orang asing. Tetapi tidak membantu akun yang masih menyimpan nomor lama. Memperbaruinya, dalam praktiknya, diserahkan kepada pemilik akun."
+    },
+    {
+      "type": "h2",
+      "id": "protecting-your-own-accounts",
+      "text": "Melindungi diri saat ganti nomor"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Perbarui sebelum melepas nomor",
+          "body": "Sebelum berhenti berlangganan atau membiarkan SIM prabayar hangus, periksa akun email, bank, media sosial, dan belanja Anda lalu ganti nomornya. Daftar login tersimpan di pengelola kata sandi adalah daftar periksa tercepat."
+        },
+        {
+          "title": "Tinggalkan SMS sebagai faktor kedua",
+          "body": "Gunakan aplikasi autentikator, passkey, atau kunci keamanan fisik bila tersedia. NIST, lembaga standar AS, kini menggolongkan kode SMS sebagai autentikator «terbatas» justru karena alasan-alasan ini."
+        },
+        {
+          "title": "Simpan jalur pemulihan yang bukan nomor telepon",
+          "body": "Email pemulihan yang Anda kendalikan dan kode cadangan yang tersimpan membuat nomor yang hilang atau didaur ulang hanya jadi gangguan kecil, bukan terkunci dari akun."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "what-it-means-for-virtual-numbers",
+      "text": "Apa artinya bagi nomor virtual sewaan"
+    },
+    {
+      "type": "p",
+      "text": "Artikel yang jujur tentang daur ulang nomor harus menerapkan logika yang sama pada nomor sewaan, karena nomor itu memang didaur ulang secara desain. Nomor yang Anda sewa untuk satu verifikasi khusus untuk Anda selama aktivasi; setelah itu, nomor bisa dipakai lagi oleh orang lain dan untuk layanan lain. Itulah yang membuatnya murah dan sekali pakai — dan karena itu nomor sewaan tidak boleh menjadi jalur pemulihan jangka panjang untuk akun yang penting bagi Anda."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Penggunaan yang tepat: menyelesaikan pendaftaran tanpa memberikan nomor pribadi; aplikasi pesan, media sosial, marketplace, uji coba gratis, dan akun uji, di mana nomor hanya penting saat verifikasi.",
+        "Penggunaan yang salah: perbankan, pembayaran, layanan pemerintah, dan akun apa pun yang satu-satunya jalur pemulihannya adalah SMS ke nomor itu. Akun seperti itu layak mendapat nomor yang masih milik Anda lima tahun lagi.",
+        "Segera setelah verifikasi: tambahkan email pemulihan, aktifkan perlindungan dua langkah berbasis aplikasi, dan jika layanan mengizinkan, jangan biarkan nomor sewaan menjadi satu-satunya jalan kembali."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Jika dipakai seperti itu, nomor sewaan justru menjadi pertahanan terhadap masalah daur ulang, bukan contohnya. Nomor asli Anda — yang suatu hari mungkin juga diputus dan dijual kembali — tidak pernah masuk ke puluhan basis data sejak awal."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Berapa lama sampai nomor lama diberikan ke orang lain?",
+          "a": "Di AS, aturan FCC mewajibkan nomor yang diputus «diendapkan» setidaknya 45 hari sebelum dialokasikan ulang, dan operator sering menunggu lebih lama. Negara lain menetapkan jangka waktunya sendiri; sebagian nomor prabayar diterbitkan ulang dalam hitungan bulan."
+        },
+        {
+          "q": "Bisakah pemilik baru nomor lama saya masuk ke akun saya?",
+          "a": "Jika ada akun yang masih memakai nomor itu untuk reset kata sandi atau kode dua langkah, kemungkinan bisa. Studi Princeton menemukan dua pertiga nomor daur ulang dalam sampel masih terhubung ke akun di situs-situs besar."
+        },
+        {
+          "q": "Bagaimana mengetahui akun mana yang memakai nomor saya?",
+          "a": "Mulailah dari pengelola kata sandi dan kotak masuk email — cari pesan «kode verifikasi» dan «masuk». Lalu periksa satu per satu pengaturan keamanan akun email, bank, media sosial, dan belanja Anda."
+        },
+        {
+          "q": "Apakah nomor virtual sewaan dipakai ulang?",
+          "a": "Ya, setelah aktivasi Anda selesai. Karena itu nomor sewaan dirancang untuk momen verifikasi. Tambahkan email dan perlindungan dua langkah berbasis aplikasi ke akun segera setelah mendaftar."
+        },
+        {
+          "q": "Apakah verifikasi dua langkah lewat SMS masih layak dipakai?",
+          "a": "Lebih baik daripada tanpa faktor kedua sama sekali, tetapi aplikasi autentikator, passkey, atau kunci fisik lebih kuat dan tidak bergantung pada siapa yang memegang sebuah nomor telepon."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

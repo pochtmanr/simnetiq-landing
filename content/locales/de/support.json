@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "title": "Support",
+    "description": "Hilfe zu SMS Code – Aktivierungen, Abrechnung, Münzen und Kontofragen. Lies Leitfäden zur Fehlerbehebung oder schreib unserem Support-Team per E-Mail."
+  },
+  "page": {
+    "label": "Support",
+    "title": "Wie können wir helfen?",
+    "introBefore": "Schick uns unten eine Nachricht oder schreib an ",
+    "introAfter": " – wähle zuerst ein Thema: Die meisten Antworten sind nur einen Tipp entfernt, und alles andere landet bei einem Menschen.",
+    "items": [
+      {
+        "title": "Rückerstattungen",
+        "body": "Käufe im App Store werden von Apple abgerechnet, daher beantragst du Rückerstattungen bei Apple, und Apple entscheidet darüber. Der Leitfaden führt dich in weniger als zwei Minuten durch.",
+        "slug": "refund-apple"
+      },
+      {
+        "title": "SMS ist nicht angekommen",
+        "body": "Die Zustellung hängt vom Dienst, vom Land und von den eigenen Prüfungen des Dienstes ab. Kommt nichts an, gehen die Münzen automatisch zurück. Sieh nach, welche Länder gerade am besten funktionieren.",
+        "slug": "sms-not-received"
+      },
+      {
+        "title": "Fehlende Münzen",
+        "body": "Bezahlt, aber keine Münzen? Meist ist es eine noch ausstehende Apple-Zahlung oder ein anderes SMS Code Konto. Prüfe diese Schritte, bevor du noch einmal kaufst.",
+        "slug": "missing-coins"
+      },
+      {
+        "title": "Dein Guthaben behalten",
+        "body": "Deine Münzen gehören zu deinem SMS Code Konto, nicht zum Beleg aus dem App Store. Melde dich an (Apple, Google oder E-Mail-Code), solange du Münzen hast, und sie folgen dir auf jedes Gerät.",
+        "slug": "account-balance"
+      }
+    ],
+    "readGuide": "Zum Leitfaden",
+    "knowledgeBase": "Wissensdatenbank",
+    "safetyTitle": "Ein Land wählen und sicher bleiben",
+    "safetyLink": "So wählst du ein Land und schützt dein Konto"
+  },
+  "form": {
+    "name": "Dein Name",
+    "namePlaceholder": "Alex",
+    "email": "E-Mail",
+    "emailPlaceholder": "du@beispiel.de",
+    "stepTopic": "Wobei können wir helfen?",
+    "topics": {
+      "refund": "Kauf erstatten",
+      "sms": "SMS ist nicht angekommen",
+      "code": "Code abgelehnt oder Nummer gesperrt",
+      "coins": "Münzen fehlen nach dem Kauf",
+      "account": "Konto, Wiederherstellung oder Löschung",
+      "bug": "Etwas funktioniert nicht",
+      "feature": "Funktion vorschlagen",
+      "other": "Etwas anderes"
+    },
+    "selfServe": {
+      "sms": {
+        "title": "Bevor du schreibst: Die meisten fehlenden SMS lösen sich von selbst",
+        "points": [
+          "Kommt innerhalb des Aktivierungsfensters keine SMS an, wird die Aktivierung geschlossen und ihre Münzen gehen automatisch auf dein Guthaben zurück.",
+          "Die Zustellung hängt vom Dienst und vom Land ab. Manche Dienste sperren virtuelle Nummern in bestimmten Ländern, versuche also ein anderes Land mit einer besseren Zustellquote.",
+          "Achte darauf, dass der Dienst den Code per SMS sendet – nicht per Sprachanruf und nicht an eine App, in der du bereits angemeldet bist."
+        ]
+      },
+      "code": {
+        "title": "Bevor du schreibst: Warum ein Code abgelehnt wird",
+        "points": [
+          "Der Dienst entscheidet, ob er eine Nummer akzeptiert. Eine bereits genutzte Nummer oder ein Land, das der Dienst einschränkt, kann auch dann abgelehnt werden, wenn die SMS angekommen ist.",
+          "Verwende den neuesten Code, für dasselbe Konto und denselben Dienst, ohne Leerzeichen.",
+          "Wiederhole keine bezahlten Versuche beim selben Dienst und Land. Wechsle das Land oder schreib uns für eine Prüfung."
+        ]
+      },
+      "coins": {
+        "title": "Bevor du schreibst: Wo Münzen meistens sind",
+        "points": [
+          "Eine ausstehende Apple-Zahlung kann ein paar Minuten dauern. Öffne die App erneut, bevor du noch einmal kaufst.",
+          "Münzen gehören zu dem SMS Code Konto, mit dem sie gekauft wurden. Melde dich mit demselben Apple-, Google- oder E-Mail-Login an.",
+          "Fehlen sie immer noch? Schick uns deine Apple-Bestellnummer (aus der Beleg-E-Mail von Apple), und wir verfolgen sie."
+        ]
+      },
+      "account": {
+        "title": "Bevor du schreibst: Antworten rund ums Konto",
+        "points": [
+          "Melde dich mit Apple, Google oder einem E-Mail-Code an, um dein Guthaben auf jedem Gerät zu behalten.",
+          "Du kannst dein Konto in der App löschen: Einstellungen → Konto löschen. Das Löschen erstattet keine Apple-Zahlung.",
+          "Guthaben nach einer Neuinstallation verloren? Schreib uns mit deiner Apple-Bestellnummer."
+        ]
+      }
+    },
+    "readGuide": "Ganzen Leitfaden lesen",
+    "solved": "Das hat geholfen",
+    "stillNeed": "Ich brauche weiter Hilfe",
+    "solvedTitle": "Schön, dass es geholfen hat",
+    "solvedBody": "Wenn sich etwas ändert, komm jederzeit auf diese Seite zurück.",
+    "changeTopic": "Thema ändern",
+    "refundNote": "Für Käufe im App Store können wir keine Rückerstattungen ausstellen. Nur Apple kann sie genehmigen, unter reportaproblem.apple.com. Schreib uns, wenn Apple dich gebeten hat, den Entwickler zu kontaktieren, oder wenn du Kaufbelege brauchst.",
+    "orderId": "Apple-Bestellnummer (optional)",
+    "orderIdPlaceholder": "z. B. MXXXXXXXXX",
+    "service": "Dienst",
+    "servicePlaceholder": "z. B. Telegram",
+    "country": "Land",
+    "countryPlaceholder": "z. B. Indonesien",
+    "when": "Ungefähr wann?",
+    "whenPlaceholder": "z. B. heute gegen 14:00 (UTC+3)",
+    "accountAttached": "Deine SMS Code Konto-ID und die App-Version werden angehängt, du musst sie also nicht heraussuchen.",
+    "messagePlaceholders": {
+      "refund": "Was ist passiert, und hat Apple dich gebeten, uns zu kontaktieren?",
+      "sms": "Welche Nummer hast du bekommen, und was hat der Dienst gemeldet?",
+      "code": "Was hat der Dienst gemeldet, als er den Code abgelehnt hat?",
+      "coins": "Welches Paket hast du gekauft, und wann?",
+      "account": "Wobei brauchst du Hilfe?",
+      "bug": "Was hast du angetippt, was hast du erwartet, und was ist stattdessen passiert?",
+      "feature": "Was soll SMS Code können?",
+      "other": "Erzähl uns, was passiert ist."
+    },
+    "message": "Nachricht",
+    "honeypot": "Dieses Feld leer lassen",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet…",
+    "genericError": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+    "sentChip": "Gesendet",
+    "sentTitle": "Nachricht erhalten",
+    "sentBody": "Deine Anfrage wurde übermittelt. Wir prüfen sie und antworten an die E-Mail-Adresse, die du angegeben hast.",
+    "sendAnother": "Weitere Nachricht senden"
+  },
+  "help": {
+    "label": "Wissensdatenbank",
+    "updatedLabel": "Zuletzt aktualisiert:",
+    "back": "Support und Kontaktformular",
+    "appleTitle": "Offizielle Hinweise von Apple",
+    "appleLinks": {
+      "refund": "Rückerstattung beantragen",
+      "instructions": "Anleitung von Apple zur Rückerstattung",
+      "status": "Status der Rückerstattung und Zahlungsfristen",
+      "terms": "Regionale Bedingungen von Apple",
+      "support": "Apple Support"
+    },
+    "appleNote": "Hinweise am 30. September 2026 mit den offiziellen Support-Materialien von Apple abgeglichen. Ob eine Rückerstattung möglich ist, hängt von deiner Region und dem geltenden Recht ab.",
+    "related": "Verwandte Hilfe",
+    "terms": "Servicebedingungen",
+    "privacy": "Datenschutzerklärung",
+    "stillNeedTitle": "Brauchst du weiter Hilfe?",
+    "stillNeedBody": "Wenn diese Seite das Problem nicht gelöst hat, schick uns eine Anfrage. Sie landet bei einem Menschen, und die Angaben oben helfen uns, schneller zu antworten.",
+    "submitAnyway": "Trotzdem eine Anfrage senden",
+    "tiers": {
+      "title": "Wo SMS gerade ankommen",
+      "intro": "Wähle einen Dienst, um zu sehen, wie zuverlässig in den letzten 30 Tagen in jedem Land eine SMS unsere Nummern erreicht hat. Ist dein Land niedrig, wechsle zu einem hohen.",
+      "service": "Dienst",
+      "pick": "Dienst wählen",
+      "high": "Hoch",
+      "medium": "Mittel",
+      "low": "Niedrig",
+      "unavailable": "gerade keine Nummern",
+      "note": "Basierend auf aktuellen SMS Code Aktivierungen und stündlich aktualisiert. Es werden nur Kombinationen aus Dienst und Land mit genügend aktuellen Bestellungen gezeigt. Frühere Zustellungen garantieren die nächste SMS nicht, und der Dienst entscheidet weiterhin, ob er die Nummer akzeptiert."
+    }
+  },
+  "api": {
+    "invalidBody": "Ungültiger Anfrageinhalt.",
+    "invalidJson": "Ungültiges JSON.",
+    "name": "Bitte gib deinen Namen ein.",
+    "email": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "topic": "Das Thema ist zu lang.",
+    "message": "Bitte beschreibe dein Problem in eigenen Worten (mindestens 10 Zeichen).",
+    "unavailable": "Das Supportformular ist vorübergehend nicht verfügbar. Bitte schreib uns stattdessen eine E-Mail.",
+    "saveFailed": "Wir konnten deine Nachricht nicht speichern. Bitte versuche es erneut oder schreib uns eine E-Mail.",
+    "forbidden": "Diese Anfrage kam nicht von der Support-Seite. Bitte lade die Seite neu und versuche es erneut.",
+    "challenge": "Bitte schließe die Sicherheitsprüfung ab und versuche es erneut.",
+    "replySubject": "SMS Code Support"
+  }
+}

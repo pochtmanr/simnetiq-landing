@@ -1,0 +1,93 @@
+{
+  "site": {
+    "name": "SMS Code від SIMNETIQ",
+    "titleTemplate": "%s — SMS Code від SIMNETIQ",
+    "appDescription": "Віртуальні номери у понад 100 країнах для отримання SMS-кодів підтвердження. Реєструйтеся в Telegram, WhatsApp, Google та понад 100 сервісах, не віддаючи свій особистий номер."
+  },
+  "a11y": {
+    "mainNav": "Головна навігація",
+    "breadcrumb": "Навігаційний ланцюжок"
+  },
+  "faqHeading": "Питання й відповіді",
+  "nav": {
+    "langLabel": "Мова",
+    "links": [
+      {
+        "path": "/#how-it-works",
+        "label": "Як це працює"
+      },
+      {
+        "path": "/virtual-numbers",
+        "label": "Номери"
+      },
+      {
+        "path": "/#pricing",
+        "label": "Ціни"
+      },
+      {
+        "path": "/#faq",
+        "label": "Питання"
+      },
+      {
+        "path": "/support",
+        "label": "Підтримка"
+      }
+    ],
+    "cta": "Завантажити застосунок",
+    "home": "Головна SMS Code",
+    "openMenu": "Відкрити меню",
+    "closeMenu": "Закрити меню"
+  },
+  "footer": {
+    "tagline": "Номер телефону для реєстрації. Не на все життя.",
+    "liveStatus": "Номери онлайн у понад 100 країнах",
+    "backToTop": "Нагору",
+    "servicesLabel": "Популярні сервіси",
+    "allServices": "Усі сервіси",
+    "resourcesLabel": "Матеріали",
+    "hub": "Віртуальні номери",
+    "blog": "Блог",
+    "companyLabel": "Компанія",
+    "getApp": "Завантажити застосунок",
+    "followLabel": "Стежте за нами",
+    "support": "Підтримка",
+    "privacy": "Політика конфіденційності",
+    "terms": "Умови користування",
+    "rights": "Усі права захищено.",
+    "registered": "Зареєстровано в",
+    "companyNo": "реєстр. № компанії",
+    "registeredOffice": "Юридична адреса",
+    "cookies": "Політика щодо файлів cookie",
+    "cookieSettings": "Налаштування cookie"
+  },
+  "cookies": {
+    "bannerLabel": "Згода на файли cookie",
+    "bannerTitle": "Cookie — вирішуєте ви",
+    "bannerBody": "З вашої згоди ми використовуємо аналітику, щоб бачити, які сторінки справді допомагають, і Meta Pixel, щоб вимірювати нашу рекламу. Нічого не працює, доки ви не оберете.",
+    "policyLink": "Політика щодо файлів cookie",
+    "reject": "Відхилити",
+    "accept": "Прийняти",
+    "customize": "Налаштувати",
+    "dialogTitle": "Налаштування cookie",
+    "dialogIntro": "Оберіть, що може використовувати цей сайт. Ви будь-коли можете змінити рішення внизу сторінки.",
+    "necessaryTitle": "Суворо необхідні",
+    "necessaryBody": "Один файл cookie, який запам'ятовує цей вибір, щоб ми не питали на кожній сторінці.",
+    "alwaysOn": "Завжди увімкнено",
+    "analyticsTitle": "Аналітика",
+    "analyticsBody": "Vercel Web Analytics і Google Analytics рахують відвідування й кліки, щоб ми бачили, які сторінки корисні. Google Analytics встановлює cookie _ga. Ніколи не використовується для реклами.",
+    "marketingTitle": "Маркетинг",
+    "marketingBody": "Meta Pixel повідомляє нам, коли відвідування прийшло з нашої реклами у Facebook чи Instagram, щоб ми бачили, яка реклама працює. Він встановлює cookie _fbp, і Meta також може використовувати ці дані згідно з власною політикою.",
+    "rejectAll": "Відхилити все",
+    "acceptAll": "Прийняти все",
+    "save": "Зберегти вибір",
+    "close": "Закрити"
+  },
+  "badges": {
+    "appStore": "Завантажте в App Store"
+  },
+  "notFound": {
+    "title": "Такої сторінки не існує",
+    "body": "Можливо, адреса змінилася. Усе про SMS Code — на головній сторінці.",
+    "back": "На головну"
+  }
+}

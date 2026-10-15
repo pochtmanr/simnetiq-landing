@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer eBay — kupuj i sprzedawaj prywatnie",
+  "metaDescription": "Odbierz kod bezpieczeństwa eBay na prawdziwy numer wirtualny zwykle w kilka sekund. Rejestruj się, sprzedawaj i loguj bez odsłaniania prywatnego telefonu.",
+  "hero": {
+    "title": "Numer wirtualny do eBay",
+    "intro": [
+      "eBay chce numeru telefonu wcześnie i często go sprawdza. Rejestracja o niego prosi, otwarcie konta sprzedawcy go wymaga, a ochrona logowania chętnie wstrzymuje logowanie, dopóki nie wpiszesz SMS-a w rodzaju „Your eBay security code is 271846”. Jak na marketplace, na którym chciałeś głównie kupić obiektyw do aparatu, to sporo powiązań z prywatnym telefonem.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, a kod pojawia się w aplikacji zwykle w ciągu kilku sekund. Konto jest zweryfikowane, oferta trafia online – a numer w danych kontaktowych eBay nie jest tym w Twojej kieszeni."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do eBay?",
+    "body": [
+      "Konto na marketplace gromadzi w jednym miejscu niezwykle dużo z Ciebie: historię zakupów, adres, kartę i – jeśli telefon jest Twój – bezpośrednią linię, która przetrwa każdą transakcję. eBay ma dekady zgromadzonych danych klientów i długą historię jako cel phishingu; „z Twoim kontem eBay jest problem, kliknij tutaj” to cały gatunek oszukańczych SMS-ów. Wynajęty numer bierze na siebie krok weryfikacji, więc ten gatunek rozgrywa się na numerze, który nigdy tak naprawdę nie był Twój.",
+      "Uczciwa druga strona: eBay używa telefonu nie tylko przy rejestracji. Kody bezpieczeństwa przy logowaniu, weryfikacja tożsamości sprzedawcy i funkcje kontaktu kupujący–sprzedawca mogą później po niego sięgać. Dlatego działa taki schemat: zweryfikuj wynajętym numerem, potem trzymaj e-mail jako kotwicę konta i zmień telefon w ustawieniach konta, jeśli przestaniesz go wynajmować. Konto eBay, które nie może odebrać własnych kodów bezpieczeństwa, blokuje właściciela w najgorszym momencie – nie pozwól, by ten numer po cichu się zestarzał."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować eBay numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Wybierz eBay jako usługę i kraj serwisu eBay, z którego faktycznie korzystasz – ebay.com, ebay.co.uk, ebay.de i pozostałe dzielą jedno konto, ale pasujący numer utrzymuje spójność danych rejestracji."
+      },
+      {
+        "title": "Wpisz go tam, gdzie eBay prosi",
+        "body": "Przy rejestracji, przy zakładaniu konta sprzedawcy albo gdy ochrona logowania poprosi o potwierdzenie telefonu. Wybierz numer kierunkowy numeru i wpisz go starannie."
+      },
+      {
+        "title": "Wpisz kod",
+        "body": "SMS brzmi „Your eBay security code is 271846” i pojawia się w aplikacji SMS Code zwykle w ciągu kilku sekund. Wpisz go w eBay i numer jest potwierdzony."
+      },
+      {
+        "title": "Zakotwicz konto w e-mailu",
+        "body": "Potwierdź adres e-mail, ustaw silne hasło i traktuj telefon jako punkt kontrolny, a nie fundament. Jeśli nie zatrzymasz wynajętego numeru, zmień go po skonfigurowaniu konta w Ustawieniach konta → Dane osobowe, żeby przyszłe kody bezpieczeństwa trafiały tam, gdzie naprawdę czytasz."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Sprzedaż podnosi poprzeczkę",
+      "body": "Konto kupującego może przejść przy minimalnych kontrolach, ale rejestracja jako sprzedawca uruchamia prawdziwą weryfikację tożsamości i wypłat – dane bankowe, czasem dokumenty. Numer wirtualny obsługuje krok SMS w tym procesie; reszta to sprawa między Tobą a onboardingiem sprzedawców eBay i nie jest opcjonalna."
+    },
+    {
+      "title": "Kontrole logowania wracają",
+      "body": "Ochrona logowania eBay ponownie wysyła SMS na telefon na nowych urządzeniach i przy nietypowej aktywności, czasem po miesiącach. Jeśli wynajęty numer wygasł, a zapisany telefon nie działa, odzyskiwanie konta staje się zgłoszeniem do pomocy. Zaktualizuj numer w ustawieniach, zanim to się stanie, a nie po."
+    },
+    {
+      "title": "Jedno konto to właściwa liczba kont",
+      "body": "eBay łączy konta przez znacznie więcej niż numery telefonów – adresy, metody płatności, urządzenia. Numer wirtualny nie wskrzesi zawieszonego konta ani nie skumuluje kuponów promocyjnych, a próby zwykle kończą się zamknięciem wszystkich powiązanych kont naraz. Używaj go dla prywatności na koncie, które zatrzymujesz."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy eBay akceptuje numery wirtualne?",
+      "a": "eBay sprawdza, czy numer może odebrać jego SMS – a wynajęty numer z SMS Code to prawdziwy numer komórkowy w sieci operatora, więc kod przychodzi jak każda inna wiadomość. Numery z darmowych stron z SMS-ami są natomiast zwykle rozpoznawane i odrzucane."
+    },
+    {
+      "q": "Czy mogę sprzedawać na eBay z numerem wirtualnym?",
+      "a": "Krok weryfikacji telefonu – tak, rejestracja sprzedawcy wysyła kod, a wynajęty numer go odbiera. Sprzedaż obejmuje jednak także weryfikację wypłat i tożsamości we własnym procesie eBay, na który numer telefonu nie ma wpływu. Spodziewaj się, że przejdziesz ją z prawdziwymi danymi."
+    },
+    {
+      "q": "Czy moje konto eBay przetrwa wygaśnięcie wynajętego numeru?",
+      "a": "Tak – konto jest zakotwiczone w e-mailu i haśle. Nie zostawiaj tylko martwego numeru jako kontaktu bezpieczeństwa: zmień lub zaktualizuj telefon w Ustawieniach konta, żeby potwierdzenia logowania i alerty trafiały na numer, który nadal czytasz."
+    },
+    {
+      "q": "Z jakiego kraju powinien być numer?",
+      "a": "Z kraju, w którym faktycznie kupujesz lub sprzedajesz. Twój adres, metoda płatności i telefon opowiadają eBay jedną spójną historię; numer z innego kontynentu niż adres dostawy prowadzi raczej do większej liczby weryfikacji niż mniejszej."
+    },
+    {
+      "q": "Kod z eBay nie dotarł – co teraz?",
+      "a": "Sprawdź jeszcze raz, czy numer kierunkowy pasuje do wynajętego numeru, i daj mu minutę; eBay czasem proponuje połączenie głosowe jako alternatywę, które nie dotrze do wynajętego numeru SMS – zamiast tego poproś ponownie o SMS. Jeśli nic nie przyjdzie, anuluj aktywację w SMS Code za darmo i weź nowy numer."
+    }
+  ]
+}

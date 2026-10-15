@@ -1,0 +1,30 @@
+{
+  "title": "Kode ditolak atau nomor sudah terpakai",
+  "metaDescription": "SMS masuk tetapi layanan menolak kode atau nomornya? Mengapa layanan menolak nomor virtual, apa yang perlu dicoba, dan kapan dukungan dapat meninjaunya.",
+  "sections": [
+    {
+      "title": "Mengapa layanan menolak kode atau nomor",
+      "paragraphs": [
+        "Menerima SMS adalah bagian kami. Menerima nomor atau tidak adalah keputusan layanan. Nomor virtual bisa ditolak bahkan setelah kodenya masuk.",
+        "**Nomor pernah dipakai.** Nomor didaur ulang. Jika nomor sudah tertaut ke akun di layanan tersebut, layanan bisa menolaknya atau menampilkan akun milik orang lain.",
+        "**Layanan membatasi negara.** Beberapa layanan hanya menerima nomor dari wilayah Anda sendiri, atau memblokir rentang nomor yang dianggap virtual.",
+        "**Kode kedaluwarsa atau tidak cocok.** Kode hanya berlaku sebentar dan terikat pada satu upaya pendaftaran. Permintaan baru membuat kode lama tidak berlaku."
+      ]
+    },
+    {
+      "title": "Yang bisa dicoba",
+      "steps": [
+        "Masukkan kode terbaru, untuk layanan dan akun yang sama, tanpa spasi.",
+        "Jika layanan menyatakan nomor sudah terdaftar, jangan masuk ke akun yang bukan milik Anda. Mulai aktivasi baru.",
+        "Coba negara lain. Negara yang SMS-nya untuk layanan itu masuk dengan baik tercantum di halaman [SMS tidak masuk](/support/sms-not-received).",
+        "Hentikan percobaan berbayar di layanan dan negara yang sama jika terus gagal."
+      ]
+    },
+    {
+      "title": "Tentang koin",
+      "paragraphs": [
+        "Setelah SMS masuk, aktivasi tidak bisa dibatalkan dan koinnya tidak kembali otomatis, karena nomor sudah menjalankan tugasnya. Jika menurut Anda SMS atau kodenya bermasalah, tulis kepada kami dengan menyebutkan layanan, negara, dan waktunya, dan kami akan meninjaunya. Hak Anda sebagai konsumen tidak terpengaruh."
+      ]
+    }
+  ]
+}

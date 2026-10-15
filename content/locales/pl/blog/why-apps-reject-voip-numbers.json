@@ -1,0 +1,127 @@
+{
+  "title": "Dlaczego aplikacje odrzucają numery VoIP przy rejestracji",
+  "description": "„Tego numeru nie można użyć” często oznacza, że aplikacja sprawdziła typ linii i zobaczyła VoIP. Jak działa ta kontrola i które numery przez nią przechodzą.",
+  "excerpt": "Wpisz numer z Google Voice lub TextNow w WhatsAppie albo aplikacji bankowej, a często odbije się natychmiast. Powodem jest sprawdzenie, o którym większość ludzi nigdy nie słyszy – oto jak aplikacje odróżniają numer VoIP od komórkowego i co to oznacza przy wyborze numeru.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Dzieje się to w mniej niż sekundę. Wpisujesz w formularz rejestracji całkowicie prawidłowy numer telefonu, naciskasz dalej i dostajesz płaską odmowę: „Tego numeru telefonu nie można użyć do weryfikacji” albo mglistsze „Podaj prawidłowy numer komórkowy”. Numer działa. Odbiera SMS-y od znajomych. Aplikacja po prostu uznała, że to niewłaściwy rodzaj numeru."
+    },
+    {
+      "type": "p",
+      "text": "W tej sekundzie odbyło się sprawdzenie typu linii – jedna z najmniej widocznych i najbardziej brzemiennych w skutki kontroli we współczesnych rejestracjach. Zrozumienie jej wyjaśnia, dlaczego niektóre numery wirtualne gładko przechodzą weryfikację, a inne nigdy nie wychodzą poza pierwszy ekran."
+    },
+    {
+      "type": "h2",
+      "id": "what-a-line-type-lookup-is",
+      "text": "Co tak naprawdę sprawdza kontrola typu linii"
+    },
+    {
+      "type": "p",
+      "text": "Każdy numer telefonu jest przydzielany w blokach operatorowi, a każdy operator jest zarejestrowany dla określonego rodzaju usługi. Urzędy numeracji i operatorzy publikują, kto ma które bloki; bazy przeniesień rejestrują numery, które od tego czasu zmieniły operatora. Komercyjni dostawcy danych łączą te źródła w API, które odpowiada na proste pytanie o każdy numer: kto go obsługuje i jaki to rodzaj linii?"
+    },
+    {
+      "type": "p",
+      "text": "Twilio, jeden z największych takich dostawców, sprzedaje tę kontrolę jako „Line Type Intelligence” i dokumentuje zwracane kategorie. Trzy najważniejsze przy rejestracjach to:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Komórkowy – numer w sieci operatora komórkowego, przypisany do karty SIM, który zazwyczaj może odbierać SMS-y.",
+        "Stacjonarny VoIP – numer dostarczany przez internet, powiązany z fizycznym adresem usługi, jak domowa linia telefoniczna od operatora kablowego.",
+        "Niestacjonarny VoIP – numer uzyskany online bez fizycznego urządzenia czy adresu za nim. Dokumentacja Twilio podaje jako przykład Google Voice."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Są też inne kategorie – stacjonarny, bezpłatny, pager, numer osobisty – ale dla aplikacji decydującej, czy wysłać kod weryfikacyjny, liczy się granica między komórkowym a niestacjonarnym VoIP."
+    },
+    {
+      "type": "h2",
+      "id": "why-apps-block-non-fixed-voip",
+      "text": "Dlaczego aplikacje blokują niestacjonarny VoIP"
+    },
+    {
+      "type": "p",
+      "text": "Weryfikacja telefonu istnieje po to, by fałszywe konta były drogie. Numer komórkowy kosztuje pieniądze, zwykle wymaga karty SIM, a w ponad 150 krajach zarejestrowanej tożsamości. To tarcie jest całym sensem."
+    },
+    {
+      "type": "p",
+      "text": "Niestacjonarne numery VoIP usuwają większość tego tarcia. Wiele z nich można utworzyć w kilka minut, niektóre za darmo, hurtowo, z adresem e-mail. Dla zespołu antyfraudowego konto zweryfikowane takim numerem daje niewiele więcej pewności niż konto zweryfikowane e-mailem. Dlatego platformy, którym najbardziej zależy na zwalczaniu nadużyć – komunikatory, usługi płatnicze, marketplace’y, aplikacje randkowe, giełdy kryptowalut – rutynowo je odrzucają, zanim wyślą choć jeden SMS."
+    },
+    {
+      "type": "callout",
+      "text": "Odmowa zwykle przychodzi, zanim jakakolwiek wiadomość zostanie wysłana. Jeśli formularz od razu odrzuca numer, żadne czekanie nie przyniesie kodu: aplikacja już zdecydowała, że go nie wyśle."
+    },
+    {
+      "type": "h2",
+      "id": "the-cost-for-real-users",
+      "text": "Koszt dla prawdziwych użytkowników"
+    },
+    {
+      "type": "p",
+      "text": "Ta polityka jest topornym narzędziem i łapie ludzi, w których nigdy nie celowała. Amerykanie używający Google Voice jako głównej linii zostają odcięci od aplikacji bankowych. Małe firmy, które przeniosły telefony do dostawcy VoIP, odkrywają, że ich firmowym numerem nie otworzą potrzebnych kont. Podróżni używający numeru VoIP, by uniknąć opłat roamingowych, słyszą, że jest „nieobsługiwany”."
+    },
+    {
+      "type": "p",
+      "text": "Jest też argument bezpieczeństwa działający w drugą stronę. Kody SMS same w sobie są słabym drugim czynnikiem – amerykańska instytucja normalizacyjna NIST klasyfikuje dziś jednorazowe kody SMS i głosowe jako „ograniczony” uwierzytelniacz z powodu przejmowania kart SIM i przechwytywania. Niektóre zespoły bezpieczeństwa twierdzą, że platforma powinna naprawdę sprawdzać, czy użytkownik potrafi udowodnić kontrolę nad kontem w czasie, a nie jaki ma rodzaj numeru. Na razie jednak filtrowanie według typu linii to standard branży i nie zniknie."
+    },
+    {
+      "type": "h2",
+      "id": "which-numbers-get-through",
+      "text": "Które numery przechodzą"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Twój własny numer komórkowy – zawsze przechodzi i zawsze odsłania usłudze Twoją tożsamość.",
+        "Druga karta SIM lub eSIM – przechodzi, kosztem taryfy, często kontroli dokumentu i numeru do utrzymywania.",
+        "Darmowe numery „odbieraj SMS online” – często niestacjonarny VoIP lub dawno na czarnej liście; nawet gdy przejdą, skrzynka jest publiczna.",
+        "Darmowe numery z aplikacji VoIP – dokładnie ta kategoria, do wychwytywania której zaprojektowano kontrole typu linii.",
+        "Wynajęty numer komórkowy – zarejestrowany jako komórkowy w sieci operatora, więc przechodzi kontrolę typu linii jak każdy abonent i jest zarezerwowany dla Ciebie podczas aktywacji."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Tę ostatnią kategorię zapewnia SMS Code. Numery to numery komórkowe w sieciach operatorów w ponad 100 krajach, a nie linie VoIP generowane przez aplikacje. Kontrola widzi zwykłego abonenta; kod jest dostarczany SMS-em jak każdy inny; i pojawia się w aplikacji zwykle w ciągu kilku sekund."
+    },
+    {
+      "type": "p",
+      "text": "Żaden numer nie przechodzi każdej kontroli za każdym razem. Usługi sprawdzają też, czy numer był już używany na ich platformie, patrzą na sygnały urządzenia i wzorce rejestracji. Jeśli wynajęty numer zostanie odrzucony albo kod nie przyjdzie, możesz anulować po dwóch minutach – monety wracają na saldo, gdy SMS nie dotarł – i spróbować innego numeru lub kraju."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Najczęstsze pytania"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Skąd aplikacja wie, że mój numer to VoIP?",
+          "a": "Pyta dostawcę danych telefonicznych, który mapuje bloki numerów i przeniesione numery na operatorów i typy linii. Odpowiedź – komórkowy, stacjonarny, stacjonarny VoIP, niestacjonarny VoIP – wraca w milisekundy, zanim zostanie wysłany jakikolwiek SMS."
+        },
+        {
+          "q": "Dlaczego WhatsApp mówi, że mój numer jest nieprawidłowy, skoro działa przy SMS-ach?",
+          "a": "Wiele komunikatorów i aplikacji płatniczych wprost odrzuca niestacjonarne numery VoIP. Numer może odbierać SMS-y; platforma po prostu nie akceptuje tego typu linii do weryfikacji."
+        },
+        {
+          "q": "Czy numer wirtualny to to samo co numer VoIP?",
+          "a": "Niekoniecznie. „Wirtualny” opisuje, jak uzyskujesz dostęp do numeru – przez aplikację, a nie kartę SIM w telefonie. Numery wirtualne SMS Code to numery komórkowe w sieciach operatorów, więc są klasyfikowane jako komórkowe, a nie VoIP."
+        },
+        {
+          "q": "Czy wynajęty numer komórkowy też może zostać odrzucony?",
+          "a": "Czasami. Platformy sprawdzają też, czy numer był wcześniej używany w ich usłudze, i patrzą na inne sygnały ryzyka. Jeśli tak się stanie, anuluj aktywację po dwóch minutach i weź świeży numer."
+        },
+        {
+          "q": "Czy używać numeru VoIP do banku?",
+          "a": "Banki często odrzucają numery VoIP i latami weryfikują SMS-em. Do bankowości używaj numeru komórkowego zarejestrowanego na własne nazwisko."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

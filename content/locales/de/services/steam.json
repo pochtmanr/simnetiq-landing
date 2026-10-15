@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Steam — Telefon ohne eigene SIM",
+  "metaDescription": "Verknüpfe Steam mit einer echten virtuellen Nummer; der Code kommt meist in Sekunden. Ehrliche Hinweise zu Steam Guard, Handelssperren und Authenticator.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Steam",
+    "intro": [
+      "Steam erstellt ein Konto gern auch nur mit einer E-Mail – dieser Teil ist einfach und ehrlich. Die Telefonnummer kommt später ins Spiel, dort, wo es zählt: Steam Guard Codes per SMS, Kontowiederherstellung und die Bestätigungsschritte rund um Handel und den Community-Markt. Dann taucht „Your Steam verification code is J4K8P“ auf.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, und der Code von Steam landet meist innerhalb von Sekunden in der App. Deine Spielebibliothek – oft Jahre an Käufen – bekommt ein Telefon verknüpft, ohne dass deine private Nummer in die Datensätze von Valve gelangt."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Steam?",
+    "body": [
+      "Ein gewachsenes Steam Konto gehört zu den wertvolleren Dingen, die ein Gamer besitzt – genau deshalb willst du deine Alltagsnummer vielleicht nicht daran hängen. Phishing gegen Steam Nutzer ist ein eigener Industriezweig; je weniger sich die Kontaktdaten deines Kontos mit der Nummer überschneiden, die alle kennen, desto kleiner die Angriffsfläche. Eine virtuelle Nummer lässt dich die Telefonschritte von Steam bestehen und hält diese Trennung aufrecht.",
+      "Hier aber die ehrliche Architektur: Auf Steam ist SMS der schwächere Schutz. Was für Handel und Markt wirklich zählt, ist der Steam Guard Mobile Authenticator in der Steam App – Valve hält Trades und Angebote bei Konten ohne ihn deutlich länger zurück. Betrachte die gemietete Nummer als Schlüssel, der dich durch die Tür der Telefonbestätigung bringt, und den Authenticator als Schloss, das du einbaust, sobald du drin bist."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du Steam mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code mieten",
+        "body": "Wähle Steam als Dienst und such dir ein Land aus. Ein Tippen reserviert eine echte Mobilnummer nur für dich."
+      },
+      {
+        "title": "Zu deinem Steam Konto hinzufügen",
+        "body": "Geh zu Accountdetails → Kontaktinformationen – oder folge der Abfrage, die Steam zeigt, wenn der Handel ein Telefon braucht – und gib die Nummer mit ihrer Ländervorwahl ein."
+      },
+      {
+        "title": "Code eingeben – samt Buchstaben",
+        "body": "Der Code von Steam sieht aus wie „J4K8P“: Buchstaben und Ziffern, nicht die üblichen sechs Zahlen. Er kommt meist innerhalb von Sekunden in der App SMS Code an; tippe ihn genau so ein, wie er dasteht."
+      },
+      {
+        "title": "Den Mobile Authenticator einrichten",
+        "body": "Aktiviere in der Steam Mobile App den Steam Guard Mobile Authenticator, solange die Nummer noch aktiv ist. Er wird deine dauerhafte 2FA – und bewahre den Wiederherstellungscode, den er dir gibt, an einem sicheren Ort auf."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Der Code besteht nicht nur aus Ziffern",
+      "body": "Anders als die meisten Dienste sendet Steam einen alphanumerischen Code – J4K8P, nicht 123456. Wenn ein Code „nicht funktioniert“, prüfe, ob du Buchstaben und Ziffern verwechselt hast (O und 0, I und 1), und gib ihn in Großbuchstaben ein, genau wie empfangen."
+    },
+    {
+      "title": "Der Authenticator schlägt SMS",
+      "body": "Steam Guard per SMS ist die Einstiegsstufe; der Mobile Authenticator ist das, was Sperren bei Trades und Marktangeboten verkürzt – und er überlebt den Ablauf jeder Nummer. Aktiviere ihn direkt nach der Bestätigung: Es dauert Minuten und macht den Unterschied zwischen einem geschützten und einem halb geschützten Konto."
+    },
+    {
+      "title": "Das Telefon später zu ändern hat Nebenwirkungen",
+      "body": "Steam behandelt Änderungen und Entfernungen des Telefons als Sicherheitsereignisse und kann rund um sie vorübergehende Sperren verhängen. Willst du die gemietete Nummer gegen deine eigene tauschen oder ganz entfernen, tu das bewusst in den Accountdetails, solange du noch Codes empfangen kannst – nicht hektisch vor einem Trade."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Brauche ich eine Telefonnummer, um ein Steam Konto zu erstellen?",
+      "a": "Nein – die Registrierung läuft allein per E-Mail, und mehr braucht ein einfaches Konto wirklich nicht. Das Telefon wird relevant für Steam Guard per SMS, die Kontowiederherstellung und die Bestätigung rund um Handel und Community-Markt. Miete eine Nummer an dem Punkt, an dem Steam tatsächlich eine verlangt."
+    },
+    {
+      "q": "Hebt eine virtuelle Nummer Handels- und Marktsperren auf?",
+      "a": "Nicht von allein – wir wollen das nicht übertreiben. Die Sperren von Valve hängen am Steam Guard Mobile Authenticator, nicht daran, ob ein Telefon hinterlegt ist. Die Nummer bringt dich durch die Schritte der Telefonbestätigung; den Authenticator in der Steam App zu aktivieren, ist das, was tatsächlich ändert, wie Sperren für dich funktionieren."
+    },
+    {
+      "q": "Was passiert, wenn die gemietete Nummer abläuft?",
+      "a": "Dein Konto funktioniert weiter – du meldest dich wie zuvor mit Passwort und Steam Guard an. Ist der Authenticator eingerichtet, spielt SMS bei der alltäglichen Sicherheit gar keine Rolle. Willst du SMS irgendwann wieder als Option, aktualisiere das Telefon in den Accountdetails auf eine Nummer, die du aktuell kontrollierst."
+    },
+    {
+      "q": "Warum wurde mein Steam Code abgelehnt?",
+      "a": "Meist liegt es am Format: Steam Codes mischen Buchstaben und Ziffern, und hinter einem O kann sich eine 0 verstecken. Gib den Code genau so ein, wie er in der App SMS Code erscheint. Kam gar keine SMS an, prüfe die Ländervorwahl, brich die offene Aktivierung kostenlos ab und nimm eine neue Nummer."
+    },
+    {
+      "q": "Ändert die Nummer meine Steam Store-Region?",
+      "a": "Nein. Deine Store-Region richtet sich nach den eigenen Regeln von Valve nach deinem Standort und deinen Zahlungsdaten – die Telefonnummer hat dabei nichts zu sagen. Wähle eine Nummer aus dem Land, in dem das Konto tatsächlich zu Hause ist; Nummern zum Regionswechsel zu nutzen, ist nicht ihr Zweck und wird von den Prüfungen von Steam nicht belohnt."
+    }
+  ]
+}

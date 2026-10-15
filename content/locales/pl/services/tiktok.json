@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer TikTok — rejestracja bez karty SIM",
+  "metaDescription": "Prawdziwy numer wirtualny do weryfikacji TikTok, zwykle w kilka sekund. Rejestruj kolejne konta twórcy i trzymaj prywatny numer poza aplikacją.",
+  "hero": {
+    "title": "Numer wirtualny do TikToka",
+    "intro": [
+      "TikTok pozwala zarejestrować się numerem telefonu lub e-mailem, ale do ścieżki z telefonem ciągle wraca: 4–6-cyfrowy kod SMS potwierdza rejestrację, a ten sam numer służy później do logowania kodem i odzyskiwania konta. Numer, który wpiszesz pierwszego dnia, po cichu staje się częścią tożsamości konta.",
+      "Z SMS Code wynajmujesz prawdziwy numer w jednym z ponad 100 krajów, wpisujesz go na ekranie rejestracji TikToka, a kod weryfikacyjny trafia do aplikacji zwykle w ciągu kilku sekund. Twój prywatny numer zostaje poza tym – przydatne, czy chronisz prywatność, czy budujesz zestaw kont twórcy."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do TikToka?",
+    "body": [
+      "Dla twórców kraj numeru to więcej niż formalność. TikTok lokalizuje feed i niektóre funkcje na podstawie sygnałów regionu – numer telefonu jest jednym z nich, obok adresu IP i ustawień językowych urządzenia. Numer z rynku, do którego chcesz dotrzeć, sam nie przeważy innych sygnałów, ale to jedna dźwignia, którą naprawdę kontrolujesz, i najtańsza do pociągnięcia, gdy zakładasz konto skierowane, powiedzmy, do odbiorców w USA czy Indonezji.",
+      "Drugi powód to rozdzielenie. Twórcy rutynowo prowadzą jedno konto na niszę lub markę, a każde konto weryfikowane telefonem potrzebuje własnego numeru – TikTok nie pozwoli, by jeden numer zakotwiczał je wszystkie. Agencje mają ten sam problem po stronie klienta: zarządzanie kontem marki klienta nie powinno oznaczać podpinania go pod Twoją prywatną kartę SIM. Wynajęty numer daje każdemu kontu własną tożsamość kontaktową bez szuflady pełnej kart SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować TikToka numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Weź numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz TikTok jako usługę i kraj – najlepiej rynek, do którego kierujesz treści. Jedno stuknięcie rezerwuje prawdziwy numer komórkowy tylko dla Ciebie."
+      },
+      {
+        "title": "Wpisz go na ekranie rejestracji TikToka",
+        "body": "Wybierz „Użyj telefonu lub e-maila”, zostań na karcie telefonu, wybierz pasujący numer kierunkowy i wpisz numer. Niezgodny numer kierunkowy to najczęstszy powód, dla którego kod się nie pojawia."
+      },
+      {
+        "title": "Odbierz kod z SMS Code",
+        "body": "TikTok wysyła 4–6-cyfrowy kod – coś w rodzaju „[TikTok] 604812 is your verification code, valid for 5 minutes.” Pojawia się w aplikacji SMS Code zwykle w ciągu kilku sekund; wpisz go, zanim wygaśnie, i dokończ tworzenie konta."
+      },
+      {
+        "title": "Od razu powiąż e-mail",
+        "body": "W Ustawienia i prywatność → Konto dodaj i zweryfikuj adres e-mail, a potem przenieś weryfikację dwuetapową na e-mail lub aplikację uwierzytelniającą, gdzie to możliwe. Dzięki temu konto nie zależy od wynajętego numeru po zakończeniu jego okna aktywacji."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Nie wal w przycisk „Wyślij kod ponownie”",
+      "body": "TikTok ogranicza powtarzane prośby o SMS z tego samego numeru. Jeśli nic nie przyjdzie przez kilka minut, odczekaj przed ponowną prośbą – albo anuluj aktywację w SMS Code (za darmo, gdy SMS nie dotarł) i weź świeży numer zamiast ponawiać na tym samym."
+    },
+    {
+      "title": "Dopasuj numer do regionu aplikacji",
+      "body": "Numer to jeden z kilku sygnałów regionu – TikTok patrzy też na Twoje IP i język urządzenia. Jeśli bierzesz numer, by celować w konkretny rynek, utrzymaj spójność reszty: brazylijski numer przy wszystkim innym wskazującym gdzie indziej wysyła TikTokowi sprzeczne sygnały."
+    },
+    {
+      "title": "Jeden numer na konto",
+      "body": "Każde konto TikTok weryfikowane telefonem potrzebuje własnego numeru, a numer już powiązany z kontem nie zweryfikuje nowego. Prowadzisz kilka nisz lub marek klientów? Wynajmij osobną aktywację dla każdej i zanotuj, który numer otworzył które konto."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy moje konto TikTok będzie działać po wygaśnięciu numeru?",
+      "a": "Tak. Numer jest potrzebny na etapie weryfikacji, a nie w codziennym użyciu. Zaraz po rejestracji powiąż i zweryfikuj e-mail oraz przenieś weryfikację dwuetapową z SMS-ów – wtedy logowanie i odzyskiwanie idą kanałami, które nadal kontrolujesz."
+    },
+    {
+      "q": "Czy kraj numeru zmienia to, co pokazuje mi TikTok?",
+      "a": "To jeden z sygnałów. TikTok lokalizuje treści i niektóre funkcje według regionu, odczytując kraj numeru telefonu obok adresu IP i języka urządzenia. Numer z Twojego rynku docelowego popycha konto w tę stronę, ale sam nie przeważa innych sygnałów."
+    },
+    {
+      "q": "Czy mogę prowadzić kilka kont TikTok na numerach wirtualnych?",
+      "a": "Tak – to standardowe ustawienie dla twórców z jednym kontem na niszę i dla agencji obsługujących marki klientów. Każde konto weryfikowane telefonem potrzebuje własnego numeru, więc wynajmij osobną aktywację na konto zamiast używać jednego ponownie."
+    },
+    {
+      "q": "Dlaczego kod z TikToka nie dotarł?",
+      "a": "Najpierw sprawdź numer kierunkowy – niezgodność to typowy winowajca. TikTok ogranicza też powtarzane prośby o SMS, więc szybkie ponawianie może całkiem wyciszyć kod. Odczekaj kilka minut albo anuluj oczekującą aktywację w SMS Code – monety za numery, które nic nie odebrały, wracają na saldo – i weź nowy numer."
+    },
+    {
+      "q": "Czy agencja może w ten sposób zweryfikować konto TikTok klienta?",
+      "a": "Tak, i jest to czystsze niż alternatywa: konto dostaje własną tożsamość kontaktową zamiast być zakotwiczone w prywatnej karcie SIM pracownika. Ustaw odzyskiwanie przez e-mail na adres kontrolowany przez klienta, żeby konto długoterminowo nie było powiązane z wynajętym numerem – ani z Twoim zespołem."
+    }
+  ]
+}

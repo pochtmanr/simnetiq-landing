@@ -1,0 +1,30 @@
+{
+  "title": "Kod reddedildi veya numara zaten kullanılmış",
+  "metaDescription": "SMS geldi ama hizmet kodu veya numarayı reddetti mi? Hizmetler sanal numaraları neden reddeder, sırada ne denenmeli ve destek ne zaman inceleyebilir.",
+  "sections": [
+    {
+      "title": "Bir hizmet kodu veya numarayı neden reddeder",
+      "paragraphs": [
+        "SMS’i almak bizim işimizdir. Numarayı kabul edip etmemek hizmete bağlıdır. Sanal bir numara, kod geldikten sonra bile reddedilebilir.",
+        "**Numara daha önce kullanıldı.** Numaralar yeniden kullanılır. Numara o hizmette zaten bir hesaba bağlıysa hizmet onu reddedebilir veya başka birinin hesabını gösterebilir.",
+        "**Hizmet ülkeyi kısıtlıyor.** Bazı hizmetler yalnızca kendi bölgenizdeki numaraları kabul eder ya da sanal saydığı numara aralıklarını engeller.",
+        "**Kodun süresi doldu veya eşleşmiyor.** Kodlar kısa ömürlüdür ve tek bir kayıt denemesine bağlıdır. Yeni bir istek eski kodu geçersiz kılar."
+      ]
+    },
+    {
+      "title": "Ne denemeli",
+      "steps": [
+        "Aynı hizmet ve hesap için en yeni kodu boşluksuz girin.",
+        "Hizmet numaranın zaten kayıtlı olduğunu söylüyorsa size ait olmayan bir hesaba giriş yapmayın. Yeni bir etkinleştirme başlatın.",
+        "Başka bir ülke deneyin. O hizmet için SMS’lerin iyi ulaştığı ülkeler [SMS gelmedi](/support/sms-not-received) sayfasında listelenir.",
+        "Aynı hizmet ve ülkedeki ücretli denemeler başarısız olmaya devam ediyorsa tekrarlamayı bırakın."
+      ]
+    },
+    {
+      "title": "Jetonlar hakkında",
+      "paragraphs": [
+        "SMS geldikten sonra etkinleştirme iptal edilemez ve jetonlar otomatik olarak iade edilmez, çünkü numara görevini yapmıştır. SMS’in veya kodun hatalı olduğunu düşünüyorsanız hizmet, ülke ve saatle birlikte bize yazın; inceleyelim. Tüketici haklarınız etkilenmez."
+      ]
+    }
+  ]
+}

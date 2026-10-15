@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Thay thế OnlineSim — Ứng dụng SMS Code của SIMNETIQ",
+  "metaDescription": "So sánh OnlineSim với ứng dụng SMS Code của SIMNETIQ: thuê số dài hạn trên web so với sự đơn giản trả theo lần kích hoạt trong ứng dụng iOS gốc.",
+  "hero": {
+    "title": "Lựa chọn thay thế OnlineSim tập trung vào kích hoạt một chạm",
+    "intro": [
+      "OnlineSim là dịch vụ web để nhận SMS trên số ảo, và đặc điểm nổi bật của họ là phạm vi: bên cạnh kích hoạt một lần, trang của họ mô tả hình thức thuê dài hơn, khi bạn giữ một số trong nhiều ngày hoặc tuần và nhận SMS không giới hạn từ mọi dịch vụ trong khoảng thời gian đó. Nếu một số cần là của bạn trong một thời gian, đó là sân nhà của họ.",
+      "SMS Code của SIMNETIQ có chủ đích chỉ làm một việc: xác minh theo từng lần kích hoạt trong ứng dụng iOS gốc. Chọn dịch vụ và quốc gia, nhận số thật, và mã hiện trong ứng dụng thường chỉ trong vài giây. Bạn trả bằng gói xu mua một lần — không thuê bao, không đồng hồ thuê — và lần kích hoạt không nhận được gì sẽ hủy miễn phí."
+    ]
+  },
+  "whenThem": {
+    "title": "Khi nào OnlineSim là lựa chọn tốt hơn",
+    "body": "Hãy chọn OnlineSim khi bạn cần một số sống lâu hơn một mã. Mô hình thuê của họ — giữ một số trong khoảng thời gian chọn và nhận SMS không giới hạn trên đó — hợp với tài khoản sẽ đòi xác minh lại, dịch vụ gửi mã khi đăng nhập, hoặc bất kỳ ai muốn cùng một số liên lạc được trong nhiều ngày hay tuần. Một ứng dụng trả theo lần kích hoạt thực sự không bao phủ được kịch bản đó: khi lần kích hoạt kết thúc, số quay về kho."
+  },
+  "whenUs": {
+    "title": "Khi nào ứng dụng SMS Code phù hợp hơn",
+    "body": "Hãy chọn ứng dụng khi thứ bạn thực sự cần là một mã, một lần, ngay bây giờ. Hầu hết lần đăng ký — tài khoản nhắn tin thứ hai, đăng ký trên sàn, một bản dùng thử — xác minh số một lần rồi không bao giờ nhắn tới nữa, và trong trường hợp đó, thuê số là trả tiền cho những ngày bạn không dùng. Ứng dụng gói gọn trong một giao dịch: vài chạm, một số thật tại một trong hơn 100 quốc gia, SMS thường chỉ trong vài giây, và hủy miễn phí nếu không có gì đến. Thanh toán qua App Store, nên không có số dư tài khoản web phải quản lý."
+  },
+  "comparison": {
+    "title": "OnlineSim và ứng dụng SMS Code, đặt cạnh nhau",
+    "rows": [
+      {
+        "label": "Nền tảng",
+        "competitor": "Dịch vụ web; trang của họ cũng có tài liệu API",
+        "us": "Ứng dụng iOS gốc từ App Store"
+      },
+      {
+        "label": "Mô hình giá",
+        "competitor": "Kích hoạt một lần cùng thuê số dài hơn theo kỳ",
+        "us": "Gói xu mua một lần, trả theo lần kích hoạt — không thuê số, không thuê bao"
+      },
+      {
+        "label": "Thanh toán",
+        "competitor": "Nạp số dư trên web bằng các phương thức trang của họ liệt kê",
+        "us": "Thanh toán qua cửa hàng Apple — không chia sẻ thông tin thẻ với chúng tôi"
+      },
+      {
+        "label": "Phạm vi",
+        "competitor": "Danh sách quốc gia rộng, cho kích hoạt rộng hơn cho thuê",
+        "us": "Hơn 100 quốc gia và hơn 100 dịch vụ phổ biến, chọn lọc cho đăng ký hằng ngày"
+      },
+      {
+        "label": "Hủy",
+        "competitor": "Theo quy tắc hoàn tiền riêng của họ — hãy xem điều khoản hiện hành",
+        "us": "Lần kích hoạt không nhận SMS hủy miễn phí, xu được hoàn"
+      },
+      {
+        "label": "Hỗ trợ",
+        "competitor": "Kênh hỗ trợ qua trang web của họ",
+        "us": "Biểu mẫu liên hệ trong ứng dụng và trên trang web"
+      },
+      {
+        "label": "Phù hợp nhất cho",
+        "competitor": "Giữ một số liên lạc được qua nhiều ngày hay tuần SMS",
+        "us": "Mã xác minh một lần mà không có cam kết lâu dài"
+      }
+    ],
+    "note": "Thông tin về đối thủ phản ánh trang công khai của họ tại thời điểm viết và có thể thay đổi — hãy luôn kiểm tra trên onlinesim.io trước khi quyết định."
+  },
+  "switchSteps": {
+    "title": "Thử ứng dụng chỉ mất ba bước",
+    "steps": [
+      {
+        "title": "Cài ứng dụng",
+        "body": "Tải SMS Code của SIMNETIQ từ App Store — không cần tạo tài khoản web hay thiết lập ví."
+      },
+      {
+        "title": "Mua một gói xu",
+        "body": "Mua gói một lần qua tài khoản cửa hàng. Bạn trả theo lần kích hoạt; không có kỳ thuê nào chạy ngầm."
+      },
+      {
+        "title": "Chạy lần kích hoạt đầu tiên",
+        "body": "Chọn dịch vụ và quốc gia, nhận số thật, và xem mã đến trong ứng dụng thường chỉ trong vài giây. Nếu không có gì đến, lần kích hoạt hủy miễn phí."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Khác biệt chính giữa OnlineSim và ứng dụng SMS Code là gì?",
+      "a": "Mô hình. Trang của OnlineSim nhấn mạnh việc thuê số — giữ một số trong nhiều ngày hay tuần với SMS đến không giới hạn — bên cạnh kích hoạt một lần. Ứng dụng SMS Code của SIMNETIQ chỉ làm xác minh theo lần kích hoạt, gói trong ứng dụng di động gốc với gói xu mua một lần."
+    },
+    {
+      "q": "Tôi có thể giữ một số lâu dài trong ứng dụng SMS Code không?",
+      "a": "Không — mỗi lần kích hoạt bao gồm việc nhận mã cho một dịch vụ, rồi số quay về kho. Nếu bạn cần cùng một số liên lạc được trong thời gian dài, một dịch vụ thuê như OnlineSim thành thật mà nói là lựa chọn phù hợp hơn."
+    },
+    {
+      "q": "Tài khoản có ngừng hoạt động khi số hết hạn không?",
+      "a": "Với hầu hết dịch vụ, không. Số chỉ cần ở bước xác minh; nếu bạn bật các lớp bảo vệ trong ứng dụng như mật khẩu hai bước, các lần đăng nhập sau không phụ thuộc vào việc nhận thêm SMS trên số đó."
+    },
+    {
+      "q": "Điều gì xảy ra nếu mã không bao giờ đến?",
+      "a": "Lần kích hoạt bị hủy và xu được hoàn. Bạn chỉ trả cho những số thực sự nhận được SMS."
+    },
+    {
+      "q": "Tôi có cần tạo tài khoản trên trang web để dùng ứng dụng không?",
+      "a": "Không có ví web hay bảng điều khiển nào. Bạn cài ứng dụng từ App Store, mua gói xu qua thanh toán cửa hàng, và mọi thứ diễn ra trong ứng dụng."
+    }
+  ]
+}

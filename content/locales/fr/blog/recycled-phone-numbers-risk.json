@@ -1,0 +1,129 @@
+{
+  "title": "Numéros recyclés : le risque discret de la vérification SMS",
+  "description": "Des millions de numéros changent de main chaque année. Selon une étude de Princeton, la plupart des numéros recyclés ouvrent encore d’anciens comptes.",
+  "excerpt": "Un numéro résilié ne disparaît pas : il est remis en vente. Des chercheurs de Princeton ont constaté que deux numéros recyclés sur trois de leur échantillon étaient encore liés aux comptes de quelqu’un. Ce que le recyclage des numéros signifie pour la vérification par SMS, et comment éviter d’en être victime, d’un côté comme de l’autre.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Les numéros de téléphone semblent permanents. On les imprime sur des cartes de visite, on les confie aux banques, on s’en sert pour se connecter à presque tout. Mais pour l’opérateur, un numéro est un stock. Quand un client cesse de payer, change d’offre sans porter son numéro ou laisse simplement expirer une carte prépayée, le numéro est désactivé, mis au repos un temps, puis attribué à quelqu’un d’autre."
+    },
+    {
+      "type": "p",
+      "text": "Le régulateur américain des télécoms, la FCC, estime qu’environ 35 millions de numéros sont désactivés puis rendus disponibles pour une réattribution chaque année, rien qu’aux États-Unis. La plupart ont été, à un moment, l’identifiant, le canal de récupération ou le second facteur des comptes de quelqu’un."
+    },
+    {
+      "type": "h2",
+      "id": "what-the-princeton-study-found",
+      "text": "Ce qu’ont découvert les chercheurs de Princeton"
+    },
+    {
+      "type": "p",
+      "text": "En 2021, Kevin Lee et Arvind Narayanan, du Center for Information Technology Policy de l’université de Princeton, ont voulu mesurer le problème directement. Ils ont prélevé 259 numéros que deux grands opérateurs américains, T-Mobile et Verizon, proposaient aux nouveaux abonnés, puis ont vérifié ce que ces numéros permettaient encore d’ouvrir."
+    },
+    {
+      "type": "list",
+      "items": [
+        "171 numéros sur 259 — environ deux sur trois — étaient encore liés à des comptes existants sur des sites populaires, dont Amazon, AOL, Facebook, Google, PayPal et Yahoo. Un nouveau titulaire recevant les SMS de réinitialisation de mot de passe pourrait potentiellement prendre le contrôle de ces comptes.",
+        "100 de ces numéros apparaissaient à côté d’identifiants de connexion divulgués dans des fuites de données publiques : le SMS était alors la seule chose qui séparait un attaquant du compte.",
+        "De nombreux numéros renvoyaient aussi des informations personnelles sur leurs anciens titulaires sur des sites de recherche de personnes."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Les chercheurs ont également constaté que les pages de changement de numéro en ligne des opérateurs permettaient à n’importe qui de parcourir de vastes réserves de numéros disponibles, ce qui facilitait la chasse aux numéros recyclés. Les deux opérateurs ont apporté des modifications après avoir été alertés ; les auteurs ont publié leurs réponses avec l’étude."
+    },
+    {
+      "type": "callout",
+      "text": "Le cœur du problème est simple : les services considèrent « pouvoir recevoir un SMS sur ce numéro » comme une preuve d’identité, tandis que les opérateurs considèrent les numéros comme réutilisables. Quand ces deux hypothèses se rencontrent, la personne qui détient le numéro aujourd’hui hérite de toute la confiance qui y était attachée hier."
+    },
+    {
+      "type": "h2",
+      "id": "what-regulators-did",
+      "text": "Ce qu’ont fait les régulateurs"
+    },
+    {
+      "type": "p",
+      "text": "La principale réponse de la FCC visait un autre problème : les appels non sollicités vers les personnes qui ont hérité d’un numéro. En décembre 2018, elle a ordonné la création de la Reassigned Numbers Database, opérationnelle depuis 2021. Les opérateurs y déclarent les numéros définitivement désactivés, et les entreprises peuvent vérifier si un numéro a été désactivé depuis une date donnée avant de l’appeler ou de lui écrire. La même décision a fixé une période de « vieillissement » minimale de 45 jours avant qu’un numéro désactivé puisse être réattribué."
+    },
+    {
+      "type": "p",
+      "text": "Cela aide les entreprises à ne plus écrire à des inconnus. Mais cela ne fait rien pour les comptes qui ont encore l’ancien numéro en mémoire. Les tenir à jour revient, en pratique, au titulaire du compte."
+    },
+    {
+      "type": "h2",
+      "id": "protecting-your-own-accounts",
+      "text": "Se protéger quand on change de numéro"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Mettez à jour avant de lâcher le numéro",
+          "body": "Avant de résilier une ligne ou de laisser expirer une SIM prépayée, passez en revue vos comptes e-mail, bancaires, sociaux et d’achat, et remplacez le numéro. La liste des identifiants de votre gestionnaire de mots de passe est la check-list la plus rapide."
+        },
+        {
+          "title": "Abandonnez le SMS comme second facteur",
+          "body": "Utilisez une application d’authentification, une clé d’accès ou une clé physique partout où c’est possible. Le NIST, l’organisme de normalisation américain, classe désormais les codes SMS comme authentifiant « restreint » précisément pour ces raisons."
+        },
+        {
+          "title": "Gardez un moyen de récupération qui n’est pas un numéro",
+          "body": "Un e-mail de récupération que vous contrôlez et des codes de secours enregistrés font d’un numéro perdu ou recyclé un simple désagrément, pas un verrouillage."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "what-it-means-for-virtual-numbers",
+      "text": "Ce que cela signifie pour les numéros virtuels loués"
+    },
+    {
+      "type": "p",
+      "text": "Un article honnête sur le recyclage des numéros doit appliquer la même logique aux numéros loués, car ils sont recyclés par conception. Un numéro loué pour une vérification vous est réservé pendant l’activation ; ensuite, il peut resservir à d’autres personnes et pour d’autres services. C’est ce qui le rend bon marché et jetable — et c’est pourquoi il ne doit jamais devenir le canal de récupération durable d’un compte auquel vous tenez."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bons usages : franchir une inscription sans donner votre numéro personnel au service ; messageries, réseaux sociaux, places de marché, essais et comptes de test, où le numéro ne compte qu’au moment de la vérification.",
+        "Mauvais usages : banque, paiements, services publics et tout compte dont le seul moyen de récupération est un SMS vers ce numéro. Ceux-là méritent un numéro qui sera encore le vôtre dans cinq ans.",
+        "Juste après la vérification : ajoutez un e-mail de récupération, activez la double authentification par application et, si le service le permet, ne laissez pas le numéro loué comme seul chemin de retour."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Utilisé ainsi, un numéro loué devient même une protection contre le problème du recyclage plutôt qu’un exemple de celui-ci. Votre vrai numéro — celui qui pourrait lui-même être désactivé et revendu un jour — ne se retrouve tout simplement pas dans des dizaines de bases de données."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Questions fréquentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Combien de temps avant qu’un ancien numéro soit attribué à quelqu’un d’autre ?",
+          "a": "Aux États-Unis, les règles de la FCC imposent qu’un numéro désactivé « vieillisse » au moins 45 jours avant réattribution, et les opérateurs attendent souvent plus. D’autres pays fixent leurs propres délais ; certains numéros prépayés sont réattribués en quelques mois."
+        },
+        {
+          "q": "Le nouveau titulaire de mon ancien numéro peut-il accéder à mes comptes ?",
+          "a": "Si un compte utilise encore ce numéro pour la réinitialisation du mot de passe ou les codes de double authentification, c’est possible. L’étude de Princeton a montré que deux tiers des numéros recyclés de l’échantillon étaient encore liés à des comptes sur de grands sites."
+        },
+        {
+          "q": "Comment savoir quels comptes utilisent mon numéro ?",
+          "a": "Commencez par votre gestionnaire de mots de passe et votre boîte mail — cherchez les messages « code de vérification » et « connexion ». Puis vérifiez un à un les paramètres de sécurité de vos comptes e-mail, bancaires, sociaux et d’achat."
+        },
+        {
+          "q": "Les numéros virtuels loués sont-ils réutilisés ?",
+          "a": "Oui, une fois votre activation terminée. C’est pourquoi ils sont faits pour le moment de la vérification. Ajoutez un e-mail et une double authentification par application au compte juste après l’inscription."
+        },
+        {
+          "q": "La double authentification par SMS vaut-elle encore la peine ?",
+          "a": "C’est mieux que pas de second facteur du tout, mais une application d’authentification, une clé d’accès ou une clé physique sont plus solides et ne dépendent pas de la personne qui détient un numéro."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

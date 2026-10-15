@@ -1,0 +1,27 @@
+{
+  "title": "Đã thanh toán nhưng thiếu xu",
+  "metaDescription": "Đã mua gói xu nhưng số dư không đổi? Kiểm tra thanh toán Apple, tài khoản SMS Code và khôi phục giao dịch mua, rồi gửi cho chúng tôi mã đơn hàng Apple.",
+  "sections": [
+    {
+      "title": "Kiểm tra những điều này trước",
+      "steps": [
+        "**Chờ vài phút và mở lại ứng dụng.** Khoản thanh toán Apple đang xử lý có thể cần một chút thời gian để hoàn tất. Đừng mua thêm gói để sửa.",
+        "**Kiểm tra tài khoản.** Xu thuộc về tài khoản SMS Code đã mua chúng. Nếu bạn đã đăng nhập bằng Apple, Google hoặc email trên thiết bị khác, hãy dùng cùng cách đăng nhập ở đây.",
+        "**Khôi phục giao dịch mua.** Mở cửa hàng xu trong ứng dụng và chạm **Khôi phục giao dịch mua**. Việc này ghi có những giao dịch Apple đã xác nhận nhưng ứng dụng bỏ sót."
+      ]
+    },
+    {
+      "title": "Đã cài lại ứng dụng?",
+      "paragraphs": [
+        "Nếu bạn dùng ứng dụng mà không đăng nhập, việc cài lại sẽ tạo tài khoản mới và số dư cũ không tự động đi theo. Hãy viết cho chúng tôi kèm mã đơn hàng Apple và chúng tôi sẽ giúp khôi phục. Trang [Giữ số dư](/support/account-balance) giải thích cách tránh điều này về sau."
+      ]
+    },
+    {
+      "title": "Cần gửi gì cho chúng tôi",
+      "paragraphs": [
+        "Mã đơn hàng Apple từ email biên lai của Apple (bắt đầu bằng M), gói, và ngày mua. Che các giao dịch không liên quan và thông tin thanh toán. Nếu bạn liên hệ từ ứng dụng, mã tài khoản của bạn được đính kèm tự động.",
+        "Nếu bạn muốn lấy lại tiền thay vì xu, hãy xem [cách yêu cầu hoàn tiền từ Apple](/support/refund-apple)."
+      ]
+    }
+  ]
+}

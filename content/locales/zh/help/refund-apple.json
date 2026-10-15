@@ -1,0 +1,48 @@
+{
+  "title": "如何为 App Store 购买申请退款",
+  "metaDescription": "SMS Code 金币包由 Apple 收费，退款需向 Apple 申请。reportaproblem.apple.com 分步指南，含处理时间与后续说明。",
+  "sections": [
+    {
+      "title": "退款由 Apple 处理",
+      "paragraphs": [
+        "在 SMS Code 应用中购买的金币包属于 App Store 购买。由 Apple 收费，款项也在 Apple，因此只有 Apple 能够退款。App Store 上的所有应用都是如此：开发者无法为 Apple 收费的购买办理退款。",
+        "Apple 会审核每一个申请，并决定是否批准。提交申请通常只需几分钟，你无需事先联系我们。"
+      ]
+    },
+    {
+      "title": "6 步申请退款",
+      "id": "steps",
+      "steps": [
+        "前往 [reportaproblem.apple.com](https://reportaproblem.apple.com/)。",
+        "使用购买时的 Apple 账户登录。",
+        "在 **我想要…** 中选择 **申请退款**。",
+        "选择合适的原因，例如 **我无意购买此项目** 或 **未收到 App 内购买项目**。",
+        "选择 SMS Code 的金币购买（例如 **20 Coins**），然后点按 **下一步**。",
+        "提交申请。Apple 通常会在 24–48 小时内回复。"
+      ],
+      "image": {
+        "src": "/help/apple-refund-reasons.png",
+        "alt": "Apple“报告问题”页面，已选择“申请退款”，并列出原因：无意购买、未成年人未经允许购买、未收到 App 内购买项目、撤回权以及其他。",
+        "width": 882,
+        "height": 417
+      },
+      "cta": {
+        "label": "打开 reportaproblem.apple.com",
+        "href": "https://reportaproblem.apple.com/"
+      }
+    },
+    {
+      "title": "提交之后",
+      "paragraphs": [
+        "你可以在同一网站查看申请状态。Apple 批准后，退回 Apple 账户余额通常需要 48 小时，银行卡和大多数其他付款方式最长 30 天，话费支付最长 60 天。我们无法加快 Apple 或你的银行的处理速度。",
+        "如果 Apple 批准退款，该笔购买的金币会从你的 SMS Code 余额中扣除。请不要使用正在申请退款的那笔购买的金币。"
+      ]
+    },
+    {
+      "title": "什么时候应该联系我们",
+      "paragraphs": [
+        "如果激活失败但金币没有退回余额、付了款但金币一直没有到账（[金币未到账](/support/missing-coins)），或 Apple 让你联系开发者，请写信给我们。我们可以核查激活并向你发送购买记录。你的消费者权利不受影响。"
+      ]
+    }
+  ]
+}

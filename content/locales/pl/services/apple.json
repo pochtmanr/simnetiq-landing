@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Apple — Apple Account bez Twojej karty SIM",
+  "metaDescription": "Zweryfikuj nowe Apple Account prawdziwym numerem wirtualnym. Kod przychodzi zwykle w kilka sekund – potem przenieś kody 2FA na urządzenia, które kontrolujesz.",
+  "hero": {
+    "title": "Numer wirtualny do Apple",
+    "intro": [
+      "Nowego Apple Account nie da się dokończyć bez telefonu: podczas rejestracji Apple prosi o numer, wysyła sześciocyfrowy kod, by sprawdzić, że go kontrolujesz, a potem zachowuje ten numer jako „zaufany numer telefonu” – kanał, którego od tego dnia używa do uwierzytelniania dwuskładnikowego.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, odbierasz kod od Apple w aplikacji zwykle w ciągu kilku sekund i kończysz rejestrację. Twój prywatny numer zostaje poza kontem – a później sam decydujesz, na jakich zaufanych numerach i urządzeniach konto ma polegać."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Apple?",
+    "body": [
+      "Apple Account sięga dalej niż większość rejestracji: to klucz do App Store, iCloud, iMessage i każdego Twojego urządzenia Apple. Zaloguj się numerem na iPhonie, a osoby, które mają ten numer w kontaktach, mogą znaleźć Cię w iMessage i FaceTime. Jeśli konto ma być osobne – dla urządzenia testowego, innego regionu w App Store, profilu służbowego – weryfikacja prywatną kartą SIM z powrotem wplata w nie Twoją tożsamość.",
+      "Apple włącza też uwierzytelnianie dwuskładnikowe dla każdego nowego konta i wymaga co najmniej jednego zaufanego numeru telefonu. Numer wirtualny czysto przechodzi rejestrację; liczy się to, co zrobisz później. Gdy zalogujesz się na urządzeniu Apple, kody weryfikacyjne pojawiają się na nim bez żadnego SMS-a – a obok wynajętego numeru (lub zamiast niego) możesz dodać zaufany numer, który naprawdę należy do Ciebie."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Apple Account numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Wybierz Apple jako usługę, wybierz kraj i stuknij raz, by zarezerwować prawdziwy numer komórkowy. Jeśli konto ma służyć konkretnemu regionowi App Store, weź numer z tego kraju – dane konta pozostaną spójne."
+      },
+      {
+        "title": "Wpisz go podczas rejestracji w Apple",
+        "body": "Utwórz konto na account.apple.com albo bezpośrednio na ekranie konfiguracji iPhone’a. Gdy Apple poprosi o numer telefonu, wybierz weryfikację wiadomością tekstową i wpisz wynajęty numer z właściwym krajem."
+      },
+      {
+        "title": "Wpisz kod",
+        "body": "SMS brzmi „Your Apple Account code is: 617402. Don't share it with anyone.” i trafia do aplikacji SMS Code zwykle w ciągu kilku sekund. Wpisz sześć cyfr i konto jest zweryfikowane."
+      },
+      {
+        "title": "Dodaj zaufane czynniki, które kontrolujesz",
+        "body": "Zaloguj się na urządzeniu Apple, które posiadasz – od tej chwili kody dwuskładnikowe pojawiają się bezpośrednio na nim, bez SMS-ów. Następnie otwórz ustawienia konta „Logowanie i bezpieczeństwo” i dodaj drugi zaufany numer telefonu, który naprawdę należy do Ciebie."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Zaufane urządzenia wygrywają z zaufanymi numerami",
+      "body": "Gdy jesteś zalogowany na iPhonie, iPadzie lub Macu, Apple pokazuje kody dwuskładnikowe bezpośrednio na urządzeniu – SMS staje się zapasem, a nie głównym kanałem. Trzymaj zalogowane przynajmniej jedno zaufane urządzenie, a wynajęty numer pozostanie tym, czym powinien być: jednorazowym narzędziem do rejestracji."
+    },
+    {
+      "title": "Apple zachowuje numer jako kotwicę 2FA",
+      "body": "Każde Apple Account z uwierzytelnianiem dwuskładnikowym musi mieć zapisany co najmniej jeden zaufany numer telefonu. Nie zostawiaj wynajętego numeru jako jedynego: najpierw dodaj numer, który kontrolujesz, potem usuń wynajęty w sekcji „Logowanie i bezpieczeństwo”."
+    },
+    {
+      "title": "Dopasuj kraj do regionu konta",
+      "body": "Sam numer nie ustala Twojego regionu w App Store – ten wynika z ustawień kraju konta i metody płatności. Numer z tego samego kraju utrzymuje jednak spójność danych, więc wybierz go z miejsca, w którym konto ma „mieszkać”."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy Apple wymaga numeru telefonu do utworzenia Apple Account?",
+      "a": "Tak – rejestracja prosi o numer, na który Apple może wysłać SMS lub zadzwonić, a nowe konta dostają uwierzytelnianie dwuskładnikowe z tym numerem zapisanym jako zaufany. Numer wirtualny przechodzi ten krok dokładnie jak SIM: kod trafia do aplikacji SMS Code, a konto zostaje utworzone."
+    },
+    {
+      "q": "Czy konto będzie działać po wygaśnięciu wynajętego numeru?",
+      "a": "Tak. Numer jest sprawdzany, gdy Apple wysyła kod; potem konto żyje na Twoich zaufanych urządzeniach. Zrób krok czwarty wcześnie – zaloguj się na własnym urządzeniu i dodaj zaufany numer, który kontrolujesz – a nic w koncie nie będzie już zależeć od wynajętego numeru."
+    },
+    {
+      "q": "Czy mogę później zmienić zaufany numer telefonu?",
+      "a": "Tak, w sekcji „Logowanie i bezpieczeństwo” na account.apple.com lub w ustawieniach urządzenia. Apple wymaga, by konto z uwierzytelnianiem dwuskładnikowym miało co najmniej jeden zaufany numer, więc najpierw dodaj nowy, a potem usuń wynajęty."
+    },
+    {
+      "q": "Czy mogę utworzyć Apple Account dla App Store innego kraju?",
+      "a": "Możesz wybrać numer z dowolnego z ponad 100 krajów, a dopasowanie go do regionu konta utrzymuje porządek. Pamiętaj tylko, że sklep zależy od kraju konta i ustawień płatności, a nie od telefonu – numer Cię weryfikuje, ale nie przenosi sklepu."
+    },
+    {
+      "q": "Dlaczego kod od Apple nie dotarł?",
+      "a": "Najczęściej kraj wybrany w formularzu Apple nie pasuje do numeru albo proces przełączył się na połączenie głosowe – wybierz wprost „wiadomość tekstowa”. Anuluj oczekującą aktywację w SMS Code (numery, które nic nie odebrały, są darmowe) i spróbuj z nowym."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "SMS nicht erhalten: warum es passiert und was hilft",
+  "metaDescription": "Warum eine Bestätigungs-SMS eine virtuelle Nummer manchmal nicht erreicht, wie Münzen automatisch zurückkommen und welche Länder gerade gut zustellen.",
+  "sections": [
+    {
+      "title": "Ohne SMS verlierst du keine Münzen",
+      "paragraphs": [
+        "Kommt keine SMS an, kannst du zwei Minuten nach der Zuteilung der Nummer abbrechen, und die Münzen gehen auf dein Guthaben zurück. Wartest du, wird die Aktivierung am Ende ihres 15-Minuten-Fensters geschlossen, und die Münzen kommen automatisch zurück. Für beides musst du uns nicht kontaktieren."
+      ]
+    },
+    {
+      "title": "Warum eine SMS nicht ankommt",
+      "paragraphs": [
+        "**Der Dienst entscheidet.** Jeder Dienst führt eigene Betrugsprüfungen durch. Manche verweigern SMS an virtuelle Nummern aus bestimmten Ländern oder verwerfen sie stillschweigend, oder sie begrenzen, wie viele Konten ein Nummernbereich eröffnen kann.",
+        "**Land und Netzbetreiber zählen.** Derselbe Dienst kann in einem Land zuverlässig zustellen und in einem anderen schlecht. Das ändert sich auch mit der Zeit, wenn Dienste ihre Filter anpassen.",
+        "**Der Code wird vielleicht nicht per SMS gesendet.** Manche Dienste senden den ersten Code per Sprachanruf, per E-Mail oder an eine App, in der du bereits angemeldet bist. Suche nach einer Option „per SMS senden“.",
+        "**Limits beim erneuten Senden.** Den Code oft anzufordern, kann beim Dienst eine Wartezeit auslösen. Warte eine Minute, bevor du ihn erneut anforderst."
+      ]
+    },
+    {
+      "title": "Was du tun kannst",
+      "steps": [
+        "Prüfe, ob du die Nummer mit der richtigen Ländervorwahl eingegeben und in der App genau den richtigen Dienst gewählt hast.",
+        "Warte bis zu zwei Minuten und brich dann ab. Die Münzen gehen auf dein Guthaben zurück.",
+        "Versuche ein anderes Land für denselben Dienst. Nutze die Übersicht unten, um eines zu wählen, in dem SMS gerade gut ankommen.",
+        "Scheitern mehrere Länder für denselben Dienst, sperrt der Dienst virtuelle Nummern vermutlich gerade. Versuche es später erneut."
+      ]
+    }
+  ]
+}

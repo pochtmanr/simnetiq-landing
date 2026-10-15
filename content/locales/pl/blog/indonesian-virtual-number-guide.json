@@ -1,0 +1,132 @@
+{
+  "title": "Indonezyjski numer wirtualny (+62): format i rejestracje",
+  "description": "Jak działają indonezyjskie numery komórkowe, dlaczego tamtejsze karty SIM są powiązane z NIK i jak z zagranicy odebrać SMS weryfikacyjny na numer +62.",
+  "excerpt": "Indonezja wiąże każdą kartę SIM prepaid z krajowym numerem identyfikacyjnym i ogranicza, ile kart może zarejestrować jedna osoba. Oto jak działają numery +62, czemu ma to znaczenie przy rejestracjach i jak odebrać na nich kod bez lokalnej karty SIM.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Indonezja to czwarty najludniejszy kraj świata i jeden z najbardziej skupionych na telefonie. Jej gospodarka cyfrowa wyrosła na smartfonie, a nie na komputerze: ludzie zamawiają przejazdy i jedzenie w Gojeku i Grabie, kupują w Shopee i Tokopedii, a małe firmy prowadzą w całości przez WhatsAppa. Prawie każda z tych usług zaczyna się tak samo – wpisz numer +62 i czekaj na kod."
+    },
+    {
+      "type": "p",
+      "text": "Dlatego wyszukiwania „indonezyjskiego numeru” pojawiają się po arabsku, angielsku i w innych językach od ludzi daleko poza archipelagiem. Część z nich to indonezyjscy pracownicy za granicą – w Arabii Saudyjskiej, Malezji, na Tajwanie czy w Hongkongu – zachowujący przyczółek w usługach z domu. Inni to sprzedawcy, marketerzy lub deweloperzy potrzebujący konta należącego do indonezyjskiego rynku. Oto jak działają numery i dlaczego zdobycie lokalnej karty SIM jest trudniejsze, niż się wydaje."
+    },
+    {
+      "type": "h2",
+      "id": "how-indonesian-numbers-work",
+      "text": "Jak zapisuje się indonezyjski numer komórkowy"
+    },
+    {
+      "type": "list",
+      "items": [
+        "W kraju numery komórkowe zaczynają się od 08 – na przykład 0812, 0857 lub 0878 – i mają łącznie od dziesięciu do trzynastu cyfr.",
+        "Międzynarodowo wiodące 0 znika i zostaje zastąpione przez +62. Więc 0812-3456-7890 staje się +62 812-3456-7890.",
+        "Cyfry po 08 pierwotnie oznaczały operatora – Telkomsel, Indosat i XL należą do największych – ale po latach fuzji i nowych prefiksów to raczej wskazówka niż reguła.",
+        "W formularzu rejestracji z wybraną Indonezją wpisujesz numer zaczynający się od 8, nigdy od 0 ani 62."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Najczęstszy błąd z indonezyjskimi numerami to wiodące zero. „+62 0812…” to nieprawidłowy numer. Jeśli wybór kraju już pokazuje +62, zacznij wpisywać od 8."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-and-the-nik",
+      "text": "Dlaczego każda indonezyjska karta SIM jest powiązana z dowodem tożsamości"
+    },
+    {
+      "type": "p",
+      "text": "Pod koniec 2017 roku indonezyjski rząd nakazał każdemu klientowi prepaid zarejestrować kartę SIM za pomocą dwóch dokumentów: NIK, szesnastocyfrowego krajowego numeru tożsamości wydrukowanego na dowodzie KTP, oraz numeru KK, karty rodzinnej wymieniającej wszystkich członków gospodarstwa domowego. Klienci wysyłali oba numery SMS-em na krótki numer. Termin upływał 28 lutego 2018 roku, po czym niezarejestrowane karty były stopniowo wyłączane."
+    },
+    {
+      "type": "p",
+      "text": "Reguła przetrwała kampanię. Rejestrację reguluje dziś rozporządzenie ministerialne z 2021 roku, a strony pomocy Telkomsela wciąż podają, że jeden NIK może samodzielnie zarejestrować najwyżej trzy numery prepaid u jednego operatora; kolejne karty wymagają wizyty w punkcie operatora. Celem było uczynienie oszustw telefonicznych i anonimowych połączeń naciągaczy możliwymi do wyśledzenia – część globalnego trendu: według GSMA rejestracji kart SIM wymaga dziś ponad 150 krajów."
+    },
+    {
+      "type": "p",
+      "text": "Dla obcokrajowców skutek jest praktyczny. Turyści mogą kupić zarejestrowane karty SIM z paszportem, zwykle na lotniskach, ale karta jest powiązana z paszportem i często ograniczona czasowo. Ktoś spoza Indonezji, kto chce tylko numeru +62 do konta, w ogóle nie ma prostego sposobu na kartę SIM."
+    },
+    {
+      "type": "h2",
+      "id": "who-needs-a-62-number",
+      "text": "Kto potrzebuje numeru +62 i do czego"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sprzedawcy i marketerzy budujący obecność dla indonezyjskich klientów – profil WhatsApp Business, konto TikTok lub Instagram skierowane do lokalnej publiczności.",
+        "Deweloperzy i zespoły QA testujące aplikacje, które zachowują się inaczej dla indonezyjskich użytkowników.",
+        "Indonezyjczycy za granicą, którzy chcą zarejestrować się w usłudze z rodzimego rynku bez utrzymywania aktywnej karty SIM z zagranicy.",
+        "Każdy, kto chce konta w komunikatorze lub sieci społecznościowej oddzielonego od prywatnego numeru."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Do czego się nie nadaje: indonezyjskie banki, e-portfele z pełną weryfikacją i usługi rządowe. Te łączą konto z Twoim NIK, a zapisany numer musi być zarejestrowany na Twoje nazwisko."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-62-number",
+      "text": "Odbieranie kodu na indonezyjski numer"
+    },
+    {
+      "type": "p",
+      "text": "Wynajęty indonezyjski numer w SMS Code to prawdziwy numer komórkowy w indonezyjskiej sieci operatora. Dla usługi, w której się rejestrujesz, wygląda jak każdy inny abonent +62 i pozostaje zarezerwowany tylko dla Ciebie, gdy czekasz na kod."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Wybierz usługę i Indonezję",
+          "body": "W SMS Code wybierz usługę – WhatsApp, Telegram, TikTok, Grab lub dowolną z ponad 100 innych – i zaznacz Indonezję. Cena aktywacji w monetach pojawia się przed potwierdzeniem."
+        },
+        {
+          "title": "Wpisz numer od 8",
+          "body": "Z wybranym +62 w formularzu rejestracji wpisz numer pokazany w aplikacji, zaczynając od 8 – bez wiodącego 0."
+        },
+        {
+          "title": "Wklej kod",
+          "body": "SMS trafia do aplikacji zwykle w ciągu kilku sekund. Jeśli nic nie przyjdzie, anuluj po dwóch minutach; monety wracają na saldo, gdy SMS nie dotarł, a Ty możesz wziąć świeży numer."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Potem zabezpiecz konto: silne hasło, kontrolowany przez siebie e-mail do odzyskiwania i własne zabezpieczenie dwuskładnikowe usługi. Numer tymczasowy obejmuje rejestrację, a nie przyszłość konta."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Najczęstsze pytania"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Czy obcokrajowiec może dostać indonezyjski numer telefonu?",
+          "a": "W Indonezji tak – turystyczne karty SIM można zarejestrować paszportem. Z zagranicy kupno karty SIM jest niepraktyczne, dlatego ludzie używają wirtualnego numeru +62 do jednorazowych weryfikacji."
+        },
+        {
+          "q": "Czy do wirtualnego indonezyjskiego numeru potrzebuję NIK lub KK?",
+          "a": "Nie. Rejestracja NIK dotyczy kart SIM kupowanych u indonezyjskich operatorów. Wynajęcie numeru do weryfikacji w SMS Code nie wymaga żadnych indonezyjskich dokumentów."
+        },
+        {
+          "q": "Wpisać 08 czy +62 8?",
+          "a": "W formacie międzynarodowym +62, a po nim numer zaczynający się od 8. Nigdy nie łącz kodu kraju z krajowym wiodącym 0."
+        },
+        {
+          "q": "Czy zadziała w Grab, Shopee lub Gojeku?",
+          "a": "SMS Code oferuje aktywacje dla wielu usług regionalnych, w tym Grab i Shopee, a aplikacja przed płatnością pokazuje, które usługi i kraje są dostępne. Usługi z pełną kontrolą tożsamości – funkcje bankowe, rozszerzenia e-portfeli – i tak poproszą o Twoje dokumenty."
+        },
+        {
+          "q": "Co, jeśli SMS nie dotrze?",
+          "a": "Sprawdź, czy nie wpisałeś wiodącego 0, potem odczekaj pełną minutę. Jeśli nic nie przyjdzie, anuluj aktywację po dwóch minutach – monety wracają na saldo – i spróbuj innego numeru."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

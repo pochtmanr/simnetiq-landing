@@ -1,0 +1,30 @@
+{
+  "title": "SMS not received: why it happens and what to do",
+  "metaDescription": "Why a verification SMS sometimes doesn't reach a virtual number, how coins come back automatically, and which countries are delivering best for each service.",
+  "sections": [
+    {
+      "title": "You don't lose coins when no SMS arrives",
+      "paragraphs": [
+        "If no SMS arrives, you can cancel two minutes after the number is assigned and the coins return to your balance. If you wait, the activation closes at the end of its 15-minute window and the coins return automatically. You don't need to contact us for either."
+      ]
+    },
+    {
+      "title": "Why an SMS doesn't arrive",
+      "paragraphs": [
+        "**The service decides.** Every service runs its own fraud checks. Some refuse or silently drop SMS to virtual numbers from certain countries, or limit how many accounts a number range can open.",
+        "**The country and operator matter.** The same service can deliver reliably in one country and poorly in another. It also changes over time as services update their filters.",
+        "**The code may not be sent by SMS.** Some services send the first code by voice call, by email or to an app where you are already signed in. Look for a “send by SMS” option.",
+        "**Resend limits.** Asking for the code many times can trigger a cooldown on the service's side. Wait a minute before requesting it again."
+      ]
+    },
+    {
+      "title": "What to do",
+      "steps": [
+        "Check that you entered the number with the right country code and chose the exact service in the app.",
+        "Wait up to two minutes, then cancel. The coins come back to your balance.",
+        "Try a different country for the same service. Use the lookup below to pick one where SMS is arriving well right now.",
+        "If several countries fail for the same service, the service is probably blocking virtual numbers for now. Try again later."
+      ]
+    }
+  ]
+}

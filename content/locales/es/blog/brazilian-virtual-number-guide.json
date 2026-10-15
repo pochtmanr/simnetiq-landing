@@ -1,0 +1,134 @@
+{
+  "title": "Número virtual de Brasil (+55): el noveno dígito explicado",
+  "description": "Cómo funcionan los móviles brasileños —códigos de área, el 9 añadido, líneas prepago ligadas al CPF— y cómo recibir un SMS de verificación en un +55.",
+  "excerpt": "Brasil añadió un dígito a cada número móvil, ató las líneas prepago al CPF y convirtió WhatsApp en la centralita del país. Qué significa todo eso si necesitas un número +55 para registrarte.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "En Brasil, el número de teléfono sirve menos para llamar que para encontrar a la gente en WhatsApp. Las tiendas toman pedidos ahí, las clínicas confirman citas ahí y «me chama no zap» —«escríbeme por WhatsApp»— es lenguaje cotidiano desde hace una década. En una encuesta de Mobile Time y Opinion Box de 2024, casi la mitad de los brasileños con smartphone dijo que, si solo pudiera quedarse con una app, sería WhatsApp."
+    },
+    {
+      "type": "p",
+      "text": "Eso hace que el número +55 valga mucho como identidad digital. Marketplaces, apps de reparto, fintechs y redes sociales pensadas para el mercado brasileño piden uno al registrarte. Y la numeración brasileña tiene peculiaridades que confunden por igual a extranjeros y a validadores de formularios. Así funciona, y aquí es donde encaja un número virtual brasileño."
+    },
+    {
+      "type": "h2",
+      "id": "how-brazilian-numbers-work",
+      "text": "Anatomía de un número móvil brasileño"
+    },
+    {
+      "type": "p",
+      "text": "Escrito completo, un móvil brasileño se ve así: +55, luego un código de área de dos dígitos y después nueve dígitos que siempre empiezan por 9. En notación local, (11) 9XXXX-XXXX para São Paulo o (21) 9XXXX-XXXX para Río de Janeiro."
+    },
+    {
+      "type": "list",
+      "items": [
+        "El código de área (DDD) no es opcional. Brasil tiene 67 códigos DDD, del 11 en São Paulo al 99 en Maranhão, y los móviles los conservan. Un número sin su DDD está incompleto, y el formulario lo rechazará o enviará el código a ninguna parte.",
+        "El 9 inicial marca el móvil. Todo número móvil brasileño tiene ahora nueve dígitos después del código de área, empezando por 9; los fijos tienen ocho.",
+        "Los códigos de operadora son para llamar, no para formularios. Para llamadas de larga distancia, los brasileños insertan un código de operadora de dos dígitos (15, 21, 31, 41…) antes del DDD. Ese código nunca va en un campo +55."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "the-ninth-digit",
+      "text": "El noveno dígito: una renumeración nacional de cuatro años"
+    },
+    {
+      "type": "p",
+      "text": "Hasta 2012 los móviles brasileños tenían ocho dígitos, igual que los fijos, y São Paulo se estaba quedando sin números. El regulador, Anatel, ordenó un cambio que suena sencillo y no lo fue: poner un 9 delante de cada número móvil del país."
+    },
+    {
+      "type": "p",
+      "text": "El cambio empezó en el código 11 de São Paulo el 29 de julio de 2012 y se extendió región por región, con un periodo de gracia en cada fase durante el cual las llamadas a los antiguos números de ocho dígitos se interceptaban con un mensaje grabado. La última gran fase, en los estados del sur —Paraná, Santa Catarina y Rio Grande do Sul—, fue de noviembre de 2016 a febrero de 2017. Según Anatel, el dígito extra elevó la capacidad hasta 90 millones de números móviles por código de área."
+    },
+    {
+      "type": "callout",
+      "text": "Agendas antiguas, webs viejas y algunos validadores de formularios todavía guardan móviles de ocho dígitos. Si ves un móvil brasileño escrito como (11) 8765-4321, está desactualizado: el número que funciona es (11) 98765-4321."
+    },
+    {
+      "type": "h2",
+      "id": "cpf-and-prepaid-lines",
+      "text": "Por qué las SIM brasileñas están ligadas al CPF"
+    },
+    {
+      "type": "p",
+      "text": "La mayoría de los brasileños usa líneas prepago y, durante años, activar una exigía poco más que escribir un CPF, el número fiscal nacional. Eso facilitaba el fraude: el CPF de un desconocido bastaba para poner una línea a su nombre. A partir de 2017, Anatel obligó a las cuatro grandes operadoras de entonces —Vivo, Claro, TIM y Oi— a una campaña de nuevo registro estado por estado, en la que los clientes prepago tenían que confirmar su CPF, nombre completo y código postal o perder la línea. La prensa informó de que, en la ronda de 17 estados, menos del 1 % de los 91 millones de líneas prepago afectadas tuvo problemas de registro."
+    },
+    {
+      "type": "p",
+      "text": "La consecuencia para quien vive fuera de Brasil: comprar una SIM local suele exigir tener CPF. Los extranjeros pueden conseguirlo, pero es un trámite —una visita a la Receita Federal o a un consulado—, mucho esfuerzo para un solo código de verificación."
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-55-number-makes-sense",
+      "text": "Cuándo tiene sentido un número virtual +55, y cuándo no"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tiene sentido para verificaciones puntuales: una cuenta de WhatsApp o Telegram con identidad brasileña, un perfil de tienda o marketplace orientado a clientes brasileños, una cuenta de creador en Instagram o TikTok dirigida a Brasil, o una cuenta de prueba para una app que desarrollas para ese mercado.",
+        "No tiene sentido para Pix, bancos brasileños ni gov.br. Esos servicios vinculan tu cuenta a tu CPF y a un número registrado a tu nombre, y lo vuelven a comprobar. Usa una línea propia."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Un número brasileño alquilado en SMS Code es un móvil real de nueve dígitos con código de área en una red de operadora brasileña. Los servicios ven un abonado +55 normal. Queda reservado solo para ti durante la activación, y esa es la diferencia con las webs de «número brasileño gratis» compartidas, que los grandes servicios bloquearon hace tiempo."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-55-number",
+      "text": "Recibir un código en un número +55"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Elige el servicio y Brasil",
+          "body": "Abre SMS Code, elige el servicio —WhatsApp, Instagram, TikTok o cualquiera de los más de 100— y selecciona Brasil. El precio de la activación en monedas aparece antes de confirmar."
+        },
+        {
+          "title": "Escribe el número con su código de área",
+          "body": "Pon el formulario en Brasil (+55) y escribe el código de área seguido del número de nueve dígitos, tal como lo muestra la app: once dígitos en total, sin código de operadora ni 0 inicial."
+        },
+        {
+          "title": "Copia el código",
+          "body": "El SMS llega a la app normalmente en segundos. Si no llega nada, cancela pasados dos minutos —las monedas vuelven a tu saldo si no llegó ningún SMS— y prueba con otro número brasileño."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Preguntas frecuentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "¿Cuántos dígitos tiene un móvil brasileño?",
+          "a": "Once después de +55: un código de área (DDD) de dos dígitos y un número de nueve que empieza por 9. En escritura local: (21) 98765-4321."
+        },
+        {
+          "q": "¿Puedo crear una cuenta de WhatsApp brasileña desde el extranjero?",
+          "a": "Sí. WhatsApp solo comprueba que recibes el código enviado al número. Un número virtual +55 lo recibe como cualquier móvil brasileño. Activa enseguida el PIN de WhatsApp y añade un correo para no depender del número más adelante."
+        },
+        {
+          "q": "¿Necesito un CPF para usar un número virtual brasileño?",
+          "a": "No. El requisito del CPF se aplica a comprar y registrar una SIM de una operadora brasileña. Alquilar un número para una verificación en SMS Code no exige ningún documento brasileño."
+        },
+        {
+          "q": "¿Puedo usarlo para Pix o un banco brasileño?",
+          "a": "No. Los servicios financieros y gov.br vinculan las cuentas a tu CPF y a un número registrado a tu nombre, y lo revisan. Un número temporal no es la herramienta adecuada."
+        },
+        {
+          "q": "¿Por qué nunca me llegó el código?",
+          "a": "Casi siempre se omitió el código de área o se añadió un dígito de más. Revisa el formato, espera un minuto y, si sigue sin llegar, cancela y toma un número nuevo: las monedas vuelven."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

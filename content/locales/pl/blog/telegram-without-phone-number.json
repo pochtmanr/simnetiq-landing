@@ -1,0 +1,142 @@
+{
+  "title": "Jak zarejestrować się w Telegramie bez swojego numeru",
+  "description": "Telegram zawsze prosi o numer – ale nie musi to być Twój. Realne opcje: numery wirtualne, stacjonarne, Fragment – i ważne ustawienia prywatności.",
+  "excerpt": "Telegram nie pozwoli zarejestrować się bez jakiegoś numeru telefonu – ale nie musi to być Twój. Oto opcje, które naprawdę działają, i ustawienia, które trzymają Twoją tożsamość z dala od tego.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Zainstalowałeś Telegrama, stuknąłeś „Zacznij czatować” – a już pierwszy ekran żąda numeru telefonu. Bez opcji e-mail, bez „pomiń na razie”. Jeśli liczyłeś, że utrzymasz prywatny numer z dala od kolejnej bazy danych, ten ekran wydaje się murem."
+    },
+    {
+      "type": "p",
+      "text": "Uczciwa odpowiedź na start: nie da się założyć konta Telegram w ogóle bez numeru telefonu. Weryfikacja telefonem jest wpisana w to, jak Telegram identyfikuje konta, a każde obejście, jakie znajdziesz w sieci, i tak gdzieś obejmuje numer. Możesz natomiast – łatwo – zarejestrować się bez swojego numeru. Konto działa dokładnie tak samo; po prostu nie jest zakotwiczone w karcie SIM w Twojej kieszeni."
+    },
+    {
+      "type": "p",
+      "text": "Ten poradnik omawia trzy drogi, które naprawdę istnieją, potem pokazuje pełną rejestrację numerem wirtualnym, ustawienia prywatności ukrywające użyty numer i jeden krok – hasło w chmurze – który na dobre czyni konto Twoim."
+    },
+    {
+      "type": "h2",
+      "id": "your-real-options",
+      "text": "Twoje realne opcje (i do czego każda służy)"
+    },
+    {
+      "type": "p",
+      "text": "Odrzuć mity – „rejestracja e-mailem” nigdy nie istniała, „modyfikacje APK bez SIM” to loteria złośliwego oprogramowania – a zostaną trzy legalne ścieżki. Służą bardzo różnym ludziom."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Numer wirtualny. Wynajmujesz prawdziwy numer komórkowy na czas weryfikacji, odbierasz kod i się rejestrujesz. Dla większości osób to najszybsza i najtańsza droga: Twój prywatny numer nigdy nie dotyka serwerów Telegrama, a konto działa po zakończeniu wynajmu, o ile pozostajesz zalogowany.",
+        "Numer stacjonarny. Telegram może dostarczyć kod logowania połączeniem głosowym zamiast SMS-em, więc domowy lub biurowy telefon stacjonarny technicznie może zweryfikować konto. Ograniczenia są jednak realne: opcja połączenia pojawia się dopiero po wygaśnięciu próby SMS, wiele zakresów stacjonarnych i VoIP jest odrzucanych od razu, a do każdej przyszłej ponownej weryfikacji musisz mieć długotrwały dostęp do tej linii.",
+        "Anonimowy numer +888 z Fragment. Własny blockchainowy rynek Telegrama licytuje wirtualne numery +888, które działają tylko w Telegramie i w ogóle nie wymagają karty SIM. Na papierze to najbardziej prywatna opcja – ale skierowana do innej publiczności: licytujesz w Toncoinach, ceny pływają razem z rynkiem kolekcjonerskim, a zanim zaczniesz, potrzebujesz portfela TON. Na „chcę po prostu konta bez swojego numeru” to przesada."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Dla większości czytelników praktycznym wyborem jest pierwsza. Numer wirtualny to prawdziwy numer w prawdziwej sieci operatora – Telegram traktuje go jak każdy inny numer komórkowy, bez wyjątków, bez czekania na licytację. Zróbmy więc właściwą rejestrację."
+    },
+    {
+      "type": "h2",
+      "id": "sign-up-with-a-virtual-number",
+      "text": "Rejestracja numerem wirtualnym krok po kroku"
+    },
+    {
+      "type": "p",
+      "text": "Cały proces zajmuje kilka minut. Potrzebujesz aplikacji Telegram i aplikacji SMS Code obok siebie – kod przychodzi do drugiej, a wpisujesz go w pierwszej."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Wynajmij numer do Telegrama",
+          "body": "W aplikacji SMS Code wybierz Telegram jako usługę i kraj – prawdziwe numery komórkowe są w ponad 100 krajach. Jedno stuknięcie rezerwuje numer tylko dla Ciebie. Płacisz za aktywację z jednorazowego pakietu monet; nie ma abonamentu, a jeśli kod nigdy nie przyjdzie, aktywacja anuluje się za darmo."
+        },
+        {
+          "title": "Wpisz numer w Telegramie",
+          "body": "Na ekranie rejestracji Telegrama wybierz kraj pasujący do wynajętego numeru, a potem wpisz numer. Niezgodny numer kierunkowy to najczęstsza pojedyncza przyczyna, dla której kod się nie pojawia, więc sprawdź go jeszcze raz, zanim stukniesz Dalej."
+        },
+        {
+          "title": "Czekaj na kod – zwykle przychodzi w kilka sekund",
+          "body": "Wróć do SMS Code. SMS weryfikacyjny pojawia się bezpośrednio w aplikacji, zwykle w ciągu kilku sekund, i wygląda jak „Telegram code: 48329”. Przepisz kod do Telegrama."
+        },
+        {
+          "title": "Dokończ profil",
+          "body": "Wybierz imię (nie musi być prawdziwe) i jesteś w środku. Zanim dołączysz do jakiejkolwiek grupy, poświęć dwie minuty na poniższe ustawienia prywatności – liczą się bardziej niż to, jakiego numeru użyłeś."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "privacy-settings-that-matter",
+      "text": "Ustawienia prywatności, które naprawdę Cię ukrywają"
+    },
+    {
+      "type": "p",
+      "text": "Którąkolwiek drogą poszedłeś, numer użyty do weryfikacji jest teraz przypięty do konta – a domyślnie Telegram pokazuje go Twoim kontaktom i pozwala każdemu, kto go ma zapisany, Cię znaleźć. Dwa ustawienia i jeden nawyk zamykają te luki."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ukryj numer: Ustawienia → Prywatność i bezpieczeństwo → Numer telefonu → „Kto może widzieć mój numer” → Nikt. Od tej chwili członkowie grup i odbiorcy wiadomości widzą tylko Twoją nazwę wyświetlaną.",
+        "Kontroluj wyszukiwanie: na tym samym ekranie ustaw „Kto może mnie znaleźć po numerze” na Moje kontakty. W przeciwnym razie każdy, kto kiedykolwiek miał ten numer w książce adresowej – łącznie z kontaktami poprzedniego właściciela, jeśli numer wrócił do obiegu – może dopasować go do Twojego nowego konta.",
+        "Żyj nazwą użytkownika: ustaw w Ustawieniach @nazwę użytkownika i udostępniaj ją zamiast numeru. Nazwy użytkowników to sposób, w jaki Telegram chce, by ludzie się znajdowali; numer telefonu może pozostać danymi logowania i niczym więcej."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "lock-it-with-a-cloud-password",
+      "text": "Zablokuj to: hasło weryfikacji dwuetapowej"
+    },
+    {
+      "type": "p",
+      "text": "To krok, który ludzie pomijają, a potem żałują. W Ustawienia → Prywatność i bezpieczeństwo → Weryfikacja dwuetapowa ustaw hasło w chmurze. Gdy jest włączone, logowanie z nowego urządzenia wymaga zarówno kodu, jak i hasła – więc sama kontrola nad numerem telefonu nigdy nie wystarczy do przejęcia konta."
+    },
+    {
+      "type": "callout",
+      "text": "Jeśli zarejestrowałeś się wynajętym numerem, hasło w chmurze nie jest opcjonalne – to ono czyni konto trwale Twoim. Ustaw je od razu, dodaj e-mail do odzyskiwania i nie wylogowuj się z jedynej aktywnej sesji. Telegram wysyła przyszłe kody logowania do aktywnych sesji zamiast SMS-em, więc codzienne użycie nigdy nie zależy od starego numeru."
+    },
+    {
+      "type": "p",
+      "text": "To pełny obraz: konto, które zachowuje się jak każde inne konto Telegram, jest znajdowalne tylko po nazwie użytkownika, zabezpieczone hasłem i wskazuje na numer, który od początku nigdy nie był Twój."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Najczęstsze pytania"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Czy mogę używać Telegrama w ogóle bez numeru telefonu?",
+          "a": "Nie. Telegram wymaga numeru przy rejestracji, bez alternatywy przez e-mail czy samą nazwę użytkownika. Realne wybory to numer, który nie jest Twój: wynajęty numer wirtualny, telefon stacjonarny przyjmujący kod głosowo albo anonimowy numer +888 z Fragment."
+        },
+        {
+          "q": "Czy moje konto przestanie działać, gdy numer wirtualny wygaśnie?",
+          "a": "Nie. Numer jest sprawdzany tylko przy weryfikacji. Pozostań zalogowany i włącz weryfikację dwuetapową, a konto działa bez końca – Telegram dostarcza przyszłe kody logowania do aktywnej sesji, a nie SMS-em."
+        },
+        {
+          "q": "Czy mogę zarejestrować się w Telegramie darmowym numerem online?",
+          "a": "Zwykle nie. Numery na darmowych stronach do odbioru SMS-ów dzielą tysiące ludzi, więc Telegram prawie zawsze już je widział i odmawia dostarczenia kodu – albo numer jest już przypięty do cudzego konta. Wynajęty numer jest zarezerwowany tylko dla Ciebie podczas aktywacji."
+        },
+        {
+          "q": "Czy rejestracja numerem wirtualnym łamie zasady Telegrama?",
+          "a": "Telegram weryfikuje, czy kontrolujesz numer, a nie na kogo jest zarejestrowany. Rejestracja wynajętym numerem przy zwykłym użytku prywatnym jest w porządku – liczy się przestrzeganie regulaminu Telegrama, gdy już jesteś w środku, jak przy każdym koncie."
+        },
+        {
+          "q": "Czy inni mogą poznać, że użyłem numeru wirtualnego?",
+          "a": "Nie. To prawdziwy numer komórkowy w prawdziwej sieci operatora, nie do odróżnienia od innych. A gdy ustawisz „Kto może widzieć mój numer” na Nikt, inni użytkownicy i tak widzą tylko Twoje imię i nazwę użytkownika."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    }
+  ]
+}

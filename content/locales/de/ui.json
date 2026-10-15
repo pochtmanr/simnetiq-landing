@@ -1,0 +1,93 @@
+{
+  "site": {
+    "name": "SMS Code von SIMNETIQ",
+    "titleTemplate": "%s — SMS Code von SIMNETIQ",
+    "appDescription": "Virtuelle Nummern in über 100 Ländern, um SMS-Bestätigungscodes zu empfangen. Melde dich bei Telegram, WhatsApp, Google und über 100 Diensten an, ohne deine private Nummer herauszugeben."
+  },
+  "a11y": {
+    "mainNav": "Hauptnavigation",
+    "breadcrumb": "Brotkrümelnavigation"
+  },
+  "faqHeading": "FAQ",
+  "nav": {
+    "langLabel": "Sprache",
+    "links": [
+      {
+        "path": "/#how-it-works",
+        "label": "So funktioniert's"
+      },
+      {
+        "path": "/virtual-numbers",
+        "label": "Nummern"
+      },
+      {
+        "path": "/#pricing",
+        "label": "Preise"
+      },
+      {
+        "path": "/#faq",
+        "label": "FAQ"
+      },
+      {
+        "path": "/support",
+        "label": "Support"
+      }
+    ],
+    "cta": "App holen",
+    "home": "SMS Code Startseite",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  },
+  "footer": {
+    "tagline": "Eine Telefonnummer für die Anmeldung. Nicht fürs Leben.",
+    "liveStatus": "Nummern online in über 100 Ländern",
+    "backToTop": "Nach oben",
+    "servicesLabel": "Beliebte Dienste",
+    "allServices": "Alle Dienste",
+    "resourcesLabel": "Ressourcen",
+    "hub": "Virtuelle Nummern",
+    "blog": "Blog",
+    "companyLabel": "Unternehmen",
+    "getApp": "App holen",
+    "followLabel": "Folgen",
+    "support": "Support",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Servicebedingungen",
+    "rights": "Alle Rechte vorbehalten.",
+    "registered": "Eingetragen in",
+    "companyNo": "Handelsregisternr.",
+    "registeredOffice": "Eingetragener Sitz",
+    "cookies": "Cookie-Richtlinie",
+    "cookieSettings": "Cookie-Einstellungen"
+  },
+  "cookies": {
+    "bannerLabel": "Cookie-Einwilligung",
+    "bannerTitle": "Cookies – du entscheidest",
+    "bannerBody": "Mit deinem OK nutzen wir Analysen, um zu sehen, welche Seiten wirklich helfen, und das Meta Pixel, um unsere Werbung zu messen. Nichts läuft, bevor du gewählt hast.",
+    "policyLink": "Cookie-Richtlinie",
+    "reject": "Ablehnen",
+    "accept": "Akzeptieren",
+    "customize": "Anpassen",
+    "dialogTitle": "Cookie-Einstellungen",
+    "dialogIntro": "Wähle, was diese Website nutzen darf. Du kannst deine Meinung jederzeit über den Footer ändern.",
+    "necessaryTitle": "Unbedingt erforderlich",
+    "necessaryBody": "Ein Cookie, das sich diese Wahl merkt, damit wir nicht auf jeder Seite fragen.",
+    "alwaysOn": "Immer aktiv",
+    "analyticsTitle": "Analyse",
+    "analyticsBody": "Vercel Web Analytics und Google Analytics zählen Besuche und Klicks, damit wir sehen, welche Seiten nützlich sind. Google Analytics setzt _ga-Cookies. Nie für Werbung verwendet.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "Das Meta Pixel zeigt uns, wenn ein Besuch von einer unserer Anzeigen auf Facebook oder Instagram kam, damit wir sehen, welche Anzeigen funktionieren. Es setzt das _fbp-Cookie, und Meta kann diese Daten auch nach eigener Richtlinie nutzen.",
+    "rejectAll": "Alle ablehnen",
+    "acceptAll": "Alle akzeptieren",
+    "save": "Auswahl speichern",
+    "close": "Schließen"
+  },
+  "badges": {
+    "appStore": "Laden im App Store"
+  },
+  "notFound": {
+    "title": "Diese Seite gibt es nicht",
+    "body": "Die Adresse hat sich vielleicht geändert. Alles über SMS Code findest du auf der Startseite.",
+    "back": "Zur Startseite"
+  }
+}

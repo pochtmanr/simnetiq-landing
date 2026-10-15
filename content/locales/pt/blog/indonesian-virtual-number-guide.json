@@ -1,0 +1,132 @@
+{
+  "title": "Número virtual da Indonésia (+62): formato e regras",
+  "description": "Como funcionam os celulares indonésios, por que os chips lá são ligados ao NIK e como receber um SMS de verificação num número +62 estando fora do país.",
+  "excerpt": "A Indonésia amarra cada chip pré-pago a um número de identidade nacional e limita quantos cada pessoa pode registrar. Veja como funcionam os números +62, por que isso importa no cadastro e como receber um código num deles sem chip local.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A Indonésia é o quarto país mais populoso do mundo e um dos mais centrados no celular. Sua economia digital cresceu no smartphone, não no computador: as pessoas pedem corridas e comida no Gojek e no Grab, compram na Shopee e no Tokopedia e tocam pequenos negócios inteiros pelo WhatsApp. Quase todos esses serviços começam do mesmo jeito: digite um número +62 e espere um código."
+    },
+    {
+      "type": "p",
+      "text": "Por isso as buscas por «número da Indonésia» aparecem em árabe, inglês e outros idiomas, feitas por gente muito longe do arquipélago. Alguns são trabalhadores indonésios no exterior — na Arábia Saudita, na Malásia, em Taiwan ou em Hong Kong — que mantêm um pé nos serviços do país. Outros são vendedores, profissionais de marketing ou desenvolvedores que precisam de uma conta ancorada no mercado indonésio. Veja como esses números funcionam e por que conseguir um chip local é mais difícil do que parece."
+    },
+    {
+      "type": "h2",
+      "id": "how-indonesian-numbers-work",
+      "text": "Como se escreve um celular indonésio"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Dentro do país, os celulares começam com 08 — por exemplo 0812, 0857 ou 0878 — e têm entre dez e treze dígitos no total.",
+        "No formato internacional, o 0 inicial sai e entra o +62. Assim, 0812-3456-7890 vira +62 812-3456-7890.",
+        "Os dígitos depois do 08 identificavam originalmente a operadora — Telkomsel, Indosat e XL estão entre as maiores —, mas depois de anos de fusões e prefixos novos são uma pista, não uma regra.",
+        "Num formulário com a Indonésia selecionada, digite o número a partir do 8, nunca com 0 ou 62."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "O erro mais comum com números indonésios é o zero inicial. «+62 0812…» não é um número válido. Se o seletor de país já mostra +62, comece a digitar a partir do 8."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-and-the-nik",
+      "text": "Por que todo chip indonésio é ligado a uma identidade nacional"
+    },
+    {
+      "type": "p",
+      "text": "No fim de 2017, o governo indonésio mandou cada assinante pré-pago registrar o chip com dois documentos: o NIK, o número de identidade nacional de dezesseis dígitos impresso na carteira KTP, e o número do KK, o cartão de família que lista todos os moradores de uma casa. Os assinantes enviavam os dois números por SMS para um número curto. O prazo terminou em 28 de fevereiro de 2018, e depois disso os chips sem registro foram sendo cortados aos poucos."
+    },
+    {
+      "type": "p",
+      "text": "A regra sobreviveu à campanha. Hoje o registro é regido por um regulamento ministerial de 2021, e as páginas de ajuda da Telkomsel ainda informam que um mesmo NIK pode registrar por conta própria no máximo três números pré-pagos por operadora; para mais chips, é preciso ir a uma loja. O objetivo era tornar rastreáveis a fraude telefônica e as ligações de golpe anônimas, numa tendência mundial: pela contagem da GSMA, mais de 150 países exigem hoje o registro de chips."
+    },
+    {
+      "type": "p",
+      "text": "Para estrangeiros, a consequência é prática. Turistas podem comprar chips registrados com o passaporte, normalmente no aeroporto, mas o chip fica preso ao passaporte e muitas vezes tem prazo. Quem mora fora da Indonésia e só quer um número +62 para uma conta não tem nenhum jeito simples de conseguir um chip."
+    },
+    {
+      "type": "h2",
+      "id": "who-needs-a-62-number",
+      "text": "Quem precisa de um número +62, e para quê"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Vendedores e profissionais de marketing que constroem presença para clientes indonésios — um perfil de WhatsApp Business, uma conta de TikTok ou Instagram voltada ao público local.",
+        "Desenvolvedores e equipes de QA testando apps que se comportam de outro jeito para usuários indonésios.",
+        "Indonésios no exterior que querem se cadastrar num serviço do país sem manter um chip ativo de longe.",
+        "Qualquer pessoa que queira uma conta de mensageiro ou rede social separada do número pessoal."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Para o que não serve: bancos indonésios, carteiras digitais com verificação completa e serviços do governo. Esses vinculam sua conta ao seu NIK, e o número cadastrado precisa estar em seu nome."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-62-number",
+      "text": "Como receber um código num número indonésio"
+    },
+    {
+      "type": "p",
+      "text": "Um número indonésio alugado no SMS Code é um celular real numa rede de operadora indonésia. Para o serviço em que você se cadastra, ele parece qualquer outro assinante +62, e fica reservado só para você enquanto espera o código."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Escolha o serviço e a Indonésia",
+          "body": "No SMS Code, selecione o serviço — WhatsApp, Telegram, TikTok, Grab ou qualquer um dos mais de 100 — e escolha a Indonésia. O preço da ativação em moedas aparece antes da confirmação."
+        },
+        {
+          "title": "Digite o número a partir do 8",
+          "body": "Com +62 selecionado no formulário, digite o número mostrado no app começando pelo 8 — sem 0 inicial."
+        },
+        {
+          "title": "Cole o código",
+          "body": "O SMS chega ao app geralmente em segundos. Se nada chegar, cancele depois de dois minutos; as moedas voltam para o seu saldo quando nenhum SMS chegou, e você pode pegar um número novo."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Depois, proteja a conta: uma senha forte, um e-mail de recuperação que você controle e a verificação em duas etapas do serviço. Um número temporário cobre o cadastro, não o futuro da conta."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Perguntas frequentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Estrangeiro consegue ter um número de telefone indonésio?",
+          "a": "Estando na Indonésia, sim: chips de turista podem ser registrados com passaporte. De fora, comprar um chip é pouco prático, e por isso as pessoas usam um número virtual +62 para verificações pontuais."
+        },
+        {
+          "q": "Preciso de NIK ou KK para usar um número virtual indonésio?",
+          "a": "Não. O registro por NIK vale para chips comprados de operadoras indonésias. Alugar um número para uma verificação no SMS Code não exige nenhum documento indonésio."
+        },
+        {
+          "q": "Digito 08 ou +62 8?",
+          "a": "No formato internacional: +62 seguido do número que começa com 8. Nunca junte o código do país com o 0 inicial nacional."
+        },
+        {
+          "q": "Funciona com Grab, Shopee ou Gojek?",
+          "a": "O SMS Code oferece ativações para muitos serviços regionais, incluindo Grab e Shopee, e o app mostra quais serviços e países estão disponíveis antes do pagamento. Serviços com verificação completa de identidade — funções bancárias, upgrade de carteira digital — vão pedir seus próprios documentos de qualquer forma."
+        },
+        {
+          "q": "E se nenhum SMS chegar?",
+          "a": "Confira se não digitou um 0 inicial e espere um minuto inteiro. Se nada chegar, cancele a ativação depois de dois minutos — as moedas voltam para o seu saldo — e tente outro número."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

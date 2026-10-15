@@ -1,0 +1,27 @@
+{
+  "title": "Bezahlt, aber Münzen fehlen",
+  "metaDescription": "Münzpaket gekauft, aber Guthaben unverändert? Prüfe Apple-Zahlung, SMS Code Konto und Wiederherstellung und schick uns die Apple-Bestellnummer.",
+  "sections": [
+    {
+      "title": "Prüfe zuerst das hier",
+      "steps": [
+        "**Warte ein paar Minuten und öffne die App erneut.** Eine ausstehende Apple-Zahlung kann einen Moment brauchen. Kauf kein weiteres Paket, um es zu beheben.",
+        "**Prüfe das Konto.** Münzen gehören zu dem SMS Code Konto, mit dem sie gekauft wurden. Hast du dich auf einem anderen Gerät mit Apple, Google oder E-Mail angemeldet, nutze hier denselben Login.",
+        "**Käufe wiederherstellen.** Öffne den Münz-Shop in der App und tippe auf **Käufe wiederherstellen**. Das schreibt Käufe gut, die Apple bestätigt, die App aber verpasst hat."
+      ]
+    },
+    {
+      "title": "Die App neu installiert?",
+      "paragraphs": [
+        "Hast du die App ohne Anmeldung genutzt, erzeugt eine Neuinstallation ein neues Konto, und das alte Guthaben folgt nicht automatisch. Schreib uns mit deiner Apple-Bestellnummer, und wir helfen, es wiederherzustellen. [Dein Guthaben behalten](/support/account-balance) erklärt, wie du das künftig vermeidest."
+      ]
+    },
+    {
+      "title": "Was du uns senden solltest",
+      "paragraphs": [
+        "Die Apple-Bestellnummer aus deiner Beleg-E-Mail von Apple (sie beginnt mit M), das Paket und das Kaufdatum. Verberge nicht zugehörige Käufe und Zahlungsdaten. Kontaktierst du uns aus der App, wird deine Konto-ID automatisch angehängt.",
+        "Willst du statt der Münzen dein Geld zurück, sieh dir an, [wie du eine Rückerstattung bei Apple beantragst](/support/refund-apple)."
+      ]
+    }
+  ]
+}

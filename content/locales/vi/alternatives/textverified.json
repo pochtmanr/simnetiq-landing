@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Thay thế TextVerified — SMS Code của SIMNETIQ",
+  "metaDescription": "So sánh TextVerified với ứng dụng SMS Code của SIMNETIQ: chỉ số Mỹ kèm thuê số trên web so với hơn 100 quốc gia trong ứng dụng iOS gốc.",
+  "hero": {
+    "title": "Lựa chọn thay thế TextVerified với số tại hơn 100 quốc gia",
+    "intro": [
+      "TextVerified là chuyên gia về Mỹ. Trang của họ nói rõ điều đó: mọi số của họ đều là số Mỹ, được mô tả là số di động Mỹ thật dựa trên SIM vật lý, cung cấp dưới dạng xác minh một lần hoặc thuê ngắn hạn và có thể gia hạn qua ứng dụng web, API và tiện ích trình duyệt. Khi một lần đăng ký đòi hỏi cụ thể số +1, sự tập trung đó chính là thứ bạn cần.",
+      "SMS Code của SIMNETIQ bắt đầu từ tiền đề ngược lại: nhu cầu xác minh mang tính quốc tế. Đó là ứng dụng iOS gốc với số thật tại hơn 100 quốc gia — có Mỹ, nhưng cũng có châu Âu, châu Á và xa hơn — bao phủ hơn 100 dịch vụ phổ biến. Chọn dịch vụ và quốc gia, nhận số, và mã đến ứng dụng thường chỉ trong vài giây, trả bằng gói xu mua một lần và hủy miễn phí nếu không có SMS."
+    ]
+  },
+  "whenThem": {
+    "title": "Khi nào TextVerified là lựa chọn tốt hơn",
+    "body": "Hãy chọn TextVerified khi công việc hoàn toàn là của Mỹ. Chiều sâu trong một thị trường có lợi thế thực sự: trang của họ mô tả số Mỹ không phải VoIP dựa trên SIM vật lý, phạm vi hàng trăm dịch vụ, và các gói thuê — bao gồm thuê theo tháng có thể gia hạn — để giữ một số Mỹ liên lạc được theo thời gian. Nếu bạn xác minh các nền tảng chỉ dành cho Mỹ, cần một số +1 phải vượt qua kiểm tra nhà mạng, hoặc muốn một số Mỹ dùng lâu, một dịch vụ chuyên về Mỹ là công cụ mạnh hơn."
+  },
+  "whenUs": {
+    "title": "Khi nào ứng dụng SMS Code phù hợp hơn",
+    "body": "Hãy chọn ứng dụng khi một quốc gia là không đủ — hoặc khi Mỹ thậm chí không phải quốc gia bạn cần. Rất nhiều dịch vụ rẻ hơn hoặc suôn sẻ hơn khi xác minh bằng số châu Âu hay châu Á, và một số không mở cho số +1; với hơn 100 quốc gia trong một ứng dụng, bạn chỉ cần chọn thứ hoạt động tốt nhất cho mỗi lần đăng ký. Trải nghiệm là di động gốc từ App Store, thanh toán là gói xu mua một lần qua Apple không thuê bao, và lần kích hoạt không nhận được gì sẽ hủy miễn phí."
+  },
+  "comparison": {
+    "title": "TextVerified và ứng dụng SMS Code, đặt cạnh nhau",
+    "rows": [
+      {
+        "label": "Nền tảng",
+        "competitor": "Ứng dụng web có API và tiện ích trình duyệt",
+        "us": "Ứng dụng iOS gốc từ App Store"
+      },
+      {
+        "label": "Mô hình giá",
+        "competitor": "Giá theo lần xác minh cùng thuê số ngắn hạn và có thể gia hạn",
+        "us": "Gói xu mua một lần, trả theo lần kích hoạt — không thuê bao"
+      },
+      {
+        "label": "Thanh toán",
+        "competitor": "Trang của họ liệt kê thẻ và nhiều loại tiền mã hóa",
+        "us": "Thanh toán qua cửa hàng Apple — không chia sẻ thông tin thẻ với chúng tôi"
+      },
+      {
+        "label": "Phạm vi",
+        "competitor": "Chỉ số Mỹ, theo thiết kế — trang của họ ghi mọi số đều từ Mỹ",
+        "us": "Số thật tại hơn 100 quốc gia cho hơn 100 dịch vụ phổ biến"
+      },
+      {
+        "label": "Hủy",
+        "competitor": "Theo quy tắc hoàn tiền riêng của họ — hãy xem điều khoản hiện hành",
+        "us": "Lần kích hoạt không nhận SMS hủy miễn phí, xu được hoàn"
+      },
+      {
+        "label": "Hỗ trợ",
+        "competitor": "Kênh hỗ trợ qua trang web của họ",
+        "us": "Biểu mẫu liên hệ trong ứng dụng và trên trang web"
+      },
+      {
+        "label": "Phù hợp nhất cho",
+        "competitor": "Xác minh chỉ cho Mỹ và số Mỹ dùng lâu dài",
+        "us": "Đăng ký quốc tế từ điện thoại, mỗi quốc gia một chạm"
+      }
+    ],
+    "note": "Thông tin về đối thủ phản ánh trang công khai của họ tại thời điểm viết và có thể thay đổi — hãy luôn kiểm tra trên textverified.com trước khi quyết định."
+  },
+  "switchSteps": {
+    "title": "Thử ứng dụng chỉ mất ba bước",
+    "steps": [
+      {
+        "title": "Cài ứng dụng",
+        "body": "Tải SMS Code của SIMNETIQ từ App Store — không cần tạo tài khoản web hay thiết lập ví."
+      },
+      {
+        "title": "Mua một gói xu",
+        "body": "Mua gói một lần qua tài khoản cửa hàng. Không thuê bao và không ngày gia hạn — xu được tiêu theo từng lần kích hoạt."
+      },
+      {
+        "title": "Chạy lần kích hoạt đầu tiên",
+        "body": "Chọn dịch vụ, rồi bất kỳ quốc gia nào trong hơn 100 quốc gia — có cả Mỹ. Mã đến ứng dụng thường chỉ trong vài giây; nếu không có gì đến, lần kích hoạt hủy miễn phí."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Khác biệt lớn nhất giữa TextVerified và ứng dụng SMS Code là gì?",
+      "a": "Địa lý. Trang của TextVerified ghi rằng mọi số của họ là số Mỹ — chiều sâu trong một thị trường. Ứng dụng SMS Code của SIMNETIQ cung cấp số thật tại hơn 100 quốc gia qua ứng dụng di động gốc, nên bạn chọn quốc gia cho từng lần đăng ký."
+    },
+    {
+      "q": "Ứng dụng SMS Code có số Mỹ không?",
+      "a": "Có — Mỹ là một trong hơn 100 quốc gia khả dụng. Khác biệt là đó chỉ là một lựa chọn trong số nhiều, chứ không phải toàn bộ danh mục."
+    },
+    {
+      "q": "Tôi có thể thuê số dài hạn như gói thuê gia hạn của TextVerified không?",
+      "a": "Không. Ứng dụng hoạt động theo lần kích hoạt: một số, một dịch vụ, một mã. Nếu bạn cần một số Mỹ liên lạc được trong nhiều tuần hay tháng, các gói thuê của TextVerified thành thật mà nói là lựa chọn phù hợp hơn."
+    },
+    {
+      "q": "Điều gì xảy ra nếu mã không bao giờ đến?",
+      "a": "Lần kích hoạt bị hủy và xu được hoàn. Bạn chỉ trả cho những số thực sự nhận được SMS."
+    },
+    {
+      "q": "Ứng dụng SMS Code có thuê bao không?",
+      "a": "Không. Bạn mua gói xu một lần qua thanh toán Apple và tiêu chúng theo từng lần kích hoạt — không có gì gia hạn và không thông tin thẻ nào được chia sẻ với chúng tôi."
+    }
+  ]
+}

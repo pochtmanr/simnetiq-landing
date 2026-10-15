@@ -1,0 +1,134 @@
+{
+  "title": "Brazylijski numer wirtualny (+55): 9. cyfra i rejestracje",
+  "description": "Jak działają brazylijskie numery komórkowe – numery kierunkowe, dodatkowa 9, linie prepaid powiązane z CPF – i jak odebrać SMS weryfikacyjny na numer +55.",
+  "excerpt": "Brazylia dodała cyfrę do każdego numeru komórkowego, powiązała linie prepaid z CPF i uczyniła WhatsAppa narodową centralą. Co to oznacza dla każdego, kto potrzebuje numeru +55 do rejestracji.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "W Brazylii numer telefonu służy nie tyle do dzwonienia, ile do docierania do ludzi przez WhatsAppa. Sklepy przyjmują tam zamówienia, kliniki potwierdzają tam wizyty, a „me chama no zap” – „napisz do mnie na WhatsAppie” – to od dekady mowa codzienna. W badaniu Mobile Time i Opinion Box z 2024 roku prawie połowa brazylijskich właścicieli smartfonów stwierdziła, że gdyby mogła zachować tylko jedną aplikację, byłby to WhatsApp."
+    },
+    {
+      "type": "p",
+      "text": "To czyni numer +55 niezwykle cenną tożsamością cyfrową. Marketplace’y, aplikacje dostaw, fintechy i sieci społecznościowe budowane dla rynku brazylijskiego proszą o niego przy rejestracji. A brazylijski system numeracji ma dziwactwa, na których potykają się zarówno obcokrajowcy, jak i walidatory formularzy. Oto jak działa i gdzie pasuje wirtualny brazylijski numer."
+    },
+    {
+      "type": "h2",
+      "id": "how-brazilian-numbers-work",
+      "text": "Anatomia brazylijskiego numeru komórkowego"
+    },
+    {
+      "type": "p",
+      "text": "Zapisany w całości brazylijski numer komórkowy wygląda tak: +55, potem dwucyfrowy numer kierunkowy, a potem dziewięć cyfr, które zawsze zaczynają się od 9. W zapisie lokalnym to (11) 9XXXX-XXXX dla São Paulo albo (21) 9XXXX-XXXX dla Rio de Janeiro."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Numer kierunkowy (DDD) nie jest opcjonalny. Brazylia ma 67 kodów DDD, od 11 w São Paulo po 99 w Maranhão, a komórki je zachowują. Numer bez DDD jest niepełny, a formularz rejestracji go odrzuci albo wyśle kod donikąd.",
+        "Wiodąca 9 oznacza komórkę. Każdy brazylijski numer komórkowy ma dziś dziewięć cyfr po numerze kierunkowym, zaczynając od 9; numery stacjonarne mają osiem.",
+        "Kody operatorów są do połączeń, nie do formularzy. Brazylijczycy dzwoniący międzymiastowo wstawiają przed DDD dwucyfrowy kod operatora (15, 21, 31, 41…). Ten kod nigdy nie należy do pola +55."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "the-ninth-digit",
+      "text": "Dziewiąta cyfra: czteroletnia zmiana numeracji w całym kraju"
+    },
+    {
+      "type": "p",
+      "text": "Do 2012 roku brazylijskie numery komórkowe miały osiem cyfr, tak jak stacjonarne. São Paulo zaczynało ich brakować. Regulator telekomunikacji Anatel zarządził zmianę, która brzmi prosto, a prosta nie była: dodać 9 przed każdym numerem komórkowym w kraju."
+    },
+    {
+      "type": "p",
+      "text": "Zmiana ruszyła w strefie 11 São Paulo 29 lipca 2012 roku i postępowała region po regionie, a każda faza dostała okres przejściowy, w którym stare ośmiocyfrowe połączenia przechwytywał nagrany komunikat. Ostatnia duża faza, obejmująca południowe stany Paraná, Santa Catarina i Rio Grande do Sul, trwała od listopada 2016 do lutego 2017. Według danych Anatel dodatkowa cyfra zwiększyła pojemność do 90 milionów numerów komórkowych na numer kierunkowy."
+    },
+    {
+      "type": "callout",
+      "text": "Stare listy kontaktów, stare strony i niektóre starsze walidatory formularzy wciąż mają ośmiocyfrowe numery komórkowe. Jeśli widzisz brazylijską komórkę zapisaną jako (11) 8765-4321, jest nieaktualna – działający numer to (11) 98765-4321."
+    },
+    {
+      "type": "h2",
+      "id": "cpf-and-prepaid-lines",
+      "text": "Dlaczego brazylijskie karty SIM są powiązane z CPF"
+    },
+    {
+      "type": "p",
+      "text": "Większość Brazylijczyków korzysta z linii prepaid, a przez lata ich aktywacja wymagała niewiele więcej niż wpisania CPF – krajowego numeru podatnika. To ułatwiało oszustwa: CPF obcej osoby mógł założyć linię na Twoje nazwisko. Od 2017 roku Anatel przeprowadził ówczesną wielką czwórkę operatorów – Vivo, Claro, TIM i Oi – przez akcję ponownej rejestracji stan po stanie, w której klienci prepaid musieli potwierdzić CPF, imię i nazwisko oraz kod pocztowy albo stracić linię. Doniesienia prasowe o rundzie w 17 stanach podawały, że problemy z rejestracją miało mniej niż 1 procent z 91 milionów linii prepaid w tych stanach."
+    },
+    {
+      "type": "p",
+      "text": "Wniosek dla każdego spoza Brazylii: kupno lokalnej karty SIM zwykle oznacza posiadanie CPF. Obcokrajowcy mogą go uzyskać, ale to formalności – wizyta w Receita Federal lub konsulacie – czyli dużo wysiłku jak na jeden kod weryfikacyjny."
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-55-number-makes-sense",
+      "text": "Kiedy wirtualny numer +55 ma sens – a kiedy nie"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ma sens przy jednorazowych weryfikacjach: konto WhatsApp lub Telegram z brazylijską tożsamością, profil sklepu lub marketplace’u dla brazylijskich klientów, konto twórcy na Instagramie lub TikToku kierowane do Brazylii albo konto testowe aplikacji budowanej na ten rynek.",
+        "Nie ma sensu dla Pix, brazylijskich banków ani gov.br. Te usługi wiążą konto z Twoim CPF i numerem zarejestrowanym na Twoje nazwisko oraz ponownie je weryfikują. Używaj własnej linii."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Wynajęty brazylijski numer z SMS Code to prawdziwa dziewięciocyfrowa komórka z numerem kierunkowym w brazylijskiej sieci operatora. Usługi widzą zwykłego abonenta +55. Pozostaje zarezerwowany tylko dla Ciebie podczas aktywacji – i to różnica wobec współdzielonych stron z „darmowymi brazylijskimi numerami”, które popularne usługi dawno zablokowały."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-55-number",
+      "text": "Odbieranie kodu na numer +55"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Wybierz usługę i Brazylię",
+          "body": "Otwórz SMS Code, wybierz usługę – WhatsApp, Instagram, TikTok lub dowolną z ponad 100 innych – i zaznacz Brazylię. Cena aktywacji w monetach jest pokazywana przed potwierdzeniem."
+        },
+        {
+          "title": "Wpisz numer z numerem kierunkowym",
+          "body": "Ustaw formularz na Brazylię (+55) i wpisz numer kierunkowy, a po nim dziewięciocyfrowy numer dokładnie tak, jak pokazuje aplikacja – łącznie jedenaście cyfr, bez kodu operatora, bez wiodącego 0."
+        },
+        {
+          "title": "Skopiuj kod",
+          "body": "SMS dociera do aplikacji zwykle w ciągu kilku sekund. Jeśli nic nie przyjdzie, anuluj po upływie dwóch minut – monety wracają na saldo, gdy SMS nie dotarł – i spróbuj innego brazylijskiego numeru."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Najczęstsze pytania"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Ile cyfr ma brazylijski numer komórkowy?",
+          "a": "Jedenaście po +55: dwucyfrowy numer kierunkowy (DDD) plus dziewięciocyfrowy numer zaczynający się od 9. W zapisie lokalnym wygląda to jak (21) 98765-4321."
+        },
+        {
+          "q": "Czy mogę założyć brazylijskie konto WhatsApp z zagranicy?",
+          "a": "Tak. WhatsApp sprawdza tylko, czy możesz odebrać kod wysłany na numer. Wirtualny numer +55 odbiera go jak każda brazylijska komórka. Od razu ustaw PIN w WhatsAppie i dodaj e-mail, żeby później nie zależeć od numeru."
+        },
+        {
+          "q": "Czy do korzystania z wirtualnego brazylijskiego numeru potrzebuję CPF?",
+          "a": "Nie. Wymóg CPF dotyczy kupna i rejestracji karty SIM u brazylijskiego operatora. Wynajęcie numeru do weryfikacji w SMS Code nie wymaga żadnych brazylijskich dokumentów."
+        },
+        {
+          "q": "Czy mogę użyć go do Pix lub brazylijskiego banku?",
+          "a": "Nie. Usługi finansowe i gov.br wiążą konta z Twoim CPF i numerem zarejestrowanym na Twoje nazwisko oraz ponownie go sprawdzają. Numer tymczasowy to tam złe narzędzie."
+        },
+        {
+          "q": "Dlaczego mój kod nigdy nie został dostarczony?",
+          "a": "Najczęściej pominięto numer kierunkowy albo dodano zbędną cyfrę. Sprawdź format, odczekaj minutę, a jeśli nadal nic, anuluj i weź świeży numer – monety wracają."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

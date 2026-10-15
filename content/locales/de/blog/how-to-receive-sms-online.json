@@ -1,0 +1,146 @@
+{
+  "title": "SMS online empfangen: Codes ohne eigene Nummer",
+  "description": "Jede Registrierung will eine Nummer. Drei echte Wege, SMS online zu empfangen: Gratis-Seiten, zweite SIM, gemietete Nummer – und wann welcher taugt.",
+  "excerpt": "Kostenlose Code-Seiten, eine zweite SIM oder eine gemietete virtuelle Nummer – drei Wege, Bestätigungs-SMS online zu empfangen, ehrlich verglichen: was jeder kostet, wo jeder scheitert und wie der zuverlässige wirklich funktioniert.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Irgendwo zwischen „Passwort erstellen“ und „Bedingungen akzeptieren“ fügt heute fast jede Registrierung dieselbe Forderung ein: Gib deine Telefonnummer ein. Messenger verlangen sie, Marktplätze wollen sie, selbst ein Forum, das du zweimal besuchen wirst, besteht darauf, dir einen sechsstelligen Code zu schicken, bevor es dich hineinlässt."
+    },
+    {
+      "type": "p",
+      "text": "Der Code selbst ist harmlos. Was Leute stört, ist die Nummer dahinter – eine dauerhafte, persönliche Kennung, die das Konto überdauert, deine Profile miteinander verknüpft und sich nicht wie ein Passwort wechseln lässt, wenn sie geleakt wird. Die praktische Frage ist also nicht, wie man die Bestätigung vermeidet; da bewegen sich Dienste nicht. Sondern wie man die SMS woanders empfängt als auf der eigenen SIM."
+    },
+    {
+      "type": "p",
+      "text": "Dafür gibt es genau drei Wege. Dieser Leitfaden geht sie alle durch – einschließlich der zwei, die meist deine Zeit verschwenden – und zeigt dann den vollständigen Ablauf mit dem einen, der zuverlässig funktioniert."
+    },
+    {
+      "type": "h2",
+      "id": "why-services-want-your-number",
+      "text": "Warum Dienste überhaupt eine Nummer verlangen"
+    },
+    {
+      "type": "p",
+      "text": "Es lohnt sich zu verstehen, womit du es zu tun hast, denn das erklärt, warum manche Wege scheitern. Dienste bestätigen Telefonnummern aus drei Gründen, und Datenschutz gehört nicht dazu."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Spam-Kontrolle. Eine Telefonnummer ist die günstigste knappe Ressource, die ein Dienst verlangen kann. E-Mail-Adressen sind kostenlos und unbegrenzt; Mobilnummern kosten Geld und Papierkram, eine zu verlangen erhöht also den Preis jedes Fake-Kontos.",
+        "Kontowiederherstellung und 2FA. Einmal bestätigt, wird die Nummer zum Ersatzkanal für den Login – was auch heißt, dass wer die Nummer kontrolliert, oft das Passwort zurücksetzen kann. Das schneidet in beide Richtungen, und wir kommen darauf zurück.",
+        "Identitätsverknüpfung. Eine Nummer verbindet dein Konto mit deinen anderen Konten, deinen Kontakten und über deinen Netzbetreiber mit deiner rechtlichen Identität. Für Werbesysteme ist sie der Verknüpfungsschlüssel, der gelöschte Cookies und neue Geräte überlebt."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nichts davon verlangt, dass die Nummer deine ist. Der Dienst prüft nur eines: dass du einen Code lesen kannst, der an die eingegebene Nummer gesendet wurde. Wo diese Nummer lebt – auf einer SIM in deiner Tasche oder in einer App auf deinem Bildschirm –, ist auf seiner Seite unsichtbar."
+    },
+    {
+      "type": "h2",
+      "id": "three-ways-to-receive-sms-online",
+      "text": "Die drei Wege, SMS online zu empfangen"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Kostenlose öffentliche Nummern. Dutzende Seiten veröffentlichen Nummern, deren Posteingang jeder lesen kann. Sie kosten nichts und funktionieren gelegentlich – aber jede Nummer wird mit Tausenden Fremden geteilt, beliebte Dienste haben die meisten also längst gesehen, markiert und gesperrt. Akzeptiert einer die Nummer doch, heißt es oft, sie sei schon registriert – weil jemand schneller war. Und da der Posteingang öffentlich ist, kann jeder alles lesen, was an diese Nummer gesendet wird, auch einen Code zum Zurücksetzen des Passworts für das Konto, das du gerade erstellt hast.",
+        "Eine zweite SIM oder eSIM. Wirklich privat und dauerhaft – eine echte Nummer, die nur dir gehört. Der Preis sind Kosten und Aufwand: ein Monatstarif oder Aufladepflichten, um die Nummer am Leben zu halten, Ausweispflicht in vielen Ländern und die Absurdität, einen Handytarif zu unterhalten, weil eine Website 2026 einen Code wollte. Sinnvoll, wenn du eine langfristige zweite Leitung brauchst; für Registrierungen übertrieben.",
+        "Eine gemietete virtuelle Nummer. Eine echte Mobilnummer in einem echten Mobilfunknetz, für die Dauer einer Bestätigung nur für dich reserviert. Du zahlst pro empfangenem Code, die SMS erscheint in einer App, und es gibt keinen Tarif, keinen Vertrag und keinen geteilten Posteingang. Das ist der Mittelweg: privat wie eine SIM, wegwerfbar, wie es sein sollte."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Für eine einmalige Bestätigung ist die gemietete Nummer der Weg, der tatsächlich hält. Hier ist der ganze Ablauf, von Anfang bis Ende."
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-sms-code",
+      "text": "Einen Code mit SMS Code empfangen, Schritt für Schritt"
+    },
+    {
+      "type": "p",
+      "text": "Du brauchst die App SMS Code und das Registrierungsformular nebeneinander. Der Ablauf ist derselbe, ob der Dienst Telegram, ein Marktplatz oder etwas anderes auf der Liste ist – ein paar Minuten von Anfang bis Ende."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Dienst und Land wählen",
+          "body": "Wähle in SMS Code, was du bestätigst – Telegram, WhatsApp, Google, über 100 Dienste – und aus welchem Land die Nummer kommen soll. Nummern gibt es in über 100 Ländern; ein Tippen reserviert eine nur für dich."
+        },
+        {
+          "title": "Die Nummer ins Registrierungsformular eingeben",
+          "body": "Tippe die gemietete Nummer in den Bestätigungsbildschirm des Dienstes und achte darauf, dass die Ländervorwahl passt. Eine falsch eingestellte Länderauswahl ist der häufigste Grund, warum ein Code nie ankommt."
+        },
+        {
+          "title": "Den Code in der App lesen",
+          "body": "Die SMS landet meist innerhalb von Sekunden in SMS Code, und der Aktivierungsbildschirm aktualisiert sich live. Ein Tippen kopiert den Code, füge ihn ins Formular ein, und die Bestätigung ist erledigt."
+        },
+        {
+          "title": "Das Konto richtig absichern",
+          "body": "Setz ein starkes Passwort, füge eine Wiederherstellungs-E-Mail hinzu, die du kontrollierst, und aktiviere eine Zwei-Faktor-Authentifizierung, die nicht auf SMS beruht. Danach steht das Konto auf eigenen Füßen – die gemietete Nummer hat ihren Zweck erfüllt."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-number-is-the-wrong-tool",
+      "text": "Wann eine virtuelle Nummer das falsche Werkzeug ist"
+    },
+    {
+      "type": "p",
+      "text": "Ein ehrlicher Leitfaden muss diese Grenze ziehen, denn dieselbe Eigenschaft, die eine gemietete Nummer für Registrierungen so gut macht – sie ist temporär –, macht sie falsch für alles, was die Nummer über Jahre hinweg immer wieder prüft."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Banken, Broker und Zahlungsdienste. Finanzkonten bestätigen ständig per SMS neu – bei jedem neuen Gerät, jeder großen Überweisung. Sie gleichen Nummern außerdem mit deiner registrierten Identität ab. Nutze eine Nummer, die du langfristig behältst, Punkt.",
+        "Behördenportale und alles, was an deine rechtliche Identität gebunden ist. Finanzämter, Gesundheitssysteme und E-Government-Logins gehen davon aus, dass die Nummer für die Lebensdauer des Kontos deine bleibt.",
+        "Jedes Konto, bei dem die Telefonnummer der einzige Wiederherstellungsweg ist. Verlierst du das Passwort und der einzige Reset-Weg des Dienstes ist eine SMS, bedeutet eine Nummer, die du nicht mehr mietest, ein Konto, das dir nicht mehr gehört. Füge sofort eine Wiederherstellung per E-Mail hinzu, oder nutze dort keine temporäre Nummer."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Die Faustregel: Eine virtuelle Nummer ist für den Moment der Bestätigung da, nicht für die Lebensdauer des Kontos. Muss ein Dienst diese Nummer in einem Jahr wieder erreichen, gib ihm eine Nummer, die in einem Jahr noch deine ist. Für alles andere – Messenger, soziale Netzwerke, Shops, Testphasen – ist der Moment alles, was es gibt."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Häufige Fragen"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Ist es legal, SMS auf einer virtuellen Nummer zu empfangen?",
+          "a": "Ja. Eine Nummer zu mieten und darauf Nachrichten zu empfangen, ist ein gewöhnlicher Telekommunikationsdienst, der routinemäßig für Datenschutz, Qualitätssicherung und Entwicklung genutzt wird. Rechtlich zählt, was du danach mit dem Konto machst – die Bedingungen des Dienstes, bei dem du dich registrierst, gelten wie gewohnt."
+        },
+        {
+          "q": "Warum werden kostenlose Online-Nummern immer wieder abgelehnt?",
+          "a": "Weil sie geteilt werden. Tausende Leute haben dieselbe Nummer vor dir benutzt, Dienste sperren sie also entweder direkt oder melden sie als bereits registriert. Eine gemietete Nummer ist während der Aktivierung nur für dich reserviert – genau der Unterschied, den der Spamfilter des Dienstes prüft."
+        },
+        {
+          "q": "Funktioniert mein Konto weiter, wenn die Miete endet?",
+          "a": "Ja, solange das Konto für die Wiederherstellung nicht von dieser Nummer abhängt. Die Nummer wird bei der Bestätigung geprüft; danach lebt das Konto von seinem Passwort, seiner E-Mail und aktiven Sitzungen. Richte diese ordentlich ein, dann berührt nichts an der alltäglichen Nutzung die alte Nummer."
+        },
+        {
+          "q": "Kann ich auf der Nummer auch Anrufe empfangen?",
+          "a": "Nein – Nummern von SMS Code empfangen nur Textnachrichten. Besteht ein Dienst auf einem Sprachanruf als einziger Bestätigungsmethode, kann eine virtuelle SMS-Nummer diesen Ablauf nicht abschließen."
+        },
+        {
+          "q": "Was kostet das?",
+          "a": "Du kaufst in der App ein einmaliges Münzpaket und gibst Münzen pro Aktivierung aus – ab 20, je nach Dienst und Land, mit dem genauen Preis vor der Bestätigung. Es gibt kein Abo, Münzen verfallen nicht, und kommt ein Code nie an, wird die Aktivierung kostenlos abgebrochen und die Münzen kommen zurück."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

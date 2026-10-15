@@ -1,0 +1,154 @@
+{
+  "title": "eSIM oder virtuelle Nummer: Was brauchst du wirklich?",
+  "description": "Sie klingen ähnlich und stehen nebeneinander im Regal, doch eSIM und virtuelle Nummer lösen verschiedene Probleme. Ein klarer Leitfaden zur richtigen Wahl.",
+  "excerpt": "Das eine ist ein Mobilfunktarif in deinem Handy, das andere eine Nummer, die du für einen Bestätigungscode mietest. Sie zu verwechseln kostet echtes Geld – so erkennst du, was dein Problem braucht.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "„Brauche ich eine eSIM oder eine virtuelle Nummer?“ ist eine dieser Fragen, hinter denen meist ein konkretes Problem steckt – eine Reise nächste Woche, ein Registrierungsformular, das eine Telefonnummer verlangt –, und das Internet antwortet mit Werbung für beides. Die beiden Produkte klingen ähnlich, stehen in ähnlichen Kategorien im App Store und werden regelmäßig von denselben Firmen verkauft. Sie sind nicht dasselbe."
+    },
+    {
+      "type": "p",
+      "text": "Sie zu verwechseln ist nicht nur ein sprachlicher Ausrutscher; es kostet Geld. Leute kaufen eine Reise-eSIM in der Erwartung, darauf Bestätigungs-SMS zu empfangen, und stellen mitten auf der Reise fest – genau in dem Moment, in dem eine Bank oder ein Messenger einen Code will –, dass ihre eSIM überhaupt keine SMS empfangen kann. Andere mieten Monat für Monat virtuelle Nummern, obwohl sie nur mobile Daten wollten."
+    },
+    {
+      "type": "p",
+      "text": "Dieser Leitfaden zieht die Grenze klar: was jedes davon wirklich ist, ein direkter Vergleich, eine Entscheidungsregel für zehn Sekunden und die Grenzfälle, in denen sich die beiden Welten tatsächlich überschneiden."
+    },
+    {
+      "type": "h2",
+      "id": "two-different-tools",
+      "text": "Zwei verschiedene Werkzeuge, die zufällig im selben Regal stehen"
+    },
+    {
+      "type": "p",
+      "text": "Eine eSIM ist ein echter Mobilfunktarif, der in dein Gerät eingebettet ist. Sie ist dasselbe wie die Plastik-SIM-Karte in deinem Fach, nur ohne Plastik: ein Profil, das in die Hardware deines Handys geladen wird und es mit einem Mobilfunknetz verbindet. Damit kommen die Dinge, die eine Netzverbindung liefert – vor allem mobile Daten und je nach Tarif Anrufe und SMS. Du installierst sie in den Einstellungen deines Handys, und dein Handy ist es, das sie trägt."
+    },
+    {
+      "type": "p",
+      "text": "Eine virtuelle Nummer ist eine Nummer, die du mietest, um SMS zu empfangen, und sie berührt die Hardware deines Geräts nie. Die Nummer lebt beim Anbieter; eingehende Nachrichten erscheinen in einer App. Nichts wird in deinen Einstellungen installiert, kein Netzprofil ändert sich, deine bestehende SIM und dein Datentarif sind nicht beteiligt. Du nutzt sie für den Moment, in dem ein Dienst dir einen Code schicken will – und das ist ihre ganze Aufgabe."
+    },
+    {
+      "type": "p",
+      "text": "Kurz gesagt: Eine eSIM verbindet dein Gerät mit einem Netz. Eine virtuelle Nummer empfängt eine Nachricht für dich. Das eine ist Infrastruktur, das andere eine Besorgung."
+    },
+    {
+      "type": "h2",
+      "id": "side-by-side",
+      "text": "Im direkten Vergleich"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Kostenmodell – eine eSIM ist ein Tarif: Du bezahlst ein Datenpaket (und manchmal Minuten/SMS), das Tage oder Wochen läuft. Eine virtuelle Nummer wird pro Nutzung bezahlt: eine Aktivierung, ein empfangener Code, bezahlt aus einem Münzpaket. Für einen einzigen Bestätigungscode ist ein Tarif überdimensioniert; für zwei Wochen Karten und Messenger im Ausland hat ein Preis pro SMS völlig die falsche Form.",
+        "Einrichtung – eine eSIM wird ins Handy eingespielt: QR-Code oder App, eine neue Leitung erscheint in deinen Mobilfunkeinstellungen, und dein Gerät muss eSIM überhaupt unterstützen. Eine virtuelle Nummer braucht keine Einrichtung: App öffnen, Dienst und Land wählen, die Nummer steht meist innerhalb von Sekunden auf dem Bildschirm.",
+        "Was du bekommst – eine eSIM liefert Konnektivität: Daten, eine Netzanzeige, oft eine Telefonleitung. Eine virtuelle Nummer liefert genau eine Fähigkeit: die an sie gesendete SMS zu empfangen und in der App anzuzeigen.",
+        "Wie lange du sie behältst – eine eSIM hält, solange der Tarif läuft, und eine lokale lässt sich unbegrenzt aufladen. Eine virtuelle Nummer wird für ein Aktivierungsfenster gemietet – lang genug für einen Registrierungscode, nicht gedacht, um jahrelang deine Nummer zu sein.",
+        "Wofür sie da ist – eSIM: im Ausland online sein, eine Datenleitung für ein Tablet, ein lokaler Tarif, ohne einen SIM-Kiosk zu suchen. Virtuelle Nummer: deine private Nummer aus Registrierungen heraushalten, ein zweites Konto bestätigen, einen Code empfangen, ohne einen ganzen Tarif zu kaufen."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "which-one-do-you-need",
+      "text": "Die Entscheidungsregel für zehn Sekunden"
+    },
+    {
+      "type": "p",
+      "text": "Fast jede echte Situation löst sich mit drei Fragen:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Brauchst du Internet auf deinem Gerät – Reisedaten, ein verbundenes Tablet, eine Ersatzleitung? Das ist Konnektivität. Hol dir eine eSIM; eine virtuelle Nummer kann dein Handy nicht online bringen, Punkt.",
+        "Musst du einen Bestätigungscode empfangen – für Telegram, WhatsApp, Google, einen Marktplatz –, ohne deine private Nummer herauszugeben? Das ist eine SMS, die eine Aufgabe erledigt. Miete eine virtuelle Nummer; einen Mobilfunktarif zu kaufen, um eine einzige SMS zu empfangen, heißt, einen Lastwagen für einen Briefumschlag zu bezahlen.",
+        "Brauchst du eine langfristige zweite Leitung – eine Nummer, die du Kunden gibst und unter der du jahrelang Anrufe annimmst? Dann brauchst du wirklich einen Telefontarif (eSIM oder Plastik). Eine gemietete virtuelle Nummer ist nicht dafür gebaut, deine dauerhafte Identität zu sein – und ehrliche Anbieter sagen das auch."
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "the-data-only-esim-trap",
+      "text": "Die Falle: eSIMs nur für Daten und Bestätigungscodes"
+    },
+    {
+      "type": "p",
+      "text": "Hier ist der Grenzfall, der die meisten erwischt. Die Mehrheit der günstigen Reise-eSIMs ist reine Daten-eSIM: Sie verbindet dich mit dem Internet, kommt aber ganz ohne Telefonnummer – es gibt nichts, an das eine SMS adressiert werden könnte. Die Produktseite sagt es deutlich, aber zwischen den Gigabyte-Angaben übersieht man es leicht."
+    },
+    {
+      "type": "p",
+      "text": "Das Scheitern passiert unterwegs: Du landest, deine Reise-eSIM funktioniert wunderbar, dann will deine Bank – oder Telegram nach einer Neuinstallation – einen Code schicken, um zu bestätigen, dass du es bist. Der Code geht an deine SIM von zu Hause, die entweder nicht im Handy steckt oder zu schmerzhaften Preisen roamt. Die reine Daten-eSIM, die du tatsächlich nutzt, kann ihn nicht empfangen, weil es keine Nummer gibt, auf der er ankommen könnte."
+    },
+    {
+      "type": "callout",
+      "text": "Die Kombination, die funktioniert: eine reine Daten-eSIM fürs Internet, dazu deine SIM von zu Hause aktiv gehalten für die Dienste, die schon an ihr hängen – und eine virtuelle Nummer für neue Registrierungen, die du ohnehin nicht auf deiner privaten Nummer haben willst. Jedes Werkzeug tut das eine, wofür es tatsächlich gebaut ist."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-number-step-by-step",
+      "text": "Wenn deine Antwort „nur ein Code“ lautet: der Weg über die virtuelle Nummer"
+    },
+    {
+      "type": "p",
+      "text": "Für das Szenario mit dem Bestätigungscode ist das hier der ganze Ablauf – er dauert etwa eine Minute:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Dienst und Land wählen",
+          "body": "Wähle in der App SMS Code, was du bestätigst – Telegram, WhatsApp, Google, über 100 Dienste – und aus welchem Land die Nummer kommen soll. Ein Tippen reserviert eine echte Mobilnummer für dich."
+        },
+        {
+          "title": "Die Nummer bei der Registrierung nutzen",
+          "body": "Tippe sie wie jede Telefonnummer mit der passenden Ländervorwahl ins Bestätigungsformular. Der Dienst sendet seine SMS wie gewohnt – es ist eine echte Nummer in einem echten Mobilfunknetz."
+        },
+        {
+          "title": "Den Code in der App lesen",
+          "body": "Die SMS erscheint meist innerhalb von Sekunden auf dem Aktivierungsbildschirm. Kopiere den Code, schließ die Registrierung ab. Kommt nie ein Code an, brich die Aktivierung kostenlos ab und nimm eine andere Nummer – du zahlst nur für zugestellte Codes."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Keine Profile installiert, kein Tarif gestartet, nichts, was du später kündigen musst. Diese ungleiche Verbindlichkeit ist eigentlich der ganze Vergleich im Kleinen: Eine eSIM richtest du ein und lebst mit ihr; eine virtuelle Nummer nutzt du und bist fertig."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Häufige Fragen"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Kann eine Reise-eSIM Bestätigungs-SMS empfangen?",
+          "a": "Nur, wenn sie mit einer Telefonnummer kommt – und die meisten günstigen Reise-eSIMs sind reine Daten-eSIMs, also keine Nummer und niemals SMS. Prüfe die Produktseite auf „Sprache und SMS“, bevor du dich für Codes auf eine verlässt. Ist sie nur für Daten, deckt eine virtuelle Nummer die Bestätigungsseite ab."
+        },
+        {
+          "q": "Ist eine virtuelle Nummer eine SIM-Karte?",
+          "a": "Nein. In deinem Gerät wird nichts installiert – kein Plastik, kein eSIM-Profil, keine Änderung an deinen Mobilfunkeinstellungen. Die Nummer existiert im Netz des Anbieters, und die Nachrichten, die sie empfängt, werden dir in der App angezeigt. Deine eigene SIM spielt dabei keine Rolle – die Nummer hängt überhaupt nicht von deinem Netzbetreiber ab. Du brauchst aber eine Internetverbindung auf deinem Handy, über WLAN oder mobile Daten, damit die App dir den Code zeigen kann."
+        },
+        {
+          "q": "Kann ich eine virtuelle Nummer für immer behalten?",
+          "a": "Gemietete Aktivierungsnummern sind dafür nicht gedacht – du hältst die Nummer für das Aktivierungsfenster, lang genug, um den Code zu empfangen. Konten, die du bestätigt hast, funktionieren danach weiter (bleib angemeldet und richte die Kontowiederherstellung ein), aber brauchst du eine Nummer, die du jahrelang veröffentlichst und unter der du erreichbar bist, ist das ein Problem für einen Telefontarif, nicht für eine virtuelle Nummer."
+        },
+        {
+          "q": "Was ist günstiger, um einen einzelnen Code zu empfangen?",
+          "a": "Mit großem Abstand eine virtuelle Nummer. Es ist eine Aktivierung aus einem einmaligen Münzpaket, bepreist für genau diese Aufgabe. Selbst der günstigste eSIM-Tarif verkauft dir Tage an Dienst und Gigabytes an Daten, die du für eine SMS nicht brauchst."
+        },
+        {
+          "q": "Brauche ich jemals beides gleichzeitig?",
+          "a": "Reisen ist der klassische Fall: Eine reine Daten-eSIM hält dich online, und eine virtuelle Nummer kümmert sich unterwegs um neue Registrierungen – während deine SIM von zu Hause den Konten vorbehalten bleibt, die schon an ihr hängen. Sie konkurrieren nicht; sie decken verschiedene Schwachstellen ab."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

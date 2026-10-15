@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Google — Tạo Gmail không cần SIM của bạn",
+  "metaDescription": "Xác minh tài khoản Google mới bằng số ảo thật. Nhận mã G thường chỉ trong vài giây và tạo Gmail mà không cần số điện thoại cá nhân của bạn.",
+  "hero": {
+    "title": "Số ảo cho Google",
+    "intro": [
+      "Tạo tài khoản Google lẽ ra chỉ mất một phút — cho đến khi biểu mẫu đăng ký hỏi số điện thoại. Google quyết định linh hoạt có yêu cầu xác minh hay không, và khi đã yêu cầu, không có cách nào vượt qua màn hình đó mà không nhận một SMS thật. Mã đến từ “Google” và có dạng “G-482915”.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia, nhập nó trên màn hình xác minh của Google, và mã G hiện trong ứng dụng thường chỉ trong vài giây. Gmail mới của bạn được tạo — và số cá nhân của bạn đứng ngoài."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Google?",
+    "body": [
+      "Số bạn dùng để xác minh không chỉ mở khóa đăng ký — theo mặc định, Google còn lưu nó làm phương thức khôi phục và kênh 2FA, lặng lẽ nối tài khoản mới với điện thoại cá nhân của bạn. Nếu mục đích của tài khoản là tách biệt — một Gmail cho một dự án, một tài khoản thử nghiệm lập trình, một địa chỉ đăng ký nhận bản tin — thì xác minh bằng SIM của chính mình phá hỏng điều đó trước khi bạn gửi email đầu tiên. Số ảo giữ danh tính mới thực sự tách biệt.",
+      "Cũng có một giới hạn thực tế: Google giới hạn số tài khoản mà một số điện thoại có thể xác minh. Nếu số của bạn đã bảo lãnh cho một hai Gmail, nó có thể đơn giản là không còn dùng được cho tài khoản mới. Số ảo mới không mang lịch sử đó, nên việc xác minh thành công ngay lần đầu."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh tài khoản Google bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Google làm dịch vụ và chọn quốc gia — Mỹ, Anh hoặc Đức là lựa chọn phổ biến. Một chạm giữ một số di động thật chỉ dành cho bạn."
+      },
+      {
+        "title": "Nhập số trên màn hình xác minh của Google",
+        "body": "Bắt đầu đăng ký tại accounts.google.com và điền thông tin cơ bản. Khi Google yêu cầu xác minh số điện thoại, chọn quốc gia của số và nhập chính xác — sai mã quốc gia là lý do phổ biến nhất khiến SMS không bao giờ đến."
+      },
+      {
+        "title": "Nhập mã G",
+        "body": "SMS đến ứng dụng SMS Code thường chỉ trong vài giây với nội dung “G-482915 is your Google verification code.” Nhập sáu chữ số (bỏ tiền tố “G-” nếu ô của Google chỉ nhận chữ số) và tài khoản được tạo."
+      },
+      {
+        "title": "Gỡ tài khoản khỏi số đã thuê",
+        "body": "Ngay sau khi đăng nhập, mở Tài khoản Google → Bảo mật. Xóa hoặc thay số điện thoại trong mục tùy chọn khôi phục, thêm ứng dụng xác thực và tải mã dự phòng, rồi đặt email khôi phục. Làm đúng, tài khoản sẽ không bao giờ phụ thuộc vào số đã thuê nữa."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "“Không thể dùng số điện thoại này để xác minh”",
+      "body": "Google chủ động lọc những số nó cho là VoIP hoặc đã bị dùng quá nhiều, và từ chối chúng bằng đúng thông báo này. Chuyện đó xảy ra; đừng cố chấp. Hãy hủy lần kích hoạt đang chờ trong SMS Code — số không nhận được gì thì không tốn phí — và thử số mới, tốt nhất từ quốc gia khác."
+    },
+    {
+      "title": "Đừng để số làm phương thức khôi phục",
+      "body": "Google tự động lưu số đã xác minh làm phương thức khôi phục tài khoản và kênh 2FA. Với SIM trong túi thì ổn, với số thuê thì không. Hãy thay nó trong Tài khoản Google → Bảo mật ngay sau khi đăng ký: ứng dụng xác thực cùng mã dự phòng và email khôi phục bao quát mọi tình huống mà SMS bao quát."
+    },
+    {
+      "title": "Một số, giới hạn tài khoản",
+      "body": "Google giới hạn số tài khoản một số điện thoại có thể xác minh trong suốt vòng đời của nó — và tính cả những ai đã dùng số đó trước bạn. Nếu mã đến mà Google vẫn từ chối số, có lẽ nó đã chạm giới hạn đó. Một số mới từ SMS Code bắt đầu đếm từ lần kích hoạt của bạn."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Google có luôn hỏi số điện thoại khi đăng ký không?",
+      "a": "Không — Google quyết định theo từng trường hợp, dựa trên các tín hiệu như IP, thiết bị và cách lần đăng ký trông như thế nào với hệ thống rủi ro của họ. Nhiều lần đăng ký bỏ qua hẳn bước điện thoại; nhiều lần khác không thể tiếp tục nếu thiếu nó. Nếu biểu mẫu của bạn đòi số, số ảo đáp ứng giống hệt một chiếc SIM."
+    },
+    {
+      "q": "Gmail có còn hoạt động sau khi số đã thuê hết hạn không?",
+      "a": "Có. Google kiểm tra số một lần, khi xác minh. Tài khoản không phụ thuộc vào việc số còn hoạt động — đặc biệt nếu bạn làm theo bước bốn và thay nó bằng ứng dụng xác thực, mã dự phòng và email khôi phục. Sau đó, không gì trong tài khoản phụ thuộc vào số đã thuê."
+    },
+    {
+      "q": "Google nói số không thể dùng để xác minh. Giờ sao?",
+      "a": "Đó là bộ lọc của Google cho những số nó nghi là VoIP hoặc đã liên kết với quá nhiều tài khoản. Hãy hủy lần kích hoạt trong SMS Code — xu của số không nhận được gì được hoàn vào số dư — và lấy số mới. Đổi sang quốc gia khác thường cho dải số sạch hơn."
+    },
+    {
+      "q": "Tôi có thể tạo nhiều hơn một tài khoản Google theo cách này không?",
+      "a": "Mỗi tài khoản cần xác minh riêng, và Google giới hạn số tài khoản một số có thể bảo lãnh — nên hãy dùng số mới cho mỗi tài khoản thay vì dùng lại một số. Hãy giữ trong khuôn khổ điều khoản dịch vụ của Google: tài khoản riêng cho một dự án, hộp thư nhóm hay để thử nghiệm là sử dụng bình thường."
+    },
+    {
+      "q": "Điều gì xảy ra nếu sau này Google yêu cầu xác minh lại số?",
+      "a": "Lời nhắc xác minh lại thường xuất hiện khi Google nghi ngờ một lần đăng nhập — thiết bị mới, vị trí lạ. Nếu bạn đã thay số thuê bằng ứng dụng xác thực, mã dự phòng và email khôi phục, bạn có thể vượt qua các bước đó mà không cần SMS nào. Đó chính là lý do chúng tôi khuyên làm việc này ngay ngày đầu."
+    }
+  ]
+}

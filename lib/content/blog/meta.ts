@@ -2,6 +2,48 @@ import type { BlogPostMeta } from "./types";
 
 export const BLOG_META: BlogPostMeta[] = [
   {
+    slug: "indian-virtual-number-guide",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    relatedServiceSlugs: ["whatsapp", "telegram", "google"],
+    tags: ["countries", "guide"],
+  },
+  {
+    slug: "brazilian-virtual-number-guide",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    relatedServiceSlugs: ["whatsapp", "telegram", "instagram"],
+    tags: ["countries", "guide"],
+  },
+  {
+    slug: "indonesian-virtual-number-guide",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    relatedServiceSlugs: ["shopee", "grab", "whatsapp"],
+    tags: ["countries", "guide"],
+  },
+  {
+    slug: "why-apps-reject-voip-numbers",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    relatedServiceSlugs: ["whatsapp", "google", "paypal"],
+    tags: ["basics", "security"],
+  },
+  {
+    slug: "recycled-phone-numbers-risk",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    relatedServiceSlugs: ["google", "telegram", "whatsapp"],
+    tags: ["security", "privacy"],
+  },
+  {
+    slug: "is-a-virtual-number-legal",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    relatedServiceSlugs: ["telegram", "whatsapp", "google"],
+    tags: ["basics", "privacy"],
+  },
+  {
     slug: "how-to-receive-sms-online",
     publishedAt: "2026-07-07",
     updatedAt: "2026-07-07",

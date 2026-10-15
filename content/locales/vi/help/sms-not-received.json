@@ -1,0 +1,30 @@
+{
+  "title": "Không nhận được SMS: vì sao và nên làm gì",
+  "metaDescription": "Vì sao SMS xác minh đôi khi không đến số ảo, xu được hoàn tự động thế nào, và quốc gia nào đang giao tin tốt nhất cho từng dịch vụ.",
+  "sections": [
+    {
+      "title": "Bạn không mất xu khi không có SMS",
+      "paragraphs": [
+        "Nếu không có SMS nào đến, bạn có thể hủy hai phút sau khi được cấp số và xu được hoàn vào số dư. Nếu bạn chờ, lần kích hoạt đóng lại khi hết thời hạn 15 phút và xu được hoàn tự động. Bạn không cần liên hệ chúng tôi trong cả hai trường hợp."
+      ]
+    },
+    {
+      "title": "Vì sao SMS không đến",
+      "paragraphs": [
+        "**Dịch vụ quyết định.** Mỗi dịch vụ chạy các bước kiểm tra gian lận riêng. Một số từ chối hoặc âm thầm bỏ SMS gửi tới số ảo từ một số quốc gia, hoặc giới hạn số tài khoản một dải số có thể mở.",
+        "**Quốc gia và nhà mạng có ảnh hưởng.** Cùng một dịch vụ có thể giao tin ổn định ở quốc gia này và kém ở quốc gia khác. Điều đó cũng thay đổi theo thời gian khi các dịch vụ cập nhật bộ lọc.",
+        "**Mã có thể không được gửi qua SMS.** Một số dịch vụ gửi mã đầu tiên qua cuộc gọi thoại, email hoặc tới ứng dụng bạn đã đăng nhập. Hãy tìm tùy chọn “gửi qua SMS”.",
+        "**Giới hạn gửi lại.** Yêu cầu mã nhiều lần có thể kích hoạt thời gian chờ phía dịch vụ. Hãy đợi một phút trước khi yêu cầu lại."
+      ]
+    },
+    {
+      "title": "Nên làm gì",
+      "steps": [
+        "Kiểm tra bạn đã nhập số với đúng mã quốc gia và chọn đúng dịch vụ trong ứng dụng.",
+        "Chờ tối đa hai phút, rồi hủy. Xu được hoàn vào số dư.",
+        "Thử quốc gia khác cho cùng dịch vụ. Dùng công cụ tra cứu bên dưới để chọn quốc gia nơi SMS đang đến tốt ngay lúc này.",
+        "Nếu nhiều quốc gia đều thất bại với cùng một dịch vụ, có lẽ dịch vụ đang chặn số ảo vào lúc này. Hãy thử lại sau."
+      ]
+    }
+  ]
+}

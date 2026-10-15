@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Twitch — Chat und 2FA privat bestätigen",
+  "metaDescription": "Empfange den SMS-Code von Twitch meist in Sekunden auf einer echten virtuellen Nummer. Telefon-Chat und 2FA einrichten, ohne Nummer am Kanal.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Twitch",
+    "intro": [
+      "Twitch lässt dich nur mit einer E-Mail registrieren – und dann verfolgt dich der Telefonschritt. Streamer stellen ihren Chat auf telefonbestätigten Modus, um Bots fernzuhalten, Zwei-Faktor-Authentifizierung ist Pflicht, bevor du live gehen kannst, und sobald eines davon passiert, will Twitch einen Code wie „Your Twitch verification code is 843921“ an eine Nummer von dir senden.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, und der Code landet meist innerhalb von Sekunden in der App. Deine Chatnachrichten gehen raus, deine 2FA ist aktiv – und die Telefonnummer neben deinem Kanalnamen in der Datenbank von Twitch war nie deine private."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Twitch?",
+    "body": [
+      "Twitch ist eine öffentliche Identität, wie es die meisten Konten nicht sind: Dein Benutzername steht auf dem Bildschirm, dein Chatverlauf ist öffentlich, und wenn du streamst, recherchieren Fremde aktiv über dich. Diese Identität an deine private Mobilnummer zu binden, heißt, dass nur ein Datenleck oder ein unbedachter Streit mit einem Moderator zwischen einem Internetpublikum und dem Telefon in deiner Tasche steht. Eine gemietete Nummer fängt den Bestätigungsschritt ab, sodass öffentliche Persona und private Nummer sich nie berühren.",
+      "Die ehrliche Kehrseite: Das Telefon in einem Twitch Konto ist keine Dekoration. Der telefonbestätigte Chat prüft es, und SMS-basierte 2FA hängt davon ab. Deshalb ist das vernünftige Muster: mit einer gemieteten Nummer bestätigen und die 2FA dann sofort in den Sicherheitseinstellungen auf eine Authenticator-App umstellen – Twitch unterstützt das und bevorzugt es sogar. Die Nummer erledigt ihre eine Aufgabe im Moment der Bestätigung; dein langfristiger Login hängt nie von ihr ab."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du Twitch mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code mieten",
+        "body": "Wähle Twitch als Dienst und such dir ein Land aus – eines, das zu deinem tatsächlichen Ort zum Zuschauen oder Streamen passt, hält alles stimmig. Ein Tippen reserviert eine echte Mobilnummer für dich."
+      },
+      {
+        "title": "In den Sicherheitseinstellungen von Twitch hinzufügen",
+        "body": "Wähle unter Einstellungen → Sicherheit und Datenschutz, eine Telefonnummer hinzuzufügen (oder folge der Abfrage, wenn der telefonbestätigte Chat eines Kanals danach fragt). Wähle die Ländervorwahl der Nummer und gib sie exakt ein."
+      },
+      {
+        "title": "Code eintippen",
+        "body": "Die SMS lautet „Your Twitch verification code is 843921“ und erscheint meist innerhalb von Sekunden in der App SMS Code. Gib sie bei Twitch ein, und die Nummer ist bestätigt."
+      },
+      {
+        "title": "2FA auf eine Authenticator-App umstellen",
+        "body": "Hast du die Zwei-Faktor-Authentifizierung fürs Streamen aktiviert, stell sie im selben Einstellungsbildschirm sofort von SMS auf eine Authenticator-App um. Danach hat die gemietete Nummer keine laufende Rolle mehr – deine Logins und Streams hängen nicht von ihr ab."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Eine Nummer, ein Konto",
+      "body": "Twitch verknüpft Konten, die sich eine Telefonnummer teilen – und wenn eines davon gesperrt wird, können die anderen mit derselben Nummer mit untergehen. Gib jedem Konto eine eigene Aktivierung, statt eine Nummer über mehrere hinweg wiederzuverwenden."
+    },
+    {
+      "title": "Telefonbestätigter Chat gilt pro Kanal",
+      "body": "Oft schaust du monatelang Twitch ohne Telefonabfrage und landest dann bei einem großen Kanal, dessen Chat eine verlangt. Einmal bestätigt, gilt es überall – erledige es also nach deinem Zeitplan, nicht mitten im Hype, wenn der Chat, dem du beitreten wolltest, schon weiterzieht."
+    },
+    {
+      "title": "Eine Nummer hebt keine Sperre auf",
+      "body": "Kanalsperren und Sperren für die ganze Plattform setzt Twitch über eigene Signale durch, nicht nur über dein Telefon. Eine virtuelle Nummer hält deine private Nummer privat – sie ist kein Werkzeug zur Umgehung von Sperren, und Sperren zu umgehen verstößt gegen die Bedingungen von Twitch und führt meist dazu, dass jedes verknüpfte Konto markiert wird."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Braucht Twitch zur Registrierung eine Telefonnummer?",
+      "a": "Nein – die Registrierung funktioniert allein mit E-Mail. Das Telefon kommt später: wenn der Chat eines Kanals eine Telefonbestätigung verlangt, wenn du SMS-Zwei-Faktor-Authentifizierung aktivierst oder bevor du zu streamen beginnst. Kommt einer dieser Momente, empfängt eine virtuelle Nummer den Code genau wie eine SIM."
+    },
+    {
+      "q": "Funktioniert mein Twitch Konto weiter, wenn die gemietete Nummer abläuft?",
+      "a": "Ja. Die Nummer wird bei der Bestätigung geprüft, nicht laufend. Halte deine E-Mail bestätigt, nutze ein starkes Passwort und stell die 2FA auf eine Authenticator-App um – danach hängt an deinem Login nichts mehr von der gemieteten Nummer ab."
+    },
+    {
+      "q": "Kann ich mehrere Twitch Konten mit einer virtuellen Nummer bestätigen?",
+      "a": "Du kannst, solltest es aber nicht. Twitch betrachtet eine gemeinsame Telefonnummer als Verbindung zwischen Konten, und Maßnahmen können sich über sie ausbreiten. Miete für jedes Konto, das für sich stehen soll, eine eigene Aktivierung."
+    },
+    {
+      "q": "Brauche ich eine Telefonbestätigung, um auf Twitch zu streamen?",
+      "a": "Zum Streamen muss die Zwei-Faktor-Authentifizierung aktiv sein, und ihre Einrichtung beginnt mit einem Telefon. Bestätige mit der gemieteten Nummer und stell den zweiten Faktor dann auf eine Authenticator-App um, damit künftige Logins nie auf eine SMS warten."
+    },
+    {
+      "q": "Warum ist der Twitch Code nicht angekommen?",
+      "a": "Prüfe, ob die Ländervorwahl zur gemieteten Nummer passt, und gib ihm einen Moment – Codes kommen meist innerhalb von Sekunden. Kommt nichts, brich die Aktivierung in SMS Code kostenlos ab und nimm eine neue Nummer; du zahlst nur für Aktivierungen, die zustellen."
+    }
+  ]
+}

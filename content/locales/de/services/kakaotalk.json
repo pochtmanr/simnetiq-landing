@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für KakaoTalk — ohne eigenes Handy",
+  "metaDescription": "Empfange den Code von KakaoTalk meist in Sekunden auf einer echten virtuellen Nummer. Nutze Koreas wichtigsten Messenger ohne dein privates Handy.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für KakaoTalk",
+    "intro": [
+      "Über KakaoTalk spricht Korea – Gruppenchats, Familienrunden, geschäftliche Kontakte –, und wie jeder ernsthafte Messenger beginnt es mit einem Telefonbildschirm. Die Registrierung sendet einen kurzen Code wie „[KakaoTalk] 4829 is your verification code“, und einen Weg nur per E-Mail daran vorbei gibt es nicht.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, und der Code erscheint meist innerhalb von Sekunden in der App. Du kommst ins Gespräch – und die koreanischen Freunde, Kollegen oder Schwiegereltern, die dort warten, brauchen nie deine private Nummer, um dich zu erreichen."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für KakaoTalk?",
+    "body": [
+      "Messenger, die auf Telefonnummern aufbauen, teilen eine stille Voreinstellung: Wer deine Nummer gespeichert hat, kann dein Profil finden, und wer mit dir chattet, ist nur eine Einstellung davon entfernt. Für einen Sprachaustausch, einen Geschäftskontakt oder eine Reise nach Seoul KakaoTalk beizutreten, sollte nicht bedeuten, dass deine lebenslange Nummer in einen weiteren sozialen Graphen gerät. Eine gemietete Nummer übernimmt die Bestätigung, und deine echte bleibt außen vor.",
+      "Die ehrliche Kehrseite: Eine nicht koreanische Nummer bringt dir ein vollwertiges Chatkonto, aber nicht ganz Kakao. Die auf Korea beschränkten Ecken des Ökosystems – Kakao Pay, Zertifikatsdienste, Funktionen, die an Identitätsprüfungen koreanischer Netzbetreiber hängen – erwarten einen koreanischen Mobilfunkvertrag und oft eine Einwohnernummer, und keine gemietete Nummer ersetzt das. Ist Chatten das Ziel, erledigt eine virtuelle Nummer den Job vollständig; sind koreanische Finanzdienste das Ziel, hätte sie nie gereicht."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du KakaoTalk mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code mieten",
+        "body": "Wähle KakaoTalk als Dienst und such dir ein Land aus. Eine Nummer aus dem Land, in dem du tatsächlich lebst, lässt das Konto unauffällig wirken. Ein Tippen reserviert eine echte Mobilnummer für dich."
+      },
+      {
+        "title": "Im Registrierungsbildschirm eingeben",
+        "body": "KakaoTalk fragt direkt nach der Installation nach der Nummer. Wähle die passende Ländervorwahl, tippe die Nummer ein und lass die App die SMS senden."
+      },
+      {
+        "title": "Code eintippen",
+        "body": "Die Nachricht kommt als „[KakaoTalk] 4829 is your verification code“ und erscheint meist innerhalb von Sekunden in SMS Code. Gib sie ein – hakt die SMS, kann KakaoTalk den Code nach einer Wartezeit auch per Sprachanruf vorlesen."
+      },
+      {
+        "title": "Das Konto langfristig einrichten",
+        "body": "Hinterlege in den Einstellungen eine E-Mail und ein Passwort für dein Kakao Konto und notiere sie an einem sicheren Ort. Gerätewechsel und Neuinstallationen stützen sich auf dieses Kakao Konto – es sorgt dafür, dass deine Chats deine bleiben, wenn die gemietete Nummer weg ist."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Chats leben auf dem Gerät, Backups im Konto",
+      "body": "KakaoTalk speichert den Verlauf lokal und stellt ihn über Backups wieder her, die an dein Kakao Konto gebunden sind. Richte E-Mail und Passwort des Kontos sofort ein und mach vor einem Handywechsel ein Backup – die Telefonnummer allein trägt deinen Verlauf nirgendwohin."
+    },
+    {
+      "title": "Achte auf die Auffindbarkeits-Einstellungen",
+      "body": "KakaoTalk kann dich mit jedem verknüpfen, der deine Nummer gespeichert hat – einschließlich des früheren Lebens einer wiederverwendeten Nummer. Schalte in den Einstellungen das automatische Hinzufügen von Freunden über die Telefonnummer aus und teile stattdessen deine KakaoTalk ID – das ist der sauberere Name, unter dem du auftrittst."
+    },
+    {
+      "title": "Korea-exklusive Funktionen hängen an der ID, nicht an der Nummer",
+      "body": "Kakao Pay, Zertifikate und ähnliche Dienste prüfen gegen koreanische Netzbetreiber und das Einwohnermelderegister, nicht nur gegen eine Vorwahl +82. Eine gemietete koreanische Nummer schaltet sie nicht frei – plane mit den Chatfunktionen, die auf jeder bestätigten Nummer vollständig funktionieren."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kann ich mich mit einer nicht koreanischen Nummer bei KakaoTalk registrieren?",
+      "a": "Ja. KakaoTalk registriert Konten auf Nummern aus den meisten Ländern – Registrierung, Chats, Gruppen und Anrufe funktionieren. Darauf aufsetzende koreaspezifische Dienste haben eigene Identitätsprüfungen, die eine Telefonnummer allein nicht erfüllt."
+    },
+    {
+      "q": "Überlebt mein KakaoTalk Konto den Ablauf der gemieteten Nummer?",
+      "a": "Ja, solange du angemeldet bleibst und eine E-Mail und ein Passwort für dein Kakao Konto festlegst. Eine erneute Bestätigung kommt vor allem beim Wechsel auf ein neues Gerät – erledige den Umzug, solange du die Bestätigung noch empfangen kannst, oder stütz dich auf die Zugangsdaten des Kakao Kontos."
+    },
+    {
+      "q": "Warum sagt KakaoTalk, dass die Nummer nicht verwendet werden kann?",
+      "a": "Manche Nummernbereiche und bereits registrierte Nummern werden abgelehnt. Brich die Aktivierung in SMS Code kostenlos ab, nimm eine neue Nummer – aus einem anderen Land, wenn sich das Muster wiederholt – und führe die Bestätigung erneut durch."
+    },
+    {
+      "q": "Können Freunde sehen, welche Nummer ich verwendet habe?",
+      "a": "Kontakte, die die Nummer bereits gespeichert haben, können sie mit deinem Profil abgleichen, wenn das automatische Hinzufügen aktiv ist. Deaktiviere das Hinzufügen über die Nummer, nutze für Vorstellungen deine KakaoTalk ID, und die Nummer bleibt ein Login-Detail statt eines öffentlichen Namens."
+    },
+    {
+      "q": "Funktioniert eine virtuelle Nummer für Kakao Pay oder koreanische Verifizierungsdienste?",
+      "a": "Nein. Diese prüfen koreanische Mobilfunkverträge und die Identität von Einwohnern, die eine gemietete Nummer nicht mitbringt. Eine virtuelle Nummer ist für den Messenger selbst da – Konten, Chats und Anrufe –, nicht für die an Ausweise gebundene Finanzebene Koreas."
+    }
+  ]
+}

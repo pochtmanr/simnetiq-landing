@@ -114,6 +114,33 @@ export const LOCALE_REGISTRY = [
     script: "latin",
     dateLocale: "tr-TR",
   },
+  {
+    code: "de",
+    hreflang: "de",
+    ogLocale: "de_DE",
+    dir: "ltr",
+    nativeName: "Deutsch",
+    script: "latin",
+    dateLocale: "de-DE",
+  },
+  {
+    code: "pl",
+    hreflang: "pl",
+    ogLocale: "pl_PL",
+    dir: "ltr",
+    nativeName: "Polski",
+    script: "latin",
+    dateLocale: "pl-PL",
+  },
+  {
+    code: "uk",
+    hreflang: "uk",
+    ogLocale: "uk_UA",
+    dir: "ltr",
+    nativeName: "Українська",
+    script: "cyrillic",
+    dateLocale: "uk-UA",
+  },
 ] as const satisfies readonly LocaleConfig[];
 
 export type Locale = (typeof LOCALE_REGISTRY)[number]["code"];

@@ -1,0 +1,134 @@
+{
+  "title": "Brazilian Virtual Number (+55): The 9th Digit and Sign-ups",
+  "description": "How Brazilian mobile numbers work — area codes, the extra 9, CPF-linked prepaid lines — and how to receive a verification SMS on a +55 number.",
+  "excerpt": "Brazil added a digit to every mobile number, tied prepaid lines to the CPF and made WhatsApp the national switchboard. What that means for anyone who needs a +55 number for a sign-up.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "In Brazil, the phone number is less a way to call people than a way to reach them on WhatsApp. Shops take orders there, clinics confirm appointments there, and “me chama no zap” — “message me on WhatsApp” — has been everyday speech for a decade. In a 2024 survey by Mobile Time and Opinion Box, nearly half of Brazilian smartphone owners said that if they could keep only one app, it would be WhatsApp."
+    },
+    {
+      "type": "p",
+      "text": "That makes the +55 number unusually valuable as a digital identity. Marketplaces, delivery apps, fintechs and social networks built for the Brazilian market all ask for one at sign-up. And Brazil’s numbering system has quirks that trip up foreigners and form validators alike. Here is how it works, and where a virtual Brazilian number fits."
+    },
+    {
+      "type": "h2",
+      "id": "how-brazilian-numbers-work",
+      "text": "Anatomy of a Brazilian mobile number"
+    },
+    {
+      "type": "p",
+      "text": "A Brazilian mobile number written in full looks like this: +55, then a two-digit area code, then nine digits that always start with 9. In local notation that is (11) 9XXXX-XXXX for São Paulo or (21) 9XXXX-XXXX for Rio de Janeiro."
+    },
+    {
+      "type": "list",
+      "items": [
+        "The area code (DDD) is not optional. Brazil has 67 DDD codes, from 11 in São Paulo to 99 in Maranhão, and mobiles keep them. A number without its DDD is incomplete, and a sign-up form will reject it or send the code nowhere.",
+        "The leading 9 is the mobile marker. Every Brazilian mobile number now has nine digits after the area code, starting with 9; landlines have eight.",
+        "Carrier codes are for calls, not forms. Brazilians dialling long distance insert a two-digit carrier code (15, 21, 31, 41…) before the DDD. That code never belongs in a +55 field."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "the-ninth-digit",
+      "text": "The ninth digit: a four-year national renumbering"
+    },
+    {
+      "type": "p",
+      "text": "Until 2012, Brazilian mobile numbers had eight digits, the same as landlines. São Paulo was running out. The telecom regulator, Anatel, ordered a change that sounds simple and was not: put a 9 in front of every mobile number in the country."
+    },
+    {
+      "type": "p",
+      "text": "The switch began in São Paulo’s 11 area code on 29 July 2012 and rolled out region by region, with each phase given a grace period in which old eight-digit calls were intercepted by a recorded message. The last big phase, covering the southern states of Paraná, Santa Catarina and Rio Grande do Sul, ran from November 2016 into February 2017. By Anatel’s numbers, the extra digit raised capacity to up to 90 million mobile numbers per area code."
+    },
+    {
+      "type": "callout",
+      "text": "Old contact lists, old websites and some older form validators still carry eight-digit mobile numbers. If you see a Brazilian mobile written as (11) 8765-4321, it is out of date — the working number is (11) 98765-4321."
+    },
+    {
+      "type": "h2",
+      "id": "cpf-and-prepaid-lines",
+      "text": "Why Brazilian SIMs are tied to the CPF"
+    },
+    {
+      "type": "p",
+      "text": "Most Brazilians use prepaid lines, and for years activating one required little more than typing in a CPF — the national taxpayer number. That made fraud easy: a stranger’s CPF could put a line in your name. Starting in 2017, Anatel pushed the big four carriers of the time — Vivo, Claro, TIM and Oi — through a state-by-state re-registration drive, in which prepaid customers had to confirm their CPF, full name and postal code or lose the line. Press coverage of the 17-state round reported that fewer than 1 percent of the 91 million prepaid lines in those states had registration problems."
+    },
+    {
+      "type": "p",
+      "text": "The upshot for anyone outside Brazil: buying a local SIM generally means having a CPF. Foreigners can get one, but it is paperwork — a visit to the Receita Federal or a consulate — which is a lot of effort for one verification code."
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-55-number-makes-sense",
+      "text": "When a virtual +55 number makes sense — and when it doesn’t"
+    },
+    {
+      "type": "list",
+      "items": [
+        "It makes sense for one-off verifications: a WhatsApp or Telegram account with a Brazilian identity, a store or marketplace profile aimed at Brazilian customers, a creator account on Instagram or TikTok targeting Brazil, or a test account for an app you are building for that market.",
+        "It does not make sense for Pix, Brazilian banks or gov.br. Those services bind your account to your CPF and to a number registered in your name, and they re-verify. Use a line of your own."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A rented Brazilian number from SMS Code is a real nine-digit mobile with an area code on a Brazilian carrier network. Services see an ordinary +55 subscriber. It stays reserved for you alone during the activation, which is the difference between it and the shared “free Brazilian number” sites that popular services blocked long ago."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-55-number",
+      "text": "Receiving a code on a +55 number"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Pick the service and Brazil",
+          "body": "Open SMS Code, choose the service — WhatsApp, Instagram, TikTok or any of 100+ others — and select Brazil. The activation’s price in coins is shown before you confirm."
+        },
+        {
+          "title": "Enter the number with its area code",
+          "body": "Set the form to Brazil (+55) and enter the area code followed by the nine-digit number exactly as the app shows it — eleven digits in total, no carrier code, no leading 0."
+        },
+        {
+          "title": "Copy the code",
+          "body": "The SMS arrives in the app usually within seconds. If nothing comes, cancel after the two-minute mark — the coins return to your balance when no SMS arrived — and try another Brazilian number."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Frequently asked questions"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How many digits does a Brazilian mobile number have?",
+          "a": "Eleven after +55: a two-digit area code (DDD) plus a nine-digit number starting with 9. In local writing that looks like (21) 98765-4321."
+        },
+        {
+          "q": "Can I create a Brazilian WhatsApp account from abroad?",
+          "a": "Yes. WhatsApp only checks that you can receive the code sent to the number. A virtual +55 number receives it like any Brazilian mobile. Set a WhatsApp PIN and add an email straight away so you are not dependent on the number later."
+        },
+        {
+          "q": "Do I need a CPF to use a virtual Brazilian number?",
+          "a": "No. The CPF requirement applies to buying and registering a SIM from a Brazilian carrier. Renting a number for a verification in SMS Code involves no Brazilian documents."
+        },
+        {
+          "q": "Can I use it for Pix or a Brazilian bank?",
+          "a": "No. Financial services and gov.br link accounts to your CPF and to a number registered in your name, and they re-check it. A temporary number is the wrong tool there."
+        },
+        {
+          "q": "Why was my code never delivered?",
+          "a": "Most often the area code was left out or an extra digit was added. Check the format, wait a minute, and if there is still nothing, cancel and take a fresh number — the coins come back."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

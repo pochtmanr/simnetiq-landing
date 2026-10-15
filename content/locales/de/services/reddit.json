@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Reddit — dein Pseudonym bleibt privat",
+  "metaDescription": "Empfange den Code von Reddit meist in Sekunden auf einer echten virtuellen Nummer. Die Telefonprüfung bestehen, ohne Verbindung zu deiner Identität.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Reddit",
+    "intro": [
+      "Reddit hat seine ganze Kultur auf Benutzernamen statt echten Namen aufgebaut – und fragt dann ab und zu nach der echtesten Kennung, die du besitzt. Die meisten Registrierungen laufen allein per E-Mail, aber bestimmte Abläufe, Netzwerke und Prüfungen wegen „verdächtiger Aktivität“ stellen einen Telefonbildschirm auf, und eine SMS wie „Your Reddit verification code is 617293“ steht zwischen dir und der Startseite.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, und der Code landet meist innerhalb von Sekunden in der App. Die Prüfung ist bestanden, das Konto öffnet sich – und das Pseudonym, unter dem du postest, bleibt unverbunden mit der Nummer, an der überall sonst dein Name hängt."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Reddit?",
+    "body": [
+      "Nirgends untergräbt eine Telefonnummer den Sinn der Plattform so sehr wie bei Reddit. Leute stellen dort medizinische Fragen, sprechen über ihren Arbeitgeber, posten in Genesungs-Communitys – genau die Dinge, die ein Benutzername auf Abstand zu einer echten Identität halten soll. Gibst du deine private Mobilnummer her, baust du still die Brücke wieder auf, die das Pseudonym abbrechen sollte: eine Kennung, in einer weiteren Datenbank, die deinen bürgerlichen Namen mit deinem Beitragsverlauf verbindet.",
+      "Die ehrliche Kehrseite: Oft fragt Reddit gar nicht. Die Registrierung nur per E-Mail ist immer noch die Norm, und eine Telefonabfrage taucht situationsabhängig auf – bestimmte Apps und Regionen, Verkehr über VPN und geteilte Netzwerke oder eine Sicherheitsprüfung bei einem bestehenden Konto. Miete also nicht vorsorglich eine Nummer. Starte die Registrierung, und wenn der Telefonbildschirm erscheint, ist das der Moment, in dem sich eine gemietete Nummer lohnt; eine Aktivierung, die du abbrichst, bevor eine SMS ankommt, kostet nichts."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du Reddit mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Zuerst die Registrierung starten",
+        "body": "Erstelle das Konto mit einer E-Mail, die du kontrollierst, und sieh, ob Reddit überhaupt nach einem Telefon fragt. Wenn nicht, bist du fertig und hast nichts ausgegeben. Erscheint der Telefonbildschirm, geh zu Schritt zwei."
+      },
+      {
+        "title": "Nummer in SMS Code mieten",
+        "body": "Wähle Reddit als Dienst und such dir ein Land aus. Ein Tippen reserviert eine echte Mobilnummer nur für dich – reserviert heißt, dass niemand sonst sie zur gleichen Zeit für Reddit nutzt."
+      },
+      {
+        "title": "Nummer eingeben und Code eintippen",
+        "body": "Wähle auf dem Bildschirm von Reddit die passende Ländervorwahl und gib die Nummer ein. Die SMS lautet „Your Reddit verification code is 617293“ und erscheint meist innerhalb von Sekunden in der App SMS Code – übertrag sie einfach."
+      },
+      {
+        "title": "Nummer danach wieder lösen",
+        "body": "Unter Einstellungen → Konto kannst du das Telefon nach der Bestätigung ansehen und entfernen. Halte die E-Mail bestätigt und das Passwort stark – das sind die eigentlichen Anker des Kontos, und die Wiederherstellung bei Reddit stützt sich auf E-Mail, nicht auf SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Miete bei Bedarf, nicht vorsorglich",
+      "body": "Die Telefonabfrage von Reddit ist situationsabhängig, nicht allgemein. Versuch zuerst die normale Registrierung per E-Mail; greif erst zu einer virtuellen Nummer, wenn der Bildschirm tatsächlich eine verlangt. Diese Seite ist dann immer noch da."
+    },
+    {
+      "title": "Das Pseudonym leckt seitwärts, nicht über das Telefon",
+      "body": "Sobald die Nummernfrage erledigt ist, sind die übrigen Risiken eine Frage des Verhaltens: denselben Benutzernamen wie anderswo zu nutzen, echte Fotos, identifizierbare Details. Eine virtuelle Nummer schließt die stärkste Verbindung – kombiniere sie mit einer E-Mail, die nicht vorname.nachname@ lautet, und einem Benutzernamen, den du nirgendwo sonst nutzt."
+    },
+    {
+      "title": "Gesperrte Communitys bleiben gesperrt",
+      "body": "Reddit setzt Sperren über viele Signale durch – Geräte, Verhalten, Netzwerke –, nicht nur über Telefonnummern. Eine virtuelle Nummer schützt die Privatsphäre eines legitimen Kontos; sie ist kein Werkzeug zur Umgehung von Sperren, und Sperren zu umgehen verstößt gegen die Regeln von Reddit und endet meist schnell."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Braucht Reddit eine Telefonnummer zur Registrierung?",
+      "a": "Meist nicht – nur E-Mail ist der Standardablauf. Die Telefonbestätigung taucht situationsabhängig auf: bei manchen Apps und Regionen, Registrierungen über VPN oder geteilte Netzwerke oder Sicherheitsprüfungen bei ungewöhnlicher Aktivität. Wenn sie auftaucht, empfängt eine virtuelle Nummer den Code genau wie eine SIM."
+    },
+    {
+      "q": "Funktioniert mein Reddit Konto nicht mehr, wenn die gemietete Nummer abläuft?",
+      "a": "Doch. Die Nummer wird bei der Bestätigung geprüft, und du kannst sie danach unter Einstellungen → Konto entfernen. Behalte eine bestätigte E-Mail und ein starkes Passwort – darauf läuft die Wiederherstellung bei Reddit tatsächlich."
+    },
+    {
+      "q": "Können Reddit Nutzer oder Moderatoren meine Nummer sehen?",
+      "a": "Nein. Die Telefonnummer ist Kontotechnik und wird nie auf deinem Profil oder anderen Nutzern angezeigt. Was ein Pseudonym auf Reddit verrät, sind Inhalte – wiederverwendete Benutzernamen, Fotos, identifizierende Details –, nicht die Bestätigungsnummer."
+    },
+    {
+      "q": "Kann ich für Reddit eine kostenlose Online-Nummer nutzen?",
+      "a": "Selten mit Erfolg. Öffentliche Nummern auf kostenlosen SMS-Seiten haben Tausende Registrierungen hinter sich, und die Prüfungen von Reddit erkennen und verweigern sie meist. Eine gemietete Nummer ist während der Aktivierung nur für dich reserviert – genau der Unterschied, auf den die Prüfung achtet."
+    },
+    {
+      "q": "Der Reddit Code kam nie – was nun?",
+      "a": "Prüfe, ob die Ländervorwahl zur gemieteten Nummer passt, und warte einen Moment; Codes kommen meist innerhalb von Sekunden. Kommt nichts, brich die Aktivierung in SMS Code kostenlos ab und nimm eine neue Nummer – du zahlst nur für Aktivierungen, die eine SMS zustellen."
+    }
+  ]
+}

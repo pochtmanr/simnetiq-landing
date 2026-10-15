@@ -1,0 +1,136 @@
+{
+  "title": "Is Using a Virtual Number Legal? What the Rules Say",
+  "description": "Virtual numbers are a standard telecom product. Where the real lines are: the law, platform terms of service, SIM registration rules — and what crosses them.",
+  "excerpt": "People hesitate before using a virtual number, as if receiving a text on one were a grey area. Mostly it isn’t. Here is the distinction between the law, a platform’s terms of service and the things that are illegal with any phone number.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "“Is this even legal?” is one of the most common questions people ask before using a virtual number for the first time. The hesitation is understandable. Phone numbers are tied to identity in most of the world, SIM cards increasingly require ID, and the word “virtual” sounds like a workaround."
+    },
+    {
+      "type": "p",
+      "text": "The short answer is that using a virtual number is legal in most countries — it is an ordinary telecom service used every day by businesses, developers and people protecting their privacy. The longer answer is more useful, because it separates three things that often get blurred: what the law says, what a platform’s rules say, and what is illegal no matter which number you use. This article is a general explainer, not legal advice for any specific country."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-numbers-are-ordinary-telecom",
+      "text": "A virtual number is an ordinary telecom product"
+    },
+    {
+      "type": "p",
+      "text": "The phrase “virtual number” describes how you reach the number, not what it is. A virtual mobile number is a real number on a real carrier network; the SIM answering for it sits with the provider, and you see incoming messages in an app instead of on your phone’s SIM. Numbers like this are used constantly and openly:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Companies use them for customer-support lines, delivery notifications and two-factor codes.",
+        "Developers and QA teams use them to test sign-up and login flows in other countries.",
+        "Travellers and expatriates use them to keep a foothold in a country they no longer live in.",
+        "Individuals use them to keep their personal number away from apps, shops and websites that don’t need it."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "There is no general legal requirement anywhere we know of that you must sign up for an online service with the SIM card in your own phone."
+    },
+    {
+      "type": "h2",
+      "id": "privacy-is-a-legitimate-reason",
+      "text": "Privacy is a legitimate reason, and the law agrees"
+    },
+    {
+      "type": "p",
+      "text": "Wanting to keep your real number private isn’t suspicious; it is good practice that data-protection law actively encourages. The EU’s GDPR, for instance, is built on the principle of data minimisation: companies should collect only the personal data they actually need. A phone number handed to a forum or a shop becomes a permanent identifier that can link your accounts, end up in a data breach or be sold to marketers. Keeping it to yourself is the consumer-side version of the same principle."
+    },
+    {
+      "type": "h2",
+      "id": "law-versus-terms-of-service",
+      "text": "The law versus a platform’s terms of service"
+    },
+    {
+      "type": "p",
+      "text": "This is where most of the confusion lives. Each platform writes its own rules — on how many accounts you may hold, which numbers it accepts, whether you may automate anything. Those rules are a contract between you and the platform, not criminal law."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Breaking a platform’s terms usually has platform consequences: an account suspended, a number refused, a feature restricted.",
+        "Some services explicitly refuse VoIP or virtual numbers and enforce it technically. That is their right, and it doesn’t make using such a number illegal elsewhere.",
+        "SMS Code’s own terms make the point directly: you are responsible for complying with the terms of the platforms you sign up for. Read them for any account that matters to you."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "A useful test: if the account would be fine to open with your own SIM, opening it with a rented number for privacy is the same act with less personal data exposed. If the account would be a problem with your own SIM, a different number doesn’t fix that."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-laws",
+      "text": "What about SIM registration laws?"
+    },
+    {
+      "type": "p",
+      "text": "According to the GSMA, the mobile industry association, more than 150 countries require prepaid SIM cards to be registered to an identity. Those laws are aimed at how operators sell and activate SIM cards — they require the operator to know who holds each line. They generally do not regulate which number you type into a website’s sign-up form."
+    },
+    {
+      "type": "p",
+      "text": "There are exceptions worth knowing about. In some countries, specific categories of services — banking, payments, e-government, sometimes local messaging services — are required by law to verify you through a number registered in your own name. Using any other number there isn’t just against the rules; it won’t work, and it may breach local regulation. If you live somewhere with strict telecom rules, check them before relying on a foreign or virtual number."
+    },
+    {
+      "type": "h2",
+      "id": "what-is-illegal-with-any-number",
+      "text": "What is illegal with any number"
+    },
+    {
+      "type": "p",
+      "text": "The number is a tool. The legality of what you do depends on the act, and the following are illegal or seriously wrongful whether you use a virtual number, a burner SIM or your own:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fraud: scams, fake listings, chargeback abuse or any scheme to take money under false pretences.",
+        "Impersonation and identity theft: pretending to be a real person or organisation.",
+        "Harassment, threats and stalking, including contacting someone who has blocked you.",
+        "Evading legal identity checks: using another number to get around know-your-customer rules at banks, exchanges or payment services.",
+        "Spam and bulk account creation for manipulation, fake reviews or abuse."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "None of these is made legal by a number being yours, and none becomes illegal only because a number is virtual. SMS Code’s terms prohibit them, and accounts used that way are closed."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Frequently asked questions"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is it legal to receive SMS on a virtual number?",
+          "a": "In most countries, yes. Renting a number and receiving messages on it is an ordinary telecom service. What matters legally is what you do with the accounts you create."
+        },
+        {
+          "q": "Is it legal to use a virtual number for WhatsApp or Telegram?",
+          "a": "Using a different number for a messenger is not a crime in most places. Each app has its own terms, though, and may limit or suspend accounts that break them — read them for accounts you care about."
+        },
+        {
+          "q": "Can I use a virtual number for my bank?",
+          "a": "You shouldn’t. Banks and payment services are often legally required to tie your account to a number registered in your name, and they re-verify it regularly."
+        },
+        {
+          "q": "Is a virtual number anonymous?",
+          "a": "It keeps your personal number away from the service you sign up for. It doesn’t make illegal activity untraceable, and it doesn’t change the law that applies to what you do."
+        },
+        {
+          "q": "Does using a virtual number break the terms of the app I sign up for?",
+          "a": "It depends on the app. Many don’t mind which number you use as long as you can receive the code; some refuse virtual or VoIP numbers. Check the terms of any service whose account you plan to keep."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

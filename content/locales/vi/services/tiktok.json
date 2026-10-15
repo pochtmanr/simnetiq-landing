@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho TikTok — Đăng ký không cần thẻ SIM",
+  "metaDescription": "Nhận số ảo thật để xác minh TikTok thường chỉ trong vài giây. Đăng ký thêm tài khoản nhà sáng tạo và giữ số cá nhân của bạn ngoài ứng dụng.",
+  "hero": {
+    "title": "Số ảo cho TikTok",
+    "intro": [
+      "TikTok cho phép đăng ký bằng số điện thoại hoặc email, nhưng đường điện thoại là thứ nó cứ quay lại: một mã SMS 4–6 chữ số xác nhận đăng ký, và chính số đó sau này được dùng để đăng nhập bằng mã và khôi phục tài khoản. Bất kỳ số nào bạn nhập ngày đầu đều lặng lẽ trở thành một phần danh tính của tài khoản.",
+      "Với SMS Code, bạn thuê một số thật tại một trong hơn 100 quốc gia, nhập trên màn hình đăng ký TikTok, và mã xác minh đến ứng dụng thường chỉ trong vài giây. Số cá nhân của bạn đứng ngoài — hữu ích dù bạn đang bảo vệ quyền riêng tư hay xây dựng một loạt tài khoản nhà sáng tạo."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho TikTok?",
+    "body": [
+      "Với nhà sáng tạo, quốc gia của số không chỉ là thủ tục. TikTok bản địa hóa nguồn cấp và một số tính năng dựa trên tín hiệu khu vực — số điện thoại là một trong số đó, cùng với IP và ngôn ngữ thiết bị. Một số từ thị trường bạn muốn tiếp cận sẽ không tự nó lấn át các tín hiệu khác, nhưng đó là một đòn bẩy bạn thực sự kiểm soát, và là đòn bẩy rẻ nhất khi thiết lập tài khoản nhắm tới, chẳng hạn, khán giả Mỹ hay Indonesia.",
+      "Lý do còn lại là tách biệt. Nhà sáng tạo thường vận hành mỗi ngách hay mỗi thương hiệu một tài khoản, và mỗi tài khoản xác minh bằng điện thoại cần số riêng — TikTok không cho một số làm điểm tựa cho tất cả. Agency gặp cùng vấn đề từ phía khách hàng: quản lý tài khoản thương hiệu của ai đó không nên đồng nghĩa với việc gắn nó vào SIM cá nhân của bạn. Số thuê cho mỗi tài khoản một danh tính liên hệ riêng mà không cần ngăn kéo đầy SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh TikTok bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn TikTok làm dịch vụ và chọn quốc gia — lý tưởng là thị trường mà nội dung của bạn nhắm tới. Một chạm giữ một số di động thật chỉ cho bạn."
+      },
+      {
+        "title": "Nhập số trên màn hình đăng ký TikTok",
+        "body": "Chọn “Dùng số điện thoại hoặc email”, ở lại tab điện thoại, chọn mã quốc gia tương ứng và nhập số. Sai mã quốc gia là lý do phổ biến nhất khiến mã không bao giờ xuất hiện."
+      },
+      {
+        "title": "Lấy mã từ SMS Code",
+        "body": "TikTok gửi mã 4–6 chữ số — kiểu như “[TikTok] 604812 is your verification code, valid for 5 minutes.” Nó hiện trong ứng dụng SMS Code thường chỉ trong vài giây; nhập trước khi hết hạn và hoàn tất tạo tài khoản."
+      },
+      {
+        "title": "Liên kết email ngay",
+        "body": "Trong Cài đặt và quyền riêng tư → Tài khoản, thêm và xác minh địa chỉ email, rồi chuyển xác minh hai bước sang email hoặc ứng dụng xác thực nếu có thể. Như vậy tài khoản không phụ thuộc vào số thuê khi thời hạn kích hoạt kết thúc."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Đừng bấm “Gửi lại mã” liên tục",
+      "body": "TikTok giới hạn các yêu cầu SMS lặp lại từ cùng một số. Nếu vài phút không có gì đến, hãy chờ trước khi yêu cầu lại — hoặc hủy lần kích hoạt trong SMS Code (miễn phí khi không có SMS) và lấy số mới thay vì thử lại số cũ."
+    },
+    {
+      "title": "Cho số khớp với khu vực ứng dụng",
+      "body": "Số là một trong nhiều tín hiệu khu vực — TikTok còn xem IP và ngôn ngữ thiết bị. Nếu bạn lấy số để nhắm một thị trường cụ thể, hãy giữ phần còn lại nhất quán: một số Brazil trong khi mọi thứ khác chỉ về nơi khác sẽ gửi tín hiệu lẫn lộn cho TikTok."
+    },
+    {
+      "title": "Mỗi tài khoản một số",
+      "body": "Mỗi tài khoản TikTok xác minh bằng điện thoại cần số riêng, và số đã gắn với một tài khoản không thể xác minh tài khoản mới. Vận hành nhiều ngách hay thương hiệu khách hàng? Hãy thuê lần kích hoạt riêng cho từng cái và ghi lại số nào mở tài khoản nào."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tài khoản TikTok có còn hoạt động sau khi số hết hạn không?",
+      "a": "Có. Số cần ở bước xác minh, không phải trong sử dụng hằng ngày. Liên kết và xác minh email ngay sau khi đăng ký và chuyển xác minh hai bước khỏi SMS — khi đó đăng nhập và khôi phục đi qua các kênh bạn vẫn kiểm soát."
+    },
+    {
+      "q": "Quốc gia của số có thay đổi nội dung TikTok hiển thị cho tôi không?",
+      "a": "Đó là một trong các tín hiệu. TikTok bản địa hóa nội dung và một số tính năng theo khu vực, đọc quốc gia của số điện thoại cùng với địa chỉ IP và ngôn ngữ thiết bị. Một số từ thị trường mục tiêu đẩy tài khoản theo hướng đó, nhưng tự nó không lấn át các tín hiệu khác."
+    },
+    {
+      "q": "Tôi có thể vận hành nhiều tài khoản TikTok bằng số ảo không?",
+      "a": "Có — đó là thiết lập tiêu chuẩn cho nhà sáng tạo có mỗi ngách một tài khoản và cho agency quản lý thương hiệu khách hàng. Mỗi tài khoản xác minh bằng điện thoại cần số riêng, nên hãy thuê lần kích hoạt riêng cho từng tài khoản thay vì dùng lại một số."
+    },
+    {
+      "q": "Vì sao mã TikTok không đến?",
+      "a": "Hãy kiểm tra mã quốc gia trước — sai lệch là thủ phạm thường gặp. TikTok cũng giới hạn yêu cầu SMS lặp lại, nên gửi lại liên tục có thể khiến mã im bặt hẳn. Chờ vài phút, hoặc hủy lần kích hoạt đang chờ trong SMS Code — xu của số không nhận được gì được hoàn vào số dư — và lấy số mới."
+    },
+    {
+      "q": "Agency có thể xác minh tài khoản TikTok của khách hàng theo cách này không?",
+      "a": "Có, và gọn gàng hơn phương án khác: tài khoản có danh tính liên hệ riêng thay vì neo vào SIM cá nhân của một nhân viên. Hãy thiết lập khôi phục qua email trên địa chỉ khách hàng kiểm soát, để về lâu dài tài khoản không gắn với số thuê — hay với đội của bạn."
+    }
+  ]
+}

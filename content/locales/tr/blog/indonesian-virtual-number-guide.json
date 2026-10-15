@@ -1,0 +1,132 @@
+{
+  "title": "Endonezya sanal numara (+62): biçim, kurallar ve kayıt",
+  "description": "Endonezya cep numaraları nasıl çalışır, SIM kartlar orada neden NIK'e bağlıdır ve yurt dışından +62 numaraya doğrulama SMS'i nasıl alınır?",
+  "excerpt": "Endonezya her ön ödemeli SIM'i ulusal kimlik numarasına bağlıyor ve kişi başına kaydedilebilecek kart sayısını sınırlıyor. +62 numaraların nasıl çalıştığı, bunun kayıtta neden önemli olduğu ve yerel SIM olmadan bu numaralara nasıl kod alınacağı.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Endonezya dünyanın en kalabalık dördüncü ülkesi ve telefona en bağımlı ülkelerinden biri. Dijital ekonomisi masaüstünde değil akıllı telefonda büyüdü: insanlar yolculuk ve yemeği Gojek ve Grab'den sipariş ediyor, Shopee ve Tokopedia'dan alışveriş yapıyor, küçük işletmelerini baştan sona WhatsApp üzerinden yürütüyor. Bu hizmetlerin neredeyse hepsi aynı şekilde başlıyor: +62 numara girin ve kodu bekleyin."
+    },
+    {
+      "type": "p",
+      "text": "Bu yüzden «Endonezya numarası» aramaları Arapça, İngilizce ve başka dillerde, takımadalardan çok uzaktaki insanlardan geliyor. Bir kısmı yurt dışındaki — Suudi Arabistan, Malezya, Tayvan ya da Hong Kong'daki — Endonezyalı çalışanlar; memleketteki hizmetlerle bağlarını koruyorlar. Diğerleri Endonezya pazarına ait bir hesaba ihtiyaç duyan satıcılar, pazarlamacılar ya da geliştiriciler. İşte bu numaraların nasıl çalıştığı ve yerel SIM almanın neden göründüğünden zor olduğu."
+    },
+    {
+      "type": "h2",
+      "id": "how-indonesian-numbers-work",
+      "text": "Endonezya cep numarası nasıl yazılır"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ülke içinde cep numaraları 08 ile başlar — örneğin 0812, 0857 ya da 0878 — ve toplamda on ile on üç hane arasındadır.",
+        "Uluslararası biçimde baştaki 0 düşer ve yerine +62 gelir. Yani 0812-3456-7890, +62 812-3456-7890 olur.",
+        "08'den sonraki haneler başlangıçta operatörü gösteriyordu — Telkomsel, Indosat ve XL en büyükler arasında — ama yıllar süren birleşmeler ve yeni ön eklerden sonra bunlar kural değil, ipucu.",
+        "Endonezya seçili bir kayıt formunda numara 8'den başlayarak girilir; asla 0 ya da 62 ile değil."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Endonezya numaralarında en yaygın hata baştaki sıfırdır. «+62 0812…» geçerli bir numara değildir. Ülke seçicisi zaten +62 gösteriyorsa yazmaya 8'den başlayın."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-and-the-nik",
+      "text": "Her Endonezya SIM'i neden ulusal kimliğe bağlı"
+    },
+    {
+      "type": "p",
+      "text": "2017'nin sonlarında Endonezya hükümeti her ön ödemeli aboneye SIM kartını iki belgeyle kaydettirmesini emretti: KTP kimlik kartında yazan on altı haneli ulusal kimlik numarası NIK ve hanedeki herkesi listeleyen aile kartı KK'nin numarası. Aboneler iki numarayı SMS ile kısa bir numaraya gönderiyordu. Son tarih 28 Şubat 2018'di; sonrasında kayıtsız kartlar kademeli olarak kapatıldı."
+    },
+    {
+      "type": "p",
+      "text": "Kural kampanyadan uzun yaşadı. Kayıt bugün 2021 tarihli bir bakanlık yönetmeliğiyle düzenleniyor ve Telkomsel'in yardım sayfaları hâlâ bir NIK'in operatör başına en fazla üç ön ödemeli numarayı kendi başına kaydedebileceğini belirtiyor; daha fazlası için operatör şubesine gitmek gerekiyor. Amaç telefon dolandırıcılığını ve anonim dolandırıcılık aramalarını izlenebilir kılmaktı; bu küresel bir eğilim: GSMA'nın sayımına göre bugün 150'den fazla ülke SIM kaydını zorunlu tutuyor."
+    },
+    {
+      "type": "p",
+      "text": "Yabancılar için sonuç pratik. Turistler, genellikle havalimanında, pasaportla kayıtlı SIM alabilir; ama kart pasaporta bağlı kalır ve çoğu zaman süresi sınırlıdır. Endonezya dışında yaşayıp bir hesap için yalnızca +62 numara isteyen birinin ise SIM almasının basit bir yolu yoktur."
+    },
+    {
+      "type": "h2",
+      "id": "who-needs-a-62-number",
+      "text": "+62 numaraya kimin, ne için ihtiyacı var"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Endonezyalı müşteriler için varlık oluşturan satıcılar ve pazarlamacılar — bir WhatsApp Business profili, yerel kitleye yönelik bir TikTok ya da Instagram hesabı.",
+        "Endonezyalı kullanıcılar için farklı davranan uygulamaları test eden geliştiriciler ve QA ekipleri.",
+        "Yurt dışından SIM'i aktif tutmadan memleketteki bir hizmete kaydolmak isteyen Endonezyalılar.",
+        "Kişisel numarasından ayrı bir mesajlaşma ya da sosyal medya hesabı isteyen herkes."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ne için uygun değil: Endonezya bankaları, tam doğrulamalı e-cüzdanlar ve devlet hizmetleri. Bunlar hesabınızı NIK'inize bağlar ve kayıtlı numaranın adınıza olması gerekir."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-62-number",
+      "text": "Endonezya numarasına kod almak"
+    },
+    {
+      "type": "p",
+      "text": "SMS Code'dan kiralanan Endonezya numarası, Endonezya operatör ağında gerçek bir cep numarasıdır. Kaydolduğunuz hizmete diğer +62 aboneleri gibi görünür ve kodu beklediğiniz sürece yalnızca size ayrılır."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Hizmeti ve Endonezya'yı seçin",
+          "body": "SMS Code'da hizmeti — WhatsApp, Telegram, TikTok, Grab ya da 100'den fazla hizmetten herhangi birini — seçin ve Endonezya'yı belirleyin. Etkinleştirmenin jeton cinsinden fiyatı onaydan önce görünür."
+        },
+        {
+          "title": "Numarayı 8'den başlayarak yazın",
+          "body": "Formda +62 seçiliyken uygulamada görünen numarayı 8'den başlayarak girin — başta 0 olmadan."
+        },
+        {
+          "title": "Kodu yapıştırın",
+          "body": "SMS uygulamaya genellikle saniyeler içinde gelir. Hiçbir şey gelmezse iki dakika sonra iptal edin; SMS gelmediyse jetonlar bakiyenize döner ve yeni bir numara alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ardından hesabı güvenceye alın: güçlü bir parola, kontrolünüzdeki bir kurtarma e-postası ve hizmetin iki adımlı koruması. Geçici numara kaydı karşılar, hesabın geleceğini değil."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sık sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Bir yabancı Endonezya telefon numarası alabilir mi?",
+          "a": "Endonezya'dayken evet — turist SIM'leri pasaportla kaydedilebilir. Yurt dışından SIM almak pek pratik değildir; bu yüzden tek seferlik doğrulamalar için sanal +62 numara kullanılır."
+        },
+        {
+          "q": "Sanal Endonezya numarası için NIK ya da KK gerekir mi?",
+          "a": "Hayır. NIK kaydı Endonezyalı operatörlerden alınan SIM kartlar için geçerlidir. SMS Code'da doğrulama için numara kiralamak hiçbir Endonezya belgesi gerektirmez."
+        },
+        {
+          "q": "08 mi yazmalıyım, +62 8 mi?",
+          "a": "Uluslararası biçimde: +62 ve ardından 8 ile başlayan numara. Ülke kodunu yurt içindeki baştaki 0 ile asla birleştirmeyin."
+        },
+        {
+          "q": "Grab, Shopee ya da Gojek için çalışır mı?",
+          "a": "SMS Code, Grab ve Shopee dahil pek çok bölgesel hizmet için etkinleştirme sunar ve uygulama, ödeme öncesinde hangi hizmet ve ülkelerin mevcut olduğunu gösterir. Tam kimlik doğrulaması isteyen hizmetler — bankacılık özellikleri, e-cüzdan yükseltmeleri — yine de kendi belgelerinizi isteyecektir."
+        },
+        {
+          "q": "SMS gelmezse ne olur?",
+          "a": "Başa 0 yazmadığınızı kontrol edin ve bir dakika bekleyin. Hâlâ bir şey yoksa iki dakika sonra etkinleştirmeyi iptal edin — jetonlar bakiyenize döner — ve başka bir numara deneyin."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

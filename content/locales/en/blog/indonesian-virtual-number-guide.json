@@ -1,0 +1,132 @@
+{
+  "title": "Indonesian Virtual Number (+62): Format, Rules, Sign-ups",
+  "description": "How Indonesian mobile numbers work, why SIM cards there are tied to the NIK, and how to receive a verification SMS on a +62 number from abroad.",
+  "excerpt": "Indonesia ties every prepaid SIM to a national ID number and caps how many each person can register. Here is how +62 numbers work, why that matters for sign-ups, and how to receive a code on one without a local SIM.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Indonesia is the fourth most populous country in the world and one of the most phone-centric. Its digital economy grew up on the smartphone rather than the desktop: people order rides and food on Gojek and Grab, shop on Shopee and Tokopedia, and run small businesses entirely through WhatsApp. Almost every one of those services starts the same way — enter a +62 number and wait for a code."
+    },
+    {
+      "type": "p",
+      "text": "That is why searches for an “Indonesian number” turn up in Arabic, English and other languages from people far outside the archipelago. Some are Indonesian workers abroad — in Saudi Arabia, Malaysia, Taiwan or Hong Kong — keeping a foothold in services back home. Others are sellers, marketers or developers who need an account that belongs to the Indonesian market. Here is how the numbers work, and why getting a local SIM is harder than it looks."
+    },
+    {
+      "type": "h2",
+      "id": "how-indonesian-numbers-work",
+      "text": "How an Indonesian mobile number is written"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Domestically, mobile numbers start with 08 — for example 0812, 0857 or 0878 — and run to between ten and thirteen digits in total.",
+        "Internationally, the leading 0 is dropped and replaced with +62. So 0812-3456-7890 becomes +62 812-3456-7890.",
+        "The digits after 08 originally identified the operator — Telkomsel, Indosat and XL among the largest — but with years of mergers and new prefixes, they are a hint rather than a rule.",
+        "In a sign-up form with Indonesia selected, you enter the number starting with 8, never with 0 or 62."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "The single most common mistake with Indonesian numbers is the leading zero. “+62 0812…” is not a valid number. If the country selector already says +62, start typing from the 8."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-and-the-nik",
+      "text": "Why every Indonesian SIM is tied to a national ID"
+    },
+    {
+      "type": "p",
+      "text": "In late 2017 the Indonesian government ordered every prepaid subscriber to register their SIM card using two documents: the NIK, the sixteen-digit national identity number printed on the KTP identity card, and the number of the KK, the family card that lists everyone in a household. Subscribers texted both numbers to a short code. The deadline was 28 February 2018, after which unregistered cards were progressively cut off."
+    },
+    {
+      "type": "p",
+      "text": "The rule has outlived the campaign. A ministerial regulation from 2021 now governs registration, and Telkomsel’s own help pages still state that one NIK can self-register at most three prepaid numbers per operator; further cards require a visit to an operator outlet. The aim was to make phone fraud and anonymous scam calls traceable, part of a global trend: by the GSMA’s count, more than 150 countries now require SIM registration."
+    },
+    {
+      "type": "p",
+      "text": "For foreigners, the consequence is practical. Tourists can buy registered SIMs with a passport, usually at airports, but the card is tied to their passport and often time-limited. Anyone outside Indonesia who just wants a +62 number for an account has no simple way to get a SIM at all."
+    },
+    {
+      "type": "h2",
+      "id": "who-needs-a-62-number",
+      "text": "Who needs a +62 number, and for what"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sellers and marketers building a presence for Indonesian customers — a WhatsApp Business profile, a TikTok or Instagram account aimed at the local audience.",
+        "Developers and QA teams testing apps that behave differently for Indonesian users.",
+        "Indonesians abroad who want to sign up for a home-market service without keeping a SIM active from overseas.",
+        "Anyone who wants a messenger or social account separated from their personal number."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "What it is not for: Indonesian banks, e-wallets with full verification, and government services. Those link your account to your NIK, and the number on file has to be one registered in your name."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-62-number",
+      "text": "Receiving a code on an Indonesian number"
+    },
+    {
+      "type": "p",
+      "text": "A rented Indonesian number in SMS Code is a real mobile number on an Indonesian carrier network. To the service you sign up for, it looks like any other +62 subscriber, and it stays reserved for you alone while you wait for the code."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Choose the service and Indonesia",
+          "body": "In SMS Code, select the service — WhatsApp, Telegram, TikTok, Grab or any of 100+ others — and pick Indonesia. The activation price in coins appears before you confirm."
+        },
+        {
+          "title": "Type the number from the 8",
+          "body": "With +62 selected in the sign-up form, enter the number shown in the app starting from the 8 — no leading 0."
+        },
+        {
+          "title": "Paste the code",
+          "body": "The SMS lands in the app usually within seconds. If nothing arrives, cancel after two minutes; the coins return to your balance when no SMS came, and you can take a fresh number."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Then secure the account: a strong password, a recovery email you control and the service’s own two-factor protection. A temporary number covers the sign-up, not the account’s future."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Frequently asked questions"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Can a foreigner get an Indonesian phone number?",
+          "a": "In Indonesia, yes — tourist SIMs can be registered with a passport. From abroad, buying a SIM is impractical, which is why people use a virtual +62 number for one-off verifications."
+        },
+        {
+          "q": "Do I need a NIK or KK to use a virtual Indonesian number?",
+          "a": "No. NIK registration applies to SIM cards bought from Indonesian operators. Renting a number for a verification in SMS Code requires no Indonesian documents."
+        },
+        {
+          "q": "Should I enter 08 or +62 8?",
+          "a": "In international format, +62 followed by the number starting with 8. Never combine the country code with the domestic leading 0."
+        },
+        {
+          "q": "Will it work for Grab, Shopee or Gojek?",
+          "a": "SMS Code offers activations for many regional services, including Grab and Shopee, and the app shows which services and countries are available before you pay. Services with full identity checks — banking features, e-wallet upgrades — will still ask for your own documents."
+        },
+        {
+          "q": "What if no SMS arrives?",
+          "a": "Check that you didn’t type a leading 0, then wait a full minute. If nothing comes, cancel the activation after two minutes — the coins return to your balance — and try another number."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

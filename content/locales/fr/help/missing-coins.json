@@ -1,0 +1,27 @@
+{
+  "title": "Paiement effectué, pièces manquantes",
+  "metaDescription": "Pack de pièces acheté mais solde inchangé\u00a0? Vérifiez le paiement Apple, votre compte SMS Code et la restauration, puis envoyez-nous la commande Apple.",
+  "sections": [
+    {
+      "title": "Vérifiez d’abord",
+      "steps": [
+        "**Patientez quelques minutes et rouvrez l’app.** Un paiement Apple en attente peut prendre un moment. N’achetez pas un autre pack pour régler le problème.",
+        "**Vérifiez le compte.** Les pièces appartiennent au compte SMS Code qui les a achetées. Si vous vous êtes connecté avec Apple, Google ou un e-mail sur un autre appareil, utilisez le même identifiant ici.",
+        "**Restaurez les achats.** Ouvrez la boutique de pièces dans l’app et appuyez sur **Restaurer les achats**. Cela crédite les achats confirmés par Apple mais manqués par l’app."
+      ]
+    },
+    {
+      "title": "Vous avez réinstallé l’app\u00a0?",
+      "paragraphs": [
+        "Si vous utilisiez l’app sans vous connecter, la réinstallation crée un nouveau compte, et l’ancien solde ne suit pas automatiquement. Écrivez-nous avec votre numéro de commande Apple et nous vous aiderons à le récupérer. [Conserver votre solde](/support/account-balance) explique comment l’éviter à l’avenir."
+      ]
+    },
+    {
+      "title": "Ce qu’il faut nous envoyer",
+      "paragraphs": [
+        "Le numéro de commande Apple figurant dans l’e-mail de reçu d’Apple (il commence par M), le pack et la date d’achat. Masquez les autres achats et les données de paiement. Si vous nous écrivez depuis l’app, l’identifiant de votre compte est joint automatiquement.",
+        "Si vous préférez être remboursé plutôt que recevoir les pièces, consultez [comment demander un remboursement à Apple](/support/refund-apple)."
+      ]
+    }
+  ]
+}

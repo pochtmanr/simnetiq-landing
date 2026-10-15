@@ -1,0 +1,136 @@
+{
+  "title": "Dùng số ảo có hợp pháp không? Quy định nói gì",
+  "description": "Số ảo là sản phẩm viễn thông tiêu chuẩn. Ranh giới thực sự nằm ở đâu: luật pháp, điều khoản nền tảng, quy định đăng ký SIM — và điều gì vượt qua chúng.",
+  "excerpt": "Mọi người do dự trước khi dùng số ảo, như thể nhận tin nhắn trên đó là vùng xám. Phần lớn không phải vậy. Đây là khác biệt giữa luật pháp, điều khoản dịch vụ của nền tảng và những điều bất hợp pháp với bất kỳ số nào.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "“Cái này có hợp pháp không?” là một trong những câu hỏi phổ biến nhất mọi người đặt ra trước khi dùng số ảo lần đầu. Sự do dự là dễ hiểu. Số điện thoại gắn với danh tính ở hầu hết thế giới, thẻ SIM ngày càng đòi giấy tờ, và chữ “ảo” nghe như một mánh lách."
+    },
+    {
+      "type": "p",
+      "text": "Câu trả lời ngắn là dùng số ảo hợp pháp ở hầu hết các quốc gia — đó là một dịch vụ viễn thông bình thường được doanh nghiệp, lập trình viên và những người bảo vệ quyền riêng tư sử dụng hằng ngày. Câu trả lời dài hữu ích hơn, vì nó tách ba thứ thường bị trộn lẫn: luật nói gì, quy định của nền tảng nói gì, và điều gì là bất hợp pháp bất kể bạn dùng số nào. Bài viết này là giải thích chung, không phải tư vấn pháp lý cho bất kỳ quốc gia cụ thể nào."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-numbers-are-ordinary-telecom",
+      "text": "Số ảo là một sản phẩm viễn thông bình thường"
+    },
+    {
+      "type": "p",
+      "text": "Cụm từ “số ảo” mô tả cách bạn tiếp cận số, không phải nó là gì. Một số di động ảo là số thật trên mạng nhà mạng thật; SIM đảm nhận nó nằm ở nhà cung cấp, và bạn thấy tin nhắn đến trong ứng dụng thay vì trên SIM của điện thoại. Những số như vậy được dùng liên tục và công khai:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Doanh nghiệp dùng chúng cho đường dây hỗ trợ khách hàng, thông báo giao hàng và mã hai yếu tố.",
+        "Lập trình viên và nhóm QA dùng chúng để kiểm thử quy trình đăng ký và đăng nhập ở các quốc gia khác.",
+        "Du khách và người xa xứ dùng chúng để giữ chỗ đứng ở quốc gia họ không còn sống.",
+        "Cá nhân dùng chúng để giữ số cá nhân tránh xa các ứng dụng, cửa hàng và trang web không cần đến nó."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Theo hiểu biết của chúng tôi, không nơi nào có yêu cầu pháp lý chung rằng bạn phải đăng ký dịch vụ trực tuyến bằng thẻ SIM trong điện thoại của chính mình."
+    },
+    {
+      "type": "h2",
+      "id": "privacy-is-a-legitimate-reason",
+      "text": "Quyền riêng tư là lý do chính đáng, và luật cũng đồng ý"
+    },
+    {
+      "type": "p",
+      "text": "Muốn giữ kín số thật không đáng ngờ; đó là thực hành tốt mà luật bảo vệ dữ liệu tích cực khuyến khích. Chẳng hạn GDPR của EU được xây dựng trên nguyên tắc tối thiểu hóa dữ liệu: các công ty chỉ nên thu thập dữ liệu cá nhân họ thực sự cần. Một số điện thoại trao cho diễn đàn hay cửa hàng trở thành định danh vĩnh viễn có thể liên kết các tài khoản của bạn, rơi vào một vụ rò rỉ dữ liệu hoặc bị bán cho nhà tiếp thị. Giữ nó cho riêng mình là phiên bản phía người tiêu dùng của cùng nguyên tắc."
+    },
+    {
+      "type": "h2",
+      "id": "law-versus-terms-of-service",
+      "text": "Luật pháp so với điều khoản dịch vụ của nền tảng"
+    },
+    {
+      "type": "p",
+      "text": "Đây là nơi phần lớn sự nhầm lẫn tồn tại. Mỗi nền tảng tự viết quy tắc — bạn được giữ bao nhiêu tài khoản, nó chấp nhận số nào, có được tự động hóa gì không. Những quy tắc đó là hợp đồng giữa bạn và nền tảng, không phải luật hình sự."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Vi phạm điều khoản nền tảng thường có hậu quả trên nền tảng: tài khoản bị tạm ngừng, số bị từ chối, tính năng bị hạn chế.",
+        "Một số dịch vụ từ chối rõ ràng số VoIP hay số ảo và thực thi bằng kỹ thuật. Đó là quyền của họ, và điều đó không khiến việc dùng số như vậy ở nơi khác trở nên bất hợp pháp.",
+        "Chính điều khoản của SMS Code nói thẳng: bạn chịu trách nhiệm tuân thủ điều khoản của các nền tảng bạn đăng ký. Hãy đọc chúng cho mọi tài khoản quan trọng với bạn."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Một phép thử hữu ích: nếu tài khoản mở bằng SIM của chính bạn là ổn, thì mở nó bằng số thuê vì quyền riêng tư là cùng hành động với ít dữ liệu cá nhân bị lộ hơn. Nếu tài khoản có vấn đề khi dùng SIM của bạn, một số khác không sửa được điều đó."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-laws",
+      "text": "Còn luật đăng ký SIM thì sao?"
+    },
+    {
+      "type": "p",
+      "text": "Theo GSMA, hiệp hội ngành di động, hơn 150 quốc gia yêu cầu thẻ SIM trả trước được đăng ký với một danh tính. Các luật đó nhắm vào cách nhà mạng bán và kích hoạt thẻ SIM — chúng yêu cầu nhà mạng biết ai giữ từng đường dây. Nhìn chung chúng không điều chỉnh việc bạn gõ số nào vào biểu mẫu đăng ký của một trang web."
+    },
+    {
+      "type": "p",
+      "text": "Có những ngoại lệ đáng biết. Ở một số quốc gia, các loại dịch vụ cụ thể — ngân hàng, thanh toán, chính phủ điện tử, đôi khi dịch vụ nhắn tin trong nước — được luật yêu cầu xác minh bạn qua số đứng tên bạn. Dùng số khác ở đó không chỉ trái quy định; nó sẽ không hoạt động, và có thể vi phạm quy định địa phương. Nếu bạn sống ở nơi có quy định viễn thông nghiêm ngặt, hãy kiểm tra chúng trước khi dựa vào số nước ngoài hay số ảo."
+    },
+    {
+      "type": "h2",
+      "id": "what-is-illegal-with-any-number",
+      "text": "Điều gì bất hợp pháp với bất kỳ số nào"
+    },
+    {
+      "type": "p",
+      "text": "Số là công cụ. Tính hợp pháp của việc bạn làm phụ thuộc vào hành vi, và những điều sau là bất hợp pháp hoặc sai trái nghiêm trọng dù bạn dùng số ảo, SIM dùng một lần hay số của chính mình:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Lừa đảo: trò lừa, tin đăng giả, lạm dụng hoàn tiền qua ngân hàng hay bất kỳ âm mưu nào để lấy tiền bằng cách gian dối.",
+        "Mạo danh và đánh cắp danh tính: giả làm một người hay tổ chức có thật.",
+        "Quấy rối, đe dọa và đeo bám, kể cả liên lạc với người đã chặn bạn.",
+        "Lách các bước kiểm tra danh tính hợp pháp: dùng số khác để vượt quy định xác minh khách hàng tại ngân hàng, sàn giao dịch hay dịch vụ thanh toán.",
+        "Spam và tạo tài khoản hàng loạt để thao túng, đánh giá giả hay lạm dụng."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Không điều nào trong số đó trở nên hợp pháp vì số là của bạn, và không điều nào trở nên bất hợp pháp chỉ vì số là số ảo. Điều khoản của SMS Code cấm chúng, và tài khoản bị dùng như vậy sẽ bị đóng."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Câu hỏi thường gặp"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Nhận SMS trên số ảo có hợp pháp không?",
+          "a": "Ở hầu hết các quốc gia, có. Thuê một số và nhận tin nhắn trên đó là dịch vụ viễn thông bình thường. Về mặt pháp lý, điều quan trọng là bạn làm gì với các tài khoản bạn tạo."
+        },
+        {
+          "q": "Dùng số ảo cho WhatsApp hay Telegram có hợp pháp không?",
+          "a": "Dùng một số khác cho ứng dụng nhắn tin không phải tội ở hầu hết mọi nơi. Tuy vậy, mỗi ứng dụng có điều khoản riêng và có thể giới hạn hoặc tạm ngừng tài khoản vi phạm — hãy đọc chúng cho những tài khoản bạn quan tâm."
+        },
+        {
+          "q": "Tôi có thể dùng số ảo cho ngân hàng của mình không?",
+          "a": "Bạn không nên. Ngân hàng và dịch vụ thanh toán thường bị luật yêu cầu gắn tài khoản của bạn với một số đứng tên bạn, và họ xác minh lại thường xuyên."
+        },
+        {
+          "q": "Số ảo có ẩn danh không?",
+          "a": "Nó giữ số cá nhân của bạn tránh xa dịch vụ bạn đăng ký. Nó không khiến hoạt động bất hợp pháp không thể truy vết, và không thay đổi luật áp dụng cho việc bạn làm."
+        },
+        {
+          "q": "Dùng số ảo có vi phạm điều khoản của ứng dụng tôi đăng ký không?",
+          "a": "Tùy ứng dụng. Nhiều ứng dụng không quan tâm bạn dùng số nào miễn là bạn nhận được mã; một số từ chối số ảo hoặc VoIP. Hãy kiểm tra điều khoản của mọi dịch vụ có tài khoản bạn định giữ."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

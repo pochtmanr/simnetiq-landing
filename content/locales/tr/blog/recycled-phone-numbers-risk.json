@@ -1,0 +1,129 @@
+{
+  "title": "Geri dönüştürülen numaralar: SMS doğrulamanın sessiz riski",
+  "description": "Her yıl milyonlarca numara el değiştiriyor. Princeton'ın bir araştırması, geri dönüştürülen numaraların çoğunun hâlâ eski hesapları açtığını gösterdi.",
+  "excerpt": "Kapatılan bir numara yok olmaz; yeniden satışa çıkar. Princeton'daki araştırmacılar, örneklemlerindeki geri dönüştürülmüş numaraların üçte ikisinin hâlâ birilerinin hesaplarına bağlı olduğunu buldu. Numara geri dönüşümünün SMS doğrulaması için anlamı ve iki tarafta da yer almamanın yolu.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Telefon numaraları kalıcı gibi gelir. Kartvizitlere basarız, bankalara veririz, neredeyse her şeye onlarla gireriz. Ama operatör için numara bir stok kalemidir. Bir müşteri ödemeyi bıraktığında, numarasını taşımadan tarife değiştirdiğinde ya da ön ödemeli kartının süresini doldurduğunda numara kapatılır, bir süre bekletilir ve yeni birine verilir."
+    },
+    {
+      "type": "p",
+      "text": "ABD Federal İletişim Komisyonu (FCC), yalnızca ABD'de her yıl yaklaşık 35 milyon numaranın kapatılıp yeniden tahsise açıldığını tahmin ediyor. Bunların çoğu, bir noktada birilerinin hesaplarında oturum açma bilgisi, kurtarma kanalı ya da ikinci faktördü."
+    },
+    {
+      "type": "h2",
+      "id": "what-the-princeton-study-found",
+      "text": "Princeton araştırmacıları ne buldu"
+    },
+    {
+      "type": "p",
+      "text": "2021'de Princeton Üniversitesi Bilgi Teknolojileri Politikası Merkezi'nden Kevin Lee ve Arvind Narayanan sorunu doğrudan ölçmeye karar verdi. ABD'nin iki büyük operatörü T-Mobile ve Verizon'ın yeni abonelere sunduğu 259 numaralık bir örneklem aldılar ve bu numaraların hâlâ neleri açabildiğini kontrol ettiler."
+    },
+    {
+      "type": "list",
+      "items": [
+        "259 numaranın 171'i — yaklaşık üçte ikisi — Amazon, AOL, Facebook, Google, PayPal ve Yahoo gibi popüler sitelerde mevcut hesaplara hâlâ bağlıydı. Parola sıfırlama SMS'lerini alan yeni sahip, bu hesapları potansiyel olarak ele geçirebilirdi.",
+        "Numaraların 100'ü, kamuya açık sızıntı verilerinde sızdırılmış giriş bilgileriyle birlikte görünüyordu; yani saldırgan ile hesap arasında yalnızca SMS duruyordu.",
+        "Pek çok numara, kişi arama sitelerinde önceki sahiplerine ait kişisel bilgileri de getiriyordu."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Araştırmacılar ayrıca operatörlerin çevrimiçi numara değiştirme sayfalarının, herkesin büyük boş numara havuzlarına göz atmasına izin verdiğini ve bunun geri dönüştürülmüş numara avını kolaylaştırdığını buldu. Her iki operatör de bilgilendirildikten sonra değişiklik yaptı; yazarlar operatörlerin yanıtlarını araştırmayla birlikte yayımladı."
+    },
+    {
+      "type": "callout",
+      "text": "Sorunun özü basit: hizmetler «bu numaraya SMS alabiliyor» olmayı kimlik kanıtı sayıyor, operatörler ise numaraları yeniden kullanılabilir sayıyor. Bu iki varsayım buluştuğunda, numarayı bugün elinde tutan kişi dün ona bağlı olan tüm güveni miras alıyor."
+    },
+    {
+      "type": "h2",
+      "id": "what-regulators-did",
+      "text": "Düzenleyiciler ne yaptı"
+    },
+    {
+      "type": "p",
+      "text": "FCC'nin asıl yanıtı başka bir soruna, numarayı devralan kişilere gelen istenmeyen aramalara yönelikti. Aralık 2018'de 2021'de devreye giren Yeniden Tahsis Edilen Numaralar Veritabanı'nın (Reassigned Numbers Database) kurulmasını emretti. Operatörler kalıcı olarak kapatılan numaraları bildiriyor; şirketler de bir numarayı aramadan ya da ona mesaj atmadan önce belirli bir tarihten beri kapatılıp kapatılmadığını sorgulayabiliyor. Aynı karar, kapatılan bir numaranın yeniden tahsis edilmeden önce en az 45 gün «dinlendirilmesini» şart koştu."
+    },
+    {
+      "type": "p",
+      "text": "Bu, şirketlerin yabancılara mesaj atmayı bırakmasına yardım ediyor. Ama eski numarayı hâlâ kayıtlı tutan hesaplar için hiçbir şey yapmıyor. Bunları güncel tutmak pratikte hesap sahibine kalıyor."
+    },
+    {
+      "type": "h2",
+      "id": "protecting-your-own-accounts",
+      "text": "Numara değiştirirken kendinizi nasıl korursunuz"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Bırakmadan önce güncelleyin",
+          "body": "Bir hattı kapatmadan ya da ön ödemeli SIM'in süresini doldurmadan önce e-posta, banka, sosyal medya ve alışveriş hesaplarınızı gözden geçirip numarayı değiştirin. Parola yöneticinizdeki kayıtlı girişler listesi en hızlı kontrol listesidir."
+        },
+        {
+          "title": "İkinci faktör olarak SMS'i bırakın",
+          "body": "Mümkün olan her yerde doğrulayıcı uygulama, geçiş anahtarı ya da donanım anahtarı kullanın. ABD standartlar kurumu NIST, tam da bu nedenlerle SMS kodlarını artık «kısıtlı» doğrulayıcı olarak sınıflandırıyor."
+        },
+        {
+          "title": "Telefon numarası olmayan bir kurtarma yolu tutun",
+          "body": "Kontrolünüzdeki bir kurtarma e-postası ve kaydedilmiş yedek kodlar, kaybolan ya da geri dönüştürülen bir numarayı kilitlenme değil, küçük bir sıkıntı hâline getirir."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "what-it-means-for-virtual-numbers",
+      "text": "Kiralık sanal numaralar için anlamı"
+    },
+    {
+      "type": "p",
+      "text": "Numara geri dönüşümü hakkında dürüst bir yazı, aynı mantığı kiralık numaralara da uygulamalı; çünkü onlar tasarım gereği geri dönüştürülür. Tek bir doğrulama için kiraladığınız numara etkinleştirme süresince size ayrılır; sonrasında başka kişiler ve başka hizmetler için yeniden kullanılabilir. Onu ucuz ve tek kullanımlık yapan da budur — ve tam da bu yüzden önemsediğiniz bir hesabın uzun vadeli kurtarma kanalı olmamalıdır."
+    },
+    {
+      "type": "list",
+      "items": [
+        "İyi kullanımlar: kişisel numaranızı vermeden bir kaydı tamamlamak; numaranın yalnızca doğrulama anında önemli olduğu mesajlaşma uygulamaları, sosyal ağlar, pazaryerleri, deneme sürümleri ve test hesapları.",
+        "Kötü kullanımlar: bankacılık, ödemeler, devlet hizmetleri ve tek kurtarma yolu o numaraya gelen SMS olan her hesap. Bunlar beş yıl sonra da sizin olacak bir numarayı hak ediyor.",
+        "Doğrulamadan hemen sonra: bir kurtarma e-postası ekleyin, uygulama tabanlı iki adımlı korumayı açın ve hizmet izin veriyorsa kiralık numarayı tek geri dönüş yolu olarak bırakmayın."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bu şekilde kullanıldığında kiralık numara, geri dönüşüm sorununun bir örneği değil, ona karşı bir savunma olur. Gerçek numaranız — bir gün kendisi de kapatılıp yeniden satılabilecek olan — onlarca veritabanına hiç girmez."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sık sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Eski bir numara ne kadar sürede başkasına verilir?",
+          "a": "ABD'de FCC kuralları, kapatılan bir numaranın yeniden tahsisten önce en az 45 gün «dinlendirilmesini» şart koşar ve operatörler çoğu zaman daha uzun bekler. Diğer ülkeler kendi sürelerini belirler; bazı ön ödemeli numaralar birkaç ay içinde yeniden dağıtılır."
+        },
+        {
+          "q": "Eski numaramın yeni sahibi hesaplarıma girebilir mi?",
+          "a": "Bir hesap o numarayı hâlâ parola sıfırlama ya da iki adımlı kodlar için kullanıyorsa, potansiyel olarak evet. Princeton araştırması, örneklemdeki geri dönüştürülmüş numaraların üçte ikisinin büyük sitelerdeki hesaplara hâlâ bağlı olduğunu buldu."
+        },
+        {
+          "q": "Hangi hesapların numaramı kullandığını nasıl bulurum?",
+          "a": "Parola yöneticiniz ve e-posta kutunuzla başlayın — «doğrulama kodu» ve «giriş» mesajlarını arayın. Ardından e-posta, banka, sosyal medya ve alışveriş hesaplarınızın güvenlik ayarlarını tek tek kontrol edin."
+        },
+        {
+          "q": "Kiralık sanal numaralar yeniden kullanılıyor mu?",
+          "a": "Evet, etkinleştirmeniz bittikten sonra. Bu yüzden doğrulama anı için tasarlanmışlardır. Kayıttan hemen sonra hesaba bir e-posta ve uygulama tabanlı iki adımlı koruma ekleyin."
+        },
+        {
+          "q": "SMS ile iki adımlı doğrulama hâlâ kullanmaya değer mi?",
+          "a": "Hiç ikinci faktör olmamasından iyidir; ama doğrulayıcı uygulama, geçiş anahtarı ya da donanım anahtarı daha güçlüdür ve telefon numarasının kimde olduğuna bağlı değildir."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

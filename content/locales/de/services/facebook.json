@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Facebook — Anmeldung ohne SIM",
+  "metaDescription": "Bestätige Facebook mit einer echten virtuellen Nummer aus über 100 Ländern. Code meist in Sekunden – Zahlung pro Aktivierung, Abbruch gratis ohne SMS.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Facebook",
+    "intro": [
+      "Auf dem Papier kannst du dich bei Facebook nur mit einer E-Mail registrieren. In der Praxis bleibt eine Telefonnummer selten außen vor: Das Registrierungsformular fragt oft nach einer, und neue Konten landen in den ersten Tagen regelmäßig an einem Sicherheits-Checkpoint – wo ein per SMS gesendeter Code der schnellste Weg ist, zu beweisen, dass ein echter Mensch hinter dem Profil steht.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, gibst sie Facebook, und der Bestätigungscode erscheint meist innerhalb von Sekunden in der App. Du zahlst pro Aktivierung aus einem einmaligen Münzpaket – kein Abo –, und wenn eine Nummer nichts empfängt, brichst du sie ohne Kosten ab."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Facebook?",
+    "body": [
+      "Ein Facebook Profil trägt schon deinen Namen, dein Gesicht und deine Freundesliste. Kommt deine private Telefonnummer dazu, verbindet sie das Profil mit allem anderen in deinem Leben – und Nummern, die an Facebook Konten hingen, wurden in der Vergangenheit in enormem Umfang abgegriffen und geleakt. Eine geleakte Nummer funktioniert wie ein Suchschlüssel: Sie verknüpft dein Profil mit Messengern, Marktplätzen und Datensätzen von Datenhändlern. Eine virtuelle Nummer gibt Facebook eine echte, funktionierende Nummer, die einfach nicht dieser Schlüssel ist.",
+      "Es gibt auch alltägliche Gründe: Du meldest dich im Ausland an und deine SIM von zu Hause kann keine SMS empfangen, oder du verkaufst auf dem Marketplace und möchtest nicht, dass Fremde eine Nummer haben, die in deiner Tasche klingelt. Wofür eine virtuelle Nummer nicht gedacht ist: Die Bedingungen von Facebook erlauben ein persönliches Konto pro Person, betrachte das also als Datenschutz für dein Konto, nicht als Weg, mehrere zu betreiben."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du Facebook mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code holen",
+        "body": "Öffne die App SMS Code, wähle Facebook als Dienst, such dir ein Land aus und tippe einmal. Eine echte Mobilnummer ist für die Dauer der Aktivierung nur für dich reserviert."
+      },
+      {
+        "title": "Eingeben, wenn Facebook fragt",
+        "body": "Das kann im Registrierungsformular selbst sein oder kurz danach an einem Checkpoint. Wähle die Ländervorwahl, die zur gemieteten Nummer passt – eine Abweichung ist der häufigste Grund, warum ein Code nie ankommt."
+      },
+      {
+        "title": "Bestätigungscode eintippen",
+        "body": "Die SMS landet meist innerhalb von Sekunden in der App SMS Code, vom Absender „Facebook“, im Format „285103 is your Facebook confirmation code“. Gib die Ziffern ein, und die Prüfung ist erledigt."
+      },
+      {
+        "title": "Konto an Dingen verankern, die du kontrollierst",
+        "body": "Füge sofort eine eigene E-Mail-Adresse hinzu und aktiviere die Zwei-Faktor-Authentifizierung per Authenticator-App unter Kontenübersicht → Passwort und Sicherheit. Ab dann hängen Login und Wiederherstellung nie mehr von der gemieteten Nummer ab."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Rechne mit dem Checkpoint – er ist Routine",
+      "body": "Facebook prüft neue Konten härter als fast jedes andere soziale Netzwerk. Ein Profilfoto, ein paar echte Angaben und ein menschliches Tempo helfen viel; ein halbleeres Konto, das in einer Stunde fünfzig Freunde hinzufügt, ist genau das, was die Filter auslöst."
+    },
+    {
+      "title": "Wiederherstellung am ersten Tag von der Nummer lösen",
+      "body": "Die gemietete Nummer ist für den Moment der Bestätigung da, nicht fürs Leben. Sobald du drin bist, bestätige eine E-Mail-Adresse und richte eine Authenticator-App ein – dann läuft kein künftiger Login- oder Wiederherstellungsablauf mehr über SMS."
+    },
+    {
+      "title": "Eine Person, ein Konto",
+      "body": "Die Bedingungen von Facebook sind eindeutig: ein persönliches Konto pro Person. Eine virtuelle Nummer hält deine echte Nummer auf deinem Konto privat – sie zum Vervielfachen von Konten zu nutzen, gefährdet alle davon."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Funktioniert mein Facebook Konto weiter, wenn die Nummer abläuft?",
+      "a": "Ja. Die Nummer wird im Moment der Bestätigung geprüft, nicht laufend. Füge direkt nach der Registrierung eine E-Mail und 2FA per Authenticator-App hinzu, dann hängt am Konto nie wieder etwas von dieser Nummer ab."
+    },
+    {
+      "q": "Kann ich mich ganz ohne Telefonnummer bei Facebook registrieren?",
+      "a": "Manchmal – eine Registrierung nur mit E-Mail gibt es. Viele neue Konten werden aber bei der Registrierung oder kurz danach an einem Checkpoint nach einem Telefon gefragt. Praktisch ist es, eine Nummer genau dann zu mieten, wenn Facebook tatsächlich eine verlangt."
+    },
+    {
+      "q": "Warum hat Facebook mein ganz neues Konto gesperrt?",
+      "a": "Checkpoints bei neuen Konten sind normal und kein Zeichen, dass du etwas falsch gemacht hast. Facebook bittet neue Profile regelmäßig, eine Telefonnummer zu bestätigen, und gelegentlich um ein Foto. Erledige den SMS-Schritt, füll das Profil in menschlichem Tempo weiter aus, und das Konto beruhigt sich."
+    },
+    {
+      "q": "Warum ist mein Facebook Code nicht angekommen?",
+      "a": "Meist eines von zwei Dingen: Die bei Facebook eingegebene Ländervorwahl passt nicht zur gemieteten Nummer, oder Facebook wollte an diese bestimmte Nummer keine SMS senden. Brich die offene Aktivierung in SMS Code ab – für Nummern, die nichts empfangen haben, gibt es die Münzen zurück – und versuche eine neue, am besten aus einem anderen Land."
+    },
+    {
+      "q": "Verstößt es gegen die Regeln, Facebook mit einer gemieteten Nummer zu bestätigen?",
+      "a": "Die Prüfungen von Facebook sollen bestätigen, dass eine Person erreichbar ist, und eine virtuelle Nummer ist eine echte, erreichbare Nummer. Was die Plattform tatsächlich durchsetzt, sind Verhalten und Echtheit: ein echtes Konto, keine Identitätstäuschung, kein Spam. Halte dich daran, und die Herkunft der Nummer spielt keine Rolle."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Cómo pedir el reembolso de una compra del App Store",
+  "metaDescription": "Las monedas de SMS Code las cobra Apple, así que el reembolso se pide a Apple. Guía paso a paso de reportaproblem.apple.com, con plazos y qué pasa después.",
+  "sections": [
+    {
+      "title": "Los reembolsos los gestiona Apple",
+      "paragraphs": [
+        "Los paquetes de monedas que compras en la app SMS Code son compras del App Store. Apple los cobra y Apple tiene el pago, así que solo Apple puede reembolsarlos. Así funciona con todas las apps del App Store: los desarrolladores no tienen forma de reembolsar una compra cobrada por Apple.",
+        "Apple revisa cada solicitud y decide si la aprueba. Enviarla suele llevar un par de minutos y no hace falta que nos contactes antes."
+      ]
+    },
+    {
+      "title": "Pide el reembolso en 6 pasos",
+      "id": "steps",
+      "steps": [
+        "Entra en [reportaproblem.apple.com](https://reportaproblem.apple.com/).",
+        "Inicia sesión con la Apple Account que usaste para la compra.",
+        "En **Me gustaría…**, elige **Solicitar un reembolso**.",
+        "Elige el motivo que encaje, por ejemplo **No tenía intención de comprar esto** o **No he recibido la compra dentro de la app**.",
+        "Selecciona la compra de monedas de SMS Code (por ejemplo, **20 Coins**) y pulsa **Siguiente**.",
+        "Envía la solicitud. Apple suele responder en 24–48 horas."
+      ],
+      "image": {
+        "src": "/help/apple-refund-reasons.png",
+        "alt": "Página «Informar de un problema» de Apple con «Solicitar un reembolso» seleccionado y la lista de motivos: no tenía intención de comprarlo, un menor hizo la compra sin permiso, no recibí la compra dentro de la app, derecho de desistimiento y otro.",
+        "width": 882,
+        "height": 417
+      },
+      "cta": {
+        "label": "Abrir reportaproblem.apple.com",
+        "href": "https://reportaproblem.apple.com/"
+      }
+    },
+    {
+      "title": "Después de enviarla",
+      "paragraphs": [
+        "Puedes ver el estado de la solicitud en el mismo sitio. Cuando Apple la aprueba, el saldo de la cuenta de Apple suele volver en 48 horas, las tarjetas y la mayoría de los otros métodos de pago en 30 días, y la facturación del operador móvil en 60 días. No podemos acelerar a Apple ni a tu banco.",
+        "Si Apple aprueba el reembolso, las monedas de esa compra se descuentan de tu saldo de SMS Code. No gastes monedas de una compra cuyo reembolso estás pidiendo."
+      ]
+    },
+    {
+      "title": "Cuándo escribirnos a nosotros",
+      "paragraphs": [
+        "Escríbenos si una activación falló y las monedas no volvieron a tu saldo, si pagaste pero las monedas nunca aparecieron ([faltan monedas](/support/missing-coins)), o si Apple te pidió contactar con el desarrollador. Podemos revisar la activación y enviarte los datos de la compra. Tus derechos como consumidor no se ven afectados."
+      ]
+    }
+  ]
+}

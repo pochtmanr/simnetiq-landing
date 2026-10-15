@@ -1,0 +1,99 @@
+{
+  "metaTitle": "Alternatywa dla 5SIM — aplikacja SMS Code od SIMNETIQ",
+  "metaDescription": "5SIM w porównaniu z aplikacją SMS Code od SIMNETIQ: platforma webowa i API z doładowaniem salda kontra aplikacja mobilna z pakietami monet i anulowaniem gratis.",
+  "hero": {
+    "title": "Alternatywa dla 5SIM w formie natywnej aplikacji mobilnej",
+    "intro": [
+      "5SIM to ugruntowana platforma webowa do odbierania kodów weryfikacyjnych SMS: doładowujesz saldo, kupujesz numer do potrzebnej usługi i odczytujesz kod w panelu. Ich strona główna celuje zarówno w hurt, jak i detal, z API do automatyzacji i katalogiem, który według ich strony obejmuje ponad 180 krajów i ponad tysiąc usług.",
+      "SMS Code od SIMNETIQ podchodzi do tego samego zadania od strony konsumenta. To natywna aplikacja na iOS: wybierz usługę i kraj, dostań prawdziwy numer, a kod trafia do aplikacji zwykle w ciągu kilku sekund. Płacisz jednorazowymi pakietami monet przez rozliczenia Apple – bez portfela w sieci, bez abonamentu – a aktywacje, które nigdy nie odbiorą SMS-a, anulują się za darmo."
+    ]
+  },
+  "whenThem": {
+    "title": "Kiedy 5SIM jest lepszym wyborem",
+    "body": "Wybierz 5SIM, jeśli chodzi o skalę lub automatyzację. Ich platforma jest skierowana do webmasterów, specjalistów SMM i przedsiębiorców kupujących numery w ilościach, a API pozwala oskryptować cały cykl – zakup, odpytywanie o SMS, dalej. Katalog jest też po prostu większy: jeśli potrzebujesz niszowej usługi lub nietypowej kombinacji krajów, platforma o takiej skali ma większą szansę mieć ją w ofercie niż wyselekcjonowana aplikacja konsumencka."
+  },
+  "whenUs": {
+    "title": "Kiedy lepiej pasuje aplikacja SMS Code",
+    "body": "Wybierz aplikację, jeśli weryfikujesz konta dla siebie, a nie setkami. Nie ma salda do zasilania z góry ani panelu do przeklikiwania na ekranie telefonu: cały proces – usługa, kraj, numer, kod – to natywne doświadczenie mobilne zainstalowane z App Store. Jednorazowe pakiety monet oznaczają płatność za aktywację przez rozliczenia sklepu (dane karty nigdy do nas nie trafiają), zasięg obejmuje ponad 100 krajów i ponad 100 popularnych usług, a nieodebrane aktywacje anulują się automatycznie za darmo."
+  },
+  "comparison": {
+    "title": "5SIM i aplikacja SMS Code obok siebie",
+    "rows": [
+      {
+        "label": "Platformy",
+        "competitor": "Platforma webowa z API do automatycznych zakupów",
+        "us": "Natywna aplikacja na iOS z App Store"
+      },
+      {
+        "label": "Model cenowy",
+        "competitor": "Płatność za numer z doładowanego salda portfela",
+        "us": "Jednorazowe pakiety monet, płatność za aktywację – bez abonamentu"
+      },
+      {
+        "label": "Płatność",
+        "competitor": "Doładowanie portfela w sieci metodami wymienionymi na ich stronie",
+        "us": "Rozliczenia Apple – bez udostępniania nam danych karty"
+      },
+      {
+        "label": "Zasięg",
+        "competitor": "Ich strona podaje ponad 180 krajów i katalog ponad 1000 usług",
+        "us": "Ponad 100 krajów i ponad 100 popularnych usług, wyselekcjonowanych pod codzienne rejestracje"
+      },
+      {
+        "label": "Anulowanie",
+        "competitor": "Według ich własnych zasad zwrotów – sprawdź aktualne warunki",
+        "us": "Aktywacje bez SMS-a anulują się za darmo, monety wracają"
+      },
+      {
+        "label": "Wsparcie",
+        "competitor": "Ich strona reklamuje wsparcie 24/7",
+        "us": "Formularz kontaktowy w aplikacji i na stronie"
+      },
+      {
+        "label": "Najlepsze dla",
+        "competitor": "Hurtowych kupujących i deweloperów skryptujących weryfikacje przez API",
+        "us": "Osób chcących czystej aplikacji mobilnej do okazjonalnych weryfikacji"
+      }
+    ],
+    "note": "Informacje o konkurencji odzwierciedlają jej publiczną stronę w chwili pisania i mogą się zmienić – zawsze sprawdź na 5sim.net przed decyzją."
+  },
+  "switchSteps": {
+    "title": "Wypróbowanie aplikacji to trzy kroki",
+    "steps": [
+      {
+        "title": "Zainstaluj aplikację",
+        "body": "Pobierz SMS Code od SIMNETIQ z App Store – bez zakładania konta w sieci ani konfiguracji portfela."
+      },
+      {
+        "title": "Weź pakiet monet",
+        "body": "Kup jednorazowy pakiet przez konto w sklepie. Żadnego zasilonego z góry salda leżącego na stronie; monety wydajesz tylko przy aktywacji numeru."
+      },
+      {
+        "title": "Uruchom pierwszą aktywację",
+        "body": "Wybierz usługę i kraj, dostań prawdziwy numer i patrz, jak kod dociera do aplikacji zwykle w ciągu kilku sekund. Jeśli nic nie przyjdzie, aktywacja anuluje się za darmo."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Czym aplikacja SMS Code różni się od 5SIM?",
+      "a": "5SIM to platforma webowa z saldem portfela i API, nastawiona na hurtowych kupujących. Aplikacja SMS Code od SIMNETIQ to natywna aplikacja mobilna dla osób prywatnych: jednorazowe pakiety monet przez rozliczenia sklepu, kilka stuknięć na aktywację i darmowe anulowanie, gdy SMS nie przyjdzie."
+    },
+    {
+      "q": "Czy aplikacja ma API jak 5SIM?",
+      "a": "Nie. Aplikacja jest celowo produktem konsumenckim – jeśli musisz kupować numery programowo, API 5SIM to lepsze narzędzie. Jeśli potrzebujesz kodu od czasu do czasu, aplikacja to krótsza droga."
+    },
+    {
+      "q": "Czy muszę z góry doładować saldo?",
+      "a": "Kupujesz jednorazowe pakiety monet przez rozliczenia Apple i wydajesz je na aktywacje. Nie ma portfela w sieci do utrzymywania i nie ma abonamentu."
+    },
+    {
+      "q": "Co, jeśli kod weryfikacyjny nigdy nie przyjdzie?",
+      "a": "Aktywacja się anuluje, a monety wracają automatycznie. Płacisz tylko za numery, które faktycznie odbiorą SMS."
+    },
+    {
+      "q": "Czy lista krajów 5SIM jest większa niż w aplikacji?",
+      "a": "Według ich własnej strony głównej – tak; podają ponad 180 krajów wobec ponad 100 w aplikacji. Lista aplikacji jest wyselekcjonowana wokół krajów, które niezawodnie działają z popularnymi usługami; jeśli potrzebujesz czegoś egzotycznego, większy katalog może lepiej Ci posłużyć."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer LINE — weryfikacja bez lokalnej karty SIM",
+  "metaDescription": "Wynajmij prawdziwy numer wirtualny do weryfikacji LINE. Zarejestruj się bez prywatnego numeru – kod SMS przychodzi do aplikacji SMS Code zwykle w kilka sekund.",
+  "hero": {
+    "title": "Numer wirtualny do LINE",
+    "intro": [
+      "Jeśli Twoi przyjaciele, rodzina lub współpracownicy są w Japonii, Tajwanie, Tajlandii czy Indonezji, prędzej czy później ktoś powie: „dodaj mnie na LINE”. Aplikacja jest domyślnym komunikatorem w dużej części Azji – i nie wpuści Cię bez numeru telefonu, który weryfikuje SMS-em, zanim w ogóle ustawisz nazwę wyświetlaną.",
+      "SMS Code daje Ci prawdziwy numer z jednego z ponad 100 krajów. Wpisz go na ekranie rejestracji LINE, a czterocyfrowy kod weryfikacyjny pojawi się w aplikacji SMS Code zwykle w ciągu kilku sekund – Twój własny numer zostaje całkowicie poza tym."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do LINE?",
+    "body": [
+      "LINE traktuje numer telefonu jako Twoją tożsamość: tak się rejestrujesz, tak znajomi mogą Cię wyszukać i na tym opiera się konto w razie problemów. Jeśli potrzebujesz LINE tylko do kontaktu ze znajomymi w Azji – albo dlatego, że gra lub usługa, z której korzystasz, uzależnia logowanie od konta LINE – oddanie prywatnego numeru to dużo jak na aplikację używaną może okazjonalnie. Numer wirtualny utrzymuje konto w pełni funkcjonalne, a prawdziwy numer pozostaje prywatny.",
+      "Rozwiązuje też problem praktyczny: LINE wiąże jedno konto z jednym numerem, więc każdy, kto chce osobnego profilu – na przykład dla hobbystycznej społeczności albo azjatyckiej gry wymagającej logowania przez LINE – potrzebuje drugiego numeru. Wynajęcie go na jedną aktywację jest znacznie prostsze niż utrzymywanie zapasowej karty SIM tylko dla komunikatora."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować LINE numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz LINE jako usługę i kraj – Indonezja i Filipiny to popularne wybory, bo LINE jest tam powszechnie używany. Jedno stuknięcie rezerwuje dla Ciebie prawdziwy numer komórkowy."
+      },
+      {
+        "title": "Zacznij rejestrację w LINE tym numerem",
+        "body": "W LINE wybierz „Zarejestruj się”, ustaw ten sam kraj co wynajęty numer i wpisz go. LINE zaproponuje weryfikację SMS-em – wybierz tę opcję zamiast połączenia głosowego."
+      },
+      {
+        "title": "Wpisz kod z SMS Code",
+        "body": "Wiadomość trafia do aplikacji SMS Code zwykle w kilka sekund: „Your verification code is 4820. Enter it in LINE within the next 30 mins.” Wpisz cztery cyfry w LINE, zanim wygasną."
+      },
+      {
+        "title": "Ustaw e-mail i hasło",
+        "body": "Po wejściu przejdź do Ustawienia → Konto i zarejestruj adres e-mail z hasłem. To będzie Twój niezależny login do przeniesienia LINE na nowy telefon w przyszłości, więc konto nigdy nie będzie zależeć od odebrania kolejnego SMS-a."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kod ma limit czasu",
+      "body": "Kody SMS z LINE wygasają – sama wiadomość mówi, w ciągu ilu minut. Nie wynajmuj numeru i nie odchodź: miej otwarty ekran rejestracji LINE, zanim poprosisz o kod, a potem wpisz go, gdy tylko pojawi się w SMS Code."
+    },
+    {
+      "title": "Od razu zarejestruj e-mail",
+      "body": "LINE wiąże historię czatów i przenoszenie konta z zarejestrowanym e-mailem i hasłem, a nie tylko z numerem. Dodaj je zaraz po rejestracji w Ustawienia → Konto – to najważniejszy pojedynczy krok, by konto pozostało użyteczne długo po zamknięciu okna aktywacji wynajętego numeru."
+    },
+    {
+      "title": "Wyłącz „Pozwól innym dodawać po numerze”",
+      "body": "W ustawieniach Znajomych w LINE wyłącz opcję, która pozwala ludziom dodawać Cię przez wyszukanie numeru telefonu. Z numerem wirtualnym i tak nikt nie znajdzie Twojej prawdziwej tożsamości, ale wyłączenie tej opcji zatrzymuje też obcych, którzy przeglądają kolejne numery, przed trafianiem do Twoich zaproszeń."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy LINE działa poza Azją z numerem wirtualnym?",
+      "a": "Tak. LINE jest dostępny na całym świecie; po prostu jest najpopularniejszy w Japonii, Tajwanie, Tajlandii i Indonezji. Możesz zarejestrować się numerem z dowolnego obsługiwanego kraju i czatować z kontaktami gdziekolwiek – kraj numeru nie ogranicza, z kim możesz rozmawiać."
+    },
+    {
+      "q": "Czy konto LINE założone w ten sposób mogę wykorzystać do logowania w grach?",
+      "a": "Tak. Wiele gier i usług w Azji oferuje „Zaloguj przez LINE”. Gdy Twoje konto LINE jest zweryfikowane i masz zarejestrowany e-mail z hasłem, działa jako metoda logowania jak każde inne konto LINE."
+    },
+    {
+      "q": "Czy konto LINE przetrwa wygaśnięcie wynajętego numeru?",
+      "a": "Numer jest sprawdzany przy rejestracji, a nie przy każdym uruchomieniu. Pozostań zalogowany i – co kluczowe – zarejestruj e-mail i hasło w Ustawienia → Konto. Dzięki nim możesz nawet przenieść konto na nowy telefon bez odbierania kolejnego SMS-a na stary numer."
+    },
+    {
+      "q": "Dlaczego kod weryfikacyjny LINE nie dotarł?",
+      "a": "Najczęściej kraj wybrany w LINE nie pasuje do wynajętego numeru albo LINE przełączył się na weryfikację połączeniem głosowym, którego wynajęty numer SMS nie odbierze. Anuluj aktywację w SMS Code – nic nie jest pobierane, gdy SMS nie przyjdzie – a potem weź nowy numer i upewnij się, że wybraną metodą jest SMS."
+    },
+    {
+      "q": "Czy mogę mieć dwa konta LINE na jednym telefonie?",
+      "a": "Aplikacja LINE obsługuje jedno konto na urządzenie, więc drugie konto wymaga drugiego urządzenia lub narzędzi biznesowych LINE. Numer wirtualny rozwiązuje stronę numeru: każde konto musi być powiązane z własnym numerem, a wynajęcie go oszczędza zakupu dodatkowej karty SIM."
+    }
+  ]
+}

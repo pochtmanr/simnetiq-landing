@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Netflix — weryfikacja bez własnego telefonu",
+  "metaDescription": "Odbierz kod weryfikacyjny Netflix na prawdziwy numer wirtualny zwykle w kilka sekund i oddziel okresy próbne oraz subskrypcje od prywatnego telefonu.",
+  "hero": {
+    "title": "Numer wirtualny do Netflixa",
+    "intro": [
+      "Netflix to usługa oparta przede wszystkim na e-mailu – ale krok z telefonem wciąż się wkrada. Niektóre regiony i ścieżki rejestracji od razu weryfikują numer, plany mobilne w kilku krajach są wokół niego zbudowane, a aplikacja wysyła kod w rodzaju „Your Netflix verification code is 428916”, gdy chce się upewnić, że to naprawdę Ty.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, a kod trafia do aplikacji zwykle w ciągu kilku sekund. Subskrypcja zostaje zweryfikowana – a Twój prywatny numer nie trafia do kolejnej bazy klientów."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Netflixa?",
+    "body": [
+      "Konto streamingowe to dziwnie osobista rzecz: wie, co oglądasz, kiedy zasypiasz i kto dzieli z Tobą kanapę. Dodaj prywatny numer jako kontakt do odzyskiwania, a powiążesz ten profil z prawdziwą tożsamością – i dasz kolejnej firmie numer, na który można kierować SMS-y z resetem hasła. Jeśli konto jest domowe albo to okres próbny, którego możesz nie zatrzymać, nie ma powodu, by Twoja karta SIM była jego kotwicą.",
+      "Uczciwa druga strona: ponieważ Netflix opiera się na e-mailu, telefon rzadko jest tu fundamentem konta – to punkt kontrolny. Właśnie dlatego numer wirtualny tak dobrze pasuje. Przejmuje moment weryfikacji (rejestracja, sprawdzenie nowego urządzenia, monit odzyskiwania), a e-mail, który kontrolujesz, pozostaje tym, od czego konto naprawdę zależy."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Netflix numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Wybierz Netflix jako usługę i kraj – najlepiej ten, w którym się rejestrujesz i płacisz. Jedno stuknięcie rezerwuje dla Ciebie prawdziwy numer komórkowy."
+      },
+      {
+        "title": "Wpisz go, gdy Netflix poprosi",
+        "body": "Monit o telefon pojawia się w niektórych ścieżkach przy rejestracji albo później w ustawieniach konta, gdy dodajesz telefon. Wybierz numer kierunkowy numeru i starannie go wpisz."
+      },
+      {
+        "title": "Wpisz kod",
+        "body": "SMS brzmi „Your Netflix verification code is 428916” i pojawia się w aplikacji SMS Code zwykle w ciągu kilku sekund. Wpisz go, a numer zostanie potwierdzony."
+      },
+      {
+        "title": "Trzymaj e-mail jako kotwicę",
+        "body": "Upewnij się, że e-mail konta to taki, który kontrolujesz, a hasło jest silne. Jeśli nie planujesz zatrzymać wynajętego numeru, usuń lub zmień potem telefon w ustawieniach konta – Netflix nie powinien mieć powodu pisać na numer, którego już nie czytasz."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Może w ogóle nie potrzebujesz numeru",
+      "body": "Wiele rejestracji w Netflixie nigdy nie prosi o telefon – wystarczą e-mail i płatność. Najpierw sprawdź swoją ścieżkę i wynajmij numer dopiero wtedy, gdy ekran z telefonem rzeczywiście się pojawi. Aktywacja anulowana, zanim przyjdzie jakikolwiek SMS, nic nie kosztuje."
+    },
+    {
+      "title": "Nie zostawiaj martwego numeru do odzyskiwania",
+      "body": "Jeśli telefon pozostaje na koncie, Netflix może wysyłać tam kody logowania lub linki resetu. Po weryfikacji zamień go na numer, który kontrolujesz, albo całkiem usuń, żeby moment zapomnianego hasła nigdy nie zależał od numeru, którego już nie ma."
+    },
+    {
+      "title": "Numer nie nagnie zasad",
+      "body": "Kontrole gospodarstwa domowego, regionalne katalogi i oferty „jedna na klienta” Netflix egzekwuje własnymi sygnałami, a nie przez Twój telefon. Numer wirtualny to narzędzie prywatności na krok SMS – nie przenosi Twojego regionu ani nie mnoży promocji, a takie próby zwykle kończą się oznaczeniem kont."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy Netflix zawsze prosi o numer telefonu?",
+      "a": "Nie. Większość rejestracji działa na samym e-mailu i płatności. Telefon pojawia się w niektórych regionach i ścieżkach – plany mobilne, dodatkowe kontrole bezpieczeństwa, konfiguracja odzyskiwania. Gdy Twoja ścieżka o niego poprosi, numer wirtualny odbierze kod dokładnie jak SIM."
+    },
+    {
+      "q": "Czy moje konto Netflix będzie działać po wygaśnięciu wynajętego numeru?",
+      "a": "Tak. Konta Netflix są zakotwiczone w e-mailu i haśle; telefon to punkt kontrolny, a nie fundament. Potwierdź e-mail, ustaw silne hasło i usuń lub zmień wynajęty numer w ustawieniach konta – potem nic od niego nie zależy."
+    },
+    {
+      "q": "Czy mogę rozpocząć okres próbny lub promocję Netflix z numerem wirtualnym?",
+      "a": "Tam, gdzie Netflix prowadzi okresy próbne lub oferty startowe, jego warunki ograniczają je do jednej na klienta. Numer wirtualny trzyma prywatny telefon z dala od rejestracji – nie jest sposobem na zebranie tej samej oferty dwa razy, a sztuczki z duplikatami kont zwykle kończą się anulowanymi promocjami."
+    },
+    {
+      "q": "Czy to zmieni mój region lub katalog Netflix?",
+      "a": "Nie. To, co możesz oglądać, wynika z Twojej lokalizacji i sposobu rozliczania konta według własnych zasad Netflixa – numer telefonu nie odgrywa w tym roli. Wybierz numer z własnego kraju, żeby dane konta były spójne."
+    },
+    {
+      "q": "Dlaczego kod z Netflixa nie dotarł?",
+      "a": "Sprawdź, czy wybrany numer kierunkowy pasuje do wynajętego numeru, i zajrzyj na e-mail konta – Netflix czasem weryfikuje tam zamiast SMS-em. Jeśli SMS nigdy nie przyszedł, anuluj aktywację w SMS Code bez opłat i weź nowy numer."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Signal — private Anmeldung ohne SIM",
+  "metaDescription": "Registriere Signal mit einer echten virtuellen Nummer aus über 100 Ländern. Code meist in Sekunden – Zahlung pro Aktivierung, Abbruch gratis ohne SMS.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Signal",
+    "intro": [
+      "Das ist die Ironie von Signal: Der Messenger, der alles verschlüsselt, fast nichts speichert und von jedem Datenschutzforscher empfohlen wird, fragt trotzdem nach einer Telefonnummer, bevor du deine erste Nachricht senden kannst. Die Registrierung baut auf dem SMS-Code auf – obwohl Benutzernamen inzwischen dafür sorgen, dass diese Nummer danach niemand mehr sehen muss.",
+      "Mit SMS Code schließt du diese letzte Lücke: Miete eine echte Mobilnummer in einem von über 100 Ländern, registriere Signal damit, und der Code erscheint meist innerhalb von Sekunden in der App. Du zahlst pro Aktivierung aus einem einmaligen Münzpaket – kein Abo –, und eine Aktivierung ohne empfangene SMS wird kostenlos abgebrochen."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Signal?",
+    "body": [
+      "Wenn du dich für Signal entschieden hast, dann wegen der Metadaten, die es nicht speichert – und die Telefonnummer ist die eine Kennung, die die Registrierung immer noch verlangt. Mit deiner privaten Nummer zu registrieren, untergräbt still den Rest des Designs: Der Messenger verrät nichts, aber die hinterlegte Nummer ist dieselbe, die an deiner Bank, deinem Arbeitgeber und den Datensätzen jedes Datenhändlers hängt. Eine gemietete Nummer vervollständigt das Bild, das Signal begonnen hat.",
+      "Seit es Benutzernamen gibt, ist die einzige verbleibende Aufgabe der Nummer die Registrierung. Kontakte können dich über den Benutzernamen finden, und die Datenschutzeinstellungen machen die Nummer unsichtbar und unauffindbar: „Wer kann meine Nummer sehen“ – Niemand, „Wer kann mich über meine Nummer finden“ – Niemand. Kombiniere diese Einstellungen mit einer virtuellen Nummer, und das Konto ist über deine echte Nummer nicht auffindbar, aus dem einfachen Grund, dass deine echte Nummer nie beteiligt war."
+    ]
+  },
+  "howTo": {
+    "title": "So registrierst du Signal mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code holen",
+        "body": "Öffne die App SMS Code, wähle Signal als Dienst, such dir ein Land aus und tippe einmal. Eine echte Mobilnummer ist für die Dauer der Aktivierung nur für dich reserviert."
+      },
+      {
+        "title": "Bei Signal eingeben",
+        "body": "Wähle im Registrierungsbildschirm die passende Ländervorwahl und tippe die Nummer ein. Signal zeigt manchmal ein Captcha, bevor es den Code sendet – das ist seine Anti-Missbrauchsprüfung, löse es einfach."
+      },
+      {
+        "title": "Code holen",
+        "body": "Die SMS landet meist innerhalb von Sekunden in der App SMS Code, im Format „SIGNAL: Your code is: 613904“. Gib die Ziffern ein, und die Registrierung ist abgeschlossen."
+      },
+      {
+        "title": "PIN festlegen und Benutzernamen sichern",
+        "body": "Erstelle deine Signal PIN und aktiviere dann die Registrierungssperre unter Einstellungen → Konto. Lege als Nächstes einen Benutzernamen fest und stelle „Wer kann meine Nummer sehen“ und „Wer kann mich über meine Nummer finden“ auf Niemand. Jetzt hat die Nummer ihre eine Aufgabe erledigt und verschwindet aus dem Blickfeld."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Die Registrierungssperre ist dein Sicherheitsnetz",
+      "body": "Mit aktiver Registrierungssperre erfordert eine erneute Registrierung deiner Nummer die Signal PIN – so kann niemand, der diese Nummer später hat, das Konto übernehmen. Ein Vorbehalt direkt aus dem Design von Signal: Die Sperre bleibt nur scharf, solange das Konto genutzt wird, öffne die App also mindestens einmal pro Woche."
+    },
+    {
+      "title": "Lass den Benutzernamen sprechen",
+      "body": "Teile deinen Benutzernamen, nicht die Nummer – das ist der ganze Sinn der Funktion. Du kannst den Benutzernamen jederzeit ändern, und mit den Datenschutzschaltern für die Telefonnummer auf Niemand können selbst Leute, die irgendwie die gemietete Nummer erfahren, das Konto darüber nicht finden."
+    },
+    {
+      "title": "Dein Konto lebt auf deinem Gerät",
+      "body": "Getreu seiner Philosophie speichert Signal keine Cloud-Kopie deiner Chats – Konto und Verlauf existieren auf deinem Telefon. Der Umzug auf ein neues Telefon funktioniert über die eingebaute Übertragung, solange das alte noch läuft. Plane damit: Ist das Fenster der gemieteten Nummer geschlossen, ist das Gerät selbst das Konto."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Führt es nicht den Zweck ad absurdum, dass der privateste Messenger eine Telefonnummer verlangt?",
+      "a": "Das ist eine echte Spannung, und Signal weiß das – deshalb gibt es Benutzernamen und die Datenschutzeinstellungen für die Telefonnummer. Die Nummer wird einmal verlangt, bei der Registrierung, als Maßnahme gegen Spam. Eine virtuelle Nummer erfüllt diese Anforderung, ohne das Konto mit dir zu verknüpfen – wohl die Art der Anmeldung, die am meisten im Geist von Signal ist."
+    },
+    {
+      "q": "Sieht irgendwer die Nummer, mit der ich mich registriert habe?",
+      "a": "Nicht, wenn du die Schalter umlegst: Stelle „Wer kann meine Nummer sehen“ und „Wer kann mich über meine Nummer finden“ auf Niemand und teile stattdessen deinen Benutzernamen. Ab dann taucht die Nummer nirgends mehr auf – nicht in deinem Profil, nicht in der Suche."
+    },
+    {
+      "q": "Was passiert mit meinem Signal Konto, wenn die gemietete Nummer abläuft?",
+      "a": "Das Konto funktioniert auf deinem Gerät weiter – die Nummer wurde für die einmalige Registrierung gebraucht. Aktiviere die Registrierungssperre, damit niemand die Nummer ohne deine PIN neu registrieren kann, und nutze die App weiter, damit die Sperre aktiv bleibt."
+    },
+    {
+      "q": "Was, wenn ich mein Telefon verliere oder Signal neu installiere?",
+      "a": "Das ist die ehrliche Einschränkung: Eine erneute Registrierung erfordert, wieder einen Code auf der Nummer zu empfangen, und eine abgelaufene Miete kann das nicht. Zieh auf ein neues Telefon um, solange das alte noch funktioniert, und betrachte das Gerät als Zuhause des Kontos. Für ein Setup mit Datenschutz an erster Stelle ist dieser Kompromiss meist akzeptabel – geh ihn nur bewusst ein."
+    },
+    {
+      "q": "Warum ist mein Signal Code nicht angekommen?",
+      "a": "Signal ist vorsichtig bei Registrierungen, die es verdächtig findet: Möglicherweise bekommst du zuerst ein Captcha, und manche Nummern werden direkt abgelehnt. Prüfe, ob die Ländervorwahl passt, löse ein eventuelles Captcha, und kommt die SMS immer noch nicht, brich die Aktivierung in SMS Code ab – für Nummern, die nichts empfangen haben, gibt es die Münzen zurück – und versuche eine andere Nummer oder ein anderes Land."
+    }
+  ]
+}

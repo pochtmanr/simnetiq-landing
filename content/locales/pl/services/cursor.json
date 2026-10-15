@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Cursor — weryfikacja konta deweloperskiego",
+  "metaDescription": "Zweryfikuj rejestrację w Cursor prawdziwym numerem wirtualnym. Kod SMS przychodzi zwykle w kilka sekund – trzymaj prywatny numer z dala od kont narzędzi dev.",
+  "hero": {
+    "title": "Numer wirtualny do Cursor",
+    "intro": [
+      "Cursor – edytor kodu oparty na AI – kręci się w tym samym kole co każde narzędzie deweloperskie rozdające moc obliczeniową: darmowe plany przyciągają nadużycia, więc rejestracje są zabezpieczane. Oprócz potwierdzenia e-mailem Cursor może poprosić o weryfikację numeru telefonu SMS-em, zanim konto lub okres próbny wystartuje – właśnie dlatego, że działający numer komórkowy trudniej masowo wyprodukować niż skrzynkę pocztową.",
+      "SMS Code wynajmuje Ci prawdziwy numer w jednym z ponad 100 krajów. Gdy rejestracja w Cursor poprosi o telefon, wpisz wynajęty – sześciocyfrowy kod pojawi się w aplikacji SMS Code zwykle w ciągu kilku sekund, a Twój prywatny numer nie trafi do kolejnej bazy SaaS."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Cursor?",
+    "body": [
+      "Deweloperzy zbierają konta jak warsztaty śrubokręty – edytory, chmury, API, usługi CI – a każde coraz częściej chce numeru telefonu. Podpięcie prywatnego numeru do nich wszystkich oznacza, że trafia on do każdego wycieku u dostawcy, listy marketingowej i grafu powiązań kont. Wynajęty numer pomiędzy tożsamościami w narzędziach deweloperskich a prawdziwą to ten sam odruch co służbowy e-mail: rozdzielenie domyślnie, a prawdziwy numer zarezerwowany dla ludzi, nie platform.",
+      "Jest też naprawdę techniczny przypadek użycia. Jeśli budujesz lub testujesz proces rejestracji – we własnym produkcie albo sprawdzając, jak onboarding Cursor zachowuje się dla świeżego użytkownika – potrzebujesz prawdziwego numeru, który naprawdę odbiera SMS-y, a nie własnego numeru zużytego na konto testowe. Wynajęta aktywacja daje dokładnie to: jeden prawdziwy numer odbiorczy, użyty raz, bez szuflady pełnej kart SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Cursor numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz Cursor jako usługę i kraj – typowe wybory dla narzędzi dev to USA, Niemcy lub Holandia. Numer zostaje od razu zarezerwowany dla Ciebie."
+      },
+      {
+        "title": "Zarejestruj się i wpisz numer",
+        "body": "Utwórz konto Cursor z e-mailem, który kontrolujesz. Gdy proces poprosi o weryfikację numeru telefonu, wpisz wynajęty numer z pasującym numerem kierunkowym."
+      },
+      {
+        "title": "Wpisz kod z SMS Code",
+        "body": "SMS trafia do aplikacji SMS Code zwykle w ciągu kilku sekund – „Your Cursor verification code is 812750”. Wklej sześć cyfr w pole weryfikacji Cursor i gotowe."
+      },
+      {
+        "title": "Zabezpiecz samo konto",
+        "body": "Zakończ podstawami: silne, unikalne hasło i potwierdzony e-mail. Codzienne logowanie do Cursor opiera się na nich, a nie na SMS-ach – weryfikacja telefonu była jednorazową bramką, a nie powtarzalną."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Otwórz rejestrację, zanim wynajmiesz",
+      "body": "Kody weryfikacyjne żyją krótko, a okno aktywacji jest ograniczone. Najpierw doprowadź do ekranu weryfikacji telefonu w Cursor, potem wynajmij numer i poproś o kod – SMS przyjdzie zwykle w ciągu kilku sekund, gdy będziesz gotowy."
+    },
+    {
+      "title": "E-mail to konto, telefon to bramka",
+      "body": "Cursor rozpoznaje Cię po loginie e-mail, a sprawy licencji czy subskrypcji idą przez niego. Użyj skrzynki, którą zachowasz, a konto bez problemu przeżyje okno aktywacji wynajętego numeru."
+    },
+    {
+      "title": "Jedno konto, zgodnie z zasadami",
+      "body": "Bramki telefoniczne istnieją, bo darmowe plany są farmione. Używaj numeru wirtualnego, by chronić prywatny numer na swoim prawdziwym koncie – nie do mnożenia kont próbnych, co narusza warunki Cursor i zwykle kończy się zablokowanymi kontami."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy Cursor zawsze prosi o numer telefonu?",
+      "a": "Niekoniecznie – jak wiele narzędzi dev, Cursor stosuje weryfikację telefonu wybiórczo, często w zależności od sygnałów przy rejestracji i presji nadużyć. Jeśli prośba się pojawi, wynajęty numer wirtualny spełni ją zwykle w ciągu kilku sekund."
+    },
+    {
+      "q": "Czy moje konto Cursor będzie działać po wygaśnięciu numeru?",
+      "a": "Tak. Sprawdzenie SMS odbywa się przy rejestracji; potem logujesz się e-mailem i hasłem. Koniec okna aktywacji wynajętego numeru nie zmienia niczego w koncie, z którego już korzystasz."
+    },
+    {
+      "q": "Czy mogę użyć numeru wirtualnego do testowania rejestracji SMS we własnym produkcie?",
+      "a": "Tak – to naprawdę przydatny wzorzec deweloperski. Wynajęty numer to prawdziwy numer odbiorczy u prawdziwego operatora, więc możesz przejść proces OTP od początku do końca jako nowy użytkownik, nie zużywając prywatnego numeru na konto testowe."
+    },
+    {
+      "q": "Dlaczego kod weryfikacyjny Cursor nie dotarł?",
+      "a": "Najczęściej niezgodny numer kierunkowy albo usługa odrzuciła ten konkretny zakres numerów. Anuluj aktywację w SMS Code – brak SMS-a oznacza, że monety wracają na saldo – i spróbuj z innym numerem lub krajem."
+    },
+    {
+      "q": "Czy weryfikacja Cursor numerem wirtualnym jest dozwolona?",
+      "a": "Weryfikacja potwierdza, że kontrolujesz prawdziwy numer, a wynajęty jest dokładnie tym. Liczy się to, co robisz dalej: jedno prawdziwe konto zgodne z warunkami Cursor jest w porządku; farmienie wielu darmowych okresów próbnych – nie, z numerem wirtualnym czy bez."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Cursor — Entwicklerkonto bestätigen",
+  "metaDescription": "Bestätige deine Registrierung bei Cursor mit einer echten virtuellen Nummer. Der SMS-Code kommt meist in Sekunden – ohne deine Nummer in Dev-Tool-Konten.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Cursor",
+    "intro": [
+      "Cursor – der KI-gestützte Code-Editor – steckt im selben Hamsterrad wie jedes Dev-Tool, das Rechenleistung verschenkt: Kostenlose Stufen ziehen Missbrauch an, also werden Registrierungen abgesichert. Neben der E-Mail-Bestätigung kann Cursor verlangen, eine Telefonnummer per SMS zu bestätigen, bevor ein Konto oder eine Testphase startet – genau weil eine funktionierende Mobilnummer schwerer massenhaft herzustellen ist als ein Postfach.",
+      "SMS Code vermietet dir eine echte Nummer in einem von über 100 Ländern. Wenn die Registrierung bei Cursor nach einem Telefon fragt, gib die gemietete ein – der sechsstellige Code erscheint meist innerhalb von Sekunden in der App SMS Code, und deine private Nummer bleibt aus noch einer SaaS-Datenbank heraus."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Cursor?",
+    "body": [
+      "Entwickler sammeln Konten wie Werkbänke Schraubenzieher – Editoren, Clouds, APIs, CI-Dienste –, und jedes will immer öfter eine Telefonnummer. Hängst du deine private Nummer an alle davon, steckt sie in jedem Datenleck eines Anbieters, jeder Marketingliste und jedem Kontoverknüpfungsgraphen. Eine gemietete Nummer zwischen deinen Dev-Tool-Identitäten und deiner echten ist derselbe Instinkt wie eine Arbeits-E-Mail: Trennung als Standard, deine echte Nummer bleibt Menschen vorbehalten, nicht Plattformen.",
+      "Es gibt auch einen echten technischen Anwendungsfall. Wenn du einen Registrierungsablauf baust oder testest – den deines eigenen Produkts, oder wenn du prüfst, wie sich das Onboarding von Cursor für einen frischen Nutzer verhält –, brauchst du eine echte Nummer, die wirklich SMS empfängt, und nicht deine eigene Nummer, verbraucht für ein Testkonto. Eine gemietete Aktivierung gibt dir genau das: eine echte Empfangsnummer, einmal genutzt, ohne Schublade voller SIM-Karten."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du Cursor mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code mieten",
+        "body": "Öffne die App SMS Code, wähle Cursor als Dienst und such dir ein Land aus – die USA, Deutschland oder die Niederlande sind typische Wahlen für Dev-Tools. Die Nummer ist sofort für dich reserviert."
+      },
+      {
+        "title": "Registrieren und Nummer eingeben",
+        "body": "Erstelle dein Cursor Konto mit einer E-Mail-Adresse, die du kontrollierst. Wenn der Ablauf eine Telefonbestätigung verlangt, tippe die gemietete Nummer mit der passenden Ländervorwahl ein."
+      },
+      {
+        "title": "Code aus SMS Code eingeben",
+        "body": "Die SMS landet meist innerhalb von Sekunden in der App SMS Code – „Your Cursor verification code is 812750“. Füge die sechs Ziffern ins Bestätigungsfeld von Cursor ein, und du bist durch."
+      },
+      {
+        "title": "Das Konto selbst absichern",
+        "body": "Schließ mit den Grundlagen ab: ein starkes, einzigartiges Passwort und eine bestätigte E-Mail. Der alltägliche Login bei Cursor läuft darüber, nicht über SMS – die Telefonprüfung war eine einmalige Schranke, keine wiederkehrende."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Registrierung öffnen, bevor du mietest",
+      "body": "Bestätigungscodes sind kurzlebig, und das Aktivierungsfenster ist begrenzt. Hol dir zuerst den Telefonbestätigungsbildschirm von Cursor vor Augen, dann miete die Nummer und fordere den Code an – die SMS kommt meist innerhalb von Sekunden, wenn du bereit bist."
+    },
+    {
+      "title": "Die E-Mail ist das Konto, das Telefon die Schranke",
+      "body": "Cursor erkennt dich an deinem E-Mail-Login, und Fragen zu Lizenz oder Abo laufen darüber. Nutze ein Postfach, das du behältst, und das Konto überlebt das Aktivierungsfenster der gemieteten Nummer ohne Probleme."
+    },
+    {
+      "title": "Ein Konto, innerhalb der Regeln",
+      "body": "Telefonschranken gibt es, weil kostenlose Stufen ausgebeutet werden. Nutze eine virtuelle Nummer, um deine private Nummer auf deinem echten Konto privat zu halten – nicht, um Testkonten zu stapeln; das verstößt gegen die Bedingungen von Cursor und endet meist mit gesperrten Konten."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Fragt Cursor immer nach einer Telefonnummer?",
+      "a": "Nicht unbedingt – wie viele Dev-Tools setzt Cursor die Telefonbestätigung selektiv ein, oft abhängig von Signalen bei der Registrierung und dem Missbrauchsdruck. Wenn die Abfrage erscheint, erfüllt eine gemietete virtuelle Nummer sie meist innerhalb von Sekunden."
+    },
+    {
+      "q": "Funktioniert mein Cursor Konto weiter, wenn die Nummer abläuft?",
+      "a": "Ja. Die SMS-Prüfung findet bei der Registrierung statt; danach meldest du dich mit E-Mail und Passwort an. Dass das Aktivierungsfenster der gemieteten Nummer endet, ändert nichts an einem Konto, das du bereits nutzt."
+    },
+    {
+      "q": "Kann ich mit einer virtuellen Nummer den SMS-Registrierungsablauf meines eigenen Produkts testen?",
+      "a": "Ja – das ist ein wirklich nützliches Muster in der Entwicklung. Eine gemietete Nummer ist eine echte Empfangsnummer bei einem echten Netzbetreiber, du kannst also einen OTP-Ablauf als frischer Nutzer von Anfang bis Ende durchspielen, ohne deine private Nummer für ein Testkonto zu verbrauchen."
+    },
+    {
+      "q": "Warum ist mein Cursor Bestätigungscode nicht angekommen?",
+      "a": "Meist eine falsche Ländervorwahl, oder der Dienst hat diesen bestimmten Nummernbereich abgelehnt. Brich die Aktivierung in SMS Code ab – keine SMS heißt, die Münzen gehen auf dein Guthaben zurück – und versuche es mit einer anderen Nummer oder einem anderen Land."
+    },
+    {
+      "q": "Ist es erlaubt, Cursor mit einer virtuellen Nummer zu bestätigen?",
+      "a": "Die Prüfung stellt fest, dass du eine echte Nummer kontrollierst, und eine gemietete ist genau das. Entscheidend ist, was du danach tust: Ein echtes Konto im Rahmen der Bedingungen von Cursor ist in Ordnung; mehrere kostenlose Testphasen abzugreifen nicht, ob mit virtueller Nummer oder ohne."
+    }
+  ]
+}

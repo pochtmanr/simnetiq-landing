@@ -1,0 +1,154 @@
+{
+  "title": "eSIM czy numer wirtualny: czego naprawdę potrzebujesz?",
+  "description": "Brzmią podobnie i są sprzedawane obok siebie, ale eSIM i numer wirtualny rozwiązują różne problemy. Prosty poradnik, jak wybrać właściwe narzędzie.",
+  "excerpt": "Jedno to taryfa operatora w Twoim telefonie, drugie to numer wynajmowany na kod weryfikacyjny. Pomylenie ich kosztuje prawdziwe pieniądze – oto jak rozpoznać, czego potrzebuje Twój problem.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "„Potrzebuję eSIM czy numeru wirtualnego?” to jedno z tych pytań, za którymi zwykle stoi konkretny problem – wyjazd w przyszłym tygodniu, formularz rejestracji żądający numeru telefonu – a internet odpowiada reklamami obu rozwiązań. Oba produkty brzmią podobnie, mieszkają w podobnych kategoriach sklepów z aplikacjami i często sprzedają je te same firmy. To nie jest to samo."
+    },
+    {
+      "type": "p",
+      "text": "Pomylenie ich to nie tylko wpadka słownikowa; to kosztuje. Ludzie kupują podróżną eSIM, licząc na odbieranie na niej SMS-ów weryfikacyjnych, i odkrywają – w środku podróży, dokładnie wtedy, gdy bank lub komunikator chce kodu – że ich eSIM w ogóle nie odbiera SMS-ów. Inni miesiącami wynajmują numery wirtualne, choć chcieli tylko mobilnego internetu."
+    },
+    {
+      "type": "p",
+      "text": "Ten poradnik wyraźnie rysuje granicę: czym jest każde z nich, porównanie obok siebie, reguła decyzji na dziesięć sekund i przypadki brzegowe, w których oba światy naprawdę się przenikają."
+    },
+    {
+      "type": "h2",
+      "id": "two-different-tools",
+      "text": "Dwa różne narzędzia, które przypadkiem stoją na jednej półce"
+    },
+    {
+      "type": "p",
+      "text": "eSIM to prawdziwa taryfa operatora wbudowana w Twoje urządzenie. To to samo co plastikowa karta SIM w tacce, tylko bez plastiku: profil pobrany do sprzętu telefonu, który łączy go z siecią komórkową. Wraz z nim przychodzi to, co daje połączenie z siecią – przede wszystkim mobilny internet, a zależnie od taryfy także rozmowy i SMS-y. Instalujesz ją w ustawieniach telefonu i to telefon ją nosi."
+    },
+    {
+      "type": "p",
+      "text": "Numer wirtualny to numer, który wynajmujesz do odbierania SMS-ów, i nigdy nie dotyka sprzętu Twojego urządzenia. Numer żyje po stronie dostawcy; przychodzące wiadomości pojawiają się w aplikacji. Nic nie instalujesz w ustawieniach, żaden profil sieci się nie zmienia, Twoja obecna karta SIM i taryfa danych nie biorą w tym udziału. Używasz go w chwili, gdy usługa chce wysłać Ci kod – i to całe jego zadanie."
+    },
+    {
+      "type": "p",
+      "text": "W skrócie: eSIM łączy urządzenie z siecią. Numer wirtualny odbiera wiadomość w Twoim imieniu. Jedno to infrastruktura, drugie to sprawunek."
+    },
+    {
+      "type": "h2",
+      "id": "side-by-side",
+      "text": "Obok siebie"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Model kosztów – eSIM to taryfa: płacisz za pakiet danych (czasem też minut i SMS-ów) działający przez dni lub tygodnie. Numer wirtualny to płatność za użycie: jedna aktywacja, jeden odebrany kod, opłacony z pakietu monet. Na pojedynczy kod weryfikacyjny taryfa to przesada; na dwa tygodnie map i komunikatorów za granicą cena za SMS ma zupełnie zły kształt.",
+        "Konfiguracja – eSIM instaluje się w telefonie: kod QR lub aplikacja, w ustawieniach sieci pojawia się nowa linia, a urządzenie w ogóle musi obsługiwać eSIM. Numer wirtualny nie wymaga konfiguracji: otwierasz aplikację, wybierasz usługę i kraj, a numer jest na ekranie zwykle w ciągu kilku sekund.",
+        "Co dostajesz – eSIM daje łączność: dane, wskaźnik sieci, często linię telefoniczną. Numer wirtualny daje dokładnie jedną możliwość: odbieranie wysłanego na niego SMS-a, pokazanego w aplikacji.",
+        "Jak długo go masz – eSIM działa tak długo jak taryfa, a lokalną można doładowywać bez końca. Numer wirtualny jest wynajmowany na okno aktywacji – wystarczająco na kod przy rejestracji, a nie na lata.",
+        "Do czego służy – eSIM: bycie online za granicą, linia danych dla tabletu, lokalna taryfa bez szukania kiosku z kartami SIM. Numer wirtualny: trzymanie prywatnego numeru z dala od rejestracji, weryfikacja drugiego konta, odebranie jednego kodu bez kupowania całej taryfy."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "which-one-do-you-need",
+      "text": "Reguła decyzji na dziesięć sekund"
+    },
+    {
+      "type": "p",
+      "text": "Prawie każda prawdziwa sytuacja rozstrzyga się trzema pytaniami:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Potrzebujesz internetu na urządzeniu – danych w podróży, podłączonego tabletu, zapasowej linii? To łączność. Weź eSIM; numer wirtualny nie podłączy Twojego telefonu do sieci, kropka.",
+        "Potrzebujesz odebrać kod weryfikacyjny – do Telegrama, WhatsAppa, Google, marketplace’u – bez podawania prywatnego numeru? To jeden SMS do jednego zadania. Wynajmij numer wirtualny; kupowanie taryfy operatora, by odebrać jedną wiadomość, to płacenie za ciężarówkę do dostarczenia koperty.",
+        "Potrzebujesz długoterminowej drugiej linii – numeru, który podasz klientom i pod którym latami będziesz odbierać połączenia? Wtedy naprawdę potrzebujesz taryfy telefonicznej (eSIM lub plastik). Wynajęty numer wirtualny nie jest zbudowany, by być Twoją stałą tożsamością – a uczciwi dostawcy to mówią."
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "telegram"
+    },
+    {
+      "type": "h2",
+      "id": "the-data-only-esim-trap",
+      "text": "Pułapka: eSIM tylko na dane i kody weryfikacyjne"
+    },
+    {
+      "type": "p",
+      "text": "Oto przypadek brzegowy, który łapie najwięcej osób. Większość tanich podróżnych eSIM to eSIM tylko na dane: łączą Cię z internetem, ale nie mają żadnego numeru telefonu – nie ma do czego zaadresować SMS-a. Strona produktu mówi to wprost, ale łatwo to przeoczyć między liczbami gigabajtów."
+    },
+    {
+      "type": "p",
+      "text": "Porażka rozgrywa się w drodze: lądujesz, podróżna eSIM działa pięknie, a potem Twój bank – albo Telegram po ponownej instalacji – chce wysłać kod, by potwierdzić, że to Ty. Kod trafia na kartę SIM z domu, która albo nie jest w telefonie, albo jest w roamingu po bolesnych stawkach. eSIM tylko na dane, której faktycznie używasz, nie może go odebrać, bo nie ma numeru, na który mógłby przyjść."
+    },
+    {
+      "type": "callout",
+      "text": "Kombinacja, która działa: eSIM tylko na dane do internetu, do tego aktywna karta SIM z domu dla usług już do niej przypiętych – i numer wirtualny do nowych rejestracji, których i tak nie chcesz na prywatnym numerze. Każde narzędzie robi to jedno, do czego zostało zbudowane."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-number-step-by-step",
+      "text": "Jeśli Twoja odpowiedź brzmi „tylko jeden kod”: ścieżka numeru wirtualnego"
+    },
+    {
+      "type": "p",
+      "text": "W scenariuszu z kodem weryfikacyjnym cały proces wygląda tak – zajmuje około minuty:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Wybierz usługę i kraj",
+          "body": "W aplikacji SMS Code wybierz, co weryfikujesz – Telegram, WhatsApp, Google, ponad 100 usług – i z jakiego kraju ma być numer. Jedno stuknięcie rezerwuje dla Ciebie prawdziwy numer komórkowy."
+        },
+        {
+          "title": "Użyj numeru przy rejestracji",
+          "body": "Wpisz go w formularz weryfikacji jak każdy numer telefonu, z pasującym numerem kierunkowym. Usługa wysyła SMS jak zwykle – to prawdziwy numer w prawdziwej sieci operatora."
+        },
+        {
+          "title": "Odczytaj kod w aplikacji",
+          "body": "SMS pojawia się na ekranie aktywacji zwykle w ciągu kilku sekund. Skopiuj kod, dokończ rejestrację. Jeśli kod nigdy nie przyjdzie, anuluj aktywację za darmo i weź inny numer – płacisz tylko za dostarczone kody."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Żadnych zainstalowanych profili, żadnej rozpoczętej taryfy, nic do późniejszego anulowania. Ta asymetria zobowiązania to tak naprawdę całe porównanie w miniaturze: eSIM konfigurujesz i z nią żyjesz; numer wirtualny używasz i masz spokój."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Najczęstsze pytania"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Czy podróżna eSIM odbiera SMS-y weryfikacyjne?",
+          "a": "Tylko jeśli ma numer telefonu – a większość tanich podróżnych eSIM to eSIM tylko na dane, czyli bez numeru i bez SMS-ów, nigdy. Zanim zaczniesz polegać na niej przy kodach, sprawdź na stronie produktu „rozmowy i SMS”. Jeśli jest tylko na dane, stronę weryfikacji pokryje numer wirtualny."
+        },
+        {
+          "q": "Czy numer wirtualny to karta SIM?",
+          "a": "Nie. Nic nie jest instalowane w urządzeniu – żadnego plastiku, profilu eSIM ani zmian w ustawieniach sieci. Numer istnieje w sieci dostawcy, a odebrane wiadomości są Ci pokazywane w aplikacji. Twoja własna karta SIM nie bierze w tym udziału – numer w ogóle nie zależy od Twojego operatora. Potrzebujesz natomiast połączenia z internetem w telefonie, przez Wi-Fi lub dane komórkowe, żeby aplikacja pokazała Ci kod."
+        },
+        {
+          "q": "Czy mogę zatrzymać numer wirtualny na zawsze?",
+          "a": "Wynajmowane numery aktywacyjne nie są do tego przeznaczone – trzymasz numer przez okno aktywacji, wystarczająco długo, by odebrać kod. Zweryfikowane konta działają potem dalej (pozostań zalogowany i ustaw odzyskiwanie konta), ale jeśli potrzebujesz numeru do publikowania i odbierania latami, to problem taryfy telefonicznej, a nie numeru wirtualnego."
+        },
+        {
+          "q": "Co jest tańsze do odebrania jednego kodu?",
+          "a": "Numer wirtualny, z dużą przewagą. To jedna aktywacja z jednorazowego pakietu monet, wyceniona dokładnie pod to zadanie. Najtańsza taryfa eSIM i tak sprzedaje Ci dni usługi i gigabajty danych, których nie potrzebujesz do jednego SMS-a."
+        },
+        {
+          "q": "Czy kiedykolwiek potrzebuję obu naraz?",
+          "a": "Klasyczny przypadek to podróż: eSIM tylko na dane trzyma Cię online, a numer wirtualny obsługuje po drodze nowe rejestracje – podczas gdy karta SIM z domu pozostaje zarezerwowana dla kont już do niej przypiętych. Nie konkurują; pokrywają różne słabe punkty."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

@@ -3,38 +3,10 @@ import { NextRequest, NextResponse } from "next/server";
 import { SITE_URL } from "../../../lib/site";
 import { DEFAULT_LOCALE, isLocale, type Locale } from "../../../lib/i18n";
 import { supportUi } from "../../../lib/content/ui";
-
-const MAX = { name: 200, email: 320, topic: 100, message: 5000 } as const;
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+import { parseSupportRequest, storedMessage } from "../../../lib/support/request";
 
 /** Error copy in the visitor's language; unknown locales fall back to the default. */
 const messages = (locale: Locale) => supportUi(locale).api;
-
-type Payload = {
-  name: string;
-  email: string;
-  topic: string;
-  message: string;
-  locale: Locale;
-};
-
-function validate(body: unknown, locale: Locale): Payload | string {
-  const m = messages(locale);
-  if (typeof body !== "object" || body === null) return m.invalidBody;
-  const b = body as Record<string, unknown>;
-
-  const name = typeof b.name === "string" ? b.name.trim() : "";
-  const email = typeof b.email === "string" ? b.email.trim() : "";
-  const topic = typeof b.topic === "string" ? b.topic.trim() : "";
-  const message = typeof b.message === "string" ? b.message.trim() : "";
-
-  if (!name || name.length > MAX.name) return m.name;
-  if (!EMAIL_RE.test(email) || email.length > MAX.email) return m.email;
-  if (topic.length > MAX.topic) return m.topic;
-  if (message.length < 10 || message.length > MAX.message) return m.message;
-
-  return { name, email, topic, message, locale };
-}
 
 /* ---------------------------------------------------------------------------
  * Origin check
@@ -143,7 +115,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: true });
   }
 
-  const result = validate(body, locale);
+  const result = parseSupportRequest(body, locale);
   if (typeof result === "string") {
     return NextResponse.json({ error: result }, { status: 400 });
   }
@@ -170,27 +142,37 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  // 1. Store the request in Supabase (source of truth).
-  const rpcRes = await fetch(
-    `${supabaseUrl}/rest/v1/rpc/submit_support_request`,
-    {
+  // 1. Store the request in Supabase (source of truth). p_context needs
+  //    20261015000000_support_request_context.sql; until that is applied the
+  //    RPC answers PGRST202 (no such signature) and we store without it — the
+  //    details are in the message footer either way.
+  const args = {
+    p_name: result.name,
+    p_email: result.email,
+    p_topic: result.topic,
+    p_message: storedMessage(result),
+    p_locale: result.locale,
+    p_user_agent: request.headers.get("user-agent") ?? null,
+    p_ip_hash: ipHash(request),
+  };
+  const callRpc = (payload: Record<string, unknown>) =>
+    fetch(`${supabaseUrl}/rest/v1/rpc/submit_support_request`, {
       method: "POST",
       headers: {
         apikey: anonKey,
         Authorization: `Bearer ${anonKey}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        p_name: result.name,
-        p_email: result.email,
-        p_topic: result.topic,
-        p_message: result.message,
-        p_locale: result.locale,
-        p_user_agent: request.headers.get("user-agent") ?? null,
-        p_ip_hash: ipHash(request),
-      }),
-    },
-  );
+      body: JSON.stringify(payload),
+    });
+  let rpcRes = await callRpc({
+    ...args,
+    p_context: { topic_id: result.topicId, ...result.context },
+  });
+  if (rpcRes.status === 404) {
+    const err = (await rpcRes.json().catch(() => null)) as { code?: string } | null;
+    if (err?.code === "PGRST202") rpcRes = await callRpc(args);
+  }
 
   if (!rpcRes.ok) {
     console.error(
@@ -234,6 +216,7 @@ export async function POST(request: NextRequest) {
           id: saved?.id,
           created_at: saved?.created_at,
           ...result,
+          message: args.p_message,
         }),
         signal: AbortSignal.timeout(10_000),
       });

@@ -1,0 +1,132 @@
+{
+  "title": "Nomor virtual Indonesia (+62): format, aturan, dan daftar",
+  "description": "Cara kerja nomor seluler Indonesia, mengapa SIM wajib terdaftar dengan NIK, dan cara menerima SMS verifikasi di nomor +62 saat berada di luar negeri.",
+  "excerpt": "Indonesia mengikat setiap kartu prabayar ke NIK dan membatasi jumlah kartu yang bisa didaftarkan per orang. Begini cara kerja nomor +62, mengapa itu penting saat mendaftar akun, dan cara menerima kode di nomor Indonesia tanpa SIM lokal.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Indonesia adalah negara berpenduduk terbanyak keempat di dunia dan salah satu yang paling bergantung pada ponsel. Ekonomi digitalnya tumbuh di ponsel pintar, bukan di komputer: orang memesan ojek dan makanan lewat Gojek dan Grab, belanja di Shopee dan Tokopedia, dan menjalankan usaha kecil sepenuhnya lewat WhatsApp. Hampir semua layanan itu dimulai dengan cara yang sama: masukkan nomor +62 dan tunggu kodenya."
+    },
+    {
+      "type": "p",
+      "text": "Karena itu pencarian «nomor Indonesia» muncul dalam bahasa Arab, Inggris, dan bahasa lain, dari orang-orang yang jauh dari Nusantara. Sebagian adalah pekerja migran Indonesia — di Arab Saudi, Malaysia, Taiwan, atau Hong Kong — yang ingin tetap terhubung dengan layanan di tanah air. Sebagian lagi penjual, pemasar, atau pengembang yang butuh akun yang menjadi bagian dari pasar Indonesia. Bagi pembaca di Indonesia sendiri, artikel ini juga menjelaskan mengapa nomor kedua untuk pendaftaran tidak semudah membeli kartu perdana baru."
+    },
+    {
+      "type": "h2",
+      "id": "how-indonesian-numbers-work",
+      "text": "Cara menulis nomor seluler Indonesia"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Di dalam negeri, nomor seluler diawali 08 — misalnya 0812, 0857, atau 0878 — dengan panjang total antara sepuluh dan tiga belas digit.",
+        "Dalam format internasional, angka 0 di depan dihapus dan diganti +62. Jadi 0812-3456-7890 menjadi +62 812-3456-7890.",
+        "Digit setelah 08 dulunya menandakan operator — Telkomsel, Indosat, dan XL termasuk yang terbesar — tetapi setelah bertahun-tahun merger dan awalan baru, itu hanya petunjuk, bukan aturan.",
+        "Di formulir pendaftaran yang sudah memilih Indonesia, nomor dimasukkan mulai dari angka 8, tidak pernah dengan 0 atau 62."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Kesalahan paling umum dengan nomor Indonesia adalah angka nol di depan. «+62 0812…» bukan nomor yang valid. Jika pemilih negara sudah menampilkan +62, mulailah mengetik dari angka 8."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-and-the-nik",
+      "text": "Mengapa setiap SIM Indonesia terikat ke identitas nasional"
+    },
+    {
+      "type": "p",
+      "text": "Pada akhir 2017, pemerintah mewajibkan setiap pelanggan prabayar mendaftarkan kartu SIM dengan dua data: NIK, nomor induk kependudukan enam belas digit yang tercetak di KTP, dan nomor KK, kartu keluarga yang mencantumkan seluruh anggota rumah tangga. Pelanggan mengirim kedua nomor itu lewat SMS ke nomor pendek. Batas waktunya 28 Februari 2018, setelah itu kartu yang belum terdaftar diblokir secara bertahap."
+    },
+    {
+      "type": "p",
+      "text": "Aturan itu bertahan lebih lama dari kampanyenya. Kini registrasi diatur oleh peraturan menteri tahun 2021, dan halaman bantuan Telkomsel masih menyebut satu NIK hanya dapat mendaftarkan sendiri paling banyak tiga nomor prabayar per operator; kartu tambahan harus didaftarkan di gerai. Tujuannya agar penipuan telepon dan panggilan penipuan anonim bisa dilacak — bagian dari tren global: menurut hitungan GSMA, lebih dari 150 negara kini mewajibkan registrasi SIM."
+    },
+    {
+      "type": "p",
+      "text": "Bagi orang asing, akibatnya sangat praktis. Turis bisa membeli SIM terdaftar dengan paspor, biasanya di bandara, tetapi kartunya terikat ke paspor dan sering kali berjangka waktu. Siapa pun yang tinggal di luar Indonesia dan hanya ingin nomor +62 untuk sebuah akun tidak punya cara mudah untuk mendapatkan SIM sama sekali."
+    },
+    {
+      "type": "h2",
+      "id": "who-needs-a-62-number",
+      "text": "Siapa yang butuh nomor +62, dan untuk apa"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Penjual dan pemasar yang membangun kehadiran untuk pembeli Indonesia — profil WhatsApp Business, akun TikTok atau Instagram untuk audiens lokal.",
+        "Pengembang dan tim QA yang menguji aplikasi yang berperilaku berbeda untuk pengguna Indonesia.",
+        "Orang Indonesia di luar negeri yang ingin mendaftar layanan dalam negeri tanpa harus menjaga SIM tetap aktif dari jauh.",
+        "Siapa pun yang ingin akun pesan atau media sosial terpisah dari nomor pribadi — termasuk tanpa memakai jatah tiga nomor di NIK sendiri."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Yang tidak cocok: bank Indonesia, dompet digital dengan verifikasi penuh, dan layanan pemerintah. Layanan itu mengikat akun ke NIK Anda, dan nomor yang terdaftar harus atas nama Anda."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-62-number",
+      "text": "Menerima kode di nomor Indonesia"
+    },
+    {
+      "type": "p",
+      "text": "Nomor Indonesia yang disewa di SMS Code adalah nomor seluler nyata di jaringan operator Indonesia. Bagi layanan tempat Anda mendaftar, nomor itu terlihat seperti pelanggan +62 lainnya, dan khusus untuk Anda selama menunggu kode."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Pilih layanan dan Indonesia",
+          "body": "Di SMS Code, pilih layanan — WhatsApp, Telegram, TikTok, Grab, atau salah satu dari 100+ layanan lain — lalu pilih Indonesia. Harga aktivasi dalam koin tampil sebelum Anda konfirmasi."
+        },
+        {
+          "title": "Ketik nomor mulai dari angka 8",
+          "body": "Dengan +62 terpilih di formulir, masukkan nomor yang tampil di aplikasi mulai dari angka 8 — tanpa 0 di depan."
+        },
+        {
+          "title": "Tempel kodenya",
+          "body": "SMS masuk ke aplikasi biasanya dalam hitungan detik. Jika tidak ada yang datang, batalkan setelah dua menit; koin kembali ke saldo jika tidak ada SMS, dan Anda bisa mengambil nomor baru."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Setelah itu, amankan akun: kata sandi yang kuat, email pemulihan yang Anda kendalikan, dan perlindungan dua langkah dari layanan itu. Nomor sementara menyelesaikan pendaftaran, bukan masa depan akun."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Bisakah orang asing mendapatkan nomor telepon Indonesia?",
+          "a": "Saat berada di Indonesia, bisa — SIM turis dapat didaftarkan dengan paspor. Dari luar negeri, membeli SIM tidak praktis, karena itu orang memakai nomor virtual +62 untuk verifikasi sekali pakai."
+        },
+        {
+          "q": "Apakah perlu NIK atau KK untuk memakai nomor virtual Indonesia?",
+          "a": "Tidak. Registrasi NIK berlaku untuk kartu SIM yang dibeli dari operator Indonesia. Menyewa nomor untuk verifikasi di SMS Code tidak memerlukan dokumen Indonesia apa pun."
+        },
+        {
+          "q": "Saya ketik 08 atau +62 8?",
+          "a": "Dalam format internasional: +62 diikuti nomor yang diawali 8. Jangan pernah menggabungkan kode negara dengan angka 0 di depan."
+        },
+        {
+          "q": "Apakah bisa untuk Grab, Shopee, atau Gojek?",
+          "a": "SMS Code menyediakan aktivasi untuk banyak layanan regional, termasuk Grab dan Shopee, dan aplikasi menampilkan layanan serta negara yang tersedia sebelum Anda membayar. Layanan dengan verifikasi identitas penuh — fitur perbankan, upgrade dompet digital — tetap akan meminta dokumen Anda sendiri."
+        },
+        {
+          "q": "Bagaimana jika SMS tidak datang?",
+          "a": "Pastikan Anda tidak mengetik 0 di depan, lalu tunggu satu menit penuh. Jika tetap tidak ada, batalkan aktivasi setelah dua menit — koin kembali ke saldo — dan coba nomor lain."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

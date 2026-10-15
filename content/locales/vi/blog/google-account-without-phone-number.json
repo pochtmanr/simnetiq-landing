@@ -1,0 +1,152 @@
+{
+  "title": "Cách tạo tài khoản Google không cần số điện thoại của bạn",
+  "description": "Google không phải lúc nào cũng đòi số điện thoại — và khi đòi, số đó không nhất thiết là của bạn. Các quy trình bỏ qua nó, cách dùng số ảo và cái bẫy khôi phục.",
+  "excerpt": "Đôi khi Google cho bạn đăng ký không cần điện thoại; đôi khi lời nhắc là bắt buộc. Đây là điều quyết định chuyện đó, những con đường thực sự hiệu quả, và một cài đặt khôi phục giữ tài khoản là của bạn về sau.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Tài khoản Google là chìa khóa của nửa internet — Gmail, YouTube, Drive, Play Store, mọi nút “Đăng nhập bằng Google”. Đó chính là lý do trao số điện thoại cá nhân cho Google cảm thấy nặng nề hơn trao cho một diễn đàn nào đó: số này gắn vào tài khoản vốn đã biết các tìm kiếm, lịch sử vị trí và hộp thư của bạn."
+    },
+    {
+      "type": "p",
+      "text": "Đây là điều hầu hết hướng dẫn nói sai: Google không phải lúc nào cũng yêu cầu số điện thoại. Đôi khi việc đăng ký trôi qua chỉ với tên và ngày sinh; đôi khi cùng biểu mẫu đó từ chối tiếp tục cho đến khi một mã được nhắn tới đâu đó. Bạn gặp trường hợp nào không phải ngẫu nhiên — và khi biết điều gì nghiêng cán cân, bạn có thể chọn con đường phù hợp."
+    },
+    {
+      "type": "p",
+      "text": "Hướng dẫn này nói về lúc lời nhắc thực sự xuất hiện, những cách đăng ký thực sự hoạt động mà không cần số của bạn, và — vì ở đây điều này quan trọng hơn bất cứ đâu — cách thiết lập khôi phục để tài khoản không bao giờ phụ thuộc vào một số bạn không giữ."
+    },
+    {
+      "type": "h2",
+      "id": "when-google-actually-asks",
+      "text": "Khi nào Google thực sự đòi số"
+    },
+    {
+      "type": "p",
+      "text": "Google quyết định cho từng lần đăng ký có cần xác minh điện thoại hay không, dựa trên mức độ rủi ro của lần thử. Bạn nhiều khả năng gặp lời nhắc bắt buộc khi vài điều sau trùng hợp:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Đăng ký từ trình duyệt máy tính — nhất là hồ sơ mới, cửa sổ riêng tư hoặc điểm thoát VPN mà hệ thống Google chưa từng thấy.",
+        "Gần đây có nhiều tài khoản được tạo từ cùng thiết bị, mạng hay dấu vân tay trình duyệt. Bộ đếm vô hình, nhưng nó tồn tại — tài khoản thứ hai và thứ ba gặp lời nhắc thường xuyên hơn nhiều so với tài khoản đầu tiên.",
+        "Bất cứ điều gì trong lần thử trông như tự động: nhịp gõ bất thường, dải IP bị gắn cờ, địa chỉ trung tâm dữ liệu."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Đảo ngược những điều đó và bạn có các quy trình thân thiện hơn: đăng ký từ điện thoại thật, trên kết nối gia đình, với nhịp độ không vội vàng là những trường hợp ô điện thoại hiện là tùy chọn — hoặc hoàn toàn không có. Đó là sắc thái trung thực: bạn không thể ép Google bỏ qua lời nhắc, nhưng bạn có thể chọn quy trình mà việc bỏ qua dễ xảy ra nhất."
+    },
+    {
+      "type": "h2",
+      "id": "why-keep-your-number-out",
+      "text": "Vì sao nên giữ số của bạn ngoài cuộc"
+    },
+    {
+      "type": "p",
+      "text": "Ngoài nguyên tắc chung — bớt một cơ sở dữ liệu giữ định danh vĩnh viễn của bạn — Google đặc biệt dùng số điện thoại đã xác minh để liên kết chéo tài khoản: số nối các tài khoản “riêng biệt” của bạn với nhau, gắn lần đăng ký vào hồ sơ quảng cáo, và khiến tài khoản ẩn danh hay tách biệt công việc trở thành gì cũng được trừ tách biệt. Số cũng là kênh để bị tìm thấy: những người có số trong danh bạ có thể được cho thấy hồ sơ của bạn. Nếu mục đích của tài khoản thứ hai là tách biệt, gắn nó vào cùng SIM sẽ phá hỏng điều đó ngay ngày đầu."
+    },
+    {
+      "type": "h2",
+      "id": "routes-that-work",
+      "text": "Những con đường thực sự hiệu quả"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bỏ qua khi nó là tùy chọn. Nếu ô điện thoại có tùy chọn “Bỏ qua” — hãy chọn nó. Thêm email khôi phục ở màn hình tiếp theo và tài khoản hoàn tất. Đây là con đường không tốn gì và nó hiệu quả thường xuyên hơn người ta nghĩ, nhất là với các quy trình ở trên.",
+        "Đăng ký qua thiết bị Android. Thêm tài khoản qua Cài đặt → Tài khoản trên điện thoại hay máy tính bảng Android là quy trình mà Google thường không hỏi số nhất — chính thiết bị bảo lãnh cho lần đăng ký. Nếu có thiết bị Android nào quanh đó, hãy thử cách này trước.",
+        "Dùng số ảo khi lời nhắc là bắt buộc. Khi Google từ chối tiếp tục nếu không có mã, bất kỳ số nào nhận được một SMS đều được — kể cả một số ảo thuê không bao giờ trỏ về bạn. Các bước dưới đây hướng dẫn chi tiết."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "step-by-step-with-a-virtual-number",
+      "text": "Xác minh bằng số ảo, từng bước"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Thuê số cho Google",
+          "body": "Trong ứng dụng SMS Code, chọn Google làm dịch vụ và chọn quốc gia. Một chạm giữ một số di động thật chỉ cho bạn — bạn trả bằng xu từ gói mua một lần, không thuê bao."
+        },
+        {
+          "title": "Nhập số ở màn hình xác minh",
+          "body": "Quay lại đăng ký Google, chọn quốc gia khớp với số đã thuê và nhập vào. Google khắt khe về định dạng, nên hãy để bộ chọn quốc gia làm việc thay vì tự gõ tiền tố."
+        },
+        {
+          "title": "Sao chép mã",
+          "body": "SMS — “G-482916 is your Google verification code” — hiện trong SMS Code thường chỉ trong vài giây. Nhập vào và việc đăng ký tiếp tục."
+        },
+        {
+          "title": "Gỡ số ngay lập tức",
+          "body": "Khi đã vào, mở myaccount.google.com → Bảo mật, thêm email khôi phục bạn kiểm soát, rồi xóa số điện thoại khỏi cả mục “Số điện thoại khôi phục” và “Điện thoại”. Giờ tài khoản chỉ đứng trên mật khẩu và email của bạn."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    },
+    {
+      "type": "h2",
+      "id": "the-recovery-trap",
+      "text": "Cái bẫy khôi phục — hãy đọc trước khi đóng tab"
+    },
+    {
+      "type": "p",
+      "text": "Với Google, cài đặt khôi phục không phải chuyện để sau; đó là khác biệt giữa một tài khoản bạn sở hữu và một tài khoản bạn mượn. Google dựa vào điện thoại đã xác minh cho các bước kiểm tra đăng nhập đáng ngờ: đi đến một nơi mới, xóa cookie, hoặc chỉ đơn giản là không may, và màn hình đăng nhập có thể lại đòi mã — gửi tới bất kỳ số nào đang lưu."
+    },
+    {
+      "type": "callout",
+      "text": "Ngay khi đăng ký hoàn tất, hãy làm hai việc: thêm email khôi phục bạn kiểm soát, và xóa số thuê khỏi cài đặt điện thoại của tài khoản. Nếu số vẫn lưu sau khi hết thời gian thuê, một bước kiểm tra xác minh trong tương lai có thể khóa bạn khỏi chính tài khoản của mình — đó là rủi ro thực sự duy nhất trong cả quy trình này, và hoàn toàn có thể tránh được."
+    },
+    {
+      "type": "h2",
+      "id": "honest-limits",
+      "text": "Những giới hạn thẳng thắn"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Google có thể hỏi xác minh lại sau này. Thiết bị mới, vị trí lạ hay trình duyệt đã xóa dữ liệu có thể kích hoạt một bước kiểm tra khác. Với email khôi phục đã đặt và số cũ đã xóa, bạn sẽ xác minh qua email — nhưng hãy chờ thử thách thỉnh thoảng; đó là cách Google hoạt động với mọi tài khoản.",
+        "Một số xác minh được số tài khoản có hạn. Google theo dõi mỗi số đã xác nhận bao nhiêu tài khoản và bắt đầu từ chối sau vài lần. Một số thuê dùng một lần sẽ không chạm bức tường đó — nhưng cùng một số tái sử dụng qua nhiều lần đăng ký thì sẽ.",
+        "Đây không phải công cụ đăng ký hàng loạt. Một tài khoản riêng để tách biệt hay quyền riêng tư là sử dụng bình thường. Trang trại tài khoản vi phạm điều khoản của Google, bị chính các hệ thống rủi ro ở trên bắt được, và thường kết thúc bằng một làn sóng đình chỉ."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Câu hỏi thường gặp"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Tôi thực sự có thể tạo tài khoản Google mà không cần số điện thoại nào không?",
+          "a": "Đôi khi, có. Khi ô điện thoại được đánh dấu tùy chọn — thường gặp nhất trong quy trình thêm tài khoản trên Android hoặc đăng ký rủi ro thấp — bạn có thể bỏ qua hoàn toàn và dùng email khôi phục. Khi Google quyết định xác minh là bắt buộc cho lần thử của bạn, phải có một số nhận một mã; chỉ là nó không nhất thiết là số của bạn."
+        },
+        {
+          "q": "Gmail và YouTube có hoạt động bình thường sau đó không?",
+          "a": "Có. Tài khoản xác minh bằng số ảo là tài khoản Google đầy đủ — Gmail, YouTube, Drive và Play đều hoạt động y hệt. Vai trò duy nhất của số là mã một lần khi đăng ký."
+        },
+        {
+          "q": "Điều gì xảy ra khi số đã thuê hết hạn?",
+          "a": "Không có gì — miễn là bạn đã xóa nó khỏi tài khoản và đặt email khôi phục. Tài khoản chạy trên mật khẩu và email của bạn. Nếu bạn để số đã chết làm điện thoại khôi phục, một bước kiểm tra bảo mật sau này có thể gửi mã tới đó, đó là lý do việc gỡ nó ngay lập tức rất quan trọng."
+        },
+        {
+          "q": "Vì sao Google báo số của tôi “không thể dùng để xác minh”?",
+          "a": "Google từ chối các dải số mà nó đã thấy bị lạm dụng — hầu hết số công khai miễn phí và một số dải ảo. Nếu số thuê bị từ chối, hãy hủy lần kích hoạt miễn phí trong SMS Code và lấy số khác, tốt nhất từ quốc gia khác; số tiếp theo thường qua."
+        },
+        {
+          "q": "Đăng ký theo cách này có vi phạm điều khoản của Google không?",
+          "a": "Điều khoản của Google yêu cầu thông tin khôi phục chính xác và cấm lạm dụng — chúng không yêu cầu điện thoại đăng ký phải đứng tên bạn. Một tài khoản cá nhân tạo bằng số thuê rồi được bảo vệ đúng cách bằng email khôi phục của chính bạn là sử dụng bình thường; tạo tài khoản hàng loạt thì không."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "google"
+    }
+  ]
+}

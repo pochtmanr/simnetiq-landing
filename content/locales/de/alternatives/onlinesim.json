@@ -1,0 +1,99 @@
+{
+  "metaTitle": "OnlineSim Alternative — die App SMS Code von SIMNETIQ",
+  "metaDescription": "OnlineSim im Vergleich zur App SMS Code von SIMNETIQ: langfristige Nummernmiete im Web gegen einfache Aktivierungen in einer nativen iOS-App.",
+  "hero": {
+    "title": "Eine OnlineSim Alternative für Aktivierungen mit einem Tippen",
+    "intro": [
+      "OnlineSim ist ein Webdienst zum Empfang von SMS auf virtuellen Nummern, und sein Unterscheidungsmerkmal ist die Bandbreite: Neben einmaligen Aktivierungen beschreibt die Website längerfristige Mieten, bei denen du eine Nummer tage- oder wochenlang behältst und in diesem Zeitraum unbegrenzt SMS von jedem Dienst empfängst. Muss eine Nummer eine Weile deine bleiben, ist das ihr Heimspiel.",
+      "SMS Code von SIMNETIQ macht stattdessen bewusst eine Sache: Bestätigung pro Aktivierung in einer nativen iOS-App. Wähle Dienst und Land, bekomm eine echte Nummer, und der Code erscheint meist innerhalb von Sekunden in der App. Du zahlst mit einmaligen Münzpaketen – kein Abo, keine Mietuhr –, und Aktivierungen ohne Empfang werden kostenlos abgebrochen."
+    ]
+  },
+  "whenThem": {
+    "title": "Wann OnlineSim die bessere Wahl ist",
+    "body": "Wähle OnlineSim, wenn du eine Nummer brauchst, die länger lebt als ein Code. Ihr Mietmodell – eine Nummer für einen gewählten Zeitraum behalten und unbegrenzt SMS darauf empfangen – passt zu Konten, die eine erneute Bestätigung verlangen werden, zu Diensten, die beim Login Codes senden, oder zu allen, die dieselbe Nummer tage- oder wochenlang erreichbar halten wollen. Eine App mit Aktivierungen kann dieses Szenario ehrlicherweise nicht abdecken: Sobald eine Aktivierung abgeschlossen ist, geht die Nummer zurück in den Pool."
+  },
+  "whenUs": {
+    "title": "Wann die App SMS Code besser passt",
+    "body": "Wähle die App, wenn du eigentlich einen Code brauchst, einmal, jetzt sofort. Die meisten Registrierungen – ein zweites Messenger-Konto, eine Anmeldung auf einem Marktplatz, eine Testphase – bestätigen eine Nummer ein einziges Mal und schreiben sie nie wieder an, und in diesem Fall bezahlt eine Miete Tage, die du nicht nutzt. Die App beschränkt es auf eine Transaktion: ein paar Tipps, eine echte Nummer in einem von über 100 Ländern, die SMS meist innerhalb von Sekunden und kostenloser Abbruch, wenn nichts ankommt. Die Abrechnung läuft über den App Store, es gibt also kein Guthaben in einem Webkonto zu verwalten."
+  },
+  "comparison": {
+    "title": "OnlineSim und die App SMS Code im direkten Vergleich",
+    "rows": [
+      {
+        "label": "Plattformen",
+        "competitor": "Webdienst; ihre Website dokumentiert auch eine API",
+        "us": "Native iOS-App aus dem App Store"
+      },
+      {
+        "label": "Preismodell",
+        "competitor": "Einmalige Aktivierungen plus längerfristige Nummernmiete nach Zeitraum",
+        "us": "Einmalige Münzpakete, Bezahlung pro Aktivierung – keine Miete, kein Abo"
+      },
+      {
+        "label": "Bezahlung",
+        "competitor": "Aufladen des Guthabens im Web mit den auf ihrer Website genannten Methoden",
+        "us": "Abrechnung über Apple – keine Kartendaten an uns"
+      },
+      {
+        "label": "Abdeckung",
+        "competitor": "Eine breite Länderliste, für Aktivierungen größer als für Mieten",
+        "us": "Über 100 Länder und über 100 beliebte Dienste, kuratiert für alltägliche Registrierungen"
+      },
+      {
+        "label": "Abbruch",
+        "competitor": "Richtet sich nach ihren eigenen Erstattungsregeln – prüfe die aktuellen Bedingungen",
+        "us": "Aktivierungen ohne SMS werden kostenlos abgebrochen, Münzen kommen zurück"
+      },
+      {
+        "label": "Support",
+        "competitor": "Supportkanäle über ihre Website",
+        "us": "Kontaktformular in der App und auf der Website"
+      },
+      {
+        "label": "Am besten für",
+        "competitor": "Eine Nummer tage- oder wochenlang für SMS erreichbar halten",
+        "us": "Einmalige Bestätigungscodes ohne laufende Verpflichtung"
+      }
+    ],
+    "note": "Angaben zum Wettbewerber geben seine öffentliche Website zum Zeitpunkt des Schreibens wieder und können sich ändern – prüfe immer auf onlinesim.io, bevor du entscheidest."
+  },
+  "switchSteps": {
+    "title": "Die App auszuprobieren dauert drei Schritte",
+    "steps": [
+      {
+        "title": "App installieren",
+        "body": "Hol dir SMS Code von SIMNETIQ aus dem App Store – kein Webkonto und keine Wallet-Einrichtung nötig."
+      },
+      {
+        "title": "Ein Münzpaket holen",
+        "body": "Kaufe ein einmaliges Paket über dein Store-Konto. Du zahlst pro Aktivierung; im Hintergrund tickt keine Mietdauer."
+      },
+      {
+        "title": "Deine erste Aktivierung starten",
+        "body": "Wähle Dienst und Land, bekomm eine echte Nummer und sieh zu, wie der Code meist innerhalb von Sekunden in der App ankommt. Kommt nichts an, wird die Aktivierung kostenlos abgebrochen."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Was ist der Hauptunterschied zwischen OnlineSim und der App SMS Code?",
+      "a": "Das Modell. Die Website von OnlineSim betont neben einmaligen Aktivierungen die Nummernmiete – eine Nummer tage- oder wochenlang mit unbegrenzt eingehenden SMS halten. Die App SMS Code von SIMNETIQ macht nur Bestätigung pro Aktivierung, verpackt in einer nativen mobilen App mit einmaligen Münzpaketen."
+    },
+    {
+      "q": "Kann ich in der App SMS Code eine Nummer langfristig behalten?",
+      "a": "Nein – jede Aktivierung deckt den Empfang des Codes für einen Dienst ab, dann geht die Nummer zurück in den Pool. Brauchst du dieselbe Nummer lange erreichbar, ist ein Mietdienst wie OnlineSim ehrlicherweise die bessere Wahl."
+    },
+    {
+      "q": "Funktioniert mein Konto nicht mehr, wenn die Nummer abläuft?",
+      "a": "Bei den meisten Diensten doch. Die Nummer wird nur beim Bestätigungsschritt gebraucht; aktivierst du Schutzfunktionen der App wie Zwei-Faktor-Passwörter, hängen künftige Logins nicht davon ab, eine weitere SMS an diese Nummer zu empfangen."
+    },
+    {
+      "q": "Was passiert, wenn mein Code nie ankommt?",
+      "a": "Die Aktivierung wird abgebrochen, und deine Münzen werden zurückgegeben. Du zahlst nur für Nummern, die tatsächlich eine SMS empfangen."
+    },
+    {
+      "q": "Muss ich ein Konto auf einer Website anlegen, um die App zu nutzen?",
+      "a": "Es sind keine Web-Wallet und kein Dashboard beteiligt. Du installierst die App aus dem App Store, kaufst ein Münzpaket über die Store-Abrechnung, und alles passiert in der App."
+    }
+  ]
+}

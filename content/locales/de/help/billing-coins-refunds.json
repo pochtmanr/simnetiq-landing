@@ -1,0 +1,44 @@
+{
+  "title": "Abrechnung, Münzen und Rückerstattungen über Apple",
+  "metaDescription": "Wie Münzpakete von SMS Code funktionieren, was bei fehlenden Münzen oder fremden Abbuchungen hilft und wie du Schritt für Schritt bei Apple erstattest.",
+  "sections": [
+    {
+      "title": "So funktionieren Münzen",
+      "paragraphs": [
+        "Münzpakete sind einmalige Käufe im App Store, keine Abos. Es gibt keine automatische Verlängerung. Münzen verfallen nicht, sind nicht übertragbar und keine Geldbörse für Bargeld. Der Preis einer Aktivierung hängt von Dienst und Land ab und wird vor der Bestätigung angezeigt.",
+        "Ein berechtigter Abbruch, ein Nummerntausch, ein Ablauf ohne SMS oder eine gescheiterte Zuteilung der Nummer gibt die Münzen der Aktivierung zurück. Ist eine SMS angekommen, gibt ein Abbruch Münzen nicht automatisch zurück. Melde Zustell- oder Abrechnungsfehler dem Support zur Prüfung."
+      ]
+    },
+    {
+      "title": "Fehlende Münzen oder eine unbekannte Abbuchung",
+      "paragraphs": [
+        "Prüfe, ob du in demselben SMS Code Konto angemeldet bist, das für den Kauf genutzt wurde. Lass eine ausstehende Apple-Zahlung abschließen und öffne die App erneut. Kaufe kein weiteres Paket, nur um ein fehlendes Guthaben zu beheben.",
+        "Sende dem Support die Apple-Bestellnummer oder den Beleg, das Paket, das Kaufdatum und, falls verfügbar, die Kennung deines App-Kontos. Schwärze nicht zugehörige Käufe und Zahlungsdaten. Bei einer Abbuchung, die du nicht erkennst, prüfe deinen Apple Kaufverlauf und die Käufe der Familienfreigabe und kontaktiere dann Apple."
+      ]
+    },
+    {
+      "title": "Ungenutzte Münzen und Rückerstattungen von Zahlungen",
+      "paragraphs": [
+        "Münzen in die App zurückzugeben, macht keine Apple-Zahlung rückgängig. Um für einen über Apple abgerechneten Münzkauf Geld zurückzubekommen, beantrage bei Apple eine Rückerstattung für diesen Kauf und erkläre wahrheitsgemäß, ob die Münzen ungenutzt, teilweise genutzt, fehlend oder fehlerhaft sind. Ein ungenutztes Guthaben berechtigt nicht automatisch zu einer Rückerstattung oder einer teilweisen Barauszahlung.",
+        "Apple prüft die Berechtigung zur Rückerstattung nach seinen regionalen Bedingungen und dem geltenden Recht. Wir können keine Genehmigung versprechen und selbst keine Rückerstattung über das Zahlungssystem von Apple ausstellen. Kontaktiere uns bei Mängeln am Dienst oder ungenutzten Münzen, wenn du Kauf- oder Guthabennachweise brauchst. Deine zwingenden Verbraucherrechte bleiben unberührt.",
+        "Genehmigt Apple eine Rückerstattung, kann die zugehörige Münzgutschrift von deinem Guthaben entfernt werden. Gib keine weiteren Münzen eines Kaufs aus, für den du eine Rückerstattung beantragst. Das Löschen deines Kontos oder die Deinstallation stellt keinen Erstattungsantrag."
+      ]
+    },
+    {
+      "title": "Rückerstattung bei Apple beantragen",
+      "paragraphs": [
+        "1. Öffne reportaproblem.apple.com und melde dich mit dem Apple Account an, mit dem das Paket bezahlt wurde.",
+        "2. Wähle im Anfragemenü die Option für eine Rückerstattung und dann den Grund, der beschreibt, was passiert ist.",
+        "3. Fahre fort, wähle den Münzkauf von SMS Code aus und sende die Anfrage ab.",
+        "4. Apple gibt normalerweise innerhalb von 24–48 Stunden eine Rückmeldung. Prüfe den Status des Antrags auf derselben Website. Das ist eine Frist für die Rückmeldung; die Anfrage kann noch offen sein, und die Rückzahlung braucht zusätzliche Zeit."
+      ]
+    },
+    {
+      "title": "Wenn der Kauf fehlt oder die Rückerstattung sich verzögert",
+      "paragraphs": [
+        "Für ausstehende Abbuchungen kann keine Anfrage gestellt werden, bis Apple einen Beleg ausstellt; unbezahlte Bestellungen müssen zuerst beglichen werden. Prüfe den Apple Account auf deinem Beleg. Ist der Kauf nicht verfügbar oder kannst du keine Anfrage stellen, kontaktiere den Apple Support.",
+        "Nach der Genehmigung können laut Apple Rückbuchungen als Store-Guthaben bis zu 48 Stunden dauern, Rückzahlungen auf Karte und die meisten anderen Zahlungsmethoden bis zu 30 Tage und Mobilfunkabrechnung bis zu 60 Tage. SIMNETIQ kann die Bearbeitung durch Apple oder die Bank nicht beschleunigen."
+      ]
+    }
+  ]
+}

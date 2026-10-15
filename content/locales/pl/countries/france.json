@@ -1,0 +1,55 @@
+{
+  "name": "Francja",
+  "metaTitle": "Francuski numer wirtualny do SMS — prawdziwy +33",
+  "metaDescription": "Wynajmij prawdziwy francuski numer komórkowy (+33) i odbieraj kody SMS zwykle w kilka sekund. Weryfikuj Instagram, Tinder, Uber, Airbnb i Google.",
+  "hero": {
+    "title": "Francuski numer wirtualny do weryfikacji SMS",
+    "intro": [
+      "Francuskie komórki zaczynają się od 06 lub 07, a każdy formularz rejestracji w Europie wie, co z nimi zrobić. Numer +33 wygląda jak typowa zachodnioeuropejska komórka – znajoma aplikacjom lifestylowym jak Tinder i Uber, platformom podróżniczym jak Airbnb i każdej globalnej usłudze pomiędzy.",
+      "SMS Code daje Ci prawdziwy francuski numer komórkowy jednym stuknięciem. Wpisz go w pole weryfikacji, a SMS z kodem z Instagrama, Google czy innej obsługiwanej usługi pojawi się w aplikacji zwykle w ciągu kilku sekund."
+    ]
+  },
+  "whyCountry": {
+    "title": "Dlaczego francuski numer?",
+    "body": [
+      "Francja to jeden z największych rynków aplikacji konsumenckich w Europie, więc usługi żyjące z weryfikacji telefonu – randki, przewozy, wynajem krótkoterminowy – przetwarzają numery +33 przez cały dzień. Jeśli chcesz konta zakotwiczonego na rynku francuskim lub szerzej w UE, francuska komórka to oczywisty punkt wyjścia.",
+      "Format jest charakterystyczny i łatwy do odczytania: +33, potem 6 lub 7 dla komórek, a potem osiem cyfr tradycyjnie zapisywanych parami – 6 XX XX XX XX. Formularze odczytują go niezawodnie i nie wzbudza podejrzeń tam, gdzie rzadko spotykany numer kierunkowy mógłby spowolnić weryfikację."
+    ]
+  },
+  "tips": [
+    {
+      "title": "06 i 07 to oba komórki",
+      "body": "Francja przydziela komórki w zakresach 06 i 07; usługi traktują je identycznie. W formie międzynarodowej znika wiodące zero – +33 6… lub +33 7… – więc nie dziw się, że zera nie ma."
+    },
+    {
+      "title": "Przepisując, myśl parami",
+      "body": "Francuzi zapisują numery w grupach po dwie cyfry, ale formularze weryfikacji chcą tylko cyfr. Jeśli przepisujesz zamiast wkleić, zignoruj odstępy – liczy się tylko ciąg cyfr."
+    },
+    {
+      "title": "Ponów na świeżym numerze, za darmo",
+      "body": "Jeśli usługa wolno dostarcza albo numer widział już wcześniejsze rejestracje, anuluj aktywację – brak SMS-a oznacza zwrot monet na saldo – i weź nowy francuski numer do kolejnej próby."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy to prawdziwy francuski numer komórkowy?",
+      "a": "Tak – numer w prawdziwej francuskiej sieci operatora w standardowych zakresach komórkowych 06/07. Usługi widzą zwykły francuski telefon, a nie bramkę SMS działającą tylko online."
+    },
+    {
+      "q": "Jakie usługi dobrze działają z francuskim numerem?",
+      "a": "Naturalnie pasują aplikacje konsumenckie z silną obecnością we Francji – Instagram, Tinder, Uber, Airbnb – a także Google i większość globalnych platform oczekujących europejskiej komórki."
+    },
+    {
+      "q": "Czy mogę używać numeru +33 spoza Francji?",
+      "a": "Tak. Numer żyje w aplikacji SMS Code, więc nie ma znaczenia, gdzie jesteś i jaką kartę SIM ma Twój telefon – kod dotrze do Ciebie wszędzie."
+    },
+    {
+      "q": "Czy SMS weryfikacyjny będzie po francusku?",
+      "a": "To zależy od usługi, nie od numeru: większość wysyła kod w języku Twojego konta lub ustawień aplikacji. Tak czy inaczej sam kod to tylko cyfry, w całości pokazane w aplikacji."
+    },
+    {
+      "q": "Czy zatrzymam numer po otrzymaniu kodu?",
+      "a": "Wynajem trwa przez okno aktywacji – wystarczająco, by odebrać kod. Przy kontach, które chcesz zachować, od razu ustaw e-mail do odzyskiwania i 2FA przez aplikację, żeby przyszłe logowania nigdy nie potrzebowały tego numeru."
+    }
+  ]
+}

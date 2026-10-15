@@ -1,0 +1,134 @@
+{
+  "title": "Số ảo Brazil (+55): chữ số thứ 9 và đăng ký",
+  "description": "Số di động Brazil hoạt động thế nào — mã vùng, số 9 thêm vào, đường dây trả trước gắn với CPF — và cách nhận SMS xác minh trên số +55.",
+  "excerpt": "Brazil đã thêm một chữ số vào mọi số di động, gắn đường dây trả trước với CPF và biến WhatsApp thành tổng đài quốc gia. Điều đó có ý nghĩa gì với bất kỳ ai cần số +55 để đăng ký.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ở Brazil, số điện thoại không hẳn để gọi người khác mà là để nhắn họ trên WhatsApp. Cửa hàng nhận đơn ở đó, phòng khám xác nhận lịch hẹn ở đó, và “me chama no zap” — “nhắn mình qua WhatsApp” — đã là câu nói thường ngày suốt một thập kỷ. Trong khảo sát năm 2024 của Mobile Time và Opinion Box, gần một nửa người dùng smartphone Brazil cho biết nếu chỉ được giữ một ứng dụng, đó sẽ là WhatsApp."
+    },
+    {
+      "type": "p",
+      "text": "Điều đó khiến số +55 có giá trị khác thường như một danh tính số. Sàn thương mại, ứng dụng giao hàng, fintech và mạng xã hội xây dựng cho thị trường Brazil đều hỏi số này khi đăng ký. Và hệ thống đánh số của Brazil có những điểm khiến cả người nước ngoài lẫn trình kiểm tra biểu mẫu vấp ngã. Đây là cách nó hoạt động, và số ảo Brazil phù hợp ở đâu."
+    },
+    {
+      "type": "h2",
+      "id": "how-brazilian-numbers-work",
+      "text": "Cấu tạo của một số di động Brazil"
+    },
+    {
+      "type": "p",
+      "text": "Một số di động Brazil viết đầy đủ trông thế này: +55, rồi mã vùng hai chữ số, rồi chín chữ số luôn bắt đầu bằng 9. Theo cách viết địa phương là (11) 9XXXX-XXXX cho São Paulo hoặc (21) 9XXXX-XXXX cho Rio de Janeiro."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mã vùng (DDD) không phải tùy chọn. Brazil có 67 mã DDD, từ 11 ở São Paulo đến 99 ở Maranhão, và số di động giữ chúng. Một số thiếu DDD là không đầy đủ, và biểu mẫu đăng ký sẽ từ chối nó hoặc gửi mã vào hư không.",
+        "Số 9 đứng đầu là dấu hiệu di động. Mọi số di động Brazil giờ đây có chín chữ số sau mã vùng, bắt đầu bằng 9; số cố định có tám.",
+        "Mã nhà mạng dành cho cuộc gọi, không cho biểu mẫu. Người Brazil gọi đường dài chèn mã nhà mạng hai chữ số (15, 21, 31, 41…) trước DDD. Mã đó không bao giờ thuộc về ô +55."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "the-ninth-digit",
+      "text": "Chữ số thứ chín: bốn năm đánh số lại toàn quốc"
+    },
+    {
+      "type": "p",
+      "text": "Cho đến năm 2012, số di động Brazil có tám chữ số, giống như số cố định. São Paulo đang cạn số. Cơ quan quản lý viễn thông Anatel đã ra lệnh một thay đổi nghe có vẻ đơn giản nhưng không hề đơn giản: đặt số 9 trước mọi số di động trong cả nước."
+    },
+    {
+      "type": "p",
+      "text": "Việc chuyển đổi bắt đầu ở mã vùng 11 của São Paulo vào ngày 29 tháng 7 năm 2012 và triển khai lần lượt từng vùng, mỗi giai đoạn có thời gian ân hạn trong đó các cuộc gọi tám chữ số cũ bị chặn bởi một lời nhắn ghi âm. Giai đoạn lớn cuối cùng, bao gồm các bang miền nam Paraná, Santa Catarina và Rio Grande do Sul, kéo dài từ tháng 11 năm 2016 đến tháng 2 năm 2017. Theo số liệu của Anatel, chữ số thêm vào đã nâng dung lượng lên tới 90 triệu số di động mỗi mã vùng."
+    },
+    {
+      "type": "callout",
+      "text": "Danh bạ cũ, trang web cũ và một số trình kiểm tra biểu mẫu cũ vẫn mang số di động tám chữ số. Nếu bạn thấy một số di động Brazil viết là (11) 8765-4321, nó đã lỗi thời — số đang hoạt động là (11) 98765-4321."
+    },
+    {
+      "type": "h2",
+      "id": "cpf-and-prepaid-lines",
+      "text": "Vì sao SIM Brazil gắn với CPF"
+    },
+    {
+      "type": "p",
+      "text": "Hầu hết người Brazil dùng đường dây trả trước, và trong nhiều năm, kích hoạt một đường dây chỉ cần gõ CPF — mã số thuế quốc gia. Điều đó khiến lừa đảo dễ dàng: CPF của người lạ có thể đứng tên một đường dây dưới tên bạn. Bắt đầu từ năm 2017, Anatel đã đẩy bốn nhà mạng lớn thời đó — Vivo, Claro, TIM và Oi — vào đợt đăng ký lại theo từng bang, trong đó khách hàng trả trước phải xác nhận CPF, họ tên đầy đủ và mã bưu chính hoặc mất đường dây. Báo chí đưa tin về đợt 17 bang cho biết chưa đến 1 phần trăm trong số 91 triệu đường dây trả trước ở các bang đó gặp vấn đề đăng ký."
+    },
+    {
+      "type": "p",
+      "text": "Kết quả với bất kỳ ai ở ngoài Brazil: mua SIM địa phương thường đồng nghĩa với có CPF. Người nước ngoài có thể làm, nhưng đó là thủ tục giấy tờ — một chuyến đến Receita Federal hoặc lãnh sự quán — quá nhiều công sức cho một mã xác minh."
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-55-number-makes-sense",
+      "text": "Khi nào số ảo +55 hợp lý — và khi nào không"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hợp lý cho xác minh một lần: tài khoản WhatsApp hay Telegram mang danh tính Brazil, hồ sơ cửa hàng hay sàn thương mại hướng tới khách hàng Brazil, tài khoản nhà sáng tạo trên Instagram hay TikTok nhắm vào Brazil, hoặc tài khoản thử nghiệm cho ứng dụng bạn đang xây dựng cho thị trường đó.",
+        "Không hợp lý cho Pix, ngân hàng Brazil hay gov.br. Những dịch vụ đó gắn tài khoản với CPF của bạn và với số đứng tên bạn, và chúng xác minh lại. Hãy dùng đường dây của riêng bạn."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Một số Brazil thuê từ SMS Code là số di động chín chữ số thật kèm mã vùng trên mạng nhà mạng Brazil. Các dịch vụ thấy một thuê bao +55 bình thường. Nó được giữ riêng cho bạn trong suốt lần kích hoạt, và đó là khác biệt giữa nó với các trang “số Brazil miễn phí” dùng chung mà các dịch vụ phổ biến đã chặn từ lâu."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-55-number",
+      "text": "Nhận mã trên số +55"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Chọn dịch vụ và Brazil",
+          "body": "Mở SMS Code, chọn dịch vụ — WhatsApp, Instagram, TikTok hay bất kỳ dịch vụ nào trong hơn 100 dịch vụ khác — và chọn Brazil. Giá kích hoạt bằng xu được hiển thị trước khi bạn xác nhận."
+        },
+        {
+          "title": "Nhập số kèm mã vùng",
+          "body": "Đặt biểu mẫu sang Brazil (+55) và nhập mã vùng tiếp theo là số chín chữ số đúng như ứng dụng hiển thị — tổng cộng mười một chữ số, không mã nhà mạng, không số 0 đầu."
+        },
+        {
+          "title": "Sao chép mã",
+          "body": "SMS đến ứng dụng thường chỉ trong vài giây. Nếu không có gì, hãy hủy sau mốc hai phút — xu được hoàn khi không có SMS — và thử một số Brazil khác."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Câu hỏi thường gặp"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Số di động Brazil có bao nhiêu chữ số?",
+          "a": "Mười một sau +55: mã vùng hai chữ số (DDD) cộng số chín chữ số bắt đầu bằng 9. Theo cách viết địa phương trông như (21) 98765-4321."
+        },
+        {
+          "q": "Tôi có thể tạo tài khoản WhatsApp Brazil từ nước ngoài không?",
+          "a": "Có. WhatsApp chỉ kiểm tra bạn có nhận được mã gửi tới số hay không. Số ảo +55 nhận nó như mọi số di động Brazil. Hãy đặt PIN WhatsApp và thêm email ngay để sau này không phụ thuộc vào số."
+        },
+        {
+          "q": "Tôi có cần CPF để dùng số ảo Brazil không?",
+          "a": "Không. Yêu cầu CPF áp dụng cho việc mua và đăng ký SIM từ nhà mạng Brazil. Thuê số để xác minh trong SMS Code không cần giấy tờ Brazil nào."
+        },
+        {
+          "q": "Tôi có thể dùng nó cho Pix hay ngân hàng Brazil không?",
+          "a": "Không. Dịch vụ tài chính và gov.br gắn tài khoản với CPF của bạn và với số đứng tên bạn, và chúng kiểm tra lại. Số tạm thời là công cụ sai ở đó."
+        },
+        {
+          "q": "Vì sao mã của tôi không bao giờ được giao?",
+          "a": "Thường gặp nhất là bỏ sót mã vùng hoặc thêm thừa một chữ số. Kiểm tra định dạng, chờ một phút, và nếu vẫn không có gì, hãy hủy và lấy số mới — xu sẽ được hoàn."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

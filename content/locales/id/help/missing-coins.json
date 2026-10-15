@@ -1,0 +1,27 @@
+{
+  "title": "Sudah bayar tetapi koin tidak masuk",
+  "metaDescription": "Sudah membeli paket koin tetapi saldo tidak berubah? Periksa pembayaran Apple, akun SMS Code, dan pemulihan pembelian, lalu kirimkan ID pesanan Apple.",
+  "sections": [
+    {
+      "title": "Periksa ini terlebih dahulu",
+      "steps": [
+        "**Tunggu beberapa menit dan buka ulang aplikasi.** Pembayaran Apple yang tertunda mungkin perlu waktu sebentar. Jangan membeli paket lain untuk mengatasinya.",
+        "**Periksa akun.** Koin dimiliki oleh akun SMS Code yang membelinya. Jika Anda masuk dengan Apple, Google, atau email di perangkat lain, gunakan login yang sama di sini.",
+        "**Pulihkan pembelian.** Buka toko koin di aplikasi dan ketuk **Pulihkan pembelian**. Langkah ini mengkreditkan pembelian yang sudah dikonfirmasi Apple tetapi terlewat oleh aplikasi."
+      ]
+    },
+    {
+      "title": "Memasang ulang aplikasi?",
+      "paragraphs": [
+        "Jika Anda memakai aplikasi tanpa masuk, memasang ulang akan membuat akun baru dan saldo lama tidak ikut pindah secara otomatis. Tulis kepada kami dengan ID pesanan Apple Anda, dan kami akan membantu memulihkannya. [Menjaga saldo Anda](/support/account-balance) menjelaskan cara menghindarinya ke depannya."
+      ]
+    },
+    {
+      "title": "Yang perlu dikirim kepada kami",
+      "paragraphs": [
+        "ID pesanan Apple dari email tanda terima Apple (diawali huruf M), paket, dan tanggal pembelian. Sembunyikan pembelian lain yang tidak terkait dan detail pembayaran. Jika Anda menghubungi kami dari aplikasi, ID akun Anda dilampirkan otomatis.",
+        "Jika Anda lebih ingin uang kembali daripada koin, lihat [cara meminta pengembalian dana ke Apple](/support/refund-apple)."
+      ]
+    }
+  ]
+}

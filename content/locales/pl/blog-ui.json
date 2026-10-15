@@ -1,0 +1,27 @@
+{
+  "breadcrumbHome": "Start",
+  "breadcrumb": "Blog",
+  "metaTitle": "Blog — numery wirtualne, prywatność i weryfikacja SMS",
+  "metaDescription": "Praktyczne poradniki o numerach wirtualnych, weryfikacji SMS i o tym, jak zachować prywatność swojego numeru telefonu – od zespołu stojącego za SMS Code.",
+  "label": "Blog",
+  "title": "Poradniki dla tych, którzy chronią swój numer",
+  "sub": "Praktyczne, uczciwe artykuły: jak naprawdę działa weryfikacja, usługa po usłudze, i jak trzymać prywatny numer z dala od tego wszystkiego.",
+  "published": "Opublikowano",
+  "updated": "Zaktualizowano",
+  "ctaTitle": "Zastosuj to przy następnej rejestracji",
+  "ctaBody": "Weź numer i zobacz, jak kod przychodzi zwykle w kilka sekund.",
+  "readMore": "Czytaj poradnik",
+  "tags": {
+    "guide": "Poradnik",
+    "privacy": "Prywatność",
+    "esim": "eSIM",
+    "google": "Google",
+    "dating": "Randki",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "how-to": "Jak to zrobić",
+    "basics": "Podstawy",
+    "countries": "Kraje",
+    "security": "Bezpieczeństwo"
+  }
+}

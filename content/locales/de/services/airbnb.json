@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Airbnb — buchen ohne eigene Nummer",
+  "metaDescription": "Bestätige dein Airbnb Konto mit einer echten virtuellen Nummer. Der SMS-Code kommt meist in Sekunden – Unterkünfte buchen, ohne deine private Nummer zu teilen.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Airbnb",
+    "intro": [
+      "Airbnb lebt vom Vertrauen zwischen Fremden, und eine bestätigte Telefonnummer ist einer der ersten Bausteine dafür. Bevor du eine Unterkunft buchen kannst – und oft bevor ein Gastgeber überhaupt auf eine Anfrage antwortet –, möchte Airbnb sicherstellen, dass du erreichbar bist, und das geschieht mit einem SMS-Code an die Nummer in deinem Konto.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, gibst sie bei der Registrierung bei Airbnb ein, und der sechsstellige Code erscheint meist innerhalb von Sekunden in der App SMS Code. Du bekommst ein bestätigtes Konto; deine private Nummer bleibt deine."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Airbnb?",
+    "body": [
+      "Das Seltsame daran: Sobald eine Buchung bestätigt ist, nutzt du deine Telefonnummer auf Airbnb kaum noch. Gäste und Gastgeber schreiben sich über die App, und selbst Anrufe laufen über maskierte Weiterleitungsnummern von Airbnb – genau damit keine Seite die echten Kontaktdaten der anderen sieht. Trotzdem verlangt die Registrierung eine Nummer, die SMS empfangen kann – die Bestätigung existiert für die Plattform, nicht für die Person am anderen Ende deiner Buchung.",
+      "Damit ist eine virtuelle Nummer die naheliegende Wahl für Reisende, denen Datenschutz wichtig ist. Dein Konto ist bestätigt und bucht Unterkünfte wie jedes andere, aber die Nummer in deinem Profil ist nicht die, die dich durch deinen Alltag begleitet – sie kann nicht in der Kontaktliste eines Gastgebers, in einer Marketingdatenbank oder sonst irgendwo landen, wo du sie nicht haben wolltest."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du Airbnb mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code holen",
+        "body": "Öffne die App SMS Code, wähle Airbnb als Dienst und such dir ein Land aus – viele Reisende nehmen das Land, aus dem sie tatsächlich buchen, etwa die USA, Frankreich oder Spanien. Die Nummer ist sofort für dich reserviert."
+      },
+      {
+        "title": "Bei der Registrierung bei Airbnb eingeben",
+        "body": "Erstelle dein Airbnb Konto (per E-Mail oder Social Login) und gib die gemietete Nummer ein, wenn Airbnb dein Telefon bestätigen möchte. Achte darauf, dass die gewählte Ländervorwahl zum Land der Nummer passt."
+      },
+      {
+        "title": "SMS-Code eintippen",
+        "body": "Die Nachricht landet meist innerhalb von Sekunden in der App SMS Code – „Your Airbnb verification code is: 517203.“ Gib ihn auf dem Bestätigungsbildschirm von Airbnb ein, und dein Telefon ist bestätigt."
+      },
+      {
+        "title": "Profil vervollständigen",
+        "body": "Füge ein Foto hinzu, bestätige deine E-Mail und erledige alle Identitätsschritte, die Airbnb verlangt. Ein vollständiges Profil zählt auf Airbnb – Gastgeber nehmen Anfragen von vollständigen Profilen weit eher an als von leeren."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Mit dem bestätigten Konto buchen",
+      "body": "Airbnb verknüpft die Telefonbestätigung mit dem Konto, nicht mit dem Gerät. Bestätige auf dem Konto, mit dem du wirklich buchen wirst, und bleib angemeldet – im Alltag meldest du dich mit E-Mail oder Social Login an, nicht per SMS."
+    },
+    {
+      "title": "Nachrichten bleiben in der App",
+      "body": "Gastgeber kontaktieren dich über das Nachrichtensystem von Airbnb, und Anrufe laufen über maskierte Weiterleitungsnummern. Aktiviere Push-Mitteilungen in der Airbnb App, damit du nie auf SMS angewiesen bist, um von einer Buchung zu hören."
+    },
+    {
+      "title": "Identitätsprüfungen sind getrennt",
+      "body": "Bei manchen Buchungen verlangt Airbnb zusätzlich die Bestätigung eines amtlichen Ausweises. Das ist ein von der Telefonbestätigung unabhängiger Schritt – eine virtuelle Nummer beeinflusst ihn in keine Richtung, und der Ausweis muss tatsächlich deiner sein. Airbnb Konten sind laut Bedingungen persönlich und nicht übertragbar."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Sehen Gastgeber die virtuelle Nummer, mit der ich bestätigt habe?",
+      "a": "Nein. Gastgeber und Gäste kommunizieren über die Nachrichten von Airbnb, und Anrufe laufen auf beiden Seiten über maskierte Weiterleitungsnummern. Die Nummer in deinem Konto dient der Bestätigung durch Airbnb und wird Gastgebern nicht angezeigt."
+    },
+    {
+      "q": "Kann ich nach der Bestätigung mit einer virtuellen Nummer ganz normal buchen?",
+      "a": "Ja. Es ist eine echte Mobilnummer bei einem echten Netzbetreiber, und sobald der Code bestätigt ist, ist dein Konto bestätigt wie jedes andere. Buchen, Nachrichten und Bewertungen funktionieren genauso."
+    },
+    {
+      "q": "Was passiert, wenn das Aktivierungsfenster der gemieteten Nummer endet?",
+      "a": "Dein Konto funktioniert weiter – die Nummer wird bei der Bestätigung geprüft, nicht laufend. Bleib angemeldet und halte deine E-Mail bestätigt, denn die E-Mail ist dein alltäglicher Weg zurück ins Konto. Falls Airbnb das Telefon jemals erneut bestätigen will, kannst du die hinterlegte Nummer durch eine neue ersetzen."
+    },
+    {
+      "q": "Warum ist mein Airbnb Code nicht angekommen?",
+      "a": "Die üblichen Verdächtigen: Die auf Airbnb gewählte Ländervorwahl passt nicht zur gemieteten Nummer, oder die Anfrage ist abgelaufen. Brich die Aktivierung in SMS Code ab – für Nummern, die nichts empfangen haben, gibt es die Münzen zurück – und versuche es mit einer neuen Nummer, wobei du das Land noch einmal prüfst."
+    },
+    {
+      "q": "Ist es erlaubt, Airbnb mit einer virtuellen Nummer zu bestätigen?",
+      "a": "Die Prüfung von Airbnb stellt fest, dass du eine funktionierende Nummer kontrollierst; eine dafür zu mieten ist bei normaler privater Nutzung in Ordnung. Worauf Airbnb besteht, ist, dass das Konto wirklich dich darstellt – nutze deinen echten Namen, auf Nachfrage deinen eigenen Ausweis und ein Konto pro Person."
+    }
+  ]
+}

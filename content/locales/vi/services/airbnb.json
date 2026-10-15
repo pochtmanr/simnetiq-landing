@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Airbnb — Đặt phòng không cần số của bạn",
+  "metaDescription": "Xác minh tài khoản Airbnb bằng số ảo thật. Mã SMS thường đến chỉ trong vài giây — đặt chỗ ở mà không phải cung cấp số điện thoại cá nhân của bạn.",
+  "hero": {
+    "title": "Số ảo cho Airbnb",
+    "intro": [
+      "Airbnb vận hành dựa trên niềm tin giữa những người lạ, và số điện thoại đã xác minh là một trong những viên gạch đầu tiên của bức tường đó. Trước khi bạn có thể đặt chỗ — và thường trước cả khi chủ nhà trả lời yêu cầu — Airbnb muốn chắc chắn rằng có thể liên lạc với bạn, và làm điều đó bằng mã SMS gửi tới số trong tài khoản của bạn.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia, nhập số đó khi đăng ký Airbnb, và mã sáu chữ số hiện trong ứng dụng SMS Code thường chỉ trong vài giây. Bạn có tài khoản đã xác minh; số cá nhân vẫn là của riêng bạn."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Airbnb?",
+    "body": [
+      "Điều kỳ lạ là: khi đặt chỗ đã được xác nhận, bạn gần như không cần đến số điện thoại trên Airbnb. Khách và chủ nhà nhắn tin qua ứng dụng, và ngay cả cuộc gọi cũng đi qua số chuyển tiếp ẩn của Airbnb — chính là để không bên nào thấy thông tin liên lạc thật của bên kia. Thế nhưng việc đăng ký vẫn đòi một số nhận được SMS: bước kiểm tra tồn tại vì nền tảng, không phải vì người ở phía bên kia đặt chỗ của bạn.",
+      "Vì vậy số ảo là lựa chọn tự nhiên cho du khách coi trọng quyền riêng tư. Tài khoản của bạn được xác minh và đặt chỗ như mọi tài khoản khác, nhưng số trong hồ sơ không phải số theo bạn trong cuộc sống hằng ngày — nó sẽ không nằm trong danh bạ chủ nhà, cơ sở dữ liệu tiếp thị hay bất kỳ đâu bạn không định trước."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Airbnb bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Airbnb làm dịch vụ và chọn quốc gia — nhiều du khách chọn nơi họ thực sự đặt chỗ, như Mỹ, Pháp hoặc Tây Ban Nha. Số được giữ cho bạn ngay lập tức."
+      },
+      {
+        "title": "Thêm số khi đăng ký Airbnb",
+        "body": "Tạo tài khoản Airbnb (email hoặc đăng nhập mạng xã hội đều được) và nhập số đã thuê khi Airbnb yêu cầu xác minh điện thoại. Đảm bảo mã quốc gia bạn chọn khớp với quốc gia của số."
+      },
+      {
+        "title": "Nhập mã SMS",
+        "body": "Tin nhắn đến ứng dụng SMS Code thường chỉ trong vài giây — “Your Airbnb verification code is: 517203.” Nhập mã trên màn hình xác minh của Airbnb và điện thoại đã được xác nhận."
+      },
+      {
+        "title": "Hoàn thiện hồ sơ",
+        "body": "Thêm ảnh, xác nhận email và hoàn tất các bước xác minh danh tính mà Airbnb yêu cầu. Hồ sơ đầy đủ rất quan trọng trên Airbnb — chủ nhà sẵn lòng chấp nhận yêu cầu từ hồ sơ đầy đủ hơn nhiều so với hồ sơ trống."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Đặt chỗ từ tài khoản đã xác minh",
+      "body": "Airbnb gắn việc xác minh điện thoại với tài khoản, không phải thiết bị. Hãy xác minh đúng tài khoản bạn sẽ dùng để đặt chỗ và giữ trạng thái đăng nhập — hằng ngày bạn đăng nhập bằng email hoặc mạng xã hội, không phải qua SMS."
+    },
+    {
+      "title": "Tin nhắn ở trong ứng dụng",
+      "body": "Chủ nhà liên lạc với bạn qua hệ thống nhắn tin riêng của Airbnb, còn cuộc gọi đi qua số chuyển tiếp ẩn. Hãy bật thông báo đẩy trong ứng dụng Airbnb để không bao giờ phụ thuộc vào SMS cho các vấn đề đặt chỗ."
+    },
+    {
+      "title": "Xác minh danh tính là bước riêng",
+      "body": "Với một số đặt chỗ, Airbnb còn yêu cầu xác minh giấy tờ tùy thân. Đó là bước độc lập với xác minh điện thoại — số ảo không ảnh hưởng gì đến nó, và giấy tờ phải thực sự là của bạn. Theo điều khoản của Airbnb, tài khoản là cá nhân và không được chuyển nhượng."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Chủ nhà có thấy số ảo tôi dùng để xác minh không?",
+      "a": "Không. Chủ nhà và khách liên lạc qua tin nhắn Airbnb, còn cuộc gọi hai chiều đi qua số chuyển tiếp ẩn. Số trong tài khoản dùng cho việc kiểm tra của Airbnb và không hiển thị cho chủ nhà."
+    },
+    {
+      "q": "Sau khi xác minh bằng số ảo, tôi có đặt chỗ bình thường được không?",
+      "a": "Có. Đó là số di động thật trên nhà mạng thật, và khi mã được xác nhận, tài khoản của bạn được xác minh như mọi tài khoản khác. Đặt chỗ, nhắn tin và đánh giá đều hoạt động như nhau."
+    },
+    {
+      "q": "Điều gì xảy ra khi thời hạn kích hoạt của số đã thuê kết thúc?",
+      "a": "Tài khoản vẫn hoạt động — số được kiểm tra lúc xác minh, không phải liên tục. Hãy giữ trạng thái đăng nhập và giữ email đã xác minh, vì email là đường quay lại tài khoản hằng ngày của bạn. Nếu Airbnb có lúc yêu cầu xác minh lại điện thoại, bạn có thể thay số đã lưu bằng một số mới."
+    },
+    {
+      "q": "Vì sao mã Airbnb không đến?",
+      "a": "Lý do thường gặp: mã quốc gia chọn trong Airbnb không khớp với số đã thuê, hoặc yêu cầu đã hết hạn. Hãy hủy lần kích hoạt trong SMS Code — xu được hoàn cho số không nhận được gì — và thử lại với số mới, kiểm tra lại quốc gia."
+    },
+    {
+      "q": "Xác minh Airbnb bằng số ảo có được phép không?",
+      "a": "Bước kiểm tra của Airbnb xác nhận rằng bạn kiểm soát một số đang hoạt động; thuê số cho việc đó hoàn toàn ổn với mục đích cá nhân thông thường. Điều Airbnb thực sự yêu cầu là tài khoản phải đại diện cho chính bạn — dùng tên thật, giấy tờ của chính mình khi được yêu cầu, và mỗi người một tài khoản."
+    }
+  ]
+}

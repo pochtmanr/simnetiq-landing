@@ -1,0 +1,129 @@
+{
+  "title": "Numery z odzysku: ciche ryzyko w weryfikacji SMS",
+  "description": "Co roku miliony numerów zmieniają właściciela. Studium z Princeton wykazało, że większość numerów z odzysku wciąż otwierała stare konta. Co to dla Ciebie znaczy?",
+  "excerpt": "Gdy numer zostaje odłączony, nie znika – wraca do sprzedaży. Badacze z Princeton ustalili, że dwa na trzy zbadane numery z odzysku wciąż były powiązane z czyimiś kontami. Co recykling numerów oznacza dla weryfikacji SMS i jak nie znaleźć się po żadnej ze stron.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Numery telefonów wydają się stałe. Drukujemy je na wizytówkach, podajemy bankom i logujemy się nimi niemal wszędzie. Ale dla operatora numer to towar. Gdy klient przestaje płacić, zmienia taryfę bez przeniesienia numeru albo po prostu pozwala karcie prepaid wygasnąć, numer zostaje odłączony, odczeka swoje i trafia do kogoś nowego."
+    },
+    {
+      "type": "p",
+      "text": "Amerykańska Federalna Komisja Łączności (FCC) szacuje, że w samych Stanach Zjednoczonych co roku odłącza się i udostępnia do ponownego przydziału około 35 milionów numerów. Większość z nich była w którymś momencie loginem, kanałem odzyskiwania lub drugim czynnikiem czyichś kont."
+    },
+    {
+      "type": "h2",
+      "id": "what-the-princeton-study-found",
+      "text": "Co ustalili badacze z Princeton"
+    },
+    {
+      "type": "p",
+      "text": "W 2021 roku Kevin Lee i Arvind Narayanan z Center for Information Technology Policy Uniwersytetu Princeton postanowili zmierzyć problem bezpośrednio. Pobrali próbkę 259 numerów, które dwaj duzi amerykańscy operatorzy, T-Mobile i Verizon, oferowali nowym abonentom, a potem sprawdzili, co te numery wciąż mogły odblokować."
+    },
+    {
+      "type": "list",
+      "items": [
+        "171 z 259 numerów – mniej więcej dwa na trzy – wciąż było powiązanych z istniejącymi kontami w popularnych serwisach, w tym Amazon, AOL, Facebook, Google, PayPal i Yahoo. Nowy właściciel odbierający SMS-y z resetem hasła mógłby potencjalnie przejąć te konta.",
+        "100 numerów pojawiało się obok wyciekłych danych logowania w publicznych danych z wycieków, co oznacza, że SMS był jedyną rzeczą stojącą między atakującym a kontem.",
+        "Wiele numerów zwracało też dane osobowe poprzednich właścicieli w wyszukiwarkach osób."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Badacze odkryli też, że strony operatorów do zmiany numeru online pozwalały każdemu przeglądać duże pule dostępnych numerów, co ułatwiało atakującemu polowanie na numery z odzysku. Obaj operatorzy wprowadzili zmiany po powiadomieniu; autorzy opublikowali ich odpowiedzi razem z badaniem."
+    },
+    {
+      "type": "callout",
+      "text": "Sedno problemu jest proste: usługi traktują „może odebrać SMS na ten numer” jako dowód tożsamości, a operatorzy traktują numery jako wielokrotnego użytku. Gdy te dwa założenia się spotykają, osoba trzymająca numer dziś dziedziczy całe zaufanie, które było do niego przypięte wczoraj."
+    },
+    {
+      "type": "h2",
+      "id": "what-regulators-did",
+      "text": "Co zrobili regulatorzy"
+    },
+    {
+      "type": "p",
+      "text": "Główna odpowiedź FCC celowała w inny problem – niechciane połączenia do osób, które odziedziczyły numer. W grudniu 2018 roku nakazała utworzenie Reassigned Numbers Database, która ruszyła w 2021 roku. Operatorzy zgłaszają trwale odłączone numery, a firmy mogą sprawdzić, czy numer został odłączony od danej daty, zanim do niego zadzwonią lub napiszą. To samo zarządzenie wprowadziło minimalny 45-dniowy okres „leżakowania”, zanim odłączony numer może zostać ponownie przydzielony."
+    },
+    {
+      "type": "p",
+      "text": "To pomaga firmom przestać pisać do obcych. Nic nie robi dla kont, które wciąż mają zapisany stary numer. Ich aktualizacja w praktyce spoczywa na właścicielu konta."
+    },
+    {
+      "type": "h2",
+      "id": "protecting-your-own-accounts",
+      "text": "Jak chronić się przy zmianie numeru"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Zaktualizuj, zanim puścisz",
+          "body": "Zanim zrezygnujesz z linii lub pozwolisz karcie prepaid wygasnąć, przejdź przez konta e-mail, bankowe, społecznościowe i zakupowe i zmień numer. Lista zapisanych logowań w menedżerze haseł to najszybsza lista kontrolna."
+        },
+        {
+          "title": "Odejdź od SMS-a jako drugiego czynnika",
+          "body": "Używaj aplikacji uwierzytelniającej, klucza dostępu lub klucza sprzętowego wszędzie, gdzie są dostępne. Amerykańska instytucja normalizacyjna NIST klasyfikuje dziś kody SMS jako „ograniczony” uwierzytelniacz właśnie z tych powodów."
+        },
+        {
+          "title": "Zachowaj drogę odzyskiwania, która nie jest numerem telefonu",
+          "body": "Kontrolowany przez siebie e-mail do odzyskiwania i zapisane kody zapasowe sprawiają, że utracony lub odzyskany przez kogoś numer to niedogodność, a nie blokada."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "what-it-means-for-virtual-numbers",
+      "text": "Co to oznacza dla wynajmowanych numerów wirtualnych"
+    },
+    {
+      "type": "p",
+      "text": "Uczciwy artykuł o recyklingu numerów musi zastosować tę samą logikę do numerów wynajmowanych, bo te są z założenia wielokrotnego użytku. Numer wynajęty do jednej weryfikacji jest zarezerwowany dla Ciebie podczas aktywacji; potem może zostać użyty ponownie przez innych ludzi i do innych usług. To czyni wynajęty numer tanim i jednorazowym – i dlatego nigdy nie powinien stać się długoterminowym kanałem odzyskiwania konta, na którym Ci zależy."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Dobre zastosowania: przejście przez rejestrację bez podawania usłudze prywatnego numeru; komunikatory, sieci społecznościowe, marketplace’y, okresy próbne i konta testowe, gdzie numer liczy się w chwili weryfikacji.",
+        "Złe zastosowania: bankowość, płatności, usługi rządowe i każde konto, którego jedyną drogą odzyskiwania jest SMS na ten numer. Zasługują na numer, który za pięć lat nadal będzie Twój.",
+        "Zaraz po weryfikacji: dodaj e-mail do odzyskiwania, włącz zabezpieczenie dwuskładnikowe przez aplikację i, gdzie usługa na to pozwala, nie zostawiaj wynajętego numeru jako jedynej drogi powrotu."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Użyty w ten sposób wynajęty numer jest wręcz obroną przed problemem recyklingu, a nie jego przykładem. Twój prawdziwy numer – który sam może kiedyś zostać odłączony i odsprzedany – w ogóle nie trafia do dziesiątek baz danych."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Najczęstsze pytania"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Po jakim czasie stary numer trafia do kogoś innego?",
+          "a": "W USA przepisy FCC wymagają, by odłączony numer „leżakował” co najmniej 45 dni przed ponownym przydziałem, a operatorzy często czekają dłużej. Inne kraje ustalają własne okresy; niektóre numery prepaid są wydawane ponownie w ciągu miesięcy."
+        },
+        {
+          "q": "Czy nowy właściciel mojego starego numeru może wejść na moje konta?",
+          "a": "Jeśli konto nadal używa tego numeru do resetu hasła lub kodów dwuskładnikowych – potencjalnie tak. Badanie z Princeton wykazało, że dwie trzecie zbadanych numerów z odzysku wciąż było powiązanych z kontami w dużych serwisach."
+        },
+        {
+          "q": "Jak sprawdzić, które konta używają mojego numeru telefonu?",
+          "a": "Zacznij od menedżera haseł i skrzynki e-mail – wyszukaj wiadomości z „kodem weryfikacyjnym” i „logowaniem”. Potem po kolei sprawdź ustawienia bezpieczeństwa kont e-mail, bankowych, społecznościowych i zakupowych."
+        },
+        {
+          "q": "Czy wynajmowane numery wirtualne są używane ponownie?",
+          "a": "Tak, po zakończeniu Twojej aktywacji. Dlatego są przeznaczone na moment weryfikacji. Zaraz po rejestracji dodaj do konta e-mail i zabezpieczenie dwuskładnikowe przez aplikację."
+        },
+        {
+          "q": "Czy uwierzytelnianie dwuskładnikowe przez SMS nadal ma sens?",
+          "a": "Jest lepsze niż brak drugiego czynnika, ale aplikacja uwierzytelniająca, klucz dostępu lub klucz sprzętowy są silniejsze i nie zależą od tego, kto trzyma numer telefonu."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

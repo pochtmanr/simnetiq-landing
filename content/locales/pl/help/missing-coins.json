@@ -1,0 +1,27 @@
+{
+  "title": "Zapłacone, ale brakuje monet",
+  "metaDescription": "Kupiłeś pakiet monet, a saldo się nie zmieniło? Sprawdź płatność Apple, swoje konto SMS Code i przywracanie zakupów, a potem wyślij nam numer zamówienia Apple.",
+  "sections": [
+    {
+      "title": "Najpierw sprawdź to",
+      "steps": [
+        "**Odczekaj kilka minut i otwórz aplikację ponownie.** Oczekująca płatność Apple może potrzebować chwili. Nie kupuj kolejnego pakietu, żeby to naprawić.",
+        "**Sprawdź konto.** Monety należą do konta SMS Code, które je kupiło. Jeśli zalogowałeś się przez Apple, Google lub e-mail na innym urządzeniu, użyj tutaj tego samego loginu.",
+        "**Przywróć zakupy.** Otwórz sklep z monetami w aplikacji i stuknij **Przywróć zakupy**. Spowoduje to zaksięgowanie zakupów, które Apple potwierdziło, a aplikacja przeoczyła."
+      ]
+    },
+    {
+      "title": "Przeinstalowałeś aplikację?",
+      "paragraphs": [
+        "Jeśli korzystałeś z aplikacji bez logowania, ponowna instalacja tworzy nowe konto, a stare saldo nie przechodzi automatycznie. Napisz do nas z numerem zamówienia Apple, a pomożemy je odzyskać. Strona [Zachowanie salda](/support/account-balance) wyjaśnia, jak uniknąć tego w przyszłości."
+      ]
+    },
+    {
+      "title": "Co nam wysłać",
+      "paragraphs": [
+        "Numer zamówienia Apple z e-maila z paragonem od Apple (zaczyna się od M), pakiet i datę zakupu. Ukryj niezwiązane zakupy i dane płatnicze. Jeśli piszesz do nas z aplikacji, identyfikator konta jest dołączany automatycznie.",
+        "Jeśli zamiast monet chcesz odzyskać pieniądze, zobacz, [jak poprosić Apple o zwrot](/support/refund-apple)."
+      ]
+    }
+  ]
+}

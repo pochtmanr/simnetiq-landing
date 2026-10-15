@@ -1,0 +1,134 @@
+{
+  "title": "Virtuelle Nummer Brasilien (+55): neunte Ziffer und Login",
+  "description": "Wie brasilianische Mobilnummern funktionieren – Vorwahlen, die zusätzliche 9, an die CPF gebundene Prepaid-SIMs – und wie du SMS auf einer +55-Nummer empfängst.",
+  "excerpt": "Brasilien hat jeder Mobilnummer eine Ziffer hinzugefügt, Prepaid-Leitungen an die CPF gebunden und WhatsApp zur nationalen Telefonzentrale gemacht. Was das für alle bedeutet, die für eine Registrierung eine +55-Nummer brauchen.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "In Brasilien ist die Telefonnummer weniger ein Mittel, um Leute anzurufen, als eines, um sie auf WhatsApp zu erreichen. Läden nehmen dort Bestellungen an, Kliniken bestätigen dort Termine, und „me chama no zap“ – „schreib mir auf WhatsApp“ – ist seit einem Jahrzehnt Alltagssprache. In einer Umfrage von Mobile Time und Opinion Box aus dem Jahr 2024 sagte fast die Hälfte der brasilianischen Smartphone-Besitzer, dass sie WhatsApp behalten würden, wenn sie nur eine einzige App behalten dürften."
+    },
+    {
+      "type": "p",
+      "text": "Das macht die +55-Nummer als digitale Identität ungewöhnlich wertvoll. Marktplätze, Liefer-Apps, Fintechs und soziale Netzwerke für den brasilianischen Markt verlangen bei der Registrierung alle eine. Und Brasiliens Nummernsystem hat Eigenheiten, über die Ausländer und Formularprüfungen gleichermaßen stolpern. So funktioniert es, und hier passt eine virtuelle brasilianische Nummer hinein."
+    },
+    {
+      "type": "h2",
+      "id": "how-brazilian-numbers-work",
+      "text": "Aufbau einer brasilianischen Mobilnummer"
+    },
+    {
+      "type": "p",
+      "text": "Vollständig ausgeschrieben sieht eine brasilianische Mobilnummer so aus: +55, dann eine zweistellige Ortsvorwahl, dann neun Ziffern, die immer mit 9 beginnen. In lokaler Schreibweise ist das (11) 9XXXX-XXXX für São Paulo oder (21) 9XXXX-XXXX für Rio de Janeiro."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Die Ortsvorwahl (DDD) ist nicht optional. Brasilien hat 67 DDD-Vorwahlen, von 11 in São Paulo bis 99 in Maranhão, und Mobilnummern behalten sie. Eine Nummer ohne ihre DDD ist unvollständig, und ein Registrierungsformular lehnt sie ab oder schickt den Code ins Nichts.",
+        "Die führende 9 ist das Mobilfunkkennzeichen. Jede brasilianische Mobilnummer hat heute neun Ziffern nach der Ortsvorwahl, beginnend mit 9; Festnetznummern haben acht.",
+        "Betreibervorwahlen sind für Anrufe, nicht für Formulare. Brasilianer, die Ferngespräche führen, setzen vor die DDD eine zweistellige Betreibervorwahl (15, 21, 31, 41 …). Diese Vorwahl gehört nie in ein +55-Feld."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "the-ninth-digit",
+      "text": "Die neunte Ziffer: eine landesweite Umnummerierung über vier Jahre"
+    },
+    {
+      "type": "p",
+      "text": "Bis 2012 hatten brasilianische Mobilnummern acht Ziffern, genau wie Festnetznummern. São Paulo gingen die Nummern aus. Die Telekom-Regulierungsbehörde Anatel ordnete eine Änderung an, die einfach klingt und es nicht war: jeder Mobilnummer im Land eine 9 voranzustellen."
+    },
+    {
+      "type": "p",
+      "text": "Die Umstellung begann am 29. Juli 2012 in São Paulos Vorwahlgebiet 11 und lief Region für Region, wobei jede Phase eine Übergangszeit bekam, in der alte achtstellige Anrufe von einer Bandansage abgefangen wurden. Die letzte große Phase, die die südlichen Bundesstaaten Paraná, Santa Catarina und Rio Grande do Sul umfasste, lief von November 2016 bis Februar 2017. Laut Anatel erhöhte die zusätzliche Ziffer die Kapazität auf bis zu 90 Millionen Mobilnummern pro Vorwahlgebiet."
+    },
+    {
+      "type": "callout",
+      "text": "Alte Kontaktlisten, alte Websites und manche ältere Formularprüfungen führen noch achtstellige Mobilnummern. Siehst du eine brasilianische Mobilnummer als (11) 8765-4321 geschrieben, ist sie veraltet – die funktionierende Nummer ist (11) 98765-4321."
+    },
+    {
+      "type": "h2",
+      "id": "cpf-and-prepaid-lines",
+      "text": "Warum brasilianische SIMs an die CPF gebunden sind"
+    },
+    {
+      "type": "p",
+      "text": "Die meisten Brasilianer nutzen Prepaid-Leitungen, und jahrelang brauchte man für die Aktivierung kaum mehr als die Eingabe einer CPF – der nationalen Steuernummer. Das machte Betrug leicht: Mit der CPF eines Fremden ließ sich eine Leitung auf deinen Namen anmelden. Ab 2017 trieb Anatel die vier großen Betreiber der damaligen Zeit – Vivo, Claro, TIM und Oi – durch eine Neuregistrierung Bundesstaat für Bundesstaat, bei der Prepaid-Kunden ihre CPF, ihren vollständigen Namen und ihre Postleitzahl bestätigen mussten oder die Leitung verloren. Presseberichte über die Runde in 17 Bundesstaaten meldeten, dass weniger als 1 Prozent der 91 Millionen Prepaid-Leitungen in diesen Staaten Registrierungsprobleme hatten."
+    },
+    {
+      "type": "p",
+      "text": "Für alle außerhalb Brasiliens heißt das: Eine lokale SIM zu kaufen, setzt in der Regel eine CPF voraus. Ausländer können eine bekommen, aber es ist Papierkram – ein Besuch bei der Receita Federal oder einem Konsulat –, viel Aufwand für einen einzigen Bestätigungscode."
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-55-number-makes-sense",
+      "text": "Wann eine virtuelle +55-Nummer sinnvoll ist – und wann nicht"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sinnvoll ist sie für einmalige Bestätigungen: ein WhatsApp oder Telegram Konto mit brasilianischer Identität, ein Shop- oder Marktplatzprofil für brasilianische Kunden, ein Creator-Konto auf Instagram oder TikTok mit Zielgruppe Brasilien oder ein Testkonto für eine App, die du für diesen Markt baust.",
+        "Nicht sinnvoll ist sie für Pix, brasilianische Banken oder gov.br. Diese Dienste binden dein Konto an deine CPF und an eine auf deinen Namen registrierte Nummer, und sie prüfen erneut. Nutze dafür eine eigene Leitung."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Eine gemietete brasilianische Nummer von SMS Code ist eine echte neunstellige Mobilnummer mit Ortsvorwahl in einem brasilianischen Mobilfunknetz. Dienste sehen einen gewöhnlichen +55-Teilnehmer. Sie bleibt während der Aktivierung nur für dich reserviert – das ist der Unterschied zu den geteilten Seiten mit „kostenlosen brasilianischen Nummern“, die beliebte Dienste längst gesperrt haben."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-55-number",
+      "text": "Einen Code auf einer +55-Nummer empfangen"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Dienst und Brasilien wählen",
+          "body": "Öffne SMS Code, wähle den Dienst – WhatsApp, Instagram, TikTok oder einen von über 100 anderen – und Brasilien. Der Preis der Aktivierung in Münzen wird angezeigt, bevor du bestätigst."
+        },
+        {
+          "title": "Die Nummer mit Ortsvorwahl eingeben",
+          "body": "Stelle das Formular auf Brasilien (+55) und gib die Ortsvorwahl gefolgt von der neunstelligen Nummer genau so ein, wie die App sie zeigt – insgesamt elf Ziffern, keine Betreibervorwahl, keine führende 0."
+        },
+        {
+          "title": "Den Code kopieren",
+          "body": "Die SMS kommt meist innerhalb von Sekunden in der App an. Kommt nichts, brich nach Ablauf von zwei Minuten ab – die Münzen gehen auf dein Guthaben zurück, wenn keine SMS ankam – und versuche eine andere brasilianische Nummer."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Häufige Fragen"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Wie viele Ziffern hat eine brasilianische Mobilnummer?",
+          "a": "Elf nach +55: eine zweistellige Ortsvorwahl (DDD) plus eine neunstellige Nummer, die mit 9 beginnt. In lokaler Schreibweise sieht das aus wie (21) 98765-4321."
+        },
+        {
+          "q": "Kann ich aus dem Ausland ein brasilianisches WhatsApp Konto erstellen?",
+          "a": "Ja. WhatsApp prüft nur, dass du den an die Nummer gesendeten Code empfangen kannst. Eine virtuelle +55-Nummer empfängt ihn wie jede brasilianische Mobilnummer. Lege direkt eine WhatsApp PIN fest und füge eine E-Mail hinzu, damit du später nicht von der Nummer abhängst."
+        },
+        {
+          "q": "Brauche ich eine CPF, um eine virtuelle brasilianische Nummer zu nutzen?",
+          "a": "Nein. Die CPF-Pflicht gilt für den Kauf und die Registrierung einer SIM bei einem brasilianischen Betreiber. Eine Nummer für eine Bestätigung in SMS Code zu mieten, erfordert keine brasilianischen Dokumente."
+        },
+        {
+          "q": "Kann ich sie für Pix oder eine brasilianische Bank nutzen?",
+          "a": "Nein. Finanzdienste und gov.br verknüpfen Konten mit deiner CPF und einer auf deinen Namen registrierten Nummer, und sie prüfen sie erneut. Eine temporäre Nummer ist dort das falsche Werkzeug."
+        },
+        {
+          "q": "Warum wurde mein Code nie zugestellt?",
+          "a": "Meist wurde die Ortsvorwahl weggelassen oder eine zusätzliche Ziffer eingefügt. Prüfe das Format, warte eine Minute, und kommt immer noch nichts, brich ab und nimm eine neue Nummer – die Münzen kommen zurück."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

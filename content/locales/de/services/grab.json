@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Grab — die App für Südostasien",
+  "metaDescription": "Bestätige Grab mit einer echten virtuellen Nummer. Der Code kommt meist in Sekunden – Fahrten, Essen und mehr einrichten, ohne deine private Nummer.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Grab",
+    "intro": [
+      "Lande irgendwo in Südostasien, und Grab ist die erste App, die du brauchst: Fahrten vom Flughafen, Essen ins Hotel, Bezahlen am Straßenstand. Sie ist die Super-App der Region – und sie setzt aufs Telefon. Bei der Registrierung gibt es keinen E-Mail-Login als Ausweg; Grab fragt als Erstes nach einer Mobilnummer und schickt einen Aktivierungscode per SMS.",
+      "SMS Code gibt dir eine echte Nummer aus einem von über 100 Ländern. Gib sie auf dem Begrüßungsbildschirm von Grab ein, und der sechsstellige Code erscheint meist innerhalb von Sekunden in der App SMS Code – dein Konto ist aktiv, bevor dein Gepäck auf dem Band liegt, und deine private Nummer war nie Teil des Deals."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Grab?",
+    "body": [
+      "Grab ist auf lokale Nummern ausgelegt. Der Registrierungsablauf erwartet eine Nummer aus einem Land, in dem Grab tätig ist, und Reisende mit europäischer oder amerikanischer SIM finden das oft umständlich – Roaming-SMS können langsam oder blockiert sein, und manche Netzbetreiber verlangen Geld dafür, dass du einen Code empfängst. Eine virtuelle Nummer aus Indonesien oder den Philippinen passt genau zu dem, was Grab erwartet, ohne dass du am ersten Tag einen SIM-Kiosk suchen musst.",
+      "Es gibt auch einen Datenschutzaspekt. Weil Grab aufs Telefon setzt, wird deine Nummer zum Schlüssel für alles darin – Fahrtenverlauf, Essensbestellungen, die Wallet. Diesen Schlüssel von der Nummer zu trennen, die deine Bank, deine Familie und dein Arbeitgeber nutzen, ist einfach vernünftige Abschottung: Hörst du nach der Reise mit Grab auf, ist nichts von deiner Alltagsnummer mitgegangen."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du Grab mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code mieten",
+        "body": "Öffne die App SMS Code, wähle Grab als Dienst und such dir ein Land aus – ein südostasiatisches Land wie Indonesien oder die Philippinen passt am besten zum Heimatgebiet von Grab. Die Nummer ist sofort reserviert."
+      },
+      {
+        "title": "Im Registrierungsbildschirm von Grab eingeben",
+        "body": "Grab fragt gleich auf dem ersten Bildschirm nach deiner Mobilnummer. Wähle die Ländervorwahl, die zu deiner gemieteten Nummer passt, und tippe sie ein – Grab sendet den Aktivierungscode sofort per SMS."
+      },
+      {
+        "title": "Aktivierungscode eintippen",
+        "body": "Behalte die App SMS Code im Blick: Die Nachricht kommt meist innerhalb von Sekunden und lautet „702415 is your Grab activation code. For your account safety, do not share this code.“ Gib die sechs Ziffern in Grab ein."
+      },
+      {
+        "title": "E-Mail und Zahlungsdaten hinzufügen",
+        "body": "Füge danach in deinem Profil eine E-Mail-Adresse hinzu und richte ein, wie du bezahlst – Karte oder die In-App-Wallet. Die E-Mail gibt deinem Konto einen zweiten Anker neben der Telefonnummer."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Wähle ein Land, in dem Grab tatsächlich tätig ist",
+      "body": "Grab bedient Südostasien – Singapur, Indonesien, Malaysia, Thailand, Vietnam, die Philippinen und Nachbarländer. Eine Nummer aus einem dieser Märkte passt zu dem, was der Registrierungsablauf erwartet; deshalb sind indonesische und philippinische Nummern die beliebte Wahl für Grab Aktivierungen."
+    },
+    {
+      "title": "Registriere dich vor der Reise",
+      "body": "Bestätige das Konto, solange du noch bequemes WLAN hast, nicht in einer Ankunftshalle. Die Telefonprüfung passiert einmal bei der Registrierung – danach meldest du dich auf demselben Gerät an, ohne eine weitere SMS zu brauchen, und dein Konto ist bereit, sobald du landest."
+    },
+    {
+      "title": "Fahrer melden sich über die App",
+      "body": "Wenn ein Fahrer dich erreichen muss, leitet Grab den Kontakt über den In-App-Chat und Internetanrufe, statt deine eigentliche Nummer zu wählen. Lass die Mitteilungen für die Grab App an, damit du die „Ich bin draußen“-Nachricht mitbekommst, obwohl keine SMS im Spiel ist."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kann ich Grab als Tourist mit einer virtuellen Nummer nutzen?",
+      "a": "Ja – das ist der klassische Fall. Bestätige das Konto mit einer Nummer aus einem Land, in dem Grab tätig ist, füge eine Zahlungsmethode hinzu und bestelle während deiner Reise Fahrten und Essen wie jeder lokale Nutzer. Das Konto ist nicht an die SIM in deinem Telefon gebunden."
+    },
+    {
+      "q": "Welches Land sollte ich für eine Grab Nummer wählen?",
+      "a": "Einen der Heimatmärkte von Grab. Indonesien und die Philippinen sind in SMS Code die beliebtesten Wahlen für Grab, da der Registrierungsablauf auf Nummern aus Ländern ausgelegt ist, in denen der Dienst läuft."
+    },
+    {
+      "q": "Funktioniert mein Grab Konto weiter, wenn das Mietfenster der Nummer endet?",
+      "a": "Der Aktivierungscode ist eine einmalige Prüfung bei der Registrierung. Solange du auf deinem Gerät angemeldet bleibst, funktioniert das Konto normal. Meldest du dich später ab und Grab verlangt eine erneute Bestätigung, kannst du eine neue Nummer mieten und die in deinem Profil aktualisieren."
+    },
+    {
+      "q": "Warum ist mein Grab Aktivierungscode nicht angekommen?",
+      "a": "Prüfe, ob die in Grab gewählte Ländervorwahl zur gemieteten Nummer passt – diese Abweichung ist die häufigste Ursache. Kommt nichts, brich die Aktivierung in SMS Code ab (Nummern ohne empfangene SMS sind kostenlos) und versuche eine andere Nummer."
+    },
+    {
+      "q": "Brauche ich eine lokale Nummer, um mit GrabPay zu bezahlen?",
+      "a": "Die Wallet lebt in deinem bestätigten Konto, nicht in deiner SIM. Sobald das Konto aktiviert ist, folgen die Zahlungsfunktionen den Regeln des Landes, auf das dein Konto eingestellt ist – Aufladeoptionen und Kartenunterstützung unterscheiden sich je nach Markt, und das ist eine Richtlinie von Grab, keine Frage der Nummer."
+    }
+  ]
+}

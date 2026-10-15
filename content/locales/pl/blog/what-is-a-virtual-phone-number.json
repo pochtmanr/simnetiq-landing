@@ -1,0 +1,161 @@
+{
+  "title": "Czym jest wirtualny numer telefonu i jak działa?",
+  "description": "Wyjaśniamy: jak działają numery wirtualne, czym różnią się od VoIP, eSIM i telefonów na kartę, jak przebiega weryfikacja SMS i co cechuje dobrego dostawcę.",
+  "excerpt": "Numer wirtualny to prawdziwy numer komórkowy, który dociera do Ciebie przez aplikację, a nie przez kartę SIM w kieszeni. Oto jak to naprawdę działa – i kiedy to właściwe narzędzie.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Wirtualny numer telefonu to prawdziwy numer w prawdziwej sieci komórkowej – może odbierać połączenia i SMS-y jak każdy inny – tyle że w Twoim telefonie nie ma fizycznej karty SIM, która by za niego odpowiadała. Zamiast tego wszystko, co trafia na numer, jest przekazywane do Ciebie przez internet: do aplikacji, panelu lub API. Dla osoby (lub usługi) po drugiej stronie jest nie do odróżnienia od zwykłego numeru komórkowego."
+    },
+    {
+      "type": "p",
+      "text": "Ta jednozdaniowa definicja rodzi pytania, na które odpowiada ten poradnik: gdzie fizycznie żyją te numery, jeśli nie w karcie SIM? Czym numer wirtualny różni się od VoIP, eSIM czy telefonu na kartę? Dlaczego kody z rejestracji bez problemu do niego docierają? Czy to wszystko jest legalne? A jeśli uznasz, że go potrzebujesz – co odróżnia dobrego dostawcę od współdzielonej darmowej strony, która nigdy nie dostarcza kodu?"
+    },
+    {
+      "type": "h2",
+      "id": "how-phone-numbers-actually-work",
+      "text": "Jak naprawdę działają numery telefonów"
+    },
+    {
+      "type": "p",
+      "text": "Kluczowa obserwacja: numer telefonu nigdy nie mieszkał „w” Twojej karcie SIM. Numery należą do sieci operatorów: krajowi regulatorzy przydzielają zakresy operatorom komórkowym, a sieć szkieletowa operatora prowadzi rejestr przypisujący każdy numer do abonenta. Twoja karta SIM to tylko kryptograficzna karta-klucz, która udowadnia sieci, że Twoje urządzenie jest tym abonentem, by połączenia i SMS-y adresowane na numer trafiały właśnie do niego."
+    },
+    {
+      "type": "p",
+      "text": "Numer wirtualny zmienia po prostu ostatni odcinek. Numer nadal jest przydzielony przez operatora i nadal żyje w prawdziwej sieci komórkowej – ale karta SIM, która za niego odpowiada, siedzi w infrastrukturze dostawcy, a nie w Twojej kieszeni. Gdy przychodzi SMS, system dostawcy go odczytuje i przekazuje Ci przez internet, zwykle do aplikacji, zazwyczaj w ciągu kilku sekund. Po stronie nadawcy nic się nie zmienia i właśnie dlatego systemy weryfikacji traktują te numery jak zwykłe komórki: z punktu widzenia sieci nimi są."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-vs-voip-esim-burner",
+      "text": "Numer wirtualny, VoIP, eSIM i telefon na kartę"
+    },
+    {
+      "type": "p",
+      "text": "Te cztery pojęcia są ciągle mylone, a różnice mają znaczenie – zwłaszcza przy weryfikacji SMS, gdzie niektóre z nich regularnie zawodzą."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Wirtualny numer komórkowy: prawdziwy numer komórkowy w sieci operatora, którego wiadomości są przekazywane Ci online. Najlepszy do odbierania kodów weryfikacyjnych SMS, bo usługi widzą normalny numer komórkowy.",
+        "Numer VoIP (Google Voice, Skype i podobne): numer istniejący w usłudze telefonii internetowej, a nie w sieci komórkowej. Świetny do rozmów, ale wiele usług wykrywa zakresy VoIP i odmawia wysyłania na nie kodów weryfikacyjnych – numery VoIP tanio rejestruje się masowo, więc systemy rejestracji im nie ufają.",
+        "eSIM: to wcale nie inny rodzaj numeru, tylko karta SIM bez plastiku – profil operatora pobrany do urządzenia. Numer jest w pełni Twój i w pełni komórkowy, ale kupujesz prawdziwą linię z prawdziwą umową lub taryfą, co jest przesadą, jeśli chcesz tylko odebrać jeden kod weryfikacyjny.",
+        "Telefon na kartę („burner”): tani telefon na kartę plus karta SIM kupione do tymczasowego użytku. Działa, ale to najdroższa i najwolniejsza opcja – sprzęt, wizyta w sklepie, w wielu krajach wymóg dokumentu przy rejestracji karty – by osiągnąć to, co numer wirtualny robi zwykle w ciągu kilku sekund."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Reguła kciuka: jeśli chcesz odebrać kod SMS bez angażowania prywatnego numeru, potrzebujesz wirtualnego numeru komórkowego. Jeśli chcesz stałej drugiej linii do rozmów, potrzebujesz eSIM albo taryfy VoIP."
+    },
+    {
+      "type": "h2",
+      "id": "how-sms-verification-works",
+      "text": "Jak naprawdę przebiega weryfikacja SMS"
+    },
+    {
+      "type": "p",
+      "text": "Zrozumienie tego łańcucha wyjaśnia zarówno, dlaczego numery wirtualne działają, jak i dlaczego kody czasem nie docierają – na dowolny numer, wirtualny czy nie."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Usługa generuje jednorazowe hasło (OTP)",
+          "body": "Gdy wpisujesz numer w formularz rejestracji, usługa tworzy krótkotrwały kod – zwykle 4 do 8 cyfr, ważny kilka minut – i zapisuje go przy Twojej oczekującej rejestracji."
+        },
+        {
+          "title": "Wiadomość trafia do sieci SMS",
+          "body": "Usługa przekazuje kod bramce SMS, często z alfanumerycznym identyfikatorem nadawcy („Telegram”, „Google”) zamiast numeru telefonu. Bramka kieruje go przez sieci operatorów do operatora numeru docelowego."
+        },
+        {
+          "title": "Operator dostarcza temu, kto ma numer",
+          "body": "Operator docelowy dostarcza SMS abonentowi zarejestrowanemu dla tego numeru. W przypadku numeru wirtualnego to infrastruktura SIM dostawcy – która odczytuje wiadomość i wysyła ją do Twojej aplikacji, zazwyczaj zwykle w ciągu kilku sekund."
+        },
+        {
+          "title": "Wpisujesz kod i zamykasz pętlę",
+          "body": "Usługa porównuje to, co wpisałeś, z tym, co wygenerowała. Zgadza się – i od teraz ufa, że kontrolujesz ten numer. To wszystko, co weryfikacja SMS kiedykolwiek udowadnia: kontrolę nad numerem w jednej chwili."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    },
+    {
+      "type": "h2",
+      "id": "is-it-legal",
+      "text": "Czy korzystanie z numeru wirtualnego jest legalne?"
+    },
+    {
+      "type": "p",
+      "text": "Tak – wynajmowanie i używanie numerów wirtualnych jest legalne w przeważającej większości jurysdykcji; to ta sama regulowana infrastruktura numeracji, której firmy od dekad używają do infolinii i powiadomień o dostawach. Prawo (i regulamin każdej usługi) interesuje to, co robisz z kontem później: oszustwo jest nielegalne z każdego numeru, a zasady każdej platformy obowiązują każde konto jednakowo. Numer wirtualny to narzędzie prywatności, a nie przepustka."
+    },
+    {
+      "type": "p",
+      "text": "Legalne zastosowania są szersze, niż większość ludzi się spodziewa:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Prywatność: rejestrowanie się w aplikacjach i serwisach bez wprowadzania prawdziwego numeru do kolejnej bazy, która może wyciec, zostać sprzedana lub przeszukana pod spamowe połączenia.",
+        "Rozdzielenie: drugie konto w komunikatorze do pracy, projektu lub sprzedaży na marketplace – osiągalne bez odsłaniania prywatnej linii.",
+        "Testy i rozwój oprogramowania: inżynierowie testujący procesy rejestracji, dostarczanie SMS-ów i lokalizację w wielu krajach bez utrzymywania szuflady kart SIM.",
+        "Podróże i geografia: rejestracja w usłudze, która oczekuje lokalnego numeru, w kraju, w którym nie masz karty SIM.",
+        "Ograniczanie szkód: gdy numer wymaga usługa, której zasadniczo nie ufasz, podanie wynajętego ogranicza możliwe straty."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "choosing-a-provider",
+      "text": "Na co zwrócić uwagę u dostawcy"
+    },
+    {
+      "type": "p",
+      "text": "Dostawcy różnią się znacznie bardziej, niż sugerują ich strony główne, a różnice wychodzą dokładnie w chwili, gdy czekasz na kod. Przed zapłaceniem komukolwiek warto sprawdzić cztery rzeczy:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Prawdziwe, dedykowane numery komórkowe – nie współdzielone numery z darmowych stron „odbieraj SMS online”. Z tamtych korzystają tysiące osób, więc usługi wpisują je na czarne listy albo zastają już zarejestrowane; a każdy, kto ogląda tę samą stronę, może odczytać Twój kod.",
+        "Uczciwe zasady anulowania: jeśli SMS nie przyjdzie, nie powinieneś płacić. W SMS Code aktywacja, która nic nie odebrała, anuluje się za darmo.",
+        "Zasięg krajów pasujący do Twoich potrzeb – SMS Code oferuje numery w ponad 100 krajach, co daje też alternatywy, gdy jedna trasa jest wolna.",
+        "Ceny, które da się zrozumieć: płatność za aktywację z jednorazowego pakietu monet wygrywa z abonamentem, jeśli potrzebujesz numeru okazjonalnie – nie powinieneś wynajmować linii miesięcznej, by odebrać jeden kod."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Najszybszy test jakości dowolnego dostawcy: co się dzieje, gdy kod nie dotrze? Jeśli odpowiedź brzmi „i tak zapłaciłeś”, szukaj dalej. Weryfikacja jest na krawędziach probabilistyczna – poważny dostawca wlicza to w cenę, zamiast przerzucać na Ciebie."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Najczęstsze pytania"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Czy wirtualny numer telefonu to prawdziwy numer?",
+          "a": "Tak. Jest przydzielony przez prawdziwego operatora i żyje w prawdziwej sieci komórkowej – jedyna różnica wobec numeru w Twojej kieszeni polega na tym, że przychodzące wiadomości są przekazywane Ci przez internet, zamiast dzwonić w karcie SIM Twojego urządzenia."
+        },
+        {
+          "q": "Czy numer wirtualny odbiera kody weryfikacyjne SMS?",
+          "a": "Tak – to jego podstawowe zastosowanie. Ponieważ to prawdziwy numer komórkowy, usługi normalnie dostarczają na niego kody OTP, a dobry dostawca pokazuje Ci wiadomość zwykle w ciągu kilku sekund. Numery VoIP są natomiast często odrzucane przez systemy rejestracji."
+        },
+        {
+          "q": "Czy do numeru wirtualnego potrzebuję karty SIM lub nowego sprzętu?",
+          "a": "Nie. Karta SIM odpowiadająca za numer siedzi w infrastrukturze dostawcy. Ty po prostu widzisz przychodzące wiadomości w aplikacji – nic nie trafia do tacki SIM i nie jest dodawany żaden profil eSIM."
+        },
+        {
+          "q": "Czym numer wirtualny różni się od telefonu na kartę?",
+          "a": "Telefon na kartę jest fizyczny: tani telefon na kartę i karta SIM, które kupujesz, nosisz i w końcu wyrzucasz. Numer wirtualny daje to samo rozdzielenie bez sprzętu, wizyty w sklepie i formalności przy rejestracji karty – wynajmujesz numer na weryfikację i odbierasz kod w aplikacji."
+        },
+        {
+          "q": "Czy darmowe strony „odbieraj SMS online” wystarczą?",
+          "a": "Do niczego, na czym Ci zależy – nie. Ich numery są współdzielone i publicznie widoczne: usługi wpisują je na czarne listy, numer często jest już zarejestrowany, a każdy na tej samej stronie może odczytać kody, które odbierasz – łącznie z kodem, którym da się zresetować konto, które właśnie założyłeś."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

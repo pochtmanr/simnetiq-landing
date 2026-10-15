@@ -1,0 +1,30 @@
+{
+  "title": "SMS nie dotarł: dlaczego tak się dzieje i co zrobić",
+  "metaDescription": "Dlaczego SMS weryfikacyjny czasem nie trafia na numer wirtualny, jak monety wracają automatycznie i które kraje najlepiej dostarczają dla każdej usługi.",
+  "sections": [
+    {
+      "title": "Nie tracisz monet, gdy SMS nie dociera",
+      "paragraphs": [
+        "Jeśli SMS nie przyjdzie, możesz anulować dwie minuty po przydzieleniu numeru, a monety wrócą na saldo. Jeśli poczekasz, aktywacja zamknie się po 15-minutowym oknie, a monety wrócą automatycznie. W żadnym z tych przypadków nie musisz się z nami kontaktować."
+      ]
+    },
+    {
+      "title": "Dlaczego SMS nie dociera",
+      "paragraphs": [
+        "**Decyduje usługa.** Każda usługa prowadzi własne kontrole antyfraudowe. Niektóre odmawiają albo po cichu porzucają SMS-y do numerów wirtualnych z określonych krajów lub ograniczają, ile kont może otworzyć dany zakres numerów.",
+        "**Liczy się kraj i operator.** Ta sama usługa może niezawodnie dostarczać w jednym kraju i słabo w innym. To się też zmienia w czasie, gdy usługi aktualizują swoje filtry.",
+        "**Kod może nie być wysyłany SMS-em.** Niektóre usługi wysyłają pierwszy kod połączeniem głosowym, e-mailem lub do aplikacji, w której już jesteś zalogowany. Szukaj opcji „wyślij SMS-em”.",
+        "**Limity ponownego wysyłania.** Wielokrotne proszenie o kod może uruchomić czas oczekiwania po stronie usługi. Odczekaj minutę, zanim poprosisz ponownie."
+      ]
+    },
+    {
+      "title": "Co zrobić",
+      "steps": [
+        "Sprawdź, czy wpisałeś numer z właściwym numerem kierunkowym i wybrałeś w aplikacji dokładnie tę usługę.",
+        "Poczekaj do dwóch minut, a potem anuluj. Monety wrócą na saldo.",
+        "Spróbuj innego kraju dla tej samej usługi. Użyj wyszukiwarki poniżej, by wybrać kraj, w którym SMS-y teraz dobrze docierają.",
+        "Jeśli kilka krajów zawodzi dla tej samej usługi, prawdopodobnie usługa obecnie blokuje numery wirtualne. Spróbuj później."
+      ]
+    }
+  ]
+}

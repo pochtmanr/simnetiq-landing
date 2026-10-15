@@ -1,0 +1,134 @@
+{
+  "title": "Nomor virtual Brasil (+55): digit kesembilan dan pendaftaran",
+  "description": "Cara kerja nomor seluler Brasil — kode area, angka 9 tambahan, kartu prabayar yang terikat CPF — dan cara menerima SMS verifikasi di nomor +55.",
+  "excerpt": "Brasil menambahkan satu digit ke setiap nomor seluler, mengikat kartu prabayar ke CPF, dan menjadikan WhatsApp sentral telepon nasional. Apa artinya bagi siapa pun yang butuh nomor +55 untuk mendaftar.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Di Brasil, nomor telepon lebih dipakai untuk menghubungi orang lewat WhatsApp daripada untuk menelepon. Toko menerima pesanan di sana, klinik mengonfirmasi janji temu di sana, dan «me chama no zap» — «chat aku di WhatsApp» — sudah jadi bahasa sehari-hari selama satu dekade. Dalam survei Mobile Time dan Opinion Box tahun 2024, hampir separuh pemilik ponsel pintar di Brasil mengatakan, jika hanya boleh menyimpan satu aplikasi, mereka akan memilih WhatsApp."
+    },
+    {
+      "type": "p",
+      "text": "Itu membuat nomor +55 sangat berharga sebagai identitas digital. Marketplace, aplikasi pesan-antar, fintech, dan jejaring sosial untuk pasar Brasil memintanya saat pendaftaran. Dan sistem penomoran Brasil punya keanehan yang sama-sama menjebak orang asing maupun validator formulir. Begini cara kerjanya, dan di sinilah nomor virtual Brasil berguna."
+    },
+    {
+      "type": "h2",
+      "id": "how-brazilian-numbers-work",
+      "text": "Anatomi nomor seluler Brasil"
+    },
+    {
+      "type": "p",
+      "text": "Ditulis lengkap, nomor seluler Brasil terlihat seperti ini: +55, lalu kode area dua digit, lalu sembilan digit yang selalu diawali angka 9. Dalam penulisan lokal, (11) 9XXXX-XXXX untuk São Paulo atau (21) 9XXXX-XXXX untuk Rio de Janeiro."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Kode area (DDD) tidak opsional. Brasil punya 67 kode DDD, dari 11 di São Paulo hingga 99 di Maranhão, dan nomor seluler tetap memakainya. Nomor tanpa DDD tidak lengkap; formulir akan menolaknya atau mengirim kode entah ke mana.",
+        "Angka 9 di depan adalah penanda seluler. Setiap nomor seluler Brasil kini punya sembilan digit setelah kode area, diawali 9; telepon rumah punya delapan.",
+        "Kode operator untuk menelepon, bukan untuk formulir. Untuk panggilan jarak jauh, orang Brasil menyisipkan kode operator dua digit (15, 21, 31, 41…) sebelum DDD. Kode itu tidak pernah masuk ke kolom +55."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "the-ninth-digit",
+      "text": "Digit kesembilan: penomoran ulang nasional selama empat tahun"
+    },
+    {
+      "type": "p",
+      "text": "Hingga 2012, nomor seluler Brasil berjumlah delapan digit seperti telepon rumah, dan São Paulo mulai kehabisan nomor. Regulator telekomunikasi Anatel memerintahkan perubahan yang terdengar sederhana padahal tidak: menaruh angka 9 di depan setiap nomor seluler di negara itu."
+    },
+    {
+      "type": "p",
+      "text": "Peralihan dimulai di kode area 11 São Paulo pada 29 Juli 2012 lalu menyebar dari wilayah ke wilayah, dengan masa tenggang di setiap tahap ketika panggilan ke nomor delapan digit lama dicegat pesan rekaman. Tahap besar terakhir, di negara bagian selatan Paraná, Santa Catarina, dan Rio Grande do Sul, berlangsung dari November 2016 hingga Februari 2017. Menurut Anatel, digit tambahan itu menaikkan kapasitas hingga 90 juta nomor seluler per kode area."
+    },
+    {
+      "type": "callout",
+      "text": "Buku kontak lama, situs web lama, dan sebagian validator formulir yang usang masih menyimpan nomor seluler delapan digit. Jika Anda melihat nomor seluler Brasil ditulis (11) 8765-4321, itu sudah kedaluwarsa — nomor yang berlaku adalah (11) 98765-4321."
+    },
+    {
+      "type": "h2",
+      "id": "cpf-and-prepaid-lines",
+      "text": "Mengapa kartu SIM Brasil terikat ke CPF"
+    },
+    {
+      "type": "p",
+      "text": "Kebanyakan orang Brasil memakai kartu prabayar, dan selama bertahun-tahun mengaktifkannya hanya perlu mengetik CPF — nomor pokok wajib pajak nasional. Itu memudahkan penipuan: CPF orang lain cukup untuk membuka saluran atas nama orang itu. Mulai 2017, Anatel mendorong empat operator besar saat itu — Vivo, Claro, TIM, dan Oi — menjalankan pendaftaran ulang negara bagian demi negara bagian, di mana pelanggan prabayar harus mengonfirmasi CPF, nama lengkap, dan kode pos atau kehilangan nomornya. Pemberitaan tentang gelombang 17 negara bagian menyebut kurang dari 1 persen dari 91 juta kartu prabayar di wilayah itu mengalami masalah pendaftaran."
+    },
+    {
+      "type": "p",
+      "text": "Akibatnya bagi yang tinggal di luar Brasil: membeli SIM lokal umumnya berarti harus punya CPF. Orang asing bisa mendapatkannya, tetapi itu urusan birokrasi — datang ke Receita Federal atau konsulat — terlalu repot untuk satu kode verifikasi."
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-55-number-makes-sense",
+      "text": "Kapan nomor virtual +55 masuk akal — dan kapan tidak"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Masuk akal untuk verifikasi sekali pakai: akun WhatsApp atau Telegram dengan identitas Brasil, profil toko atau marketplace yang menyasar pembeli Brasil, akun kreator Instagram atau TikTok yang membidik Brasil, atau akun uji untuk aplikasi yang Anda bangun untuk pasar itu.",
+        "Tidak masuk akal untuk Pix, bank Brasil, atau gov.br. Layanan itu mengikat akun Anda ke CPF dan ke nomor yang terdaftar atas nama Anda, lalu memverifikasinya ulang. Gunakan nomor milik sendiri."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nomor Brasil yang disewa dari SMS Code adalah nomor seluler sembilan digit yang nyata, lengkap dengan kode area, di jaringan operator Brasil. Layanan melihatnya sebagai pelanggan +55 biasa. Nomor itu khusus untuk Anda selama aktivasi — itulah bedanya dengan situs «nomor Brasil gratis» yang dipakai bersama dan sudah lama diblokir layanan besar."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-55-number",
+      "text": "Menerima kode di nomor +55"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Pilih layanan dan Brasil",
+          "body": "Buka SMS Code, pilih layanan — WhatsApp, Instagram, TikTok, atau salah satu dari 100+ layanan lain — lalu pilih Brasil. Harga aktivasi dalam koin tampil sebelum Anda konfirmasi."
+        },
+        {
+          "title": "Masukkan nomor beserta kode area",
+          "body": "Atur formulir ke Brasil (+55) dan masukkan kode area diikuti nomor sembilan digit persis seperti yang tampil di aplikasi — total sebelas digit, tanpa kode operator dan tanpa 0 di depan."
+        },
+        {
+          "title": "Salin kodenya",
+          "body": "SMS masuk ke aplikasi biasanya dalam hitungan detik. Jika tidak ada yang datang, batalkan setelah dua menit — koin kembali ke saldo jika tidak ada SMS — lalu coba nomor Brasil lain."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Berapa digit nomor seluler Brasil?",
+          "a": "Sebelas setelah +55: kode area (DDD) dua digit dan nomor sembilan digit yang diawali 9. Dalam penulisan lokal: (21) 98765-4321."
+        },
+        {
+          "q": "Bisakah saya membuat akun WhatsApp Brasil dari luar negeri?",
+          "a": "Bisa. WhatsApp hanya memeriksa apakah Anda menerima kode yang dikirim ke nomor itu. Nomor virtual +55 menerimanya seperti nomor seluler Brasil mana pun. Segera aktifkan PIN WhatsApp dan tambahkan email agar nanti tidak bergantung pada nomor."
+        },
+        {
+          "q": "Apakah saya perlu CPF untuk memakai nomor virtual Brasil?",
+          "a": "Tidak. Syarat CPF berlaku untuk membeli dan mendaftarkan SIM dari operator Brasil. Menyewa nomor untuk verifikasi di SMS Code tidak memerlukan dokumen Brasil apa pun."
+        },
+        {
+          "q": "Bisakah dipakai untuk Pix atau bank Brasil?",
+          "a": "Tidak. Layanan keuangan dan gov.br mengikat akun ke CPF Anda dan ke nomor atas nama Anda, lalu memeriksanya ulang. Nomor sementara adalah alat yang salah di sana."
+        },
+        {
+          "q": "Mengapa kode saya tidak pernah sampai?",
+          "a": "Paling sering kode area terlewat atau ada digit berlebih. Periksa formatnya, tunggu satu menit, dan jika tetap tidak ada, batalkan lalu ambil nomor baru — koinnya kembali."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

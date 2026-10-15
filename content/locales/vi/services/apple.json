@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Apple — Apple Account không cần SIM của bạn",
+  "metaDescription": "Xác minh Apple Account mới bằng số ảo thật. Mã thường đến chỉ trong vài giây — sau đó chuyển mã xác thực hai yếu tố sang thiết bị của chính bạn.",
+  "hero": {
+    "title": "Số ảo cho Apple",
+    "intro": [
+      "Không thể hoàn tất Apple Account mới mà không có điện thoại: khi đăng ký, Apple yêu cầu một số, gửi mã sáu chữ số để xác nhận bạn kiểm soát nó, rồi lưu số đó làm “số điện thoại đáng tin cậy” — kênh mà xác thực hai yếu tố sẽ hoạt động từ đó về sau.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia, nhận mã của Apple trong ứng dụng thường chỉ trong vài giây và hoàn tất đăng ký. Số cá nhân của bạn nằm ngoài tài khoản — và sau đó bạn tự quyết định tài khoản dựa vào những số và thiết bị đáng tin cậy nào."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Apple?",
+    "body": [
+      "Apple Account vươn xa hơn hầu hết các lần đăng ký: nó là chìa khóa tới App Store, iCloud, iMessage và mọi thiết bị Apple của bạn. Đăng nhập trên iPhone kèm một số, và những người đã lưu số đó có thể tìm thấy bạn trên iMessage và FaceTime. Nếu tài khoản cần tách biệt — cho thiết bị thử nghiệm, một khu vực App Store khác, một hồ sơ công việc — thì xác minh bằng SIM cá nhân lại đan danh tính của bạn vào đó.",
+      "Apple cũng bật xác thực hai yếu tố cho mọi tài khoản mới và yêu cầu ít nhất một số điện thoại đáng tin cậy. Số ảo giúp đăng ký suôn sẻ; điều quan trọng là bạn làm gì tiếp theo. Khi đã đăng nhập trên một thiết bị Apple, mã xác minh sẽ hiện ngay trên thiết bị đó mà không cần SMS — và bạn có thể thêm một số đáng tin cậy thực sự của mình bên cạnh (hoặc thay cho) số đã thuê."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Apple Account bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Chọn Apple làm dịch vụ, chọn quốc gia và giữ một số di động thật bằng một chạm. Nếu tài khoản dành cho một khu vực App Store cụ thể, hãy lấy số của quốc gia đó để thông tin tài khoản nhất quán."
+      },
+      {
+        "title": "Nhập số khi đăng ký Apple",
+        "body": "Tạo tài khoản tại account.apple.com hoặc ngay trên màn hình thiết lập iPhone. Khi Apple hỏi số điện thoại, chọn xác minh bằng tin nhắn văn bản và nhập số đã thuê với đúng quốc gia."
+      },
+      {
+        "title": "Nhập mã",
+        "body": "SMS có dạng “Your Apple Account code is: 617402. Don't share it with anyone.” và đến ứng dụng SMS Code thường chỉ trong vài giây. Nhập sáu chữ số — tài khoản đã được xác minh."
+      },
+      {
+        "title": "Thêm các yếu tố đáng tin cậy do bạn kiểm soát",
+        "body": "Đăng nhập trên một thiết bị Apple của bạn — từ đó mã xác thực hai yếu tố sẽ hiện ngay trên thiết bị, không cần SMS. Sau đó mở mục “Đăng nhập và bảo mật” của tài khoản và thêm một số điện thoại đáng tin cậy thứ hai thực sự thuộc về bạn."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Thiết bị đáng tin cậy tốt hơn số đáng tin cậy",
+      "body": "Khi bạn đã đăng nhập trên iPhone, iPad hoặc Mac, Apple hiển thị mã xác thực hai yếu tố ngay trên thiết bị — SMS trở thành phương án dự phòng chứ không phải kênh chính. Giữ ít nhất một thiết bị đáng tin cậy đang đăng nhập, và số đã thuê sẽ đúng là thứ nó nên là: công cụ đăng ký dùng một lần."
+    },
+    {
+      "title": "Apple giữ số làm điểm tựa 2FA",
+      "body": "Mọi Apple Account có xác thực hai yếu tố đều phải có ít nhất một số điện thoại đáng tin cậy. Đừng để số đã thuê là số duy nhất: trước tiên hãy thêm số bạn kiểm soát, rồi xóa số đã thuê trong mục “Đăng nhập và bảo mật”."
+    },
+    {
+      "title": "Cho quốc gia khớp với khu vực tài khoản",
+      "body": "Bản thân số không quyết định khu vực App Store của bạn — điều đó phụ thuộc vào cài đặt quốc gia của tài khoản và phương thức thanh toán. Nhưng số cùng quốc gia giữ thông tin nhất quán, vì vậy hãy lấy số từ nơi tài khoản sẽ “sống”."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apple có cần số điện thoại để tạo Apple Account không?",
+      "a": "Có — khi đăng ký, Apple yêu cầu một số có thể nhận SMS hoặc cuộc gọi, và tài khoản mới được bật xác thực hai yếu tố với số đó là số đáng tin cậy. Số ảo vượt qua bước này như một chiếc SIM: mã đến ứng dụng SMS Code và tài khoản được tạo."
+    },
+    {
+      "q": "Tài khoản có còn hoạt động sau khi số đã thuê hết hạn không?",
+      "a": "Có. Số được kiểm tra khi Apple gửi mã; sau đó tài khoản sống trên các thiết bị đáng tin cậy của bạn. Hãy làm bước bốn từ trước — đăng nhập trên thiết bị của bạn và thêm số đáng tin cậy do bạn kiểm soát — và không còn gì trong tài khoản phụ thuộc vào số đã thuê."
+    },
+    {
+      "q": "Sau này tôi có đổi được số điện thoại đáng tin cậy không?",
+      "a": "Có, trong mục “Đăng nhập và bảo mật” tại account.apple.com hoặc trong cài đặt thiết bị. Apple yêu cầu tài khoản có xác thực hai yếu tố phải có ít nhất một số đáng tin cậy, vì vậy hãy thêm số mới trước rồi mới xóa số đã thuê."
+    },
+    {
+      "q": "Tôi có thể tạo Apple Account cho App Store của quốc gia khác không?",
+      "a": "Bạn có thể chọn số từ bất kỳ quốc gia nào trong hơn 100 quốc gia, và việc khớp với khu vực tài khoản giữ mọi thứ gọn gàng. Chỉ cần nhớ rằng cửa hàng phụ thuộc vào quốc gia của tài khoản và cài đặt thanh toán, không phải điện thoại — số xác minh bạn, nhưng không chuyển cửa hàng."
+    },
+    {
+      "q": "Vì sao mã Apple không đến?",
+      "a": "Thường gặp nhất là quốc gia chọn trong biểu mẫu Apple không khớp với số, hoặc quy trình chuyển sang cuộc gọi — hãy chọn rõ “tin nhắn văn bản”. Hủy lần kích hoạt trong SMS Code (số không nhận được gì thì miễn phí) và thử số mới."
+    }
+  ]
+}

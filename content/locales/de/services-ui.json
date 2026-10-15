@@ -1,0 +1,41 @@
+{
+  "breadcrumbHome": "Start",
+  "breadcrumbHub": "Virtuelle Nummern",
+  "heroLabel": "Virtuelle Nummern",
+  "step": "Schritt",
+  "tipsLabel": "Gut zu wissen",
+  "tipsTitle": "Bevor du bestätigst",
+  "faqLabel": "Fragen",
+  "countriesLabel": "Beliebte Länder für diesen Dienst",
+  "relatedLabel": "Ähnliche Dienste",
+  "relatedTitle": "Ebenfalls oft bestätigt",
+  "ctaTitle": "Nummer und Code in weniger als einer Minute",
+  "ctaSupport": "Fragen? Sprich mit dem Support",
+  "hub": {
+    "metaTitle": "Virtuelle Nummer für SMS-Verifizierung — alle Dienste",
+    "metaDescription": "Miete eine echte virtuelle Nummer für Telegram, WhatsApp, Google, Instagram und mehr. SMS-Codes meist in Sekunden empfangen – ohne SIM, ohne Abo.",
+    "label": "Abdeckung",
+    "title": "Nur eine Nummer von jeder Anmeldung entfernt",
+    "sub": "Wähle den Dienst, bei dem du dich anmeldest – jeder Leitfaden erklärt den echten Bestätigungsablauf, die Stolperfallen und die Fragen, die Leute wirklich stellen.",
+    "allNote": "Es kommen regelmäßig weitere Dienste hinzu – die App selbst unterstützt über 100 Dienste in über 100 Ländern."
+  },
+  "categories": {
+    "messaging": "Messenger",
+    "social": "Soziale Medien",
+    "finance": "Finanzen",
+    "shopping": "Shopping",
+    "travel": "Reisen & Mobilität",
+    "entertainment": "Unterhaltung",
+    "dev": "Entwickler-Tools",
+    "other": "Konten & Plattformen"
+  },
+  "country": {
+    "hubLabel": "Nach Land",
+    "hubTitle": "Nummern nach Land",
+    "dialingCode": "Ländervorwahl",
+    "numberFormat": "Nummernformat",
+    "servicesLabel": "Oft mit diesem Land bestätigt",
+    "allCountries": "Alle Länder",
+    "breadcrumb": "Länder"
+  }
+}

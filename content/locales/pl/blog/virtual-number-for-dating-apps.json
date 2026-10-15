@@ -1,0 +1,155 @@
+{
+  "title": "Numer wirtualny do aplikacji randkowych: Tinder bez telefonu",
+  "description": "Aplikacje randkowe chcą numeru przed pierwszym przesunięciem. Dlaczego pytają, czemu warto nie podawać swojego i jak zweryfikować Tindera numerem wirtualnym.",
+  "excerpt": "Twój numer telefonu to klucz do odwrotnego wyszukania całej Twojej tożsamości – a aplikacje randkowe chcą go, zanim zobaczysz choć jeden profil. Oto jak zweryfikować Tindera bez oddawania swojego.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Aplikacje randkowe proszą o numer telefonu, zanim pokażą Ci jedną twarz. Nie po dopasowaniu, nie gdy zdecydujesz się na spotkanie – już na pierwszym ekranie, zanim wpiszesz imię. Jak na aplikację, której cała idea to poznawanie obcych, to dziwnie dużo zaufania wymaganego z góry."
+    },
+    {
+      "type": "p",
+      "text": "Prośba nie jest przypadkowa. Weryfikacja telefonu to sposób, w jaki Tinder, Bumble i reszta chronią się przed farmami botów zalewającymi talię fałszywymi profilami – numer coś kosztuje, adres e-mail nic. Ale numer zbierany do kontroli botów to też najłatwiejszy do powiązania identyfikator, jaki posiadasz, i ląduje na koncie aplikacji zbudowanej wokół obcych."
+    },
+    {
+      "type": "p",
+      "text": "Dobra wiadomość: nic w weryfikacji telefonu nie wymaga, by numer był Twój. Ten poradnik omawia, dlaczego numer ma większe znaczenie, niż większość ludzi myśli, jak krok po kroku zweryfikować Tindera numerem wirtualnym, czego numer wirtualny uczciwie nie zrobi – i jeden nawyk, dzięki któremu konto da się potem odzyskać."
+    },
+    {
+      "type": "h2",
+      "id": "why-your-number-is-the-real-stake",
+      "text": "Dlaczego to Twój numer jest prawdziwą stawką"
+    },
+    {
+      "type": "p",
+      "text": "Numer telefonu to nie nazwa użytkownika. To stabilny, unikalny identyfikator, który latami podąża za Tobą przez usługi – i działa w odwrotną stronę. Wpisz numer w wyszukiwarkę osób, a w wielu krajach wyjdziesz z pełnym nazwiskiem, profilami społecznościowymi, czasem adresem domowym. Brokerzy danych składają te wyszukiwania z wyciekłych baz i rejestrów publicznych, a Twój numer to klucz, który łączy rekordy."
+    },
+    {
+      "type": "p",
+      "text": "Przenieś to teraz na randki. Większość dopasowań jest miła, niektóre zapominalne, a niewielka część robi się nieprzyjemna – osoba, która nie przyjmuje z wdziękiem „nie, dziękuję”, randka kończąca się zablokowaniem wszędzie. Jeśli ktoś taki zdobędzie Twój prawdziwy numer – przez wpadkę na czacie, zrzut ekranu albo wyciek z samej aplikacji – trzyma nić, która rozplątuje resztę. Wynajęty numer, który nigdy nie był Twój, nie daje mu za co pociągnąć."
+    },
+    {
+      "type": "p",
+      "text": "Taki jest rachunek: aplikacja potrzebuje numeru, by udowodnić, że jesteś człowiekiem; Ty potrzebujesz, by numer nie był mapą Twojego życia. Numer wirtualny zadowala obie strony."
+    },
+    {
+      "type": "h2",
+      "id": "which-apps-verify-by-sms",
+      "text": "Które aplikacje randkowe weryfikują SMS-em"
+    },
+    {
+      "type": "p",
+      "text": "Praktycznie wszystkie duże. Tinder wymaga numeru telefonu przy rejestracji i wysyła na niego kod – to proces, który omówimy poniżej. Bumble i Hinge zachowują się tak samo: najpierw numer, kod SMS, potem profil. Niektóre aplikacje pozwalają później dodać e-mail lub logowanie przez Apple/Google, ale krok z telefonem jest pierwszy i rzadko da się go pominąć."
+    },
+    {
+      "type": "p",
+      "text": "W instrukcji użyjemy Tindera, bo to najczęściej wyszukiwany przypadek, a jego proces jest reprezentatywny – jeśli dasz radę na Tinderze, Bumble i Hinge nie zaskoczą Cię niczym."
+    },
+    {
+      "type": "h2",
+      "id": "what-a-virtual-number-wont-do",
+      "text": "Czego numer wirtualny nie zrobi (przeczytaj najpierw)"
+    },
+    {
+      "type": "p",
+      "text": "Przed krokami – uczciwa część. Numer wirtualny to narzędzie prywatności na krok weryfikacji – nie wytrych, i warto dokładnie wiedzieć, gdzie kończy się jego przydatność."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nie zdejmie bana. Jeśli Tinder Cię zbanował, ban jest powiązany z dużo więcej niż numerem telefonu – identyfikatorami urządzenia, metodami płatności, zdjęciami, sygnałami zachowania. Rejestracja świeżym numerem na tym samym telefonie zwykle kończy się tym samym banem. To inny problem i numer wirtualny go nie rozwiąże.",
+        "Nie przejdzie za Ciebie weryfikacji zdjęcia. Selfie-weryfikacja Tindera (niebieski znacznik) porównuje obraz z kamery na żywo ze zdjęciami profilu. Ten krok jest całkowicie oddzielny od kroku z telefonem i żaden numer go nie zmieni.",
+        "Jeden numer weryfikuje jedno konto. Aktywacja jest na czas swojego okna powiązana z jedną usługą. Jeśli chcesz konta na Tinderze i na Bumble, to dwie aktywacje – każda płatna osobno z Twojego salda monet."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Jeśli żadna z tych rzeczy nie jest tym, po co przyszedłeś – chcesz po prostu przesuwać profile bez prywatnego numeru w kolejnej bazie – czytaj dalej. To dokładnie przypadek, w którym to działa."
+    },
+    {
+      "type": "h2",
+      "id": "tinder-step-by-step",
+      "text": "Weryfikacja Tindera numerem wirtualnym krok po kroku"
+    },
+    {
+      "type": "p",
+      "text": "Potrzebujesz dwóch aplikacji obok siebie: Tindera i SMS Code, gdzie żyje numer i przychodzi kod. Całość zajmuje kilka minut."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Wynajmij numer do Tindera",
+          "body": "W aplikacji SMS Code wybierz Tinder jako usługę i kraj – najlepiej ten, w którym faktycznie jesteś, żeby dane konta się zgadzały. Jedno stuknięcie rezerwuje dla Ciebie prawdziwy numer komórkowy, opłacony z jednorazowego pakietu monet. Bez abonamentu."
+        },
+        {
+          "title": "Zacznij rejestrację w Tinderze",
+          "body": "Wybierz „Zaloguj się numerem telefonu”, ustaw numer kierunkowy pasujący do wynajętego numeru i wpisz numer. Niezgodny numer kierunkowy to najczęstszy powód, dla którego kod nie przychodzi – sprawdź go, zanim stukniesz dalej."
+        },
+        {
+          "title": "Wpisz kod",
+          "body": "Przełącz się na SMS Code. SMS weryfikacyjny pojawia się w aplikacji zwykle w ciągu kilku sekund, coś w rodzaju „Your Tinder code is 314159”. Przepisz go do Tindera i krok z telefonem jest zaliczony."
+        },
+        {
+          "title": "Zakotwicz konto w czymś, co zatrzymasz",
+          "body": "W ustawieniach Tindera podłącz kontrolowany przez siebie e-mail – albo logowanie przez Apple/Google, gdzie jest dostępne. To, a nie numer telefonu, będzie potem Twoją drogą powrotu do konta. Następnie buduj profil jak zwykle."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "tinder"
+    },
+    {
+      "type": "h2",
+      "id": "privacy-not-deception",
+      "text": "Prywatność wobec obcych – nie oszukiwanie dopasowań"
+    },
+    {
+      "type": "p",
+      "text": "Rozróżnienie, które warto postawić jasno: ta konfiguracja chroni Cię przed obcymi, którzy jeszcze nie zasłużyli na Twoje zaufanie, i to wszystko, co robi. Twój profil to nadal Ty – Twoje zdjęcia, wiek, opis. Numer wirtualny zmienia to, co ktoś o złych zamiarach może wyciągnąć z rekordów aplikacji, a nie to, co dobre dopasowanie widzi w profilu."
+    },
+    {
+      "type": "p",
+      "text": "Gdy ktoś zasłuży na Twoje zaufanie, dzielisz się prawdziwym numerem tak, jak ludzie zawsze to robili – z własnego wyboru. Chodzi o to, by wybór pozostał Twój, zamiast zapadać za Ciebie w formularzu rejestracji dnia zerowego. A do tego czasu czatuj w aplikacji; po to jest czat w aplikacji."
+    },
+    {
+      "type": "callout",
+      "text": "Spraw, by konto dało się odzyskać, zanim będzie trzeba: zaraz po rejestracji podłącz w ustawieniach adres e-mail (lub logowanie przez Apple/Google). Wynajęty numer jest na moment weryfikacji – to e-mail wpuści Cię z powrotem z nowego urządzenia. Zrób to pierwszego dnia, a nie po zablokowaniu dostępu."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Najczęstsze pytania"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Czy Tinder akceptuje numery wirtualne?",
+          "a": "Wynajęty numer wirtualny to prawdziwy numer komórkowy w prawdziwej sieci operatora – Tinder traktuje go jak każdy inny telefon. Zwykle zawodzą darmowe współdzielone numery ze stron do odbioru SMS-ów: używały ich tysiące osób, a aplikacje randkowe odrzucają je niemal od razu."
+        },
+        {
+          "q": "Czy moje dopasowania zobaczą numer, którym się zarejestrowałem?",
+          "a": "Nie. Tinder nigdy nie pokazuje Twojego numeru innym użytkownikom – to dane logowania i weryfikacji, a nie treść profilu. Dopasowania widzą Twoje imię, zdjęcia i opis; numer zostaje między Tobą a aplikacją."
+        },
+        {
+          "q": "Czy wrócę do konta po wygaśnięciu wynajętego numeru?",
+          "a": "Tak, jeśli to przygotujesz: pozostań zalogowany i zaraz po rejestracji podłącz e-mail lub logowanie przez Apple/Google. Na co dzień Tinder trzyma Twoją sesję; na nowym urządzeniu drogą do środka jest podłączony e-mail. Nie powinieneś polegać na ponownym odbieraniu SMS-ów na numer, którego już nie wynajmujesz."
+        },
+        {
+          "q": "Czy ten sam sposób działa na Bumble i Hinge?",
+          "a": "Proces jest ten sam – numer, kod SMS, profil – więc mechanicznie tak, działa tak samo. Każda aplikacja potrzebuje własnej aktywacji i ma własne dodatkowe kontrole (Bumble też robi weryfikację zdjęcia). Wybierz aplikację jako usługę w SMS Code i wykonaj te same kroki."
+        },
+        {
+          "q": "Dlaczego kod z Tindera nie dotarł?",
+          "a": "Zwykle przez niezgodność numeru kierunkowego wybranego w Tinderze z wynajętym numerem – sprawdź to najpierw. Jeśli SMS naprawdę nigdy nie przychodzi, anuluj aktywację w SMS Code bez opłat, weź świeży numer i spróbuj ponownie. Płacisz tylko za aktywacje, które dostarczą kod."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "tinder"
+    }
+  ]
+}

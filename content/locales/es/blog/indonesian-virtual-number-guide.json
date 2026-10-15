@@ -1,0 +1,132 @@
+{
+  "title": "Número virtual de Indonesia (+62): formato y reglas",
+  "description": "Cómo funcionan los móviles indonesios, por qué las SIM allí están ligadas al NIK y cómo recibir un SMS de verificación en un número +62 desde fuera.",
+  "excerpt": "Indonesia ata cada SIM prepago a un número de identidad nacional y limita cuántas puede registrar cada persona. Así funcionan los números +62, por qué importa al registrarte y cómo recibir un código en uno sin SIM local.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Indonesia es el cuarto país más poblado del mundo y uno de los más volcados en el teléfono. Su economía digital creció en el smartphone, no en el ordenador: la gente pide viajes y comida en Gojek y Grab, compra en Shopee y Tokopedia y lleva pequeños negocios enteros por WhatsApp. Casi todos esos servicios empiezan igual: escribe un número +62 y espera un código."
+    },
+    {
+      "type": "p",
+      "text": "Por eso las búsquedas de «número de Indonesia» aparecen en árabe, inglés y otros idiomas, hechas por gente muy lejos del archipiélago. Algunos son trabajadores indonesios en el extranjero —en Arabia Saudí, Malasia, Taiwán o Hong Kong— que mantienen un pie en los servicios de su país. Otros son vendedores, profesionales del marketing o desarrolladores que necesitan una cuenta anclada al mercado indonesio. Así funcionan esos números, y por eso conseguir una SIM local es más difícil de lo que parece."
+    },
+    {
+      "type": "h2",
+      "id": "how-indonesian-numbers-work",
+      "text": "Cómo se escribe un número móvil indonesio"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Dentro del país, los móviles empiezan por 08 —por ejemplo 0812, 0857 o 0878— y tienen entre diez y trece dígitos en total.",
+        "En formato internacional, el 0 inicial desaparece y se sustituye por +62. Así, 0812-3456-7890 pasa a ser +62 812-3456-7890.",
+        "Los dígitos después del 08 identificaban en origen a la operadora —Telkomsel, Indosat y XL están entre las mayores—, pero tras años de fusiones y prefijos nuevos son una pista, no una regla.",
+        "En un formulario con Indonesia seleccionada, el número se escribe empezando por el 8, nunca con 0 ni con 62."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "El error más común con los números indonesios es el cero inicial. «+62 0812…» no es un número válido. Si el selector de país ya muestra +62, empieza a escribir desde el 8."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-and-the-nik",
+      "text": "Por qué cada SIM indonesia está ligada a una identidad nacional"
+    },
+    {
+      "type": "p",
+      "text": "A finales de 2017, el gobierno indonesio ordenó a cada usuario de prepago registrar su SIM con dos documentos: el NIK, el número de identidad nacional de dieciséis dígitos impreso en la tarjeta KTP, y el número del KK, la tarjeta de familia que recoge a todos los miembros del hogar. Los usuarios enviaban ambos números por SMS a un número corto. El plazo terminó el 28 de febrero de 2018, y después las tarjetas sin registrar se fueron cortando de forma progresiva."
+    },
+    {
+      "type": "p",
+      "text": "La norma sobrevivió a la campaña. Hoy el registro se rige por un reglamento ministerial de 2021, y las páginas de ayuda de Telkomsel siguen indicando que un mismo NIK puede registrar por su cuenta como máximo tres números prepago por operadora; para más tarjetas hay que acudir a una oficina. El objetivo era hacer rastreables el fraude telefónico y las llamadas de estafa anónimas, dentro de una tendencia global: según la GSMA, más de 150 países exigen hoy el registro de las SIM."
+    },
+    {
+      "type": "p",
+      "text": "Para los extranjeros, la consecuencia es práctica. Los turistas pueden comprar SIM registradas con su pasaporte, normalmente en el aeropuerto, pero la tarjeta queda ligada al pasaporte y a menudo tiene fecha de caducidad. Quien vive fuera de Indonesia y solo quiere un número +62 para una cuenta no tiene ninguna forma sencilla de conseguir una SIM."
+    },
+    {
+      "type": "h2",
+      "id": "who-needs-a-62-number",
+      "text": "Quién necesita un número +62, y para qué"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Vendedores y profesionales del marketing que construyen presencia ante clientes indonesios: un perfil de WhatsApp Business, una cuenta de TikTok o Instagram para el público local.",
+        "Desarrolladores y equipos de QA que prueban apps que se comportan distinto con usuarios indonesios.",
+        "Indonesios en el extranjero que quieren registrarse en un servicio de su país sin mantener una SIM activa desde fuera.",
+        "Cualquiera que quiera una cuenta de mensajería o red social separada de su número personal."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Para qué no sirve: bancos indonesios, monederos electrónicos con verificación completa y servicios públicos. Esos vinculan tu cuenta a tu NIK, y el número registrado tiene que estar a tu nombre."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-62-number",
+      "text": "Recibir un código en un número indonesio"
+    },
+    {
+      "type": "p",
+      "text": "Un número indonesio alquilado en SMS Code es un número móvil real en una red de operadora indonesia. Para el servicio en el que te registras, se ve como cualquier otro abonado +62, y queda reservado solo para ti mientras esperas el código."
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Elige el servicio e Indonesia",
+          "body": "En SMS Code, selecciona el servicio —WhatsApp, Telegram, TikTok, Grab o cualquiera de los más de 100— y elige Indonesia. El precio de la activación en monedas aparece antes de confirmar."
+        },
+        {
+          "title": "Escribe el número desde el 8",
+          "body": "Con +62 seleccionado en el formulario, escribe el número que muestra la app empezando por el 8, sin 0 inicial."
+        },
+        {
+          "title": "Pega el código",
+          "body": "El SMS llega a la app normalmente en segundos. Si no llega nada, cancela pasados dos minutos; las monedas vuelven a tu saldo si no llegó ningún SMS y puedes tomar un número nuevo."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Después, protege la cuenta: una contraseña fuerte, un correo de recuperación que controles y la verificación en dos pasos del servicio. Un número temporal cubre el registro, no el futuro de la cuenta."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Preguntas frecuentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "¿Puede un extranjero tener un número de teléfono indonesio?",
+          "a": "Estando en Indonesia, sí: las SIM para turistas se registran con pasaporte. Desde fuera, comprar una SIM es poco práctico, y por eso se usa un número virtual +62 para verificaciones puntuales."
+        },
+        {
+          "q": "¿Necesito NIK o KK para usar un número virtual indonesio?",
+          "a": "No. El registro con NIK se aplica a las SIM compradas a operadoras indonesias. Alquilar un número para una verificación en SMS Code no exige ningún documento indonesio."
+        },
+        {
+          "q": "¿Escribo 08 o +62 8?",
+          "a": "En formato internacional: +62 seguido del número que empieza por 8. Nunca combines el prefijo del país con el 0 inicial nacional."
+        },
+        {
+          "q": "¿Funciona con Grab, Shopee o Gojek?",
+          "a": "SMS Code ofrece activaciones para muchos servicios regionales, entre ellos Grab y Shopee, y la app muestra qué servicios y países están disponibles antes de pagar. Los servicios con verificación de identidad completa —funciones bancarias, mejoras de monedero electrónico— te pedirán igualmente tus propios documentos."
+        },
+        {
+          "q": "¿Y si no llega ningún SMS?",
+          "a": "Comprueba que no escribiste un 0 inicial y espera un minuto entero. Si no llega nada, cancela la activación pasados dos minutos —las monedas vuelven a tu saldo— y prueba con otro número."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

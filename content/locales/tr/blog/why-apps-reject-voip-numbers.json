@@ -1,0 +1,127 @@
+{
+  "title": "Uygulamalar kayıtta VoIP numaraları neden reddediyor",
+  "description": "«Bu numara kullanılamaz» uyarısı çoğu zaman uygulamanın hat türünü sorgulayıp VoIP gördüğü anlamına gelir. Bu kontrol nasıl çalışır, hangi numaralar geçer?",
+  "excerpt": "WhatsApp'a ya da bir banka uygulamasına Google Voice veya TextNow numarası girin; çoğu zaman anında reddedilir. Nedeni pek az kişinin duyduğu bir sorgu. Uygulamalar VoIP numarayı cep numarasından nasıl ayırt ediyor ve bu, numara seçiminiz için ne anlama geliyor?",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Bir saniyeden kısa sürer. Bir kayıt formuna tamamen geçerli bir telefon numarası yazarsınız, «Devam»a dokunursunuz ve kuru bir ret alırsınız: «Bu telefon numarası doğrulama için kullanılamaz» ya da daha belirsiz bir «Lütfen geçerli bir cep telefonu numarası girin». Numara çalışıyor. Arkadaşlarınızdan mesaj alıyor. Uygulama yalnızca bunun yanlış türde bir numara olduğuna karar verdi."
+    },
+    {
+      "type": "p",
+      "text": "O saniyede olan şey bir hat türü sorgusuydu — modern kayıt akışlarının en görünmez ama en belirleyici kontrollerinden biri. Bunu anlamak, bazı sanal numaraların doğrulamadan rahatça geçip diğerlerinin neden ilk ekranı bile aşamadığını açıklıyor."
+    },
+    {
+      "type": "h2",
+      "id": "what-a-line-type-lookup-is",
+      "text": "Hat türü sorgusu gerçekte neyi kontrol eder"
+    },
+    {
+      "type": "p",
+      "text": "Her telefon numarası bloklar hâlinde bir operatöre tahsis edilir ve her operatör belirli bir hizmet türü için kayıtlıdır. Numaralandırma otoriteleri ve operatörler hangi bloğun kimde olduğunu yayımlar; numara taşıma veritabanları operatör değiştiren numaraları kaydeder. Ticari veri sağlayıcıları bu kaynakları birleştirip herhangi bir numara hakkında basit bir soruyu yanıtlayan bir API sunar: bu numaraya kim hizmet veriyor ve bu ne tür bir hat?"
+    },
+    {
+      "type": "p",
+      "text": "Bu sağlayıcıların en büyüklerinden Twilio, kontrolü «Line Type Intelligence» adıyla satıyor ve döndürdüğü kategorileri belgeliyor. Kayıt için en önemli üçü şunlar:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mobil — bir mobil operatör ağında, SIM karta bağlı ve genellikle SMS alabilen numara.",
+        "Sabit VoIP — internet üzerinden sunulan ve fiziksel bir hizmet adresine bağlı numara; örneğin bir kablo şirketinin ev telefonu hattı.",
+        "Sabit olmayan VoIP — arkasında fiziksel bir cihaz ya da adres olmadan çevrimiçi edinilen numara. Twilio'nun kendi belgeleri örnek olarak Google Voice'u veriyor."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Başka kategoriler de var — sabit hat, ücretsiz numara, çağrı cihazı, kişisel numara — ama doğrulama kodu gönderip göndermeyeceğine karar veren bir uygulama için önemli olan sınır, mobil ile sabit olmayan VoIP arasındaki sınırdır."
+    },
+    {
+      "type": "h2",
+      "id": "why-apps-block-non-fixed-voip",
+      "text": "Uygulamalar sabit olmayan VoIP'yi neden engelliyor"
+    },
+    {
+      "type": "p",
+      "text": "Telefonla doğrulama, sahte hesapları pahalı hâle getirmek için var. Bir cep numarası para tutar, genellikle SIM gerektirir ve 150'den fazla ülkede kayıtlı bir kimlik ister. Bu sürtünme işin ta kendisidir."
+    },
+    {
+      "type": "p",
+      "text": "Sabit olmayan VoIP numaralar bu sürtünmenin çoğunu ortadan kaldırır. Birçoğu dakikalar içinde, bazıları ücretsiz, toplu hâlde, yalnızca bir e-posta adresiyle oluşturulabilir. Bir dolandırıcılıkla mücadele ekibi için bunlardan biriyle doğrulanmış hesap, e-postayla doğrulanmış bir hesaptan pek fazla güvence sunmaz. Bu yüzden kötüye kullanıma en açık platformlar — mesajlaşma uygulamaları, ödeme hizmetleri, pazaryerleri, tanışma uygulamaları, kripto borsaları — tek bir SMS göndermeden bu numaraları rutin olarak reddeder."
+    },
+    {
+      "type": "callout",
+      "text": "Ret genellikle herhangi bir mesaj gönderilmeden gelir. Form numaranızı anında reddediyorsa beklemek işe yaramaz: uygulama kod göndermemeye çoktan karar vermiştir."
+    },
+    {
+      "type": "h2",
+      "id": "the-cost-for-real-users",
+      "text": "Gerçek kullanıcılara bedeli"
+    },
+    {
+      "type": "p",
+      "text": "Politika kaba ve hedeflemediği insanları da yakalıyor. Google Voice'u ana hattı olarak kullanan Amerikalılar banka uygulamalarının dışında kalıyor. Telefonlarını bir VoIP sağlayıcısına taşıyan küçük işletmeler, şirket numaralarıyla ihtiyaç duydukları hesapları açamadıklarını fark ediyor. Dolaşım ücretlerinden kaçınmak için VoIP numara kullanan gezginlere numaranın «desteklenmediği» söyleniyor."
+    },
+    {
+      "type": "p",
+      "text": "Ters yönde bir güvenlik argümanı da var. SMS kodlarının kendisi zayıf bir ikinci faktör: ABD standartlar kurumu NIST, SIM kart değişimi ve mesaj ele geçirme nedeniyle SMS ve sesli tek kullanımlık kodları artık «kısıtlı» doğrulayıcı olarak sınıflandırıyor. Bazı güvenlik ekipleri, platformun numaranın türünü değil, kullanıcının hesabı zaman içinde kontrol ettiğini kanıtlayıp kanıtlayamadığını denetlemesi gerektiğini savunuyor. Yine de şimdilik hat türü filtreleme sektörün varsayılanı ve yakında kaybolacak gibi değil."
+    },
+    {
+      "type": "h2",
+      "id": "which-numbers-get-through",
+      "text": "Hangi numaralar geçer"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Kendi cep numaranız — her zaman geçer ve kişisel kimliğinizi her zaman hizmete açar.",
+        "İkinci bir SIM ya da eSIM — geçer; bedeli bir tarife, çoğu zaman kimlik kontrolü ve canlı tutulması gereken bir numaradır.",
+        "«Ücretsiz online SMS alma» sitelerinin numaraları — çoğu zaman sabit olmayan VoIP'dir ya da çoktan kara listeye alınmıştır; geçseler bile gelen kutusu herkese açıktır.",
+        "Ücretsiz VoIP uygulamalarının numaraları — hat türü sorgularının yakalamak için tasarlandığı kategori tam olarak budur.",
+        "Kiralık cep numarası — bir operatör ağında mobil olarak kayıtlıdır, bu yüzden sorgudan her abone gibi geçer ve etkinleştirme süresince yalnızca size ayrılır."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bu son kategori SMS Code'un sunduğu şeydir. Numaralar, 100'den fazla ülkede operatör ağlarındaki cep numaralarıdır; bir uygulamanın ürettiği VoIP hatları değildir. Sorgu sıradan bir abone görür; kod diğerleri gibi SMS ile teslim edilir ve uygulamada genellikle saniyeler içinde görünür."
+    },
+    {
+      "type": "p",
+      "text": "Hiçbir numara her kontrolden her seferinde geçmez. Hizmetler bir numaranın platformlarında daha önce kullanılıp kullanılmadığına, cihaz sinyallerine ve kayıt örüntülerine de bakar. Kiralık bir numara reddedilirse ya da kod gelmezse iki dakika sonra iptal edebilirsiniz — SMS gelmediyse jetonlar bakiyenize döner — ve başka bir numara ya da başka bir ülke deneyebilirsiniz."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sık sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Uygulama numaramın VoIP olduğunu nasıl anlıyor?",
+          "a": "Numara bloklarını ve taşınmış numaraları operatörlerle ve hat türleriyle eşleştiren bir telefon verisi sağlayıcısını sorgular. Yanıt — mobil, sabit hat, sabit VoIP, sabit olmayan VoIP — milisaniyeler içinde, herhangi bir SMS gönderilmeden gelir."
+        },
+        {
+          "q": "Numaram SMS alıyorsa WhatsApp neden geçersiz diyor?",
+          "a": "Pek çok mesajlaşma ve ödeme uygulaması sabit olmayan VoIP numaraları doğrudan reddeder. Numara SMS alabilir; platform yalnızca bu hat türünü doğrulama için kabul etmez."
+        },
+        {
+          "q": "Sanal numara ile VoIP numara aynı şey mi?",
+          "a": "Her zaman değil. «Sanal», numaraya nasıl eriştiğinizi anlatır — telefonunuzdaki SIM yerine bir uygulama üzerinden. SMS Code'un sanal numaraları operatör ağlarındaki cep numaralarıdır, bu yüzden VoIP değil mobil olarak sınıflandırılır."
+        },
+        {
+          "q": "Kiralık cep numarası yine de reddedilebilir mi?",
+          "a": "Ara sıra. Platformlar numaranın daha önce hizmetlerinde kullanılıp kullanılmadığını da kontrol eder ve başka risk sinyallerine bakar. Böyle olursa iki dakika sonra etkinleştirmeyi iptal edin ve yeni bir numara alın."
+        },
+        {
+          "q": "Bankam için VoIP numara kullanmalı mıyım?",
+          "a": "Bankalar VoIP numaraları sıklıkla reddeder ve yıllarca SMS ile yeniden doğrulama yapar. Bankacılık için adınıza kayıtlı bir cep numarası kullanın."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Probleme mit Aktivierungen: SMS fehlt oder abgelehnt",
+  "metaDescription": "SMS kommt nicht an oder Code abgelehnt? Prüfe Dienst und Nummer, nutze den Abbruch nach zwei Minuten und erfahre, was der Support von SMS Code braucht.",
+  "sections": [
+    {
+      "title": "Dienst und Nummer prüfen",
+      "paragraphs": [
+        "Wähle genau den Dienst, den du bestätigen willst. Gib die zugeteilte Nummer mit ihrer Ländervorwahl ein und prüfe, ob Vorwahlen doppelt vorkommen. Fordere in diesem Dienst eine Bestätigung per SMS an; ein Sprachanruf oder ein Code, der an ein anderes Gerät gesendet wird, kann hier nicht empfangen werden.",
+        "Lass die Aktivierung geöffnet und prüfe ihren Status in der App. Mitteilungen können helfen, aber der Aktivierungsbildschirm ist der Ort, an dem du nach dem Code siehst. Vermeide wiederholte Anfragen zum erneuten Senden: Der Zieldienst kann eigene Wartezeiten verhängen."
+      ]
+    },
+    {
+      "title": "Abbruch nach zwei Minuten und das Aktivierungsfenster",
+      "paragraphs": [
+        "Ist keine SMS angekommen, kannst du zwei Minuten nach der Zuteilung der Nummer abbrechen. Der Timer startet mit der Zuteilung, nicht wenn du die App öffnest oder Münzen kaufst. Nutze den Countdown zum Abbruch, den die App anzeigt.",
+        "Abbrechen bringt die Münzen der Aktivierung auf dein In-App-Guthaben zurück. „Andere Nummer versuchen“ gibt ebenfalls zuerst die Münzen der alten Aktivierung zurück, bevor eine neue Aktivierung gekauft wird; prüfe den neuen Preis. Das sind Münzrückgaben, keine Rückerstattungen von Zahlungen.",
+        "Das aktuelle Aktivierungsfenster beträgt 15 Minuten nach der Zuteilung. Folge dem Countdown in deiner App. Endet das Fenster ohne SMS, wird die Aktivierung geschlossen und ihre Münzen werden zurückgegeben. Bleibt die Rückgabe ausstehend oder stimmt das Guthaben nicht, kontaktiere den Support, statt immer wieder Nummern zu kaufen.",
+        "Sobald eine SMS empfangen wurde, ist kein Abbruch mehr möglich, auch wenn der Zieldienst den Code ablehnt. Eine SMS, die während des Abbruchs ankommt, kann die Berechtigung ändern."
+      ]
+    },
+    {
+      "title": "Abgelehnter Code oder bereits genutzte Nummer",
+      "paragraphs": [
+        "Verwende den neuesten Code für das richtige Konto und den richtigen Dienst, ohne zusätzliche Leerzeichen. Der Zieldienst bestimmt über die Gültigkeit des Codes, die Annahme der Nummer und Kontobeschränkungen. Eine zugestellte SMS garantiert keine erfolgreiche Registrierung.",
+        "Ist die Nummer bereits registriert, greife nicht auf das Konto einer anderen Person zu. Wird ein Code abgelehnt, hör mit wiederholten bezahlten Versuchen auf und kontaktiere den Support für eine Prüfung. Nachdem eine SMS angekommen ist, gibt es keine automatische Münzrückgabe; das schränkt keine geltenden Verbraucherrechte ein."
+      ]
+    },
+    {
+      "title": "Was du dem Support senden solltest",
+      "paragraphs": [
+        "Gib die Aktivierungs-ID, den gewählten Dienst und das Land, die ungefähre Uhrzeit und Zeitzone, den Status und die genaue Fehlermeldung an. Ein Screenshot des Fehlers hilft. Sende keine Passwörter, Bestätigungscodes oder vollständigen Kartendaten."
+      ]
+    }
+  ]
+}

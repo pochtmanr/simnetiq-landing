@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Servicebedingungen",
+    "description": "Die Bedingungen für die Nutzung der App SMS Code und von simnetiq.xyz: Münzen und Käufe, dein Widerrufsrecht, zulässige Nutzung, virtuelle Nummern und Haftung."
+  },
+  "prevailingNotice": "Diese Übersetzung dient nur der Orientierung. Weicht sie von der englischen Fassung ab, ist die englische Fassung maßgeblich.",
+  "label": "Rechtliches",
+  "title": "Servicebedingungen",
+  "updatedLabel": "Zuletzt aktualisiert:",
+  "sections": [
+    {
+      "title": "1. Vereinbarung",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Diese Servicebedingungen („Bedingungen“) sind eine Vereinbarung zwischen dir und der SIMNETIQ LTD, einem in England und Wales eingetragenen Unternehmen („wir“, „uns“), und regeln deine Nutzung der mobilen Anwendung SMS Code (die „App“) und der Website simnetiq.xyz (die „Website“). Mit der Installation oder Nutzung der App akzeptierst du diese Bedingungen. Wenn du nicht einverstanden bist, nutze die App nicht."
+        },
+        {
+          "type": "p",
+          "text": "Handelsregisternummer: {companyNumber}. Eingetragener Sitz: {registeredOffice}. Kontakt: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Der Dienst",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Die App stellt temporäre virtuelle Telefonnummern bereit, um SMS-Bestätigungscodes von unterstützten Onlinediensten zu empfangen. Die Nummern werden von Telefonieanbietern Dritter geliefert; die Verfügbarkeit eines bestimmten Dienstes, Landes oder einer bestimmten Nummer ist nicht garantiert und kann sich ohne Vorankündigung ändern."
+        }
+      ]
+    },
+    {
+      "title": "3. Voraussetzungen",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Du musst mindestens 18 Jahre alt und rechtlich in der Lage sein, diese Vereinbarung einzugehen. Du darfst die App nur auf eine Weise nutzen, die die für dich geltenden Gesetze erlauben."
+        }
+      ]
+    },
+    {
+      "title": "4. Münzen und Käufe",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Münzen sind einmalige In-App-Käufe, die vom Apple App Store nach dessen Zahlungsbedingungen abgewickelt werden. Es gibt kein Abo, und nichts verlängert sich automatisch.",
+            "Münzen werden pro Aktivierung ausgegeben. Der Betrag hängt vom Dienst und vom Land ab, wird hauptsächlich vom Dienst bestimmt und wird dir angezeigt, bevor du bestätigst.",
+            "Münzen verfallen nicht, sind nicht übertragbar und haben keinen Geldwert."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Wann Münzen zu dir zurückkommen.** Münzen werden in vier Situationen automatisch auf dein Guthaben zurückgebucht:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "du brichst eine Aktivierung frühestens zwei Minuten nach Zuteilung der Nummer ab, bevor ein Bestätigungscode empfangen wurde;",
+            "du wechselst frühestens zwei Minuten nach der Zuteilung zu einer anderen Nummer, bevor ein Code empfangen wurde;",
+            "das Aktivierungsfenster endet, ohne dass ein Code angekommen ist; oder",
+            "unser Anbieter kann für die Aktivierung keine nutzbare Nummer liefern."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Eine Rückgabe von Münzen ist keine Rückerstattung von Geld.** In jeder der obigen Situationen bekommst du die Münzen zurück, gutgeschrieben auf dein In-App-Guthaben. Wir zahlen dafür kein Geld zurück, und Münzen haben keinen Geldwert. Wenn du für einen Kauf Geld zurückhaben möchtest, ist das Sache von Apple: Rückerstattungen des Kaufpreises werden bei Apple beantragt und von Apple nach der Erstattungsrichtlinie des App Store entschieden, und wir haben keine Möglichkeit, eine solche auszustellen, zu genehmigen oder abzulehnen. Abschnitt 5 beschreibt dein separates gesetzliches Widerrufsrecht."
+        }
+      ]
+    },
+    {
+      "title": "5. Dein Widerrufsrecht (Verbraucher im Vereinigten Königreich und in der EU)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wenn du Verbraucher im Vereinigten Königreich oder in der Europäischen Union bist, hast du in der Regel 14 Tage ab dem Tag, an dem ein Vertrag über digitale Inhalte geschlossen wird, um ihn ohne Angabe von Gründen zu widerrufen und eine Rückerstattung zu erhalten. Dieses Recht ergibt sich im Vereinigten Königreich aus den Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 und in der EU aus der Verbraucherrechte-Richtlinie."
+        },
+        {
+          "type": "p",
+          "text": "Münzen werden deinem Guthaben nach einem erfolgreichen Kauf bereitgestellt. Jede Ausnahme von einem gesetzlichen Widerrufsrecht hängt vom geltenden Recht und von der Zustimmung, Kenntnisnahme und Bestätigung ab, die beim Kauf tatsächlich gegeben wurden. Das Akzeptieren dieser Bedingungen allein bedeutet keinen Verzicht auf deine gesetzlichen Widerrufsrechte."
+        },
+        {
+          "type": "p",
+          "text": "Für einen über Apple abgerechneten Kauf beantragst du eine Rückerstattung der Zahlung unter [reportaproblem.apple.com](https://reportaproblem.apple.com/). Apple wickelt den Erstattungsprozess nach seinen regionalen Bedingungen und dem geltenden Recht ab. Kontaktiere uns für eine Prüfung bei fehlender oder mangelhafter Leistung, ungenutzten Münzen oder Kauf- und Guthabenaufzeichnungen. Wir garantieren weder die Zustimmung von Apple noch eine automatische Auszahlung eines ungenutzten Guthabens. Wird ein Kauf erstattet, kann die zugehörige Münzgutschrift entfernt werden."
+        },
+        {
+          "type": "p",
+          "text": "Nichts in diesem Abschnitt berührt deine anderen gesetzlichen Rechte, einschließlich deiner Rechte, wenn der Dienst mangelhaft ist, nicht der Beschreibung entspricht oder nicht mit angemessener Sorgfalt und Sachkenntnis erbracht wird."
+        }
+      ]
+    },
+    {
+      "title": "6. Zulässige Nutzung",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Du verpflichtest dich, die App nicht zu nutzen, um:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "gegen Gesetze oder Vorschriften zu verstoßen oder die Rechte anderer zu verletzen;",
+            "Betrug, Spam, Belästigung oder falsche Identitätsangaben zu begehen;",
+            "gegen die Nutzungsbedingungen der Plattformen zu verstoßen, bei denen du dich anmeldest – für deren Einhaltung bist allein du verantwortlich;",
+            "Mitteilungen zu empfangen, die du gesetzlich auf einer verifizierten persönlichen Nummer empfangen musst (zum Beispiel von Behörden, Banken oder Notdiensten, wo dies untersagt ist);",
+            "den Dienst weiterzuverkaufen, auszulesen oder programmatisch zu missbrauchen."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Wir können ein Konto, das gegen diesen Abschnitt verstößt, sperren oder kündigen. In schweren Fällen – Betrug oder vorsätzlicher Missbrauch der Erstattungs- oder Aktivierungsmechanik – können wir außerdem das verbleibende Münzguthaben einziehen, soweit dies im Verhältnis zum Verstoß angemessen ist. Bei einem geringfügigen oder einmaligen Verstoß ziehen wir kein Guthaben ein, und nichts hier nimmt dir Rechte, die du als Verbraucher hast und die vertraglich nicht ausgeschlossen werden können."
+        }
+      ]
+    },
+    {
+      "title": "7. Virtuelle Nummern",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Virtuelle Nummern sind temporär und können nach dem Ende deiner Aktivierung an andere Nutzer vergeben werden. Sie sind für den Empfang einmaliger Bestätigungscodes gedacht, nicht für dauerhafte private oder geschäftliche Nutzung, Kontowiederherstellung oder eine Zwei-Faktor-Authentifizierung, auf die du dich langfristig verlässt."
+        }
+      ]
+    },
+    {
+      "title": "8. Geistiges Eigentum",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Die App, die Website und das gesamte zugehörige Branding gehören der SIMNETIQ LTD oder ihren Lizenzgebern. Wir gewähren dir eine persönliche, nicht exklusive, nicht übertragbare Lizenz, die App für ihren vorgesehenen Zweck zu nutzen. In der App angezeigte Namen von Drittanbieterdiensten gehören ihren jeweiligen Inhabern und bedeuten keine Billigung."
+        }
+      ]
+    },
+    {
+      "title": "9. Gewährleistungsausschluss",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Die App wird „wie besehen“ und „wie verfügbar“ bereitgestellt. Soweit gesetzlich zulässig, schließen wir alle ausdrücklichen oder stillschweigenden Gewährleistungen aus, einschließlich der Eignung für einen bestimmten Zweck. Wir gewährleisten nicht, dass ein bestimmter Bestätigungscode ankommt, dass Nummern von einer bestimmten Plattform akzeptiert werden oder dass der Dienst unterbrechungs- oder fehlerfrei ist."
+        },
+        {
+          "type": "p",
+          "text": "Dieser Abschnitt schließt nichts aus und beschränkt nichts, was rechtlich nicht ausgeschlossen oder beschränkt werden kann. Wenn du Verbraucher bist, bleiben deine gesetzlichen Rechte unberührt – einschließlich deines Rechts nach dem Consumer Rights Act 2015 (oder der entsprechenden Regelung an deinem Wohnort) auf einen digitalen Dienst, der mit angemessener Sorgfalt und Sachkenntnis, in zufriedenstellender Qualität und wie beschrieben erbracht wird."
+        }
+      ]
+    },
+    {
+      "title": "10. Haftungsbeschränkung",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nichts in diesen Bedingungen beschränkt eine Haftung, die gesetzlich nicht beschränkt werden kann, einschließlich der Haftung für Tod, fahrlässig verursachte Körperverletzung oder Betrug. Im Übrigen ist unsere Gesamthaftung aus oder im Zusammenhang mit der App auf den Betrag begrenzt, den du uns in den 12 Monaten vor dem Anspruch gezahlt hast, und wir haften nicht für indirekte oder Folgeschäden, entgangenen Gewinn, Datenverlust oder Rufschädigung."
+        }
+      ]
+    },
+    {
+      "title": "11. Beendigung",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Du kannst die Nutzung der App jederzeit beenden und dein Konto löschen. Wir können den Zugang sofort sperren oder beenden, wenn du gegen diese Bedingungen verstößt, wenn ein Anbieter eine Funktion zurückzieht, auf die wir angewiesen sind, oder wenn wir den Dienst einstellen; wo das Gesetz es verlangt, kündigen wir dies mit angemessener Frist an."
+        }
+      ]
+    },
+    {
+      "title": "12. Änderungen dieser Bedingungen",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wir können diese Bedingungen von Zeit zu Zeit aktualisieren – zum Beispiel, wenn sich das Gesetz ändert, wenn sich ein Anbieter ändert, auf den wir angewiesen sind, oder wenn die App eine Funktion hinzugewinnt oder verliert. Änderungen, die deine Rechte wesentlich betreffen, werden mindestens 30 Tage vor ihrem Inkrafttreten in der App oder auf der Website angekündigt. Wenn du sie nicht akzeptierst, kannst du die Nutzung der App vor diesem Datum beenden und dein Konto schließen; schreib uns wegen nicht ausgegebener Münzen, und wir behandeln deine Anfrage nach Treu und Glauben. Wenn du die App nach Inkrafttreten der Änderungen weiter nutzt, akzeptierst du die aktualisierten Bedingungen. Änderungen gelten nie rückwirkend für einen Kauf, den du bereits getätigt hast."
+        }
+      ]
+    },
+    {
+      "title": "13. Anwendbares Recht",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Diese Bedingungen unterliegen dem Recht von England und Wales, und die Gerichte von England und Wales sind ausschließlich zuständig – mit der Ausnahme, dass du als Verbraucher alle zwingenden Schutzvorschriften und Gerichtsstandsrechte des Landes behältst, in dem du lebst."
+        }
+      ]
+    },
+    {
+      "title": "14. Kontakt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Fragen zu diesen Bedingungen: {supportEmail}."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import type { LegalDict } from "../lib/content/ui";
-import { formatDate, type Locale } from "../lib/i18n";
+import { formatDate, localePath, type Locale } from "../lib/i18n";
 import {
   COMPANY_NUMBER,
   COMPANY_REGISTERED_OFFICE,
@@ -38,13 +38,16 @@ export function LegalShell({
 
 export function LegalSection({
   title,
+  id,
   children,
 }: {
   title: string;
+  /** Anchor for deep links (/support/account-balance#delete). */
+  id?: string;
   children: React.ReactNode;
 }) {
   return (
-    <section className="border-t border-border pt-[30px] first:border-t-0 first:pt-0 [&+&]:mt-[30px]">
+    <section id={id} className="scroll-mt-[100px] border-t border-border pt-[30px] first:border-t-0 first:pt-0 [&+&]:mt-[30px]">
       <h2 className="font-sans text-subheading font-medium">{title}</h2>
       <div className="mt-[10px] flex flex-col gap-[10px] text-label text-ink-muted [&_li]:ms-[18px] [&_li]:list-disc [&_ul]:flex [&_ul]:flex-col [&_ul]:gap-[6px]">
         {children}
@@ -58,7 +61,8 @@ export function LegalSection({
    translators keep the markers, the check script verifies they survived. */
 const TOKEN = /\*\*(.+?)\*\*|\*(.+?)\*|\[(.+?)\]\((.+?)\)|\{(supportEmail|companyNumber|registeredOffice)\}/g;
 
-export function RichText({ text }: { text: string }) {
+/** `locale`, when given, prefixes site-relative link targets ("/support/x"). */
+export function RichText({ text, locale }: { text: string; locale?: Locale }) {
   const out: React.ReactNode[] = [];
   let last = 0;
   for (const m of text.matchAll(TOKEN)) {
@@ -68,7 +72,7 @@ export function RichText({ text }: { text: string }) {
     else if (em) out.push(<em>{em}</em>);
     else if (label)
       out.push(
-        <a href={href} className="blue-link">
+        <a href={locale && href.startsWith("/") ? localePath(locale, href) : href} className="blue-link">
           {label}
         </a>,
       );

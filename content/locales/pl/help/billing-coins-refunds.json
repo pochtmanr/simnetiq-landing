@@ -1,0 +1,44 @@
+{
+  "title": "Płatności, monety i zwroty od Apple",
+  "metaDescription": "Jak działają pakiety monet SMS Code, co robić przy brakujących monetach lub nieznanym obciążeniu i jak krok po kroku poprosić Apple o zwrot.",
+  "sections": [
+    {
+      "title": "Jak działają monety",
+      "paragraphs": [
+        "Pakiety monet to jednorazowe zakupy w App Store, a nie abonamenty. Nie ma automatycznego odnawiania. Monety nie wygasają, nie można ich przenosić i nie są portfelem gotówkowym. Cena aktywacji zależy od usługi i kraju i jest pokazywana przed potwierdzeniem.",
+        "Uprawnione anulowanie, wymiana numeru, wygaśnięcie bez SMS-a lub nieudane przydzielenie numeru zwracają monety aktywacji. Gdy SMS już dotarł, anulowanie nie zwraca monet automatycznie. Usterki dostarczenia lub rozliczeń zgłaszaj pomocy do sprawdzenia."
+      ]
+    },
+    {
+      "title": "Brakujące monety lub nieznane obciążenie",
+      "paragraphs": [
+        "Sprawdź, czy jesteś zalogowany na to samo konto SMS Code, którego użyto do zakupu. Pozwól oczekującej płatności Apple się zakończyć i otwórz aplikację ponownie. Nie kupuj kolejnego pakietu tylko po to, by naprawić brakujące saldo.",
+        "Wyślij pomocy numer zamówienia Apple lub paragon, pakiet, datę zakupu i, jeśli to możliwe, identyfikator konta w aplikacji. Zamaskuj niezwiązane zakupy i dane płatnicze. W przypadku obciążenia, którego nie rozpoznajesz, sprawdź historię zakupów Apple i zakupy w Chmurze rodzinnej, a potem skontaktuj się z Apple."
+      ]
+    },
+    {
+      "title": "Niewykorzystane monety i zwroty płatności",
+      "paragraphs": [
+        "Zwrot monet do aplikacji nie cofa płatności Apple. Aby odzyskać pieniądze za zakup monet rozliczony przez Apple, poproś Apple o zwrot za ten zakup i rzetelnie wyjaśnij, czy monety są niewykorzystane, częściowo wykorzystane, brakujące czy wadliwe. Niewykorzystane saldo nie uprawnia automatycznie do zwrotu ani częściowej wypłaty gotówki.",
+        "Apple ocenia prawo do zwrotu według swoich regionalnych warunków i obowiązujących przepisów. Nie możemy obiecać zgody ani sami wystawić zwrotu przez system płatności Apple. Skontaktuj się z nami w sprawie wad usługi lub niewykorzystanych monet, jeśli potrzebujesz zapisów zakupów lub salda. Twoje bezwzględnie obowiązujące prawa konsumenta pozostają nienaruszone.",
+        "Jeśli Apple zatwierdzi zwrot, powiązane z nim monety mogą zostać usunięte z Twojego salda. Nie wydawaj dalej monet z zakupu, za który prosisz o zwrot. Usunięcie konta ani odinstalowanie aplikacji nie składa wniosku o zwrot."
+      ]
+    },
+    {
+      "title": "Poproś Apple o zwrot",
+      "paragraphs": [
+        "1. Otwórz reportaproblem.apple.com i zaloguj się na Apple Account, z którego zapłacono za pakiet.",
+        "2. W menu wniosków wybierz opcję zwrotu, a potem przyczynę opisującą, co się stało.",
+        "3. Kontynuuj, wybierz zakup monet SMS Code i wyślij wniosek.",
+        "4. Apple zwykle odpowiada w ciągu 24–48 godzin. Status zgłoszenia sprawdzisz na tej samej stronie. To czas na odpowiedź; wniosek może być nadal w toku, a zwrot pieniędzy trwa dodatkowo."
+      ]
+    },
+    {
+      "title": "Jeśli brakuje zakupu lub zwrot się opóźnia",
+      "paragraphs": [
+        "O zwrot oczekujących obciążeń nie można prosić, dopóki Apple nie wystawi paragonu; nieopłacone zamówienia trzeba najpierw uregulować. Sprawdź Apple Account widoczne na paragonie. Jeśli zakup jest niedostępny lub nie możesz złożyć wniosku, skontaktuj się ze Wsparciem Apple.",
+        "Po zatwierdzeniu, według Apple, zwrot na środki w sklepie może potrwać do 48 godzin, na kartę i większość innych metod płatności do 30 dni, a przy płatnościach przez operatora do 60 dni. SIMNETIQ nie może przyspieszyć przetwarzania przez Apple ani bank."
+      ]
+    }
+  ]
+}

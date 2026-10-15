@@ -1,0 +1,30 @@
+{
+  "title": "Mã bị từ chối hoặc số đã được dùng",
+  "metaDescription": "SMS đã đến nhưng dịch vụ từ chối mã hoặc số? Vì sao dịch vụ từ chối số ảo, nên thử gì tiếp theo, và khi nào bộ phận hỗ trợ có thể xem xét.",
+  "sections": [
+    {
+      "title": "Vì sao dịch vụ từ chối mã hoặc số",
+      "paragraphs": [
+        "Nhận SMS là phần của chúng tôi. Dịch vụ có chấp nhận số hay không là do dịch vụ quyết định. Một số ảo có thể bị từ chối ngay cả sau khi mã đã đến.",
+        "**Số đã được dùng trước đó.** Số được tái sử dụng. Nếu số đã từng gắn với một tài khoản trên dịch vụ đó, dịch vụ có thể từ chối nó hoặc hiện tài khoản của người khác.",
+        "**Dịch vụ hạn chế quốc gia.** Một số dịch vụ chỉ chấp nhận số từ khu vực của bạn, hoặc chặn các dải số mà họ coi là số ảo.",
+        "**Mã đã hết hạn hoặc không khớp.** Mã có thời hạn ngắn và gắn với một lần thử đăng ký. Một yêu cầu mới làm mã cũ mất hiệu lực."
+      ]
+    },
+    {
+      "title": "Nên thử gì",
+      "steps": [
+        "Nhập mã mới nhất, cho cùng dịch vụ và tài khoản, không có khoảng trắng.",
+        "Nếu dịch vụ báo số đã được đăng ký, đừng đăng nhập vào tài khoản không phải của bạn. Thay vào đó, hãy bắt đầu lần kích hoạt mới.",
+        "Thử quốc gia khác. Các quốc gia mà SMS cho dịch vụ đó đến tốt được liệt kê trên trang [Không nhận được SMS](/support/sms-not-received).",
+        "Ngừng lặp lại các lần thử trả phí trên cùng dịch vụ và quốc gia nếu chúng liên tục thất bại."
+      ]
+    },
+    {
+      "title": "Về xu",
+      "paragraphs": [
+        "Khi SMS đã đến, lần kích hoạt không thể hủy và xu không tự động được hoàn, vì số đã làm xong việc của nó. Nếu bạn cho rằng SMS hoặc mã bị lỗi, hãy viết cho chúng tôi kèm dịch vụ, quốc gia và thời gian và chúng tôi sẽ xem xét. Quyền người tiêu dùng của bạn không bị ảnh hưởng."
+      ]
+    }
+  ]
+}

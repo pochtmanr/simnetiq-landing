@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Binance — Giải thích về xác minh SMS",
+  "metaDescription": "Nhận mã SMS của Binance trên số ảo thật thường chỉ trong vài giây — kèm cái nhìn thẳng thắn về những gì nó làm được và không làm được cho bước KYC.",
+  "hero": {
+    "title": "Số ảo cho Binance",
+    "intro": [
+      "Binance bảo vệ tài khoản đúng như bạn mong đợi ở một sàn giao dịch: đăng ký đòi hỏi liên hệ đã xác minh, kiểm tra bảo mật kích hoạt trên thiết bị mới, và mã SMS như “[Binance] SMS verification code: 592731” xuất hiện ở mọi bước, từ liên kết điện thoại đến xác nhận rút tiền. Đó là bảo mật tốt — và cũng là thêm một công ty nắm giữ số di động cá nhân của bạn.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia, và mã đến ứng dụng thường chỉ trong vài giây. Bước điện thoại hoàn tất, và số được lưu cạnh tài khoản giao dịch của bạn không phải số mà ngân hàng, gia đình và các sàn khác của bạn đã biết."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Binance?",
+    "body": [
+      "Số điện thoại gắn với sàn tiền mã hóa là con mồi lớn hơn hầu hết các số khác: tấn công SIM-swap tồn tại chính vì một số bị đánh cắp có thể trở thành kênh đặt lại mật khẩu vào những tài khoản chứa tiền. Giữ số hằng ngày ngoài cơ sở dữ liệu của sàn giúp thu hẹp bề mặt tấn công — số nhận mã Binance của bạn đơn giản không phải số mà kẻ tấn công có thể tìm thấy trong một danh sách khách hàng bị rò rỉ ở nơi khác.",
+      "Giờ là phần thẳng thắn: điện thoại chỉ là một lớp ở Binance, và không phải lớp chịu lực. Xác minh danh tính — KYC với giấy tờ do nhà nước cấp và kiểm tra khuôn mặt — là bắt buộc để giao dịch và nạp tiền, hoàn toàn tách biệt khỏi bước SMS, và số ảo không thay đổi gì ở đó. Tương tự với khả năng sử dụng theo khu vực: Binance hoạt động ở đâu và pháp nhân nào phục vụ bạn tuân theo quy định riêng của họ và danh tính đã xác minh của bạn, không phải mã quốc gia của điện thoại. Số ảo là công cụ quyền riêng tư cho thời điểm SMS — không hơn, và thành thật mà nói, cũng không kém."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Binance bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Chọn Binance làm dịch vụ và chọn quốc gia — khớp với quốc gia cư trú và giấy tờ của bạn giúp thông tin tài khoản nhất quán khi đến bước KYC. Một chạm giữ một số di động thật."
+      },
+      {
+        "title": "Nhập số khi Binance yêu cầu điện thoại",
+        "body": "Khi đăng ký, hoặc sau này trong mục Bảo mật → Số điện thoại khi bạn liên kết. Chọn mã quốc gia của số và nhập chính xác — sai lệch là lý do phổ biến nhất khiến mã bị thất lạc."
+      },
+      {
+        "title": "Nhập mã",
+        "body": "SMS có dạng “[Binance] SMS verification code: 592731” và hiện trong ứng dụng SMS Code thường chỉ trong vài giây. Nhập mã và bước điện thoại hoàn tất."
+      },
+      {
+        "title": "Chuyển bảo mật sang các yếu tố bạn giữ được",
+        "body": "Trong cài đặt Bảo mật, bật ứng dụng xác thực hoặc passkey làm 2FA chính và giữ email đã xác minh. Binance kiểm tra lại các yếu tố khi rút tiền và trên thiết bị mới — những bước đó nên trỏ đến thứ bạn vẫn kiểm soát sau khi hết thời hạn thuê, không phải SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "KYC là riêng biệt — và không thể bỏ qua",
+      "body": "Số ảo đưa bạn qua màn hình SMS, không gì khác. Giao dịch, nạp và rút tiền đều cần xác minh danh tính đầy đủ với giấy tờ thật, và tài khoản có giấy tờ không khớp sẽ bị hạn chế bất kể dùng điện thoại nào. Nếu bạn không đủ điều kiện dùng Binance ở khu vực của mình, số thuê không thay đổi được điều đó."
+    },
+    {
+      "title": "Đừng để việc rút tiền phụ thuộc vào SMS",
+      "body": "Binance có thể yêu cầu mã SMS rất lâu sau khi đăng ký — trên thiết bị mới, khi rút số tiền lớn, khi rà soát bảo mật. Trước khi thời hạn thuê kết thúc, hãy chuyển 2FA sang ứng dụng xác thực hoặc passkey và xóa hoặc thay số điện thoại, để không lần xác nhận nào trong tương lai phải chờ một số bạn không còn đọc."
+    },
+    {
+      "title": "Chọn số đúng quốc gia thật của bạn",
+      "body": "Giấy tờ KYC, thẻ hoặc ngân hàng, và mã quốc gia của điện thoại đều mô tả cùng một người với hệ thống rủi ro của Binance. Chọn số từ quốc gia thực của bạn giữ câu chuyện đó nhất quán; một sự khác biệt lạ lùng sẽ mời thêm các bước xác minh thay vì tránh chúng."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Số ảo có giúp tôi bỏ qua KYC của Binance không?",
+      "a": "Không. KYC là một lớp riêng, bắt buộc: giấy tờ do nhà nước cấp, kiểm tra khuôn mặt, đôi khi cả bằng chứng địa chỉ. Số ảo chỉ nhận mã SMS. Bất kỳ ai hứa hẹn cách lách KYC qua điện thoại đang mô tả một cách để mất số dư tài khoản."
+    },
+    {
+      "q": "Tôi có thể mở tài khoản Binance ở quốc gia mà nó không hoạt động không?",
+      "a": "Không — và trang này sẽ không giả vờ khác đi. Khả năng sử dụng tuân theo giấy phép của Binance và danh tính đã xác minh của bạn, không phải số điện thoại. Số ảo giữ kín số cá nhân của bạn ở khu vực Binance đã phục vụ; nó không chuyển bạn đi nơi khác."
+    },
+    {
+      "q": "Tài khoản Binance có còn hoạt động sau khi số đã thuê hết hạn không?",
+      "a": "Có, nếu bạn đã chuẩn bị: xác minh email, đặt ứng dụng xác thực hoặc passkey làm 2FA, và cập nhật hoặc xóa điện thoại trong cài đặt Bảo mật. Số chỉ quan trọng khi Binance gửi SMS tới đó — hãy đảm bảo nó không còn là đường vào duy nhất của bạn."
+    },
+    {
+      "q": "Vì sao Binance cứ gửi mã tới điện thoại của tôi?",
+      "a": "Khi điện thoại còn được liên kết, SMS vẫn là kênh xác nhận dự phòng cho đăng nhập, rút tiền và thay đổi bảo mật. Đó chính là lý do bước bốn ở trên chuyển 2FA sang nơi khác — để các lời nhắc đó trỏ đến ứng dụng xác thực bạn giữ, không phải một số thuê sắp hết hạn."
+    },
+    {
+      "q": "Mã Binance không bao giờ đến — làm gì bây giờ?",
+      "a": "Kiểm tra mã quốc gia có khớp với số đã thuê, rồi chờ một phút — SMS của sàn có thể xếp hàng sau các bước kiểm tra bảo mật. Nếu không có gì đến, hãy hủy lần kích hoạt trong SMS Code miễn phí và lấy số mới; bạn chỉ trả tiền khi SMS được giao."
+    }
+  ]
+}

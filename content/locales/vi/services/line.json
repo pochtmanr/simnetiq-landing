@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho LINE — Xác minh không cần SIM địa phương",
+  "metaDescription": "Thuê số ảo thật để xác minh LINE. Đăng ký LINE mà không cần số cá nhân — mã SMS đến ứng dụng SMS Code thường chỉ trong vài giây.",
+  "hero": {
+    "title": "Số ảo cho LINE",
+    "intro": [
+      "Nếu bạn bè, gia đình hay đồng nghiệp của bạn ở Nhật Bản, Đài Loan, Thái Lan hoặc Indonesia, sớm muộn gì cũng có người nói “thêm mình trên LINE nhé”. Ứng dụng này là trình nhắn tin mặc định ở phần lớn châu Á — và nó không cho bạn vào nếu không có số điện thoại, được xác minh qua SMS trước cả khi bạn đặt tên hiển thị.",
+      "SMS Code cung cấp cho bạn một số thật từ một trong hơn 100 quốc gia. Nhập nó trên màn hình đăng ký LINE, và mã xác minh bốn chữ số hiện trong ứng dụng SMS Code thường chỉ trong vài giây — số của chính bạn hoàn toàn đứng ngoài."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho LINE?",
+    "body": [
+      "LINE coi số điện thoại là danh tính của bạn: đó là cách bạn đăng ký, cách bạn bè tìm bạn, và thứ tài khoản dựa vào. Nếu bạn chỉ cần LINE để giữ liên lạc với người quen ở châu Á — hoặc vì một trò chơi hay dịch vụ bạn dùng yêu cầu đăng nhập bằng tài khoản LINE — thì đưa số cá nhân là một đòi hỏi lớn cho một ứng dụng có thể chỉ dùng thỉnh thoảng. Số ảo giữ tài khoản hoạt động đầy đủ trong khi số thật của bạn vẫn riêng tư.",
+      "Nó cũng giải quyết một vấn đề thực tế: LINE gắn một tài khoản với một số, nên ai muốn hồ sơ riêng — chẳng hạn cho cộng đồng sở thích hay một trò chơi châu Á yêu cầu đăng nhập LINE — đều cần số thứ hai. Thuê một số cho một lần kích hoạt đơn giản hơn nhiều so với duy trì một SIM dự phòng chỉ để nhắn tin."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh LINE bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn LINE làm dịch vụ và chọn quốc gia — Indonesia và Philippines là lựa chọn phổ biến vì LINE được dùng rộng rãi ở đó. Một chạm giữ cho bạn một số di động thật."
+      },
+      {
+        "title": "Bắt đầu đăng ký LINE với số đó",
+        "body": "Trong LINE, chọn “Đăng ký”, chọn cùng quốc gia với số đã thuê và nhập số. LINE đề nghị xác minh qua SMS — hãy chọn tùy chọn đó thay vì cuộc gọi thoại."
+      },
+      {
+        "title": "Nhập mã từ SMS Code",
+        "body": "Tin nhắn đến ứng dụng SMS Code, thường chỉ trong vài giây: “Your verification code is 4820. Enter it in LINE within the next 30 mins.” Nhập bốn chữ số vào LINE trước khi chúng hết hạn."
+      },
+      {
+        "title": "Thiết lập email và mật khẩu",
+        "body": "Khi đã vào, vào Cài đặt → Tài khoản và đăng ký địa chỉ email kèm mật khẩu. Đó trở thành cách đăng nhập độc lập để chuyển LINE sang điện thoại mới sau này, nên tài khoản không bao giờ phụ thuộc vào việc nhận thêm SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Mã có hẹn giờ",
+      "body": "Mã SMS của LINE có hạn — chính tin nhắn ghi trong bao nhiêu phút. Đừng thuê số rồi bỏ đi: hãy mở sẵn màn hình đăng ký LINE trước khi yêu cầu mã, rồi nhập ngay khi nó hiện trong SMS Code."
+    },
+    {
+      "title": "Đăng ký email ngay lập tức",
+      "body": "LINE gắn lịch sử trò chuyện và việc chuyển tài khoản với email và mật khẩu đã đăng ký, không chỉ với số. Hãy thêm chúng ngay sau khi đăng ký trong Cài đặt → Tài khoản — đó là bước quan trọng nhất để giữ tài khoản dùng được lâu sau khi thời hạn kích hoạt của số thuê kết thúc."
+    },
+    {
+      "title": "Tắt “Cho phép người khác thêm bằng số”",
+      "body": "Trong cài đặt Bạn bè của LINE, hãy tắt tùy chọn cho phép người khác thêm bạn qua tra cứu số điện thoại. Với số ảo, dù sao cũng không ai tìm được danh tính thật của bạn, nhưng tắt nó cũng ngăn những người lạ thử lần lượt các số xuất hiện trong lời mời kết bạn."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "LINE có hoạt động ngoài châu Á với số ảo không?",
+      "a": "Có. LINE có mặt toàn cầu; nó chỉ phổ biến nhất ở Nhật Bản, Đài Loan, Thái Lan và Indonesia. Bạn có thể đăng ký bằng số từ bất kỳ quốc gia được hỗ trợ nào và trò chuyện với người ở bất cứ đâu — quốc gia của số không giới hạn bạn nói chuyện với ai."
+    },
+    {
+      "q": "Tôi có thể dùng tài khoản LINE tạo theo cách này để đăng nhập trò chơi không?",
+      "a": "Có. Nhiều trò chơi và dịch vụ ở châu Á có “Đăng nhập bằng LINE”. Khi tài khoản LINE đã xác minh và bạn đã đăng ký email cùng mật khẩu, nó hoạt động như phương thức đăng nhập giống mọi tài khoản LINE khác."
+    },
+    {
+      "q": "Tài khoản LINE có tồn tại sau khi số đã thuê hết hạn không?",
+      "a": "Số được kiểm tra khi đăng ký, không phải mỗi lần mở. Hãy giữ trạng thái đăng nhập và — quan trọng nhất — đăng ký email cùng mật khẩu trong Cài đặt → Tài khoản. Khi đã có chúng, bạn thậm chí có thể chuyển tài khoản sang điện thoại mới mà không cần nhận thêm SMS trên số cũ."
+    },
+    {
+      "q": "Vì sao mã xác minh LINE không đến?",
+      "a": "Thường gặp nhất là quốc gia chọn trong LINE không khớp với số đã thuê, hoặc LINE chuyển sang xác minh bằng cuộc gọi thoại mà số SMS thuê không trả lời được. Hãy hủy lần kích hoạt trong SMS Code — không bị trừ phí khi không có SMS — rồi lấy số mới và đảm bảo chọn phương thức SMS."
+    },
+    {
+      "q": "Tôi có thể có hai tài khoản LINE trên một điện thoại không?",
+      "a": "Ứng dụng LINE giữ một tài khoản mỗi thiết bị, nên tài khoản thứ hai cần thiết bị thứ hai hoặc công cụ doanh nghiệp của LINE. Điều số ảo giải quyết là phía số: mỗi tài khoản phải gắn với số riêng, và thuê một số giúp bạn khỏi mua thêm SIM."
+    }
+  ]
+}

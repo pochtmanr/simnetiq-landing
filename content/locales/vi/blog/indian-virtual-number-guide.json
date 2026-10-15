@@ -1,0 +1,149 @@
+{
+  "title": "Số ảo Ấn Độ (+91): cấu trúc và vì sao OTP đến chậm",
+  "description": "Vì sao nhiều người ngoài Ấn Độ muốn số +91, số di động Ấn Độ được cấu tạo thế nào, và vì sao tin OTP tới Ấn Độ đôi khi đến muộn — giải thích rõ ràng.",
+  "excerpt": "Riêng vùng Vịnh đã có gần mười triệu người Ấn Độ sinh sống, và hàng triệu người khác ở nước ngoài vẫn cần số +91 để đăng nhập dịch vụ ở quê nhà. Số Ấn Độ hoạt động thế nào, quy định DLT đã làm gì với việc giao OTP, và cách nhận mã trên số đó mà không cần SIM.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Hãy hỏi bất kỳ ai đã chuyển từ Kerala đến Dubai, hay từ Hyderabad đến Riyadh, xem họ giữ lại gì từ quê nhà, và thẻ SIM Ấn Độ xuất hiện thường đến bất ngờ. Không phải để gọi điện — việc đó đã chuyển sang WhatsApp từ lâu — mà vì những mã sáu chữ số. Ứng dụng ngân hàng, ví thanh toán, cổng chính phủ và một danh sách dài dịch vụ Ấn Độ mong đợi số +91 khi đăng ký và tiếp tục nhắn tới đó về sau."
+    },
+    {
+      "type": "p",
+      "text": "Quy mô không hề nhỏ. Bộ Ngoại giao Ấn Độ ước tính số công dân Ấn Độ sống ở sáu quốc gia vùng Vịnh gần mười triệu người, hơn bốn triệu trong số đó ở UAE. Thêm sinh viên ở châu Âu, kỹ sư ở Bắc Mỹ và một cộng đồng kiều bào mà Liên Hợp Quốc xếp vào hàng lớn nhất thế giới, và bạn có một nhóm rất lớn những người cần số Ấn Độ trong khi sống ở nơi khác."
+    },
+    {
+      "type": "p",
+      "text": "Còn có nhóm thứ hai: những người hoàn toàn không liên quan đến Ấn Độ chỉ đơn giản muốn một số từ một trong những thị trường di động sôi động nhất thế giới cho tài khoản mới. Đó là nhu cầu đằng sau những tìm kiếm như “số Ấn Độ cho WhatsApp” bằng tiếng Ả Rập, tiếng Pháp và hàng chục ngôn ngữ khác. Hướng dẫn này bao quát cả hai — số Ấn Độ được cấu tạo ra sao, vì sao tin nhắn tới chúng hành xử khác nơi khác, và số ảo +91 phù hợp ở đâu."
+    },
+    {
+      "type": "h2",
+      "id": "how-indian-mobile-numbers-work",
+      "text": "Một số di động Ấn Độ được cấu tạo thế nào"
+    },
+    {
+      "type": "p",
+      "text": "Số di động Ấn Độ thuộc loại dễ đọc nhất thế giới. Sau mã quốc gia +91 là đúng mười chữ số, và chữ số đầu luôn là 6, 7, 8 hoặc 9. Không có mã vùng cho di động: một số mua ở Chennai trông y hệt số mua ở Delhi."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Chữ số đầu cho biết đó là di động. Trong nhiều năm hầu như mọi số di động Ấn Độ bắt đầu bằng 9; khi số thuê bao vượt mốc một tỷ, Bộ Viễn thông mở các dãy 8, 7 và sau đó là 6.",
+        "Tiền tố không còn cho biết nhà mạng. Từ khi có chuyển mạng giữ số, một số khởi đầu ở mạng này có thể chuyển sang Jio, Airtel hay Vi mà giữ nguyên chữ số, nên bốn chữ số đầu cùng lắm chỉ là gợi ý lịch sử.",
+        "Kế hoạch vẫn giữ mười chữ số. Cơ quan quản lý viễn thông Ấn Độ TRAI đã tham vấn năm 2019 về việc chuyển sang số di động mười một chữ số và năm 2020 quyết định không làm. Mọi biểu mẫu đăng ký kiểm tra số Ấn Độ đều mong đợi đúng mười chữ số sau +91.",
+        "Trong nước, người Ấn Độ thường viết số 0 đầu hoặc cả +91. Cả hai đều không thuộc về ô đăng ký đã có bộ chọn quốc gia — chỉ gõ mười chữ số."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Điểm cuối đó là lý do phổ biến nhất khiến mã không đến. Một biểu mẫu đã chọn sẵn “+91” mà gõ “09876543210” vào sẽ tạo ra một số không tồn tại, và dịch vụ sẽ vui vẻ gửi mã vào hư không."
+    },
+    {
+      "type": "h2",
+      "id": "why-otps-to-india-lag",
+      "text": "Vì sao tin OTP tới Ấn Độ đôi khi đến muộn"
+    },
+    {
+      "type": "p",
+      "text": "SMS ở Ấn Độ khác thường vì một lý do mà hầu hết người dùng không bao giờ thấy: đây là một trong những thị trường tin nhắn được quản lý chặt chẽ nhất thế giới. Từ năm 2021, TRAI yêu cầu mọi doanh nghiệp gửi SMS thương mại qua tuyến nội địa đăng ký trên hệ thống dựa trên blockchain gọi là DLT — công nghệ sổ cái phân tán. Công ty, tên người gửi và mẫu chính xác của từng tin nhắn đều phải đăng ký trước. Khi tin nhắn không khớp mẫu đã đăng ký, mạng sẽ bỏ nó."
+    },
+    {
+      "type": "p",
+      "text": "Mục đích là bóp nghẹt spam và lừa đảo, và phần lớn đã thành công. Nhưng lúc triển khai cho thấy hệ thống có thể mong manh thế nào. Khi các nhà mạng bật lọc mẫu vào tháng 3 năm 2021, quá nhiều tin hợp lệ không qua được kiểm tra đến mức khách hàng ngân hàng và ứng dụng thanh toán ngừng nhận mã; báo chí ngành đưa tin khoảng 40 phần trăm lưu lượng SMS thương mại trong ngày bị gián đoạn, và TRAI tạm hoãn quy định một tuần trong khi các công ty sửa mẫu."
+    },
+    {
+      "type": "p",
+      "text": "Ngày nay hệ thống chạy trơn tru với các bên gửi lớn, nhưng còn lại hai tác dụng phụ:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Dịch vụ nước ngoài thường gửi tới Ấn Độ qua tuyến quốc tế thay vì nội địa. Những tin đó bỏ qua việc đăng ký mẫu DLT nhưng được định giá và lọc khác, và tên người gửi quen thuộc thường bị thay bằng một số ngẫu nhiên hoặc mã ngắn. Nếu bạn đang chờ “GOOGLE” mà mã đến từ một dãy chữ số, đó là lý do.",
+        "Khi bên gửi đổi câu chữ tin nhắn mà không cập nhật mẫu đã đăng ký, việc giao tin có thể ngưng trệ cho đến khi họ cập nhật. Điều đó hiện ra như một OTP đơn giản là không bao giờ đến, rồi một ngày sau lại hoạt động."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Nếu mã tới số Ấn Độ không đến, vấn đề thường là định dạng hoặc tuyến của bên gửi — không phải số. Kiểm tra biểu mẫu hiển thị +91 và đúng mười chữ số, chờ trọn một phút, rồi yêu cầu mã mới một lần. Yêu cầu dồn dập liên tục có thể kích hoạt giới hạn tần suất của chính dịch vụ."
+    },
+    {
+      "type": "h2",
+      "id": "who-uses-a-virtual-indian-number",
+      "text": "Ai thực sự dùng số ảo +91"
+    },
+    {
+      "type": "p",
+      "text": "Có hai nhu cầu khác nhau ở đây, và chúng cần công cụ khác nhau. Thẳng thắn về sự khác biệt giúp mọi người tiết kiệm thời gian và, đôi khi, cả một tài khoản."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Người xa xứ với cuộc sống lâu dài gắn với Ấn Độ. Tài khoản ngân hàng, ví UPI, dịch vụ liên kết Aadhaar và đăng nhập thuế gắn với một số đứng tên bạn kèm giấy tờ tùy thân, và chúng sẽ xác minh lại trong nhiều năm. Số ảo là công cụ sai ở đây. Hãy giữ SIM Ấn Độ của bạn hoạt động — hầu hết nhà mạng có gói duy trì rẻ — hoặc dùng eSIM dài hạn nếu nhà mạng hỗ trợ.",
+        "Đăng ký một lần. Tài khoản nhắn tin mang danh tính Ấn Độ, một ứng dụng chỉ mở danh mục Ấn Độ cho số +91, tài khoản thử nghiệm cho lập trình viên, một hồ sơ thứ hai bạn muốn tách khỏi số thật. Ở đây số chỉ quan trọng vào một thời điểm: lúc xác minh. Đó đúng là việc của số ảo thuê."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Với nhóm thứ hai, số ảo Ấn Độ làm đúng điều SIM làm ở bước xác minh — đó là số di động mười chữ số thật trên mạng nhà mạng Ấn Độ, giữ riêng cho bạn khi mã đang trên đường đến — mà không cần đến cửa hàng, giấy tờ tùy thân hay một gói cước phải duy trì."
+    },
+    {
+      "type": "h2",
+      "id": "getting-a-code-on-a-91-number",
+      "text": "Nhận mã trên số +91 với SMS Code"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Chọn dịch vụ và Ấn Độ",
+          "body": "Trong SMS Code, chọn dịch vụ bạn đang xác minh — WhatsApp, Telegram, Google hay bất kỳ dịch vụ nào trong hơn 100 dịch vụ khác — và chọn Ấn Độ làm quốc gia. Giá của lần kích hoạt đó, bằng xu, được hiển thị trước khi bạn xác nhận."
+        },
+        {
+          "title": "Nhập mười chữ số",
+          "body": "Đặt bộ chọn quốc gia của biểu mẫu đăng ký sang Ấn Độ (+91) và gõ số mười chữ số hiển thị trong ứng dụng — không số 0 đầu, không lặp lại mã quốc gia."
+        },
+        {
+          "title": "Sao chép mã từ ứng dụng",
+          "body": "SMS hiện trong SMS Code thường chỉ trong vài giây. Sao chép mã vào biểu mẫu. Nếu không có gì đến, bạn có thể hủy và lấy số khác hai phút sau khi được cấp số; xu của lần kích hoạt chưa dùng được hoàn vào số dư."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Khi tài khoản đã xác minh, hãy thêm email khôi phục và bật lớp bảo vệ hai yếu tố riêng của dịch vụ — ứng dụng xác thực hoặc passkey nếu có. Số thuê dành cho thời điểm xác minh; nó không nên là đường duy nhất quay lại tài khoản một năm sau."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Câu hỏi thường gặp"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Tôi có thể có số WhatsApp Ấn Độ mà không sống ở Ấn Độ không?",
+          "a": "Có. WhatsApp kiểm tra bạn có nhận được mã trên số bạn nhập hay không; nó không kiểm tra bạn ở đâu. Số ảo +91 nhận mã đó như mọi số di động Ấn Độ. Lưu ý WhatsApp có thể yêu cầu xác minh lại số khi bạn chuyển tài khoản sang điện thoại mới, nên hãy thêm PIN và email vào tài khoản ngay."
+        },
+        {
+          "q": "Vì sao mã của tôi đến từ một số ngẫu nhiên thay vì tên công ty?",
+          "a": "Tin nhắn từ bên gửi nước ngoài thường đến Ấn Độ qua tuyến quốc tế, nơi tên người gửi đã đăng ký không phải lúc nào cũng được giữ lại. Mã vẫn là thật; chỉ nhãn người gửi bị thay đổi trên đường."
+        },
+        {
+          "q": "Số ảo Ấn Độ có tốt cho UPI hay tài khoản ngân hàng không?",
+          "a": "Không. Ngân hàng và ứng dụng UPI gắn tài khoản với một số đăng ký theo danh tính của bạn và kiểm tra lại thường xuyên. Hãy dùng SIM đứng tên bạn cho mọi thứ liên quan đến tài chính hay chính phủ."
+        },
+        {
+          "q": "Tôi nên nhập bao nhiêu chữ số sau +91?",
+          "a": "Đúng mười, bắt đầu bằng 6, 7, 8 hoặc 9. Bỏ số 0 đầu và đừng gõ lại 91 nếu biểu mẫu đã hiện mã quốc gia."
+        },
+        {
+          "q": "Nếu mã không bao giờ đến thì sao?",
+          "a": "Kiểm tra định dạng số trước, rồi chờ trọn một phút. Nếu vẫn không có gì, hãy hủy lần kích hoạt trong SMS Code sau mốc hai phút — xu được hoàn vào số dư — và thử số mới."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Chính sách cookie",
+    "description": "simnetiq.xyz dùng những cookie nào, vì sao, tồn tại bao lâu, và cách chấp nhận, từ chối hoặc thay đổi lựa chọn bất cứ lúc nào, từ bất kỳ trang nào."
+  },
+  "prevailingNotice": "Bản dịch này được cung cấp để thuận tiện. Nếu có khác biệt so với bản tiếng Anh, bản tiếng Anh sẽ được ưu tiên áp dụng.",
+  "label": "Pháp lý",
+  "title": "Chính sách cookie",
+  "updatedLabel": "Cập nhật lần cuối:",
+  "sections": [
+    {
+      "title": "1. Phạm vi của chính sách này",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Chính sách này giải thích cách SIMNETIQ LTD (“chúng tôi”) sử dụng cookie và các công nghệ tương tự trên simnetiq.xyz (“Trang web”). Chính sách này bổ sung cho Chính sách quyền riêng tư của chúng tôi, nơi giải thích rộng hơn cách chúng tôi xử lý dữ liệu cá nhân. Câu hỏi: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Cookie là gì",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cookie là các tệp văn bản nhỏ mà một trang web lưu trong trình duyệt của bạn. “Công nghệ tương tự” nghĩa là bất cứ thứ gì khác lưu hoặc đọc thông tin trên thiết bị của bạn, chẳng hạn bộ nhớ cục bộ hoặc một đoạn mã đo lường lượt truy cập. Pháp luật đối xử với chúng như nhau: bất cứ thứ gì không thực sự cần thiết đều cần sự đồng ý của bạn trước."
+        }
+      ]
+    },
+    {
+      "title": "3. Những gì chúng tôi sử dụng",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Thực sự cần thiết — sc_consent.** Một cookie bên thứ nhất mà chúng tôi đặt khi bạn đưa ra lựa chọn trong biểu ngữ cookie. Nó lưu lựa chọn đó và ngày bạn chọn, để chúng tôi không hỏi lại trên mỗi trang. Nó hết hạn sau 12 tháng, và khi đó chúng tôi sẽ hỏi lại. Nó không cần sự đồng ý: thiếu nó, chúng tôi không thể tôn trọng lựa chọn của bạn.",
+            "**Phân tích — Vercel Web Analytics.** Do Vercel Inc. cung cấp. Đếm lượt xem trang và lượt nhấp vào các nút tải xuống. Nó không lưu cookie trên thiết bị của bạn; một lượt truy cập được nhận diện trong tối đa 24 giờ bằng một giá trị băm của yêu cầu, không thể dùng để nhận dạng bạn. Chỉ được tải nếu bạn chấp nhận phân tích.",
+            "**Phân tích — Google Analytics: _ga và _ga_<ID>.** Do Google Ireland Limited và Google LLC cung cấp. Các cookie bên thứ nhất giúp phân biệt trình duyệt quay lại và gom một lượt truy cập lại với nhau, để chúng tôi biết trang nào hữu ích với mọi người. Mỗi cookie tồn tại tối đa 2 năm. Chỉ được đặt nếu bạn chấp nhận phân tích, với các tính năng quảng cáo đã tắt.",
+            "**Tiếp thị — Meta Pixel: _fbp.** Do Meta Platforms Ireland Limited cung cấp. Một đoạn mã và một cookie bên thứ nhất cho Meta biết khi người đã xem hoặc nhấp vào quảng cáo của chúng tôi trên Facebook hoặc Instagram truy cập Trang web, để chúng tôi đo lường quảng cáo nào hiệu quả. Cookie tồn tại tối đa 90 ngày. Meta nhận địa chỉ trang, thông tin trình duyệt và địa chỉ IP của bạn, và cũng có thể dùng dữ liệu này cho mục đích riêng theo chính sách quyền riêng tư của họ. Chỉ được đặt nếu bạn chấp nhận tiếp thị."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Những gì chúng tôi không sử dụng",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Không có cookie quảng cáo nào ngoài Meta Pixel đã mô tả ở trên, vốn chỉ chạy nếu bạn chấp nhận tiếp thị. Không có trình theo dõi mạng xã hội nào khác và không có việc lập hồ sơ trên các trang web khác từ phía chúng tôi. Chúng tôi không bán dữ liệu từ cookie."
+        }
+      ]
+    },
+    {
+      "title": "5. Lựa chọn của bạn",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Ở lần truy cập đầu tiên, biểu ngữ đưa ra **Chấp nhận** và **Từ chối**, đặt cạnh nhau và dễ chọn như nhau. Cho đến khi bạn chọn, không có công cụ phân tích nào chạy.",
+            "**Tùy chỉnh** cho phép bạn bật hoặc tắt từng danh mục. Cookie thực sự cần thiết luôn bật.",
+            "Bạn có thể thay đổi hoặc rút lại lựa chọn bất cứ lúc nào bằng **Cài đặt cookie** ở cuối mỗi trang, hoặc bằng nút bên dưới. Việc rút lại sẽ dừng phân tích ngay lập tức và xóa cookie Google Analytics khỏi trình duyệt của bạn.",
+            "Tiếp thị hoạt động tương tự: Meta Pixel luôn tắt cho đến khi bạn chấp nhận, và việc rút lại sẽ dừng nó ngay lập tức và xóa cookie _fbp khỏi trình duyệt của bạn.",
+            "Bạn cũng có thể chặn hoặc xóa cookie trong cài đặt trình duyệt. Nếu bạn chặn sc_consent, biểu ngữ sẽ hỏi lại ở mỗi lần truy cập."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Dữ liệu được chuyển đi đâu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vercel và Google có thể xử lý dữ liệu phân tích tại Hoa Kỳ. Các lần chuyển dữ liệu đó dựa trên Khung bảo mật dữ liệu EU–Hoa Kỳ và Phần mở rộng cho Vương quốc Anh, hoặc các điều khoản hợp đồng tiêu chuẩn. Mục 6 trong Chính sách quyền riêng tư của chúng tôi có thêm thông tin về việc chuyển dữ liệu quốc tế."
+        },
+        {
+          "type": "p",
+          "text": "Meta có thể xử lý dữ liệu tiếp thị tại Hoa Kỳ, trên cùng các cơ sở chuyển dữ liệu."
+        }
+      ]
+    },
+    {
+      "title": "7. Ứng dụng",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ứng dụng SMS Code không dùng cookie và không chứa SDK phân tích, quảng cáo hay phân bổ nào. Chính sách này chỉ áp dụng cho Trang web."
+        }
+      ]
+    },
+    {
+      "title": "8. Thay đổi chính sách này",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nếu chúng tôi thêm một cookie hoặc thay đổi mục đích của một cookie, chúng tôi sẽ cập nhật chính sách này và xin lại sự đồng ý của bạn. Ngày “Cập nhật lần cuối” ở trên luôn phản ánh phiên bản hiện hành."
+        }
+      ]
+    }
+  ]
+}

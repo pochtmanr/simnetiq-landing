@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Twitch — prywatna weryfikacja czatu i 2FA",
+  "metaDescription": "Odbierz kod SMS z Twitch na prawdziwy numer wirtualny zwykle w kilka sekund. Przejdź czat z weryfikacją telefonu i ustaw 2FA bez wiązania numeru z kanałem.",
+  "hero": {
+    "title": "Numer wirtualny do Twitcha",
+    "intro": [
+      "Twitch pozwala zarejestrować się samym e-mailem – a potem krok z telefonem zaczyna za Tobą chodzić. Streamerzy przełączają czat w tryb weryfikacji telefonem, by odciąć boty, uwierzytelnianie dwuskładnikowe jest wymagane, zanim pójdziesz na żywo, a gdy tylko któreś z tych się zdarzy, Twitch chce wysłać kod w rodzaju „Your Twitch verification code is 843921” na Twój numer.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, a kod trafia do aplikacji zwykle w ciągu kilku sekund. Twoje wiadomości na czacie się wysyłają, 2FA się włącza – a numer zapisany obok nazwy kanału w bazie Twitcha nigdy nie był Twoim prywatnym."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Twitcha?",
+    "body": [
+      "Twitch to tożsamość publiczna w sposób, w jaki nie jest nią większość kont: Twoja nazwa użytkownika jest na ekranie, historia czatu jest publiczna, a jeśli streamujesz, obcy aktywnie Cię sprawdzają. Powiązanie tej tożsamości z prywatnym numerem komórkowym oznacza, że między internetową publicznością a telefonem w Twojej kieszeni stoi jeden wyciek danych albo jeden nieostrożny spór z moderatorem. Wynajęty numer przejmuje krok weryfikacji, więc publiczna persona i prywatny numer nigdy się nie stykają.",
+      "Uczciwa druga strona: telefon na koncie Twitch nie jest dekoracją. Czat z weryfikacją telefonu go sprawdza, a 2FA oparte na SMS-ach od niego zależy. Dlatego rozsądny schemat to weryfikacja wynajętym numerem, a potem natychmiastowe przeniesienie 2FA do aplikacji uwierzytelniającej w ustawieniach bezpieczeństwa – Twitch to obsługuje, a wręcz preferuje. Numer wykonuje swoje jedyne zadanie w chwili weryfikacji; Twoje długoterminowe logowanie nigdy od niego nie zależy."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Twitcha numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Wybierz Twitch jako usługę i kraj – taki, który pasuje do miejsca, gdzie faktycznie oglądasz lub streamujesz, utrzymuje spójność. Jedno stuknięcie rezerwuje dla Ciebie prawdziwy numer komórkowy."
+      },
+      {
+        "title": "Dodaj go w ustawieniach bezpieczeństwa Twitcha",
+        "body": "W Ustawienia → Bezpieczeństwo i prywatność wybierz dodanie numeru telefonu (albo postępuj zgodnie z monitem, gdy czat kanału z weryfikacją telefonu o to poprosi). Wybierz numer kierunkowy numeru i wpisz go dokładnie."
+      },
+      {
+        "title": "Wpisz kod",
+        "body": "SMS brzmi „Your Twitch verification code is 843921” i pojawia się w aplikacji SMS Code zwykle w ciągu kilku sekund. Wpisz go na Twitchu, a numer zostanie zweryfikowany."
+      },
+      {
+        "title": "Przełącz 2FA na aplikację uwierzytelniającą",
+        "body": "Jeśli włączyłeś uwierzytelnianie dwuskładnikowe do streamowania, od razu przenieś je z SMS-ów do aplikacji uwierzytelniającej na tym samym ekranie ustawień. Potem wynajęty numer nie ma już żadnej roli – Twoje logowania i streamy od niego nie zależą."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Jeden numer, jedno konto",
+      "body": "Twitch łączy konta, które dzielą numer telefonu – a jeśli jedno z nich zarobi zawieszenie, inne powiązane z tym samym numerem mogą polecieć razem z nim. Daj każdemu kontu własną aktywację zamiast recyklingu jednego numeru na kilka."
+    },
+    {
+      "title": "Czat z weryfikacją telefonu działa per kanał",
+      "body": "Często przeglądasz Twitcha miesiącami bez prośby o telefon, a potem trafiasz na duży kanał, którego czat jej wymaga. Zweryfikuj raz, a liczy się to wszędzie – zrób to więc w swoim czasie, a nie w środku gorącego momentu, gdy czat, do którego chciałeś dołączyć, już ucieka."
+    },
+    {
+      "title": "Numer nie cofnie bana",
+      "body": "Bany na kanałach i zawieszenia w całym serwisie Twitch egzekwuje własnymi sygnałami, nie tylko przez Twój telefon. Numer wirtualny chroni prywatność Twojego numeru – nie jest narzędziem do omijania banów, a omijanie zawieszeń narusza warunki Twitcha i zwykle oznacza flagi na każdym powiązanym koncie."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy Twitch wymaga numeru telefonu do rejestracji?",
+      "a": "Nie – rejestracja działa na samym e-mailu. Telefon pojawia się później: gdy czat kanału wymaga weryfikacji telefonu, gdy włączasz uwierzytelnianie dwuskładnikowe przez SMS albo zanim zaczniesz streamować. Gdy nadejdzie któryś z tych momentów, numer wirtualny odbierze kod dokładnie jak SIM."
+    },
+    {
+      "q": "Czy moje konto Twitch będzie działać po wygaśnięciu wynajętego numeru?",
+      "a": "Tak. Numer jest sprawdzany przy weryfikacji, a nie na bieżąco. Utrzymuj potwierdzony e-mail, używaj silnego hasła i przenieś 2FA do aplikacji uwierzytelniającej – potem nic w Twoim logowaniu nie zależy od wynajętego numeru."
+    },
+    {
+      "q": "Czy mogę zweryfikować kilka kont Twitch jednym numerem wirtualnym?",
+      "a": "Możesz, ale nie powinieneś. Twitch traktuje wspólny numer telefonu jako powiązanie między kontami, a działania egzekucyjne mogą się między nimi rozprzestrzeniać. Wynajmij osobną aktywację dla każdego konta, które ma stać samodzielnie."
+    },
+    {
+      "q": "Czy do streamowania na Twitchu potrzebuję weryfikacji telefonu?",
+      "a": "Do streamowania potrzebujesz włączonego uwierzytelniania dwuskładnikowego, a jego konfiguracja zaczyna się od telefonu. Zweryfikuj się wynajętym numerem, a potem przełącz drugi czynnik na aplikację uwierzytelniającą, żeby przyszłe logowania nigdy nie czekały na SMS."
+    },
+    {
+      "q": "Dlaczego kod z Twitcha nie dotarł?",
+      "a": "Sprawdź, czy numer kierunkowy pasuje do wynajętego numeru, i daj mu chwilę – kody zwykle docierają w ciągu kilku sekund. Jeśli nic nie przyjdzie, anuluj aktywację w SMS Code bez opłat i weź nowy numer; płacisz tylko za aktywacje, które dostarczą."
+    }
+  ]
+}

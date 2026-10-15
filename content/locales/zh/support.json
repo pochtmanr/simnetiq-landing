@@ -7,21 +7,26 @@
     "label": "客服",
     "title": "需要什么帮助？",
     "introBefore": "在下方留言，或发邮件至 ",
-    "introAfter": " ——请附上以下信息，方便我们审核你的请求并用邮件回复。",
+    "introAfter": "——请先选择一个主题：大多数问题一点就能找到答案，其余问题都会交给真人处理。",
     "items": [
       {
-        "title": "激活问题",
-        "body": "短信还没到？号码分配两分钟后、短信到达之前可以取消，金币会退回你的余额。再试之前先看排查指南。",
-        "slug": "activation-issues"
+        "title": "退款",
+        "body": "App Store 购买由 Apple 收费，因此退款需要向 Apple 申请，并由 Apple 决定。指南会带你在两分钟内完成。",
+        "slug": "refund-apple"
       },
       {
-        "title": "账单与金币",
-        "body": "购买通过 App Store 完成。附上商店收据或订单号，我们会追查没到账的金币。",
-        "slug": "billing-coins-refunds"
+        "title": "没收到短信",
+        "body": "能否送达取决于服务、国家/地区以及服务自身的检查。如果没有收到，金币会自动退回。看看现在哪些国家/地区效果最好。",
+        "slug": "sms-not-received"
       },
       {
-        "title": "保住你的余额",
-        "body": "金币跟你的 SMS Code 账号走，不跟 App Store 收据走。如果你一直匿名使用，重装会开一个新账号，余额不会跟着走——所以在还有金币的时候就登录（Apple、Google 或邮箱验证码），之后在任何设备登录，金币都在。已经重装、余额没了？把 App Store 收据或订单号发给我们，我们来处理。",
+        "title": "金币未到账",
+        "body": "付了款却没有金币？通常是 Apple 付款仍在处理，或登录了另一个 SMS Code 账户。再次购买前，请先检查这些步骤。",
+        "slug": "missing-coins"
+      },
+      {
+        "title": "保留你的余额",
+        "body": "金币保存在你的 SMS Code 账户中，而不是 App Store 收据里。趁还有金币时登录（Apple、Google 或邮箱验证码），金币就会跟着你到任何设备。",
         "slug": "account-balance"
       }
     ],
@@ -35,18 +40,78 @@
     "namePlaceholder": "小明",
     "email": "邮箱",
     "emailPlaceholder": "you@example.com",
-    "topic": "主题",
-    "topicPlaceholder": "选择一个主题",
-    "topics": [
-      "激活的短信没到",
-      "账单与金币",
-      "账号与恢复购买",
-      "错误报告",
-      "功能建议",
-      "其他"
-    ],
+    "stepTopic": "需要什么帮助？",
+    "topics": {
+      "refund": "购买退款",
+      "sms": "没收到短信",
+      "code": "验证码被拒或号码被封",
+      "coins": "付款后金币未到账",
+      "account": "账户、恢复或删除",
+      "bug": "某个功能不正常",
+      "feature": "提出功能建议",
+      "other": "其他问题"
+    },
+    "selfServe": {
+      "sms": {
+        "title": "写信之前：大多数没收到的短信都会自行处理",
+        "points": [
+          "如果在激活时间内没有收到短信，激活会关闭，金币会自动退回你的余额。",
+          "能否送达取决于服务和国家/地区。有些服务会在部分国家/地区屏蔽虚拟号码，所以请换一个送达等级更高的国家/地区试试。",
+          "确认该服务是通过短信发送验证码，而不是语音电话，也不是发到你已登录的应用里。"
+        ]
+      },
+      "code": {
+        "title": "写信之前：验证码为什么会被拒",
+        "points": [
+          "是否接受号码由服务决定。用过的号码，或服务限制的国家/地区，即使短信已到也可能被拒。",
+          "请为同一账户和服务输入最新的验证码，不要带空格。",
+          "不要在同一服务和国家/地区反复付费尝试。换个国家/地区，或写信给我们请求核查。"
+        ]
+      },
+      "coins": {
+        "title": "写信之前：金币通常在哪里",
+        "points": [
+          "Apple 付款可能需要几分钟处理。再次购买前请先重新打开应用。",
+          "金币属于购买它们的 SMS Code 账户。请用同一个 Apple、Google 或邮箱登录。",
+          "还是没有？把 Apple 订单号（在 Apple 收据邮件里）发给我们，我们来查找。"
+        ]
+      },
+      "account": {
+        "title": "写信之前：账户相关解答",
+        "points": [
+          "用 Apple、Google 或邮箱验证码登录，余额就能在任何设备上保留。",
+          "你可以在应用中删除账户：设置 → 删除账户。删除账户不会退还 Apple 付款。",
+          "重装后余额丢失？请附上 Apple 订单号写信给我们。"
+        ]
+      }
+    },
+    "readGuide": "阅读完整指南",
+    "solved": "问题已解决",
+    "stillNeed": "我仍需要帮助",
+    "solvedTitle": "很高兴帮上忙",
+    "solvedBody": "如果情况有变化，随时回到这个页面。",
+    "changeTopic": "更换主题",
+    "refundNote": "我们无法为 App Store 购买办理退款。只有 Apple 可以在 reportaproblem.apple.com 上批准退款。如果 Apple 让你联系开发者，或你需要购买记录，请写信给我们。",
+    "orderId": "Apple 订单号（选填）",
+    "orderIdPlaceholder": "例如 MXXXXXXXXX",
+    "service": "服务",
+    "servicePlaceholder": "例如 Telegram",
+    "country": "国家/地区",
+    "countryPlaceholder": "例如 印度尼西亚",
+    "when": "大约什么时候？",
+    "whenPlaceholder": "例如 今天 14:00 左右（UTC+8）",
+    "accountAttached": "你的 SMS Code 账户 ID 和应用版本会自动附上，无需自己查找。",
+    "messagePlaceholders": {
+      "refund": "发生了什么？Apple 是否让你联系我们？",
+      "sms": "你拿到的是哪个号码？服务提示了什么？",
+      "code": "服务拒绝验证码时提示了什么？",
+      "coins": "你买了哪个金币包？什么时候买的？",
+      "account": "需要什么帮助？",
+      "bug": "你点了什么？期望是什么？实际发生了什么？",
+      "feature": "你希望 SMS Code 能做什么？",
+      "other": "说说发生了什么。"
+    },
     "message": "留言",
-    "messagePlaceholder": "说说发生了什么——服务、国家/地区和大致的激活时间，能帮我们更快找到记录。",
     "honeypot": "请勿填写此栏",
     "send": "发送",
     "sending": "正在发送…",
@@ -71,7 +136,21 @@
     "appleNote": "说明已对照 Apple 官方支持材料核对，日期为 2026 年 9 月 30 日。能否退款取决于你所在地区和适用法律。",
     "related": "相关帮助",
     "terms": "服务条款",
-    "privacy": "隐私政策"
+    "privacy": "隐私政策",
+    "stillNeedTitle": "仍需要帮助？",
+    "stillNeedBody": "如果本页没有解决问题，请给我们发送请求。请求会由真人处理，上面的信息能帮我们更快回复。",
+    "submitAnyway": "仍然提交请求",
+    "tiers": {
+      "title": "短信现在送达哪里",
+      "intro": "选择一个服务，查看过去 30 天里短信送达我们各国号码的可靠程度。如果你的国家/地区等级低，请换一个等级高的。",
+      "service": "服务",
+      "pick": "选择服务",
+      "high": "高",
+      "medium": "中",
+      "low": "低",
+      "unavailable": "暂无号码",
+      "note": "依据 SMS Code 近期的激活数据，每小时更新。只显示近期订单数量足够的服务与国家/地区组合。过去的送达情况不能保证下一条短信，是否接受号码仍由服务决定。"
+    }
   },
   "api": {
     "invalidBody": "请求正文无效。",
@@ -79,7 +158,7 @@
     "name": "请填写你的名字。",
     "email": "请填写有效的邮箱地址。",
     "topic": "主题太长。",
-    "message": "请至少用 10 个字符描述你的问题。",
+    "message": "请用你自己的话描述问题（至少 10 个字符）。",
     "unavailable": "客服表单暂时不可用。请改为发邮件。",
     "saveFailed": "没能保存你的留言。请重试，或直接发邮件。",
     "forbidden": "这个请求不是从客服页面发出的。请刷新后重试。",

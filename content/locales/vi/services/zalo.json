@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Zalo — Xác minh không cần điện thoại riêng",
+  "metaDescription": "Nhận mã kích hoạt Zalo trên số ảo thật thường chỉ trong vài giây. Liên lạc với người quen ở Việt Nam mà không để lộ điện thoại cá nhân của bạn.",
+  "hero": {
+    "title": "Số ảo cho Zalo",
+    "intro": [
+      "Zalo là ứng dụng nhắn tin cho mọi thứ của Việt Nam — nơi gia đình trò chuyện, người bán nhận đơn và văn phòng phối hợp công việc — và tài khoản chính là số điện thoại, chấm hết. Đăng ký bắt đầu bằng một số, một SMS như “793145 is your Zalo activation code” xác nhận nó, và số đó trở thành cách mọi người tìm thấy bạn.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia và mã đến ứng dụng thường chỉ trong vài giây. Bạn có tài khoản Zalo hoạt động — và nhà cung cấp, chủ nhà hay họ hàng mà bạn nhắn tin trên đó không bao giờ cần số mà ngân hàng bạn dùng."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Zalo?",
+    "body": [
+      "Người ta vào Zalo vì một lát cắt cuộc sống ở Việt Nam: nhà cung cấp chỉ trả lời ở đó, tin cho thuê căn hộ, nhóm chat gia đình của người bạn đời. Không điều gì trong số đó đòi hỏi gắn số cả đời của bạn vào một đồ thị xã hội mới — trên Zalo, ai lưu số bạn có thể thấy hồ sơ của bạn, và đối tác làm ăn có thói quen giữ số mãi mãi. Số thuê đảm nhận việc kích hoạt, còn số cá nhân của bạn đứng ngoài.",
+      "Mặt trái thẳng thắn: Zalo bảo vệ mạng lưới của mình và lấy điện thoại làm cốt lõi. Dải số nước ngoài và lạ bị soi kỹ hơn số Việt Nam, việc kích hoạt có thể cần thử lại, và đăng nhập lại trên thiết bị mới có thể hỏi số lần nữa. Số ảo hoàn toàn dùng được ở đây — nhưng nó đền đáp việc thiết lập đúng cách: xác minh, giữ đăng nhập, và coi phiên trên thiết bị là thứ cần bảo vệ."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Zalo bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Chọn Zalo làm dịch vụ và chọn quốc gia. Số Việt Nam phù hợp tự nhiên nhất với mạng lưới Zalo; số từ quốc gia của bạn cũng dùng được và cho hồ sơ biết đúng bạn đang ở đâu."
+      },
+      {
+        "title": "Nhập số trên màn hình đăng ký Zalo",
+        "body": "Chọn mã quốc gia tương ứng và nhập số cẩn thận. Zalo gửi SMS kích hoạt ngay lập tức — hãy mở SMS Code bên cạnh."
+      },
+      {
+        "title": "Nhập mã",
+        "body": "SMS ghi “793145 is your Zalo activation code” và hiện trong ứng dụng thường chỉ trong vài giây. Nhập mã, đặt tên hiển thị, và tài khoản đã hoạt động."
+      },
+      {
+        "title": "Bảo vệ phiên đăng nhập",
+        "body": "Zalo dựa vào số điện thoại để xác minh lại, nên đừng đăng xuất tùy tiện. Giữ đăng nhập trên thiết bị chính, hoàn thiện hồ sơ, và nếu Zalo có thêm tùy chọn bảo vệ tài khoản trong cài đặt, hãy bật nó."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Số Việt Nam đi suôn sẻ nhất",
+      "body": "Zalo lớn lên cùng số +84 và coi chúng là lưu lượng nhà. Nếu lần thử đầu với quốc gia khác bị kẹt, hãy hủy miễn phí trong SMS Code và thử lại với số Việt Nam — đó là con đường quen thuộc."
+    },
+    {
+      "title": "Đừng đăng xuất tùy hứng",
+      "body": "Đăng nhập mới trên thiết bị mới có thể kích hoạt xác minh lại qua SMS, và đó là lúc một số thuê đã hết hạn gây rắc rối. Hãy giữ phiên trên thiết bị; nếu định đổi điện thoại, hãy chuyển khi bạn vẫn nhận được mã."
+    },
+    {
+      "title": "Chú ý ai có thể tìm thấy bạn",
+      "body": "Zalo có thể gợi ý hồ sơ của bạn cho người đã lưu số bạn và cho người dùng ở gần nếu bạn cho phép. Hãy kiểm tra cài đặt quyền riêng tư sau khi đăng ký — tắt tìm kiếm bằng số điện thoại và “tìm bạn quanh đây” trừ khi bạn thực sự muốn."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Zalo có hoạt động với số không phải Việt Nam không?",
+      "a": "Có — Zalo đăng ký tài khoản bằng số quốc tế, và chat, gọi, nhóm đều hoạt động như nhau. Số Việt Nam gặp ít trở ngại nhất, nên chúng là lựa chọn hàng đầu khi số của quốc gia khác kích hoạt chậm."
+    },
+    {
+      "q": "Tài khoản Zalo có còn hoạt động sau khi số đã thuê hết hạn không?",
+      "a": "Có, miễn là bạn vẫn đăng nhập. Số trở lại quan trọng khi xác minh lại — thường là thiết bị mới hoặc cài mới — nên hãy giữ phiên hoạt động và chuyển thiết bị khi vẫn nhận được mã."
+    },
+    {
+      "q": "Vì sao Zalo từ chối số hoặc không gửi mã?",
+      "a": "Zalo sàng lọc các dải số lạ gắt hơn hầu hết ứng dụng nhắn tin. Kiểm tra mã quốc gia trước; nếu SMS vẫn không đến, hủy lần kích hoạt miễn phí và lấy số mới — chuyển sang số Việt Nam thường giải quyết được."
+    },
+    {
+      "q": "Mọi người có thấy tôi đăng ký bằng số thuê không?",
+      "a": "Không. Đó là số di động thật trên mạng nhà mạng thật, không khác gì mọi số khác. Người khác thấy tên hiển thị của bạn — và còn ít hơn thế nếu bạn tắt tìm kiếm bằng số điện thoại trong cài đặt quyền riêng tư."
+    },
+    {
+      "q": "Số ảo có đủ cho các tính năng doanh nghiệp của Zalo không?",
+      "a": "Với tài khoản thường, có — kể cả trò chuyện với cửa hàng và nhà cung cấp. Tài khoản doanh nghiệp chính thức (OA) của Zalo và các dịch vụ riêng của Việt Nam có quy trình đăng ký và kiểm tra danh tính riêng, mà chỉ số điện thoại không đáp ứng được."
+    }
+  ]
+}

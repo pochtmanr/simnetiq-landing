@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "title": "SMS Code od SIMNETIQ — odbieraj SMS na prywatny numer",
+    "description": "Prawdziwy numer wirtualny w ponad 100 krajach i kody SMS zwykle w kilka sekund. Rejestruj się w Telegram, WhatsApp, Google i innych bez swojego numeru.",
+    "ogTitle": "SMS Code od SIMNETIQ",
+    "ogDescription": "Numer telefonu do rejestracji, nie na całe życie. Prawdziwe numery wirtualne w ponad 100 krajach, kody weryfikacyjne w kilka sekund.",
+    "twitterDescription": "Numer telefonu do rejestracji, nie na całe życie. Kody weryfikacyjne w kilka sekund."
+  },
+  "hero": {
+    "label": "Numery wirtualne · weryfikacja SMS",
+    "titleTop": "Numer do rejestracji.",
+    "titleAccent": "Nie na całe życie.",
+    "body": "SMS Code daje Ci prawdziwy numer wirtualny w ponad 100 krajach i pokazuje kod weryfikacyjny zwykle w ciągu kilku sekund – dzięki temu Telegram, WhatsApp, Google i ponad 100 innych usług nigdy nie poznają Twojego prywatnego numeru.",
+    "note": "Jednorazowe pakiety monet · bez abonamentu"
+  },
+  "services": {
+    "label": "Zasięg",
+    "title": "Działa przy rejestracjach, które naprawdę robisz",
+    "caption": "Telegram, WhatsApp, Google, Instagram i ponad 100 innych usług"
+  },
+  "how": {
+    "label": "Przegląd",
+    "title": "Trzy kroki i gotowe",
+    "step": "Krok",
+    "steps": [
+      {
+        "title": "Wybierz usługę i kraj",
+        "body": "Wybierz, gdzie się rejestrujesz – Telegram, WhatsApp, Google, ponad 100 usług – i z jakiego kraju ma być numer."
+      },
+      {
+        "title": "Od razu prawdziwy numer",
+        "body": "Aplikacja daje Ci aktywny numer wirtualny. Wklej go do formularza rejestracji jak każdy inny numer telefonu."
+      },
+      {
+        "title": "Kod trafia do aplikacji",
+        "body": "SMS weryfikacyjny pojawia się na ekranie zwykle w ciągu kilku sekund. Stuknij raz, by skopiować kod, dokończ rejestrację i gotowe."
+      }
+    ],
+    "inbox": {
+      "codeLabel": "Twój kod",
+      "now": "teraz",
+      "secondsAgo": "{n} s temu"
+    },
+    "waiting": "Czekam na SMS"
+  },
+  "features": {
+    "label": "Dlaczego SMS Code",
+    "title": "Dla ludzi, którzy chronią swój numer",
+    "sub": "Deweloperzy testujący procesy rejestracji, marketerzy prowadzący konta i wszyscy, którzy mają dość komunikatu „podaj numer telefonu, aby kontynuować”.",
+    "items": [
+      {
+        "title": "Twój prawdziwy numer zostaje Twój",
+        "body": "Rejestruj się gdziekolwiek, nie oddając prywatnego numeru kolejnej bazie danych, liście mailingowej czy wyciekowi danych."
+      },
+      {
+        "title": "Ponad 100 usług, ponad 100 krajów",
+        "body": "Od Telegrama i WhatsAppa po Steam i Tindera – z numerami z Europy, Azji, obu Ameryk i nie tylko."
+      },
+      {
+        "title": "Zwykle sekundy, nie minuty",
+        "body": "Numery są aktywne od chwili, gdy je dostajesz. SMS pojawia się bezpośrednio w aplikacji i kopiujesz go jednym stuknięciem."
+      },
+      {
+        "title": "Płacisz za kod, bez abonamentu",
+        "body": "Kup raz pakiet monet i wydawaj je, kiedy chcesz. Bez planu miesięcznego, bez automatycznego odnawiania, nic na Twoim saldzie nie wygasa."
+      },
+      {
+        "title": "Bez SIM, bez eSIM, bez umów",
+        "body": "Nic do instalowania w ustawieniach telefonu i nic powiązanego z Twoją tożsamością. Po prostu otwórz aplikację."
+      },
+      {
+        "title": "Anuluj, zanim przyjdzie SMS",
+        "body": "Dwie minuty po przydzieleniu możesz anulować numer, który nie otrzymał SMS-a, i odzyskać jego monety."
+      }
+    ]
+  },
+  "showcase": {
+    "label": "Wnętrze aplikacji",
+    "title": "Tak to naprawdę wygląda",
+    "shots": [
+      {
+        "src": "/app/shot-countries.png",
+        "caption": "Każdy kraj z ceną, zanim go wybierzesz"
+      },
+      {
+        "src": "/app/shot-waiting.png",
+        "caption": "Kod trafia na ekran aktywacji"
+      },
+      {
+        "src": "/app/shot-activations.png",
+        "caption": "Aktywne numery, kopiowanie jednym stuknięciem"
+      },
+      {
+        "src": "/app/shot-languages.png",
+        "caption": "Dziesięć języków, zmiana w Ustawieniach"
+      }
+    ]
+  },
+  "faq": {
+    "label": "Pytania",
+    "title": "Pytania i odpowiedzi",
+    "items": [
+      {
+        "q": "Czym dokładnie jest numer wirtualny?",
+        "a": "To prawdziwy numer telefonu, który istnieje w sieci operatora, ale nie jest powiązany z kartą SIM w Twojej kieszeni. Może odbierać SMS-y jak każdy inny numer – używasz go do kroku weryfikacji, a Twój prywatny numer w ogóle nie wchodzi w grę. Aktywacja jest jednorazowa: na czas jej trwania numer jest zarezerwowany tylko dla Ciebie, a gdy się kończy, numer wraca do puli dostawcy, skąd może później trafić do kogoś innego. Traktuj go więc jako numer do rejestracji, a nie numer, który zatrzymujesz."
+      },
+      {
+        "q": "Czy mogę użyć numeru ponownie albo poprosić o ponowne wysłanie kodu?",
+        "a": "Nie. Aktywacja obejmuje jeden kod na jednym numerze. Gdy się zakończy lub wygaśnie, numer wraca do puli dostawcy – nie możesz odebrać na nim kolejnego SMS-a, a później może zostać przydzielony innemu klientowi. Musisz zweryfikować się ponownie? Rozpocznij nową aktywację, a dostaniesz świeży numer. Przy każdym koncie, które chcesz zachować, zaraz po rejestracji dodaj e-mail do odzyskiwania i uwierzytelnianie dwuskładnikowe przez aplikację, żeby konto nigdy nie zależało od numeru, którego już nie masz."
+      },
+      {
+        "q": "Jak szybko przychodzi kod?",
+        "a": "Zwykle w ciągu kilku sekund od wysłania go przez usługę. Ekran aktywacji aktualizuje się na żywo, więc zobaczysz treść SMS-a i kod w chwili, gdy dotrze."
+      },
+      {
+        "q": "Które usługi mogę zweryfikować?",
+        "a": "Ponad 100 popularnych usług, w tym Telegram, WhatsApp, Google, Instagram, Facebook, TikTok, Discord, Tinder, Steam, PayPal i inne – każda z własną listą dostępnych krajów."
+      },
+      {
+        "q": "Co, jeśli kod nigdy nie przyjdzie?",
+        "a": "Jeśli SMS nie dotarł, anulowanie jest możliwe dwie minuty po przydzieleniu numeru. Monety wracają wtedy na Twoje saldo. Wybierz inny kraj tylko wtedy, gdy docelowa usługa go akceptuje; skontaktuj się z pomocą, jeśli saldo wygląda nieprawidłowo."
+      },
+      {
+        "q": "Jak długo trwa aktywacja i czy mogę wymienić numer?",
+        "a": "Okno aktywacji trwa 15 minut. Jeśli nic nie przyjdzie, możesz na tym samym ekranie przejść na inny numer – zgodnie z naszą polityką anulowania aplikacja musi najpierw przytrzymać obecny numer przez dwie minuty, a w ramach jednej aktywacji możesz wymienić numer do trzech razy. Możesz też po prostu anulować i rozpocząć nową aktywację. Tak czy inaczej monety za numer, który nigdy nie otrzymał SMS-a, wracają na Twoje saldo."
+      },
+      {
+        "q": "Ile numerów mogę mieć jednocześnie?",
+        "a": "Trzy aktywne naraz. Istnieją też godzinowe i dzienne limity tego, ile monet może wydać jedno konto. Są ustawione znacznie powyżej zwykłego użycia – mają powstrzymywać zautomatyzowane nadużycia, a nie racjonować zwykłych klientów."
+      },
+      {
+        "q": "Czy moje monety wygasają?",
+        "a": "Nie. Pakiety monet to jednorazowe zakupy, nie abonamenty – niewykorzystane monety zostają na Twoim saldzie, dopóki ich nie wydasz, i przechodzą razem z kontem na nowe urządzenie."
+      },
+      {
+        "q": "Czy korzystanie z tego jest legalne?",
+        "a": "Dozwolone zastosowania zależą od Twojego kraju, docelowej usługi i celu. Przestrzegaj obowiązujących przepisów i zasad platform. Nie używaj numerów tymczasowych do oszustw, podszywania się ani obchodzenia ograniczeń."
+      }
+    ]
+  },
+  "browse": {
+    "label": "Znajdź swój numer",
+    "title": "Wybierz usługę. Numerem zajmiemy się my.",
+    "body": "Każda usługa ma własny poradnik: prawdziwy proces weryfikacji, pułapki, na które ludzie wpadają, i kraje, które sprawdzają się najlepiej.",
+    "allLink": "Wszystkie usługi i poradniki"
+  },
+  "personas": {
+    "label": "Dla kogo",
+    "title": "Dla ludzi, którzy chronią swój numer",
+    "items": [
+      {
+        "title": "Deweloperka",
+        "body": "Testuj procesy rejestracji i obsługę kodów OTP z prawdziwym numerem odbiorczym – bez szuflady pełnej firmowych kart SIM.",
+        "slug": "cursor",
+        "linkLabel": "Numery do narzędzi deweloperskich"
+      },
+      {
+        "title": "Social media manager",
+        "body": "Czysta tożsamość kontaktowa dla każdego konta marki, które prowadzisz, bez łączenia ich z Twoim prywatnym telefonem.",
+        "slug": "instagram",
+        "linkLabel": "Numery do Instagrama"
+      },
+      {
+        "title": "Ceniąca prywatność",
+        "body": "Obcy z czatów grupowych nie powinni mieć do Ciebie bezpośredniej linii. Zachowaj prawdziwy numer dla ludzi, którym ufasz.",
+        "slug": "telegram",
+        "linkLabel": "Numery do Telegrama"
+      },
+      {
+        "title": "Sprytny kupujący",
+        "body": "Marketplace’y i rejestracje promocyjne dostają działający numer – marketingowe SMS-y nigdy nie trafią do Twojej kieszeni.",
+        "slug": "aliexpress",
+        "linkLabel": "Numery do AliExpress"
+      },
+      {
+        "title": "Przedsiębiorczyni z wieloma kontami",
+        "body": "Drugi WhatsApp do pracy, osobny Telegram do projektu – każdy z własnym numerem.",
+        "slug": "whatsapp",
+        "linkLabel": "Numery do WhatsAppa"
+      }
+    ]
+  },
+  "compare": {
+    "label": "Porównanie",
+    "title": "Jak wypada SMS Code",
+    "body": "Porównujesz nas z SMS-Activate.org, 5SIM lub innym dostawcą? Zestawienia napisaliśmy sami – co każda usługa robi dobrze i kiedy lepiej sprawdzi się aplikacja mobilna z jednorazowymi pakietami monet.",
+    "vsLabel": "SMS Code vs"
+  },
+  "blog": {
+    "label": "Z bloga",
+    "title": "Poradniki, które warto przeczytać przed następną rejestracją",
+    "readMore": "Czytaj poradnik",
+    "allLink": "Wszystkie artykuły"
+  },
+  "cta": {
+    "title": "Twoja następna rejestracja nie potrzebuje prawdziwego numeru",
+    "support": "Pytania przed pobraniem? Napisz do pomocy"
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "100+",
+        "label": "krajów z prawdziwymi numerami komórkowymi w działających sieciach operatorów"
+      },
+      {
+        "value": "100+",
+        "label": "usług, które możesz zweryfikować, od Telegrama po Steam"
+      },
+      {
+        "value": "3",
+        "label": "stuknięcia od wyboru usługi do aktywnego numeru na ekranie"
+      },
+      {
+        "value": "0",
+        "label": "abonamentów – jednorazowe pakiety monet, a monety nigdy nie wygasają"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Cennik",
+    "title": "Płać za kody, nie za plan",
+    "sub": "Aplikacja działa na monetach. Kup je raz w pakiecie, który Ci odpowiada, a potem wydawaj po jednej weryfikacji – bez abonamentu, bez automatycznego odnawiania, a nic na Twoim saldzie nie wygasa.",
+    "packsLabel": "Pakiety monet",
+    "coinsUnit": "monet",
+    "facts": [
+      {
+        "title": "Od 20 monet – ale najpierw sprawdź usługę",
+        "body": "Większość ceny wyznacza usługa, którą weryfikujesz, a kraj ją koryguje – nie odwrotnie. 20 monet to minimum, nie typowa stawka: popularny komunikator może zaczynać się od około 35 monet, a mocno oblegana usługa może kosztować setki w każdym kraju, w którym jest dostępna. Aplikacja podaje cenę każdej kombinacji na żywo, więc sprawdź ją, zanim wybierzesz pakiet."
+      },
+      {
+        "title": "Cena, zanim potwierdzisz",
+        "body": "Każdy kraj na liście ma obok dokładną cenę w monetach. Nic nie znika z Twojego salda, dopóki nie zobaczysz numeru i nie potwierdzisz."
+      },
+      {
+        "title": "Brak kodu, monety wracają",
+        "body": "Jeśli SMS nie przyjdzie, anuluj po dwuminutowym oczekiwaniu albo pozwól aktywacji wygasnąć, a jej monety wrócą. Dostarczony, ale odrzucony kod wymaga sprawdzenia przez pomoc."
+      }
+    ],
+    "note": "Ceny pakietów ustala App Store i różnią się w zależności od regionu."
+  }
+}

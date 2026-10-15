@@ -1,0 +1,134 @@
+{
+  "title": "Número virtual do Brasil (+55): o nono dígito e o cadastro",
+  "description": "Como funcionam os celulares brasileiros — DDD, o 9 a mais, pré-pago vinculado ao CPF — e como receber um SMS de verificação num número +55.",
+  "excerpt": "O Brasil acrescentou um dígito a cada celular, amarrou as linhas pré-pagas ao CPF e fez do WhatsApp a central telefônica do país. O que isso significa para quem precisa de um número +55 para um cadastro.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "No Brasil, o número de telefone serve menos para ligar do que para encontrar as pessoas no WhatsApp. Lojas recebem pedidos ali, clínicas confirmam consultas ali, e «me chama no zap» é linguagem do dia a dia há uma década. Numa pesquisa Mobile Time/Opinion Box de 2024, quase metade dos brasileiros com smartphone disse que, se só pudesse manter um app, ficaria com o WhatsApp."
+    },
+    {
+      "type": "p",
+      "text": "Isso dá ao número +55 um valor incomum como identidade digital. Marketplaces, apps de entrega, fintechs e redes sociais feitas para o mercado brasileiro pedem um no cadastro. E a numeração brasileira tem particularidades que confundem estrangeiros e validadores de formulário na mesma medida. Veja como ela funciona e onde entra um número virtual brasileiro."
+    },
+    {
+      "type": "h2",
+      "id": "how-brazilian-numbers-work",
+      "text": "Anatomia de um número de celular brasileiro"
+    },
+    {
+      "type": "p",
+      "text": "Escrito por completo, um celular brasileiro fica assim: +55, depois um DDD de dois dígitos e então nove dígitos que sempre começam com 9. Na notação local, (11) 9XXXX-XXXX para São Paulo ou (21) 9XXXX-XXXX para o Rio de Janeiro."
+    },
+    {
+      "type": "list",
+      "items": [
+        "O DDD não é opcional. O Brasil tem 67 códigos DDD, do 11 em São Paulo ao 99 no Maranhão, e os celulares os mantêm. Um número sem DDD está incompleto, e o formulário vai recusá-lo ou mandar o código para lugar nenhum.",
+        "O 9 inicial marca o celular. Todo celular brasileiro tem hoje nove dígitos depois do DDD, começando com 9; os fixos têm oito.",
+        "Código de operadora é para ligação, não para formulário. Em ligações de longa distância, os brasileiros inserem um código de operadora de dois dígitos (15, 21, 31, 41…) antes do DDD. Esse código nunca entra num campo +55."
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "the-ninth-digit",
+      "text": "O nono dígito: uma renumeração nacional de quatro anos"
+    },
+    {
+      "type": "p",
+      "text": "Até 2012, os celulares brasileiros tinham oito dígitos, como os fixos, e São Paulo estava ficando sem números. A Anatel determinou uma mudança que parece simples e não foi: colocar um 9 na frente de cada número de celular do país."
+    },
+    {
+      "type": "p",
+      "text": "A troca começou no DDD 11 de São Paulo em 29 de julho de 2012 e avançou região por região, com um período de adaptação em cada fase durante o qual as ligações para os antigos números de oito dígitos eram interceptadas por uma mensagem gravada. A última grande fase, nos estados do Sul — Paraná, Santa Catarina e Rio Grande do Sul —, foi de novembro de 2016 a fevereiro de 2017. Segundo a Anatel, o dígito extra elevou a capacidade para até 90 milhões de números de celular por DDD."
+    },
+    {
+      "type": "callout",
+      "text": "Agendas antigas, sites velhos e alguns validadores de formulário ainda guardam celulares com oito dígitos. Se você vir um celular brasileiro escrito como (11) 8765-4321, ele está desatualizado: o número que funciona é (11) 98765-4321."
+    },
+    {
+      "type": "h2",
+      "id": "cpf-and-prepaid-lines",
+      "text": "Por que os chips brasileiros estão ligados ao CPF"
+    },
+    {
+      "type": "p",
+      "text": "A maioria dos brasileiros usa linhas pré-pagas e, por anos, ativar uma exigia pouco mais do que digitar um CPF. Isso facilitava a fraude: o CPF de um desconhecido bastava para colocar uma linha no nome dele. A partir de 2017, a Anatel levou as quatro grandes operadoras da época — Vivo, Claro, TIM e Oi — a um recadastramento estado por estado, em que clientes pré-pagos precisavam confirmar CPF, nome completo e CEP ou perderiam a linha. A imprensa informou que, na rodada de 17 estados, menos de 1% das 91 milhões de linhas pré-pagas tiveram algum problema de cadastro."
+    },
+    {
+      "type": "p",
+      "text": "A consequência para quem está fora do Brasil: comprar um chip local geralmente exige CPF. Estrangeiros podem tirar um, mas é burocracia — uma ida à Receita Federal ou a um consulado —, esforço demais para um único código de verificação."
+    },
+    {
+      "type": "h2",
+      "id": "when-a-virtual-55-number-makes-sense",
+      "text": "Quando um número virtual +55 faz sentido — e quando não faz"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Faz sentido para verificações pontuais: uma conta de WhatsApp ou Telegram com identidade brasileira, um perfil de loja ou marketplace voltado a clientes brasileiros, uma conta de criador no Instagram ou no TikTok mirando o Brasil, ou uma conta de teste para um app que você está desenvolvendo para esse mercado. Também serve para quem mora no Brasil e quer um segundo número para cadastros, sem expor o próprio.",
+        "Não faz sentido para Pix, bancos brasileiros ou gov.br. Esses serviços vinculam sua conta ao seu CPF e a um número registrado em seu nome, e voltam a conferir. Use uma linha sua."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Um número brasileiro alugado no SMS Code é um celular real de nove dígitos com DDD, numa rede de operadora brasileira. Os serviços enxergam um assinante +55 comum. Ele fica reservado só para você durante a ativação, e essa é a diferença em relação aos sites de «número brasileiro grátis» compartilhados, que os grandes serviços bloquearam há tempos."
+    },
+    {
+      "type": "h2",
+      "id": "receiving-a-code-on-a-55-number",
+      "text": "Como receber um código num número +55"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Escolha o serviço e o Brasil",
+          "body": "Abra o SMS Code, escolha o serviço — WhatsApp, Instagram, TikTok ou qualquer um dos mais de 100 — e selecione o Brasil. O preço da ativação em moedas aparece antes da confirmação."
+        },
+        {
+          "title": "Digite o número com o DDD",
+          "body": "Coloque o formulário em Brasil (+55) e digite o DDD seguido do número de nove dígitos, exatamente como o app mostra — onze dígitos no total, sem código de operadora nem 0 inicial."
+        },
+        {
+          "title": "Copie o código",
+          "body": "O SMS chega ao app geralmente em segundos. Se nada chegar, cancele depois de dois minutos — as moedas voltam para o seu saldo quando nenhum SMS chegou — e tente outro número brasileiro."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Perguntas frequentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Quantos dígitos tem um celular brasileiro?",
+          "a": "Onze depois do +55: um DDD de dois dígitos e um número de nove que começa com 9. Na escrita local: (21) 98765-4321."
+        },
+        {
+          "q": "Dá para criar uma conta de WhatsApp brasileira estando no exterior?",
+          "a": "Sim. O WhatsApp só verifica se você recebe o código enviado ao número. Um número virtual +55 recebe como qualquer celular brasileiro. Ative o PIN do WhatsApp e adicione um e-mail logo de cara para não depender do número depois."
+        },
+        {
+          "q": "Preciso de CPF para usar um número virtual brasileiro?",
+          "a": "Não. A exigência de CPF vale para comprar e cadastrar um chip de operadora brasileira. Alugar um número para uma verificação no SMS Code não exige nenhum documento brasileiro."
+        },
+        {
+          "q": "Posso usar para Pix ou banco brasileiro?",
+          "a": "Não. Serviços financeiros e o gov.br vinculam as contas ao seu CPF e a um número registrado em seu nome, e conferem de novo. Um número temporário é a ferramenta errada."
+        },
+        {
+          "q": "Por que meu código nunca chegou?",
+          "a": "Na maioria das vezes o DDD ficou de fora ou entrou um dígito a mais. Confira o formato, espere um minuto e, se nada chegar, cancele e pegue um número novo — as moedas voltam."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

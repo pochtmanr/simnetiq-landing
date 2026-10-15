@@ -1,0 +1,55 @@
+{
+  "name": "USA",
+  "metaTitle": "USA virtuelle Nummer für SMS — echte +1",
+  "metaDescription": "Hol dir eine echte US-amerikanische virtuelle Nummer (+1) und empfange SMS-Codes meist in Sekunden. Für Google, Instagram, TikTok, Discord und mehr.",
+  "hero": {
+    "title": "Eine US-amerikanische virtuelle Nummer für die SMS-Bestätigung",
+    "intro": [
+      "Eine +1-Nummer ist das, was dem Standard im Internet am nächsten kommt: Amerikanische Dienste erwarten sie, Registrierungsformulare wählen sie vorab aus, und Support-Abläufe sind um sie herum gebaut. Ist ein Dienst bei ausländischen Nummern wählerisch, ist eine US-Nummer meist die, die einfach funktioniert.",
+      "SMS Code gibt dir mit einem Tippen eine echte amerikanische Mobilnummer. Gib sie beim Bestätigungsschritt ein, und die SMS – mit einem Code von Google, Instagram, TikTok oder über 100 anderen Diensten – erscheint meist innerhalb von Sekunden in der App."
+    ]
+  },
+  "whyCountry": {
+    "title": "Warum eine US-Nummer?",
+    "body": [
+      "Plattformen mit Sitz in den USA behandeln eine +1-Nummer als Heimspiel. Manche Funktionen und Registrierungswege laufen mit einer amerikanischen Nummer einfach glatter – App-Versionen nur für die USA, Dienste, die die Registrierung nach Region beschränken, oder Konten, die an den US-Markt statt an dein Heimatland gebunden sein sollen.",
+      "Das Format ist überall vertraut: +1, dann eine dreistellige Ortsvorwahl und eine siebenstellige Nummer. Dienste lesen es selten falsch, und es zieht nichts von der zusätzlichen Prüfung auf sich, die manche seltenen Ländervorwahlen bei der Bestätigung anziehen."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Passe die Kontoregion an",
+      "body": "Baust du ein Konto mit US-Prägung auf – ein US-Profil im App Store, ein TikTok für den US-Markt –, nutze die US-Nummer zusammen mit der passenden Store-Region und App-Sprache für ein stimmiges Bild."
+    },
+    {
+      "title": "Ortsvorwahlen spielen keine Rolle",
+      "body": "Dienste prüfen die Nummer, nicht die Stadt hinter der Ortsvorwahl. Mit welchen drei Ziffern deine Nummer auch beginnt, der Bestätigungscode kommt auf dieselbe Weise an."
+    },
+    {
+      "title": "Hängt ein Code, tausch die Nummer",
+      "body": "Hohe Nachfrage bedeutet, dass manche US-Nummern schon Registrierungen gesehen haben, und ein Dienst kann sie drosseln. Brich die offene Aktivierung ab – die Münzen kommen zurück, wenn nichts ankam – und nimm eine neue Nummer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ist es eine echte US-Mobilnummer?",
+      "a": "Ja – eine Nummer in einem echten Mobilfunknetz im Standardformat +1. Dienste sehen eine gewöhnliche amerikanische Mobilnummer, keinen reinen Internet-Kurzwahlempfänger."
+    },
+    {
+      "q": "Welche Dienste funktionieren am besten mit einer US-Nummer?",
+      "a": "US-Nummern sind die sicherste Standardwahl für amerikanische Plattformen – Google, Discord, Tinder, TikTok, Instagram – und für jeden Dienst, dessen Registrierungsablauf von einer inländischen Nummer ausgeht."
+    },
+    {
+      "q": "Kann ich eine US-Nummer von außerhalb der Vereinigten Staaten nutzen?",
+      "a": "Ja. Die Nummer lebt in der App SMS Code, dein eigener Standort und deine SIM spielen also keine Rolle – du empfängst den Code, wo immer du bist."
+    },
+    {
+      "q": "Behalte ich die Nummer nach der Bestätigung?",
+      "a": "Die Nummer ist für das Aktivierungsfenster gemietet – lang genug, um den Bestätigungscode zu empfangen. Für Konten, die du behalten willst, füge direkt nach der Registrierung eine Wiederherstellungs-E-Mail und App-basierte 2FA hinzu."
+    },
+    {
+      "q": "Wie sieht eine US-Bestätigungs-SMS aus?",
+      "a": "Wie jede inländische amerikanische SMS: der Name oder die Kurzwahl des Dienstes als Absender und ein vier- bis achtstelliger Code im Text. Der vollständige Text erscheint in der App, sobald er ankommt."
+    }
+  ]
+}

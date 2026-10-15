@@ -1,0 +1,148 @@
+{
+  "title": "Zweites WhatsApp Konto ohne zweite SIM: So geht's",
+  "description": "Für ein zweites WhatsApp brauchst du keine zweite SIM – nur eine zweite Nummer und eine App dafür. WhatsApp Business, mehrere Konten, virtuelle Nummern.",
+  "excerpt": "WhatsApp bindet jedes Konto an genau eine Nummer – aber diese Nummer braucht keinen SIM-Steckplatz. Die offiziellen Wege zu zwei Apps, die Bestätigung Schritt für Schritt und die ehrlichen Vorbehalte.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Du willst ein WhatsApp für Freunde und Familie und ein anderes für die Arbeit, ein Nebenprojekt oder Verkäufe auf Marktplätzen – ohne eine zweite SIM-Karte zu kaufen oder ein zweites Handy mitzuschleppen. Viele Anleitungen versprechen einen Trick. Hier die ehrliche Version: Es gibt keinen Trick, weil das Problem nicht das ist, was du denkst."
+    },
+    {
+      "type": "p",
+      "text": "Das Modell von WhatsApp ist streng – eine Telefonnummer, ein Konto, und die Nummer ist die Identität des Kontos. Aber nichts in diesem Modell sagt, dass die Nummer in einem SIM-Steckplatz deines Handys leben muss. Was du tatsächlich brauchst, sind zwei Dinge: eine zweite Nummer, die einen Bestätigungscode empfangen kann, und einen Platz auf deinem Handy, an dem das zweite Konto läuft. Den zweiten Teil liefert WhatsApp selbst offiziell; eine virtuelle Nummer deckt den ersten ab. Dieser Leitfaden geht beides durch, dann die Bestätigung selbst, die PIN für die Verifizierung in zwei Schritten und die Vorbehalte, die WhatsApp Anleitungen meist auslassen."
+    },
+    {
+      "type": "h2",
+      "id": "one-number-one-account",
+      "text": "Warum WhatsApp auf einer Nummer pro Konto besteht"
+    },
+    {
+      "type": "p",
+      "text": "Anders als Dienste, bei denen du dich mit einer E-Mail registrierst, nutzt WhatsApp die Telefonnummer als Primärschlüssel des Kontos. Deine Kontakte finden dich, weil deine Nummer in ihrem Adressbuch steht; deine Verschlüsselungsschlüssel, Chat-Backups und Gruppenmitgliedschaften hängen alle daran. Registrierst du dieselbe Nummer in einem neuen Konto, wird das alte verdrängt – deshalb kannst du auch kein Konto „klonen“, und deshalb braucht jedes zweite Konto wirklich seine eigene Nummer."
+    },
+    {
+      "type": "p",
+      "text": "Die gute Nachricht: WhatsApp hat akzeptiert, dass Menschen legitimerweise mehr als ein Konto brauchen, und bietet inzwischen zwei offizielle Wege, sie auf einem einzigen Handy zu betreiben."
+    },
+    {
+      "type": "h2",
+      "id": "official-ways-to-run-two-accounts",
+      "text": "Die offiziellen Wege, zwei Konten auf einem Handy zu betreiben"
+    },
+    {
+      "type": "list",
+      "items": [
+        "WhatsApp Business – der offizielle Weg zu zwei Apps auf iPhone und Android. Es ist eine separate App von Meta, die sich neben dem normalen WhatsApp installiert, genau für die Trennung von Arbeit und Privatem gedacht: dieselben Chats und Anrufe, plus Unternehmensprofil, Katalog und automatische Antworten. Sie braucht trotzdem ihre eigene Nummer, und ihre Bedingungen erwarten eine wirklich geschäftlich geprägte Nutzung.",
+        "Mehrere Konten unter Android – neuere Versionen des normalen WhatsApp unter Android lassen dich in derselben App ein zweites Konto hinzufügen und in den Einstellungen zwischen ihnen wechseln, ohne zweite App. Jedes Konto braucht zur Bestätigung trotzdem seine eigene Nummer. iPhones haben diesen Umschalter in der App nicht, weshalb die Business-App der übliche Weg unter iOS ist.",
+        "Ein zweites Handy oder ein Dual-SIM-Steckplatz – der Vollständigkeit halber: Es funktioniert, ist aber genau die Hardware-Ausgabe, die dieser Artikel vermeiden will."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Beachte, was alle Optionen gemeinsam haben: Der Behälter ist gelöst, die Nummer nicht. Welchen Weg du auch wählst, irgendwann fragt ein Bildschirm nach einer Telefonnummer, die nicht schon an dein Hauptkonto gebunden ist. Hier kommt eine virtuelle Nummer ins Spiel."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-number-as-the-second-number",
+      "text": "Eine virtuelle Nummer als deine zweite Nummer"
+    },
+    {
+      "type": "p",
+      "text": "Eine virtuelle Nummer ist eine echte Mobilnummer in einem echten Mobilfunknetz – du mietest sie für die Bestätigung, der SMS-Code erscheint meist innerhalb von Sekunden in der App SMS Code, und dein zweites WhatsApp bekommt eine eigene Identität. Keine SIM-Karte, kein neuer Vertrag, keine monatliche Leitung, die du zu kündigen vergisst: Du zahlst pro Aktivierung aus einem einmaligen Münzpaket, und kommt kein Code an, wird die Aktivierung kostenlos abgebrochen. Mit Nummern in über 100 Ländern kannst du deinem Arbeitskonto sogar eine lokale Nummer für den Markt geben, den du bedienst."
+    },
+    {
+      "type": "h2",
+      "id": "verification-walkthrough",
+      "text": "Die Bestätigung Schritt für Schritt"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Zuerst den Behälter vorbereiten",
+          "body": "Installiere WhatsApp Business (iPhone oder Android) oder öffne unter Android WhatsApp → Einstellungen → tippe auf den Pfeil neben deinem Namen → „Konto hinzufügen“. Geh zu dem Bildschirm, der nach einer Telefonnummer fragt, bevor du eine mietest – Aktivierungen haben ein Zeitfenster, und es lohnt sich nicht, es mit der Einrichtung der App zu verbringen."
+        },
+        {
+          "title": "Eine Nummer für WhatsApp mieten",
+          "body": "Wähle in der App SMS Code WhatsApp als Dienst und such dir ein Land aus. Ein Tippen reserviert eine echte Mobilnummer nur für dich."
+        },
+        {
+          "title": "Nummer eingeben und Code anfordern",
+          "body": "Tippe die Nummer mit dem passenden Land in WhatsApp ein – eine falsche Ländervorwahl ist der häufigste Grund, warum ein Code nie ankommt. Wähle die Zustellung per SMS, wenn du gefragt wirst."
+        },
+        {
+          "title": "Code aus SMS Code holen",
+          "body": "Die Bestätigungs-SMS erscheint meist innerhalb von Sekunden in der App SMS Code. Gib den sechsstelligen Code in WhatsApp ein, lege deinen Profilnamen fest, und das zweite Konto ist aktiv."
+        },
+        {
+          "title": "Die PIN für zwei Schritte sofort festlegen",
+          "body": "Im neuen Konto: Einstellungen → Account → Verifizierung in zwei Schritten → aktivieren, PIN wählen und eine Wiederherstellungs-E-Mail hinzufügen. Erledige das vor allem anderen – der Abschnitt unten erklärt, warum es bei einer gemieteten Nummer noch wichtiger ist."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    },
+    {
+      "type": "h2",
+      "id": "two-step-pin",
+      "text": "Die PIN für zwei Schritte: kleine Einstellung, große Wirkung"
+    },
+    {
+      "type": "p",
+      "text": "Die PIN für die Verifizierung in zwei Schritten fragt WhatsApp ab, wann immer jemand versucht, deine Nummer erneut bei WhatsApp zu registrieren. Bei einer gemieteten Nummer ist sie dein Sicherheitsnetz: Selbst wenn diese Nummer später von jemand anderem für einen anderen Dienst gemietet wird, kann diese Person dein WhatsApp Konto ohne die PIN nicht neu registrieren. Zusammen mit einer aktiven Sitzung auf deinem Handy bleibt das Konto fest deins. Füge auch die Wiederherstellungs-E-Mail hinzu – sie ist der einzige Weg zurück, wenn du die PIN vergisst."
+    },
+    {
+      "type": "h2",
+      "id": "honest-caveats",
+      "text": "Die ehrlichen Vorbehalte"
+    },
+    {
+      "type": "p",
+      "text": "Das ist der Teil, den die meisten Anleitungen auslassen. WhatsApp ist bei neuen Registrierungen spürbar strenger als Telegram, und es ist besser, das vorher zu wissen."
+    },
+    {
+      "type": "callout",
+      "text": "WhatsApp mag Nummern, die es für temporär hält, ausdrücklich nicht, und ein ganz neues Konto, das sich sofort wie ein Spam-Bot verhält, kann schnell eingeschränkt werden. Gib einem neuen Konto eine normale Eingewöhnungszeit: Profilname und Foto ausfüllen, ein paar Leuten schreiben, die dich kennen und antworten werden, und es ein paar Tage ruhig laufen lassen, bevor du es intensiver nutzt. Schreib nicht am ersten Tag massenhaft Fremde an und tritt nicht Dutzenden Gruppen bei – das ist kein Umgehungstipp, sondern schlicht das, was die Bedingungen von WhatsApp von jedem Konto erwarten, und eine neue Nummer bekommt weniger Vertrauensvorschuss."
+    },
+    {
+      "type": "p",
+      "text": "Zwei weitere Dinge solltest du wissen. Erstens die erneute Bestätigung: WhatsApp verlangt einen neuen Code, wenn du die App neu installierst oder auf ein neues Handy umziehst, betrachte also die installierte, angemeldete App als das, was du bewahrst – melde dich nicht beiläufig ab und lösch sie nicht. Zweitens: Wähle den richtigen Behälter für die Aufgabe. Ist das zweite Konto wirklich geschäftlich, ist WhatsApp Business sowohl das offizielle Werkzeug als auch die sicherere Wahl im Sinne der Bedingungen; ist es einfach eine zweite private Identität, erledigt die Funktion für mehrere Konten unter Android die Aufgabe."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Häufige Fragen"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Kann ich zwei WhatsApp Konten auf einem Handy haben?",
+          "a": "Ja, offiziell. Unter Android unterstützen aktuelle WhatsApp Versionen ein zweites Konto in derselben App; auf jedem Handy kannst du WhatsApp und WhatsApp Business nebeneinander betreiben. Jedes Konto braucht zur Bestätigung seine eigene Telefonnummer."
+        },
+        {
+          "q": "Brauche ich für ein zweites WhatsApp eine zweite SIM-Karte?",
+          "a": "Nein. WhatsApp braucht eine Nummer, die einen Bestätigungscode empfangen kann – ob diese Nummer in deinem SIM-Fach lebt, ist egal. Eine gemietete virtuelle Nummer bestätigt das Konto, und der Code kommt meist innerhalb von Sekunden in der App SMS Code an."
+        },
+        {
+          "q": "Sperrt WhatsApp ein Konto, das mit einer virtuellen Nummer erstellt wurde?",
+          "a": "Eine virtuelle Nummer ist eine echte Mobilnummer, und die Bestätigung damit ist an sich kein Verstoß – WhatsApp prüft, dass du die Nummer kontrollierst, nicht, auf wessen Namen sie läuft. Was Konten einschränken lässt, ist Verhalten: spamartige Nachrichten, massenhafte Kontaktaufnahme mit Fremden, Verstöße gegen die Bedingungen von WhatsApp. Nutze das Konto wie ein normaler Mensch und gewöhne es sanft ein."
+        },
+        {
+          "q": "Was passiert mit meinem WhatsApp, wenn die virtuelle Nummer abläuft?",
+          "a": "Das Konto funktioniert weiter – die Nummer wird bei der Registrierung geprüft, und die alltägliche Nutzung beruht auf deiner angemeldeten App. Der Vorbehalt: Eine Neuinstallation oder ein Handywechsel löst eine erneute Bestätigung mit neuem Code aus. Lass die App installiert und angemeldet und lege die PIN für zwei Schritte fest, damit niemand sonst die Nummer neu registrieren kann."
+        },
+        {
+          "q": "Sollte ich WhatsApp Business oder die Funktion für mehrere Konten nutzen?",
+          "a": "Ist das zweite Konto für echtes Geschäft – Kunden, Verkauf, Support –, nutze WhatsApp Business: Es ist das offizielle Werkzeug, bringt Profil- und Katalogfunktionen mit und passt zu seinen Nutzungsbedingungen. Willst du nur ein zweites privates Konto und nutzt Android, ist der Kontowechsel in der App die leichtere Option. Auf dem iPhone ist Business der praktische Weg zu zwei Apps."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

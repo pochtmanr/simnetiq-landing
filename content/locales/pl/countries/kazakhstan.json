@@ -1,0 +1,55 @@
+{
+  "name": "Kazachstan",
+  "metaTitle": "Kazachski numer wirtualny do SMS — prawdziwy +7 7XX",
+  "metaDescription": "Prawdziwy kazachski numer wirtualny (+7 7XX) i kody SMS zwykle w kilka sekund. Weryfikuj Telegram, VK, Viber, Steam i WhatsApp.",
+  "hero": {
+    "title": "Kazachski numer wirtualny do weryfikacji SMS",
+    "intro": [
+      "Kazachstan dzieli numer kierunkowy +7 z Rosją, ale jego numery komórkowe łatwo odróżnić: po kodzie kraju zaczynają się od 7 – +7 7XX – podczas gdy rosyjskie komórki zaczynają się od 9. Dzięki temu kazachski numer to odrębna tożsamość, która wciąż pasuje do każdego formularza zbudowanego dla świata +7.",
+      "SMS Code wynajmuje Ci prawdziwy kazachski numer komórkowy jednym stuknięciem. Wpisz go przy weryfikacji w Telegramie, VK, Steamie czy innej obsługiwanej usłudze, a SMS z kodem trafi do aplikacji zwykle w ciągu kilku sekund."
+    ]
+  },
+  "whyCountry": {
+    "title": "Dlaczego kazachski numer?",
+    "body": [
+      "Kazachskie numery to stały element usług zorientowanych na WNP. Telegram, WhatsApp i Viber rutynowo je weryfikują, VK traktuje je jako część swojej głównej publiczności, a konta Steam zakładane w regionie często potwierdza się komórką +7 7XX. Jeśli Twoje konto żyje w tym ekosystemie, kazachski numer wtapia się w tło.",
+      "Struktura odzwierciedla znajomy wzorzec +7: kod kraju, trzycyfrowy kod operatora zaczynający się od 7, potem siedem cyfr w grupach XXX XX XX. Każdy formularz, który akceptuje +7, zaakceptuje i ten – dostajesz zasięg strefy +7 z numerem, który jest jednoznacznie kazachski."
+    ]
+  },
+  "tips": [
+    {
+      "title": "7XX oznacza Kazachstan",
+      "body": "We wspólnej strefie +7 komórki zaczynające się od 7 po kodzie należą do Kazachstanu, a rosyjskie zaczynają się od 9. Jeśli usługa prosi o wybór kraju, wybierz Kazachstan, by jej oczekiwania pasowały do numeru."
+    },
+    {
+      "title": "8 jest tylko do połączeń krajowych",
+      "body": "Lokalnie przed kodem operatora wybiera się 8, ale to krajowy zwyczaj. W każdym formularzu weryfikacji użyj formy międzynarodowej – +7, potem dziesięć cyfr – a zostanie poprawnie odczytany."
+    },
+    {
+      "title": "Anuluj za darmo, weź inny",
+      "body": "Jeśli kod nie przyjdzie w oknie aktywacji, anuluj aktywację w aplikacji bez kosztów i weź świeży kazachski numer. Monety wydajesz tylko wtedy, gdy SMS faktycznie dotrze."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy to prawdziwy kazachski numer komórkowy?",
+      "a": "Tak – numer w prawdziwej sieci operatora w kazachskich zakresach komórkowych 7XX. Usługi widzą zwykły kazachski numer telefonu, a nie adres odbiorczy działający tylko online."
+    },
+    {
+      "q": "Czym różni się od rosyjskiego numeru +7?",
+      "a": "Oba kraje dzielą +7, ale rozróżnia je kolejna cyfra: kazachskie komórki kontynuują się 7 (+7 7XX…), rosyjskie 9. Usługi, którym zależy na kraju, odczytują kod operatora, więc numer 7XX rejestruje się jako Kazachstan."
+    },
+    {
+      "q": "Do czego zwykle używa się kazachskich numerów?",
+      "a": "Przede wszystkim do usług ulubionych w WNP: Telegrama, VK, Vibera, WhatsAppa i regionalnych kont Steam. Każda usługa akceptująca numery +7 zaakceptuje kazachski."
+    },
+    {
+      "q": "Czy muszę być w Kazachstanie, żeby odebrać kod?",
+      "a": "Nie. Numer istnieje w aplikacji SMS Code, więc Twoja lokalizacja i własna karta SIM nie mają znaczenia – SMS weryfikacyjny dotrze do Ciebie w dowolnym miejscu na świecie."
+    },
+    {
+      "q": "Czy numer zostaje potem u mnie?",
+      "a": "Wynajem obejmuje okno aktywacji – wystarczająco, by odebrać kod. Przy kontach, które planujesz zatrzymać, zaraz po rejestracji dodaj e-mail do odzyskiwania i 2FA przez aplikację, żeby numer nigdy więcej nie był potrzebny."
+    }
+  ]
+}

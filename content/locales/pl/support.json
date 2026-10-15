@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "title": "Pomoc",
+    "description": "Pomoc z SMS Code – aktywacje, płatności, monety i pytania o konto. Przeczytaj poradniki rozwiązywania problemów lub napisz do naszego zespołu pomocy."
+  },
+  "page": {
+    "label": "Pomoc",
+    "title": "Jak możemy pomóc?",
+    "introBefore": "Wyślij nam wiadomość poniżej lub napisz na ",
+    "introAfter": " – najpierw wybierz temat: większość odpowiedzi jest o jedno stuknięcie, a wszystko inne trafia do człowieka.",
+    "items": [
+      {
+        "title": "Zwroty",
+        "body": "Zakupy w App Store rozlicza Apple, więc o zwrot prosisz Apple i to Apple o nim decyduje. Poradnik przeprowadzi Cię przez to w niecałe dwie minuty.",
+        "slug": "refund-apple"
+      },
+      {
+        "title": "SMS nie dotarł",
+        "body": "Dostarczenie zależy od usługi, kraju i jej własnych kontroli. Jeśli nic nie przyjdzie, monety wracają automatycznie. Zobacz, które kraje działają teraz najlepiej.",
+        "slug": "sms-not-received"
+      },
+      {
+        "title": "Brakujące monety",
+        "body": "Zapłacone, a monet brak? Zwykle to oczekująca płatność Apple albo inne konto SMS Code. Sprawdź te kroki, zanim kupisz ponownie.",
+        "slug": "missing-coins"
+      },
+      {
+        "title": "Zachowanie salda",
+        "body": "Twoje monety należą do konta SMS Code, a nie do paragonu z App Store. Zaloguj się (Apple, Google lub kod e-mail), póki masz monety, a pójdą za Tobą na każde urządzenie.",
+        "slug": "account-balance"
+      }
+    ],
+    "readGuide": "Czytaj poradnik",
+    "knowledgeBase": "Baza wiedzy",
+    "safetyTitle": "Wybór kraju i bezpieczeństwo",
+    "safetyLink": "Jak wybrać kraj i chronić swoje konto"
+  },
+  "form": {
+    "name": "Twoje imię",
+    "namePlaceholder": "Alex",
+    "email": "E-mail",
+    "emailPlaceholder": "ty@przyklad.pl",
+    "stepTopic": "W czym możemy pomóc?",
+    "topics": {
+      "refund": "Zwrot zakupu",
+      "sms": "SMS nie dotarł",
+      "code": "Kod odrzucony lub numer zablokowany",
+      "coins": "Brak monet po zakupie",
+      "account": "Konto, przywracanie lub usunięcie",
+      "bug": "Coś nie działa",
+      "feature": "Zaproponuj funkcję",
+      "other": "Coś innego"
+    },
+    "selfServe": {
+      "sms": {
+        "title": "Zanim napiszesz: większość brakujących SMS-ów rozwiązuje się sama",
+        "points": [
+          "Jeśli w oknie aktywacji nie przyjdzie żaden SMS, aktywacja się zamyka, a jej monety automatycznie wracają na Twoje saldo.",
+          "Dostarczenie zależy od usługi i kraju. Niektóre usługi blokują numery wirtualne w określonych krajach, więc spróbuj innego kraju z lepszym poziomem dostarczania.",
+          "Upewnij się, że usługa wysyła kod SMS-em, a nie połączeniem głosowym ani do aplikacji, w której już jesteś zalogowany."
+        ]
+      },
+      "code": {
+        "title": "Zanim napiszesz: dlaczego kod zostaje odrzucony",
+        "points": [
+          "To usługa decyduje, czy akceptuje numer. Numer użyty wcześniej lub kraj, który usługa ogranicza, może zostać odrzucony nawet po dotarciu SMS-a.",
+          "Użyj najnowszego kodu, dla tego samego konta i usługi, bez spacji.",
+          "Przestań powtarzać płatne próby w tej samej usłudze i kraju. Zmień kraj albo napisz do nas o sprawdzenie."
+        ]
+      },
+      "coins": {
+        "title": "Zanim napiszesz: gdzie zwykle są monety",
+        "points": [
+          "Oczekująca płatność Apple może potrwać kilka minut. Otwórz aplikację ponownie, zanim kupisz jeszcze raz.",
+          "Monety należą do konta SMS Code, które je kupiło. Zaloguj się tym samym loginem Apple, Google lub e-mail.",
+          "Nadal ich brak? Wyślij nam numer zamówienia Apple (z e-maila z paragonem od Apple), a my go namierzymy."
+        ]
+      },
+      "account": {
+        "title": "Zanim napiszesz: odpowiedzi o koncie",
+        "points": [
+          "Zaloguj się przez Apple, Google lub kod e-mail, żeby zachować saldo na każdym urządzeniu.",
+          "Konto możesz usunąć w aplikacji: Ustawienia → Usuń konto. Usunięcie nie zwraca płatności Apple.",
+          "Saldo zniknęło po ponownej instalacji? Napisz do nas z numerem zamówienia Apple."
+        ]
+      }
+    },
+    "readGuide": "Czytaj cały poradnik",
+    "solved": "To rozwiązało problem",
+    "stillNeed": "Nadal potrzebuję pomocy",
+    "solvedTitle": "Cieszymy się, że pomogło",
+    "solvedBody": "Jeśli coś się zmieni, wróć na tę stronę w dowolnej chwili.",
+    "changeTopic": "Zmień temat",
+    "refundNote": "Nie możemy zwracać pieniędzy za zakupy w App Store. Tylko Apple może je zatwierdzić, na stronie reportaproblem.apple.com. Napisz do nas, jeśli Apple poprosiło Cię o kontakt z deweloperem lub jeśli potrzebujesz potwierdzeń zakupu.",
+    "orderId": "Numer zamówienia Apple (opcjonalnie)",
+    "orderIdPlaceholder": "np. MXXXXXXXXX",
+    "service": "Usługa",
+    "servicePlaceholder": "np. Telegram",
+    "country": "Kraj",
+    "countryPlaceholder": "np. Indonezja",
+    "when": "Mniej więcej kiedy?",
+    "whenPlaceholder": "np. dziś około 14:00 (UTC+3)",
+    "accountAttached": "Identyfikator Twojego konta SMS Code i wersja aplikacji są dołączane automatycznie, więc nie musisz ich szukać.",
+    "messagePlaceholders": {
+      "refund": "Co się stało i czy Apple poprosiło Cię o kontakt z nami?",
+      "sms": "Jaki numer dostałeś i co napisała usługa?",
+      "code": "Co napisała usługa, odrzucając kod?",
+      "coins": "Jaki pakiet kupiłeś i kiedy?",
+      "account": "W czym potrzebujesz pomocy?",
+      "bug": "Co stuknąłeś, czego się spodziewałeś i co stało się zamiast tego?",
+      "feature": "Co chciałbyś, żeby SMS Code potrafił?",
+      "other": "Opisz, co się stało."
+    },
+    "message": "Wiadomość",
+    "honeypot": "Pozostaw to pole puste",
+    "send": "Wyślij wiadomość",
+    "sending": "Wysyłanie…",
+    "genericError": "Coś poszło nie tak. Spróbuj ponownie.",
+    "sentChip": "Wysłano",
+    "sentTitle": "Wiadomość otrzymana",
+    "sentBody": "Twoje zgłoszenie zostało wysłane. Sprawdzimy je i odpowiemy na podany adres e-mail.",
+    "sendAnother": "Wyślij kolejną wiadomość"
+  },
+  "help": {
+    "label": "Baza wiedzy",
+    "updatedLabel": "Ostatnia aktualizacja:",
+    "back": "Pomoc i formularz kontaktowy",
+    "appleTitle": "Oficjalne wskazówki Apple",
+    "appleLinks": {
+      "refund": "Poproś o zwrot",
+      "instructions": "Instrukcja zwrotu od Apple",
+      "status": "Status zwrotu i terminy płatności",
+      "terms": "Regionalne warunki Apple",
+      "support": "Wsparcie Apple"
+    },
+    "appleNote": "Wskazówki sprawdzone z oficjalnymi materiałami pomocy Apple 30 września 2026 r. Prawo do zwrotu zależy od Twojego regionu i obowiązujących przepisów.",
+    "related": "Powiązana pomoc",
+    "terms": "Warunki korzystania",
+    "privacy": "Polityka prywatności",
+    "stillNeedTitle": "Nadal potrzebujesz pomocy?",
+    "stillNeedBody": "Jeśli ta strona nie rozwiązała problemu, wyślij nam zgłoszenie. Trafi do człowieka, a powyższe szczegóły pomogą nam szybciej odpowiedzieć.",
+    "submitAnyway": "Mimo to wyślij zgłoszenie",
+    "tiers": {
+      "title": "Gdzie SMS-y docierają teraz",
+      "intro": "Wybierz usługę, by zobaczyć, jak niezawodnie SMS-y docierały do naszych numerów w każdym kraju w ciągu ostatnich 30 dni. Jeśli Twój kraj ma niski poziom, przejdź na kraj z wysokim.",
+      "service": "Usługa",
+      "pick": "Wybierz usługę",
+      "high": "Wysoki",
+      "medium": "Średni",
+      "low": "Niski",
+      "unavailable": "obecnie brak numerów",
+      "note": "Na podstawie niedawnych aktywacji SMS Code, odświeżane co godzinę. Pokazujemy tylko pary usługi i kraju z wystarczającą liczbą niedawnych zamówień. Wcześniejsze dostarczenia nie gwarantują kolejnego SMS-a, a usługa nadal decyduje, czy zaakceptuje numer."
+    }
+  },
+  "api": {
+    "invalidBody": "Nieprawidłowa treść żądania.",
+    "invalidJson": "Nieprawidłowy JSON.",
+    "name": "Podaj swoje imię.",
+    "email": "Podaj prawidłowy adres e-mail.",
+    "topic": "Temat jest za długi.",
+    "message": "Opisz problem własnymi słowami (co najmniej 10 znaków).",
+    "unavailable": "Formularz pomocy jest chwilowo niedostępny. Napisz do nas e-mail.",
+    "saveFailed": "Nie udało się zapisać wiadomości. Spróbuj ponownie lub napisz do nas e-mail.",
+    "forbidden": "To żądanie nie pochodzi ze strony pomocy. Odśwież stronę i spróbuj ponownie.",
+    "challenge": "Dokończ weryfikację zabezpieczeń i spróbuj ponownie.",
+    "replySubject": "Pomoc SMS Code"
+  }
+}

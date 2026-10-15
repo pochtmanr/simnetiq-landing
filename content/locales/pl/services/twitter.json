@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer X (Twitter) — weryfikacja bez Twojego numeru",
+  "metaDescription": "Przejdź weryfikację telefonu X (Twitter) prawdziwym numerem wirtualnym z ponad 100 krajów. Kod zwykle w kilka sekund; darmowe anulowanie, jeśli SMS nie dotrze.",
+  "hero": {
+    "title": "Numer wirtualny do X (Twittera)",
+    "intro": [
+      "Konto na X możesz założyć z samym e-mailem – sam formularz rejestracji nie upiera się przy telefonie. Haczyk przychodzi minuty lub dni później: świeże konta są rutynowo blokowane, „żeby potwierdzić, że nie jesteś robotem”, a ekran odblokowania chce numeru telefonu, który odbierze SMS właśnie teraz. Dla wielu osób to wyzwanie jest prawdziwym krokiem rejestracji.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, podajesz go X dokładnie w tym momencie, a kod potwierdzający pojawia się w aplikacji zwykle w ciągu kilku sekund. Płacisz za aktywację z jednorazowego pakietu monet – bez abonamentu – a numer, który nic nie odebrał, jest anulowany bez opłat."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do X (Twittera)?",
+    "body": [
+      "X to jedna z niewielu dużych platform, gdzie pseudonim jest częścią kultury – ale pseudonimowy profil z przypiętym prywatnym numerem jest pseudonimowy tylko do pierwszego wycieku lub wyszukania. Numer to także droga do znalezienia: domyślnie osoby, które mają go w kontaktach, mogą zostać skierowane do Twojego konta. Numer wirtualny utrzymuje anonimowość, dla której się zarejestrowałeś, a jednocześnie przechodzi każdą kontrolę SMS, jaką rzuci w Ciebie X.",
+      "Jest też powód strukturalny: X ogranicza, ile kont może obsłużyć jeden numer telefonu. Jeśli prowadzisz konto prywatne i chcesz osobnego dla projektu czy marki, zawieszenie obu na jednym prywatnym numerze jest kruche – wyzwanie wobec któregokolwiek ciągnie za tę samą nić. Danie każdemu kontu własnego wynajętego numeru utrzymuje je niezależnie."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować X (Twittera) numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Weź numer w SMS Code",
+        "body": "Otwórz aplikację SMS Code, wybierz X (Twitter) jako usługę, wybierz kraj i stuknij raz. Prawdziwy numer komórkowy jest zarezerwowany tylko dla Ciebie na czas aktywacji."
+      },
+      {
+        "title": "Wpisz go tam, gdzie X prosi",
+        "body": "Zwykle to wyzwanie odblokowania na świeżym koncie, czasem sam proces rejestracji albo Ustawienia → Twoje konto → Informacje o koncie → Telefon. Dopasuj numer kierunkowy do wynajętego numeru."
+      },
+      {
+        "title": "Wpisz kod potwierdzający",
+        "body": "SMS trafia do aplikacji SMS Code zwykle w ciągu kilku sekund, od nadawcy „X”, w formacie „Your X confirmation code is 941507. Don't share this code with anyone.” Wpisz cyfry, a blokada zniknie."
+      },
+      {
+        "title": "Przenieś bezpieczeństwo z SMS-ów",
+        "body": "Skonfiguruj uwierzytelnianie dwuskładnikowe przez aplikację uwierzytelniającą lub klucz dostępu – na X 2FA przez SMS i tak jest zarezerwowane dla subskrybentów Premium. Zweryfikuj e-mail i wyłącz wyszukiwanie po numerze telefonu w ustawieniach prywatności."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Blokada to rytuał przejścia",
+      "body": "Zablokowanie zupełnie nowego konta w pierwszych godzinach to standardowy antybotowy odruch X, a nie wyrok w Twojej sprawie. Zweryfikuj telefon, a potem zachowuj się jak człowiek: zdjęcie profilowe, opis, obserwowanie w ludzkim tempie. Konta publikujące jak skrypty dostają kolejne wyzwania niezależnie od numeru."
+    },
+    {
+      "title": "Nigdy nie opieraj tu 2FA na SMS-ach",
+      "body": "Dwa powody: X oferuje 2FA przez SMS tylko subskrybentom Premium, a wynajętego numeru i tak nie zatrzymasz. Aplikacja uwierzytelniająca lub klucz dostępu są darmowe, działają dla każdego i nigdy nie zależą od nadejścia kodu SMS-em."
+    },
+    {
+      "title": "Zamknij drzwi wyszukiwania",
+      "body": "W Ustawienia → Prywatność i bezpieczeństwo → Wykrywalność i kontakty odznacz „Pozwól osobom, które mają Twój numer telefonu, znaleźć Cię na X”. Numer istnieje wtedy wyłącznie jako zapis weryfikacji – nikt nie przejdzie od niego do Twojego profilu."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Dlaczego moje nowe konto na X zostało zablokowane zaraz po rejestracji?",
+      "a": "Bo jest nowe. X mocno opiera się na wyzwaniach telefonicznych, by odfiltrowywać rejestracje botów, a konta tylko z e-mailem są pytane w pierwszej kolejności. To rutyna: zweryfikuj się numerem, który w tej chwili odbierze SMS – wynajęty numer robi dokładnie to – a konto się odblokuje."
+    },
+    {
+      "q": "Czy kilka kont na X może dzielić jeden numer telefonu?",
+      "a": "Tylko do pewnego limitu – X ogranicza liczbę kont, do których można przypiąć jeden numer, a splątane numery komplikują wyzwania. Jeśli zakładasz osobne konto projektu lub marki, świeży numer na każde konto to czystsza architektura."
+    },
+    {
+      "q": "Czy konto będzie działać po wygaśnięciu wynajętego numeru?",
+      "a": "Tak. Numer ma znaczenie w chwili kontroli. Zweryfikuj e-mail, skonfiguruj 2FA przez uwierzytelniacz lub klucz dostępu, a codzienne użycie nigdy więcej nie dotknie numeru. Możesz go nawet później usunąć w Ustawienia → Informacje o koncie – najpierw upewnij się tylko, że inne kotwice są na miejscu."
+    },
+    {
+      "q": "Czy numer będzie widoczny w moim profilu?",
+      "a": "Nie – X nigdy nie pokazuje numerów telefonów publicznie. Jedyna droga od numeru do konta to wyszukiwanie przez kontakty, a to przełącznik, który wyłączysz w Prywatności i bezpieczeństwie. Gdy jest wyłączony, numer jest niewidoczny w każdą stronę."
+    },
+    {
+      "q": "Dlaczego kod potwierdzający X nie dotarł?",
+      "a": "Najpierw sprawdź, czy numer kierunkowy pasuje do wynajętego numeru; poza tym wiedz, że X odmawia wysyłki SMS-ów na niektóre numery, którym nie ufa. Anuluj oczekującą aktywację w SMS Code – monety wracają za numery, które nic nie odebrały – i weź nowy numer, najlepiej z innego kraju."
+    }
+  ]
+}

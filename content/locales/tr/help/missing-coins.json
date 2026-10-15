@@ -1,0 +1,27 @@
+{
+  "title": "Ödeme yaptım ama jetonlar eksik",
+  "metaDescription": "Jeton paketi aldınız ama bakiye değişmedi mi? Apple ödemesini, SMS Code hesabınızı ve geri yüklemeyi kontrol edin, sonra Apple sipariş numarasını gönderin.",
+  "sections": [
+    {
+      "title": "Önce bunları kontrol edin",
+      "steps": [
+        "**Birkaç dakika bekleyip uygulamayı yeniden açın.** Bekleyen bir Apple ödemesinin tamamlanması biraz sürebilir. Sorunu çözmek için başka bir paket satın almayın.",
+        "**Hesabı kontrol edin.** Jetonlar, onları satın alan SMS Code hesabına aittir. Başka bir cihazda Apple, Google veya e-postayla giriş yaptıysanız burada da aynı girişi kullanın.",
+        "**Satın alımları geri yükleyin.** Uygulamadaki jeton mağazasını açın ve **Satın alımları geri yükle**’ye dokunun. Bu, Apple’ın onayladığı ama uygulamanın kaçırdığı satın alımları yükler."
+      ]
+    },
+    {
+      "title": "Uygulamayı yeniden mi yüklediniz?",
+      "paragraphs": [
+        "Uygulamayı giriş yapmadan kullandıysanız yeniden yükleme yeni bir hesap oluşturur ve eski bakiye otomatik olarak taşınmaz. Apple sipariş numaranızla bize yazın, geri almanıza yardımcı olalım. Bunu gelecekte nasıl önleyeceğinizi [Bakiyenizi koruyun](/support/account-balance) sayfası anlatır."
+      ]
+    },
+    {
+      "title": "Bize ne göndermelisiniz",
+      "paragraphs": [
+        "Apple makbuz e-postasındaki Apple sipariş numarasını (M ile başlar), paketi ve satın alma tarihini gönderin. İlgisiz satın alımları ve ödeme bilgilerini gizleyin. Bize uygulamadan yazarsanız hesap kimliğiniz otomatik olarak eklenir.",
+        "Jeton yerine paranızı geri almak istiyorsanız [Apple’dan nasıl iade isteyeceğinize](/support/refund-apple) bakın."
+      ]
+    }
+  ]
+}

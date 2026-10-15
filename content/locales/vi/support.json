@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "title": "Hỗ trợ",
+    "description": "Trợ giúp về SMS Code — kích hoạt, thanh toán, xu và câu hỏi về tài khoản. Đọc hướng dẫn khắc phục sự cố hoặc liên hệ đội ngũ hỗ trợ của chúng tôi qua email."
+  },
+  "page": {
+    "label": "Hỗ trợ",
+    "title": "Chúng tôi có thể giúp gì?",
+    "introBefore": "Gửi tin nhắn cho chúng tôi bên dưới hoặc email tới ",
+    "introAfter": " — hãy chọn chủ đề trước: phần lớn câu trả lời chỉ cách một chạm, còn mọi vấn đề khác sẽ đến tay một người thật.",
+    "items": [
+      {
+        "title": "Hoàn tiền",
+        "body": "Giao dịch mua trên App Store do Apple thanh toán, nên yêu cầu hoàn tiền được gửi tới Apple và do Apple quyết định. Hướng dẫn giúp bạn làm trong chưa đầy hai phút.",
+        "slug": "refund-apple"
+      },
+      {
+        "title": "Không nhận được SMS",
+        "body": "Việc giao tin phụ thuộc vào dịch vụ, quốc gia và các bước kiểm tra riêng của dịch vụ. Nếu không có gì đến, xu sẽ tự động được hoàn lại. Xem quốc gia nào đang hoạt động tốt nhất lúc này.",
+        "slug": "sms-not-received"
+      },
+      {
+        "title": "Thiếu xu",
+        "body": "Đã thanh toán nhưng không có xu? Thường là do thanh toán Apple đang xử lý hoặc một tài khoản SMS Code khác. Hãy kiểm tra các bước này trước khi mua lại.",
+        "slug": "missing-coins"
+      },
+      {
+        "title": "Giữ số dư",
+        "body": "Xu của bạn thuộc về tài khoản SMS Code, không phải biên lai App Store. Hãy đăng nhập (Apple, Google hoặc mã qua email) khi còn xu để chúng theo bạn sang mọi thiết bị.",
+        "slug": "account-balance"
+      }
+    ],
+    "readGuide": "Đọc hướng dẫn",
+    "knowledgeBase": "Cơ sở kiến thức",
+    "safetyTitle": "Chọn quốc gia và giữ an toàn",
+    "safetyLink": "Cách chọn quốc gia và bảo vệ tài khoản"
+  },
+  "form": {
+    "name": "Tên của bạn",
+    "namePlaceholder": "Minh",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "stepTopic": "Chúng tôi có thể giúp gì?",
+    "topics": {
+      "refund": "Hoàn tiền giao dịch mua",
+      "sms": "Không nhận được SMS",
+      "code": "Mã bị từ chối hoặc số bị chặn",
+      "coins": "Thiếu xu sau khi mua",
+      "account": "Tài khoản, khôi phục hoặc xóa",
+      "bug": "Có gì đó không hoạt động",
+      "feature": "Đề xuất tính năng",
+      "other": "Vấn đề khác"
+    },
+    "selfServe": {
+      "sms": {
+        "title": "Trước khi viết: hầu hết SMS bị thiếu sẽ tự được giải quyết",
+        "points": [
+          "Nếu không có SMS nào đến trong thời hạn kích hoạt, lần kích hoạt sẽ đóng và xu của nó tự động được hoàn vào số dư.",
+          "Việc giao tin phụ thuộc vào dịch vụ và quốc gia. Một số dịch vụ chặn số ảo ở một số quốc gia, vì vậy hãy thử quốc gia khác có mức giao tin tốt hơn.",
+          "Hãy đảm bảo dịch vụ gửi mã qua SMS, không phải cuộc gọi thoại hay tới một ứng dụng bạn đã đăng nhập."
+        ]
+      },
+      "code": {
+        "title": "Trước khi viết: vì sao mã bị từ chối",
+        "points": [
+          "Dịch vụ quyết định có chấp nhận số hay không. Một số đã từng được dùng, hoặc một quốc gia mà dịch vụ hạn chế, có thể bị từ chối ngay cả sau khi SMS đã đến.",
+          "Dùng mã mới nhất, cho cùng tài khoản và dịch vụ, không có dấu cách.",
+          "Ngừng lặp lại các lần thử trả phí trên cùng dịch vụ và quốc gia. Hãy đổi quốc gia, hoặc viết cho chúng tôi để được xem xét."
+        ]
+      },
+      "coins": {
+        "title": "Trước khi viết: xu thường ở đâu",
+        "points": [
+          "Thanh toán Apple đang xử lý có thể mất vài phút. Hãy mở lại ứng dụng trước khi mua lại.",
+          "Xu thuộc về tài khoản SMS Code đã mua chúng. Hãy đăng nhập bằng cùng tài khoản Apple, Google hoặc email.",
+          "Vẫn thiếu? Gửi cho chúng tôi mã đơn hàng Apple (trong email biên lai của Apple) và chúng tôi sẽ truy tìm."
+        ]
+      },
+      "account": {
+        "title": "Trước khi viết: giải đáp về tài khoản",
+        "points": [
+          "Đăng nhập bằng Apple, Google hoặc mã qua email để giữ số dư trên mọi thiết bị.",
+          "Bạn có thể xóa tài khoản trong ứng dụng: Cài đặt → Xóa tài khoản. Việc xóa không hoàn lại khoản thanh toán Apple.",
+          "Mất số dư sau khi cài lại? Viết cho chúng tôi kèm mã đơn hàng Apple."
+        ]
+      }
+    },
+    "readGuide": "Đọc toàn bộ hướng dẫn",
+    "solved": "Đã giải quyết",
+    "stillNeed": "Tôi vẫn cần trợ giúp",
+    "solvedTitle": "Rất vui vì đã giúp được",
+    "solvedBody": "Nếu có gì thay đổi, hãy quay lại trang này bất cứ lúc nào.",
+    "changeTopic": "Đổi chủ đề",
+    "refundNote": "Chúng tôi không thể hoàn tiền cho giao dịch mua trên App Store. Chỉ Apple mới có thể chấp thuận, tại reportaproblem.apple.com. Hãy viết cho chúng tôi nếu Apple yêu cầu bạn liên hệ nhà phát triển, hoặc nếu bạn cần hồ sơ giao dịch.",
+    "orderId": "Mã đơn hàng Apple (không bắt buộc)",
+    "orderIdPlaceholder": "ví dụ: MXXXXXXXXX",
+    "service": "Dịch vụ",
+    "servicePlaceholder": "ví dụ: Telegram",
+    "country": "Quốc gia",
+    "countryPlaceholder": "ví dụ: Indonesia",
+    "when": "Khoảng khi nào?",
+    "whenPlaceholder": "ví dụ: hôm nay khoảng 14:00 (UTC+7)",
+    "accountAttached": "ID tài khoản SMS Code và phiên bản ứng dụng của bạn được đính kèm, nên bạn không cần tìm chúng.",
+    "messagePlaceholders": {
+      "refund": "Chuyện gì đã xảy ra, và Apple có yêu cầu bạn liên hệ chúng tôi không?",
+      "sms": "Bạn nhận được số nào, và dịch vụ báo gì?",
+      "code": "Dịch vụ báo gì khi từ chối mã?",
+      "coins": "Bạn đã mua gói nào, và khi nào?",
+      "account": "Bạn cần giúp gì?",
+      "bug": "Bạn đã chạm vào đâu, bạn mong đợi gì, và điều gì đã xảy ra thay vào đó?",
+      "feature": "Bạn muốn SMS Code làm được gì?",
+      "other": "Hãy cho chúng tôi biết chuyện gì đã xảy ra."
+    },
+    "message": "Tin nhắn",
+    "honeypot": "Để trống trường này",
+    "send": "Gửi tin nhắn",
+    "sending": "Đang gửi…",
+    "genericError": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "sentChip": "Đã gửi",
+    "sentTitle": "Đã nhận tin nhắn",
+    "sentBody": "Yêu cầu của bạn đã được gửi. Chúng tôi sẽ xem xét và trả lời tới địa chỉ email bạn đã cung cấp.",
+    "sendAnother": "Gửi tin nhắn khác"
+  },
+  "help": {
+    "label": "Cơ sở kiến thức",
+    "updatedLabel": "Cập nhật lần cuối:",
+    "back": "Hỗ trợ và biểu mẫu liên hệ",
+    "appleTitle": "Hướng dẫn chính thức của Apple",
+    "appleLinks": {
+      "refund": "Yêu cầu hoàn tiền",
+      "instructions": "Hướng dẫn hoàn tiền của Apple",
+      "status": "Trạng thái hoàn tiền và thời gian thanh toán",
+      "terms": "Điều khoản khu vực của Apple",
+      "support": "Hỗ trợ Apple"
+    },
+    "appleNote": "Hướng dẫn đã được đối chiếu với tài liệu hỗ trợ chính thức của Apple vào ngày 30 tháng 9 năm 2026. Quyền được hoàn tiền phụ thuộc vào khu vực của bạn và pháp luật hiện hành.",
+    "related": "Trợ giúp liên quan",
+    "terms": "Điều khoản dịch vụ",
+    "privacy": "Chính sách quyền riêng tư",
+    "stillNeedTitle": "Vẫn cần trợ giúp?",
+    "stillNeedBody": "Nếu trang này chưa giải quyết được, hãy gửi yêu cầu cho chúng tôi. Yêu cầu sẽ đến tay một người thật, và các thông tin ở trên giúp chúng tôi trả lời nhanh hơn.",
+    "submitAnyway": "Vẫn gửi yêu cầu",
+    "tiers": {
+      "title": "SMS đang đến tốt ở đâu lúc này",
+      "intro": "Chọn một dịch vụ để xem SMS đã đến số của chúng tôi ổn định thế nào ở từng quốc gia trong 30 ngày qua. Nếu quốc gia của bạn ở mức thấp, hãy chuyển sang quốc gia ở mức cao.",
+      "service": "Dịch vụ",
+      "pick": "Chọn dịch vụ",
+      "high": "Cao",
+      "medium": "Trung bình",
+      "low": "Thấp",
+      "unavailable": "hiện không có số",
+      "note": "Dựa trên các lần kích hoạt SMS Code gần đây và được cập nhật mỗi giờ. Chỉ hiển thị các cặp dịch vụ và quốc gia có đủ đơn hàng gần đây. Việc giao tin trước đây không đảm bảo SMS tiếp theo, và dịch vụ vẫn quyết định có chấp nhận số hay không."
+    }
+  },
+  "api": {
+    "invalidBody": "Nội dung yêu cầu không hợp lệ.",
+    "invalidJson": "JSON không hợp lệ.",
+    "name": "Vui lòng nhập tên của bạn.",
+    "email": "Vui lòng nhập địa chỉ email hợp lệ.",
+    "topic": "Chủ đề quá dài.",
+    "message": "Vui lòng mô tả vấn đề bằng lời của bạn (ít nhất 10 ký tự).",
+    "unavailable": "Biểu mẫu hỗ trợ tạm thời không khả dụng. Vui lòng gửi email cho chúng tôi.",
+    "saveFailed": "Chúng tôi không thể lưu tin nhắn của bạn. Vui lòng thử lại hoặc gửi email cho chúng tôi.",
+    "forbidden": "Yêu cầu này không đến từ trang hỗ trợ. Vui lòng tải lại trang và thử lại.",
+    "challenge": "Vui lòng hoàn tất bước kiểm tra xác minh và thử lại.",
+    "replySubject": "Hỗ trợ SMS Code"
+  }
+}

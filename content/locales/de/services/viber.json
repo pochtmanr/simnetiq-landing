@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Viber — ohne SIM-Karte registrieren",
+  "metaDescription": "Aktiviere Viber mit einer echten virtuellen Nummer aus über 100 Ländern. Code meist in Sekunden – Zahlung pro Aktivierung, Abbruch gratis ohne SMS.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Viber",
+    "intro": [
+      "Viber spielt nach derselben Regel wie WhatsApp: Deine Telefonnummer ist das Konto. Mit ihr registrierst du dich, sie sehen deine Kontakte, und an ihr hängt jeder Chat. In Osteuropa, auf dem Balkan und auf den Philippinen ist Viber schlicht der Ort, an dem der Familienchat lebt – früher oder später brauchst du also eine Nummer, um mitzumachen.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, gibst sie im Aktivierungsbildschirm von Viber ein, und der Code erscheint meist innerhalb von Sekunden in der App. Du zahlst pro Aktivierung aus einem einmaligen Münzpaket – kein Abo –, und eine Nummer, die nichts empfangen hat, lässt sich kostenlos abbrechen."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Viber?",
+    "body": [
+      "Weil die Nummer die Identität ist, sieht jeder, mit dem du auf Viber chattest, sie – Community-Mitglieder, Verkäufer auf Marktplätzen, der Chat der Hausbewohner. Ihnen allen die Nummer zu geben, unter der deine Bank anruft, ist ein größeres Zugeständnis, als es aussieht. Eine virtuelle Nummer hält das Konto voll funktionsfähig, während die angezeigte Nummer nicht die ist, die mit dem Rest deines Lebens verdrahtet ist.",
+      "Es gibt auch einen regionalen Aspekt. Viber ist oft der Messenger eines bestimmten Kreises – Verwandte in der Ukraine, Geschäftskontakte in Manila, eine Nachbarschaftsgruppe in Warschau –, und Viber bindet ein Konto an eine Nummer auf einem Haupttelefon. Eine gemietete Nummer lässt dich für diesen Kreis eine eigene Identität anlegen, ohne zweite SIM und ohne sie mit der Nummer zu vermischen, die du überall sonst nutzt."
+    ]
+  },
+  "howTo": {
+    "title": "So aktivierst du Viber mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code holen",
+        "body": "Öffne die App SMS Code, wähle Viber als Dienst, such dir ein Land aus und tippe einmal. Eine echte Mobilnummer ist für die Dauer der Aktivierung nur für dich reserviert."
+      },
+      {
+        "title": "Im Aktivierungsbildschirm von Viber eingeben",
+        "body": "Wähle das passende Land und tippe die Nummer genau so ein, wie sie ausgegeben wurde. Bietet Viber stattdessen eine Bestätigung per Anruf an, bleib bei SMS – das ist es, was in der App SMS Code landet."
+      },
+      {
+        "title": "Code holen",
+        "body": "Die SMS kommt meist innerhalb von Sekunden an, vom Absender „Viber“, im Format „Your Viber code: 528114“. Tippe die Ziffern in Viber ein, und das Konto ist aktiviert."
+      },
+      {
+        "title": "Backup machen und einrichten",
+        "body": "Lege Namen und Foto fest und erstelle dann ein Chat-Backup unter Einstellungen → Konto → Backup (Google Drive oder iCloud). Viber fragt nur bei einer erneuten Aktivierung wieder nach der Nummer – ein Backup plus eine ununterbrochene Sitzung sind also alle Versicherung, die du brauchst."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Installier nicht aus einer Laune heraus neu",
+      "body": "Viber bestätigt die Nummer erneut, wann immer die App neu installiert oder auf ein neues Telefon umgezogen wird. Solange du angemeldet bleibst, funktioniert das Konto einfach – lange nach dem Ende des Aktivierungsfensters. Betrachte eine Neuinstallation als etwas, das du bewusst und mit Backup tust, nicht als schnelle Lösung."
+    },
+    {
+      "title": "Dein Telefon ist das Hauptgerät",
+      "body": "Viber auf Desktop und Tablet spiegelt nur das Konto, das auf deinem Telefon lebt – diese Geräte sind damit verknüpft, nicht unabhängig. Lass die App auf dem Telefon installiert und angemeldet; fällt sie weg, fallen die verknüpften Geräte mit."
+    },
+    {
+      "title": "Begrenze, was Fremde sehen",
+      "body": "Unter Einstellungen → Datenschutz kannst du deinen Online-Status und dein Foto vor Leuten außerhalb deiner Kontakte verbergen. In öffentlichen Communitys zeigt Viber ohnehin einen Spitznamen statt einer Nummer – aber diese Schalter enger zu stellen, ist bei jedem Konto gute Hygiene."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Funktioniert Viber weiter, wenn die gemietete Nummer abläuft?",
+      "a": "Ja. Die Nummer wird bei der Aktivierung geprüft, nicht laufend. Bleib auf deinem Telefon angemeldet, und alles funktioniert normal; die Nummer würde nur bei einer Neuinstallation oder einem Gerätewechsel wieder gebraucht – mach also ein Backup und tu das nicht beiläufig."
+    },
+    {
+      "q": "Sehen meine Kontakte, dass die Nummer virtuell ist?",
+      "a": "Sie sehen die Nummer selbst – so funktioniert Viber, genau wie WhatsApp –, aber sie sieht aus wie jede gewöhnliche Mobilnummer, weil sie eine ist. Und genau das ist der Punkt: Die Nummer, die sie sehen, ist nicht deine private."
+    },
+    {
+      "q": "Kann ich ein zweites Viber Konto auf demselben Telefon betreiben?",
+      "a": "Nicht innerhalb von Viber selbst – die App unterstützt ein Konto pro Telefon als Hauptgerät. In der Praxis braucht ein zweites Konto entweder ein zweites Gerät oder die App-Klon-Funktion, die manche Android-Telefone bieten. Jedes Konto braucht, wo immer es lebt, seine eigene Nummer."
+    },
+    {
+      "q": "Warum ist mein Viber Code nicht angekommen?",
+      "a": "Prüfe zuerst die Grundlagen: Das in Viber gewählte Land muss zur gemieteten Nummer passen. Stimmt es und die SMS kommt trotzdem nicht, brich die offene Aktivierung in SMS Code ab – für Nummern, die nichts empfangen haben, gibt es die Münzen zurück – und nimm eine neue Nummer. Wähle SMS statt eines Rückrufs, wenn Viber beides anbietet."
+    },
+    {
+      "q": "Ist es erlaubt, Viber mit einer gemieteten Nummer zu aktivieren?",
+      "a": "Viber prüft bei der Aktivierung, dass du die Nummer kontrollierst – was du für die Dauer der Miete tust. Für normale private Nutzung ist das alles; worauf es danach ankommt, sind die eigenen Regeln von Viber, und die drehen sich um Verhalten, nicht darum, auf wessen Namen die Nummer läuft."
+    }
+  ]
+}

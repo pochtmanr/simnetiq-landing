@@ -1,0 +1,127 @@
+{
+  "title": "Por qué las apps rechazan los números VoIP al registrarte",
+  "description": "«Este número no se puede usar» suele significar que la app consultó el tipo de línea y vio VoIP. Cómo funciona esa comprobación y qué números la pasan.",
+  "excerpt": "Escribe un número de Google Voice o TextNow en WhatsApp o en una app bancaria y a menudo lo rechaza al instante. La razón es una consulta de la que casi nadie ha oído hablar: así distinguen las apps un número VoIP de uno móvil, y esto es lo que significa para elegir tu número.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Pasa en menos de un segundo. Escribes un número de teléfono perfectamente válido en un formulario de registro, pulsas «Continuar» y recibes un rechazo seco: «Este número de teléfono no se puede usar para la verificación», o el más vago «Introduce un número de móvil válido». El número funciona. Recibe mensajes de tus amigos. La app simplemente decidió que era el tipo de número equivocado."
+    },
+    {
+      "type": "p",
+      "text": "Lo que ocurrió en ese segundo fue una consulta del tipo de línea, una de las comprobaciones menos visibles y más decisivas de los registros actuales. Entenderla explica por qué algunos números virtuales superan la verificación sin problema y otros nunca pasan de la primera pantalla."
+    },
+    {
+      "type": "h2",
+      "id": "what-a-line-type-lookup-is",
+      "text": "Qué comprueba realmente una consulta de tipo de línea"
+    },
+    {
+      "type": "p",
+      "text": "Cada número de teléfono se asigna, en bloques, a una operadora, y cada operadora está registrada para un tipo de servicio. Las autoridades de numeración y las operadoras publican quién tiene qué bloques; las bases de datos de portabilidad registran los números que han cambiado de operadora. Proveedores comerciales de datos combinan esas fuentes en una API que responde a una pregunta sencilla sobre cualquier número: quién le da servicio y qué tipo de línea es."
+    },
+    {
+      "type": "p",
+      "text": "Twilio, uno de los mayores proveedores, vende esta comprobación como «Line Type Intelligence» y documenta las categorías que devuelve. Las tres que más importan en un registro son:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Móvil: un número en una red de operadora móvil, asociado a una SIM, que en general puede recibir SMS.",
+        "VoIP fijo: un número que llega por internet y está vinculado a una dirección física de servicio, como la línea fija de una compañía de cable.",
+        "VoIP no fijo: un número obtenido en línea sin ningún dispositivo ni dirección física detrás. La propia documentación de Twilio pone Google Voice como ejemplo."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Hay otras categorías —fijo, número gratuito, buscapersonas, número personal—, pero para una app que decide si envía un código de verificación, la línea que importa es la que separa el móvil del VoIP no fijo."
+    },
+    {
+      "type": "h2",
+      "id": "why-apps-block-non-fixed-voip",
+      "text": "Por qué las apps bloquean el VoIP no fijo"
+    },
+    {
+      "type": "p",
+      "text": "La verificación por teléfono existe para que las cuentas falsas salgan caras. Un número móvil cuesta dinero, suele requerir una SIM y, en más de 150 países, una identidad registrada. Esa fricción es justamente la idea."
+    },
+    {
+      "type": "p",
+      "text": "Los números VoIP no fijos eliminan la mayor parte. Muchos se crean en minutos, algunos gratis, en masa, con una dirección de correo. Para un equipo antifraude, una cuenta verificada con uno de ellos ofrece poco más que una verificada por correo. Por eso las plataformas más expuestas al abuso —mensajería, pagos, marketplaces, apps de citas, exchanges de criptomonedas— los rechazan de forma rutinaria antes de enviar un solo SMS."
+    },
+    {
+      "type": "callout",
+      "text": "El rechazo suele producirse antes de enviar nada. Si un formulario rechaza tu número al instante, por mucho que esperes no llegará ningún código: la app ya decidió no enviarlo."
+    },
+    {
+      "type": "h2",
+      "id": "the-cost-for-real-users",
+      "text": "El precio para los usuarios reales"
+    },
+    {
+      "type": "p",
+      "text": "La política es tosca y atrapa a gente a la que nunca iba dirigida. Estadounidenses que usan Google Voice como línea principal se ven fuera de las apps de su banco. Pequeñas empresas que pasaron sus teléfonos a un proveedor VoIP descubren que su número corporativo no sirve para abrir las cuentas que necesitan. Viajeros que usan un número VoIP para evitar el roaming se encuentran con que «no es compatible»."
+    },
+    {
+      "type": "p",
+      "text": "También hay un argumento de seguridad en sentido contrario. Los códigos por SMS ya son un segundo factor débil: el organismo de estándares estadounidense NIST clasifica ahora los códigos de un solo uso por SMS y por voz como autenticador «restringido» por el duplicado de SIM y la interceptación. Algunos equipos de seguridad sostienen que lo que una plataforma debería comprobar es si el usuario puede demostrar con el tiempo que controla la cuenta, no qué tipo de número tiene. Por ahora, sin embargo, el filtrado por tipo de línea es la norma del sector y no va a desaparecer."
+    },
+    {
+      "type": "h2",
+      "id": "which-numbers-get-through",
+      "text": "Qué números pasan"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tu propio número móvil: pasa siempre, y siempre expone tu identidad personal al servicio.",
+        "Una segunda SIM o eSIM: pasa, a cambio de un plan, a menudo una comprobación de identidad y un número que mantener vivo.",
+        "Los números de webs para «recibir SMS gratis»: muchas veces son VoIP no fijo o están bloqueados desde hace tiempo; incluso cuando pasan, la bandeja de entrada es pública.",
+        "Los números de apps VoIP gratuitas: justo la categoría que las consultas de tipo de línea se diseñaron para detectar.",
+        "Un número móvil alquilado: registrado como móvil en una red de operadora, así que supera la consulta como cualquier abonado y queda reservado para ti durante la activación."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Esa última categoría es lo que ofrece SMS Code. Los números son móviles en redes de operadoras de más de 100 países, no líneas VoIP generadas por una app. La consulta ve un abonado normal; el código se entrega por SMS como cualquier otro; y aparece en la app normalmente en segundos."
+    },
+    {
+      "type": "p",
+      "text": "Ningún número supera todas las comprobaciones siempre. Los servicios también miran si un número ya se usó en su plataforma, además de señales del dispositivo y patrones de registro. Si un número alquilado es rechazado o no llega el código, puedes cancelar pasados dos minutos —las monedas vuelven a tu saldo si no llegó ningún SMS— y probar con otro número u otro país."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Preguntas frecuentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "¿Cómo sabe una app que mi número es VoIP?",
+          "a": "Consulta a un proveedor de datos telefónicos que relaciona bloques de números y números portados con operadoras y tipos de línea. La respuesta —móvil, fijo, VoIP fijo, VoIP no fijo— llega en milisegundos, antes de enviar ningún SMS."
+        },
+        {
+          "q": "¿Por qué WhatsApp dice que mi número no es válido si recibe mensajes?",
+          "a": "Muchas apps de mensajería y de pago rechazan de plano los números VoIP no fijos. El número puede recibir SMS; la plataforma simplemente no acepta ese tipo de línea para verificar."
+        },
+        {
+          "q": "¿Un número virtual es lo mismo que un número VoIP?",
+          "a": "No necesariamente. «Virtual» describe cómo accedes al número: desde una app y no con una SIM en tu teléfono. Los números virtuales de SMS Code son móviles en redes de operadoras, así que se clasifican como móviles, no como VoIP."
+        },
+        {
+          "q": "¿Puede rechazarse igualmente un número móvil alquilado?",
+          "a": "A veces. Las plataformas también comprueban si un número ya se usó en su servicio y revisan otras señales de riesgo. Si pasa, cancela la activación pasados dos minutos y toma un número nuevo."
+        },
+        {
+          "q": "¿Debo usar un número VoIP para mi banco?",
+          "a": "Los bancos suelen rechazar los números VoIP y vuelven a verificar por SMS durante años. Para la banca, usa un número móvil registrado a tu nombre."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

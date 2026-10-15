@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Twitch — Xác minh chat và 2FA riêng tư",
+  "metaDescription": "Nhận mã SMS của Twitch trên số ảo thật thường chỉ trong vài giây. Vượt qua chat yêu cầu điện thoại và thiết lập 2FA mà không gắn số vào kênh của bạn.",
+  "hero": {
+    "title": "Số ảo cho Twitch",
+    "intro": [
+      "Twitch cho phép đăng ký chỉ với email — rồi bước điện thoại bắt đầu bám theo bạn. Streamer bật chế độ chat yêu cầu xác minh điện thoại để chặn bot, xác thực hai yếu tố là bắt buộc trước khi bạn có thể phát trực tiếp, và ngay khi một trong hai xảy ra, Twitch muốn nhắn một mã như “Your Twitch verification code is 843921” tới số của bạn.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia và mã đến ứng dụng thường chỉ trong vài giây. Tin nhắn chat được gửi, 2FA được bật — và số điện thoại nằm cạnh tên kênh của bạn trong cơ sở dữ liệu Twitch chưa bao giờ là số cá nhân của bạn."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Twitch?",
+    "body": [
+      "Twitch là danh tính công khai theo cách hầu hết tài khoản không phải: tên người dùng hiện trên màn hình, lịch sử chat công khai, và nếu bạn stream, người lạ chủ động tìm hiểu về bạn. Gắn danh tính đó với số di động cá nhân nghĩa là chỉ một vụ rò rỉ dữ liệu hay một tranh cãi với mod thiếu cẩn trọng đứng giữa khán giả internet và chiếc điện thoại trong túi bạn. Số thuê đảm nhận bước xác minh để hình ảnh công khai và số cá nhân không bao giờ chạm nhau.",
+      "Mặt trái thẳng thắn: điện thoại trên tài khoản Twitch không phải để trang trí. Chat yêu cầu xác minh điện thoại kiểm tra nó, và 2FA qua SMS phụ thuộc vào nó. Vì vậy cách làm hợp lý là xác minh bằng số thuê, rồi chuyển ngay 2FA sang ứng dụng xác thực trong cài đặt bảo mật — Twitch hỗ trợ và thậm chí ưu tiên điều đó. Số làm đúng một việc ở thời điểm xác minh; việc đăng nhập lâu dài của bạn không bao giờ phụ thuộc vào nó."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Twitch bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Chọn Twitch làm dịch vụ và chọn quốc gia — khớp với nơi bạn thực sự xem hoặc stream giữ mọi thứ nhất quán. Một chạm giữ cho bạn một số di động thật."
+      },
+      {
+        "title": "Thêm số trong cài đặt bảo mật Twitch",
+        "body": "Trong Cài đặt → Bảo mật và quyền riêng tư, chọn thêm số điện thoại (hoặc làm theo lời nhắc khi chat của một kênh yêu cầu xác minh điện thoại). Chọn mã quốc gia của số và nhập chính xác."
+      },
+      {
+        "title": "Nhập mã",
+        "body": "SMS ghi “Your Twitch verification code is 843921” và hiện trong ứng dụng SMS Code thường chỉ trong vài giây. Nhập mã trên Twitch và số đã được xác minh."
+      },
+      {
+        "title": "Chuyển 2FA sang ứng dụng xác thực",
+        "body": "Nếu bạn đã bật xác thực hai yếu tố để stream, hãy chuyển nó từ SMS sang ứng dụng xác thực ngay trên cùng màn hình cài đặt. Sau đó số thuê không còn vai trò lâu dài nào — việc đăng nhập và stream của bạn không phụ thuộc vào nó."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Một số, một tài khoản",
+      "body": "Twitch liên kết các tài khoản dùng chung số điện thoại — và nếu một trong số đó bị đình chỉ, những tài khoản khác gắn cùng số có thể bị kéo theo. Hãy cho mỗi tài khoản lần kích hoạt riêng thay vì tái sử dụng một số cho nhiều tài khoản."
+    },
+    {
+      "title": "Chat yêu cầu điện thoại là theo từng kênh",
+      "body": "Bạn thường xem Twitch nhiều tháng không gặp lời nhắc điện thoại, rồi bất ngờ vào một kênh lớn có chat đòi điện thoại. Xác minh một lần là có hiệu lực ở mọi nơi — vì vậy hãy làm theo lịch của bạn, không phải giữa cao trào khi chat bạn muốn tham gia đã trôi đi."
+    },
+    {
+      "title": "Một số không gỡ được lệnh cấm",
+      "body": "Lệnh cấm trên kênh và đình chỉ toàn trang được thực thi qua tín hiệu riêng của Twitch, không chỉ qua điện thoại. Số ảo giữ kín số cá nhân của bạn — nó không phải công cụ né lệnh cấm, và né đình chỉ vi phạm điều khoản của Twitch, thường khiến mọi tài khoản liên kết bị gắn cờ."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Twitch có yêu cầu số điện thoại khi đăng ký không?",
+      "a": "Không — đăng ký chỉ cần email. Điện thoại xuất hiện sau: khi chat của một kênh yêu cầu xác minh điện thoại, khi bạn bật xác thực hai yếu tố qua SMS, hoặc trước khi bắt đầu stream. Khi một trong những lúc đó đến, số ảo nhận mã đúng như một chiếc SIM."
+    },
+    {
+      "q": "Tài khoản Twitch có còn hoạt động sau khi số đã thuê hết hạn không?",
+      "a": "Có. Số được kiểm tra lúc xác minh, không phải liên tục. Giữ email đã xác nhận, dùng mật khẩu mạnh và chuyển 2FA sang ứng dụng xác thực — sau đó không gì trong việc đăng nhập phụ thuộc vào số thuê."
+    },
+    {
+      "q": "Tôi có thể xác minh nhiều tài khoản Twitch bằng một số ảo không?",
+      "a": "Có thể, nhưng không nên. Twitch coi số điện thoại dùng chung là mối liên kết giữa các tài khoản, và biện pháp xử lý có thể lan qua chúng. Hãy thuê lần kích hoạt riêng cho mỗi tài khoản bạn muốn đứng độc lập."
+    },
+    {
+      "q": "Tôi có cần xác minh điện thoại để stream trên Twitch không?",
+      "a": "Bạn cần bật xác thực hai yếu tố để stream, và việc thiết lập bắt đầu bằng điện thoại. Xác minh bằng số thuê, rồi chuyển yếu tố thứ hai sang ứng dụng xác thực để các lần đăng nhập sau không bao giờ phải chờ SMS."
+    },
+    {
+      "q": "Vì sao mã Twitch không đến?",
+      "a": "Kiểm tra mã quốc gia có khớp với số đã thuê, và chờ một chút — mã thường đến chỉ trong vài giây. Nếu không có gì đến, hủy lần kích hoạt miễn phí trong SMS Code và lấy số mới; bạn chỉ trả tiền cho những lần kích hoạt có mã."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für LINE — ohne lokale SIM bestätigen",
+  "metaDescription": "Miete eine echte virtuelle Nummer für die Bestätigung bei LINE. Registrieren ohne private Nummer – der Code kommt meist in Sekunden in der App SMS Code.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für LINE",
+    "intro": [
+      "Wenn deine Freunde, Familie oder Kollegen in Japan, Taiwan, Thailand oder Indonesien sind, sagt früher oder später jemand: „Füg mich auf LINE hinzu.“ Die App ist in weiten Teilen Asiens der Standard-Messenger – und sie lässt dich nicht ohne Telefonnummer hinein, die sie per SMS bestätigt, bevor du überhaupt einen Anzeigenamen festlegen kannst.",
+      "SMS Code gibt dir eine echte Nummer aus einem von über 100 Ländern. Gib sie im Registrierungsbildschirm von LINE ein, und der vierstellige Bestätigungscode erscheint meist innerhalb von Sekunden in der App SMS Code – deine eigene Nummer bleibt komplett außen vor."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für LINE?",
+    "body": [
+      "LINE behandelt die Telefonnummer als deine Identität: Damit registrierst du dich, darüber können Freunde dich finden, und darauf greift das Konto im Zweifel zurück. Wenn du LINE nur brauchst, um mit Kontakten in Asien in Verbindung zu bleiben – oder weil ein Spiel oder Dienst, den du nutzt, den Login hinter einem LINE Konto versteckt –, ist deine private Nummer viel verlangt für eine App, die du vielleicht nur gelegentlich nutzt. Eine virtuelle Nummer hält das Konto voll funktionsfähig, während deine echte Nummer privat bleibt.",
+      "Sie löst auch ein praktisches Problem: LINE bindet ein Konto an eine Nummer, wer also ein separates Profil will – etwa eines für eine Hobby-Community oder ein asiatisches Spiel, das einen LINE Login verlangt –, braucht eine zweite Nummer. Eine für eine einzige Aktivierung zu mieten, ist weit einfacher, als eine Ersatz-SIM nur für einen Messenger am Leben zu halten."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du LINE mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code mieten",
+        "body": "Öffne die App SMS Code, wähle LINE als Dienst und such dir ein Land aus – Indonesien und die Philippinen sind beliebt, weil LINE dort weit verbreitet ist. Ein Tippen reserviert eine echte Mobilnummer für dich."
+      },
+      {
+        "title": "LINE Registrierung mit dieser Nummer starten",
+        "body": "Wähle in LINE „Registrieren“, stelle dasselbe Land wie bei deiner gemieteten Nummer ein und tippe sie ein. LINE bietet die Bestätigung per SMS an – nimm diese Option statt eines Sprachanrufs."
+      },
+      {
+        "title": "Code aus SMS Code eingeben",
+        "body": "Die Nachricht kommt meist in Sekunden in der App SMS Code an: „Your verification code is 4820. Enter it in LINE within the next 30 mins.“ Tippe die vier Ziffern in LINE ein, bevor sie ablaufen."
+      },
+      {
+        "title": "E-Mail und Passwort einrichten",
+        "body": "Sobald du drin bist, geh zu Einstellungen → Account und registriere eine E-Mail-Adresse mit Passwort. Das wird dein unabhängiger Login, um LINE später auf ein neues Telefon umzuziehen, sodass das Konto nie von einer weiteren SMS abhängt."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Der Code hat einen Timer",
+      "body": "Die SMS-Codes von LINE laufen ab – die Nachricht selbst sagt, innerhalb wie vieler Minuten. Miete die Nummer nicht und geh dann weg: Halte den Registrierungsbildschirm von LINE offen und bereit, bevor du den Code anforderst, und gib ihn ein, sobald er in SMS Code landet."
+    },
+    {
+      "title": "Registriere sofort eine E-Mail",
+      "body": "LINE bindet Chatverlauf und Kontoübertragungen an die registrierte E-Mail und das Passwort, nicht nur an die Nummer. Füge sie direkt nach der Registrierung unter Einstellungen → Account hinzu – das ist der wichtigste einzelne Schritt, damit das Konto lange nach dem Ende des Aktivierungsfensters der gemieteten Nummer nutzbar bleibt."
+    },
+    {
+      "title": "Schalte „Hinzufügen per Telefonnummer erlauben“ aus",
+      "body": "Deaktiviere in den Freundeseinstellungen von LINE die Option, mit der Leute dich über die Telefonnummer finden und hinzufügen können. Mit einer virtuellen Nummer findet ohnehin niemand deine echte Identität, aber das Ausschalten hält auch Fremde, die Nummern durchprobieren, aus deinen Freundschaftsanfragen fern."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Funktioniert LINE mit einer virtuellen Nummer auch außerhalb Asiens?",
+      "a": "Ja. LINE ist weltweit verfügbar; am beliebtesten ist es nur in Japan, Taiwan, Thailand und Indonesien. Du kannst dich mit einer Nummer aus jedem unterstützten Land registrieren und mit Kontakten überall chatten – das Land der Nummer schränkt nicht ein, mit wem du sprechen kannst."
+    },
+    {
+      "q": "Kann ich ein so erstelltes LINE Konto zum Einloggen in Spiele nutzen?",
+      "a": "Ja. Viele Spiele und Dienste in Asien bieten „Mit LINE anmelden“ an. Sobald dein LINE Konto bestätigt ist und du E-Mail und Passwort registriert hast, funktioniert es als Login-Methode wie jedes andere LINE Konto."
+    },
+    {
+      "q": "Überlebt mein LINE Konto den Ablauf der gemieteten Nummer?",
+      "a": "Die Nummer wird bei der Registrierung geprüft, nicht bei jedem Start. Bleib angemeldet und – ganz wichtig – registriere unter Einstellungen → Account eine E-Mail und ein Passwort. Damit kannst du das Konto sogar auf ein neues Telefon übertragen, ohne auf der alten Nummer eine weitere SMS zu empfangen."
+    },
+    {
+      "q": "Warum ist mein LINE Bestätigungscode nicht angekommen?",
+      "a": "Meist passt das in LINE gewählte Land nicht zur gemieteten Nummer, oder LINE ist auf die Bestätigung per Sprachanruf umgesprungen, den eine gemietete SMS-Nummer nicht annehmen kann. Brich die Aktivierung in SMS Code ab – ohne SMS wird nichts berechnet –, nimm dann eine neue Nummer und achte darauf, dass SMS als Methode gewählt ist."
+    },
+    {
+      "q": "Kann ich zwei LINE Konten auf einem Telefon haben?",
+      "a": "Die LINE App hält ein Konto pro Gerät, ein zweites Konto braucht also entweder ein zweites Gerät oder die Business-Werkzeuge von LINE. Was eine virtuelle Nummer löst, ist die Nummernseite: Jedes Konto muss an eine eigene Nummer gebunden sein, und eine zu mieten erspart den Kauf einer zusätzlichen SIM."
+    }
+  ]
+}

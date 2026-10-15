@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho eBay — Mua và bán một cách riêng tư",
+  "metaDescription": "Nhận mã bảo mật của eBay trên số ảo thật thường chỉ trong vài giây. Đăng ký, bán hàng và vượt qua kiểm tra đăng nhập mà không lộ điện thoại cá nhân.",
+  "hero": {
+    "title": "Số ảo cho eBay",
+    "intro": [
+      "eBay muốn số điện thoại từ sớm và kiểm tra nó thường xuyên. Đăng ký hỏi một số, mở tài khoản người bán bắt buộc có một số, và cơ chế bảo vệ đăng nhập rất thích tạm dừng đăng nhập cho đến khi một tin như “Your eBay security code is 271846” được nhập lại. Với một sàn mà bạn chủ yếu chỉ muốn mua một ống kính máy ảnh, đó là quá nhiều liên kết với điện thoại cá nhân.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia và mã hiện trong ứng dụng thường chỉ trong vài giây. Tài khoản được xác minh, tin đăng được đăng — và số trong hồ sơ liên hệ của eBay không phải số trong túi bạn."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho eBay?",
+    "body": [
+      "Một tài khoản sàn thương mại gom lại một lượng thông tin về bạn khác thường ở một chỗ: lịch sử mua hàng, địa chỉ, thẻ, và — nếu điện thoại là của bạn — một đường dây trực tiếp tồn tại lâu hơn mọi giao dịch. eBay có hàng chục năm dữ liệu khách hàng tích lũy và một lịch sử dài là mục tiêu lừa đảo: “tài khoản eBay của bạn có vấn đề, bấm vào đây” là cả một thể loại SMS lừa đảo. Số thuê đảm nhận bước xác minh, để thể loại đó diễn ra trên một số chưa bao giờ thực sự là của bạn.",
+      "Mặt trái thẳng thắn: eBay dùng điện thoại cho nhiều việc hơn đăng ký. Mã bảo mật khi đăng nhập, kiểm tra danh tính người bán và tính năng liên lạc giữa người mua với người bán đều có thể dùng đến nó sau này. Vì vậy cách làm hiệu quả là: xác minh bằng số thuê, rồi giữ email làm điểm tựa của tài khoản và cập nhật điện thoại trong cài đặt nếu bạn ngừng thuê. Một tài khoản eBay không nhận được mã bảo mật của chính nó sẽ khóa chủ nhân ra ngoài vào lúc tệ nhất — đừng để số đó âm thầm trở nên vô dụng."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh eBay bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Chọn eBay làm dịch vụ và chọn quốc gia của trang eBay bạn thực sự dùng — ebay.com, ebay.co.uk, ebay.de và các trang khác dùng chung một tài khoản, nhưng số khớp quốc gia giúp thông tin đăng ký nhất quán."
+      },
+      {
+        "title": "Nhập số nơi eBay yêu cầu",
+        "body": "Khi đăng ký, khi thiết lập tài khoản người bán, hoặc khi cơ chế bảo vệ đăng nhập yêu cầu xác nhận điện thoại. Chọn mã quốc gia của số và nhập cẩn thận."
+      },
+      {
+        "title": "Nhập mã",
+        "body": "SMS có dạng “Your eBay security code is 271846” và hiện trong ứng dụng SMS Code thường chỉ trong vài giây. Nhập mã trên eBay và số đã được xác nhận."
+      },
+      {
+        "title": "Lấy email làm điểm tựa của tài khoản",
+        "body": "Xác nhận địa chỉ email, đặt mật khẩu mạnh, và coi điện thoại là một trạm kiểm tra chứ không phải nền móng. Nếu bạn không giữ số thuê, hãy thay nó trong Cài đặt tài khoản → Thông tin cá nhân sau khi thiết lập xong, để mã bảo mật sau này đến nơi bạn thực sự đọc."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Bán hàng nâng tiêu chuẩn",
+      "body": "Tài khoản người mua có thể đi qua với kiểm tra tối thiểu, nhưng đăng ký làm người bán kích hoạt việc xác minh danh tính và thanh toán thực sự — thông tin ngân hàng, đôi khi giấy tờ. Số ảo xử lý bước SMS của quy trình đó; phần còn lại là giữa bạn và quy trình onboarding người bán của eBay, và không thể bỏ qua."
+    },
+    {
+      "title": "Kiểm tra đăng nhập sẽ quay lại",
+      "body": "Cơ chế bảo vệ đăng nhập của eBay nhắn lại tới điện thoại trên thiết bị mới và khi có hoạt động bất thường, đôi khi nhiều tháng sau. Nếu số thuê đã hết hạn và điện thoại trong hồ sơ không còn dùng được, khôi phục tài khoản sẽ thành một phiếu hỗ trợ. Hãy cập nhật số trong cài đặt trước khi điều đó xảy ra, đừng đợi đến sau."
+    },
+    {
+      "title": "Một tài khoản là số lượng đúng",
+      "body": "eBay liên kết tài khoản qua nhiều thứ hơn số điện thoại — địa chỉ, phương thức thanh toán, thiết bị. Số ảo sẽ không hồi sinh tài khoản bị đình chỉ hay giúp chồng phiếu khuyến mãi, và thử làm vậy thường khiến tất cả tài khoản liên kết bị đóng cùng lúc. Hãy dùng nó cho quyền riêng tư trên tài khoản bạn giữ."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "eBay có chấp nhận số ảo không?",
+      "a": "eBay xác minh rằng một số có thể nhận SMS của họ — và số thuê từ SMS Code là số di động thật trên mạng nhà mạng, nên mã đến như mọi tin nhắn khác. Ngược lại, số từ các trang SMS miễn phí thường bị nhận diện và từ chối."
+    },
+    {
+      "q": "Tôi có thể bán hàng trên eBay với số ảo không?",
+      "a": "Bước xác minh điện thoại thì có — đăng ký người bán gửi mã và số thuê nhận được. Nhưng bán hàng còn bao gồm xác minh thanh toán và danh tính qua quy trình riêng của eBay, mà số điện thoại không ảnh hưởng. Hãy chuẩn bị hoàn tất bước đó bằng thông tin thật."
+    },
+    {
+      "q": "Tài khoản eBay có tồn tại sau khi số đã thuê hết hạn không?",
+      "a": "Có — tài khoản dựa vào email và mật khẩu. Chỉ đừng để một số đã chết làm liên hệ bảo mật: hãy thay hoặc cập nhật điện thoại trong Cài đặt tài khoản để xác nhận đăng nhập và cảnh báo đến số bạn vẫn đọc."
+    },
+    {
+      "q": "Số nên đến từ quốc gia nào?",
+      "a": "Quốc gia bạn thực sự mua hoặc bán. Địa chỉ, phương thức thanh toán và điện thoại kể cho eBay một câu chuyện nhất quán; một số từ châu lục khác với địa chỉ giao hàng sẽ mời thêm xác minh chứ không giảm bớt."
+    },
+    {
+      "q": "Mã eBay không đến — làm gì bây giờ?",
+      "a": "Kiểm tra lại mã quốc gia có khớp với số đã thuê và chờ một phút; eBay đôi khi đề nghị cuộc gọi thoại thay thế, vốn không đến được số SMS thuê — hãy yêu cầu lại tin nhắn. Nếu không có gì đến, hủy lần kích hoạt miễn phí trong SMS Code và lấy số mới."
+    }
+  ]
+}

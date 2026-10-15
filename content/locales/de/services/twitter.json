@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für X (Twitter) — ohne deine Nummer",
+  "metaDescription": "Besteh die Telefonprüfung von X (Twitter) mit einer echten virtuellen Nummer aus über 100 Ländern. Code meist in Sekunden; Abbruch gratis ohne SMS.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für X (Twitter)",
+    "intro": [
+      "Ein X Konto kannst du allein mit einer E-Mail erstellen – das Registrierungsformular selbst besteht nicht auf einem Telefon. Der Haken kommt Minuten oder Tage später: Neue Konten werden routinemäßig gesperrt, „um zu bestätigen, dass du kein Roboter bist“, und der Entsperrbildschirm will eine Telefonnummer, die genau jetzt eine SMS empfangen kann. Für viele ist diese Abfrage der eigentliche Registrierungsschritt.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, gibst sie X genau in diesem Moment, und der Bestätigungscode erscheint meist innerhalb von Sekunden in der App. Du zahlst pro Aktivierung aus einem einmaligen Münzpaket – kein Abo –, und eine Nummer, die nichts empfangen hat, wird kostenlos abgebrochen."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für X (Twitter)?",
+    "body": [
+      "X ist eine der wenigen großen Plattformen, auf denen ein Pseudonym zur Kultur gehört – aber ein pseudonymer Handle mit deiner privaten Telefonnummer daran ist nur bis zum ersten Leak oder Lookup pseudonym. Die Nummer ist außerdem ein Weg, gefunden zu werden: Standardmäßig können Leute, die sie in ihren Kontakten haben, auf dein Konto hingewiesen werden. Eine virtuelle Nummer hält die Anonymität intakt, für die du dich angemeldet hast, und besteht trotzdem jede SMS-Prüfung, die X dir stellt.",
+      "Es gibt auch einen strukturellen Grund: X begrenzt, wie viele Konten eine einzelne Telefonnummer stützen kann. Betreibst du ein privates Konto und willst ein separates für ein Projekt oder eine Marke, ist es fragil, beide an deiner einen privaten Nummer aufzuhängen – eine Abfrage gegen eines der Konten zieht am selben Faden. Jedem Konto eine eigene gemietete Nummer zu geben, hält sie unabhängig."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du X (Twitter) mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code holen",
+        "body": "Öffne die App SMS Code, wähle X (Twitter) als Dienst, such dir ein Land aus und tippe einmal. Eine echte Mobilnummer ist für die Dauer der Aktivierung nur für dich reserviert."
+      },
+      {
+        "title": "Dort eingeben, wo X fragt",
+        "body": "Meist ist das die Entsperrabfrage bei einem neuen Konto, manchmal der Registrierungsablauf selbst oder Einstellungen → Dein Account → Account-Informationen → Telefon. Die Ländervorwahl muss zur gemieteten Nummer passen."
+      },
+      {
+        "title": "Bestätigungscode eintippen",
+        "body": "Die SMS landet meist innerhalb von Sekunden in der App SMS Code, vom Absender „X“, im Format „Your X confirmation code is 941507. Don't share this code with anyone.“ Gib die Ziffern ein, und die Sperre fällt."
+      },
+      {
+        "title": "Sicherheit weg von SMS verlagern",
+        "body": "Richte die Zwei-Faktor-Authentifizierung mit einer Authenticator-App oder einem Passkey ein – SMS-basierte 2FA ist auf X ohnehin Premium-Abonnenten vorbehalten. Bestätige deine E-Mail und schalte in den Datenschutzeinstellungen die Auffindbarkeit über die Telefonnummer aus."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Die Sperre ist ein Initiationsritus",
+      "body": "Dass ein ganz neues Konto in den ersten Stunden gesperrt wird, ist der normale Anti-Bot-Reflex von X, kein Urteil über dich. Bestätige das Telefon und verhalte dich dann wie ein Mensch: Profilfoto, eine Bio, Folgen in menschlichem Tempo. Konten, die wie Skripte posten, werden unabhängig von der Nummer erneut geprüft."
+    },
+    {
+      "title": "Bau die 2FA hier nie auf SMS",
+      "body": "Zwei Gründe: X bietet SMS-2FA nur Premium-Abonnenten an, und die gemietete Nummer behältst du ohnehin nicht. Eine Authenticator-App oder ein Passkey ist kostenlos, funktioniert für alle und hängt nie davon ab, dass ein Code per SMS ankommt."
+    },
+    {
+      "title": "Schließ die Tür zur Auffindbarkeit",
+      "body": "Entferne unter Einstellungen → Datenschutz und Sicherheit → Auffindbarkeit und Kontakte das Häkchen bei „Personen, die deine Telefonnummer haben, dürfen dich auf X finden“. Die Nummer existiert dann nur noch als Bestätigungseintrag – niemand kommt von ihr zu deinem Handle."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Warum wurde mein neues X Konto direkt nach der Registrierung gesperrt?",
+      "a": "Weil es neu ist. X setzt stark auf Telefonabfragen, um Bot-Registrierungen herauszufiltern, und Konten nur mit E-Mail werden als Erste gefragt. Das ist Routine: Bestätige mit einer Nummer, die in diesem Moment SMS empfangen kann – eine gemietete Nummer tut genau das –, und das Konto wird entsperrt."
+    },
+    {
+      "q": "Können sich mehrere X Konten eine Telefonnummer teilen?",
+      "a": "Nur bis zu einer Grenze – X begrenzt die Zahl der Konten, an die eine einzelne Telefonnummer geknüpft sein kann, und verknotete Nummern machen Abfragen unübersichtlicher. Richtest du ein separates Projekt- oder Markenkonto ein, ist eine frische Nummer pro Konto die sauberere Architektur."
+    },
+    {
+      "q": "Funktioniert mein Konto weiter, wenn die gemietete Nummer abläuft?",
+      "a": "Ja. Die Nummer zählt im Moment der Prüfung. Bestätige deine E-Mail, richte 2FA per Authenticator oder Passkey ein, und die tägliche Nutzung berührt die Nummer nie wieder. Du kannst sie später sogar unter Einstellungen → Account-Informationen entfernen – sorg nur vorher dafür, dass die anderen Anker stehen."
+    },
+    {
+      "q": "Ist die Nummer in meinem Profil sichtbar?",
+      "a": "Nein – X zeigt Telefonnummern nie öffentlich an. Der einzige Weg von der Nummer zum Konto ist die kontaktbasierte Auffindbarkeit, und die kannst du unter Datenschutz und Sicherheit ausschalten. Ist sie aus, ist die Nummer in jede Richtung unsichtbar."
+    },
+    {
+      "q": "Warum ist mein X Bestätigungscode nicht angekommen?",
+      "a": "Prüfe zuerst, ob die Ländervorwahl zur gemieteten Nummer passt; danach wisse, dass X an manche Nummern, denen es misstraut, keine SMS sendet. Brich die offene Aktivierung in SMS Code ab – für Nummern, die nichts empfangen haben, gibt es die Münzen zurück – und nimm eine neue Nummer, am besten aus einem anderen Land."
+    }
+  ]
+}

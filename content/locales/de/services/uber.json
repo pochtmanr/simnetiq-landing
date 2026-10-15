@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Virtuelle Nummer für Uber — privat anmelden und fahren",
+  "metaDescription": "Uber meldet dich per SMS-Code an. Miete eine echte virtuelle Nummer, erhalte den Code meist in Sekunden und halte dein Handy aus dem Fahrtverlauf.",
+  "hero": {
+    "title": "Eine virtuelle Nummer für Uber",
+    "intro": [
+      "Für Uber ist die Telefonnummer kein Detail – sie ist das Konto. Du tippst eine Nummer ein, Uber schickt „Your Uber code is 7204. Never share this code.“, und das ist der ganze Login: kein Benutzername und für viele Fahrgäste auch kein Passwort. Wer Codes auf dieser Nummer empfängt, hält praktisch das Konto.",
+      "Mit SMS Code mietest du eine echte Mobilnummer in einem von über 100 Ländern, und der Code von Uber erscheint meist innerhalb von Sekunden in der App. Deine Fahrten, Belege und Abholorte hängen an einer gemieteten Nummer statt an der, die deine Freunde und deine Bank nutzen."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Warum eine virtuelle Nummer für Uber?",
+    "body": [
+      "Ein Fahrdienstkonto sammelt still eine Karte deines Lebens – Zuhause, Arbeit, der Flughafen um sechs Uhr morgens. Deine private Nummer aus diesem Datensatz herauszuhalten, ist schlichte Datenschutzhygiene. Fahrer erreichen dich ohnehin über die maskierte Weiterleitung von Uber und sehen die echte Nummer nie; die Kopie, die zählt, ist die in deinem Konto gespeicherte, und genau die ersetzt eine virtuelle Nummer.",
+      "Weil Uber dich per SMS anmeldet, ist die Nummer hier keine einmalige Requisite – sei ehrlich zu dir selbst. Die App hält dich monatelang angemeldet, aber eine Neuinstallation oder ein neues Telefon fragt wieder nach einem Code. Mit einer gemieteten Nummer funktioniert das Setup gut, solange du dafür planst: angemeldet bleiben, eine E-Mail zum Konto hinzufügen und, wenn Uber zum täglichen Werkzeug wird, das Konto auf eine Nummer umziehen, die du immer kontrollierst."
+    ]
+  },
+  "howTo": {
+    "title": "So bestätigst du Uber mit einer virtuellen Nummer",
+    "steps": [
+      {
+        "title": "Nummer in SMS Code mieten",
+        "body": "Wähle Uber als Dienst und such dir ein Land aus. Für den Alltag nimm dein eigenes Land – die Region des Kontos bestimmt Zahlungsoptionen und lokale Funktionen."
+      },
+      {
+        "title": "In der Uber App eingeben",
+        "body": "Wähle im Registrierungsbildschirm die Ländervorwahl der Nummer und tippe sie ein. Uber bietet vielleicht an, den Code per WhatsApp oder Sprachanruf zu senden – wähle SMS."
+      },
+      {
+        "title": "Die vier Ziffern eintippen",
+        "body": "„Your Uber code is 7204. Never share this code.“ kommt meist innerhalb von Sekunden in der App SMS Code an. Gib ihn ein, und du bist angemeldet."
+      },
+      {
+        "title": "Dem Konto einen zweiten Kanal geben",
+        "body": "Füge in den Einstellungen von Uber deine E-Mail hinzu und vervollständige das Profil. Die E-Mail gibt Uber einen Weg, dich zu bestätigen, der nicht von der gemieteten Nummer abhängt – und landet die Belege dort, wo du sie wirklich liest."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Uber fragt wieder nach SMS – plane dafür",
+      "body": "Logins auf neuen Geräten und nach Neuinstallationen werden per Code an die Nummer des Kontos bestätigt. Melde dich nicht beiläufig ab, füge eine E-Mail hinzu und, wenn du Uber jede Woche nutzt, ändere das Telefon des Kontos in den Einstellungen auf eines, das du bei dir trägst – das geht jederzeit, solange du angemeldet bist."
+    },
+    {
+      "title": "Fahrer sehen deine Nummer sowieso nie",
+      "body": "Anrufe und Nachrichten zwischen dir und dem Fahrer laufen über die maskierte Weiterleitung von Uber. Die Datenschutzfrage ist nicht der Fahrer – sondern die Nummer in deinem Kontodatensatz, deinen Belegen und allem, was diese Datenbank speist. Genau diese Kopie hält eine virtuelle Nummer sauber."
+    },
+    {
+      "title": "Im Ausland reist dein Konto schon mit",
+      "body": "Ein bestehendes Uber Konto funktioniert in anderen Ländern – für eine Fahrt in Paris brauchst du keine lokale Nummer. Wo eine virtuelle Nummer wirklich hilft: wenn deine SIM von zu Hause keine Roaming-SMS empfangen kann, während mitten in der Reise eine Login-Prüfung kommt, oder wenn du für einen langen Aufenthalt ein separates lokales Konto willst."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Funktioniert mein Uber Konto weiter, wenn die gemietete Nummer abläuft?",
+      "a": "Solange du angemeldet bleibst – ja, alles funktioniert. Der Haken ist der nächste neue Login: Uber bestätigt ihn per SMS an die Nummer des Kontos. Halte also entweder die Sitzung am Leben oder – besser – ändere das Telefon in den Kontoeinstellungen auf eines, das du kontrollierst, solange du noch angemeldet bist. Diese Option ist in der App immer verfügbar."
+    },
+    {
+      "q": "Sehen Fahrer meine echte Telefonnummer?",
+      "a": "Nein. Uber verbindet dich und den Fahrer über maskierte Weiterleitungsnummern, sodass keine Seite die echte der anderen sieht. Eine virtuelle Nummer schützt die andere Kopie – die in deinem Kontoprofil gespeicherte, die an jedem Beleg hängt."
+    },
+    {
+      "q": "Kann ich auf Reisen eine virtuelle Nummer für Uber nutzen?",
+      "a": "Ja, und das löst ein echtes Reiseproblem: Login-Prüfungen, die als SMS kommen, die deine Roaming-SIM nicht empfangen kann. Codes an eine gemietete Nummer landen über das Internet in der App SMS Code, wo immer du bist. Beachte, dass du keine lokale Nummer brauchst, nur um im Ausland zu fahren – dein normales Konto funktioniert international."
+    },
+    {
+      "q": "Warum ist der Uber Code nicht angekommen?",
+      "a": "Prüfe zuerst, ob die Ländervorwahl zur gemieteten Nummer passt. Stell dann sicher, dass der Code per SMS kommt – Uber nutzt manchmal standardmäßig WhatsApp oder einen Sprachanruf. Kam nichts an, brich die Aktivierung in SMS Code kostenlos ab und nimm eine andere Nummer."
+    },
+    {
+      "q": "Ist es erlaubt, sich mit einer virtuellen Nummer bei Uber zu registrieren?",
+      "a": "Uber prüft, dass du die Nummer kontrollierst, und erwartet ein Konto pro Fahrgast mit wahrheitsgemäßen Angaben – das sind seine Bedingungen, und Sicherheitsfunktionen hängen davon ab. Eine gemietete Nummer zu nutzen, um deine private privat zu halten, ist in Ordnung; Nummern zu nutzen, um Registrierungsaktionen abzugreifen oder doppelte Konten zu betreiben, ist das, was Fahrgäste sperren lässt."
+    }
+  ]
+}

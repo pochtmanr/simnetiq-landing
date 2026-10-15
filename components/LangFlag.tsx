@@ -174,6 +174,34 @@ function Tr() {
   );
 }
 
+function De() {
+  return (
+    <>
+      <rect width="24" height="8" fill="#000" />
+      <rect y="8" width="24" height="8" fill="#DD0000" />
+      <rect y="16" width="24" height="8" fill="#FFCE00" />
+    </>
+  );
+}
+
+function Pl() {
+  return (
+    <>
+      <rect width="24" height="12" fill="#fff" />
+      <rect y="12" width="24" height="12" fill="#DC143C" />
+    </>
+  );
+}
+
+function Ua() {
+  return (
+    <>
+      <rect width="24" height="12" fill="#0057B7" />
+      <rect y="12" width="24" height="12" fill="#FFD700" />
+    </>
+  );
+}
+
 const FLAGS: Record<Locale, () => React.ReactElement> = {
   en: Us,
   ru: Ru,
@@ -185,6 +213,9 @@ const FLAGS: Record<Locale, () => React.ReactElement> = {
   ar: Sa,
   fr: Fr,
   tr: Tr,
+  de: De,
+  pl: Pl,
+  uk: Ua,
 };
 
 function Code({ locale }: { locale: string }) {

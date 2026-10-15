@@ -1,0 +1,27 @@
+{
+  "title": "Zachowaj saldo, odzyskaj dostęp i usuń konto",
+  "metaDescription": "Zachowaj saldo monet SMS Code na wszystkich urządzeniach, odzyskaj dostęp do konta i usuń je bezpiecznie, nie tracąc monet ani możliwości zwrotu.",
+  "sections": [
+    {
+      "title": "Zaloguj się przed ponowną instalacją",
+      "paragraphs": [
+        "Monety należą do Twojego konta SMS Code. Zaloguj się przez Apple, Google lub kod e-mail, póki masz dostęp do salda, a potem użyj tego samego loginu na innym urządzeniu. Konto zakupowe Apple i login SMS Code to dwie osobne rzeczy.",
+        "Ponowna instalacja przy korzystaniu z anonimowego konta może utworzyć inne konto. Samo przywrócenie zakupów z App Store nie odtwarza anonimowego salda monet. Jeśli straciłeś dostęp, skontaktuj się z pomocą, podając numer zamówienia Apple i dane konta, które jeszcze masz; odzyskanie wymaga weryfikacji."
+      ]
+    },
+    {
+      "title": "Zanim usuniesz konto",
+      "id": "delete",
+      "paragraphs": [
+        "Usunięcie konta i zwrot płatności to osobne działania. Zapisz potrzebne dane zakupów, zakończ oczekujące aktywacje i przed usunięciem skontaktuj się z pomocą w sprawie pozostałych monet. O zwrot płatności Apple poproś osobno.",
+        "Użyj opcji usunięcia konta w ustawieniach aplikacji. Jeśli nie masz do niej dostępu, skontaktuj się z pomocą. Usunięcie nie anuluje płatności Apple, a zapisy potrzebne do obowiązków prawnych lub rozpatrywania sporów mogą być przechowywane zgodnie z opisem w naszej Polityce prywatności."
+      ]
+    },
+    {
+      "title": "Kontaktuj się z nami bezpiecznie",
+      "paragraphs": [
+        "Użyj formularza pomocy lub adresu support@simnetiq.com. Podaj usługę, kraj, czas oraz identyfikatory aktywacji lub zamówienia, ale nigdy hasła, kodu weryfikacyjnego ani pełnych danych karty płatniczej. Przed udostępnieniem zrzutów ekranu sprawdź, czy nie zawierają wrażliwych informacji."
+      ]
+    }
+  ]
+}

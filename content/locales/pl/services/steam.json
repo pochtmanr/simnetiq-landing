@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Wirtualny numer Steam — dodaj telefon bez swojej karty SIM",
+  "metaDescription": "Podepnij telefon do Steam prawdziwym numerem wirtualnym; kod przychodzi zwykle w kilka sekund. Uczciwie o Steam Guard, blokadach wymian i uwierzytelniaczu.",
+  "hero": {
+    "title": "Numer wirtualny do Steam",
+    "intro": [
+      "Steam chętnie utworzy konto z samym e-mailem – ta część jest prosta i uczciwa. Numer telefonu wchodzi do gry później, tam, gdzie się liczy: kody Steam Guard przez SMS, odzyskiwanie konta i kroki weryfikacyjne wokół wymian i Rynku Społeczności. Wtedy pojawia się „Your Steam verification code is J4K8P”.",
+      "Z SMS Code wynajmujesz prawdziwy numer komórkowy w jednym z ponad 100 krajów, a kod ze Steam trafia do aplikacji zwykle w ciągu kilku sekund. Twoja biblioteka gier – często lata zakupów – dostaje podpięty telefon, a Twój prywatny numer nie trafia do rejestrów Valve."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Dlaczego numer wirtualny do Steam?",
+    "body": [
+      "Dojrzałe konto Steam to jedna z cenniejszych rzeczy, jakie posiada gracz – i właśnie dlatego możesz nie chcieć wpinać w nie codziennego numeru. Phishing wymierzony w użytkowników Steam to cała branża; im mniej dane kontaktowe konta pokrywają się z numerem, który wszyscy znają, tym mniejsza powierzchnia ataku. Numer wirtualny pozwala przejść kroki telefoniczne Steam, zachowując to rozdzielenie.",
+      "Oto jednak uczciwa architektura: na Steam SMS to słabsza ochrona. Zabezpieczenie, które naprawdę liczy się przy wymianach i na Rynku, to Mobilny Uwierzytelniacz Steam Guard w aplikacji Steam – Valve znacznie dłużej wstrzymuje wymiany i oferty kont bez niego. Traktuj wynajęty numer jako klucz, który przeprowadza Cię przez drzwi weryfikacji telefonu, a uwierzytelniacz jako zamek, który zakładasz po wejściu."
+    ]
+  },
+  "howTo": {
+    "title": "Jak zweryfikować Steam numerem wirtualnym",
+    "steps": [
+      {
+        "title": "Wynajmij numer w SMS Code",
+        "body": "Wybierz Steam jako usługę i kraj. Jedno stuknięcie rezerwuje prawdziwy numer komórkowy tylko dla Ciebie."
+      },
+      {
+        "title": "Dodaj go do konta Steam",
+        "body": "Przejdź do Szczegóły konta → Dane kontaktowe – albo postępuj zgodnie z monitem, który Steam pokazuje, gdy wymiany wymagają telefonu – i wpisz numer z numerem kierunkowym."
+      },
+      {
+        "title": "Wpisz kod – razem z literami",
+        "body": "Kod Steam wygląda jak „J4K8P”: litery i cyfry, a nie zwykłe sześć liczb. Dociera do aplikacji SMS Code zwykle w ciągu kilku sekund; wpisz go dokładnie tak, jak jest zapisany."
+      },
+      {
+        "title": "Skonfiguruj Mobilny Uwierzytelniacz",
+        "body": "W aplikacji mobilnej Steam włącz Mobilny Uwierzytelniacz Steam Guard, póki numer jest jeszcze aktywny. To będzie Twoje trwałe 2FA – a kod odzyskiwania, który podaje, przechowuj w bezpiecznym miejscu."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Kod to nie same cyfry",
+      "body": "W przeciwieństwie do większości usług Steam wysyła kod alfanumeryczny – J4K8P, a nie 123456. Jeśli kod „nie działa”, sprawdź, czy nie pomyliłeś liter z cyframi (O z 0, I z 1), i wpisz go wielkimi literami, dokładnie tak, jak przyszedł."
+    },
+    {
+      "title": "Uwierzytelniacz przewyższa SMS",
+      "body": "Steam Guard przez SMS to poziom podstawowy; Mobilny Uwierzytelniacz to to, co skraca blokady wymian i ofert na Rynku – i przetrwa wygaśnięcie każdego numeru. Włącz go zaraz po weryfikacji: to kilka minut i różnica między chronionym kontem a chronionym w połowie."
+    },
+    {
+      "title": "Późniejsza zmiana telefonu ma skutki uboczne",
+      "body": "Steam traktuje zmiany i usunięcia telefonu jako zdarzenia bezpieczeństwa i może nakładać wokół nich tymczasowe blokady. Jeśli planujesz zamienić wynajęty numer na własny albo całkiem go usunąć, zrób to świadomie w Szczegółach konta, póki jeszcze możesz odbierać kody – a nie w pośpiechu przed wymianą."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy do założenia konta Steam potrzebuję numeru telefonu?",
+      "a": "Nie – rejestracja działa na samym e-mailu i to naprawdę wszystko, czego potrzebuje podstawowe konto. Telefon staje się istotny dla Steam Guard przez SMS, odzyskiwania konta i weryfikacji wokół wymian oraz Rynku Społeczności. Wynajmij numer w momencie, gdy Steam faktycznie o niego poprosi."
+    },
+    {
+      "q": "Czy numer wirtualny usunie blokady wymian i Rynku?",
+      "a": "Sam w sobie nie – nie będziemy tego przesadzać. Blokady Valve są powiązane z Mobilnym Uwierzytelniaczem Steam Guard, a nie z posiadaniem zapisanego telefonu. Numer przeprowadza Cię przez kroki weryfikacji telefonu; włączenie uwierzytelniacza w aplikacji Steam to to, co faktycznie zmienia działanie blokad."
+    },
+    {
+      "q": "Co się stanie, gdy wynajęty numer wygaśnie?",
+      "a": "Konto działa dalej – logujesz się hasłem i Steam Guard jak wcześniej. Jeśli uwierzytelniacz jest skonfigurowany, codzienne bezpieczeństwo w ogóle nie dotyczy SMS-ów. Jeśli kiedyś zechcesz przywrócić SMS jako opcję, zmień telefon w Szczegółach konta na numer, który obecnie kontrolujesz."
+    },
+    {
+      "q": "Dlaczego mój kod Steam został odrzucony?",
+      "a": "Zwykle chodzi o format: kody Steam mieszają litery i cyfry, a za O może kryć się 0. Wpisz kod dokładnie tak, jak wygląda w aplikacji SMS Code. Jeśli SMS w ogóle nie przyszedł, sprawdź numer kierunkowy, anuluj oczekującą aktywację za darmo i weź nowy numer."
+    },
+    {
+      "q": "Czy numer zmienia region mojego sklepu Steam?",
+      "a": "Nie. Region sklepu wynika z Twojej lokalizacji i danych płatniczych według własnych zasad Valve – numer telefonu nie ma tu nic do powiedzenia. Wybierz numer z kraju, w którym konto faktycznie „mieszka”; używanie numerów do skakania między regionami nie jest ich celem i kontrole Steam tego nie nagradzają."
+    }
+  ]
+}

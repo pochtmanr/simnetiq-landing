@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Chính sách quyền riêng tư",
+    "description": "Cách SIMNETIQ LTD thu thập, sử dụng, lưu trữ và bảo vệ dữ liệu cá nhân của bạn trong ứng dụng SMS Code và trên simnetiq.xyz, cùng quyền của bạn theo GDPR."
+  },
+  "prevailingNotice": "Bản dịch này được cung cấp để thuận tiện. Nếu có khác biệt so với bản tiếng Anh, bản tiếng Anh sẽ được ưu tiên áp dụng.",
+  "label": "Pháp lý",
+  "title": "Chính sách quyền riêng tư",
+  "updatedLabel": "Cập nhật lần cuối:",
+  "sections": [
+    {
+      "title": "1. Chúng tôi là ai",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SMS Code (“Ứng dụng”) và trang web simnetiq.xyz (“Trang web”) được vận hành bởi SIMNETIQ LTD (“chúng tôi”), một công ty đăng ký tại Anh và xứ Wales. Chúng tôi là bên kiểm soát dữ liệu đối với dữ liệu cá nhân được mô tả trong chính sách này. Bạn có thể liên hệ với chúng tôi tại {supportEmail}."
+        },
+        {
+          "type": "p",
+          "text": "Mã số công ty: {companyNumber}. Văn phòng đăng ký: {registeredOffice}. Liên hệ: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Ứng dụng làm gì",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ứng dụng cung cấp số điện thoại ảo tạm thời có thể nhận mã xác minh qua SMS, để bạn có thể đăng ký các dịch vụ trực tuyến mà không phải chia sẻ số điện thoại cá nhân."
+        }
+      ]
+    },
+    {
+      "title": "3. Dữ liệu chúng tôi thu thập",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Dữ liệu tài khoản.** Một mã định danh tài khoản ẩn danh được tạo khi bạn mở Ứng dụng lần đầu, và địa chỉ email của bạn nếu bạn chọn cung cấp.",
+            "**Dữ liệu giao dịch mua.** Hồ sơ các gói xu bạn mua. Việc thanh toán do Apple App Store xử lý — chúng tôi không bao giờ thấy thông tin thẻ của bạn.",
+            "**Dữ liệu kích hoạt.** Dịch vụ, quốc gia, số ảo và nội dung các tin nhắn SMS xác minh nhận được trên số đó, được lưu trong thời gian cần thiết để giao mã cho bạn và giải quyết tranh chấp.",
+            "**Dữ liệu thiết bị.** Hai thứ, và chỉ khi chúng áp dụng cho bạn. Nếu bạn cho phép thông báo, mã thông báo đẩy được cấp cho thiết bị của bạn, để chúng tôi báo cho bạn biết khi mã đã đến. Và mã khu vực gồm hai chữ cái mà thiết bị của bạn báo cáo (ví dụ *GB*), được gửi cùng danh sách quốc gia để chúng tôi đánh dấu một quốc gia là “Đề xuất” — đây là một cài đặt của thiết bị, không phải vị trí của bạn, và không cần quyền truy cập vị trí.",
+            "**Dữ liệu hỗ trợ.** Khi bạn liên hệ bộ phận hỗ trợ qua Trang web hoặc email, chúng tôi thu thập tên, địa chỉ email và nội dung tin nhắn của bạn. Yêu cầu hỗ trợ gửi trên Trang web được lưu trong cơ sở dữ liệu của chúng tôi (lưu trữ trên Supabase) và được xử lý qua công cụ email của chúng tôi để phản hồi bạn. Chúng tôi cũng lưu chuỗi user-agent của trình duyệt và một giá trị băm một chiều có thêm muối của địa chỉ IP của bạn, để chặn việc lạm dụng biểu mẫu một cách tự động.",
+            "**Phân tích trang web.** Chỉ khi bạn chấp nhận phân tích trong biểu ngữ cookie của Trang web, Trang web mới dùng Vercel Web Analytics, công cụ đếm lượt xem trang không dùng cookie, và Google Analytics, công cụ đặt cookie bên thứ nhất (_ga) để nhận diện trình duyệt quay lại. Không công cụ nào được dùng cho quảng cáo hay để lập hồ sơ về bạn trên các trang web khác. Chính sách cookie của chúng tôi liệt kê mọi cookie, và bạn có thể rút lại sự đồng ý bất cứ lúc nào trong Cài đặt cookie ở cuối mỗi trang. Ứng dụng không chứa bất kỳ SDK phân tích, quảng cáo hay phân bổ nào.",
+            "**Đo lường quảng cáo.** Chỉ khi bạn chấp nhận tiếp thị trong biểu ngữ cookie của Trang web, Trang web mới tải Meta Pixel, công cụ đặt một cookie bên thứ nhất (_fbp) và cho Meta biết khi một lượt truy cập đến từ quảng cáo của chúng tôi, để chúng tôi đo lường quảng cáo nào hiệu quả. Ứng dụng không dùng nó."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Những gì chúng tôi cố ý không thu thập: số điện thoại của chính bạn, danh bạ, vị trí, mã định danh quảng cáo, và bất kỳ dữ liệu đo lường sử dụng, sự cố hay chẩn đoán nào từ bên trong Ứng dụng. Ứng dụng không có SDK phân tích hay báo cáo sự cố, nên không có gì thuộc loại đó để gửi đi. Điều này khớp với nhãn quyền riêng tư trên App Store của SMS Code."
+        }
+      ]
+    },
+    {
+      "title": "4. Cách chúng tôi sử dụng dữ liệu của bạn",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Để cung cấp số ảo và giao mã xác minh cho bạn (thực hiện hợp đồng).",
+            "Để duy trì số dư xu và khôi phục giao dịch mua trên các thiết bị (thực hiện hợp đồng).",
+            "Để trả lời yêu cầu hỗ trợ (lợi ích hợp pháp / thực hiện hợp đồng).",
+            "Để phát hiện và ngăn chặn gian lận, lạm dụng và vi phạm Điều khoản dịch vụ của chúng tôi (lợi ích hợp pháp).",
+            "Để hiểu trang nào của Trang web hữu ích với mọi người, bằng công cụ phân tích trang web — chỉ khi bạn chấp nhận trong biểu ngữ cookie (sự đồng ý, mà bạn có thể rút lại bất cứ lúc nào).",
+            "Để đo lường hiệu quả quảng cáo của chúng tôi trên Facebook và Instagram, bằng Meta Pixel — chỉ khi bạn chấp nhận tiếp thị trong biểu ngữ cookie (sự đồng ý, mà bạn có thể rút lại bất cứ lúc nào)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi không bán dữ liệu cá nhân của bạn. Chúng tôi chỉ chia sẻ dữ liệu truy cập Trang web với Meta nếu bạn chấp nhận cookie tiếp thị, để đo lường quảng cáo của chính chúng tôi. Dữ liệu Ứng dụng không bao giờ được chia sẻ với nhà quảng cáo."
+        }
+      ]
+    },
+    {
+      "title": "5. Chia sẻ và bên xử lý",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Chúng tôi sử dụng các nhà cung cấp sau để vận hành dịch vụ. Vai trò của họ tùy thuộc vào dịch vụ họ cung cấp:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Supabase** — cơ sở dữ liệu và hệ thống phía sau Ứng dụng. Nó lưu giữ mọi thứ được mô tả trong mục 3 có được lưu trữ.",
+            "**Apple** — xử lý mọi giao dịch mua trong ứng dụng, và xử lý Đăng nhập bằng Apple nếu bạn dùng. Chúng tôi không bao giờ thấy thông tin thanh toán của bạn.",
+            "**RevenueCat** — xác thực biên lai mua hàng và cho hệ thống của chúng tôi biết bạn đã mua gói xu nào. Nó nhận mã định danh tài khoản, dữ liệu giao dịch mua và thông tin cơ bản về thiết bị của bạn.",
+            "**Expo** — gửi thông báo đẩy và bản cập nhật Ứng dụng. Nó nhận mã thông báo đẩy của bạn và nội dung thông báo.",
+            "**Vercel** — lưu trữ Trang web và cung cấp công cụ phân tích lượt xem trang không dùng cookie.",
+            "**Google** — cung cấp Google Analytics trên Trang web, chỉ khi bạn chấp nhận phân tích. Nó nhận lượt xem trang, thông tin thiết bị và trình duyệt, cùng mã định danh lưu trong cookie _ga, với các tính năng quảng cáo đã tắt.",
+            "**Meta** — cung cấp Meta Pixel trên Trang web, chỉ khi bạn chấp nhận tiếp thị. Nó nhận lượt xem trang, thông tin trình duyệt, địa chỉ IP của bạn và mã định danh trong cookie _fbp, và cũng có thể dùng dữ liệu này cho mục đích riêng, với tư cách bên kiểm soát độc lập theo chính sách quyền riêng tư của họ.",
+            "**Công cụ email của chúng tôi** — chuyển tải thư từ hỗ trợ.",
+            "**Nhà cung cấp dịch vụ điện thoại của chúng tôi** — cung cấp số ảo. Họ chỉ được gửi dịch vụ và quốc gia bạn yêu cầu; họ hoàn toàn không nhận mã định danh nào của bạn, và chúng tôi không gửi mã định danh tài khoản ứng dụng của bạn. Nhà cung cấp xử lý số và nội dung SMS để cung cấp dịch vụ."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Các nhà cung cấp đóng vai trò bên xử lý phải tuân theo các điều khoản xử lý dữ liệu phù hợp. Chúng tôi không bán dữ liệu của bạn, và ngoài Meta (chỉ khi bạn đồng ý tiếp thị) chúng tôi không chia sẻ gì với nhà quảng cáo. Chúng tôi cũng có thể tiết lộ dữ liệu khi pháp luật yêu cầu."
+        }
+      ]
+    },
+    {
+      "title": "6. Chuyển dữ liệu quốc tế",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Một số nhà cung cấp ở ngoài Vương quốc Anh. Khi dữ liệu rời khỏi Vương quốc Anh hoặc Khu vực Kinh tế Châu Âu, luật bảo vệ dữ liệu hiện hành yêu cầu một cơ sở chuyển dữ liệu phù hợp, chẳng hạn quyết định về mức độ bảo vệ tương đương hoặc các biện pháp bảo vệ theo hợp đồng. Vercel và Google có thể xử lý dữ liệu phân tích trang web tại Hoa Kỳ; các lần chuyển dữ liệu đó dựa trên Khung bảo mật dữ liệu EU–Hoa Kỳ và Phần mở rộng cho Vương quốc Anh, hoặc các điều khoản hợp đồng tiêu chuẩn. Hãy liên hệ chúng tôi để biết thông tin về các biện pháp bảo vệ dữ liệu của bạn."
+        },
+        {
+          "type": "p",
+          "text": "Meta có thể xử lý dữ liệu tiếp thị từ Trang web tại Hoa Kỳ, trên cùng các cơ sở chuyển dữ liệu."
+        }
+      ]
+    },
+    {
+      "title": "7. Thời gian lưu giữ",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Dữ liệu kích hoạt — 90 ngày.** Số đã thuê và nội dung mọi SMS nhận được trên số đó bị xóa trong đợt dọn dẹp hằng ngày theo lịch sau 90 ngày kể từ khi tạo lần kích hoạt. Thứ còn lại sau đó là một bản ghi không có số và không có nội dung tin nhắn: dịch vụ, quốc gia, ngày, kết quả và số xu liên quan. Chúng tôi giữ bản ghi đó vì đó là hồ sơ kế toán cho số xu bạn đã tiêu, và là bằng chứng chúng tôi cần nếu một khoản thanh toán bị tranh chấp.",
+            "**Dữ liệu tài khoản — cho đến khi bạn xóa tài khoản.** Việc xóa tài khoản sẽ xóa tài khoản đang hoạt động, địa chỉ email và lịch sử kích hoạt của bạn. Một số hồ sơ tài chính và phòng chống gian lận hạn chế vẫn được giữ như mô tả dưới đây và trong mục 9.",
+            "**Hồ sơ giao dịch mua — theo yêu cầu của pháp luật.** Một hồ sơ tài chính đã được bí danh hóa cho mỗi giao dịch mua — mã tham chiếu giao dịch, gói, số tiền, ngày, và việc sau đó có được hoàn tiền hay không — được giữ trong thời gian mà luật thuế và kế toán yêu cầu, và vẫn tồn tại sau khi xóa tài khoản. Nó không chứa số điện thoại, nội dung tin nhắn hay địa chỉ email.",
+            "**Thư từ hỗ trợ — tối đa 24 tháng** sau khi yêu cầu được đóng."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8. Quyền của bạn",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Theo UK GDPR và EU GDPR, bạn có quyền truy cập, chỉnh sửa, xóa hoặc nhận bản sao dữ liệu cá nhân của mình, hạn chế hoặc phản đối việc xử lý, và rút lại sự đồng ý bất cứ lúc nào khi việc xử lý dựa trên sự đồng ý. Để thực hiện bất kỳ quyền nào trong số này, hãy gửi email tới {supportEmail}. Bạn cũng có thể khiếu nại với Văn phòng Ủy viên Thông tin Vương quốc Anh (ico.org.uk) hoặc cơ quan giám sát tại nơi bạn sống."
+        }
+      ]
+    },
+    {
+      "title": "9. Xóa tài khoản và dữ liệu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bạn có thể xóa tài khoản trực tiếp trong Ứng dụng (Cài đặt → Xóa tài khoản) hoặc bằng cách gửi email cho chúng tôi. Việc xóa sẽ loại bỏ mã định danh tài khoản, địa chỉ email, số dư xu và lịch sử kích hoạt của bạn, bao gồm mọi số đã thuê và mọi nội dung SMS còn lưu giữ. Việc này không cần liên hệ bộ phận hỗ trợ và không thể đảo ngược. Một số hồ sơ tài chính và phòng chống gian lận hạn chế vẫn còn: mã tham chiếu giao dịch mua, mã định danh tài khoản cũ, hoạt động tổng hợp và số lượng xu, khoản thiếu hụt do hoàn tiền, dấu thời gian và liên kết mã thông báo thiết bị đã băm. Chúng phục vụ kế toán, tranh chấp và ngăn chặn việc lạm dụng hoàn tiền lặp lại. Chúng không chứa số điện thoại kích hoạt, nội dung SMS hay email tài khoản đã được giữ lại, nhưng chúng được bí danh hóa, không đảm bảo ẩn danh, và có thể được liên kết với hồ sơ giao dịch mua hoặc các tài khoản khác dùng cùng mã thông báo thiết bị."
+        }
+      ]
+    },
+    {
+      "title": "10. Trẻ em",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ứng dụng không hướng đến trẻ em và dành cho người dùng từ 18 tuổi trở lên. Chúng tôi không cố ý thu thập dữ liệu từ trẻ em; nếu bạn tin rằng một đứa trẻ đã sử dụng Ứng dụng, hãy liên hệ chúng tôi và chúng tôi sẽ xóa dữ liệu."
+        }
+      ]
+    },
+    {
+      "title": "11. Bảo mật",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dữ liệu được mã hóa khi truyền, quyền truy cập được giới hạn cho nhân sự cần đến, và cơ sở dữ liệu của chúng tôi áp dụng kiểm soát truy cập theo từng hàng. Không hệ thống nào an toàn tuyệt đối, vì vậy chúng tôi cũng giữ lượng dữ liệu nắm giữ ở mức tối thiểu."
+        }
+      ]
+    },
+    {
+      "title": "12. Thay đổi chính sách này",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Chúng tôi có thể cập nhật chính sách này theo thời gian. Các thay đổi quan trọng sẽ được thông báo trong Ứng dụng hoặc trên Trang web, và ngày “Cập nhật lần cuối” ở trên luôn phản ánh phiên bản hiện hành."
+        }
+      ]
+    }
+  ]
+}

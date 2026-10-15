@@ -1,0 +1,44 @@
+{
+  "title": "Thanh toán, xu và hoàn tiền Apple",
+  "metaDescription": "Cách gói xu SMS Code hoạt động, phải làm gì khi thiếu xu hoặc có khoản phí lạ, và cách yêu cầu hoàn tiền từ Apple từng bước một.",
+  "sections": [
+    {
+      "title": "Xu hoạt động thế nào",
+      "paragraphs": [
+        "Gói xu là giao dịch mua một lần trên App Store, không phải thuê bao. Không có tự động gia hạn. Xu không hết hạn, không thể chuyển nhượng và không phải ví tiền mặt. Giá kích hoạt phụ thuộc vào dịch vụ và quốc gia và được hiển thị trước khi xác nhận.",
+        "Hủy hợp lệ, thay số, hết hạn mà không có SMS hoặc cấp số thất bại đều hoàn xu của lần kích hoạt. Khi SMS đã đến, việc hủy không tự động hoàn xu. Hãy báo lỗi giao tin hoặc thanh toán cho bộ phận hỗ trợ để được xem xét."
+      ]
+    },
+    {
+      "title": "Thiếu xu hoặc khoản phí lạ",
+      "paragraphs": [
+        "Kiểm tra bạn đã đăng nhập vào đúng tài khoản SMS Code dùng để mua. Đợi khoản thanh toán Apple đang xử lý hoàn tất và mở lại ứng dụng. Tránh mua thêm gói chỉ để sửa số dư bị thiếu.",
+        "Gửi cho bộ phận hỗ trợ mã đơn hàng hoặc biên lai Apple, gói, ngày mua và mã định danh tài khoản ứng dụng nếu có. Che các giao dịch không liên quan và thông tin thanh toán. Với khoản phí bạn không nhận ra, hãy kiểm tra lịch sử mua hàng Apple và các giao dịch Chia sẻ trong gia đình, rồi liên hệ Apple."
+      ]
+    },
+    {
+      "title": "Xu chưa dùng và hoàn tiền thanh toán",
+      "paragraphs": [
+        "Hoàn xu vào ứng dụng không đảo ngược khoản thanh toán Apple. Để lấy lại tiền cho giao dịch mua xu do Apple thanh toán, hãy yêu cầu Apple hoàn tiền cho giao dịch đó và giải thích chính xác xu chưa dùng, đã dùng một phần, bị thiếu hay bị lỗi. Số dư chưa dùng không tự động cho bạn quyền được hoàn tiền hay rút một phần thành tiền mặt.",
+        "Apple đánh giá điều kiện hoàn tiền theo điều khoản khu vực của họ và pháp luật hiện hành. Chúng tôi không thể hứa hẹn sự chấp thuận hay tự hoàn tiền qua hệ thống thanh toán của Apple. Hãy liên hệ chúng tôi về lỗi dịch vụ hoặc xu chưa dùng nếu bạn cần hồ sơ giao dịch hoặc số dư. Các quyền người tiêu dùng bắt buộc của bạn không bị ảnh hưởng.",
+        "Nếu Apple chấp thuận hoàn tiền, khoản ghi có xu liên quan có thể bị xóa khỏi số dư. Đừng tiếp tục tiêu xu từ giao dịch bạn đang yêu cầu hoàn tiền. Xóa tài khoản hay gỡ ứng dụng không gửi yêu cầu hoàn tiền."
+      ]
+    },
+    {
+      "title": "Yêu cầu hoàn tiền từ Apple",
+      "paragraphs": [
+        "1. Mở reportaproblem.apple.com và đăng nhập bằng Apple Account đã thanh toán gói.",
+        "2. Trong menu yêu cầu, chọn tùy chọn hoàn tiền, rồi chọn lý do mô tả đúng chuyện đã xảy ra.",
+        "3. Tiếp tục, chọn giao dịch mua xu SMS Code và gửi yêu cầu.",
+        "4. Apple thường phản hồi trong vòng 24–48 giờ. Kiểm tra trạng thái yêu cầu trên cùng trang. Đây là thời gian phản hồi; yêu cầu có thể vẫn đang chờ, và việc hoàn tiền cần thêm thời gian."
+      ]
+    },
+    {
+      "title": "Nếu không thấy giao dịch hoặc hoàn tiền bị chậm",
+      "paragraphs": [
+        "Không thể yêu cầu với khoản phí đang chờ cho đến khi Apple xuất biên lai; đơn hàng chưa thanh toán phải được thanh toán trước. Kiểm tra Apple Account ghi trên biên lai. Nếu không thấy giao dịch hoặc không gửi được yêu cầu, hãy liên hệ Hỗ trợ Apple.",
+        "Sau khi chấp thuận, Apple cho biết hoàn vào tín dụng cửa hàng có thể mất tới 48 giờ, thẻ và hầu hết phương thức thanh toán khác tới 30 ngày, và thanh toán qua nhà mạng tới 60 ngày. SIMNETIQ không thể đẩy nhanh quá trình xử lý của Apple hay ngân hàng."
+      ]
+    }
+  ]
+}

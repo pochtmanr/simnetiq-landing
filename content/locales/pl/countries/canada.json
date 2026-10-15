@@ -1,0 +1,55 @@
+{
+  "name": "Kanada",
+  "metaTitle": "Kanadyjski numer wirtualny do SMS — prawdziwy +1",
+  "metaDescription": "Prawdziwy kanadyjski numer wirtualny (+1) i kody SMS zwykle w kilka sekund. Weryfikuj Google, Discord, Tinder, Snapchat i Apple.",
+  "hero": {
+    "title": "Kanadyjski numer wirtualny do weryfikacji SMS",
+    "intro": [
+      "Kanada dzieli numer kierunkowy +1 ze Stanami Zjednoczonymi, co daje jej numerom cichą supermoc: w większości procesów rejestracji są traktowane dokładnie jak amerykańskie. Dostajesz numer z północnoamerykańskiego planu numeracji – formatu, który każda duża usługa zna na pamięć – z kanadyjską tożsamością za nim.",
+      "SMS Code daje Ci prawdziwy kanadyjski numer komórkowy jednym stuknięciem. Wpisz go przy weryfikacji, a SMS – z kodem z Google, Discorda, Tindera, Snapchata czy Apple – dotrze do aplikacji zwykle w ciągu kilku sekund."
+    ]
+  },
+  "whyCountry": {
+    "title": "Dlaczego kanadyjski numer?",
+    "body": [
+      "Ponieważ Kanada należy do tego samego planu +1 co USA, usługi rzadko rozróżniają je przy weryfikacji – kanadyjski numer przechodzi wszędzie tam, gdzie oczekiwany jest numer północnoamerykański. To mocna alternatywa, gdy chcesz formatu +1, ale ze świeżej puli numerów.",
+      "To także właściwy wybór, gdy konto ma być naprawdę kanadyjskie: kanadyjskie Apple Account czy profil Google, obecność na Tinderze w kanadyjskim mieście, konto związane z rynkiem kanadyjskim, a nie amerykańskim. Ten sam zaufany format, inny kraj za nim."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Jeden kod, dwa kraje",
+      "body": "Kanada i USA dzielą +1, a sam numer nie ogłasza, do którego kraju należy – decyduje numer kierunkowy obszaru. W praktyce usługi, które akceptują numer z USA, akceptują kanadyjski w tym samym polu."
+    },
+    {
+      "title": "Świeża pula dla rejestracji +1",
+      "body": "Numery z USA mają duży ruch weryfikacyjny. Jeśli usługa robi problemy z jednym numerem +1, kanadyjski daje ten sam znajomy format z innej, często mniej obciążonej puli."
+    },
+    {
+      "title": "Porządnie zakotwicz kanadyjskie konta",
+      "body": "Budujesz naprawdę kanadyjskie konto – na przykład kanadyjski profil w App Store? Połącz numer z pasującym regionem sklepu i ustawieniami, żeby całe konto opowiadało jedną spójną historię."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy to prawdziwy kanadyjski numer komórkowy?",
+      "a": "Tak – numer w prawdziwej sieci operatora w ramach północnoamerykańskiego planu +1, z kanadyjskim numerem kierunkowym. Usługi widzą standardowy północnoamerykański numer komórkowy."
+    },
+    {
+      "q": "Czy usługi potraktują go jak numer z USA?",
+      "a": "W większości procesów tak – oba kraje dzielą +1, a niewiele usług rozróżnia je na etapie weryfikacji. Tam, gdzie usługa sprawdza region, kanadyjski numer kierunkowy oznacza go jako kanadyjski."
+    },
+    {
+      "q": "Jakie usługi dobrze działają z kanadyjskim numerem?",
+      "a": "Wszystko, co zbudowano dla rynku północnoamerykańskiego: Google, Discord, Tinder, Snapchat, Apple. Ich rejestracje są zaprojektowane wokół numerów +1, a kanadyjski pasuje natywnie."
+    },
+    {
+      "q": "Czy mogę używać kanadyjskiego numeru spoza Kanady?",
+      "a": "Tak. Numer żyje w aplikacji SMS Code, a nie na karcie SIM, więc SMS weryfikacyjny odbierzesz w dowolnym miejscu na świecie."
+    },
+    {
+      "q": "Jak długo mam numer?",
+      "a": "Przez okno aktywacji – wystarczająco długo, by odebrać kod weryfikacyjny. Jeśli SMS nigdy nie dotrze, anuluj aktywację bez opłat; jeśli zatrzymujesz konto, zabezpiecz je e-mailem do odzyskiwania i 2FA przez aplikację."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "title": "Ist eine virtuelle Nummer legal? Was die Regeln sagen",
+  "description": "Virtuelle Nummern sind ein normales Telekom-Produkt. Wo die echten Grenzen liegen: Gesetz, Nutzungsbedingungen von Plattformen, Regeln zur SIM-Registrierung.",
+  "excerpt": "Viele zögern, bevor sie eine virtuelle Nummer nutzen, als wäre der Empfang einer SMS darauf eine Grauzone. Meist ist er das nicht. Hier ist der Unterschied zwischen dem Gesetz, den Nutzungsbedingungen einer Plattform und dem, was mit jeder Telefonnummer illegal ist.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "„Ist das überhaupt legal?“ gehört zu den häufigsten Fragen, die Leute stellen, bevor sie zum ersten Mal eine virtuelle Nummer nutzen. Das Zögern ist verständlich. Telefonnummern sind in den meisten Teilen der Welt an die Identität gebunden, SIM-Karten verlangen immer öfter einen Ausweis, und das Wort „virtuell“ klingt nach Umgehung."
+    },
+    {
+      "type": "p",
+      "text": "Die kurze Antwort: Eine virtuelle Nummer zu nutzen, ist in den meisten Ländern legal – es ist ein gewöhnlicher Telekommunikationsdienst, den Unternehmen, Entwickler und Menschen, die ihre Privatsphäre schützen, jeden Tag nutzen. Die längere Antwort ist nützlicher, weil sie drei Dinge trennt, die oft verschwimmen: was das Gesetz sagt, was die Regeln einer Plattform sagen und was illegal ist, egal welche Nummer du nutzt. Dieser Artikel ist eine allgemeine Erklärung, keine Rechtsberatung für ein bestimmtes Land."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-numbers-are-ordinary-telecom",
+      "text": "Eine virtuelle Nummer ist ein gewöhnliches Telekom-Produkt"
+    },
+    {
+      "type": "p",
+      "text": "Der Ausdruck „virtuelle Nummer“ beschreibt, wie du die Nummer erreichst, nicht, was sie ist. Eine virtuelle Mobilnummer ist eine echte Nummer in einem echten Mobilfunknetz; die SIM, die für sie antwortet, sitzt beim Anbieter, und du siehst eingehende Nachrichten in einer App statt auf der SIM deines Handys. Solche Nummern werden ständig und offen genutzt:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Unternehmen nutzen sie für Support-Hotlines, Lieferbenachrichtigungen und Zwei-Faktor-Codes.",
+        "Entwickler und QA-Teams nutzen sie, um Registrierungs- und Login-Abläufe in anderen Ländern zu testen.",
+        "Reisende und Auswanderer nutzen sie, um in einem Land Fuß zu behalten, in dem sie nicht mehr leben.",
+        "Privatpersonen nutzen sie, um ihre private Nummer von Apps, Shops und Websites fernzuhalten, die sie nicht brauchen."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Uns ist nirgends eine allgemeine gesetzliche Pflicht bekannt, sich bei einem Onlinedienst mit der SIM-Karte im eigenen Handy zu registrieren."
+    },
+    {
+      "type": "h2",
+      "id": "privacy-is-a-legitimate-reason",
+      "text": "Datenschutz ist ein legitimer Grund, und das Gesetz sieht das genauso"
+    },
+    {
+      "type": "p",
+      "text": "Deine echte Nummer privat halten zu wollen, ist nicht verdächtig; es ist gute Praxis, die das Datenschutzrecht ausdrücklich fördert. Die DSGVO der EU zum Beispiel baut auf dem Grundsatz der Datenminimierung auf: Unternehmen sollen nur die personenbezogenen Daten erheben, die sie tatsächlich brauchen. Eine Telefonnummer, die du einem Forum oder einem Shop gibst, wird zu einer dauerhaften Kennung, die deine Konten verknüpfen, in einem Datenleck landen oder an Werbetreibende verkauft werden kann. Sie für dich zu behalten, ist die Verbraucherversion desselben Prinzips."
+    },
+    {
+      "type": "h2",
+      "id": "law-versus-terms-of-service",
+      "text": "Das Gesetz und die Nutzungsbedingungen einer Plattform"
+    },
+    {
+      "type": "p",
+      "text": "Hier liegt der Großteil der Verwirrung. Jede Plattform schreibt eigene Regeln – dazu, wie viele Konten du haben darfst, welche Nummern sie akzeptiert, ob du irgendetwas automatisieren darfst. Diese Regeln sind ein Vertrag zwischen dir und der Plattform, kein Strafrecht."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ein Verstoß gegen die Bedingungen einer Plattform hat meist Folgen auf der Plattform: ein gesperrtes Konto, eine abgelehnte Nummer, eine eingeschränkte Funktion.",
+        "Manche Dienste lehnen VoIP- oder virtuelle Nummern ausdrücklich ab und setzen das technisch durch. Das ist ihr Recht, und es macht die Nutzung einer solchen Nummer anderswo nicht illegal.",
+        "Die eigenen Bedingungen von SMS Code sagen es direkt: Du bist dafür verantwortlich, die Bedingungen der Plattformen einzuhalten, bei denen du dich registrierst. Lies sie für jedes Konto, das dir wichtig ist."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Ein nützlicher Test: Wäre es in Ordnung, das Konto mit deiner eigenen SIM zu eröffnen, ist die Eröffnung mit einer gemieteten Nummer aus Datenschutzgründen dieselbe Handlung mit weniger preisgegebenen persönlichen Daten. Wäre das Konto mit deiner eigenen SIM ein Problem, behebt eine andere Nummer das nicht."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-laws",
+      "text": "Und was ist mit Gesetzen zur SIM-Registrierung?"
+    },
+    {
+      "type": "p",
+      "text": "Laut der GSMA, dem Verband der Mobilfunkbranche, verlangen mehr als 150 Länder, dass Prepaid-SIM-Karten auf eine Identität registriert werden. Diese Gesetze zielen darauf, wie Betreiber SIM-Karten verkaufen und aktivieren – sie verlangen, dass der Betreiber weiß, wer jede Leitung hält. Sie regeln in der Regel nicht, welche Nummer du in das Registrierungsformular einer Website tippst."
+    },
+    {
+      "type": "p",
+      "text": "Es gibt Ausnahmen, die man kennen sollte. In manchen Ländern müssen bestimmte Kategorien von Diensten – Banking, Zahlungen, E-Government, manchmal lokale Messenger – dich gesetzlich über eine auf deinen Namen registrierte Nummer verifizieren. Eine andere Nummer dort zu nutzen, verstößt nicht nur gegen die Regeln; es funktioniert nicht und kann gegen lokale Vorschriften verstoßen. Lebst du an einem Ort mit strengen Telekom-Regeln, prüfe sie, bevor du dich auf eine ausländische oder virtuelle Nummer verlässt."
+    },
+    {
+      "type": "h2",
+      "id": "what-is-illegal-with-any-number",
+      "text": "Was mit jeder Nummer illegal ist"
+    },
+    {
+      "type": "p",
+      "text": "Die Nummer ist ein Werkzeug. Ob das, was du tust, legal ist, hängt von der Handlung ab, und Folgendes ist illegal oder schwerwiegendes Unrecht, egal ob du eine virtuelle Nummer, eine Wegwerf-SIM oder deine eigene nutzt:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Betrug: Abzocke, gefälschte Angebote, Missbrauch von Rückbuchungen oder jedes Vorhaben, unter falschen Vorwänden an Geld zu kommen.",
+        "Identitätstäuschung und Identitätsdiebstahl: sich als eine reale Person oder Organisation ausgeben.",
+        "Belästigung, Drohungen und Stalking, einschließlich der Kontaktaufnahme mit jemandem, der dich blockiert hat.",
+        "Umgehung gesetzlicher Identitätsprüfungen: eine andere Nummer nutzen, um Know-your-Customer-Regeln bei Banken, Börsen oder Zahlungsdiensten zu umgehen.",
+        "Spam und massenhafte Kontoerstellung für Manipulation, gefälschte Bewertungen oder Missbrauch."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nichts davon wird legal, weil eine Nummer deine ist, und nichts davon wird nur deshalb illegal, weil eine Nummer virtuell ist. Die Bedingungen von SMS Code verbieten all das, und so genutzte Konten werden geschlossen."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Häufige Fragen"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Ist es legal, SMS auf einer virtuellen Nummer zu empfangen?",
+          "a": "In den meisten Ländern ja. Eine Nummer zu mieten und darauf Nachrichten zu empfangen, ist ein gewöhnlicher Telekommunikationsdienst. Rechtlich zählt, was du mit den erstellten Konten tust."
+        },
+        {
+          "q": "Ist es legal, eine virtuelle Nummer für WhatsApp oder Telegram zu nutzen?",
+          "a": "Eine andere Nummer für einen Messenger zu nutzen, ist an den meisten Orten keine Straftat. Jede App hat aber eigene Bedingungen und kann Konten, die dagegen verstoßen, einschränken oder sperren – lies sie für Konten, die dir wichtig sind."
+        },
+        {
+          "q": "Kann ich eine virtuelle Nummer für meine Bank nutzen?",
+          "a": "Das solltest du nicht. Banken und Zahlungsdienste sind oft gesetzlich verpflichtet, dein Konto an eine auf deinen Namen registrierte Nummer zu binden, und sie prüfen sie regelmäßig erneut."
+        },
+        {
+          "q": "Ist eine virtuelle Nummer anonym?",
+          "a": "Sie hält deine private Nummer von dem Dienst fern, bei dem du dich registrierst. Sie macht illegale Aktivitäten nicht unauffindbar und ändert nichts an dem Recht, das für dein Handeln gilt."
+        },
+        {
+          "q": "Verstößt die Nutzung einer virtuellen Nummer gegen die Bedingungen der App, bei der ich mich registriere?",
+          "a": "Das hängt von der App ab. Viele stört es nicht, welche Nummer du nutzt, solange du den Code empfangen kannst; manche lehnen virtuelle oder VoIP-Nummern ab. Prüfe die Bedingungen jedes Dienstes, dessen Konto du behalten willst."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

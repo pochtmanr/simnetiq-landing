@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Instagram — Xác minh không cần SIM của bạn",
+  "metaDescription": "Nhận số ảo thật để xác minh Instagram thường chỉ trong vài giây. Xác nhận tài khoản mới, tài khoản thương hiệu hay tài khoản thứ hai mà không đưa số của bạn.",
+  "hero": {
+    "title": "Số ảo cho Instagram",
+    "intro": [
+      "Instagram cho phép đăng ký bằng địa chỉ email — nhưng bước điện thoại hiếm khi là tùy chọn được lâu. Một thiết bị mới, một mạng lạ hay vài thao tác nhanh ngay sau khi đăng ký, và Instagram sẽ yêu cầu bạn xác nhận số điện thoại trước khi cho tiếp tục. Số đó rốt cuộc sẽ gắn với tài khoản.",
+      "Với SMS Code, bạn thuê một số thật tại một trong hơn 100 quốc gia, đưa nó cho Instagram, và mã sáu chữ số hiện trong ứng dụng thường chỉ trong vài giây. Số cá nhân của bạn nằm ngoài đồ thị liên hệ của Meta — và ngoài các gợi ý “những người bạn có thể biết” được xây dựng dựa trên nó."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Instagram?",
+    "body": [
+      "Số điện thoại trên Instagram làm nhiều hơn việc xác minh bạn một lần: nó liên kết tài khoản với danh tính của bạn trên khắp Meta, và có thể đưa hồ sơ của bạn ra trước bất kỳ ai đã lưu số bạn trong danh bạ. Nếu bạn ra mắt một trang thương hiệu, một cửa hàng hay hồ sơ nhà sáng tạo mà bạn muốn tách biệt khỏi đời sống cá nhân, số ảo giữ bức tường đó nguyên vẹn — tài khoản xác minh bình thường nhưng không trỏ về bạn.",
+      "Đó cũng là cách gọn gàng để vận hành nhiều tài khoản. Instagram chính thức hỗ trợ tới năm tài khoản trong một ứng dụng, nhưng khi hệ thống của họ kiểm tra một tài khoản, mỗi tài khoản có thể cần điểm liên hệ riêng để xác nhận. Số ảo cho mỗi dự án một số riêng — không cần sưu tầm SIM."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh Instagram bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Instagram làm dịch vụ, chọn quốc gia và chạm một lần. Một số di động thật được giữ riêng cho bạn — trả tiền theo lần kích hoạt, không thuê bao."
+      },
+      {
+        "title": "Nhập số vào Instagram",
+        "body": "Dù bạn đang ở màn hình đăng ký hay gặp lời nhắc “xác nhận số điện thoại” trên tài khoản hiện có, hãy chọn mã quốc gia tương ứng và nhập số đúng như được cấp."
+      },
+      {
+        "title": "Lấy mã từ SMS Code",
+        "body": "Instagram gửi một SMS sáu chữ số — kiểu như “391 504 is your Instagram code. Don't share it.” Tin hiện trong ứng dụng SMS Code thường chỉ trong vài giây; nhập vào và bước kiểm tra được thông qua."
+      },
+      {
+        "title": "Chuyển tài khoản khỏi số đã thuê",
+        "body": "Thêm địa chỉ email bạn kiểm soát và bật xác thực hai yếu tố qua ứng dụng xác thực: Cài đặt → Trung tâm tài khoản → Mật khẩu và bảo mật. Sau đó, đăng nhập và khôi phục không bao giờ phụ thuộc vào số ảo nữa."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Thiết lập tài khoản chỉn chu trước khi dùng",
+      "body": "Một hồ sơ có ảnh, tiểu sử và vài bài đăng đơn giản là một tài khoản hoàn chỉnh, và tài khoản hoàn chỉnh ít bị yêu cầu xác nhận lại điện thoại hơn nhiều so với tài khoản trống. Nếu Instagram cứ kiểm tra bạn, đó là hệ thống chống lạm dụng đang làm việc của nó — số ảo đưa bạn qua bước kiểm tra điện thoại thông thường, không phải cách vượt qua hạn chế hay lệnh cấm."
+    },
+    {
+      "title": "Đăng ký bằng email không có nghĩa là không có bước điện thoại",
+      "body": "Ngay cả tài khoản đăng ký bằng email cũng bị hỏi số điện thoại mỗi khi Instagram muốn xác nhận thêm — thiết bị mới, mạng bất thường, hoạt động dồn dập. Hãy nhớ: số ảo không chỉ dành cho đăng ký, mà còn cho trạm kiểm tra có thể đến sau."
+    },
+    {
+      "title": "Nếu mã không đến, hãy đổi số",
+      "body": "Instagram đôi khi giới hạn tần suất SMS tới một số vừa yêu cầu mã. Đừng bấm “gửi lại” liên tục — hãy hủy lần kích hoạt đang chờ trong SMS Code (số không nhận được gì thì miễn phí) và lấy số mới, hoặc thử quốc gia khác."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tài khoản Instagram có còn hoạt động sau khi số hết hạn không?",
+      "a": "Có. Số chỉ cần trong lúc mã xác minh được gửi đến. Khi đã vào, hãy thêm email bạn kiểm soát và bật xác thực hai yếu tố qua ứng dụng xác thực trong Trung tâm tài khoản — khi đó tài khoản không bao giờ cần nhận thêm SMS nào trên số đó."
+    },
+    {
+      "q": "Tôi có thể tạo tài khoản Instagram thứ hai bằng số ảo không?",
+      "a": "Có. Meta cho phép nhiều tài khoản và Instagram hỗ trợ tới năm tài khoản trong một ứng dụng. Mỗi tài khoản có thể được yêu cầu xác nhận số điện thoại riêng khi hệ thống Instagram kiểm tra, nên hãy cho mỗi tài khoản một số ảo riêng thay vì dùng chung một điểm liên hệ."
+    },
+    {
+      "q": "Vì sao Instagram cứ yêu cầu tôi xác nhận số điện thoại?",
+      "a": "Đó là quy trình trạm kiểm tra. Nó thường kích hoạt khi tài khoản trông như tự động: vừa tạo mà đã theo dõi hàng chục người, hoặc đăng nhập từ mạng Instagram chưa từng thấy. Hãy chậm lại, hoàn thiện hồ sơ, và xác minh một lần bằng số bạn nhận được mã."
+    },
+    {
+      "q": "Vì sao mã Instagram không đến?",
+      "a": "Nguyên nhân phổ biến nhất là sai mã quốc gia; thứ hai là Instagram giới hạn SMS tới một số vừa yêu cầu mã. Hãy hủy lần kích hoạt đang chờ trong SMS Code — xu của số không nhận được gì được hoàn vào số dư — và thử số mới hoặc quốc gia khác."
+    },
+    {
+      "q": "Đăng ký Instagram bằng số ảo có được phép không?",
+      "a": "Bước xác minh của Instagram kiểm tra rằng bạn nhận được mã trên số đó, không phải SIM đăng ký tên ai. Thuê số cho bước xác nhận là ổn với sử dụng bình thường — trang cá nhân, thương hiệu hay cửa hàng. Điều quan trọng là tuân theo quy tắc cộng đồng của chính Instagram khi đã vào."
+    }
+  ]
+}

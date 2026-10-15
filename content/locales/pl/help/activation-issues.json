@@ -1,0 +1,35 @@
+{
+  "title": "Problemy z aktywacją: brakujący lub odrzucony SMS",
+  "metaDescription": "SMS nie dociera albo kod jest odrzucany? Sprawdź usługę i numer, użyj anulowania po dwóch minutach i dowiedz się, co wysłać do pomocy SMS Code.",
+  "sections": [
+    {
+      "title": "Sprawdź usługę i numer",
+      "paragraphs": [
+        "Wybierz dokładnie tę usługę, którą chcesz zweryfikować. Wpisz przydzielony numer z numerem kierunkowym i sprawdź, czy prefiks się nie powtarza. Poproś w tej usłudze o weryfikację SMS-em; połączenia głosowego ani kodu wysłanego na inne urządzenie nie da się tu odebrać.",
+        "Zostaw aktywację otwartą i sprawdzaj jej status w aplikacji. Powiadomienia mogą pomóc, ale to ekran aktywacji jest miejscem, w którym sprawdzasz kod. Unikaj wielokrotnego proszenia o ponowne wysłanie: docelowa usługa może narzucić własny czas oczekiwania."
+      ]
+    },
+    {
+      "title": "Anulowanie po dwóch minutach i okno aktywacji",
+      "paragraphs": [
+        "Jeśli SMS nie dotarł, możesz anulować dwie minuty po przydzieleniu numeru. Licznik startuje w chwili przydzielenia, a nie gdy otwierasz aplikację czy kupujesz monety. Korzystaj z odliczania do anulowania pokazywanego w aplikacji.",
+        "Anulowanie zwraca monety aktywacji na saldo w aplikacji. „Spróbuj innego numeru” również najpierw zwraca monety starej aktywacji, zanim kupi nową; sprawdź nową cenę. To zwroty monet, a nie zwroty płatności.",
+        "Obecne okno aktywacji to 15 minut od przydzielenia. Śledź odliczanie w aplikacji. Jeśli okno się skończy bez SMS-a, aktywacja się zamyka, a jej monety wracają. Jeśli zwrot pozostaje w toku albo saldo jest nieprawidłowe, skontaktuj się z pomocą zamiast wielokrotnie kupować numery.",
+        "Po odebraniu SMS-a anulowanie nie jest możliwe, nawet jeśli docelowa usługa odrzuci kod. SMS, który dotrze w trakcie anulowania, może zmienić uprawnienie do anulowania."
+      ]
+    },
+    {
+      "title": "Odrzucony kod lub numer już użyty",
+      "paragraphs": [
+        "Użyj najnowszego kodu dla właściwego konta i usługi, bez dodatkowych spacji. To docelowa usługa decyduje o ważności kodu, akceptacji numeru i ograniczeniach konta. Dostarczony SMS nie gwarantuje udanej rejestracji.",
+        "Jeśli numer jest już zarejestrowany, nie loguj się na cudze konto. Jeśli kod zostanie odrzucony, przestań powtarzać płatne próby i skontaktuj się z pomocą w celu sprawdzenia. Po dotarciu SMS-a nie ma automatycznego zwrotu monet; nie ogranicza to żadnych obowiązujących praw konsumenta."
+      ]
+    },
+    {
+      "title": "Co wysłać do pomocy",
+      "paragraphs": [
+        "Podaj identyfikator aktywacji, wybraną usługę i kraj, przybliżony czas i strefę czasową, status oraz dokładny komunikat błędu. Zrzut ekranu z błędem pomaga. Nie wysyłaj haseł, kodów weryfikacyjnych ani pełnych danych karty."
+      ]
+    }
+  ]
+}

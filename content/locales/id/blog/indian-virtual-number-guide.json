@@ -1,0 +1,149 @@
+{
+  "title": "Nomor virtual India (+91): cara kerja dan kenapa OTP telat",
+  "description": "Mengapa banyak orang di luar India mencari nomor +91, bagaimana nomor seluler India disusun, dan mengapa SMS OTP ke India kadang terlambat datang.",
+  "excerpt": "Hampir sepuluh juta orang India tinggal di negara-negara Teluk saja, dan jutaan lainnya di luar negeri masih butuh nomor +91 untuk masuk ke layanan di kampung halaman. Cara kerja nomor India, apa dampak aturan DLT pada pengiriman OTP, dan cara menerima kode di nomor India tanpa kartu SIM.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Tanyakan kepada siapa pun yang pindah dari Kerala ke Dubai, atau dari Hyderabad ke Riyadh, apa yang masih mereka simpan dari rumah, dan kartu SIM India muncul dengan frekuensi yang mengejutkan. Bukan untuk telepon — itu sudah lama pindah ke WhatsApp — melainkan untuk kode enam digit. Aplikasi bank, dompet digital, portal pemerintah, dan deretan panjang layanan India meminta nomor +91 saat pendaftaran, lalu terus mengirim SMS ke nomor itu sesudahnya."
+    },
+    {
+      "type": "p",
+      "text": "Skalanya tidak kecil. Kementerian Luar Negeri India memperkirakan hampir sepuluh juta warga India tinggal di enam negara Teluk, lebih dari empat juta di antaranya di Uni Emirat Arab. Tambahkan pelajar di Eropa, insinyur di Amerika Utara, dan diaspora yang oleh Perserikatan Bangsa-Bangsa digolongkan sebagai salah satu yang terbesar di dunia, maka ada sangat banyak orang yang butuh nomor India sambil tinggal di negara lain."
+    },
+    {
+      "type": "p",
+      "text": "Ada pula kelompok kedua: orang yang sama sekali tidak terkait dengan India, tetapi ingin nomor dari salah satu pasar seluler tersibuk di dunia untuk akun baru. Itulah yang ada di balik pencarian seperti «nomor India untuk WhatsApp» dalam bahasa Arab, Prancis, dan belasan bahasa lain. Panduan ini membahas keduanya: bagaimana nomor India disusun, mengapa SMS ke nomor itu berperilaku berbeda, dan di mana nomor virtual +91 berguna."
+    },
+    {
+      "type": "h2",
+      "id": "how-indian-mobile-numbers-work",
+      "text": "Bagaimana nomor seluler India disusun"
+    },
+    {
+      "type": "p",
+      "text": "Nomor seluler India termasuk yang paling mudah dibaca di dunia. Setelah kode negara +91 ada tepat sepuluh digit, dan digit pertama selalu 6, 7, 8, atau 9. Nomor seluler tidak memakai kode area: nomor yang dibeli di Chennai terlihat persis sama dengan yang dibeli di Delhi."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Digit pertama menandakan nomor seluler. Selama bertahun-tahun hampir semua nomor seluler India diawali 9; ketika jumlah pelanggan melewati satu miliar, Departemen Telekomunikasi membuka seri 8, 7, lalu 6.",
+        "Awalan tidak lagi menunjukkan operator. Sejak ada portabilitas nomor, nomor yang lahir di satu jaringan bisa pindah ke Jio, Airtel, atau Vi tanpa mengubah digitnya, jadi empat digit pertama paling banter hanya petunjuk sejarah.",
+        "Rencana penomoran tetap sepuluh digit. Regulator telekomunikasi India, TRAI, membuka konsultasi pada 2019 soal peralihan ke sebelas digit dan membatalkannya pada 2020. Formulir mana pun yang memvalidasi nomor India mengharapkan tepat sepuluh digit setelah +91.",
+        "Di dalam India, orang sering menulis 0 di depan atau +91 lengkap. Keduanya tidak perlu di kolom pendaftaran yang sudah punya pemilih negara — ketik sepuluh digitnya saja."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Poin terakhir itu adalah penyebab paling umum kode tidak datang. Formulir dengan «+91» sudah terpilih lalu diisi «09876543210» menghasilkan nomor yang tidak ada, dan layanan akan mengirim kodenya ke kehampaan tanpa memberi tahu Anda."
+    },
+    {
+      "type": "h2",
+      "id": "why-otps-to-india-lag",
+      "text": "Mengapa SMS OTP ke India kadang terlambat"
+    },
+    {
+      "type": "p",
+      "text": "SMS di India punya keunikan yang jarang disadari pengguna: ini salah satu pasar pesan yang paling ketat diatur di dunia. Sejak 2021, TRAI mewajibkan setiap perusahaan yang mengirim SMS komersial lewat jalur domestik untuk mendaftar di sistem berbasis buku besar terdistribusi yang disebut DLT. Perusahaan, nama pengirimnya, dan templat persis setiap pesan harus didaftarkan lebih dulu. Jika pesan tidak cocok dengan templat terdaftar, jaringan membuangnya."
+    },
+    {
+      "type": "p",
+      "text": "Tujuannya membendung spam dan phishing, dan sebagian besar berhasil. Namun peluncurannya memperlihatkan betapa rapuhnya sistem ini. Ketika operator menyalakan penyaringan templat pada Maret 2021, begitu banyak pesan sah gagal lolos sampai nasabah bank dan pengguna aplikasi pembayaran tidak lagi menerima kode mereka; media industri melaporkan sekitar 40 persen lalu lintas SMS komersial hari itu terganggu, dan TRAI menangguhkan aturan selama seminggu sementara perusahaan memperbaiki templat mereka."
+    },
+    {
+      "type": "p",
+      "text": "Kini sistemnya berjalan mulus bagi pengirim besar, tetapi masih tersisa dua efek samping:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Layanan asing sering mengirim ke India lewat jalur internasional, bukan domestik. Pesan semacam itu tidak melewati pendaftaran templat DLT, tetapi tarif dan penyaringannya berbeda, dan nama pengirim yang biasa sering diganti nomor acak atau kode pendek. Jika Anda menunggu pesan dari «GOOGLE» tetapi kodenya datang dari deretan angka, itulah sebabnya.",
+        "Ketika pengirim mengubah kata-kata pesannya tanpa memperbarui templat terdaftar, pengiriman bisa macet sampai templat diperbarui. Wujudnya: kode yang sama sekali tidak datang, lalu besoknya berfungsi lagi."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Jika kode ke nomor India tidak datang, masalahnya biasanya ada pada format atau jalur pengirim — bukan pada nomornya. Pastikan formulir menampilkan +91 diikuti tepat sepuluh digit, tunggu satu menit penuh, lalu minta kode baru sekali saja. Permintaan berulang dalam waktu singkat bisa memicu batasan layanan itu sendiri."
+    },
+    {
+      "type": "h2",
+      "id": "who-uses-a-virtual-indian-number",
+      "text": "Siapa yang sebenarnya memakai nomor virtual +91"
+    },
+    {
+      "type": "p",
+      "text": "Ada dua kebutuhan berbeda di sini, dan masing-masing butuh alat yang berbeda. Jujur soal perbedaan ini menghemat waktu dan kadang menyelamatkan akun."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Perantau yang hidupnya masih terikat ke India dalam jangka panjang. Rekening bank, dompet UPI, layanan yang terhubung ke Aadhaar, dan portal pajak terikat ke nomor yang terdaftar atas nama Anda dengan dokumen identitas, dan akan memverifikasinya ulang selama bertahun-tahun. Nomor virtual adalah alat yang salah di sini. Biarkan SIM India Anda tetap aktif — kebanyakan operator punya paket masa aktif murah — atau gunakan eSIM jangka panjang jika operator Anda mendukungnya.",
+        "Pendaftaran sekali pakai. Akun pesan dengan identitas India, aplikasi yang hanya membuka katalog India untuk nomor +91, akun uji untuk pengembang, profil kedua yang ingin dipisahkan dari nomor asli. Di sini nomor hanya penting pada satu momen: verifikasi. Untuk itulah nomor virtual sewaan ada."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bagi kelompok kedua, nomor virtual India melakukan apa yang dilakukan SIM pada tahap verifikasi — nomor seluler sepuluh digit yang nyata di jaringan operator India, khusus untuk Anda selama kode dalam perjalanan — tanpa ke toko, tanpa urusan dokumen identitas, dan tanpa paket yang harus terus diisi."
+    },
+    {
+      "type": "h2",
+      "id": "getting-a-code-on-a-91-number",
+      "text": "Menerima kode di nomor +91 dengan SMS Code"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Pilih layanan dan India",
+          "body": "Di SMS Code, pilih layanan yang akan Anda verifikasi — WhatsApp, Telegram, Google, atau salah satu dari 100+ layanan lain — lalu pilih India sebagai negara. Harga aktivasi dalam koin tampil sebelum Anda konfirmasi."
+        },
+        {
+          "title": "Masukkan sepuluh digit",
+          "body": "Atur pemilih negara di formulir ke India (+91) dan ketik nomor sepuluh digit yang tampil di aplikasi — tanpa 0 di depan dan tanpa mengulang kode negara."
+        },
+        {
+          "title": "Salin kode dari aplikasi",
+          "body": "SMS muncul di SMS Code biasanya dalam hitungan detik. Salin kodenya ke formulir. Jika tidak ada yang masuk, Anda bisa membatalkan dan mengambil nomor lain dua menit setelah nomor diberikan; koin aktivasi yang tidak terpakai kembali ke saldo Anda."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Setelah akun terverifikasi, tambahkan email pemulihan dan aktifkan perlindungan dua langkah milik layanan itu — aplikasi autentikator atau passkey jika tersedia. Nomor sewaan untuk momen verifikasi; jangan jadikan satu-satunya jalan kembali ke akun setahun dari sekarang."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Pertanyaan yang sering diajukan"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Bisakah saya punya nomor India untuk WhatsApp tanpa tinggal di India?",
+          "a": "Bisa. WhatsApp memeriksa apakah Anda bisa menerima kode di nomor yang dimasukkan, bukan di mana Anda berada. Nomor virtual +91 menerima kode itu seperti nomor seluler India mana pun. Ingat, WhatsApp bisa meminta verifikasi ulang saat akun dipindahkan ke ponsel baru, jadi segera tambahkan PIN dan email ke akun."
+        },
+        {
+          "q": "Mengapa kode datang dari nomor acak, bukan nama perusahaan?",
+          "a": "Pesan dari pengirim asing sering masuk ke India lewat jalur internasional, yang tidak selalu mempertahankan nama pengirim terdaftar. Kodenya asli; hanya label pengirimnya yang berubah di perjalanan."
+        },
+        {
+          "q": "Apakah nomor virtual India cocok untuk UPI atau rekening bank?",
+          "a": "Tidak. Bank dan aplikasi UPI mengikat akun ke nomor yang terdaftar dengan identitas Anda dan memeriksanya ulang secara rutin. Untuk urusan keuangan atau pemerintahan, gunakan SIM atas nama Anda."
+        },
+        {
+          "q": "Berapa digit yang harus saya ketik setelah +91?",
+          "a": "Tepat sepuluh, diawali 6, 7, 8, atau 9. Hapus 0 di depan dan jangan ketik 91 lagi jika formulir sudah menampilkan kode negara."
+        },
+        {
+          "q": "Bagaimana jika kodenya tidak pernah datang?",
+          "a": "Periksa dulu format nomor, lalu tunggu satu menit penuh. Jika tetap tidak ada, batalkan aktivasi di SMS Code setelah dua menit — koin kembali ke saldo — dan coba nomor baru."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "serviceSlug": "whatsapp"
+    }
+  ]
+}

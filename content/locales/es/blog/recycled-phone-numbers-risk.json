@@ -1,0 +1,129 @@
+{
+  "title": "Números reciclados: el riesgo oculto de la verificación SMS",
+  "description": "Millones de números cambian de manos cada año. Un estudio de Princeton halló que la mayoría de los números reciclados aún abrían cuentas antiguas.",
+  "excerpt": "Cuando se da de baja un número, no desaparece: vuelve a venderse. Investigadores de Princeton comprobaron que dos de cada tres números reciclados de su muestra seguían vinculados a cuentas de alguien. Qué significa el reciclaje de números para la verificación por SMS y cómo evitar estar en cualquiera de los dos lados.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Los números de teléfono parecen permanentes. Los imprimimos en tarjetas de visita, se los damos a los bancos y los usamos para entrar en casi todo. Pero para la operadora, un número es inventario. Cuando un cliente deja de pagar, cambia de plan sin portar su número o simplemente deja caducar una tarjeta prepago, el número se da de baja, se deja reposar un tiempo y se entrega a otra persona."
+    },
+    {
+      "type": "p",
+      "text": "La Comisión Federal de Comunicaciones de EE. UU., la FCC, calcula que unos 35 millones de números se dan de baja y quedan disponibles para reasignarse cada año solo en Estados Unidos. La mayoría fueron, en algún momento, el usuario de acceso, el canal de recuperación o el segundo factor de las cuentas de alguien."
+    },
+    {
+      "type": "h2",
+      "id": "what-the-princeton-study-found",
+      "text": "Qué descubrieron los investigadores de Princeton"
+    },
+    {
+      "type": "p",
+      "text": "En 2021, Kevin Lee y Arvind Narayanan, del Center for Information Technology Policy de la Universidad de Princeton, se propusieron medir el problema de forma directa. Tomaron una muestra de 259 números que dos grandes operadoras estadounidenses, T-Mobile y Verizon, ofrecían a nuevos clientes, y comprobaron qué podían abrir todavía."
+    },
+    {
+      "type": "list",
+      "items": [
+        "171 de los 259 números —unos dos de cada tres— seguían vinculados a cuentas existentes en webs populares, entre ellas Amazon, AOL, Facebook, Google, PayPal y Yahoo. Un nuevo titular que recibiera los SMS de restablecimiento de contraseña podría llegar a hacerse con esas cuentas.",
+        "100 de los números aparecían junto a credenciales de acceso filtradas en datos públicos de brechas, es decir, el SMS era lo único que separaba a un atacante de la cuenta.",
+        "Muchos números también devolvían información personal sobre sus titulares anteriores en webs de búsqueda de personas."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Los investigadores descubrieron además que las páginas de cambio de número de las operadoras permitían a cualquiera explorar grandes reservas de números disponibles, lo que facilitaba a un atacante buscar los reciclados. Ambas operadoras hicieron cambios tras ser avisadas; los autores publicaron sus respuestas junto con el estudio."
+    },
+    {
+      "type": "callout",
+      "text": "El fondo del problema es sencillo: los servicios tratan «poder recibir un SMS en este número» como prueba de identidad, mientras que las operadoras tratan los números como reutilizables. Cuando ambas suposiciones se cruzan, quien tiene el número hoy hereda toda la confianza que estaba unida a él ayer."
+    },
+    {
+      "type": "h2",
+      "id": "what-regulators-did",
+      "text": "Qué han hecho los reguladores"
+    },
+    {
+      "type": "p",
+      "text": "La respuesta principal de la FCC apuntaba a otro problema: las llamadas no deseadas a quienes heredan un número. En diciembre de 2018 ordenó crear la Reassigned Numbers Database, que entró en funcionamiento en 2021. Las operadoras comunican los números dados de baja definitivamente, y las empresas pueden consultar si un número se ha dado de baja desde una fecha concreta antes de llamarlo o escribirle. La misma resolución fijó un periodo mínimo de «envejecimiento» de 45 días antes de reasignar un número dado de baja."
+    },
+    {
+      "type": "p",
+      "text": "Eso ayuda a que las empresas dejen de escribir a desconocidos. Pero no hace nada por las cuentas que aún tienen guardado el número antiguo. Mantenerlas al día queda, en la práctica, en manos del titular."
+    },
+    {
+      "type": "h2",
+      "id": "protecting-your-own-accounts",
+      "text": "Cómo protegerte cuando cambias de número"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "title": "Actualiza antes de soltar el número",
+          "body": "Antes de dar de baja una línea o dejar caducar una SIM prepago, repasa tus cuentas de correo, banco, redes y compras y cambia el número. La lista de accesos guardados en tu gestor de contraseñas es la checklist más rápida."
+        },
+        {
+          "title": "Deja el SMS como segundo factor",
+          "body": "Usa una app de autenticación, una llave de acceso o una llave física siempre que puedas. El NIST, el organismo de estándares de EE. UU., clasifica ahora los códigos SMS como autenticador «restringido» precisamente por estas razones."
+        },
+        {
+          "title": "Ten una vía de recuperación que no sea un número",
+          "body": "Un correo de recuperación que controles y códigos de respaldo guardados convierten un número perdido o reciclado en una molestia, no en un bloqueo."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "id": "what-it-means-for-virtual-numbers",
+      "text": "Qué significa esto para los números virtuales alquilados"
+    },
+    {
+      "type": "p",
+      "text": "Un artículo honesto sobre el reciclaje de números tiene que aplicar la misma lógica a los números alquilados, porque se reciclan por diseño. Un número que alquilas para una verificación queda reservado para ti durante la activación; después puede volver a usarse para otras personas y otros servicios. Eso es lo que lo hace barato y desechable, y por eso nunca debería convertirse en el canal de recuperación a largo plazo de una cuenta que te importa."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Buenos usos: completar un registro sin darle tu número personal al servicio; mensajería, redes sociales, marketplaces, pruebas gratuitas y cuentas de prueba, donde el número solo importa en el momento de la verificación.",
+        "Malos usos: banca, pagos, servicios públicos y cualquier cuenta cuya única vía de recuperación sea un SMS a ese número. Esas merecen un número que siga siendo tuyo dentro de cinco años.",
+        "Justo después de verificar: añade un correo de recuperación, activa la verificación en dos pasos con app y, si el servicio lo permite, no dejes el número alquilado como única vía de vuelta."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Usado así, un número alquilado es en realidad una defensa contra el problema del reciclaje, no un ejemplo de él. Tu número real —el que algún día podría darse de baja y revenderse— ni siquiera acaba en decenas de bases de datos."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Preguntas frecuentes"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "¿Cuánto tarda un número antiguo en asignarse a otra persona?",
+          "a": "En EE. UU., las normas de la FCC exigen que un número dado de baja «envejezca» al menos 45 días antes de reasignarse, y las operadoras suelen esperar más. Otros países fijan sus propios plazos; algunos números prepago se reasignan en cuestión de meses."
+        },
+        {
+          "q": "¿Puede el nuevo dueño de mi antiguo número entrar en mis cuentas?",
+          "a": "Si alguna cuenta sigue usando ese número para restablecer la contraseña o para los códigos en dos pasos, es posible. El estudio de Princeton halló que dos tercios de los números reciclados de la muestra seguían vinculados a cuentas en grandes webs."
+        },
+        {
+          "q": "¿Cómo sé qué cuentas usan mi número?",
+          "a": "Empieza por tu gestor de contraseñas y tu correo: busca mensajes de «código de verificación» e «inicio de sesión». Después revisa uno a uno los ajustes de seguridad de tus cuentas de correo, banco, redes y compras."
+        },
+        {
+          "q": "¿Se reutilizan los números virtuales alquilados?",
+          "a": "Sí, cuando termina tu activación. Por eso están pensados para el momento de la verificación. Añade un correo y verificación en dos pasos con app a la cuenta justo después de registrarte."
+        },
+        {
+          "q": "¿Sigue valiendo la pena la verificación en dos pasos por SMS?",
+          "a": "Es mejor que no tener segundo factor, pero una app de autenticación, una llave de acceso o una llave física son más sólidas y no dependen de quién tenga un número de teléfono."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

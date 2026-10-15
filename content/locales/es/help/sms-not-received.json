@@ -1,0 +1,30 @@
+{
+  "title": "No llegó el SMS: por qué pasa y qué hacer",
+  "metaDescription": "Por qué a veces un SMS de verificación no llega a un número virtual, cómo vuelven tus monedas solas y qué países entregan mejor para cada servicio.",
+  "sections": [
+    {
+      "title": "No pierdes monedas si no llega el SMS",
+      "paragraphs": [
+        "Si no llega ningún SMS, puedes cancelar dos minutos después de que se asigne el número y las monedas vuelven a tu saldo. Si esperas, la activación se cierra al final de su ventana de 15 minutos y las monedas vuelven automáticamente. En ninguno de los dos casos tienes que escribirnos."
+      ]
+    },
+    {
+      "title": "Por qué no llega un SMS",
+      "paragraphs": [
+        "**Decide el servicio.** Cada servicio tiene sus propios controles antifraude. Algunos rechazan o descartan sin avisar los SMS a números virtuales de ciertos países, o limitan cuántas cuentas puede abrir un rango de números.",
+        "**Importan el país y el operador.** El mismo servicio puede entregar bien en un país y mal en otro. Además, cambia con el tiempo cuando los servicios actualizan sus filtros.",
+        "**Puede que el código no se envíe por SMS.** Algunos servicios mandan el primer código por llamada, por correo o a una app en la que ya iniciaste sesión. Busca una opción de «enviar por SMS».",
+        "**Límites de reenvío.** Pedir el código muchas veces puede activar una espera en el servicio. Espera un minuto antes de pedirlo otra vez."
+      ]
+    },
+    {
+      "title": "Qué hacer",
+      "steps": [
+        "Comprueba que escribiste el número con el prefijo de país correcto y que elegiste el servicio exacto en la app.",
+        "Espera hasta dos minutos y cancela. Las monedas vuelven a tu saldo.",
+        "Prueba otro país para el mismo servicio. Usa el buscador de abajo para elegir uno donde los SMS estén llegando bien ahora.",
+        "Si fallan varios países para el mismo servicio, probablemente el servicio esté bloqueando números virtuales por ahora. Inténtalo más tarde."
+      ]
+    }
+  ]
+}

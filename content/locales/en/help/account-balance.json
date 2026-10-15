@@ -11,6 +11,7 @@
     },
     {
       "title": "Before deleting an account",
+      "id": "delete",
       "paragraphs": [
         "Account deletion and payment refunds are separate actions. Save the purchase details you need, resolve any pending activation and contact support about remaining coins before deleting. Request any Apple payment refund separately.",
         "Use the account-deletion option in the app’s settings. If you cannot access it, contact support. Deletion does not cancel an Apple payment, and records needed for legal obligations or dispute handling may be retained as described in our Privacy Policy."

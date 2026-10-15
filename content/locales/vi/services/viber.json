@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho Viber — Đăng ký không cần thẻ SIM",
+  "metaDescription": "Kích hoạt Viber bằng số ảo thật từ hơn 100 quốc gia. Mã thường đến chỉ trong vài giây — trả tiền theo lần kích hoạt, hủy miễn phí nếu không có SMS.",
+  "hero": {
+    "title": "Số ảo cho Viber",
+    "intro": [
+      "Viber chơi theo cùng luật với WhatsApp: số điện thoại của bạn chính là tài khoản. Đó là thứ bạn dùng để đăng ký, thứ người liên hệ thấy, và thứ mọi cuộc trò chuyện neo vào. Ở Đông Âu, vùng Balkan và Philippines, đó đơn giản là nơi nhóm chat gia đình sinh sống — nên sớm muộn gì bạn cũng cần một số để tham gia.",
+      "Với SMS Code, bạn thuê một số di động thật tại một trong hơn 100 quốc gia, nhập trên màn hình kích hoạt của Viber, và mã hiện trong ứng dụng thường chỉ trong vài giây. Bạn trả tiền theo lần kích hoạt từ gói xu mua một lần — không thuê bao — và số không nhận được gì có thể hủy mà không bị trừ phí."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho Viber?",
+    "body": [
+      "Vì số là danh tính, mọi người bạn trò chuyện trên Viber đều thấy nó — thành viên cộng đồng, người bán trên chợ, nhóm chat cư dân tòa nhà. Đưa cho tất cả họ số mà ngân hàng gọi cho bạn là một nhượng bộ lớn hơn vẻ ngoài. Số ảo giữ tài khoản hoạt động đầy đủ trong khi số được hiển thị không phải số đan vào phần còn lại cuộc sống của bạn.",
+      "Cũng có góc độ khu vực. Viber thường là ứng dụng nhắn tin của một nhóm cụ thể — họ hàng ở Ukraina, đối tác ở Manila, nhóm khu phố ở Warsaw — và Viber gắn một tài khoản với một số trên một điện thoại chính. Một số thuê cho phép bạn tạo danh tính riêng cho nhóm đó, không cần SIM thứ hai và không trộn lẫn với số bạn dùng ở mọi nơi khác."
+    ]
+  },
+  "howTo": {
+    "title": "Cách kích hoạt Viber bằng số ảo",
+    "steps": [
+      {
+        "title": "Lấy số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn Viber làm dịch vụ, chọn quốc gia và chạm một lần. Một số di động thật được giữ riêng cho bạn trong suốt thời gian kích hoạt."
+      },
+      {
+        "title": "Nhập số trên màn hình kích hoạt Viber",
+        "body": "Chọn quốc gia tương ứng và nhập số đúng như được cấp. Nếu Viber đề nghị xác minh bằng cuộc gọi, hãy giữ SMS — đó là thứ đến ứng dụng SMS Code."
+      },
+      {
+        "title": "Lấy mã",
+        "body": "SMS thường đến chỉ trong vài giây, từ người gửi “Viber”, có dạng “Your Viber code: 528114”. Nhập các chữ số vào Viber và tài khoản được kích hoạt."
+      },
+      {
+        "title": "Sao lưu và ổn định",
+        "body": "Đặt tên và ảnh, rồi tạo bản sao lưu chat trong Cài đặt → Tài khoản → Sao lưu (Google Drive hoặc iCloud). Viber chỉ hỏi lại số khi kích hoạt lại — nên bản sao lưu cộng với phiên đăng nhập không gián đoạn là tất cả sự bảo đảm bạn cần."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Đừng cài lại tùy hứng",
+      "body": "Viber xác minh lại số mỗi khi ứng dụng được cài lại hoặc chuyển sang điện thoại mới. Khi bạn vẫn đăng nhập, tài khoản cứ thế hoạt động — lâu sau khi thời hạn kích hoạt kết thúc. Hãy coi việc cài lại là điều làm có chủ đích, khi đã có bản sao lưu, không phải cách sửa nhanh."
+    },
+    {
+      "title": "Điện thoại là thiết bị chính",
+      "body": "Viber trên máy tính và máy tính bảng chỉ phản chiếu tài khoản nằm trên điện thoại — chúng được liên kết với nó, không độc lập. Hãy giữ ứng dụng trên điện thoại đã cài và đăng nhập; nếu nó mất, các thiết bị liên kết cũng mất theo."
+    },
+    {
+      "title": "Giảm bớt những gì người lạ thấy",
+      "body": "Trong Cài đặt → Quyền riêng tư, bạn có thể ẩn trạng thái trực tuyến và ảnh với người ngoài danh bạ. Trong cộng đồng công khai, Viber vốn đã hiển thị biệt danh thay vì số — nhưng siết chặt các công tắc này là thói quen tốt cho mọi tài khoản."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Viber có còn hoạt động sau khi số đã thuê hết hạn không?",
+      "a": "Có. Số được kiểm tra khi kích hoạt, không phải liên tục. Giữ đăng nhập trên điện thoại và mọi thứ hoạt động bình thường; số chỉ cần lại nếu bạn cài lại hoặc đổi thiết bị — vì vậy hãy sao lưu và đừng làm thế tùy tiện."
+    },
+    {
+      "q": "Người liên hệ có thấy số là số ảo không?",
+      "a": "Họ sẽ thấy chính số đó — đó là cách Viber hoạt động, giống WhatsApp — nhưng nó trông như mọi số di động bình thường, vì nó đúng là như vậy. Và đó là ý nghĩa: số họ thấy không phải số cá nhân của bạn."
+    },
+    {
+      "q": "Tôi có thể chạy tài khoản Viber thứ hai trên cùng điện thoại không?",
+      "a": "Không ngay trong Viber — ứng dụng hỗ trợ một tài khoản mỗi điện thoại làm thiết bị chính. Trên thực tế, tài khoản thứ hai cần thiết bị thứ hai hoặc tính năng nhân bản ứng dụng mà một số điện thoại Android có. Mỗi tài khoản, dù nằm ở đâu, đều cần số riêng."
+    },
+    {
+      "q": "Vì sao mã Viber không đến?",
+      "a": "Kiểm tra điều cơ bản trước: quốc gia chọn trong Viber phải khớp với số đã thuê. Nếu đúng mà SMS vẫn không đến, hãy hủy lần kích hoạt đang chờ trong SMS Code — xu được hoàn cho số không nhận được gì — và lấy số mới. Chọn SMS thay vì gọi lại khi Viber đưa ra cả hai."
+    },
+    {
+      "q": "Kích hoạt Viber bằng số thuê có được phép không?",
+      "a": "Viber xác minh rằng bạn kiểm soát số khi kích hoạt — và bạn đúng là kiểm soát nó trong thời gian thuê. Với sử dụng cá nhân bình thường, chỉ có vậy; điều quan trọng sau đó là tuân theo quy định của chính Viber, vốn nói về hành vi, không phải số đứng tên ai."
+    }
+  ]
+}

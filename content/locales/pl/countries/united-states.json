@@ -1,0 +1,55 @@
+{
+  "name": "Stany Zjednoczone",
+  "metaTitle": "Amerykański numer wirtualny do SMS — prawdziwy +1",
+  "metaDescription": "Prawdziwy amerykański numer wirtualny (+1) i kody SMS zwykle w kilka sekund. Weryfikuj Google, Instagram, TikTok, Discord i więcej.",
+  "hero": {
+    "title": "Amerykański numer wirtualny do weryfikacji SMS",
+    "intro": [
+      "Numer +1 to najbliższa rzecz do ustawienia domyślnego, jaką ma internet: amerykańskie usługi go oczekują, formularze rejestracji go zaznaczają z góry, a procesy obsługi klienta są wokół niego zbudowane. Gdy usługa jest wybredna wobec numerów zagranicznych, amerykański zwykle po prostu działa.",
+      "SMS Code daje Ci prawdziwy amerykański numer komórkowy jednym stuknięciem. Wpisz go przy weryfikacji, a SMS – z kodem z Google, Instagrama, TikToka czy ponad 100 innych usług – pojawi się w aplikacji zwykle w ciągu kilku sekund."
+    ]
+  },
+  "whyCountry": {
+    "title": "Dlaczego amerykański numer?",
+    "body": [
+      "Platformy z siedzibą w USA traktują numer +1 jak u siebie. Niektóre funkcje i ścieżki rejestracji po prostu działają płynniej z amerykańskim numerem – wersje aplikacji tylko dla USA, usługi blokujące rejestrację według regionu albo konta, które mają być powiązane z rynkiem amerykańskim, a nie z Twoim krajem.",
+      "Format jest wszędzie znajomy: +1, potem trzycyfrowy numer kierunkowy i siedmiocyfrowy numer. Usługi rzadko go źle odczytują i nie przyciąga dodatkowej kontroli, jaką przy weryfikacji ściągają niektóre rzadkie numery kierunkowe."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Dopasuj region konta",
+      "body": "Jeśli budujesz konto o amerykańskim charakterze – amerykański profil App Store, TikToka na rynek USA – używaj numeru z USA razem z pasującym regionem sklepu i językiem aplikacji, by obraz był spójny."
+    },
+    {
+      "title": "Numery kierunkowe nie mają znaczenia",
+      "body": "Usługi weryfikują numer, a nie miasto za numerem kierunkowym. Od jakichkolwiek trzech cyfr zaczyna się Twój numer, kod weryfikacyjny dociera tak samo."
+    },
+    {
+      "title": "Jeśli kod utknie, zmień numer",
+      "body": "Duży popyt oznacza, że niektóre amerykańskie numery widziały już rejestracje, a usługa może je ograniczać. Anuluj oczekującą aktywację – monety wracają, jeśli nic nie dotarło – i weź świeży numer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy to prawdziwy amerykański numer komórkowy?",
+      "a": "Tak – numer w prawdziwej sieci operatora w standardowym formacie +1. Usługi widzą zwykły amerykański numer komórkowy, a nie internetowy odbiornik krótkich numerów."
+    },
+    {
+      "q": "Jakie usługi najlepiej działają z amerykańskim numerem?",
+      "a": "Amerykańskie numery to najbezpieczniejszy domyślny wybór dla amerykańskich platform – Google, Discord, Tinder, TikTok, Instagram – i dla każdej usługi, której rejestracja zakłada numer krajowy."
+    },
+    {
+      "q": "Czy mogę używać amerykańskiego numeru spoza Stanów Zjednoczonych?",
+      "a": "Tak. Numer żyje w aplikacji SMS Code, więc Twoja lokalizacja i karta SIM nie mają znaczenia – odbierasz kod, gdziekolwiek jesteś."
+    },
+    {
+      "q": "Czy zatrzymam numer po weryfikacji?",
+      "a": "Numer jest wynajęty na okno aktywacji – wystarczająco długo, by odebrać kod weryfikacyjny. Przy kontach, które planujesz zatrzymać, zaraz po rejestracji dodaj e-mail do odzyskiwania i 2FA przez aplikację."
+    },
+    {
+      "q": "Jak wygląda amerykański SMS weryfikacyjny?",
+      "a": "Jak każda krajowa amerykańska wiadomość: nazwa usługi lub krótki numer jako nadawca i 4–8-cyfrowy kod w treści. Pełny tekst pojawia się w aplikacji w chwili dotarcia."
+    }
+  ]
+}

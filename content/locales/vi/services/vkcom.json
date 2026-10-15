@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Số ảo cho VK — Đăng ký không cần số thật của bạn",
+  "metaDescription": "Nhận số ảo thật để xác minh VK. Mã SMS thường đến chỉ trong vài giây — tạo tài khoản VK mà không để lộ số điện thoại cá nhân của bạn.",
+  "hero": {
+    "title": "Số ảo cho VK",
+    "intro": [
+      "VK không cho cách nào vòng qua số điện thoại: việc đăng ký được xây dựng trên nó. Trước khi bạn có thể xem cộng đồng, nhắn tin cho ai hay đăng bán món đồ trên chợ, VK gửi mã SMS tới số bạn cung cấp — và số đó trở thành điểm tựa đăng nhập và khôi phục cho toàn bộ tài khoản.",
+      "Với SMS Code, bạn thuê một số thật từ một trong hơn 100 quốc gia, nhập vào biểu mẫu đăng ký VK, và mã xác nhận hiện trong ứng dụng SMS Code thường chỉ trong vài giây. Tài khoản được xác minh đầy đủ — và số cá nhân của bạn không bao giờ vào cơ sở dữ liệu của VK."
+    ]
+  },
+  "whyVirtual": {
+    "title": "Vì sao dùng số ảo cho VK?",
+    "body": [
+      "Lý do phổ biến nhất là tách biệt. Nhiều người muốn một tài khoản VK không phải danh tính chính: một cái để điều hành cộng đồng, một cái để bán hàng trên chợ VK, một cái để theo dõi các nhóm chuyên biệt mà không trộn vào hồ sơ cá nhân. VK gắn mỗi tài khoản với số riêng, nên mỗi danh tính riêng cần số riêng — và thuê một số tốt hơn giữ cả ngăn kéo SIM dự phòng.",
+      "Số bạn đưa cho VK cũng nặng ký hơn ở hầu hết các nền tảng, vì nó trở thành VK ID — một đăng nhập duy nhất vươn tới toàn bộ hệ sinh thái dịch vụ Mail.ru/VK. Đăng ký bằng số ảo nghĩa là định danh được chia sẻ rộng rãi đó là số thuê, không phải số mà ngân hàng và gia đình bạn dùng. Nếu tài khoản có lúc bị xâm nhập hay bị thu thập dữ liệu, số thật của bạn chưa bao giờ nằm trong vùng ảnh hưởng."
+    ]
+  },
+  "howTo": {
+    "title": "Cách xác minh VK bằng số ảo",
+    "steps": [
+      {
+        "title": "Thuê số trong SMS Code",
+        "body": "Mở ứng dụng SMS Code, chọn VK làm dịch vụ và chọn quốc gia — Kazakhstan và các nước lân cận là lựa chọn thường gặp. Một chạm giữ cho bạn một số di động thật."
+      },
+      {
+        "title": "Nhập số vào biểu mẫu đăng ký VK",
+        "body": "Bắt đầu đăng ký VK và nhập số đã thuê với đúng mã quốc gia. VK ngay lập tức gửi mã xác nhận qua SMS tới số đó."
+      },
+      {
+        "title": "Xác nhận bằng mã",
+        "body": "Tin nhắn hiện trong ứng dụng SMS Code thường chỉ trong vài giây — “VK: 348715 — код подтверждения”. Nhập sáu chữ số trên màn hình VK và tài khoản được tạo."
+      },
+      {
+        "title": "Thêm mật khẩu mạnh và quyền truy cập dự phòng",
+        "body": "Đặt ngay một mật khẩu mạnh, duy nhất, và gắn địa chỉ email trong cài đặt VK ID. Như vậy đăng nhập hằng ngày và khôi phục dựa vào mật khẩu và email thay vì nhận thêm SMS."
+      }
+    ]
+  },
+  "tips": [
+    {
+      "title": "Một số, một tài khoản VK",
+      "body": "VK áp dụng liên kết một-một nghiêm ngặt giữa số và tài khoản. Nếu một số từng đăng ký VK, việc đăng ký có thể chuyển thành quy trình đăng nhập hoặc khôi phục. SMS Code cấp số theo từng lần kích hoạt, nhưng nếu VK cư xử lạ, hãy hủy và lấy số mới."
+    },
+    {
+      "title": "VK ID vươn xa hơn VK",
+      "body": "Tài khoản bạn tạo đồng thời là VK ID — đăng nhập cho hệ sinh thái dịch vụ rộng hơn của VK (thư, nhạc, rao vặt và nhiều hơn nữa). Hãy đối xử đúng mức: mật khẩu mạnh và email đã gắn quan trọng hơn ở đây so với một ứng dụng đơn mục đích."
+    },
+    {
+      "title": "Siết chặt cài đặt quyền riêng tư",
+      "body": "Trong cài đặt quyền riêng tư của VK, hạn chế ai có thể tìm bạn bằng số điện thoại và ai thấy chi tiết hồ sơ. Kết hợp với số ảo, điều này giữ hoạt động cộng đồng hay bán hàng của bạn tách bạch khỏi danh tính cá nhân."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tôi có thể đăng ký VK mà không cần số điện thoại nào không?",
+      "a": "Không — VK yêu cầu xác nhận SMS khi đăng ký, không có đường chỉ dùng email. Số ảo là cách đáp ứng yêu cầu đó mà không đưa ra số cá nhân."
+    },
+    {
+      "q": "Tôi có thể vận hành tài khoản VK thứ hai cho cộng đồng hay cửa hàng không?",
+      "a": "Có, đó là cách dùng điển hình. Mỗi tài khoản VK cần số riêng, nên hãy thuê một số ảo mới cho tài khoản mới và giữ việc quản lý cộng đồng hay bán hàng tách biệt khỏi hồ sơ cá nhân."
+    },
+    {
+      "q": "Tài khoản có tồn tại sau khi số đã thuê hết hạn không?",
+      "a": "Số cần cho SMS đăng ký, không phải cho sử dụng hằng ngày. Giữ đăng nhập, đặt mật khẩu mạnh và gắn email trong cài đặt VK ID — khi đó đăng nhập thường lệ và khôi phục không phụ thuộc vào số cũ. Nếu sau này VK đòi xác nhận lại qua SMS, bạn có thể đổi số trên tài khoản sang một số thuê mới."
+    },
+    {
+      "q": "Vì sao mã xác nhận VK không đến?",
+      "a": "Thường là số đã từng đăng ký VK, hoặc mã quốc gia nhập sai. Hãy hủy lần kích hoạt trong SMS Code — bạn không trả gì cho số không nhận được SMS — và thử lại với số khác."
+    },
+    {
+      "q": "Quốc gia của số có quan trọng với VK không?",
+      "a": "VK chấp nhận số từ nhiều quốc gia; Kazakhstan, Ba Lan, Đức và Hà Lan là lựa chọn phổ biến trong SMS Code. Ngôn ngữ giao diện và cài đặt hồ sơ không phụ thuộc vào quốc gia của số — bạn tự chọn."
+    }
+  ]
+}

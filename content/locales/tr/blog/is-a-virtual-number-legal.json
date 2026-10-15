@@ -1,0 +1,136 @@
+{
+  "title": "Sanal numara kullanmak yasal mı? Kurallar ne diyor",
+  "description": "Sanal numara sıradan bir telekom hizmetidir. Gerçek sınırlar nerede: yasa, platformların kullanım koşulları, SIM kaydı kuralları ve bunları aşan şeyler.",
+  "excerpt": "Pek çok kişi sanal numara kullanmadan önce tereddüt eder; sanki ona SMS almak gri bir alanmış gibi. Çoğu zaman değildir. Yasa, bir platformun koşulları ve her numarayla yasa dışı olan şeyler arasındaki fark.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "«Bu yasal mı ki?» sorusu, sanal numarayı ilk kez kullanmadan önce en sık sorulan sorulardan biri. Tereddüt anlaşılır. Telefon numaraları dünyanın çoğu yerinde kimliğe bağlı, SIM kartlar giderek daha çok kimlik istiyor ve «sanal» kelimesi bir kestirme gibi duruyor."
+    },
+    {
+      "type": "p",
+      "text": "Kısa cevap: sanal numara kullanmak çoğu ülkede yasaldır — şirketlerin, geliştiricilerin ve gizliliğini koruyan insanların her gün kullandığı sıradan bir telekom hizmetidir. Uzun cevap daha faydalı, çünkü sık sık karıştırılan üç şeyi ayırıyor: yasanın ne dediği, bir platformun kurallarının ne dediği ve hangi numara kullanılırsa kullanılsın yasa dışı olan şeyler. Bu yazı genel bir açıklamadır; herhangi bir ülke için hukuki tavsiye değildir."
+    },
+    {
+      "type": "h2",
+      "id": "virtual-numbers-are-ordinary-telecom",
+      "text": "Sanal numara sıradan bir telekom ürünüdür"
+    },
+    {
+      "type": "p",
+      "text": "«Sanal numara» ifadesi, numaraya nasıl eriştiğinizi anlatır; numaranın ne olduğunu değil. Sanal cep numarası, gerçek bir operatör ağında gerçek bir numaradır; ona yanıt veren SIM sağlayıcıda durur ve gelen mesajları telefonunuzdaki SIM yerine bir uygulamada görürsünüz. Bu tür numaralar sürekli ve açıkça kullanılır:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Şirketler müşteri destek hatları, teslimat bildirimleri ve iki adımlı doğrulama kodları için kullanır.",
+        "Geliştiriciler ve QA ekipleri başka ülkelerdeki kayıt ve giriş akışlarını test etmek için kullanır.",
+        "Gezginler ve gurbetçiler artık yaşamadıkları bir ülkeyle bağlarını korumak için kullanır.",
+        "Bireyler kişisel numaralarını ona ihtiyacı olmayan uygulamalardan, mağazalardan ve sitelerden uzak tutmak için kullanır."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Çevrimiçi hizmetlere mutlaka kendi telefonunuzdaki SIM ile kaydolmanızı şart koşan genel bir yasal yükümlülük bulunan bir ülke bilmiyoruz."
+    },
+    {
+      "type": "h2",
+      "id": "privacy-is-a-legitimate-reason",
+      "text": "Gizlilik meşru bir gerekçedir ve yasa da buna katılıyor"
+    },
+    {
+      "type": "p",
+      "text": "Gerçek numaranızı gizli tutmak istemek şüpheli bir şey değildir; veri koruma hukukunun açıkça teşvik ettiği sağlıklı bir uygulamadır. Örneğin AB'nin GDPR'ı veri minimizasyonu ilkesine dayanır: şirketler yalnızca gerçekten ihtiyaç duydukları kişisel verileri toplamalıdır. Bir foruma ya da mağazaya verilen numara, hesaplarınızı birbirine bağlayabilen, bir veri sızıntısına düşebilen ya da pazarlamacılara satılabilen kalıcı bir tanımlayıcıya dönüşür. Onu kendinize saklamak, aynı ilkenin tüketici tarafındaki karşılığıdır."
+    },
+    {
+      "type": "h2",
+      "id": "law-versus-terms-of-service",
+      "text": "Yasa ile platformun kullanım koşulları aynı şey değil"
+    },
+    {
+      "type": "p",
+      "text": "Karışıklığın çoğu burada. Her platform kendi kurallarını yazar — kaç hesap tutabileceğiniz, hangi numaraları kabul ettiği, otomasyona izin verip vermediği. Bu kurallar sizinle platform arasındaki bir sözleşmedir; ceza hukuku değildir."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bir platformun koşullarını ihlal etmenin sonuçları genellikle platform içindedir: askıya alınan bir hesap, reddedilen bir numara, kısıtlanan bir özellik.",
+        "Bazı hizmetler VoIP ya da sanal numaraları açıkça reddeder ve bunu teknik olarak uygular. Bu onların hakkıdır ve o numarayı başka bir yerde kullanmayı yasa dışı yapmaz.",
+        "SMS Code'un kendi koşulları bunu açıkça söyler: kaydolduğunuz platformların koşullarına uymaktan siz sorumlusunuz. Önemsediğiniz her hesap için onları okuyun."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "İşe yarar bir test: hesabı kendi SIM'inizle açmak sorun olmayacaksa, gizlilik için kiralık numarayla açmak aynı eylemdir, yalnızca daha az kişisel veri açığa çıkar. Hesap kendi SIM'inizle de sorun olacaksa, başka bir numara bunu düzeltmez."
+    },
+    {
+      "type": "h2",
+      "id": "sim-registration-laws",
+      "text": "Peki SIM kayıt yasaları?"
+    },
+    {
+      "type": "p",
+      "text": "Mobil sektör birliği GSMA'ya göre 150'den fazla ülke, ön ödemeli SIM kartların kimliği belli bir kişi adına kaydedilmesini şart koşuyor. Bu yasalar operatörlerin SIM'leri nasıl sattığı ve etkinleştirdiğiyle ilgilidir: operatörün her hattın sahibini bilmesini zorunlu kılar. Genel olarak bir web sitesinin kayıt formuna hangi numarayı yazdığınızı düzenlemez."
+    },
+    {
+      "type": "p",
+      "text": "Bilmeye değer istisnalar var. Bazı ülkelerde belirli hizmet kategorileri — bankacılık, ödemeler, e-devlet, bazen yerel mesajlaşma hizmetleri — sizi adınıza kayıtlı bir numarayla doğrulamakla yasal olarak yükümlüdür. Orada başka bir numara kullanmak yalnızca kurallara aykırı değildir; çalışmaz ve yerel düzenlemeleri ihlal edebilir. Telekom kuralları sıkı bir ülkede yaşıyorsanız, yabancı ya da sanal bir numaraya güvenmeden önce bunları kontrol edin."
+    },
+    {
+      "type": "h2",
+      "id": "what-is-illegal-with-any-number",
+      "text": "Her numarayla yasa dışı olanlar"
+    },
+    {
+      "type": "p",
+      "text": "Numara bir araçtır. Yaptığınız şeyin yasallığı eylemin kendisine bağlıdır; aşağıdakiler sanal numara, kullan-at SIM ya da kendi numaranızı kullanmanızdan bağımsız olarak yasa dışı ya da ciddi biçimde yanlıştır:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Dolandırıcılık: sahtekârlık, sahte ilanlar, ters ibraz istismarı ya da yalan beyanla para elde etmeye yönelik her türlü düzen.",
+        "Kimliğe bürünme ve kimlik hırsızlığı: gerçek bir kişi ya da kurum gibi davranmak.",
+        "Taciz, tehdit ve takip; sizi engellemiş birine ulaşmaya çalışmak dahil.",
+        "Yasal kimlik kontrollerinden kaçmak: bankaların, borsaların ya da ödeme hizmetlerinin «müşterini tanı» kurallarını aşmak için başka bir numara kullanmak.",
+        "Manipülasyon, sahte yorum ya da kötüye kullanım için spam ve toplu hesap açma."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bu eylemlerin hiçbiri numara sizin olduğu için yasal hâle gelmez; hiçbiri de yalnızca numara sanal olduğu için yasa dışı olmaz. SMS Code'un koşulları hepsini yasaklar ve bu şekilde kullanılan hesaplar kapatılır."
+    },
+    {
+      "type": "h2",
+      "id": "faq",
+      "text": "Sık sorulan sorular"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Sanal numaraya SMS almak yasal mı?",
+          "a": "Çoğu ülkede evet. Numara kiralayıp ona mesaj almak sıradan bir telekom hizmetidir. Hukuken önemli olan, oluşturduğunuz hesaplarla ne yaptığınızdır."
+        },
+        {
+          "q": "WhatsApp ya da Telegram için sanal numara kullanmak yasal mı?",
+          "a": "Bir mesajlaşma uygulaması için farklı bir numara kullanmak çoğu yerde suç değildir. Yine de her uygulamanın kendi koşulları vardır ve bunları ihlal eden hesapları kısıtlayabilir ya da askıya alabilir — önemsediğiniz hesaplar için okuyun."
+        },
+        {
+          "q": "Bankam için sanal numara kullanabilir miyim?",
+          "a": "Kullanmamalısınız. Bankalar ve ödeme hizmetleri çoğu zaman hesabınızı adınıza kayıtlı bir numaraya bağlamakla yasal olarak yükümlüdür ve onu düzenli olarak yeniden doğrular."
+        },
+        {
+          "q": "Sanal numara anonim mi?",
+          "a": "Kişisel numaranızı kaydolduğunuz hizmetten uzak tutar. Yasa dışı faaliyeti izlenemez hâle getirmez ve yaptıklarınıza uygulanan yasayı değiştirmez."
+        },
+        {
+          "q": "Sanal numara kullanmak kaydolduğum uygulamanın koşullarını ihlal eder mi?",
+          "a": "Uygulamaya bağlı. Pek çoğu, kodu aldığınız sürece hangi numarayı kullandığınızla ilgilenmez; bazıları sanal ya da VoIP numaraları reddeder. Hesabınızı tutmayı planladığınız her hizmetin koşullarını kontrol edin."
+        }
+      ]
+    },
+    {
+      "type": "cta"
+    }
+  ]
+}

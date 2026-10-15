@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Polityka cookies",
+    "description": "Jakich plików cookie używa simnetiq.xyz, po co, jak długo działają i jak w każdej chwili, z każdej strony zaakceptować, odrzucić lub zmienić swój wybór."
+  },
+  "prevailingNotice": "To tłumaczenie ma charakter wyłącznie pomocniczy. W razie rozbieżności rozstrzygająca jest wersja angielska.",
+  "label": "Informacje prawne",
+  "title": "Polityka cookies",
+  "updatedLabel": "Ostatnia aktualizacja:",
+  "sections": [
+    {
+      "title": "1. Czego dotyczy ta polityka",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ta polityka wyjaśnia, jak SIMNETIQ LTD („my”, „nas”) używa plików cookie i podobnych technologii w serwisie simnetiq.xyz („Serwis”). Uzupełnia naszą Politykę prywatności, która szerzej opisuje, jak przetwarzamy dane osobowe. Pytania: {supportEmail}."
+        }
+      ]
+    },
+    {
+      "title": "2. Czym są pliki cookie",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pliki cookie to małe pliki tekstowe, które strona zapisuje w Twojej przeglądarce. „Podobne technologie” to wszystko inne, co zapisuje lub odczytuje informacje na Twoim urządzeniu, np. pamięć lokalna lub skrypt mierzący wizytę. Prawo traktuje je tak samo: wszystko, co nie jest niezbędne, wymaga najpierw Twojej zgody."
+        }
+      ]
+    },
+    {
+      "title": "3. Czego używamy",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Niezbędne — sc_consent.** Własne cookie, które ustawiamy, gdy dokonasz wyboru w banerze cookies. Zapisuje ten wybór i datę jego dokonania, żebyśmy nie pytali ponownie na każdej stronie. Wygasa po 12 miesiącach, a potem pytamy znowu. Nie wymaga zgody: bez niego nie moglibyśmy uszanować Twojego wyboru.",
+            "**Analityka — Vercel Web Analytics.** Dostarczana przez Vercel Inc. Liczy odsłony stron i kliknięcia przycisków pobierania. Nie zapisuje żadnych cookies na Twoim urządzeniu; wizyta jest rozpoznawana przez maksymalnie 24 godziny za pomocą skrótu (hash) żądania, który nie pozwala Cię zidentyfikować. Ładowana tylko wtedy, gdy zaakceptujesz analitykę.",
+            "**Analityka — Google Analytics: _ga i _ga_<ID>.** Dostarczana przez Google Ireland Limited i Google LLC. Własne cookies, które odróżniają powracające przeglądarki i łączą wizytę w całość, żebyśmy widzieli, które strony są przydatne. Każde działa do 2 lat. Ustawiane tylko wtedy, gdy zaakceptujesz analitykę, z wyłączonymi funkcjami reklamowymi.",
+            "**Marketing — Meta Pixel: _fbp.** Dostarczany przez Meta Platforms Ireland Limited. Skrypt i własne cookie, które informują Meta, gdy ktoś, kto zobaczył lub kliknął jedną z naszych reklam na Facebooku lub Instagramie, odwiedza Serwis, żebyśmy mogli mierzyć skuteczność reklam. Cookie działa do 90 dni. Meta otrzymuje adres strony, informacje o przeglądarce i Twój adres IP i może też wykorzystywać te dane do własnych celów zgodnie ze swoją polityką prywatności. Ustawiane tylko wtedy, gdy zaakceptujesz marketing."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Czego nie używamy",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Żadnych reklamowych cookies poza opisanym wyżej Meta Pixel, który działa tylko po akceptacji marketingu. Żadnych innych trackerów mediów społecznościowych i żadnego profilowania z naszej strony na innych witrynach. Nie sprzedajemy danych z cookies."
+        }
+      ]
+    },
+    {
+      "title": "5. Twój wybór",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Przy pierwszej wizycie baner oferuje **Akceptuj** i **Odrzuć**, obok siebie i równie łatwo dostępne. Dopóki nie wybierzesz, żadna analityka nie działa.",
+            "**Dostosuj** pozwala włączyć lub wyłączyć każdą kategorię osobno. Niezbędne cookies są zawsze włączone.",
+            "Możesz w każdej chwili zmienić lub wycofać swój wybór za pomocą **Ustawień cookies** na dole każdej strony lub przycisku poniżej. Wycofanie zgody od razu zatrzymuje analitykę i usuwa cookies Google Analytics z Twojej przeglądarki.",
+            "Marketing działa tak samo: Meta Pixel pozostaje wyłączony, dopóki go nie zaakceptujesz, a wycofanie zgody od razu go zatrzymuje i usuwa jego cookie _fbp z Twojej przeglądarki.",
+            "Możesz też blokować lub usuwać cookies w ustawieniach przeglądarki. Jeśli zablokujesz sc_consent, baner zapyta ponownie przy każdej wizycie."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Dokąd trafiają dane",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vercel i Google mogą przetwarzać dane analityczne w Stanach Zjednoczonych. Te przekazania opierają się na EU–US Data Privacy Framework i jego rozszerzeniu dla Wielkiej Brytanii lub na standardowych klauzulach umownych. Więcej o przekazywaniu danych za granicę znajdziesz w sekcji 6 naszej Polityki prywatności."
+        },
+        {
+          "type": "p",
+          "text": "Meta może przetwarzać dane marketingowe w Stanach Zjednoczonych na tych samych podstawach przekazania."
+        }
+      ]
+    },
+    {
+      "title": "7. Aplikacja",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aplikacja SMS Code nie używa cookies i nie zawiera żadnego SDK analitycznego, reklamowego ani atrybucyjnego. Ta polityka dotyczy wyłącznie Serwisu."
+        }
+      ]
+    },
+    {
+      "title": "8. Zmiany tej polityki",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jeśli dodamy cookie lub zmienimy jego przeznaczenie, zaktualizujemy tę politykę i ponownie poprosimy o Twoją zgodę. Data „Ostatnia aktualizacja” powyżej zawsze odpowiada aktualnej wersji."
+        }
+      ]
+    }
+  ]
+}

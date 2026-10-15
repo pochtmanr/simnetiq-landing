@@ -1,0 +1,55 @@
+{
+  "name": "Wietnam",
+  "metaTitle": "Wietnamski numer wirtualny do SMS — prawdziwy +84",
+  "metaDescription": "Prawdziwy wietnamski numer wirtualny (+84) i kody SMS zwykle w kilka sekund. Weryfikuj Zalo, Telegram, WhatsApp, Shopee i Facebook.",
+  "hero": {
+    "title": "Wietnamski numer wirtualny do weryfikacji SMS",
+    "intro": [
+      "Wietnam działa mobilnie: Zalo do wiadomości, Shopee do zakupów, Facebook do całej reszty – i każde z nich chce numeru telefonu przy drzwiach. Komórka +84 to natywny klucz do tego ekosystemu i jedyny sposób, by zweryfikować Zalo tak, jak zrobiłby to miejscowy.",
+      "SMS Code wynajmuje Ci prawdziwy wietnamski numer komórkowy jednym stuknięciem. Wpisz go przy weryfikacji, a SMS z kodem pojawi się w aplikacji zwykle w ciągu kilku sekund – odbierz, skopiuj, gotowe."
+    ]
+  },
+  "whyCountry": {
+    "title": "Dlaczego wietnamski numer?",
+    "body": [
+      "Oczywisty powód to Zalo: wietnamski komunikator mocno preferuje lokalne numery, a komórka +84 przechodzi tam, gdzie zagraniczne numery kierunkowe się potykają. Ale numer zarabia na siebie także poza tym – Shopee, Facebook, Telegram i WhatsApp codziennie widzą miliony wietnamskich komórek, a kwitnący e-commerce kraju czyni taki numer naturalnym wyborem dla kont na marketplace’ach.",
+      "Wietnamskie komórki mają w zapisie krajowym dziesięć cyfr i zawsze zaczynają się od 0 – prefiksy jak 09x, 08x, 07x, 05x i 03x oznaczają operatora. Międzynarodowo to wiodące zero odpada: +84, a potem pozostałe dziewięć cyfr. To mała konwersja, ale właśnie na niej potykają się formularze za pierwszym razem."
+    ]
+  },
+  "tips": [
+    {
+      "title": "Zero zostaje w domu",
+      "body": "Wietnamski numer zapisany lokalnie – na przykład 09X XXX XX XX – za granicą traci wiodące zero: +84 9X XXX XX XX. Jeśli w formularzu wybrane jest +84, a wkleisz też krajowe zero, numer będzie za długi i zostanie odrzucony. Dziewięć cyfr po +84 – to zasada."
+    },
+    {
+      "title": "Zalo chce lokalnego numeru",
+      "body": "Zalo to jedyny duży komunikator, który naprawdę woli swój teren: wietnamski numer to niezawodna droga do środka. Weź numer, od razu poproś o kod i trzymaj aplikację Zalo otwartą – jego kody zwykle przychodzą szybko."
+    },
+    {
+      "title": "Pilnuj okna aktywacji",
+      "body": "Wynajem obejmuje ograniczone okno na dotarcie SMS-a. Poproś o kod w chwili, gdy bierzesz numer, zamiast najpierw kończyć resztę formularza – a jeśli nic nie przyjdzie, aktywacja anuluje się za darmo, a świeży numer jest o jedno stuknięcie."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy to prawdziwy wietnamski numer komórkowy?",
+      "a": "Tak – prawdziwy numer w sieci operatora w standardowym wietnamskim formacie komórkowym. Usługi widzą zwykły wietnamski telefon, nie do odróżnienia od takiego z lokalną kartą SIM."
+    },
+    {
+      "q": "Do czego najczęściej używa się wietnamskich numerów?",
+      "a": "Najpierw do Zalo – to domyślny komunikator Wietnamu i mocno preferuje lokalne numery. Konta Shopee i Facebook to pozostałe podstawy, tuż za nimi Telegram i WhatsApp."
+    },
+    {
+      "q": "Czy muszę być w Wietnamie, żeby odebrać SMS?",
+      "a": "Nie. Numer i jego wiadomości żyją w aplikacji SMS Code, więc Twoja lokalizacja i karta SIM nigdy nie wchodzą w grę – kod dotrze do Ciebie, gdziekolwiek jesteś."
+    },
+    {
+      "q": "Co, jeśli kod weryfikacyjny nigdy nie przyjdzie?",
+      "a": "Wtedy aktywacja nic Cię nie kosztuje. Anuluj ją w aplikacji, weź świeży wietnamski numer i poproś o kod ponownie – płacisz tylko za aktywacje, które dostarczą SMS."
+    },
+    {
+      "q": "Czy mogę zweryfikować kilka usług jednym wietnamskim numerem?",
+      "a": "Każda aktywacja jest na czas swojego okna powiązana z jedną usługą. Aby zweryfikować kilka usług, uruchom osobne aktywacje – każda jest płatna osobno z Twojego salda monet."
+    }
+  ]
+}
