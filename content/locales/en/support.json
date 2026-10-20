@@ -163,6 +163,7 @@
     "saveFailed": "We couldn't save your message. Please try again or email us.",
     "forbidden": "This request didn't come from the support page. Please reload and try again.",
     "challenge": "Please complete the verification check and try again.",
+    "rateLimited": "You've sent several requests in a short time. Please wait an hour and try again, or email us.",
     "replySubject": "SMS Code support"
   }
 }

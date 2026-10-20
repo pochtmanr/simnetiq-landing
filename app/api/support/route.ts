@@ -43,6 +43,35 @@ function originOk(request: NextRequest): boolean {
 }
 
 /* ---------------------------------------------------------------------------
+ * The SMS Code app
+ *
+ * The app's native support screen posts here too, so validation, the message
+ * footer and the n8n e-mail stay in one place. It has no browser Origin and
+ * cannot render Turnstile; instead it sends its Supabase session token, which
+ * every install has (anonymous or linked). A token Supabase accepts stands in
+ * for both checks and turns the account id from a claim into a fact.
+ * ------------------------------------------------------------------------- */
+async function appUserId(request: NextRequest): Promise<string | null> {
+  const auth = request.headers.get("authorization");
+  if (!auth?.startsWith("Bearer ")) return null;
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!supabaseUrl || !anonKey) return null;
+  try {
+    const res = await fetch(`${supabaseUrl}/auth/v1/user`, {
+      headers: { apikey: anonKey, Authorization: auth },
+      signal: AbortSignal.timeout(10_000),
+    });
+    if (!res.ok) return null;
+    const user = (await res.json()) as { id?: string };
+    return typeof user.id === "string" ? user.id : null;
+  } catch (err) {
+    console.error("Support form: app token check failed:", err);
+    return null;
+  }
+}
+
+/* ---------------------------------------------------------------------------
  * Client IP, stored only as a salted one-way hash.
  *
  * A raw IP is personal data we have no use for; a salted hash still answers
@@ -106,7 +135,8 @@ export async function POST(request: NextRequest) {
   const locale: Locale =
     typeof rawLocale === "string" && isLocale(rawLocale) ? rawLocale : DEFAULT_LOCALE;
 
-  if (!originOk(request)) {
+  const appUser = await appUserId(request);
+  if (!appUser && !originOk(request)) {
     return NextResponse.json({ error: messages(locale).forbidden }, { status: 403 });
   }
 
@@ -124,17 +154,21 @@ export async function POST(request: NextRequest) {
     request.headers.get("x-real-ip") ??
     request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
     null;
-  if (!(await turnstileOk((body as Record<string, unknown>)?.turnstileToken, rawIp))) {
+  if (appUser) {
+    result.context.accountId = appUser;
+  } else if (!(await turnstileOk((body as Record<string, unknown>)?.turnstileToken, rawIp))) {
     return NextResponse.json({ error: messages(locale).challenge }, { status: 400 });
   }
 
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  // Anon key, not the service role. See
-  // supabase/migrations/20260822000000_submit_support_request.sql — the insert
-  // goes through a security-definer RPC that is the only thing this key can do
-  // to support_requests.
-  const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  if (!supabaseUrl || !anonKey) {
+  // The insert goes through the security-definer RPC either way. The service
+  // role key is what lets 20261020000001_support_request_rpc_server_only.sql
+  // revoke the RPC from anon: with it granted to the public anon key, anyone
+  // could call it directly and skip every check in this route. The anon
+  // fallback only keeps the form working until the key is set in Vercel.
+  const rpcKey =
+    process.env.SUPABASE_SERVICE_ROLE_KEY ?? process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!supabaseUrl || !rpcKey) {
     console.error("Support form: Supabase env vars are not configured.");
     return NextResponse.json(
       { error: messages(locale).unavailable },
@@ -159,8 +193,8 @@ export async function POST(request: NextRequest) {
     fetch(`${supabaseUrl}/rest/v1/rpc/submit_support_request`, {
       method: "POST",
       headers: {
-        apikey: anonKey,
-        Authorization: `Bearer ${anonKey}`,
+        apikey: rpcKey,
+        Authorization: `Bearer ${rpcKey}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify(payload),
@@ -175,10 +209,13 @@ export async function POST(request: NextRequest) {
   }
 
   if (!rpcRes.ok) {
-    console.error(
-      `Support form: submit_support_request failed (${rpcRes.status}):`,
-      await rpcRes.text().catch(() => ""),
-    );
+    const text = await rpcRes.text().catch(() => "");
+    // The SQL flood gates (per IP, e-mail, account and a global cap) raise
+    // rate_limited; that is the visitor's answer, not a server fault.
+    if (text.includes("rate_limited")) {
+      return NextResponse.json({ error: messages(locale).rateLimited }, { status: 429 });
+    }
+    console.error(`Support form: submit_support_request failed (${rpcRes.status}):`, text);
     return NextResponse.json(
       { error: messages(locale).saveFailed },
       { status: 502 },

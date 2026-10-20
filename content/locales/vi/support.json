@@ -163,6 +163,7 @@
     "saveFailed": "Chúng tôi không thể lưu tin nhắn của bạn. Vui lòng thử lại hoặc gửi email cho chúng tôi.",
     "forbidden": "Yêu cầu này không đến từ trang hỗ trợ. Vui lòng tải lại trang và thử lại.",
     "challenge": "Vui lòng hoàn tất bước kiểm tra xác minh và thử lại.",
+    "rateLimited": "Bạn đã gửi nhiều yêu cầu trong thời gian ngắn. Vui lòng đợi một giờ rồi thử lại, hoặc gửi email cho chúng tôi.",
     "replySubject": "Hỗ trợ SMS Code"
   }
 }

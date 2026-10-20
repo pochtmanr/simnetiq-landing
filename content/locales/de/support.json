@@ -163,6 +163,7 @@
     "saveFailed": "Wir konnten deine Nachricht nicht speichern. Bitte versuche es erneut oder schreib uns eine E-Mail.",
     "forbidden": "Diese Anfrage kam nicht von der Support-Seite. Bitte lade die Seite neu und versuche es erneut.",
     "challenge": "Bitte schließe die Sicherheitsprüfung ab und versuche es erneut.",
+    "rateLimited": "Du hast in kurzer Zeit mehrere Anfragen gesendet. Bitte warte eine Stunde und versuche es erneut oder schreib uns eine E-Mail.",
     "replySubject": "SMS Code Support"
   }
 }

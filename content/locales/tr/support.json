@@ -163,6 +163,7 @@
     "saveFailed": "Mesajınızı kaydedemedik. Lütfen tekrar deneyin veya bize e-posta yazın.",
     "forbidden": "Bu istek destek sayfasından gelmedi. Lütfen sayfayı yenileyip tekrar deneyin.",
     "challenge": "Lütfen doğrulama kontrolünü tamamlayıp tekrar deneyin.",
+    "rateLimited": "Kısa sürede birkaç talep gönderdiniz. Lütfen bir saat bekleyip tekrar deneyin veya bize e-posta gönderin.",
     "replySubject": "SMS Code destek"
   }
 }

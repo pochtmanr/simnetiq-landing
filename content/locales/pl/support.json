@@ -163,6 +163,7 @@
     "saveFailed": "Nie udało się zapisać wiadomości. Spróbuj ponownie lub napisz do nas e-mail.",
     "forbidden": "To żądanie nie pochodzi ze strony pomocy. Odśwież stronę i spróbuj ponownie.",
     "challenge": "Dokończ weryfikację zabezpieczeń i spróbuj ponownie.",
+    "rateLimited": "Wysłano kilka zgłoszeń w krótkim czasie. Odczekaj godzinę i spróbuj ponownie lub napisz do nas e-mail.",
     "replySubject": "Pomoc SMS Code"
   }
 }

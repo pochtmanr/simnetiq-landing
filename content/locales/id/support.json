@@ -163,6 +163,7 @@
     "saveFailed": "Kami tidak dapat menyimpan pesan Anda. Silakan coba lagi atau kirim email kepada kami.",
     "forbidden": "Permintaan ini tidak berasal dari halaman dukungan. Muat ulang dan coba lagi.",
     "challenge": "Selesaikan pemeriksaan verifikasi lalu coba lagi.",
+    "rateLimited": "Anda telah mengirim beberapa permintaan dalam waktu singkat. Tunggu satu jam lalu coba lagi, atau kirimi kami email.",
     "replySubject": "Dukungan SMS Code"
   }
 }

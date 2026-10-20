@@ -163,6 +163,7 @@
     "saveFailed": "Nous n’avons pas pu enregistrer votre message. Réessayez ou écrivez-nous par e-mail.",
     "forbidden": "Cette demande ne provient pas de la page d’assistance. Rechargez la page et réessayez.",
     "challenge": "Veuillez terminer la vérification et réessayer.",
+    "rateLimited": "Vous avez envoyé plusieurs demandes en peu de temps. Veuillez patienter une heure et réessayer, ou écrivez-nous par e-mail.",
     "replySubject": "Assistance SMS Code"
   }
 }
